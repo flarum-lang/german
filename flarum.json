@@ -2,11 +2,10 @@
     "name": "german",
     "title": "German",
     "keywords": [],
-    "version": "0.1.0-dev-build.15",
+    "version": "0.1.0-dev-build.1",
     "author": {
         "name": "Marcel Ehrlich",
         "email": "marcelehrlich@hotmail.com",
-        "homepage": "none"
     },
     "license": "MIT",
     "require": {
