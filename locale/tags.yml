@@ -1,0 +1,20 @@
+tags:
+  tags: Kategorien
+  discussion_tagged_post:
+    one: "{username} {action} Kategorie."
+    other: "{username} {action} Kategorien."
+  added_tags: "hat {tags} hinzugefügt"
+  removed_tags: "Hat {tags} entfernt"
+  tag_new_discussion_title: Wähle eine Kategorie für diese Diskussion
+  tag_new_discussion_link: Wähle eine Kategorie
+  edit_discussion_tags_title: "Ändere Kategorien für {title}"
+  edit_discussion_tags_link: Ändere Kategorien
+  choose_primary_tags:
+    one: Wähle {count} primäre Kategorien
+    other: "Wähle {count} primäre Kategorien"
+  choose_secondary_tags:
+    one: Wähle {count} sekundäre Kategorien
+    other: "Wähle {count} sekundäre Kategorien"
+  confirm: Bestätigen
+  more: Mehr...
+  deleted: Gelöscht

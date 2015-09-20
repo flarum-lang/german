@@ -1,0 +1,8 @@
+lock:
+  discussion_locked_notification: "{username} hat geschlossen"
+  discussion_locked_post: "{username} hat die Diskussion geschlossen."
+  discussion_unlocked_post: "{username} hat die Diskussion geöffnet."
+  notify_discussion_locked: Jemand hat eine Diskussion von mir geschlossen
+  locked: Geschlossen
+  lock: Schließen
+  unlock: Öffnen

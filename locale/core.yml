@@ -1,0 +1,108 @@
+core:
+  account: Benutzeraccount
+  administration: Administration
+  alert: Alarm
+  all_discussions: Alle Diskussionen
+  before_log_in_link: Du hast bereits einen Account ?
+  before_sign_up_link: Du hast noch keinen Account ?
+  bio_placeholder: Schreibe etwas über dich...
+  cannot_reply: Kann nicht antworten
+  cannot_reply_help: Du hast nicht die nötigen Rechte um hier zu antworten.
+  change_email: E-mail ändern
+  change_password: Passwort ändern
+  change_password_help: Benutze den folgenden Link und schaue in deiner E-mail nach einem Link um dein Passwort zu ändern.
+  close: Schließen
+  confirm_delete_discussion: Willst du diese Diskussion wirklich schließen ?
+  confirm_discard_discussion: Du hast diese Diskussion noch nicht gepostet. Wirklich verwerfen ?
+  confirm_discard_edit: Änderungen wurden noch nicht übernommen. Wirklich schließen ?
+  confirm_discard_reply: Antwort wurde noch nicht gepostet. Wirklich vewerfen ?
+  confirmation_email_sent: "Wir haben eine E-mail nach {email} geschickt. Bitte schaue in deinem Spam Ordner nach falls nichts ankommen sollte."
+  controls: Einstellungen
+  delete: Löschen
+  delete_forever: Für immer löschen
+  deleted: "[gelöscht]"
+  disclose_online: Anderen erlauben zu sehen wenn ich online bin
+  discussion_renamed_post: "{username} änderte den Titel von {old} zu {new}."
+  discussion_renamed_notification: "{username} hat den Titel geändert"
+  discussion_replied: "Letzte Antwort {ago} von {username}"
+  discussion_started: "Gestartet {ago} von {username}"
+  discussion_title: Titel der Diskussion
+  discussions: Diskussionen
+  edit: Ändern
+  editing_post: "Beitrag #{number} in {discussion}"
+  email: E-mail
+  email_confirmation_required: "Du musst deine E-mail bestätigen bevor du dich einloggen kannst. Bitte schau in deinem Spam Ordner nach falls nichts ankommen sollte."
+  exit_full_screen: Vollbild beenden
+  forgot_password: Passwort vergessen
+  forgot_password_help: Bitte gib deine E-mail ein damit wir dir ein neues Passwort senden können.
+  forgot_password_link: Passwort vergessen ?
+  full_screen: Vollbild
+  go_to: "Gehe zu {location}"
+  group_admin: Administrator
+  group_admins: Administratoren
+  group_guest: Gast
+  group_guests: Gäste
+  group_member: Mitglied
+  group_members: Mitglieder
+  group_mod: Moderator
+  group_mods: Moderatoren
+  invalid_login: Login inkorrekt.
+  joined: "Registriert am {ago}"
+  load_more: Mehr laden
+  log_in: Einloggen
+  log_in_to_reply: Einloggen um zu antworten
+  log_out: Ausloggen
+  mark_all_as_read: Alles als gelesen markieren
+  mark_as_read: Als gelesen markieren
+  minimize: Minimieren
+  no_notifications: Keine Nachrichten
+  notifications: Nachrichten
+  notify_discussion_renamed: Jemand hat den Namen einer meiner Diskussionen geändert
+  now: Jetzt
+  online: Online
+  original_post: Originale Nachricht
+  password: Passwort
+  password_reset_email_sent: Wir haben dir eine E-mail geschickt mit der du dein Passwort zurücksetzen kannst. Bitte schaue in deinem Spam Ordner nach falls nichts ankommen sollte.
+  period_later: "{period} später"
+  post_discussion: Diskussion posten
+  post_edited: " {ago} von {username} geändert"
+  post_number: "Nachricht #{number}"
+  post_reply: Antwort posten
+  posts: Nachrichten
+  powered_by_flarum: Betrieben mit Flarum
+  privacy: Privatsphäre
+  profile: Profil
+  prompt_rename_discussion: Gib einen neuen Titel für die Diskussion ein :
+  recover_password: Passwort zurücksetzen
+  refresh: Aktualisieren
+  remove: Entfernen
+  rename: Namen ändern
+  reply: Antworten
+  reply_posted: Antwort gepostet.
+  restore: Widerherstellen
+  save_changes: Änderungen speichern
+  search_all_discussions: 'Durchsuche alle Diskussionen nach "{query}"'
+  search_forum: Forum durchsuchen
+  send_password_reset_email: Sende E-mail zum Passwort zurücksetzen
+  settings: Einstellungen
+  sign_up: Registrieren
+  sort_latest: Letzte
+  sort_newest: Neuste
+  sort_oldest: Älteste
+  sort_relevance: Relevanz
+  sort_top: Top
+  start_a_discussion: Diskussion starten
+  unread_posts:
+    one: "{count} ungelesen"
+    other: "{count} ungelesen"
+  upload: Hochladen
+  username: Benutzername
+  username_or_email: Benutzername oder Email
+  users: Benutzer
+  view: Ansicht
+  viewing_posts:
+    one: "{index} von {count} Beitrag"
+    other: "{index} von {count} Beiträgen"
+  welcome_user: "Willkommen {username} !"
+  write_a_post: Nachricht schreiben...
+  write_a_reply: Antwort schreiben...
