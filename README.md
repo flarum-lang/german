@@ -8,7 +8,7 @@ Extension to localize the Flarum forum software and its official extensions into
 	- [Version](https://github.com/Yggdrasil-Dono/flarum#version)
 	- [Compatibility](https://github.com/maelsoucaze/flarum#compatibility)
 	- [License](https://github.com/Yggdrasil-Dono/flarum#license)
-- [Downloads]https://github.com/Yggdrasil-Dono/flarum#downloads)
+- [Downloads](https://github.com/Yggdrasil-Dono/flarum#downloads)
 	- [Latest German Extension Release](https://github.com/Yggdrasil-Dono/flarum#latest-german-extension-release)
 	- [Latest German Extension Development Version](https://github.com/Yggdrasil-Dono/flarum#latest-german-development-version)
 - [Documentation](https://github.com/Yggdrasil-Dono/flarum#documentation)
