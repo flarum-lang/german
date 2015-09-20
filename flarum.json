@@ -1,7 +1,6 @@
 {
-    "name": "German",
+    "name": "german",
     "title": "German",
-    "description": "Localize Flarum and its extensions into German.",
     "keywords": [],
     "version": "0.1.0-dev-build.15",
     "author": {
@@ -14,8 +13,8 @@
         "flarum": ">=0.1.0-beta.2"
     },
     "support": {
-        "source": "https://github.com/maelsoucaze/flarum",
-        "issues": "https://github.com/maelsoucaze/flarum/issues"
+        "source": "https://github.com/Yggdrasil-dono/Flarum-de",
+        "issues": "https://github.com/Yggdrasil-dono/Flarum-de/issues"
     },
     "icon": {
         "name": "globe",
