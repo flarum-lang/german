@@ -1,20 +1,20 @@
 # German Extension for [Flarum](http://flarum.org/)
 
-[![Join the chat at https://gitter.im/maelsoucaze/flarum](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/maelsoucaze/flarum?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/flarum/flarum]
 
-Extension to localize the Flarum forum software and its official extensions into German.
+Extension to localize the Flarum forum software and its official extensions into german.
 
-- [Informations](https://github.com/maelsoucaze/flarum#informations)
-	- [Version](https://github.com/maelsoucaze/flarum#version)
+- [Informations](https://github.com/Yggdrasil-Dono/flarum#informations)
+	- [Version](https://github.com/Yggdrasil-Dono/flarum#version)
 	- [Compatibility](https://github.com/maelsoucaze/flarum#compatibility)
-	- [License](https://github.com/maelsoucaze/flarum#license)
-- [Downloads](https://github.com/maelsoucaze/flarum#downloads)
-	- [Latest French Extension Release](https://github.com/maelsoucaze/flarum#latest-french-extension-release)
-	- [Latest French Extension Development Version](https://github.com/maelsoucaze/flarum#latest-french-extension-development-version)
-- [Documentation](https://github.com/maelsoucaze/flarum#documentation)
-	- [How to install?](https://github.com/maelsoucaze/flarum#how-to-install)
-	- [How to update?](https://github.com/maelsoucaze/flarum#how-to-update)
-- [Contributing](https://github.com/maelsoucaze/flarum#contributing)
+	- [License](https://github.com/Yggdrasil-Dono/flarum#license)
+- [Downloads]https://github.com/Yggdrasil-Dono/flarum#downloads)
+	- [Latest German Extension Release](https://github.com/Yggdrasil-Dono/flarum#latest-german-extension-release)
+	- [Latest German Extension Development Version](https://github.com/Yggdrasil-Dono/flarum#latest-german-development-version)
+- [Documentation](https://github.com/Yggdrasil-Dono/flarum#documentation)
+	- [How to install?](https://github.com/Yggdrasil-Dono/flarum#how-to-install)
+	- [How to update?](https://github.com/Yggdrasil-Dono/flarum#how-to-update)
+- [Contributing](https://github.com/Yggdrasil-Dono/flarum#contributing)
 
 ## Informations
 
@@ -37,7 +37,7 @@ Extension to localize the Flarum forum software and its official extensions into
 
 ### License
 
-Released under the MIT License. Please see the [LICENSE](https://github.com/maelsoucaze/flarum/blob/master/LICENSE) file.
+Released under the MIT License. Please see the [LICENSE](https://github.com/Yggdrasil-dono/flarum/blob/master/LICENSE) file.
 
 ## Downloads
 
@@ -63,9 +63,9 @@ Your extension is now enabled. Congratulations! You, and your users, can now sel
 
 ### How to update?
 
-Like the installation process, download the updated compressed extension and extract the archive. Then, using [FTP](http://en.wikipedia.org/wiki/File_Transfer_Protocol), browse into the extension root at the *extensions/french/* directory. Inside this directory, delete all the current content and upload the new files from the previous extracted archive.
+Like the installation process, download the updated compressed extension and extract the archive. Then, using [FTP](http://en.wikipedia.org/wiki/File_Transfer_Protocol), browse into the extension root at the *extensions/german/* directory. Inside this directory, delete all the current content and upload the new files from the previous extracted archive.
 
-Your extension files are now updated, but you have to force the cache of your forum to refresh. To do that, using [FTP](http://en.wikipedia.org/wiki/File_Transfer_Protocol), locate the *assets/* directory. Inside the directory, delete the *forum-fr-XYZ.js* and *admin-fr-XYZ.js* files (*XYZ* are some random generated letters and numbers). You can now enjoy the latest improvements and fixes of the updated extension!
+Your extension files are now updated, but you have to force the cache of your forum to refresh. To do that, using [FTP](http://en.wikipedia.org/wiki/File_Transfer_Protocol), locate the *assets/* directory. Inside the directory, delete the *forum-de-XYZ.js* and *admin-de-XYZ.js* files (*XYZ* are some random generated letters and numbers). You can now enjoy the latest improvements and fixes of the updated extension!
 
 ## Contributing
 
@@ -73,8 +73,6 @@ Thank you a lot to wish to contribute. It means a lot. Using and enjoying the lo
 
 - Star on GitHub. Because if you use it and like it, you can at least be a stargazer!
 - Follow on GitHub. You'll be notified in real time of all changes. No more misses!
-- Open [issues](https://github.com/maelsoucaze/flarum/issues) on GitHub. Because the localization will be better with your feedbacks.
-- Open pull requests on GitHub. Submit fixes and improvements and be listed as [contributor](https://github.com/maelsoucaze/flarum/graphs/contributors)!
-- Join the discussion about the extension on [the Flarum community](http://discuss.flarum.org/d/615-french-extension-to-localize-flarum-and-its-extensions) and [the French one](https://flarum.today/fr/d/6-extension-fran-aise-pour-traduire-flarum-et-ses-extensions).
-- [Follow me on Twitter](https://twitter.com/maelsoucaze). Promise, I don't spam pictures of kittens and puppies (too much).
-- Let's have a drink if you're in Paris (France)!
+- Open [issues](https://github.com/Yggdrasil-dono/Flarum-de/issues) on GitHub. Because the localization will be better with your feedbacks.
+- Open pull requests on GitHub. Submit fixes and improvements and be listed as [contributor](https://github.com/Yggdrasil-dono/Flarum-de/graphs/contributors) !
+- Join the discussion about the extension on [the Flarum community](http://discuss.flarum.org/d/862-international-support/68)
