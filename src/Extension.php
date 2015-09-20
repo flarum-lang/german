@@ -1,14 +1,15 @@
 <?php
+
 /*
- * This file is part of Flarum.
+ * This file is part of the German Extension for Flarum.
  *
- * (c) Toby Zerner <toby.zerner@gmail.com>
+ * (c) Marcel Ehrlich <marcelehrlich@hotmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Qia;
+namespace Yggdrasil;
 
 use Flarum\Support\Extension as BaseExtension;
 use Illuminate\Events\Dispatcher;
