@@ -19,18 +19,18 @@ class Extension extends BaseExtension
     public function listen(Dispatcher $events)
     {
         $events->listen(RegisterLocales::class, function (RegisterLocales $event) {
-            $event->addLocale('fr', 'Français');
-            $event->addJsFile('fr', __DIR__.'/../locale/core.js');
-            $event->addConfig('fr', __DIR__.'/../locale/core.php');
-            $event->addTranslations('fr', __DIR__.'/../locale/core.yml');
-            $event->addTranslations('fr', __DIR__.'/../locale/likes.yml');
-            $event->addTranslations('fr', __DIR__.'/../locale/lock.yml');
-            $event->addTranslations('fr', __DIR__.'/../locale/mentions.yml');
-            $event->addTranslations('fr', __DIR__.'/../locale/pusher.yml');
-            $event->addTranslations('fr', __DIR__.'/../locale/reports.yml');
-            $event->addTranslations('fr', __DIR__.'/../locale/sticky.yml');
-            $event->addTranslations('fr', __DIR__.'/../locale/subscriptions.yml');
-            $event->addTranslations('fr', __DIR__.'/../locale/tags.yml');
+            $event->addLocale('de', 'Deutsch');
+            $event->addJsFile('de', __DIR__.'/../locale/core.js');
+            $event->addConfig('de', __DIR__.'/../locale/core.php');
+            $event->addTranslations('de', __DIR__.'/../locale/core.yml');
+            $event->addTranslations('de', __DIR__.'/../locale/likes.yml');
+            $event->addTranslations('de', __DIR__.'/../locale/lock.yml');
+            $event->addTranslations('de', __DIR__.'/../locale/mentions.yml');
+            $event->addTranslations('de', __DIR__.'/../locale/pusher.yml');
+            $event->addTranslations('de', __DIR__.'/../locale/reports.yml');
+            $event->addTranslations('de', __DIR__.'/../locale/sticky.yml');
+            $event->addTranslations('de', __DIR__.'/../locale/subscriptions.yml');
+            $event->addTranslations('de', __DIR__.'/../locale/tags.yml');
         });
     }
 }
