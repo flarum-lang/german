@@ -1,9 +1,9 @@
 <?php
 
 /*
- * This file is part of Flarum.
+ * This file is part of the German Extension for Flarum.
  *
- * (c) Toby Zerner <toby.zerner@gmail.com>
+ * (c) Marcel Ehrlich <marcelehrlich@hotmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -11,11 +11,6 @@
 
 return [
     'plural' => function ($count) {
-        if ($count >= 0 AND $count < 2) {
-            return 'one';
-        }
-        else {
-            return 'other';
-        }
+        return $count == 1 ? 'one' : 'other';
     }
 ];
