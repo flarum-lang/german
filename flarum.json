@@ -5,7 +5,7 @@
     "version": "0.1.0-dev-build.1",
     "author": {
         "name": "Marcel Ehrlich",
-        "email": "marcelehrlich@hotmail.com",
+        "email": "marcelehrlich@hotmail.com"
     },
     "license": "MIT",
     "require": {
