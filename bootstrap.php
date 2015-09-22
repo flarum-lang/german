@@ -11,4 +11,4 @@
 
 require __DIR__.'/vendor/autoload.php';
 
-return 'Qia\Extension';
+return 'Yggdrasil\Extension';

@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Qia;
+namespace Yggdrasil;
 
 use Flarum\Support\Extension as BaseExtension;
 use Illuminate\Events\Dispatcher;
