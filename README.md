@@ -1,27 +1,25 @@
 # German Extension for [Flarum](http://flarum.org/)
 
-[![Join the chat at https://gitter.im/flarum/flarum]
+Extension to localize the Flarum forum software and its official extensions into German.
 
-Extension to localize the Flarum forum software and its official extensions into german.
-
-- [Informations](https://github.com/Yggdrasil-Dono/flarum#informations)
-	- [Version](https://github.com/Yggdrasil-Dono/flarum#version)
-	- [Compatibility](https://github.com/maelsoucaze/flarum#compatibility)
-	- [License](https://github.com/Yggdrasil-Dono/flarum#license)
-- [Downloads](https://github.com/Yggdrasil-Dono/flarum#downloads)
-	- [Latest German Extension Release](https://github.com/Yggdrasil-Dono/flarum#latest-german-extension-release)
-	- [Latest German Extension Development Version](https://github.com/Yggdrasil-Dono/flarum#latest-german-development-version)
-- [Documentation](https://github.com/Yggdrasil-Dono/flarum#documentation)
-	- [How to install?](https://github.com/Yggdrasil-Dono/flarum#how-to-install)
-	- [How to update?](https://github.com/Yggdrasil-Dono/flarum#how-to-update)
-- [Contributing](https://github.com/Yggdrasil-Dono/flarum#contributing)
+- [Informations](https://github.com/Yggdrasil-Dono/Flarum-de#informations)
+	- [Version](https://github.com/Yggdrasil-Dono/Flarum-de#version)
+	- [Compatibility](https://github.com/Yggdrasil-Dono/Flarum-de#compatibility)
+	- [License](https://github.com/Yggdrasil-Dono/Flarum-de#license)
+- [Downloads](https://github.com/Yggdrasil-Dono/Flarum-de#downloads)
+	- [Latest German Extension Release](https://github.com/Yggdrasil-Dono/Flarum-de#latest-german-extension-release)
+	- [Latest German Extension Development Version](https://github.com/Yggdrasil-Dono/Flarum-de#latest-german-development-version)
+- [Documentation](https://github.com/Yggdrasil-Dono/Flarum-de#documentation)
+	- [How to install?](https://github.com/Yggdrasil-Dono/Flarum-de#how-to-install)
+	- [How to update?](https://github.com/Yggdrasil-Dono/Flarum-de#how-to-update)
+- [Contributing](https://github.com/Yggdrasil-Dono/Flarum-de#contributing)
 
 ## Informations
 
 ### Version
 
-- 0.1.0-dev (Build 15)
-- Released on September 19, 2015
+- 0.1.0-dev (Build 1)
+- Released on September 20, 2015
 
 ### Compatibility
 
@@ -55,9 +53,9 @@ This release may be incompatible with the current releases, based on latest deve
 
 Once the compressed extension downloaded, extract the archive with a [file archiver](https://en.wikipedia.org/wiki/Comparison_of_file_archivers).
 
-Using [FTP](http://en.wikipedia.org/wiki/File_Transfer_Protocol), browse into your Flarum root (which contains the *config.php* file). You will see an *extensions/* directory. Inside this directory, create a *french/* directory. Then, upload the content of the previous extracted archive inside the *french/* directory.
+Using [FTP](http://en.wikipedia.org/wiki/File_Transfer_Protocol), browse into your Flarum root (which contains the *config.php* file). You will see an *extensions/* directory. Inside this directory, create a *german/* directory. Then, upload the content of the previous extracted archive inside the *german/* directory.
 
-The extension is now uploaded to your server and your next step is to enable it. Log-in to your forum and click on your username located at the top right of the screen. You will see a pop-up. Click on the *Administration* link. Once in the administration page, click on *Extensions*. You will see a list of all your extensions. Note that the French extension is the grey tinted one, with a white icon of the Earth and a blue background. Hover the extension and notice the dotted vertical menu. Click on that vertical menu and click on *Enable*.
+The extension is now uploaded to your server and your next step is to enable it. Log-in to your forum and click on your username located at the top right of the screen. You will see a pop-up. Click on the *Administration* link. Once in the administration page, click on *Extensions*. You will see a list of all your extensions. Note that the German extension is the grey tinted one, with a white icon of the Earth and a blue background. Hover the extension and notice the dotted vertical menu. Click on that vertical menu and click on *Enable*.
 
 Your extension is now enabled. Congratulations! You, and your users, can now select the language via a dropdown menu located in the header, at the right of the search box.
 
@@ -75,4 +73,3 @@ Thank you a lot to wish to contribute. It means a lot. Using and enjoying the lo
 - Follow on GitHub. You'll be notified in real time of all changes. No more misses!
 - Open [issues](https://github.com/Yggdrasil-dono/Flarum-de/issues) on GitHub. Because the localization will be better with your feedbacks.
 - Open pull requests on GitHub. Submit fixes and improvements and be listed as [contributor](https://github.com/Yggdrasil-dono/Flarum-de/graphs/contributors) !
-- Join the discussion about the extension on [the Flarum community](http://discuss.flarum.org/d/862-international-support/68)
