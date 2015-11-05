@@ -1,7 +1,7 @@
 {
     "name": "cbmainz/flarum-de",
     "type": "flarum-extension",
-    "description": "German language pack for Flarum and its bundled extensions.",
+    "description": "German language pack for Flarum and its bundled extensions!",
     "homepage": "https://flarum.today/de/",
     "keywords": ["locale"],
     "version": "v1.0.4beta",
