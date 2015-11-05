@@ -1,11 +1,10 @@
 {
     "name": "cbmainz/flarum-de",
-    "title": "German",
     "type": "flarum-extension",
     "description": "German language pack for Flarum and its bundled extensions.",
     "homepage": "https://flarum.today/de/",
     "keywords": ["locale"],
-    "version": "1.0.3",
+    "version": "v1.0.3",
     "license": "MIT",
     "authors": [
         {
