@@ -1,5 +1,5 @@
 {
-    "name": "flarum-de",
+    "name": "cbmainz/flarum-de",
     "title": "German",
     "type": "flarum-extension",
     "description": "German language pack for Flarum and its bundled extensions.",
