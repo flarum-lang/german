@@ -5,7 +5,7 @@
     "description": "German language pack for Flarum and its bundled extensions.",
     "homepage": "https://flarum.today/de/",
     "keywords": ["locale"],
-    "version": "v1.0.3",
+    "version": "1.0.3",
     "license": "MIT",
     "authors": [
         {
