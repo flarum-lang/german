@@ -16,6 +16,7 @@
         "source": "https://github.com/Yggdrasil-dono/Flarum-de",
         "issues": "https://github.com/Yggdrasil-dono/Flarum-de/issues"
     },
+    "minimum-stability": "dev",
     "require": {
         "flarum/core": "^0.1.0-beta.4"
     },
