@@ -1,0 +1,71 @@
+# Custom French Laravel's Validation Locales
+# Based on: https://github.com/caouecs/Laravel-lang/blob/master/fr/validation.php
+
+validation:
+  accepted: "Le :attribute doit être accepté."
+  active_url: "Le :attribute n’est pas une adresse URL valide."
+  after: "Le :attribute doit être une date postérieure au :date."
+  alpha: "Le :attribute ne doit contenir que des lettres."
+  alpha_dash: "Le :attribute ne doit contenir que des lettres, des chiffres et des tirets."
+  alpha_num: "Le :attribute ne doit contenir que des lettres et des chiffres."
+  array: "Le :attribute doit être un tableau."
+  before: "Le :attribute doit être une date antérieure au :date."
+  between:
+    numeric: "Le :attribute doit être compris entre :min et :max."
+    file: "Le :attribute doit être compris entre :min et :max kilo-octets."
+    string: "Le :attribute doit être compris entre :min et :max caractères."
+    array: "Le :attribute doit être compris entre :min et :max éléments."
+  boolean: "Le champ du :attribute doit être vrai ou faux."
+  confirmed: "Le champ de confirmation du :attribute ne correspond pas."
+  date: "Le :attribute n’est pas une date valide."
+  date_format: "Le :attribute ne correspond pas au format :other."
+  different: "Le :attribute et le :other doivent être différents."
+  digits: "Le :attribute doit contenir :digits chiffres."
+  digits_between: "Le :attribute doit être compris entre :min et :max chiffres."
+  email: "Le :attribute doit être une adresse de courriel valide."
+  exists: "Le :attribute sélectionné est invalide."
+  filled: "Le champ du :attribute est obligatoire."
+  image: "Le :attribute doit être une image."
+  in: "Le :attribute sélectionné est invalide."
+  integer: "Le :attribute doit être un nombre entier."
+  ip: "Le :attribute doit être une adresse IP valide."
+  json: "Le :attribute doit être une chaîne JSON valide."
+  max:
+    numeric: "Le :attribute ne doit pas être supérieur à :max."
+    file: "Le :attribute ne doit pas peser plus de :max kilo-octets."
+    string: "Le :attribute ne doit pas contenir plus de :max caractères."
+    array: "Le :attribute ne doit pas contenir plus de :max éléments."
+  mimes: "Le :attribute doit être un fichier de type : :values."
+  min:
+    numeric: "Le :attribute doit être supérieur à :min."
+    file: "Le :attribute doit peser au moins :min kilo-octets."
+    string: "Le :attribute doit contenir au moins :min caractères."
+    array: "Le :attribute doit contenir au moins :min éléments."
+  not_in: "Le :attribute sélectionné est invalide."
+  numeric: "Le :attribute doit être un nombre."
+  regex: "Le format du :attribute est invalide."
+  required: "Le champ du :attribute est obligatoire."
+  required_if: "Le champ du :attribute est obligatoire lorsque la valeur du :other est :value."
+  required_with: "Le champ du :attribute est obligatoire lorsque le :values est présent."
+  required_with_all: "Le champ du :attribute est obligatoire lorsque le :values est présent."
+  required_without: "Le champ du :attribute est obligatoire lorsque le :values n’est pas présent."
+  required_without_all: "Le champ du :attribute est obligatoire lorsque le :values ne sont pas présents."
+  same: "Le :attribute et le :other doivent être identiques."
+  size:
+    numeric: "Le :attribute doit être de :size."
+    file: "Le :attribute doit peser :size kilo-octets."
+    string: "Le :attribute doit contenir :size caractères."
+    array: "Le :attribute doit contenir :size éléments."
+  string: "Le :attribute doit être une chaîne de caractères."
+  timezone: "Le :attribute doit être un fuseau horaire valide."
+  unique: "Le :attribute est déjà pris."
+  url: "Le format du :attribute est invalide."
+
+  attributes:
+    username: nom d’utilisateur
+    password: mot de passe
+    email: courriel
+    title: titre
+    content: contenu
+    name_singular: nom singulier
+    name_plural: nom pluriel
