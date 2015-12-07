@@ -6,13 +6,9 @@ Extension to localize the Flarum forum software and its official extensions into
 	- [Version](https://github.com/Yggdrasil-Dono/Flarum-de#version)
 	- [Compatibility](https://github.com/Yggdrasil-Dono/Flarum-de#compatibility)
 	- [License](https://github.com/Yggdrasil-Dono/Flarum-de#license)
-- [Downloads](https://github.com/Yggdrasil-Dono/Flarum-de#downloads)
-	- [Latest German Extension Release](https://github.com/Yggdrasil-Dono/Flarum-de#latest-german-extension-release)
-	- [Latest German Extension Development Version](https://github.com/Yggdrasil-Dono/Flarum-de#latest-german-development-version)
 - [Documentation](https://github.com/Yggdrasil-Dono/Flarum-de#documentation)
 	- [How to install?](https://github.com/Yggdrasil-Dono/Flarum-de#how-to-install)
 	- [How to update?](https://github.com/Yggdrasil-Dono/Flarum-de#how-to-update)
-- [Contributing](https://github.com/Yggdrasil-Dono/Flarum-de#contributing)
 
 ## Informations
 
@@ -31,9 +27,7 @@ Released under the MIT License. Please see the [LICENSE](https://github.com/cbma
 
 ### How to install?
 
-via Composer:
-
-`composer require cbmainz/flarum-de`
+via Composer: `composer require cbmainz/flarum-de`
 
 See also [packagist.org/packages/cbmainz/flarum-de](https://packagist.org/packages/cbmainz/flarum-de).
 
