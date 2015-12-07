@@ -1,4 +1,4 @@
-sticky:
+flarum-sticky:
   discussion_stickied_notification: "{username} hat gepinnt"
   discussion_stickied_post: "{username} hat die Diskussion gepinnt."
   discussion_unstickied_post: "{username} hat eine Diskussion von mir gelöst."

@@ -1,4 +1,4 @@
-pusher:
+flarum-pusher:
   show_updated_discussions:
     one: "Zeige {count} Diskussionen mit Updates"
     other: "zeige {count} Diskussionen mit Updates"

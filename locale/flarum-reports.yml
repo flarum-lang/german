@@ -1,4 +1,4 @@
-reports:
+flarum-reports:
   reason_off_topic: Off-Topic
   reason_spam: Spam
   reason_inappropriate: Unangemessen

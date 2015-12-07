@@ -1,4 +1,4 @@
-likes:
+flarum-likes:
   post_liked_notification: "{username} gefällt dein Beitrag"
   post_likes_modal_title: Mitglieder welchen dies gefallen hat
   post_liked_by_self: "{users} gefällt dies."

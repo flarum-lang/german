@@ -1,4 +1,4 @@
-tags:
+flarum-tags:
   tags: Kategorien
   discussion_tagged_post:
     one: "{username} {action} Kategorie."

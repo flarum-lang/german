@@ -1,4 +1,4 @@
-mentions:
+flarum-mentions:
   reply_to_post: "Antwort auf #{number}"
   post_mentioned_notification: "{username} hat auf deine Nachricht geantwortet"
   others: "{count} andere"
