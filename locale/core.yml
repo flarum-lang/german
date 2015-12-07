@@ -27,7 +27,7 @@ core:
       forum_description_text: Kurze Beschreibung des Forums. Diese wird in in den meta-Tags der Suchmaschienen erscheinen.
       forum_title_heading: Title des Forums
       home_page_heading: Startseite
-      home_page_text: "Welsche Seite sollen Besucher*innen als erstes sehen? Bitte den relativen Pfad zum Forum eingeben "
+      home_page_text: "Welsche Seite sollen Besucher*innen als erstes sehen? Bitte ggf. den relativen Pfad zum Forum eingeben "
       saved_message: Die Veränderungen wurden übernommen.
       submit_button: => core.ref.save_changes
       welcome_banner_heading: Willkommensnachricht
@@ -161,7 +161,7 @@ core:
     # These translations are used by the composer when editing a post.
     composer_edit:
       discard_confirmation: "Die Änderungen wurden nicht übernommen, sollen sie verworfen werden?"
-      post_link: "Beitra #{number} in {discussion}"
+      post_link: "Beitrag #{number} in {discussion}"
       submit_button: => core.ref.save_changes
 
     # These translations are used by the composer when replying to a discussion.
@@ -196,8 +196,8 @@ core:
       empty_text: "Noch keine Diskussionen in diesem Forum."
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: Als gelesen makieren
-      replied_text: "{username} antwortete {ago}"
-      started_text: "{username} begonnen {ago}"
+      replied_text: "antwortete von {username} - {ago}"
+      started_text: "begonnen von {username} - {ago}"
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
@@ -210,10 +210,10 @@ core:
     forgot_password:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      email_sent_message: We've sent you an email containing a link to reset your password. Check your spam folder if you don't receive it within the next minute or two.
-      submit_button: Recover Password
-      text: Enter your email address and we will send you a link to reset your password.
-      title: Forgot Password
+      email_sent_message: Es wurde ein Link zum Zurücksetzen des Passwortes gesendet. Bitte ggf. auch den SPAM-Ordner checken.
+      submit_button: Passwort wiederherstellen
+      text: Um einen Link zum Zurücksetzen des Passwortes zu erhalten, bitte E-Mail-Adresse eintragen.
+      title: Passwort vergessen
 
     # These translations are used in the header and session dropdown menu.
     header:
@@ -243,14 +243,14 @@ core:
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      confirmation_required_message: "You need to confirm your email before you can log in. We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
+      confirmation_required_message: "Vor dem Anmelden bitte die E-Mail-Adresse bestätigen. Es wurde eine Bestätigungsmail an {email} geschickt. Bitte ggf. auch den SPAM-Ordner checken."
       forgot_password_link: "Passwort vergessen?"
       invalid_login_message: Die Anmeldedaten sind nicht korrekt.
       password_placeholder: => core.ref.password
-      sign_up_text: "Noch kein Account? <a>Registrieren</a>"
+      sign_up_text: "Noch kein Account? Dann <a>Registrieren</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
-      username_or_email_placeholder: Benutzer*innenname or E-Mail
+      username_or_email_placeholder: Benutzer*innenname oder E-Mail
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
@@ -262,7 +262,7 @@ core:
 
     # These translations are used by tooltips displayed for individual posts.
     post:
-      edited_tooltip: "{username} geändert {ago}"
+      edited_tooltip: "geändert von {username} - {ago}"
       number_tooltip: "Beitrag #{number}"
 
     # These translations are used by the post control buttons.
@@ -274,17 +274,17 @@ core:
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
-      now_link: Aktuell
+      now_link: Neuster Beitrag
       original_post_link: Erster Beitrag
-      unread_text: "{count} unread"
-      viewing_text: "{index} of {count} post|{index} of {count} posts"
+      unread_text: "{count} ungelesen"
+      viewing_text: "{index} von {count} Beitrag|{index} von {count} Beiträgen"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_renamed_text: "{username} changed the title from {old} to {new}."
+      discussion_renamed_text: "{username} änderte den Titel von {old} zu {new}."
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
-      time_lapsed_text: "{period} later"
+      time_lapsed_text: "{period} später"
 
     # These translations are used by the search results dropdown list.
     search:
@@ -294,14 +294,14 @@ core:
 
     # These translations are used in the Settings page.
     settings:
-      account_heading: Account
+      account_heading: Konto
       change_email_button: => core.ref.change_email
       change_password_button: => core.ref.change_password
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Web
-      notify_discussion_renamed_label: Someone renames a discussion I started
-      privacy_disclose_online_label: Allow others to see when I am online
+      notify_discussion_renamed_label: Wenn jemand eine Diskussion ändert, die ich gestartet habe
+      privacy_disclose_online_label: Andere dürden meinen Online-Status sehen
       privacy_heading: Privatsphäre
       title: => core.ref.settings
 
@@ -364,13 +364,13 @@ core:
     series:
       glue_text: ", "
       three_text: "{first}, {second}, und {third}"
-      two_text: "{first} and {second}"
+      two_text: "{first} und {second}"
 
   # Translations in this namespace are used in basic HTML interface.
   basic:
-    javascript_disabled_message: This site is best viewed in a modern browser with JavaScript enabled.
-    load_error_message: Something went wrong while trying to load the full version of this site.
-    loading_text: Läd...
+    javascript_disabled_message: Dieses Forum ist für moderen Browser mit JavaScript optimiert.
+    load_error_message: Es ist etwas schiefgelaufen beim laden dieser Seite.
+    loading_text: Seite läd ...
     next_page_button: Nächste Seite
     previous_page_button: Vorherrige Seite
 
@@ -380,40 +380,40 @@ core:
     # These translations are used in emails sent when users register new accounts.
     activate_account:
       body: |
-        Hey {username}!
+        Hallo {username}!
 
-        Someone (hopefully you!) has signed up to {forum} with this email address.
+        Jemand (hoffentlich du!) hat sich im Forum {forum} mit dieser E-Mail-Adresse registriert.
 
-        If this was you, simply click the following link and your account will be activated:
+        Wenn du es warst, dann bitte einfach dem folgenden Link folgen, um das Konto zu aktivieren:
         {url}
 
-        If you did not sign up, please ignore this email.
-      subject: Activate Your New Account
+        Wenn du dies nich selbst warst, ignoriere diese E-Mail.
+      subject: Aktiviere dein neues Konto
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
       body: |
-        Hey {username}!
+        Hallo {username}!
 
-        Someone (hopefully you!) has changed their email address on {forum} to this one.
+        Jemand (hoffentlich du!) hat die E-Mail-Adresse im Forum {forum} geändert.
 
-        If this was you, simply click the following link and your email will be confirmed:
+        Wenn du es warst, dann bitte einfach dem folgenden Link folgen, um die neue E-Mai-Adresse zu bestätigen:
         {url}
 
-        If this was not you, please ignore this email.
+        Wenn du dies nich selbst warst, ignoriere diese E-Mail.
       subject: Confirm Your New Email Address
 
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
       body: |
-        Hey {username}!
+        Hallo {username}!
 
-        Someone (hopefully you!) has submitted a forgotten password request for your account on {forum}.
+        Jemand (hoffentlich du!) hat das Zurücksetzen des Passwortes im Forum {forum} beantragt.
 
-        If this was you, click the following link to reset your password:
+        Wenn du es warst, dann bitte einfach dem folgenden Link folgen, um das Passwort neu zusetzen:
         {url}
 
-        If you do not wish to change your password, just ignore this email and nothing will happen.
+        Wenn du dies nich selbst warst, ignoriere diese E-Mail.
       subject: Reset Your Password
 
   ##
@@ -428,7 +428,7 @@ core:
     confirm_password: Passwort bestätigen
     confirmation_email_sent: "Wir haben eine E-Mail nach {email} geschickt. Bitte schaue in deinem Spam Ordner nach falls nichts ankommen sollte."
     delete: Löschen
-    delete_forever: Für immer löschen
+    delete_forever: Entgültig löschen
     discussions: Diskussionen
     edit: Ändern
     email: E-Mail

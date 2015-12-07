@@ -1,20 +1,101 @@
 flarum-tags:
-  tags: Kategorien
-  discussion_tagged_post:
-    one: "{username} {action} Kategorie."
-    other: "{username} {action} Kategorien."
-  added_tags: "hat {tags} hinzugefügt"
-  removed_tags: "Hat {tags} entfernt"
-  tag_new_discussion_title: Wähle eine Kategorie für diese Diskussion
-  tag_new_discussion_link: Wähle eine Kategorie
-  edit_discussion_tags_title: "Ändere Kategorien für {title}"
-  edit_discussion_tags_link: Ändere Kategorien
-  choose_primary_tags:
-    one: Wähle {count} primäre Kategorien
-    other: "Wähle {count} primäre Kategorien"
-  choose_secondary_tags:
-    one: Wähle {count} sekundäre Kategorien
-    other: "Wähle {count} sekundäre Kategorien"
-  confirm: Bestätigen
-  more: Mehr...
-  deleted: Gelöscht
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Basics page.
+    basics:
+      tags_label: => flarum-tags.ref.tags
+
+    # These translations are used in the Edit Tag modal dialog.
+    edit_tag:
+      color_label: Farben
+      delete_tag_button: Tag löschen
+      delete_tag_confirmation: "Soll der Tag wirklich gelöscht werden? Die Diskussionen werden NICHT gelöscht."
+      description_label: Beschreibung
+      hide_label: Von allen Diskussionen ausblenden
+      name_label: => flarum-tags.ref.name
+      name_placeholder: => flarum-tags.ref.name
+      slug_label: Slug
+      submit_button: => core.ref.save_changes
+      title: => flarum-tags.ref.create_tag
+
+    # These translations are used in the navigation bar.
+    nav:
+      tags_button: => flarum-tags.ref.tags
+      tags_text: Ordne die Liste der Tags um die Diskussionen zu organisieren.
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      allow_edit_tags_label: Erlaube Tags zu ändern
+      restrict_by_tag_heading: Durch Tags beschränken
+      tag_discussions_label: Diskussionen markieren
+
+    # These translations are used in the Tag Settings modal dialog.
+    tag_settings:
+      range_separator_text: " zu "
+      required_primary_heading: Anzahl der benötigten Primary Tags
+      required_primary_text: Gib die minimale und die maximale Anzahl von Primary Tags an, die einer Diskussion hinzugefügt werden können.
+      required_secondary_heading: Anzahl der benötigten Secondary Tags
+      required_secondary_text: Gib die minimale und die maximale Anzahl von Secondary Tags an, die einer Diskussion hinzugefügt werden können.
+      title: Tag-Einstellungen
+
+    # These translations are used in the Tags page.
+    tags:
+      about_tags_text: "Tags sind dazu da, um Diskussionen zu kategorisieren. Primary Tags sind wie traditionelle Kategorien in einem Forum: Sie können in zwei Ebenen geordnet werden. Secondary Tags haben keine Ebenen und keine Reihenfolge. Sie können helfen, die Diskussionen feiner zu strukturieren"
+      create_tag_button: => flarum-tags.ref.create_tag
+      primary_heading: Primary Tags
+      secondary_heading: Secondary Tags
+      settings_button: Einstellungen
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the Choose Tags modal dialog.
+    choose_tags:
+      choose_primary_placeholder: "Wähle einen Primary Tag|Wähle {count} Primary Tags"
+      choose_secondary_placeholder: "Wähle einen Tag mehr|Wähle {count} Tags mehr"
+      edit_title: "Tags für {title} bearbeiten"
+      submit_button: => core.ref.okay
+      title: Tag für die Diskussion auswählen
+
+    # These translations are used by the composer when starting a discussion.
+    composer_discussion:
+      choose_tags_link: Tags auswählen
+
+    # These translations are used by the discussion control buttons.
+    discussion_controls:
+      edit_tags_button: Tags ändern
+
+    # These translations are used on the index page, peripheral to the discussion list.
+    index:
+      more_link: Mehr ...
+      tags_link: => flarum-tags.ref.tags
+      untagged_link: nicht markiert
+
+    # These translations are displayed between posts in the post stream.
+    post_stream:
+      added_tags_text: "{username} hat den Tag {tagsAdded} hinzugefügt."
+      added_and_removed_tags_text: "{username} hat den Tag {tagsAdded} hinzugefügt und den Tag {tagsRemoved} entfernt."
+      removed_tags_text: "{username} hat den Tag {tagsRemoved} entfernt."
+      tags_text: "{tags} Tag|{tags} Tags"
+
+  # Translations in this namespace are used by the forum and admin interfaces.
+  lib:
+
+    # This translation is displayed in place of the name of a tag that's been deleted.
+    deleted_tag_text: Gelöscht
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    create_tag: Tag erstellen
+    name: Name
+    tags: Tags

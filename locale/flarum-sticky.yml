@@ -1,8 +1,0 @@
-flarum-sticky:
-  discussion_stickied_notification: "{username} hat gepinnt"
-  discussion_stickied_post: "{username} hat die Diskussion gepinnt."
-  discussion_unstickied_post: "{username} hat eine Diskussion von mir gelöst."
-  notify_discussion_stickied: Jemand hat eine Diskussion von mir gepinnt
-  stickied: Pinnen
-  sticky: Pinnen
-  unsticky: Lösen

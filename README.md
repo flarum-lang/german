@@ -19,6 +19,9 @@ Extension to localize the Flarum forum software and its official extensions into
 
 ### Compatibility
 
+- [Flarum](https://github.com/flarum/core) (Core) 0.1.0 Beta 4
+	- [Tags](https://github.com/flarum/tags) 0.1.0 Beta 4
+
 ### License
 
 Released under the MIT License. Please see the [LICENSE](https://github.com/cbmainz/flarum-de/blob/master/LICENSE) file.

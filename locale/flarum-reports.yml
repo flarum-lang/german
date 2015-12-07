@@ -1,8 +1,0 @@
-flarum-reports:
-  reason_off_topic: Off-Topic
-  reason_spam: Spam
-  reason_inappropriate: Unangemessen
-  reason_other: Andere
-  reported_by: "wurde von {users} gemeldet"
-  reported_by_with_reason: "Wurde wegen {reasons} von {users} gemeldet"
-  no_reports: Keine Meldungen
