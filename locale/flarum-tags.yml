@@ -4,14 +4,14 @@ flarum-tags:
   # UNIQUE KEYS - The following keys are used in only one location each.
   ##
 
-  # Translations in this namespace are used by the admin interface.
+  # Strings in this namespace are used by the admin interface.
   admin:
 
-    # These translations are used in the Basics page.
+    # These strings are used in the Basics page.
     basics:
       tags_label: => flarum-tags.ref.tags
 
-    # These translations are used in the Edit Tag modal dialog.
+    # These strings are used in the Edit Tag modal dialog.
     edit_tag:
       color_label: Farben
       delete_tag_button: Tag löschen
@@ -24,18 +24,18 @@ flarum-tags:
       submit_button: => core.ref.save_changes
       title: => flarum-tags.ref.create_tag
 
-    # These translations are used in the navigation bar.
+    # These strings are used in the navigation bar.
     nav:
       tags_button: => flarum-tags.ref.tags
       tags_text: Ordne die Liste der Tags um die Diskussionen zu organisieren.
 
-    # These translations are used in the Permissions page of the admin interface.
+    # These strings are used in the Permissions page of the admin interface.
     permissions:
       allow_edit_tags_label: Erlaube Tags zu ändern
       restrict_by_tag_heading: Durch Tags beschränken
       tag_discussions_label: Diskussionen markieren
 
-    # These translations are used in the Tag Settings modal dialog.
+    # These strings are used in the Tag Settings modal dialog.
     tag_settings:
       range_separator_text: " zu "
       required_primary_heading: Anzahl der benötigten Primary Tags
@@ -44,7 +44,7 @@ flarum-tags:
       required_secondary_text: Gib die minimale und die maximale Anzahl von Secondary Tags an, die einer Diskussion hinzugefügt werden können.
       title: Tag-Einstellungen
 
-    # These translations are used in the Tags page.
+    # These strings are used in the Tags page.
     tags:
       about_tags_text: "Tags sind dazu da, um Diskussionen zu kategorisieren. Primary Tags sind wie traditionelle Kategorien in einem Forum: Sie können in zwei Ebenen geordnet werden. Secondary Tags haben keine Ebenen und keine Reihenfolge. Sie können helfen, die Diskussionen feiner zu strukturieren"
       create_tag_button: => flarum-tags.ref.create_tag
@@ -52,10 +52,10 @@ flarum-tags:
       secondary_heading: Secondary Tags
       settings_button: Einstellungen
 
-  # Translations in this namespace are used by the forum user interface.
+  # Strings in this namespace are used by the forum user interface.
   forum:
 
-    # These translations are used by the Choose Tags modal dialog.
+    # These strings are used by the Choose Tags modal dialog.
     choose_tags:
       choose_primary_placeholder: "Wähle einen Primary Tag|Wähle {count} Primary Tags"
       choose_secondary_placeholder: "Wähle einen Tag mehr|Wähle {count} Tags mehr"
@@ -63,31 +63,31 @@ flarum-tags:
       submit_button: => core.ref.okay
       title: Tag für die Diskussion auswählen
 
-    # These translations are used by the composer when starting a discussion.
+    # These strings are used by the composer when starting a discussion.
     composer_discussion:
       choose_tags_link: Tags auswählen
 
-    # These translations are used by the discussion control buttons.
+    # These strings are used by the discussion control buttons.
     discussion_controls:
       edit_tags_button: Tags ändern
 
-    # These translations are used on the index page, peripheral to the discussion list.
+    # These strings are used on the index page, peripheral to the discussion list.
     index:
-      more_link: Mehr ...
       tags_link: => flarum-tags.ref.tags
+      more_link: Mehr ...
       untagged_link: nicht markiert
 
-    # These translations are displayed between posts in the post stream.
+    # These strings are displayed between posts in the post stream.
     post_stream:
       added_tags_text: "{username} hat den Tag {tagsAdded} hinzugefügt."
       added_and_removed_tags_text: "{username} hat den Tag {tagsAdded} hinzugefügt und den Tag {tagsRemoved} entfernt."
       removed_tags_text: "{username} hat den Tag {tagsRemoved} entfernt."
       tags_text: "{tags} Tag|{tags} Tags"
 
-  # Translations in this namespace are used by the forum and admin interfaces.
+  # Strings in this namespace are used by the forum and admin interfaces.
   lib:
 
-    # This translation is displayed in place of the name of a tag that's been deleted.
+    # This string is displayed in place of the name of a tag that's been deleted.
     deleted_tag_text: Gelöscht
 
   ##
