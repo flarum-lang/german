@@ -14,12 +14,25 @@ Extension to localize the Flarum forum software and its official extensions into
 
 ### Version
 
-- 0.1.11
+- 0.2.0
 - Released on December 08, 2015
 
 ### Compatibility
 
 - [Flarum](https://github.com/flarum/core) (Core) 0.1.0 Beta 4
+	- [Akismet](https://github.com/flarum/akismet) 0.1.0 Beta 3
+	- [Approval](https://github.com/flarum/approval) 0.1.0 Beta 3
+	- [Auth-Facebook](https://github.com/flarum/auth-facebook) 0.1.0 Beta 3
+	- [Auth-Github](https://github.com/flarum/auth-github) 0.1.0 Beta 3
+	- [Auth-Twitter](https://github.com/flarum/auth-twitter) 0.1.0 Beta 3
+	- [Flags](https://github.com/flarum/flags) 0.1.0 Beta 4
+	- [Likes](https://github.com/flarum/likes) 0.1.0 Beta 3
+	- [Lock](https://github.com/flarum/lock) 0.1.0 Beta 3
+	- [Mentions](https://github.com/flarum/mentions) 0.1.0 Beta 3
+	- [Pusher](https://github.com/flarum/pusher) 0.1.0 Beta 3
+	- [Sticky](https://github.com/flarum/sticky) 0.1.0 Beta 3
+	- [Subscriptions](https://github.com/flarum/subscriptions) 0.1.0 Beta 4
+	- [Suspend](https://github.com/flarum/suspend) 0.1.0 Beta 3
 	- [Tags](https://github.com/flarum/tags) 0.1.0 Beta 4
 
 ### License

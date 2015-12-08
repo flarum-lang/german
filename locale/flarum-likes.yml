@@ -1,0 +1,37 @@
+flarum-likes:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      like_posts_label: Gefällt mir bei Beiträgen
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the Notifications dropdown, a.k.a. "the bell".
+    notifications:
+      others_text: => core.ref.some_others
+      post_liked_text: "{username} gefällt dein Beitrag"  # Can be pluralized to agree with the number of users!
+
+    # These translations are displayed beneath individual posts.
+    post:
+      like_link: Gefällt mir
+      liked_by_self_text: "{users} gefällt das."  # Can be pluralized to agree with the number of users!
+      liked_by_text: "{users} gefällt das.|{users} gefällt das."
+      others_link: => core.ref.some_others
+      unlike_link: Gefällt mir nicht mehr
+      you_text: => Dir
+
+    # These translations are used by the Users Who Like This modal dialog.
+    post_likes:
+      title: Mitglieder welchen das gefallen hat
+
+    # These translations are used in the Settings page.
+    settings:
+      notify_post_liked_label: Jemandem gefällt mein Beitrag

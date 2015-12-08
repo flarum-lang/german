@@ -56,7 +56,7 @@ core:
       delete_button: Gruppe löschen
       delete_confirmation: "Bist du sicher, du möchtest die Gruppe löschen? Die Gruppenmitglieder werden nicht gelöscht."
       icon_label: Symbol
-      icon_text: "Name des <a>FontAwesome</a>-Symbols eingeben, aber <em>ohne</em> den Prefix <code>fa-</code> ."
+      icon_text: "Name des <a>FontAwesome</a>-Symbols eingeben, aber <em>ohne</em> den Prefix <code>fa-</code>."
       name_label: Name
       plural_placeholder: Einzahl (e.g. Mods)
       singular_placeholder: Mehrzahl (e.g. Mod)
@@ -196,8 +196,8 @@ core:
       empty_text: "Noch keine Diskussionen in diesem Forum."
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: Als gelesen makieren
-      replied_text: "antwortete von {username} - {ago}"
-      started_text: "begonnen von {username} - {ago}"
+      replied_text: "{ago} von {username} beantwortet"
+      started_text: "{ago} von {username} begonnen"
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
@@ -262,7 +262,7 @@ core:
 
     # These translations are used by tooltips displayed for individual posts.
     post:
-      edited_tooltip: "geändert von {username} - {ago}"
+      edited_tooltip: "{ago} geändert von {username}"
       number_tooltip: "Beitrag #{number}"
 
     # These translations are used by the post control buttons.
@@ -437,7 +437,7 @@ core:
     log_out: Abmelden
     mark_all_as_read: Alle als Gelesen makieren
     notifications: Nachrichten
-    okay: OK                                     # Referenced by flarum-tags.yml
+    okay: Okay                                     # Referenced by flarum-tags.yml
     password: Passwort
     reply: Antworten                                 # Referenced by flarum-mentions.yml
     restore: Widerherstellen
