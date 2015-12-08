@@ -2,19 +2,19 @@
 
 Extension to localize the Flarum forum software and its official extensions into German.
 
-- [Informations](https://github.com/Yggdrasil-Dono/Flarum-de#informations)
-	- [Version](https://github.com/Yggdrasil-Dono/Flarum-de#version)
-	- [Compatibility](https://github.com/Yggdrasil-Dono/Flarum-de#compatibility)
-	- [License](https://github.com/Yggdrasil-Dono/Flarum-de#license)
-- [Documentation](https://github.com/Yggdrasil-Dono/Flarum-de#documentation)
-	- [How to install?](https://github.com/Yggdrasil-Dono/Flarum-de#how-to-install)
+- [Informations](https://github.com/cbmainz/flarum-de#informations)
+	- [Version](https://github.com/cbmainz/flarum-de#version)
+	- [Compatibility](https://github.com/cbmainz/flarum-de#compatibility)
+	- [License](https://github.com/cbmainz/flarum-de#license)
+- [Documentation](https://github.com/cbmainz/flarum-de#documentation)
+	- [How to install?](https://github.com/cbmainz/flarum-de#how-to-install)
 	- [How to update?](https://github.com/Yggdrasil-Dono/Flarum-de#how-to-update)
 
 ## Informations
 
 ### Version
 
-- 0.1.9
+- 0.1.11
 - Released on December 08, 2015
 
 ### Compatibility
