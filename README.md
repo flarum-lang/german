@@ -14,8 +14,8 @@ Extension to localize the Flarum forum software and its official extensions into
 
 ### Version
 
-- 0.1.0-dev (Build 1)
-- Released on September 20, 2015
+- 0.1.9
+- Released on December 08, 2015
 
 ### Compatibility
 
@@ -35,6 +35,8 @@ via Composer: `composer require cbmainz/flarum-de`
 See also [packagist.org/packages/cbmainz/flarum-de](https://packagist.org/packages/cbmainz/flarum-de).
 
 ### How to update?
+
+via Composer: `composer update`
 
 
 
