@@ -8,7 +8,7 @@ Extension to localize the Flarum forum software and its official extensions into
 	- [License](https://github.com/cbmainz/flarum-de#license)
 - [Documentation](https://github.com/cbmainz/flarum-de#documentation)
 	- [How to install?](https://github.com/cbmainz/flarum-de#how-to-install)
-	- [How to update?](https://github.com/Yggdrasil-Dono/Flarum-de#how-to-update)
+	- [How to update?](https://github.com/cbmainz/flarum-de#how-to-update)
 
 ## Informations
 
