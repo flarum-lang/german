@@ -113,7 +113,7 @@ core:
       allow_until_reply_button: Bist zur nächsten Antwort
       everyone_button: Jede*r
       members_button: => core.group.members
-      signup_closed_button: Geschlossen
+      signup_closed_button: Schließen
       signup_open_button: Offen
 
   # Strings in this namespace are used by the forum user interface.
@@ -203,7 +203,7 @@ core:
       admin_button: Administration
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
-      profile_button: Profile
+      profile_button: Profil
       search_placeholder: Suche
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
@@ -218,11 +218,11 @@ core:
 
     # These strings are used by the sorting control above the discussion list.
     index_sort:
-      latest_button: Letzter
-      newest_button: Neuster
+      latest_button: Zuletzt
+      newest_button: Neuester
       oldest_button: Ältester
       relevance_button: Relevanz
-      top_button: Top
+      top_button: Zum Anfang
 
     # These strings are used in the Log In modal dialog.
     log_in:
@@ -283,7 +283,7 @@ core:
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Web
       notify_discussion_renamed_label: Wenn jemand eine Diskussion ändert, die ich gestartet habe
-      privacy_disclose_online_label: Andere dürden meinen Online-Status sehen
+      privacy_disclose_online_label: Andere dürfen meinen Online-Status sehen
       privacy_heading: Privatsphäre
       title: => core.ref.settings
 
