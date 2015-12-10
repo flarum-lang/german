@@ -14,7 +14,7 @@ flarum-tags:
     # These strings are used in the Edit Tag modal dialog.
     edit_tag:
       color_label: Farben
-      delete_tag_button: Tag löschen
+      delete_tag_button: Kategorie löschen
       delete_tag_confirmation: "Soll der Tag wirklich gelöscht werden? Die Diskussionen werden NICHT gelöscht."
       description_label: Beschreibung
       hide_label: Von allen Diskussionen ausblenden
@@ -27,29 +27,29 @@ flarum-tags:
     # These strings are used in the navigation bar.
     nav:
       tags_button: => flarum-tags.ref.tags
-      tags_text: Ordne die Liste der Tags um die Diskussionen zu organisieren.
+      tags_text: Ordne die Liste der Kategorien um die Diskussionen zu organisieren.
 
     # These strings are used in the Permissions page of the admin interface.
     permissions:
-      allow_edit_tags_label: Erlaube Tags zu ändern
-      restrict_by_tag_heading: Durch Tags beschränken
+      allow_edit_tags_label: Erlaube Kategorien zu ändern
+      restrict_by_tag_heading: Durch Kategorien beschränken
       tag_discussions_label: Diskussionen markieren
 
     # These strings are used in the Tag Settings modal dialog.
     tag_settings:
       range_separator_text: " zu "
-      required_primary_heading: Anzahl der benötigten Primary Tags
-      required_primary_text: Gib die minimale und die maximale Anzahl von Primary Tags an, die einer Diskussion hinzugefügt werden können.
-      required_secondary_heading: Anzahl der benötigten Secondary Tags
-      required_secondary_text: Gib die minimale und die maximale Anzahl von Secondary Tags an, die einer Diskussion hinzugefügt werden können.
-      title: Tag-Einstellungen
+      required_primary_heading: Anzahl der benötigten Hauptkategorien
+      required_primary_text: Gib die minimale und die maximale Anzahl von Hauptkategorien an, die einer Diskussion hinzugefügt werden können.
+      required_secondary_heading: Anzahl der benötigten Unterkategorien
+      required_secondary_text: Gib die minimale und die maximale Anzahl von Unterkategorien an, die einer Diskussion hinzugefügt werden können.
+      title: Kategorie-Einstellungen
 
     # These strings are used in the Tags page.
     tags:
-      about_tags_text: "Tags sind dazu da, um Diskussionen zu kategorisieren. Primary Tags sind wie traditionelle Kategorien in einem Forum: Sie können in zwei Ebenen geordnet werden. Secondary Tags haben keine Ebenen und keine Reihenfolge. Sie können helfen, die Diskussionen feiner zu strukturieren"
+      about_tags_text: "Kategorien sind dazu da, um Diskussionen zu strukturieren. Hauptkategorien sind wie traditionelle Kategorien in einem Forum: Sie können in zwei Ebenen geordnet werden. Unterkategorien haben keine Ebenen und keine Reihenfolge. Sie können helfen, die Diskussionen feiner zu strukturieren"
       create_tag_button: => flarum-tags.ref.create_tag
-      primary_heading: Primary Tags
-      secondary_heading: Secondary Tags
+      primary_heading: Hauptkategorien
+      secondary_heading: Unterkategorien
       settings_button: Einstellungen
 
   # Strings in this namespace are used by the forum user interface.
@@ -57,19 +57,19 @@ flarum-tags:
 
     # These strings are used by the Choose Tags modal dialog.
     choose_tags:
-      choose_primary_placeholder: "Wähle einen Primary Tag|Wähle {count} Primary Tags"
-      choose_secondary_placeholder: "Wähle einen Tag mehr|Wähle {count} Tags mehr"
-      edit_title: "Tags für {title} bearbeiten"
+      choose_primary_placeholder: "Wähle einen Hauptkategorie|Wähle {count} Hauptkategorien"
+      choose_secondary_placeholder: "Wähle eine Kategorie mehr|Wähle {count} Kategorien mehr"
+      edit_title: "Kategorien für {title} bearbeiten"
       submit_button: => core.ref.okay
-      title: Tag für die Diskussion auswählen
+      title: Kategorien für die Diskussion auswählen
 
     # These strings are used by the composer when starting a discussion.
     composer_discussion:
-      choose_tags_link: Tags auswählen
+      choose_tags_link: Kategorien auswählen
 
     # These strings are used by the discussion control buttons.
     discussion_controls:
-      edit_tags_button: Tags ändern
+      edit_tags_button: Kategorien ändern
 
     # These strings are used on the index page, peripheral to the discussion list.
     index:
@@ -79,10 +79,10 @@ flarum-tags:
 
     # These strings are displayed between posts in the post stream.
     post_stream:
-      added_tags_text: "{username} hat den Tag {tagsAdded} hinzugefügt."
-      added_and_removed_tags_text: "{username} hat den Tag {tagsAdded} hinzugefügt und den Tag {tagsRemoved} entfernt."
-      removed_tags_text: "{username} hat den Tag {tagsRemoved} entfernt."
-      tags_text: "{tags} Tag|{tags} Tags"
+      added_tags_text: "{username} hat die Kategorie {tagsAdded} hinzugefügt."
+      added_and_removed_tags_text: "{username} hat die Kategorie {tagsAdded} hinzugefügt und die Kategorie {tagsRemoved} entfernt."
+      removed_tags_text: "{username} hat die Kategorie {tagsRemoved} entfernt."
+      tags_text: "{tags} Kategorie|{tags} Kategorien"
 
   # Strings in this namespace are used by the forum and admin interfaces.
   lib:
@@ -96,6 +96,6 @@ flarum-tags:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    create_tag: Tag erstellen
+    create_tag: Kategorie erstellen
     name: Name
-    tags: Tags
+    tags: Kategorien
