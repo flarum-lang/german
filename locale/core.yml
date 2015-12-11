@@ -332,7 +332,7 @@ core:
     error:
       generic_message: "Oops! Da ist was schief gelaufen. Bitte die Seite neu laden oder noch mal versuchen."
       not_found_message: Leider nichts gefunden.
-      permission_denied_message: Verboten.
+      permission_denied_message: Du hast keine Berechtigung dies zu tun.
       rate_limit_exceeded_message: Bitte warte einen Moment.
 
     # These strings are used as suffixes when abbreviating numbers.
