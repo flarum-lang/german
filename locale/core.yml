@@ -315,7 +315,7 @@ core:
     user_controls:
       button: Kontrolle
       delete_button: => core.ref.delete
-      delete_confirmation: "Soll dieser Nutzer wirklich gelöscht werden? Alle Beiträge werden gelöscht."
+      delete_confirmation: "Soll diese*r Nutzer*in wirklich gelöscht werden? Alle Beiträge werden gelöscht."
       edit_button: => core.ref.edit
 
   # Strings in this namespace are used by the forum and admin interfaces.
@@ -349,7 +349,7 @@ core:
   # Strings in this namespace are used in basic HTML interface.
   basic:
     loading_text: Seite lädt ...
-    load_error_message: Beim landen dieser Seite ist etwas schiefgelaufen.
+    load_error_message: Beim laden dieser Seite ist etwas schiefgelaufen.
     javascript_disabled_message: Dieses Forum ist für moderne Browser mit JavaScript optimiert.
     next_page_button: Nächste Seite
     previous_page_button: Vorherige Seite
