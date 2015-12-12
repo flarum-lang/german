@@ -333,7 +333,7 @@ core:
       generic_message: "Oops! Da ist was schief gelaufen. Bitte die Seite neu laden oder noch mal versuchen."
       not_found_message: Leider nichts gefunden.
       permission_denied_message: Du hast keine Berechtigung dies zu tun.
-      rate_limit_exceeded_message: Bitte warte einen Moment.
+      rate_limit_exceeded_message: Nicht so schnell. Bitte versuche es gleich erneut.
 
     # These strings are used as suffixes when abbreviating numbers.
     number_suffix:
