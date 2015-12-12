@@ -20,7 +20,7 @@ flarum-lock:
 
     # These strings are used by the discussion control buttons.
     discussion_controls:
-      lock_button: Schleißen
+      lock_button: Schließen
       unlock_button: Öffnen
 
     # These strings are used by the Notifications dropdown, a.k.a. "the bell".
@@ -34,4 +34,4 @@ flarum-lock:
 
     # These strings are used in the Settings page.
     settings:
-      notify_discussion_locked_label: Jemand hat eine Diskussion von mir geschlossen
+      notify_discussion_locked_label: Jemand hat eine Diskussion von dir geschlossen

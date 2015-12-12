@@ -219,8 +219,8 @@ core:
     # These strings are used by the sorting control above the discussion list.
     index_sort:
       latest_button: Zuletzt
-      newest_button: Neuester
-      oldest_button: Ältester
+      newest_button: Neueste
+      oldest_button: Älteste
       relevance_button: Relevanz
       top_button: Meist diskutiert
 
@@ -233,7 +233,7 @@ core:
       sign_up_text: "Noch kein Account? Dann <a>Registrieren</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
-      username_or_email_placeholder: Benutzer*innenname oder E-Mail
+      username_or_email_placeholder: Nutzername oder E-Mail
 
     # These strings are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
@@ -257,7 +257,7 @@ core:
 
     # These strings are used in the scrubber to the right of the post stream.
     post_scrubber:
-      now_link: Neuster Beitrag
+      now_link: Neuester Beitrag
       original_post_link: Erster Beitrag
       unread_text: "{count} ungelesen"
       viewing_text: "{index} von {count} Beitrag|{index} von {count} Beiträgen"
@@ -315,7 +315,7 @@ core:
     user_controls:
       button: Kontrolle
       delete_button: => core.ref.delete
-      delete_confirmation: "Soll diese Benutzer*inn wirklich gelöscht weren? Alle Beiträge werden gelöscht."
+      delete_confirmation: "Soll diese*r Nutzer*in wirklich gelöscht werden? Alle Beiträge werden gelöscht."
       edit_button: => core.ref.edit
 
   # Strings in this namespace are used by the forum and admin interfaces.
@@ -331,9 +331,9 @@ core:
     # These strings are displayed as error messages.
     error:
       generic_message: "Oops! Da ist was schief gelaufen. Bitte die Seite neu laden oder noch mal versuchen."
-      not_found_message: Leider nichts gefunen.
-      permission_denied_message: Verboten.
-      rate_limit_exceeded_message: Nicht so hastig. Bitte gleich noch mal versuchen.
+      not_found_message: Leider nichts gefunden.
+      permission_denied_message: Du hast keine Berechtigung dies zu tun.
+      rate_limit_exceeded_message: Nicht so schnell. Bitte versuche es gleich erneut.
 
     # These strings are used as suffixes when abbreviating numbers.
     number_suffix:
@@ -348,11 +348,11 @@ core:
 
   # Strings in this namespace are used in basic HTML interface.
   basic:
-    loading_text: Seite läd ...
-    load_error_message: Es ist etwas schiefgelaufen beim laden dieser Seite.
-    javascript_disabled_message: Dieses Forum ist für moderen Browser mit JavaScript optimiert.
+    loading_text: Seite lädt ...
+    load_error_message: Beim laden dieser Seite ist etwas schiefgelaufen.
+    javascript_disabled_message: Dieses Forum ist für moderne Browser mit JavaScript optimiert.
     next_page_button: Nächste Seite
-    previous_page_button: Vorherrige Seite
+    previous_page_button: Vorherige Seite
 
   ##
   # REUSED STRINGS - These keys should not be used directly in code!
@@ -366,7 +366,7 @@ core:
     confirm_password: Passwort bestätigen
     confirmation_email_sent: "Wir haben eine E-Mail nach {email} geschickt. Bitte schaue in deinem Spam Ordner nach falls nichts ankommen sollte."
     delete: Löschen
-    delete_forever: Entgültig löschen
+    delete_forever: Endgültig löschen
     discussions: Diskussionen
     edit: Ändern
     email: E-Mail
@@ -378,13 +378,13 @@ core:
     okay: Okay                                     # Referenced by flarum-tags.yml
     password: Passwort
     reply: Antworten                                 # Referenced by flarum-mentions.yml
-    restore: Widerherstellen
+    restore: Wiederherstellen
     save_changes: Änderungen speichern                   # Referenced by flarum-tags.yml
     settings: Einstellungen
     sign_up: Registrieren
     some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: Diskussion starten
-    username: Benutzer*innennamen
+    username: Nutzername
     write_a_reply: Eine Antwort schreiben ...
     you: Du                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
