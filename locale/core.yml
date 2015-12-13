@@ -168,7 +168,7 @@ core:
       delete_button: => core.ref.delete
       delete_confirmation: "Soll die Diskussion gelöscht werden?"
       delete_forever_button: => core.ref.delete_forever
-      log_in_to_reply_button: Anmelden um zu Antworten
+      log_in_to_reply_button: => core.ref.reply
       rename_button: Umbenennen
       rename_text: "Eine neue Überschrift für den Beitrag:"
       reply_button: => core.ref.reply
