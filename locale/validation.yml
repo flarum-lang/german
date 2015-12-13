@@ -54,7 +54,7 @@ validation:
     string: "Das :attribute muss :size Zeichen lang sein."
     array: "Das :attribute muss :size Zeichen beinhalten."
   string: "The :attribute must be a string."
-  timezone: "Das :attribute Muss eine gültige Zeitzone sein."
+  timezone: "Das :attribute muss eine gültige Zeitzone sein."
   unique: "Der :attribute ist schon vergeben."
   url: "Das Format der :attribute ist ungültig."
 
