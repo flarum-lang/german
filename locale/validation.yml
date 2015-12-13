@@ -39,30 +39,30 @@ validation:
     string: "The :attribute must be at least :min characters."
     array: "The :attribute must have at least :min items."
   not_in: "The selected :attribute is invalid."
-  numeric: "The :attribute must be a number."
-  regex: "The :attribute format is invalid."
-  required: "The :attribute field is required."
-  required_if: "The :attribute field is required when :other is :value."
-  required_with: "The :attribute field is required when :values is present."
-  required_with_all: "The :attribute field is required when :values is present."
-  required_without: "The :attribute field is required when :values is not present."
-  required_without_all: "The :attribute field is required when none of :values are present."
-  same: "The :attribute and :other must match."
+  numeric: "Das :attribute muss eine Nummer sein."
+  regex: "Das Format des :attribute ist ungültig."
+  required: "Das :attribute darf nicht leer sein."
+  required_if: "Das :attribute darf nicht leer sein wenn :other :value ist."
+  required_with: "Das :attribute darf nicht leer sein wenn :values vorhanden ist."
+  required_with_all: "Das :attribute darf nicht leer sein wenn :values vorhanden ist."
+  required_without: "Das :attribute darf nicht leer sein wenn :values nicht vorhanden ist."
+  required_without_all: "Das :attribute darf nicht leer sein wenn keine :values vorhanden sind."
+  same: "Das :attribute und :other muss gleich sein."
   size:
-    numeric: "The :attribute must be :size."
-    file: "The :attribute must be :size kilobytes."
-    string: "The :attribute must be :size characters."
-    array: "The :attribute must contain :size items."
+    numeric: "Das :attribute muss :size groß sein."
+    file: "Das :attribute muss :size Kilobytes  groß sein."
+    string: "Das :attribute muss :size Zeichen lang sein."
+    array: "Das :attribute muss :size Zeichen beinhalten."
   string: "The :attribute must be a string."
-  timezone: "The :attribute must be a valid zone."
-  unique: "The :attribute has already been taken."
-  url: "The :attribute format is invalid."
+  timezone: "Das :attribute Muss eine gültige Zeitzone sein."
+  unique: "Der :attribute ist schon vergeben."
+  url: "Das Format der :attribute ist ungültig."
 
   attributes:
-    username: username
-    password: password
-    email: email
-    title: title
-    content: content
-    name_singular: singular name
-    name_plural: plural name
+    username: Nutzername
+    password: Passwort
+    email: E-Mail
+    title: Titel
+    content: Feld
+    name_singular: Name in der Einzahl
+    name_plural: Name in der Mehrzahl
