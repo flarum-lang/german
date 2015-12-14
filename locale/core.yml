@@ -51,8 +51,8 @@ core:
       icon_label: Symbol
       icon_text: "Name des <a>FontAwesome</a>-Symbols eingeben, aber <em>ohne</em> den Prefix <code>fa-</code>."
       name_label: Name
-      plural_placeholder: Einzahl (e.g. Mods)
-      singular_placeholder: Mehrzahl (e.g. Mod)
+      plural_placeholder: Name in der Mehrzahl (e.g. Mods)
+      singular_placeholder: Name in der Einzahl (e.g. Mod)
       submit_button: => core.ref.save_changes
       title: Gruppe erstellen
 
@@ -88,12 +88,12 @@ core:
     # These strings are used in the Permissions page of the admin interface.
     permissions:
       allow_renaming_label: Erlaube Umbenennungen
-      allow_post_editing_label: Erlaube das Änderen von Beitragen
+      allow_post_editing_label: Erlaube Beiträge zu ändern
       create_heading: Erstellen
       delete_discussions_forever_label: Lösche die Diskussion entgültig
       delete_discussions_label: Lösche die Diskussion
-      delete_posts_forever_label: Lösche den Beitrag entgültig
-      edit_and_delete_posts_label: Ändere und lösche  Beiträge
+      delete_posts_forever_label: Beitrag entgültig löschen
+      edit_and_delete_posts_label: Beiträge änderen und löschen
       global_heading: Global
       moderate_heading: Moderieren
       new_group_button: Neue Gruppe
@@ -109,9 +109,9 @@ core:
     permissions_controls:
       allow_indefinitely_button: Immer
       allow_some_minutes_button: "Für {count} Minute|Für {count} Minuten"
-      allow_ten_minutes_button: Für 10 Minuten
-      allow_until_reply_button: Bist zur nächsten Antwort
-      everyone_button: Jede*r
+      allow_ten_minutes_button: Für zehn Minuten
+      allow_until_reply_button: Vor einer Antwort
+      everyone_button: Alle
       members_button: => core.group.members
       signup_closed_button: Geschlossen
       signup_open_button: Offen
@@ -176,7 +176,7 @@ core:
 
     # These strings are used in the discussion list.
     discussion_list:
-      empty_text: "Noch keine Diskussionen in diesem Forum."
+      empty_text: "Noch keine (öffentlichen) Diskussionen in diesem Forum."
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: Als gelesen makieren
       replied_text: "{ago} von {username} beantwortet"
