@@ -51,8 +51,8 @@ core:
       icon_label: Symbol
       icon_text: "Name des <a>FontAwesome</a>-Symbols eingeben, aber <em>ohne</em> den Prefix <code>fa-</code>."
       name_label: Name
-      plural_placeholder: Einzahl (e.g. Mods)
-      singular_placeholder: Mehrzahl (e.g. Mod)
+      plural_placeholder: Name in der Mehrzahl (e.g. Mods)
+      singular_placeholder: Name in der Einzahl (e.g. Mod)
       submit_button: => core.ref.save_changes
       title: Gruppe erstellen
 
