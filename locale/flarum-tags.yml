@@ -33,7 +33,7 @@ flarum-tags:
     permissions:
       allow_edit_tags_label: Erlaube Kategorien zu ändern
       restrict_by_tag_heading: Durch Kategorien beschränken
-      tag_discussions_label: Diskussionen markieren
+      tag_discussions_label: Diskussion markieren
 
     # These strings are used in the Tag Settings modal dialog.
     tag_settings:
