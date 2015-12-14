@@ -24,10 +24,10 @@ core:
       all_discussions_label: => core.ref.all_discussions
       default_language_heading: Deutsch
       forum_description_heading: Beschreibung des Forums
-      forum_description_text: Kurze Beschreibung des Forums. Diese wird in in den meta-Tags der Suchmaschinen erscheinen.
-      forum_title_heading: Titel des Forums
+      forum_description_text: Kurze Beschreibung des Forums. Diese wird in in den meta-Tags der Suchmaschienen erscheinen.
+      forum_title_heading: Title des Forums
       home_page_heading: Startseite
-      home_page_text: "Welche Seite sollen Besucher*innen als erstes sehen? Bitte ggf. den relativen Pfad zum Forum eingeben."
+      home_page_text: "Welsche Seite sollen Besucher*innen als erstes sehen? Bitte ggf. den relativen Pfad zum Forum eingeben "
       saved_message: Die Veränderungen wurden übernommen.
       submit_button: => core.ref.save_changes
       welcome_banner_heading: Willkommensnachricht
@@ -88,7 +88,7 @@ core:
     # These strings are used in the Permissions page of the admin interface.
     permissions:
       allow_renaming_label: Erlaube Umbenennungen
-      allow_post_editing_label: Erlaube das Editieren von Beiträgen
+      allow_post_editing_label: Erlaube das Änderen von Beitragen
       create_heading: Erstellen
       delete_discussions_forever_label: Lösche die Diskussion entgültig
       delete_discussions_label: Lösche die Diskussion
@@ -103,7 +103,7 @@ core:
       reply_to_discussions_label: Antworte auf die Diskussion
       sign_up_label: Registrierung
       start_discussions_label:  Diskussion beginnen
-      view_discussions_label: Diskussion lesen
+      view_discussions_label: Diskussionen lesen
 
     # These strings are used in the dropdown menus on the Permissions page.
     permissions_controls:
