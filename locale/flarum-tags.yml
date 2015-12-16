@@ -79,9 +79,9 @@ flarum-tags:
 
     # These strings are displayed between posts in the post stream.
     post_stream:
-      added_tags_text: "{username} hat die Kategorie {tagsAdded} hinzugefügt."
-      added_and_removed_tags_text: "{username} hat die Kategorie {tagsAdded} hinzugefügt und die Kategorie {tagsRemoved} entfernt."
-      removed_tags_text: "{username} hat die Kategorie {tagsRemoved} entfernt."
+      added_tags_text: "{username} hat die {tagsAdded} hinzugefügt."
+      added_and_removed_tags_text: "{username} hat die {tagsAdded} hinzugefügt und die {tagsRemoved} entfernt."
+      removed_tags_text: "{username} hat die {tagsRemoved} entfernt."
       tags_text: "{tags} Kategorie|{tags} Kategorien"
 
   # Strings in this namespace are used by the forum and admin interfaces.
