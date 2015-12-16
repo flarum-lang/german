@@ -9,7 +9,7 @@ flarum-lock:
 
     # These strings are used in the Permissions page of the admin interface.
     permissions:
-      lock_discussions_label: Diskussionen schließen
+      lock_discussions_label: Diskussion schließen
 
   # Strings in this namespace are used by the forum user interface.
   forum:
