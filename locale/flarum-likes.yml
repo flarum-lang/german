@@ -30,7 +30,7 @@ flarum-likes:
 
     # These strings are used by the Users Who Like This modal dialog.
     post_likes:
-      title: Mitglieder welchen das gefallen hat
+      title: Mitglieder, denen dieser Beitrag gefällt
 
     # These strings are used in the Settings page.
     settings:

@@ -163,7 +163,7 @@ core:
 
     # These strings are used by the discussion control buttons.
     discussion_controls:
-      cannot_reply_button: Antworten nicht möglich
+      cannot_reply_button: Antworten aus
       cannot_reply_text: Keine Erlaubnis auf die Diskussion zu antworten.
       delete_button: => core.ref.delete
       delete_confirmation: "Soll die Diskussion gelöscht werden?"
@@ -211,7 +211,7 @@ core:
     # These strings are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
-      cannot_start_discussion_button: Disskusion kann nicht gestartet werden.
+      cannot_start_discussion_button: Diskussion starten aus
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       refresh_tooltip: Aktualisieren
       start_discussion_button: => core.ref.start_a_discussion
