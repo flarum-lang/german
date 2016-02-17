@@ -1,5 +1,7 @@
 # German Extension for [Flarum](http://flarum.org/)
 
+[![Join the chat at https://gitter.im/cbmainz/flarum-de](https://badges.gitter.im/cbmainz/flarum-de.svg)](https://gitter.im/cbmainz/flarum-de?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Extension to localize the Flarum forum software and its official extensions into German.
 
 - [Informations](https://github.com/cbmainz/flarum-de#informations)
