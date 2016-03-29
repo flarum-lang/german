@@ -29,6 +29,7 @@ flarum-subscriptions:
     # These strings are used in the Settings page.
     settings:
       notify_new_post_label: Jemand hat in einer Diskussion gepostet welcher du folgst
+      forum_follow_after_reply_label: Folge Diskussionen automatisch, nachdem du ihnen geantwortet hast
 
     # These strings are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
