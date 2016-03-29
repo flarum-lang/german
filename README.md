@@ -27,6 +27,7 @@ Extension to localize the Flarum forum software and its official extensions into
 	- [Pusher](https://github.com/flarum/pusher) 0.1.0 Beta 5
 	- [Sticky](https://github.com/flarum/sticky) 0.1.0 Beta 5
 	- [Subscriptions](https://github.com/flarum/subscriptions) 0.1.0 Beta 5
+    - [Suspend](https://github.com/flarum/suspend) 0.1.0 Beta 5
 	- [Tags](https://github.com/flarum/tags) 0.1.0 Beta 5
 
 ### License
