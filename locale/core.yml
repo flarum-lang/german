@@ -42,6 +42,13 @@ core:
       support_text: "Found a bug? Please report it in our forum, under the <a>Support tag</a>."
       troubleshooting_text: "Having problems? Follow the instructions in the <a>Troubleshooting docs</a>."
       version_text: "Thanks for trying out Flarum! You are running version {version}."
+      welcome_text: "Willkommen in der Flarum Beta!"
+      
+    # These translations are used in the Edit Custom CSS modal dialog.
+    edit_css:
+      customize_text: "Passe das Aussehen deines Forums mit eigenem LESS/CSS code an, welches über Flarum's <a>Standard Design</a> angewendet wird."
+      submit_button: => core.ref.save_changes
+      title: Bearbeite eigenes CSS
 
     # These strings are used in the Edit Group modal dialog.
     edit_group:
