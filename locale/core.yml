@@ -231,6 +231,7 @@ core:
     index:
       all_discussions_link: => core.ref.all_discussions
       cannot_start_discussion_button: Diskussion starten aus
+      mark_all_as_read_confirmation: "Bist du dir sicher, dass du alle Diskussionen als gelesen markieren willst?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       refresh_tooltip: Aktualisieren
       start_discussion_button: => core.ref.start_a_discussion
@@ -257,7 +258,6 @@ core:
     notifications:
       discussion_renamed_text: "{username} hat den Titel geändert"
       empty_text: Keine neuen Benachrichtigungen
-      mark_all_as_read_confirmation: "Bist du dir sicher, dass du alle Diskussionen als gelesen markieren willst?" 
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       title: => core.ref.notifications
       tooltip: => core.ref.notifications
