@@ -16,7 +16,7 @@ Extension to localize the Flarum forum software and its official extensions into
 
 ### Version
 
-- 0.2.5
+- 0.3.0
 - Released on March 29, 2016
 
 ### Compatibility
