@@ -128,6 +128,10 @@ core:
       members_button: => core.group.members
       signup_closed_button: Geschlossen
       signup_open_button: Offen
+    
+    # These translations are used in the Settings modal dialog.
+    settings:
+      submit_button: => core.ref.save_changes
 
   # Strings in this namespace are used by the forum user interface.
   forum:
@@ -137,7 +141,7 @@ core:
       confirmation_message: => core.ref.confirmation_email_sent
       confirm_password_label: Passwort bestätigen
       dismiss_button: => core.ref.okay
-      incorrect_password_message: Das eingegebene Passwort ist falsch
+      incorrect_password_message: Das eingegebene Passwort ist falsch.
       submit_button: => core.ref.save_changes
       title: => core.ref.change_email
 
@@ -241,7 +245,6 @@ core:
 
     # These strings are used in the Log In modal dialog.
     log_in:
-      confirmation_required_message: "Vor dem Anmelden bitte die E-Mail-Adresse bestätigen. Es wurde eine Bestätigungsmail an {email} geschickt. Bitte ggf. auch den SPAM-Ordner checken."
       forgot_password_link: "Passwort vergessen?"
       invalid_login_message: Die Anmeldedaten sind nicht korrekt.
       password_placeholder: => core.ref.password
@@ -281,6 +284,7 @@ core:
     # These strings are displayed between posts in the post stream.
     post_stream:
       discussion_renamed_text: "{username} änderte den Titel von {old} zu {new}."
+      load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
       time_lapsed_text: "{period} später"
 
@@ -327,11 +331,6 @@ core:
       posts_load_more_button: => core.ref.load_more
       posts_link: Beiträge
       settings_link: => core.ref.settings
-      
-    # These translations are used in unverified user alert box.
-    user_confirmation:
-      alert_message: Du musst deine Email Addresse bestätigen.
-      resend_button: Bestätigungsmail erneut senden
 
     # These strings are found on the user profile page (admin function).
     user_controls:
@@ -339,6 +338,12 @@ core:
       delete_button: => core.ref.delete
       delete_confirmation: "Soll diese*r Nutzer*in wirklich gelöscht werden? Alle Beiträge werden gelöscht."
       edit_button: => core.ref.edit
+      
+    # These translations are used in the alert that is shown when a new user has not confirmed their email address.
+    user_email_confirmation:
+      alert_message: => core.ref.confirmation_email_sent
+      resend_button: Bestätigungsmail erneut senden
+      sent_message: Versendet
 
   # Strings in this namespace are used by the forum and admin interfaces.
   lib:
@@ -347,8 +352,9 @@ core:
     badge:
       hidden_tooltip: Versteckt
 
-    # This string is displayed in place of the username of deleted user account.
-    deleted_user_text: "[deleted]"
+    # These translations are used to modify usernames.
+    username:
+      deleted_text: "[gelöscht]"
 
     # These strings are displayed as error messages.
     error:
@@ -375,6 +381,52 @@ core:
     javascript_disabled_message: Dieses Forum ist für moderne Browser mit JavaScript optimiert.
     next_page_button: Nächste Seite
     previous_page_button: Vorherige Seite
+
+  ##
+  # EMAIL CONTENT
+  ##
+
+  # Strings in this namespace are used in emails sent by the forum.
+  email:
+
+    # These strings are used in emails sent when users register new accounts.
+    activate_account:
+      body: |
+        Hallo {username}!
+
+        Jemand (hoffentlich du!) hat sich im Forum {forum} mit dieser E-Mail-Adresse registriert.
+
+        Wenn du es warst, dann bitte einfach dem folgenden Link folgen, um das Konto zu aktivieren:
+        {url}
+
+        Wenn du dies nich selbst warst, ignoriere diese E-Mail.
+      subject: Aktiviere dein neues Konto
+
+    # These strings are used in emails sent when users change their email address.
+    confirm_email:
+      body: |
+        Hallo {username}!
+
+        Jemand (hoffentlich du!) hat die E-Mail-Adresse im Forum {forum} geändert.
+
+        Wenn du es warst, dann bitte einfach dem folgenden Link folgen, um die neue E-Mai-Adresse zu bestätigen:
+        {url}
+
+        Wenn du dies nich selbst warst, ignoriere diese E-Mail.
+      subject: E-Mail-Addresse bestätigen
+
+    # These strings are used in emails sent when users ask to reset their passwords.
+    reset_password:
+      body: |
+        Hallo {username}!
+
+        Jemand (hoffentlich du!) hat das Zurücksetzen des Passwortes im Forum {forum} beantragt.
+
+        Wenn du es warst, dann bitte einfach dem folgenden Link folgen, um das Passwort neu zusetzen:
+        {url}
+
+        Wenn du dies nich selbst warst, ignoriere diese E-Mail.
+      subject: Passwort zurücksetzen
 
   ##
   # REUSED STRINGS - These keys should not be used directly in code!
@@ -408,56 +460,10 @@ core:
     username: Nutzername
     write_a_reply: Eine Antwort schreiben ...
     you: Du                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
-
+        
+        
   ##
-  # EMAIL CONTENT
-  ##
-
-  # Strings in this namespace are used in emails sent by the forum.
-  email:
-
-    # These strings are used in emails sent when users register new accounts.
-    activate_account:
-      subject: Aktiviere dein neues Konto
-      body: |
-        Hallo {username}!
-
-        Jemand (hoffentlich du!) hat sich im Forum {forum} mit dieser E-Mail-Adresse registriert.
-
-        Wenn du es warst, dann bitte einfach dem folgenden Link folgen, um das Konto zu aktivieren:
-        {url}
-
-        Wenn du dies nich selbst warst, ignoriere diese E-Mail.
-
-    # These strings are used in emails sent when users change their email address.
-    confirm_email:
-      subject: E-Mail-Address bestätigen
-      body: |
-        Hallo {username}!
-
-        Jemand (hoffentlich du!) hat die E-Mail-Adresse im Forum {forum} geändert.
-
-        Wenn du es warst, dann bitte einfach dem folgenden Link folgen, um die neue E-Mai-Adresse zu bestätigen:
-        {url}
-
-        Wenn du dies nich selbst warst, ignoriere diese E-Mail.
-
-    # These strings are used in emails sent when users ask to reset their passwords.
-    reset_password:
-      subject: Passwort zurücksetzen
-
-      body: |
-        Hallo {username}!
-
-        Jemand (hoffentlich du!) hat das Zurücksetzen des Passwortes im Forum {forum} beantragt.
-
-        Wenn du es warst, dann bitte einfach dem folgenden Link folgen, um das Passwort neu zusetzen:
-        {url}
-
-        Wenn du dies nich selbst warst, ignoriere diese E-Mail.
-
-  ##
-  # GROUP NAMES
+  # GROUP NAMES - These keys are translated at the back end.
   ##
 
   # Strings in this namespace are used to translate default group names.
