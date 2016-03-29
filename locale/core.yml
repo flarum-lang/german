@@ -6,6 +6,12 @@ core:
 
   # Strings in this namespace are used by the admin interface.
   admin:
+  
+    # These translations are used in the placeholder Add Extension modal dialog.
+    add_extension:
+      developer_text: "If you're a developer, you can <a>read the docs</a> and have a go at building your own extensions."
+      install_text: "In the meantime, you can look for extensions at the <a>Flarum Community site</a> and install them manually using Composer."
+      temporary_text: "One day in the not-too-distant future, this dialog will allow you to add an extension to your forum with ease. We're building an ecosystem as we speak!"
 
     # These strings are used in the Appearance page.
     appearance:
@@ -129,7 +135,9 @@ core:
     # These strings are used in the Change Email modal dialog.
     change_email:
       confirmation_message: => core.ref.confirmation_email_sent
+      confirm_password_label: Passwort bestätigen
       dismiss_button: => core.ref.okay
+      incorrect_password_message: Das eingegebene Passwort ist falsch
       submit_button: => core.ref.save_changes
       title: => core.ref.change_email
 
@@ -246,6 +254,7 @@ core:
     notifications:
       discussion_renamed_text: "{username} hat den Titel geändert"
       empty_text: Keine neuen Benachrichtigungen
+      mark_all_as_read_confirmation: "Bist du dir sicher, dass du alle Diskussionen als gelesen markieren willst?" 
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       title: => core.ref.notifications
       tooltip: => core.ref.notifications
@@ -318,6 +327,11 @@ core:
       posts_load_more_button: => core.ref.load_more
       posts_link: Beiträge
       settings_link: => core.ref.settings
+      
+    # These translations are used in unverified user alert box.
+    user_confirmation:
+      alert_message: Du musst deine Email Addresse bestätigen.
+      resend_button: Bestätigungsmail erneut senden
 
     # These strings are found on the user profile page (admin function).
     user_controls:
@@ -371,7 +385,6 @@ core:
     all_discussions: Alle Diskussionen
     change_email: E-Mail ändern
     change_password: Passwort ändern
-    confirm_password: Passwort bestätigen
     confirmation_email_sent: "Wir haben eine E-Mail nach {email} geschickt. Bitte schaue in deinem Spam Ordner nach falls nichts ankommen sollte."
     delete: Löschen
     delete_forever: Endgültig löschen
