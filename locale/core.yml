@@ -312,6 +312,7 @@ core:
       avatar_upload_button: Hochladen
       bio_placeholder: Schreibe etwas über dich.
       discussions_link: => core.ref.discussions
+      in_discussion_text: "In {discussion}"
       joined_date_text: "Beitritt {ago}"
       online_text: Online
       posts_load_more_button: => core.ref.load_more
