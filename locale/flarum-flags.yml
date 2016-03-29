@@ -25,12 +25,12 @@ flarum-flags:
       confirmation_message: Danke für das melden dieses Beitrages. Unsere Moderator*innen werden danach schauen.
       dismiss_button: => core.ref.okay
       reason_inappropriate_label: Unangebracht
-      reason_inappropriate_text: "Dieser Beitrag ist angreifend, beleidigend oder verletzt unsere <a>community Richtlinien</a>."
-      reason_off_topic_label: Nicht zur Diskussion dazugehörig
+      reason_inappropriate_text: "Dieser Beitrag ist angreifend, beleidigend oder verletzt unsere <a>Community Richtlinien</a>."
+      reason_off_topic_label: Nicht zur Diskussion passend
       reason_off_topic_text: Dieser Beitrag hat keinen Bezug zu dieser Diskussion und sollte in eine andere Diskussion verschoben werden.
-      reason_other_label: Anderes
+      reason_other_label: Sonstiges
       reason_spam_label: Spam
-      reason_spam_text: Dieser Beitrag ist Werbung.
+      reason_spam_text: Dieser Beitrag ist Werbung oder Spam.
       submit_button: => flarum-flags.ref.flag_post
       title: => flarum-flags.ref.flag_post
 
