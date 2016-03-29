@@ -1,0 +1,33 @@
+flarum-suspend:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      suspend_users_label: Nutzer ausschließen
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used in the Suspend User modal dialog (admin function).
+    suspend_user:
+      indefinitely_label: Dauerhaft ausschließen
+      limited_time_label: Temporär ausschließen ...
+      limited_time_days_text: " Tage"
+      not_suspended_label: Nicht ausschließen
+      status_heading: Ausschluss Status
+      submit_button: => core.ref.save_changes
+      title: "{username} ausschließen"
+
+    # These translations are displayed as tooltips for user badges.
+    user_badge:
+      suspended_tooltip: Ausgeschlossen
+
+    # These translations are found on the user profile page (admin function).
+    user_controls:
+      suspend_button: Ausschließen
