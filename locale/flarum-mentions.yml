@@ -32,4 +32,4 @@ flarum-mentions:
       
     # These translations are used in the user profile page and profile popup.
     user:
-      mentions_link: Nennungen
+      mentions_link: Erwähnungen

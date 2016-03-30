@@ -14,7 +14,7 @@ flarum-tags:
     # These strings are used in the Edit Tag modal dialog.
     edit_tag:
       color_label: Farben
-      delete_tag_button: Kategorie löschen
+      delete_tag_button: Löschen
       delete_tag_confirmation: "Soll der Tag wirklich gelöscht werden? Die Diskussionen werden NICHT gelöscht."
       description_label: Beschreibung
       hide_label: Von allen Diskussionen ausblenden

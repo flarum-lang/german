@@ -19,7 +19,7 @@ core:
       colors_heading: Farben
       colors_text: "Zwei Farben wählen, um den Grundton des Forum zu ändern. Die erste Farbe ist für die Aufhellungen, die zweite ist für die Hintergrundelemente."
       custom_styles_heading: Individueller Stil
-      custom_styles_text: Die Erscheinung des Forums durch eigenen LESS/CSS-Code anpassen.
+      custom_styles_text: Die Erscheinung des Forums durch eigenen LESS/CSS code anpassen.
       dark_mode_label: Dunkles Thema
       edit_css_button: Individuelles CSS bearbeiten
       enter_hex_message: Gebe eine Farbe im hexadezimalen Code ein.
@@ -33,7 +33,7 @@ core:
       forum_description_text: Kurze Beschreibung des Forums. Diese wird in in den meta-Tags der Suchmaschinen erscheinen.
       forum_title_heading: Titel des Forums
       home_page_heading: Startseite
-      home_page_text: "Welche Seite sollen Besucher*innen als erstes sehen? Bitte ggf. den relativen Pfad zum Forum eingeben "
+      home_page_text: "Welche Seite sollen Besucher*innen als erstes sehen? Bitte ggf. den relativen Pfad zum Forum eingeben."
       saved_message: Die Veränderungen wurden übernommen.
       submit_button: => core.ref.save_changes
       welcome_banner_heading: Willkommensnachricht
@@ -52,7 +52,7 @@ core:
       
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
-      customize_text: "Passe das Aussehen deines Forums mit eigenem LESS/CSS code an, welches über Flarum's <a>Standard Design</a> angewendet wird."
+      customize_text: "Passe das Aussehen deines Forums mit eigenem LESS/CSS code an, welches über Flarum's <a>standard Design</a> angewendet wird."
       submit_button: => core.ref.save_changes
       title: Bearbeite eigenes CSS
 
@@ -62,7 +62,7 @@ core:
       delete_button: Gruppe löschen
       delete_confirmation: "Bist du sicher, du möchtest die Gruppe löschen? Die Gruppenmitglieder werden nicht gelöscht."
       icon_label: Symbol
-      icon_text: "Name des <a>FontAwesome</a>-Symbols eingeben, aber <em>ohne</em> den Prefix <code>fa-</code>."
+      icon_text: "Name des <a>FontAwesome</a> Symbols eingeben, aber <em>ohne</em> den Prefix <code>(fa-)</code>."
       name_label: Name
       plural_placeholder: Einzahl (e.g. Mods)
       singular_placeholder: Mehrzahl (e.g. Mod)
