@@ -437,7 +437,7 @@ core:
     all_discussions: Alle Diskussionen
     change_email: E-Mail ändern
     change_password: Passwort ändern
-    confirmation_email_sent: "Wir haben eine E-Mail nach {email} geschickt. Bitte schaue in deinem Spam Ordner nach falls nichts ankommen sollte."
+    confirmation_email_sent: "Wir haben eine Bestätigungsmail an {email} gesendet. Bitte schaue in deinem Spam Ordner nach falls nichts ankommen sollte."
     delete: Löschen
     delete_forever: Endgültig löschen
     discussions: Diskussionen
