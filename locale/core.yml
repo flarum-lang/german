@@ -399,7 +399,7 @@ core:
         Wenn du es warst, dann bitte einfach dem folgenden Link folgen, um das Konto zu aktivieren:
         {url}
 
-        Wenn du dies nich selbst warst, ignoriere diese E-Mail.
+        Wenn du es nicht selbst warst, ignoriere diese E-Mail.
       subject: Aktiviere dein neues Konto
 
     # These strings are used in emails sent when users change their email address.
@@ -412,7 +412,7 @@ core:
         Wenn du es warst, dann bitte einfach dem folgenden Link folgen, um die neue E-Mai-Adresse zu bestätigen:
         {url}
 
-        Wenn du dies nich selbst warst, ignoriere diese E-Mail.
+        Wenn du es nicht selbst warst, ignoriere diese E-Mail.
       subject: E-Mail-Addresse bestätigen
 
     # These strings are used in emails sent when users ask to reset their passwords.
@@ -425,7 +425,7 @@ core:
         Wenn du es warst, dann bitte einfach dem folgenden Link folgen, um das Passwort neu zusetzen:
         {url}
 
-        Wenn du dies nich selbst warst, ignoriere diese E-Mail.
+        Wenn du es nicht selbst warst, ignoriere diese E-Mail.
       subject: Passwort zurücksetzen
 
   ##
