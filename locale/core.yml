@@ -18,11 +18,18 @@ core:
       colored_header_label: Header einfärben
       colors_heading: Farben
       colors_text: "Zwei Farben wählen, um den Grundton des Forum zu ändern. Die erste Farbe ist für die Aufhellungen, die zweite ist für die Hintergrundelemente."
+      custom_header_heading: Individuelle Kopfzeile
+      custom_header_text: "Füge eigenen HTML Code hinzu, welcher über Flarum's eigener Kopfzeile stehen wird."
       custom_styles_heading: Individueller Stil
       custom_styles_text: Die Erscheinung des Forums durch eigenen LESS/CSS code anpassen.
       dark_mode_label: Dunkles Thema
       edit_css_button: Individuelles CSS bearbeiten
+      edit_header_button: Individuelle Kopfzeile bearbeiten
       enter_hex_message: Gebe eine Farbe im hexadezimalen Code ein.
+      favicon_heading: Favicon
+      favicon_text: Lade ein Bild hoch, welches als Favicon für das Forum angezeigt wird.
+      logo_heading: Logo
+      logo_text: Lade ein Logo hoch, welches anstelle des Forum Titels angezeigt wird.
       submit_button: => core.ref.save_changes
 
     # These strings are used in the Basics page.
@@ -68,12 +75,32 @@ core:
       singular_placeholder: Einzahl (e.g. Mod)
       submit_button: => core.ref.save_changes
       title: Gruppe erstellen
+      
+    # These translations are used in the Edit Custom Header modal dialog.
+    edit_header:
+      customize_text: "Füge eigenen HTML Code hinzu, welcher über der Kopfzeile des Forums stehen wird."
+      submit_button: => core.ref.save_changes
+      title: Individuelle Kopfzeile bearbeiten
+
+    # These translations are used in the email page of the admin interface.
+    email:
+      account_heading: SMTP Account
+      addresses_heading: Addressen
+      driver_label: Typ (Driver)
+      encryption_label: Verschlüsselung
+      from_label: Absender
+      heading: => core.ref.email
+      host_label: Host
+      password_label: => core.ref.password
+      port_label: Port
+      server_heading: SMTP Server
+      submit_button: => core.ref.save_changes
+      text: Konfiguriere die SMTP Einstellungen und Addressen, welche verwendet werden um E-Mails zu verschicken.
+      username_label: => core.ref.username
 
     # These strings are used in the Extensions page.
     extensions:
       add_button: Erweiterung hinzufügen
-      disable_button: Deaktivieren
-      enable_button: Aktivieren
       settings_button: => core.ref.settings
       uninstall_button: Deinstallieren
 
@@ -93,6 +120,8 @@ core:
       basics_text: "Ändere den Titel, die Sprache und andere Einstellungen des Forums."
       dashboard_button: Dashboard
       dashboard_text: Das Forum auf einen Blick.
+      email_button: => core.ref.email
+      email_text: "Konfiguriere die E-Mail Einstellungen."
       extensions_button: Erweiterungen
       extensions_text: Mach das Forum zu deinem Eigenen und erweitere es nach deinen Bedürfnissen.
       permissions_button: Zugriffsrechte
@@ -117,6 +146,7 @@ core:
       sign_up_label: Registrierung
       start_discussions_label:  Diskussion beginnen
       view_discussions_label: Diskussionen lesen
+      view_post_ips_label: IP Addressen einsehen
 
     # These strings are used in the dropdown menus on the Permissions page.
     permissions_controls:
@@ -132,6 +162,11 @@ core:
     # These translations are used in the Settings modal dialog.
     settings:
       submit_button: => core.ref.save_changes
+   
+    # These translations are used in image upload buttons.
+    upload_image:
+      remove_button: Entfernen
+      upload_button: Lade ein Bild hoch...
 
   # Strings in this namespace are used by the forum user interface.
   forum:
@@ -139,7 +174,7 @@ core:
     # These strings are used in the Change Email modal dialog.
     change_email:
       confirmation_message: => core.ref.confirmation_email_sent
-      confirm_password_label: Passwort bestätigen
+      confirm_password_placeholder: => core.ref.confirm_password
       dismiss_button: => core.ref.okay
       incorrect_password_message: Das eingegebene Passwort ist falsch.
       submit_button: => core.ref.save_changes
@@ -148,7 +183,7 @@ core:
     # These strings are used in the Change Password modal dialog.
     change_password:
       send_button: Passwort zurücksetzen
-      text: Den Knopf drücken, um einen Link zum zurücksetzen des Passwortes zu erhalten.
+      text: Drücke den Knopf um einen Link zum zurücksetzen des Passwortes zu erhalten.
       title: => core.ref.change_password
 
     # These strings are used by the composer controls.
@@ -206,6 +241,7 @@ core:
       email_label: => core.ref.email
       password_label: => core.ref.password
       submit_button: => core.ref.save_changes
+      title: Nutzer*in bearbeiten
       username_label: => core.ref.username
 
     # These strings are used in the Forgot Password modal dialog.
@@ -256,7 +292,8 @@ core:
 
     # These strings are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      discussion_renamed_text: "{username} hat den Titel geändert"
+      discussion_renamed_old_tooltip: 'Der alte Titel war: "{old}"'
+      discussion_renamed_text: "{username} hat den Titel geändert zu {new}."
       empty_text: Keine neuen Benachrichtigungen
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       title: => core.ref.notifications
@@ -264,6 +301,7 @@ core:
 
     # These strings are used by tooltips displayed for individual posts.
     post:
+      edited_text: Bearbeitet
       edited_tooltip: "{ago} geändert von {username}"
       number_tooltip: "Beitrag #{number}"
 
@@ -323,6 +361,7 @@ core:
     user:
       avatar_remove_button: Entfernen
       avatar_upload_button: Hochladen
+      avatar_upload_tooltip: Lade einen neuen Avatar hoch
       bio_placeholder: Schreibe etwas über dich.
       discussions_link: => core.ref.discussions
       in_discussion_text: "In {discussion}"
@@ -373,24 +412,39 @@ core:
       glue_text: ", "
       three_text: "{first}, {second}, und {third}"
       two_text: "{first} und {second}"
+      
+  # Translations in this namespace are used in views other than Flarum's normal JS client.
+  views:
 
-  # Strings in this namespace are used in basic HTML interface.
-  basic:
-    loading_text: Seite lädt ...
-    load_error_message: Beim laden dieser Seite ist etwas schiefgelaufen.
-    javascript_disabled_message: Dieses Forum ist für moderne Browser mit JavaScript optimiert.
-    next_page_button: Nächste Seite
-    previous_page_button: Vorherige Seite
+    # Translations in this namespace are displayed by the basic HTML content loader.
+    content:
+      javascript_disabled_message: Dieses Forum ist für moderne Browser mit JavaScript optimiert.
+      load_error_message: Beim laden dieser Seite ist etwas schiefgelaufen.
+      loading_text: Seite lädt ...
 
-  ##
-  # EMAIL CONTENT
-  ##
+    # Translations in this namespace are displayed in the basic HTML discussion view.
+    discussion:
+      next_page_button: => core.ref.next_page
+      previous_page_button: Vorherige Seite
+
+    # Translations in this namespace are displayed by the basic HTML discussion index.
+    index:
+      all_discussions_heading: => core.ref.all_discussions
+      next_page_button: => core.ref.next_page
+
+    # Translations in this namespace are displayed by the Reset Password interface.
+    reset:
+      confirm_password_label: => core.ref.confirm_password
+      password_label: => core.ref.password
+      submit_button: Passwort zurücksetzen
+      title: => core.ref.reset_your_password
 
   # Strings in this namespace are used in emails sent by the forum.
   email:
 
     # These strings are used in emails sent when users register new accounts.
     activate_account:
+      subject: Aktiviere dein neues Konto
       body: |
         Hallo {username}!
 
@@ -400,10 +454,10 @@ core:
         {url}
 
         Wenn du es nicht selbst warst, ignoriere diese E-Mail.
-      subject: Aktiviere dein neues Konto
 
     # These strings are used in emails sent when users change their email address.
     confirm_email:
+      subject: E-Mail-Addresse bestätigen
       body: |
         Hallo {username}!
 
@@ -413,10 +467,10 @@ core:
         {url}
 
         Wenn du es nicht selbst warst, ignoriere diese E-Mail.
-      subject: E-Mail-Addresse bestätigen
 
     # These strings are used in emails sent when users ask to reset their passwords.
     reset_password:
+      subject: Passwort zurücksetzen
       body: |
         Hallo {username}!
 
@@ -426,7 +480,6 @@ core:
         {url}
 
         Wenn du es nicht selbst warst, ignoriere diese E-Mail.
-      subject: Passwort zurücksetzen
 
   ##
   # REUSED STRINGS - These keys should not be used directly in code!
@@ -437,6 +490,7 @@ core:
     all_discussions: Alle Diskussionen
     change_email: E-Mail ändern
     change_password: Passwort ändern
+    confirm_password: Passwort bestätigen
     confirmation_email_sent: "Wir haben eine Bestätigungsmail an {email} gesendet. Bitte schaue in deinem Spam Ordner nach falls nichts ankommen sollte."
     delete: Löschen
     delete_forever: Endgültig löschen
@@ -447,10 +501,12 @@ core:
     log_in: Anmelden
     log_out: Abmelden
     mark_all_as_read: Alle als Gelesen makieren
+    next_page: Nächste Seite
     notifications: Benachrichtigungen
     okay: Okay                                     # Referenced by flarum-tags.yml
     password: Passwort
     reply: Antworten                                 # Referenced by flarum-mentions.yml
+    reset_your_password: Setze dein Passwort zurück
     restore: Wiederherstellen
     save_changes: Änderungen speichern                   # Referenced by flarum-tags.yml
     settings: Einstellungen
@@ -460,7 +516,6 @@ core:
     username: Nutzername
     write_a_reply: Eine Antwort schreiben ...
     you: Du                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
-        
         
   ##
   # GROUP NAMES - These keys are translated at the back end.
