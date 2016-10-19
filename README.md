@@ -22,6 +22,15 @@ Extension to localize the Flarum forum software and its official extensions into
 ### Compatibility
 
 - [Flarum](https://github.com/flarum/core) (Core) 0.1.0 Beta 6
+    - [Flags](https://github.com/flarum/flags) 0.1.0 Beta 6
+    - [Likes](https://github.com/flarum/likes) 0.1.0 Beta 6
+    - [Lock](https://github.com/flarum/lock) 0.1.0 Beta 6
+    - [Mentions](https://github.com/flarum/mentions) 0.1.0 Beta 6
+    - [Pusher](https://github.com/flarum/pusher) 0.1.0 Beta 6
+    - [Sticky](https://github.com/flarum/sticky) 0.1.0 Beta 6
+    - [Subscriptions](https://github.com/flarum/subscriptions) 0.1.0 Beta 6
+    - [Suspend](https://github.com/flarum/suspend) 0.1.0 Beta 6
+    - [Tags](https://github.com/flarum/tags) 0.1.0 Beta 6
 
 ### License
 
