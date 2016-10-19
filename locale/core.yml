@@ -86,7 +86,7 @@ core:
     email:
       account_heading: SMTP Account
       addresses_heading: Addressen
-      driver_label: Typ (Driver)
+      driver_label: Treiber
       encryption_label: Verschlüsselung
       from_label: Absender
       heading: => core.ref.email
