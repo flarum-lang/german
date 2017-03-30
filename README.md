@@ -16,12 +16,15 @@ Extension to localize the Flarum forum software and its official extensions into
 
 ### Version
 
-- 0.3.5
-- Released on October 19, 2016
+- 0.3.6
+- Released on March 30, 2017
 
 ### Compatibility
 
 - [Flarum](https://github.com/flarum/core) (Core) 0.1.0 Beta 6
+    - [Auth-Facebook](https://github.com/flarum/flarum-ext-auth-facebook) 0.1.0 Beta 6
+    - [Auth-Github](https://github.com/flarum/flarum-ext-auth-github) 0.1.0 Beta 6
+    - [Auth-Twitter](https://github.com/flarum/flarum-ext-auth-twitter) 0.1.0 Beta 6
     - [Flags](https://github.com/flarum/flags) 0.1.0 Beta 6
     - [Likes](https://github.com/flarum/likes) 0.1.0 Beta 6
     - [Lock](https://github.com/flarum/lock) 0.1.0 Beta 6
