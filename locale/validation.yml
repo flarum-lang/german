@@ -59,7 +59,7 @@ validation:
   url: "Das Format von :attribute ist ungültig."
 
   attributes:
-    username:  Der Nutzername
+    username: Der Nutzername
     password: Das Passwort
     email: Die E-Mail
     title: Der Titel

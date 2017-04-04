@@ -4,7 +4,7 @@
 
 Extension to localize the Flarum forum software and its official extensions into German.
 
-- [Informations](https://github.com/cbmainz/flarum-de#informations)
+- [Information](https://github.com/cbmainz/flarum-de#information)
     - [Version](https://github.com/cbmainz/flarum-de#version)
     - [Compatibility](https://github.com/cbmainz/flarum-de#compatibility)
     - [License](https://github.com/cbmainz/flarum-de#license)
@@ -12,16 +12,17 @@ Extension to localize the Flarum forum software and its official extensions into
     - [How to install?](https://github.com/cbmainz/flarum-de#how-to-install)
     - [How to update?](https://github.com/cbmainz/flarum-de#how-to-update)
 
-## Informations
+## Information
 
 ### Version
 
-- 0.3.6
-- Released on March 30, 2017
+- 0.4
+- Released on April 4, 2017
 
 ### Compatibility
 
 - [Flarum](https://github.com/flarum/core) (Core) 0.1.0 Beta 6
+    - [Akismet](https://github.com/flarum/flarum-ext-akismet) 0.1.0 Beta 6
     - [Auth-Facebook](https://github.com/flarum/flarum-ext-auth-facebook) 0.1.0 Beta 6
     - [Auth-Github](https://github.com/flarum/flarum-ext-auth-github) 0.1.0 Beta 6
     - [Auth-Twitter](https://github.com/flarum/flarum-ext-auth-twitter) 0.1.0 Beta 6
