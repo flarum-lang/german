@@ -40,7 +40,7 @@ validation:
     array: ":attribute muss mindestens :min Elemente haben"
   not_in: "Der gewählte Wert für :attribute ist ungültig."
   numeric: ":attribute muss eine Nummer sein."
-  regex: "Das Format des :attribute ist ungültig."
+  regex: ":attribute ist ungültig."
   required: ":attribute darf nicht leer sein."
   required_if: ":attribute darf nicht leer sein wenn :other :value ist."
   required_with: ":attribute darf nicht leer sein wenn :values vorhanden ist."
@@ -59,10 +59,10 @@ validation:
   url: "Das Format von :attribute ist ungültig."
 
   attributes:
-    username: Nutzername
-    password: Passwort
-    email: E-Mail
-    title: Titel
-    content: Feld
+    username:  Der Nutzername
+    password: Das Passwort
+    email: Die E-Mail
+    title: Der Titel
+    content: Der Inhalt
     name_singular: Name in der Einzahl
     name_plural: Name in der Mehrzahl
