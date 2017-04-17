@@ -511,7 +511,7 @@ core:
     save_changes: Änderungen speichern                   # Referenced by flarum-tags.yml
     settings: Einstellungen
     sign_up: Registrieren
-    some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
+    some_others: "{count} weiterem|{count} weiteren"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: Diskussion starten
     username: Nutzername
     write_a_reply: Eine Antwort schreiben ...
