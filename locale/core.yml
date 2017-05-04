@@ -196,7 +196,7 @@ core:
     # These strings are used by the composer when starting a discussion.
     composer_discussion:
       body_placeholder: Beitrag schreiben ...
-      discard_confirmation: "Der Beitrag wurde nicht nicht abgeschickt, soll sie verworfen werden?"
+      discard_confirmation: "Der Beitrag wurde nicht nicht abgeschickt, soll er verworfen werden?"
       submit_button: Beitrag abschicken
       title: => core.ref.start_a_discussion
       title_placeholder: Titel der Diskussion
@@ -210,7 +210,7 @@ core:
     # These strings are used by the composer when replying to a discussion.
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
-      discard_confirmation: "Die Antwort wurde nicht abgeschickt, sollen sie verworfen werden?"
+      discard_confirmation: "Die Antwort wurde nicht abgeschickt, soll sie verworfen werden?"
       posted_message: Die Antwort wurde abgeschickt.
       submit_button: Antwort abschicken
       view_button: Betrachten
