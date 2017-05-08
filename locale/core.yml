@@ -6,7 +6,7 @@ core:
 
   # Strings in this namespace are used by the admin interface.
   admin:
-  
+
     # These translations are used in the placeholder Add Extension modal dialog.
     add_extension:
       developer_text: "If you're a developer, you can <a>read the docs</a> and have a go at building your own extensions."
@@ -56,7 +56,7 @@ core:
       troubleshooting_text: "Having problems? Follow the instructions in the <a>Troubleshooting docs</a>."
       version_text: "Thanks for trying out Flarum! You are running version {version}."
       welcome_text: "Willkommen in der Flarum Beta!"
-      
+
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
       customize_text: "Passe das Aussehen deines Forums mit eigenem LESS/CSS code an, welches über Flarum's <a>standard Design</a> angewendet wird."
@@ -75,7 +75,7 @@ core:
       singular_placeholder: Einzahl (e.g. Mod)
       submit_button: => core.ref.save_changes
       title: Gruppe erstellen
-      
+
     # These translations are used in the Edit Custom Header modal dialog.
     edit_header:
       customize_text: "Füge eigenen HTML Code hinzu, welcher über der Kopfzeile des Forums stehen wird."
@@ -158,11 +158,11 @@ core:
       members_button: => core.group.members
       signup_closed_button: Geschlossen
       signup_open_button: Offen
-    
+
     # These translations are used in the Settings modal dialog.
     settings:
       submit_button: => core.ref.save_changes
-   
+
     # These translations are used in image upload buttons.
     upload_image:
       remove_button: Entfernen
@@ -196,7 +196,7 @@ core:
     # These strings are used by the composer when starting a discussion.
     composer_discussion:
       body_placeholder: Beitrag schreiben ...
-      discard_confirmation: "Der Beitrag wurde nicht nicht abgeschickt, soll er verworfen werden?"
+      discard_confirmation: "Der Beitrag wurde nicht abgeschickt, soll er verworfen werden?"
       submit_button: Beitrag abschicken
       title: => core.ref.start_a_discussion
       title_placeholder: Titel der Diskussion
@@ -377,7 +377,7 @@ core:
       delete_button: => core.ref.delete
       delete_confirmation: "Soll diese*r Nutzer*in wirklich gelöscht werden? Alle Beiträge werden gelöscht."
       edit_button: => core.ref.edit
-      
+
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
     user_email_confirmation:
       alert_message: => core.ref.confirmation_email_sent
@@ -412,7 +412,7 @@ core:
       glue_text: ", "
       three_text: "{first}, {second}, und {third}"
       two_text: "{first} und {second}"
-      
+
   # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:
 
@@ -516,7 +516,7 @@ core:
     username: Nutzername
     write_a_reply: Eine Antwort schreiben ...
     you: Du                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
-        
+
   ##
   # GROUP NAMES - These keys are translated at the back end.
   ##
