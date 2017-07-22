@@ -16,13 +16,14 @@ Extension to localize the Flarum forum software and its official extensions into
 
 ### Version
 
-- 0.6.0
-- Released on May 1, 2017
+- 0.6.1
+- Released on July 22, 2017
 
 ### Compatibility
 
 - [Flarum](https://github.com/flarum/core) (Core) 0.1.0 Beta 6
     - [Akismet](https://github.com/flarum/flarum-ext-akismet) 0.1.0 Beta 6
+	- [Approval](https://github.com/flarum/flarum-ext-approval) 0.1.0 Beta 6
     - [Auth-Facebook](https://github.com/flarum/flarum-ext-auth-facebook) 0.1.0 Beta 6
     - [Auth-Github](https://github.com/flarum/flarum-ext-auth-github) 0.1.0 Beta 6
     - [Auth-Twitter](https://github.com/flarum/flarum-ext-auth-twitter) 0.1.0 Beta 6
