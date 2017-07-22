@@ -21,21 +21,21 @@ Extension to localize the Flarum forum software and its official extensions into
 
 ### Compatibility
 
-- [Flarum](https://github.com/flarum/core) (Core) 0.1.0 Beta 7
-    - [Akismet](https://github.com/flarum/flarum-ext-akismet) 0.1.0 Beta 7
-	- [Approval](https://github.com/flarum/flarum-ext-approval) 0.1.0 Beta 7
-    - [Auth-Facebook](https://github.com/flarum/flarum-ext-auth-facebook) 0.1.0 Beta 7
-    - [Auth-Github](https://github.com/flarum/flarum-ext-auth-github) 0.1.0 Beta 7
-    - [Auth-Twitter](https://github.com/flarum/flarum-ext-auth-twitter) 0.1.0 Beta 7
-    - [Flags](https://github.com/flarum/flags) 0.1.0 Beta 7
-    - [Likes](https://github.com/flarum/likes) 0.1.0 Beta 7
-    - [Lock](https://github.com/flarum/lock) 0.1.0 Beta 7
-    - [Mentions](https://github.com/flarum/mentions) 0.1.0 Beta 7
-    - [Pusher](https://github.com/flarum/pusher) 0.1.0 Beta 7
-    - [Sticky](https://github.com/flarum/sticky) 0.1.0 Beta 7
-    - [Subscriptions](https://github.com/flarum/subscriptions) 0.1.0 Beta 7
-    - [Suspend](https://github.com/flarum/suspend) 0.1.0 Beta 7
-    - [Tags](https://github.com/flarum/tags) 0.1.0 Beta 7
+- [Flarum](https://github.com/flarum/core) (Core v0.1.0-beta.7)
+    - [Akismet](https://github.com/flarum/flarum-ext-akismet)
+    - [Approval](https://github.com/flarum/flarum-ext-approval)
+    - [Auth-Facebook](https://github.com/flarum/flarum-ext-auth-facebook)
+    - [Auth-Github](https://github.com/flarum/flarum-ext-auth-github)
+    - [Auth-Twitter](https://github.com/flarum/flarum-ext-auth-twitter)
+    - [Flags](https://github.com/flarum/flags)
+    - [Likes](https://github.com/flarum/likes)
+    - [Lock](https://github.com/flarum/lock)
+    - [Mentions](https://github.com/flarum/mentions)
+    - [Pusher](https://github.com/flarum/pusher)
+    - [Sticky](https://github.com/flarum/sticky)
+    - [Subscriptions](https://github.com/flarum/subscriptions)
+    - [Suspend](https://github.com/flarum/suspend)
+    - [Tags](https://github.com/flarum/tags)
 
 ### License
 
