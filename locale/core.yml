@@ -12,6 +12,7 @@ core:
       developer_text: "If you're a developer, you can <a>read the docs</a> and have a go at building your own extensions."
       install_text: "In the meantime, you can look for extensions at the <a>Flarum Community site</a> and install them manually using Composer."
       temporary_text: "One day in the not-too-distant future, this dialog will allow you to add an extension to your forum with ease. We're building an ecosystem as we speak!"
+      title: Erweiterung hinzufügen
 
     # These strings are used in the Appearance page.
     appearance:
@@ -42,6 +43,7 @@ core:
       home_page_heading: Startseite
       home_page_text: "Welche Seite sollen Besucher*innen als erstes sehen? Bitte ggf. den relativen Pfad zum Forum eingeben."
       saved_message: Die Veränderungen wurden übernommen.
+      show_language_selector_label: Sprachen-Auswahlmenü zeigen
       submit_button: => core.ref.save_changes
       welcome_banner_heading: Willkommensnachricht
       welcome_banner_text: Text festlegen, der auf der Seite "Alle Diskussionen" erscheint, um Besucher*innen zu begrüßen.
@@ -147,6 +149,7 @@ core:
       start_discussions_label:  Diskussion beginnen
       view_discussions_label: Diskussionen lesen
       view_post_ips_label: IP Addressen einsehen
+      view_user_list_label: Benutzerliste einsehen
 
     # These strings are used in the dropdown menus on the Permissions page.
     permissions_controls:
@@ -223,8 +226,7 @@ core:
       delete_confirmation: "Soll die Diskussion gelöscht werden?"
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: => core.ref.reply
-      rename_button: Umbenennen
-      rename_text: "Eine neue Überschrift für den Beitrag:"
+      rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
@@ -238,10 +240,16 @@ core:
 
     # These strings are used in the Edit User modal dialog (admin function).
     edit_user:
+      activate_button: Nutzer*in aktivieren
+      email_heading: => core.ref.email
       email_label: => core.ref.email
+      groups_heading: Gruppen
+      password_heading: => core.ref.password
       password_label: => core.ref.password
+      set_password_label: Neues Passwort setzen
       submit_button: => core.ref.save_changes
       title: Nutzer*in bearbeiten
+      username_heading: => core.ref.username
       username_label: => core.ref.username
 
     # These strings are used in the Forgot Password modal dialog.
@@ -256,6 +264,7 @@ core:
     # These strings are used in the header and session dropdown menu.
     header:
       admin_button: Administration
+      back_to_index_tooltip: Zurück zur Diskussionsliste
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: Profil
@@ -285,6 +294,7 @@ core:
       forgot_password_link: "Passwort vergessen?"
       invalid_login_message: Die Anmeldedaten sind nicht korrekt.
       password_placeholder: => core.ref.password
+      remember_me_label: Eingeloggt bleiben
       sign_up_text: "Noch kein Account? Dann <a>Registrieren</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
@@ -325,6 +335,11 @@ core:
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
       time_lapsed_text: "{period} später"
+      
+    # These translations are used by the rename discussion modal.
+    rename_discussion:
+      title: Diskussion umbenennen
+      submit_button: => core.ref.rename
 
     # These strings are used by the search results dropdown list.
     search:
@@ -438,6 +453,10 @@ core:
       password_label: => core.ref.password
       submit_button: Passwort zurücksetzen
       title: => core.ref.reset_your_password
+      
+    # Translations in this namespace are used in messages output by the API.
+    api:
+      invalid_username_message: "Der Nutzername kann nur Buchstaben, Zahlen und Gedankenstriche enthalten."
 
   # Strings in this namespace are used in emails sent by the forum.
   email:
@@ -505,6 +524,7 @@ core:
     notifications: Benachrichtigungen
     okay: Okay                                     # Referenced by flarum-tags.yml
     password: Passwort
+    rename: Umbenennen
     reply: Antworten                                 # Referenced by flarum-mentions.yml
     reset_your_password: Setze dein Passwort zurück
     restore: Wiederherstellen
