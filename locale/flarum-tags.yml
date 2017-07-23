@@ -15,7 +15,7 @@ flarum-tags:
     edit_tag:
       color_label: Farben
       delete_tag_button: Löschen
-      delete_tag_confirmation: "Soll der Tag wirklich gelöscht werden? Die Diskussionen werden NICHT gelöscht."
+      delete_tag_confirmation: "Soll die Kategorie wirklich gelöscht werden? Die Diskussionen werden NICHT gelöscht."
       description_label: Beschreibung
       hide_label: Von allen Diskussionen ausblenden
       name_label: => flarum-tags.ref.name
@@ -74,7 +74,7 @@ flarum-tags:
     # These strings are used on the index page, peripheral to the discussion list.
     index:
       tags_link: => flarum-tags.ref.tags
-      more_link: Mehr ...
+      more_link: Mehr…
       untagged_link: nicht markiert
 
     # These strings are displayed between posts in the post stream.

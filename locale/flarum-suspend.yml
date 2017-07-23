@@ -17,7 +17,7 @@ flarum-suspend:
     # These translations are used in the Suspend User modal dialog (admin function).
     suspend_user:
       indefinitely_label: Dauerhaft ausschließen
-      limited_time_label: Temporär ausschließen ...
+      limited_time_label: Temporär ausschließen…
       limited_time_days_text: " Tage"
       not_suspended_label: Nicht ausschließen
       status_heading: Ausschluss Status

@@ -87,7 +87,7 @@ core:
     # These translations are used in the email page of the admin interface.
     email:
       account_heading: SMTP Account
-      addresses_heading: Addressen
+      addresses_heading: Adressen
       driver_label: Treiber
       encryption_label: Verschlüsselung
       from_label: Absender
@@ -97,7 +97,7 @@ core:
       port_label: Port
       server_heading: SMTP Server
       submit_button: => core.ref.save_changes
-      text: Konfiguriere die SMTP Einstellungen und Addressen, welche verwendet werden um E-Mails zu verschicken.
+      text: Konfiguriere die SMTP Einstellungen und Adressen, welche verwendet werden um E-Mails zu verschicken.
       username_label: => core.ref.username
 
     # These strings are used in the Extensions page.
@@ -112,7 +112,7 @@ core:
 
     # This string is used in the modal dialog displayed when loading extensions.
     loading:
-      title: Bitte warten ...
+      title: Bitte warten…
 
     # These strings are used in the navigation bar.
     nav:
@@ -148,7 +148,7 @@ core:
       sign_up_label: Registrierung
       start_discussions_label:  Diskussion beginnen
       view_discussions_label: Diskussionen lesen
-      view_post_ips_label: IP Addressen einsehen
+      view_post_ips_label: IP Adressen einsehen
       view_user_list_label: Benutzerliste einsehen
 
     # These strings are used in the dropdown menus on the Permissions page.
@@ -169,7 +169,7 @@ core:
     # These translations are used in image upload buttons.
     upload_image:
       remove_button: Entfernen
-      upload_button: Lade ein Bild hoch...
+      upload_button: Lade ein Bild hoch…
 
   # Strings in this namespace are used by the forum user interface.
   forum:
@@ -198,7 +198,7 @@ core:
 
     # These strings are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: Beitrag schreiben ...
+      body_placeholder: Beitrag schreiben…
       discard_confirmation: "Der Beitrag wurde nicht abgeschickt, soll er verworfen werden?"
       submit_button: Beitrag abschicken
       title: => core.ref.start_a_discussion
@@ -435,7 +435,7 @@ core:
     content:
       javascript_disabled_message: Dieses Forum ist für moderne Browser mit JavaScript optimiert.
       load_error_message: Beim laden dieser Seite ist etwas schiefgelaufen.
-      loading_text: Seite lädt ...
+      loading_text: Seite lädt…
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
     discussion:
@@ -476,7 +476,7 @@ core:
 
     # These strings are used in emails sent when users change their email address.
     confirm_email:
-      subject: E-Mail-Addresse bestätigen
+      subject: E-Mail-Adresse bestätigen
       body: |
         Hallo {username}!
 
@@ -534,7 +534,7 @@ core:
     some_others: "{count} weiterem|{count} weiteren"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: Diskussion starten
     username: Nutzername
-    write_a_reply: Eine Antwort schreiben ...
+    write_a_reply: Eine Antwort schreiben…
     you: Du                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##

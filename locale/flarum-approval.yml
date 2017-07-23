@@ -10,8 +10,8 @@ flarum-approval:
     # These translations are used in the Permissions page of the admin interface.
     permissions:
       approve_posts_label: Beitrag genehmigen 
-      reply_without_approval_label: Auf eine Disskusion antworten ohne genehmigen
-      start_discussions_without_approval_label: Disskusion starten ohne genehmigen
+      reply_without_approval_label: Auf eine Diskussion antworten ohne Genehmigung
+      start_discussions_without_approval_label: Diskussion starten ohne Genehmigung
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -34,4 +34,4 @@ flarum-approval:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    awaiting_approval: Warte auf genehmigung
+    awaiting_approval: Warte auf Genehmigung
