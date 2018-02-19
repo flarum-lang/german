@@ -37,7 +37,7 @@ flarum-tags:
 
     # These strings are used in the Tag Settings modal dialog.
     tag_settings:
-      range_separator_text: " zu "
+      range_separator_text: " bis "
       required_primary_heading: Anzahl der benötigten Hauptkategorien
       required_primary_text: Gib die minimale und die maximale Anzahl von Hauptkategorien an, die einer Diskussion hinzugefügt werden können.
       required_secondary_heading: Anzahl der benötigten Unterkategorien
@@ -57,7 +57,7 @@ flarum-tags:
 
     # These strings are used by the Choose Tags modal dialog.
     choose_tags:
-      choose_primary_placeholder: "Wähle einen Hauptkategorie|Wähle {count} Hauptkategorien"
+      choose_primary_placeholder: "Wähle eine Hauptkategorie|Wähle {count} Hauptkategorien"
       choose_secondary_placeholder: "Wähle eine Kategorie mehr|Wähle {count} Kategorien mehr"
       edit_title: "Kategorien für {title} bearbeiten"
       submit_button: => core.ref.okay
