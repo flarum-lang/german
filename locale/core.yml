@@ -9,9 +9,9 @@ core:
 
     # These translations are used in the placeholder Add Extension modal dialog.
     add_extension:
-      developer_text: "If you're a developer, you can <a>read the docs</a> and have a go at building your own extensions."
-      install_text: "In the meantime, you can look for extensions at the <a>Flarum Community site</a> and install them manually using Composer."
-      temporary_text: "One day in the not-too-distant future, this dialog will allow you to add an extension to your forum with ease. We're building an ecosystem as we speak!"
+      developer_text: "Wenn du ein Entwickler bist kannst du dir die <a>Dokumentation durchlesen</a> und dich daran versuchen eigene Erweiterungen zu erstellen."
+      install_text: "In der Zwischenzeit kannst du nach Erweiterungen auf der <a>Flarum Community Seite</a> suchen und diese mithilfe von Composer manuell installieren."
+      temporary_text: "In der nicht zu fernen Zukunft wird dir dieser Dialog ermöglichen Erweiterungen mit Leichtigkeit hinzuzufügen. Wir arbeiten an einem Ökosystem, während wir sprechen!"
       title: Erweiterung hinzufügen
 
     # These strings are used in the Appearance page.
@@ -50,13 +50,13 @@ core:
 
     # These strings are used in the Dashboard page.
     dashboard:
-      beta_warning_text: "This <strong>beta software</strong> is provided primarily so that you can help us test it and make it better; it should not be used in production."
-      contributing_text: "Want to look for bugs and contribute? Read the <a>Contributing docs</a>."
-      extension_text: "Interested in developing extensions? Read the <a>Extension docs</a>."
-      features_text: "Got an idea to improve a feature? Tell us about it under the <a>Features tag</a>."
-      support_text: "Found a bug? Please report it in our forum, under the <a>Support tag</a>."
-      troubleshooting_text: "Having problems? Follow the instructions in the <a>Troubleshooting docs</a>."
-      version_text: "Thanks for trying out Flarum! You are running version {version}."
+      beta_warning_text: "Das hier ist <strong>beta software</strong> die primär bereitgestellt wird damit du uns helfen kannst sie zu testen und zu verbessern; sie sollte nicht in der Produktion genutzt werden."
+      contributing_text: "Möchtest du nach Fehlern suchen und zum Projekt beitragen? Lese dir die <a>Contributing docs</a> durch."
+      extension_text: "Interessiert am entwickeln von Erweiterungen? Lese dir die <a>Extension docs</a> durch."
+      features_text: "Du hast eine Idee für die Verbesserung eines Features? Erzähle uns davon unter der <a>Features Kategorie</a>."
+      support_text: "Einen Bug gefunden? Bitte berichte uns davon in unserem Forum unter der <a>Support Kategorie</a>."
+      troubleshooting_text: "Hast du Probleme? Folge den Instruktionen in den <a>Troubleshooting docs</a>."
+      version_text: "Danke das du Flarum ausprobierst! Du benutzt Version {version}."
       welcome_text: "Willkommen in der Flarum Beta!"
 
     # These translations are used in the Edit Custom CSS modal dialog.
