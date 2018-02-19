@@ -9,8 +9,8 @@ core:
 
     # These translations are used in the placeholder Add Extension modal dialog.
     add_extension:
-      developer_text: "Wenn du ein Entwickler bist kannst du dir die <a>Dokumentation durchlesen</a> und dich daran versuchen eigene Erweiterungen zu schaffen."
-      install_text: "In der Zwischenzeit kannst du nach Erweiterungen auf der <a>Flarum Community Seite</a> suchen und diese manuell installieren mithilfe von Composer."
+      developer_text: "Wenn du ein Entwickler bist kannst du dir die <a>Dokumentation durchlesen</a> und dich daran versuchen eigene Erweiterungen zu erstellen."
+      install_text: "In der Zwischenzeit kannst du nach Erweiterungen auf der <a>Flarum Community Seite</a> suchen und diese mithilfe von Composer manuell installieren."
       temporary_text: "In der nicht zu fernen Zukunft wird dir dieser Dialog ermöglichen Erweiterungen mit Leichtigkeit hinzuzufügen. Wir arbeiten an einem Ökosystem, während wir sprechen!"
       title: Erweiterung hinzufügen
 
@@ -51,11 +51,11 @@ core:
     # These strings are used in the Dashboard page.
     dashboard:
       beta_warning_text: "Das hier ist <strong>beta software</strong> die primär bereitgestellt wird damit du uns helfen kannst sie zu testen und zu verbessern; sie sollte nicht in der Produktion genutzt werden."
-      contributing_text: "Möchtest du nach Fehlern suchen und zum Projekt beitragen? Lese dir die<a>Contributing docs</a> durch."
-      extension_text: "Interessiert im entwickeln von Erweiterung? Les dir die <a>Extension docs</a> durch."
-      features_text: "Du hast eine Idee für die Verbesserung eines Features? Erzähl uns davon unter dem <a>Features tag</a>."
-      support_text: "Einen Bug gefunden? Bitte berichte uns davon in unserem Forum, unter dem <a>Support tag</a>."
-      troubleshooting_text: "Hast du Probleme? Follow the instructions in the <a>Troubleshooting docs</a>."
+      contributing_text: "Möchtest du nach Fehlern suchen und zum Projekt beitragen? Lese dir die <a>Contributing docs</a> durch."
+      extension_text: "Interessiert am entwickeln von Erweiterungen? Lese dir die <a>Extension docs</a> durch."
+      features_text: "Du hast eine Idee für die Verbesserung eines Features? Erzähle uns davon unter der <a>Features Kategorie</a>."
+      support_text: "Einen Bug gefunden? Bitte berichte uns davon in unserem Forum unter der <a>Support Kategorie</a>."
+      troubleshooting_text: "Hast du Probleme? Folge den Instruktionen in den <a>Troubleshooting docs</a>."
       version_text: "Danke das du Flarum ausprobierst! Du benutzt Version {version}."
       welcome_text: "Willkommen in der Flarum Beta!"
 
