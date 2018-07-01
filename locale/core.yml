@@ -434,7 +434,7 @@ core:
     # Translations in this namespace are displayed by the basic HTML content loader.
     content:
       javascript_disabled_message: Dieses Forum ist für moderne Browser mit JavaScript optimiert.
-      load_error_message: Beim laden dieser Seite ist etwas schiefgelaufen.
+      load_error_message: Beim Laden dieser Seite ist etwas schiefgelaufen.
       loading_text: Seite lädt…
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
