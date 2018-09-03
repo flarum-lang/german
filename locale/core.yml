@@ -18,12 +18,12 @@ core:
     appearance:
       colored_header_label: Header einfärben
       colors_heading: Farben
-      colors_text: "Zwei Farben wählen, um den Grundton des Forums zu ändern. Die erste Farbe ist für die Aufhellungen, die zweite ist für die Hintergrundelemente."
+      colors_text: "Zwei Farben wählen, um den Grundton des Forums zu ändern. Die erste Farbe ist für die Akzente, die zweite ist für die Hintergrundelemente."
       custom_header_heading: Individuelle Kopfzeile
-      custom_header_text: "Füge eigenen HTML Code hinzu, welcher über Flarums eigener Kopfzeile stehen wird."
+      custom_header_text: "Füge eigenes HTML hinzu, das über der Flarum-Kopfzeile stehen wird."
       custom_styles_heading: Individueller Stil
-      custom_styles_text: Die Erscheinung des Forums durch eigenen LESS/CSS Code anpassen.
-      dark_mode_label: Dunkles Thema
+      custom_styles_text: Die Erscheinung des Forums durch eigenen LESS/CSS-Code anpassen.
+      dark_mode_label: Dunkles Theme
       edit_css_button: Individuelles CSS bearbeiten
       edit_header_button: Individuelle Kopfzeile bearbeiten
       enter_hex_message: Gib eine Farbe im hexadezimalen Format ein.
@@ -51,17 +51,17 @@ core:
     # These strings are used in the Dashboard page.
     dashboard:
       beta_warning_text: "Das hier ist <strong>Beta-Software</strong>, die primär bereitgestellt wird damit du uns helfen kannst, sie zu testen und zu verbessern. Sie sollte nicht produktiv genutzt werden."
-      contributing_text: "Möchtest du nach Fehlern suchen, und zum Projekt beitragen? Lies dir die <a>Contributing docs</a> durch."
-      extension_text: "Interessiert am entwickeln von Erweiterungen? Lies dir die <a>Extension docs</a> durch."
+      contributing_text: "Möchtest du nach Fehlern suchen, und zum Projekt beitragen? Lies dir die <a>Contributing Docs</a> durch."
+      extension_text: "Interessiert am Entwickeln von Erweiterungen? Lies dir die <a>Extension Docs</a> durch."
       features_text: "Du hast eine Idee für die Verbesserung eines Features? Erzähle uns davon in der <a>Features-Kategorie</a>."
       support_text: "Einen Bug gefunden? Bitte berichte uns davon in unserem Forum in der <a>Support-Kategorie</a>."
-      troubleshooting_text: "Hast du Probleme? Folge den Instruktionen in den <a>Troubleshooting docs</a>."
-      version_text: "Danke dass du Flarum ausprobierst! Du benutzt Version {version}."
+      troubleshooting_text: "Hast du Probleme? Folge den Instruktionen in den <a>Troubleshooting Docs</a>."
+      version_text: "Danke, dass du Flarum ausprobierst! Du benutzt Version {version}."
       welcome_text: "Willkommen in der Flarum Beta!"
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
-      customize_text: "Passe das Aussehen deines Forums mit eigenem LESS/CSS-Code an, welcher zusätzlich zu Flarums <a>Standard Design</a> angewendet wird."
+      customize_text: "Passe das Aussehen deines Forums mit eigenem LESS/CSS-Code an, welcher zusätzlich zu Flarums <a>Standard-Design</a> angewendet wird."
       submit_button: => core.ref.save_changes
       title: Bearbeite eigenes CSS
 
@@ -73,14 +73,14 @@ core:
       icon_label: Symbol
       icon_text: "Name des <a>FontAwesome</a> Symbols eingeben, aber <em>ohne</em> den Prefix <code>(fa-)</code>."
       name_label: Name
-      plural_placeholder: Mehrzahl (e.g. Mods)
-      singular_placeholder: Einzahl (e.g. Mod)
+      plural_placeholder: Mehrzahl (z.B. Mods)
+      singular_placeholder: Einzahl (z.B. Mod)
       submit_button: => core.ref.save_changes
       title: Gruppe erstellen
 
     # These translations are used in the Edit Custom Header modal dialog.
     edit_header:
-      customize_text: "Füge eigenen HTML-Code hinzu, welcher über der Kopfzeile des Forums stehen wird."
+      customize_text: "Füge eigenes HTML hinzu, das über der Flarum-Kopfzeile stehen wird."
       submit_button: => core.ref.save_changes
       title: Individuelle Kopfzeile bearbeiten
 
@@ -139,9 +139,9 @@ core:
       delete_posts_forever_label: Beitrag endgültig löschen
       edit_and_delete_posts_label: Beitrag ändern/löschen
       global_heading: Global
-      moderate_heading: Moderieren
+      moderate_heading: Moderation
       new_group_button: Neue Gruppe
-      participate_heading: Teilnehmende
+      participate_heading: Teilnehmer
       read_heading: Lesen
       rename_discussions_label: Diskussion umbenennen
       reply_to_discussions_label: Antworte auf die Diskussion
@@ -216,7 +216,7 @@ core:
       discard_confirmation: "Die Antwort wurde nicht abgeschickt. Soll sie verworfen werden?"
       posted_message: Die Antwort wurde abgeschickt.
       submit_button: Antwort abschicken
-      view_button: Betrachten
+      view_button: Anzeigen
 
     # These strings are used by the discussion control buttons.
     discussion_controls:
@@ -256,7 +256,7 @@ core:
     forgot_password:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      email_sent_message: Ein Link zum Zurücksetzen des Passwortes wurde gesendet. Bitte ggf. auch den Spam-Ordner checken.
+      email_sent_message: Ein Link zum Zurücksetzen des Passwortes wurde verschickt. Bitte ggf. auch den Spam-Ordner checken.
       submit_button: Passwort wiederherstellen
       text: Um einen Link zum Zurücksetzen des Passwortes zu erhalten, bitte E-Mail-Adresse eintragen.
       title: Passwort vergessen
@@ -275,7 +275,7 @@ core:
     # These strings are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
-      cannot_start_discussion_button: Diskussion starten aus
+      cannot_start_discussion_button: \"Diskussion starten\" deaktiviert
       mark_all_as_read_confirmation: "Bist du dir sicher, dass du alle Diskussionen als gelesen markieren willst?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       refresh_tooltip: Aktualisieren
@@ -295,7 +295,7 @@ core:
       invalid_login_message: Die Anmeldedaten sind nicht korrekt.
       password_placeholder: => core.ref.password
       remember_me_label: Eingeloggt bleiben
-      sign_up_text: "Noch kein Account? Dann <a>Registrieren</a>"
+      sign_up_text: "Noch kein Account? Dann <a>registrieren</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
       username_or_email_placeholder: Nutzername oder E-Mail
@@ -377,7 +377,7 @@ core:
       avatar_remove_button: Entfernen
       avatar_upload_button: Hochladen
       avatar_upload_tooltip: Lade einen neuen Avatar hoch
-      bio_placeholder: Schreibe etwas über dich.
+      bio_placeholder: Schreib etwas über dich.
       discussions_link: => core.ref.discussions
       in_discussion_text: "In {discussion}"
       joined_date_text: "Beitritt {ago}"

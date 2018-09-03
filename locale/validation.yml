@@ -1,6 +1,6 @@
 validation:
   accepted: ":attribute muss akzeptiert werden."
-  active_url: "attribute ist keine gültige Internet-Adresse."
+  active_url: ":attribute ist keine gültige URL."
   after: ":attribute muss ein Datum nach dem :date sein."
   after_or_equal: ":attribute muss ein Datum nach oder an dem :date sein."
   alpha: ":attribute darf nur aus Buchstaben bestehen."

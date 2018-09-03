@@ -20,7 +20,7 @@ flarum-suspend:
       limited_time_label: Temporär ausschließen…
       limited_time_days_text: " Tage"
       not_suspended_label: Nicht ausschließen
-      status_heading: Ausschluss Status
+      status_heading: Ausschluss-Status
       submit_button: => core.ref.save_changes
       title: "{username} ausschließen"
 
