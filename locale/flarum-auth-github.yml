@@ -11,7 +11,7 @@ flarum-auth-github:
     github_settings:
       client_id_label: Client ID
       client_secret_label: Client Secret
-      title: GitHub Einstellungen
+      title: GitHub-Einstellungen
 
   # Translations in this namespace are used by the forum user interface.
   forum:
