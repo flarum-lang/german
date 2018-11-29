@@ -9,6 +9,7 @@ flarum-mentions:
 
     # These strings are used by the composer (reply autocompletion function).
     composer:
+      mention_tooltip: Benutzer*in oder Beitrag erwähnen
       reply_to_post_text: "Antwort auf #{number}"
 
     # These strings are used by the Notifications dropdown, a.k.a. "the bell".

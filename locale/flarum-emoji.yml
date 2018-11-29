@@ -1,0 +1,10 @@
+flarum-emoji:
+   ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+   # Translations in this namespace are used by the forum user interface.
+  forum:
+     # These translations are used by the composer (emoji autocompletion function).
+    composer:
+      emoji_tooltip: Emoji einfügen
+      type_to_search_text: Tippe um nach Emojis zusuchen

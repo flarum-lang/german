@@ -71,6 +71,9 @@ flarum-tags:
     discussion_controls:
       edit_tags_button: Kategorien ändern
 
+    header:
+      back_to_tags_tooltip: Zurück zur Kategorien auswahl
+  
     # These strings are used on the index page, peripheral to the discussion list.
     index:
       tags_link: => flarum-tags.ref.tags

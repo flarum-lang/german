@@ -61,6 +61,7 @@ validation:
   timezone: ":attribute muss eine gültige Zeitzone sein."
   unique: ":attribute ist schon vergeben."
   url: "Das Format von :attribute ist ungültig."
+  uuid: ":attribute muss eine gültige UUID sein."
 
   attributes:
     username: Der Nutzername

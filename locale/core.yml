@@ -53,7 +53,8 @@ core:
 
     # These strings are used in the Dashboard page.
     dashboard:
-      help_link: Hilfe
+      clear_cache_button: Cache löschen
+      tools_button: Werkzeuge
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
@@ -73,7 +74,7 @@ core:
       delete_button: Gruppe löschen
       delete_confirmation: "Bist du sicher, dass du diese Gruppe löschen möchtest? Die Gruppenmitglieder werden nicht gelöscht."
       icon_label: Symbol
-      icon_text: "Name des <a>FontAwesome</a> Symbols eingeben, aber <em>ohne</em> den Prefix <code>(fa-)</code>."
+      icon_text: "Name des <a>FontAwesome</a> Symbols eingeben, aber <em>mit</em> dem Prefix <code>fas- fa-</code>."
       name_label: Name
       plural_placeholder: Mehrzahl (z.B. Mods)
       singular_placeholder: Einzahl (z.B. Mod)
@@ -139,7 +140,8 @@ core:
       delete_discussions_forever_label: Diskussion endgültig löschen
       delete_discussions_label: Diskussion löschen
       delete_posts_forever_label: Beitrag endgültig löschen
-      edit_and_delete_posts_label: Beitrag ändern/löschen
+      delete_posts_label: Beitrag löschen
+      edit_posts_label: Beitrag bearbeiten
       global_heading: Global
       moderate_heading: Moderation
       new_group_button: Neue Gruppe
@@ -152,6 +154,7 @@ core:
       view_discussions_label: Diskussionen lesen
       view_post_ips_label: IP-Adressen einsehen
       view_user_list_label: Benutzerliste einsehen
+      view_last_seen_at_label: Anzeigen wann der Benutzer zulezt gesehen wurde
 
     # These strings are used in the dropdown menus on the Permissions page.
     permissions_controls:
@@ -384,6 +387,7 @@ core:
       in_discussion_text: "In {discussion}"
       joined_date_text: "Beitritt {ago}"
       online_text: Online
+      posts_empty_text: "Es sieht so aus, als gäbe es hier keine Beiträge."
       posts_load_more_button: => core.ref.load_more
       posts_link: => core.ref.posts
       settings_link: => core.ref.settings
