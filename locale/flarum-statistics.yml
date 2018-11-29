@@ -8,6 +8,7 @@ flarum-statistics:
 
     # These translations are used in the Statistics dashboard widget.
     statistics:
+      active_users_text: "{count} Aktiv"
       discussions_heading: => core.ref.discussions
       last_28_days_label: Letzte 28 Tage
       last_7_days_label: Letzte 7 Tage
