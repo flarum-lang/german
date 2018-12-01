@@ -13,7 +13,7 @@ flarum-tags:
 
     # These strings are used in the Edit Tag modal dialog.
     edit_tag:
-      color_label: Farben
+      color_label: => core.ref.color
       delete_tag_button: Löschen
       delete_tag_confirmation: "Soll die Kategorie wirklich gelöscht werden? Die Diskussionen werden NICHT gelöscht."
       description_label: Beschreibung
@@ -72,7 +72,7 @@ flarum-tags:
       edit_tags_button: Kategorien ändern
 
     header:
-      back_to_tags_tooltip: Zurück zur Kategorien auswahl
+      back_to_tags_tooltip: Zurück zur Kategorien-Auswahl
   
     # These strings are used on the index page, peripheral to the discussion list.
     index:
@@ -82,8 +82,8 @@ flarum-tags:
 
     # These strings are displayed between posts in the post stream.
     post_stream:
-      added_tags_text: "{username} hat die {tagsAdded} hinzugefügt."
       added_and_removed_tags_text: "{username} hat die {tagsAdded} hinzugefügt und die {tagsRemoved} entfernt."
+      added_tags_text: "{username} hat die {tagsAdded} hinzugefügt."
       removed_tags_text: "{username} hat die {tagsRemoved} entfernt."
       tags_text: "{tags} Kategorie|{tags} Kategorien"
 

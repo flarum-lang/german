@@ -13,17 +13,16 @@ flarum-suspend:
 
   # Translations in this namespace are used by the forum user interface.
   forum:
-
     # These translations are used in the suspension notifications
     notifications:
-      user_suspended_text: "{username} hat dich gesperrt für {timeReadable}"
+      user_suspended_text: "{username} hat dich für {timeReadable} gesperrt"
       user_unsuspended_text: "{username} hat dich entsperrt"
 
     # These translations are used in the Suspend User modal dialog (admin function).
     suspend_user:
       indefinitely_label: Dauerhaft ausschließen
-      limited_time_label: Temporär ausschließen…
       limited_time_days_text: " Tage"
+      limited_time_label: Temporär ausschließen …
       not_suspended_label: Nicht ausschließen
       status_heading: Ausschluss-Status
       submit_button: => core.ref.save_changes
