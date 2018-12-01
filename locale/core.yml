@@ -53,7 +53,7 @@ core:
 
     # These strings are used in the Dashboard page.
     dashboard:
-      clear_cache_button: Cache löschen
+      clear_cache_button: Cache leeren
       tools_button: Werkzeuge
 
     # These translations are used in the Edit Custom CSS modal dialog.
