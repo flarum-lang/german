@@ -226,8 +226,8 @@ core:
 
     # These strings are used by the discussion control buttons.
     discussion_controls:
-      cannot_reply_button: Antworten aus
-      cannot_reply_text: Keine Erlaubnis auf die Diskussion zu antworten.
+      cannot_reply_button: Antworten
+      cannot_reply_text: Du hast keine Erlaubnis auf die Diskussion zu antworten.
       delete_button: => core.ref.delete
       delete_confirmation: "Soll die Diskussion gelöscht werden?"
       delete_forever_button: => core.ref.delete_forever
