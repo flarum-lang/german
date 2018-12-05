@@ -282,7 +282,7 @@ core:
     # These strings are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
-      cannot_start_discussion_button: "\"Diskussion starten\" deaktiviert"
+      cannot_start_discussion_button: "Diskussion starten (deaktiviert)"
       mark_all_as_read_confirmation: "Bist du dir sicher, dass du alle Diskussionen als gelesen markieren willst?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       refresh_tooltip: Aktualisieren
@@ -533,9 +533,9 @@ core:
     color: Color                                                # Referenced by flarum-tags.yml
     confirm_password: Passwort bestätigen
     confirmation_email_sent: "Wir haben eine Bestätigungsmail an {email} gesendet. Bitte schaue in deinem Spam-Ordner nach, falls nichts ankommen sollte."
-    custom_footer_text: "Füge eigenen HTML-Code hinzu, welcher am Ende der Seite stehen wird."
+    custom_footer_text: "Füge eigenen HTML-Code hinzu, welcher am Ende der Seite eingefügt wird."
     custom_footer_title: "Individuelle Fußzeile bearbeiten"
-    custom_header_text: "Füge eigenen HTML-Code hinzu, welcher über der Flarum-Kopfzeile stehen wird."
+    custom_header_text: "Füge eigenen HTML-Code hinzu, welcher über der Flarum-Kopfzeile eingefügt wird."
     custom_header_title: Individuelle Kopfzeile bearbeiten
     delete: Löschen
     delete_forever: Endgültig löschen
