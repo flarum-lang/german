@@ -16,12 +16,12 @@ Extension to localize the Flarum forum software and its official extensions into
 
 ### Version
 
-- 0.8.0
-- Released on December 1, 2018
+- 0.8.1
+- Released on December 11, 2018
 
 ### Compatibility
 
-- [Flarum](https://github.com/flarum/core) (Core v0.1.0-beta.8)
+- [Flarum](https://github.com/flarum/core) (Core v0.1.0-beta.8.1)
     - [Akismet](https://github.com/flarum/flarum-ext-akismet)
     - [Approval](https://github.com/flarum/flarum-ext-approval)
     - [Auth-Facebook](https://github.com/flarum/flarum-ext-auth-facebook)
