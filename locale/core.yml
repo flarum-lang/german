@@ -74,7 +74,7 @@ core:
       delete_button: Gruppe löschen
       delete_confirmation: "Bist du sicher, dass du diese Gruppe löschen möchtest? Die Gruppenmitglieder werden nicht gelöscht."
       icon_label: Symbol
-      icon_text: "Name des <a>FontAwesome</a> Symbols eingeben, aber <em>mit</em> dem Prefix <code>fas- fa-</code>."
+      icon_text: "Name des <a>FontAwesome</a>-Symbols eingeben, aber <em>mit</em> dem Prefix <code>fas fa-</code>."
       name_label: Name
       plural_placeholder: Mehrzahl (z.B. Mods)
       singular_placeholder: Einzahl (z.B. Mod)
@@ -394,7 +394,7 @@ core:
 
     # These strings are found on the user profile page (admin function).
     user_controls:
-      button: Kontrolle
+      button: Bearbeiten
       delete_button: => core.ref.delete
       delete_confirmation: "Soll diese*r Nutzer*in wirklich gelöscht werden? Alle Beiträge werden gelöscht."
       edit_button: => core.ref.edit
