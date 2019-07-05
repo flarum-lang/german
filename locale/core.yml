@@ -73,8 +73,8 @@ core:
       color_label: => core.ref.color
       delete_button: Gruppe löschen
       delete_confirmation: "Bist du sicher, dass du diese Gruppe löschen möchtest? Die Gruppenmitglieder werden nicht gelöscht."
-      icon_label: Symbol
-      icon_text: "Name des <a>FontAwesome</a>-Symbols eingeben, aber <em>mit</em> dem Prefix <code>fas fa-</code>."
+      icon_label: => core.ref.icon
+      icon_text: => core.ref.icon_text
       name_label: Name
       plural_placeholder: Mehrzahl (z.B. Mods)
       singular_placeholder: Einzahl (z.B. Mod)
@@ -91,16 +91,27 @@ core:
     email:
       account_heading: SMTP-Account
       addresses_heading: Adressen
+      driver_heading: Wähle einen Treiber
       driver_label: Treiber
-      encryption_label: Verschlüsselung
       from_label: Absender
       heading: => core.ref.email
-      host_label: Host
-      password_label: => core.ref.password
-      port_label: Port
-      server_heading: SMTP-Server
+      mail_encryption_label: Verschlüsselung
+      mail_host_label: Host
+      mail_mailgun_domain_label: Domäne
+      mail_mailgun_secret_label: Geheimer Schlüssel
+      mail_mandrill_secret_label: Geheimer Schlüssel
+      mail_password_label: => core.ref.password
+      mail_port_label: Port
+      mail_ses_key_label: Schlüssel
+      mail_ses_region_label: Region
+      mail_ses_secret_label: Geheimnis
+      mail_username_label: => core.ref.username
+      mailgun_heading: Mailgun Einstellungen
+      mandrill_heading: Mandrill Einstellugen
+      ses_heading: SES Einstellungen
+      smtp_heading: SMTP Einstellungen
       submit_button: => core.ref.save_changes
-      text: Konfiguriere die SMTP-Einstellungen und Adressen, die verwendet werden um E-Mails zu verschicken.
+      text: Konfiguriere den Mail-Treiber, die Einstellungen und Addressen, die verwendet werden um E-Mails zu verschicken.
       username_label: => core.ref.username
 
     # These strings are used in the Extensions page.
@@ -342,7 +353,7 @@ core:
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
       time_lapsed_text: "{period} später"
-      
+
     # These translations are used by the rename discussion modal.
     rename_discussion:
       submit_button: => core.ref.rename
@@ -447,12 +458,14 @@ core:
     discussion:
       next_page_button: => core.ref.next_page
       previous_page_button: => core.ref.previous_page
-    
+
     # Translations in this namespace are displayed when Flarum encounters an error.
     error:
       403_message: Du hast keine Berechtigung auf diese Seite zuzugreifen.
       404_message: Die angeforderte Seite konnte nicht gefunden werden.
       404_return_link: "Zurück zu {forum}"
+      419_message: Du warst zu lange inaktiv.
+      419_return_link: Gehe zurück um es erneut zu versuchen
       500_message: Beim Versuch, diese Seite zu laden, ist ein Fehler aufgetreten.
       503_message: "{forum} befindet sich in der Wartung. Vielen Dank für deine Geduld!"
 
@@ -461,20 +474,20 @@ core:
       all_discussions_heading: => core.ref.all_discussions
       next_page_button: => core.ref.next_page
       previous_page_button: => core.ref.previous_page
-    
+
     # Translations in this namespace are displayed by the Log Out confirmation interface.
     log_out:
       log_out_button: => core.ref.log_out
       log_out_confirmation: "Bist du sicher, dass du dich von {forum} ausloggen willst?"
       title: => core.ref.log_out
-    
+
     # Translations in this namespace are displayed by the Reset Password interface.
     reset_password:
       confirm_password_label: Neues Passwort bestätigen
       new_password_label: Neues Passwort
       submit_button: => core.ref.save_changes
       title: => core.ref.reset_your_password
-      
+
     # Translations in this namespace are used in messages output by the API.
     api:
       invalid_username_message: "Der Nutzername darf nur Buchstaben, Zahlen und Gedankenstriche enthalten."
@@ -542,6 +555,8 @@ core:
     discussions: Diskussionen                                   # Referenced by flarum-statistics.yml
     edit: Ändern
     email: E-Mail
+    icon: Symbol
+    icon_text: "Name des <a>FontAwesome</a> Symbols eingeben, aber <em>mit</em> dem Prefix <code>fas- fa-</code>."
     load_more: Weitere laden
     log_in: Anmelden
     log_out: Abmelden

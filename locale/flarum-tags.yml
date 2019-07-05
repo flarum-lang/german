@@ -18,6 +18,8 @@ flarum-tags:
       delete_tag_confirmation: "Soll die Kategorie wirklich gelöscht werden? Die Diskussionen werden NICHT gelöscht."
       description_label: Beschreibung
       hide_label: Von allen Diskussionen ausblenden
+      icon_label: => core.ref.icon
+      icon_text: => core.ref.icon_text
       name_label: => flarum-tags.ref.name
       name_placeholder: => flarum-tags.ref.name
       slug_label: Slug
