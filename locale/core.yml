@@ -554,7 +554,7 @@ core:
     edit: Ändern
     email: E-Mail
     icon: Symbol
-    icon_text: "Name des <a>FontAwesome</a> Symbols eingeben, aber <em>mit</em> dem Prefix <code>fas- fa-</code>."
+    icon_text: "Name des <a>FontAwesome</a>-Symbols eingeben, aber <em>mit</em> dem Prefix <code>fas fa-</code>."
     load_more: Weitere laden
     log_in: Anmelden
     log_out: Abmelden
