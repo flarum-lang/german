@@ -89,7 +89,6 @@ core:
 
     # These translations are used in the email page of the admin interface.
     email:
-      account_heading: SMTP-Account
       addresses_heading: Adressen
       driver_heading: Wähle einen Treiber
       driver_label: Treiber
@@ -112,7 +111,6 @@ core:
       smtp_heading: SMTP Einstellungen
       submit_button: => core.ref.save_changes
       text: Konfiguriere den Mail-Treiber, die Einstellungen und Addressen, die verwendet werden um E-Mails zu verschicken.
-      username_label: => core.ref.username
 
     # These strings are used in the Extensions page.
     extensions:
