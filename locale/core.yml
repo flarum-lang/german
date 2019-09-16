@@ -151,6 +151,7 @@ core:
       delete_posts_forever_label: Beitrag endgültig löschen
       delete_posts_label: Beitrag löschen
       edit_posts_label: Beitrag bearbeiten
+      edit_users_label: Nutzer bearbeiten
       global_heading: Global
       moderate_heading: Moderation
       new_group_button: Neue Gruppe
@@ -318,10 +319,10 @@ core:
 
     # These strings are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      discussion_renamed_old_tooltip: 'Der alte Titel war: "{old}"'
       discussion_renamed_text: "{username} hat den Titel geändert zu {new}."
       empty_text: Keine neuen Benachrichtigungen
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
+      mark_as_read_tooltip: Als gelesen markieren
       title: => core.ref.notifications
       tooltip: => core.ref.notifications
 
@@ -347,6 +348,7 @@ core:
 
     # These strings are displayed between posts in the post stream.
     post_stream:
+      discussion_renamed_old_tooltip: 'Der alte Titel war: "{old}"'
       discussion_renamed_text: "{username} änderte den Titel von {old} zu {new}."
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
@@ -406,6 +408,8 @@ core:
       button: Bearbeiten
       delete_button: => core.ref.delete
       delete_confirmation: "Soll diese*r Nutzer*in wirklich gelöscht werden? Alle Beiträge werden gelöscht."
+      delete_error_message: "Löschen des Nutzers <i>{username} ({email})</i> fehlgeschlagen"
+      delete_success_message: "Nutzer <i>{username} ({email})</i> wurde gelöscht"
       edit_button: => core.ref.edit
 
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
@@ -459,13 +463,14 @@ core:
 
     # Translations in this namespace are displayed when Flarum encounters an error.
     error:
-      403_message: Du hast keine Berechtigung auf diese Seite zuzugreifen.
-      404_message: Die angeforderte Seite konnte nicht gefunden werden.
-      404_return_link: "Zurück zu {forum}"
-      419_message: Du warst zu lange inaktiv.
-      419_return_link: Gehe zurück um es erneut zu versuchen
-      500_message: Beim Versuch, diese Seite zu laden, ist ein Fehler aufgetreten.
-      503_message: "{forum} befindet sich in der Wartung. Vielen Dank für deine Geduld!"
+      csrf_token_mismatch: Du warst zu lange inaktiv.
+      csrf_token_mismatch_return_link: Gehe zurück um es erneut zu versuchen
+      invalid_confirmation_token: Der Bestätigungslink wurde bereits verwendet oder ist ungültig.
+      not_authenticated: Du hast keine Berechtigung auf diese Seite zuzugreifen. Versuche dich erneut einzuloggen.
+      not_found: Die angeforderte Seite konnte nicht gefunden werden.
+      not_found_return_link: "Zurück zu {forum}"
+      permission_denied: Du hast keine Berechtigung auf diese Seite zuzugreifen.
+      unknown: Beim Versuch, diese Seite zu laden, ist ein Fehler aufgetreten.
 
     # Translations in this namespace are displayed by the basic HTML discussion index.
     index:

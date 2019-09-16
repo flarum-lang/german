@@ -6,14 +6,15 @@ flarum-markdown:
 
   # Translations in this namespace are used by the forum user interface.
   forum:
-  
+
     # These translations are used by the composer (emoji autocompletion function).
     composer:
       bold_tooltip: Fett gedruckter Text
       code_tooltip: Code einfügen
-      header_tooltip: Überschrift
+      header_tooltip: Überschrift einfügen
+      image_tooltip: Bild einfügen
       italic_tooltip: Kursiver Text
-      link_tooltip: Link
-      ordered_list_tooltip: Numerierte Liste
-      quote_tooltip: Zitat
-      unordered_list_tooltip: Liste
+      link_tooltip: Link einfügen
+      ordered_list_tooltip: Numerierte Liste einfügen
+      quote_tooltip: Zitat einfügen
+      unordered_list_tooltip: Liste einfügen
