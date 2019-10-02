@@ -54,4 +54,4 @@ See also [packagist.org/packages/cbmainz/flarum-de](https://packagist.org/packag
 
 ### How to update?
 
-via Composer: `composer update`
+via Composer: `composer update cbmainz/flarum-de`

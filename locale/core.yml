@@ -491,9 +491,9 @@ core:
       submit_button: => core.ref.save_changes
       title: => core.ref.reset_your_password
 
-    # Translations in this namespace are used in messages output by the API.
-    api:
-      invalid_username_message: "Der Nutzername darf nur Buchstaben, Zahlen und Gedankenstriche enthalten."
+  # Translations in this namespace are used in messages output by the API.
+  api:
+    invalid_username_message: "Der Nutzername darf nur Buchstaben, Zahlen und Gedankenstriche enthalten."
 
   # Strings in this namespace are used in emails sent by the forum.
   email:
