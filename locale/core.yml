@@ -39,7 +39,7 @@ core:
     # These strings are used in the Basics page.
     basics:
       all_discussions_label: => core.ref.all_discussions
-      default_language_heading: Deutsch
+      default_language_heading: Sprache
       forum_description_heading: Beschreibung des Forums
       forum_description_text: Kurze Beschreibung des Forums. Diese wird in in den meta-Tags für die Suchmaschinen erscheinen.
       forum_title_heading: Titel des Forums
@@ -97,6 +97,7 @@ core:
       mail_encryption_label: Verschlüsselung
       mail_host_label: Host
       mail_mailgun_domain_label: Domäne
+      mail_mailgun_region_label: Region
       mail_mailgun_secret_label: Geheimer Schlüssel
       mail_mandrill_secret_label: Geheimer Schlüssel
       mail_password_label: => core.ref.password
@@ -107,6 +108,7 @@ core:
       mail_username_label: => core.ref.username
       mailgun_heading: Mailgun Einstellungen
       mandrill_heading: Mandrill Einstellugen
+      not_sending_message: Flarum versendet derzeit keine E-Mails. Bitte überprüfe deine E-Mail Konfiguration auf Korrektheit.
       ses_heading: SES Einstellungen
       smtp_heading: SMTP Einstellungen
       submit_button: => core.ref.save_changes
@@ -156,6 +158,7 @@ core:
       moderate_heading: Moderation
       new_group_button: Neue Gruppe
       participate_heading: Teilnehmer
+      post_without_throttle_label: Antworte mehrfach ohne Wartezeit
       read_heading: Lesen
       rename_discussions_label: Diskussion umbenennen
       reply_to_discussions_label: Antworte auf die Diskussion

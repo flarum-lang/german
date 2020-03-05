@@ -1,3 +1,3 @@
 <?php
 
-return new Flarum\Extend\LanguagePack;
+return new Flarum\Extend\LanguagePack();

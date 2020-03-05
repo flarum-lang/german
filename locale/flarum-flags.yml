@@ -14,6 +14,7 @@ flarum-flags:
 
     # These strings are used in the Flags Settings modal dialog.
     settings:
+      flag_own_posts_label: Erlaube Nutzern das Melden selbstverfasster Beiträge
       guidelines_url_label: Community-Richtlinien URL
       title: Flags-Einstellungen
 
@@ -24,8 +25,10 @@ flarum-flags:
     flag_post:
       confirmation_message: Danke für das Melden des Beitrages. Unsere Moderator*innen werden sich darum kümmern.
       dismiss_button: => core.ref.okay
+      reason_details_placeholder: Zusätzliche Informationen (optional)
       reason_inappropriate_label: Unangebracht
       reason_inappropriate_text: "Dieser Beitrag ist angreifend, beleidigend oder verletzt unsere <a>Community-Richtlinien</a>."
+      reason_missing_message: Bitte gebe einen Grund an.
       reason_off_topic_label: Nicht zur Diskussion passend
       reason_off_topic_text: Dieser Beitrag hat keinen Bezug zu dieser Diskussion und sollte in eine andere Diskussion verschoben werden.
       reason_other_label: Sonstiges
