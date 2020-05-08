@@ -18,7 +18,7 @@ core:
     appearance:
       colored_header_label: Header einfärben
       colors_heading: Farben
-      colors_text: "Zwei Farben wählen, um den Grundton des Forums zu ändern. Die erste Farbe ist für die Akzente, die zweite ist für die Hintergrundelemente."
+      colors_text: "Wähle zwei Farben, um den Grundton des Forums zu ändern. Die erste Farbe ist für die Akzente, die zweite für die Hintergrundelemente."
       custom_footer_heading: Individuelle Fußzeile
       custom_footer_text: => core.ref.custom_footer_text
       custom_header_heading: Individuelle Kopfzeile
@@ -73,6 +73,7 @@ core:
       color_label: => core.ref.color
       delete_button: Gruppe löschen
       delete_confirmation: "Bist du sicher, dass du diese Gruppe löschen möchtest? Die Gruppenmitglieder werden nicht gelöscht."
+      hide_label: Im Forum verstecken
       icon_label: => core.ref.icon
       icon_text: => core.ref.icon_text
       name_label: Name
@@ -165,6 +166,7 @@ core:
       sign_up_label: Registrierung
       start_discussions_label:  Diskussion beginnen
       view_discussions_label: Diskussionen lesen
+      view_hidden_groups_label: Versteckte Gruppen Symbole sehen
       view_last_seen_at_label: Zuletzt online einsehen
       view_post_ips_label: IP-Adressen einsehen
       view_user_list_label: Benutzerliste einsehen
@@ -338,8 +340,10 @@ core:
     # These strings are used by the post control buttons.
     post_controls:
       delete_button: => core.ref.delete
+      delete_confirmation: "Bist du dir sicher, dass du diese Diskussion für immer löschen willst? Dies kann nicht rückgängig gemacht werden."
       delete_forever_button: => core.ref.delete_forever
       edit_button: => core.ref.edit
+      hide_confirmation: "Bist du dir sicher, dass du diese Diskussion für immer löschen willst?"
       restore_button: => core.ref.restore
 
     # These strings are used in the scrubber to the right of the post stream.
@@ -410,7 +414,7 @@ core:
     user_controls:
       button: Bearbeiten
       delete_button: => core.ref.delete
-      delete_confirmation: "Soll diese*r Nutzer*in wirklich gelöscht werden? Alle Beiträge werden gelöscht."
+      delete_confirmation: "Soll diese*r Nutzer*in wirklich gelöscht werden? Die Beiträge werden NICHT gelöscht."
       delete_error_message: "Löschen des Nutzers <i>{username} ({email})</i> fehlgeschlagen"
       delete_success_message: "Nutzer <i>{username} ({email})</i> wurde gelöscht"
       edit_button: => core.ref.edit
@@ -549,7 +553,7 @@ core:
     all_discussions: Alle Diskussionen
     change_email: E-Mail ändern
     change_password: Passwort ändern
-    color: Color                                                # Referenced by flarum-tags.yml
+    color: Farbe                                                # Referenced by flarum-tags.yml
     confirm_password: Passwort bestätigen
     confirmation_email_sent: "Wir haben eine Bestätigungsmail an {email} gesendet. Bitte schaue in deinem Spam-Ordner nach, falls nichts ankommen sollte."
     custom_footer_text: "Füge eigenen HTML-Code hinzu, welcher am Ende der Seite eingefügt wird."

@@ -57,6 +57,11 @@ flarum-tags:
   # Strings in this namespace are used by the forum user interface.
   forum:
 
+    # These translations are displayed on the page that lists all tags.
+    all_tags:
+      meta_description_text: Alle Kategorien
+      meta_title_text: => flarum-tags.ref.tags
+
     # These strings are used by the Choose Tags modal dialog.
     choose_tags:
       choose_primary_placeholder: "Wähle eine Hauptkategorie|Wähle {count} Hauptkategorien"
@@ -75,7 +80,7 @@ flarum-tags:
 
     header:
       back_to_tags_tooltip: Zurück zur Kategorien-Auswahl
-  
+
     # These strings are used on the index page, peripheral to the discussion list.
     index:
       tags_link: => flarum-tags.ref.tags
@@ -88,6 +93,10 @@ flarum-tags:
       added_tags_text: "{username} hat die {tagsAdded} hinzugefügt."
       removed_tags_text: "{username} hat die {tagsRemoved} entfernt."
       tags_text: "{tags} Kategorie|{tags} Kategorien"
+
+    # These translations are used when visiting a single tag's discussion list.
+    tag:
+      meta_description_text: "Alle Diskussionen mit der {tag} Kategorie"
 
   # Strings in this namespace are used by the forum and admin interfaces.
   lib:
