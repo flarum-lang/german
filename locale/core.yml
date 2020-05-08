@@ -343,7 +343,7 @@ core:
       delete_confirmation: "Bist du dir sicher, dass du diese Diskussion für immer löschen willst? Dies kann nicht rückgängig gemacht werden."
       delete_forever_button: => core.ref.delete_forever
       edit_button: => core.ref.edit
-      hide_confirmation: "Bist du dir sicher, dass du diese Diskussion für immer löschen willst?"
+      hide_confirmation: "Bist du dir sicher, dass du diese Diskussion löschen willst?"
       restore_button: => core.ref.restore
 
     # These strings are used in the scrubber to the right of the post stream.
