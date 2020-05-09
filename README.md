@@ -21,7 +21,7 @@ Extension to localize the Flarum forum software and its official extensions into
 
 ### Compatibility
 
-- [Flarum](https://github.com/flarum/core) (Core v0.1.0-beta.12)
+- [Flarum](https://github.com/flarum/core) (Core v0.1.0-beta.13)
     - [Akismet](https://github.com/flarum/flarum-ext-akismet)
     - [Approval](https://github.com/flarum/flarum-ext-approval)
     - [Auth-Facebook](https://github.com/flarum/flarum-ext-auth-facebook)
