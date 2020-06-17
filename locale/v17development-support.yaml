@@ -1,0 +1,74 @@
+v17development-flarum-support:
+  forum:
+    knowledge_base: "Wissensdatenbank"
+    ask_a_question_on_forums: "Stellen Sie eine Frage im Forum"
+    return_to_home: "Züruck zur Wissensdatenbank"
+    ask_your_question_on_forum: "Stellen Sie Ihre Frage im Forum"
+    or: 'oder'
+    settings: => core.ref.settings
+
+    hero:
+      help_question: "Wie können wir Ihnen helfen?"
+      check_forum: "Sie können nicht finden, wonach Sie suchen? <a>Besuchen Sie unser Forum</a>"
+
+    overview:
+      knowledge_base_overview: "Wissensdatenbank Überblick"
+      back_to: "Zurück zu {category}"
+      back_to_overview: "Zurück zum Überblick"
+      back_to_main_categories: "Zurück zu den Hauptkategorien"
+      loading_articles: "Artikel laden"
+      no_categories_found: "Leider konnten wir keine Kategorien finden..."
+      category_not_found: "Kategorie nicht gefunden"
+      no_articles_found: "In dieser Kategorie wurden keine Artikel gefunden"
+
+      tools:
+        new_article: "Neuer Artikel"
+        rename_category: "Kategorie umbenennen"
+        edit_description: "Beschreibung bearbeiten"
+        change_icon: "Icon ändern"
+
+    article_events:
+      article_hidden: "Artikel wurde von {username} versteckt"
+      article_public: "Artikel wurde von {username} veröffentlicht"
+      article_modified: "{username} hat diesen Artikel bearbeitet."
+    
+    search:
+      title: Suchen
+      back_to_search_results: "Zurück zu den Suchergebnissen"
+      search_knowledge_base: "Durchsuchen Sie unsere Wissensdatenbank"
+      searching: Suchen
+      searching_for: "Auf der Suche nach {searchterm}"
+      searched_for: "Sie haben nach {searchterm} gesucht und es gab {results} Ergebnisse."
+      use_searchbox_below: "Verwenden Sie das Suchfeld, um in unserer Wissensdatenbank zu suchen."
+      no_results: "Wir konnten nichts für {searchterm} finden."
+
+    article:
+      hidden: "Versteckt"
+      created_at: "Erstellt am:"
+      author: "Autor/in"
+      authors: "Autoren/innen"
+      last_modified: "Zuletzt geändert:"
+      not_found: "Artikel nicht gefunden"
+      
+      share_article:
+        title: "Artikel teilen"
+        perma_link: "Permalink zu diesem Artikel:"
+
+      tools:
+        rename_article: "Artikel umbenennen"
+        edit_article: "Artikel bearbeiten"
+        edit_tags: "Artikel-Tags bearbeiten"
+        event_logs: "Ereignisprotokolle"
+        hide_article: "Artikel ausblenden"
+        recover_article: "Artikel wiederherstellen"
+        delete_forever: "Unwiederuflich löschen"
+    
+    modals:
+      events:
+        title: "Artikelereignisse"
+        article_created: "Artikel wurde erstellt"
+    
+    utils:
+      redirect:
+        title: "Wir leiten Sie weiter..."
+        link: "<a> Klicken Sie hier </a>, wenn die Seite Sie nicht weiterleitet"
