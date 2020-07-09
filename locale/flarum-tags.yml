@@ -22,7 +22,7 @@ flarum-tags:
       icon_text: => core.ref.icon_text
       name_label: => flarum-tags.ref.name
       name_placeholder: => flarum-tags.ref.name
-      slug_label: Slug
+      slug_label: Slug (Teil der URL)
       submit_button: => core.ref.save_changes
       title: => flarum-tags.ref.create_tag
 
@@ -48,7 +48,7 @@ flarum-tags:
 
     # These strings are used in the Tags page.
     tags:
-      about_tags_text: "Kategorien sind dazu da, um Diskussionen zu strukturieren. Hauptkategorien sind wie traditionelle Kategorien in einem Forum: Sie können in zwei Ebenen geordnet werden. Unterkategorien haben keine Ebenen und keine Reihenfolge. Sie können helfen, die Diskussionen feiner zu strukturieren"
+      about_tags_text: "Kategorien dienen der Strukturierung von Diskussionen. Hauptkategorien sind wie traditionelle Kategorien in einem Forum; sie können in zwei Ebenen geordnet werden. Unterkategorien haben keine Ebenen und keine Reihenfolge. Sie können helfen, die Diskussionen feiner zu strukturieren."
       create_tag_button: => flarum-tags.ref.create_tag
       primary_heading: Hauptkategorien
       secondary_heading: Unterkategorien

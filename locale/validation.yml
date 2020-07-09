@@ -44,8 +44,8 @@ validation:
   in_array: ":attribute ist nicht in :other enthalten."
   integer: ":attribute muss eine ganze Zahl sein"
   ip: ":attribute muss eine gültige IP-Adresse sein."
-  ipv4: ":attribute muss eine gültige IPv4-Addresse sein."
-  ipv6: ":attribute muss eine gültige IPv6-Addresse sein."
+  ipv4: ":attribute muss eine gültige IPv4-Adresse sein."
+  ipv6: ":attribute muss eine gültige IPv6-Adresse sein."
   json: ":attribute muss ein gültiger JSON-String sein."
   lt:
     numeric: ":attribute muss kleiner sein als :value."

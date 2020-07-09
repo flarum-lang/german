@@ -41,7 +41,7 @@ core:
       all_discussions_label: => core.ref.all_discussions
       default_language_heading: Sprache
       forum_description_heading: Beschreibung des Forums
-      forum_description_text: Kurze Beschreibung des Forums. Diese wird in in den meta-Tags für die Suchmaschinen erscheinen.
+      forum_description_text: Kurze Beschreibung des Forums. Diese wird in in den meta-Tags für Suchmaschinen erscheinen.
       forum_title_heading: Titel des Forums
       home_page_heading: Startseite
       home_page_text: "Welche Seite sollen Besucher*innen als erstes sehen?"
@@ -113,7 +113,7 @@ core:
       ses_heading: SES Einstellungen
       smtp_heading: SMTP Einstellungen
       submit_button: => core.ref.save_changes
-      text: Konfiguriere den Mail-Treiber, die Einstellungen und Addressen, die verwendet werden um E-Mails zu verschicken.
+      text: Konfiguriere den Mail-Treiber, die Einstellungen und die zu verwendenden Adressen, um E-Mails zu versenden.
 
     # These strings are used in the Extensions page.
     extensions:
@@ -142,7 +142,7 @@ core:
       extensions_button: Erweiterungen
       extensions_text: Mach das Forum zu deinem Eigenen und erweitere es nach deinen Bedürfnissen.
       permissions_button: Zugriffsrechte
-      permissions_text: Bestimme, wer was sehen kann.
+      permissions_text: Konfiguriere, wer was machen und sehen darf.
 
     # These strings are used in the Permissions page of the admin interface.
     permissions:
@@ -297,7 +297,7 @@ core:
     # These strings are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
-      cannot_start_discussion_button: "Diskussion starten (deaktiviert)"
+      cannot_start_discussion_button: "Anmelden zum diskutieren"
       mark_all_as_read_confirmation: "Bist du dir sicher, dass du alle Diskussionen als gelesen markieren willst?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       refresh_tooltip: Aktualisieren
