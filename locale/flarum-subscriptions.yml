@@ -18,6 +18,10 @@ flarum-subscriptions:
       unfollow_button: Nicht mehr folgen
       unignore_button: Nicht mehr ignorieren
 
+    # These translations are used on the page that displays all subscriptions.
+    following:
+      meta_title_text: => flarum-subscriptions.ref.following
+
     # These strings are used on the index page, peripheral to the discussion list.
     index:
       following_link: Du folgst
@@ -40,8 +44,30 @@ flarum-subscriptions:
       ignoring_text: Niemals benachrichtigen und von der Liste verstecken.
       not_following_button: Nicht folgen
       not_following_text: "Benachrichtigung nur bei @Erwähnungen."
-      notify_email_tooltip: Benachrichtigung per E-Mail bei neuen Beiträgen
       notify_alert_tooltip: Benachrichtigung im Forum bei neuen Beiträgen
+      notify_email_tooltip: Benachrichtigung per E-Mail bei neuen Beiträgen
+
+  # Translations in this namespace are used in emails sent by the forum.
+  email:
+
+    # These translations are used in emails sent when a post is made in a subscribed discussion
+    new_post:
+      subject: "[Neuer Beitrag] {title}"
+      body: |
+        Hallo {recipient_display_name}!
+
+        {poster_display_name} hat einen Beitrag erstellt in einer Diskussion, der du folgst: {title}.
+
+        Schau dir den folgenden Link an um die neue Aktivität zu sehen:
+        {url}
+
+        ---
+
+        {content}
+
+        ---
+
+        Du wirst keine weiteren Benachrichtigungen über diese Diskussion erhalten, bis du wieder auf dem Laufenden bist.
 
   ##
   # REUSED STRINGS - These keys should not be used directly in code!

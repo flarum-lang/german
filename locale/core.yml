@@ -40,6 +40,8 @@ core:
     basics:
       all_discussions_label: => core.ref.all_discussions
       default_language_heading: Sprache
+      display_name_heading: Anzeigenamen
+      display_name_text: Wähle den Treiber, der verwendet wird um den Anzeigename der Nutzer*innen zu bestimmen. Standardmäßig wird der Nutzername angezeigt.
       forum_description_heading: Beschreibung des Forums
       forum_description_text: Kurze Beschreibung des Forums. Diese wird in in den meta-Tags für Suchmaschinen erscheinen.
       forum_title_heading: Titel des Forums
@@ -100,17 +102,15 @@ core:
       mail_mailgun_domain_label: Domäne
       mail_mailgun_region_label: Region
       mail_mailgun_secret_label: Geheimer Schlüssel
-      mail_mandrill_secret_label: Geheimer Schlüssel
       mail_password_label: => core.ref.password
       mail_port_label: Port
-      mail_ses_key_label: Schlüssel
-      mail_ses_region_label: Region
-      mail_ses_secret_label: Geheimnis
       mail_username_label: => core.ref.username
       mailgun_heading: Mailgun Einstellungen
-      mandrill_heading: Mandrill Einstellugen
       not_sending_message: Flarum versendet derzeit keine E-Mails. Bitte überprüfe deine E-Mail Konfiguration auf Korrektheit.
-      ses_heading: SES Einstellungen
+      send_test_mail_button: Versenden
+      send_test_mail_heading: Test Mail versenden
+      send_test_mail_success: "Test Mail wurde erfolgreich versandt!"
+      send_test_mail_text: "Versende eine E-Mail mit der gegebenen Konfiguration an deine Adresse '{email}'."
       smtp_heading: SMTP Einstellungen
       submit_button: => core.ref.save_changes
       text: Konfiguriere den Mail-Treiber, die Einstellungen und die zu verwendenden Adressen, um E-Mails zu versenden.
@@ -228,8 +228,10 @@ core:
     # These strings are used by the composer when editing a post.
     composer_edit:
       discard_confirmation: "Die Änderungen wurden nicht übernommen. Sollen sie verworfen werden?"
+      edited_message: Deine Änderungen wurden gespeichert.
       post_link: "Beitrag #{number} in {discussion}"
       submit_button: => core.ref.save_changes
+      view_button: => core.ref.view
 
     # These strings are used by the composer when replying to a discussion.
     composer_reply:
@@ -237,7 +239,7 @@ core:
       discard_confirmation: "Die Antwort wurde nicht abgeschickt. Soll sie verworfen werden?"
       posted_message: Die Antwort wurde abgeschickt.
       submit_button: Antwort abschicken
-      view_button: Anzeigen
+      view_button: => core.ref.view
 
     # These strings are used by the discussion control buttons.
     discussion_controls:
@@ -280,7 +282,7 @@ core:
       email_sent_message: Ein Link zum Zurücksetzen des Passwortes wurde verschickt. Bitte ggf. auch den Spam-Ordner checken.
       not_found_message: Es gibt keinen Nutzer mit dieser E-Mail-Adresse.
       submit_button: Passwort wiederherstellen
-      text: Um einen Link zum Zurücksetzen des Passwortes zu erhalten, bitte E-Mail-Adresse eintragen.
+      text: Bitte gebe deine E-Mail-Adresse ein, um einen Link zum Zurücksetzen des Passwortes zu erhalten.
       title: Passwort vergessen
 
     # These strings are used in the header and session dropdown menu.
@@ -300,6 +302,7 @@ core:
       cannot_start_discussion_button: "Anmelden zum diskutieren"
       mark_all_as_read_confirmation: "Bist du dir sicher, dass du alle Diskussionen als gelesen markieren willst?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
+      meta_title_text: => core.ref.all_discussions
       refresh_tooltip: Aktualisieren
       start_discussion_button: => core.ref.start_a_discussion
 
@@ -317,7 +320,7 @@ core:
       invalid_login_message: Die Anmeldedaten sind nicht korrekt.
       password_placeholder: => core.ref.password
       remember_me_label: Eingeloggt bleiben
-      sign_up_text: "Noch kein Account? Dann <a>registrieren</a>"
+      sign_up_text: "Noch keinen Account? <a>Registrieren</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
       username_or_email_placeholder: Nutzername oder E-Mail
@@ -389,7 +392,7 @@ core:
     sign_up:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      log_in_text: "Schon registriert? Dann <a>Anmelden</a>"
+      log_in_text: "Schon registriert? <a>Anmelden</a>"
       password_placeholder: => core.ref.password
       submit_button: => core.ref.sign_up
       title: => core.ref.sign_up
@@ -434,7 +437,9 @@ core:
 
     # These strings are displayed as error messages.
     error:
+      dependent_extensions_message: "Die Erweiterung {extension} kann nicht deaktiviert werden, bis folgende abhängige Erweiterungen deaktiviert wurden: {extensions}"
       generic_message: "Oops! Da ist was schief gelaufen. Bitte die Seite neu laden oder noch mal versuchen."
+      missing_dependencies_message: "Die Erweiterung {extension} kann nicht aktiviert werden, bis folgende abhängige Erweiterungen aktiviert wurden: {extensions}"
       not_found_message: Leider nichts gefunden.
       permission_denied_message: Du hast keine Berechtigung dies zu tun.
       rate_limit_exceeded_message: Nicht so schnell. Bitte versuche es gleich erneut.
@@ -513,10 +518,10 @@ core:
 
         Jemand (hoffentlich du!) hat sich im Forum {forum} mit dieser E-Mail-Adresse registriert.
 
-        Wenn du es warst, dann bitte einfach dem folgenden Link folgen, um das Konto zu aktivieren:
+        Wenn du es warst, folge bitte dem Link, um das Konto zu aktivieren:
         {url}
 
-        Wenn du es nicht selbst warst, ignoriere diese E-Mail.
+        Wenn du das nicht warst, ignoriere diese E-Mail.
 
     # These strings are used in emails sent when users change their email address.
     confirm_email:
@@ -526,10 +531,10 @@ core:
 
         Jemand (hoffentlich du!) hat die E-Mail-Adresse im Forum {forum} geändert.
 
-        Wenn du es warst, dann bitte einfach dem folgenden Link folgen, um die neue E-Mai-Adresse zu bestätigen:
+        Wenn du das warst, folge bitte dem Link, um die neue E-Mail-Adresse zu bestätigen:
         {url}
 
-        Wenn du es nicht selbst warst, ignoriere diese E-Mail.
+        Wenn du das nicht warst, ignoriere diese E-Mail.
 
     # These strings are used in emails sent when users ask to reset their passwords.
     reset_password:
@@ -539,10 +544,22 @@ core:
 
         Jemand (hoffentlich du!) hat das Zurücksetzen des Passwortes im Forum {forum} beantragt.
 
-        Wenn du es warst, dann bitte einfach dem folgenden Link folgen, um das Passwort neu zusetzen:
+        Wenn du das warst, folge bitte dem Link, um ein neues Passwort festzulegen:
         {url}
 
-        Wenn du es nicht selbst warst, ignoriere diese E-Mail.
+        Wenn du das nicht warst, ignoriere diese E-Mail.
+
+    # These translations are used when testing mailing configuration
+    send_test:
+      subject: Flarum E-Mail Test
+      body: |
+        Hallo {username}!
+
+        Dies ist eine Test E-Mail, um zu bestätigen, dass deine Flarum E-Mail-Konfiguration richtig funktioniert.
+
+        Wenn du das warst, bedeutet diese E-Mail, dass deine Konfiguration funktioniert.
+
+        Wenn du das nicht warst, ignoriere diese E-Mail.
 
   ##
   # REUSED STRINGS - These keys should not be used directly in code!
@@ -589,6 +606,7 @@ core:
     start_a_discussion: Diskussion starten
     username: Nutzername
     users: Benutzer*innen                                       # Referenced by flarum-statistics.yml
+    view: Anzeigen
     write_a_reply: Eine Antwort schreiben…
     you: Du                                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
