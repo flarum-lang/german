@@ -1,8 +1,10 @@
-# German Extension for [Flarum](http://flarum.org/)
+# German Language Pack for [Flarum](https://flarum.org/)
 
 [![Join the chat at https://gitter.im/cbmainz/flarum-de](https://badges.gitter.im/cbmainz/flarum-de.svg)](https://gitter.im/cbmainz/flarum-de?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Extension to localize the Flarum forum software and its official extensions into German.
+
+You can find the German language pack for third-party extensions in [this repository](https://github.com/Kakifrucht/flarum-de-extended).
 
 - [Information](https://github.com/Kakifrucht/flarum-de#information)
   - [Version](https://github.com/Kakifrucht/flarum-de#version)
