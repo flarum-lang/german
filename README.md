@@ -47,10 +47,10 @@ Released under the MIT License. Please see the [LICENSE](LICENSE) file.
 
 ### How to install
 
-via Composer: `composer require cbmainz/flarum-de`
+via Composer: `composer require kakifrucht/flarum-de`
 
-See also on [Packagist](https://packagist.org/packages/cbmainz/flarum-de).
+See also on [Packagist](https://packagist.org/packages/kakifrucht/flarum-de).
 
 ### How to update
 
-via Composer: `composer update cbmainz/flarum-de`
+via Composer: `composer update kakifrucht/flarum-de`
