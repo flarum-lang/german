@@ -16,8 +16,8 @@ Extension to localize the Flarum forum software and its official extensions into
 
 ### Version
 
-- 0.13.0
-- Released on November 17, 2020
+- 0.13.1
+- Released on November 18, 2020
 
 ### Compatibility
 
@@ -39,7 +39,7 @@ Extension to localize the Flarum forum software and its official extensions into
 
 ### License
 
-Released under the MIT License. Please see the [LICENSE](https://github.com/Kakifrucht/flarum-de/blob/master/LICENSE) file.
+Released under the MIT License. Please see the [LICENSE](LICENSE) file.
 
 ## Documentation
 
@@ -47,7 +47,7 @@ Released under the MIT License. Please see the [LICENSE](https://github.com/Kaki
 
 via Composer: `composer require cbmainz/flarum-de`
 
-See also [packagist.org/packages/cbmainz/flarum-de](https://packagist.org/packages/cbmainz/flarum-de).
+See also on [Packagist](https://packagist.org/packages/cbmainz/flarum-de).
 
 ### How to update?
 
