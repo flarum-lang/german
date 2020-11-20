@@ -2,16 +2,15 @@
 
 Extension to localize the Flarum forum software and its official extensions into German. For support, please use the discussion thread on the [Flarum support forum](https://discuss.flarum.org/d/2648-german-language-pack), or use the issue tracker here on GitHub.
 
-You can find the German language pack for third-party extensions in [this repository](https://github.com/Kakifrucht/flarum-de-extended).
+You can find the German language pack for **third-party extensions** in [this repository](https://github.com/Kakifrucht/flarum-de-extended).
 
-
-- [Information](https://github.com/Kakifrucht/flarum-de#information)
-  - [Version](https://github.com/Kakifrucht/flarum-de#version)
-  - [Compatibility](https://github.com/Kakifrucht/flarum-de#compatibility)
-  - [License](https://github.com/Kakifrucht/flarum-de#license)
-- [Documentation](https://github.com/Kakifrucht/flarum-de#documentation)
-  - [How to install](https://github.com/Kakifrucht/flarum-de#how-to-install)
-  - [How to update](https://github.com/Kakifrucht/flarum-de#how-to-update)
+- [Information](#information)
+  - [Version](#version)
+  - [Compatibility](#compatibility)
+  - [License](#license)
+- [Documentation](#documentation)
+  - [How to install](#how-to-install)
+  - [How to update](#how-to-update)
 
 ## Information
 
@@ -46,10 +45,19 @@ Released under the MIT License. Please see the [LICENSE](LICENSE) file.
 
 ### How to install
 
-via Composer: `composer require kakifrucht/flarum-de`
+Use Composer in the root directory of your forum:
+
+```text
+composer require kakifrucht/flarum-de
+```
 
 See also on [Packagist](https://packagist.org/packages/kakifrucht/flarum-de).
 
 ### How to update
 
-via Composer: `composer update kakifrucht/flarum-de`
+Execute these commands in the root directory of your forum:
+
+```text
+composer update kakifrucht/flarum-de
+php flarum cache:clear
+```
