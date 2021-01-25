@@ -1,0 +1,24 @@
+flarum-nicknames:
+  admin:
+    permissions:
+      edit_own_nickname_label: Eigenen Nicknamen editieren
+    settings:
+      max_label: Maximale Länge für Nicknamen
+      min_label: Minimale Länge für Nicknamen
+      regex_label: Regulärer Ausdruck zur Validierung
+      unique_label: Eindeutige Nicknamen verlangen?
+    wrong_driver: Du musst "nickname" als den Anzeigenamen-Treiber auf der <a><strong>Grundeinstellungen Seite</strong></a> auswählen damit diese Erweiterung einen Effekt hat.
+  api:
+    invalid_nickname_message: Dieser Nickname ist ungültig. Bitte wende dich an deinen Forenadministrator, um weitere Informationen zu den Regeln für Spitznamen zu erhalten.
+  forum:
+    change_nickname:
+      submit_button: => core.ref.save_changes
+      title:  => flarum-nicknames.ref.change_nickname
+    edit_user:
+      nicknames_heading: => flarum-nicknames.ref.change_nickname
+      nicknames_text: Nickname
+    settings:
+      change_nickname_button: => flarum-nicknames.ref.change_nickname
+
+  ref:
+    change_nickname: Nickname ändern

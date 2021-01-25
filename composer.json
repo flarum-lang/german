@@ -10,11 +10,16 @@
         "source": "https://github.com/Kakifrucht/flarum-de"
     },
     "require": {
-        "flarum/core": "^0.1.0-beta.14"
+        "flarum/core": "^0.1.0-beta.15"
     },
     "extra": {
         "flarum-extension": {
             "title": "Deutsch",
+            "category": "language",
+            "info": {
+                "website": "https://github.com/Kakifrucht/flarum-de",
+                "support": "https://discuss.flarum.org/d/2648"
+            },
             "icon": {
                 "image": "icon.svg",
                 "backgroundColor": "#00247d",

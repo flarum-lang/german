@@ -16,12 +16,12 @@ You can find the German language pack for **third-party extensions** in [this re
 
 ### Version
 
-- 0.13.1
-- Released on November 18, 2020
+- 0.14.0
+- Released on January 25, 2021
 
 ### Compatibility
 
-- [Flarum](https://github.com/flarum/core) (Core v0.1.0-beta.14)
+- [Flarum](https://github.com/flarum/core) (Core v0.1.0-beta.15)
   - [Akismet](https://github.com/flarum/flarum-ext-akismet)
   - [Approval](https://github.com/flarum/flarum-ext-approval)
   - [Emoji](https://github.com/flarum/emoji)
@@ -30,6 +30,7 @@ You can find the German language pack for **third-party extensions** in [this re
   - [Lock](https://github.com/flarum/lock)
   - [Markdown](https://github.com/flarum/markdown)
   - [Mentions](https://github.com/flarum/mentions)
+  - [Nicknames](https://github.com/flarum/nicknames)
   - [Pusher](https://github.com/flarum/pusher)
   - [Statistics](https://github.com/flarum/statistics)
   - [Sticky](https://github.com/flarum/sticky)

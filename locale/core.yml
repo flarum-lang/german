@@ -7,13 +7,6 @@ core:
   # Strings in this namespace are used by the admin interface.
   admin:
 
-    # These translations are used in the placeholder Add Extension modal dialog.
-    add_extension:
-      developer_text: "Wenn du ein Entwickler bist, kannst du dir die <a>Dokumentation durchlesen</a> und dich daran versuchen, eigene Erweiterungen zu erstellen."
-      install_text: "In der Zwischenzeit kannst du nach Erweiterungen auf der <a>Flarum Community Seite</a> suchen und diese mithilfe von Composer manuell installieren."
-      temporary_text: "In der nicht zu fernen Zukunft wird dir dieser Dialog ermöglichen, Erweiterungen mit Leichtigkeit hinzuzufügen. Wir arbeiten bereits an einem ganzen Ökosystem!"
-      title: Erweiterung hinzufügen
-
     # These strings are used in the Appearance page.
     appearance:
       colored_header_label: Header einfärben
@@ -25,7 +18,8 @@ core:
       custom_header_text: => core.ref.custom_header_text
       custom_styles_heading: Individueller Stil
       custom_styles_text: Die Erscheinung des Forums durch eigenen LESS/CSS-Code anpassen.
-      dark_mode_label: Dunkles Theme
+      dark_mode_label: Dunkles Design
+      description: "Ändere die Farbe, das Logo und weitere Variablen des Forums."
       edit_css_button: Individuelles CSS bearbeiten
       edit_footer_button: => core.ref.custom_footer_title
       edit_header_button: => core.ref.custom_header_title
@@ -35,11 +29,13 @@ core:
       logo_heading: Logo
       logo_text: Lade ein Logo hoch, welches anstelle des Forum-Titels angezeigt wird.
       submit_button: => core.ref.save_changes
+      title: Erscheinungsbild
 
     # These strings are used in the Basics page.
     basics:
       all_discussions_label: => core.ref.all_discussions
       default_language_heading: Sprache
+      description: "Lege den Forentitel, die Sprache und weitere Grundeinstellungen fest."
       display_name_heading: Anzeigenamen
       display_name_text: Wähle den Treiber, der verwendet wird um den Anzeigename der Nutzer*innen zu bestimmen. Standardmäßig wird der Nutzername angezeigt.
       forum_description_heading: Beschreibung des Forums
@@ -49,13 +45,18 @@ core:
       home_page_text: "Welche Seite sollen Besucher*innen als erstes sehen?"
       saved_message: Die Veränderungen wurden übernommen.
       show_language_selector_label: Sprach-Auswahlmenü zeigen
+      slug_driver_heading: "Slug-Treiber: {model}"
+      slug_driver_text: Wähle den Treiber, welcher die Foren-URL's mit einem "Slug" ausstattet.
       submit_button: => core.ref.save_changes
+      title: Grundeinstellungen
       welcome_banner_heading: Willkommensnachricht
       welcome_banner_text: Text festlegen, der auf der Seite "Alle Diskussionen" erscheint, um Besucher*innen zu begrüßen.
 
     # These strings are used in the Dashboard page.
     dashboard:
       clear_cache_button: Cache leeren
+      description: Dein Forum auf einen Blick.
+      title: Dashboard
       tools_button: Werkzeuge
 
     # These translations are used in the Edit Custom CSS modal dialog.
@@ -93,10 +94,10 @@ core:
     # These translations are used in the email page of the admin interface.
     email:
       addresses_heading: Adressen
+      description: Konfiguriere den Mail-Treiber, die Einstellungen und die zu verwendenden Adressen, um E-Mails zu versenden.
       driver_heading: Wähle einen Treiber
       driver_label: Treiber
       from_label: Absender
-      heading: => core.ref.email
       mail_encryption_label: Verschlüsselung
       mail_host_label: Host
       mail_mailgun_domain_label: Domäne
@@ -113,16 +114,31 @@ core:
       send_test_mail_text: "Versende eine E-Mail mit der gegebenen Konfiguration an deine Adresse '{email}'."
       smtp_heading: SMTP Einstellungen
       submit_button: => core.ref.save_changes
-      text: Konfiguriere den Mail-Treiber, die Einstellungen und die zu verwendenden Adressen, um E-Mails zu versenden.
+      title: => core.ref.email
 
-    # These strings are used in the Extensions page.
-    extensions:
-      add_button: Erweiterung hinzufügen
-      settings_button: => core.ref.settings
+    # These translations are used on default extension pages.
+    extension:
+      confirm_uninstall: Bei der Deinstallation werden alle Datenbankeinträge und Assets, die mit der Erweiterung in Verbindung stehen, entfernt. Bist du sicher, dass du fortfahren möchtest?
+      disabled: Deaktiviert
+      enabled: Aktiviert
+      enable_to_see: Aktiviere die Erweiterung um Einstellungen zu sehen und zu ändern.
+      info_links:
+        discuss: Diskussion
+        documentation: Dokumentation
+        donate: Spenden
+        source: Quelltext
+        support: Support
+        website: Webseite
+      no_permissions: Diese Erweiterung hat keine Berechtigungen.
+      no_settings: Diese Erweiterung hat keine Einstellungen.
+      open_modal: Einstellungen öffnen
+      permissions_title: Berechtigungen
+      saved_message: Deine Änderungen wurden gespeichert.
       uninstall_button: Deinstallieren
 
-    # This string is used in the session dropdown menu.
+    # These translations are used in the secondary header.
     header:
+      get_help: Hilfe erhalten
       log_out_button: => core.ref.log_out
 
     # This string is used in the modal dialog displayed when loading extensions.
@@ -131,18 +147,27 @@ core:
 
     # These strings are used in the navigation bar.
     nav:
-      appearance_button: Erscheinungsbild
-      appearance_text: "Ändere die Farbe, das Logo und andere Variablen des Forums."
-      basics_button: Grundeinstellungen
-      basics_text: "Ändere den Titel, die Sprache und andere Einstellungen des Forums."
-      dashboard_button: Dashboard
-      dashboard_text: Das Forum auf einen Blick.
+      appearance_button: => core.admin.appearance.title
+      appearance_title: => core.admin.appearance.description
+      basics_button: => core.admin.basics.title
+      basics_title: => core.admin.basics.description
+      categories:
+        authentication: Authentifizierung
+        core: Kernkonfiguration
+        discussion: Diskussion
+        feature: Funktionen
+        formatting: Formatierung
+        language: Sprachen
+        moderation: Moderation
+        other: Andere Erweiterungen
+        theme: Designs
+      dashboard_button: => core.admin.dashboard.title
+      dashboard_title: => core.admin.dashboard.description
       email_button: => core.ref.email
-      email_text: "Konfiguriere die E-Mail-Einstellungen."
-      extensions_button: Erweiterungen
-      extensions_text: Mach das Forum zu deinem Eigenen und erweitere es nach deinen Bedürfnissen.
-      permissions_button: Zugriffsrechte
-      permissions_text: Konfiguriere, wer was machen und sehen darf.
+      email_title: => core.admin.email.description
+      permissions_button: => core.admin.permissions.title
+      permissions_title: => core.admin.permissions.description
+      search_placeholder: Erweiterungen durchsuchen
 
     # These strings are used in the Permissions page of the admin interface.
     permissions:
@@ -153,6 +178,7 @@ core:
       delete_discussions_label: Diskussion löschen
       delete_posts_forever_label: Beitrag endgültig löschen
       delete_posts_label: Beitrag löschen
+      description: Konfiguriere, wer was machen und sehen darf.
       edit_posts_label: Beitrag bearbeiten
       edit_users_label: Nutzer bearbeiten
       global_heading: Global
@@ -165,6 +191,7 @@ core:
       reply_to_discussions_label: Antworte auf die Diskussion
       sign_up_label: Registrierung
       start_discussions_label:  Diskussion beginnen
+      title: Berechtigungen
       view_discussions_label: Diskussionen lesen
       view_hidden_groups_label: Versteckte Gruppen Symbole sehen
       view_last_seen_at_label: Zuletzt online einsehen
@@ -258,8 +285,8 @@ core:
       empty_text: "Noch keine Diskussionen in diesem Forum."
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: Als gelesen makieren
-      replied_text: "{ago} von {username} beantwortet"
-      started_text: "{ago} von {username} begonnen"
+      replied_text: "{username} {ago}"
+      started_text: "{username} {ago}"
 
     # These strings are used in the Edit User modal dialog (admin function).
     edit_user:

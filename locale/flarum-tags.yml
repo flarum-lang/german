@@ -24,7 +24,7 @@ flarum-tags:
       name_placeholder: => flarum-tags.ref.name
       slug_label: Slug (Teil der URL)
       submit_button: => core.ref.save_changes
-      title: => flarum-tags.ref.create_tag
+      title: Kategorie erstellen
 
     # These strings are used in the navigation bar.
     nav:
@@ -49,10 +49,11 @@ flarum-tags:
     # These strings are used in the Tags page.
     tags:
       about_tags_text: "Kategorien dienen der Strukturierung von Diskussionen. Hauptkategorien sind wie traditionelle Kategorien in einem Forum; sie können in zwei Ebenen geordnet werden. Unterkategorien haben keine Ebenen und keine Reihenfolge. Sie können helfen, die Diskussionen feiner zu strukturieren."
-      create_tag_button: => flarum-tags.ref.create_tag
+      create_primary_tag_button: Hauptkategorie erstellen
+      create_secondary_tag_button: Unterkategorie erstellen
       primary_heading: Hauptkategorien
       secondary_heading: Unterkategorien
-      settings_button: Einstellungen
+      settings_heading: Einstellungen
 
   # Strings in this namespace are used by the forum user interface.
   forum:
@@ -110,6 +111,5 @@ flarum-tags:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    create_tag: Kategorie erstellen
     name: Name
     tags: Kategorien
