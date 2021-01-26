@@ -7,14 +7,15 @@
     "license": "MIT",
     "support": {
         "issues": "https://github.com/Kakifrucht/flarum-de/issues",
-        "source": "https://github.com/Kakifrucht/flarum-de"
+        "source": "https://github.com/Kakifrucht/flarum-de",
+        "forum": "https://discuss.flarum.org/d/2648"
     },
     "require": {
         "flarum/core": "^0.1.0-beta.15"
     },
     "extra": {
         "flarum-extension": {
-            "title": "Deutsch",
+            "title": "German",
             "category": "language",
             "info": {
                 "website": "https://github.com/Kakifrucht/flarum-de",
@@ -22,7 +23,7 @@
             },
             "icon": {
                 "image": "icon.svg",
-                "backgroundColor": "#00247d",
+                "backgroundColor": "#ffffff",
                 "backgroundSize": "cover",
                 "backgroundPosition": "center"
             }

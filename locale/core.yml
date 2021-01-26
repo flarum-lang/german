@@ -159,8 +159,8 @@ core:
         formatting: Formatierung
         language: Sprachen
         moderation: Moderation
-        other: Andere Erweiterungen
-        theme: Designs
+        other: Sonstige Erweiterungen
+        theme: Design
       dashboard_button: => core.admin.dashboard.title
       dashboard_title: => core.admin.dashboard.description
       email_button: => core.ref.email

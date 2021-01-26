@@ -16,8 +16,8 @@ You can find the German language pack for **third-party extensions** in [this re
 
 ### Version
 
-- 0.14.0
-- Released on January 25, 2021
+- 0.14.1
+- Released on January 26, 2021
 
 ### Compatibility
 
