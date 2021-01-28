@@ -109,8 +109,8 @@ core:
       mailgun_heading: Mailgun Einstellungen
       not_sending_message: Flarum versendet derzeit keine E-Mails. Bitte überprüfe deine E-Mail Konfiguration auf Korrektheit.
       send_test_mail_button: Versenden
-      send_test_mail_heading: Test Mail versenden
-      send_test_mail_success: "Test Mail wurde erfolgreich versandt!"
+      send_test_mail_heading: Test-Mail versenden
+      send_test_mail_success: "Test-Mail wurde erfolgreich versandt!"
       send_test_mail_text: "Versende eine E-Mail mit der gegebenen Konfiguration an deine Adresse '{email}'."
       smtp_heading: SMTP Einstellungen
       submit_button: => core.ref.save_changes
@@ -185,7 +185,7 @@ core:
       moderate_heading: Moderation
       new_group_button: Neue Gruppe
       participate_heading: Teilnehmer
-      post_without_throttle_label: Antworte mehrfach ohne Wartezeit
+      post_without_throttle_label: Mehrfach ohne Wartezeit antworten
       read_heading: Lesen
       rename_discussions_label: Diskussion umbenennen
       reply_to_discussions_label: Antworte auf die Diskussion
@@ -296,7 +296,7 @@ core:
       groups_heading: Gruppen
       password_heading: => core.ref.password
       password_label: => core.ref.password
-      set_password_label: Neues Passwort setzen
+      set_password_label: Neues Passwort festlegen
       submit_button: => core.ref.save_changes
       title: Nutzer*in bearbeiten
       username_heading: => core.ref.username
@@ -584,7 +584,7 @@ core:
 
         Dies ist eine Test E-Mail, um zu bestätigen, dass deine Flarum E-Mail-Konfiguration richtig funktioniert.
 
-        Wenn du das warst, bedeutet diese E-Mail, dass deine Konfiguration funktioniert.
+        Wenn du das warst, dann bedeutet diese E-Mail, dass deine Konfiguration funktioniert.
 
         Wenn du das nicht warst, ignoriere diese E-Mail.
 
