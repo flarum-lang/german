@@ -13,6 +13,13 @@
     "require": {
         "flarum/core": "^0.1.0-beta.15"
     },
+    "authors": [
+        {
+            "name": "Fabian Prieto Wunderlich",
+            "email": "prieto@wunderlich.pw",
+            "role": "Translator"
+        }
+    ],
     "extra": {
         "flarum-extension": {
             "title": "German",
