@@ -105,5 +105,5 @@ validation:
     content: Inhalt
     name_singular: Name im Singular
     name_plural: Name im Plural
-    tag_count_primary: Anzahl an Hauptkategorien
-    tag_count_secondary: Anzahl an Unterkategorien
+    tag_count_primary: Anzahl an Hauptthemen
+    tag_count_secondary: Anzahl an Unterthemen
