@@ -34,6 +34,7 @@ flarum-tags:
     # These strings are used in the Permissions page of the admin interface.
     permissions:
       allow_edit_tags_label: Erlaube, Themen zu ändern
+      bypass_tag_counts_label: Thema-Anforderungen umgehen
       restrict_by_tag_heading: Durch Themen beschränken
       tag_discussions_label: Themen für Diskussionen anpassen
 
@@ -65,8 +66,8 @@ flarum-tags:
 
     # These strings are used by the Choose Tags modal dialog.
     choose_tags:
-      choose_primary_placeholder: "Wähle ein Hauptthema|Wähle {count} Hauptthemen"
-      choose_secondary_placeholder: "Wähle ein weiteres Thema|Wähle {count} weitere Themen"
+      choose_primary_placeholder: "{count, plural, one {Wähle ein Hauptthema} other {Wähle # Hauptthemen}}"
+      choose_secondary_placeholder: "{count, plural, one {Wähle ein weiteres Thema} other {Wähle # weitere Themen}}"
       edit_title: "Themen für {title} bearbeiten"
       submit_button: => core.ref.okay
       title: Themen für die Diskussion auswählen
@@ -93,7 +94,7 @@ flarum-tags:
       added_and_removed_tags_text: "{username} hat die {tagsAdded} hinzugefügt und die {tagsRemoved} entfernt."
       added_tags_text: "{username} hat die {tagsAdded} hinzugefügt."
       removed_tags_text: "{username} hat die {tagsRemoved} entfernt."
-      tags_text: "{tags} Thema|{tags} Themen"
+      tags_text: "{count, plural, one {{tags} Thema} other {{tags} Themen}}"
 
     # These translations are used when visiting a single tag's discussion list.
     tag:

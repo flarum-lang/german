@@ -31,6 +31,7 @@ dayjs.locale({
   monthsShort: 'Jan_Feb_März_Apr_Mai_Juni_Juli_Aug_Sept_Okt_Nov_Dez'.split('_'),
   ordinal: n => `${n}.`,
   weekStart: 1,
+  yearStart: 4,
   formats: {
     LTS: 'HH:mm:ss',
     LT: 'HH:mm',

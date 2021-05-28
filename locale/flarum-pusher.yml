@@ -20,4 +20,5 @@ flarum-pusher:
 
     # These strings are used in the discussion list.
     discussion_list:
-      show_updates_text: "Zeige {count} aktualisierte Diskussion|Zeige {count} aktualisierte Diskussionen"
+      show_updates_text: "{count, plural, one {Zeige # aktualisierte Diskussion} other {Zeige # aktualisierte Diskussionen}}"
+
