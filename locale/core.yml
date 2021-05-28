@@ -4,7 +4,7 @@ core:
   # UNIQUE KEYS - The following keys are used in only one location each.
   ##
 
-  # Strings in this namespace are used by the admin interface.
+  # Translations in this namespace are used by the admin interface.
   admin:
 
     # These translations are used in the Appearance page.
@@ -259,7 +259,7 @@ core:
       title: => core.ref.users
       total_users: "Benutzer insgesamt: {count}"
 
-  # Strings in this namespace are used by the forum user interface.
+  # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are used in the Change Email modal dialog.
@@ -490,7 +490,7 @@ core:
       resend_button: Bestätigungsmail erneut senden
       sent_message: Versendet
 
-  # Strings in this namespace are used by the forum and admin interfaces.
+  # Translations in this namespace are used by the forum and admin interfaces.
   lib:
 
     # These translations are displayed as tooltips for discussion badges.
@@ -507,7 +507,6 @@ core:
       email_heading: => core.ref.email
       email_label: => core.ref.email
       groups_heading: Gruppen
-      nothing_available: Zu diesem Zeitpunkt ist für dich nichts zum Bearbeiten verfügbar.
       password_heading: => core.ref.password
       password_label: => core.ref.password
       set_password_label: Neues Passwort festlegen
@@ -592,7 +591,7 @@ core:
   api:
     invalid_username_message: "Der Nutzername darf nur Buchstaben, Zahlen und Gedankenstriche enthalten."
 
-  # Strings in this namespace are used in emails sent by the forum.
+  # Translations in this namespace are used in emails sent by the forum.
   email:
 
     # These translations are used in emails sent when users register new accounts.
@@ -647,10 +646,10 @@ core:
         Wenn du das nicht warst, ignoriere diese E-Mail.
 
   ##
-  # REUSED STRINGS - These keys should not be used directly in code!
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
   ##
 
-  # Strings in this namespace are referenced by two or more unique keys.
+  # Translations in this namespace are referenced by two or more unique keys.
   ref:
     all_discussions: Alle Diskussionen
     change_email: E-Mail ändern
@@ -701,7 +700,7 @@ core:
   # GROUP NAMES - These keys are translated at the back end.
   ##
 
-  # Strings in this namespace are used to translate default group names.
+  # Translations in this namespace are used to translate default group names.
   group:
     admin: Admin
     admins: Admins
