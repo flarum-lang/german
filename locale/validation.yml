@@ -1,4 +1,4 @@
-# mostly taken from here with modifications: https://github.com/Laravel-Lang/lang/blob/master/src/de/validation.php
+# mostly taken from here with modifications: https://github.com/Laravel-Lang/lang/blob/master/locales/de/validation.php
 validation:
   accepted: ":attribute muss akzeptiert werden."
   active_url: ":attribute ist keine gültige Internet-Adresse."
@@ -70,6 +70,7 @@ validation:
     file: ":attribute muss mindestens :min Kilobytes groß sein."
     string: ":attribute muss mindestens :min Zeichen lang sein."
     array: ":attribute muss mindestens :min Elemente enthalten."
+  multiple_of: ":attribute muss ein Vielfaches von :value sein."
   not_in: "Der gewählte Wert für :attribute ist ungültig."
   not_regex: ":attribute hat ein ungültiges Format."
   numeric: ":attribute muss eine Zahl sein."
@@ -83,6 +84,9 @@ validation:
   required_with_all: ":attribute muss ausgefüllt werden, wenn :values ausgefüllt wurde."
   required_without: ":attribute muss ausgefüllt werden, wenn :values nicht ausgefüllt wurde."
   required_without_all: ":attribute muss ausgefüllt werden, wenn keines der Felder :values ausgefüllt wurde."
+  prohibited: ":attribute ist unzulässig."
+  prohibited_if: ":attribute ist unzulässig, wenn :other :value ist."
+  prohibited_unless: ":attribute ist unzulässig, wenn :other nicht :values ist."
   same: ":attribute und :other müssen übereinstimmen."
   size:
     numeric: ":attribute muss gleich :size sein."
