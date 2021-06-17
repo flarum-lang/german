@@ -1,13 +1,13 @@
 {
-    "name": "kakifrucht/flarum-de",
+    "name": "flarum-lang/german",
     "type": "flarum-extension",
     "description": "German language pack for Flarum and its bundled extensions.",
     "homepage": "https://github.com/Kakifrucht/flarum-de",
     "keywords": ["locale"],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/Kakifrucht/flarum-de/issues",
-        "source": "https://github.com/Kakifrucht/flarum-de",
+        "issues": "https://github.com/flarum-lang/german/issues",
+        "source": "https://github.com/flarum-lang/german",
         "forum": "https://discuss.flarum.org/d/2648"
     },
     "require": {
