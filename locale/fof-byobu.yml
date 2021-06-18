@@ -1,0 +1,116 @@
+# link to current english version: https://github.com/FriendsOfFlarum/byobu/blob/master/resources/locale/en.yml
+fof-byobu:
+    forum:
+        badges:
+            is_private:
+                tooltip: Private Diskussion
+        buttons:
+            add_recipients: Empfänger
+            submit: Okay
+            edit_recipients: Empfänger bearbeiten
+            send_pd: "{username} eine Nachricht senden"
+            cancel: Abbrechen
+            remove_from_discussion: Diese private Diskussion verlassen
+        composer_private_discussion:
+            submit_button: Erstelle private Diskussion
+            title_placeholder: Private Diskussion Titel
+        labels:
+            recipients: "{count} Empfänger"
+            user_deleted: -gelöscht-
+        nav:
+            start_button: Privat diskutieren
+            nav_item: "Private Diskussionen"
+        input:
+            search_recipients: Empfänger durch Eingabe der ersten drei Zeichen suchen…
+        search:
+            headings:
+                groups: Rechtegruppen
+        modal:
+            titles:
+                update_recipients: Empfänger von {title} aktualisieren
+                add_recipients: Empfänger zur Diskussion hinzufügen
+            help:
+                add_recipients: Diese Diskussion wird nur für die Nutzer sichtbar sein, die du hier auswählst. Mindestens 1 Empfänger (außer dir selbst) ist erforderlich.
+                update_recipients: Diese Diskussion wird nur für die Nutzer sichtbar sein, die du hier auswählst.
+        post:
+            recipients_modified:
+                added_and_removed: "{username} hat die Empfänger {added} hinzugefügt und {removed} entfernt."
+                added: "{username} hat die Empfänger {added} hinzugefügt."
+                removed: "{username} hat die Empfänger {removed} entfernt."
+                removed_self: "{username} hat die private Diskussion verlassen."
+        user:
+            settings:
+                block_pd: Private Diskussionen sperren
+                unified_index: Private Diskussionen in einem einheitlichen Index zusammenfassen
+            byobu_link: Private Diskussionen
+            dropdown_label: Private Diskussionen
+
+        notifications:
+            pd_label: Jemand nimmt mich in eine neue private Diskussion auf
+            pd_reply_label: Jemand postet in einer privaten Diskussion in der ich Empfänger bin
+            pd_reply_text: "{username} hat in einer privaten Diskussion gepostet, an der du beteiligt bist"
+            pd_text: "{username} hat eine neue private Diskussion mit dir begonnen"
+            pd_user_left_label: Ein Empfänger verlässt eine private Diskussion, an der ich teilnehme
+            pd_user_left_text: "{username} hat die private Diskussion verlassen"
+            pd_added_text: "{username} hat dich zu einer privaten Diskussion hinzugefügt"
+            pd_added_label: "Jemand fügt mich zu einer bestehenden privaten Diskussion hinzu"
+
+        confirm:
+            make_public: Dadurch wird diese private Diskussion für alle sichtbar. Überlege, ob dies die richtige Handlung ist, bevor du fortfährst.
+
+    admin:
+        permission:
+            create_private_discussions_with_users: Private Diskussionen mit Nutzern erstellen
+            create_private_discussions_with_groups: Private Diskussionen mit Gruppen erstellen
+            create_private_discussions_with_blocking_users: Erstelle private Diskussionen mit Nutzern, die du blockierst
+            edit_user_recipients: Nutzer bearbeiten, die an privaten Diskussionen teilnehmen
+            edit_group_recipients: Gruppen bearbeiten, die an privaten Diskussionen teilnehmen
+            view_private_discussions-when-flagged: Private Diskussionen anderer Nutzer anzeigen, wenn diese gemeldet sind
+
+        settings:
+            badge-icon: Byobu Diskussions Abzeichen
+            post-event-icon: Byobu Post Ereignisse
+
+    email:
+        subject:
+            private_discussion_created: "[Private Diskussion] {display_name} hat eine neue private Diskussion mit dir begonnen"
+            private_discussion_replied: "[Private Diskussion] {display_name} hat in einer privaten Diskussion gepostet"
+            recipient_removed: "[Private Diskussion] {display_name} hat die Diskussion verlassen"
+            private_discussion_added: "[Private Diskussion] {display_name} hat dich zu einer privaten Diskussion hinzugefügt"
+        body:
+            private_discussion_created: |
+                Hallo {recipient_display_name},
+
+                {actor_display_name} hat eine neue private Diskussion mit dir als Empfänger gestartet, mit dem Titel '{discussion_title}'.
+
+                Betrachte sie hier:
+                {discussion_url}
+
+                Du musst dich eventuell erst einloggen, bevor du auf diesen Link zugreifen kannst.
+            private_discussion_replied: |
+                Hallo {recipient_display_name},
+
+                {actor_display_name} hat in einer privaten Diskussion mit dir als Empfänger gepostet, mit dem Titel '{discussion_title}'.
+
+                Betrachte sie hier:
+                {post_url}
+
+                Du musst dich eventuell erst einloggen, bevor du auf diesen Link zugreifen kannst.
+            recipient_removed: |
+                Hallo {recipient_display_name},
+
+                {actor_display_name} hat die private Diskussion '{discussion_title}' verlassen. Dadurch ist der/die Nutzer*in nicht mehr dazu in der Lage, den Inhalt zu sehen.
+
+                Betrachte sie hier:
+                {discussion_url}
+
+                Du musst dich eventuell erst einloggen, bevor du auf diesen Link zugreifen kannst.
+            private_discussion_added: |
+                Hallo {recipient_display_name},
+
+                {actor_display_name} hat dich zu einer bestehenden privaten Diskussion hinzugefügt, mit dem Titel '{discussion_title}'.
+
+                Betrachte sie hier:
+                {discussion_url}
+
+                Du musst dich eventuell erst einloggen, bevor du auf diesen Link zugreifen kannst.

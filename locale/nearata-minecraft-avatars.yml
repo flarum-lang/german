@@ -1,0 +1,12 @@
+# link to current english version: https://github.com/Nearata/flarum-ext-minecraft-avatars/blob/master/resources/locale/en.yml
+nearata-minecraft-avatars:
+  forum:
+    avatar_changed: Dein Avatar wurde gespeichert.
+    use_button: Minecraft Avatar verwenden
+    change_button: Minecraft Avatar ändern
+    dismiss_button: OK
+    help_text: Gebe einen Minecraft Nutzernamen oder eine UUID ein.
+    title: Minecraft Avatar
+    submit_button: Änderungen speichern
+    username_uuid_not_valid: Ungültiger Nutzername oder UUID.
+    username_not_found: Nutzername nicht gefunden.

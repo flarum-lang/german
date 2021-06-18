@@ -1,0 +1,69 @@
+# link to current english version: https://github.com/FriendsOfFlarum/gamification/blob/master/resources/locale/en.yml
+core:
+  forum:
+    index_sort:
+      hot_button: Trends
+
+fof-gamification:
+  forum:
+    votes: Abstimmungen
+    vote_title: Zeigen, wer gewählt hat
+    nav:
+      name: Ranglisten
+    ranking:
+      rank: Platz
+      name: Nutzer
+      amount: Punkte
+    notification:
+      upvote: "{username} hat deinen Beitrag Upgevoted"
+      downvote: "{username} hat deinen Beitrag Downgevoted"
+    user:
+      points: "Punkte: {points}"
+      rank: "{rank}"
+    modal:
+      title: Wähler
+      upvotes_label: 'Upvoter:'
+    mod_item: Wähler anzeigen
+  admin:
+    permissions:
+      vote_label: Upvote/Downvote Beiträge
+      see_votes_label: Upvote/Downvotes von Beiträgen sehen
+      see_ranking_page: Ranglisten Platz sehen
+    page:
+      rankings:
+        blocked:
+          placeholder: CDK2020, Ralkage, AngelAvila, Kakifrucht
+          title: Ignorierte Nutzer
+          help: Diese Nutzer werden nicht auf der Rangliste angezeigt. Nutzernamen sollten durch ein Komma, gefolgt von einem Leerzeichen, voneinander getrennt werden.
+        title: Ranglisten-Seite
+        enable: Benutzerdefinierte Bilder aktivieren
+        custom_image_1: Bild für Platz 1
+        custom_image_2: Bild für Platz 2
+        custom_image_3: Bild für Platz 3
+      votes:
+        points_title: Punkte Platzhalter
+        points_placeholder: "Punkte: "
+        color_holder: '#ffffff'
+        auto_upvote: Beiträge automatisch upvoten, wenn sie veröffentlicht werden
+        rate_limit: Erzwinge ein Abstimmungs-Limit (10 Sekunden)
+        discussion_page: Gesamtzahl der Stimmen des ursprünglichen Beitrags in der Diskussionsliste anzeigen
+        alternate_layout: Alternatives Layout verwenden, um Upvotes/Downvotes anzuzeigen und/oder durchzuführen
+        title: Stimmen
+        vote_color: Abgestimmt Farbe
+        icon_name: Upvote/Downvote Symbol
+        icon_help: "Gebe ein beliebiges Font-Awesome-Icon mit den Endungen -up und -down ein. Beispiele: arrow, thumbs, chevron"
+      save_settings: Einstellungen speichern
+      convert:
+        button: Gefällt-mirs in Upvotes konvertieren
+        help: Konvertiere deine vorherigen flarum-ext-likes Gefällt-mirs in Upvotes und berechne wie sehr im Trend alle aktuellen Diskussionen liegen.
+        converting: Deine Gefällt-mirs werden nun konvertiert. Aktualisiere die Seite nach ein paar Minuten, um zu sehen, ob der Prozess abgeschlossen ist. (Die Konvertierung kann eine Weile dauern, je nachdem wie viele Gefällt-mirs es gibt)
+        converted: "Erfolgreich alle {number} Gefällt-mirs konvertiert"
+      ranks:
+        title: Ränge
+        ranks: Benutzerdefinierte Ränge
+        number_title: Wie viele Rangabzeichen sollen angezeigt werden?
+        help:
+          color: '#ffffff'
+          help: "Gebe die gewünschte Anzahl an Upvotes, den Namen des Ranges und die Hex-Farbe des Ranges ein"
+          points: Punkte
+          name: Name

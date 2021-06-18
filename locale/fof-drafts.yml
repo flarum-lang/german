@@ -1,0 +1,43 @@
+# link to current english version: https://github.com/FriendsOfFlarum/drafts/blob/master/resources/locale/en.yml
+fof-drafts:
+  admin:
+    permissions:
+      start: Entwürfe erstellen
+      schedule: Entwürfe planen
+    settings:
+      title: FoF Entwürfe
+      enable_scheduled_drafts: Geplante Entwürfe aktivieren
+      schedule_on_one_server: Verwende die 'onOneServer()' Direktive für den Task-Scheduler (benötigt Redis/Memcache)
+      schedule_log_output: Ausgabe des Schedulers an den Logspeicher anhängen
+  console:
+    scheduled_drafts_disabled: Geplante Entwürfe sind derzeit in den Einstellungen deaktiviert.
+  forum:
+    composer:
+      title: Entwurf speichern
+      saving: Wird gespeichert…
+      saved: Gespeichert!
+      exit_alert: Änderungen am Entwurf verwerfen?
+      discard_empty_draft_alert: Leeren Entwurf verwerfen?
+    dropdown:
+      empty_text: Du hast keine Entwürfe gespeichert
+      title: Entwürfe
+      delete_button: Entwurf löschen
+      schedule_button: Entwurf planen
+      tooltip: => fof-drafts.forum.dropdown.title
+      alert: Bist du sicher, dass du den Entwurf löschen möchtest?
+      delete_all_alert: Bist du sicher, dass du alle deine Entwürfe löschen willst?
+    schedule_draft_modal:
+      title: Entwurf planen
+      text: Plane die automatische Veröffentlichung deines Entwurfs.
+      scheduled_text: Beitrag wird am {datetime} veröffentlicht.
+      scheduled_error: "Konnte Beitrag nicht veröffentlichen wegen: {error}."
+      unschedule_button: Plan entfernen
+      reschedule_button: Plan aktualisieren
+      schedule_button: Planen
+    user:
+      settings:
+        drafts_heading: Entwürfe
+        draft_autosave_enable: Automatisches Speichern von Entwürfen aktivieren?
+        draft_autosave_interval_label: Autospeicher-Intervall (Sekunden)
+        draft_autosave_interval_button: Update-Intervall
+        draft_autosave_interval_invalid: Das Intervall muss eine Zahl größer als 4 sein.

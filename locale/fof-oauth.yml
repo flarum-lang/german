@@ -1,0 +1,70 @@
+# link to current english version: https://github.com/FriendsOfFlarum/oauth/blob/master/resources/locale/en.yml
+fof-oauth:
+  admin:
+    settings:
+      only_icons_label: Zeige nur die Symbole ohne Text auf den Einloggen-Buttons (alternatives Layout)
+
+      providers:
+        callback_url_text: Wenn nötig, setze die Rückruf-URL (callback) zu {url}.
+
+        discord:
+          description: Erstelle eine Applikation unter {link}. Füge die Umleitungs-URL (redirect) im OAuth2 Menüpunkt hinzu.
+
+          client_id_label: => fof-oauth.ref.settings.client_id
+          client_secret_label: => fof-oauth.ref.settings.client_secret
+
+        facebook:
+          description: Erstelle eine Applikation unter {link}.
+
+          app_id_label: => fof-oauth.ref.settings.app_id
+          app_secret_label: => fof-oauth.ref.settings.app_secret
+
+        github:
+          description: Erstelle eine OAuth-Applikation unter {link}.
+
+          client_id_label: => fof-oauth.ref.settings.client_id
+          client_secret_label: => fof-oauth.ref.settings.client_secret
+
+        gitlab:
+          description: Erstelle eine Applikation unter {link}. Weise deiner erstellten Applikation die <code>read_user</code> scope zu.
+
+          client_id_label: => fof-oauth.ref.settings.app_id
+          client_secret_label: => fof-oauth.ref.settings.app_secret
+          domain_label: GitLab Domain
+
+        twitter:
+          description: Erstelle eine Applikation unter {link}. Du musst eine Nutzungsbedingungen-, sowie eine Datenschutzrichtlinien-URL festlegen. Weise dann die "E-Mail anfordern" Berechtigung deiner Applikation zu.
+
+          api_key_label: API Key
+          api_secret_label: API Secret
+
+        google:
+          description: Erstelle eine Applikation unter {link}.
+
+          client_id_label: => fof-oauth.ref.settings.client_id
+          client_secret_label: => fof-oauth.ref.settings.client_secret
+
+  forum:
+    log_in:
+      with_button: Mit {provider} anmelden
+
+    error:
+      bad_verification_code: Ungültiges oder abgelaufenes Verifizierungs-Token. Bitte versuche es erneut.
+      invalid_state: Ungültiger Zustand. Bitte versuche es erneut.
+
+  lib:
+    providers:
+      discord: Discord
+      facebook: Facebook
+      github: GitHub
+      gitlab: GitLab
+      twitter: Twitter
+      google: Google
+
+  ref:
+    settings:
+      app_id: App ID
+      app_secret: App Secret
+
+      client_id: Client ID
+      client_secret: Client Secret

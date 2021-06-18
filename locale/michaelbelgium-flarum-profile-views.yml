@@ -1,0 +1,11 @@
+# link to current english version: https://github.com/MichaelBelgium/flarum-profile-views/blob/master/locale/en.yml
+michaelbelgium-flarum-profile-views:
+  forum:
+    user:
+      last_viewers_heading: Letzte Besucher
+      view_count_text: '{viewcount} mal aufgerufen'
+  admin:
+    settings:
+      title: 'Profilansichten Einstellungen'
+      track_guests_label: 'Gäste mitzählen'
+      max_viewcount_label: 'Maximale Einträge in Besucherliste'

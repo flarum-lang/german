@@ -1,0 +1,106 @@
+# link to current english version: https://github.com/FriendsOfFlarum/upload/blob/master/resources/locale/en.yml
+fof-upload:
+  admin:
+    pane:
+      title: Hochladen
+      description: Konfiguriere Upload-Dienste und Präferenzen.
+    buttons:
+      save: Einstellungen speichern
+    help_texts:
+      disable-download-logging: |
+        Deaktiviere die Protokollierung aller Downloads, die von Nutzern deines Forums getätigt werden. Wenn du es aktiviert lässt, kannst du die Anzahl der Downloads und andere Metriken in der nahen Zukunft einsehen.
+      disable-hotlink-protection: |
+        Der Hotlink-Schutz verhindert das Öffnen von Downloads auf anderen Seiten. Die aktuelle Methode erfordert ein csrf-Token und eine Post-ID.
+      download_templates: |
+        Downloadvorlagen sind die Art und Weise, wie Uploads in deinem Forum angezeigt werden, z.B. als Vorschaubilder oder Buttons. Derzeit verfügbar:
+      mime_types: |
+        Bitte konfiguriere deine Zuweisungen hier. Jeder reguläre Ausdruck des Mime-Typs wird von einem bestimmten Upload-Adapter und deren Downloadvorlage behandelt.
+      resize: |
+        Wähle aus, ob du die Größe deiner Bilder ändern möchtest, bevor sie hochgeladen werden. Du kannst eine maximale Breite und Höhe in Pixeln wählen. Bei der Größenänderung wird das Seitenverhältnis der Bilder beibehalten.
+      client_extension: |
+        Standardmäßig wählt Upload eine sichere Dateierweiterung basierend auf dem MIME-Typ.
+        Bei einigen Dateitypen, die auf ZIP- oder Binärdaten basieren, kann dies dazu führen, dass generische Erweiterungen statt der erwarteten verwendet werden.
+        Hier kannst du eine kommagetrennte Liste von Dateierweiterungen eingeben, die genau beibehalten werden sollen.
+      watermark: |
+        Wähle aus, ob Bilder beim Hochladen mit einem Wasserzeichen versehen werden sollen. Wasserzeichen werden basierend auf deinen Einstellungen unten hinzugefügt, jedoch nicht bei GIF's.
+      s3_compatible_storage: |
+        Die folgenden Einstellungen sind nur erforderlich, wenn du S3 kompatiblen Speicher verwendest. Wenn du AWS verwendest, kannst du sie leer lassen.
+      s3_acl: |
+        Die Zugriffssteuerungsliste (ACL), die auf das hochgeladene Objekt angewendet werden soll (Standard: private). Für mögliche Werte, siehe https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl
+    labels:
+      aws-s3:
+        bucket: Bucket
+        key: Schlüssel
+        region: Region
+        secret: Geheimnis
+        title: AWS S3 Speichereinstellungen
+        advanced_title: Advanced S3 Speichereinstellungen
+        endpoint: Endpunkt
+        use_path_style_endpoint: Verwende "path style"-Endpunkt
+        acl: Zugriffssteuerungsliste (ACL)
+      disable-download-logging:
+        title: Protokollierung von Downloads deaktivieren
+        toggle: Deaktivieren
+      disable-hotlink-protection:
+        title: Hotlink-Schutz deaktivieren
+        toggle: Deaktivieren
+      imgur:
+        client_id: Imgur Client ID
+        title: Imgur Bilder Speichereinstellungen
+      local:
+        cdn_url: Content Delivery URL (Präfixe für Dateien)
+        title: Lokale Speichereinstellungen
+      qiniu:
+        title: Qiniu Speichereinstellungen
+        key: Schlüssel
+        secret: Geheimnis
+        bucket: Bucket
+      preferences:
+        max_file_size: Maximale Dateigröße (in Kilobytes)
+        mime_types: 'Konfiguriere deinen MIME-Typ, lade ein Adapter-Mapping hoch'
+        title: Allgemeine Einstellungen
+      resize:
+        max_width: Maximale Bildbreite/-höhe
+        title: Bildgröße anpassen
+        toggle: Größe der Bilder ändern
+      client_extension:
+        title: Benutzerdefinierte Dateierweiterungen
+      watermark:
+        file: Lade dein Wasserzeichen hoch
+        position: Wasserzeichen Position
+        title: Wasserzeichen auf Bildern
+        toggle: Bilder mit Wasserzeichen versehen
+    permissions:
+      download_label: Dateien herunterladen
+      upload_label: Dateien hochladen
+    templates:
+      file: Standard Datei-Downloadvorlage
+      file_description: |
+        Zeigt den Dateinamen und allgemeine Informationen zur Datei an. Downloads laufen durch den php-Proxy, Statistiken werden gesammelt und Hotlink-Schutz ist aktiv.
+      image: Standard Bild-Downloadvorlage
+      image-preview: Vollständige Bildvorschau Vorlage
+      image-preview_description: |
+        Zeigt das komplette Bild eingebettet im Beitrag an. Keine Download-Funktionalität, es werden keine Statistiken gesammelt und der Hotlink-Schutz wird ignoriert.
+      image_description: |
+        Zeigt eine Miniaturansicht des Bildes an und ermöglicht den Download über den php-Proxy. Statistiken werden gesammelt und Hotlink-Schutz ist aktiv.
+      just-url: Nur URL
+      just-url_description: |
+        Fügt nur die URL ein. Das Rendering kann von anderen Erweiterungen mit Autolink-Funktionalität übernommen werden. Keine Download-Funktionalität, es werden keine Statistiken gesammelt und der Hotlink-Schutz wird ignoriert.
+    upload_methods:
+      aws-s3: S3/Kompatibel
+      imgur: Imgur
+      local: Lokal
+      ovh-svfs: OVH SVFS
+      qiniu: QiNiu
+  forum:
+    buttons:
+      attach: Anhängen
+    states:
+      error: Fehler
+      loading: Lädt hoch
+      unauthorized: Du darfst keine Dateien herunterladen
+  api:
+    upload_errors:
+      forbidden_type: Das Hochladen von Dateien dieses Typs ist nicht erlaubt.
+      unsupported_type: 'Upload-Adapter unterstützt den angegebenen MIME-Type nicht: {mime}.'
+      could_not_detect_mime: Der MIME-Typ dieser Datei konnte nicht erkannt werden, bitte versuche es erneut.

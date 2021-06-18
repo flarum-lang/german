@@ -1,0 +1,19 @@
+# link to current english version: https://github.com/AntoineFr/flarum-ext-money/blob/master/locale/en.yml
+antoinefr-money:
+  admin:
+    settings:
+      title: Einstellungen
+      moneyforpost: Geld gegeben für einen neuen Beitrag
+      moneyfordiscussion: Geld gegeben für eine neue Diskussion
+      moneyname: "Name des Geldes (zB: [money] Punkte)"
+      postminimumlength: Mindestlänge des Beitrags, um das Geld zu erhalten (0 zum deaktivieren)
+      noshowzero: Nicht zeigen, wenn der Betrag Null ist 
+    permissions:
+      edit_money_label: Geld bearbeiten
+  forum:
+    user_controls:
+      money_button: Geld bearbeiten
+    modal:
+      title: "{username}s Geld"
+      current: "Aktuell:"
+      submit_button: => core.ref.save_changes

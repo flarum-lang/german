@@ -1,0 +1,12 @@
+# link to current english version: https://github.com/FriendsOfFlarum/user-bio/blob/master/resources/locale/en.yml
+fof-user-bio:
+  admin:
+    permission:
+      view: Bio ansehen
+      editOwn: Eigene Bio editieren
+      editAny: Alle Bio's editieren
+    setting:
+      bioLimit: Bio Zeichenlimit
+
+  forum:
+    userbioPlaceholder: Schreib etwas über dich.

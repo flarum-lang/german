@@ -1,0 +1,45 @@
+# link to current english version: https://github.com/FriendsOfFlarum/polls/blob/master/resources/locale/en.yml
+fof-polls:
+  admin:
+    permissions:
+      moderate: Umfragen bearbeiten & entfernen
+      self_edit: Eigene Umfragen bearbeiten
+      start: Umfragen starten
+      vote: In Umfragen abstimmen
+
+  forum:
+    days_remaining: Umfrage endet in {time}.
+    no_permission: Du hast keine Berechtigung abzustimmen
+    poll_ended: Diese Umfrage ist bereits beendet.
+    public_poll: Abstimmungsergebnis
+
+    composer_discussion:
+      add_poll: Umfrage hinzufügen
+      edit_poll: Umfrage bearbeiten
+
+    modal:
+      add_title: Umfrage hinzufügen
+      add_option_label: Auswahl hinzufügen
+      date_placeholder: Enddatum der Umfrage (optional)
+      edit_title: Umfrage bearbeiten
+      include_question: Du musst eine Frage stellen
+      max: Du kannst nicht mehr als 10 Antworten erstellen
+      min: Du musst mindestens zwei Antworten erstellen
+      no_voters: Keine Stimmen
+      option_placeholder: Antwort
+      options_label: Antworten
+      public_poll_label: Alle dürfen sehen, wer abgestimmt hat
+      question_placeholder: Frage
+      submit: Speichern
+
+    moderation:
+      delete: Umfrage entfernen
+      delete_confirm: Bist du sicher, dass du die Umfrage entfernen willst?
+      edit: Umfrage bearbeiten
+
+    tooltip:
+      badge: Umfrage
+      votes: "{count, plural, one {Eine Stimme} other {# Stimmen}}"
+
+    votes_modal:
+      title: => fof-polls.forum.public_poll

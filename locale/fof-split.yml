@@ -1,0 +1,16 @@
+# link to current english version: https://github.com/FriendsOfFlarum/split/blob/master/locale/en.yml
+fof-split:
+    admin:
+        permissions:
+            split_discussion_label: Teile Beiträge von Diskussionen auf
+    forum:
+        post:
+            was_split_to: "{count, plural, one {# Beitrag wurde nach {target} aufgeteilt.} other {# Beiträge wurden nach {target} aufgeteilt.}}"
+            was_split_from: "{count, plural, one {# Beitrag wurde von {target} aufgeteilt.} other {# Beiträge wurden von {target} aufgeteilt.}}"
+        split:
+            from: Aufteilen ab hier
+            to: Aufteilen bis hier
+        modal:
+            title: Diskussion aufteilen
+            new_discussion_label: Lege den Titel für die neue Diskussion fest
+            submit_button: Aufteilen

@@ -1,0 +1,27 @@
+# link to current english version: https://github.com/FriendsOfFlarum/moderator-notes/blob/master/resources/locale/en.yml
+fof-moderator-notes:
+  admin:
+    permissions:
+      createnotes: Moderationsnotizen erstellen
+      viewnotes: Moderationsnotizen anzeigen
+      deletenotes: Moderationsnotizen löschen
+  forum:
+    no_content_given: Eine leere Notiz ist nicht zulässig.
+    moderatorNotes:
+      created_text: "{username} hat diese Notiz am {date} erstellt"
+      add_button: Neue Notiz
+      create-heading: Eine neue Moderationsnotiz erstellen
+      dismiss_button: Erledigt
+      input_heading: Gebe deine Notizen für <strong>{username}</strong> ein, (Markdown wird unterstützt)
+      noNotes: Es sieht so aus, als gäbe es hier keine Notizen.
+      submit_button: Notiz speichern
+      delete: Löschen
+      confirm: Bist du sicher, dass du diese Notiz löschen möchtest?
+
+    user:
+      notes: Moderationsnotizen
+
+  api:
+    auto_note: "_Ich habe zu diesem Nutzer gewechselt:_ reason"
+    auto_note_actor: "_Gewechselt zu_ @username: reason"
+    no_reason_provided: Kein Grund angegeben

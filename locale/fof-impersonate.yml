@@ -1,0 +1,19 @@
+# link to current english version: https://github.com/FriendsOfFlarum/impersonate/blob/master/resources/locale/en.yml
+fof-impersonate:
+    admin:
+        permissions:
+            login: Anmelden als andere Nutzer
+        settings:
+            title: FoF Impersonate
+            require_reason: Verlange die Eingabe eines Grundes, bevor man sich als ein anderen Nutzer ausgeben kann.
+            no_settings_available: Derzeit sind keine Einstellungen verfügbar. Versuche fof/moderator-notes zu installieren.
+
+    forum:
+        modal:
+            title: Anmelden als anderer Nutzer
+            label: Mit großer Macht kommt große Verantwortung. Wenn du fortfährst, wirst du zu {username}, bis du dich abmeldest.
+            placeholder_optional: (Optional) Gib deinen Grund für den Wechsel zu diesem Nutzer an
+            placeholder_required: Du musst deinen Grund für den Wechsel zu diesem Nutzer angeben, bevor du fortfährst
+            impersonate_username: Anmelden als {username}
+        user_controls:
+            impersonate_button: Anmelden als Nutzer

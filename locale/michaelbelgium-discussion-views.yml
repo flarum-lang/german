@@ -1,0 +1,28 @@
+# link to current english version: https://github.com/MichaelBelgium/flarum-discussion-views/blob/master/locale/en.yml
+core:
+  forum:
+    index_sort:
+      popular_button: Beliebt
+      unpopular_button: Unbeliebt
+
+michaelbelgium-discussion-views:
+  forum:
+    modal_resetviews:
+      title: Aufrufzähler zurücksetzen
+      submit_button: Ja, alle entfernen
+      label: "{count, plural, one {Dies wird # Diskussionsaufruf entfernen.} other {Dies wird # Diskussionsaufrufe entfernen.}} Fortfahren?"
+    discussion_controls:
+      resetviews_button: Aufrufzähler zurücksetzen
+    viewlist:
+      title: Letzte Aufrufe
+  admin:
+      permissions:
+        reset_views_label: Diskussionsaufrufzähler zurücksetzen
+        view_number_label: Diskussionsaufrufzähler anzeigen
+      settings:
+        title: Diskussionsaufrufzähler Einstellungen
+        track_unique_label: Einzelne Aufrufe mitzählen
+        abbr_numbers_label: Aufrufzahlen abkürzen
+        show_filter_label: Beliebt/Unbeliebt Sortierung anzeigen
+        max_viewcount_label: Maximale Einträge in Aufrufliste
+        show_viewlist_label: Aufrufliste aktivieren

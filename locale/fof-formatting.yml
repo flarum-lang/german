@@ -1,0 +1,11 @@
+# link to current english version: https://github.com/FriendsOfFlarum/formatting/blob/master/resources/locale/en.yml
+fof-formatting:
+  admin:
+    plugins:
+      Autoimage: Bild-URLs in Bilder umwandeln
+      Autovideo: Video-URLs in abspielbare Videos umwandeln
+      FancyPants: Schicke Typografie verwenden
+      HTMLEntities: HTML-Elemente verwenden
+      MediaEmbed: Inhalte von erlaubten Seiten einbetten
+      PipeTables: Tabellen im ASCII-Stil
+      TaskLists: GitHub/GitLab-ähnliche Aufgabenlisten

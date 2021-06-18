@@ -1,0 +1,8 @@
+# link to current english version: https://github.com/FriendsOfFlarum/secure-https/blob/master/resources/locale/en.yml
+fof-secure-https:
+  admin:
+    settings:
+      replace: Leite Bilder durch HTTPS
+  forum:
+    removed: Bild entfernt wegen fehlender Unterstützung für HTTPS.
+    show: Trotzdem zeigen

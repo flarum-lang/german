@@ -1,0 +1,86 @@
+v17development-flarum-badges:
+  admin:
+    uncategorized: Unkategorisiert
+    new_badge: Neues Abzeichen
+    create_category: Kategorie erstellen
+    update_badge: Abzeichen aktualisieren
+    update_category: Kategorie aktualisieren
+    edit_category: Kategorie bearbeiten
+    nothing_here_yet: Du hast noch keine Kategorien oder Abzeichen erstellt.
+
+    permissions:
+      give_badge: Abzeichen für Benutzer hinzufügen
+      take_badge: Abzeichen von Benutzer entfernen
+
+    confirm_dialog:
+      title: Bestätigen
+      no: Nein
+      yes: Ja
+    
+    confirm_messages:
+      delete_badge: Bist du sicher, dass du dieses Abzeichen entfernen möchtest? Es wird von allen Benutzern entfernt und ist unwiderruflich.
+      delete_category: Bist du sicher, dass du diese Kategorie entfernen möchtest? Wenn sich Abzeichen in dieser Kategorie befinden, werden sie als 'Unkategorisiert' markiert.
+
+    badge:
+      name: Abzeichen Name
+      icon: Abzeichen Icon
+      description: Abzeichen Beschreibung
+      visible: Sichtbar
+      visible_description: Aktiviere dieses Abzeichen. Wenn es deaktiviert ist, wird das Abzeichen nicht sichtbar sein.
+
+    badge_category:
+      name: Kategorie Name
+      description: Kategorie Beschreibung
+      enabled: Aktiviert
+      enabled_description: Aktiviere diese Kategorie. Wenn sie deaktiviert ist, werden alle Abzeichen deaktiviert und die Kategorie wird ausgeblendet.
+    
+    auto_moderator:
+      not_installed:
+        title: Benutzer automatisch mit Abzeichen belohnen
+        content: Diese Erweiterung bietet mehr Funktionalität, wenn <a>Auto Moderator</a> installiert und aktiviert ist. Wenn du diese Erweiterung installierst, können Benutzer automatisch mit Abzeichen belohnt werden, ohne dass ein Community-Mitarbeiter eingreifen muss!
+        install: Installieren
+        dismiss: Nicht erneut anzeigen
+
+      action_drivers:
+        badge_id: Abzeichen ID
+        give_badge: Abzeichen geben
+        remove_badge: Abzeichen entfernen
+      
+      requirement_drivers:
+        has_badge: Abzeichen bereits vorhanden
+
+      metric_drivers:
+        badges_received: Abzeichen erhalten
+
+      badge_selector:
+        placeholder: Wähle ein Abzeichen
+        loading_badges: Abzeichen laden
+
+  forum: 
+    badge_information: Abzeichen Information
+    all_badges: Alle Abzeichen ansehen
+    all_users: Alle Benutzer ansehen
+    give_badge: Abzeichen vergeben
+    update_badge: Abzeichen aktualisieren
+    select_badge: Abzeichen auswählen
+    user_has_badge: Der Benutzer hat dieses Abzeichen bereits.
+    user_no_badges: Der Benutzer hat noch keine Abzeichen erhalten.
+    uncategorized: => v17development-flarum-badges.admin.uncategorized
+
+    badge:
+      badge: Abzeichen
+      badges: Abzeichen
+      name: Abzeichen Name
+      description: Abzeichen Beschreibung
+      earning_reason: Grund für Abzeichenerwerb
+      update_earning_reason: Grund aktualisieren
+      no_earning_reason: Kein Grund angegeben
+      earned_on: Abzeichen erhalten am
+      category: Abzeichen Kategorie
+
+      earned_count: "{count, plural, one {<b># Benutzer</b> hat dieses Abzeichen erhalten} other {<b># Benutzer</b> haben dieses Abzeichen erhalten}}"
+
+    moderation:
+      remove_badge: Abzeichen vom Benutzer entfernen
+      remove_badge_confirm: Bist du sicher, dass du dieses Abzeichen von diesem Benutzer entfernen möchtest?
+      give_badge: Abzeichen vergeben

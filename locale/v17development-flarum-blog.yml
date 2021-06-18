@@ -1,0 +1,96 @@
+# link to current english version: https://github.com/v17development/flarum-blog/blob/master/locale/en.yaml
+v17development-flarum-blog:
+  admin:
+    blog: "Blog"
+
+    permissions:
+      write_articles: "Blogeinträge schreiben und bearbeiten"
+      auto_approve_posts: "Artikel ohne Genehmigung veröffentlichen"
+      approve_posts: "Kann Blog genehmigen"
+
+    settings:
+      no_categories_selected: "Keine Kategorien ausgewählt"
+      selected_category_count: "{count, plural, one {Du hast # Kategorie ausgewählt} other {Du hast # Kategorien ausgewählt}}"
+      select_categories_button: "Blog-Kategorien auswählen"
+      blog_heading: "Blog"
+      allow_comments_label: "Kommentare zulassen"
+      allow_comments_text: "Standardmäßig sind Kommentare zu Blogeinträgen erlaubt. Wenn diese Einstellung deaktiviert wird kann pro Blogeintrag entschieden werden. <b>Hinweis:</b> Das Ändern dieser Einstellung hat keine Auswirkungen auf bereits vorhandene Blogeinträge."
+      require_review_label: "Blogeinträge erfordern Überprüfung"
+      require_review_text: "Neue Blogeinträge sind nicht direkt sichtbar und erfordern eine Überprüfung durch einen Moderator."
+      hide_on_discussion_list_label: "Nicht in der Diskussionsliste anzeigen"
+      hide_on_discussion_list_text: "Blogeinträge aus der Diskussionsliste ausblenden."
+      add_sidebar_nav_label: "Zur Navigation in der Seitenleiste hinzufügen"
+      add_sidebar_nav_text: "Einfügen eines Links zum Blog in das Navigationsmenü."
+      categories_heading: "Kategorien"
+      hide_tags_in_taglist_label: "Tags in der Tagliste ausblenden"
+      hide_tags_in_taglist_text: "Wenn diese Erweiterung aktiviert ist, werden die Blog-Tags auf der Homepage ausgeblendet."
+      show_tag_hierarchy_label: "Tag-Hierarchie anzeigen"
+      show_tag_hierarchy_text: "Füge Abstände zu den Unterkategorien hinzu und gebe der Kategorieliste eine Hierarchie"
+      redirects_heading: "Umleitungen"
+      redirect_articles_label: "Blog-Artikel umleiten"
+      redirect_articles_text: "Wenn aktiviert, leite die ursprüngliche Diskussions-URLs auf ihre Blog-URL um."
+      redirect_tags_label: "Blog-Tags umleiten"
+      redirect_tags_text: "Wenn aktiviert, leite die ursprüngliche Blog-Tag-URLs auf ihre Blog-Kategorie-URL um."
+
+
+  forum:
+    blog: "Blog"
+    read_more: "Mehr lesen"
+    hidden: "Versteckt"
+    recent_posts: "Letzte Blogeinträge"
+    categories: "Kategorien"
+    forum_nav: "Forum Navigation"
+    return_to_overview: "Zurück zur Blog-Übersicht "
+    no_more_posts: "Keine Blogeinträge mehr."
+    category_empty: "Es gibt keine Blogeinträge in dieser Kategorie."
+    
+    compose:
+      write_article: "Artikel verfassen"
+
+    validation:
+      missing_id: "Fehlende ID"
+
+    article:
+      title: "Titel"
+      slug: "Slug"
+      summary: "Zusammenfassung"
+
+    comment_section:
+      comments: "Kommentare"
+      locked: "Der Kommentarbereich ist für diesen Artikel deaktiviert"
+
+    review_article:
+      pending_review_title: "Überprüfung ausstehend"
+      pending_review: "Dieser Artikel befindet sich in der Prüfung und wurde noch nicht veröffentlicht"
+      approve_article: "Artikel freigeben"
+      approve_article_approved: "Der Artikel wurde genehmigt und veröffentlicht"
+
+    tools:
+      rename_article: "Artikel umbenennen"
+      edit_article: "Artikel bearbeiten"
+      update_category: "Kategorien aktualisieren"
+      article_settings: "Artikel Einstellungen"
+      approve_article: "Artikel genehmigen"
+      hide_article: "Artikel verstecken"
+      recover_article: "Artikel wiederherstellen"
+      delete_forever: "Für immer löschen"
+      enable_comments: "Kommentare aktivieren"
+      disable_comments: "Kommentare deaktivieren"
+
+    utils:
+      redirect:
+        title: "Weiterleitung zum Blogeintrag…"
+        link: "<a>Klicke hier</a> wenn die Seite dich nicht weiterleitet"
+
+    composer:
+      no_title: "Kein Titel"
+      enter_message_here: "Gebe deine Nachricht hier ein"
+      post_article: "Blogeintrag veröffentlichen"
+      select_category: "Wähle eine Kategorie"
+      edit_categories: "Kategorien bearbeiten"
+      write: "Schreiben"
+      view: "Ansehen"
+      nothing_to_preview: "Keine Vorschau"
+      comment_section: "Der Kommentarbereich ist beim Verfassen eines Artikels nicht verfügbar."
+      no_blog_tags_selected: "Keiner der ausgewählten Tags ist ein Blog-Tag. Bitte wähle mindestens einen aus."
+      post_without_blog_info: "Bist du sicher, dass du diesen Blogpost veröffentlichen willst? Du hast noch keine Blog-Zusammenfassung verfasst oder ein Bild ausgewählt."

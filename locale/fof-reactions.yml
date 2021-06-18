@@ -1,0 +1,49 @@
+# link to current english version: https://github.com/FriendsOfFlarum/reactions/blob/master/resources/locale/en.yml
+fof-reactions:
+  forum:
+    disabled-reaction: Du kannst diese Reaktion im Moment nicht verwenden, bitte aktualisiere die Seite
+    warning: Deine Reaktion wurde umgewandelt
+    notification: '{username} hat auf deinen Post mit {reaction} reagiert'
+    settings:
+        notify_post_reacted_label: Jemand reagiert auf einen meiner Beiträge
+    reacting-own-post: Du kannst nicht auf deinen eigenen Beitrag reagieren
+    modal:
+        title: Reaktionen
+    mod_item: Reaktionen ansehen
+
+  admin:
+    permissions:
+        react_posts_label: Auf Beiträge reagieren
+        see_reactions_label: Sehen, wer auf Beiträge reagiert hat
+
+    page:
+      reactions:
+        title: Benutzerdefinierte Reaktionen
+        reactions: Aktuelle Reaktionen
+        Helptext: Gib den Namen (Bezeichner) des Emoji oder Font-Awesome Icons ein und wähle aus, welchen Typ du haben möchtest.
+        help:
+          display: Anzeige
+          identifier: Bezeichner
+
+      convert:
+        help: Wenn du deine Erweiterung gerade aktualisiert hast, müssen deine Reaktionen konvertiert werden. Wenn du diese Erweiterung gerade erst installiert hast, kannst du diese Nachricht getrost ignorieren.
+        button: Alte Reaktionen umwandeln
+        converting: Deine Reaktionen werden nun konvertiert. Lade die Seite nach ein paar Minuten neu, um zu sehen, dass der Prozess abgeschlossen ist. (Die Konvertierungszeit kann abhängig von der Gesamtzahl deiner Reaktionen eine Weile dauern)
+        converted: "Erfolgreich alle {number} Gefällt-mirs konvertiert"
+
+      settings:
+        save_settings: Einstellungen speichern
+        integrations:
+          legend: Integrationen
+          warning: Die gleiche Reaktion <strong>kann nicht</strong> in ein Gefällt-mir <strong>und</strong> ein Upvote umgewandelt werden
+          gamification:
+            legend: Gamification
+            upvoteLabel: Konvertiere Reaktionen in Upvotes
+            upvoteHelptext: Gebe den Bezeichner der Reaktion ein, die du automatisch in ein Upvote umwandeln möchtest
+            downvoteLabel: Reaktionen in Downvotes umwandeln
+            downvoteHelptext: Gebe den Bezeichner der Reaktion ein, die du automatisch in ein Downvote umwandeln möchtest
+
+          likes:
+            legend: Gefällt-mirs
+            Label: Reaktionen zu Gefällt-mirs konvertieren
+            Helptext: Gebe den Bezeichner der Reaktion ein, die du automatisch in ein Gefällt mir umwandeln möchtest

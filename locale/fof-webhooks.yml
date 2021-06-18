@@ -1,0 +1,112 @@
+# link to current english version: https://github.com/FriendsOfFlarum/webhooks/blob/master/resources/locale/en.yml
+fof-webhooks:
+  actions:
+    discussion:
+      started: "Diskussion `{1}` gestartet"
+      renamed:
+        title: "Diskussion `{1}` umbenannt"
+        description: "Neuer Titel: {1}"
+      hidden: "Diskussion `{1}` versteckt"
+      restored: "Diskussion `{1}` wiederhergestellt"
+      deleted: "Diskussion `{1}` gelöscht"
+
+    group:
+      created: "Gruppe `{1}` erstellt"
+      renamed: "Eine gruppe wurde umbenannt zu`{1}`"
+      deleted: "Gruppe `{1}` gelöscht"
+
+    post:
+      posted: "Neuer Beitrag in `{1}`"
+      revised: "Beitrag in `{1}` bearbeitet"
+      hidden: "Beitrag in `{1}` versteckt"
+      restored: "Beitrag in `{1}` wiederhergestellt"
+      deleted: "Beitrag in `{1}` gelöscht"
+
+    user:
+      registered: Neuer Nutzer registriert
+      renamed:
+        title: "Nutzernamen von `{1}` geändert"
+        description: "Neuer Nutzername: {1}"
+      deleted: "Nutzer `{1}` gelöscht"
+
+  adapters:
+    errors:
+      404: Webhook Nicht Gefunden
+
+  admin:
+    errors:
+      service_not_found: Der Dienst '{service}' konnte nicht gefunden werden.
+      url_invalid: URL ist für den gewählten Dienst nicht gültig.
+
+    nav:
+      desc: Anpassbare ausgehende Webhooks für dein Forum.
+    settings:
+      item:
+        tag_any_label: Beliebig
+
+      help:
+        disabled: Dieser Webhook ist deaktiviert, weil keine Ereignisse für ihn aktiviert sind.
+        general: Hier kannst du Webhooks in deinem Forum hinzufügen, bearbeiten und entfernen.
+        url: Der Endpunkt des Webhooks, der ausgeführt werden soll
+
+      modal:
+        title: Webhook Einstellungen
+        description: Hier änderst du, bei welchen Ereignissen der Webhook ausgeführt wird.
+
+        use_plain_text_label: Reduziere die Menge an Formatierungen im Beitrag
+
+        max_post_content_length_label: Maximale Beitrags-Länge
+        max_post_content_length_help: Bestimme ein Zahl um die Länge von Beiträgen in allen Beitrags-bezogenen Ereignissen zu limitieren. Um das Limit zu entfernen, gebe 0 oder nichts ein.
+
+        extra_text_label: Zusätzlicher Text
+        extra_text_help: Zusätzlicher Text, der im gesendeten Webhook enthalten sein soll.
+
+        group_label: Gruppe
+        group_help: Ressourcen senden, die von dieser Gruppe gesehen werden können
+
+        events_label: Ereignisse
+
+      services:
+        discord: Discord
+        slack: Slack
+        microsoft-teams: Microsoft Teams
+
+      actions:
+        flarum:
+          discussion:
+            title: Flarum Diskussion
+
+            started: Gestartet
+            renamed: => fof-webhooks.ref.renamed
+            hidden: => fof-webhooks.ref.hidden
+            restored: => fof-webhooks.ref.restored
+            deleted: => fof-webhooks.ref.deleted
+
+          group:
+            title: Flarum Gruppe
+
+            created: Erstellt
+            renamed: => fof-webhooks.ref.renamed
+            deleted: => fof-webhooks.ref.deleted
+
+          post:
+            title: Flarum Beitrag
+
+            posted: Veröffentlicht
+            revised: Bearbeitet
+            hidden: => fof-webhooks.ref.hidden
+            restored: => fof-webhooks.ref.restored
+            deleted: => fof-webhooks.ref.deleted
+
+          user:
+            title: Flarum Nutzer
+
+            registered: Registriert
+            renamed: => fof-webhooks.ref.renamed
+            deleted: => fof-webhooks.ref.deleted
+
+  ref:
+    deleted: Gelöscht
+    hidden: Versteckt
+    renamed: Umbenannt
+    restored: Wiederhergestellt

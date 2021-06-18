@@ -1,0 +1,61 @@
+# link to current english version: https://github.com/FriendsOfFlarum/masquerade/blob/master/resources/locale/en.yml
+fof-masquerade:
+    forum:
+        alerts:
+            profile-completion-required: >
+                Bitte fülle die notwendigen Profilfelder unten aus.
+            profile-completed: Profil vervollständigt! <a>Weiter zur Startseite</a>
+        buttons:
+            view-profile: Profil ansehen
+            save-profile: Speichern
+        fields:
+            select:
+                none-optional: Keine Option ausgewählt (optional)
+                none-required: Bitte wähle eine Option (required)
+            boolean:
+                yes: Ja
+                no: Nein
+    admin:
+        general-options: Allgemeine Optionen
+        buttons:
+            add-field: Feld anlegen
+            edit-field: Änderungen speichern
+            delete-field: Feld löschen
+        permissions:
+            have-profile: Masquerade-Profil anlegen
+            view-profile: Masquerade-Profile ansehen
+        fields:
+            title: Felder
+            add: Feld {field} hinzufügen
+            edit: Feld '{field}' bearbeiten
+            name: Name des Feldes
+            name-help: >
+                Die öffentlich sichtbare (nicht übersetzbare) Feldbezeichnung.
+            description: Feld-Beschreibung
+            description-help: >
+                Eine optionale Beschreibung, um die Verwendung/Notwendigkeit dieses Feldes zu erklären.
+            required: Als Pflichtfeld festlegen
+            on_bio: Inhalt dieses Feldes in der Nutzerbio anzeigen
+            type: Typ
+            validation: Validierung
+            validation-help: >
+                Überprüfe die Gültigkeit der Eingabe mithilfe der unterstützten <a>Laravel-Validierungsregeln</a>. 
+                Beispiel: "string|min:5" oder "url".
+            prefix: Feld-Prefix
+            prefix-help: >
+                Zeigt dein Präfix vor den Werten, die der Nutzer für dieses Feld eingegeben hat.
+            icon: Symbol
+            icon-help: >
+                Zeigt ein Symbol vor den von den Nutzern eingegebenen Werten an. Eine Liste aller verfügbaren
+                Symbole ist auf der <a>FontAwesome Webseite</a> zu finden. Verwende Symbol Namen mit
+                dem "fa-" Prefix, zum Beispiel "fas fa-info".
+            force-user-to-completion: Ausfüllen des Profils verpflichtend machen
+            options: Optionen
+            option-new: Neue Option
+            option-comma-warning: Die Bezeichnung einer Option darf kein Komma enthalten (",").
+        types:
+            advanced: Erweitert
+            boolean: Kontrollkästchen
+            email: E-Mail
+            select: Auswahlliste
+            url: URL

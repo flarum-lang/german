@@ -1,0 +1,39 @@
+# link to current english version: https://github.com/askvortsov1/flarum-trust-levels/blob/master/resources/locale/en.yml
+askvortsov-trust-levels:
+  admin:
+    metric_drivers:
+      discussions_entered: Diskussionen gelesen
+      discussions_participated: An Diskussionen teilgenommen
+      discussions_started: Diskussionen gestartet
+      posts_made: Beiträge erstellt
+      likes_given: Gefällt-Mirs gegeben
+      likes_received: Gefällt-Mirs erhalten
+      best_answers: Beste Antworten
+    group_selector:
+      placeholder: Wähle eine Gruppe
+    trust_level_modal:
+      title: Erstelle Vertrauenslevel
+      name_label: Name
+      name_placeholder: Name der Vertrauensstufe
+      group_label: Gruppe
+      submit_button: => core.ref.save_changes
+      delete_button: Vertrauensstufe löschen
+      delete_confirmation: Bist du sicher, dass du diesen Vertrauenslevel löschen möchtest? Dabei wird den Nutzern die für das Vertrauenslevel assoziierte Gruppe nicht entzogen, wenn sie Sie bereits erhalten haben.
+    trust_level_page:
+      list_heading: Vertrauenslevel
+      create_trust_level_button: Erstelle neues Vertrauenslevel
+      instructions_header: Anleitung
+      instructions_text: |
+        <li>Vertrauenslevel ermöglichen es dir, basierend auf der Aktivität der Nutzer, deren Gruppenmitgliedschaften automatisch zu verwalten.</li>
+        <li>Jedes Vertrauenslevel definiert Kriterien, die erfüllt werden müssen (z. B. begonnene Diskussionen, erstellte Beiträge usw.), und eine Gruppe.</li>
+        <li>Nutzer werden wenn sie sich anmelden automatisch zu Gruppen für alle Vertrauensstufen hinzugefügt, für die sie sich qualifizieren.</li>
+        <li>Da diese gruppen automatisch verwaltet sind empfehlen wir eine eigene Menge von Gruppen für Vertrauenslevel einzurichten.</li>
+        <li>Wenn du ein Vertrauenslevel löschst solltest du auch die damit assoziierte Gruppe löschen; ansonsten bleiben Nutzer mit dem gelöschten Vertrauenslevel in dieser Gruppe</li>
+        <li>Um Fehler zu vermeiden, kannst du die Gruppe einer Vertrauensstufe nicht aktualisieren, nachdem sie erstellt wurde.</li>
+        <li>Alle Metriken, die deaktiviert sind, werden nicht gezählt. Wenn für einen bestimmten Vertrauenslevel alle Metriken deaktiviert sind, erhalten ALLE Nutzer dieses Level.</li>
+        <li>Wenn eine Gruppe von mehreren Vertrauenslevels verwaltet wird, dann wird der Nutzer zu der Gruppe hinzugefügt, sofern er sich in mindestens einem dieser Vertrauenslevel befindet.</li>
+  forum:
+    edit_user:
+      trust_levels_heading: Vertrauenslevel
+      trust_level_item: "<badge></badge> {level} (Verwaltet Gruppe: {groupName})"
+      trust_levels_not_editable: Vertrauenslevel und Gruppen, die von Vertrauenslevels verwaltet werden, können nicht manuell bearbeitet werden, um Inkonsistenzen zu vermeiden.

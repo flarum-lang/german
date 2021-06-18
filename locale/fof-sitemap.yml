@@ -1,0 +1,27 @@
+# link to current english version: https://github.com/FriendsOfFlarum/sitemap/blob/master/resources/locale/en.yml
+fof-sitemap:
+    admin:
+      settings:
+        title: FoF Sitemap
+        mode_label: Betriebsmodus
+        mode_help: Die Wahl des richtigen Modus für die Größe deines Forums ist von entscheidender Bedeutung.
+        mode_help_runtime_label: Laufzeitmodus
+        mode_help_runtime: Für kleine Foren, meist auf Shared-Hosting-Umgebungen, mit Diskussionen, Benutzern, Tags und Seiten, die in der Summe weniger als 10.000 Einträge haben. Die Sitemap wird bei jeder Anfrage in Echtzeit generiert.
+        mode_help_schedule: Die folgenden Modi fügen ihre Aufgaben dem Flarum-Scheduler hinzu.
+        mode_help_schedule_setup: Ohne die korrekte Einrichtung des Flarum-Schedulers werden die folgenden Modi nicht ausgeführt. Siehe hier <a>für weitere Informationen</a>.
+        mode_help_cache_disk_label: Cache-Modus/Disk-Modus
+        mode_help_cache_disk: Am besten geeignet für kleine oder mittelgroße Foren, am ehesten auf Hosting-Umgebungen, die Cronjobs zulassen und den Flarum-Scheduler aktivieren (siehe unten), und mit Diskussionen, Benutzern, Tags und Seiten, die in Summe weniger als 50.000 Einträge umfassen.
+        mode_help_large: 50.000 ist das technische Limit für Sitemap-Dateien. Wenn du mehr Einträge zu speichern hast, nutze die folgende Option!
+        mode_help_multi_label: Mehrdateien-Modus
+        mode_help_multi: Am besten für größere Foren ab 50.000 Artikeln. Mehrteilige, komprimierte Sitemap-Dateien werden generiert und im /public Ordner gespeichert
+        advanced_options_label: Erweiterte Optionen
+        frequency_label: Wie oft sollte der Scheduler die Cache- oder Disk-basierte Sitemap neu aufbauen?
+        modes:
+            runtime: Laufzeit
+            cache: Cache
+            cache_disk: Disk
+            multi_file: Mehrdateien
+        frequency:
+            hourly: Stündlich
+            twice_daily: Zweimal täglich
+            daily: Täglich

@@ -1,0 +1,101 @@
+# link to current english version: https://github.com/FriendsOfFlarum/username-request/blob/master/resources/locale/en.yml
+fof-username-request:
+  admin:
+    permissions:
+      moderate_requests: Nutzernamen/Nicknamen Änderungen bewilligen
+      request_nickname: Änderung des Nicknamens anfordern
+      request_username: Änderung des Nutzernamens anfordern
+  forum:
+    nickname_modals:
+      action:
+        title: => fof-username-request.ref.nickname_change_request
+        help_text: Bitte achte darauf, dass die gewünschte Nickname-Änderung den Forenrichtlinien entspricht.
+        decision_title: => fof-username-request.ref.action.decision_title
+        approval_label: => fof-username-request.ref.action.approval_label
+        rejected_label: => fof-username-request.ref.action.rejected_label
+        submit_button: => fof-username-request.ref.action.submit_button
+        reason_title: => fof-username-request.ref.action.reason_title
+        success: => fof-username-request.ref.action.success
+        name: '{name} hat die Änderung des Nicknamens zu "{requestedName}" angefordert'
+      results:
+        title: Änderung des Nicknamens
+        approved: 'Deine gewünschte Änderung des Nicknamens wurde akzeptiert'
+        dismiss_button: => core.ref.okay
+        new_name: 'Dein Nickname wurde erfolgreich geändert in: {name}'
+        rejected: 'Die gewünschte Änderung des Nicknamens wurde abgelehnt'
+        reason: => fof-username-request.ref.results.reason
+        resubmit: => fof-username-request.ref.results.resubmit
+      request:
+        title: => fof-username-request.ref.nickname_change_request
+        current_request: Du hast bereits eine offene Anfrage deinen Nicknamen zu "{name}" zu ändern. Du kannst deine Anfrage entweder aktualisieren oder löschen.
+        submit_button: => fof-username-request.ref.request.submit_button
+        delete_button: => fof-username-request.ref.request.delete_button
+        confirmation_message: => fof-username-request.ref.request.confirmation_message
+        dismiss_button: => core.ref.okay
+        deleted: => fof-username-request.ref.request.deleted
+
+    username_modals:
+      action:
+        title: => fof-username-request.ref.username_change_request
+        help_text: Bitte achte darauf, dass die gewünschte Nutzername-Änderung den Forenrichtlinien entspricht.
+        decision_title: => fof-username-request.ref.action.decision_title
+        approval_label: => fof-username-request.ref.action.approval_label
+        rejected_label: => fof-username-request.ref.action.rejected_label
+        submit_button: => fof-username-request.ref.action.submit_button
+        reason_title: => fof-username-request.ref.action.reason_title
+        success: => fof-username-request.ref.action.success
+        name: '{name} hat die Änderung des Nutzernamens zu "{requestedName}" angefordert'
+      results:
+        title: Änderung des Nutzernamens
+        approved: 'Deine gewünschte Änderung des Nutzernamens wurde akzeptiert'
+        dismiss_button: => core.ref.okay
+        new_name: 'Dein Nutzername wurde erfolgreich geändert in: {name}'
+        rejected: 'Die gewünschte Änderung des Nutzernamens wurde abgelehnt'
+        reason: => fof-username-request.ref.results.reason
+        resubmit: => fof-username-request.ref.results.resubmit
+      request:
+        title: => fof-username-request.ref.username_change_request
+        current_request: Du hast bereits eine offene Anfrage deinen Nutzernamen zu "{name}" zu ändern. Du kannst deine Anfrage entweder aktualisieren oder löschen.
+        submit_button: => fof-username-request.ref.request.submit_button
+        delete_button: => fof-username-request.ref.request.delete_button
+        confirmation_message: => fof-username-request.ref.request.confirmation_message
+        dismiss_button: => core.ref.okay
+        deleted: => fof-username-request.ref.request.deleted
+
+    # Pending Requests Dropdown and List
+    pending_requests:
+      empty_text: Aktuell gibt es keine offenen Anfragen, Namen zu ändern.
+      nickname_item_text: "{name} hat die Änderung des Nicknamens angefordert"
+      nickname_exerpt: "Angeforderter Nickname: {requestedName}"
+      tooltip: => fof-username-request.ref.name_change_requests
+      title: => fof-username-request.ref.name_change_requests
+      username_item_text: "{name} hat die Änderung des Nutzernamens angefordert"
+      username_exerpt: "Angeforderter Nutzername: {requestedName}"
+
+    # Settings Page
+    settings:
+      nickname_request_button: Nickname ändern
+      username_request_button: Nutzername ändern
+
+    user:
+      name_history_link: Alte Namen
+
+  ref:
+    name_change_requests: Anträge auf Änderung des Namens
+    nickname_change_request: Änderung des Nicknamens beantragen
+    username_change_request: Änderung des Nutzernamens beantragen
+    action:
+      decision_title: Entscheidung
+      approval_label: Akzeptieren
+      rejected_label: Ablehnen
+      submit_button: Absenden
+      reason_title: Grund für die Ablehnung
+      success: Entscheidung abgeschickt.
+    results:
+      reason: 'Grund für die Ablehnung: <i>"{reason}"</i>.'
+      resubmit: Du kannst nun weitere Anfragen über deine Account-Einstellungen stellen.
+    request:
+      submit_button: Anfrage absenden
+      delete_button: Anfrage löschen
+      confirmation_message: Dein Änderungswunsch wurde eingereicht und muss noch genehmigt werden.
+      deleted: Deine Anfrage wurde gelöscht.

@@ -1,0 +1,33 @@
+# link to current english version: https://github.com/FriendsOfFlarum/merge-discussions/blob/master/resources/locale/en.yml
+fof-merge-discussions:
+  forum:
+    modal:
+      title: Diskussionen zusammenführen
+
+      type_target_label: Mit mir zusammenführen
+      type_target_help_text: Wähle die Diskussion(en), die in <b>{title}</b> zusammengeführt werden sollen.
+
+      type_from_label: Diese Diskussion in eine andere zusammenführen
+      type_from_help_text: Wähle die Zieldiskussion, in die <b>{title}</b> zusammengeführt werden soll.
+
+      load_preview_button: Vorschau
+      submit_button: => fof-merge-discussions.ref.merge
+
+    discussion:
+      merge: => fof-merge-discussions.ref.merge
+
+    post:
+      merged: "{count, plural, one {<b>#</b> Beitrag wurde von {titles} zusammengeführt.} other {<b>#</b> Beiträge wurden von {titles} zusammengeführt.}}"
+
+  admin:
+    permissions:
+      merge_discussions_label: Diskussionen zusammenführen
+
+  api:
+    error:
+      merging_failed: Zusammenführen der Diskussionen fehlgeschlagen.
+      updating_failed: Aktualisierung der Diskussionsdetails fehlgeschlagen.
+      deleting_failed: Leere Diskussionen konnten nicht gelöscht werden.
+
+  ref:
+    merge: Zusammenführen

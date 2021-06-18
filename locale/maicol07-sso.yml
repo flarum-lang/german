@@ -1,0 +1,20 @@
+# link to current english version: https://github.com/maicol07/flarum-ext-sso/blob/master/locale/en.yml
+maicol07-sso:
+    admin:
+        settings:
+            title: "SSO Einstellungen"
+            signup_url: "Registrierungs-URL"
+            login_url: "Login-URL"
+            logout_url: "Logout-URL"
+            remove_login_btn: "Login-Button entfernen"
+            remove_signup_btn: "Registrier-Button entfernen"
+            manage_account_url: "Konto-Verwaltungs-URL"
+            manage_account_btn_open_in_new_tab: "Kontoverwaltung in einer neuen Registerkarte öffnen"
+
+            # JWT Settings
+            jwt_section_subtitle: JWT-Addon Einstellungen
+            jwt_iss: Aussteller-Domäne
+            jwt_signer_key: Signatur-Schlüssel
+            jwt_signing_algorithm: Signaturverfahren
+    forum:
+        manage_account_btn: "Account verwalten"

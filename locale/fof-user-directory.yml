@@ -1,0 +1,36 @@
+# link to current english version: https://github.com/FriendsOfFlarum/user-directory/blob/master/resources/locale/en.yml
+fof-user-directory:
+    forum:
+        search:
+            users_heading: 'Durchsuche alle Benutzer nach "{query}"'
+            field:
+                placeholder: Alle Nutzer durchsuchen
+        page:
+            nav: Benutzerverzeichnis
+            refresh_tooltip: => core.forum.index.refresh_tooltip
+            load_more_button: => core.ref.load_more
+            empty_text: Wir konnten keinen Benutzer finden, der deiner Suche entspricht.
+            filter_button: Gruppen Filtern
+
+    admin:
+        permissions:
+            view_user_directory: Benutzerverzeichnis anzeigen
+        settings:
+            link: Link auf der Homepage hinzufügen, damit Benutzer das Verzeichnis sehen können
+            default-sort: Standard-Sortierung
+            use-small-cards: Verwende kleine Nutzer-Karten
+
+    lib:
+        sort:
+            not_specified: Flarum Standard verwenden
+            default: Standard
+            username_az: Nutzername (a-z)
+            username_za: Nutzername (z-a)
+            newest: Neueste
+            oldest: Älteste
+            seen_recent: Zuletzt online
+            seen_oldest: Am längsten weg
+            most_posts: Meiste Beiträge
+            least_posts: Wenigste Beiträge
+            most_discussions: Meiste Diskussionen
+            least_discussions: Wenigste Diskussionen

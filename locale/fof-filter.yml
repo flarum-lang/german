@@ -1,0 +1,35 @@
+# link to current english version: https://github.com/FriendsOfFlarum/filter/blob/master/resources/locale/en.yml
+fof-filter:
+    forum:
+        flagger_name: Auto-Moderator
+        flaged_text: Enthielt gesperrte Zeichenfolgen
+    admin:
+        title: Filter
+        help: Gebe Text oder Wörter zum Filtern ein, getrennt durch Komma und Leerzeichen. Wenn der Inhalt des Beitrags eines Nutzers eine Zeichenfolge enthält, die gefiltert werden soll, wird der Beitrag zur Genehmigung markiert. Resistent gegen Leetspeak.
+        help2: Intervall in Minuten, in dem Beiträge desselben Nutzers in derselben Diskussion automatisch zusammengeführt werden.
+        email_help: Inhalt der E-Mail die versendet wird, nachdem man gefilterte Zeichenfolgen verwendet hat. Akzeptiert HTML oder Klartext.
+        filter_label: => fof-filter.ref.strings_to_filter
+        countLabel: Filtertoleranz
+        cooldownLabel: Abklingzeit für doppelte Beiträge
+        input:
+            placeholder: Durch Komma und Leerzeichen getrennte Zeichenfolgen
+            filter_title: => fof-filter.ref.strings_to_filter
+            email_label: E-Mail Einstellungen
+            switch: 
+              email: Sende E-Mail an Verfasser wenn Beitrag gefiltert wird
+              merge: Doppelte Beiträge automatisch zusammenführen
+            email_subject: Betreff
+            email_body: Inhalt
+        nav:
+            text: Filter
+            desc: Filter Beiträge nach Wörtern
+        email:
+            default_subject: Bezüglich deines letzten Beitrags
+            default_text: |
+                Vielen Dank für deinen Beitrag! Leider wurde dein Beitrag entfernt, weil er etwas enthielt, das wir in unseren Foren nicht sehen wollen.
+                
+                Jeder automatisch entfernte Post wird von unseren Moderatoren überprüft. Wenn die Entfernung des Beitrags ein Fehler war wird er vom Moderationsteam wieder hergestellt.
+                
+                Danke für dein Verständnis.
+    ref:
+      strings_to_filter: Zeichenfolgen zu filtern
