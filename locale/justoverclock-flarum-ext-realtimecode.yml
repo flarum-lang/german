@@ -1,4 +1,4 @@
-  flarum-ext-realtimecode:
+  justoverclock-flarum-ext-realtimecode:
     title: HTML Editor
     htmleditor: HTML Editor
     description: Dieser HTML Editor unterstützt HTML/CSS code, schreibe einfach deinen Code hier rein und schaue dir die Echtzeit-Vorschau an
