@@ -1,4 +1,4 @@
-  forum:
+  flarum-ext-welcomebox:
     wback: Willkommen zurück,
     npost: => core.ref.posts
     discussion: => core.ref.discussions
