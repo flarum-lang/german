@@ -1,4 +1,4 @@
-  justoverclock-flarum-ext-welcomebox:
+  justoverclock-flarum-ext-welcomebox.yml:
     wback: Willkommen zurück,
     npost: => core.ref.posts
     discussion: => core.ref.discussions
