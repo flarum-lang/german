@@ -16,8 +16,8 @@ Extension to localize the Flarum forum software and its official and third-party
 
 ### Version
 
-- 1.1.0
-- Released on June 19, 2021
+- 1.1.1
+- Released on June 28, 2021
 
 ### Compatibility
 
@@ -47,6 +47,8 @@ Extension to localize the Flarum forum software and its official and third-party
 - [Flarum Progressive Web App](https://github.com/askvortsov1/flarum-pwa) v2.0.2
 - [Trust Levels](https://github.com/askvortsov1/flarum-trust-levels) v0.1.4
 - [Mailing](https://github.com/clarkwinkelmann/flarum-ext-mailing) v0.4.0
+- [Realtimecode](https://github.com/justoverclockl/flarum-ext-realtimecode) v1.0.0
+- [Welcomebox](https://github.com/justoverclockl/flarum-ext-welcomebox) v1.2.4
 - [Best Answer by FriendsOfFlarum](https://github.com/FriendsOfFlarum/best-answer) v0.3.5
 - [Byōbu by FriendsOfFlarum](https://github.com/FriendsOfFlarum/byobu) v0.6.1
 - [Discussion Language by FriendsOfFlarum](https://github.com/FriendsOfFlarum/discussion-language) v1.0.0
@@ -77,11 +79,12 @@ Extension to localize the Flarum forum software and its official and third-party
 - [Username Request by FriendsOfFlarum](https://github.com/FriendsOfFlarum/username-request) v0.4.2
 - [Webhooks by FriendsOfFlarum](https://github.com/FriendsOfFlarum/webhooks) v0.5.0
 - [HTML Head Items](https://github.com/imorland/html-head) v0.1.1
+- [Level ranks](https://github.com/imorland/level-ranks) v1.0.0
 - [flarum-imgur-upload](https://github.com/matteocontrini/flarum-imgur-upload) v3.6.0
 - [Flarum SSO](https://github.com/maicol07/flarum-ext-sso) v1.8.1
 - [Flarum discussion views](https://github.com/MichaelBelgium/flarum-discussion-views) v5.0.0
 - [Flarum profile views](https://github.com/MichaelBelgium/flarum-profile-views/) v4.0.0
-- [Minecraft Avatars](https://github.com/Nearata/flarum-ext-minecraft-avatars) v1.5.0
+- [Minecraft Avatars](https://github.com/Nearata/flarum-ext-minecraft-avatars) v2.0.0
 - [Flarum Blog](https://github.com/v17development/flarum-blog) v0.2.1
 - [Flarum User Badges](https://github.com/v17development/flarum-user-badges) v0.1.3
 

@@ -1,8 +1,0 @@
-  justoverclock-flarum-ext-welcomebox.yml:
-    wback: Willkommen zurück,
-    npost: => core.ref.posts
-    discussion: => core.ref.discussions
-    welcomeguest: Willkommen Gast
-    notregistered: Du bist aktuell nicht im Forum registriert.
-  admin:
-    enablepostbox: Aktiviere Willkommensbox für Gäste

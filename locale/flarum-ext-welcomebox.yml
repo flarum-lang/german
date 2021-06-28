@@ -1,0 +1,15 @@
+# link to current english version: https://github.com/justoverclockl/flarum-ext-welcomebox/blob/main/resources/locale/en.yml
+flarum-ext-welcomebox:
+  forum:
+    wback: Willkommen zurück,
+    npost: => core.ref.posts
+    discussion: => core.ref.discussions
+    welcomeguest: Willkommen Gast
+    notregistered: Du bist aktuell nicht im Forum registriert.
+    goToProfile: Profil
+    SettingsLink: Einstellugnen
+    tooltipProfile: Profil
+    tooltipMentions: Erwähnungen
+    tooltipDisclist: Meine Diskussions-Liste
+  admin:
+    enablepostbox: Aktiviere Willkommensbox für Gäste
