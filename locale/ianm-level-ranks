@@ -1,0 +1,10 @@
+ianm-level-ranks:
+  admin:
+    settings:
+      levelText: Gebe den Text ein, der für die Punkte angezeigt werden soll (z. B. Rang, Level)
+  forum:
+    desc:
+      expText: "{expTotal} EXP"
+  lib:
+    defaults:
+      level: Level
