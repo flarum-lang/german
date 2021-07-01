@@ -32,7 +32,7 @@ askvortsov-rich-text:
       strike_tooltip: Durchgestrichen <alt-shift-5>
       sub_tooltip: Tiefgestellt <{modifierKey}-,>
       sup_tooltip: Hochgestellt <{modifierKey}-.>
-      text_type_tooltip: Textgröße
+      text_type_tooltip: Textart
       unordered_list_tooltip: Liste <shift-{modifierKey}-8>
 
   forum:

@@ -1,0 +1,27 @@
+# link to current english version: https://github.com/extiverse/mercury/blob/main/resources/locale/en.yml
+extiverse-mercury:
+    admin:
+        extension-updates-page:
+            extension-name: Erweiterung
+            extension-is-up-to-date: Ist auf dem neuesten Stand
+            highest-version: Letzte Version
+            installed-version: Installierte Version
+        settings:
+            token: Extiverse-Token (<a>anfordern</a>)
+            token-description: |
+                Erhalte ein API-Token von <a>Extiverse</a>, damit Mercury sicher mit deiner Flarum Community kommunizieren kann.
+        header-secondary:
+            no-token: Token erforderlich
+            updates: "{count, plural, =0 {Keine Updates} one {Ein Update} other {# Updates}}"
+    email:
+        new-extension-update:
+            subject: "{count, plural, one {Ein Update} other {# Updates}} verfügbar für deine Community"
+            body: |
+                Hey {recipient_display_name}!
+
+                {count} Updates wurden für deine Flarum Community gefunden. Es wird dringend empfohlen, diese
+                so bald wie möglich zu aktualisieren.
+
+                Die Updates umfassen die folgenden Erweiterungen {extensions}.
+
+                Bitte besuche deine Community für mehr Informationen: {url}.
