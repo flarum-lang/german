@@ -1,0 +1,42 @@
+# link to current english version: https://github.com/askvortsov1/flarum-rich-text/blob/master/resources/locale/en.yml
+askvortsov-rich-text:
+  admin:
+    settings:
+      toggle_on_editor: Umschalter für Rich-Text-Modus im Editor anzeigen?
+  lib:
+    composer:
+      toggle_button: Rich-Text-Modus umschalten
+      insert_button: Einfügen
+      insert_image:
+        src_placeholder: Link
+        title_placeholder: Titel
+      insert_link:
+        text_placeholder: Text
+        href_placeholder: URL
+        title_placeholder: Titel (wird beim Hovern angezeigt)
+        remove_button: Entfernen
+      additional_items_tooltip: Zusätzliche Bedienelemente
+      bold_tooltip: Fett gedruckter Text <{modifierKey}-b>
+      code_tooltip: Inline-Code <{modifierKey}-`>
+      code_block_tooltip: Einfügen eines Codeblocks
+      header_tooltip: Zu Überschrift {level} wechseln <shift-{modifierKey}-{level}>
+      horizontal_rule_tooltip: Horizontale Linie einfügen
+      image_tooltip: Bild hinzufügen
+      italic_tooltip: Kursiver Text <{modifierKey}-i>
+      link_tooltip: Link hinzufügen
+      ordered_list_tooltip: Nummerierte Liste <shift-{modifierKey}-9>
+      paragraph_tooltip: In Absatz ändern <shift-{modifierKey}-0>
+      quote_tooltip: Zitat einfügen <{modifierKey}-q>
+      spoiler_block_tooltip: Aufklappbarer Spoiler
+      spoiler_inline_tooltip: Spoiler <{modifierKey}-;>
+      strike_tooltip: Durchgestrichen <alt-shift-5>
+      sub_tooltip: Tiefgestellt <{modifierKey}-,>
+      sup_tooltip: Hochgestellt <{modifierKey}-.>
+      text_type_tooltip: Textgröße
+      unordered_list_tooltip: Liste <shift-{modifierKey}-8>
+
+  forum:
+    settings:
+      composer_heading: Beitrags-Verfasser
+      use_rich_text_editor_label: Rich-Text-Editor verwenden?
+      rich_text_compact_paragraphs_label: Absätze nicht mit einer neuen Zeile trennen.
