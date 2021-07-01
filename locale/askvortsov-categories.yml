@@ -5,13 +5,17 @@ askvortsov-categories:
       categories_label: Kategorien
     labels:
       keep_tags_nav: Link zur klassischen Themen Ansicht in der Navigationsleiste behalten.
-      child_bare_icon: Symbole in Unterkategorien ohne runden Hintergrund anzeigen.
+      child_bare_icon: Rohe Unterkategorie-Symbole verwenden?
       compact_mobile_mode: Kompakten Modus für Mobilgeräte aktivieren.
-      full_page_desktop: Soll das Navigationsmenü an der Seite beim betrachten der Kategorien auf eine Zeile gebracht werden (wie bei der traditionellen Themen Ansicht)? Dies versteckt auch Widgets (wie zum Beispiel Friends of Flarum Forum Statistics) von der Navigationsleiste auf der Kategorien Seite.
+      full_page_desktop: Ganze Seite auf Desktops zeigen?
       parent_remove_icon: Symbole für Top-Level-Themen ausblenden.
       parent_remove_description: Beschreibungen für Top-Level-Themen ausblenden.
       parent_remove_stats: Statistiken für Top-Level-Themen ausblenden.
       parent_remove_last_discussion: Aktuellste Diskussion für Top-Level-Themen ausblenden.
+      small_forum_optimized: Für kleine Foren optimieren?
+    help:
+      child_bare_icon: Symbole in Unterkategorien ohne runden Hintergrund anzeigen.
+      full_page_desktop: Soll das Navigationsmenü an der Seite beim betrachten der Kategorien auf eine Zeile gebracht werden (wie bei der traditionellen Themen Ansicht)? Dies versteckt auch Widgets (wie zum Beispiel Friends of Flarum Forum Statistics) von der Navigationsleiste auf der Kategorien Seite.
       small_forum_optimized: Für kleine Foren optimieren. Führt zu einer genaueren Zählung von Diskussionen und Beiträgen, verlangsamt aber mittel bis große Foren drastisch.
     headings:
       nav: Navigation
@@ -20,18 +24,20 @@ askvortsov-categories:
       child_display: Unterkategorien
       performance: Leistung
     title: Kategorien Einstellungen
+
   forum:
-    categories:
+    all_categories:
+      meta_description_text: Alle Kategorien
+      meta_title_text: => askvortsov-categories.ref.categories
     header:
       back_to_categories_tooltip: Zurück zu Kategorien
     index:
       categories_link: => askvortsov-categories.ref.categories
-    meta:
-      categories_title: => askvortsov-categories.ref.categories
     stat-widgets:
       discussion_label: Diskussionen
       post_label: Posts
     last_discussion_widget:
       no_discussions: Keine Diskussionen
+
   ref:
     categories: Kategorien

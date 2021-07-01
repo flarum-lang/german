@@ -2,10 +2,12 @@
 fof-polls:
   admin:
     permissions:
-      moderate: Umfragen bearbeiten & entfernen
-      self_edit: Eigene Umfragen bearbeiten
+      view_results_without_voting: Ergebnisse anzeigen ohne abzustimmen
       start: Umfragen starten
+      self_edit: Eigene Umfragen bearbeiten
       vote: In Umfragen abstimmen
+      change_vote: Stimme ändern
+      moderate: Umfragen bearbeiten & entfernen
 
   forum:
     days_remaining: Umfrage endet in {time}.
@@ -15,7 +17,7 @@ fof-polls:
 
     composer_discussion:
       add_poll: Umfrage hinzufügen
-      edit_poll: Umfrage bearbeiten
+      edit_poll: => fof-polls.forum.moderation.edit
 
     modal:
       add_title: Umfrage hinzufügen
