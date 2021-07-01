@@ -1,0 +1,26 @@
+# link to current english version: https://github.com/the-turk/flarum-nodp/blob/main/locale/en.yml
+the-turk-nodp:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      double_posting_label: Verfassen von doppelten Beiträgen erlauben
+
+    # These translations are used in the Settings page.
+    settings:
+      time_limit_label: Zeitlimit
+      time_limit_text: Wenn mehr als <b>xxx</b> Minuten seit dem letzten Beitrag in einer Diskussion vergangen sind, wird der letzte Verfasser eines Beitrags gezwungen, seinen Beitrag zu bearbeiten. Setze dies auf <b>0</b> um das Zeitlimit zu deaktivieren.
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the composer when editing a post.
+    composer_edit:
+      double_posting_warning_title: Du bist der letzte Verfasser eines Beitrags in dieser Diskussion.
+      double_posting_warning_description: Da du bereits vor kurzer Zeit auf diese Diskussion geantwortet hast, überarbeite bitte deinen letzten Beitrag anstatt einen neuen zu erstellen.
