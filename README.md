@@ -16,8 +16,8 @@ Extension to localize the Flarum forum software and its official and third-party
 
 ### Version
 
-- 1.1.1
-- Released on June 28, 2021
+- 1.1.2
+- Released on July 1, 2021
 
 ### Compatibility
 
@@ -43,10 +43,12 @@ Extension to localize the Flarum forum software and its official and third-party
 #### Third-party
 
 - [Money](https://github.com/AntoineFr/flarum-ext-money) v0.11.0
-- [Flarum Categories](https://github.com/askvortsov1/flarum-categories) v2.0.0
+- [Flarum Categories](https://github.com/askvortsov1/flarum-categories) v3.0.0
 - [Flarum Progressive Web App](https://github.com/askvortsov1/flarum-pwa) v2.0.2
+- [Rich Text](https://github.com/askvortsov1/flarum-rich-text) v2.0.3
 - [Trust Levels](https://github.com/askvortsov1/flarum-trust-levels) v0.1.4
 - [Mailing](https://github.com/clarkwinkelmann/flarum-ext-mailing) v0.4.0
+- [Mercury](https://github.com/extiverse/mercury) v0.1.2
 - [Realtimecode](https://github.com/justoverclockl/flarum-ext-realtimecode) v1.0.0
 - [Welcomebox](https://github.com/justoverclockl/flarum-ext-welcomebox) v1.2.4
 - [Best Answer by FriendsOfFlarum](https://github.com/FriendsOfFlarum/best-answer) v0.3.5
@@ -63,9 +65,9 @@ Extension to localize the Flarum forum software and its official and third-party
 - [Merge Discussions by FriendsOfFlarum](https://github.com/FriendsOfFlarum/merge-discussions) v0.5.1
 - [Moderator Notes by FriendsOfFlarum](https://github.com/FriendsOfFlarum/moderator-notes) v0.4.1
 - [Night Mode by FriendsOfFlarum](https://github.com/FriendsOfFlarum/nightmode) v0.7.1
-- [OAuth by FriendsOfFlarum](https://github.com/FriendsOfFlarum/oauth) v0.2.0
+- [OAuth by FriendsOfFlarum](https://github.com/FriendsOfFlarum/oauth) v1.0.1
 - [Pages by FriendsOfFlarum](https://github.com/FriendsOfFlarum/pages) v0.6.0
-- [Polls by FriendsOfFlarum](https://github.com/FriendsOfFlarum/polls) v0.3.2
+- [Polls by FriendsOfFlarum](https://github.com/FriendsOfFlarum/polls) v1.0.2
 - [Prevent Necrobumping by FriendsOfFlarum](https://github.com/FriendsOfFlarum/prevent-necrobumping) v0.4.0
 - [Reactions by FriendsOfFlarum](https://github.com/FriendsOfFlarum/reactions) v0.5.0
 - [ReCAPTCHA by FriendsOfFlarum](https://github.com/FriendsOfFlarum/recaptcha) v0.3.1
@@ -85,6 +87,7 @@ Extension to localize the Flarum forum software and its official and third-party
 - [Flarum discussion views](https://github.com/MichaelBelgium/flarum-discussion-views) v5.0.0
 - [Flarum profile views](https://github.com/MichaelBelgium/flarum-profile-views/) v4.0.0
 - [Minecraft Avatars](https://github.com/Nearata/flarum-ext-minecraft-avatars) v2.0.0
+- [Prevent Double-Posting](https://github.com/the-turk/flarum-nodp) v1.0.0
 - [Flarum Blog](https://github.com/v17development/flarum-blog) v0.2.1
 - [Flarum User Badges](https://github.com/v17development/flarum-user-badges) v0.1.3
 

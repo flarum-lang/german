@@ -1,7 +1,7 @@
 {
     "name": "flarum-lang/german",
     "type": "flarum-extension",
-    "description": "German language pack for Flarum and its bundled extensions.",
+    "description": "German language pack for Flarum.",
     "homepage": "https://github.com/flarum-lang",
     "keywords": ["locale"],
     "license": "MIT",
