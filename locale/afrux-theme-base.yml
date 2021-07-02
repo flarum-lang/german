@@ -1,0 +1,30 @@
+afrux-theme-base:
+  admin:
+    extensions: Erweiterungen
+    extension:
+      sections:
+        content: Basis Einstellungen
+        permissions: Berechtigungen
+
+    header:
+      go_back: Zurück zum Forum
+
+    users:
+      grid:
+        columns:
+          avatar:
+            title: Avatar
+
+    settings:
+      edit_footer_links: Bearbeite Footer
+      footer_description: Footer Beschreibung
+      footer_bottom_line: Footer Endeffekt
+      hero_banner: Willkommen Hero Bild
+      hero_banner_position: "Hero Bild CSS Position (beispiel: 'center top' oder 'center 20%')"
+      links_modal:
+        add_group: Neue Linkgruppe
+        group_name: Gruppen {number} Name
+        group_title: Link Gruppen Titel
+        add_link: Link hinzufügen
+        link_url: Link URL
+        link_label: Link Label
