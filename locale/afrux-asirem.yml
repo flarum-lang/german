@@ -1,0 +1,6 @@
+afrux-asirem:
+  admin:
+    permissions:
+      edit_group: Bearbeiten
+      edit_group_permissions: Berechtigungen
+      filter_scopes: Filterbereiche
