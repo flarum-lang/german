@@ -6,7 +6,7 @@ afrux-theme-base:
       desc: Liste aller installierten Erweiterungen.
     extension:
       sections:
-        content: Basis Einstellungen
+        content: Grundeinstellungen
         permissions: Berechtigungen
 
     header:
