@@ -165,6 +165,8 @@ core:
       email_title: => core.admin.email.description
       permissions_button: => core.admin.permissions.title
       permissions_title: => core.admin.permissions.description
+      userlist_button: => core.admin.users.title
+      userlist_title: => core.admin.users.description
       search_placeholder: Erweiterungen durchsuchen
 
     # These translations are used in the Permissions page of the admin interface.
