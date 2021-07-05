@@ -130,8 +130,6 @@ core:
       no_settings: Diese Erweiterung hat keine Einstellungen.
       open_modal: Einstellungen öffnen
       permissions_title: Berechtigungen
-      userlist_button: => core.admin.users.title
-      userlist_title: => core.admin.users.description
       uninstall_button: Deinstallieren
 
     # These translations are used in the secondary header.
