@@ -24,3 +24,7 @@ the-turk-nodp:
     composer_edit:
       double_posting_warning_title: Du bist der letzte Verfasser eines Beitrags in dieser Diskussion.
       double_posting_warning_description: Da du bereits vor kurzer Zeit auf diese Diskussion geantwortet hast, überarbeite bitte deinen letzten Beitrag anstatt einen neuen zu erstellen.
+
+    # Translations in this namespace are displayed in the discussion.
+    discussion:
+      cannot_reply_alert_message: Du kannst nicht auf diese Diskussion antworten, bis jemand anderes antwortet.

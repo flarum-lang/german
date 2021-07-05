@@ -16,8 +16,8 @@ Extension to localize the Flarum forum software and its official and third-party
 
 ### Version
 
-- 1.1.2
-- Released on July 1, 2021
+- 1.1.3
+- Released on July 5, 2021
 
 ### Compatibility
 
@@ -87,7 +87,7 @@ Extension to localize the Flarum forum software and its official and third-party
 - [Flarum discussion views](https://github.com/MichaelBelgium/flarum-discussion-views) v5.0.0
 - [Flarum profile views](https://github.com/MichaelBelgium/flarum-profile-views/) v4.0.0
 - [Minecraft Avatars](https://github.com/Nearata/flarum-ext-minecraft-avatars) v2.0.0
-- [Prevent Double-Posting](https://github.com/the-turk/flarum-nodp) v1.0.0
+- [Prevent Double-Posting](https://github.com/the-turk/flarum-nodp) v1.0.1
 - [Flarum Blog](https://github.com/v17development/flarum-blog) v0.2.1
 - [Flarum User Badges](https://github.com/v17development/flarum-user-badges) v0.1.3
 

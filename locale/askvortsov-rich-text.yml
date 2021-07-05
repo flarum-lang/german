@@ -37,6 +37,6 @@ askvortsov-rich-text:
 
   forum:
     settings:
-      composer_heading: Beitrags-Verfasser
+      composer_heading: Beitrags-Editor
       use_rich_text_editor_label: Rich-Text-Editor verwenden?
       rich_text_compact_paragraphs_label: Absätze nicht mit einer neuen Zeile trennen.
