@@ -1,0 +1,56 @@
+fof-doorman:
+  forum:
+    email:
+      subject: Beitrittseinladung
+      body: |
+        Hallo,
+
+        Du wurdest eingeladen dem Forum {forum} beizutreten.
+
+        Wenn Du bereit bist, Dein Konto zu erstellen, klicke einfach auf den folgenden Link und gebe den Code bei der Registrierung ein:
+
+        Url: {url}
+        Einladungscode: {code}
+
+        Wenn du diese Mail irrtümlich erhalten hast, kannst du diese vernichten
+    sign_up:
+      invalid_doorkey: Der Einladungscode, den du eingegeben hast, ist ungültig!
+      doorkey_required: Bitte gebe einen Einladungscode an...
+      doorman_placeholder: Einladungscode
+      doorman_placeholder_optional: Einladungscode (Optional)
+
+  admin:
+    modal:
+      title: Sende Einladungscodes
+      group: Sende Einladungscodes für {group}
+      help: Akzeptiert eine durch Kommas, Leerzeichen oder Komma-Leerzeichen getrennte Liste. Gebe eine einzelne Mail oder füge eine Liste ein und drücke die Leertaste, um sie hinzuzufügen.
+      placeholder: Gebe hier die Mails an...
+      invalid_emails: "Die folgende(n) ´Mail(s) sind ungültig: {emails}"
+      max_use_conflict: The number of emails exceeds the max number of uses for this code.
+      send: Mails senden
+      success: Mails erfolgreich versendet
+    invalid_doorkey: Der Einladungscode, den du angegeben hast, ist ungültig!
+    doorkey_required: Du musst einen Einladungscode angeben
+    nav:
+      desc: Erstelle Einladungscodes, damit Benutzer sich anmelden und einer Gruppe zugewiesen werden können
+    page:
+      title: Doorman
+      doorkey:
+        used_times: "1 Verwendung verbleibend|{remaining} Verwendungen verbleibend"
+        title: Einladungcodes
+        help:
+          key: "Code: Code, den der Benutzer bei der Registrierung eingibt"
+          group: "Gruppe: Die Gruppe, zu der der Benutzer bei der Registrierung hinzugefügt wird"
+          max: "Maximale Verwendungen: Die maximale Häufigkeit, mit der der Code verwendet werden kann (für unbegrenzte Verwendungszwecke auf 0 setzten)"
+          activates: "Benutzer aktiviert: Aktiviert den Benutzer automatisch, wenn er sich registriert"
+        warning: Dieser Einladungcode hat seine maximale Anzahl erreicht!
+        key: Code
+        max_uses: Maximale Verwendungen
+        heading:
+          key: Code
+          group: Gruppe
+          activate: Benutzer aktiviert
+          max_uses: Maximale Verwednungen
+        allow-public:
+          title: Lasse öffentliche Registrierungen zu
+          switch-label: Setze den Einladungcode beim Registrieren auf optional
