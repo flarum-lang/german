@@ -1,0 +1,54 @@
+fof-subscribed:
+    forum:
+        settings:
+            defaults_label: Setze "{setting}" standartweise auf aktiviert
+            forced_label: Force enable "{setting}" for everyone
+            notify_discussion_created_label: Jemand erstellt eine Diskussion
+            notify_post_unapproved_label: Ein erstellter Beitrag erfordert eine Genehmigung
+            notify_user_created_label: Wenn sich jemand registriert
+        notifications:
+            discussion_created_text: "{username} erstellte eine neue Diskussion"
+            post_unapproved_text: "{username} erstellte einen Beitrag, der genehmigt werden muss"
+            user_created_text: "{username} hat sich registriert"
+    admin:
+        menu:
+            description: Konfiguriere (Standard-) Benutzerabonnements
+        permission:
+            subscribe_to_discussion_created: Darf Benachrichtigung über die neue Diskussion erhalten
+            subscribe_to_post_unapproved: Darf Benachrichtigung über einen neuen nicht genehmigten Beitrag erhalten
+            subscribe_to_user_created: Darf Benachrichtigung über einen neuen Benutzer erhalten
+    email:
+        subject:
+            newDiscussion: "[Abboniert | neue Diskussion] {title}"
+            newUser: "[Abboniert | Neuer Benutzer] {username}"
+            postUnapproved: "[Abboniert | Unapproved] {username} posted in {title}"
+        body:
+            newDiscussion: |
+                Hey {recipient_display_name},
+
+                {actor_display_name} hat eine Disussion begonnen: {discussion_title}
+
+                Um diese neue Diskussion anzuzeigen, überprüfe den folgenden Link:
+                {discussion_url}
+
+                ---
+
+                {post_content}
+            newUser: |
+                Hey {recipient_display_name},
+
+                {actor_display_name} hat sich registriert {forum_url}.
+
+                Um das neue benutzerprofil anzuzeigen, überprüfe den folgenden Link:
+                {user_url}
+            postUnapproved: |
+                Hey {recipient_display_name},
+
+                {actor_display_name} erstellte einen Beitrag, der automatisch freigegeben wurde, in {discussion_title}
+
+                Um dem neuen Beitrag anzuzeigen, überprüfe den folgenden Link:
+                {post_url}
+
+                ---
+
+                {post_content}
