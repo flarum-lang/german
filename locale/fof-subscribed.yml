@@ -14,9 +14,9 @@ fof-subscribed:
         menu:
             description: Konfiguriere (Standard-) Benutzerabonnements
         permission:
-            subscribe_to_discussion_created: Darf Benachrichtigung über die neue Diskussion erhalten
-            subscribe_to_post_unapproved: Darf Benachrichtigung über einen neuen nicht genehmigten Beitrag erhalten
-            subscribe_to_user_created: Darf Benachrichtigung über einen neuen Benutzer erhalten
+            subscribe_to_discussion_created: Darf Benachrichtigungen über die neue Diskussion erhalten
+            subscribe_to_post_unapproved: Darf Benachrichtigungen über einen neuen nicht genehmigten Beitrag erhalten
+            subscribe_to_user_created: Darf Benachrichtigungen über einen neuen Benutzer erhalten
     email:
         subject:
             newDiscussion: "[Abboniert | neue Diskussion] {title}"
