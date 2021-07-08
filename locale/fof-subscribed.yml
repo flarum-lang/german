@@ -19,9 +19,9 @@ fof-subscribed:
             subscribe_to_user_created: Darf Benachrichtigungen über einen neuen Benutzer erhalten
     email:
         subject:
-            newDiscussion: "[Abboniert | neue Diskussion] {title}"
-            newUser: "[Abboniert | Neuer Benutzer] {username}"
-            postUnapproved: "[Abboniert | Unapproved] {username} posted in {title}"
+            newDiscussion: "[Abonniert | neue Diskussion] {title}"
+            newUser: "[Abonniert | Neuer Benutzer] {username}"
+            postUnapproved: "[Abonniert | Unapproved] {username} posted in {title}"
         body:
             newDiscussion: |
                 Hey {recipient_display_name},
