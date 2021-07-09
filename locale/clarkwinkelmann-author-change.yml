@@ -1,0 +1,24 @@
+clarkwinkelmann-author-change:
+    forum:
+        controls:
+            edit: Bearbeite Autor und Datum
+        modal:
+            title-post: Bearbeite Beitragsautor und -datum
+            title-discussion: Bearbeite Diskussionsautor und -datum
+            user: Autor
+            created_at: Erstellungszeit
+            edited_at: Bearbeitungszeit
+            sync-with-discussion: Mit Diskussion synchronisieren
+            sync-with-post: Mit erstem Beitrag synchronisieren
+            sync-impossible: Kann den ersten Beitrag nicht finden. Scrolle zum Anfang der Diskussion.
+            submit: Sichern
+            cancel: Abbrechen
+        search:
+            placeholder: Benutzer suchen
+            type-more: Gebe 3 Zeichen ein, um die Datenbank zu durchsuchen
+            no-results: Keine Ergebnisse
+
+    admin:
+        permissions:
+            edit-user: Aktualisiere Diskussion und Beitragsautor
+            edit-date: Aktualisiere Diskussion und Beitragsdatum
