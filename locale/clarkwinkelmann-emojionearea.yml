@@ -1,0 +1,13 @@
+clarkwinkelmann-emojionearea:
+    forum:
+        picker_button: Emoji Picker
+        search_placeholder: Suchen...
+
+    admin:
+        settings:
+            enableSearch: Aktiviere Suche
+            enableRecent: Aktiviere Zuletzt
+            enableTones: Aktiviere Töne
+            filtersPosition: Kategorien nach unten verschieben
+            searchPosition: Suche und Töne nach unten verschieben
+            hideFlarumButton: Flarums Emoji-Auswahltaste ausblenden
