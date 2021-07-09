@@ -1,0 +1,5 @@
+serakoi-flarumdiscordtheme: 
+  admin: 
+    authorBadge: 
+      label: Autor-Badge-Text
+      help: Der Autor-Badge-Text (Standardeinstellung für Autor)
