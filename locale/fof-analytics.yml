@@ -1,0 +1,34 @@
+fof-analytics:
+    admin:
+        popup:
+            section:
+                googleAnalytics: Google Analytics
+                piwik: Matomo
+
+            field:
+                statusGoogle: Aktiviere Google Analytics
+                optTrackingCode: Tracking-Code optimieren (optional)
+                googleTrackingCode: Tracking Code ID
+                googleGTMCode: GTM code ID (optional)
+                statusPiwik: Aktiviere Matomo
+                piwikUrl: Matomo Domain oder URL
+                piwikSiteId: Site ID
+                piwikTrackSubdomain: Verfolge Besucher über alle Subdomains von Flarum
+                piwikPrependDomain: Prepend the site domain to the page title when tracking
+                piwikHideAliasUrl: Blende im Bericht "Outlinks" Klicks auf bekannte Alias-URLs aus
+                piwikAliasUrl: Alias URL
+                piwikTrackAccounts: Verfolge inviduelle Benutzerkonten
+                piwikAuthToken: Authentifizierungstoken
+
+            placeholder:
+                piwikAuthToken: |
+                    Fülle diesen Token aus, um ein Matomo-Statistik-Widget im Admin-Panel zu aktivieren.
+                    Du findest es unter Einstellungen > Persönlich > API-Authentifizierungstoken.
+
+            trackAccounts:
+                none: Nicht verfolgen
+                username: Über Benutzername verfolgen
+                email: Über Mail verfolgen
+
+        matomo-widget:
+            title: Matomo
