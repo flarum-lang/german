@@ -3,7 +3,7 @@ afrux-theme-base:
     extensions:
       extensions: Erweiterungen
       title: Erweiterungen
-      desc: Liste aller installierten Erweiterungen.
+      description: Liste aller installierten Erweiterungen.
     extension:
       sections:
         content: Grundeinstellungen
