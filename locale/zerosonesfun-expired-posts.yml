@@ -1,0 +1,19 @@
+expired-posts:
+  forum:
+    composer:
+      warning:
+        title: Beitrag abgelaufen
+        description: Dieser Beitrag ist abgelaufen.
+        error: Diese Diskussion ist abgelaufen.
+
+  admin:
+    settings:
+      days_label: Tage
+      days_help: Eine Diskussion wird als abgelaufen markiert, wenn die angegebene Anzahl von Tagen seit der Veröffentlichung des letzten Beitrags zu dieser Diskussion vergangen ist. Verwende <code>0</code>, um es standardmäßig zu deaktivieren.
+
+      message_title_label: Benutzerdefinierter Nachrichten Titel
+      message_title_help: 'Verwende <code>[time]</code> für den Zeit Text, beispielsweise "14 days".'
+      message_description_label: Benutzerdefinierte Nachrichten Beschreibung
+
+      tags_title: Tags
+      tags_help: Überschreibe die globalen Tage für ein bestimmtes Tag. Leer bedeutet, dass der Standardwert verwendet wird. Wenn eine Diskussion mehrere Tags mit unterschiedlichen Tageswerten hat, wird die kleinste Anzahl konfigurierter Tage verwendet.
