@@ -10,3 +10,4 @@ fof-user-bio:
 
   forum:
     userbioPlaceholder: Schreib etwas über dich.
+    userbioPlaceholderOtherUser: Schreibe eine Bio für {username}

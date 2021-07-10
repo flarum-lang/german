@@ -16,8 +16,8 @@ Extension to localize the Flarum forum software and its official and third-party
 
 ### Version
 
-- 1.1.3
-- Released on July 5, 2021
+- 1.1.4
+- Released on July 10, 2021
 
 ### Compatibility
 
@@ -76,7 +76,7 @@ Extension to localize the Flarum forum software and its official and third-party
 - [Social Profile by FriendsOfFlarum](https://github.com/FriendsOfFlarum/socialprofile) v0.2.3
 - [Split by FriendsOfFlarum](https://github.com/FriendsOfFlarum/split) v0.6.0
 - [Upload by FriendsOfFlarum](https://github.com/FriendsOfFlarum/upload) v0.12.10
-- [User Bio by FriendsOfFlarum](https://github.com/FriendsOfFlarum/user-bio) v0.4.2
+- [User Bio by FriendsOfFlarum](https://github.com/FriendsOfFlarum/user-bio) v1.0.0
 - [User directory by FriendsOfFlarum](https://github.com/FriendsOfFlarum/user-directory) v1.0.0
 - [Username Request by FriendsOfFlarum](https://github.com/FriendsOfFlarum/username-request) v0.4.2
 - [Webhooks by FriendsOfFlarum](https://github.com/FriendsOfFlarum/webhooks) v0.5.0
