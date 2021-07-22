@@ -7,7 +7,7 @@ fof-linguist:
     buttons:
       apply: Anwenden
       copy-original: 'Originaltext kopieren'
-      delete-all: 'Delete all translations'
+      delete-all: 'Alle Übersetzungen löschen'
       delete-all-confirm: "Dies wird ALLE deine {count} benutzerdefinierten Übersetzungen löschen. Stelle sicher, dass du alles exportiert oder gesichert hast, was du behalten möchtest.\n"
       delete-redundant: 'Redundante Übersetzungen löschen'
       delete-redundant-confirm: "Dies wird {count} Übersetzungen löschen, die identische Original- und benutzerdefinierte Werte haben. Dies kann nützlich sein, um nach einem Sprachpaket-Update aufzuräumen.\n"
