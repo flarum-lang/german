@@ -1,0 +1,19 @@
+fof-forum-statistics-widget:
+  forum:
+    navbar:
+      widget_title: Forum Statistiken
+      discussions_count: "Diskussionen: {discussionsCount}"
+      posts_count: "Beiträge: {postsCount}"
+      users_count: "Mitglieder: {usersCount}"
+      latest_member: "Zuletzt registriert: "
+  admin:
+    settings:
+      widget_ignore_private_discussions_label: Ignorire Private Diskussionen
+      widget_order_label: Widget Sortierung
+      widget_helper_text: "Bearbeite diese Einstellung, um diese Position des Widgets auf dem SIDENAV-Abschnitt Deines FLARUM-Forums anzupassen.
+      Je höher die Nummer, desto höher ist dieses Widget auf der Liste der SIDENAV-Elemente (dieser Wert kann entweder positiv oder negativ sein)."
+    permissions:
+      view_discussions_count_label: Kann Diskussionsanzahl im Widget sehen
+      view_posts_count_label: Kann Beitragsanzahl im Widget sehen
+      view_users_count_label: Kann Mitgliedanzahl im Widget sehen
+      view_lastest_member_label: Kann das letzt registrierte Mitglied im Widget sehen
