@@ -16,6 +16,8 @@ v17development-flarum-blog:
       allow_comments_text: 'Standardmäßig sind Kommentare zu Blogeinträgen erlaubt. Wenn diese Einstellung deaktiviert wird kann pro Blogeintrag entschieden werden. <b>Hinweis:</b> Das Ändern dieser Einstellung hat keine Auswirkungen auf bereits vorhandene Blogeinträge.'
       blog_heading: Blog
       categories_heading: Kategorien
+      default_article_image_label: Standardartikelbild
+      default_article_image_text: 'Wähle ein Standardartikelbild aus, das angezeigt werden soll, wenn kein Bild eingestellt ist.'
       hide_on_discussion_list_label: 'Nicht in der Diskussionsliste anzeigen'
       hide_on_discussion_list_text: 'Blogeinträge aus der Diskussionsliste ausblenden.'
       hide_tags_in_taglist_label: 'Tags in der Tagliste ausblenden'
@@ -55,6 +57,7 @@ v17development-flarum-blog:
       post_article: 'Blogeintrag veröffentlichen'
       post_without_blog_info: 'Bist du sicher, dass du diesen Blogpost veröffentlichen willst? Du hast noch keine Blog-Zusammenfassung verfasst oder ein Bild ausgewählt.'
       select_category: 'Wähle eine Kategorie'
+      update_settings: 'Blog-Einstellungen aktualisieren'
       view: Ansehen
       write: Schreiben
     forum_nav: 'Forum Navigation'
