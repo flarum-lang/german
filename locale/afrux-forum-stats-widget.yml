@@ -1,0 +1,9 @@
+afrux-forum-stats-widget:
+  forum:
+    widget:
+      stats:
+        comment_post_count: Beiträge
+        discussion_count: Diskussionen
+        user_count: Mitglieder
+
+      title: Foren Statistiken
