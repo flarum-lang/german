@@ -11,6 +11,7 @@ askvortsov-pwa:
       about:
         description_text: 'Die Beschreibung kannst du auf der ''Grundeinstellungen'' Seite in deinem Admin Dashboard einstellen.'
         heading: Über
+        long_name_text: 'Der Name der Webanwendung, der dem Benutzer angezeigt wird.'
         name_text: 'Gebe einen längeren Namen ein, der in deiner PWA verwendet werden soll.'
         short_name_text: 'Den Kurznamen kannst du auf der ''Grundeinstellungen'' Seite in deinem Admin Dashboard einstellen.'
       colors:
@@ -21,17 +22,24 @@ askvortsov-pwa:
       logo_heading: 'Logos und Icons'
       logo_size_text: 'Lade ein Logo hoch, das auf die Größe von {size} mal {size} Pixeln skaliert wird.'
       logo_text: "Damit deine progressive Web-App installierbar ist musst du mindestens ein Logo hochladen. Bitte beachte, dass alle Logos quadratisch sein müssen; wenn sie es nicht sind, werden sie in der Größe angepasst und möglicherweise gestreckt.\nUnten stehen dir eine Reihe von Größenoptionen zur Verfügung. Es wird empfohlen, ein Logo in so vielen Größen wie möglich hochzuladen, um mehr Geräte zu unterstützen.\nBitte beachte, dass du ein großes Logo hochladen kannst, welches dann auch für alle kleineren Größen als Logo verwendet wird. Zum Beispiel kannst du ein 1000px x 1000px großes Logo für ALLE untenstehenden Bildgrößen hochladen. Wenn du jedoch versuchst, ein 50px x 50px Logo als 512px x 512px großes Logo hochzuladen, wird es stark gestreckt werden.\n"
+      maintenance:
+        debug_label: 'Debug-Modus? Dadurch werden Informationen über Benachrichtigungen an `storage/logs` protokolliert.'
+        heading: Wartungsmodus
+      other:
+        heading: Anderes
       refreshed_message: 'Die PWA-Konfiguration wurde erfolgreich aktualisiert.'
       status_check_heading: Statusprüfung
       submit_button: 'Einstellungen speichern'
       text: 'Konfiguriere deine Flarum Seite, damit sie als progressive Web App läuft! Bitte beachte, dass dies deine Seite nicht automatisch in den App Store bringt. Stattdessen bedeutet dies, dass Nutzer für deine Website die Option "Zum Homescreen hinzufügen" erhalten. Wir bieten einige Statusüberprüfungen an, aber der beste Weg dies zu testen ist selber eine Test-Installation durchzuführen (suche auf Google nach einer Anleitung, wie man Progressive Web Apps installiert). Bitte bedenke auch, dass "installiere diese PWA"-Popups von Browsern gesteuert werden und nicht von Entwicklern/Admins/Programmen ausgelöst werden können. Es ist empfohlen, eine Anleitung für die Installation einer PWA in die Dokumentation deiner Seite aufzunehmen.'
     status:
       config_no_https: 'Die URL in deiner config.php Datei verwendet kein HTTPS. HTTPS ist erforderlich, damit Progressive Web Apps funktionieren.'
+      key_gen_failed: 'Die Generierung der für Push-Benachrichtigungen benötigten Schlüssel ist fehlgeschlagen. Die vollständige Fehlermeldung lautete: {error}'
       no_logo: 'Du musst mindestens ein Logo (mit einer Größe von mindestens 196px) hochladen damit deine App funktioniert.'
       no_name: 'Du musst einen vollständigen Namen angeben, damit deine App funktioniert.'
       possible_https_disabled: 'Möglicherweise läuft deine Seite nicht über HTTPS. Wenn sie es tut, ignoriere dies. Falls nicht, denke daran, dass HTTPS für Progressive Web Apps erforderlich ist, um zu funktionieren.'
       push_needs_gmp_and_web_push: 'Die gmp PHP Erweiterung und die minishlink/web-push Bibliothek (composer require minishlink/web-push) MÜSSEN aktiviert sein, damit Push-Benachrichtigungen funktionieren.'
       success: 'Keine potenziellen Probleme gefunden!'
+      suggest_gmp: 'Die gmp-PHP-Erweiterung scheint auf Ihrem Server nicht aktiviert zu sein. Dies ist nicht unbedingt erforderlich, kann jedoch die Leistung verbessern und wird empfohlen. Einige gemeinsam genutzte Hosts unterstützen dies jedoch möglicherweise nicht.'
   forum:
     alerts:
       optin: 'Du hast Push-Benachrichtigungen aktiviert, aber dieses Gerät nicht konfiguriert.'
@@ -53,3 +61,7 @@ askvortsov-pwa:
         no_browser_support_button: 'Mehr erfahren'
     user_controls:
       share_button: Teilen
+  views:
+    offline:
+      header: Netzwerkverbindungsfehler
+      text: 'Diese App erfordert eine Netzwerkverbindung; es kann nicht offline verwendet werden. Bitte überprüfe Deine Verbindung.'

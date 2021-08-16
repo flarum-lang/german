@@ -4,13 +4,19 @@
 
 blomstra-payments:
   admin:
+    edit-group:
+      select-pta-product: '(PTA) Erforderliches Produkt'
+      select-pta-product-description: "Die Auswahl eines Produkts ermöglicht den Zugriff auf die Gruppe nach der Zahlung. Im Falle eines Abonnements wird der Zugang nach Kündigung des Abonnements automatisch entzogen. Erstelle ein Produkt in Deinem Stripe-Dashboard und kopiere die ID beginnend mit <code>prod_</code> in dieses Feld.\n"
     edit-tag:
       select-ptp-product: '(PTP) Erforderliches Produkt'
       select-ptp-product-description: "Die Auswahl eines Produkts erfordert die Zahlung dieses Produkts für jede Diskussion in diesem Tag. Pay per Post, zum Beispiel ideal für Advertorials. Erstelle in Deinem Stripe-Dashboard ein Produkt mit einem einmaligen Preis und kopiere die ID beginnend mit <code>prod_</code> in dieses Feld.\n"
       select-ptv-product: '(PTV) Erforderliches Produkt'
       select-ptv-product-description: "Die Auswahl eines Produkts erfordert die Zahlung dieses Produkts, um dauerhaft Zugriff auf alle Beiträge über den Schwellenwert hinaus zu erhalten. Erstelle ein Produkt in Deinem Stripe-Dashboard und kopiere die ID beginnend mit <code>prod_</code> in dieses Feld.\n"
+      visible-from: 'Beiträge bei dieser Schwelle ausblenden'
+      visible-from-description: "Die hier angegebene Zahl legt fest, an welcher Stelle Beiträge für Benutzer ausgeblendet werden, die nicht für den Zugriff auf den Inhalt bezahlt haben. Verwende 0, um alle auszublenden, 1 für den nach dem OP.\n"
     settings:
       link-access-portal: 'Zugangsportal unter Benutzersitzungs-Dropdown verknüpfen'
+      pk: 'Veröffentlichbarer (API) Schlüssel'
       sk: 'Geheimer (API) Schlüssel'
       webhook-secret: Webhook-Signaturgeheimnis
   forum:
