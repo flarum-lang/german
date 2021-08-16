@@ -34,6 +34,7 @@ fof-webhooks:
   admin:
     errors:
       service_not_found: 'Der Dienst ''{service}'' konnte nicht gefunden werden.'
+      tag_invalid: 'Dieser WebHook ist auf ein ungültiges Tag beschränkt. Die Einschränkung gilt nicht. Stelle sicher, dass dies bestimmt ist.'
       url_invalid: 'URL ist für den gewählten Dienst nicht gültig.'
     nav:
       desc: 'Anpassbare ausgehende Webhooks für dein Forum.'
@@ -64,6 +65,8 @@ fof-webhooks:
             registered: Registriert
             renamed: '=> fof-webhooks.ref.renamed'
             title: 'Flarum Nutzer'
+      debug_help: 'Fügt der Flarum-Protokolldatei zusätzliche Protokolle hinzu, um Probleme mit Webhooks und/oder Ereignissen zu beheben, die nicht richtig funktionieren.'
+      debug_label: Debuggen
       help:
         disabled: 'Dieser Webhook ist deaktiviert, weil keine Ereignisse für ihn aktiviert sind.'
         general: 'Hier kannst du Webhooks in deinem Forum hinzufügen, bearbeiten und entfernen.'
