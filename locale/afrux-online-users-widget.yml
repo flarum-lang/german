@@ -9,4 +9,4 @@ afrux-online-users-widget:
   forum:
     widget:
       empty: 'Derzeit sind keine Benutzer online.'
-      title: 'Online Benutzer'
+      title: 'Benutzer online'
