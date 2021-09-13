@@ -35,7 +35,7 @@ core:
       forum_description_text: 'Kurze Beschreibung des Forums. Diese wird in in den meta-Tags für Suchmaschinen erscheinen.'
       forum_title_heading: 'Titel des Forums'
       home_page_heading: Startseite
-      home_page_text: 'Welche Seite sollen Besucher*innen als erstes sehen?'
+      home_page_text: 'Seite auswählen, die Benutzer beim Besuch des Forums zuerst sehen.'
       show_language_selector_label: 'Sprach-Auswahlmenü zeigen'
       slug_driver_heading: 'Slug-Treiber: {model}'
       slug_driver_text: 'Wähle den Treiber, welcher die Foren-URL''s mit einem "Slug" ausstattet.'
@@ -326,7 +326,7 @@ core:
       title: '=> core.ref.log_in'
       username_or_email_placeholder: 'Nutzername oder E-Mail'
     notifications:
-      discussion_renamed_text: '{username} hat den Titel geändert zu {new}.'
+      discussion_renamed_text: '{username} hat den Titel geändert zu {new}'
       empty_text: 'Keine neuen Benachrichtigungen'
       mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
       mark_as_read_tooltip: 'Als gelesen markieren'
@@ -438,6 +438,7 @@ core:
       generic_message: 'Oops! Da ist was schief gelaufen. Bitte die Seite neu laden oder noch mal versuchen.'
       missing_dependencies_message: 'Die Erweiterung {extension} kann nicht aktiviert werden, bis folgende abhängige Erweiterungen aktiviert wurden: {extensions}'
       not_found_message: 'Leider nichts gefunden.'
+      payload_too_large_message: 'Die Anforderungsnutzlast war zu groß.'
       permission_denied_message: 'Du hast keine Berechtigung dies zu tun.'
       rate_limit_exceeded_message: 'Nicht so schnell. Bitte versuche es gleich erneut.'
     loading_indicator:
@@ -456,6 +457,7 @@ core:
     change_email: 'E-Mail ändern'
     change_password: 'Passwort ändern'
     color: Farbe
+    confirm_email: 'E-Mail bestätigen'
     confirm_password: 'Passwort bestätigen'
     confirmation_email_sent: 'Wir haben eine Bestätigungsmail an {email} gesendet. Bitte schaue in deinem Spam-Ordner nach, falls nichts ankommen sollte.'
     custom_footer_text: 'Füge eigenen HTML-Code hinzu, welcher am Ende der Seite eingefügt wird.'
@@ -468,6 +470,7 @@ core:
     edit: Ändern
     edit_user: 'Benutzer*in ändern'
     email: E-Mail
+    extensions: Erweiterungen
     icon: Symbol
     icon_text: 'Name des <a>FontAwesome</a>-Symbols eingeben, aber <em>mit</em> dem Prefix <code>fas fa-</code>.'
     load_more: 'Weitere laden'
@@ -497,6 +500,22 @@ core:
     write_a_reply: 'Eine Antwort schreiben…'
     you: Du
   views:
+    admin:
+      extensions:
+        caption: '=> core.ref.extensions'
+        disable: Deaktivieren
+        empty: 'Keine installierten Erweiterungen'
+        enable: Aktivieren
+        name: Erweiterungsname
+        package_name: Paketname
+        version: Version
+      info:
+        caption: 'Application Info'
+      title: Administration
+    confirm_email:
+      submit_button: '=> core.ref.confirm_email'
+      text: 'Klicke auf die Schaltfläche unten, um die E-Mail-Adresse Deines Kontos zu bestätigen.'
+      title: '=> core.ref.confirm_email'
     content:
       javascript_disabled_message: 'Dieses Forum ist für moderne Browser mit JavaScript optimiert.'
       load_error_message: 'Beim Laden dieser Seite ist etwas schiefgelaufen.'
