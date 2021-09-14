@@ -24,19 +24,26 @@ fof-drafts:
     dropdown:
       alert: 'Bist du sicher, dass du den Entwurf löschen möchtest?'
       delete_all_alert: 'Bist du sicher, dass du alle deine Entwürfe löschen willst?'
+      delete_all_button: 'Alle Entwürfe löschen'
       delete_button: 'Entwurf löschen'
       empty_text: 'Du hast keine Entwürfe gespeichert'
       schedule_button: 'Entwurf planen'
+      scheduled_icon_tooltip: 'Geplant für {datetime}'
+      scheduled_icon_tooltip_formatter: 'L [at] LT'
       title: Entwürfe
       tooltip: '=> fof-drafts.forum.dropdown.title'
     schedule_draft_modal:
       reschedule_button: 'Plan aktualisieren'
       schedule_button: Planen
+      schedule_time_preview: 'Dieser Entwurf wird automatisch am <b>{datetime}</b> veröffentlicht.'
+      schedule_time_preview_formatter: LLLL
+      schedule_time_preview_invalid: 'Ungültiges Datum und/oder ungültige Zeit'
       scheduled_error: 'Konnte Beitrag nicht veröffentlichen wegen: {error}.'
       scheduled_text: 'Beitrag wird am {datetime} veröffentlicht.'
-      text: 'Plane die automatische Veröffentlichung deines Entwurfs.'
+      text: 'Plane die automatische Veröffentlichung deines Entwurfs!'
       title: 'Entwurf planen'
       unschedule_button: 'Plan entfernen'
+      unschedule_warning: 'Bist du sicher, dass du die Planung dieses Entwurfes aufheben willst?'
     user:
       settings:
         draft_autosave_enable: 'Automatisches Speichern von Entwürfen aktivieren?'
@@ -44,3 +51,5 @@ fof-drafts:
         draft_autosave_interval_invalid: 'Das Intervall muss eine Zahl größer als 4 sein.'
         draft_autosave_interval_label: 'Autospeicher-Intervall (Sekunden)'
         drafts_heading: Entwürfe
+  ref:
+    schedule_draft: 'Entwurf planen'
