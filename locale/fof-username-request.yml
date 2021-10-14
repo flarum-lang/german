@@ -84,8 +84,10 @@ fof-username-request:
       rejected_label: Ablehnen
       submit_button: Absenden
       success: 'Entscheidung abgeschickt.'
+    name_change_request: 'Antrag auf Namensänderung'
     name_change_requests: 'Anträge auf Änderung des Namens'
     nickname_change_request: 'Änderung des Nicknamens beantragen'
+    nickname_change_requests: 'Anträge auf Nicknamesänderung'
     request:
       confirmation_message: 'Dein Änderungswunsch wurde eingereicht und muss noch genehmigt werden.'
       delete_button: 'Anfrage löschen'
@@ -95,3 +97,4 @@ fof-username-request:
       reason: 'Grund für die Ablehnung: <i>"{reason}"</i>.'
       resubmit: 'Du kannst nun weitere Anfragen über deine Account-Einstellungen stellen.'
     username_change_request: 'Änderung des Nutzernamens beantragen'
+    username_change_requests: 'Anträge auf Benutzernamensänderung'

@@ -8,9 +8,13 @@ fof-discussion-language:
       allow_change_language_label: 'Sprachbearbeitung erlauben'
     settings:
       composer_default_label: 'Aktuelle Sprache im Diskussions-Verfasser vorauswählen'
+      errors:
+        missing_assets: 'Die von dieser Erweiterung benötigten Assets konnten nicht geladen werden. Versuche, <code>php flarum assets:publish</code> auszuführen und prüfe, ob das Problem damit behoben ist.'
       locale_sort_label: 'Erkannte Sprache als Standard-Diskussionsfilter verwenden'
       native_label: 'Sprachnamen in Muttersprache anzeigen'
+      show_any_lang_opt_label: 'Zeige die Option an, um ''Beliebige Sprache'' auszuwählen'
       show_flag_label: 'Länderflaggen mit Sprachnamen anzeigen'
+      tags_page_discussion_locale_label: 'Nur Diskussionen aus dem aktuellen Gebietsschema des Benutzers auf der Tags-Seite anzeigen'
   api:
     discussion:
       validation_error: 'Du musst die Sprache für deine Diskussion auswählen.'

@@ -296,7 +296,9 @@ core:
       log_in_link: '=> core.ref.log_in'
       log_out_button: '=> core.ref.log_out'
       profile_button: Profil
+      search_clear_button_accessible_label: 'Suchabfrage löschen'
       search_placeholder: Suche
+      search_role_label: 'Forum durchsuchen'
       session_dropdown_accessible_label: 'Dropdown-Menü der Sitzungsoptionen umschalten'
       settings_button: '=> core.ref.settings'
       sign_up_link: '=> core.ref.sign_up'
@@ -426,6 +428,7 @@ core:
       email_heading: '=> core.ref.email'
       email_label: '=> core.ref.email'
       groups_heading: Gruppen
+      nothing_available: 'Du darfst diesen Benutzer nicht bearbeiten.'
       password_heading: '=> core.ref.password'
       password_label: '=> core.ref.password'
       set_password_label: 'Neues Passwort festlegen'
