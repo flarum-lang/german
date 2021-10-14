@@ -16,6 +16,7 @@ fof-pages:
       html_label: 'HTML aktivieren'
       restricted_label: 'Zugang einschränken (konfiguriere wer Zugang hat unter den Berechtigungen dieser Erweiterung)'
       set_as_home_page_confirmation: 'Bist du sicher, dass du diese Seite als Startseite festlegen möchtest?'
+      set_as_home_page_done: 'Homepage aktualisiert'
       slug_label: Slug
       slug_placeholder: 'Slug (Teil der URL)'
       submit_button: '=> core.ref.save_changes'
@@ -35,5 +36,6 @@ fof-pages:
     content: Inhalt
     create_page: 'Neue Seite erstellen'
     pages: Seiten
+    slug: Slug
     title: Titel
     url: URL

@@ -11,6 +11,8 @@ fof-user-directory:
       link: 'Link auf der Homepage hinzufügen, damit Benutzer das Verzeichnis sehen können'
       use-small-cards: 'Verwende kleine Nutzer-Karten'
   forum:
+    header:
+      back_to_user_directory_tooltip: 'Zurück zum Benutzerverzeichnis'
     page:
       empty_text: 'Wir konnten keinen Benutzer finden, der deiner Suche entspricht.'
       filter_button: 'Gruppen Filtern'

@@ -8,8 +8,8 @@ flarum-suspend:
       suspend_users_label: 'Nutzer ausschließen'
   forum:
     notifications:
-      user_suspended_text: '{username} hat dich für {timeReadable} gesperrt'
-      user_unsuspended_text: '{username} hat dich entsperrt'
+      user_suspended_text: 'Du wurdest für {timeReadable} gesperrt'
+      user_unsuspended_text: 'Du wurdest entsperrt'
     suspend_user:
       indefinitely_label: 'Dauerhaft ausschließen'
       limited_time_days_text: ' Tage'

@@ -13,7 +13,7 @@ flarum-likes:
     post:
       like_link: 'Gefällt mir'
       liked_by_self_text: '{users} gefällt das.'
-      liked_by_text: '{count, plural, one {{users} gefällt das} other {{users} gefällt das}}'
+      liked_by_text: '{count, plural, one {{users} gefällt das} other {{users} gefällt das}}.'
       others_link: '=> core.ref.some_others'
       unlike_link: 'Gefällt mir nicht mehr'
       you_text: '=> Dir'

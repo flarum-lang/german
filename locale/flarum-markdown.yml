@@ -13,4 +13,6 @@ flarum-markdown:
       link_tooltip: 'Link einfügen'
       ordered_list_tooltip: 'Numerierte Liste einfügen'
       quote_tooltip: 'Zitat einfügen'
+      spoiler_tooltip: 'Spoiler einfügen'
+      strikethrough_tooltip: 'Durchgestrichenen Text hinzufügen'
       unordered_list_tooltip: 'Liste einfügen'

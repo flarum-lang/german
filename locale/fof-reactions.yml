@@ -41,6 +41,7 @@ fof-reactions:
     modal:
       title: Reaktionen
     notification: '{username} hat auf deinen Post mit {reaction} reagiert'
+    react_button_label: Reagieren
     reacting-own-post: 'Du kannst nicht auf deinen eigenen Beitrag reagieren'
     settings:
       notify_post_reacted_label: 'Jemand reagiert auf einen meiner Beiträge'

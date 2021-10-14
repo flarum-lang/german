@@ -5,6 +5,7 @@
 imgur-upload:
   admin:
     settings:
+      allow-paste: 'Hochladen durch Einfügen eines Bildes zulassen'
       embed-type:
         full-with-link: 'Bild in voller Größe mit Link'
         full-without-link: 'Bild in voller Größe ohne Link'

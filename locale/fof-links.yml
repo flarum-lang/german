@@ -18,6 +18,7 @@ fof-links:
       title: '=> fof-links.ref.create_link'
       title_label: '=> fof-links.ref.title'
       title_placeholder: '=> fof-links.ref.title'
+      url_description: 'Zum Anzeigen als Label leer lassen.'
       url_label: '=> fof-links.ref.url'
       url_placeholder: '=> fof-links.ref.url'
       visibility: 'Link Sichtbarkeit'
