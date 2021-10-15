@@ -16,7 +16,7 @@ fof-best-answer:
       documentation: Dokumentation
       enable_all_tags_button: 'Alle Tags für beste Antworten aktivieren'
       enable_all_tags_reminder_button: 'Alle Tags für Erinnerungen für die beste Antwort aktivieren'
-      introduction: "Aktiviere in <code><a>flarum/tags/<a/>code>, welche Tags Beste Antworten unterstützen sollen, und optional welche Tags Erinnerungen unterstützen sollen. Wenn für ein Tag Beste Antwort aktiviert ist, weise jeder Benutzergruppe, die Antworten festlegen kann (eigene Diskussion, beliebige Diskussion), Berechtigungen zu. Berechtigungen können global (für alle Best-Antwort-anabled-Tags) oder pro Tag zugewiesen werden.\n"
+      introduction: "Aktiviere in <code><a>flarum/tags</a></code>, welche Tags Beste Antworten unterstützen sollen, und optional welche Tags Erinnerungen unterstützen sollen. Wenn für ein Tag Beste Antwort aktiviert ist, weise jeder Benutzergruppe, die Antworten festlegen kann (eigene Diskussion, beliebige Diskussion), Berechtigungen zu. Berechtigungen können global (für alle Best-Antwort-anabled-Tags) oder pro Tag zugewiesen werden.\n"
       label:
         advanced: Erweitert
         general: Allgemein
