@@ -12,3 +12,6 @@ michaelbelgium-flarum-profile-views:
     user:
       last_viewers_heading: 'Letzte Besucher'
       view_count_text: '{viewcount} mal aufgerufen'
+      viewlist:
+        guest: Gast
+        title: 'Letzte Besucher'

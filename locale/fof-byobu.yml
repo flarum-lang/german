@@ -49,7 +49,12 @@ fof-byobu:
     modal:
       help:
         add_recipients: 'Diese Diskussion wird nur für die Nutzer sichtbar sein, die du hier auswählst. Mindestens 1 Empfänger (außer dir selbst) ist erforderlich.'
+        click_user_to_remove_tooltip: 'Zum Entfernen anklicken'
+        selected_users: 'Klicke auf den Namen eines Benutzers, um ihn zu entfernen.'
         update_recipients: 'Diese Diskussion wird nur für die Nutzer sichtbar sein, die du hier auswählst.'
+      labels:
+        search_field: 'Benutzer suchen'
+        selected_users: 'Ausgewählte Benutzer'
       titles:
         add_recipients: 'Empfänger zur Diskussion hinzufügen'
         update_recipients: 'Empfänger von {title} aktualisieren'

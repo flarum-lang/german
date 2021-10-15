@@ -12,7 +12,7 @@ fof-gamification:
       convert:
         button: 'Gefällt-mirs in Upvotes konvertieren'
         converted: 'Erfolgreich alle {number} Gefällt-mirs konvertiert'
-        converting: 'Deine Gefällt-mirs werden nun konvertiert. Aktualisiere die Seite nach ein paar Minuten, um zu sehen, ob der Prozess abgeschlossen ist. (Die Konvertierung kann eine Weile dauern, je nachdem wie viele Gefällt-mirs es gibt)'
+        converting: 'Deine Gefällt-mirs werden nun konvertiert. Aktualisiere die Seite nach ein paar Minuten, um zu sehen, ob der Prozess abgeschlossen ist. (Die Konvertierung kann eine Weile dauern, je nachdem wie viele Gefällt-mirs existieren)'
         help: 'Konvertiere deine vorherigen flarum-ext-likes Gefällt-mirs in Upvotes und berechne wie sehr im Trend alle aktuellen Diskussionen liegen.'
       rankings:
         blocked:

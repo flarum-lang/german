@@ -42,6 +42,8 @@ validation:
   ends_with: ':attribute muss eine der folgenden Endungen aufweisen: :values.'
   exists: 'Der gewählte Wert für :attribute ist ungültig.'
   file: ':attribute muss eine Datei sein.'
+  file_too_large: 'Das :attribute ist zu groß.'
+  file_upload_failed: 'Das :attribute konnte nicht hochgeladen werden.'
   filled: ':attribute muss ausgefüllt sein.'
   gt:
     array: ':attribute muss mehr als :value Elemente enthalten.'

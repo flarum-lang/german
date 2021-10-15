@@ -11,5 +11,31 @@ clarkwinkelmann-featured-discussions:
       eventPost: 'Event-Beitrag generieren, wenn der Zeitplan geändert wird'
       schedule: 'Planen (CRON-Syntax)'
   forum:
+    badge: Vorgestellt
+    controls:
+      feature: 'Vorgestellte Disskusionen'
     modal:
+      action:
+        cancel: Abbrechen
+        submit: Senden
+      fields:
+        from: Von
+        until: Bis
+      from:
+        manual: 'Manuelles Datum'
+        next: 'Nächster Slot'
+        not: 'Nicht vorgestellt'
       title: 'Angesagte Diskussionen'
+      until:
+        auto: Auto
+        manual: 'Manuelles Datum'
+    post:
+      auto: (auto)
+      scheduled: 'Geplante Veröffentlichung von {from} bis {until}'
+      unscheduled: 'Nicht mehr geplant, vorgestellt zu werden'
+    schedule:
+      custom: benutzerdefiniert
+      drop-error: 'Ungültiger Diskussionslink'
+      drop-here: 'Hier ablegen, um zu planen'
+      empty: 'Keine Diskussionen'
+      help: "Ziehe Diskussionen per Drag & Drop auf die Seite oder aus einem anderen Fenster, um deinen Zeitplan zu ändern. Um den Zeitplan zu entfernen, verwende das 3-Punkte-Menü.\n"
