@@ -6,3 +6,6 @@ blomstra-mark-unread:
   admin:
     permissions:
       mark-unread: 'Eine Diskussion als ungelesen markieren'
+  forum:
+    controls:
+      mark-unread: 'Als ungelesen markieren'

@@ -4,11 +4,15 @@
 
 flarum-ext-welcomebox:
   admin:
+    UseWidget: 'Widget-Version verwenden'
     enablepostbox: 'Aktiviere Willkommensbox für Gäste'
+    img: 'Bild-URL (Gastbox)'
+    img-help: 'Gebe hier die URL des Bildes für die Gästebox ein'
   forum:
     SettingsLink: Einstellugnen
     discussion: '=> core.ref.discussions'
     goToProfile: Profil
+    lastSeen: 'Letzter Besuch'
     notregistered: 'Du bist aktuell nicht im Forum registriert.'
     npost: '=> core.ref.posts'
     tooltipDisclist: 'Meine Diskussions-Liste'

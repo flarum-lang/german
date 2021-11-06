@@ -8,6 +8,7 @@ fof-user-directory:
       view_user_directory: 'Benutzerverzeichnis anzeigen'
     settings:
       default-sort: Standard-Sortierung
+      disable-global-search-source: 'Benutzerverzeichnis nicht zum globalen Suchfeld von Flarum hinzufügen'
       link: 'Link auf der Homepage hinzufügen, damit Benutzer das Verzeichnis sehen können'
       use-small-cards: 'Verwende kleine Nutzer-Karten'
   forum:
@@ -22,6 +23,9 @@ fof-user-directory:
     search:
       field:
         placeholder: 'Alle Nutzer durchsuchen'
+      kinds:
+        group: Gruppe
+        text: 'Freier Text'
       users_heading: 'Durchsuche alle Benutzer nach "{query}"'
   lib:
     sort:
