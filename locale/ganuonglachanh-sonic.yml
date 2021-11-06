@@ -6,6 +6,7 @@ ganuonglachanh-sonic:
   admin:
     settings:
       GNOptionsHeading: Einstellung
+      host: Host
       locale: Sprache
       password: Passwort
       port: Port
