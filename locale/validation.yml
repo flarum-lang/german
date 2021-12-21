@@ -58,7 +58,7 @@ validation:
   image: ':attribute muss ein Bild sein.'
   in: 'Der gewählte Wert für :attribute ist ungültig.'
   in_array: 'Der gewählte Wert für :attribute kommt nicht in :other vor.'
-  integer: ':attribute muss eine ganze Zahl sein'
+  integer: ':attribut muss eine ganze Zahl sein.'
   ip: ':attribute muss eine gültige IP-Adresse sein.'
   ipv4: ':attribute muss eine gültige IPv4-Adresse sein.'
   ipv6: ':attribute muss eine gültige IPv6-Adresse sein.'

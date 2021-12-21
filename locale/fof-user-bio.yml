@@ -11,5 +11,5 @@ fof-user-bio:
     setting:
       bioLimit: 'Bio Zeichenlimit'
   forum:
-    userbioPlaceholder: 'Schreib etwas über dich.'
+    userbioPlaceholder: 'Schreib etwas über dich'
     userbioPlaceholderOtherUser: 'Schreibe eine Bio für {username}'

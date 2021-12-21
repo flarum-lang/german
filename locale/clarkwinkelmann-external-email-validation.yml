@@ -15,7 +15,7 @@ clarkwinkelmann-external-email-validation:
       response-error-key: 'Pfad zum JSON-Attribut mit Fehlermeldung'
       response-error-key-help: "Pfad im Format <code>key1.key2.key3</code>. Wird mit Laravel <code>Arr::get</code> helper extrahiert. Die Standardfehlermeldung wird angezeigt, wenn dieser Schlüssel nicht gefunden wird.\n"
       response-success-key: 'Pfad zum JSON-Attribut mit gültigem Status'
-      response-success-key-help: "Pfad im Format <code>key1.key2.key3</code>. Wird mit Laravel <code>Arr::get</code> helper extrahiert. Der Wert wird in einen booleschen Wert umgewandelt. Hat nur Auswirkungen, wenn der HTTP-Status nicht verwendet wird. Eine Ausnahme wird ausgelöst, wenn die Antwort kein gültiges JSON ist.</code>\n"
+      response-success-key-help: "Pfad im Format <code>key1.key2.key3</code>. Wird mit Laravel <code>Arr::get</code> helper extrahiert. Der Wert wird in einen booleschen Wert umgewandelt. Hat nur Auswirkungen, wenn der HTTP-Status nicht verwendet wird. Eine Ausnahme wird ausgelöst, wenn die Antwort kein gültiges JSON ist\n"
       uri: Anfrage-URI
       uri-help: 'Du kannst Shortcodes einfügen, die durch den E-Mail-Wert ersetzt werden sollen, siehe README.'
       use-response-status: 'HTTP-Antwortstatus für Gültigkeitsstatus verwenden'

@@ -11,7 +11,7 @@ fof-pretty-mail:
     nav:
       desc: 'Passe Deine HTML-E-Mail-Vorlagen an.'
     settings:
-      confirm: 'Möchtest Du wirklich zur Standard-E-Mail-Vorlage für zurückkehren?'
+      confirm: 'Möchtest Du wirklich zur Standard-E-Mail-Vorlage für zurückkehren'
       default: Standardvorlage
       help: '''$body'' enthält den eigentlichen Inhalt der E-Mail, ''$forumStyle'' enthält das <strong>entire Forum CSS</strong>, ''$url'' ist Flarums UrlGenerator, ''$settings'' ermöglicht die Interaktion mit dem SettingsRepositoryInterface und ''$link'' enthält den Link in der E-Mail. Sehen Sie sich jede Vorlage an, um zu erfahren, wie Sie jede Variable verwenden.'
       label: E-Mail-Vorlagen

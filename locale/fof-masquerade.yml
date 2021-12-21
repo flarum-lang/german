@@ -28,7 +28,7 @@ fof-masquerade:
       title: Felder
       type: Typ
       validation: Validierung
-      validation-help: "Überprüfe die Gültigkeit der Eingabe mithilfe der unterstützten <a>Laravel-Validierungsregeln</a>.  Beispiel: \"string|min:5\" oder \"url\".\n"
+      validation-help: "Überprüfe die unterstützten <a>Laravel-Validierungsregeln</a>. ZB: \"string|min:5\" oder \"url\".\n"
     general-options: 'Allgemeine Optionen'
     permissions:
       have-profile: 'Masquerade-Profil anlegen'

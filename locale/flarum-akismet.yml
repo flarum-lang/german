@@ -5,7 +5,7 @@
 flarum-akismet:
   admin:
     akismet_settings:
-      api_key_label: 'API Key'
+      api_key_label: 'API Schlüssel'
       title: Akismet-Einstellungen
   forum:
     post:

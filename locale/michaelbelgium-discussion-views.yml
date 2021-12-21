@@ -23,7 +23,7 @@ michaelbelgium-discussion-views:
     discussion_controls:
       resetviews_button: 'Aufrufzähler zurücksetzen'
     modal_resetviews:
-      label: '{count, plural, one {Dies wird # Diskussionsaufruf entfernen.} other {Dies wird # Diskussionsaufrufe entfernen.}} Fortfahren?'
+      label: '{count, plural, one {Dies wird {count} Ansicht dieser Diskussion entfernen. Fortfahren?} other {Dadurch werden {count} Aufrufe dieser Diskussion entfernt. Fortsetzen?}}'
       submit_button: 'Ja, alle entfernen'
       title: 'Aufrufzähler zurücksetzen'
     viewlist:

@@ -95,6 +95,7 @@ core:
       title: '=> core.ref.email'
     extension:
       configure_scopes: 'Bereiche konfigurieren'
+      confirm_purge: 'Beim Bereinigen werden alle Datenbankeinträge und Assets entfernt, die sich auf die Erweiterung beziehen. Die Erweiterung wird nicht deinstalliert; das muss über Composer getan werden. Bist Du sicher sicher, dass Du fortfahren willst?'
       confirm_uninstall: 'Bei der Deinstallation werden alle Datenbankeinträge und Assets, die mit der Erweiterung in Verbindung stehen, entfernt. Bist du sicher, dass du fortfahren möchtest?'
       disabled: Deaktiviert
       enable_to_see: 'Aktiviere die Erweiterung um Einstellungen zu sehen und zu ändern.'
@@ -110,6 +111,11 @@ core:
       no_settings: 'Diese Erweiterung hat keine Einstellungen.'
       open_modal: 'Einstellungen öffnen'
       permissions_title: Berechtigungen
+      purge_button: Bereinigen
+      readme:
+        button_label: LIESMICH
+        no_readme: 'Diese Erweiterung scheint keine README-Datei zu haben'
+        title: '{extName}-Dokumentation'
       uninstall_button: Deinstallieren
     header:
       get_help: 'Hilfe erhalten'
@@ -281,6 +287,8 @@ core:
       mark_as_read_tooltip: 'Als gelesen markieren'
       replied_text: '{username} {ago}'
       started_text: '{username} {ago}'
+      total_replies_a11y_label: '{count, plural, one {# Antwort} other {# Antworten}}'
+      unread_replies_a11y_label: '{count, plural, one {# ungelesene Antwort} other {# ungelesene Antworten}}. Markiere ungelesene {count, plural, one {Antwort} other {Antworten}} als gelesen.'
     forgot_password:
       dismiss_button: '=> core.ref.okay'
       email_placeholder: '=> core.ref.email'
@@ -409,6 +417,8 @@ core:
       alert_message: '=> core.ref.confirmation_email_sent'
       resend_button: 'Bestätigungsmail erneut senden'
       sent_message: Versendet
+    welcome_hero:
+      hide: 'Willkommensnachricht ausblenden'
   group:
     admin: Admin
     admins: Admins
@@ -421,6 +431,7 @@ core:
   lib:
     badge:
       hidden_tooltip: Versteckt
+    debug_button: Debug
     dropdown:
       toggle_dropdown_accessible_label: 'Dropdown-Menü umschalten'
     edit_user:
@@ -447,6 +458,10 @@ core:
       render_failed_message: 'Beim Anzeigen dieses Inhalts ist ein Fehler aufgetreten. Wenn Du ein Benutzer bist, versuche es später erneut. Wenn Du ein Administrator bist, sehe in Deinen Flarum-Protokolldateien nach, um weitere Informationen zu erhalten.'
     loading_indicator:
       accessible_label: '=> core.ref.loading'
+    modal:
+      close: Schließen
+    nav:
+      drawer_button: 'Navigationsschublade öffnen'
     number_suffix:
       kilo_text: K
       mega_text: M
@@ -544,6 +559,9 @@ core:
       log_out_button: '=> core.ref.log_out'
       log_out_confirmation: 'Bist du sicher, dass du dich von {forum} ausloggen willst?'
       title: '=> core.ref.log_out'
+    meta_titles:
+      with_page_title: '{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Seite # - {forumName}}}'
+      without_page_title: '{pageNumber, plural, =1 {{forumName}} other {Seite # - {forumName}}}'
     reset_password:
       confirm_password_label: 'Neues Passwort bestätigen'
       new_password_label: 'Neues Passwort'

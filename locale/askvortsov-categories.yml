@@ -13,18 +13,18 @@ askvortsov-categories:
       parent_display: Hauptkategorien
       performance: Leistung
     help:
-      child_bare_icon: 'Symbole in Unterkategorien ohne runden Hintergrund anzeigen.'
+      child_bare_icon: 'Symbole in Unterkategorien ohne runden Hintergrund anzeigen?'
       full_page_desktop: 'Soll das Navigationsmenü an der Seite beim betrachten der Kategorien auf eine Zeile gebracht werden (wie bei der traditionellen Themen Ansicht)? Dies versteckt auch Widgets (wie zum Beispiel Friends of Flarum Forum Statistics) von der Navigationsleiste auf der Kategorien Seite.'
       small_forum_optimized: 'Für kleine Foren optimieren. Führt zu einer genaueren Zählung von Diskussionen und Beiträgen, verlangsamt aber mittel bis große Foren drastisch.'
     labels:
       child_bare_icon: 'Rohe Unterkategorie-Symbole verwenden?'
-      compact_mobile_mode: 'Kompakten Modus für Mobilgeräte aktivieren.'
+      compact_mobile_mode: 'Kompakten Modus für Mobilgeräte aktivieren'
       full_page_desktop: 'Ganze Seite auf Desktops zeigen?'
-      keep_tags_nav: 'Link zur klassischen Themen Ansicht in der Navigationsleiste behalten.'
-      parent_remove_description: 'Beschreibungen für Top-Level-Themen ausblenden.'
-      parent_remove_icon: 'Symbole für Top-Level-Themen ausblenden.'
-      parent_remove_last_discussion: 'Aktuellste Diskussion für Top-Level-Themen ausblenden.'
-      parent_remove_stats: 'Statistiken für Top-Level-Themen ausblenden.'
+      keep_tags_nav: 'Link zur klassischen Themen Ansicht in der Navigationsleiste behalten?'
+      parent_remove_description: 'Beschreibungen für Top-Level-Themen ausblenden?'
+      parent_remove_icon: 'Symbole für Top-Level-Themen ausblenden?'
+      parent_remove_last_discussion: 'Aktuellste Diskussion für Top-Level-Themen ausblenden?'
+      parent_remove_stats: 'Statistiken für Top-Level-Themen ausblenden?'
       small_forum_optimized: 'Für kleine Foren optimieren?'
     title: 'Kategorien Einstellungen'
   forum:

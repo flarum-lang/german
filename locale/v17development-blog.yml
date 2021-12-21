@@ -33,7 +33,7 @@ v17development-flarum-blog:
       select_categories_button: 'Blog-Kategorien auswählen'
       selected_category_count: '{count, plural, one {Du hast # Kategorie ausgewählt} other {Du hast # Kategorien ausgewählt}}'
       show_tag_hierarchy_label: 'Tag-Hierarchie anzeigen'
-      show_tag_hierarchy_text: 'Füge Abstände zu den Unterkategorien hinzu und gebe der Kategorieliste eine Hierarchie'
+      show_tag_hierarchy_text: 'Füge Abstände zu den Unterkategorien hinzu und gebe der Kategorieliste eine Hierarchie.'
   forum:
     article:
       slug: Slug

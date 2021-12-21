@@ -6,10 +6,14 @@ malago-achievements:
   admin:
     achievement_modal:
       active_label: Aktiv
+      col_label: Spalte
+      col_placeholder: '0'
       computation_label: "Variable zum Berechnen: Beiträge, Likes, selbstlikes, Diskussionen, Kommentare, Bearbeitungen, Avatar, enthält, Jahre\n"
       computation_placeholder: Nummer
       description_label: Beschreibung
       description_placeholder: 'Erfolg Beschreibung'
+      height_label: Bildhöhe
+      height_placeholder: '32'
       hidden_label: 'Verstecken in der Erfolgeliste'
       image_label: 'Bilder URL oder icon code'
       image_placeholder: 'Erfolge Bilder URL'
@@ -17,7 +21,13 @@ malago-achievements:
       name_placeholder: 'Erfolg Name'
       points_label: 'Punkte für Erfolg'
       points_placeholder: "0\n"
+      row_label: Zeile
+      row_placeholder: '0'
       title: 'Erstelle Erfolge'
+      username: Nutzername
+      username_placeholder: Nutzername
+      width_label: Bildbreite
+      width_placeholder: '32'
   forum:
     achievement_points: Punkte
     achievement_total_points: Insgesamt

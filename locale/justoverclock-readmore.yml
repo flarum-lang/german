@@ -5,7 +5,7 @@
 flarum-ext-readmore:
   admin:
     AlsoPost: 'Auszug für PostStream aktivieren'
-    AlsoPostdesc: 'Dadurch kann die Erweiterung mit all deinen Flarum-Posts funktionieren (nicht nur auf der Profilseite).'
+    AlsoPostdesc: 'Dadurch kann die Erweiterung mit all Deinen Flarum-Posts funktionieren (nicht nur auf der Profilseite)'
     charlenght: Zeichenlänge
     charlenghtdesc: 'Lege die Anzahl der Zeichen fest, über die der Link ''Weiterlesen'' eingefügt werden soll'
   forum:

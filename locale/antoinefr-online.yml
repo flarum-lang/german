@@ -9,5 +9,5 @@ antoinefr-online:
       titleoflist: 'Titel, der über der Liste angezeigt werden soll'
   forum:
     andmore: 'und {more} mehr...'
-    online_users: '{more, plural, one {# user is online} other {# users are online}}'
+    online_users: '{more, plural, one {# Benutzer ist} other {# Benutzer sind online}}'
     title: 'Wer ist Online?'

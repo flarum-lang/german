@@ -10,6 +10,6 @@ fof-github-sponsors:
     settings:
       account_type_label: 'Konto Typ'
       api_token_label: API-Token
-      desc: 'Beziehe Dein API-Token von <a>https://github.com/settings/tokens/new</a>. Diese Erweiterung erfordert die Bereiche <code>user</code> und <coder>ead:org</code>.'
+      desc: 'Beziehe Deinen API-Token von <a>https://github.com/settings/tokens/new</a>. Diese Erweiterung erfordert die Bereiche <code>user</code> und <code>read:org</code>.'
       group_label: 'Zuzuweisende Gruppe'
       login_label: Einloggen

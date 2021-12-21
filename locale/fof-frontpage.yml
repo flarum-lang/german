@@ -10,7 +10,7 @@ core:
     badge:
       frontpage_tooltip: 'Als FrontPage markiert'
     index_sort:
-      front_button: FrontPage
+      front_button: Titelseite
     post_controls:
       pull_from_front_button: 'Von FrontPage ziehen'
       push_to_front_button: 'Zur FrontPage pushen'

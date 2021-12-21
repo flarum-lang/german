@@ -7,7 +7,7 @@ fof-impersonate:
     permissions:
       login: 'Anmelden als andere Nutzer'
     settings:
-      no_settings_available: 'Derzeit sind keine Einstellungen verfügbar. Versuche fof/moderator-notes zu installieren.'
+      no_settings_available: 'Derzeit sind keine Einstellungen verfügbar. Versuche fof/moderator-notes zu installieren'
       require_reason: 'Verlange die Eingabe eines Grundes, bevor man sich als ein anderen Nutzer ausgeben kann.'
       title: 'FoF Impersonate'
   forum:

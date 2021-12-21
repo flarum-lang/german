@@ -27,4 +27,4 @@ fof-sitemap:
         cache_disk: Disk
         multi_file: Mehrdateien
         runtime: Laufzeit
-      title: 'FoF Sitemap'
+      title: FoF-Sitemap

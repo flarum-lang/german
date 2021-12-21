@@ -9,7 +9,9 @@ flarum-nicknames:
     settings:
       max_label: 'Maximale Länge für Nicknamen'
       min_label: 'Minimale Länge für Nicknamen'
+      random_username_label: 'Zufällige Benutzernamen'
       regex_label: 'Regulärer Ausdruck zur Validierung'
+      set_on_registration_label: 'Erlaube das Einstellen von Spitznamen bei der Registrierung'
       unique_label: 'Nicknamen müssen einzigartig sein'
     wrong_driver: 'Du musst "nickname" als den Anzeigenamen-Treiber in den <a><strong>Grundeinstellungen</strong></a> auswählen, damit diese Erweiterung einen Effekt hat.'
   api:
@@ -23,5 +25,8 @@ flarum-nicknames:
       nicknames_text: Nickname
     settings:
       change_nickname_button: '=> flarum-nicknames.ref.change_nickname'
+    sign_up:
+      nickname_placeholder: '=> flarum-nicknames.ref.nickname'
   ref:
     change_nickname: 'Nickname ändern'
+    nickname: Nickname
