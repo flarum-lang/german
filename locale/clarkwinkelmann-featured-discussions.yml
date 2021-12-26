@@ -29,6 +29,8 @@ clarkwinkelmann-featured-discussions:
       until:
         auto: Auto
         manual: 'Manuelles Datum'
+    nav:
+      schedule: 'Funktion planen'
     post:
       auto: (auto)
       scheduled: 'Geplante Veröffentlichung von {from} bis {until}'

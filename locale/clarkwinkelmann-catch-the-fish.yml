@@ -12,12 +12,31 @@ clarkwinkelmann-catch-the-fish:
       participate: 'Nehme an den Runden teil und fange Fische'
       visible: 'Siehe die Fische'
     settings:
-      alert-round: 'Zeige einen Altert mit dem runden Namen und der Dauer auf der Homepage an'
+      alert-round: 'Benachrichtigung mit Rundennamen und Dauer auf der Startseite anzeigen'
       animate-flip: 'Spiegel Fischbilder basierend auf der Richtung'
+      discussion: Diskussionen
       discussion-age: 'Wie alt Diskussionen sein können, damit ein Fisch darauf platziert wird (Tage)'
+      discussion-tags-help: "Wenn Du keinen Tag auswählst, kann jede Diskussion ausgewählt werden, die den obigen Zeiteinstellungen entspricht. Wenn eine beliebige Anzahl von Tags ausgewählt wird, muss in einer Diskussion mindestens eines der ausgewählten Tags ausgewählt werden. Die Wahrscheinlichkeit ist die Chance, ausgewählt zu werden, nachdem alle vorherigen Auswahlmöglichkeiten ausprobiert wurden. Das letzte Tag in der Liste fungiert immer als Fallback, also stelle sicher, dass das Tag mindestens eine gültige Diskussion enthält.\n"
+      discussion-tags-unavailable: 'Einstellung nicht verfügbar, da die Tags-Erweiterung deaktiviert ist.'
+      general: Generell
+      post: Beiträge
       post-age: 'Wie alt können Pfosten sein, damit ein Fisch darauf platziert wird (Tage)'
+      post-probability: 'Wahrscheinlichkeit, in einem Beitrag statt in der Diskussion platziert zu werden (%)'
+      tags-control:
+        add: 'Zur Whitelist hinzufügen'
+        choose: 'Wähle ein Tag'
+        delete: 'Von Whitelist entfernen'
+        down: 'Abwärts bewegen'
+        up: 'Aufwärts bewegen'
+      tags-fallback:
+        single-line: 'Mindestens 2 Tags für Wahrscheinlichkeit erforderlich'
+      tags-header:
+        probability: Warscheinlichkeit
+        tag: Tag
       time-to-place: 'Zeit, um Fische zu platzieren, bevor sie zufällig platziert werden (Minuten)'
+      user: Benutzer
       user-age: 'Wie lange muss ein Benutzer aktiv gewesen sein, damit ein Fisch darauf platziert wird (Tage)'
+      user-probability: 'Wahrscheinlichkeit, in ein Benutzerprofil aufgenommen zu werden (%)'
   api:
     cannot-catch-hold-fish: 'Der vorherige Fänger muss den Fisch freigeben, bevor Du ihn fangen kannst'
     cannot-catch-own-fish: 'Einen selbst platzierten Fisch kann man nicht fangen'
@@ -36,6 +55,7 @@ clarkwinkelmann-catch-the-fish:
     random-error: 'Es konnte keine zufällige Fischplatzierung generiert werden'
     round-finished: 'Diese Runde ist abgeschlossen'
     round-not-started: 'Diese Runde hat noch nicht begonnen'
+    tag-not-allowed: 'Du kannst keine Fische unter diesem Tag platzieren'
     too-many-placement-models: 'Es ist immer nur eine Platzierung möglich'
     user-suspended: 'Kann einem gesperrten Benutzer keinen Fisch zuordnen'
     wrong-catch-placement: 'Hier existiert kein Fisch. Vielleicht warst du nicht schnell genug und jemand anderes hat es zuerst geschafft'
@@ -118,6 +138,7 @@ clarkwinkelmann-catch-the-fish:
       new-from-image: 'Erstellen Sie neue Fische über den Bulk-Image-Import'
       no-user-name: 'Nicht benannt'
       no-user-place: Zufällig
+      placement: 'Aktueller Standort'
       title: 'Fische für Runde {name}'
       upload: 'neues Bild hochladen'
       user-name: 'Zuletzt benannt von'

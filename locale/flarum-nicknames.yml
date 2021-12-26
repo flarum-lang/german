@@ -9,6 +9,7 @@ flarum-nicknames:
     settings:
       max_label: 'Maximale Länge für Nicknamen'
       min_label: 'Minimale Länge für Nicknamen'
+      random_username_help: 'Dadurch wird die Eingabe von ''Benutzername'' bei der Registrierung ausgeblendet und stattdessen eine Zufallszahl verwendet. Außerdem wird das Feld ''Nickname'' obligatorisch. Dies wird nur wirksam, wenn ''Einstellung von Spitznamen bei der Registrierung zulassen'' aktiviert ist.'
       random_username_label: 'Zufällige Benutzernamen'
       regex_label: 'Regulärer Ausdruck zur Validierung'
       set_on_registration_label: 'Erlaube das Einstellen von Spitznamen bei der Registrierung'

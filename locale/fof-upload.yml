@@ -125,3 +125,5 @@ fof-upload:
       error: Fehler
       loading: 'Lädt hoch'
       unauthorized: 'Du darfst keine Dateien herunterladen'
+    validation:
+      max_size: 'Uploads über {max}KB werden nicht akzeptiert.'

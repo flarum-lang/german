@@ -15,9 +15,12 @@ michaelbelgium-discussion-views:
     settings:
       abbr_numbers_label: 'Aufrufzahlen abkürzen'
       max_viewcount_label: 'Maximale Einträge in Aufrufliste'
+      max_viewcount_text: 'Dies gilt für die Fußzeilenansichtsliste und die Seitenleistenansichtsliste'
       show_filter_label: 'Beliebt/Unbeliebt Sortierung anzeigen'
+      show_footer_viewlist_label: 'Ansichtsliste für die Fußzeile aktivieren'
       show_viewlist_label: 'Aufrufliste aktivieren'
       title: 'Diskussionsaufrufzähler Einstellungen'
+      track_guests: 'Gäste verfolgen'
       track_unique_label: 'Einzelne Aufrufe mitzählen'
   forum:
     discussion_controls:
@@ -26,5 +29,11 @@ michaelbelgium-discussion-views:
       label: '{count, plural, one {Dies wird {count} Ansicht dieser Diskussion entfernen. Fortfahren?} other {Dadurch werden {count} Aufrufe dieser Diskussion entfernt. Fortsetzen?}}'
       submit_button: 'Ja, alle entfernen'
       title: 'Aufrufzähler zurücksetzen'
+    post:
+      modal_title_text: 'Benutzer, die diese Diskussion zuletzt angesehen haben'
+      others_link: '=> core.ref.some_others'
+      viewed_by: '{users} haben sich das angesehen.'
+      you: '=> core.ref.you'
     viewlist:
+      guest: Gast
       title: 'Letzte Aufrufe'

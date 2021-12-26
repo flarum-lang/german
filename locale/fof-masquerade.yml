@@ -31,6 +31,7 @@ fof-masquerade:
       validation-help: "Überprüfe die unterstützten <a>Laravel-Validierungsregeln</a>. ZB: \"string|min:5\" oder \"url\".\n"
     general-options: 'Allgemeine Optionen'
     permissions:
+      edit-others-profile: 'Profil anderer Benutzer bearbeiten'
       have-profile: 'Masquerade-Profil anlegen'
       view-profile: 'Masquerade-Profile ansehen'
     types:
@@ -44,6 +45,7 @@ fof-masquerade:
       profile-completed: 'Profil vervollständigt! <a>Weiter zur Startseite</a>'
       profile-completion-required: "Bitte fülle die notwendigen Profilfelder unten aus.\n"
     buttons:
+      edit-profile: 'Profil bearbeiten'
       save-profile: Speichern
       view-profile: 'Profil ansehen'
     fields:

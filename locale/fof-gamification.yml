@@ -6,9 +6,12 @@ core:
   forum:
     index_sort:
       hot_button: Trends
+      votes_button: 'Positive Stimmen'
 fof-gamification:
   admin:
     page:
+      alt_votes:
+        icon_name: 'Name des Alt-Layout-Symbols'
       convert:
         button: 'Gefällt-mirs in Upvotes konvertieren'
         converted: 'Erfolgreich alle {number} Gefällt-mirs konvertiert'
@@ -48,7 +51,8 @@ fof-gamification:
         vote_color: 'Abgestimmt Farbe'
     permissions:
       see_ranking_page: 'Ranglisten Platz sehen'
-      see_votes_label: 'Upvote/Downvotes von Beiträgen sehen'
+      see_voters_label: 'Sehe, wer abgestimmt hat'
+      see_votes_label: 'Siehe Up/Down-Stimmenzählung'
       vote_label: 'Upvote/Downvote Beiträge'
   forum:
     mod_item: 'Wähler anzeigen'
@@ -59,7 +63,12 @@ fof-gamification:
       name: Ranglisten
     notification:
       downvote: '{username} hat deinen Beitrag Downgevoted'
+      prefrences:
+        vote: 'Wenn einer meiner Beiträge mit Up/Down bewertet wird'
       upvote: '{username} hat deinen Beitrag Upgevoted'
+    post:
+      downvote_button: 'Beitrag negativ bewerten'
+      upvote_button: 'Beitrag positiv bewerten'
     ranking:
       amount: Punkte
       name: Nutzer
@@ -68,4 +77,8 @@ fof-gamification:
       points: 'Punkte: {points}'
       rank: '{rank}'
     vote_title: 'Zeigen, wer gewählt hat'
+    voters:
+      label: 'Noch keine Wähler'
+      label_none: 'Keine Wähler'
+      none: 'Noch keine Wähler'
     votes: Abstimmungen
