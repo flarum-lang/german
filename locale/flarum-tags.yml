@@ -46,6 +46,7 @@ flarum-tags:
       meta_description_text: 'Alle Themen'
       meta_title_text: '=> flarum-tags.ref.tags'
     choose_tags:
+      bypass_requirements: 'Themen-Anforderungen umgehen'
       choose_primary_placeholder: '{count, plural, one {Wähle ein Hauptthema} other {Wähle # Hauptthemen}}'
       choose_secondary_placeholder: '{count, plural, one {Wähle ein weiteres Thema} other {Wähle # weitere Themen}}'
       edit_title: 'Themen für {title} bearbeiten'
@@ -62,10 +63,10 @@ flarum-tags:
       tags_link: '=> flarum-tags.ref.tags'
       untagged_link: 'nicht markiert'
     post_stream:
-      added_and_removed_tags_text: '{username} hat die {tagsAdded} hinzugefügt und die {tagsRemoved} entfernt.'
-      added_tags_text: '{username} hat die {tagsAdded} hinzugefügt.'
-      removed_tags_text: '{username} hat die {tagsRemoved} entfernt.'
-      tags_text: '{count, plural, one {{tags} Thema} other {{tags} Themen}}'
+      added_and_removed_tags_text: '{username} hat {tagsAdded} hinzugefügt und {tagsRemoved} entfernt.'
+      added_tags_text: '{username} hat {tagsAdded} hinzugefügt.'
+      removed_tags_text: '{username} hat {tagsRemoved} entfernt.'
+      tags_text: '{count, plural, one {das Thema {tags}} other {die Themen {tags}}}'
     tag:
       meta_description_text: 'Alle Diskussionen mit dem {tag} Thema'
   lib:
