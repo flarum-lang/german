@@ -6,18 +6,34 @@ flarum-suspend:
   admin:
     permissions:
       suspend_users_label: 'Nutzer ausschließen'
+  email:
+    suspended:
+      body: "Hallo {recipient_display_name},\n\nDu wurdest aus folgendem Grund gesperrt:\n\n---\n{suspension_message}\n---\n"
+      subject: 'Dein Konto wurde gesperrt'
+    unsuspended:
+      body: "Hallo {recipient_display_name},\n\nDeine Suspendierung wurde aufgehoben. Du kannst zum Forum zurückkehren, indem Du auf den folgenden Link klickst:\n\n{forum_url}\n"
+      subject: 'Die Sperrung Deines Kontos wurde aufgehoben'
   forum:
     notifications:
+      user_suspended_indefinite_text: 'Du wurdest auf unbestimmte Zeit suspendiert'
       user_suspended_text: 'Du wurdest für {timeReadable} gesperrt'
       user_unsuspended_text: 'Du wurdest entsperrt'
     suspend_user:
+      display_message: 'Nachricht für den Benutzer anzeigen'
       indefinitely_label: 'Dauerhaft ausschließen'
       limited_time_days_text: ' Tage'
       limited_time_label: 'Temporär ausschließen …'
       not_suspended_label: 'Nicht ausschließen'
+      placeholder_optional: Optional
+      reason: 'Grund für die Sperrung'
       status_heading: Ausschluss-Status
       submit_button: '=> core.ref.save_changes'
       title: '{username} ausschließen'
+    suspension_info:
+      dismiss_button: Schließen
+      indefinite: 'Dies ist eine unbefristete Sperre'
+      limited: 'Diese Aussetzung gilt bis zum {date}'
+      title: 'Dieses Konto ist gesperrt'
     user_badge:
       suspended_tooltip: Ausgeschlossen
     user_controls:
