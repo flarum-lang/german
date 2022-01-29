@@ -4,8 +4,15 @@
 
 datlechin-birthdays:
   admin:
+    permissions:
+      edit_own_birthday_label: 'Eigenen Geburtstag bearbeiten'
     settings:
+      date_format_help: 'Verwende das <a>dayjs</a>-Datumsformat. Lasse das Feld leer, um das Standardformat zu verwenden.'
+      date_format_label: Datumsformat
+      date_none_year_label: 'Datumsformat ohne Jahr'
       set_on_registration_label: 'Geburtsdatum bei der Registrierung angeben'
+  api:
+    invalid_dob_message: 'Dein Geburtsdatum muss weniger als 100 Jahre alt sein.'
   forum:
     change_dob:
       date_of_birth_text: Geburtsdatum
