@@ -51,6 +51,7 @@ fof-upload:
       preferences:
         max_file_size: 'Maximale Dateigröße (in Kilobytes)'
         mime_types: 'Konfiguriere deinen MIME-Typ, lade ein Adapter-Mapping hoch'
+        php_ini_values: 'Deine <code>php.ini</code>-Werte sind <code>post_max_size={post}</code> und <code>upload_max_filesize={upload}</code>. Stelle sicher, dass der hier eingestellte Wert unter diesen Schwellenwerten liegt, oder passe sie entsprechend an. Wenn Du <code>Nginx</code> verwendest, stelle außerdem sicher, dass <code>client_max_body_size</code> eine ausreichende Größe für Deine gewählte maximale Grenze hat.'
         title: 'Allgemeine Einstellungen'
       qiniu:
         bucket: Bucket
@@ -87,6 +88,8 @@ fof-upload:
       just-url_description: "Fügt nur die URL ein. Das Rendering kann von anderen Erweiterungen mit Autolink-Funktionalität übernommen werden. Keine Download-Funktionalität, es werden keine Statistiken gesammelt und der Hotlink-Schutz wird ignoriert.\n"
       markdown-image: Markdown-Bildvorlage
       markdown-image_description: "Zeigt das vollständige Bild in-line mit Markdown an. <strong>Du musst flarum/markdown installiert und aktiviert haben, damit dies funktioniert.</strong> Keine Download-Funktionalität, es werden keine Statistiken gesammelt und der Hotlink-Schutz wird ignoriert.\n"
+      text-preview: Textvorschau
+      text-preview_description: "Fügt eine Vorschau (erste 5 Zeilen) der Textdatei ein, mit einer Option zum Erweitern, um den gesamten Inhalt der Datei anzuzeigen.\n"
     upload_methods:
       aws-s3: S3/Kompatibel
       imgur: Imgur
@@ -125,5 +128,11 @@ fof-upload:
       error: Fehler
       loading: 'Lädt hoch'
       unauthorized: 'Du darfst keine Dateien herunterladen'
+    text_preview:
+      collapse: 'Vorschau minimieren'
+      error: "Fehler bei der Vorschaudatei. Möglicherweise wurde sie gelöscht oder die angegebene Datei-ID ist ungültig.\n"
+      expand: 'Vorschau erweitern'
+      no_snippet: '<kein Vorschau-Snippet verfügbar>'
+      no_snippet_preview: '<Vorschau wird hier nach dem Posten erscheinen>'
     validation:
       max_size: 'Uploads über {max}KB werden nicht akzeptiert.'

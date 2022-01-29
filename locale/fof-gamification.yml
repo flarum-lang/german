@@ -38,25 +38,34 @@ fof-gamification:
         title: Ränge
       save_settings: 'Einstellungen speichern'
       votes:
-        alternate_layout: 'Alternatives Layout verwenden, um Upvotes/Downvotes anzuzeigen und/oder durchzuführen'
+        alternate_layout: 'Alternatives Abstimmungslayout in der Diskussionsliste verwenden'
+        alternate_post_layout: 'Alternatives Abstimmungslayout für Beiträge verwenden'
         auto_upvote: 'Beiträge automatisch upvoten, wenn sie veröffentlicht werden'
         color_holder: '#ffffff'
         discussion_page: 'Gesamtzahl der Stimmen des ursprünglichen Beitrags in der Diskussionsliste anzeigen'
+        first_post_only: 'Stimmen nach oben/unten nur im ersten Beitrag einer Diskussion zulassen'
         icon_help: 'Gebe ein beliebiges Font-Awesome-Icon mit den Endungen -up und -down ein. Beispiele: arrow, thumbs, chevron'
         icon_name: 'Upvote/Downvote Symbol'
         points_placeholder: 'Punkte: '
         points_title: 'Punkte Platzhalter'
         rate_limit: 'Erzwinge ein Abstimmungs-Limit (10 Sekunden)'
         title: Stimmen
+        upvotes_only: 'Nur Upvoting zulassen'
         vote_color: 'Abgestimmt Farbe'
     permissions:
       see_ranking_page: 'Ranglisten Platz sehen'
       see_voters_label: 'Sehe, wer abgestimmt hat'
       see_votes_label: 'Siehe Up/Down-Stimmenzählung'
       vote_label: 'Upvote/Downvote Beiträge'
+  email:
+    body:
+      postVoted: "Hallo {recipient_display_name},\n\n{actor_display_name} hat gerade über Deinen Beitrag in {discussion_title} abgestimmt.\n\nHier ansehen: {discussion_url}\n"
+    subject:
+      postVoted: 'Dein Beitrag wurde von {display_name} bewertet'
   forum:
     mod_item: 'Wähler anzeigen'
     modal:
+      downvotes_label: 'Downvoter:'
       title: Wähler
       upvotes_label: 'Upvoter:'
     nav:
