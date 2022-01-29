@@ -15,7 +15,7 @@ fof-webhooks:
     group:
       created: 'Gruppe `{1}` erstellt'
       deleted: 'Gruppe `{1}` gelöscht'
-      renamed: 'Eine gruppe wurde umbenannt zu`{1}`'
+      renamed: 'Eine Gruppe wurde umbenannt zu`{1}`'
     post:
       deleted: 'Beitrag in `{1}` gelöscht'
       hidden: 'Beitrag in `{1}` versteckt'
