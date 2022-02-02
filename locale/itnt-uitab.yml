@@ -5,5 +5,11 @@
 itnt-uitab:
   admin:
     settings:
+      composer_icon_label: Komponist-Symbol
+      discussions_icon_label: Diskussionssymbol
       help_text: 'Falls Dein Flarum in einem Unterverzeichnis installiert ist, gebe bitte das Unterverzeichnis unten an (mit einem Schrägstrich enden), ansonsten belasse bitte den Standardwert. z.B. <code>/sub/</code>'
       home_page_label: Unterverzeichnis
+      icon_help: 'Lasse das Feld leer, um das Standardsymbol zu verwenden.'
+      notifications_icon_label: Benachrichtigungen-Symbol
+      settings_icon_label: Einstellungen-Symbol
+      tags_icon_label: Tags-Symbol

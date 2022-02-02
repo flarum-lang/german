@@ -20,7 +20,7 @@ fof-doorman:
     page:
       doorkey:
         allow-public:
-          switch-label: 'Tue den Einladungscode bei der Anmeldung optional'
+          switch-label: 'Setze den Einladungscode bei der Anmeldung auf optional'
           title: 'Öffentliche Registrierungen zulassen'
         heading:
           activate: 'Aktiviert Benutzer'
