@@ -3,7 +3,11 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 justoverclock-country-flags:
+  admin:
+    countryColumn: Land
+    showFlagsOnPosts: 'Flaggen auf Beiträgen anzeigen'
   forum:
     clickToSelectCountry: 'Klicke hier, um Dein Land zuwählen'
+    countrySaved: 'Land erfolgreich gespeichert!'
     inputCountryCode: Landesvorwahl
     saveButton: Speichern
