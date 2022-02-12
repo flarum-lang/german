@@ -53,9 +53,11 @@ fof-gamification:
         upvotes_only: 'Nur Upvoting zulassen'
         vote_color: 'Abgestimmt Farbe'
     permissions:
+      downvote_notifications: 'Benachrichtigungen über Downvote erhalten'
       see_ranking_page: 'Ranglisten Platz sehen'
       see_voters_label: 'Sehe, wer abgestimmt hat'
       see_votes_label: 'Siehe Up/Down-Stimmenzählung'
+      upvote_notifications: 'Benachrichtigungen über Upvote erhalten'
       vote_label: 'Upvote/Downvote Beiträge'
   email:
     body:

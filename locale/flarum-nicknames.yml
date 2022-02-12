@@ -13,7 +13,7 @@ flarum-nicknames:
       random_username_label: 'Zufällige Benutzernamen'
       regex_label: 'Regulärer Ausdruck zur Validierung'
       set_on_registration_label: 'Erlaube das Einstellen von Spitznamen bei der Registrierung'
-      unique_label: 'Nicknamen müssen einzigartig sein'
+      unique_label: 'Eindeutige Spitznamen benötigt'
     wrong_driver: 'Du musst "nickname" als den Anzeigenamen-Treiber in den <a><strong>Grundeinstellungen</strong></a> auswählen, damit diese Erweiterung einen Effekt hat.'
   api:
     invalid_nickname_message: 'Dieser Nickname ist ungültig. Bitte wende dich an deinen Forenadministrator, um weitere Informationen zu den Regeln für Nicknamen zu erhalten.'
@@ -23,7 +23,7 @@ flarum-nicknames:
       title: '=> flarum-nicknames.ref.change_nickname'
     edit_user:
       nicknames_heading: '=> flarum-nicknames.ref.change_nickname'
-      nicknames_text: Nickname
+      nicknames_text: '=> flarum-nicknames.ref.nickname'
     settings:
       change_nickname_button: '=> flarum-nicknames.ref.change_nickname'
     sign_up:

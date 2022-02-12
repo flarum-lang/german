@@ -13,9 +13,12 @@ fof-nightmode:
         theme_light: '=> fof-nightmode.ref.light'
   forum:
     day: '=> fof-nightmode.ref.light'
+    header:
+      nightmode_button: 'Forenthema umschalten'
     night: '=> fof-nightmode.ref.dark'
     user:
       settings:
+        auto_unsupported: 'Dein Browser unterstützt den automatischen Dunkelmodus nicht.'
         description: 'Wähle aus, welches Farbthema du für das Forum verwenden möchtest.'
         description2: 'Dieses Thema wird mit deinem Account verknüpft und gilt für alle deine Geräte, es sei denn, du aktivierst den Schalter unten für individuelle Einstellungen pro Gerät.'
         device_specific_setting_checkbox: 'Individuelle Einstellungen pro Gerät'

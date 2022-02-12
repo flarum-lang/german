@@ -8,4 +8,5 @@ justoverclock-last-registered-users:
     showUsers-help: 'Akzeptiert Zahlen, schreibe hier die Anzahl der anzuzeigenden Benutzer (z. B. "2")'
   forum:
     welcomeText: 'Ein herzliches Willkommen an unsere neuesten Mitglieder'
+    welcomeTexts: 'Ein herzliches Willkommen an unsere neusten Mitglieder:'
     widget-title: 'Zuletzt registrierte Benutzer'

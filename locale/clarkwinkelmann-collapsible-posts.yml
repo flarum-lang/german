@@ -21,6 +21,9 @@ clarkwinkelmann-collapsible-posts:
     modal:
       title: 'Beitrag minimieren'
       uncollapse: Eingeklappt
+    postControl:
+      collapse: Einklappen
+      uncollapse: Ausklappen
     stream:
       explanation: 'Wieso sehe ich das?'
       hidden: '{count, plural, one {# Beitrag ausgeblendet wegen {Grund}} other {# Beiträge ausgeblendet wegen {Grund}}}'
