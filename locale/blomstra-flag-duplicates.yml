@@ -3,12 +3,18 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 blomstra-flag-duplicates:
+  admin:
+    settings:
+      event_post_help: 'Erstelle einen Ereignisbeitrag in der Diskussion, in dem ein „Duplikat“-Flag gesetzt wurde. Dies kann Benutzer darüber informieren, dass die Diskussion möglicherweise ein Duplikat einer anderen ist, ohne ihnen Zugriff auf die insgesamt gesetzten Flags zu geben.'
+      event_post_label: Veranstaltungsbeitrag
   forum:
     flags:
       deselect_discussion_a11y_label: 'Diskussion abwählen'
       duplicate_discussion: 'Doppelte Diskussion'
       reason_duplicate_label: 'Doppelte Diskussion'
       reason_duplicate_text: 'Diese Diskussion ist ein Duplikat einer anderen.'
+    post_stream:
+      flagged_duplicate_text: '{username} markierte diese Diskussion als potenzielles Duplikat von {duplicate}. Ein Moderator wird in Kürze nachforschen.'
 flarum-flags:
   forum:
     flag_post:
