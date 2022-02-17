@@ -5,18 +5,18 @@
 clarkwinkelmann-group-invitation:
   admin:
     permissions:
-      use: 'Gruppeneinladungslinks verwenden'
+      use: 'Links für Gruppeneinladungen verwenden'
     settings:
       create: Erstellen
       delete: Löschen
-      empty: 'Bisher keine Einladungen erstellt.'
+      empty: 'Bisher wurden noch keine Einladungen erstellt.'
       head:
         code: Code
         group: Gruppe
-        usage: Verwenden
+        usage: Benutzung
       placeholder:
-        code: 'Automatisch generiert'
-        group: Wählen...
+        code: 'Automatisch erstellt'
+        group: Auswahl…
         usage: 'Leer für unbegrenzt'
       unlimited: unbegrenzt
   api:
@@ -24,7 +24,7 @@ clarkwinkelmann-group-invitation:
       no-usages-left: 'Einladung kann nicht mehr verwendet werden'
       not-found: 'Einladungscode nicht gefunden'
   forum:
-    apply: 'Gruppe beitreten'
+    apply: 'der Gruppe beitreten'
     generic-title: Gruppeneinladung
     invitation:
       no-usages-left: 'Diese Gruppeneinladung kann nicht mehr verwendet werden.'

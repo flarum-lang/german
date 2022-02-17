@@ -20,6 +20,7 @@ v17development-flarum-support:
       body: "Sehr geehrter {recipient_display_name},\n\nDer Status Ihres Tickets #{ticket_id} wurde in {new_status} geändert.\n\nDie URL Ihres Tickets lautet:\n{url}\n"
       subject: 'Ticket #{ticket_id} ist als {new_status} markiert'
   forum:
+    admin_overview: 'Öffne Admin-Übersicht'
     article:
       article: Artikel
       articles: Artikel
@@ -84,6 +85,7 @@ v17development-flarum-support:
         title: Artikelereignisse
     not_found:
       description: 'Es tut uns leid. Dieser Artikel oder diese Kategorie existiert an dieser Stelle leider nicht mehr.'
+      solution: 'Nutze die Suche oben, um zu finden wonach du suchst.'
       title: 'Artikel nicht gefunden'
     or: oder
     overview:
@@ -120,6 +122,10 @@ v17development-flarum-support:
       finished: 'Danke! Ihre Bewertung wurde gespeichert.'
       helful_article: 'War dieser Artikel hilfreich?'
       helful_support: 'Sind Sie zufrieden damit, wie wir mit Ihrem Support-Ticket umgehen?'
+      score: Punktzahl
+      switch_sort_score:
+        description: 'Nur Artikel zeigen, die Feedback erhalten haben, nach aufsteigender Punktzahl sortiert.'
+        label: 'Zeige die Artikel nach aufsteigender Punktzahl sortiert'
       validation:
         cannot_rate_article: 'Sie können diesen Artikel nicht bewerten.'
         guest: 'Bitte melden Sie sich an, bevor Sie diesen Artikel bewerten.'
@@ -133,6 +139,10 @@ v17development-flarum-support:
         not_allowed: 'Sie können jetzt kein neues Support-Ticket öffnen'
         private_support: 'Für den privaten Support können Sie dieses Formular verwenden, um ein neues Ticket in unserer Support-Plattform zu erstellen. Informationen zu nicht privaten Supportfragen finden Sie in <a>unseren öffentlichen Foren </a>.'
         title: 'Erstelle ein neues Ticket'
+      convert_to_ticket:
+        button: 'Zu einem Ticket machen'
+        confirm: 'Bist du dir sicher, dass du diese Diskussion zu einem Ticket machen möchtest?'
+        event: 'Diskussion {ticket_title} wurde zu einem Ticket gemacht'
       fields:
         assignees:
           placeholder: 'Der Status des Tickets'
@@ -167,7 +177,23 @@ v17development-flarum-support:
       overview:
         all_tickets: 'Alle Tickets'
         description: 'Lächle, du bist der Held, der anderen Menschen den Tag rettet.'
+        filter:
+          assignees:
+            unassigned: 'Nicht zugewiesen'
+          language:
+            any: 'Alle Sprachen'
+          status:
+            title: Ticketstatus
         no_tickets: 'Es gibt keine Tickets, die Ihren Kriterien entsprechen, wahrscheinlichmachen Sie einen guten Job'
+        refresh: Aktualisieren
+        selection_closed: 'Geschlossene Tickets'
+        selection_open: 'Offene Tickets'
+        selection_unfiltered: Ungefiltert
+        sort:
+          least_recent: 'Letzte Aktivität'
+          newest: 'Neueste zuerst'
+          oldest: 'Älteste zuerst'
+          recent_activity: 'Jüngste Aktivität'
         title: Ticketübersicht
       reminders_sent: 'Von {username}, letzte Aktivität {date}'
       return_to_overview: 'Zurück zur Ticketübersicht'
