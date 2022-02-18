@@ -12,7 +12,7 @@ fof-links:
       icon_label: '=> core.ref.icon'
       icon_text: '=> core.ref.icon_text'
       internal_link: 'Ist dies ein interner Link?'
-      members-label: 'Registrierte Nutzer*innen'
+      members-label: 'Registrierte Benutzer'
       open_newtab: 'Link in neuem Tab öffnen'
       submit_button: '=> core.ref.save_changes'
       title: '=> fof-links.ref.create_link'

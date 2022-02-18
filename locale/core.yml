@@ -30,7 +30,7 @@ core:
       default_language_heading: Sprache
       description: 'Lege den Forentitel, die Sprache und weitere Grundeinstellungen fest.'
       display_name_heading: Anzeigenamen
-      display_name_text: 'Wähle den Treiber, der verwendet wird um den Anzeigename der Nutzer*innen zu bestimmen. Standardmäßig wird der Nutzername angezeigt.'
+      display_name_text: 'Wähle den Treiber, der verwendet wird um den Anzeigename der Benutzer zu bestimmen. Standardmäßig wird der Nutzername angezeigt.'
       forum_description_heading: 'Beschreibung des Forums'
       forum_description_text: 'Kurze Beschreibung des Forums. Diese wird in den meta-Tags für Suchmaschinen erscheinen.'
       forum_title_heading: 'Titel des Forums'
@@ -41,7 +41,7 @@ core:
       slug_driver_text: 'Wähle den Treiber, welcher die Foren-URL''s mit einem "Slug" ausstattet.'
       title: Grundeinstellungen
       welcome_banner_heading: Willkommensnachricht
-      welcome_banner_text: 'Text festlegen, der auf der Seite "Alle Diskussionen" erscheint, um Besucher*innen zu begrüßen.'
+      welcome_banner_text: 'Text festlegen, der auf der Seite "Alle Diskussionen" erscheint, um Besucher zu begrüßen.'
     dashboard:
       clear_cache_button: 'Cache leeren'
       description: 'Dein Forum auf einen Blick.'
@@ -180,7 +180,7 @@ core:
       allow_some_minutes_button: '{count, plural, one {Für # Minute} other {Für # Minuten}}'
       allow_ten_minutes_button: 'Für 10 Minuten'
       allow_until_reply_button: 'Bis zur nächsten Antwort'
-      everyone_button: 'Jede*r'
+      everyone_button: Jeder
       members_button: '=> core.group.members'
       signup_closed_button: Geschlossen
       signup_open_button: Offen
@@ -408,7 +408,7 @@ core:
     user_controls:
       button: Bearbeiten
       delete_button: '=> core.ref.delete'
-      delete_confirmation: 'Soll diese*r Nutzer*in wirklich gelöscht werden? Die Beiträge werden NICHT gelöscht.'
+      delete_confirmation: 'Soll dieser Benutzer wirklich gelöscht werden? Die Beiträge werden NICHT gelöscht.'
       delete_error_message: 'Löschen des Nutzers <i>{username} ({email})</i> fehlgeschlagen'
       delete_success_message: 'Nutzer <i>{username} ({email})</i> wurde gelöscht'
       edit_button: '=> core.ref.edit'
@@ -437,7 +437,7 @@ core:
     dropdown:
       toggle_dropdown_accessible_label: 'Dropdown-Menü umschalten'
     edit_user:
-      activate_button: 'Nutzer*in aktivieren'
+      activate_button: 'Benutzer aktivieren'
       email_heading: '=> core.ref.email'
       email_label: '=> core.ref.email'
       groups_heading: Gruppen
@@ -446,7 +446,7 @@ core:
       password_label: '=> core.ref.password'
       set_password_label: 'Neues Passwort festlegen'
       submit_button: '=> core.ref.save_changes'
-      title: 'Nutzer*in bearbeiten'
+      title: 'Benutzer bearbeiten'
       username_heading: '=> core.ref.username'
       username_label: '=> core.ref.username'
     error:

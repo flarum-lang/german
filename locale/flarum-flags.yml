@@ -13,7 +13,7 @@ flarum-flags:
       title: Flags-Einstellungen
   forum:
     flag_post:
-      confirmation_message: 'Danke für das Melden des Beitrages. Unsere Moderator*innen werden sich darum kümmern.'
+      confirmation_message: 'Danke für das Melden des Beitrages. Unsere Moderatoren werden sich darum kümmern.'
       dismiss_button: '=> core.ref.okay'
       reason_details_placeholder: 'Zusätzliche Informationen (optional)'
       reason_inappropriate_label: Unangebracht
