@@ -16,7 +16,7 @@ fof-pretty-mail:
       help: '''$body'' enthält den eigentlichen Inhalt der E-Mail, ''$forumStyle'' enthält das <strong>entire Forum CSS</strong>, ''$url'' ist Flarums UrlGenerator, ''$settings'' ermöglicht die Interaktion mit dem SettingsRepositoryInterface und ''$link'' enthält den Link in der E-Mail. Sehen Sie sich jede Vorlage an, um zu erfahren, wie Sie jede Variable verwenden.'
       label: E-Mail-Vorlagen
       newPost: 'Flarum/subscriptions Neue Post E-Mail'
-      notificationHelp: 'Es wird empfohlen, für diese E-Mails ''$forumStyle'' zu verwenden, da sie BBCODE enthalten können. Für diese E-Mails ist auch ''$user'' verfügbar, das das gesamte Benutzermodell des Benutzers enthält, der per E-Mail gesendet wird.'
+      notificationHelp: 'Es wird empfohlen, für diese E-Mails ''$forumStyle'' zu verwenden, da sie BBCODE enthalten können. Für diese E-Mails ist auch ''$user'' verfügbar, welches das gesamte Benutzermodell des Benutzers enthält, das per E-Mail gesendet wird.'
       notifications: Benachrichtigungsvorlagen
       postMentioned: 'Flarum/mentions Erwähnte E-Mail schreiben'
       reset: 'Auf Standard zurücksetzen'

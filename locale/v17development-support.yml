@@ -184,7 +184,7 @@ v17development-flarum-support:
             any: 'Alle Sprachen'
           status:
             title: Ticketstatus
-        no_tickets: 'Es gibt keine Tickets, die Ihren Kriterien entsprechen, wahrscheinlichmachen Sie einen guten Job'
+        no_tickets: 'Es gibt keine Tickets, die deinen Kriterien entsprechen, wahrscheinlich machst du einen guten Job!'
         refresh: Aktualisieren
         selection_closed: 'Geschlossene Tickets'
         selection_open: 'Offene Tickets'
