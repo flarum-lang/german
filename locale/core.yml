@@ -32,7 +32,7 @@ core:
       display_name_heading: Anzeigenamen
       display_name_text: 'Wähle den Treiber, der verwendet wird um den Anzeigename der Nutzer*innen zu bestimmen. Standardmäßig wird der Nutzername angezeigt.'
       forum_description_heading: 'Beschreibung des Forums'
-      forum_description_text: 'Kurze Beschreibung des Forums. Diese wird in in den meta-Tags für Suchmaschinen erscheinen.'
+      forum_description_text: 'Kurze Beschreibung des Forums. Diese wird in den meta-Tags für Suchmaschinen erscheinen.'
       forum_title_heading: 'Titel des Forums'
       home_page_heading: Startseite
       home_page_text: 'Seite auswählen, die Benutzer beim Besuch des Forums zuerst sehen.'
@@ -95,7 +95,7 @@ core:
       title: '=> core.ref.email'
     extension:
       configure_scopes: 'Bereiche konfigurieren'
-      confirm_purge: 'Beim Bereinigen werden alle Datenbankeinträge und Assets entfernt, die sich auf die Erweiterung beziehen. Die Erweiterung wird nicht deinstalliert; das muss über Composer getan werden. Bist Du sicher sicher, dass Du fortfahren willst?'
+      confirm_purge: 'Beim Bereinigen werden alle Datenbankeinträge und Assets entfernt, die sich auf die Erweiterung beziehen. Die Erweiterung wird nicht deinstalliert; das muss über Composer getan werden. Bist Du sicher, dass Du fortfahren willst?'
       confirm_uninstall: 'Bei der Deinstallation werden alle Datenbankeinträge und Assets, die mit der Erweiterung in Verbindung stehen, entfernt. Bist du sicher, dass du fortfahren möchtest?'
       disabled: Deaktiviert
       enable_to_see: 'Aktiviere die Erweiterung um Einstellungen zu sehen und zu ändern.'
@@ -115,7 +115,7 @@ core:
       readme:
         button_label: LIESMICH
         no_readme: 'Diese Erweiterung scheint keine README-Datei zu haben'
-        title: '{extName}-Dokumentation'
+        title: 'Dokumentation von {extName}'
       uninstall_button: Deinstallieren
     header:
       get_help: 'Hilfe erhalten'
@@ -336,7 +336,7 @@ core:
       title: '=> core.ref.log_in'
       username_or_email_placeholder: 'Nutzername oder E-Mail'
     notifications:
-      discussion_renamed_text: '{username} hat den Titel geändert zu {new}'
+      discussion_renamed_text: '{username} hat den Titel geändert'
       empty_text: 'Keine neuen Benachrichtigungen'
       mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
       mark_as_read_tooltip: 'Als gelesen markieren'
@@ -362,7 +362,7 @@ core:
       viewing_text: '{count, plural, one {{index} von {formattedCount} Beitrag} other {{index} von {formattedCount} Beiträgen}}'
     post_stream:
       discussion_renamed_old_tooltip: 'Der alte Titel war: "{old}"'
-      discussion_renamed_text: '{username} änderte den Titel von {old} zu {new}.'
+      discussion_renamed_text: '{username} hat den Titel von {old} zu {new} geändert.'
       load_more_button: '=> core.ref.load_more'
       reply_placeholder: '=> core.ref.write_a_reply'
       time_lapsed_text: '{period} später'
@@ -421,13 +421,13 @@ core:
       hide: 'Willkommensnachricht ausblenden'
   group:
     admin: Admin
-    admins: Admins
+    admins: Administratoren
     guest: Gast
     guests: Gäste
     member: Mitglied
     members: Mitglieder
     mod: Mod
-    mods: Mods
+    mods: Moderatoren
   lib:
     alert:
       dismiss_a11y_label: 'Warnung schließen'
@@ -454,7 +454,7 @@ core:
       generic_message: 'Oops! Da ist was schief gelaufen. Bitte die Seite neu laden oder noch mal versuchen.'
       missing_dependencies_message: 'Die Erweiterung {extension} kann nicht aktiviert werden, bis folgende abhängige Erweiterungen aktiviert wurden: {extensions}'
       not_found_message: 'Leider nichts gefunden.'
-      payload_too_large_message: 'Die Anforderungsnutzlast war zu groß.'
+      payload_too_large_message: 'Die Nutzlast der Anfrage war zu groß.'
       permission_denied_message: 'Du hast keine Berechtigung dies zu tun.'
       rate_limit_exceeded_message: 'Nicht so schnell. Bitte versuche es gleich erneut.'
       render_failed_message: 'Beim Anzeigen dieses Inhalts ist ein Fehler aufgetreten. Wenn Du ein Benutzer bist, versuche es später erneut. Wenn Du ein Administrator bist, sehe in Deinen Flarum-Protokolldateien nach, um weitere Informationen zu erhalten.'
@@ -462,7 +462,7 @@ core:
       accessible_label: '=> core.ref.loading'
     meta_titles:
       with_page_title: '{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Seite # - {forumName}}}'
-      without_page_title: '{pageNumber, plural, =1 {{forumName}} other {Page # - {forumName}}}'
+      without_page_title: '{pageNumber, plural, =1 {{forumName}} other {Seite # - {forumName}}}'
     modal:
       close: Schließen
     nav:
@@ -492,7 +492,7 @@ core:
     delete_forever: 'Endgültig löschen'
     discussions: Diskussionen
     edit: Ändern
-    edit_user: 'Benutzer*in ändern'
+    edit_user: 'Benutzer ändern'
     email: E-Mail
     extensions: Erweiterungen
     icon: Symbol
@@ -519,7 +519,7 @@ core:
     some_others: '{count, plural, one {# weiterem} other {# weiteren}}'
     start_a_discussion: 'Diskussion starten'
     username: Nutzername
-    users: 'Benutzer*innen'
+    users: Benutzer
     view: Anzeigen
     write_a_reply: 'Eine Antwort schreiben…'
     you: Du
@@ -534,7 +534,7 @@ core:
         package_name: Paketname
         version: Version
       info:
-        caption: 'Application Info'
+        caption: Anwendungs-Info
       title: Administration
     confirm_email:
       submit_button: '=> core.ref.confirm_email'
