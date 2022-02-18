@@ -1,5 +1,7 @@
 # German Language Pack for [Flarum](https://flarum.org/)
 
+[![Latest Stable Version](https://img.shields.io/packagist/v/flarum-lang/german.svg)](https://packagist.org/packages/flarum-lang/german) [![Total Downloads](https://img.shields.io/packagist/dt/flarum-lang/german.svg)](https://packagist.org/packages/flarum-lang/german)
+
 Extension to localize the Flarum forum software and its official and third-party extensions into German. For support, please use the discussion thread on the [Flarum support forum](https://discuss.flarum.org/d/2648-german-language-pack), or use the issue tracker here on GitHub.
 
 - [Installation](#installation)
