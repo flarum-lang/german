@@ -5,7 +5,7 @@
 fof-stopforumspam:
   admin:
     settings:
-      api_key_instructions_text: '<register>Für StopForumSpam anmelden</register>. Dann musst Du einen API-Schlüssel/Schlüssel erhalten.'
+      api_key_instructions_text: '<register>Für StopForumSpam anmelden</register>. Dann musst Du einen <key>API-Schlüssel/Schlüssel erhalten</key>.'
       api_key_label: API-Schlüssel
       email_hash_help: 'Übergebe einen MD5-Hash der E-Mail-Adresse, falls Du die E-Mail-Adresse selbst nicht weitergeben möchtest. Diese Methode umgeht alle Blacklists, Normalisierungs- und Verschleierungsumgehungsprüfungen.'
       email_hash_label: 'Gehashte E-Mail-Adresse verwenden'

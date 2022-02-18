@@ -29,7 +29,7 @@ fof-doorman:
           max_uses: 'Maximale Verwendungen'
         help:
           activates: 'Aktiviert Benutzer: Aktiviert den Benutzer automatisch, wenn er sich registriert.'
-          group: 'Gruppe: Die Gruppe, zu der der Benutzer bei der Registrierung hinzugefügt wird.'
+          group: 'Gruppe: Die Gruppe, zu der dieser Benutzer bei der Registrierung hinzugefügt wird.'
           key: 'Schlüssel: Code, den der Benutzer bei der Registrierung eingibt.'
           max: 'Max. Verwendungen: Die maximale Anzahl von Verwendungen, setze auf 0 für unbegrenzte Verwendungen'
         key: Schlüssel
@@ -40,7 +40,7 @@ fof-doorman:
       title: Doorman
   forum:
     email:
-      body: "Hallo,\n\nDu wurdest für eine Registrierung in {forum} eingeladen\nWenn du bereit bist, dir ein Konto zu erstellen, klicke einfach auf den folgenden Link und gebe den Code bei der Registrierung ein:\n\nUrl: {url}\nEinladungscode: {code}\n"
+      body: "Hallo,\n\nDu wurdest für eine Registrierung in {forum} eingeladen.\n\nWenn du bereit bist, dir ein Konto zu erstellen, klicke einfach auf den folgenden Link und gebe den Code bei der Registrierung ein:\n\nUrl: {url}\nEinladungscode: {code}\n\nIgnoriere diese E-Mail sollte sie fälschlicherweise versandt worden sein.\n"
       subject: 'Zum Beitreten einladen'
     sign_up:
       doorkey_required: 'Bitte gebe einen Einladungscode ein.'

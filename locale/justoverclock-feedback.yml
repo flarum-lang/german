@@ -7,7 +7,7 @@ justoverclock-feedback:
     background-color: 'Hintergrundfarbe des Widgets'
     background-color-help: 'Gebe einen Hex-Farbcode an, der als Hintergrundfarbe verwendet werden soll, z. B. ''#fff'''
     box-title: Boxtitel
-    box-title-help: 'Lege  den Titel des Popup-Feedback-Widgets fest (altes ''Flarum-Feedback'')'
+    box-title-help: 'Lege den Titel des Popup-Feedback-Widgets fest (altes ''Flarum-Feedback'')'
     collect-email: 'E-Mail-Adressfeld (optional) für Benutzer anzeigen'
     collect-email-help: 'Wenn diese Option aktiviert ist, können Benutzer ihre E-Mail-Adresse zum Feedback hinzufügen'
     contactdesc: 'Dies muss ausgefüllt werden, um das Feedback-Widget vollständig zu aktivieren'
