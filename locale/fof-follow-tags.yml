@@ -42,7 +42,7 @@ fof-follow-tags:
       hiding_button: '=> fof-follow-tags.ref.hiding'
       hiding_text: 'Ausblenden von Diskussionen auf der Seite Alle Diskussionen.'
       ignoring_button: '=> fof-follow-tags.ref.ignoring'
-      ignoring_text: 'Niemals benachrichtigt werden'
+      ignoring_text: 'Niemals benachrichtigt werden.'
       lurking_button: '=> fof-follow-tags.ref.lurking'
       lurking_text: 'Über alle neuen Diskussionen und Antworten benachrichtigen lassen.'
       not_following_button: 'Nicht folgend'
