@@ -306,7 +306,7 @@ core:
       profile_button: Profil
       search_clear_button_accessible_label: 'Suchabfrage löschen'
       search_placeholder: Suche
-      search_role_label: 'Forum durchsuchen'
+      search_role_label: 'Suche in Forum'
       session_dropdown_accessible_label: 'Dropdown-Menü der Sitzungsoptionen umschalten'
       settings_button: '=> core.ref.settings'
       sign_up_link: '=> core.ref.sign_up'
