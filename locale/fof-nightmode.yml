@@ -14,7 +14,7 @@ fof-nightmode:
   forum:
     day: '=> fof-nightmode.ref.light'
     header:
-      nightmode_button: 'Forenthema umschalten'
+      nightmode_button: 'Forendesign umschalten'
     night: '=> fof-nightmode.ref.dark'
     user:
       settings:
