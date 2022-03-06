@@ -12,7 +12,7 @@ datlechin-birthdays:
       date_none_year_label: 'Datumsformat ohne Jahr'
       set_on_registration_label: 'Geburtsdatum bei der Registrierung angeben'
   api:
-    invalid_dob_message: 'Dein Geburtsdatum muss weniger als 100 Jahre alt sein.'
+    invalid_dob_message: 'Ungültiges Geburtsdatum'
   forum:
     change_dob:
       date_of_birth_text: Geburtsdatum
