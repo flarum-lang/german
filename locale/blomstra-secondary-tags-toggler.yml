@@ -5,7 +5,7 @@
 blomstra-secondary-tags-toggler:
   admin:
     permissions:
-      view_toggler: 'Den Umschalter für sekundäre Tags in Diskussionen verwenden'
+      view_toggler: 'Den Umschalter für sekundäre Themen in Diskussionen verwenden'
     settings:
-      only_one_secondary_tag: 'Es kann maximal ein sekundäres Tag gleichzeitig ausgewählt werden'
-      only_one_secondary_tag_help: 'Hat keinen Einfluss auf bestehende Diskussionen. Durch das Hinzufügen eines neuen sekundären Tags zu einer Diskussion werden alle anderen sekundären Tags entfernt.'
+      only_one_secondary_tag: 'Es kann maximal ein sekundäres Thema gleichzeitig ausgewählt werden'
+      only_one_secondary_tag_help: 'Hat keinen Einfluss auf bestehende Diskussionen. Durch das Hinzufügen eines neuen sekundären Themas zu einer Diskussion werden alle anderen sekundären Themen entfernt.'

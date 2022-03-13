@@ -5,8 +5,8 @@
 blomstra-user-filter:
   admin:
     settings:
-      min_length: 'Mindestens Zeichen, um mit der Suche zu beginnen'
-      result_count: 'Max führt zur automatischen Vervollständigung des Dropdown-Menüs'
+      min_length: 'Minimum an Zeichen, um mit der Suche zu beginnen'
+      result_count: 'Maximum führt zur automatischen Vervollständigung des Dropdown-Menüs'
   forum:
     index_page:
       filter_user:
