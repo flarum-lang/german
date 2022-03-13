@@ -179,13 +179,13 @@ v17development-flarum-support:
         description: 'Lächle, du bist der Held, der anderen Menschen den Tag rettet.'
         filter:
           assignees:
-            search: 'Beauftragter suchen'
+            search: 'Beauftragten suchen'
             title: 'Nach Beauftragten filtern'
             unassigned: 'Nicht zugewiesen'
           language:
             any: 'Alle Sprachen'
           status:
-            filter_count: '{count, plural, one {# filter} other {# filter}}'
+            filter_count: '# Filter'
             title: Ticketstatus
         no_tickets: 'Es gibt keine Tickets, die deinen Kriterien entsprechen, wahrscheinlich machst du einen guten Job!'
         refresh: Aktualisieren

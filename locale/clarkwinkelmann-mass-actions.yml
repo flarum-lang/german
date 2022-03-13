@@ -9,13 +9,13 @@ clarkwinkelmann-mass-actions:
   forum:
     actions:
       hide: 'Ausgewählte löschen'
-      lock: 'Gewählte sperren'
+      lock: 'Ausgewählte sperren'
       markAsRead: 'Ausgewählte als gelesen markieren'
       restore: 'Ausgewählte wiederherstellen'
-      tags: Tags
+      tags: Themen
       tags-add: '<em>{tag}</em> hinzufügen'
-      tags-edit: 'Tags bearbeiten'
+      tags-edit: 'Themen bearbeiten'
       unlock: 'Gewählte entsperren'
     select:
       all: 'Alle wählen'
-      none: 'Alles abwählen'
+      none: 'Alle abwählen'

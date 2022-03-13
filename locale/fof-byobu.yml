@@ -10,12 +10,12 @@ fof-byobu:
       create_private_discussions_with_users: 'Private Diskussionen mit Nutzern erstellen'
       edit_group_recipients: 'Gruppen bearbeiten, die an privaten Diskussionen teilnehmen'
       edit_user_recipients: 'Nutzer bearbeiten, die an privaten Diskussionen teilnehmen'
-      make_private_into_public: 'Verwandeln Sie eine private Diskussion in eine öffentliche Diskussion'
+      make_private_into_public: 'Eine private Diskussion in eine öffentliche Diskussion umwandeln'
       view_private_discussions-when-flagged: 'Private Diskussionen anderer Nutzer anzeigen, wenn diese gemeldet sind'
     settings:
       badge-icon: 'Byobu Diskussions Abzeichen'
-      enable-make-public-option: 'Aktivieren Sie die Funktion "Öffentlich machen"'
-      enable-make-public-option-help: 'Fügt die Möglichkeit für diejenigen hinzu, die die Berechtigung haben, alle Empfänger zu entfernen, ein neues Tag zuzuweisen und die Diskussion öffentlich sichtbar zu machen (gemäß den Sichtbarkeitseinstellungen des ausgewählten Tags).'
+      enable-make-public-option: '"Öffentlich machen" Funktion aktivieren'
+      enable-make-public-option-help: 'Fügt die Möglichkeit für diejenigen hinzu, die die Berechtigung haben, alle Empfänger zu entfernen, ein neues Thema zuzuweisen und die Diskussion öffentlich sichtbar zu machen (gemäß den Sichtbarkeitseinstellungen des ausgewählten Themas).'
       post-event-icon: 'Byobu Post Ereignisse'
   email:
     body:
