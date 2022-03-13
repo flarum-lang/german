@@ -35,7 +35,7 @@ malago-achievements:
         discussions: 'Mindestanzahl erstellter Diskussionen (z. B. 10) oder Inklusivbereich (z. B. 10,19)'
         edits: 'Mindestanzahl der bearbeiteten Beiträge (z.B. 10) oder inklusiver Bereich (z.B. 10,19)'
         likes: 'Mindestanzahl der gegebenen Likes (z. B. 10) oder Inklusivbereich (z. B. 10,19)'
-        meanwords: 'Wort, nach dem gesucht werden soll und Mindestanzahl durchschnittlicher Erscheinungen (z. B. Huhn,10) oder einschließlich Bereich (z. B. Huhn,10,19)'
+        meanwords: 'Durchschnittliche Wörter pro Beitrag, Minimum ist 10 (z. B. 10) oder inklusiver Bereich (z. B. 10,19)'
         posts: 'Mindestanzahl von Beiträgen (z. B. 10) oder Inklusivbereich (z. B. 10,19)'
         selflikes: 'Mindestanzahl der erhaltenen Likes (z. B. 10) oder Inklusivbereich (z. B. 10,19)'
         tagposts: 'Slug des zu suchenden Tags und Mindestanzahl von Beiträgen (z.B. Off-Topic,10) oder inklusiver Bereich (z.B. Off-Topic,10,19)'

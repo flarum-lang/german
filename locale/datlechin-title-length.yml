@@ -7,7 +7,7 @@ datlechin-title-length:
     settings:
       limit_help: 'Aktiviere diese Option, um eine benutzerdefinierte Längenbegrenzung für Titel zu verwenden. Wenn deaktiviert, wird die Standard-Titellängenbegrenzung von Flarum verwendet.'
       limit_label: 'Titellänge begrenzen aktivieren'
-      max_help: 'Die maximale Länge eines Titels. Dieser Wert muss größer als die Mindestlänge sein.'
+      max_help: 'Die maximale Länge des Titels, der maximale Wert ist 1000.'
       max_label: 'Maximale Länge'
-      min_help: 'Die Mindestlänge eines Titels. Dieser Wert muss größer als 0 sein.'
+      min_help: 'Die Mindestlänge des Titels, der Mindestwert ist 1.'
       min_label: 'Minimale Länge'
