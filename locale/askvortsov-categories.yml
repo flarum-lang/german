@@ -39,6 +39,6 @@ askvortsov-categories:
       no_discussions: 'Keine Diskussionen'
     stat-widgets:
       discussion_label: Diskussionen
-      post_label: Posts
+      post_label: Beiträge
   ref:
     categories: Kategorien
