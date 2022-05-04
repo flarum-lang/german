@@ -66,7 +66,8 @@ fof-best-answer:
       best_answer_in_discussion: '{username} hat in dieser Diskussion eine beste Antwort gewählt'
       content: 'Bitte wähle eine Beste Antwort, wenn deine Frage bereits beantwortet wurde'
       preferences:
-        awarded_best_answer: 'Wenn jemand meinen Beitrag als beste Antwort auswählt'
-        best_answer_in_discussion: 'Wenn in einer Diskussion, an der ich teilgenommen habe, eine beste Antwort ausgewählt wird'
+        awarded_best_answer: 'Jemand legt meinen Beitrag als beste Antwort fest'
+        best_answer_in_discussion: 'Die beste Antwort findet sich in einer Diskussion, an der ich teilgenommen habe'
+        select_best_answer: 'Eine automatische Erinnerung, um in einer von mir begonnenen Diskussion die beste Antwort auszuwählen'
     remove_best_answer: 'Beste Antwort abwählen'
     this_best_answer: 'Beste Antwort auswählen'

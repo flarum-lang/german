@@ -5,6 +5,7 @@
 justoverclock-hashtag:
   admin:
     settings:
+      oldregexdesc: 'Hier ist Dein alter regulärer Hashtag-Ausdruck: <code>{regex}</code>'
       regexdesc: 'Unten ist ein Beispiel als Platzhalter dargestellt. Bearbeite, wenn Du reguläre Ausdrücke verstehst.'
       regexlabel: 'Regulärer Hashtag-Ausdruck'
   forum:
