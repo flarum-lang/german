@@ -6,12 +6,18 @@ datlechin-birthdays:
   admin:
     permissions:
       edit_own_birthday_label: 'Eigenen Geburtstag bearbeiten'
+      view_birthday_label: 'Geburtstag ansehen'
     settings:
       date_format_help: 'Verwende das <a>dayjs</a>-Datumsformat. Lasse das Feld leer, um das Standardformat zu verwenden.'
       date_format_label: Datumsformat
       date_none_year_label: 'Datumsformat ohne Jahr'
+      min_age_help: 'Mindestalter für die Registrierung'
+      min_age_label: Mindestalter
+      required_help: 'Du musst die Option Bei Registrierung festlegen aktivieren, damit diese Option funktioniert'
+      required_label: 'Erforderliche Eingabe von Geburtstagen'
       set_on_registration_label: 'Geburtsdatum bei der Registrierung angeben'
   api:
+    invalid_age_message: 'Dein Alter muss mindestens {minAge} Jahre betragen.'
     invalid_dob_message: 'Ungültiges Geburtsdatum'
   forum:
     change_dob:
