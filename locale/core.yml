@@ -451,6 +451,7 @@ core:
       username_label: '=> core.ref.username'
     error:
       dependent_extensions_message: 'Die Erweiterung {extension} kann nicht deaktiviert werden, bis folgende abhängige Erweiterungen deaktiviert wurden: {extensions}'
+      extension_initialiation_failed_message: '{extension} konnte nicht initialisiert werden, überprüfe die Browser-Konsole für weitere Informationen.'
       generic_message: 'Oops! Da ist was schief gelaufen. Bitte die Seite neu laden oder noch mal versuchen.'
       missing_dependencies_message: 'Die Erweiterung {extension} kann nicht aktiviert werden, bis folgende abhängige Erweiterungen aktiviert wurden: {extensions}'
       not_found_message: 'Leider nichts gefunden.'
