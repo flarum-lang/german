@@ -11,10 +11,10 @@ sycho-profile-cover:
   forum:
     added:
       error: 'Bild konnte nicht hochgeladen werden.'
-      success: 'Profil-Cover aktualisiert'
+      success: 'Profil-Cover aktualisiert.'
     cover: Cover
     edit_cover: 'Cover bearbeiten'
     notice: 'Maximale Größe: {size}'
     removed:
       error: 'Cover konnte nicht entfernt werden. Versuche es später erneut.'
-      success: 'Profil-Cover entfernt'
+      success: 'Profil-Cover entfernt.'

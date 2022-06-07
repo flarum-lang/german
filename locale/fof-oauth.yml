@@ -38,6 +38,7 @@ fof-oauth:
           api_key_label: 'API Key'
           api_secret_label: 'API Secret'
           description: 'Erstelle eine Applikation unter {link}. Du musst eine Nutzungsbedingungen-, sowie eine Datenschutzrichtlinien-URL festlegen. Weise dann die "E-Mail anfordern" Berechtigung deiner Applikation zu.'
+    settings_accessibility_label: '{name}-Einstellungen'
   forum:
     error:
       bad_verification_code: 'Ungültiges oder abgelaufenes Verifizierungs-Token. Bitte versuche es erneut.'

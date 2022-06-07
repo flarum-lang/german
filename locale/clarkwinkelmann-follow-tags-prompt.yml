@@ -15,8 +15,8 @@ clarkwinkelmann-follow-tags-prompt:
         list: 'Unten ausgewählte Tags'
         primary: 'Primäre Tags der ersten Ebene'
         primaryAndChildren: 'Alle primären Tags jeder Stufe'
-        primaryAndSecondary: 'Primäre Tags der ersten Ebene und sekundäre Tags'
-        secondary: 'Nur sekundäre Tags'
+        primaryAndSecondary: 'Hauptthemen der ersten Ebene und sekundäre Themen'
+        secondary: 'Nur sekundäre Themen'
   forum:
     controls:
       choose: 'Wähle Tags aus, denen Du folgen möchtest'

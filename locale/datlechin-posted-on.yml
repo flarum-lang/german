@@ -6,3 +6,5 @@ datlechin-posted-on:
   forum:
     post:
       posted_on_text: 'Gepostet auf {posted_on}'
+    settings:
+      privacy_disclose_posted_on_label: 'Anderen erlauben zu sehen, auf welchen Geräten ich gepostet werde'

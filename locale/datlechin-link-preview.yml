@@ -8,5 +8,7 @@ datlechin-link-preview:
       blacklist_help: 'Gebe eine durch Kommas getrennte Liste von Domains oder URLs ein, die von der Linkvorschau ausgeschlossen werden sollen.'
       blacklist_label: Blacklist
       blacklist_placeholder: 'z.B. facebook.com,https://domain.com/path'
+      convert_media_urls_help: 'Wenn diese Option aktiviert ist, werden alle Medien-URLs in Linkvorschauen konvertiert.'
+      convert_media_urls_label: 'Medien-URLs konvertieren'
   forum:
     site_cannot_be_reached: 'Diese Seite kann nicht erreicht werden.'

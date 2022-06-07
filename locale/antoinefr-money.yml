@@ -4,6 +4,9 @@
 
 antoinefr-money:
   admin:
+    automoderator:
+      action_name: 'Geld geben'
+      metric_name: Geld
     permissions:
       edit_money_label: 'Geld bearbeiten'
     settings:

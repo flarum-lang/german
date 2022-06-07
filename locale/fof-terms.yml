@@ -41,11 +41,11 @@ fof-terms:
   forum:
     accept-modal:
       accept: Bestätigen
-      close: 'Vielen Dank für deine Zustimmung. Du kannst nun zum Forum zurückkehren.'
+      close: 'Vielen Dank für deine Zustimmung, du kannst nun zum Forum zurückkehren'
       i-accept: 'Ich akzeptiere die neuen <a>{policy}</a>'
       title: 'geänderte Bedingungen'
-      updated-at: 'Die Bedingungen wurden am {date} aktualisiert.'
-      updated-recently: 'Die Bedingungen wurden seit Deinem letzten Besuch aktualisiert.'
+      updated-at: 'Die Bedingungen wurden am {date} aktualisiert'
+      updated-recently: 'Die Bedingungen wurden seit Deinem letzten Besuch aktualisiert'
     signup:
       i-accept: 'Ich akzeptiere die <a>{policy}</a>'
       must-accept: 'Die {policy} müssen akzeptiert werden.'

@@ -10,6 +10,8 @@ v17development-flarum-blog:
       auto_approve_posts: 'Artikel ohne Genehmigung veröffentlichen'
       write_articles: 'Blogeinträge schreiben und bearbeiten'
     settings:
+      add_hero_label: 'Willkommensbanner anzeigen'
+      add_hero_text: 'Willkommensbanner auf Blogseiten anzeigen, wenn es noch nicht geschlossen wurde.'
       add_sidebar_nav_label: 'Zur Navigation in der Seitenleiste hinzufügen'
       add_sidebar_nav_text: 'Einfügen eines Links zum Blog in das Navigationsmenü.'
       allow_comments_label: 'Kommentare zulassen'

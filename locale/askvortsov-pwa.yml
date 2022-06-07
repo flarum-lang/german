@@ -35,6 +35,7 @@ askvortsov-pwa:
         reset_vapid_success: 'VAPID-Schlüssel erfolgreich zurückgesetzt. {count} Abonnements wurden zurückgesetzt. Lade die Seite neu, um einen aktualisierten Statusprüfbericht anzuzeigen.'
         reset_vapid_text: 'Dadurch werden VAPID-Schlüssel neu generiert und alle vorhandenen Abonnements mit den aktuellen VAPID-Schlüsseln gelöscht.'
       other:
+        force_portrait_text: 'Porträt-Orientierung erzwingen'
         heading: Anderes
       refreshed_message: 'Die PWA-Konfiguration wurde erfolgreich aktualisiert.'
       status_check_heading: Statusprüfung

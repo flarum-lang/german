@@ -14,7 +14,7 @@ fof-nightmode:
   forum:
     day: '=> fof-nightmode.ref.light'
     header:
-      nightmode_button: 'Forenthema umschalten'
+      nightmode_button: 'Forendesign umschalten'
     night: '=> fof-nightmode.ref.dark'
     user:
       settings:
@@ -27,7 +27,7 @@ fof-nightmode:
         option_descriptions:
           auto: 'Dein Farbthema wird basierend auf deinen Browser- oder Geräteeinstellungen automatisch ausgewählt. Wenn du zum Beispiel den dunklen Modus in iOS aktiviert hast, wird auch das Forum dunkel sein.'
           day: 'Die klassische Erfahrung, die man gewohnt ist. Geliebt und getestet.'
-          night: 'Du bist eine kleine Nachteule. Du wachst über das Forum in der Nacht, während die Vögel schlafen und die Füchse jagen. Oder du bevorzugst einfach die dunkleren Farben!'
+          night: 'Du bist eine Nachteule. Du wachst über das Forum in der Nacht, während die Vögel schlafen und die Füchse jagen. Oder du bevorzugst einfach die dunkleren Farben!'
         options:
           auto: '=> fof-nightmode.ref.auto'
           day: '=> fof-nightmode.ref.light'

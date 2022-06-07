@@ -38,7 +38,7 @@ the-turk-diff:
     createdInfo: '{username} erstellt vor {vor}'
     deleteButton: '=> core.forum.post_controls.delete_button'
     deleteErrorMessage: 'Das Löschen des Inhalts der Bearbeitung ist fehlgeschlagen.'
-    deleteSuccessMessage: 'Bearbeitete Inhalte wurden gelöscht'
+    deleteSuccessMessage: 'Bearbeitete Inhalte wurden gelöscht.'
     deletedInfo: '{username} hat diesen Inhalt vor {ago} gelöscht'
     deletedText: (gelöscht)
     differences:

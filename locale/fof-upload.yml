@@ -16,7 +16,20 @@ fof-upload:
       resize: "Wähle aus, ob du die Größe deiner Bilder ändern möchtest, bevor sie hochgeladen werden. Du kannst eine maximale Breite und Höhe in Pixeln wählen. Bei der Größenänderung wird das Seitenverhältnis der Bilder beibehalten.\n"
       s3_acl: "Die Zugriffssteuerungsliste (ACL), die auf das hochgeladene Objekt angewendet werden soll (Standard: private). Für mögliche Werte, siehe https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n"
       s3_compatible_storage: "Die folgenden Einstellungen sind nur erforderlich, wenn du S3 kompatiblen Speicher verwendest. Wenn du AWS verwendest, kannst du sie leer lassen.\n"
+      s3_instance_profile: "Schlüssel und Secret leer lassen, um Anmeldeinformationen im Instanzprofil zu verwenden.\n"
       watermark: "Wähle aus, ob Bilder beim Hochladen mit einem Wasserzeichen versehen werden sollen. Wasserzeichen werden basierend auf deinen Einstellungen unten hinzugefügt, jedoch nicht bei GIF's.\n"
+    inspect-mime:
+      description: "FoF Upload verwendet den <a>PHP Mime Detector</a> eine Bibliothek für gängige MIME-Typen und PHP Fileinfo als Fallback.\nDer von Fileinfo zurückgegebene MIME-Wert kann von Server zu Server unterschiedlich sein!\n"
+      guessed-extension: 'Standard-Dateierweiterung (wenn das Original nicht auf der Whitelist steht)'
+      laravel-validation: Laravel-Dateivalidierung
+      mime-detector: 'Mime-Detektor (primär)'
+      mime-fileinfo: 'PHP-Dateiinfo (Fallback)'
+      no-file-selected: 'Keine Datei'
+      not-available: 'Kein Ergebnis'
+      select: 'Wähle unten eine Datei aus, um die zu verwendenden Werte zu überprüfen. Die Datei wird nicht gespeichert.'
+      title: 'MIME untersuchen'
+      validation-failed: 'Fehlgeschlagen: {error}'
+      validation-passed: Bestanden
     labels:
       aws-s3:
         acl: 'Zugriffssteuerungsliste (ACL)'
@@ -45,6 +58,7 @@ fof-upload:
       imgur:
         client_id: 'Imgur Client ID'
         title: 'Imgur Bilder Speichereinstellungen'
+      inspect-mime: 'MIME-Typ der Testdatei'
       local:
         cdn_url: 'Content Delivery URL (Präfixe für Dateien)'
         title: 'Lokale Speichereinstellungen'

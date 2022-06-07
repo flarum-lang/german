@@ -22,12 +22,21 @@ v17development-flarum-badges:
       requirement_drivers:
         has_badge: 'Abzeichen bereits vorhanden'
     badge:
+      background_color: Hintergrundfarbe
       description: 'Abzeichen Beschreibung'
       icon: 'Abzeichen Icon'
+      icon_color: Symbolfarbe
+      image: Badge-Bild-URL
+      image_placeholder: 'URL zum Abzeichenbild eingeben'
+      is_image: 'Abzeichen ist ein Bild'
+      is_image_description: 'Ein Bild anstelle des Standard-Badges verwenden'
+      label_color: Textfarbe
       name: 'Abzeichen Name'
       visible: Sichtbar
       visible_description: 'Aktiviere dieses Abzeichen. Wenn es deaktiviert ist, wird das Abzeichen nicht sichtbar sein.'
     badge_category:
+      blockview: Blockansicht
+      blockview_description: 'Kategorie-Badges in der Blockansicht auf der Badge-Übersicht anzeigen. Wenn deaktiviert, werden alle Abzeichen in einer Tabelle angezeigt.'
       description: 'Kategorie Beschreibung'
       enabled: Aktiviert
       enabled_description: 'Aktiviere diese Kategorie. Wenn sie deaktiviert ist, werden alle Abzeichen deaktiviert und die Kategorie wird ausgeblendet.'
@@ -44,6 +53,7 @@ v17development-flarum-badges:
     new_badge: 'Neues Abzeichen'
     nothing_here_yet: 'Du hast noch keine Kategorien oder Abzeichen erstellt.'
     permissions:
+      badge_detail_users: 'Kann Benutzer auf der Badge-Detailseite sehen'
       give_badge: 'Abzeichen für Benutzer hinzufügen'
       take_badge: 'Abzeichen von Benutzer entfernen'
     uncategorized: Unkategorisiert
@@ -54,14 +64,17 @@ v17development-flarum-badges:
     all_users: 'Alle Benutzer ansehen'
     badge:
       badge: Abzeichen
+      badge_details: Abzeichendetails
       badges: Abzeichen
       category: 'Abzeichen Kategorie'
       description: 'Abzeichen Beschreibung'
+      earned_by_count: '{count, plural, one {Erworben von <b>#-Benutzer</b>} other {Erworben von <b>#-Benutzern</b>}}'
       earned_count: '{count, plural, one {<b># Benutzer</b> hat dieses Abzeichen erhalten} other {<b># Benutzer</b> haben dieses Abzeichen erhalten}}'
       earned_on: 'Abzeichen erhalten am'
       earning_reason: 'Grund für Abzeichenerwerb'
       name: 'Abzeichen Name'
       no_earning_reason: 'Kein Grund angegeben'
+      received_on: 'Erhalten am {date}'
       update_earning_reason: 'Grund aktualisieren'
     badge_information: 'Abzeichen Information'
     give_badge: 'Abzeichen vergeben'
@@ -69,6 +82,10 @@ v17development-flarum-badges:
       give_badge: 'Abzeichen vergeben'
       remove_badge: 'Abzeichen vom Benutzer entfernen'
       remove_badge_confirm: 'Bist du sicher, dass du dieses Abzeichen von diesem Benutzer entfernen möchtest?'
+    no_received: 'Kein Benutzer hat dieses Abzeichen verdient.'
+    notification:
+      settings: 'Ich habe ein Abzeichen erhalten'
+      title: 'Du hast ein neues Abzeichen erhalten'
     select_badge: 'Abzeichen auswählen'
     uncategorized: '=> v17development-flarum-badges.admin.uncategorized'
     update_badge: 'Abzeichen aktualisieren'
