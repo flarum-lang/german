@@ -11,7 +11,6 @@ Extension to localize the Flarum forum software and its official and third-party
   - [Core](#core)
   - [Extensions](#extensions)
 - [License](#license)
-- [Documentation](#documentation)
 
 ## Installation
 
