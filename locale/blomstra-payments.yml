@@ -8,6 +8,10 @@ blomstra-payments:
       select-pta-product: '(PTA) Erforderliches Produkt'
       select-pta-product-description: "Die Auswahl eines Produkts ermöglicht den Zugriff auf die Gruppe nach der Zahlung. Im Falle eines Abonnements wird der Zugang nach Kündigung des Abonnements automatisch entzogen. Erstelle ein Produkt in Deinem Stripe-Dashboard und kopiere die ID beginnend mit <code>prod_</code> in dieses Feld.\n"
     edit-tag:
+      bump-others: '(PTB) Anderen erlauen, Diskussionen zu bumpen'
+      bump-others-description: "Wenn aktiviert, kann nicht nur der Diskussionsautor Diskussionen mit einer Zahlung bumpen.\n"
+      select-ptb-product: '(PTB) Benötigtes Produkt'
+      select-ptb-product-description: "Wenn Du ein Produkt auswählest, musst Du dieses Produkt bezahlen, bevor Du eine Diskussion starten kannst.\n"
       select-ptp-product: '(PTP) Erforderliches Produkt'
       select-ptp-product-description: "Die Auswahl eines Produkts erfordert die Zahlung dieses Produkts für jede Diskussion in diesem Tag. Pay per Post, zum Beispiel ideal für Advertorials. Erstelle in Deinem Stripe-Dashboard ein Produkt mit einem einmaligen Preis und kopiere die ID beginnend mit <code>prod_</code> in dieses Feld.\n"
       select-ptv-product: '(PTV) Erforderliches Produkt'
@@ -25,6 +29,10 @@ blomstra-payments:
       purchase: Kaufen
     nav:
       access_portal: Zugriffsportal
+    pay-to-bump:
+      description: '{count, plural, one {Diese Diskussion wurde gebumped} other {{count} Leute bumpten diese Diskussion}}.'
+      purchase-control: 'Zum bumpen zahlen'
+      purchase-log-in: 'Anmelden und bezahlen um zu bumpen'
     pay-to-post:
       purchase: 'Zum Veröffentlichen kaufen'
       purchase-control: 'Zum Veröffentlichen bezahlen'
