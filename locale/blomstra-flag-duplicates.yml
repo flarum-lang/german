@@ -11,9 +11,11 @@ blomstra-flag-duplicates:
     flags:
       deselect_discussion_a11y_label: 'Diskussion abwählen'
       duplicate_discussion: 'Doppelte Diskussion'
+      reason_discussion_deleted: '[gelöschte Diskussion]'
       reason_duplicate_label: 'Doppelte Diskussion'
       reason_duplicate_text: 'Diese Diskussion ist ein Duplikat einer anderen.'
     post_stream:
+      deleted_discussion: '[gelöschte Diskussion]'
       flagged_duplicate_text: '{username} markierte diese Diskussion als potenzielles Duplikat von {duplicate}. Ein Moderator wird in Kürze nachforschen.'
       not_found: 'Nicht gefunden'
 flarum-flags:

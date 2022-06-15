@@ -4,10 +4,10 @@
 
 swaggymacro:
   admin:
-    setting_only_starter: 'Nur Starter'
-    setting_show_topic_starter: 'Themenstarter-Flag anzeigen'
+    setting_only_starter: 'Nur OP'
+    setting_show_topic_starter: 'OP-Flag anzeigen'
   forum:
     blog_article_author: Autor
-    not_only_starter: 'Nicht nur Starter'
-    only_starter: 'Nur Starter'
-    topic_starter: Themenstarter
+    not_only_starter: 'Nicht nur OP anzeigen'
+    only_starter: 'Nur OP anzeigen'
+    topic_starter: Originalposter

@@ -85,6 +85,8 @@ fof-gamification:
       name: Nutzer
       rank: Platz
     user:
+      card:
+        points: '{count, plural, one { {count} Punkt} other {{count} Punkte}}'
       points: 'Punkte: {points}'
       rank: '{rank}'
     vote_title: 'Zeigen, wer gewählt hat'

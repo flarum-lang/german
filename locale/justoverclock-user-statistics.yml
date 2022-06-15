@@ -7,5 +7,6 @@ justoverclock-user-statistics:
     joinTime: Registrierungsdatum
     likeReceived: 'Like erhalten'
     likes: Likes
+    totalBestAnswer: 'Beste Antworten'
     totalDiscussions: 'Diskussionen insgesamt'
     totalPosts: 'Beiträge insgesamt'

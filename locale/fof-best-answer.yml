@@ -71,3 +71,5 @@ fof-best-answer:
         select_best_answer: 'Eine automatische Erinnerung, um in einer von mir begonnenen Diskussion die beste Antwort auszuwählen'
     remove_best_answer: 'Beste Antwort abwählen'
     this_best_answer: 'Beste Antwort auswählen'
+    user:
+      best-answer-count: '{count, plural, one { {count} beste Antwort} other {{count} beste Antworten}}'

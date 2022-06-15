@@ -58,6 +58,7 @@ fof-upload:
       imgur:
         client_id: 'Imgur Client ID'
         title: 'Imgur Bilder Speichereinstellungen'
+        tos: 'Es liegt in deiner Verantwortung sicherzustellen, dass deine Forenbenutzer die <a>Nutzungsbedingungen</a> von Imgur einhalten'
       inspect-mime: 'MIME-Typ der Testdatei'
       local:
         cdn_url: 'Content Delivery URL (Präfixe für Dateien)'

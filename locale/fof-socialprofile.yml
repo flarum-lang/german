@@ -9,7 +9,7 @@ fof-socialprofile:
       editOwn: 'Eigenes soziales Profil bearbeiten'
       view: 'Soziales Profil ansehen'
     settings:
-      allow_external_favicons_label: 'Externe Website-Symbole zulassen'
+      allow_external_favicons_label: 'Externe Website-Symbole zulassen (verwendet die Favicon-API von DuckDuckGo)'
   forum:
     edit:
       add: 'Füge Schaltflächen zu Deinen sozialen Medien hinzu'

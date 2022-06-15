@@ -2,10 +2,18 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-nightmode/de/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+fof-default-user-preferences:
+  admin:
+    settings:
+      fofNightMode: 'FoF Nachtmodus: Standardmäßig zu verwendendes Farbthema'
+      fofNightMode-help: '0 - automatisch, 1 - heller Modus, 2 - dunkler Modus'
+      fofNightMode_perDevice: 'FoF Nachtmodus: Einstellungen pro Gerät verwenden'
+      fofNightMode_perDevice-help: 'Einstellungen pro Gerät für die Nachtmoduseinstellungen verwenden'
 fof-nightmode:
   admin:
     settings:
       modal:
+        always_show_theme_toggle_on_header: 'Immer die Schaltfläche zum Wechseln des Themas in der Kopfzeile des Forums anzeigen'
         default_theme: 'Standard Forum Design'
         default_theme_helper: 'Das Standard Design wird für neue Nutzer, Gäste und solche, die keine Präferenz eingestellt haben, automatisch eingestellt.'
         theme_auto: '=> fof-nightmode.ref.auto'

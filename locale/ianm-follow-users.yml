@@ -6,6 +6,8 @@ ianm-follow-users:
   admin:
     permissions:
       be_followed_label: 'Darf Benutzern folgen'
+    settings:
+      button-on-profile-label: 'Schaltfläche „Folgen“ direkt in der Kopfzeile des Benutzerprofils anzeigen'
   email:
     new_discussion_by_user_body: "Hallo {recipient_display_name},\n\n{user_display_name} hat eine neue Diskussion gestartet: {discussion_title}\n\nUm die neue Diskussion anzuzeigen, klicke auf den folgenden Link:\n\n{Diskussions-URL}\n\n---\n\n{post_content}\n"
     new_discussion_by_user_subject: '[Follow User] {title}'

@@ -5,6 +5,7 @@
 blomstra-user-filter:
   admin:
     settings:
+      intro: 'Benutzer ohne den Berechtigung <code>Benutzer suchen</code> sehen das Suchfeld nicht. Setze auf <code>Everyone</code> für alle Benutzer oder was auch immer Ihre Präferenzebene ist.'
       min_length: 'Minimum an Zeichen, um mit der Suche zu beginnen'
       result_count: 'Maximum führt zur automatischen Vervollständigung des Dropdown-Menüs'
   forum:
