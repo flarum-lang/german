@@ -5,7 +5,7 @@
 justoverclock-popular-tags:
   admin:
     limit: 'Anzahl der angezeigten Tags'
-    limit-help: 'gebe hier die maximale Anzahl von Tags ein, die Sie anzeigen möchten'
+    limit-help: 'Gebe hier die maximale Anzahl von Tags ein, die Du anzeigen möchtest'
   forum:
     count: 'Threads insgesamt: '
     widgetTitle: 'Beliebte Schlagwörter'
