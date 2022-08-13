@@ -6,6 +6,8 @@ fof-sitemap:
   admin:
     settings:
       advanced_options_label: 'Erweiterte Optionen'
+      exclude_users: 'Nutzerprofile von der Sitemap ausschließen'
+      exclude_users_help: 'Standardmäßig wird jeder Nutzer, der für Gäste sichtbar ist, indiziert'
       frequency:
         daily: Täglich
         hourly: Stündlich
@@ -27,4 +29,6 @@ fof-sitemap:
         cache_disk: Disk
         multi_file: Mehrdateien
         runtime: Laufzeit
+      risky_performance_improvements: 'Riskante Leistungsverbesserungen aktivieren'
+      risky_performance_improvements_help: 'Durch diese Verbesserungen wird der CRON-Job bei Datensätzen mit Millionen von Zeilen schneller ausgeführt, aber die Kompatibilität mit einigen Erweiterungen kann beeinträchtigt werden.'
       title: FoF-Sitemap
