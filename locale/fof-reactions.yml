@@ -31,6 +31,8 @@ fof-reactions:
             Label: 'Reaktionen zu Gefällt-mirs konvertieren'
             legend: Gefällt-mirs
           warning: 'Die gleiche Reaktion <strong>kann nicht</strong> in ein Gefällt-mir <strong>und</strong> ein Upvote umgewandelt werden'
+        react_own_posts_help: 'Wenn diese Option aktiviert ist, können Benutzer auf ihre eigenen Beiträge im Forum reagieren, sofern sie dazu berechtigt sind. Um zu verhindern, dass Benutzer auf ihre eigenen Beiträge reagieren, deaktiviere diese Einstellung.'
+        react_own_posts_label: 'Benutzer können auf eigene Beiträge reagieren'
         save_settings: 'Einstellungen speichern'
     permissions:
       react_posts_label: 'Auf Beiträge reagieren'
