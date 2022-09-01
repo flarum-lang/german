@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.4.2 (XXXX-XX-XX)
+------------------
+
+**Updated translations for extensions**:
+
+* [`fof/spamblock`](https://github.com/FriendsOfFlarum/spamblock)
+
+
+All changes: [1.4.1...1.4.2](https://github.com/flarum-lang/german/compare/1.4.1...1.4.2).
+
+
 1.4.1 (2022-08-30)
 ------------------
 
