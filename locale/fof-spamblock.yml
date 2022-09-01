@@ -9,4 +9,4 @@ fof-spamblock:
   forum:
     user_controls:
       spammer_button: Spammer
-      spammer_confirmation: "Bist du sicher, dass du dies willst?\n• Alle Diskussionen und Beiträge des Benutzers ausblenden\n• [flarum/suspend] den Benutzer supendieren"
+      spammer_confirmation: "Bist du sicher, dass du dies willst?\n• Alle Diskussionen und Beiträge des Benutzers ausblenden\n• [flarum/suspend] Den Benutzer ausschließen"
