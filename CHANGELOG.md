@@ -5,12 +5,20 @@ CHANGELOG
 1.4.2 (XXXX-XX-XX)
 ------------------
 
-**Updated translations for extensions**:
+**Allgemeine Änderungen**:
 
+* Flarum-Core Übersetzungen aktualisiert.
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`flarum/suspend`](https://github.com/flarum/suspend)
 * [`fof/spamblock`](https://github.com/FriendsOfFlarum/spamblock)
 
 
-All changes: [1.4.1...1.4.2](https://github.com/flarum-lang/german/compare/1.4.1...1.4.2).
+Alle Änderungen: [1.4.1...1.4.2](https://github.com/flarum-lang/german/compare/1.4.1...1.4.2).
 
 
 1.4.1 (2022-08-30)
