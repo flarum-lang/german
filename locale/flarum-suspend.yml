@@ -5,19 +5,19 @@
 flarum-suspend:
   admin:
     permissions:
-      suspend_users_label: 'Nutzer ausschließen'
+      suspend_users_label: 'Benutzer ausschließen'
   email:
     no_reason_given: 'Für diesen Ausschluss wurde kein Grund angegeben.'
     suspended:
-      body: "Hallo {recipient_display_name},\n\nDu wurdest aus folgendem Grund gesperrt:\n\n---\n{suspension_message}\n---\n"
-      subject: 'Dein Konto wurde gesperrt'
+      body: "Hallo {recipient_display_name},\n\nDu wurdest aus folgendem Grund ausgeschlossen:\n\n---\n{suspension_message}\n---\n"
+      subject: 'Dein Konto wurde ausgeschlossen'
     unsuspended:
-      body: "Hallo {recipient_display_name},\n\nDeine Suspendierung wurde aufgehoben. Du kannst zum Forum zurückkehren, indem Du auf den folgenden Link klickst:\n\n{forum_url}\n"
-      subject: 'Die Sperrung Deines Kontos wurde aufgehoben'
+      body: "Hallo {recipient_display_name},\n\nDein Ausschluss wurde aufgehoben. Du kannst zum Forum zurückkehren, indem Du auf den folgenden Link klickst:\n\n{forum_url}\n"
+      subject: 'Der Ausschluss deines Kontos wurde aufgehoben'
   forum:
     notifications:
-      user_suspended_indefinite_text: 'Du wurdest auf unbestimmte Zeit suspendiert'
-      user_suspended_text: 'Du wurdest für {timeReadable} gesperrt'
+      user_suspended_indefinite_text: 'Du wurdest für unbestimmte Zeit ausgeschlossen'
+      user_suspended_text: 'Du wurdest für {timeReadable} ausgeschlossen'
       user_unsuspended_text: 'Du wurdest entsperrt'
     suspend_user:
       display_message: 'Nachricht für den Benutzer anzeigen'
@@ -26,15 +26,15 @@ flarum-suspend:
       limited_time_label: 'Temporär ausschließen …'
       not_suspended_label: 'Nicht ausschließen'
       placeholder_optional: Optional
-      reason: 'Grund für die Sperrung'
+      reason: 'Grund für den Ausschluss'
       status_heading: Ausschluss-Status
       submit_button: '=> core.ref.save_changes'
       title: '{username} ausschließen'
     suspension_info:
       dismiss_button: Schließen
-      indefinite: 'Dies ist eine unbefristete Sperre'
-      limited: 'Diese Aussetzung gilt bis zum {date}'
-      title: 'Dieses Konto ist gesperrt'
+      indefinite: 'Dies ist ein unbefristeter Ausschluss'
+      limited: 'Dieser Ausschluss gilt bis zum {date}'
+      title: 'Dieses Konto ist ausgeschlossen'
     user_badge:
       suspended_tooltip: Ausgeschlossen
     user_controls:
