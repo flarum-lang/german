@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.4.2 (XXXX-XX-XX)
+1.4.2 (2022-09-13)
 ------------------
 
 **Allgemeine Änderungen**:
