@@ -7,6 +7,8 @@ core:
     appearance:
       colored_header_label: 'Header einfärben'
       colors_heading: Farben
+      colors_primary_label: 'Primäre Farbe'
+      colors_secondary_label: 'Sekundäre Farbe'
       colors_text: 'Wähle zwei Farben, um den Grundton des Forums zu ändern. Die erste Farbe ist für die Akzente, die zweite für die Hintergrundelemente.'
       custom_footer_heading: 'Individuelle Fußzeile'
       custom_footer_text: '=> core.ref.custom_footer_text'
@@ -45,8 +47,12 @@ core:
     dashboard:
       clear_cache_button: 'Cache leeren'
       description: 'Dein Forum auf einen Blick.'
+      io_error_message: 'Es konnte nicht in das Dateisystem geschrieben werden. Überprüfe die Berechtigungen deines Dateisystems und versuche es erneut. Oder versuche es über die Kommandozeile auszuführen.'
       title: Dashboard
       tools_button: Werkzeuge
+    debug-warning:
+      detail: "Wenn der <code>Debugmodus</code> aktiv ist wird Flarum seine <code>JavaScript</code> und <code>CSS</code> Assets bei jedem Seitenabruf neu erstellen, und könnte außerdem potentiell weitere Informationen durchsickern lassen, wie zum Beispiel Datenbankgeheimnisse, Umgebungsvariablen, etc.\n\nEs wird dringend empfohlen in Produktion <code>debug</code> in deiner <code>config.php</code> Datei zu deaktivieren. Siehe in der <link>Flarum Dokumentation</link> für weitere Informationen.\n"
+      label: 'Debugmodus aktiv'
     edit_css:
       customize_text: 'Passe das Aussehen deines Forums mit eigenem Less/CSS-Code an, welcher zusätzlich zu Flarums <a>Standard-Design</a> angewendet wird.'
       submit_button: '=> core.ref.save_changes'
@@ -336,6 +342,8 @@ core:
       title: '=> core.ref.log_in'
       username_or_email_placeholder: 'Nutzername oder E-Mail'
     notifications:
+      delete_all_confirm: 'Bist du sicher, dass du alle Benachrichtigungen löschen willst? Diese Aktion kann nicht rückgängig gemacht werden'
+      delete_all_tooltip: 'Alle Benachrichtigungen löschen'
       discussion_renamed_text: '{username} hat den Titel geändert'
       empty_text: 'Keine neuen Benachrichtigungen'
       mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
@@ -377,6 +385,7 @@ core:
       account_heading: Konto
       change_email_button: '=> core.ref.change_email'
       change_password_button: '=> core.ref.change_password'
+      notification_checkbox_a11y_label_template: 'Erhalte "{description}" Benachrichigungen über {method}'
       notifications_heading: '=> core.ref.notifications'
       notify_by_email_heading: '=> core.ref.email'
       notify_by_web_heading: Web

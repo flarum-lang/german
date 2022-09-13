@@ -7,7 +7,7 @@ flarum-suspend:
     permissions:
       suspend_users_label: 'Nutzer ausschließen'
   email:
-    no_reason_given: 'Ein Grund für diese Suspendierung wurde nicht angegeben.'
+    no_reason_given: 'Für diesen Ausschluss wurde kein Grund angegeben.'
     suspended:
       body: "Hallo {recipient_display_name},\n\nDu wurdest aus folgendem Grund gesperrt:\n\n---\n{suspension_message}\n---\n"
       subject: 'Dein Konto wurde gesperrt'
