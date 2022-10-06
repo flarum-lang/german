@@ -28,6 +28,11 @@ datlechin-birthdays:
       dob_heading: Geburtsdatum
     header:
       edit_dob_button: 'Geburtsdatum ändern'
+    nav:
+      nav_item: 'Heutige Geburtstage'
+    page:
+      discussion_count: '{count, plural, one {Diskussion: #} other {Diskussionen: #}}'
+      post_count: '{count, plural, one {Beitrag: #} other {Beiträge: #}}'
     settings:
       change_dob_label: 'Geburtsdatum ändern'
       dob_heading: Geburtsdatum
