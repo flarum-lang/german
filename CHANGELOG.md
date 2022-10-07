@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.4.3 (2022-10-07)
+------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+
+
+Alle Änderungen: [1.4.2...1.4.3](https://github.com/flarum-lang/german/compare/1.4.2...1.4.3).
+
+
 1.4.2 (2022-09-13)
 ------------------
 
