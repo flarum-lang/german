@@ -4,10 +4,15 @@
 
 flarum-mentions:
   admin:
+    permissions:
+      mention_groups_label: 'Gruppen erwähnen'
     settings:
       allow_username_format_label: 'Format für die Erwähnung des Nutzernamens (@Nutzername) zulassen'
       allow_username_format_text: "Das aktuelle Format für Nutzernamen-Erwähnungen ist @\"Anzeigename\"#ID.\nDiese Einstellungen erlaubt die Verwendung des alten @Nutzername-Formats, wird beim speichern aber trotzdem in das neue Format konvertiert.\n"
   email:
+    group_mentioned:
+      body: "Hey {recipient_display_name}!\n\n{mentioner_display_name} hat in {title} eine Gruppe erwähnt, in der du ein Mitglied bist.\n\n{url}\n\n---\n\n{content}\n"
+      subject: '{mentioner_display_name} hat in {title} eine Gruppe erwähnt, in der du ein Mitglied bist'
     post_mentioned:
       body: "Hallo {recipient_display_name}!\n\n{replier_display_name} hat auf deinen Beitrag (#{post_number}) in {title} geantwortet.\n\n{url}\n\n---\n\n{content}\n"
       subject: '{replier_display_name} hat auf deinen Post in {title} geantwortet'
@@ -16,9 +21,12 @@ flarum-mentions:
       subject: '{mentioner_display_name} hat dich in {title} erwähnt'
   forum:
     composer:
-      mention_tooltip: 'Benutzer oder Beitrag erwähnen'
+      mention_tooltip: 'Benutzer, Gruppe oder Beitrag erwähnen'
       reply_to_post_text: 'Antwort auf #{number}'
+    group_mention:
+      deleted_text: '[unbekannte Gruppe]'
     notifications:
+      group_mentioned_text: '{username} hat eine Gruppe erwähnt, in der du Mitglied bist'
       others_text: '=> core.ref.some_others'
       post_mentioned_text: '{username} {count, plural, one {hat} other {haben}} auf deinen Beitrag geantwortet'
       user_mentioned_text: '{username} hat dich erwähnt'
@@ -32,6 +40,7 @@ flarum-mentions:
     post_mention:
       deleted_text: '[unbekannt]'
     settings:
+      notify_group_mentioned_label: 'Jemand erwähnt in einem Beitrag eine Gruppe, in der ich Mitglied bin'
       notify_post_mentioned_label: 'Jemand hat auf deinen Beitrag geantwortet'
       notify_user_mentioned_label: 'Jemand hat dich in einem Beitrag erwähnt'
     user:

@@ -298,7 +298,7 @@ core:
     forgot_password:
       dismiss_button: '=> core.ref.okay'
       email_placeholder: '=> core.ref.email'
-      email_sent_message: 'Ein Link zum Zurücksetzen des Passwortes wurde verschickt. Bitte ggf. auch den Spam-Ordner checken.'
+      email_sent_message: 'Wenn die von dir eingegebene E-Mail-Adresse auf dieser Seite registriert ist, schicken wir dir eine E-Mail mit einem Link, mit dem du dein Passwort zurücksetzen kannst. Bitte überprüfe gegebenenfalls auch den Spam-Ordner wenn sie nicht innerhalb der nächsten Minuten ankommt.'
       not_found_message: 'Es gibt keinen Nutzer mit dieser E-Mail-Adresse.'
       submit_button: 'Passwort wiederherstellen'
       text: 'Bitte gebe deine E-Mail-Adresse ein, um einen Link zum Zurücksetzen des Passwortes zu erhalten.'
