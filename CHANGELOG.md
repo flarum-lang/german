@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+1.4.4 (2022-11-15)
+------------------
+
+**Allgemeine Änderungen**:
+
+* Flarum-Core Übersetzungen aktualisiert.
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/statistics`](https://github.com/flarum/statistics)
+
+
+Alle Änderungen: [1.4.3...1.4.4](https://github.com/flarum-lang/german/compare/1.4.3...1.4.4).
+
+
 1.4.3 (2022-10-07)
 ------------------
 
