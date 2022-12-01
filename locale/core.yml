@@ -96,7 +96,7 @@ core:
       send_test_mail_button: Versenden
       send_test_mail_heading: 'Test-Mail versenden'
       send_test_mail_success: 'Test-Mail wurde erfolgreich versandt!'
-      send_test_mail_text: 'Versende eine E-Mail mit der gegebenen Konfiguration an deine Adresse ''{email}''.'
+      send_test_mail_text: 'Versende eine E-Mail mit der gegebenen Konfiguration an deine Adresse ''''{email}''''.'
       smtp_heading: 'SMTP Einstellungen'
       title: '=> core.ref.email'
     extension:
