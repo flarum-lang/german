@@ -7,7 +7,17 @@ CHANGELOG
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`afrux/asirem`](https://github.com/afrux/asirem)
+* [`askvortsov/flarum-moderator-warnings`](https://github.com/askvortsov1/flarum-moderator-warnings)
+* [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime)
+* [`clarkwinkelmann/flarum-ext-collapsible-posts`](https://github.com/clarkwinkelmann/flarum-ext-collapsible-posts)
+* [`clarkwinkelmann/flarum-ext-passwordless`](https://github.com/clarkwinkelmann/flarum-ext-passwordless)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
+* [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
 * [`justoverclock/flarum-ext-contactme`](https://github.com/justoverclockl/flarum-ext-contactme)
+* [`the-turk/flarum-diff`](https://github.com/the-turk/flarum-diff)
 
 
 Alle Änderungen: [1.4.4...1.4.5](https://github.com/flarum-lang/german/compare/1.4.4...1.4.5).
