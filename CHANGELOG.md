@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.4.5 (XXXX-XX-XX)
+------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`justoverclock/flarum-ext-contactme`](https://github.com/justoverclockl/flarum-ext-contactme)
+
+
+Alle Änderungen: [1.4.4...1.4.5](https://github.com/flarum-lang/german/compare/1.4.4...1.4.5).
+
+
 1.4.4 (2022-11-15)
 ------------------
 
