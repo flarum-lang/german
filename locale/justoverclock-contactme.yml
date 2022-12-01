@@ -8,7 +8,7 @@ flarum-ext-contactme:
       emaillabel: 'E-Mail, an die das Kontaktformular gesendet wird'
   email:
     contact:
-      body: "Hallo!\n\nDu hast ein neues Kontaktformular von {username} (E-Mail: {email}) erhalten.\n\nIhre Botschaft lautet:\n\n{Botschaft}"
+      body: "Hallo!\n\nDu hast ein neues Kontaktformular von {username} (E-Mail: {email}) erhalten.\n\nIhre Botschaft lautet:\n\n{message}"
       subject: 'Neuer Kontakt per Formular'
   forum:
     backsoon: 'Wir kommen bald auf Dich zurück'
