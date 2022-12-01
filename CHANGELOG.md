@@ -5,6 +5,11 @@ CHANGELOG
 1.4.5 (XXXX-XX-XX)
 ------------------
 
+**Allgemeine Änderungen**:
+
+* Flarum-Core Übersetzungen aktualisiert.
+
+
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`afrux/asirem`](https://github.com/afrux/asirem)
