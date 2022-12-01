@@ -21,7 +21,7 @@ fof-subscribed:
       postUnapproved: "Hallo {recipient_display_name},\n\n{actor_display_name} hat einen Beitrag erstellt, der in {discussion_title} nicht automatisch genehmigt wurde\n\nUm diesen neuen Beitrag anzuzeigen, klicke auf den folgenden Link:\n{post_url}\n\n---\n\n{post_content}\n"
     subject:
       newDiscussion: '[Abonniert | Neue Diskussion] {title}'
-      newUser: '[Abonniert | Neuer Benutzer] {Benutzername}'
+      newUser: '[Abonniert | Neuer Benutzer] {username}'
       postCreated: '[Abonniert | Neuer Beitrag] {username} hat einen neuen Beitrag in {title} geschrieben'
       postFlagged: '[Abonniert | Neu melden] {username} hat einen Beitrag in {title} gemeldet'
       postUnapproved: '[Abonniert | Nicht genehmigt] {username} hat in {title} gepostet'

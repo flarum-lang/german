@@ -26,5 +26,5 @@ clarkwinkelmann-collapsible-posts:
       uncollapse: Ausklappen
     stream:
       explanation: 'Wieso sehe ich das?'
-      hidden: '{count, plural, one {# Beitrag ausgeblendet wegen {Grund}} other {# Beiträge ausgeblendet wegen {Grund}}}'
+      hidden: '{count, plural, one {# Beitrag ausgeblendet wegen {reason}} other {# Beiträge ausgeblendet wegen {reason}}}'
       load: 'Mehr laden'

@@ -9,9 +9,9 @@ ianm-follow-users:
     settings:
       button-on-profile-label: 'Schaltfläche „Folgen“ direkt in der Kopfzeile des Benutzerprofils anzeigen'
   email:
-    new_discussion_by_user_body: "Hallo {recipient_display_name},\n\n{user_display_name} hat eine neue Diskussion gestartet: {discussion_title}\n\nUm die neue Diskussion anzuzeigen, klicke auf den folgenden Link:\n\n{Diskussions-URL}\n\n---\n\n{post_content}\n"
+    new_discussion_by_user_body: "Hallo {recipient_display_name},\n\n{user_display_name} hat eine neue Diskussion gestartet: {discussion_title}\n\nUm die neue Diskussion anzuzeigen, klicke auf den folgenden Link:\n\n{discussion_url}\n\n---\n\n{post_content}\n"
     new_discussion_by_user_subject: '[Follow User] {title}'
-    new_follower_body: "Hallo {recipient_display_name},\n\n{follower_display_name} hat begonnen, Dir zu folgen, sodass man benachrichtigt wird, wenn Du eine neue Diskussion beginnst.\n\nUm dessen Profil anzuzeigen, klicke auf den folgenden Link:\n\n{Profil-URL}\n"
+    new_follower_body: "Hallo {recipient_display_name},\n\n{follower_display_name} hat begonnen, Dir zu folgen, sodass man benachrichtigt wird, wenn Du eine neue Diskussion beginnst.\n\nUm dessen Profil anzuzeigen, klicke auf den folgenden Link:\n\n{profile_url}\n"
     new_follower_subject: '[Benutzer folgen] Du hast einen neuen Follower!'
     new_post_body: "Hallo {recipient_display_name},\n\n{user_display_name} hat in einer Diskussion gepostet: {discussion_title}\n\nUm die neue Aktivität anzuzeigen, klicke auf den folgenden Link:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nDu erhälst keine weiteren Benachrichtigungen zu dieser Diskussion, bis Du auf dem Laufenden bist.\n"
     new_post_subject: '[Benutzer folgen] Neuer Beitrag in {title}'

@@ -11,4 +11,4 @@ blomstra-realtime:
       discussion-list-new-activity: '{count, plural, one {# aktualisierte Diskussion anzeigen} other {# aktualisierte Diskussionen anzeigen}}'
     typing-indicator:
       no-activity: 'Niemand tippt'
-      people-are-typing: '{Zahl, Plural, eine {# Person schreibt} andere {# Leute schreiben}}'
+      people-are-typing: '{number, plural, one {# Person schreibt} other {# Leute schreiben}}'

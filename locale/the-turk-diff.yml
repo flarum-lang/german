@@ -35,7 +35,7 @@ the-turk-diff:
   forum:
     confirmDelete: 'Möchtest Du den Inhalt dieser Änderung wirklich aus dem Verlauf löschen?'
     confirmRollback: 'Möchten Di deinen aktuellen Beitrag wirklich ändern?'
-    createdInfo: '{username} erstellt vor {vor}'
+    createdInfo: '{username} erstellt vor {ago}'
     deleteButton: '=> core.forum.post_controls.delete_button'
     deleteErrorMessage: 'Das Löschen des Inhalts der Bearbeitung ist fehlgeschlagen.'
     deleteSuccessMessage: 'Bearbeitete Inhalte wurden gelöscht.'

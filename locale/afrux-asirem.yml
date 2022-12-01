@@ -22,7 +22,7 @@ afrux-theme-base:
       links_modal:
         add_group: 'Neue Linkgruppe'
         add_link: 'Link hinzufügen'
-        group_name: 'Gruppe {Nummer} Name'
+        group_name: 'Gruppe {number} Name'
         group_title: 'Titel der Linkgruppe'
         link_label: Link-Label
         link_url: Link-URL

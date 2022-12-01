@@ -18,9 +18,9 @@ askvortsov-moderator-warnings:
   forum:
     notifications:
       warning_no_strikes_text: 'Du wurdest von {mod_username} gewarnt (keine Strikes)'
-      warning_text: '{strikes, plural, one {Du wurdest mit # Strike von {mod_username} gewarnt} other {Du wurdest mit # Strikes von {mod_username}} gewarnt'
+      warning_text: '{strikes, plural, one {Du wurdest mit # Strike von {mod_username} gewarnt} other {Du wurdest mit # Strikes von {mod_username}}} gewarnt'
     post:
-      warning: '{Strikes, plural, one {Verwarnt mit # Strike by {mod_username}} other {Verwarnt mit # Strikes by {mod_username}}}'
+      warning: '{strikes, plural, one {Verwarnt mit # Strike by {mod_username}} other {Verwarnt mit # Strikes by {mod_username}}}'
       warning_no_strikes: 'Ohne Strikes von {mod_username} gewarnt'
     post_controls:
       warning_button: 'Benutzer verwarnen'
@@ -38,12 +38,12 @@ askvortsov-moderator-warnings:
     warning_list:
       add_button: 'Neue Verwarnung'
       no_warnings: 'Anscheindend befinden sich hier keine Verwarnungen.'
-      warnings: '{Strikes, plural, one {Moderator Verwarnungen: # Strike erhalten} other {Moderator Verwarnugen: # Strikes erhalten}}'
+      warnings: '{strikes, plural, one {Moderator Verwarnungen: # Strike erhalten} other {Moderator Verwarnugen: # Strikes erhalten}}'
       warnings_no_strikes: 'Moderator Warnungen: Keine Strikes erhalten'
     warning_list_item:
       linked_post: 'Verlinkter Beitrag'
-      list_item_heading: '{Strikes, Plural, ein {<strong>#</strong> Strike, {time}} other {<strong>#</strong> Strikes, {time}}}'
-      list_item_heading_hidden: '{Strikes, Plural, eine {<strong>#</strong> Verwarnung, {time} <strong>(entfernt)</strong>} andere {<strong>#</strong> Verwarnungen, {time} <strong>( entfernt)</strong>}}'
+      list_item_heading: '{strikes, plural, one {<strong>#</strong> Strike, {time}} other {<strong>#</strong> Strikes, {time}}}'
+      list_item_heading_hidden: '{strikes, plural, one {<strong>#</strong> Verwarnung, {time} <strong>(entfernt)</strong>} other {<strong>#</strong> Verwarnungen, {time} <strong>( entfernt)</strong>}}'
       private_comment: 'Moderator-sichtbare Kommentare'
       public_comment: Verwarnung
     warning_modal:
