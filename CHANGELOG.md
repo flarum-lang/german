@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.4.6 (XXXX-XX-XX)
+------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime)
+
+
+Alle Änderungen: [1.4.5...1.4.6](https://github.com/flarum-lang/german/compare/1.4.5...1.4.6).
+
+
 1.4.5 (2022-12-02)
 ------------------
 
