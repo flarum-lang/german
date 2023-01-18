@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.4.7 (XXXX-XX-XX)
+------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+
+
+Alle Änderungen: [1.4.6...1.4.7](https://github.com/flarum-lang/german/compare/1.4.6...1.4.7).
+
+
 1.4.6 (2022-12-05)
 ------------------
 
