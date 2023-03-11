@@ -27,6 +27,8 @@ flarum-tags:
       bypass_tag_counts_label: 'Thema-Anforderungen umgehen'
       restrict_by_tag_heading: 'Durch Themen beschränken'
       tag_discussions_label: 'Themen für Diskussionen anpassen'
+    settings:
+      button_text: '=> flarum-tags.ref.choose_tags'
     tag_settings:
       range_separator_text: ' bis '
       required_primary_heading: 'Anzahl der benötigten Hauptthemen'
@@ -53,7 +55,7 @@ flarum-tags:
       submit_button: '=> core.ref.okay'
       title: 'Themen für die Diskussion auswählen'
     composer_discussion:
-      choose_tags_link: 'Themen auswählen'
+      choose_tags_link: '=> flarum-tags.ref.choose_tags'
     discussion_controls:
       edit_tags_button: 'Themen ändern'
     header:
@@ -71,6 +73,15 @@ flarum-tags:
       meta_description_text: 'Alle Diskussionen mit dem {tag} Thema'
   lib:
     deleted_tag_text: Gelöscht
+    tag_selection_modal:
+      bypass_requirements: 'Themen-Bedigungen umgehen'
+      choose_primary_placeholder: '{count, plural, one {Wähle ein primäres Thema} other {Wähle # primäre Themen}}'
+      choose_secondary_placeholder: '=> flarum-tags.ref.choose_tags_placeholder'
+      choose_tags_placeholder: '=> flarum-tags.ref.choose_tags_placeholder'
+      submit_button: '=> core.ref.okay'
+      title: '=> flarum-tags.ref.choose_tags'
   ref:
+    choose_tags: 'Themen auswählen'
+    choose_tags_placeholder: '{count, plural, one {Wähle ein Thema mehr} other {Wähle # mehr Themen}}'
     name: Name
     tags: Themen

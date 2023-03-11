@@ -14,6 +14,7 @@ core:
       custom_footer_text: '=> core.ref.custom_footer_text'
       custom_header_heading: 'Individuelle Kopfzeile'
       custom_header_text: '=> core.ref.custom_header_text'
+      custom_styles_cannot_use_less_features: 'Die Funktionen @import und data-uri sind in benutzerdefiniertem LESS nicht zulässig.'
       custom_styles_heading: 'Individueller Stil'
       custom_styles_text: 'Die Erscheinung des Forums durch eigenen Less/CSS-Code anpassen.'
       dark_mode_label: 'Dunkles Design'
@@ -48,6 +49,11 @@ core:
       clear_cache_button: 'Cache leeren'
       description: 'Dein Forum auf einen Blick.'
       io_error_message: 'Es konnte nicht in das Dateisystem geschrieben werden. Überprüfe die Berechtigungen deines Dateisystems und versuche es erneut. Oder versuche es über die Kommandozeile auszuführen.'
+      status:
+        scheduler:
+          active: Aktiv
+          inactive: Inaktiv
+          never-run: 'Nie ausführen'
       title: Dashboard
       tools_button: Werkzeuge
     debug-warning:
@@ -96,7 +102,7 @@ core:
       send_test_mail_button: Versenden
       send_test_mail_heading: 'Test-Mail versenden'
       send_test_mail_success: 'Test-Mail wurde erfolgreich versandt!'
-      send_test_mail_text: 'Versende eine E-Mail mit der gegebenen Konfiguration an deine Adresse ''''{email}''''.'
+      send_test_mail_text: 'Versende eine E-Mail mit der gegebenen Konfiguration an deine Adresse, {email}.'
       smtp_heading: 'SMTP Einstellungen'
       title: '=> core.ref.email'
     extension:
@@ -155,6 +161,7 @@ core:
     permissions:
       allow_post_editing_label: 'Erlaube das Ändern von Beiträgen'
       allow_renaming_label: 'Erlaube Umbenennungen'
+      create_access_token_label: 'Zugangstoken erstellen'
       create_heading: Erstellen
       delete_discussions_forever_label: 'Diskussion endgültig löschen'
       delete_discussions_label: 'Diskussion löschen'
@@ -166,6 +173,7 @@ core:
       edit_users_groups_label: 'Gruppen von Nutzern bearbeiten'
       edit_users_label: 'Nutzer-Attribute bearbeiten'
       global_heading: Global
+      moderate_access_tokens_label: 'Zugangstokens verwalten'
       moderate_heading: Moderation
       new_group_button: 'Neue Gruppe'
       participate_heading: Teilnehmer
@@ -173,7 +181,7 @@ core:
       read_heading: Lesen
       rename_discussions_label: 'Diskussion umbenennen'
       reply_to_discussions_label: 'Antworte auf die Diskussion'
-      search_users_label: 'Benutzer suchen'
+      search_users_label: '=> core.ref.search_users'
       sign_up_label: Registrierung
       start_discussions_label: 'Diskussion beginnen'
       title: Berechtigungen
@@ -200,6 +208,8 @@ core:
       description: 'Eine paginierte Liste aller Benutzer in deinem Forum.'
       grid:
         columns:
+          display_name:
+            title: Anzeigename
           edit_user:
             button: '=> core.ref.edit'
             title: '=> core.ref.edit_user'
@@ -221,8 +231,12 @@ core:
         invalid_column_content: Ungültig
       pagination:
         back_button: 'Vorherige Seite'
+        first_button: 'Gehe zur ersten Seite'
+        go_to_page_textbox_a11y_label: 'Gehe direkt zur Seitenzahl'
+        last_button: 'Gehe zur letzten Seite'
         next_button: 'Nächste Seite'
         page_counter: 'Seite {current} von {total}'
+      search_placeholder: '=> core.ref.search_users'
       title: '=> core.ref.users'
       total_users: 'Benutzer insgesamt: {count}'
   api:
@@ -381,6 +395,38 @@ core:
       all_discussions_button: 'Alle Diskussionen durchsuchen nach "{query}"'
       discussions_heading: '=> core.ref.discussions'
       users_heading: '=> core.ref.users'
+    security:
+      browser_on_operating_system: '{browser} auf {os}'
+      cannot_terminate_current_session: 'Die aktuelle aktive Sitzung kann nicht beendet werden. Melde dich stattdessen ab.'
+      created: Erstellt
+      current_active_session: 'Aktuelle aktive Sitzung'
+      developer_tokens_heading: Entwickler-Tokens
+      empty_text: 'Es sieht so aus als gäbe es hier nichts zu sehen.'
+      global_logout:
+        heading: 'Globaler Logout'
+        help_text: 'Löscht die aktuelle Cookie-Sitzung, beendet alle Sitzungen, widerruft Entwickler-Tokens und macht alle E-Mails zur Bestätigung oder Zurücksetzung des Passworts ungültig.'
+        log_out_button: '=> core.ref.log_out'
+      hide_access_token: 'Token verstecken'
+      last_activity: 'Letzte Aktivität'
+      never: Niemals
+      new_access_token_button: '=> core.ref.new_token'
+      new_access_token_modal:
+        submit_button: 'Token erstellen'
+        title: '=> core.ref.new_token'
+        title_placeholder: Titel
+      revoke_access_token: Widerrufen
+      revoke_access_token_confirmation: '=> core.ref.generic_confirmation_message'
+      session_terminated: '{count, plural, one {Sitzung beendet} other {# Sitzungen beendet}}.'
+      session_termination_failed: 'Beim Beenden deiner Sitzungen ist ein Fehler aufgetreten.'
+      sessions_heading: 'Aktive Sitzungen'
+      show_access_token: 'Token anzeigen'
+      terminate_all_other_sessions: 'Beende alle anderen Sitzungen'
+      terminate_all_other_sessions_confirmation: '=> core.ref.generic_confirmation_message'
+      terminate_session: Beenden
+      title: '=> core.ref.security'
+      token_item_title: '{title} - {token}'
+      token_revoked: 'Token widerrufen.'
+      token_title_placeholder: /
     settings:
       account_heading: Konto
       change_email_button: '=> core.ref.change_email'
@@ -413,6 +459,7 @@ core:
       posts_empty_text: 'Es sieht so aus, als gäbe es hier keine Beiträge.'
       posts_link: '=> core.ref.posts'
       posts_load_more_button: '=> core.ref.load_more'
+      security_link: '=> core.ref.security'
       settings_link: '=> core.ref.settings'
     user_controls:
       button: Bearbeiten
@@ -442,6 +489,8 @@ core:
       dismiss_a11y_label: 'Warnung schließen'
     badge:
       hidden_tooltip: Versteckt
+    data_segment:
+      label: '{label}:'
     debug_button: Debug
     dropdown:
       toggle_dropdown_accessible_label: 'Dropdown-Menü umschalten'
@@ -461,6 +510,7 @@ core:
     error:
       dependent_extensions_message: 'Die Erweiterung {extension} kann nicht deaktiviert werden, bis folgende abhängige Erweiterungen deaktiviert wurden: {extensions}'
       extension_initialiation_failed_message: '{extension} konnte nicht initialisiert werden, überprüfe die Browser-Konsole für weitere Informationen.'
+      generic_cross_origin_message: 'Oops! Bei einer herkunftsübergreifenden Anfrage ist etwas schief gelaufen. Bitte lade die Seite neu und versuche es noch einmal.'
       generic_message: 'Oops! Da ist was schief gelaufen. Bitte die Seite neu laden oder noch mal versuchen.'
       missing_dependencies_message: 'Die Erweiterung {extension} kann nicht aktiviert werden, bis folgende abhängige Erweiterungen aktiviert wurden: {extensions}'
       not_found_message: 'Leider nichts gefunden.'
@@ -505,6 +555,7 @@ core:
     edit_user: 'Benutzer ändern'
     email: E-Mail
     extensions: Erweiterungen
+    generic_confirmation_message: 'Bist du sicher, dass du fortfahren willst? Diese Aktion kann nicht rückgängig gemacht werden.'
     icon: Symbol
     icon_text: 'Name des <a>FontAwesome</a>-Symbols eingeben, aber <em>mit</em> dem Prefix <code>fas fa-</code>.'
     load_more: 'Weitere laden'
@@ -512,6 +563,7 @@ core:
     log_in: Anmelden
     log_out: Abmelden
     mark_all_as_read: 'Alle als gelesen markieren'
+    new_token: 'Neuer Token'
     next_page: 'Nächste Seite'
     notifications: Benachrichtigungen
     okay: Okay
@@ -524,6 +576,8 @@ core:
     reset_your_password: 'Setze dein Passwort zurück'
     restore: Wiederherstellen
     save_changes: 'Änderungen speichern'
+    search_users: 'Benutzer suchen'
+    security: Sicherheit
     settings: Einstellungen
     sign_up: Registrieren
     some_others: '{count, plural, one {# weiterem} other {# weiteren}}'
