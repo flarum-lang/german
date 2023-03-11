@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+1.4.7 (2023-03-11)
+------------------
+
+**Allgemeine Änderungen**:
+
+* Flarum-Core Übersetzungen aktualisiert.
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`flarum/lock`](https://github.com/flarum/lock)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+
+
+Alle Änderungen: [1.4.6...1.4.7](https://github.com/flarum-lang/german/compare/1.4.6...1.4.7).
+
+
 1.4.6 (2022-12-05)
 ------------------
 
