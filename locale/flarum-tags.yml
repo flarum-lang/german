@@ -65,9 +65,9 @@ flarum-tags:
       tags_link: '=> flarum-tags.ref.tags'
       untagged_link: 'nicht markiert'
     post_stream:
-      added_and_removed_tags_text: '{username} hat {tagsAdded} hinzugefügt und {tagsRemoved} entfernt.'
-      added_tags_text: '{username} hat {tagsAdded} hinzugefügt.'
-      removed_tags_text: '{username} hat {tagsRemoved} entfernt.'
+      added_and_removed_tags_text: '{username} hat {tagsAdded} hinzugefügt und {tagsRemoved} entfernt ({time}).'
+      added_tags_text: '{username} hat {tagsAdded} hinzugefügt ({time}).'
+      removed_tags_text: '{username} hat {tagsRemoved} entfernt ({time}).'
       tags_text: '{count, plural, one {das Thema {tags}} other {die Themen {tags}}}'
     tag:
       meta_description_text: 'Alle Diskussionen mit dem {tag} Thema'

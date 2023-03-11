@@ -13,7 +13,7 @@ flarum-sticky:
       sticky_button: '=> flarum-sticky.ref.sticky'
       unsticky_button: 'Anpinnen zurücknehmen'
     post_stream:
-      discussion_stickied_text: '{username} hat die Diskussion angepinnt.'
-      discussion_unstickied_text: '{username} hat die Diskussion gelöst.'
+      discussion_stickied_text: '{username} hat die Diskussion angepinnt ({time}).'
+      discussion_unstickied_text: '{username} hat die Diskussion gelöst ({time}).'
   ref:
     sticky: Anpinnen

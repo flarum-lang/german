@@ -384,7 +384,7 @@ core:
       viewing_text: '{count, plural, one {{index} von {formattedCount} Beitrag} other {{index} von {formattedCount} Beiträgen}}'
     post_stream:
       discussion_renamed_old_tooltip: 'Der alte Titel war: "{old}"'
-      discussion_renamed_text: '{username} hat den Titel von {old} zu {new} geändert.'
+      discussion_renamed_text: '{username} hat den Titel zu {new} geändert ({time}).'
       load_more_button: '=> core.ref.load_more'
       reply_placeholder: '=> core.ref.write_a_reply'
       time_lapsed_text: '{period} später'

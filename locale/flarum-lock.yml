@@ -15,7 +15,7 @@ flarum-lock:
     notifications:
       discussion_locked_text: 'von {username} geschlossen'
     post_stream:
-      discussion_locked_text: '{username} hat die Diskussion geschlossen.'
-      discussion_unlocked_text: '{username} hat die Diskussion geöffnet.'
+      discussion_locked_text: '{username} hat die Diskussion geschlossen ({time}).'
+      discussion_unlocked_text: '{username} hat die Diskussion geöffnet ({time}).'
     settings:
       notify_discussion_locked_label: 'Jemand hat eine Diskussion von dir geschlossen'
