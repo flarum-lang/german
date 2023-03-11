@@ -5,8 +5,14 @@ CHANGELOG
 1.4.7 (XXXX-XX-XX)
 ------------------
 
+**Allgemeine Änderungen**:
+
+* Flarum-Core Übersetzungen aktualisiert.
+
+
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 
 
