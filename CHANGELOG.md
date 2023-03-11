@@ -12,6 +12,8 @@ CHANGELOG
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`flarum/lock`](https://github.com/flarum/lock)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 
