@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.4.8 (2023-03-13)
+------------------
+
+**Allgemeine Änderungen**:
+
+* Flarum-Core Übersetzungen aktualisiert.
+
+
+Alle Änderungen: [1.4.7...1.4.8](https://github.com/flarum-lang/german/compare/1.4.7...1.4.8).
+
+
 1.4.7 (2023-03-11)
 ------------------
 
