@@ -50,6 +50,10 @@ core:
       description: 'Dein Forum auf einen Blick.'
       io_error_message: 'Es konnte nicht in das Dateisystem geschrieben werden. Überprüfe die Berechtigungen deines Dateisystems und versuche es erneut. Oder versuche es über die Kommandozeile auszuführen.'
       status:
+        headers:
+          queue-driver: Queue-Treiber
+          scheduler-status: Scheduler
+          session-driver: Session-Treiber
         scheduler:
           active: Aktiv
           inactive: Inaktiv
