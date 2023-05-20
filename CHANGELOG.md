@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+1.4.9 (2023-05-20)
+------------------
+
+**Allgemeine Änderungen**:
+
+* Flarum-Core Übersetzungen aktualisiert.
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+
+
+Alle Änderungen: [1.4.8...1.4.9](https://github.com/flarum-lang/german/compare/1.4.8...1.4.9).
+
+
 1.4.8 (2023-03-13)
 ------------------
 
