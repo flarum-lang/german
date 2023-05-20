@@ -46,7 +46,14 @@ core:
       welcome_banner_heading: Willkommensnachricht
       welcome_banner_text: 'Text festlegen, der auf der Seite "Alle Diskussionen" erscheint, um Besucher zu begrüßen.'
     create_user:
+      email_confirmed_label: 'Benutzer muss diese E-Mail bestätigen'
       email_placeholder: '=> core.ref.email'
+      password_placeholder: '=> core.ref.password'
+      submit_and_create_another_button: 'Erstellen und weiteren hinzufügen'
+      submit_button: 'Benutzer erstellen'
+      title: 'Neuen Benutzer erstellen'
+      use_random_password: 'Zufälliges Passwort generieren'
+      username_placeholder: '=> core.ref.username'
     dashboard:
       clear_cache_button: 'Cache leeren'
       description: 'Dein Forum auf einen Blick.'
@@ -165,6 +172,7 @@ core:
       userlist_button: '=> core.admin.users.title'
       userlist_title: '=> core.admin.users.description'
     permissions:
+      allow_hide_own_posts_label: 'Löschen eigener Beiträge erlauben'
       allow_post_editing_label: 'Erlaube das Ändern von Beiträgen'
       allow_renaming_label: 'Erlaube Umbenennungen'
       create_access_token_label: 'Zugangstoken erstellen'
@@ -197,6 +205,7 @@ core:
       view_post_ips_label: 'IP-Adressen einsehen'
     permissions_controls:
       allow_indefinitely_button: Immer
+      allow_never_button: '=> core.ref.never'
       allow_some_minutes_button: '{count, plural, one {Für # Minute} other {Für # Minuten}}'
       allow_ten_minutes_button: 'Für 10 Minuten'
       allow_until_reply_button: 'Bis zur nächsten Antwort'
@@ -211,6 +220,7 @@ core:
       remove_button: '=> core.ref.remove'
       upload_button: 'Lade ein Bild hoch…'
     users:
+      create_user_button: 'Neuer Benutzer'
       description: 'Eine paginierte Liste aller Benutzer in deinem Forum.'
       grid:
         columns:
@@ -246,6 +256,10 @@ core:
       title: '=> core.ref.users'
       total_users: 'Benutzer insgesamt: {count}'
   api:
+    invalid_filter_type:
+      must_be_numeric_message: 'Der {filter} Filter muss numerisch sein.'
+      must_not_be_array_message: 'Der {filter} Filter darf kein Array sein.'
+      must_not_be_multidimensional_array_message: 'Der {filter} Filter darf kein mehrdimensionales Array sein.'
     invalid_username_message: 'Der Nutzername darf nur Buchstaben, Zahlen und Gedankenstriche enthalten.'
   email:
     activate_account:
@@ -414,7 +428,7 @@ core:
         log_out_button: '=> core.ref.log_out'
       hide_access_token: 'Token verstecken'
       last_activity: 'Letzte Aktivität'
-      never: Niemals
+      never: '=> core.ref.never'
       new_access_token_button: '=> core.ref.new_token'
       new_access_token_modal:
         submit_button: 'Token erstellen'
@@ -514,6 +528,7 @@ core:
       username_heading: '=> core.ref.username'
       username_label: '=> core.ref.username'
     error:
+      circular_dependencies_message: 'Zirkuläre Abhängigkeiten erkannt: {extensions}. Breche ab. Bitte deaktiviere eine der Erweiterungen und versuche es erneut.'
       dependent_extensions_message: 'Die Erweiterung {extension} kann nicht deaktiviert werden, bis folgende abhängige Erweiterungen deaktiviert wurden: {extensions}'
       extension_initialiation_failed_message: '{extension} konnte nicht initialisiert werden, überprüfe die Browser-Konsole für weitere Informationen.'
       generic_cross_origin_message: 'Oops! Bei einer herkunftsübergreifenden Anfrage ist etwas schief gelaufen. Bitte lade die Seite neu und versuche es noch einmal.'
@@ -569,6 +584,7 @@ core:
     log_in: Anmelden
     log_out: Abmelden
     mark_all_as_read: 'Alle als gelesen markieren'
+    never: Nie
     new_token: 'Neuer Token'
     next_page: 'Nächste Seite'
     notifications: Benachrichtigungen
