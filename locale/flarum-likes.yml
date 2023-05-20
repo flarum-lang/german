@@ -21,6 +21,7 @@ flarum-likes:
       unlike_link: 'Gefällt mir nicht mehr'
       you_text: '=> Dir'
     post_likes:
+      load_more_button: '=> core.ref.load_more'
       title: 'Mitglieder, denen dieser Beitrag gefällt'
     settings:
       notify_post_liked_label: 'Jemandem gefällt dein Beitrag'

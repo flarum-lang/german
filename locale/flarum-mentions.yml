@@ -25,12 +25,16 @@ flarum-mentions:
       reply_to_post_text: 'Antwort auf #{number}'
     group_mention:
       deleted_text: '[unbekannte Gruppe]'
+    mentioned_by:
+      load_more_button: '=> core.ref.load_more'
+      title: 'Antworten auf diesen Beitrag'
     notifications:
       group_mentioned_text: '{username} hat eine Gruppe erwähnt, in der du Mitglied bist'
       others_text: '=> core.ref.some_others'
       post_mentioned_text: '{username} {count, plural, one {hat} other {haben}} auf deinen Beitrag geantwortet'
       user_mentioned_text: '{username} hat dich erwähnt'
     post:
+      mentioned_by_more_text: '{count} weitere Antworten.'
       mentioned_by_self_text: '{users} {count, plural, one {hast} other {haben}} auf diesen Beitrag geantwortet.'
       mentioned_by_text: '{users} {count, plural, one {hat} other {haben}} auf diesen Beitrag geantwortet.'
       others_text: '=> core.ref.some_others'

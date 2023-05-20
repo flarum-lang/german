@@ -45,6 +45,8 @@ core:
       title: Grundeinstellungen
       welcome_banner_heading: Willkommensnachricht
       welcome_banner_text: 'Text festlegen, der auf der Seite "Alle Diskussionen" erscheint, um Besucher zu begrüßen.'
+    create_user:
+      email_placeholder: '=> core.ref.email'
     dashboard:
       clear_cache_button: 'Cache leeren'
       description: 'Dein Forum auf einen Blick.'
