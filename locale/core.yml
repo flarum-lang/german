@@ -173,7 +173,7 @@ core:
       userlist_title: '=> core.admin.users.description'
     permissions:
       allow_hide_own_posts_label: 'Löschen eigener Beiträge erlauben'
-      allow_post_editing_label: 'Erlaube das Ändern von Beiträgen'
+      allow_post_editing_label: 'Ändern eigener Beiträge erlauben'
       allow_renaming_label: 'Erlaube Umbenennungen'
       create_access_token_label: 'Zugangstoken erstellen'
       create_heading: Erstellen
