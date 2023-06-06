@@ -5,7 +5,7 @@
 flarum-subscriptions:
   email:
     new_post:
-      body: "Hallo {recipient_display_name}!\n\n{poster_display_name} hat einen Beitrag erstellt in einer Diskussion, der du folgst: {title}.\n\nSchau dir den folgenden Link an um die neue Aktivität zu sehen:\n{url}\n\n---\n\n{content}\n\n---\n\nDu wirst keine weiteren Benachrichtigungen über diese Diskussion erhalten, bis du wieder auf dem Laufenden bist.\n"
+      body: "Hallo {recipient_display_name}!\n\n{poster_display_name} hat einen Beitrag in einer Diskussion verfasst, der du folgst: {title}.\n\nFolge dem untenstehenden Link, um die neue Aktivität zu sehen:\n{url}\n\n---\n\n{content}\n\n---\n\nDu wirst keine weiteren Benachrichtigungen über diese Diskussion erhalten, bis du wieder auf dem Laufenden bist.\n"
       subject: '[Neuer Beitrag] {title}'
   forum:
     badge:
@@ -20,22 +20,22 @@ flarum-subscriptions:
     index:
       following_link: 'Du folgst'
     notifications:
-      new_post_text: '{username} schrieb'
+      new_post_text: '{username} hat geschrieben'
     settings:
-      follow_after_reply_label: 'Folge Diskussionen automatisch, an denen du dich beteiligt hast'
-      notify_for_all_posts_label: 'Benachrichtige über jeden neuen Beitrag anstatt nur über den letzten in einer Diskussion'
-      notify_new_post_label: 'Jemand hat in einer Diskussion gepostet, der du folgst'
+      follow_after_reply_label: 'Diskussionen automatisch folgen, an denen du teilgenommen hast'
+      notify_for_all_posts_label: 'Benachrichtige über jeden neuen Beitrag und nicht nur über den letzten in einer Diskussion'
+      notify_new_post_label: 'Jemand hat in einer Diskussion geantwortet, der du folgst'
     sub_controls:
       follow_button: '=> flarum-subscriptions.ref.follow'
       following_button: '=> flarum-subscriptions.ref.following'
       following_text: 'Benachrichtigung bei allen Antworten.'
       ignoring_button: '=> flarum-subscriptions.ref.ignoring'
-      ignoring_text: 'Niemals benachrichtigen und von der Liste verstecken.'
+      ignoring_text: 'Niemals benachrichtigen und in der Liste verstecken.'
       not_following_button: 'Nicht folgen'
       not_following_text: 'Benachrichtigung nur bei @Erwähnungen.'
       notify_alert_tooltip: 'Benachrichtigung im Forum bei neuen Beiträgen'
       notify_email_tooltip: 'Benachrichtigung per E-Mail bei neuen Beiträgen'
   ref:
     follow: Folgen
-    following: Folgen
+    following: Gefolgt
     ignoring: Ignorieren

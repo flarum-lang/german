@@ -5,7 +5,7 @@
 flarum-approval:
   admin:
     permissions:
-      approve_posts_label: 'Beitrag genehmigen'
+      approve_posts_label: 'Beiträge genehmigen'
       reply_without_approval_label: 'Auf eine Diskussion antworten ohne Genehmigung'
       start_discussions_without_approval_label: 'Diskussion starten ohne Genehmigung'
   forum:

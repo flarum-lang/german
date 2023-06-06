@@ -5,12 +5,12 @@
 core:
   admin:
     appearance:
-      colored_header_label: 'Header einfärben'
-      colors_heading: Farben
-      colors_primary_label: 'Primäre Farbe'
-      colors_secondary_label: 'Sekundäre Farbe'
-      colors_text: 'Wähle zwei Farben, um den Grundton des Forums zu ändern. Die erste Farbe ist für die Akzente, die zweite für die Hintergrundelemente.'
-      custom_footer_heading: 'Individuelle Fußzeile'
+      colored_header_label: 'Kopfzeile einfärben'
+      colors_heading: Farbgebung
+      colors_primary_label: Primärfarbe
+      colors_secondary_label: Sekundärfarbe
+      colors_text: 'Wähle zwei Farben, um den Grundton des Forums zu ändern. Die erste Farbe dient für die Akzente, die zweite für die Hintergrundelemente.'
+      custom_footer_heading: 'Individueller Fußbereich'
       custom_footer_text: '=> core.ref.custom_footer_text'
       custom_header_heading: 'Individuelle Kopfzeile'
       custom_header_text: '=> core.ref.custom_header_text'
@@ -22,7 +22,7 @@ core:
       edit_css_button: 'Individuelles CSS bearbeiten'
       edit_footer_button: '=> core.ref.custom_footer_title'
       edit_header_button: '=> core.ref.custom_header_title'
-      enter_hex_message: 'Gib eine Farbe im hexadezimalen Format ein.'
+      enter_hex_message: 'Gib eine Farbe im Hexadezimalformat ein.'
       favicon_heading: Favicon
       favicon_text: 'Lade ein Bild hoch, welches als Favicon für das Forum verwendet wird.'
       logo_heading: Logo
@@ -30,29 +30,29 @@ core:
       title: Erscheinungsbild
     basics:
       all_discussions_label: '=> core.ref.all_discussions'
-      default_language_heading: Sprache
+      default_language_heading: Standardsprache
       description: 'Lege den Forentitel, die Sprache und weitere Grundeinstellungen fest.'
-      display_name_heading: Anzeigenamen
-      display_name_text: 'Wähle den Treiber, der verwendet wird um den Anzeigename der Benutzer zu bestimmen. Standardmäßig wird der Nutzername angezeigt.'
+      display_name_heading: Anzeigename
+      display_name_text: 'Wähle den Treiber, der verwendet wird, um den Anzeigenamen der Benutzer zu bestimmen. Standardmäßig wird der Benutzername angezeigt.'
       forum_description_heading: 'Beschreibung des Forums'
-      forum_description_text: 'Kurze Beschreibung des Forums. Diese wird in den meta-Tags für Suchmaschinen erscheinen.'
+      forum_description_text: 'Kurze Beschreibung des Forums. Diese erscheint in den Meta-Tags für Suchmaschinen.'
       forum_title_heading: 'Titel des Forums'
       home_page_heading: Startseite
-      home_page_text: 'Seite auswählen, die Benutzer beim Besuch des Forums zuerst sehen.'
-      show_language_selector_label: 'Sprach-Auswahlmenü zeigen'
+      home_page_text: 'Wähle die Seite aus, die Benutzer beim Besuch des Forums zuerst sehen.'
+      show_language_selector_label: 'Sprachauswahlmenü zeigen'
       slug_driver_heading: 'Slug-Treiber: {model}'
-      slug_driver_text: 'Wähle den Treiber, welcher die Foren-URL''s mit einem "Slug" ausstattet.'
+      slug_driver_text: 'Wähle den Treiber, welcher die Foren-URLs mit einem "Slug" ausstattet.'
       title: Grundeinstellungen
       welcome_banner_heading: Willkommensnachricht
-      welcome_banner_text: 'Text festlegen, der auf der Seite "Alle Diskussionen" erscheint, um Besucher zu begrüßen.'
+      welcome_banner_text: 'Lege den Text fest, der auf der Seite "Alle Diskussionen" erscheint, um Besucher zu begrüßen.'
     create_user:
       email_confirmed_label: 'Benutzer muss diese E-Mail bestätigen'
       email_placeholder: '=> core.ref.email'
       password_placeholder: '=> core.ref.password'
       submit_and_create_another_button: 'Erstellen und weiteren hinzufügen'
-      submit_button: 'Benutzer erstellen'
-      title: 'Neuen Benutzer erstellen'
-      use_random_password: 'Zufälliges Passwort generieren'
+      submit_button: 'Benutzer anlegen'
+      title: 'Neuen Benutzer anlegen'
+      use_random_password: 'Zufälliges Passwort erzeugen'
       username_placeholder: '=> core.ref.username'
     dashboard:
       clear_cache_button: 'Cache leeren'
@@ -70,12 +70,12 @@ core:
       title: Dashboard
       tools_button: Werkzeuge
     debug-warning:
-      detail: "Wenn der <code>Debugmodus</code> aktiv ist wird Flarum seine <code>JavaScript</code> und <code>CSS</code> Assets bei jedem Seitenabruf neu erstellen, und könnte außerdem potentiell weitere Informationen durchsickern lassen, wie zum Beispiel Datenbankgeheimnisse, Umgebungsvariablen, etc.\n\nEs wird dringend empfohlen in Produktion <code>debug</code> in deiner <code>config.php</code> Datei zu deaktivieren. Siehe in der <link>Flarum Dokumentation</link> für weitere Informationen.\n"
+      detail: "Sofern der <code>Debugmodus</code> aktiv ist, wird Flarum seine <code>JavaScript</code> und <code>CSS</code> Ressourcen bei jedem Seitenabruf neu generieren und könnte zudem potenziell weitere Informationen preisgeben, etwa Datenbankgeheimnisse, Umgebungsvariablen usw.\n\nEs wird dringend empfohlen, den <code>debug</code> in deiner <code>config.php</code> Datei in einem Produktionskontext zu deaktivieren. Konsultiere die <link>Flarum Dokumentation</link> für zusätzliche Informationen.\n"
       label: 'Debugmodus aktiv'
     edit_css:
-      customize_text: 'Passe das Aussehen deines Forums mit eigenem Less/CSS-Code an, welcher zusätzlich zu Flarums <a>Standard-Design</a> angewendet wird.'
+      customize_text: 'Passe das Erscheinungsbild deines Forums mit eigenem Less/CSS-Code an, welcher zusätzlich zu Flarums <a>Standard-Design</a> angewendet wird.'
       submit_button: '=> core.ref.save_changes'
-      title: 'Bearbeite eigenes CSS'
+      title: 'Bearbeitung des eigenen CSS'
     edit_footer:
       customize_text: '=> core.ref.custom_footer_text'
       submit_button: '=> core.ref.save_changes'
@@ -83,13 +83,13 @@ core:
     edit_group:
       color_label: '=> core.ref.color'
       delete_button: 'Gruppe löschen'
-      delete_confirmation: 'Bist du sicher, dass du diese Gruppe löschen möchtest? Die Gruppenmitglieder werden nicht gelöscht.'
-      hide_label: 'Im Forum verstecken'
+      delete_confirmation: 'Bist du sicher, dass du diese Gruppe löschen möchtest? Die Mitglieder der Gruppe werden nicht gelöscht.'
+      hide_label: 'Im Forum ausblenden'
       icon_label: '=> core.ref.icon'
       icon_text: '=> core.ref.icon_text'
       name_label: Name
-      plural_placeholder: 'Mehrzahl (z.B. Mods)'
-      singular_placeholder: 'Einzahl (z.B. Mod)'
+      plural_placeholder: 'Pluralform (z.B. Moderatoren)'
+      singular_placeholder: 'Singularform (z.B. Moderator)'
       submit_button: '=> core.ref.save_changes'
       title: 'Gruppe erstellen'
     edit_header:
@@ -98,10 +98,10 @@ core:
       title: '=> core.ref.custom_header_title'
     email:
       addresses_heading: Adressen
-      description: 'Konfiguriere den Mail-Treiber, die Einstellungen und die zu verwendenden Adressen, um E-Mails zu versenden.'
-      driver_heading: 'Wähle einen Treiber'
+      description: 'Konfiguriere den Mail-Treiber, die Parameter und die zu verwendenden Adressen für den Versand von E-Mails.'
+      driver_heading: 'Treiber auswählen'
       driver_label: Treiber
-      from_label: Absender
+      from_label: Absenderadresse
       mail_encryption_label: Verschlüsselung
       mail_host_label: Host
       mail_mailgun_domain_label: Domäne
@@ -111,29 +111,29 @@ core:
       mail_port_label: Port
       mail_username_label: '=> core.ref.username'
       mailgun_heading: 'Mailgun Einstellungen'
-      not_sending_message: 'Flarum versendet derzeit keine E-Mails. Bitte überprüfe deine E-Mail Konfiguration auf Korrektheit.'
-      send_test_mail_button: Versenden
-      send_test_mail_heading: 'Test-Mail versenden'
-      send_test_mail_success: 'Test-Mail wurde erfolgreich versandt!'
+      not_sending_message: 'Flarum sendet derzeit keine E-Mails. Bitte überprüfe die Korrektheit deiner E-Mail-Konfiguration.'
+      send_test_mail_button: Absenden
+      send_test_mail_heading: 'Test-E-Mail senden'
+      send_test_mail_success: 'Test-E-Mail wurde erfolgreich versandt!'
       send_test_mail_text: 'Versende eine E-Mail mit der gegebenen Konfiguration an deine Adresse, {email}.'
       smtp_heading: 'SMTP Einstellungen'
       title: '=> core.ref.email'
     extension:
       configure_scopes: 'Bereiche konfigurieren'
-      confirm_purge: 'Beim Bereinigen werden alle Datenbankeinträge und Assets entfernt, die sich auf die Erweiterung beziehen. Die Erweiterung wird nicht deinstalliert; das muss über Composer getan werden. Bist Du sicher, dass Du fortfahren willst?'
-      confirm_uninstall: 'Bei der Deinstallation werden alle Datenbankeinträge und Assets, die mit der Erweiterung in Verbindung stehen, entfernt. Bist du sicher, dass du fortfahren möchtest?'
+      confirm_purge: 'Die Bereinigung entfernt sämtliche Datenbankeinträge und Assets, die sich auf die Erweiterung beziehen. Die Erweiterung wird nicht deinstalliert; dies muss über Composer geschehen. Bist du sicher, dass du fortfahren willst?'
+      confirm_uninstall: 'Die Deinstallation entfernt alle Datenbankeinträge und Assets, die mit der Erweiterung in Verbindung stehen. Bist du sicher, dass du fortfahren möchtest?'
       disabled: Deaktiviert
-      enable_to_see: 'Aktiviere die Erweiterung um Einstellungen zu sehen und zu ändern.'
+      enable_to_see: 'Aktiviere die Erweiterung, um Einstellungen einsehen und verändern zu können.'
       enabled: Aktiviert
       info_links:
         discuss: Diskussion
         documentation: Dokumentation
         donate: Spenden
-        source: Quelltext
+        source: Quellcode
         support: Support
         website: Webseite
-      no_permissions: 'Diese Erweiterung hat keine Berechtigungen.'
-      no_settings: 'Diese Erweiterung hat keine Einstellungen.'
+      no_permissions: 'Diese Erweiterung verfügt über keine Berechtigungen.'
+      no_settings: 'Diese Erweiterung verfügt über keine Einstellungen.'
       open_modal: 'Einstellungen öffnen'
       permissions_title: Berechtigungen
       purge_button: Bereinigen
@@ -172,35 +172,35 @@ core:
       userlist_button: '=> core.admin.users.title'
       userlist_title: '=> core.admin.users.description'
     permissions:
-      allow_hide_own_posts_label: 'Löschen eigener Beiträge erlauben'
-      allow_post_editing_label: 'Ändern eigener Beiträge erlauben'
+      allow_hide_own_posts_label: 'Erlauben, eigene Beiträge zu löschen'
+      allow_post_editing_label: 'Erlauben, eigene Beiträge zu ändern'
       allow_renaming_label: 'Erlaube Umbenennungen'
       create_access_token_label: 'Zugangstoken erstellen'
       create_heading: Erstellen
-      delete_discussions_forever_label: 'Diskussion endgültig löschen'
-      delete_discussions_label: 'Diskussion löschen'
-      delete_posts_forever_label: 'Beitrag endgültig löschen'
-      delete_posts_label: 'Beitrag löschen'
+      delete_discussions_forever_label: 'Diskussionen endgültig löschen'
+      delete_discussions_label: 'Diskussionen löschen'
+      delete_posts_forever_label: 'Beiträge endgültig löschen'
+      delete_posts_label: 'Beiträge löschen'
       description: 'Konfiguriere, wer was machen und sehen darf.'
-      edit_posts_label: 'Beitrag bearbeiten'
-      edit_users_credentials_label: 'Nutzer-Zugangsdaten bearbeiten'
-      edit_users_groups_label: 'Gruppen von Nutzern bearbeiten'
-      edit_users_label: 'Nutzer-Attribute bearbeiten'
+      edit_posts_label: 'Beiträge bearbeiten'
+      edit_users_credentials_label: 'Zugangsdaten der Benutzer bearbeiten'
+      edit_users_groups_label: 'Gruppen von Benutzern bearbeiten'
+      edit_users_label: 'Attribute der Benutzer bearbeiten'
       global_heading: Global
       moderate_access_tokens_label: 'Zugangstokens verwalten'
       moderate_heading: Moderation
       new_group_button: 'Neue Gruppe'
       participate_heading: Teilnehmer
-      post_without_throttle_label: 'Mehrfach ohne Wartezeit antworten'
+      post_without_throttle_label: 'Mehrfachantworten ohne Wartezeit gestatten'
       read_heading: Lesen
-      rename_discussions_label: 'Diskussion umbenennen'
-      reply_to_discussions_label: 'Antworte auf die Diskussion'
+      rename_discussions_label: 'Diskussionen umbenennen'
+      reply_to_discussions_label: 'Auf Diskussionen antworten'
       search_users_label: '=> core.ref.search_users'
       sign_up_label: Registrierung
-      start_discussions_label: 'Diskussion beginnen'
+      start_discussions_label: 'Diskussionen starten'
       title: Berechtigungen
-      view_forum_label: 'Forum einsehen (Diskussionen und Nutzer)'
-      view_hidden_groups_label: 'Versteckte Gruppen Symbole sehen'
+      view_forum_label: 'Forum ansehen (Diskussionen und Benutzer)'
+      view_hidden_groups_label: 'Symbole verborgener Gruppen ansehen'
       view_last_seen_at_label: 'Zuletzt online einsehen'
       view_post_ips_label: 'IP-Adressen einsehen'
     permissions_controls:
@@ -212,15 +212,15 @@ core:
       everyone_button: Jeder
       members_button: '=> core.group.members'
       signup_closed_button: Geschlossen
-      signup_open_button: Offen
+      signup_open_button: Geöffnet
     settings:
       saved_message: 'Deine Änderungen wurden gespeichert.'
       submit_button: '=> core.ref.save_changes'
     upload_image:
       remove_button: '=> core.ref.remove'
-      upload_button: 'Lade ein Bild hoch…'
+      upload_button: 'Ein Bild hochladen…'
     users:
-      create_user_button: 'Neuer Benutzer'
+      create_user_button: 'Neuen Benutzer erstellen'
       description: 'Eine paginierte Liste aller Benutzer in deinem Forum.'
       grid:
         columns:
@@ -229,20 +229,20 @@ core:
           edit_user:
             button: '=> core.ref.edit'
             title: '=> core.ref.edit_user'
-            tooltip: '{username} editieren'
+            tooltip: '{username} bearbeiten'
           email:
             title: '=> core.ref.email'
-            visibility_hide: 'E-Mail-Adresse verbergen'
+            visibility_hide: 'E-Mail-Adresse verstecken'
             visibility_show: 'E-Mail-Adresse anzeigen'
           group_badges:
             no_badges: Keine
             title: Gruppen
           join_time:
-            title: Beigetreten
+            title: Beitrittsdatum
           user_id:
             title: ID
           username:
-            profile_link_tooltip: 'Profil von {username} besuchen'
+            profile_link_tooltip: 'Profil von {username} besichtigen'
             title: '=> core.ref.username'
         invalid_column_content: Ungültig
       pagination:
@@ -254,25 +254,25 @@ core:
         page_counter: 'Seite {current} von {total}'
       search_placeholder: '=> core.ref.search_users'
       title: '=> core.ref.users'
-      total_users: 'Benutzer insgesamt: {count}'
+      total_users: 'Gesamtzahl der Benutzer: {count}'
   api:
     invalid_filter_type:
       must_be_numeric_message: 'Der {filter} Filter muss numerisch sein.'
       must_not_be_array_message: 'Der {filter} Filter darf kein Array sein.'
       must_not_be_multidimensional_array_message: 'Der {filter} Filter darf kein mehrdimensionales Array sein.'
-    invalid_username_message: 'Der Nutzername darf nur Buchstaben, Zahlen und Gedankenstriche enthalten.'
+    invalid_username_message: 'Der Benutzername darf nur Buchstaben, Zahlen und Gedankenstriche enthalten.'
   email:
     activate_account:
-      body: "Hallo {username}!\n\nJemand (hoffentlich du!) hat sich im Forum {forum} mit dieser E-Mail-Adresse registriert.\n\nWenn du es warst, folge bitte dem Link, um das Konto zu aktivieren:\n{url}\n\nWenn du das nicht warst, ignoriere diese E-Mail.\n"
-      subject: 'Aktiviere dein neues Konto'
+      body: "Hallo {username}!\n\njemand (hoffentlich du!) hat sich im Forum {forum} mit dieser E-Mail-Adresse registriert.\n\nWenn du es warst, folge bitte dem Link, um das Konto zu aktivieren:\n{url}\n\nWenn du das nicht warst, ignoriere diese E-Mail.\n"
+      subject: 'Aktivierung deines neuen Kontos'
     confirm_email:
-      body: "Hallo {username}!\n\nJemand (hoffentlich du!) hat die E-Mail-Adresse im Forum {forum} geändert.\n\nWenn du das warst, folge bitte dem Link, um die neue E-Mail-Adresse zu bestätigen:\n{url}\n\nWenn du das nicht warst, ignoriere diese E-Mail.\n"
-      subject: 'E-Mail-Adresse bestätigen'
+      body: "Hallo {username}!\n\njemand (hoffentlich du!) hat die E-Mail-Adresse im Forum {forum} geändert.\n\nWenn du das warst, folge bitte dem Link, um die neue E-Mail-Adresse zu bestätigen:\n{url}\n\nWenn du das nicht warst, ignoriere diese E-Mail.\n"
+      subject: 'Bestätigung deiner E-Mail-Adresse'
     reset_password:
-      body: "Hallo {username}!\n\nJemand (hoffentlich du!) hat das Zurücksetzen des Passwortes im Forum {forum} beantragt.\n\nWenn du das warst, folge bitte dem Link, um ein neues Passwort festzulegen:\n{url}\n\nWenn du das nicht warst, ignoriere diese E-Mail.\n"
-      subject: 'Passwort zurücksetzen'
+      body: "Hallo {username}!\n\njemand (hoffentlich du!) hat das Zurücksetzen des Passwortes im Forum {forum} beantragt.\n\nWenn du das warst, folge bitte dem Link, um ein neues Passwort festzulegen:\n{url}\n\nWenn du das nicht warst, ignoriere diese E-Mail.\n"
+      subject: 'Zurücksetzung deines Passwortes'
     send_test:
-      body: "Hallo {username}!\n\nDies ist eine Test E-Mail, um zu bestätigen, dass deine Flarum E-Mail-Konfiguration richtig funktioniert.\n\nWenn du das warst, dann bedeutet diese E-Mail, dass deine Konfiguration funktioniert.\n\nWenn du das nicht warst, ignoriere diese E-Mail.\n"
+      body: "Hallo {username}!\n\nDies ist eine Test E-Mail zur Überprüfung, ob deine Flarum E-Mail-Konfiguration richtig funktioniert.\n\nWenn du das warst, dann zeigt diese E-Mail an, dass deine Konfiguration funktioniert.\n\nWenn du das nicht warst, ignoriere diese E-Mail.\n"
       subject: 'Flarum E-Mail Test'
   forum:
     change_email:
@@ -284,7 +284,7 @@ core:
       title: '=> core.ref.change_email'
     change_password:
       send_button: 'Passwort zurücksetzen'
-      text: 'Klicke auf den Button, um einen Link zum Zurücksetzen des Passwortes zu erhalten.'
+      text: 'Klicke auf den Button, um einen Link zum Zurücksetzen deines Passwortes zu erhalten.'
       title: '=> core.ref.change_password'
     composer:
       close_tooltip: Schließen
@@ -293,28 +293,28 @@ core:
       minimize_tooltip: Minimieren
       preview_tooltip: Vorschau
     composer_discussion:
-      body_placeholder: 'Beitrag schreiben…'
-      discard_confirmation: 'Der Beitrag wurde nicht abgeschickt. Soll er verworfen werden?'
-      submit_button: 'Beitrag abschicken'
+      body_placeholder: 'Beitrag verfassen…'
+      discard_confirmation: 'Dein Beitrag wurde nicht versendet. Möchtest du ihn verwerfen?'
+      submit_button: 'Beitrag senden'
       title: '=> core.ref.start_a_discussion'
       title_placeholder: 'Titel der Diskussion'
     composer_edit:
-      discard_confirmation: 'Die Änderungen wurden nicht übernommen. Sollen sie verworfen werden?'
+      discard_confirmation: 'Deine Änderungen wurden nicht übernommen. Möchtest du sie verwerfen?'
       edited_message: 'Deine Änderungen wurden gespeichert.'
-      post_link: 'Beitrag #{number} in {discussion}'
+      post_link: 'Beitrag Nr. {number} in {discussion}'
       submit_button: '=> core.ref.save_changes'
       view_button: '=> core.ref.view'
     composer_reply:
       body_placeholder: '=> core.ref.write_a_reply'
-      discard_confirmation: 'Die Antwort wurde nicht abgeschickt. Soll sie verworfen werden?'
-      posted_message: 'Die Antwort wurde abgeschickt.'
-      submit_button: 'Antwort abschicken'
+      discard_confirmation: 'Deine Antwort wurde nicht versendet. Möchtest du sie verwerfen?'
+      posted_message: 'Deine Antwort wurde versendet.'
+      submit_button: 'Antwort senden'
       view_button: '=> core.ref.view'
     discussion_controls:
       cannot_reply_button: Antworten
-      cannot_reply_text: 'Du hast keine Erlaubnis auf die Diskussion zu antworten.'
+      cannot_reply_text: 'Du hast keine Berechtigung, auf diese Diskussion zu antworten.'
       delete_button: '=> core.ref.delete'
-      delete_confirmation: 'Soll die Diskussion gelöscht werden?'
+      delete_confirmation: 'Möchtest du die Diskussion wirklich löschen?'
       delete_forever_button: '=> core.ref.delete_forever'
       log_in_to_reply_button: '=> core.ref.reply'
       rename_button: '=> core.ref.rename'
@@ -322,7 +322,7 @@ core:
       restore_button: '=> core.ref.restore'
       toggle_dropdown_accessible_label: 'Dropdown-Menü für Diskussionsaktionen umschalten'
     discussion_list:
-      empty_text: 'Noch keine Diskussionen in diesem Forum.'
+      empty_text: 'Es gibt noch keine Diskussionen in diesem Forum.'
       load_more_button: '=> core.ref.load_more'
       mark_as_read_tooltip: 'Als gelesen markieren'
       replied_text: '{username} {ago}'
@@ -332,10 +332,10 @@ core:
     forgot_password:
       dismiss_button: '=> core.ref.okay'
       email_placeholder: '=> core.ref.email'
-      email_sent_message: 'Wenn die von dir eingegebene E-Mail-Adresse auf dieser Seite registriert ist, schicken wir dir eine E-Mail mit einem Link, mit dem du dein Passwort zurücksetzen kannst. Bitte überprüfe gegebenenfalls auch den Spam-Ordner wenn sie nicht innerhalb der nächsten Minuten ankommt.'
-      not_found_message: 'Es gibt keinen Nutzer mit dieser E-Mail-Adresse.'
+      email_sent_message: 'Falls die von dir eingegebene E-Mail-Adresse auf dieser Seite registriert ist, senden wir dir eine E-Mail mit einem Link, mit dem du dein Passwort zurücksetzen kannst. Bitte prüfe auch deinen Spam-Ordner, falls die E-Mail nicht innerhalb der nächsten Minuten ankommt.'
+      not_found_message: 'Es existiert kein Benutzer mit dieser E-Mail-Adresse.'
       submit_button: 'Passwort wiederherstellen'
-      text: 'Bitte gebe deine E-Mail-Adresse ein, um einen Link zum Zurücksetzen des Passwortes zu erhalten.'
+      text: 'Bitte gebe deine E-Mail-Adresse ein, um einen Link zum Zurücksetzen deines Passwortes zu erhalten.'
       title: 'Passwort vergessen'
     header:
       admin_button: Administration
@@ -344,15 +344,15 @@ core:
       log_in_link: '=> core.ref.log_in'
       log_out_button: '=> core.ref.log_out'
       profile_button: Profil
-      search_clear_button_accessible_label: 'Suchabfrage löschen'
+      search_clear_button_accessible_label: 'Suchanfrage löschen'
       search_placeholder: Suche
-      search_role_label: 'Suche in Forum'
-      session_dropdown_accessible_label: 'Dropdown-Menü der Sitzungsoptionen umschalten'
+      search_role_label: 'Suche im Forum'
+      session_dropdown_accessible_label: 'Dropdown-Menü für Sitzungsoptionen umschalten'
       settings_button: '=> core.ref.settings'
       sign_up_link: '=> core.ref.sign_up'
     index:
       all_discussions_link: '=> core.ref.all_discussions'
-      cannot_start_discussion_button: 'Kann keine Diskussion starten'
+      cannot_start_discussion_button: 'Kann keine Diskussion beginnen'
       mark_all_as_read_confirmation: 'Bist du dir sicher, dass du alle Diskussionen als gelesen markieren willst?'
       mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
       meta_title_text: '=> core.ref.all_discussions'
@@ -370,11 +370,11 @@ core:
       forgot_password_link: 'Passwort vergessen?'
       invalid_login_message: 'Die Anmeldedaten sind nicht korrekt.'
       password_placeholder: '=> core.ref.password'
-      remember_me_label: 'Eingeloggt bleiben'
+      remember_me_label: 'Angemeldet bleiben'
       sign_up_text: 'Noch keinen Account? <a>Registrieren</a>'
       submit_button: '=> core.ref.log_in'
       title: '=> core.ref.log_in'
-      username_or_email_placeholder: 'Nutzername oder E-Mail'
+      username_or_email_placeholder: 'Benutzername oder E-Mail-Adresse'
     notifications:
       delete_all_confirm: 'Bist du sicher, dass du alle Benachrichtigungen löschen willst? Diese Aktion kann nicht rückgängig gemacht werden'
       delete_all_tooltip: 'Alle Benachrichtigungen löschen'
@@ -388,7 +388,7 @@ core:
     post:
       edited_text: Bearbeitet
       edited_tooltip: '{ago} geändert von {username}'
-      number_tooltip: 'Beitrag #{number}'
+      number_tooltip: 'Beitrag Nr. {number}'
     post_controls:
       delete_button: '=> core.ref.delete'
       delete_confirmation: 'Bist du dir sicher, dass du diesen Beitrag für immer löschen willst? Dies kann nicht rückgängig gemacht werden.'
@@ -396,14 +396,14 @@ core:
       edit_button: '=> core.ref.edit'
       hide_confirmation: 'Bist du dir sicher, dass du diesen Beitrag löschen willst?'
       restore_button: '=> core.ref.restore'
-      toggle_dropdown_accessible_label: 'Dropdown-Menü für Beitragssteuerungen umschalten'
+      toggle_dropdown_accessible_label: 'Dropdown-Menü für Beitragsoptionen umschalten'
     post_scrubber:
       now_link: 'Neuester Beitrag'
       original_post_link: 'Erster Beitrag'
       unread_text: '{count} ungelesen'
       viewing_text: '{count, plural, one {{index} von {formattedCount} Beitrag} other {{index} von {formattedCount} Beiträgen}}'
     post_stream:
-      discussion_renamed_old_tooltip: 'Der alte Titel war: "{old}"'
+      discussion_renamed_old_tooltip: 'Der frühere Titel lautete: "{old}"'
       discussion_renamed_text: '{username} hat den Titel zu {new} geändert ({time}).'
       load_more_button: '=> core.ref.load_more'
       reply_placeholder: '=> core.ref.write_a_reply'
@@ -417,16 +417,16 @@ core:
       users_heading: '=> core.ref.users'
     security:
       browser_on_operating_system: '{browser} auf {os}'
-      cannot_terminate_current_session: 'Die aktuelle aktive Sitzung kann nicht beendet werden. Melde dich stattdessen ab.'
+      cannot_terminate_current_session: 'Die derzeit aktive Sitzung kann nicht beendet werden. Melde dich stattdessen ab.'
       created: Erstellt
-      current_active_session: 'Aktuelle aktive Sitzung'
-      developer_tokens_heading: Entwickler-Tokens
-      empty_text: 'Es sieht so aus als gäbe es hier nichts zu sehen.'
+      current_active_session: 'Derzeit aktive Sitzung'
+      developer_tokens_heading: Entwickler-Token
+      empty_text: 'Es scheint, dass es hier nichts zu sehen gibt.'
       global_logout:
-        heading: 'Globaler Logout'
-        help_text: 'Löscht die aktuelle Cookie-Sitzung, beendet alle Sitzungen, widerruft Entwickler-Tokens und macht alle E-Mails zur Bestätigung oder Zurücksetzung des Passworts ungültig.'
+        heading: 'Globaler Abmeldung'
+        help_text: 'Löscht die derzeitige Cookie-Sitzung, beendet alle Sitzungen, widerruft Entwickler-Token und macht alle E-Mails zur Bestätigung oder Zurücksetzung des Passworts ungültig.'
         log_out_button: '=> core.ref.log_out'
-      hide_access_token: 'Token verstecken'
+      hide_access_token: 'Token verbergen'
       last_activity: 'Letzte Aktivität'
       never: '=> core.ref.never'
       new_access_token_button: '=> core.ref.new_token'
@@ -440,7 +440,7 @@ core:
       session_termination_failed: 'Beim Beenden deiner Sitzungen ist ein Fehler aufgetreten.'
       sessions_heading: 'Aktive Sitzungen'
       show_access_token: 'Token anzeigen'
-      terminate_all_other_sessions: 'Beende alle anderen Sitzungen'
+      terminate_all_other_sessions: 'Alle anderen Sitzungen beenden'
       terminate_all_other_sessions_confirmation: '=> core.ref.generic_confirmation_message'
       terminate_session: Beenden
       title: '=> core.ref.security'
@@ -462,7 +462,7 @@ core:
     sign_up:
       dismiss_button: '=> core.ref.okay'
       email_placeholder: '=> core.ref.email'
-      log_in_text: 'Schon registriert? <a>Anmelden</a>'
+      log_in_text: 'Bereits registriert? <a>Anmelden</a>'
       password_placeholder: '=> core.ref.password'
       submit_button: '=> core.ref.sign_up'
       title: '=> core.ref.sign_up'
@@ -476,7 +476,7 @@ core:
       in_discussion_text: 'In {discussion}'
       joined_date_text: 'Beitritt {ago}'
       online_text: Online
-      posts_empty_text: 'Es sieht so aus, als gäbe es hier keine Beiträge.'
+      posts_empty_text: 'Es scheint, dass es hier keine Beiträge gibt.'
       posts_link: '=> core.ref.posts'
       posts_load_more_button: '=> core.ref.load_more'
       security_link: '=> core.ref.security'
@@ -485,24 +485,24 @@ core:
       button: Bearbeiten
       delete_button: '=> core.ref.delete'
       delete_confirmation: 'Soll dieser Benutzer wirklich gelöscht werden? Die Beiträge werden NICHT gelöscht.'
-      delete_error_message: 'Löschen des Nutzers <i>{username} ({email})</i> fehlgeschlagen'
-      delete_success_message: 'Nutzer <i>{username} ({email})</i> wurde gelöscht'
+      delete_error_message: 'Das Löschen des Benutzers <i>{username} ({email})</i> ist fehlgeschlagen'
+      delete_success_message: 'Benutzer <i>{username} ({email})</i> wurde erfolgreich gelöscht'
       edit_button: '=> core.ref.edit'
       toggle_dropdown_accessible_label: 'Dropdown-Menü der Benutzersteuerung umschalten'
     user_email_confirmation:
       alert_message: '=> core.ref.confirmation_email_sent'
-      resend_button: 'Bestätigungsmail erneut senden'
+      resend_button: 'Bestätigungs-E-Mail erneut senden'
       sent_message: Versendet
     welcome_hero:
       hide: 'Willkommensnachricht ausblenden'
   group:
-    admin: Admin
+    admin: Administrator
     admins: Administratoren
     guest: Gast
     guests: Gäste
     member: Mitglied
     members: Mitglieder
-    mod: Mod
+    mod: Moderator
     mods: Moderatoren
   lib:
     alert:
@@ -519,7 +519,7 @@ core:
       email_heading: '=> core.ref.email'
       email_label: '=> core.ref.email'
       groups_heading: Gruppen
-      nothing_available: 'Du darfst diesen Benutzer nicht bearbeiten.'
+      nothing_available: 'Du bist nicht berechtigt, diesen Benutzer zu bearbeiten.'
       password_heading: '=> core.ref.password'
       password_label: '=> core.ref.password'
       set_password_label: 'Neues Passwort festlegen'
@@ -528,17 +528,17 @@ core:
       username_heading: '=> core.ref.username'
       username_label: '=> core.ref.username'
     error:
-      circular_dependencies_message: 'Zirkuläre Abhängigkeiten erkannt: {extensions}. Breche ab. Bitte deaktiviere eine der Erweiterungen und versuche es erneut.'
-      dependent_extensions_message: 'Die Erweiterung {extension} kann nicht deaktiviert werden, bis folgende abhängige Erweiterungen deaktiviert wurden: {extensions}'
+      circular_dependencies_message: 'Zirkuläre Abhängigkeiten erkannt: {extensions}. Prozess abgebrochen. Bitte deaktiviere eine der Erweiterungen und versuche es erneut.'
+      dependent_extensions_message: 'Die Erweiterung {extension} kann nicht deaktiviert werden, bis die folgenden abhängigen Erweiterungen deaktiviert wurden: {extensions}'
       extension_initialiation_failed_message: '{extension} konnte nicht initialisiert werden, überprüfe die Browser-Konsole für weitere Informationen.'
-      generic_cross_origin_message: 'Oops! Bei einer herkunftsübergreifenden Anfrage ist etwas schief gelaufen. Bitte lade die Seite neu und versuche es noch einmal.'
-      generic_message: 'Oops! Da ist was schief gelaufen. Bitte die Seite neu laden oder noch mal versuchen.'
-      missing_dependencies_message: 'Die Erweiterung {extension} kann nicht aktiviert werden, bis folgende abhängige Erweiterungen aktiviert wurden: {extensions}'
-      not_found_message: 'Leider nichts gefunden.'
-      payload_too_large_message: 'Die Nutzlast der Anfrage war zu groß.'
+      generic_cross_origin_message: 'Ups! Bei einer Cross-Origin-Anfrage ist etwas schief gelaufen. Bitte lade die Seite neu und versuche es erneut.'
+      generic_message: 'Ups! Da ist was schief gelaufen. Bitte lade die Seite neu oder versuche es erneut.'
+      missing_dependencies_message: 'Die Erweiterung {extension} kann nicht aktiviert werden, bis die folgenden abhängigen Erweiterungen aktiviert wurden: {extensions}'
+      not_found_message: 'Leider wurde nichts gefunden.'
+      payload_too_large_message: 'Die Datenmenge der Anfrage war zu groß.'
       permission_denied_message: 'Du hast keine Berechtigung dies zu tun.'
-      rate_limit_exceeded_message: 'Nicht so schnell. Bitte versuche es gleich erneut.'
-      render_failed_message: 'Beim Anzeigen dieses Inhalts ist ein Fehler aufgetreten. Wenn Du ein Benutzer bist, versuche es später erneut. Wenn Du ein Administrator bist, sehe in Deinen Flarum-Protokolldateien nach, um weitere Informationen zu erhalten.'
+      rate_limit_exceeded_message: 'Nicht so schnell. Bitte versuche es in Kürze erneut.'
+      render_failed_message: 'Beim Anzeigen dieses Inhalts ist ein Fehler aufgetreten. Wenn du ein Benutzer bist, versuche es später erneut. Wenn du ein Administrator bist, überprüfe deine Flarum-Protokolldateien, um weitere Informationen zu erhalten.'
     loading_indicator:
       accessible_label: '=> core.ref.loading'
     meta_titles:
@@ -547,7 +547,7 @@ core:
     modal:
       close: Schließen
     nav:
-      drawer_button: 'Navigationsschublade öffnen'
+      drawer_button: 'Navigationsleiste öffnen'
     number_suffix:
       kilo_text: K
       mega_text: M
@@ -559,28 +559,28 @@ core:
       deleted_text: '[gelöscht]'
   ref:
     all_discussions: 'Alle Diskussionen'
-    change_email: 'E-Mail ändern'
+    change_email: 'E-Mail-Adresse ändern'
     change_password: 'Passwort ändern'
     color: Farbe
     confirm_email: 'E-Mail bestätigen'
     confirm_password: 'Passwort bestätigen'
-    confirmation_email_sent: 'Wir haben eine Bestätigungsmail an {email} gesendet. Bitte schaue in deinem Spam-Ordner nach, falls nichts ankommen sollte.'
-    custom_footer_text: 'Füge eigenen HTML-Code hinzu, welcher am Ende der Seite eingefügt wird.'
+    confirmation_email_sent: 'Wir haben eine Bestätigungsmail an {email} gesendet. Bitte überprüfe deinen Spam-Ordner, falls du keine E-Mail erhalten hast.'
+    custom_footer_text: 'Füge eigenen HTML-Code hinzu, der am Ende der Seite eingefügt wird.'
     custom_footer_title: 'Individuelle Fußzeile bearbeiten'
-    custom_header_text: 'Füge eigenen HTML-Code hinzu, welcher über der Flarum-Kopfzeile eingefügt wird.'
+    custom_header_text: 'Füge eigenen HTML-Code hinzu, der über der Flarum-Kopfzeile eingefügt wird.'
     custom_header_title: 'Individuelle Kopfzeile bearbeiten'
     delete: Löschen
     delete_forever: 'Endgültig löschen'
     discussions: Diskussionen
     edit: Ändern
-    edit_user: 'Benutzer ändern'
+    edit_user: 'Benutzer bearbeiten'
     email: E-Mail
     extensions: Erweiterungen
     generic_confirmation_message: 'Bist du sicher, dass du fortfahren willst? Diese Aktion kann nicht rückgängig gemacht werden.'
     icon: Symbol
-    icon_text: 'Name des <a>FontAwesome</a>-Symbols eingeben, aber <em>mit</em> dem Prefix <code>fas fa-</code>.'
-    load_more: 'Weitere laden'
-    loading: 'Seite lädt…'
+    icon_text: 'Gebe den Namen des <a>FontAwesome</a>-Symbols ein, aber <em>mit</em> dem Prefix <code>fas fa-</code>.'
+    load_more: 'Mehr laden'
+    loading: 'Ladevorgang läuft…'
     log_in: Anmelden
     log_out: Abmelden
     mark_all_as_read: 'Alle als gelesen markieren'
@@ -591,11 +591,11 @@ core:
     okay: Okay
     password: Passwort
     posts: Beiträge
-    previous_page: 'vorherige Seite'
+    previous_page: 'Vorherige Seite'
     remove: Entfernen
     rename: Umbenennen
     reply: Antworten
-    reset_your_password: 'Setze dein Passwort zurück'
+    reset_your_password: 'Dein Passwort zurücksetzen'
     restore: Wiederherstellen
     save_changes: 'Änderungen speichern'
     search_users: 'Benutzer suchen'
@@ -604,7 +604,7 @@ core:
     sign_up: Registrieren
     some_others: '{count, plural, one {# weiterem} other {# weiteren}}'
     start_a_discussion: 'Diskussion starten'
-    username: Nutzername
+    username: Benutzername
     users: Benutzer
     view: Anzeigen
     write_a_reply: 'Eine Antwort schreiben…'
@@ -616,19 +616,19 @@ core:
         disable: Deaktivieren
         empty: 'Keine installierten Erweiterungen'
         enable: Aktivieren
-        name: Erweiterungsname
+        name: 'Name der Erweiterung'
         package_name: Paketname
         version: Version
       info:
-        caption: Anwendungs-Info
+        caption: Anwendungsinformationen
       title: Administration
     confirm_email:
       submit_button: '=> core.ref.confirm_email'
-      text: 'Klicke auf die Schaltfläche unten, um die E-Mail-Adresse Deines Kontos zu bestätigen.'
+      text: 'Klicke auf die Schaltfläche unten, um die E-Mail-Adresse deines Kontos zu bestätigen.'
       title: '=> core.ref.confirm_email'
     content:
       javascript_disabled_message: 'Dieses Forum ist für moderne Browser mit JavaScript optimiert.'
-      load_error_message: 'Beim Laden dieser Seite ist etwas schiefgelaufen.'
+      load_error_message: 'Beim Laden dieser Seite ist ein Fehler aufgetreten.'
       loading_text: '=> core.ref.loading'
     discussion:
       next_page_button: '=> core.ref.next_page'
@@ -637,18 +637,18 @@ core:
       csrf_token_mismatch: 'Du warst zu lange inaktiv.'
       csrf_token_mismatch_return_link: 'Gehe zurück um es erneut zu versuchen'
       invalid_confirmation_token: 'Der Bestätigungslink wurde bereits verwendet oder ist ungültig.'
-      not_authenticated: 'Du hast keine Berechtigung auf diese Seite zuzugreifen. Versuche dich erneut einzuloggen.'
+      not_authenticated: 'Du hast keine Berechtigung, auf diese Seite zuzugreifen. Versuche dich erneut anzumelden.'
       not_found: 'Die angeforderte Seite konnte nicht gefunden werden.'
       not_found_return_link: 'Zurück zu {forum}'
-      permission_denied: 'Du hast keine Berechtigung auf diese Seite zuzugreifen.'
-      unknown: 'Beim Versuch, diese Seite zu laden, ist ein Fehler aufgetreten.'
+      permission_denied: 'Du hast keine Berechtigung, auf diese Seite zuzugreifen.'
+      unknown: 'Beim Laden dieser Seite ist ein Fehler aufgetreten.'
     index:
       all_discussions_heading: '=> core.ref.all_discussions'
       next_page_button: '=> core.ref.next_page'
       previous_page_button: '=> core.ref.previous_page'
     log_out:
       log_out_button: '=> core.ref.log_out'
-      log_out_confirmation: 'Bist du sicher, dass du dich von {forum} ausloggen willst?'
+      log_out_confirmation: 'Bist du sicher, dass du dich von {forum} abmelden willst?'
       title: '=> core.ref.log_out'
     meta_titles:
       with_page_title: '{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Seite # - {forumName}}}'

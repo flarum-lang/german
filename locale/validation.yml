@@ -20,7 +20,7 @@ validation:
     tag_count_primary: 'Anzahl an Hauptthemen'
     tag_count_secondary: 'Anzahl an Unterthemen'
     title: Titel
-    username: Nutzername
+    username: Benutzername
   before: ':attribute muss ein Datum vor dem :date sein.'
   before_or_equal: ':attribute muss ein Datum vor dem :date oder gleich dem :date sein.'
   between:

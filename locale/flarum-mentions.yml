@@ -7,15 +7,15 @@ flarum-mentions:
     permissions:
       mention_groups_label: 'Gruppen erwähnen'
     settings:
-      allow_username_format_label: 'Format für die Erwähnung des Nutzernamens (@Nutzername) zulassen'
-      allow_username_format_text: "Das aktuelle Format für Nutzernamen-Erwähnungen ist @\"Anzeigename\"#ID.\nDiese Einstellungen erlaubt die Verwendung des alten @Nutzername-Formats, wird beim speichern aber trotzdem in das neue Format konvertiert.\n"
+      allow_username_format_label: 'Format für die Erwähnung des Benutzernamens (@Benutzername) zulassen'
+      allow_username_format_text: "Das aktuelle Format für Benutzernamen-Erwähnungen ist @\"Anzeigename\"#ID.\nDiese Einstellung erlaubt die Verwendung des alten @Nutzername-Formats, wird beim speichern aber trotzdem in das neue Format konvertiert.\n"
   email:
     group_mentioned:
-      body: "Hey {recipient_display_name}!\n\n{mentioner_display_name} hat in {title} eine Gruppe erwähnt, in der du ein Mitglied bist.\n\n{url}\n\n---\n\n{content}\n"
-      subject: '{mentioner_display_name} hat in {title} eine Gruppe erwähnt, in der du ein Mitglied bist'
+      body: "Hallo {recipient_display_name}!\n\n{mentioner_display_name} hat in {title} eine Gruppe erwähnt, in der du Mitglied bist.\n\n{url}\n\n---\n\n{content}\n"
+      subject: '{mentioner_display_name} hat in {title} eine Gruppe erwähnt, in der du Mitglied bist'
     post_mentioned:
       body: "Hallo {recipient_display_name}!\n\n{replier_display_name} hat auf deinen Beitrag (#{post_number}) in {title} geantwortet.\n\n{url}\n\n---\n\n{content}\n"
-      subject: '{replier_display_name} hat auf deinen Post in {title} geantwortet'
+      subject: '{replier_display_name} hat auf deinen Beitrag in {title} geantwortet'
     user_mentioned:
       body: "Hallo {recipient_display_name}!\n\n{mentioner_display_name} hat dich in der Diskussion {title} erwähnt.\n\n{url}\n\n---\n\n{content}\n"
       subject: '{mentioner_display_name} hat dich in {title} erwähnt'

@@ -18,6 +18,6 @@ nearata-minecraft-avatars:
     submit_button: 'Änderungen speichern'
     title: 'Minecraft Avatar'
     use_button: 'Minecraft Avatar verwenden'
-    username_not_found: 'Nutzername nicht gefunden.'
-    username_uuid_not_valid: 'Ungültiger Nutzername oder UUID.'
+    username_not_found: 'Benutzername nicht gefunden.'
+    username_uuid_not_valid: 'Ungültiger Benutzername oder UUID.'
     userpage_nav_button: 'Minecraft Avatar'

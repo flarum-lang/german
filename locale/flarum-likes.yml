@@ -19,10 +19,10 @@ flarum-likes:
       liked_by_text: '{count, plural, one {{users} gefällt das} other {{users} gefällt das}}.'
       others_link: '=> core.ref.some_others'
       unlike_link: 'Gefällt mir nicht mehr'
-      you_text: '=> Dir'
+      you_text: Dir
     post_likes:
       load_more_button: '=> core.ref.load_more'
-      title: 'Mitglieder, denen dieser Beitrag gefällt'
+      title: 'Benutzer, denen dieser Beitrag gefällt'
     settings:
       notify_post_liked_label: 'Jemandem gefällt dein Beitrag'
     user:
