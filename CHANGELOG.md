@@ -2,6 +2,33 @@ CHANGELOG
 =========
 
 
+1.4.10 (2023-06-06)
+-------------------
+
+**Allgemeine Änderungen**:
+
+* Flarum-Core Übersetzungen aktualisiert.
+* Validation Übersetzungen aktualisiert.
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`flarum/approval`](https://github.com/flarum/approval)
+* [`flarum/emoji`](https://github.com/flarum/emoji)
+* [`flarum/flags`](https://github.com/flarum/flags)
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/lock`](https://github.com/flarum/lock)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
+* [`nearata/flarum-ext-minecraft-avatars`](https://github.com/Nearata/flarum-ext-minecraft-avatars)
+
+
+Alle Änderungen: [1.4.9...1.4.10](https://github.com/flarum-lang/german/compare/1.4.9...1.4.10).
+
+
 1.4.9 (2023-05-20)
 ------------------
 
