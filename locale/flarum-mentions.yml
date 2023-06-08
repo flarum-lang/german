@@ -44,7 +44,7 @@ flarum-mentions:
     post_mention:
       deleted_text: '[unbekannt]'
     settings:
-      notify_group_mentioned_label: 'Jemand erwähnt in einem Beitrag eine Gruppe, in der ich Mitglied bin'
+      notify_group_mentioned_label: 'Jemand erwähnt in einem Beitrag eine Gruppe, in der du Mitglied bist'
       notify_post_mentioned_label: 'Jemand hat auf deinen Beitrag geantwortet'
       notify_user_mentioned_label: 'Jemand hat dich in einem Beitrag erwähnt'
     user:

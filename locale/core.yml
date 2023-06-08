@@ -423,7 +423,7 @@ core:
       developer_tokens_heading: Entwickler-Token
       empty_text: 'Es scheint, dass es hier nichts zu sehen gibt.'
       global_logout:
-        heading: 'Globaler Abmeldung'
+        heading: 'Globale Abmeldung'
         help_text: 'Löscht die derzeitige Cookie-Sitzung, beendet alle Sitzungen, widerruft Entwickler-Token und macht alle E-Mails zur Bestätigung oder Zurücksetzung des Passworts ungültig.'
         log_out_button: '=> core.ref.log_out'
       hide_access_token: 'Token verbergen'
@@ -455,7 +455,7 @@ core:
       notifications_heading: '=> core.ref.notifications'
       notify_by_email_heading: '=> core.ref.email'
       notify_by_web_heading: Web
-      notify_discussion_renamed_label: 'Wenn jemand eine Diskussion ändert, die ich gestartet habe'
+      notify_discussion_renamed_label: 'Wenn jemand eine Diskussion ändert, die du gestartet hast'
       privacy_disclose_online_label: 'Meinen Online-Status anzeigen'
       privacy_heading: Privatsphäre
       title: '=> core.ref.settings'
