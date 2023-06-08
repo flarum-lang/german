@@ -2,6 +2,27 @@ CHANGELOG
 =========
 
 
+1.5.0 (XXXX-XX-XX)
+------------------
+
+**Allgemeine Änderungen**:
+
+* Flarum-Core Übersetzungen aktualisiert.
+
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`flarum/bbcode`](https://github.com/flarum/bbcode)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+
+
+Alle Änderungen: [1.4.10...1.5.0](https://github.com/flarum-lang/german/compare/1.4.10...1.5.0).
+
+
 1.4.10 (2023-06-06)
 -------------------
 
