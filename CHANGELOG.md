@@ -5,7 +5,7 @@ CHANGELOG
 1.5.0 (2023-06-12)
 ------------------
 
-**Added suport for formal variant of translations**.
+**Added support for formal variant of translations**.
 
 **Allgemeine Änderungen**:
 
