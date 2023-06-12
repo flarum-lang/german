@@ -43,10 +43,10 @@ Note: To get your GitHub account linked in the commits on this repository, use a
 
 ### Core
 
-| Component | Status |
-| --- | --- |
-| [`core`](https://github.com/flarum/core) | [![Translation status](https://weblate.rob006.net/widgets/flarum/de/core/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/core/de/) |
-| `validation` | [![Translation status](https://weblate.rob006.net/widgets/flarum/de/validation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/validation/de/) |
+| Component | Status<br />(Standard) | Status<br />(Formell) |
+| --- | --- | --- |
+| [`core`](https://github.com/flarum/core) | [![Translation status](https://weblate.rob006.net/widgets/flarum/de/core/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/core/de/) | [![Translation status](https://weblate.rob006.net/widgets/flarum/de@formal/core/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/core/de@formal/) |
+| `validation` | [![Translation status](https://weblate.rob006.net/widgets/flarum/de/validation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/validation/de/) | [![Translation status](https://weblate.rob006.net/widgets/flarum/de@formal/validation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/validation/de@formal/) |
 
 ### Extensions
 
