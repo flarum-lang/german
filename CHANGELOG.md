@@ -2,6 +2,29 @@ CHANGELOG
 =========
 
 
+1.5.0 (2023-06-12)
+------------------
+
+**Added suport for formal variant of translations**.
+
+**Allgemeine Änderungen**:
+
+* Flarum-Core Übersetzungen aktualisiert.
+
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`flarum/bbcode`](https://github.com/flarum/bbcode)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+
+
+Alle Änderungen: [1.4.10...1.5.0](https://github.com/flarum-lang/german/compare/1.4.10...1.5.0).
+
+
 1.4.10 (2023-06-06)
 -------------------
 
@@ -170,5 +193,3 @@ Alle Änderungen: [1.4.1...1.4.2](https://github.com/flarum-lang/german/compare/
 
 
 All changes: [1.4.0...1.4.1](https://github.com/flarum-lang/german/compare/1.4.0...1.4.1).
-
-
