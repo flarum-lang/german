@@ -2,8 +2,10 @@ CHANGELOG
 =========
 
 
-1.5.0 (XXXX-XX-XX)
+1.5.0 (2023-06-12)
 ------------------
+
+**Added suport for formal variant of translations**.
 
 **Allgemeine Änderungen**:
 
@@ -191,5 +193,3 @@ Alle Änderungen: [1.4.1...1.4.2](https://github.com/flarum-lang/german/compare/
 
 
 All changes: [1.4.0...1.4.1](https://github.com/flarum-lang/german/compare/1.4.0...1.4.1).
-
-
