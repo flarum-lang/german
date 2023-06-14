@@ -20,6 +20,8 @@ Use Composer in the root directory of your forum:
 composer require flarum-lang/german
 ```
 
+After the installation, you can change the language to formal German through your admin control panel, under this extensions settings menu. Select "Formell" in the language dropdown menu.
+
 See also on [Packagist](https://packagist.org/packages/flarum-lang/german).
 
 ## Updating
@@ -35,15 +37,19 @@ php flarum cache:clear
 
 All translations are managed on this [Weblate instance](https://weblate.rob006.net/engage/flarum/de/), no coding skills or Git knowledge is required to contribute. Flarum internal strings are handled in the 'core' component, otherwise select the extension you want to translate. You can use the search function on a components page to quickly find specific strings you wish to translate or update.
 
+For translations that differ between formal and informal language we have a separate [Weblate repository](https://weblate.rob006.net/engage/flarum/de@formal/). Please only submit translations here if the formal translation differs from the informal variant. They get merged during export, meaning that translations included in the main repository do not need to be duplicated into the formal repository.
+
 Additions and improvements to the translations are very welcome, all help is greatly appreciated!
 
 Note: To get your GitHub account linked in the commits on this repository, use an email that's associated with your GitHub account during Weblate signup.
 
 ## Compatibility
 
+The formal translation progress does not count translations within the standard translation, as they get merged during export. If the progress is 100% for standard and higher than 0% for formal, it is likely to properly include a formal translation.
+
 ### Core
 
-| Component | Status<br />(Standard) | Status<br />(Formell) |
+| Component | Status<br />(Standard) | Status<br />(Formal) |
 | --- | --- | --- |
 | [`core`](https://github.com/flarum/core) | [![Translation status](https://weblate.rob006.net/widgets/flarum/de/core/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/core/de/) | [![Translation status](https://weblate.rob006.net/widgets/flarum/de@formal/core/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/core/de@formal/) |
 | `validation` | [![Translation status](https://weblate.rob006.net/widgets/flarum/de/validation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/validation/de/) | [![Translation status](https://weblate.rob006.net/widgets/flarum/de@formal/validation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/validation/de@formal/) |
@@ -54,7 +60,7 @@ We always fully support all offically bundled Flarum extensions.
 
 <!-- all-extensions-list-start -->
 
-| Erweiterung | Status<br />(Standard) | Status<br />(Formell) |
+| Erweiterung | Status<br />(Standard) | Status<br />(Formal) |
 | --- | --- | --- |
 | [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) | [![Status der Übersetzung](https://weblate.rob006.net/widgets/flarum/de/acpl-lscache/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/acpl-lscache/de/) | [![Status der Übersetzung](https://weblate.rob006.net/widgets/flarum/de@formal/acpl-lscache/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/acpl-lscache/de@formal/) |
 | [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) | [![Status der Übersetzung](https://weblate.rob006.net/widgets/flarum/de/acpl-mobile-tab/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/acpl-mobile-tab/de/) | [![Status der Übersetzung](https://weblate.rob006.net/widgets/flarum/de@formal/acpl-mobile-tab/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/acpl-mobile-tab/de@formal/) |
