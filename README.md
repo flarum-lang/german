@@ -60,7 +60,7 @@ We always fully support all offically bundled Flarum extensions.
 
 <!-- all-extensions-list-start -->
 
-| Erweiterung | Status<br />(Standard) | Status<br />(Formal) |
+| Erweiterung | Status<br />(Standard) | Status<br />(Formell) |
 | --- | --- | --- |
 | [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) | [![Status der Übersetzung](https://weblate.rob006.net/widgets/flarum/de/acpl-lscache/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/acpl-lscache/de/) | [![Status der Übersetzung](https://weblate.rob006.net/widgets/flarum/de@formal/acpl-lscache/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/acpl-lscache/de@formal/) |
 | [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) | [![Status der Übersetzung](https://weblate.rob006.net/widgets/flarum/de/acpl-mobile-tab/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/acpl-mobile-tab/de/) | [![Status der Übersetzung](https://weblate.rob006.net/widgets/flarum/de@formal/acpl-mobile-tab/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/acpl-mobile-tab/de@formal/) |
