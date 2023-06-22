@@ -7,7 +7,7 @@ the-turk-flamoji:
     custom_emojis_section:
       edit_emoji:
         delete_emoji_button: 'Emoji löschen'
-        delete_emoji_confirmation: 'Sind Sie sicher, dass Sie dieses Emoji löschen möchten?'
+        delete_emoji_confirmation: 'Bist du sicher, dass du dieses Emoji löschen möchten?'
         emoji_title_label: Emoji-Titel
         modal_title: 'Emoji hinzufügen'
         path_or_url_label: 'Pfad oder URL'
@@ -18,7 +18,7 @@ the-turk-flamoji:
         load_more_button: '=> core.forum.post_stream.load_more_button'
       export_json_button: 'JSON exportieren'
       heading_title: 'Benutzerdefinierte Emojis'
-      import_emojis_message: 'Damit werden nur Emoji-Konfigurationen importiert. Sie müssen Emoji-Bilder manuell hochladen.'
+      import_emojis_message: 'Damit werden nur Emoji-Konfigurationen importiert. Du musst Emoji-Bilder manuell hochladen.'
       import_json_button: 'JSON importieren'
     settings:
       auto_hide_label: 'Automatisches Ausblenden'
@@ -53,7 +53,7 @@ the-turk-flamoji:
       show_variants_label: 'Varianten anzeigen'
       show_variants_text: 'Einige Emojis haben Hauttonvarianten. Wenn ein Emoji in der Auswahlliste ausgewählt wird, das Varianten hat, erscheint ein Popup-Fenster, in dem der Benutzer die gewünschte Variante auswählen kann.'
       specify_categories_label: 'Kategorien auswählen'
-      specify_categories_text: 'Sie können hier eine Liste von Kategorien angeben, und die Auswahl wird nur diese Kategorien anzeigen.'
+      specify_categories_text: 'Du kannst hier eine Liste von Kategorien angeben, und die Auswahl wird nur diese Kategorien anzeigen.'
   forum:
     composer:
       emoji_tooltip: 'Emoji einfügen'
