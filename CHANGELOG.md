@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.6.0 (XXXX-XX-XX)
+------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
+
+
+Alle Änderungen: [1.5.0...1.6.0](https://github.com/flarum-lang/german/compare/1.5.0...1.6.0).
+
+
 1.5.0 (2023-06-12)
 ------------------
 
