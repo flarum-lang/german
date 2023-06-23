@@ -7,7 +7,7 @@ the-turk-flamoji:
     custom_emojis_section:
       edit_emoji:
         delete_emoji_button: 'Emoji löschen'
-        delete_emoji_confirmation: 'Bist du sicher, dass du dieses Emoji löschen möchten?'
+        delete_emoji_confirmation: 'Bist du sicher, dass du dieses Emoji löschen möchtest?'
         emoji_title_label: Emoji-Titel
         modal_title: 'Emoji hinzufügen'
         path_or_url_label: 'Pfad oder URL'
