@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.6.1 (XXXX-XX-XX)
+------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
+
+
+Alle Änderungen: [1.6.0...1.6.1](https://github.com/flarum-lang/german/compare/1.6.0...1.6.1).
+
+
 1.6.0 (2023-06-22)
 ------------------
 
