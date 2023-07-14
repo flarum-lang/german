@@ -7,7 +7,13 @@ CHANGELOG
 
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
+* [`annonny/flarum-dice`](https://github.com/mizhiyugan529/flarum-dice)
 * [`blomstra/fontawesome`](https://github.com/blomstra/flarum-ext-fontawesome)
+* [`clarkwinkelmann/flarum-ext-ipsum-autocomplete`](https://github.com/clarkwinkelmann/flarum-ext-ipsum-autocomplete)
+* [`marchccc/flarum-ext-mentions-group-users`](https://github.com/Marchccc/flarum-ext-mentions-group-users)
+* [`matteociaroni/flarum-public-suspensions`](https://github.com/matteociaroni/flarum-public-suspensions)
+* [`widayn/flarum-avatar-cropper`](https://github.com/WiDayn/flarum-avatar-cropper)
+* [`ziiven/flarum-post-number`](https://github.com/Ziiven/flarum-post-number)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
@@ -16,12 +22,16 @@ CHANGELOG
 * [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
 * [`clarkwinkelmann/flarum-ext-mailing`](https://github.com/clarkwinkelmann/flarum-ext-mailing)
 * [`clarkwinkelmann/flarum-ext-passwordless`](https://github.com/clarkwinkelmann/flarum-ext-passwordless)
+* [`datlechin/flarum-signup-button`](https://github.com/datlechin/flarum-signup-button)
 * [`flamarkt/backoffice`](https://github.com/flamarkt/backoffice)
 * [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
 * [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users)
 * [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
 * [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
+* [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)
+* [`justoverclock/discussion-info`](https://github.com/justoverclockl/discussions-info)
+* [`spookygames/flarum-ext-auth-keycloak`](https://github.com/spookygames/flarum-ext-auth-keycloak)
 * [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
 
 
