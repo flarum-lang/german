@@ -2,15 +2,30 @@ CHANGELOG
 =========
 
 
-1.6.1 (XXXX-XX-XX)
+1.7.0 (XXXX-XX-XX)
 ------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`blomstra/fontawesome`](https://github.com/blomstra/flarum-ext-fontawesome)
+
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`askvortsov/flarum-moderator-warnings`](https://github.com/askvortsov1/flarum-moderator-warnings)
+* [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
+* [`clarkwinkelmann/flarum-ext-mailing`](https://github.com/clarkwinkelmann/flarum-ext-mailing)
+* [`clarkwinkelmann/flarum-ext-passwordless`](https://github.com/clarkwinkelmann/flarum-ext-passwordless)
+* [`flamarkt/backoffice`](https://github.com/flamarkt/backoffice)
+* [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
+* [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users)
+* [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
 * [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
 
 
-Alle Änderungen: [1.6.0...1.6.1](https://github.com/flarum-lang/german/compare/1.6.0...1.6.1).
+Alle Änderungen: [1.6.0...1.7.0](https://github.com/flarum-lang/german/compare/1.6.0...1.7.0).
 
 
 1.6.0 (2023-06-22)
