@@ -11,6 +11,7 @@ flarum-ext-auth-keycloak:
       delegate_avatars_label: 'Avatare delegieren'
       encryption_algorithm_label: Verschlüsselungsalgorithmus
       encryption_key_label: 'Verschlüsselungsschlüssel (oder Zertifikat)'
+      keycloak_version_label: 'Keycloak Version'
       realm_label: Bereich
       role_mapping_label: 'Zuordnung von Rolle zu Gruppe'
       server_url_label: Server-URL

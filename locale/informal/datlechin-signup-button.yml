@@ -4,4 +4,4 @@
 
 datlechin-signup-button:
   forum:
-    sign_up: '=> core.ref.sign_up'
+    sign_up: Registrieren

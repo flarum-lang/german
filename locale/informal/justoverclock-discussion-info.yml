@@ -9,3 +9,4 @@ justoverclock-discussion-info:
     createdAt: 'Erstellt am'
     lastReadAt: 'Zuletzt gelesen'
     participantCount: Teilnehmer
+    tag: Tags
