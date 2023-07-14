@@ -25,6 +25,8 @@ fof-links:
     links:
       create_button: '=> fof-links.ref.create_link'
       links: '=> fof-links.ref.links'
+    settings:
+      show_icons_only_on_tablet: 'Icons nur auf Tablet-Bildschirmen anzeigen'
   ref:
     create_link: 'Link erstellen'
     links: Links

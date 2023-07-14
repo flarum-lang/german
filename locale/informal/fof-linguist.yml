@@ -88,6 +88,8 @@ fof-linguist:
       validation: Validierungsfehler
     locales:
       all: Alle
+    permissions:
+      view_string_keys: 'Schlüssel für Übersetzungsstrings anzeigen'
     placeholder:
       all-locales: 'Ein hier definierter Text wird in allen Sprachen angezeigt'
       hint: 'Ursprünglicher Wert:'

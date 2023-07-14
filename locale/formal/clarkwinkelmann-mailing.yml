@@ -16,6 +16,7 @@ clarkwinkelmann-mailing:
       mail_all: 'E-Mail senden'
       mail_individual: 'Diesen Nutzer mailen'
     modal_mail:
+      as_html_label: 'Als HTML senden'
       default_subject: '=> clarkwinkelmann-mailing.ref.default_subject'
       message_label: Nachricht
       recipients_label: Empfänger

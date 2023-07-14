@@ -7,7 +7,7 @@ fof-merge-discussions:
     permissions:
       merge_discussions_label: 'Diskussionen zusammenführen'
     settings:
-      search_result_help: 'Wie viele Diskussionen zurückgegeben werden sollen, wenn im Modal `Diskussionen zusammenführen` gesucht wird. Standard ist 4'
+      search_result_help: 'Wie viele Diskussionen zurückgegeben werden sollen, wenn im Modal `Diskussionen zusammenführen` gesucht wird.'
       search_result_label: 'Suchlimit für Diskussionen zusammenführen'
   api:
     error:

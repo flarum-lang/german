@@ -21,6 +21,7 @@ flamarkt-backoffice:
       head:
         email: E-Mail
       new: 'Benutzer erstellen'
+      searchPlaceholder: 'Benutzer suchen...'
       title: Benutzer
   lib:
     header:
