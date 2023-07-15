@@ -10,6 +10,9 @@ CHANGELOG
 * [`annonny/flarum-dice`](https://github.com/mizhiyugan529/flarum-dice)
 * [`blomstra/fontawesome`](https://github.com/blomstra/flarum-ext-fontawesome)
 * [`clarkwinkelmann/flarum-ext-ipsum-autocomplete`](https://github.com/clarkwinkelmann/flarum-ext-ipsum-autocomplete)
+* [`clarkwinkelmann/flarum-ext-meilisearch-dashboard`](https://github.com/clarkwinkelmann/flarum-ext-meilisearch-dashboard)
+* [`justoverclock/export-post-to-pdf`](https://extiverse.com/extension/justoverclock/export-post-to-pdf)
+* [`justoverclock/staff-members-widget`](https://github.com/justoverclockl/staff-member-widget)
 * [`marchccc/flarum-ext-mentions-group-users`](https://github.com/Marchccc/flarum-ext-mentions-group-users)
 * [`matteociaroni/flarum-public-suspensions`](https://github.com/matteociaroni/flarum-public-suspensions)
 * [`widayn/flarum-avatar-cropper`](https://github.com/WiDayn/flarum-avatar-cropper)
@@ -18,6 +21,7 @@ CHANGELOG
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`askvortsov/flarum-article-series`](https://github.com/askvortsov1/flarum-article-series)
 * [`askvortsov/flarum-moderator-warnings`](https://github.com/askvortsov1/flarum-moderator-warnings)
 * [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
 * [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
@@ -29,6 +33,7 @@ CHANGELOG
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
 * [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users)
 * [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
@@ -43,11 +48,14 @@ CHANGELOG
 * [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`ianm/synopsis`](https://github.com/imorland/synopsis)
 * [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)
 * [`justoverclock/discussion-info`](https://github.com/justoverclockl/discussions-info)
+* [`justoverclock/related-discussions`](https://extiverse.com/extension/justoverclock/related-discussions)
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
 * [`spookygames/flarum-ext-auth-keycloak`](https://github.com/spookygames/flarum-ext-auth-keycloak)
 * [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest)
+* [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
 * [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support)
 * [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
 
