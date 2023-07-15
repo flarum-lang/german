@@ -37,6 +37,10 @@ askvortsov-pwa:
       other:
         force_portrait_text: 'Porträt-Orientierung erzwingen'
         heading: Anderes
+        push_notif_preference_default_to_email_label: 'Standard-Push-Präferenzen für E-Mail?'
+        push_notif_preference_default_to_email_text: 'Bei true verfügen die Nutzer/innen über standardmäßig aktivierte Push-Benachrichtigungen für alle Benachrichtigungsarten, bei denen E-Mail-Benachrichtigungen standardmäßig aktiviert sind. Bei false verfügen die Nutzer/innen standardmäßig über deaktivierte Push-Benachrichtigungen.'
+        user_max_subscriptions_label: 'Maximale Push-Abonnements pro Benutzer'
+        user_max_subscriptions_text: 'Wie viele Push-Abonnements sollte jeder Nutzer gleichzeitig haben können? Wenn ein Nutzer eine Push-Benachrichtigung erhält, führt jedes Abonnement zu einem API-Aufruf. Jedes Abonnement entspricht normalerweise einem Browser, den der Nutzer verwendet hat.'
       refreshed_message: 'Die PWA-Konfiguration wurde erfolgreich aktualisiert.'
       status_check_heading: Statusprüfung
       submit_button: 'Einstellungen speichern'
@@ -44,7 +48,7 @@ askvortsov-pwa:
     status:
       config_no_https: 'Die URL in deiner config.php Datei verwendet kein HTTPS. HTTPS ist erforderlich, damit Progressive Web Apps funktionieren.'
       key_gen_failed: 'Die Generierung der für Push-Benachrichtigungen benötigten Schlüssel ist fehlgeschlagen. Die vollständige Fehlermeldung lautete: {error}'
-      no_logo: 'Du musst mindestens ein Logo (mit einer Größe von mindestens 196px) hochladen damit deine App funktioniert.'
+      no_logo: 'Du musst mindestens ein Logo mit einer Größe von mindestens 144x144px hochladen, damit die PWA installiert werden kann.'
       no_name: 'Du musst einen vollständigen Namen angeben, damit deine App funktioniert.'
       no_vapid_keys: 'Keine VAPID-Schlüssel gefunden. Diese sind für das Versenden von Push-Benachrichtigungen erforderlich. Unten kannst Du VAPID-Schlüssel zurücksetzen.'
       possible_https_disabled: 'Möglicherweise läuft deine Seite nicht über HTTPS. Wenn sie es tut, ignoriere dies. Falls nicht, denke daran, dass HTTPS für Progressive Web Apps erforderlich ist, um zu funktionieren.'

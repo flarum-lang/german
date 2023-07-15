@@ -5,6 +5,7 @@
 fof-byobu:
   admin:
     permission:
+      add_more_than_two_user_recipients: 'Mehr als 2 Benutzer-Empfänger zu einer privaten Diskussion hinzufügen'
       create_private_discussions_with_blocking_users: 'Erstelle private Diskussionen mit Nutzern, die du blockierst'
       create_private_discussions_with_groups: 'Private Diskussionen mit Gruppen erstellen'
       create_private_discussions_with_users: 'Private Diskussionen mit Nutzern erstellen'
@@ -14,8 +15,12 @@ fof-byobu:
       view_private_discussions-when-flagged: 'Private Diskussionen anderer Nutzer anzeigen, wenn diese gemeldet sind'
     settings:
       badge-icon: 'Byobu Diskussions Abzeichen'
+      delete_on_last_recipient_left: 'PDs löschen, wenn der letzte Nutzer geht'
+      delete_on_last_recipient_left_help: 'Wenn diese Option aktiviert ist, werden die PDs dauerhaft aus der Datenbank gelöscht, wenn der letzte Nutzer sie verlässt. Andernfalls wird die PD sanft gelöscht/versteckt.'
       enable-make-public-option: '"Öffentlich machen" Funktion aktivieren'
       enable-make-public-option-help: 'Fügt die Möglichkeit für diejenigen hinzu, die die Berechtigung haben, alle Empfänger zu entfernen, ein neues Thema zuzuweisen und die Diskussion öffentlich sichtbar zu machen (gemäß den Sichtbarkeitseinstellungen des ausgewählten Themas).'
+      hide_from_all_discussions_page: 'PDs von der Seite "Alle Diskussionen" ausblenden'
+      hide_from_all_discussions_page_help: 'Private Diskussionen sind nur über die Seite "Private Diskussionen" oder das Benutzerprofil zugänglich'
       post-event-icon: 'Byobu Post Ereignisse'
   email:
     body:

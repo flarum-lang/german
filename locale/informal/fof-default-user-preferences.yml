@@ -7,6 +7,8 @@ fof-default-user-preferences:
     settings:
       followAfterReply: 'Nach Antwort folgen'
       followAfterReply-help: 'Wenn diese Option aktiviert ist, folgen neue Benutzer automatisch Diskussionen, auf die sie antworten oder die sie kommentieren.'
+      groupMentioned: 'Gruppe erwähnt E-Mail'
+      groupMentioned-help: 'Wenn diese Option aktiviert ist, erhalten neue Nutzer/innen automatisch eine E-Mail-Benachrichtigung, wenn eine Gruppe, der sie angehören, erwähnt wird.'
       postMentioned: 'Poste erwähnte E-Mail'
       postMentioned-help: 'Wenn diese Option aktiviert ist, entscheiden sich neue Benutzer automatisch dafür, eine E-Mail-Benachrichtigung zu erhalten, wenn einer ihrer Beiträge erwähnt wird.'
       userMentioned: 'Vom Benutzer erwähnte E-Mail'

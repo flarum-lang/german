@@ -9,6 +9,8 @@ fof-user-bio:
       editOwn: 'Eigene Bio editieren'
       view: 'Bio ansehen'
     setting:
+      allowFormatting: 'Formatierung in der Biografie zulassen'
+      allowFormatting_help: 'Diese Formatierung ist von der Formatierung des Beitrags getrennt. Wenn die BBCode- und/oder Markdown-Erweiterungen aktiviert sind, stehen sie für die Formatierung der Bio zur Verfügung. Es sind keine Bilder oder Einbettungen erlaubt. Erweiterungen, die den Flarum-Formatierer ergänzen, müssen *explizit* Unterstützung für den Bio-Formatierer hinzufügen.'
       bioLimit: 'Bio Zeichenlimit'
   forum:
     userbioPlaceholder: 'Schreib etwas über dich'
