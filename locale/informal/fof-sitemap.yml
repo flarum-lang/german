@@ -31,4 +31,15 @@ fof-sitemap:
         runtime: Laufzeit
       risky_performance_improvements: 'Riskante Leistungsverbesserungen aktivieren'
       risky_performance_improvements_help: 'Durch diese Verbesserungen wird der CRON-Job bei Datensätzen mit Millionen von Zeilen schneller ausgeführt, aber die Kompatibilität mit einigen Erweiterungen kann beeinträchtigt werden.'
+      soft_404:
+        heading: 'Sanfte 404 Prävention'
+        help: 'Wenn ein Modell keinen oder nur wenig relevanten Inhalt hat, können Google und andere Crawler diese als "weiche 404"-Seiten kennzeichnen. Um dies zu vermeiden, legst du hier eine Mindestanzahl von Datenobjekten fest, die für jedes qualifizierte Datenobjekt erforderlich sind.'
+        tags:
+          discussion:
+            minimum_item_threshold_help: 'Die Mindestanzahl an Diskussionen, über die ein Tag verfügen muss, damit er in die Sitemap aufgenommen wird.'
+            minimum_item_threshold_label: 'Tag: Mindestanzahl von Diskussionen'
+        user:
+          comments:
+            minimum_item_threshold_help: 'Die Mindestanzahl an Stellungsnahmen/Beiträgen, über die ein Nutzer verfügen muss, damit sein Profil in die Sitemap aufgenommen wird.'
+            minimum_item_threshold_label: 'Benutzer: Mindestanzahl an Kommentare/Posts'
       title: FoF-Sitemap

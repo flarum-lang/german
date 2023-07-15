@@ -5,10 +5,21 @@
 fof-sentry:
   admin:
     settings:
+      dsn_backend_help: 'Dieser DSN wird nur für Backend-Fehler verwendet. Dies ist nützlich, wenn du ein anderes Projekt für Backend-Fehler verwenden oder ein Relay verwenden möchtest, um Backend-Fehler an Sentry zu senden (z. B. um die Leistung zu verbessern).'
+      dsn_backend_label: 'Sentry DSN (nur Backend)'
+      dsn_help: 'Wenn du einen Relais-DSN als primären DSN verwendest, darfst du "Benutzer-Feedback" nicht ankreuzen, da es sonst nicht funktioniert.'
       dsn_label: 'Sentry DSN'
+      environment_label: 'Sentry Umgebung'
       javascript_console_label: 'JavaScript-Konsole erfassen'
       javascript_label: 'JavaScript-Fehler melden'
+      javascript_replays_error_sample_rate: 'Front-End-Fehlerwiederholungsrate (0 - 100)'
+      javascript_replays_error_sample_rate_help: 'Die Abtastrate für Wiederholungen, die aufgezeichnet werden, wenn ein Fehler auftritt. Bis zu 1 Minute vor dem Fehler wird aufgezeichnet und bis zum Ende der Sitzung fortgesetzt. {br}✱ Wenn du über eine Wiederholungsoption verfügst, erhöht sich die Größe des Pakets um ~150 KB.'
+      javascript_replays_session_sample_rate: 'Rate der Sitzungswiederholungen im Frontend (0 - 100)'
+      javascript_replays_session_sample_rate_help: 'Die Abtastrate für Wiederholungen, die sofort mit der Aufzeichnung beginnen und die gesamte Sitzung des Nutzers/der Nutzerin andauern. {br}✱ Wenn du über eine aktivierte Wiedergabeoption verfügst, erhöht sich die Größe des Pakets um ~150 KB.'
       javascript_trace_sample_rate: 'Rate der Front-End-Leistungsüberwachung (0 - 100)'
+      javascript_trace_sample_rate_help: 'Die Abtastrate für alle Transaktionen. {br} ✱ Wenn du diese Funktion aktivierst, erhöht sich die Paketgröße um ~30 KB.'
       monitor_performance_label: 'Rate der Back-End-Leistungsüberwachung (0 - 100)'
+      profile_rate_help: "Dies bezieht sich auf die Rate der Leistungsüberwachung. Die Leistungsüberwachung muss aktiviert sein, damit sie funktioniert.\n\n{br}Die Aktivierung dieser Funktion wirkt sich auf die Antwortzeit aus, da die Profilerstellung und die an Sentry gesendeten Anfragen einen Overhead verursachen. Erfahre, wie du dies ausgleichen kannst @ <a>https://docs.sentry.io/platforms/php/profiling/#improve-response-time</a>.\n{br}{icon} <bold>Diese Funktion erfordert den Sampling-Profiler Excimer von Wikipedia, der nur für Linux verfügbar ist.</bold>\n"
+      profile_rate_label: 'Back-End Profiling Rate (0 - 100)'
       send_user_emails_label: 'Benutzer-E-Mail-Adressen mit Sentry-Berichten senden?'
       user_feedback_label: Benutzer-Feedback

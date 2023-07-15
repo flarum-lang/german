@@ -30,8 +30,12 @@ fof-best-answer:
       schedule_stop_overnight_help: '21:00 - 08:00 Uhr Serverzeit'
       select_best_answer_reminder_days: Erinnerungshäufigkeit
       select_best_answer_reminder_days_help: 'Sende nach der konfigurierbaren Anzahl von Tagen eine Erinnerung an das OP, um eine beste Antwort auszuwählen, 0 = Erinnerungen deaktivieren.'
+      select_best_answer_tags_help: 'Wähle aus, ob und welche Tags zu Diskussionen hinzugefügt werden sollen, wenn eine Beste Antwort festgelegt wird. Es sind nur sekundäre Tags erlaubt. Diese Tags werden entfernt, wenn die Beste Antwort entfernt wird.'
+      select_best_answer_tags_label: 'Tags für Diskussionen mit Besten Antworten'
       show_filter_help: 'Wähle für Tags, bei denen die besten Antworten aktiviert sind, die Filteroption gelöst/ungelöst in der Diskussionsliste anzeigen'
       show_filter_label: 'Dropdown-Liste für Filter für beste Antwort anzeigen'
+      show_max_lines_help: 'Zum Deaktivieren auf 0 festlegen. Wenn ein Beitrag länger als die konfigurierte Anzahl von Zeilen ist, wird er in der Beitragsvorschau mit einem Ausblendeffekt abgeschnitten.'
+      show_max_lines_label: 'Maximal anzuzeigende Zeilen in der Postvorschau'
       use_alt_ui: 'Alternatives Layout'
       use_alt_ui_help: 'Beste Antwortsteuerelemente in der Fußzeile des Beitrags'
   email:
@@ -73,3 +77,8 @@ fof-best-answer:
     this_best_answer: 'Beste Antwort auswählen'
     user:
       best-answer-count: '{count, plural, one { {count} beste Antwort} other {{count} beste Antworten}}'
+fof-user-directory:
+  lib:
+    sort:
+      least_best_answers: 'Am wenigsten beste Antworten'
+      most_best_answers: 'Die besten Antworten'

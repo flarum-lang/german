@@ -17,10 +17,19 @@ fof-gamification:
         converted: 'Erfolgreich alle {number} Gefällt-mirs konvertiert'
         converting: 'Deine Gefällt-mirs werden nun konvertiert. Aktualisiere die Seite nach ein paar Minuten, um zu sehen, ob der Prozess abgeschlossen ist. (Die Konvertierung kann eine Weile dauern, je nachdem wie viele Gefällt-mirs existieren)'
         help: 'Konvertiere deine vorherigen flarum-ext-likes Gefällt-mirs in Upvotes und berechne wie sehr im Trend alle aktuellen Diskussionen liegen.'
+      groups:
+        add: 'Neue Regel hinzufügen'
+        column:
+          group: Gruppe
+          maxPoints: 'Maximale Punkte (inklsuive)'
+          minPoints: 'Mindestpunkte (inklusive)'
+        delete: 'Regel löschen'
+        help: "Die ausgewählten Gruppen werden bei Bedarf automatisch hinzugefügt oder entfernt, wenn sich die Anzahl der Punkte eines Nutzers ändert. Wenn du Änderungen an der Konfiguration erstellt hast, solltest du den Befehl <code>php flarum fof:gamification:assign-groups</code> ausführen, um existierende Nutzer zu aktualisieren. Wenn du eine Regel löschen und alle Nutzer/innen aus der Gruppe entfernen möchtest, legst du sowohl den Mindest- als auch den Höchstwert auf eine leere Zeichenfolge fest, speicherst die Einstellungen und führst den Befehl in der Befehlszeile aus. Schließlich kannst du die Regel in den Einstellungen komplett löschen.\n"
+        title: 'Automatisch zugewiesene Gruppen'
       rankings:
         blocked:
           help: 'Diese Nutzer werden nicht auf der Rangliste angezeigt. Nutzernamen sollten durch ein Komma, gefolgt von einem Leerzeichen, voneinander getrennt werden.'
-          placeholder: 'CDK2020, Ralkage, AngelAvila, Kakifrucht'
+          placeholder: 'admin, user1, user2'
           title: 'Ignorierte Nutzer'
         custom_image_1: 'Bild für Platz 1'
         custom_image_2: 'Bild für Platz 2'
@@ -38,6 +47,7 @@ fof-gamification:
         title: Ränge
       save_settings: 'Einstellungen speichern'
       votes:
+        allow_self_votes: 'Nutzer können über ihre eigenen Beiträge abstimmen'
         alternate_layout: 'Alternatives Abstimmungslayout in der Diskussionsliste verwenden'
         alternate_post_layout: 'Alternatives Abstimmungslayout für Beiträge verwenden'
         auto_upvote: 'Beiträge automatisch upvoten, wenn sie veröffentlicht werden'
@@ -89,6 +99,7 @@ fof-gamification:
         points: '{count, plural, one { {count} Punkt} other {{count} Punkte}}'
       points: 'Punkte: {points}'
       rank: '{rank}'
+      votes_link: Abstimmungen
     vote_title: 'Zeigen, wer gewählt hat'
     voters:
       label: 'Noch keine Wähler'

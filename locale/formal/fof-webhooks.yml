@@ -17,6 +17,7 @@ fof-webhooks:
       deleted: 'Gruppe `{1}` gelöscht'
       renamed: 'Eine Gruppe wurde umbenannt zu`{1}`'
     post:
+      approved: 'Genehmigter Beitrag in `{1}`'
       deleted: 'Beitrag in `{1}` gelöscht'
       hidden: 'Beitrag in `{1}` versteckt'
       posted: 'Neuer Beitrag in `{1}`'
@@ -33,7 +34,8 @@ fof-webhooks:
       404: 'Webhook Nicht Gefunden'
   admin:
     errors:
-      service_not_found: 'Der Dienst ''{service}'' konnte nicht gefunden werden.'
+      service_not_found: 'Der Dienst "{service}" kann nicht gefunden werden.'
+      tag_disabled: 'Dieser Webhook hatte eine Tag-Beschränkung konfiguriert. Die Erweiterung Tags ist deaktiviert. Die Beschränkung wird nicht angewendet. Stelle sicher, dass dies beabsichtigt ist.'
       tag_invalid: 'Dieser WebHook ist auf ein ungültiges Tag beschränkt. Die Einschränkung gilt nicht. Stelle sicher, dass dies bestimmt ist.'
       url_invalid: 'URL ist für den gewählten Dienst nicht gültig.'
     nav:
@@ -41,6 +43,9 @@ fof-webhooks:
     settings:
       actions:
         flarum:
+          approval:
+            postwasapproved: 'Post Genehmigt'
+            title: Flarum-Zulassung
           discussion:
             deleted: '=> fof-webhooks.ref.deleted'
             hidden: '=> fof-webhooks.ref.hidden'
@@ -70,9 +75,10 @@ fof-webhooks:
       help:
         disabled: 'Dieser Webhook ist deaktiviert, weil keine Ereignisse für ihn aktiviert sind.'
         general: 'Hier kannst du Webhooks in deinem Forum hinzufügen, bearbeiten und entfernen.'
+        tags: 'Du kannst Webhooks auf bestimmte Tags beschränken. Wenn du bestimmte Tags auswählst, wird der Webhook nur ausgelöst, wenn die Veranstaltung auf einer Ressource ausgelöst wird, die eines der ausgewählten Tags hat.'
         url: 'Der Endpunkt des Webhooks, der ausgeführt werden soll'
       item:
-        tag_any_label: Beliebig
+        tag_any_label: 'Beliebiger Tag'
       modal:
         description: 'Hier änderst du, bei welchen Ereignissen der Webhook ausgeführt wird.'
         events_label: Ereignisse

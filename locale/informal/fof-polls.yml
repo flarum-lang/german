@@ -7,22 +7,31 @@ fof-polls:
     permissions:
       change_vote: 'Stimme ändern'
       moderate: 'Umfragen bearbeiten & entfernen'
-      self_edit: 'Eigene Umfragen bearbeiten'
+      self_edit: 'Erstellte Umfragen bearbeiten (erfordert die Berechtigung zum Bearbeiten von Posts)'
+      self_post_edit: 'Bearbeiten *aller* Umfragen in eigenen Beiträgen (erfordert die Berechtigung zum Bearbeiten von Beiträgen)'
       start: 'Umfragen starten'
       view_results_without_voting: 'Ergebnisse anzeigen ohne abzustimmen'
       vote: 'In Umfragen abstimmen'
+    settings:
+      allow_option_image: 'Erlaube die Angabe einer Bild-URL für jede Umfrageoption'
   forum:
     composer_discussion:
-      add_poll: 'Umfrage hinzufügen'
+      add_poll: '=> fof-polls.forum.moderation.add'
       edit_poll: '=> fof-polls.forum.moderation.edit'
+      no_permission_alert: 'Du verfügst nicht über die Berechtigung, eine Umfrage zu starten.'
     days_remaining: 'Umfrage endet in {time}.'
+    max_votes_allowed: 'In der Umfrage kann für {max, plural, one {# Option} other {# Optionen}} abgestimmt werden.'
     modal:
       add_option_label: 'Auswahl hinzufügen'
       add_title: 'Umfrage hinzufügen'
+      allow_multiple_votes_label: 'Erlaube den Leuten, für mehrere Optionen zu stimmen'
       date_placeholder: 'Enddatum der Umfrage (optional)'
       edit_title: 'Umfrage bearbeiten'
+      image_option_placeholder: 'Bild-URL (optional)'
       include_question: 'Du musst eine Frage stellen'
       max: 'Du kannst nicht mehr als 10 Antworten erstellen'
+      max_votes_help: 'Auf 0 festlegen, damit die Nutzer für alle Optionen stimmen können.'
+      max_votes_label: 'Maximale Stimmen pro Benutzer'
       min: 'Du musst mindestens zwei Antworten erstellen'
       no_voters: 'Keine Stimmen'
       option_placeholder: Antwort
@@ -31,6 +40,7 @@ fof-polls:
       question_placeholder: Frage
       submit: Speichern
     moderation:
+      add: 'Umfrage hinzufügen'
       delete: 'Umfrage entfernen'
       delete_confirm: 'Bist du sicher, dass du die Umfrage entfernen willst?'
       edit: 'Umfrage bearbeiten'

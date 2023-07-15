@@ -7,8 +7,11 @@ fof-recaptcha:
     permissions:
       post_without_captcha: 'Beiträge und Diskussionen ohne Captcha erstellen'
     settings:
+      forgot: '=> core.forum.forgot_password.title'
       help_text: 'Erhalte deine Google reCAPTCHA-Zugangsdaten <a>hier</a>.'
       secret_key_label: 'Geheimer Schlüssel'
+      signin: '=> core.forum.log_in.title'
+      signup: '=> core.forum.sign_up.title'
       site_key_label: 'Seiten-Schlüssel (Site Key)'
       title: 'FriendsOfFlarum reCAPTCHA'
       type_label: 'reCAPTCHA Typ'
