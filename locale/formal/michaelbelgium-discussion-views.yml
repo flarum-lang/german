@@ -21,7 +21,9 @@ michaelbelgium-discussion-views:
       show_viewlist_label: 'Aufrufliste aktivieren'
       title: 'Diskussionsaufrufzähler Einstellungen'
       track_guests: 'Gäste verfolgen'
+      track_guests_label: 'Gäste verfolgen'
       track_unique_label: 'Einzelne Aufrufe mitzählen'
+      track_unique_text: 'Ansichten basierend auf der IP-Adresse erhöhen'
   forum:
     discussion_controls:
       resetviews_button: 'Aufrufzähler zurücksetzen'

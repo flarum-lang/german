@@ -87,6 +87,13 @@ v17development-flarum-support:
       description: 'Es tut uns leid. Dieser Artikel oder diese Kategorie existiert an dieser Stelle leider nicht mehr.'
       solution: 'Nutze die Suche oben, um zu finden wonach du suchst.'
       title: 'Artikel nicht gefunden'
+    notifications:
+      replied_to_ticket:
+        content: '=> v17development-flarum-support.emails.replied_to_ticket.subject'
+        name: 'Jemand hat auf mein Ticket geantwortet'
+      ticket_resolved:
+        content: '=> v17development-flarum-support.emails.ticket_resolved.subject'
+        name: 'Mein Ticket wurde gelöst'
     or: oder
     overview:
       back_to: 'Zurück zu {category}'
@@ -101,6 +108,7 @@ v17development-flarum-support:
         change_icon: 'Icon ändern'
         edit_description: 'Beschreibung bearbeiten'
         new_article: 'Neuer Artikel'
+        recount_articles: 'Artikel nachzählen'
         rename_category: 'Kategorie umbenennen'
     reopen: 'Wieder öffnen'
     return_to_home: 'Züruck zur Wissensdatenbank'
@@ -139,6 +147,10 @@ v17development-flarum-support:
         not_allowed: 'Sie können jetzt kein neues Support-Ticket öffnen'
         private_support: 'Für den privaten Support können Sie dieses Formular verwenden, um ein neues Ticket in unserer Support-Plattform zu erstellen. Informationen zu nicht privaten Supportfragen finden Sie in <a>unseren öffentlichen Foren </a>.'
         title: 'Erstelle ein neues Ticket'
+      convert_to_discussion:
+        button: 'Zur Diskussion konvertieren'
+        confirm: 'Bist du sicher, dass du dieses Ticket in eine öffentliche Diskussion umwandeln willst? Wenn jemand private Informationen geteilt hat, werden diese auch öffentlich.'
+        event: "Ticket {ticket_title} wurde in eine Diskussion umgewandelt\n\nMöchtest du jetzt zu dieser Diskussion gehen?\n"
       convert_to_ticket:
         button: 'Zu einem Ticket machen'
         confirm: 'Bist du dir sicher, dass du diese Diskussion zu einem Ticket machen möchtest?'
@@ -155,6 +167,12 @@ v17development-flarum-support:
           empty: 'Keine Sprache ausgewählt'
           placeholder: 'Wähle eine Sprache'
           title: Sprache
+        private_note:
+          edit_button: 'Anmerkung bearbeiten'
+          info: 'Private Notizen sind nur für andere Supportmitarbeiter sichtbar. Sie sind für den Kunden nicht sichtbar.'
+          placeholder: 'Beispiel: 1. Januar 2022 - Agentenname: Gelöschter Kunde aus der Datenbank'
+          tip: 'TIPP: Wenn du mit mehreren Agenten an einem Ticket arbeitest, schreibe deinen Namen und das Datum in eine Notiz.'
+          title: 'Private Notizen'
         status:
           placeholder: 'Der Status des Tickets'
           title: Status
@@ -185,7 +203,7 @@ v17development-flarum-support:
           language:
             any: 'Alle Sprachen'
           status:
-            filter_count: '# Filter'
+            filter_count: '{count, plural, one {# Filter} other {# Filter}}'
             title: Ticketstatus
         no_tickets: 'Es gibt keine Tickets, die deinen Kriterien entsprechen, wahrscheinlich machst du einen guten Job!'
         refresh: Aktualisieren
@@ -198,7 +216,7 @@ v17development-flarum-support:
           oldest: 'Älteste zuerst'
           recent_activity: 'Jüngste Aktivität'
         title: Ticketübersicht
-      reminders_sent: 'Von {username}, letzte Aktivität {date}'
+      reminders_sent: '{count, plural, one {Eine Mahnung gesendet} other {# Mahnungen gesendet}}'
       return_to_overview: 'Zurück zur Ticketübersicht'
       status:
         closed:
@@ -229,13 +247,14 @@ v17development-flarum-support:
           title: Gelöst
       subject: Betreff
       ticket: Ticket
-      ticket_activity: '{count, plural, one {Eine Erinnerung gesendet} other {# Erinnerungen gesendet}}'
+      ticket_activity: 'Von {username}, letzte Aktivität {date}'
       ticket_does_not_exist: 'Das angeforderte Support Ticket existiert nicht.'
       ticket_overview: Ticketübersicht
       tools:
         assign_me: 'Weisen Sie mir zu'
         close_ticket: 'Ticket schließen'
         remove_me: 'Entferne mich'
+        update_note: 'Private Notiz aktualisieren'
         update_status: 'Ticketstatus aktualisieren'
         update_subject: 'Betreff aktualisieren'
         view_ticket: 'Ticket anzeigen'
