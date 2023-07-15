@@ -45,7 +45,10 @@ CHANGELOG
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
 * [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)
 * [`justoverclock/discussion-info`](https://github.com/justoverclockl/discussions-info)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
 * [`spookygames/flarum-ext-auth-keycloak`](https://github.com/spookygames/flarum-ext-auth-keycloak)
+* [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest)
+* [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support)
 * [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
 
 
