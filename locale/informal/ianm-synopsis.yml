@@ -5,6 +5,9 @@
 ianm-synopsis:
   admin:
     settings:
+      disable-when-searching:
+        help: 'Wenn diese Option aktiviert ist, wird anstelle der Synopse der standardmäßig relevanteste Beitragsauszug verwendet'
+        label: 'Synopsis bei der Suche deaktivieren'
       excerpt-label: 'Länge des Zusammenfassungsauszugs in Zeichen'
       excerpt-length:
         help: 'Wie viele Zeichen sollen aus dem Beitrag angezeigt werden.'

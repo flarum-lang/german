@@ -10,7 +10,9 @@ justoverclock-related-discussions:
     relatedTitle: 'Titel für "Verwandte Diskussionen"'
     relatedTitle-help: 'Den Standardtitel für verwandte Diskussionen durch deinen eigenen ersetzen'
     showExcerpt: 'Zusammenfassungsauszug anzeigen'
+    showTooltip: 'Tooltip mit Auszug anzeigen'
   forum:
+    avatarTooltip: 'erstellte den Beitrag am'
     deleted: Gelöscht
     hasBestAnswer: Gelöst
     hasBestAnswer-title: 'Diese Diskussion ist als gelöst markiert'

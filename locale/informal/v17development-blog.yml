@@ -43,6 +43,19 @@ v17development-flarum-blog:
       slug: Slug
       summary: Zusammenfassung
       title: Titel
+    article_settings:
+      fields:
+        highlight:
+          helper_text: 'Gib diesem Beitrag ein großes Bild auf der Blog-Übersichtsseite.'
+          title: 'Hervorgehobener Beitrag'
+        image:
+          helper_text: 'Beste Bildauflösung für soziale Medien: 1200x630'
+          title: 'Artikel Bild'
+        summary:
+          helper_text: 'Diese Zusammenfassung wird auf der Blog-Übersichtsseite sichtbar sein und für SEO-Zwecke verwendet werden.'
+          placeholder: 'Bitte gib eine Zusammenfassung ein'
+          title: 'Artikel Zusammenfassung'
+      title: 'Einstellungen für Blogbeiträge'
     blog: Blog
     categories: Kategorien
     category_empty: 'Es gibt keine Blogeinträge in dieser Kategorie.'
