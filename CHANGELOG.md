@@ -57,6 +57,7 @@ CHANGELOG
 * [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest)
 * [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
 * [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support)
+* [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
 * [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
 
 
