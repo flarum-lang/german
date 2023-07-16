@@ -56,6 +56,7 @@ v17development-flarum-badges:
       badge_detail_users: 'Kann Benutzer auf der Badge-Detailseite sehen'
       give_badge: 'Abzeichen für Benutzer hinzufügen'
       take_badge: 'Abzeichen von Benutzer entfernen'
+    show_badges_on_user_card: 'Abzeichen auf der Benutzerkarte anzeigen'
     uncategorized: Unkategorisiert
     update_badge: 'Abzeichen aktualisieren'
     update_category: 'Kategorie aktualisieren'

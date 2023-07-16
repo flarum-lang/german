@@ -15,7 +15,7 @@ v17development-flarum-blog:
       add_sidebar_nav_label: 'Zur Navigation in der Seitenleiste hinzufügen'
       add_sidebar_nav_text: 'Einfügen eines Links zum Blog in das Navigationsmenü.'
       allow_comments_label: 'Kommentare zulassen'
-      allow_comments_text: 'Standardmäßig sind Kommentare zu Blogeinträgen erlaubt. Wenn diese Einstellung deaktiviert wird kann pro Blogeintrag entschieden werden. <b>Hinweis:</b> Das Ändern dieser Einstellung hat keine Auswirkungen auf bereits vorhandene Blogeinträge.'
+      allow_comments_text: 'Standardmäßig sind Kommentare in Blogeinträgen erlaubt. Wenn dies deaktiviert ist, kann dies für jeden Blogbeitrag einzeln aktiviert werden. <b>Hinweis:</b> Wenn du diese Einstellung änderst, hat dies keine Auswirkungen auf bereits existierende Blogbeiträge.'
       blog_heading: Blog
       categories_heading: Kategorien
       default_article_image_label: Standardartikelbild

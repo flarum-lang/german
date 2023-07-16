@@ -5,8 +5,8 @@
 fof-user-bio:
   admin:
     permission:
-      editAny: 'Alle Bio''s editieren'
-      editOwn: 'Eigene Bio editieren'
+      editAny: 'Jede Bio bearbeiten'
+      editOwn: 'Eigene Bio bearbeiten'
       view: 'Bio ansehen'
     setting:
       allowFormatting: 'Formatierung in der Biografie zulassen'
