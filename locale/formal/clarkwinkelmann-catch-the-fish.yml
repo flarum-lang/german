@@ -10,18 +10,18 @@ clarkwinkelmann-catch-the-fish:
       list-rankings: 'Greife auf die Ranking-Seite zu'
       moderate: 'Moderate Runden und Fische'
       participate: 'Nehme an den Runden teil und fange Fische'
-      visible: 'Siehe die Fische'
+      visible: 'Die Fische sehen'
     settings:
       alert-round: 'Benachrichtigung mit Rundennamen und Dauer auf der Startseite anzeigen'
       animate-flip: 'Spiegel Fischbilder basierend auf der Richtung'
       discussion: Diskussionen
       discussion-age: 'Wie alt Diskussionen sein können, damit ein Fisch darauf platziert wird (Tage)'
-      discussion-tags: 'Tag whitelist'
+      discussion-tags: 'Tag Whitelist'
       discussion-tags-help: "Wenn Du keinen Tag auswählst, kann jede Diskussion ausgewählt werden, die den obigen Zeiteinstellungen entspricht. Wenn eine beliebige Anzahl von Tags ausgewählt wird, muss in einer Diskussion mindestens eines der ausgewählten Tags ausgewählt werden. Die Wahrscheinlichkeit ist die Chance, ausgewählt zu werden, nachdem alle vorherigen Auswahlmöglichkeiten ausprobiert wurden. Das letzte Tag in der Liste fungiert immer als Fallback, also stelle sicher, dass das Tag mindestens eine gültige Diskussion enthält.\n"
       discussion-tags-unavailable: 'Einstellung nicht verfügbar, da die Tags-Erweiterung deaktiviert ist.'
       general: Generell
       post: Beiträge
-      post-age: 'Wie alt können Pfosten sein, damit ein Fisch darauf platziert wird (Tage)'
+      post-age: 'Wie alt dürfen Beiträge sein, damit ein Fisch darauf platziert werden kann (Tage)'
       post-probability: 'Wahrscheinlichkeit, in einem Beitrag statt in der Diskussion platziert zu werden (%)'
       tags-control:
         add: 'Zur Whitelist hinzufügen'
