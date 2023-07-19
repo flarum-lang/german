@@ -15,6 +15,7 @@ CHANGELOG
 * [`justoverclock/staff-members-widget`](https://github.com/justoverclockl/staff-member-widget)
 * [`marchccc/flarum-ext-mentions-group-users`](https://github.com/Marchccc/flarum-ext-mentions-group-users)
 * [`matteociaroni/flarum-public-suspensions`](https://github.com/matteociaroni/flarum-public-suspensions)
+* [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum)
 * [`widayn/flarum-avatar-cropper`](https://github.com/WiDayn/flarum-avatar-cropper)
 * [`ziiven/flarum-post-number`](https://github.com/Ziiven/flarum-post-number)
 
