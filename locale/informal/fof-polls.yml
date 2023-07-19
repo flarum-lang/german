@@ -14,6 +14,7 @@ fof-polls:
       vote: 'In Umfragen abstimmen'
     settings:
       allow_option_image: 'Erlaube die Angabe einer Bild-URL für jede Umfrageoption'
+      max_options: 'Maximale Anzahl von Optionen pro Umfrage'
   forum:
     composer_discussion:
       add_poll: '=> fof-polls.forum.moderation.add'
@@ -27,9 +28,10 @@ fof-polls:
       allow_multiple_votes_label: 'Erlaube den Leuten, für mehrere Optionen zu stimmen'
       date_placeholder: 'Enddatum der Umfrage (optional)'
       edit_title: 'Umfrage bearbeiten'
+      hide_votes_label: 'Stimmen ausblenden, bis die Umfrage endet'
       image_option_placeholder: 'Bild-URL (optional)'
       include_question: 'Du musst eine Frage stellen'
-      max: 'Du kannst nicht mehr als 10 Antworten erstellen'
+      max: 'Du kannst maximal {max} Antworten haben'
       max_votes_help: 'Auf 0 festlegen, damit die Nutzer für alle Optionen stimmen können.'
       max_votes_label: 'Maximale Stimmen pro Benutzer'
       min: 'Du musst mindestens zwei Antworten erstellen'
