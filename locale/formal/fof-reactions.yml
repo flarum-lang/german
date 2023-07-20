@@ -18,6 +18,8 @@ fof-reactions:
         reactions: 'Aktuelle Reaktionen'
         title: 'Benutzerdefinierte Reaktionen'
       settings:
+        allow-anonymous: 'Anonyme (Gast-)Reaktionen zulassen'
+        allow-anonymous-help: 'Wenn diese Option aktiviert ist, können Gäste und anonyme Nutzer auf Beiträge reagieren. Beachte, dass anonyme Reaktionen nicht mit einem Nutzerprofil verknüpft werden und in der Liste der Reaktionen zusammengefasst werden.'
         integrations:
           gamification:
             downvoteHelptext: 'Gebe den Bezeichner der Reaktion ein, die du automatisch in ein Downvote umwandeln möchtest'
@@ -41,6 +43,7 @@ fof-reactions:
     disabled-reaction: 'Du kannst diese Reaktion im Moment nicht verwenden, bitte aktualisiere die Seite'
     mod_item: 'Reaktionen ansehen'
     modal:
+      anonymous_count: '{count, plural, one {# anonymer Benutzer} other {# anonyme Benutzer}}'
       title: Reaktionen
     notification: '{username} hat auf deinen Post mit {reaction} reagiert'
     react_button_label: Reagieren
