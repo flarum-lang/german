@@ -43,6 +43,7 @@ CHANGELOG
 * [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
 * [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
 * [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
