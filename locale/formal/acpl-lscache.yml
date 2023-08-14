@@ -4,6 +4,7 @@
 
 acpl-lscache:
   admin:
+    cache_enabled_label: 'LSCache einschalten'
     cache_exclude_help: 'Pfade, die diese Zeichenfolgen enthalten, werden nicht zwischengespeichert. Für <code>/mypath/mypage?aa=bb</code> kann hier beispielsweise <code>mypage?aa=</code> verwendet werden. Um den Anfang abzugleichen, füge <code>^</code> am Anfang des Elements hinzu. Um eine genaue Übereinstimmung zu erzielen, füge <code>$</code> am Ende der URL hinzu. Eine pro Zeile.'
     cache_exclude_label: 'Pfade nicht zwischenspeichern'
     clearing_cache_listener_label: 'LSCache löschen, wenn der Flarum-Cache geleert ist'
