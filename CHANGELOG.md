@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+1.8.0 (XXXX-XX-XX)
+------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`blomstra/conversations`](https://github.com/blomstra/flarum-ext-conversations)
+* [`blomstra/oauth-apple`](https://github.com/blomstra/flarum-ext-oauth-apple)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+
+
+Alle Änderungen: [1.7.0...1.8.0](https://github.com/flarum-lang/german/compare/1.7.0...1.8.0).
+
+
 1.7.0 (2023-07-20)
 ------------------
 
