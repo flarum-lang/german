@@ -9,5 +9,5 @@ fof-oauth:
         apple:
           client_id_label: 'Dienst-ID Kennung'
           description: 'Mit Apple ID anmelden {link}'
-          keyfile_upload_help: 'Erstellen Sie ein <a>keyfile</a> und laden Sie sie es hier hoch'
+          keyfile_upload_help: 'Erstelle ein <a>keyfile</a> und lade es hier hoch'
           keyfile_upload_label: Schlüsseldatei

@@ -6,3 +6,10 @@ blomstra-conversations:
   admin:
     permissions:
       view-conversation-source: 'Quelle der Unterhaltung anzeigen'
+      view-raw-source: 'Anzeige des HTML-Quelltextes oder des HTML-Quelltextes der eingehenden Beiträge'
+  forum:
+    post:
+      controls:
+        view: 'HTML-Version anzeigen'
+        view-code: 'HTML-Quelle prüfen'
+      source-raw-heading: 'HTML anzeigen'
