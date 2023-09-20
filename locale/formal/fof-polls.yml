@@ -7,7 +7,7 @@ fof-polls:
     permissions:
       change_vote: 'Stimme ändern'
       moderate: 'Umfragen bearbeiten & entfernen'
-      self_edit: 'Erstellte Umfragen bearbeiten (erfordert die Berechtigung zum Bearbeiten von Posts)'
+      self_edit: 'Erstellte Umfragen bearbeiten (erfordert die Berechtigung zum Bearbeiten von Beiträgen)'
       self_post_edit: 'Bearbeiten *aller* Umfragen in eigenen Beiträgen (erfordert die Berechtigung zum Bearbeiten von Beiträgen)'
       start: 'Umfragen starten'
       view_results_without_voting: 'Ergebnisse anzeigen ohne abzustimmen'
@@ -15,6 +15,8 @@ fof-polls:
     settings:
       allow_option_image: 'Erlaube die Angabe einer Bild-URL für jede Umfrageoption'
       max_options: 'Maximale Anzahl von Optionen pro Umfrage'
+      options_color_blend: 'Textfarbe in Umfrageoptionen für bessere Lesbarkeit anpassen'
+      options_color_blend_help: 'Mit dieser Funktion kannst du durch Farbmischen die Umfrageoptionen besser lesbar machen. Deaktiviere diese Funktion wenn sie dein Forum seltsam aussehen lässt und die Lesbarkeit verringert.'
   forum:
     composer_discussion:
       add_poll: '=> fof-polls.forum.moderation.add'
@@ -25,7 +27,8 @@ fof-polls:
     modal:
       add_option_label: 'Auswahl hinzufügen'
       add_title: 'Umfrage hinzufügen'
-      allow_multiple_votes_label: 'Erlaube den Leuten, für mehrere Optionen zu stimmen'
+      allow_change_vote_label: 'Benutzern erlauben, ihre Stimme zu ändern'
+      allow_multiple_votes_label: 'Erlaube den Benutzern, für mehrere Optionen abzustimmen'
       date_placeholder: 'Enddatum der Umfrage (optional)'
       edit_title: 'Umfrage bearbeiten'
       hide_votes_label: 'Stimmen ausblenden, bis die Umfrage endet'
@@ -47,6 +50,9 @@ fof-polls:
       delete_confirm: 'Bist du sicher, dass du die Umfrage entfernen willst?'
       edit: 'Umfrage bearbeiten'
     no_permission: 'Du hast keine Berechtigung abzustimmen'
+    poll:
+      cannot_change_vote: 'Du kannst deine Stimme nach dem Abstimmen nicht mehr ändern.'
+      submit_button: Abstimmen
     poll_ended: 'Diese Umfrage ist bereits beendet.'
     public_poll: Abstimmungsergebnis
     tooltip:
