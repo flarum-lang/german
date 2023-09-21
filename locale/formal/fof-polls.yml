@@ -28,7 +28,7 @@ fof-polls:
       add_option_label: 'Auswahl hinzufügen'
       add_title: 'Umfrage hinzufügen'
       allow_change_vote_label: 'Benutzern erlauben, ihre Stimme zu ändern'
-      allow_multiple_votes_label: 'Erlaube den Benutzern, für mehrere Optionen abzustimmen'
+      allow_multiple_votes_label: 'Benutzern erlauben, für mehrere Optionen abzustimmen'
       date_placeholder: 'Enddatum der Umfrage (optional)'
       edit_title: 'Umfrage bearbeiten'
       hide_votes_label: 'Stimmen ausblenden, bis die Umfrage endet'
