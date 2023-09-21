@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.8.1 (2023-09-21)
+------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+
+
+Alle Änderungen: [1.8.0...1.8.1](https://github.com/flarum-lang/german/compare/1.8.0...1.8.1).
+
+
 1.8.0 (2023-09-13)
 ------------------
 
