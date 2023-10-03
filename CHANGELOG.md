@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.8.2 (XXXX-XX-XX)
+------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+
+
+Alle Änderungen: [1.8.1...1.8.2](https://github.com/flarum-lang/german/compare/1.8.1...1.8.2).
+
+
 1.8.1 (2023-09-21)
 ------------------
 
