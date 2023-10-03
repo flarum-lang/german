@@ -34,7 +34,7 @@ fof-terms:
         date-format: Datumsformat
         date-format-help: 'Du kannst jedes gültige <a>Day.js</a> Format verwenden. Leer lassen für Standardformat.'
         hide-updated-at: 'Aktualisierungsdatum der Bedingungen nicht anzeigen, wenn eine Aktualisierung verfügbar ist'
-        signup-legal-text: 'Zusätzlicher Text für das Registrierungs-Formualr'
+        signup-legal-text: 'Zusätzlicher Text für das Registrierungs-Formular'
       title: 'Einstellungen für Bedingungen'
     titles:
       policies: Richtlinien
