@@ -8,6 +8,8 @@ CHANGELOG
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
 
 
 Alle Änderungen: [1.8.1...1.8.2](https://github.com/flarum-lang/german/compare/1.8.1...1.8.2).
