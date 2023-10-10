@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.8.3 (XXXX-XX-XX)
+------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+
+
+Alle Änderungen: [1.8.2...1.8.3](https://github.com/flarum-lang/german/compare/1.8.2...1.8.3).
+
+
 1.8.2 (2023-10-08)
 ------------------
 
