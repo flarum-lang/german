@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.9.0 (XXXX-XX-XX)
+------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+
+
+Alle Änderungen: [1.8.3...1.9.0](https://github.com/flarum-lang/german/compare/1.8.3...1.9.0).
+
+
 1.8.3 (2023-10-24)
 ------------------
 
