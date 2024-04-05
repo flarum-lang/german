@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.10.0 (2024-04-05)
+-------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole)
+
+
+Alle Änderungen: [1.9.0...1.10.0](https://github.com/flarum-lang/german/compare/1.9.0...1.10.0).
+
+
 1.9.0 (2024-02-29)
 ------------------
 
