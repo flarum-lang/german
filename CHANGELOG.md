@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.10.1 (XXXX-XX-XX)
+-------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+
+
+Alle Änderungen: [1.10.0...1.10.1](https://github.com/flarum-lang/german/compare/1.10.0...1.10.1).
+
+
 1.10.0 (2024-04-05)
 -------------------
 
