@@ -2,15 +2,22 @@ CHANGELOG
 =========
 
 
-1.10.1 (XXXX-XX-XX)
+1.11.0 (XXXX-XX-XX)
 -------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`blomstra/gdpr`](https://github.com/blomstra/flarum-ext-gdpr)
+
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
 * [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 
 
-Alle Änderungen: [1.10.0...1.10.1](https://github.com/flarum-lang/german/compare/1.10.0...1.10.1).
+Alle Änderungen: [1.10.0...1.11.0](https://github.com/flarum-lang/german/compare/1.10.0...1.11.0).
 
 
 1.10.0 (2024-04-05)
