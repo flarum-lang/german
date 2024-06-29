@@ -6,10 +6,10 @@ clarkwinkelmann-colorful-borders:
   forum:
     apply: Übernehmen
     backgroundColor: Hintergrundfarbe
-    borderColor: 'Farbe des Rahmen'
-    borderRadius: 'Radius des Rahmen'
-    borderWidth: 'Breite des Rahmen'
+    borderColor: 'Farbe des Rahmens'
+    borderRadius: 'Radius des Rahmens'
+    borderWidth: 'Breite des Rahmens'
     default: Standard
     edit: 'Stil bearbeiten'
-    reset: 'Benutzerdefiniertes Styling entfernen'
+    reset: 'Benutzerdefinierten Stil entfernen'
     textColor: Textfarbe
