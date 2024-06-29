@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.12.0 (XXXX-XX-XX)
+-------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`clarkwinkelmann/flarum-ext-popular-discussion-badge`](https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links)
+
+
+Alle Änderungen: [1.11.0...1.12.0](https://github.com/flarum-lang/german/compare/1.11.0...1.12.0).
+
+
 1.11.0 (2024-05-11)
 -------------------
 
