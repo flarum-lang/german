@@ -9,11 +9,17 @@ CHANGELOG
 
 * [`clarkwinkelmann/flarum-ext-colorful-borders`](https://github.com/clarkwinkelmann/flarum-ext-colorful-borders)
 * [`clarkwinkelmann/flarum-ext-popular-discussion-badge`](https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge)
+* [`davwheat/custom-sidenav-links`](https://github.com/davwheat/flarum-ext-custom-sidenav-links)
+* [`madeyedeer/flarum-pallet-theme`](https://github.com/MadEyeDeer/flarum-pallet-theme)
+* [`nearata/flarum-ext-tags-color-generator`](https://github.com/Nearata/flarum-ext-tags-color-generator)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
 * [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links)
+* [`datlechin/flarum-scroll-buttons`](https://github.com/datlechin/flarum-scroll-buttons)
 
 
 Alle Änderungen: [1.11.0...1.12.0](https://github.com/flarum-lang/german/compare/1.11.0...1.12.0).
