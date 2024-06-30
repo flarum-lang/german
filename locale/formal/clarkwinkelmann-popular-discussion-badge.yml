@@ -3,5 +3,10 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 clarkwinkelmann-popular-discussion-badge:
+  admin:
+    settings:
+      comments: Kommentare
+      mode_help: "Der Frontend-Modus ist eine effiziente Lösung, die nicht auf die Datenbank zurückgreift. Der Scheduler-Modus erfordert eine CRON-Einrichtung und erlaubt Zeitspannen in den Bedingungen.\n"
+      views: Aufrufe
   forum:
     badge_label: Beliebt

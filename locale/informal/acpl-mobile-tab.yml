@@ -4,4 +4,7 @@
 
 acpl-mobile-tab:
   forum:
+    all_discussions: Diskussionen
+    categories: '=> askvortsov-categories.forum.index.categories_link'
     home: Startseite
+    tags: '=> flarum-tags.forum.index.tags_link'

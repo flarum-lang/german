@@ -10,9 +10,13 @@ datlechin-flarum-scroll-buttons:
         help: 'Passe das Symbol der Schaltfläche an. Lasse das Feld leer, um das Standardsymbol zu verwenden.'
         label: 'Symbol Nach unten scrollen'
       label: 'Nach unten scrollen'
+    scroll_to_bottom_help: 'Zeigt einen Button um zum Ende einer Seite zu scrollen'
+    scroll_to_bottom_label: 'Nach unten scrollen'
     scroll_to_top:
       help: 'Eine Schaltfläche anzeigen, um zum Anfang der Seite zu scrollen'
       icon:
         help: 'Passe das Symbol der Schaltfläche an. Lasse das Feld leer, um das Standardsymbol zu verwenden.'
         label: 'Symbol Nach oben scrollen'
       label: 'Scrolle nach oben'
+    scroll_to_top_help: 'Zeigt einen Button um zum Anfang der Seite zu scrollen'
+    scroll_to_top_label: 'Nach oben scrollen'

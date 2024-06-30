@@ -7,9 +7,14 @@ antoinefr-money:
     automoderator:
       action_name: 'Geld geben'
       metric_name: Geld
+    autoremove:
+      - 'Geld niemals entfernen'
+      - 'Wenn eine Diskussion/ein Beitrag versteckt oder wiederhergestellt wird (Standard)'
+      - 'Wenn eine Diskussion/ein Beitrag gelöscht wird'
     permissions:
       edit_money_label: 'Geld bearbeiten'
     settings:
+      autoremove: 'Automatisches Aktualisieren von Geld'
       helpextensionlikes: 'Erfordert die <code>flarum/likes</code> Erweiterung'
       moneyfordiscussion: 'Geld gegeben für eine neue Diskussion'
       moneyforlike: 'Gegebenes Geld, wenn ein Beitrag geliked wird'
