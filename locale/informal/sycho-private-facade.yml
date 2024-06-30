@@ -18,6 +18,7 @@ sycho-private-facade:
       screen_banner_description: Bildschirmmeldung
       screen_banner_heading: Bildschirmbanner
       screen_banner_title: Bildschirmtitel
+      url_exclusions: 'URLs, die von der Umleitung zur Anmeldung/Registrierung ausgeschlossen werden sollen.'
       use_welcome_hero_text: 'Willkommensbannertext verwenden'
   forum:
     log_in_label: '=> core.ref.log_in'
