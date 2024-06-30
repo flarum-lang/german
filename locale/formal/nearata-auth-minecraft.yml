@@ -3,6 +3,17 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 nearata-auth-minecraft:
+  admin:
+    settings:
+      api_secret:
+        help: 'Zu finden in <strong>Plugins/OAuth/config.json</strong>'
+        label: 'API Secret'
+      api_url:
+        help: 'Beispiel: http://localhost:4567/verify'
+        label: 'API URL'
+      minecraft_server:
+        help: 'Beispiel: meinedomain.tld'
+        label: 'Minecraft Server-IP'
   api:
     invalid_token_format: 'Das Token muss numerisch sein.'
   forum:
@@ -17,6 +28,8 @@ nearata-auth-minecraft:
     log_in_modal:
       submit_button: Bestätigen
       title: 'Mit Minecraft einloggen'
+    login_error: 'Sitzung nicht gestartet oder abgelaufen.'
+    modal_help: 'Tritt dem Server <strong>{server}</strong> bei und klicke dann den unteren Button.'
     settings:
       change_email_button: 'E-Mail ändern'
     token_help: 'Trete dem Server <strong>srv.mc-oauth.net:25565</strong> bei, um ein Zugriffstoken zu erhalten.'

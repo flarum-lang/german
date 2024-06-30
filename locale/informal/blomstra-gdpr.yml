@@ -48,6 +48,19 @@ blomstra-gdpr:
         gdpr_actions:
           export: 'Daten für {username} exportieren'
           title: DSGVO-Maßnahmen
+  forum:
+    process_erasure:
+      comments_label: 'Kommentare (optional)'
+    request_erasure:
+      password_label: 'Passwort bestätigen'
+      reason_label: 'Begründung (optional)'
+      status:
+        awaiting_user_confirmation: "Du solltest eine E-Mail zur Bestätigung deiner Löschanfrage erhalten haben.\n"
+    settings:
+      data:
+        heading: 'Personenbezogene Daten'
+      export_data_button: 'Daten exportieren'
+      request_erasure_button: 'Konto löschen'
   lib:
     data:
       avatar:
@@ -65,3 +78,5 @@ blomstra-gdpr:
       tokens:
         delete_description: 'Löscht alle vom Benutzer erstellten Token.'
         export_description: 'Exportiert alle Token, die der Benutzer erstellt hat. Die Daten sind auf das Erstellungsdatum und den Token-Typ beschränkt.'
+      user:
+        delete_description: 'Löscht den Nutzer aus der Datenbank.'

@@ -10,12 +10,26 @@ flarum-calendar:
       add: 'Neue Kalenderereignisse erstellen'
       moderate: 'Kalendertermine entfernen oder bearbeiten (alle Benutzer können ihre eigenen bearbeiten)'
       view: 'Veranstaltungen anzeigen'
+    settings:
+      hide_host: 'Veranstalter verstecken (organisiert von...)'
   forum:
     button:
       create: 'Neues Event'
       landing: Veranstaltungskalender
       login: 'Füge Deine Veranstaltung hinzu '
     event:
+      confirm_delete: 'Bist du sicher, dass du diese Veranstaltung löschen möchtest?'
+      deleted: 'Die Veranstaltung wurde gelöscht'
       details: 'Weitere Details zu dieser Veranstaltung'
+      ends: 'Ende:'
+      hosted_by: 'Organisiert von:'
+      starts: 'Beginn:'
     modal:
+      dates_label: Wann
+      description_label: Details
+      description_placeholder: Veranstaltungsdetails
+      requirement_message: 'Veranstaltungen benötigen einen Namen und eine Beschreibung'
       submit: Senden
+      title_create: 'Eine neue Veranstaltung erstellen'
+      title_edit: 'Veranstaltungsdetails bearbeiten'
+      title_label: Was
