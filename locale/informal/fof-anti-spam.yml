@@ -5,9 +5,14 @@
 fof-anti-spam:
   admin:
     blocked_registrations:
+      attempted-at: 'Versucht am'
+      button: 'Blockierte Registrierungen'
       delete_entry: 'Eintrag löschen'
       email: E-Mail-Adresse
       ip: IP-Adresse
+      no-records: 'Keine blockierten Registrierungen gefunden.'
+      sfs-data: 'StopForumSpam Daten'
+      title: 'Blockierte Registrierungen'
       username: Benutzername
     permissions:
       spamblock_users_label: 'Benutzer als Spammer markieren'
@@ -19,14 +24,32 @@ fof-anti-spam:
         delete_user_help: 'Dadurch wird der Benutzer endgültig gelöscht. Wenn deaktiviert, wird der Benutzer stattdessen gesperrt.'
         delete_user_label: 'Benutzer löschen'
         heading: Standard-Moderationsmaßnahmen
+        move_discussions_to_tags_help: 'Dadurch werden alle Diskussionen, die von diesem Benutzer begonnen wurden, in die von Ihnen angegebenen Themen verschoben. Lösche die Themen-Auswahl, um die Diskussionen in ihren ursprünglichen Themen zu belassen. Hat keinen Effekt, wenn die Option "Diskussionen löschen" aktiviert ist.'
+        move_discussions_to_tags_label: 'Diskussionen zu Themen verschieben'
       stopforumspam:
+        api_key_instructions_text: '<register>Registriere dich auf StopForumSpam</register>. Danach musst du deinen <key>API-Schlüssel anfordern</key>.'
         api_key_label: 'API Schlüssel'
+        api_key_text: 'Du hast die Möglichkeit, Spammer an StopForumSpam zu melden, um die allgemeine Forengemeinschaft spamfrei zu halten.'
         confidence_label: Vertrauen
         email_label: E-Mail-Spam-Prüfung
+        frequency_label: Schwellenwert
+        heading: StopForumSpam
         ip_label: IP-Adressen-Spam-Prüfung
         region_closest_label: 'Am nächsten'
         region_europe_label: Europa
         region_us_label: 'Vereinigte Staaten'
+        regional_endpoint_help: 'Standardmäßig leiten wir die Abfrage an den nächstgelegenen regionalen Server weiter, um die schnellste Antwort zu erhalten. Wenn du den Datenverkehr auf eine bestimmte Region beschränken möchtest, z. B. aus Gründen der Einhaltung von Datenschutzbestimmungen des Unternehmens oder des Landes, kannst du eine Verbindung zu einer bestimmten Region erzwingen.'
         regional_endpoint_label: 'Geografischer Zugang'
+        report_blocked_registrations_help: 'Wenn eine Registrierung durch die Spam-Prüfung blockiert wird, melden wir den Versuch an StopForumSpam zurück, damit die Aktivität des Spammers besser bestätigt werden kann. Dazu muss ein StopForumSpam-API-Schlüssel festgelegt werden (siehe unten).'
+        report_blocked_registrations_label: 'Melde blockierte Registrierungen'
+        sfs_lookup_help: 'Wenn diese Option aktiviert ist, überprüfen wir die StopForumSpam-Datenbank, wenn sich ein neuer Benutzer in deinem Forum registriert. Wenn der Benutzer gefunden wird (Benutzername, IP-Adresse, E-Mail) und dieser Punkt aktiviert sowie die Vertrauensstufe die von dir festgelegte Stufe erreicht, wird er daran gehindert, seine Registrierung abzuschließen.'
         sfs_lookup_label: 'Registrierungen überprüfen'
         username_label: Benutzernamen-Spam-Prüfung
+  forum:
+    spammer_modal:
+      hard_delete_posts_label: 'Beiträge löschen'
+      hard_delete_user_label: 'Benutzer löschen'
+      report_to_sfs_label: 'An StopForumSpam melden'
+      title: 'Markiere {username} als Spammer'
+    user_controls:
+      spammer_button: Spammer
