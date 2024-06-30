@@ -23,6 +23,7 @@ blomstra-payments:
       enable-bounties: 'Belohnungen aktivieren'
     settings:
       link-access-portal: 'Zugangsportal unter Benutzersitzungs-Dropdown verknüpfen'
+      link-to-terms: 'Link zu Geschäftsbedingungen'
       pk: 'Veröffentlichbarer (API) Schlüssel'
       recount-total-discussion-bounties: 'Zähle die gesamten Belohnungen für Diskussionen nach'
       sk: 'Geheimer (API) Schlüssel'
@@ -58,7 +59,10 @@ blomstra-payments:
     payment-options-modal:
       description: "Wähle eine der folgenden Optionen, um deinen Zugriff auf die Gruppe zu starten. Zur Zahlungsabwicklung wirst Du zu unserem Zahlungsanbieter Stripe weitergeleitet.\n"
       title: 'Zahlungsoptionen für den Zugriff auf {group}'
+    stripe:
+      interval_once: einmalig
     subscription-card:
+      cancel-control: Abbrechen
       pta: 'Bezahlt für den Zugang'
       ptb: 'Bezahlt, um zu bumpen'
     tag:
