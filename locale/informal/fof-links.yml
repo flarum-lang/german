@@ -9,6 +9,7 @@ fof-links:
       delete_link_confirmation: 'Bist du sicher, dass du diesen Link löschen möchtest?'
       everyone-label: Jeder
       guests-label: Gäste
+      icon_additional_text: 'Wenn du ein Markensymbol verwenden möchtest, lautet das Präfix stattdessen <code>fab fa-</code>.'
       icon_label: '=> core.ref.icon'
       icon_text: '=> core.ref.icon_text'
       internal_link: 'Ist dies ein interner Link?'
@@ -21,6 +22,7 @@ fof-links:
       url_description: 'Zum Anzeigen als Label leer lassen.'
       url_label: '=> fof-links.ref.url'
       url_placeholder: '=> fof-links.ref.url'
+      use_rel_me: 'Fügt den Attribut <code>rel="me"</code> zur Überprüfung der Identität auf anderen Websites hinzu'
       visibility: 'Link Sichtbarkeit'
     links:
       create_button: '=> fof-links.ref.create_link'

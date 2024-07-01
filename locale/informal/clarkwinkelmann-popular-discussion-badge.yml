@@ -7,6 +7,8 @@ clarkwinkelmann-popular-discussion-badge:
     settings:
       comments: Kommentare
       mode_help: "Der Frontend-Modus ist eine effiziente Lösung, die nicht auf die Datenbank zurückgreift. Der Scheduler-Modus erfordert eine CRON-Einrichtung und erlaubt Zeitspannen in den Bedingungen.\n"
+      scheduler_frequency_options:
+        everyFiveMinutes: 'Alle 5 Minuten'
       views: Aufrufe
   forum:
     badge_label: Beliebt
