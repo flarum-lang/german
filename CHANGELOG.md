@@ -34,6 +34,8 @@ CHANGELOG
 * [`blomstra/payments`](https://flarum.org/extension/blomstra/payments)
 * [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links)
 * [`datlechin/flarum-scroll-buttons`](https://github.com/datlechin/flarum-scroll-buttons)
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
 * [`justoverclock/flarum-ext-keywords`](https://github.com/justoverclockl/flarum-ext-keywords)
 * [`nearata/flarum-ext-auth-minecraft`](https://github.com/Nearata/flarum-ext-auth-minecraft)
 * [`sycho/flarum-private-facade`](https://github.com/SychO9/flarum-private-facade)
