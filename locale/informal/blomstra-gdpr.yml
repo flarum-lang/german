@@ -48,6 +48,9 @@ blomstra-gdpr:
         gdpr_actions:
           export: 'Daten für {username} exportieren'
           title: DSGVO-Maßnahmen
+  email:
+    export_available:
+      subject: 'Datenexport verfügbar'
   forum:
     process_erasure:
       comments_label: 'Kommentare (optional)'
@@ -80,3 +83,5 @@ blomstra-gdpr:
         export_description: 'Exportiert alle Token, die der Benutzer erstellt hat. Die Daten sind auf das Erstellungsdatum und den Token-Typ beschränkt.'
       user:
         delete_description: 'Löscht den Nutzer aus der Datenbank.'
+    request_data:
+      text: "Ein ZIP-Archiv wird für dich vorbereitet. Du erhältst eine Benachrichtigung, mit einem Downloadlink, sobald die Datei fertiggestellt ist. Der Link bleibt für einen Tag gültig.\n"
