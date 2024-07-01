@@ -4,6 +4,7 @@
 
 flarum-ext-keywords:
   admin:
+    addRow: 'Definition hinzufügen'
     definition: Definition
     parseonce: 'Analysiere die Wörter einmal in einem Beitrag'
     removedef: 'Definition löschen'
