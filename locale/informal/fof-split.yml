@@ -15,5 +15,6 @@ fof-split:
       was_split_from: '{count, plural, one {# Beitrag wurde von {target} aufgeteilt.} other {# Beiträge wurden von {target} aufgeteilt.}}'
       was_split_to: '{count, plural, one {# Beitrag wurde nach {target} aufgeteilt.} other {# Beiträge wurden nach {target} aufgeteilt.}}'
     split:
+      cancel: 'Aufteilen abbrechen'
       from: 'Aufteilen ab hier'
       to: 'Aufteilen bis hier'

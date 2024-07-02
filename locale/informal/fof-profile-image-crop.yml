@@ -5,5 +5,10 @@
 fof-profile-image-crop:
   forum:
     modal:
+      error:
+        failed_to_load_cropper: 'Der Bild-Editor konnte nicht geladen werden.'
+        generic_resize: 'Beim Zuschneiden des Bildes ist ein Fehler aufgetreten.'
+        get_image_data: 'Zuschneiden fehlgeschlagen. Stelle sicher das der Fingerprinting-Schutz deines Browsers deaktiviert ist.'
+      help_text: "Das Hochladen von Bildern kann fehlschlagen, wenn die Datenschutzeinstellungen deines Browsers sehr streng sind. Hast du Probleme, Versuche den Fingerprinting-Schutz zu deaktivieren. Ansonsten kannst du auch <disableResize>die Komprimierung des zugeschnittenen Bildes deaktivieren</disableResize> oder <disableCrop>das Zuschneiden ganz deaktivieren</disableCrop>.\n"
       submit_button: Hochladen
       submit_crop_button: 'Zuschneiden & Hochladen'

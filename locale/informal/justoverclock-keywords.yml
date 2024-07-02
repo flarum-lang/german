@@ -10,8 +10,10 @@ flarum-ext-keywords:
     removedef: 'Definition löschen'
     word: Wort
   forum:
+    definition: Definition
     loadMore: 'Mehr laden'
     pagetitle: Glossarseite
     searchtext: 'Tippe, um im Glossar zu suchen...'
     tagline: 'Möchtest Du mehr über die auf dieser Website verwendeten Begriffe erfahren? Weitere Informationen findest Du im Glossar'
+    term: Schlagwort
     title: Glossar
