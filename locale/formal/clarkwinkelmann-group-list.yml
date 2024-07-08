@@ -7,7 +7,7 @@ clarkwinkelmann-group-list:
     items:
       add: 'Eine Gruppe hinzufügen'
     permissions:
-      see: 'Siehe Gruppenliste'
+      see: 'Gruppenliste ansehen'
     settings:
       showAvatarBadges: 'Andere Abzeichen neben dem Avatar anzeigen'
       showOnlineStatus: 'Online-Status anzeigen'

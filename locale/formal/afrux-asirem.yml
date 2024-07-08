@@ -17,8 +17,8 @@ afrux-theme-base:
       edit_footer_links: 'Fußzeilen-Links bearbeiten'
       footer_bottom_line: 'Fußzeile Endergebnis'
       footer_description: Fußzeilenbeschreibung
-      hero_banner: Willkommensheldenbild
-      hero_banner_position: 'Hero Image CSS-Position (Beispiel: ''center top'' oder ''center 20%'')'
+      hero_banner: Wilkommensbanner
+      hero_banner_position: 'Bannerbild CSS-Position (Beispiel: ''center top'' oder ''center 20%'')'
       links_modal:
         add_group: 'Neue Linkgruppe'
         add_link: 'Link hinzufügen'

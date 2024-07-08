@@ -5,7 +5,7 @@
 datlechin-link-preview:
   admin:
     settings:
-      blacklist_help: 'Gib eine kommagetrennte Liste von Domains oder URLs ein, die von der Linkvorschau ausgeschlossen werden sollen.'
+      blacklist_help: 'Geben Sie eine kommagetrennte Liste von Domains oder URLs ein, die von der Linkvorschau ausgeschlossen werden sollen.'
       blacklist_label: Blacklist
       blacklist_placeholder: 'z.B. facebook.com,https://domain.com/path'
       cache_time_help: 'Anzahl der Minuten, die gecrawlte Links zwischengespeichert werden, bevor sie erneut aufgerufen werden. Mit dem Wert 0 wird das Link-Caching deaktiviert. Der Standardwert ist 60 Minuten, wenn er nicht gesetzt ist.'
@@ -16,7 +16,7 @@ datlechin-link-preview:
       open_links_in_new_tab_label: 'Links in einem neuen Tab öffnen'
       use_google_favicons_help: 'Wenn aktiviert, wird ein Google-Dienst im Frontend verwendet, um das Favicon der jeweiligen Webseite abzurufen.'
       use_google_favicons_label: 'Google Favicon-API verwenden'
-      whitelist_help: 'Gib eine kommagetrennte Liste von Domains oder URLs ein, die eine Linkvorschau ermöglichen sollen.'
+      whitelist_help: 'Geben Sie eine kommagetrennte Liste von Domains oder URLs ein, die eine Linkvorschau ermöglichen sollen.'
       whitelist_label: Whitelist
       whitelist_placeholder: 'z.B. facebook.com,https://domain.com/pfad'
   forum:

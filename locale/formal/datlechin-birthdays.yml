@@ -8,24 +8,24 @@ datlechin-birthdays:
       edit_own_birthday_label: 'Eigenen Geburtstag bearbeiten'
       view_birthday_label: 'Geburtstag ansehen'
     settings:
-      date_format_help: 'Verwende das <a>dayjs</a>-Datumsformat. Lasse das Feld leer, um das Standardformat zu verwenden.'
+      date_format_help: 'Das <a>dayjs</a>-Datumsforma verwenden. Lassen Sie dieses Feld leer, um das Standardformat zu verwenden.'
       date_format_label: Datumsformat
       date_none_year_label: 'Datumsformat ohne Jahr'
       min_age_help: 'Mindestalter für die Registrierung'
       min_age_label: Mindestalter
-      required_help: 'Du musst die Option Bei Registrierung festlegen aktivieren, damit diese Option funktioniert'
+      required_help: 'Sie müssen die Option Bei Registrierung festlegen aktivieren, damit diese Einstellung funktioniert'
       required_label: 'Erforderliche Eingabe von Geburtstagen'
       set_on_registration_label: 'Geburtsdatum bei der Registrierung angeben'
   api:
-    invalid_age_message: 'Dein Alter muss mindestens {minAge} Jahre betragen.'
+    invalid_age_message: 'Ihr Alter muss mindestens {minAge} Jahre betragen.'
     invalid_dob_message: 'Ungültiges Geburtsdatum'
   forum:
     change_dob:
-      date_of_birth_text: Geburtsdatum
+      date_of_birth_text: '=> datlechin-birthdays.ref.date_of_birth'
       submit_button: '=> core.ref.save_changes'
       title: 'Geburtsdatum ändern'
     edit_user:
-      dob_heading: Geburtsdatum
+      dob_heading: '=> datlechin-birthdays.ref.date_of_birth'
     header:
       edit_dob_button: 'Geburtsdatum ändern'
     nav:
@@ -35,10 +35,14 @@ datlechin-birthdays:
       post_count: '{count, plural, one {Beitrag: #} other {Beiträge: #}}'
     settings:
       change_dob_label: 'Geburtsdatum ändern'
-      dob_heading: Geburtsdatum
+      dob_heading: '=> datlechin-birthdays.ref.date_of_birth'
       show_dob_date_label: 'Geburtstag und Monat anzeigen'
-      show_dob_year_help: 'Dadurch können die Leute Dein Alter sehen.'
+      show_dob_year_help: 'Das erlaubt andere Benutzer Ihr Alter zu sehen.'
       show_dob_year_label: 'Geburtsjahr anzeigen'
+    sign_up:
+      dob_placeholder: '=> datlechin-birthdays.ref.date_of_birth'
     user:
       age_text: '{age} Jahre alt'
       birthday_text: 'Geburtstag: {date}'
+  ref:
+    date_of_birth: Geburtstag

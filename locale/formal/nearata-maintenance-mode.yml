@@ -14,9 +14,9 @@ nearata-maintenance-mode:
       maintenance_mode_enabled:
         label: Wartungsmodus
   api:
-    title: 'Zurzeit wegen Wartungsarbeiten nicht verfügbar. Bitte komm später wieder.'
+    title: 'Zurzeit wegen Wartungsarbeiten nicht verfügbar. Bitte kommen Sie später wieder.'
   views:
     default:
-      body: "<p>Wir führen gerade Wartungsarbeiten durch. Bitte komm später wieder.</p>\n"
+      body: "<p>Wir führen gerade Wartungsarbeiten durch. Bitte kommen Sie später wieder.</p>\n"
       header: 'Wegen Wartungsarbeiten nicht verfügbar.'
       title: Wartungsmodus

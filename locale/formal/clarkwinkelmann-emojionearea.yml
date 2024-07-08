@@ -7,10 +7,10 @@ clarkwinkelmann-emojionearea:
     settings:
       enableRecent: 'Aktuelles aktivieren'
       enableSearch: 'Suche aktivieren'
-      enableTones: 'Töne aktivieren'
+      enableTones: 'Farbtöne aktivieren'
       filtersPosition: 'Kategorien nach unten verschieben'
       hideFlarumButton: 'Flarums Emoji-Auswahltaste ausblenden'
-      searchPosition: 'Suche und Töne nach unten verschieben'
+      searchPosition: 'Suche und Farbtöne nach unten verschieben'
   forum:
     picker_button: Emoji-Auswahl
     search_placeholder: Suchen...
