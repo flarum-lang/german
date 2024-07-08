@@ -8,6 +8,8 @@ CHANGELOG
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
 * [`clarkwinkelmann/flarum-ext-money-to-all`](https://github.com/clarkwinkelmann/flarum-ext-money-to-all)
+* [`nearata/flarum-ext-embed-video`](https://github.com/Nearata/flarum-ext-embed-video)
+* [`nearata/flarum-ext-related-discussions`](https://github.com/Nearata/flarum-ext-related-discussions)
 * [`ziiven/money-transfer`](https://github.com/Ziiven/ziven-money-transfer)
 
 
@@ -16,6 +18,7 @@ CHANGELOG
 * [`acpl/my-tags`](https://github.com/android-com-pl/my-tags)
 * [`afrux/asirem`](https://github.com/afrux/asirem)
 * [`afrux/news-widget`](https://github.com/afrux/news-widget)
+* [`blomstra/gdpr`](https://github.com/blomstra/flarum-ext-gdpr)
 * [`clarkwinkelmann/flarum-ext-emojionearea`](https://github.com/clarkwinkelmann/flarum-ext-emojionearea)
 * [`clarkwinkelmann/flarum-ext-group-list`](https://github.com/clarkwinkelmann/flarum-ext-group-list)
 * [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
