@@ -24,6 +24,7 @@ CHANGELOG
 * [`davwheat/custom-sidenav-links`](https://github.com/davwheat/flarum-ext-custom-sidenav-links)
 * [`flarum/emoji`](https://github.com/flarum/emoji)
 * [`flarum/flags`](https://github.com/flarum/flags)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
 * [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop)
 * [`ianm/level-ranks`](https://github.com/imorland/level-ranks)
