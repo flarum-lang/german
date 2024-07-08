@@ -6,7 +6,7 @@ fof-follow-tags:
   admin:
     settings:
       following_none_label: '=> fof-follow-tags.ref.filtering_options.none'
-      following_page_default_label: 'Standardfilterung der folgenden Seiten'
+      following_page_default_label: 'Standardfilterung der "Folgen"-Seiten'
       following_tags_label: '=> fof-follow-tags.ref.filtering_options.tags'
   email:
     body:
@@ -54,7 +54,7 @@ fof-follow-tags:
       subscription_label: 'Wähle die Art aus, wie du "{tagName}" abonnierst:'
     user:
       settings:
-        filter_label: 'Was standardmäßig auf der folgenden Seite angezeigt werden soll'
+        filter_label: 'Was standardmäßig auf der "Folgen"-Seite angezeigt werden soll'
         heading: 'Follow Tags'
   ref:
     filtering_options:
