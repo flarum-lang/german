@@ -5,8 +5,8 @@
 acpl-my-tags:
   admin:
     settings:
-      enable-placeholder: 'Platzhaltertext aktivieren, wenn der Benutzer keinen Tags folgt'
+      enable-placeholder: 'Platzhaltertext aktivieren, wenn der Benutzer keinen Themen folgt'
   forum:
     index:
-      my_tags: 'Meine Tags'
-      placeholder: 'Du folgst noch keinen Tags. <a>Siehe Tags</a>'
+      my_tags: 'Ihre Themen'
+      placeholder: 'Sie haben noch keine Themen. <a>Siehe Themen </a>'

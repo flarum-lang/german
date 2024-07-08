@@ -8,22 +8,22 @@ flarum-flags:
       flag_posts_label: 'Beiträge melden'
       view_flags_label: 'Zeige gemeldete Beiträge'
     settings:
-      flag_own_posts_label: 'Erlaube Benutzern eigene Beiträge zu melden'
+      flag_own_posts_label: 'Benutzern erlauben Ihre eigenen Beiträge zu melden'
       guidelines_url_label: 'Community-Richtlinien URL'
       title: Flags-Einstellungen
   forum:
     flag_post:
-      confirmation_message: 'Danke für das Melden des Beitrags. Unsere Moderatoren werden sich darum kümmern.'
+      confirmation_message: 'Vielen Dank, dass Sie diesen Beitrag gemeldet haben. Unsere Moderatoren werden sich um das Anliegen kümmern.'
       dismiss_button: '=> core.ref.okay'
       reason_details_placeholder: 'Zusätzliche Informationen (optional)'
       reason_inappropriate_label: Unangebracht
-      reason_inappropriate_text: 'Dieser Beitrag ist anstößig, beleidigend oder verstößt gegen unsere <a>Community-Richtlinien</a>.'
+      reason_inappropriate_text: 'Dieser Beitrag ist anstößig, beleidigend oder verstößt gegen die <a>Community-Richtlinien</a>.'
       reason_missing_message: 'Bitte geben Sie einen Grund an.'
       reason_off_topic_label: 'Nicht zur Diskussion passend'
       reason_off_topic_text: 'Dieser Beitrag hat keinen Bezug zu der Diskussion und sollte in eine andere Diskussion verschoben werden.'
       reason_other_label: Sonstiges
       reason_spam_label: Spam
-      reason_spam_text: 'Dieser Beitrag ist Werbung oder Spam.'
+      reason_spam_text: 'Dieser Beitrag ist Werbung.'
       submit_button: '=> flarum-flags.ref.flag_post'
       title: '=> flarum-flags.ref.flag_post'
     flagged_posts:

@@ -8,10 +8,41 @@ davwheat:
       settings_page:
         display_options:
           heading: Anzeigeeinstellungen
+          labels:
+            position: 'Link Position'
+          options:
+            position:
+              above-tags-link: 'Über "Themen"-Button'
+              below-tags-link: 'Unter "Themen"-Button'
         link_table:
+          add_link_btn: 'Neuen Link hinzufügen'
+          alert:
+            fix_errors: 'Du musst die oben genannten Fehler beheben, bevor du die Änderungen speichern kannst.'
+          confirm_delete: 'Bestätige das Entfernen des Links "{link}"'
           save_btn:
             dirty: 'Einstellungen speichern'
+            fix_errors: 'Behebe die Fehler vor dem Speichern'
+            saved: 'Keine Änderungen zum abspeichern'
             saving: 'Änderungen werden gespeichert...'
           table:
             header:
               delete: Entfernen
+              icon: 'Link Icon'
+              position: Position
+              text: 'Link Text'
+              url: 'Link URL'
+            placeholders:
+              icon: 'fas fa-link'
+              text: 'Meine coole Seite'
+              url: 'https://flarum.org'
+            tooltips:
+              icon_preview: 'Icon Vorschau'
+              move_down: 'Nach unten verschieben'
+              move_up: 'Nach oben verschieben'
+        new_link_modal:
+          submit_btn:
+            add: 'Link hinzufügen'
+            fix_url: 'Ungültige URL'
+            invalid_form: 'Fülle alle Felder aus'
+            loading: 'Link wird hinzugefügt'
+          title: 'Neuen Link hinzufügen'

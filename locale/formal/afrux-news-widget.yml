@@ -6,5 +6,5 @@ afrux-news-widget:
   admin:
     settings:
       add_line: 'Nachrichtenzeile hinzufügen'
-      html_warning: 'Sei bitte vorsichtig, HTML wird gerendert.'
+      html_warning: 'Seien Sie bitte Vorsichtig, HTML wird gerendert.'
       lines: Nachrichtenzeilen

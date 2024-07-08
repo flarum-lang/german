@@ -7,7 +7,7 @@ nearata-auth-minecraft:
     settings:
       api_secret:
         help: 'Zu finden in <strong>Plugins/OAuth/config.json</strong>'
-        label: 'API Secret'
+        label: 'API Schlüssel'
       api_url:
         help: 'Beispiel: http://localhost:4567/verify'
         label: 'API URL'
@@ -29,7 +29,7 @@ nearata-auth-minecraft:
       submit_button: Bestätigen
       title: 'Mit Minecraft einloggen'
     login_error: 'Sitzung nicht gestartet oder abgelaufen.'
-    modal_help: 'Tritt dem Server <strong>{server}</strong> bei und klicke dann den unteren Button.'
+    modal_help: 'Treten Sie dem Server <strong>{server}</strong> bei und klicken Sie danach auf den unteren Button.'
     settings:
       change_email_button: 'E-Mail ändern'
     token_help: 'Trete dem Server <strong>srv.mc-oauth.net:25565</strong> bei, um ein Zugriffstoken zu erhalten.'

@@ -7,7 +7,7 @@ nearata-auth-minecraft:
     settings:
       api_secret:
         help: 'Zu finden in <strong>Plugins/OAuth/config.json</strong>'
-        label: 'API Secret'
+        label: 'API Schlüssel'
       api_url:
         help: 'Beispiel: http://localhost:4567/verify'
         label: 'API URL'
