@@ -7,6 +7,7 @@ ziven-transfer-money:
     permission:
       allow_use_transfer_money: 'Erlaube Geldüberweisungen'
     transfer-money-timezone: Zeitzone
+    transfer-money-timezone-default: Asien/Shanghai
   forum:
     cancel: Abbrechen
     current-money-amount: 'Derzeitiges Geld: '

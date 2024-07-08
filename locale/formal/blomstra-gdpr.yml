@@ -49,21 +49,50 @@ blomstra-gdpr:
           export: 'Daten für {username} exportieren'
           title: DSGVO-Maßnahmen
   email:
+    erasure_completed:
+      anonymization:
+        subject: 'Anonymisierung des Kontos abgeschlossen'
+      deletion:
+        subject: 'Kontolöschung abgeschlossen'
     export_available:
       subject: 'Datenexport verfügbar'
   forum:
+    badges:
+      anonymized_user: 'Anonymisierter Benutzer'
+    delete_user:
+      text: "Bist du sicher das du {username}s Konto löschen möchteat?\n\nDieser Vorgang kann nicht rückgängig gemacht werden.\n"
+      title: '{username}s Konto löschen'
+    erasure_request_confirmed: 'Du hast deinen Antrag auf Löschung deines Kontos bestätigt. Wie in der DSGVO vorgeschrieben, werden innerhalb von 30 Tagen Maßnahmen ergriffen.'
+    erasure_requests:
+      empty_text: 'Keine ausstehenden Anträge auf Kontolöschung'
+      item_text: '{name} hat die Löschung seines Kontos beantragt'
+      title: 'Anträge auf Kontolöschung'
+      tooltip: 'Anträge auf Kontolöschung'
+    notification:
+      export-ready: 'Dein Datenexport für {username} ist bereit zum Download.'
     process_erasure:
+      anonymization_button: 'Benutzer anonymisieren'
       comments_label: 'Kommentare (optional)'
+      confirm: 'Bist du sicher, dass du das Konto von {name} unter dem {mode}-Modus löschen möchtest?'
+      deletion_button: 'Benutzer löschen'
+      text: '{name} hat die Löschung seines Kontos beantragt.'
+      title: 'Löschantrag bearbeiten'
     request_erasure:
+      cancel_button: 'Anfrage abbrechen'
       password_label: 'Passwort bestätigen'
+      reason: 'Du gibst die folgende Begründung an: {reason}'
       reason_label: 'Begründung (optional)'
       status:
         awaiting_user_confirmation: "Du solltest eine E-Mail zur Bestätigung deiner Löschanfrage erhalten haben.\n"
+        user_confirmed: "Du hast deinen Antrag zur Löschung deines Kontos bestätigt. Wie in der DSGVO vorgeschrieben, werden innerhalb von 30 Tagen Maßnahmen ergriffen.\n"
+      text: 'Nach Erhalt und Bestätigung wird ein Administrator deine Anfrage innerhalb von 30 Tagen prüfen, wie in der DSGVO vorgeschrieben.'
     settings:
       data:
         heading: 'Personenbezogene Daten'
       export_data_button: 'Daten exportieren'
+      export_data_help: 'Wenn du den Datenexport anforderst, erhältst du eine herunterladbare Kopie aller mit deinem Konto verbundenen Informationen. Dazu gehören Beiträge, Kommentare und Profilangaben.'
       request_erasure_button: 'Konto löschen'
+      request_erasure_help: 'Wenn du die Löschung beantragst, werden dein Konto und alle damit verbundenen Daten endgültig gelöscht. Dieser Vorgang kann nicht rückgängig gemacht werden. Vergewissere dich, bevor du fortfährst, dass du alle Inhalte, die du behalten möchtest, gespeichert hast.'
   lib:
     data:
       avatar:
@@ -85,3 +114,4 @@ blomstra-gdpr:
         delete_description: 'Löscht den Nutzer aus der Datenbank.'
     request_data:
       text: "Ein ZIP-Archiv wird für dich vorbereitet. Du erhältst eine Benachrichtigung, mit einem Downloadlink, sobald die Datei fertiggestellt ist. Der Link bleibt für einen Tag gültig.\n"
+      title: 'Daten für {username} anfordern'
