@@ -2,6 +2,29 @@ CHANGELOG
 =========
 
 
+1.13.0 (XXXX-XX-XX)
+-------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`ziiven/money-transfer`](https://github.com/Ziiven/ziven-money-transfer)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`acpl/my-tags`](https://github.com/android-com-pl/my-tags)
+* [`afrux/news-widget`](https://github.com/afrux/news-widget)
+* [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links)
+* [`davwheat/custom-sidenav-links`](https://github.com/davwheat/flarum-ext-custom-sidenav-links)
+* [`flarum/emoji`](https://github.com/flarum/emoji)
+* [`flarum/flags`](https://github.com/flarum/flags)
+* [`nearata/flarum-ext-auth-minecraft`](https://github.com/Nearata/flarum-ext-auth-minecraft)
+* [`sycho/flarum-force-password-reset`](https://github.com/SychO9/flarum-force-password-reset)
+
+
+Alle Änderungen: [1.12.0...1.13.0](https://github.com/flarum-lang/german/compare/1.12.0...1.13.0).
+
+
 1.12.0 (2024-07-04)
 -------------------
 
