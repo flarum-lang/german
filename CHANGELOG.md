@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`clarkwinkelmann/flarum-ext-money-to-all`](https://github.com/clarkwinkelmann/flarum-ext-money-to-all)
 * [`katosdev/signature`](https://github.com/katosdev/signature)
+* [`litalino/flarum-country-flags`](https://github.com/Litalino/flarum-country-flags)
 * [`nearata/flarum-ext-embed-video`](https://github.com/Nearata/flarum-ext-embed-video)
 * [`nearata/flarum-ext-related-discussions`](https://github.com/Nearata/flarum-ext-related-discussions)
 * [`ziiven/money-transfer`](https://github.com/Ziiven/ziven-money-transfer)
@@ -25,6 +26,7 @@ CHANGELOG
 * [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
 * [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links)
 * [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
+* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
 * [`davwheat/custom-sidenav-links`](https://github.com/davwheat/flarum-ext-custom-sidenav-links)
 * [`flarum/emoji`](https://github.com/flarum/emoji)
 * [`flarum/flags`](https://github.com/flarum/flags)
