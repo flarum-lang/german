@@ -8,8 +8,12 @@ CHANGELOG
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
 * [`clarkwinkelmann/flarum-ext-money-to-all`](https://github.com/clarkwinkelmann/flarum-ext-money-to-all)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
+* [`justoverclock/discussion-tags`](https://flarum.org/extension/justoverclock/discussion-tags)
 * [`katosdev/signature`](https://github.com/katosdev/signature)
+* [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free)
 * [`litalino/flarum-country-flags`](https://github.com/Litalino/flarum-country-flags)
+* [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data)
 * [`nearata/flarum-ext-embed-video`](https://github.com/Nearata/flarum-ext-embed-video)
 * [`nearata/flarum-ext-related-discussions`](https://github.com/Nearata/flarum-ext-related-discussions)
 * [`ziiven/money-transfer`](https://github.com/Ziiven/ziven-money-transfer)
