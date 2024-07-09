@@ -13,14 +13,26 @@ datlechin-simple-tour-guide:
       delete_step_confirmation: 'Bist du sicher, dass du diesen Schritt löschen möchtest?'
       edit_step: '{title} bearbeiten'
     'no': Nein
+    permissions:
+      reset_tour_guide: 'Einführung zurücksetzen'
     settings:
+      allow_close_help: 'Erlaube den Nutzern, das Popover durch Anklicken des Hintergrunds zu schließen.'
+      allow_close_label: 'Erlaube das Schließen'
+      show_progress_help: 'Dadurch werden der aktuelle Schritt und die Gesamtzahl der Schritte im oberen Bereich des Popovers angezeigt.'
       show_progress_label: 'Fortschritt anzeigen'
+      skip_null_elements_help: 'Überspringt Schritte, deren Ziel keinem HTML-Element entspricht. Du kannst das verwenden, um Sprachen mit ''html[lang="es"] my-selector'' anzuvisieren. Dadurch wird auch die Schaltfläche "Weiter" ausgeblendet und du solltest den Fortschritt ausblenden.'
+      skip_null_elements_label: 'Null-Elemente überspringen'
     target: Ziel
     target_placeholder: 'Das hervorgehobene Ziel dieses Schritts (z.B. #element-id).'
     title: Überschrift
     title_placeholder: 'Die Überschrift von diesem Schritt.'
+    trigger_click: 'Klick auslösen'
     'yes': Ja
   forum:
+    done_btn_text: Fertig
     next_btn_text: Weiter
     prev_btn_text: Zurück
     progress_text: '{current} von {total}'
+    user_controls:
+      reset_tour_guide: 'Einführung wiederholen'
+      reset_tour_guide_confirmation: 'Bist du sicher, dass du diesen Benutzer dazu zwingen möchtest die Einführung zu wiederholen?'
