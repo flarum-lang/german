@@ -49,10 +49,16 @@ blomstra-gdpr:
           export: 'Daten für {username} exportieren'
           title: DSGVO-Maßnahmen
   email:
+    confirm_erasure:
+      subject: 'Bestätige die Anfrage zur Löschung deines Kontos'
+    erasure_cancelled:
+      subject: 'Antrag zur Kontolöschung abgebrochen'
     erasure_completed:
       anonymization:
+        body: "Hey {display_name}!\n\nDies ist eine automatische und endgültige Benachrichtigung, dass dein Konto erfolgreich anonymisiert wurde.\n"
         subject: 'Anonymisierung des Kontos abgeschlossen'
       deletion:
+        body: "Hey {display_name}!\n\nDies ist eine automatische und endgültige Benachrichtigung, dass dein Konto erfolgreich gelöscht wurde.\n"
         subject: 'Kontolöschung abgeschlossen'
     export_available:
       subject: 'Datenexport verfügbar'
@@ -60,6 +66,7 @@ blomstra-gdpr:
     badges:
       anonymized_user: 'Anonymisierter Benutzer'
     delete_user:
+      delete_button: 'Benutzer löschen'
       text: "Bist du sicher das du {username}s Konto löschen möchteat?\n\nDieser Vorgang kann nicht rückgängig gemacht werden.\n"
       title: '{username}s Konto löschen'
     erasure_request_confirmed: 'Du hast deinen Antrag auf Löschung deines Kontos bestätigt. Wie in der DSGVO vorgeschrieben, werden innerhalb von 30 Tagen Maßnahmen ergriffen.'
@@ -82,10 +89,12 @@ blomstra-gdpr:
       password_label: 'Passwort bestätigen'
       reason: 'Du gibst die folgende Begründung an: {reason}'
       reason_label: 'Begründung (optional)'
+      request_button: 'Löschung beantragen'
       status:
         awaiting_user_confirmation: "Du solltest eine E-Mail zur Bestätigung deiner Löschanfrage erhalten haben.\n"
         user_confirmed: "Du hast deinen Antrag zur Löschung deines Kontos bestätigt. Wie in der DSGVO vorgeschrieben, werden innerhalb von 30 Tagen Maßnahmen ergriffen.\n"
       text: 'Nach Erhalt und Bestätigung wird ein Administrator deine Anfrage innerhalb von 30 Tagen prüfen, wie in der DSGVO vorgeschrieben.'
+      title: 'Kontolöschung beantragen'
     settings:
       data:
         heading: 'Personenbezogene Daten'
@@ -113,5 +122,6 @@ blomstra-gdpr:
       user:
         delete_description: 'Löscht den Nutzer aus der Datenbank.'
     request_data:
+      request_button: 'Archiv anfordern'
       text: "Ein ZIP-Archiv wird für dich vorbereitet. Du erhältst eine Benachrichtigung, mit einem Downloadlink, sobald die Datei fertiggestellt ist. Der Link bleibt für einen Tag gültig.\n"
       title: 'Daten für {username} anfordern'
