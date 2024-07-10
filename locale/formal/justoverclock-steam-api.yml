@@ -11,17 +11,23 @@ justoverclock-steam-api:
     accountCreated: 'Mitglied seit: '
     country: 'Land: '
     gamesOwned: 'Spiele im Besitz: '
+    lastLogOff: 'Letzter Logout: '
+    lastLogin: 'Letzter Login: '
+    lastLogoff: 'Letzter Logout: '
+    noCountry: 'Nicht angegeben'
     noGamesAvailable: 'Keine Spiele in den letzten zwei Wochen gespielt.'
     privateProfile: 'Private Profil'
     profile: 'Profil: '
     publicProfile: 'Öffentliches Profil'
-    realName: 'Echter Name: '
+    realName: 'Richtiger Name: '
     status: 'Status: '
     statusAway: Abwesend
     statusBusy: Beschäftigt
     statusOffline: Offline
     statusOnline: Online
     statusPlay: 'Sucht nach Mitspieler'
+    statusSnooze: Schlummert
     statusTrade: 'Sucht nach Handel'
+    steamId: 'Steam Profilname oder Profil-URL'
     steamIdSaved: 'Steam-ID erfolgreich gespeichert'
     visitProfile: 'Profil ansehen'
