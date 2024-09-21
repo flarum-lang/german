@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.14.0 (2024-09-21)
+-------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`ianm/no-meta-title`](https://github.com/imorland/no-meta-title)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`justoverclock/steam-api`](https://flarum.org/extension/justoverclock/steam-api)
+
+
+Alle Änderungen: [1.13.0...1.14.0](https://github.com/flarum-lang/german/compare/1.13.0...1.14.0).
+
+
 1.13.0 (2024-07-10)
 -------------------
 
