@@ -16,7 +16,14 @@ fof-geoip:
       service_ipstack_description: 'Verwende <b>https://ipstack.com</b>, um bis zu 10.000 kostenlose Durchführungen pro Monat durchzuführen. Bezahlte Pläne beinhalten Verbindungsinformationen (ISP, Organisation) und Bedrohungsstufe.'
       service_ipstack_label: IPStack
       service_label: Dienstleistung
+      show_flag_help: 'Zeigen Sie ohne Offenlegung der IP-Adresse die Länderflagge der IP-Adresse des Beitragsautors an.'
+      show_flag_label: 'Länderflagge für jeden Beitrag anzeigen'
       title: 'FriendsOfFlarum GeoIP'
   forum:
     alerts:
       ip_copied: 'Kopierte IP-Adresse'
+    map_button_label: IP-Informationen
+    map_modal:
+      country_code: Landesvorwahl
+      ip_address: IP-Adresse
+      title: IP-Informationen

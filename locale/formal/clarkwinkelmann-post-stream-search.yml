@@ -14,5 +14,21 @@ clarkwinkelmann-post-stream-search:
       sideNavAccess: 'Zugang über die Diskussionsseitennavigation'
       sideNavAccessHelp: 'Gleich wie vorherige Einstellung, aber die Schaltfläche wird als separater Eintrag in der Seitenleiste statt im Dropdown-Menü hinzugefügt.'
   forum:
+    cannotGoToPost:
+      action: 'Versuchen Sie, die Filter zu löschen'
+      message: 'Zum Posten kann nicht gegangen werden'
+    discussionControls:
+      searchInDiscussion: 'Diskussion durchsuchen'
+    post:
+      opBadge: Diskussionsstarter
+      opBadgeTooltip: 'Klicken Sie hier, um nur Antworten von diesem Benutzer anzuzeigen'
+    postControls:
+      authorFilter: 'Nur Antworten dieses Autors anzeigen'
     stream:
       noResults: 'In dieser Diskussion entsprechen keine Beiträge der Suchanfrage'
+    toolbar:
+      authorPlaceholder: 'Nach Autor filtern...'
+      clear: 'Filter löschen'
+      close: 'Filter löschen und Symbolleiste schließen'
+      pin: 'Filter-Symbolleiste bei Diskussionen immer öffnen'
+      searchPlaceholder: 'Finden Sie in der Diskussion...'
