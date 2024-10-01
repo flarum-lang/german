@@ -2,6 +2,11 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-geoip/de@formal/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+fof-default-user-preferences:
+  admin:
+    settings:
+      showIPCountry: 'Zeigt die Flagge des Landes, aus dem der Benutzer postet'
+      showIPCountry-help: 'Dies basiert auf ihrer IP-Adresse zum Zeitpunkt der Veröffentlichung. Die Landesflagge (falls aktiviert) ist für alle Benutzer sichtbar. Administratoren und Moderatoren sehen die IP-Adresse im Tooltip.'
 fof-geoip:
   admin:
     settings:
@@ -24,6 +29,18 @@ fof-geoip:
       ip_copied: 'Kopierte IP-Adresse'
     map_button_label: IP-Informationen
     map_modal:
+      as: ASN
       country_code: Landesvorwahl
+      error: Fehler
       ip_address: IP-Adresse
+      isp: Internetanbieter
+      mobile: Mobilfunknetz
+      not_enough_data: 'Nicht genügend Daten, um eine Karte zu zeichnen'
+      organization: Organisation
+      threat_level: Bedrohungsstufe
+      threat_types: Bedrohungsarten
       title: IP-Informationen
+      zip_code: PLZ
+    user:
+      settings:
+        ip_country: 'Die Flagge des Landes anzeigen, aus dem ich poste, basierend auf meiner IP-Adresse'
