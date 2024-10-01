@@ -12,17 +12,27 @@ fof-best-answer:
       best_answer_not_own_discussion: 'Beste Antwort auswählen (nicht eigene Diskussion)'
     settings:
       allow_select_own_post: 'Eigenen Beitrag auswählen'
-      allow_select_own_post_help: 'Erlaube dem OP, einen seiner eigenen Beiträge in der Diskussion als beste Antwort auszuwählen'
+      allow_select_own_post_help: 'Einem Benutzer erlauben, seinen eigenen Beitrag als beste Antwort auf eine Diskussion auszuwählen'
+      discussion_sidebar_jump_button: 'Schaltfläche „Zur besten Antwort springen“ in der Diskussionsseitenleiste anzeigen'
+      discussion_sidebar_jump_button_help: 'Fügt der Diskussionsseitenleiste eine Schaltfläche hinzu, die zur besten Antwort im Beitragsstream springt.'
+      display_tags: 'Tags in Suchergebnissen anzeigen'
+      display_tags_help: 'Tags in Suchergebnissen für Diskussionen mit „Beste Antworten“ anzeigen'
       documentation: Dokumentation
       enable_all_tags_button: 'Alle Tags für beste Antworten aktivieren'
       enable_all_tags_reminder_button: 'Alle Tags für Erinnerungen für die beste Antwort aktivieren'
+      enabled_tags_help: 'Wählen Sie aus, für welche Tags (sofern vorhanden) die Option „Beste Antworten“ aktiviert werden soll. Diese Tags werden zu Tags im „Fragen und Antworten“-Format und können die Option „Beste Antworten“ festlegen.'
+      enabled_tags_label: 'Aktivierte Tags'
       introduction: "Aktiviere in <code><a>flarum/tags</a></code>, welche Tags Beste Antworten unterstützen sollen, und optional welche Tags Erinnerungen unterstützen sollen. Wenn für ein Tag Beste Antwort aktiviert ist, weise jeder Benutzergruppe, die Antworten festlegen kann (eigene Diskussion, beliebige Diskussion), Berechtigungen zu. Berechtigungen können global (für alle Best-Antwort-anabled-Tags) oder pro Tag zugewiesen werden.\n"
       label:
         advanced: Erweitert
         general: Allgemein
         reminders: Erinnerungen
         reminders_notice: 'Damit Erinnerungen funktionieren, müssen Sie den Flarum-Planer richtig eingerichtet haben.'
+        search: Durchsuchen
+        tags: 'Tags für beste Antworten'
       remind_tag_ids: 'Um Erinnerungen auf bestimmte Themen zu beschränken, gebe die ID''s der Themen hier ein (kommagetrennt)'
+      remind_tags_help: 'Wählen Sie aus, für welche Tags (sofern vorhanden) Erinnerungen gesendet werden sollen. Erinnerungen werden nur für Diskussionen mit diesen Tags gesendet.'
+      remind_tags_label: Erinnerungs-Tags
       schedule_log_output: 'Scheduler-Output an den Log anhängen'
       schedule_on_one_server: 'Verwende die Direktive ''onOneServer()'' für den Taskplaner'
       schedule_on_one_server_help: 'Erfordert Redis/Memcache'
@@ -36,6 +46,9 @@ fof-best-answer:
       show_filter_label: 'Dropdown-Liste für Filter für beste Antwort anzeigen'
       show_max_lines_help: 'Zum Deaktivieren auf 0 festlegen. Wenn ein Beitrag länger als die konfigurierte Anzahl von Zeilen ist, wird er in der Beitragsvorschau mit einem Ausblendeffekt abgeschnitten.'
       show_max_lines_label: 'Maximal anzuzeigende Zeilen in der Postvorschau'
+      solution_search: Lösungssuche
+      solution_search_help: 'Aktivieren Sie die Möglichkeit, nach Diskussionen mit den besten Antworten zu suchen'
+      tags_info: "Wenn ein Tag „Beste Antwort“ aktiviert ist, weisen Sie jeder Benutzergruppe, die Antworten festlegen darf (eigene Diskussion, beliebige Diskussion), Berechtigungen zu. Berechtigungen können global (für jeden Tag mit aktivierter „Beste Antwort“) oder pro Tag zugewiesen werden.\n"
       use_alt_ui: 'Alternatives Layout'
       use_alt_ui_help: 'Beste Antwortsteuerelemente in der Fußzeile des Beitrags'
   email:
@@ -46,13 +59,15 @@ fof-best-answer:
     subject:
       awarded: 'Dein Beitrag wurde von {display_name} als beste Antwort ausgewählt'
       ba-set: '{display_name} hat eine beste Antwort gewählt'
-      select: 'Wurde deine Frage beantwortet?'
+      select: 'Konnten Sie eine Antwort auf Ihre Frage erhalten?'
   forum:
     answered_badge: Beantwortet
     best_answer_button: 'Beste Antwort'
     best_answer_label: 'gewählt von <a>{username}</a> {time_set}'
     composer:
       titlePlaceholder: 'Titel der Frage'
+    discussion:
+      jump_to_best_answer_button: 'Beste Antwort anzeigen'
     errors:
       mismatch: 'Der ausgewählte Beitrag existiert nicht in dieser Diskussion.'
     filter:
@@ -74,6 +89,9 @@ fof-best-answer:
         best_answer_in_discussion: 'Die beste Antwort findet sich in einer Diskussion, an der ich teilgenommen habe'
         select_best_answer: 'Eine automatische Erinnerung, um in einer von mir begonnenen Diskussion die beste Antwort auszuwählen'
     remove_best_answer: 'Beste Antwort abwählen'
+    search:
+      all_discussions_solutions_button: 'Suche in allen Diskussionen mit Lösungen für "{query}"'
+      discussions_solutions_heading: 'Diskussionen mit Lösungen'
     this_best_answer: 'Beste Antwort auswählen'
     user:
       best-answer-count: '{count, plural, one { {count} beste Antwort} other {{count} beste Antworten}}'
