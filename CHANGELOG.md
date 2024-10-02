@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+1.15.0 (2024-10-02)
+-------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`clarkwinkelmann/flarum-ext-post-stream-search`](https://github.com/clarkwinkelmann/flarum-ext-post-stream-search)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+
+
+Alle Änderungen: [1.14.0...1.15.0](https://github.com/flarum-lang/german/compare/1.14.0...1.15.0).
+
+
 1.14.0 (2024-09-21)
 -------------------
 
