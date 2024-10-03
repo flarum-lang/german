@@ -41,7 +41,7 @@ fof-reactions:
       see_reactions_label: 'Sehen, wer auf Beiträge reagiert hat'
   forum:
     disabled-reaction: 'Du kannst diese Reaktion im Moment nicht verwenden, bitte aktualisiere die Seite'
-    mod_item: 'Reaktionen ansehen'
+    mod_item: 'Noch keine Reaktionen'
     modal:
       anonymous_count: '{count, plural, one {# anonymer Benutzer} other {# anonyme Benutzer}}'
       title: Reaktionen
