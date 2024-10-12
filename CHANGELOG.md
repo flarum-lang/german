@@ -5,6 +5,11 @@ CHANGELOG
 1.15.1 (XXXX-XX-XX)
 -------------------
 
+**Allgemeine Änderungen**:
+
+* Flarum-Core Übersetzungen aktualisiert.
+
+
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
