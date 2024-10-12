@@ -239,6 +239,8 @@ core:
             title: Gruppen
           join_time:
             title: Beitrittsdatum
+          user_actions:
+            title: Aktionen
           user_id:
             title: ID
           username:
@@ -511,6 +513,10 @@ core:
       hidden_tooltip: Versteckt
     data_segment:
       label: '{label}:'
+    datetime_formats:
+      humanTimeLong: ll
+      humanTimeShort: 'D. MMM'
+      scrubber: 'MMMM YYYY'
     debug_button: Debug
     dropdown:
       toggle_dropdown_accessible_label: 'Dropdown-Menü umschalten'
