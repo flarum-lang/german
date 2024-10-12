@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.15.1 (2024-10-12)
+-------------------
+
+**Allgemeine Änderungen**:
+
+* Flarum-Core Übersetzungen aktualisiert.
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+
+
+Alle Änderungen: [1.15.0...1.15.1](https://github.com/flarum-lang/german/compare/1.15.0...1.15.1).
+
+
 1.15.0 (2024-10-02)
 -------------------
 
