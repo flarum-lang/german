@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.16.0 (XXXX-XX-XX)
+-------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
+
+
+Alle Änderungen: [1.15.1...1.16.0](https://github.com/flarum-lang/german/compare/1.15.1...1.16.0).
+
+
 1.15.1 (2024-10-12)
 -------------------
 
