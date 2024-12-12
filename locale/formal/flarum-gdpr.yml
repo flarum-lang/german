@@ -49,8 +49,10 @@ flarum-gdpr:
           export: 'Daten für {username} exportieren'
   email:
     confirm_erasure:
+      body: "Jemand (hoffentlich du) hat gerade die Löschung des Kontos `{display_name}` beantragt.\n\nUm diese Aktion zu bestätigen, folge bitte dem folgenden Link. Anschließend wird deine Anfrage von unserem Team bearbeitet.\n\n{erasure_confirm_url}\n"
       subject: 'Bestätige die Anfrage zur Löschung deines Kontos'
     erasure_cancelled:
+      body: "Dies ist eine automatische Benachrichtigung, dass dein Antrag auf Stornierung der Kontolöschung bearbeitet wurde.\n\nDein Konto wird nicht mehr gelöscht.\n"
       subject: 'Antrag zur Kontolöschung abgebrochen'
     erasure_completed:
       anonymization:
@@ -60,13 +62,15 @@ flarum-gdpr:
         body: "Hey {display_name}!\n\nDies ist eine automatische und endgültige Benachrichtigung, dass dein Konto erfolgreich gelöscht wurde.\n"
         subject: 'Kontolöschung abgeschlossen'
     export_available:
+      body: "Du hast einen Export der Kontodaten für {username} angefordert. Dieser Export wurde erfolgreich generiert und ist jetzt verfügbar:\n\n{url}\n\nDieser Export bleibt bis {destroys_at} verfügbar.\n"
       subject: 'Datenexport verfügbar'
   forum:
     badges:
       anonymized_user: 'Anonymisierter Benutzer'
     delete_user:
-      delete_button: 'Benutzer löschen'
-      text: "Bist du sicher das du {username}s Konto löschen möchteat?\n\nDieser Vorgang kann nicht rückgängig gemacht werden.\n"
+      delete_button: Löschen
+      modal_delete_button: 'Mit Standardaktion löschen'
+      text: "Bist du sicher, dass du {username}s Konto löschen möchtest?\n\nDieser Vorgang kann nicht rückgängig gemacht werden.\n"
       title: '{username}s Konto löschen'
     erasure_request_confirmed: 'Du hast deinen Antrag auf Löschung deines Kontos bestätigt. Wie in der DSGVO vorgeschrieben, werden innerhalb von 30 Tagen Maßnahmen ergriffen.'
     erasure_requests:
@@ -74,6 +78,7 @@ flarum-gdpr:
       item_text: '{name} hat die Löschung seines Kontos beantragt'
       title: 'Anträge auf Kontolöschung'
       tooltip: 'Anträge auf Kontolöschung'
+    export_file: 'Export der Benutzerdaten für {username} ({email}) erstellt am {date} von {forumTitle} ({url})'
     notification:
       export-ready: 'Dein Datenexport für {username} ist bereit zum Download.'
     process_erasure:
@@ -119,7 +124,9 @@ flarum-gdpr:
         delete_description: 'Löscht alle vom Benutzer erstellten Token.'
         export_description: 'Exportiert alle Token, die der Benutzer erstellt hat. Die Daten sind auf das Erstellungsdatum und den Token-Typ beschränkt.'
       user:
+        anonymize_description: 'Setzt alle Spalten in der Benutzertabelle auf null. Spalten, die dies nicht zulassen, werden auf ihre Standardwerte oder spezielle Werte gesetzt. Das Passwort wird geändert, Einstellungen auf Standard zurückgesetzt und alle Gruppenzugehörigkeiten werden entfernt.'
         delete_description: 'Löscht den Nutzer aus der Datenbank.'
+        export_description: 'Exportiert Daten aus der Benutzertabelle. Alle Spalten außer ID und Passwort.'
     request_data:
       request_button: 'Archiv anfordern'
       text: "Ein ZIP-Archiv wird für dich vorbereitet. Du erhältst eine Benachrichtigung, mit einem Downloadlink, sobald die Datei fertiggestellt ist. Der Link bleibt für einen Tag gültig.\n"
