@@ -11,16 +11,16 @@ flarum-suspend:
     suspended:
       body: "Sehr geehrte/r {recipient_display_name},\n\nSie wurden aus folgendem Grund ausgeschlossen:\n\n---\n{suspension_message}\n---\n"
       html:
-        body: 'Dein Konto wurde aus folgendem Grund von {forumTitle} gesperrt:'
+        body: 'Ihr Konto wurde aus folgendem Grund von {forumTitle} gesperrt:'
       plain:
-        body: "Dein Konto wurde aus folgendem Grund gesperrt:\n\n---\n{suspension_message}\n---\n"
+        body: "Ihr Konto wurde aus folgendem Grund gesperrt:\n\n---\n{suspension_message}\n---\n"
       subject: 'Ihr Konto wurde ausgeschlossen'
     unsuspended:
       body: "Sehr geehrte/r {recipient_display_name},\n\nIhr Ausschluss wurde aufgehoben. Sie können zum Forum zurückkehren, indem Sie auf den folgenden Link klicken:\n\n{forum_url}\n"
       html:
-        body: 'Dein Konto wurde wieder freigeschaltet. Du kannst jederzeit zu [{forumTitle}]({forum_url}) zurückkehren.'
+        body: 'Ihr Konto wurde wieder freigeschaltet. Sie können jederzeit zu [{forumTitle}]({forum_url}) zurückkehren.'
       plain:
-        body: "Die Sperre deines Kontos wurde aufgehoben. Du kannst zum Forum zurückkehren, indem du auf folgenden Link klickst:\n\n{forum_url}\n"
+        body: "Die Sperre Ihres Kontos wurde aufgehoben. Sie können zum Forum zurückkehren, indem Sie auf folgenden Link klicken:\n\n{forum_url}\n"
       subject: 'Die Ausschluss Ihres Kontos wurde aufgehoben'
   forum:
     notifications:
