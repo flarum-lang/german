@@ -13,7 +13,7 @@ flarum-gdpr:
         help_text: "Hier sind die derzeit registrierten Datentypen aufgeführt. Jeder Typ wird zusammen mit den zugehörigen Export-, Anonymisierungs- und Löschungsaktionen aufgeführt. Wenn eine Erweiterung Daten verarbeitet, die unter die DSGVO-Vorschriften fallen, so sollte sie ihre Datentypen bei <code>blomstra/gdpr</code> registrieren.\nDaten, die in der <code>Benutzer</code>-Tabelle gespeichert sind, werden gesondert behandelt, siehe Benutzertabellendaten unten.\n"
         title: 'Arten der Daten'
         type: Art
-      description: 'Status der verschiedenen DSGVO-Maßnahmen und -Integrationen'
+      description: 'Übersicht der DSGVO-konformen Maßnahmen und Integrationen'
       heading: DSGVO-Datenübersicht
       settings:
         extension_settings_button: DSGVO-Einstellungen
@@ -42,7 +42,7 @@ flarum-gdpr:
         deletion: Löschung
       gdpr_page:
         help_text: 'Vor der Entscheidung, welche Aktionen in deinem Forum verwendet werden sollen, ist es wichtig zu verstehen, welche Daten integriert werden und wie sie sowohl für die Anonymisierung als auch für die Löschung behandelt werden. Informiere dich in der DSGVO-Übersicht darüber, wie die Daten behandelt werden und welche optionalen Erweiterungen die Daten für die Behandlung durch diese Erweiterung registriert haben.'
-        title: 'Datenintegration und -maßnahmen'
+        title: 'Integration und Verarbeitung von Daten'
     userlist:
       columns:
         gdpr_actions:
@@ -56,10 +56,10 @@ flarum-gdpr:
       subject: 'Antrag zur Kontolöschung abgebrochen'
     erasure_completed:
       anonymization:
-        body: "Hey {display_name}!\n\nDies ist eine automatische und endgültige Benachrichtigung, dass dein Konto erfolgreich anonymisiert wurde.\n"
+        body: "Dies ist eine automatische und endgültige Benachrichtigung, dass dein Konto erfolgreich anonymisiert wurde.\n"
         subject: 'Anonymisierung des Kontos abgeschlossen'
       deletion:
-        body: "Hey {display_name}!\n\nDies ist eine automatische und endgültige Benachrichtigung, dass dein Konto erfolgreich gelöscht wurde.\n"
+        body: "Dies ist eine automatische und endgültige Benachrichtigung, dass dein Konto erfolgreich gelöscht wurde.\n"
         subject: 'Kontolöschung abgeschlossen'
     export_available:
       body: "Du hast einen Export der Kontodaten für {username} angefordert. Dieser Export wurde erfolgreich generiert und ist jetzt verfügbar:\n\n{url}\n\nDieser Export bleibt bis {destroys_at} verfügbar.\n"

@@ -6,6 +6,10 @@ flarum-subscriptions:
   email:
     new_post:
       body: "Sehr geehrte/r {recipient_display_name},\n\n{poster_display_name} hat einen Beitrag in einer Diskussion verfasst, der Sie folgen: {title}.\n\nBitte folgen Sie dem untenstehenden Link, um die neue Aktivität zu sehen:\n{url}\n\n---\n\n{content}\n\n---\n\nSie werden keine weiteren Benachrichtigungen über diese Diskussion erhalten, bis Sie sie wieder besucht haben.\n"
+      html:
+        body: "{poster_display_name} hat soeben in einer von dir verfolgten Diskussion geschrieben: [{title}]({url}).\n\nDu erhältst keine weiteren Benachrichtigungen zu dieser Diskussion, bis du die neuesten Beiträge gelesen hast.\n"
+      plain:
+        body: "{poster_display_name} hat gerade in einer von dir verfolgten Diskussion geschrieben: {title}.\n\nUm die neue Aktivität einzusehen, klicke bitte auf diesen Link:\n{url}\n\n---\n\n{content}\n\n---\n\nDu erhältst keine weiteren Benachrichtigungen zu dieser Diskussion, bis du die neuesten Beiträge gelesen hast.\n"
       subject: '[Neuer Beitrag] {title}'
   forum:
     badge:
@@ -35,6 +39,12 @@ flarum-subscriptions:
       not_following_text: 'Benachrichtigung nur bei @Erwähnungen.'
       notify_alert_tooltip: 'Benachrichtigung im Forum bei neuen Beiträgen'
       notify_email_tooltip: 'Benachrichtigung per E-Mail bei neuen Beiträgen'
+  lib:
+    gambits:
+      discussions:
+        subscription:
+          following_key: gefolgt
+          ignoring_key: ignoriert
   ref:
     follow: Folgen
     following: Gefolgt

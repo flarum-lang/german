@@ -27,3 +27,9 @@ flarum-likes:
       notify_post_liked_label: 'Jemandem gefällt Ihr Beitrag'
     user:
       likes_link: 'Gefällt mir'
+  lib:
+    gambits:
+      posts:
+        likedBy:
+          hint: 'Die ID oder Nutzername des Benutzers'
+          key: gefällt_von

@@ -4,6 +4,9 @@
 
 flarum-nicknames:
   admin:
+    basics:
+      display_name_driver_options:
+        nickname: Spitzname
     permissions:
       edit_own_nickname_label: 'Eigenen Spitznamen bearbeiten'
     settings:

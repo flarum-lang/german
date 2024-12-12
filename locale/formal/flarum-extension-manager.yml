@@ -141,3 +141,22 @@ flarum-extension-manager:
       updater_title: Updates
     why_not_modal:
       title: 'Warum wird es nicht aktualisiert'
+  validation:
+    attributes:
+      bearer: HTTP-Bearer
+      'bearer.*': HTTP-Bearer
+      extension_id: erweiterungs-ID
+      github_oauth: GitHub-OAuth
+      'github_oauth.*': GitHub-OAuth
+      gitlab_oauth: GitLab-OAuth
+      'gitlab_oauth.*': GitLab-OAuth
+      gitlab_token: GitLab-Token
+      'gitlab_token.*': GitLab-Token
+      minimum_stability: 'minimale Stabilität'
+      package: paket
+      repositories: repositories
+      'repositories.*': repositories
+      'repositories.*.type': repository-typ
+      'repositories.*.url': repository-URL
+      update_mode: 'update Modus'
+      version: version

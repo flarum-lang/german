@@ -10,9 +10,17 @@ flarum-suspend:
     no_reason_given: 'Für diesen Ausschluss wurde kein Grund angegeben.'
     suspended:
       body: "Hallo {recipient_display_name},\n\nDu wurdest aus folgendem Grund ausgeschlossen:\n\n---\n{suspension_message}\n---\n"
+      html:
+        body: 'Dein Konto wurde aus folgendem Grund von {forumTitle} gesperrt:'
+      plain:
+        body: "Dein Konto wurde aus folgendem Grund gesperrt:\n\n---\n{suspension_message}\n---\n"
       subject: 'Dein Konto wurde ausgeschlossen'
     unsuspended:
       body: "Hallo {recipient_display_name},\n\nDein Ausschluss wurde aufgehoben. Du kannst zum Forum zurückkehren, indem Du auf den folgenden Link klickst:\n\n{forum_url}\n"
+      html:
+        body: 'Dein Konto wurde wieder freigeschaltet. Du kannst jederzeit zu [{forumTitle}]({forum_url}) zurückkehren.'
+      plain:
+        body: "Die Sperre deines Kontos wurde aufgehoben. Du kannst zum Forum zurückkehren, indem du auf folgenden Link klickst:\n\n{forum_url}\n"
       subject: 'Der Ausschluss deines Kontos wurde aufgehoben'
   forum:
     notifications:
@@ -39,3 +47,11 @@ flarum-suspend:
       suspended_tooltip: Ausgeschlossen
     user_controls:
       suspend_button: Ausschließen
+  lib:
+    gambits:
+      users:
+        suspended:
+          key: ausgeschlossen
+  validation:
+    attributes:
+      suspendedUntil: 'ausgeschlossen bis'

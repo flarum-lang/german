@@ -19,3 +19,8 @@ flarum-lock:
       discussion_unlocked_text: '{username} hat die Diskussion geöffnet ({time}).'
     settings:
       notify_discussion_locked_label: 'Jemand hat eine Ihrer Diskussionen geschlossen'
+  lib:
+    gambits:
+      discussions:
+        locked:
+          key: geschlossen

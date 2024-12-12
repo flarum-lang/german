@@ -3,6 +3,10 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 flarum-emoji:
+  admin:
+    settings:
+      cdn_help: 'z.B. https://cdn.jsdelivr.net/gh/twitter/twemoji@[version]/assets/, Die aktuelle Version ist: {version}'
+      cdn_label: CDN-Mirror-Adresse
   forum:
     composer:
       emoji_tooltip: 'Emoji einfügen'
