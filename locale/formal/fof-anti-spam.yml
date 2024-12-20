@@ -19,11 +19,14 @@ fof-anti-spam:
     settings:
       button: Einstellungen
       default-actions:
+        delete_discussions_help: 'Dadurch werden alle von diesem Benutzer gestarteten Diskussionen dauerhaft gelöscht. Wenn diese Option deaktiviert ist, werden Diskussionen stattdessen nur vorübergehend gelöscht.'
         delete_discussions_label: 'Diskussionen löschen'
+        delete_posts_help: 'Hierdurch werden alle Beiträge dieses Benutzers dauerhaft gelöscht. Wenn diese Option deaktiviert ist, werden Beiträge stattdessen „weich“ gelöscht.'
         delete_posts_label: 'Beiträge löschen'
         delete_user_help: 'Dadurch wird der Benutzer endgültig gelöscht. Wenn deaktiviert, wird der Benutzer stattdessen gesperrt.'
         delete_user_label: 'Benutzer löschen'
         heading: Standard-Moderationsmaßnahmen
+        introduction: "Wenn ein Benutzer als Spammer markiert wird, können Moderatoren aus verschiedenen Aktionen auswählen, wie sie mit dem jeweiligen Anwendungsfall umgehen möchten. Mit diesen Einstellungen kannst du die Aktionen, die du normalerweise durchführst, vorab festlegen, um den Prozess zu beschleunigen, aber auch Variationen nach Bedarf zulassen.\n"
         move_discussions_to_tags_help: 'Dadurch werden alle Diskussionen, die von diesem Benutzer begonnen wurden, in die von Ihnen angegebenen Themen verschoben. Lösche die Themen-Auswahl, um die Diskussionen in ihren ursprünglichen Themen zu belassen. Hat keinen Effekt, wenn die Option "Diskussionen löschen" aktiviert ist.'
         move_discussions_to_tags_label: 'Diskussionen zu Themen verschieben'
       stopforumspam:
@@ -34,6 +37,7 @@ fof-anti-spam:
         email_label: E-Mail-Spam-Prüfung
         frequency_label: Schwellenwert
         heading: StopForumSpam
+        introduction: "Prüft neue Benutzerregistrierungen anhand der <a>StopForumSpam</a>-Datenbank. Wenn entweder der Schwellenwert für die <code>Zuverlässigkeit</code> oder der Schwellenwert für die <code>Häufigkeit</code> erreicht ist, wird der Benutzer daran gehindert, seine Registrierung in Ihrem Forum abzuschließen.\n\nSSO-Registrierung über <code>fof/oauth</code> und <code>fof/passport</code> wird ebenfalls unterstützt. Andere SSO-Anbieter sollten funktionieren, wurden jedoch nicht getestet.\n"
         ip_label: IP-Adressen-Spam-Prüfung
         region_closest_label: 'Am nächsten'
         region_europe_label: Europa
