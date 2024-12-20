@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.16.2 (XXXX-XX-XX)
+-------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+
+
+Alle Änderungen: [1.16.1...1.16.2](https://github.com/flarum-lang/german/compare/1.16.1...1.16.2).
+
+
 1.16.1 (2024-12-15)
 -------------------
 
