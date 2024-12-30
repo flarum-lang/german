@@ -2,15 +2,20 @@ CHANGELOG
 =========
 
 
-1.16.2 (XXXX-XX-XX)
+1.17.0 (XXXX-XX-XX)
 -------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
+
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 
 
-Alle Änderungen: [1.16.1...1.16.2](https://github.com/flarum-lang/german/compare/1.16.1...1.16.2).
+Alle Änderungen: [1.16.1...1.17.0](https://github.com/flarum-lang/german/compare/1.16.1...1.17.0).
 
 
 1.16.1 (2024-12-15)
