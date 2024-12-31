@@ -8,6 +8,7 @@ CHANGELOG
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
 * [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
+* [`clarkwinkelmann/flarum-ext-anonymous-posting`](https://github.com/clarkwinkelmann/flarum-ext-anonymous-posting)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
