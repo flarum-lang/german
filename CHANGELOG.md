@@ -9,12 +9,22 @@ CHANGELOG
 
 * [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
 * [`clarkwinkelmann/flarum-ext-anonymous-posting`](https://github.com/clarkwinkelmann/flarum-ext-anonymous-posting)
+* [`huseyinfiliz/flagify`](https://github.com/huseyinfiliz/flagify)
+* [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
 * [`justoverclock/reputation-score`](https://flarum.org/extension/justoverclock/reputation-score)
+* `nodeloc-ignore-hidden-tags`
+* [`xypp/store-auto-checkin`](https://github.com/zxy19/flarum-store-auto-checkin)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 
 
 Alle Änderungen: [1.16.1...1.17.0](https://github.com/flarum-lang/german/compare/1.16.1...1.17.0).
