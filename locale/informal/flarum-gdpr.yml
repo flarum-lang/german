@@ -49,20 +49,20 @@ flarum-gdpr:
           export: 'Daten für {username} exportieren'
   email:
     confirm_erasure:
-      body: "Jemand (hoffentlich du) hat gerade die Löschung des Kontos `{display_name}` beantragt.\n\nUm diese Aktion zu bestätigen, folge bitte dem folgenden Link. Anschließend wird deine Anfrage von unserem Team bearbeitet.\n\n{erasure_confirm_url}\n"
+      body: "Hey {display_name}!\n\nJemand (hoffentlich du) hat gerade beantragt, das Konto `{display_name}` zu löschen.\n\nUm diese Aktion zu bestätigen, folge bitte dem folgenden Link. Danach wird dein Antrag von unserem Team bearbeitet.\n\n{erasure_confirm_url}\n"
       subject: 'Bestätige die Anfrage zur Löschung deines Kontos'
     erasure_cancelled:
-      body: "Dies ist eine automatische Benachrichtigung, dass dein Antrag auf Stornierung der Kontolöschung bearbeitet wurde.\n\nDein Konto wird nicht mehr gelöscht.\n"
+      body: "Hey {display_name}!\n\nDies ist eine automatische Benachrichtigung, dass dein Antrag auf Stornierung der Kontolöschung bearbeitet wurde.\n\nDein Konto wird nicht mehr gelöscht.\n"
       subject: 'Antrag zur Kontolöschung abgebrochen'
     erasure_completed:
       anonymization:
-        body: "Dies ist eine automatische und endgültige Benachrichtigung, dass dein Konto erfolgreich anonymisiert wurde.\n"
+        body: "Hey {display_name}!\n\nDies ist eine automatische und endgültige Benachrichtigung, dass dein Konto erfolgreich anonymisiert wurde.\n"
         subject: 'Anonymisierung des Kontos abgeschlossen'
       deletion:
-        body: "Dies ist eine automatische und endgültige Benachrichtigung, dass dein Konto erfolgreich gelöscht wurde.\n"
+        body: "Hey {display_name}!\n\nDies ist eine automatische und endgültige Benachrichtigung, dass dein Konto erfolgreich gelöscht wurde.\n"
         subject: 'Kontolöschung abgeschlossen'
     export_available:
-      body: "Du hast einen Export der Kontodaten für {username} angefordert. Dieser Export wurde erfolgreich generiert und ist jetzt verfügbar:\n\n{url}\n\nDieser Export bleibt bis {destroys_at} verfügbar.\n"
+      body: "Hey {display_name}!\n\nDu hast einen Export der Kontodaten für {username} angefordert. Dieser Export wurde erfolgreich generiert und ist jetzt verfügbar:\n\n{url}\n\nDieser Export bleibt bis {destroys_at} verfügbar.\n"
       subject: 'Datenexport verfügbar'
   forum:
     badges:

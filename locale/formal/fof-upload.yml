@@ -9,6 +9,13 @@ blomstra-gdpr:
         anonymize_description: 'Entfernt den Benutzerbezug aus den hochgeladenen Dateien. Die Dateien selbst bleiben für Benutzer zugänglich, die sie vor der Anonymisierung ansehen konnten.'
         delete_description: 'Löscht alle vom Benutzer hochgeladenen Dateien.'
         export_description: 'Alle Dateien, die der Benutzer hochgeladen hat.'
+flarum-gdpr:
+  lib:
+    data:
+      uploads:
+        anonymize_description: 'Entfernt den Benutzerbezug aus den hochgeladenen Dateien. Die Dateien selbst bleiben für Nutzer zugänglich, die sie vor der Anonymisierung sehen konnten.'
+        delete_description: 'Löscht alle Dateien, die der Nutzer hochgeladen hat.'
+        export_description: 'Alle vom Nutzer hochgeladenen Dateien.'
 fof-upload:
   admin:
     buttons:
@@ -16,6 +23,7 @@ fof-upload:
     help_texts:
       client_extension: "Standardmäßig wählt Upload eine sichere Dateierweiterung basierend auf dem MIME-Typ.\nBei einigen Dateitypen, die auf ZIP- oder Binärdaten basieren, kann dies dazu führen, dass generische Erweiterungen statt der erwarteten verwendet werden.\nHier kannst du eine kommagetrennte Liste von Dateierweiterungen eingeben, die genau beibehalten werden sollen.\n"
       composer_buttons: "Standardmäßig sind sowohl die Medienmanager-Schaltfläche als auch die Upload-Schaltfläche sichtbar. Du kannst auch festlegen, dass nur eine Schaltfläche angezeigt wird.\n"
+      custom_s3_url: "Verwende diese Einstellung, wenn du einen S3-kompatiblen Dienst nutzt, der ein bestimmtes URL-Format erfordert (z. B. Backblaze B2) oder wenn du Probleme mit dem Standard-URL-Format hast. In der Regel ist diese Einstellung für die meisten Dienste nicht erforderlich. Achte darauf, dass die URL das Protokoll (https://) enthält und korrekt formatiert ist. Beispiel: https://your-bucket.s3.your-region.backblazeb2.com\n"
       disable-download-logging: "Deaktiviere die Protokollierung aller Downloads, die von Nutzern deines Forums getätigt werden. Wenn du es aktiviert lässt, kannst du die Anzahl der Downloads und andere Metriken in der nahen Zukunft einsehen.\n"
       disable-hotlink-protection: "Der Hotlink-Schutz verhindert das Öffnen von Downloads auf anderen Seiten. Die aktuelle Methode erfordert ein csrf-Token und eine Post-ID.\n"
       download_templates: "Downloadvorlagen sind die Art und Weise, wie Uploads in deinem Forum angezeigt werden, z.B. als Vorschaubilder oder Buttons. Derzeit verfügbar:\n"
@@ -42,6 +50,7 @@ fof-upload:
         acl: 'Zugriffssteuerungsliste (ACL)'
         advanced_title: 'Advanced S3 Speichereinstellungen'
         bucket: Bucket
+        custom_url: 'Eigene S3 URL'
         endpoint: Endpunkt
         key: Schlüssel
         region: Region
@@ -124,21 +133,32 @@ fof-upload:
       text-preview_description: "Fügt eine Vorschau (erste 5 Zeilen) der Textdatei ein, mit einer Option zum Erweitern, um den gesamten Inhalt der Datei anzuzeigen.\n"
     upload_methods:
       aws-s3: S3/Kompatibel
+      awss3: 'AWS S3'
       imgur: Imgur
       local: Lokal
       ovh-svfs: 'OVH SVFS'
       qiniu: QiNiu
   api:
     upload_errors:
+      cannot_write_to_disk: 'Kann nicht auf die Festplatte schreiben.'
       could_not_detect_mime: 'Der MIME-Typ dieser Datei konnte nicht erkannt werden, bitte versuche es erneut.'
       forbidden_type: 'Das Hochladen von Dateien dieses Typs ist nicht erlaubt.'
+      max_upload_file_size_form: 'Die maximale Dateigröße für den Upload wurde im Formular erreicht.'
+      max_upload_file_size_ini: 'Die maximale Dateigröße für den Upload wurde in der php.ini erreicht.'
+      no_file_uploaded: 'Keine Datei hochgeladen.'
+      no_files_made_it_to_upload: 'Bitte lade keine Dateien hoch, die größer als {max} kb sind.'
+      no_upload_tmp_folder: 'Kein tmp-Ordner zum Hochladen von Dateien.'
+      partial_upload: 'Teilweiser Upload.'
       unsupported_type: 'Upload-Adapter unterstützt den angegebenen MIME-Type nicht: {mime}.'
+      upload_blocked_by_php_extension: 'Eine php-Erweiterung hat den Upload blockiert.'
   forum:
     buttons:
       attach: Anhängen
       cancel: Abbruch
       media: 'Meine Medien'
+      shared_media: 'Geteilte Medien'
       upload: Hochladen
+      upload_shared: Gemeinsam
       user_uploads: Benutzer-Uploads
     file_list:
       confirm_selection_btn: '{fileCount, plural, =0 {Nichts ausgewählt} one {Datei auswählen} other {Dateien auswählen}}'
@@ -168,3 +188,39 @@ fof-upload:
       no_snippet_preview: '<Vorschau wird hier nach dem Posten erscheinen>'
     validation:
       max_size: 'Uploads über {max}KB werden nicht akzeptiert.'
+  lib:
+    file_list:
+      delete_confirmation: 'Bist du sicher, dass du „{fileName}“ löschen willst?'
+      delete_file_a11y_label: 'Datei „{fileName}“ löschen'
+      empty: 'Es existieren keine Dateien zum Anzeigen.'
+      hide_file:
+        btn_a11y_label_hide: '„{fileName}“ aus dem Medienmanager ausblenden'
+        btn_a11y_label_show: 'Zeige „{fileName}“ im Medienmanager'
+        hide_confirmation: 'Bist du sicher, dass du „{fileName}“ ausblenden willst? Wenn du eine Datei ausblendest, wird sie nur aus deinem Medienmanager entfernt und hat keine Auswirkungen auf bestehende Beiträge.'
+        hide_fail: 'Datei „{fileName}“ konnte nicht ausgeblendet werden.'
+        hide_success: 'Datei versteckt'
+        loading: 'Datei ausblenden...'
+        show_confirmation: 'Bist du sicher, dass du „{fileName}“ anzeigen möchtest? Wenn du eine Datei anzeigst, wird sie in deinem Medienmanager sichtbar.'
+        show_fail: 'Datei „{fileName}“ kann nicht angezeigt werden'
+        show_success: 'Datei angezeigt'
+      hide_shared_file:
+        btn_a11y_label_hide: 'Mach „{fileName}“ privat (keine öffentliche URL)'
+        btn_a11y_label_show: 'Mach „{fileName}“ öffentlich (mit öffentlicher URL)'
+        hide_confirmation: 'Bist du sicher, dass du „{fileName}“ privat erstellen willst? Wenn du eine Datei privat erstellst, wird ihre öffentliche URL entfernt, dies hat jedoch keine Auswirkungen auf bestehende Beiträge. Zudem ist sie im Medienmanager nicht mehr für unbefugte Nutzer/innen sichtbar.'
+        hide_fail: 'Datei „{fileName}“ konnte nicht privat gemacht werden'
+        hide_success: 'Datei privat erstellt'
+        loading: 'Datei privat machen...'
+        show_confirmation: 'Bist du sicher, dass du „{fileName}“ öffentlich erstellen möchtest? Wenn du eine Datei öffentlich erstellst, ist sie für jeden mit einer öffentlichen URL zugänglich und jeder kann sie über den Medienmanager teilen.'
+        show_fail: 'Die Datei „{fileName}“ kann nicht öffentlich gemacht werden'
+        show_success: 'Datei öffentlich gemacht'
+      load_more_files_btn: 'Weitere Dateien laden'
+      loading: 'Dateien laden...'
+      modal_empty_desktop: 'Deine Dateiliste ist leer. Klicke auf die Schaltfläche oder ziehe eine Datei hierher, um sie hochzuladen.'
+      modal_empty_phone: 'Deine Dateiliste ist leer. Tippe auf die Schaltfläche oben, um eine Datei hochzuladen.'
+      release_to_upload: 'Veröffentlichung zum Hochladen'
+      select_file_a11y_label: 'Datei „{fileName}“ auswählen'
+    upload-shared-file-modal:
+      dropzone: 'Ziehe Dateien hierher oder klicke zum Durchsuchen'
+      hide-from-media-gallery: 'Aus der Mediengalerie des Nutzers ausblenden'
+      title: 'Neue gemeinsame Datei'
+      upload: Hochladen

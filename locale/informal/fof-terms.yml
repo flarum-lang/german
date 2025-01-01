@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-terms/de/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-gdpr:
+  lib:
+    data:
+      userpolicydata:
+        delete_description: 'Entfernt die Zustimmung des Nutzers zu den Bedingungen'
+        export_description: 'Details über die Zustimmung des Nutzers zu den Bedingungen'
 fof-terms:
   admin:
     buttons:
@@ -22,9 +28,11 @@ fof-terms:
       export-url-help: "Jede:r Nutzer:in mit der Berechtigung \"Download/Export alle Richtlinien Daten\" kann auf diese URL zum Download der Nutzer:innen die dieser Richtlinie zugestimmt haben zugreifen. Du kannst weitere Details über verfügbare Optionen im <a>Extension Wiki</a> finden.\n"
       name: Namen
       name-help: 'Dieser Name wird sowohl neben der Checkbox wie auch im Titel des Update-Overlays angezeigt.'
+      optional: 'Optionale Richtlinie'
+      optional-help: 'Wenn diese Option aktiviert ist, können Nutzer das Forum nutzen und mit ihm interagieren, ohne diese Richtlinie zu akzeptieren.'
       terms-updated-at: 'Aktualisiert am'
       terms-updated-at-help: "Das Datum der letzten Aktualisierung der Bedingungen. Wird dieser Wert gesetzt, werden alle Nutzer:innen die den Bedingungen vor dem Datum bereits zugestimmt haben zur erneuten Zustimmung aufgefordert. Muss in der Vergangenheit liegen - andernfalls können Nutzer:innen nicht zustimmen und kommen nie über das Overlay hinaus.\n"
-      terms-updated-at-placeholder: 'YYYY-MM-DD (hh:mm:ss)'
+      terms-updated-at-placeholder: 'DD-MM-YYYY (hh:mm:ss)'
       update-message: Aktualisierungsnachricht
       update-message-help: 'Eine Nachricht, die Nutzer:innen angezeigt wird, die den aktuellsten Bedingungen noch nicht zugestimmt haben.'
       url: URL
@@ -55,7 +63,11 @@ fof-terms:
       title: 'Akzeptanz-Status der Bedingungen für Benutzer:in {username}'
     update-alert:
       can-accept-message: 'Wir haben unsere Bedingungen kürzlich aktualisiert. Um die Seite weiter zu benutzen, musst du diesen zustimmen.'
+      can-accept-optional-message: 'Wir haben die Bedingungen kürzlich aktualisiert. Du kannst sie bei Bedarf überprüfen.'
+      close: Schließen
       must-accept-message: 'Während Du dir die neuen Bedingungen ansiehst, haben wir den Zugang zum Forum vorübergehend eingeschränkt.'
       review: 'Klicke hier, um die neuen Bedingungen zu lesen und zu akzeptieren'
     user_controls:
       state_button: 'Akzeptanz-Status der Bedingungen'
+    user_settings:
+      optional_policies_label: Richtlinien

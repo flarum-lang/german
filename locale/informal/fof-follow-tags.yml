@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-follow-tags/de/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-gdpr:
+  lib:
+    data:
+      tagsubscription:
+        anonymize_description: 'Entfernt das Abonnement des Nutzers für den Tag.'
+        export_description: 'Exportiert die Details der Abonnementstufe für einen Tag, falls eine solche existiert.'
 fof-follow-tags:
   admin:
     settings:
@@ -51,7 +57,7 @@ fof-follow-tags:
       notify_alert_tooltip: 'Erhalte eine Forenbenachrichtigung, wenn neue Diskussionen oder Beiträge existieren'
       notify_email_tooltip: 'Erhalte eine E-Mail, wenn neue Diskussionen oder Beiträge existieren'
       submit_button: 'Abo bestätigen'
-      subscription_label: 'Wähle die Art aus, wie du "{tagName}" abonnierst:'
+      subscription_label: 'Wähle die Art aus, wie du "{tagName}" abonnierst'
     user:
       settings:
         filter_label: 'Was standardmäßig auf der "Folgen"-Seite angezeigt werden soll'

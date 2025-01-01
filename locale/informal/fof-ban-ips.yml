@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-ban-ips/de/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-gdpr:
+  lib:
+    data:
+      bannedipdata:
+        anonymize_description: 'Alle mit dem Nutzer verknüpften IP-Adressen werden entkoppelt, doch die IP selbst bleibt zusammen mit dem Grund gesperrt. Achte darauf, dass im Feld „Grund“ keine PII-Daten gespeichert werden.'
+        export_description: 'Wenn eine IP-Sperre mit einem Nutzer verbunden ist (d.h. der Nutzer wurde per IP gesperrt), wird die IP-Adresse des Nutzers zusammen mit dem Grund für die Sperre und dem Erstellungsdatum in den Export aufgenommen.'
 fof-ban-ips:
   admin:
     empty_text: 'Keine gesperrten IPs gefunden.'

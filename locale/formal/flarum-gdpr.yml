@@ -56,10 +56,10 @@ flarum-gdpr:
       subject: 'Antrag zur Kontolöschung abgebrochen'
     erasure_completed:
       anonymization:
-        body: "Dies ist eine automatische und endgültige Benachrichtigung, dass dein Konto erfolgreich anonymisiert wurde.\n"
+        body: "Hey {display_name}!\n\nDies ist eine automatische und endgültige Benachrichtigung, dass dein Konto erfolgreich anonymisiert wurde.\n"
         subject: 'Anonymisierung des Kontos abgeschlossen'
       deletion:
-        body: "Dies ist eine automatische und endgültige Benachrichtigung, dass dein Konto erfolgreich gelöscht wurde.\n"
+        body: "Hey {display_name}!\n\nDies ist eine automatische und endgültige Benachrichtigung, dass dein Konto erfolgreich gelöscht wurde.\n"
         subject: 'Kontolöschung abgeschlossen'
     export_available:
       body: "Sie haben einen Export der Kontodaten für {username} angefordert. Dieser Export wurde erfolgreich generiert und ist jetzt verfügbar:\n\n{url}\n\nDieser Export bleibt bis {destroys_at} verfügbar.\n"
