@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
 * [`clarkwinkelmann/flarum-ext-anonymous-posting`](https://github.com/clarkwinkelmann/flarum-ext-anonymous-posting)
+* [`justoverclock/reputation-score`](https://flarum.org/extension/justoverclock/reputation-score)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
