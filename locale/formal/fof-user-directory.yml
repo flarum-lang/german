@@ -10,6 +10,7 @@ fof-user-directory:
       default-sort: Standard-Sortierung
       disable-global-search-source: 'Benutzerverzeichnis nicht zum globalen Suchfeld von Flarum hinzufügen'
       link: 'Link auf der Homepage hinzufügen, damit Benutzer das Verzeichnis sehen können'
+      link-group-mentions: 'Verlinke Gruppenerwähnungen in Beiträgen mit dem Benutzerverzeichnis'
       use-small-cards: 'Verwende kleine Nutzer-Karten'
   forum:
     header:

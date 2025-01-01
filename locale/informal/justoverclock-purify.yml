@@ -6,6 +6,7 @@ flarum-ext-purify:
   admin:
     additem: 'Füge dem Array ein schlechtes Wort hinzu'
     additemdesc: 'Trenne jedes Wort durch Komma (z. B. Wort1, Wort2, Wort3)'
+    badWords: 'Wörter zur schwarzen Liste hinzufügen'
     customreg: 'Benutzerdefinierten regulären Ausdruck verwenden'
     customregexp: 'Benutzerdefinierten Regexp verwenden'
     customregexpdesc: 'Gebe hier Deinen regulären Ausdruck ein, der Deinen Bedürfnissen entspricht (z. B. (flarum|best|extension) um diese 3 Wörter auszublenden)'

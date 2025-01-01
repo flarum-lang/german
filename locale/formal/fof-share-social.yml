@@ -6,10 +6,13 @@ fof-share-social:
   admin:
     settings:
       canonical-urls: 'Kanonische URLs zum Teilen verwenden'
+      default-option: Standard-Teilen-Option
+      default-option-help: "Wenn du eine Standardoption auswählst, wird das Modal in eine Dropdown-Schaltfläche umgewandelt.\nWenn „Native Share“ ausgewählt wird, wird es nur angezeigt, wenn der Browser es unterstützt, andernfalls wird das ursprüngliche Modal wiederhergestellt.\n"
       plain-copy: 'Einfache URL-Kopie anzeigen'
   forum:
     discussion:
       share_button: Teilen
+      share_dropdown_accessible_label: 'Dropdown-Menü zum Teilen der Diskussion umschalten'
     modal:
       copy_button: Kopieren
       title: Teilen
