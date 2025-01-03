@@ -23,6 +23,11 @@ askvortsov-pwa:
         heading: Farben
         theme_color_label: Themenfarbe
         theme_color_text: 'Diese Farbe wird manchmal von Geräten bei der Anzeige deiner App als die Farbe verwendet, die die Seite umgibt, z.B. im Task Switcher von Android. Du kannst dies einstellen, indem du die primäre Farbe auf der Seite ''Erscheinungsbild'' in deinem Admin-Dashboard änderst.'
+      firebase_config:
+        help_text: 'Um die Unterstützung für Push-Benachrichtigungen bei der Veröffentlichung deiner App im Apple App Store hinzuzufügen, musst du Firebase verwenden, um Push-Benachrichtigungen zu deiner Anwendung hinzuzufügen. Bitte erstelle deine Firebase Service Config und lade sie hier hoch.'
+        see_documentation_here: 'Siehe Dokumentationen hier'
+        upload_file: 'Datei hochladen'
+        upload_successful: 'Deine Firebase-Konfiguration wurde erfolgreich hochgeladen'
       heading: 'Progressive Web App Konfiguration'
       logo_heading: 'Logos und Icons'
       logo_size_text: 'Lade ein Logo hoch, das auf die Größe von {size} mal {size} Pixeln skaliert wird.'
@@ -41,6 +46,8 @@ askvortsov-pwa:
         push_notif_preference_default_to_email_text: 'Bei true verfügen die Nutzer/innen über standardmäßig aktivierte Push-Benachrichtigungen für alle Benachrichtigungsarten, bei denen E-Mail-Benachrichtigungen standardmäßig aktiviert sind. Bei false verfügen die Nutzer/innen standardmäßig über deaktivierte Push-Benachrichtigungen.'
         user_max_subscriptions_label: 'Maximale Push-Abonnements pro Benutzer'
         user_max_subscriptions_text: 'Wie viele Push-Abonnements sollte jeder Nutzer gleichzeitig haben können? Wenn ein Nutzer eine Push-Benachrichtigung erhält, führt jedes Abonnement zu einem API-Aufruf. Jedes Abonnement entspricht normalerweise einem Browser, den der Nutzer verwendet hat.'
+        window_controls_overlay_label: 'Überlagerung von Fenstersteuerungen aktivieren?'
+        window_controls_overlay_text: "Wenn dies der Fall ist, können die Nutzer/innen durch das Ausblenden der nativen Titelleiste ein noch intensiveres, natives Erlebnis erhalten. Ob Window Controls Overlay aktiviert ist oder nicht, hängt von den Benutzereinstellungen und der Browserkompatibilität ab. Du musst deine Titelleiste anpassen, indem du CSS/JS hinzufügst, nachdem du sie aktiviert hast, sonst überlagern die Steuerelemente einige Elemente der oberen Navigationsleiste deines Forums und das Fenster lässt sich fast nicht mehr verschieben, was zu einer schlechten Erfahrung führt.\n\nSiehe auch: <compatibilitylink>Die Kompatibilität von Window Controls Overlay</compatibilitylink> & <learnlink>Über Window Controls Overlay in Microsoft Learn</learnlink>\n"
       refreshed_message: 'Die PWA-Konfiguration wurde erfolgreich aktualisiert.'
       status_check_heading: Statusprüfung
       submit_button: 'Einstellungen speichern'

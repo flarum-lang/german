@@ -5,4 +5,9 @@
 acpl-mobile-tab:
   forum:
     all_discussions: Diskussionen
+    categories: Kategorien
     home: Startseite
+    log_in: Anmelden
+    notifications: Benachrichtigungen
+    profile: Profil
+    tags: Tags
