@@ -33,6 +33,7 @@ CHANGELOG
 * [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`justoverclock/newsletter`](https://github.com/justoverclockl/newsletter)
 * [`justoverclock/flarum-ext-purify`](https://github.com/justoverclockl/flarum-ext-purify)
 
 
