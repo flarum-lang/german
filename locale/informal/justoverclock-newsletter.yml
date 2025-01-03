@@ -15,3 +15,34 @@ flarum-ext-newsletter:
     prconsent: 'Zustimmung zum Datenschutz'
     submitbutton: Senden
     subscribe: 'Abonniere unseren Newsletter. Bitte gebe deine E-Mail-Adresse ein und klicke auf Senden.'
+justoverclock-newsletter:
+  admin:
+    ctaText: 'Besuche unsere Community'
+    emailSentErrorMessage: 'E-Mail-Versand fehlgeschlagen.'
+    emailSentSuccessMessage: 'E-Mails erfolgreich versendet!'
+    emailTitle: 'Titel des Newsletters'
+    lastNewsletterSent: 'Letzter Newsletter gesendet'
+    newsLetterOptOutFooter: 'Du magst diese E-Mails nicht?'
+    newsLetterOptOutFooterUnsubscribe: Abbestellen.
+    newsletterCountText: 'Dein Newsletter wird an alle oben genannten Abonnenten gesendet.'
+    noNewsletterSent: 'Keine Daten'
+    sendEmailButtonText: 'E-Mail an alle Abonnenten senden'
+    sendingText: Senden...
+    textOrHtml: 'Newsletter Body (Text oder html)'
+    totalSubscribers: 'Abonnenten insgesamt'
+  forum:
+    consent: 'Ich lese'
+    emailNotFound: 'Abonnent nicht gefunden oder bereits gelöscht'
+    emailRequired: 'E-Mail ist erforderlich'
+    invalidEmailHint: 'Ungültige E-Mail'
+    newsLetterModalTitle: 'Richtlinie zur Datenverarbeitung *'
+    newsLetterTitle: Abonnieren
+    optOutPageDescription: "<p>Wir verstehen, dass sich Vorlieben ändern und bedauern es, wenn du dich abmeldest. Wenn du unseren Newsletter nicht mehr\nerhalten möchtest, klicke einfach auf die Schaltfläche unten. Du erhältst dann in Zukunft keine Updates, Angebote und Neuigkeiten mehr von uns.</p>\n<p>Wir würden uns freuen, wenn wir unseren Newsletter noch verbessern können oder wenn du uns dein Feedback mitteilst.\nWenn du deine Meinung änderst, kannst du dich in Zukunft jederzeit wieder anmelden!</p>\n<p>Danke für deine Zeit und wir hoffen, dass wir in Kontakt bleiben.</p>\n"
+    optOutPageTitle: 'Fühlt sich dein Posteingang ein wenig voll an? Hier kannst du dich von unserem Newsletter abmelden.'
+    optOutPlaceholder: 'Gib hier deine E-Mail ein...'
+    subscribe: Abonnieren
+    subscriberDeleted: 'Abonnent erfolgreich gelöscht'
+    subscriberExist: 'Diese E-Mail ist bereits abonniert.'
+    successMessage: 'Du bist jetzt für unseren Newsletter angemeldet!'
+    successUnsubscribedMessage: 'Du bist jetzt von unserem Newsletter abgemeldet!'
+    unSubscribe: Abbestellen
