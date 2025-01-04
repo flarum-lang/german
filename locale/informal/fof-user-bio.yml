@@ -12,6 +12,12 @@ fof-user-bio:
       allowFormatting: 'Formatierung in der Biografie zulassen'
       allowFormatting_help: 'Die Formatierung ist von der Formatierung von Beiträgen getrennt. Wenn die BBCode- und/oder Markdown-Erweiterungen aktiviert sind, stehen sie für die Formatierung der Bio zur Verfügung. Es sind keine Bilder oder Einbettungen erlaubt. Erweiterungen, die den Flarum-Formatierer ergänzen, müssen *explizit* Unterstützung für den Bio-Formatierer hinzufügen.'
       bioLimit: 'Bio Zeichenlimit'
+      maxLines: 'Maximale Anzahl an Zeilen die gleichzeitig Angezeigt werden'
   forum:
+    profile:
+      cancel_button: Abbrechen
+      cancel_confirm: 'Bist du dir Sicher das du das Bearbeiten abbrechen willst? Du verlierst deinen gesamten Fortschritt.'
+      edit_bio_label: 'Bio bearbeiten'
+      save_button: Speichern
     userbioPlaceholder: 'Schreib etwas über dich'
     userbioPlaceholderOtherUser: 'Schreibe eine Bio für {username}'
