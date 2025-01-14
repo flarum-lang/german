@@ -2,6 +2,45 @@ CHANGELOG
 =========
 
 
+1.17.0 (2025-01-14)
+-------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
+* [`clarkwinkelmann/flarum-ext-anonymous-posting`](https://github.com/clarkwinkelmann/flarum-ext-anonymous-posting)
+* [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries)
+* [`fof/clockwork`](https://github.com/FriendsOfFlarum/clockwork)
+* [`huseyinfiliz/flagify`](https://github.com/huseyinfiliz/flagify)
+* [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
+* [`justoverclock/reputation-score`](https://flarum.org/extension/justoverclock/reputation-score)
+* `nodeloc-ignore-hidden-tags`
+* [`shebaoting/repost`](https://github.com/shebaoting/Repost)
+* [`xypp/store-auto-checkin`](https://github.com/zxy19/flarum-store-auto-checkin)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`justoverclock/newsletter`](https://github.com/justoverclockl/newsletter)
+* [`justoverclock/flarum-ext-purify`](https://github.com/justoverclockl/flarum-ext-purify)
+
+
+Alle Änderungen: [1.16.1...1.17.0](https://github.com/flarum-lang/german/compare/1.16.1...1.17.0).
+
+
 1.16.1 (2024-12-15)
 -------------------
 
