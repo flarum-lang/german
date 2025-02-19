@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.17.1 (XXXX-XX-XX)
+-------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
+
+
+Alle Änderungen: [1.17.0...1.17.1](https://github.com/flarum-lang/german/compare/1.17.0...1.17.1).
+
+
 1.17.0 (2025-01-14)
 -------------------
 
