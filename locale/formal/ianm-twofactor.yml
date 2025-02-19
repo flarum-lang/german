@@ -8,6 +8,12 @@ blomstra-gdpr:
       twofactordata:
         delete_description: 'Löscht alle Daten in Bezug auf die Zwei-Faktor-Authentifizierung.'
         export_description: 'Exportiert den 2FA-Status und verschlüsselte Backup-Codes.'
+flarum-gdpr:
+  lib:
+    data:
+      twofactordata:
+        delete_description: 'Löscht alle mit 2FA verbundenen Daten.'
+        export_description: 'Exportiert 2FA-Status und verschlüsselte Backup-Codes.'
 ianm-twofactor:
   admin:
     edit_group:
