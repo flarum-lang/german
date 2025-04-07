@@ -2,15 +2,20 @@ CHANGELOG
 =========
 
 
-1.17.1 (XXXX-XX-XX)
+1.18.0 (XXXX-XX-XX)
 -------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
+
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
 
 
-Alle Änderungen: [1.17.0...1.17.1](https://github.com/flarum-lang/german/compare/1.17.0...1.17.1).
+Alle Änderungen: [1.17.0...1.18.0](https://github.com/flarum-lang/german/compare/1.17.0...1.18.0).
 
 
 1.17.0 (2025-01-14)
