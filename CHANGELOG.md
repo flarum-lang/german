@@ -8,6 +8,7 @@ CHANGELOG
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
 * [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
+* [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
