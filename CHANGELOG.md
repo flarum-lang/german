@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+1.18.0 (2025-04-22)
+-------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
+* [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`clarkwinkelmann/flarum-ext-emojionearea`](https://github.com/clarkwinkelmann/flarum-ext-emojionearea)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
+
+
+Alle Änderungen: [1.17.0...1.18.0](https://github.com/flarum-lang/german/compare/1.17.0...1.18.0).
+
+
 1.17.0 (2025-01-14)
 -------------------
 
