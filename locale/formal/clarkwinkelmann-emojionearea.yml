@@ -12,5 +12,14 @@ clarkwinkelmann-emojionearea:
       hideFlarumButton: 'Flarums Emoji-Auswahltaste ausblenden'
       searchPosition: 'Suche und Farbtöne nach unten verschieben'
   forum:
+    filters:
+      activity: Aktivitäten
+      animals_nature: 'Tiere & Natur'
+      flags: Flaggen
+      food_drink: 'Essen & Trinken'
+      objects: Objekte
+      smileys_people: 'Smileys & Menschen'
+      symbols: Symbole
+      travel_places: 'Reisen & Orte'
     picker_button: Emoji-Auswahl
     search_placeholder: Suchen...
