@@ -13,6 +13,7 @@ CHANGELOG
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`clarkwinkelmann/flarum-ext-emojionearea`](https://github.com/clarkwinkelmann/flarum-ext-emojionearea)
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
 
 
