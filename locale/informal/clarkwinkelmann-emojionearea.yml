@@ -5,6 +5,7 @@
 clarkwinkelmann-emojionearea:
   admin:
     settings:
+      closeOnPick: 'Feld nach Emoji-Auswahl schließen'
       enableRecent: 'Aktuelles aktivieren'
       enableSearch: 'Suche aktivieren'
       enableTones: 'Töne aktivieren'
@@ -18,8 +19,10 @@ clarkwinkelmann-emojionearea:
       flags: Flaggen
       food_drink: 'Essen & Trinken'
       objects: Objekte
+      recent: 'Zuletzt verwendet'
       smileys_people: 'Smileys & Menschen'
       symbols: Symbole
+      tones: Vielfalt
       travel_places: 'Reisen & Orte'
     picker_button: Emoji-Auswahl
     search_placeholder: Suchen...
