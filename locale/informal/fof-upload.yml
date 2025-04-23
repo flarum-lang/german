@@ -190,6 +190,7 @@ fof-upload:
       max_size: 'Uploads über {max}KB werden nicht akzeptiert.'
   lib:
     file_list:
+      confirm_selection_btn: '{fileCount, plural, =0 {Nichts ausgewählt} one {Datei auswählen} other {Dateien auswählen}}'
       delete_confirmation: 'Bist du sicher, dass du „{fileName}“ löschen willst?'
       delete_file_a11y_label: 'Datei „{fileName}“ löschen'
       empty: 'Es existieren keine Dateien zum Anzeigen.'
