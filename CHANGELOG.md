@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.18.1 (XXXX-XX-XX)
+-------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+
+
+Alle Änderungen: [1.18.0...1.18.1](https://github.com/flarum-lang/german/compare/1.18.0...1.18.1).
+
+
 1.18.0 (2025-04-22)
 -------------------
 
