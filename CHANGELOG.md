@@ -7,7 +7,10 @@ CHANGELOG
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
 
 
