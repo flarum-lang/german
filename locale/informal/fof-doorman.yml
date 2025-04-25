@@ -19,6 +19,26 @@ fof-doorman:
       create_doorkey:
         submit_button: 'Einladungscode erstellen'
         title: 'Neuen Einladungscode erstellen'
+      edit_doorkey:
+        activates_user:
+          help: '=> fof-doorman.admin.ref.fields.activates_user.help'
+          label: '=> fof-doorman.admin.ref.fields.activates_user.label'
+        group:
+          help: '=> fof-doorman.admin.ref.fields.group.help'
+          label: '=> fof-doorman.admin.ref.fields.group.label'
+        max_uses:
+          help: '=> fof-doorman.admin.ref.fields.max_uses.help'
+          label: '=> fof-doorman.admin.ref.fields.max_uses.label'
+        submit_button: 'Änderungen speichern'
+      send_invites:
+        group: 'Einladungen für Gruppe {group} senden'
+        help: 'Akzeptiert wird eine Komma-, Leerzeichen- oder Komma-Leerzeichen-separierte Liste. Gib eine einzelne E-Mail ein oder füge eine Liste ein gefolgt von einem Leerzeichen, um sie hinzuzufügen.'
+        invalid_emails: 'Die folgende(n) E-Mail(s) sind ungültig: {emails}'
+        max_use_conflict: 'Die Anzahl der E-Mails übersteigt die erlaubte Anzahl für diesen Code.'
+        placeholder: 'E-Mails hier eingeben'
+        send: 'E-Mails senden'
+        success: 'E-Mails erfolgreich gesendet'
+        title: 'Einladungscodes senden'
     nav:
       desc: 'Erstelle Einladungscodes für Benutzer, um sich anzumelden und einer Gruppe zugewiesen zu werden'
     page:
