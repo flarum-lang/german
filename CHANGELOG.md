@@ -7,6 +7,7 @@ CHANGELOG
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget)
 * [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 * [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
