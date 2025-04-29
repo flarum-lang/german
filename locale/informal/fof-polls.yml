@@ -14,6 +14,14 @@ fof-polls:
       vote: 'In Umfragen abstimmen'
     settings:
       allow_option_image: 'Erlaube die Angabe einer Bild-URL für jede Umfrageoption'
+      general:
+        heading: 'Allgemeine Einstellungen'
+        help: 'Diese Einstellungen beeinflussen die Grundfunktionen dieser Umfragen-Erweiterung.'
+      global_polls:
+        heading: 'Globale Umfragen'
+        help: 'Diese Einstellungen beeinflussen die Funktionen der globalen Umfragen.'
+      image:
+        heading: Bildeinstellungen
       max_options: 'Maximale Anzahl von Optionen pro Umfrage'
       options_color_blend: 'Textfarbe in Umfrageoptionen für bessere Lesbarkeit anpassen'
       options_color_blend_help: 'Mit dieser Funktion kannst du durch Farbmischen die Umfrageoptionen besser lesbar machen. Deaktiviere diese Funktion wenn sie dein Forum seltsam aussehen lässt und die Lesbarkeit verringert.'

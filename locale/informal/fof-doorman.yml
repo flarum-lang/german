@@ -6,6 +6,9 @@ fof-doorman:
   admin:
     doorkey_required: 'Du musst einen Einladungscode angeben'
     invalid_doorkey: 'Der von dir angegebene Einladungscode ist ungültig.'
+    list:
+      content:
+        delete: 'Soll der Einladungscode "{key}" gelöscht werden?'
     modal:
       group: 'Senden von Einladungen für die Gruppe {group}'
       help: 'Akzeptiert eine durch Kommas, Leerzeichen oder durch Kommas getrennte Liste. Gebe eine einzelne E-Mail oder füge eine Liste ein und drücke dann die Leertaste, um sie hinzuzufügen.'
