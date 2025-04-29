@@ -5,6 +5,7 @@
 afrux-online-users-widget:
   admin:
     settings:
+      cache_ttl: 'Zeit zum Zwischenspeichern der Benutzerliste (in Sekunden)'
       max_users: 'Max. anzuzeigende Benutzer'
   forum:
     widget:
