@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+1.18.1 (2025-04-30)
+-------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+
+
+Alle Änderungen: [1.18.0...1.18.1](https://github.com/flarum-lang/german/compare/1.18.0...1.18.1).
+
+
 1.18.0 (2025-04-22)
 -------------------
 
