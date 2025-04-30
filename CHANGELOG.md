@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.18.1 (XXXX-XX-XX)
+1.18.1 (2025-04-30)
 -------------------
 
 **Übersetzungen für Erweiterungen aktualisiert**:
