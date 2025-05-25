@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.19.0 (2025-05-25)
+-------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
+
+
+Alle Änderungen: [1.18.1...1.19.0](https://github.com/flarum-lang/german/compare/1.18.1...1.19.0).
+
+
 1.18.1 (2025-04-30)
 -------------------
 
