@@ -52,8 +52,12 @@ v17development-flarum-badges:
     edit_category: 'Kategorie bearbeiten'
     new_badge: 'Neues Abzeichen'
     nothing_here_yet: 'Du hast noch keine Kategorien oder Abzeichen erstellt.'
+    number_of_badges_on_user_card: 'Anzahl der Abzeichen'
+    number_of_badges_on_user_card_help: 'Anzahl der Abzeichen auf der Benutzerkarte'
     permissions:
       badge_detail_users: 'Kann Benutzer auf der Badge-Detailseite sehen'
+      edit_card_badges: 'Abzeichen der Benutzerkarte bearbeiten'
+      edit_own_card_badges: 'Eigene Abzeichen auf der Benutzerkarte bearbeiten'
       give_badge: 'Abzeichen für Benutzer hinzufügen'
       take_badge: 'Abzeichen von Benutzer entfernen'
     show_badges_on_user_card: 'Abzeichen auf der Benutzerkarte anzeigen'
@@ -78,6 +82,12 @@ v17development-flarum-badges:
       received_on: 'Erhalten am {date}'
       update_earning_reason: 'Grund aktualisieren'
     badge_information: 'Abzeichen Information'
+    badges_in_card:
+      description: 'Du kannst die sichtbaren Abzeichen in deiner Nutzerkarte durch eines deiner anderen Abzeichen ersetzen. Wenn du keine auswählst, werden sie automatisch ausgewählt.'
+      hit_limit: 'Es ist nur Platz für <b>{limit, plural, one {<b>ein Abzeichen</b>} oder {<b># Abzeichen</b>}}</b> in deiner Karte. Deaktiviere ein Abzeichen, um Platz für diesen zu schaffen.'
+      manage_badges: 'Abzeichen verwalten'
+      select_limit: 'Du kannst {limit, plural, one {<b>ein Abzeichen</b>}  {<b># Abzeichen</b>}}auswählen, die in deiner Benutzerkarte sichtbar sein sollen.'
+      title: 'Abzeichen auf der Benutzerkarte'
     give_badge: 'Abzeichen vergeben'
     moderation:
       give_badge: 'Abzeichen vergeben'
@@ -87,6 +97,7 @@ v17development-flarum-badges:
     notification:
       settings: 'Ich habe ein Abzeichen erhalten'
       title: 'Du hast ein neues Abzeichen erhalten'
+    save_changes: 'Änderungen speichern'
     select_badge: 'Abzeichen auswählen'
     uncategorized: '=> v17development-flarum-badges.admin.uncategorized'
     update_badge: 'Abzeichen aktualisieren'
