@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.19.1 (2025-06-11)
+-------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
+
+
+Alle Änderungen: [1.19.0...1.19.1](https://github.com/flarum-lang/german/compare/1.19.0...1.19.1).
+
+
 1.19.0 (2025-05-25)
 -------------------
 
