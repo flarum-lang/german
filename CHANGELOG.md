@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.20.0 (XXXX-XX-XX)
+-------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`shebaoting/money`](https://github.com/shebaoting/money)
+
+
+Alle Änderungen: [1.19.1...1.20.0](https://github.com/flarum-lang/german/compare/1.19.1...1.20.0).
+
+
 1.19.1 (2025-06-11)
 -------------------
 
