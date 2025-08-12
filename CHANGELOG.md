@@ -8,6 +8,12 @@ CHANGELOG
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
 * [`shebaoting/money`](https://github.com/shebaoting/money)
+* [`zhihe/primary-posts`](https://github.com/echolocked/zhihe-primary-posts)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 
 
 Alle Änderungen: [1.19.1...1.20.0](https://github.com/flarum-lang/german/compare/1.19.1...1.20.0).
