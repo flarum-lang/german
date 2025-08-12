@@ -7,13 +7,24 @@ fof-polls:
     permissions:
       change_vote: 'Stimme ändern'
       moderate: 'Umfragen bearbeiten & entfernen'
+      moderate_group: 'Umfragegruppen bearbeiten & entfernen'
       self_edit: 'Erstellte Umfragen bearbeiten (erfordert die Berechtigung zum Bearbeiten von Beiträgen)'
       self_post_edit: 'Bearbeiten *aller* Umfragen in eigenen Beiträgen (erfordert die Berechtigung zum Bearbeiten von Beiträgen)'
       start: 'Umfragen starten'
+      start_global: 'Globale Umfrage starten'
+      start_group: 'Umfragegruppen erstellen'
+      upload_images: 'Nutzern erlauben, Bilder für Umfragen hochzuladen'
+      view_group: 'Umfragegruppen anzeigen'
       view_results_without_voting: 'Ergebnisse anzeigen ohne abzustimmen'
       vote: 'In Umfragen abstimmen'
     settings:
+      allow_image_uploads: 'Bilder-Uploads für Umfragen und deren Optionen erlauben'
+      allow_image_uploads_help: 'Wenn aktiviert, können Benutzer Bilder hochladen und zusätzlich eine Bild-URL angeben (wenn für Optionen aktiviert, ist dies immer für die Umfrage selbst aktiviert).'
       allow_option_image: 'Erlaube die Angabe einer Bild-URL für jede Umfrageoption'
+      enable_global_polls: 'Globale Umfragen aktivieren'
+      enable_global_polls_help: 'Globale Umfragen sind nicht an einen bestimmten Beitrag gebunden und können über eine spezielle Umfragen-Seite aufgerufen werden.'
+      enabled_poll_groups: 'Umfragegruppen aktivieren'
+      enabled_poll_groups_help: 'Umfragegruppen ermöglichen es Ihnen, globale Umfragen zu gruppieren und auf einer speziellen Seite anzuzeigen.'
       general:
         heading: 'Allgemeine Einstellungen'
         help: 'Diese Einstellungen beeinflussen die Grundfunktionen dieser Umfragen-Erweiterung.'
@@ -22,10 +33,21 @@ fof-polls:
         help: 'Diese Einstellungen beeinflussen die Funktionen der globalen Umfragen.'
       image:
         heading: Bildeinstellungen
+        help: 'Diese Einstellungen steuern die Bildeinstellungen für Umfragen.'
+      image_height: 'Bildhöhe anpassen'
+      image_width: 'Bildbreite anpassen'
       max_options: 'Maximale Anzahl von Optionen pro Umfrage'
       options_color_blend: 'Textfarbe in Umfrageoptionen für bessere Lesbarkeit anpassen'
       options_color_blend_help: 'Mit dieser Funktion kannst du durch Farbmischen die Umfrageoptionen besser lesbar machen. Deaktiviere diese Funktion wenn sie dein Forum seltsam aussehen lässt und die Lesbarkeit verringert.'
   forum:
+    answers: Antworten
+    compose:
+      add_title: 'Umfrage hinzufügen'
+      continue_editing: 'Bearbeitung fortsetzen'
+      edit_title: 'Umfrage bearbeiten'
+      polls_manager: Umfragenmanager
+      polls_preview: 'Umfrage ansehen'
+      success: 'Umfrage erfolgreich gespeichert.'
     composer_discussion:
       add_poll: '=> fof-polls.forum.moderation.add'
       edit_poll: '=> fof-polls.forum.moderation.edit'
@@ -60,8 +82,25 @@ fof-polls:
     no_permission: 'Du hast keine Berechtigung abzustimmen'
     poll:
       cannot_change_vote: 'Du kannst deine Stimme nach dem Abstimmen nicht mehr ändern.'
+      cannot_start_poll_button: 'Umfrage kann nicht gestartet werden'
+      start_poll_button: 'Globale Umfrage starten'
       submit_button: Abstimmen
+      total_votes: '{count, plural, one {# Stimme wurde abgegeben} other {# Stimmen wurden abgegeben}}'
+    poll_controls:
+      delete_confirmation: 'Bist du sicher, dass du diese Umfrage löschen möchtest?'
+      delete_error_message: 'Beim Löschen der Umfrage ist etwas schiefgelaufen.'
+      delete_success_message: 'Umfrage erfolgreich gelöscht.'
     poll_ended: 'Diese Umfrage ist bereits beendet.'
+    poll_form:
+      delete: 'Umfrage löschen'
+      error: 'Beim Speichern der Umfrage ist ein Fehler aufgetreten, bitte kontaktieren Sie einen Administrator.'
+    poll_groups:
+      controls:
+        delete_error_message: 'Beim Löschen der Umfragegruppe ist etwas schiefgelaufen.'
+    polls_list:
+      empty_text: 'Es sieht so aus, als gäbe es hier keine gemeinschaftsweiten Umfragen.'
+    polls_page:
+      title: Umfragen
     public_poll: Abstimmungsergebnis
     tooltip:
       badge: Umfrage
