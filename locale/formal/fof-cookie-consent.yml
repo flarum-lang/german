@@ -7,21 +7,21 @@ fof-cookie-consent:
     settings:
       backgroundColor: Hintergrund
       buttonBackgroundColor: Hintergrund
-      buttonText: 'Schaltflächentext verwerfen'
+      buttonText: 'Text der Schaltfläche ‚Schließen‘'
       buttonTextColor: Text
-      ccTheme: Theme
-      configuration_button_title: 'Schaltfläche Weitere Informationen'
-      configuration_title: Einstellmöglichkeiten
+      ccTheme: Design
+      configuration_button_title: 'Schaltfläche: Mehr erfahren'
+      configuration_title: Einstellungen
       consentText: Inhaltsnachricht
       learnMoreLinkText: Text
       learnMoreLinkUrl: Link
       textColor: Text
-      theme_dismiss_title: 'Schaltfläche Farben verwerfen'
-      theme_popup_title: Popup-Farben
-      theme_title: Themenoptionen
+      theme_dismiss_title: 'Farben der Schaltfläche ‚Schließen‘'
+      theme_popup_title: 'Farben für Popups'
+      theme_title: 'Design Einstellungen'
       themes:
-        blocky: Blockig
+        blocky: Blockartig
         classic: Klassisch
         custom: Benutzerdefiniert
-        edgeless: Kantenlos
-        no_css: 'Kein CSS'
+        edgeless: Abgerundet
+        no_css: 'Ohne CSS-Styling'
