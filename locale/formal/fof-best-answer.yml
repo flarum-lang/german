@@ -33,6 +33,8 @@ fof-best-answer:
       remind_tag_ids: 'Um Erinnerungen auf bestimmte Themen zu beschränken, gebe die ID''s der Themen hier ein (kommagetrennt)'
       remind_tags_help: 'Wählen Sie aus, für welche Tags (sofern vorhanden) Erinnerungen gesendet werden sollen. Erinnerungen werden nur für Diskussionen mit diesen Tags gesendet.'
       remind_tags_label: Erinnerungs-Tags
+      remove_solutions_from_main_search: 'Lösungen aus der Hauptsuche entfernen'
+      remove_solutions_from_main_search_help: 'Diskussionen mit den besten Antworten aus den Hauptsuchergebnissen von ‚Alle Diskussionen‘ entfernen'
       schedule_log_output: 'Scheduler-Output an den Log anhängen'
       schedule_on_one_server: 'Verwende die Direktive ''onOneServer()'' für den Taskplaner'
       schedule_on_one_server_help: 'Erfordert Redis/Memcache'

@@ -12,6 +12,8 @@ datlechin-link-preview:
       cache_time_label: 'Dauer des Zwischenspeicherns'
       convert_media_urls_help: 'Wenn aktiviert, werden alle Medien-URLs in eine Linkvorschau umgewandelt.'
       convert_media_urls_label: 'Medien-URLs umwandeln'
+      enable_batch_requests_help: 'Die Leistung verbessern, indem mehrere Link-Vorschauen gleichzeitig verarbeitet werden. Wenn deaktiviert, werden Links nacheinander verarbeitet.'
+      enable_batch_requests_label: 'Stapelverarbeitung einschalten'
       open_links_in_new_tab_help: 'Wenn aktiviert, werden die Links in einem neuen Tab geöffnet.'
       open_links_in_new_tab_label: 'Links in einem neuen Tab öffnen'
       use_google_favicons_help: 'Wenn aktiviert, wird ein Google-Dienst im Frontend verwendet, um das Favicon der jeweiligen Webseite abzurufen.'
