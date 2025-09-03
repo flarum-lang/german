@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+1.21.0 (XXXX-XX-XX)
+-------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`blazite/flarum-turnstile`](https://github.com/blazite/flarum-ext-turnstile)
+* [`clarkwinkelmann/flarum-ext-prominent-post-numbers`](https://github.com/clarkwinkelmann/flarum-ext-prominent-post-numbers)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`afrux/top-posters-widget`](https://github.com/afrux/top-posters-widget)
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+
+
+Alle Änderungen: [1.20.0...1.21.0](https://github.com/flarum-lang/german/compare/1.20.0...1.21.0).
+
+
 1.20.0 (2025-08-12)
 -------------------
 
