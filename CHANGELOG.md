@@ -16,6 +16,7 @@ CHANGELOG
 * [`afrux/top-posters-widget`](https://github.com/afrux/top-posters-widget)
 * [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
 
 
 Alle Änderungen: [1.20.0...1.21.0](https://github.com/flarum-lang/german/compare/1.20.0...1.21.0).
