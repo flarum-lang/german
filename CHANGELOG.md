@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.22.0 (XXXX-XX-XX)
+-------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`neoncube/flarum-private-messages`](https://github.com/neoncube2/flarum-private-messages)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+
+
+Alle Änderungen: [1.21.0...1.22.0](https://github.com/flarum-lang/german/compare/1.21.0...1.22.0).
+
+
 1.21.0 (2025-09-05)
 -------------------
 
