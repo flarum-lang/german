@@ -60,8 +60,11 @@ fof-polls:
       allow_change_vote_label: 'Benutzern erlauben, ihre Stimme zu ändern'
       allow_multiple_votes_label: 'Benutzern erlauben, für mehrere Optionen abzustimmen'
       date_placeholder: 'Enddatum der Umfrage (optional)'
+      delete: Löschen
       edit_title: 'Umfrage bearbeiten'
+      error: 'Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut'
       hide_votes_label: 'Stimmen ausblenden, bis die Umfrage endet'
+      hide_votes_label_help: 'Der Benutzer, der die Umfrage gestartet hat, kann die Stimmen immer einsehen.'
       image_option_placeholder: 'Bild-URL (optional)'
       include_question: 'Du musst eine Frage stellen'
       max: 'Du kannst maximal {max} Antworten haben'
@@ -71,15 +74,32 @@ fof-polls:
       no_voters: 'Keine Stimmen'
       option_placeholder: Antwort
       options_label: Antworten
+      poll_image:
+        alt_help_text: 'Dieser Text ist erforderlich, wenn ein Bild festgelegt wurde. Er wird angezeigt, falls das Bild nicht laden kann.'
+        alt_label: 'Alt-Text für das Bild'
+        help: 'Laden Sie ein Bild hoch, das neben der Umfrage angezeigt werden soll (optional).'
+        label: Umfragebild
+        later_help: 'Sie können ein Bild hochladen, nachdem Sie die Umfrage erstellt haben.'
+      poll_option_image:
+        help: 'Laden Sie ein Bild hoch, das neben der Umfrage-Antwort angezeigt werden soll (optional).'
+        label: Umfrage-Antwortbild
       public_poll_label: 'Alle dürfen sehen, wer abgestimmt hat'
       question_placeholder: Frage
       submit: Speichern
+      subtitle_placeholder: 'Untertitel/Beschreibung (optional)'
+      tooltip:
+        options:
+          add-button: 'Antwort hinzufügen'
     moderation:
       add: 'Umfrage hinzufügen'
       delete: 'Umfrage entfernen'
       delete_confirm: 'Bist du sicher, dass du die Umfrage entfernen willst?'
       edit: 'Umfrage bearbeiten'
     no_permission: 'Du hast keine Berechtigung abzustimmen'
+    page:
+      nav: Umfragen
+      nav-all: 'Alle globalen Umfragen'
+      nav-groups: Umfrage-Gruppen
     poll:
       cannot_change_vote: 'Du kannst deine Stimme nach dem Abstimmen nicht mehr ändern.'
       cannot_start_poll_button: 'Umfrage kann nicht gestartet werden'
@@ -89,21 +109,57 @@ fof-polls:
     poll_controls:
       delete_confirmation: 'Bist du sicher, dass du diese Umfrage löschen möchtest?'
       delete_error_message: 'Beim Löschen der Umfrage ist etwas schiefgelaufen.'
+      delete_label: Löschen
       delete_success_message: 'Umfrage erfolgreich gelöscht.'
+      edit_label: Bearbeiten
+      view_label: Anzeigen
     poll_ended: 'Diese Umfrage ist bereits beendet.'
     poll_form:
       delete: 'Umfrage löschen'
       error: 'Beim Speichern der Umfrage ist ein Fehler aufgetreten, bitte kontaktieren Sie einen Administrator.'
     poll_groups:
+      composer:
+        add_title: 'Umfrage-Gruppe hinzufügen'
+        delete: 'Umfrage-Gruppe löschen'
+        edit_title: 'Umfrage-Gruppe bearbeiten'
+        groups_manager: Umfrage-Gruppen-Manager
+        save_changes: 'Änderungen speichern'
+        success: 'Umfrage-Gruppe erfolgreich gespeichert.'
+        view_group: 'Umfrage-Gruppe anzeigen'
       controls:
+        add_poll_label: 'Umfrage hinzufügen'
+        delete_confirmation: 'Sind Sie sicher, dass Sie diese Umfrage-Gruppe löschen möchten?'
         delete_error_message: 'Beim Löschen der Umfragegruppe ist etwas schiefgelaufen.'
+        delete_label: Löschen
+        delete_success_message: 'Umfrage-Gruppe erfolgreich gelöscht.'
+        edit_label: Bearbeiten
+        view_label: 'Umfrage-Gruppe anzeigen'
+      list_page:
+        add_poll_button: 'Umfrage zur Gruppe hinzufügen'
+        cannot_start_poll_group_button: 'Kann keine Umfrage-Gruppe starten'
+        empty_text: 'Es scheint, als gäbe es hier noch keine Umfrage-Gruppen.'
+        load_more_button: 'Mehr laden'
+        no_polls: 'In dieser Gruppe gibt es keine Umfragen.'
+        start_poll_group_button: 'Eine Umfrage-Gruppe starten'
+        title: Umfrage-Gruppen
+    poll_never_ends: 'Umfrage endet nie'
+    polls_count: '{count, plural, one { {count} Stimme} other { {count} Stimmen}}'
     polls_list:
       empty_text: 'Es sieht so aus, als gäbe es hier keine gemeinschaftsweiten Umfragen.'
+      load_more_button: 'Mehr laden'
     polls_page:
       title: Umfragen
     public_poll: Abstimmungsergebnis
+    showcase:
+      active-polls: 'Aktive Umfragen'
+      ended-polls: 'Abgeschlossene Umfragen'
+      no-active-polls: 'Derzeit gibt es keine aktiven Umfragen.'
+      no-recent-polls: 'Derzeit gibt es keine kürzlich beendeten Umfragen.'
     tooltip:
       badge: Umfrage
       votes: '{count, plural, one {Eine Stimme} other {# Stimmen}}'
+    upload_image:
+      remove_button: 'Bild löschen'
+      upload_button: 'Bild hochladen'
     votes_modal:
       title: '=> fof-polls.forum.public_poll'
