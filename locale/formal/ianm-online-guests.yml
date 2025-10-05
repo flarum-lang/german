@@ -5,12 +5,12 @@
 ianm-online-guests:
   admin:
     permissions:
-      view_online_guests_label: 'Seht Online Gästen'
+      view_online_guests_label: 'Online-Gäste anzeigen'
     settings:
-      cache_duration_label: 'Cache Begriff'
-      online_duration_label: 'Online Begriff'
+      cache_duration_label: Cache-Dauer
+      online_duration_label: Online-Dauer
   forum:
     widget:
-      description: 'Zeig die Gästen Nummer die das Forum surfen ist'
-      guests_online: '{count, plural, one {online Gast} other {online Gästen}}'
-      title: 'Online Gästen'
+      description: 'Zeigt die Anzahl der Gäste, die gerade im Forum surfen'
+      guests_online: '{count, plural, one {Gast online} other {Gäste online}}'
+      title: Online-Gäste
