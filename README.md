@@ -45,8 +45,6 @@ Note: To get your GitHub account linked in the commits on this repository, use a
 
 ## Compatibility
 
-The formal translation progress does not count translations within the standard translation, as they get merged during export. If the progress is 100% for standard and higher than 0% for formal, it is likely to properly include a formal translation.
-
 ### Core
 
 | Component | Status<br />(Standard) | Status<br />(Formal) |
