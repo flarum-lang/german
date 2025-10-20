@@ -5,6 +5,12 @@ CHANGELOG
 1.23.0 (XXXX-XX-XX)
 -------------------
 
+**Allgemeine Änderungen**:
+
+* Flarum-Core Übersetzungen aktualisiert.
+* Validation Übersetzungen aktualisiert.
+
+
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
 * [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget)
