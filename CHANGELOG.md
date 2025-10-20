@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.23.0 (XXXX-XX-XX)
+1.23.0 (2025-10-20)
 -------------------
 
 **Allgemeine Änderungen**:
