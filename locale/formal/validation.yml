@@ -96,6 +96,7 @@ validation:
   prohibited_unless: ':attribute ist unzulässig, wenn :other nicht :values ist.'
   regex: ':attribute Format ist ungültig.'
   required: ':attribute muss ausgefüllt werden.'
+  required_array_keys: 'Das :attribute Array muss Einträge enthalten für: :values.'
   required_if: ':attribute muss ausgefüllt werden, wenn :other den Wert :value hat.'
   required_unless: ':attribute muss ausgefüllt werden, wenn :other nicht den Wert :values hat.'
   required_with: ':attribute muss ausgefüllt werden, wenn :values ausgefüllt wurde.'

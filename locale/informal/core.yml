@@ -193,6 +193,7 @@ core:
       participate_heading: Teilnehmer
       post_without_throttle_label: 'Mehrfachantworten ohne Wartezeit gestatten'
       read_heading: Lesen
+      remove_scope_label: 'Geltungsbereich {scope} entfernen'
       rename_discussions_label: 'Diskussionen umbenennen'
       reply_to_discussions_label: 'Auf Diskussionen antworten'
       search_users_label: '=> core.ref.search_users'
