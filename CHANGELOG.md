@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+1.23.0 (2025-10-20)
+-------------------
+
+**Allgemeine Änderungen**:
+
+* Flarum-Core Übersetzungen aktualisiert.
+* Validation Übersetzungen aktualisiert.
+
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget)
+
+
+Alle Änderungen: [1.22.0...1.23.0](https://github.com/flarum-lang/german/compare/1.22.0...1.23.0).
+
+
 1.22.0 (2025-09-08)
 -------------------
 
