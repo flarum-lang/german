@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.24.0 (2025-11-12)
+-------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+* [`ianm/translate`](https://flarum.org/extension/ianm/translate)
+
+
+Alle Änderungen: [1.23.0...1.24.0](https://github.com/flarum-lang/german/compare/1.23.0...1.24.0).
+
+
 1.23.0 (2025-10-20)
 -------------------
 
