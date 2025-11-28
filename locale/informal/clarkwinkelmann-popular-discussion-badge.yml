@@ -16,6 +16,8 @@ clarkwinkelmann-popular-discussion-badge:
         frontend: Frontend
         scheduler: 'Scheduler (CRON)'
       or: ODER
+      scheduler_frequency: 'Frequenz des Scheduler-Modus'
+      scheduler_frequency_help: "Die Häufigkeit, in der der Beliebtheitsstatus im Scheduler-Modus aktualisiert wird. (Im Frontend-Modus wird der Status immer sofort aktualisiert)\n"
       scheduler_frequency_options:
         everyFifteenMinutes: 'Alle 15 Minuten'
         everyFiveMinutes: 'Alle 5 Minuten'

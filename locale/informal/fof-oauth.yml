@@ -5,8 +5,22 @@
 fof-oauth:
   admin:
     configure_button_label: 'Mit FoF OAuth konfigurieren'
+    permissions:
+      moderate_user_providers: 'Verlinkte Konten eines Nutzers bearbeiten'
     settings:
+      advanced:
+        heading: Erweitert
+        log-oauth-errors-help: 'Sofern aktiviert, werden OAuth-Fehler im Flarum log erfasst. Dies kann beim Debuggen von OAuth-Problemen hilfreich sein, beinhaltet aber möglicherweise sensible Informationen.'
+        log-oauth-errors-label: 'OAuth-Fehler protokollieren'
+      disable_avatars_help: "Sofern aktiviert, werden Nutzer-Avatare bei der Anmeldung nicht mit den Avataren dieses Anbieter aktualisiert. Dies betrifft nur zukünftige Anmeldungen und wird nicht die Avatare von vorhandenen Nutzern ändern.\n"
+      disable_avatars_label: 'Avatare dieses Anbieters deaktivieren'
+      fullscreen_popup_help: 'Sofern aktiviert, wird das OAuth-Anmeldefenster im Vollbild geöffnet. Wenn es aktiviert ist, werden die Einstellungen für Breite und Höhe ignoriert.'
+      fullscreen_popup_label: 'OAuth-Popup im Vollbild öffnen'
       only_icons_label: 'Zeige nur die Symbole ohne Text auf den Einloggen-Buttons (alternatives Layout)'
+      popup_height_help: 'Legt die Höhe des OAuth-Popupfensters fest. Diese Einstellung wird ignoriert, wenn "OAuth-Popup im Vollbild öffnen" aktiviert ist.'
+      popup_height_label: 'Höhe des OAuth-Popupfensters'
+      popup_width_help: 'Legt die Breite des OAuth-Popupfensters fest. Diese Einstellung wird ignoriert, wenn "OAuth-Popup im Vollbild öffnen" aktiviert ist.'
+      popup_width_label: 'Breite des OAuth-Popupfensters'
       providers:
         callback_url_text: 'Wenn nötig, setze die Rückruf-URL (callback) zu {url}.'
         discord:
@@ -30,10 +44,14 @@ fof-oauth:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
           description: 'Erstelle eine Applikation unter {link}.'
+          hosted_domain_label: 'Gehostete Domain (G suite/Google Apps for Business, optional)'
+        group_help: 'Eine Gruppe auswählen, der alle Nutzer automatisch zugewiesen werden, die diesen Anbieter zur Anmeldung verwenden.'
+        group_label: 'Gruppe zuweisen'
         linkedin:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
           description: 'Erstelle eine Applikation unter {link}.'
+        no_group_label: 'Keine Gruppenzuweisung'
         twitter:
           api_key_label: 'API Key'
           api_secret_label: 'API Secret'
@@ -69,6 +87,7 @@ fof-oauth:
       settings:
         linked-account:
           help: 'Diese verknüpften Konten ermöglichen es dir, dich mit anderen Anbietern im Forum anzumelden.'
+          identification-label: '{provider} ID'
           identifier-label: '{provider} ID'
           label: 'Verknüpfte Konten'
           last-used-label: 'Zuletzt verwendet'

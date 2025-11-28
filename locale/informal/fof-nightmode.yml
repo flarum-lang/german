@@ -12,10 +12,14 @@ fof-default-user-preferences:
 fof-nightmode:
   admin:
     settings:
+      general:
+        heading: 'Allgemeine Einstellungen'
+        help: 'Diese Einstellungen betreffen das grundlegende Verhalten der Erweiterung.'
       modal:
         always_show_theme_toggle_on_header: 'Schaltfläche zum Umschalten des Themas in der Foren-Kopfzeile immer anzeigen'
         default_theme: 'Standard Forum Design'
         default_theme_helper: 'Das Standard Design wird für neue Nutzer, Gäste und solche, die keine Präferenz eingestellt haben, automatisch eingestellt.'
+        show_theme_toggle_in_solid: 'Symboldesign als ausgefülltes Symbol anzeigen'
         theme_auto: '=> fof-nightmode.ref.auto'
         theme_dark: '=> fof-nightmode.ref.dark'
         theme_light: '=> fof-nightmode.ref.light'

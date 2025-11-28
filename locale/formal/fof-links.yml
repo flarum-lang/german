@@ -24,9 +24,15 @@ fof-links:
       url_placeholder: '=> fof-links.ref.url'
       use_rel_me: 'Fügt den Attribut <code>rel="me"</code> zur Überprüfung der Identität auf anderen Websites hinzu'
       visibility: 'Link Sichtbarkeit'
+      visibility.guest-only.help: 'Nur {guest} können diesen Link sehen. Die Berechtigung oberhalb sollte auf ''{everyone}'' gesetzt sein.'
+      visibility.guest-only.label: 'Nur {guest}?'
+      visibility.help: 'Links sind standardmässig nur für <code>{admin}</code>-Nutzer sichtbar. Passen Sie die Berechtigungen an, um festzulegen, wer diesen Link sehen kann.'
+      visibility.help-disabled: 'Speichern Sie den Link, um die Sichtbarkeit anpassen zu können.'
+      visibility.label: 'Sichtbarkeit des Links'
     links:
       create_button: '=> fof-links.ref.create_link'
       links: '=> fof-links.ref.links'
+      preconfigured: 'Links in diesem Forum sind vordefiniert und können daher hier nicht bearbeitet werden.'
     settings:
       show_icons_only_on_tablet: 'Icons nur auf Tablet-Bildschirmen anzeigen'
   ref:
