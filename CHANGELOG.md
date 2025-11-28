@@ -2,6 +2,20 @@ CHANGELOG
 =========
 
 
+1.24.1 (XXXX-XX-XX)
+-------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`clarkwinkelmann/flarum-ext-popular-discussion-badge`](https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+
+
+Alle Änderungen: [1.24.0...1.24.1](https://github.com/flarum-lang/german/compare/1.24.0...1.24.1).
+
+
 1.24.0 (2025-11-12)
 -------------------
 
