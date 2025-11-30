@@ -10,6 +10,10 @@ fof-forum-statistics-widget:
       view_posts_count_label: 'Anzahl der Beiträge des Forumsstatistik-Widgets anzeigen'
       view_users_count_label: 'Anzahl der Benutzer des Forumsstatistik-Widgets anzeigen'
     settings:
+      cache_duration_help: 'Legt fest, wie lange (in Sekunden) die Statistiken für das Widget gecached werden. Verwende <code>0</code>, um das Caching zu deaktivieren (nicht empfohlen).'
+      cache_duration_label: Cache-Dauer
+      flush_cache_on_new_registration_help: 'Wenn aktiviert, wird der Statistik-Cache geleert, wenn sich ein neuer Benutzer im Forum registriert.'
+      flush_cache_on_new_registration_label: 'Statistik-Cache bei neuer Registrierung leeren'
       widget_helper_text: 'Bearbeite diese Einstellung, um die Position dieses Widgets im Sidenav-Bereich Ihres Flarum-Forums anzupassen. Je höher die Zahl, desto höher wird dieses Widget in der Liste der Sidenav-Elemente angezeigt (dieser Wert kann entweder positiv oder negativ sein).'
       widget_ignore_private_discussions_label: 'Private Diskussionen ignorieren'
       widget_order_label: Widget-Reihenfolge

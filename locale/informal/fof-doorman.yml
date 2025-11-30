@@ -7,8 +7,27 @@ fof-doorman:
     doorkey_required: 'Du musst einen Einladungscode angeben'
     invalid_doorkey: 'Der von dir angegebene Einladungscode ist ungültig.'
     list:
+      columns:
+        activates_user: '=> fof-doorman.admin.ref.fields.activates_user.label'
+        created_by: 'Erstellt von'
+        group: '=> fof-doorman.admin.ref.fields.group.label'
+        id: ID
+        key: '=> fof-doorman.admin.ref.fields.key.label'
+        manage: Verwalten
+        max_uses: '=> fof-doorman.admin.ref.fields.max_uses.label'
+        uses: Verwendungen
       content:
         delete: 'Soll der Einladungscode "{key}" gelöscht werden?'
+        invalid_column: '=> core.admin.users.grid.invalid_column_content'
+        no_created_by: 'Unbekannter Benutzer'
+        no_group: '=> core.admin.users.grid.columns.group_badges.no_badges'
+      pagination:
+        back_button: '=> core.admin.users.pagination.back_button'
+        first_page_button: '=> core.admin.users.pagination.first_page_button'
+        go_to_page_textbox_a11y_label: '=> core.admin.users.pagination.go_to_page_textbox_a11y_label'
+        last_page_button: '=> core.admin.users.pagination.last_page_button'
+        next_button: '=> core.admin.users.pagination.next_button'
+        page_counter: '=> core.admin.users.pagination.page_counter'
     modal:
       group: 'Senden von Einladungen für die Gruppe {group}'
       help: 'Akzeptiert eine durch Kommas, Leerzeichen oder durch Kommas getrennte Liste. Gebe eine einzelne E-Mail oder füge eine Liste ein und drücke dann die Leertaste, um sie hinzuzufügen.'
@@ -20,6 +39,19 @@ fof-doorman:
       title: 'Einladungscodes senden'
     modals:
       create_doorkey:
+        activates_user:
+          help: '=> fof-doorman.admin.ref.fields.activates_user.help'
+          label: '=> fof-doorman.admin.ref.fields.activates_user.label'
+        group:
+          help: '=> fof-doorman.admin.ref.fields.group.help'
+          label: '=> fof-doorman.admin.ref.fields.group.label'
+        key:
+          help: '=> fof-doorman.admin.ref.fields.key.help'
+          label: '=> fof-doorman.admin.ref.fields.key.label'
+        max_uses:
+          help: '=> fof-doorman.admin.ref.fields.max_uses.help'
+          label: '=> fof-doorman.admin.ref.fields.max_uses.label'
+        submit_and_create_another_button: 'Erstellen und noch einen hinzufügen'
         submit_button: 'Einladungscode erstellen'
         title: 'Neuen Einladungscode erstellen'
       edit_doorkey:
@@ -29,10 +61,14 @@ fof-doorman:
         group:
           help: '=> fof-doorman.admin.ref.fields.group.help'
           label: '=> fof-doorman.admin.ref.fields.group.label'
+        key:
+          help: '=> fof-doorman.admin.ref.fields.key.help'
+          label: '=> fof-doorman.admin.ref.fields.key.label'
         max_uses:
           help: '=> fof-doorman.admin.ref.fields.max_uses.help'
           label: '=> fof-doorman.admin.ref.fields.max_uses.label'
         submit_button: 'Änderungen speichern'
+        title: 'Einladungscode bearbeiten'
       send_invites:
         group: 'Einladungen für Gruppe {group} senden'
         help: 'Akzeptiert wird eine Komma-, Leerzeichen- oder Komma-Leerzeichen-separierte Liste. Gib eine einzelne E-Mail ein oder füge eine Liste ein gefolgt von einem Leerzeichen, um sie hinzuzufügen.'
@@ -62,17 +98,24 @@ fof-doorman:
         key: Schlüssel
         max_uses: 'Maximale Verwendungen'
         title: Einladungscodes
+        total_uses: '{totalUses, plural, one {{totalUses} Mal verwendet} other {{totalUses} Mal verwendet}}'
         used_times: '{remaining, plural, one {{remaining} Verwendung verbleibend} other {{remaining} Verwendungen verbleibend}}'
         warning: 'Dieser Einladungscode wurde maximal verwendet.'
       title: Doorman
     ref:
       fields:
+        activates_user:
+          help: 'Benutzer wird bei Registrierung automatisch aktiviert.'
+          label: 'Aktiviert Benutzer'
         group:
           help: 'Die Gruppe, zu der Benutzer bei Verwendung dieses Einladungscodes zur Registrierung hinzugefügt wird.'
           label: Gruppe
         key:
           help: 'Code, den Nutzer bei der Registrierung verwenden.'
           label: Schlüssel
+        max_uses:
+          help: 'Die maximale Anzahl von Verwendungen des Codes. Setze auf 0 für unbegrenzte Verwendungen'
+          label: 'Max. Verwendungen'
     settings:
       create_doorkey_button: 'Einladungscode erstellen'
   forum:

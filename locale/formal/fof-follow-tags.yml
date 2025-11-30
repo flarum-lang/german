@@ -27,6 +27,8 @@ fof-follow-tags:
     badge:
       following_tag_tooltip: Folgend
       lurking_tag_tooltip: Lauernd
+    hero:
+      title: '=> flarum-subscriptions.forum.index.following_link'
     index:
       follow_tag_button: Folgen
       following:

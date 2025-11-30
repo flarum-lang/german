@@ -5,7 +5,7 @@
 fof-impersonate:
   admin:
     permissions:
-      login: 'Anmelden als andere Nutzer'
+      login: 'Als andere Benutzer anmelden'
     settings:
       no_settings_available: 'Derzeit sind keine Einstellungen verfügbar. Versuche fof/moderator-notes zu installieren'
       require_reason: 'Eingabe eines Grundes verlangen, bevor man sich als einen anderen Nutzer ausgeben kann.'
@@ -19,3 +19,12 @@ fof-impersonate:
       title: 'Anmelden als anderer Nutzer'
     user_controls:
       impersonate_button: 'Anmelden als Nutzer'
+  lib:
+    modal:
+      impersonate_username: 'Als {username} anmelden'
+      label: 'Mit großer Macht kommt große Verantwortung. Wenn du fortfährst, wirst du bis zum Abmelden zu {username}.'
+      placeholder_optional: '(Optional) Gib einen Grund für den Wechsel zu diesem Benutzer an.'
+      placeholder_required: 'Du musst einen Grund für den Wechsel zu diesem Benutzer angeben, bevor du fortfahren kannst'
+      title: 'Als anderer Benutzer anmelden'
+    user_controls:
+      impersonate_button: 'Als Benutzer anmelden'
