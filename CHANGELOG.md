@@ -2,6 +2,28 @@ CHANGELOG
 =========
 
 
+1.25.0 (XXXX-XX-XX)
+-------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`kilowhat/flarum-ext-formulaire`](https://flarum.org/extension/kilowhat/flarum-ext-formulaire)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
+* [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
+
+
+Alle Änderungen: [1.24.1...1.25.0](https://github.com/flarum-lang/german/compare/1.24.1...1.25.0).
+
+
 1.24.1 (2025-11-28)
 -------------------
 
