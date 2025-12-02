@@ -11,7 +11,7 @@ fof-filter:
     email:
       default_subject: 'Bezüglich deines letzten Beitrags'
       default_text: "%USERNAME%,\n\nVielen Dank für deinen Beitrag! Leider wurde dein Beitrag entfernt, weil er etwas enthielt, das wir in unseren Foren nicht sehen wollen.\n\nJeder automatisch entfernte Post wird von unseren Moderatoren überprüft. Wenn die Entfernung des Beitrags ein Fehler war, wird er vom Moderationsteam wieder hergestellt.\n\nDanke für dein Verständnis.\n"
-    email_help: 'Inhalt der E-Mail die versendet wird, nachdem man gefilterte Zeichenfolgen verwendet hat. Akzeptiert HTML oder Klartext.'
+    email_help: "Inhalt der E-Mail, die versendet wird, nachdem man gefilterte Zeichenfolgen verwendet hat. Akzeptiert HTML oder Klartext. Du kannst %USERNAME% verwenden, um den Benutzernamen des Autors einzufügen.\n"
     filter_label: '=> fof-filter.ref.strings_to_filter'
     help: 'Gebe Text oder Wörter zum Filtern ein, getrennt durch Komma und Leerzeichen. Wenn der Inhalt des Beitrags eines Nutzers eine Zeichenfolge enthält, die gefiltert werden soll, wird der Beitrag zur Genehmigung markiert. Resistent gegen Leetspeak.'
     help2: 'Intervall in Minuten, in dem Beiträge desselben Nutzers in derselben Diskussion automatisch zusammengeführt werden.'

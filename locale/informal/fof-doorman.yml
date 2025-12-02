@@ -120,10 +120,10 @@ fof-doorman:
       create_doorkey_button: 'Einladungscode erstellen'
   forum:
     email:
-      body: "Hallo,\n\nDu wurdest für eine Registrierung in {forum} eingeladen.\n\nWenn du bereit bist, dir ein Konto zu erstellen, klicke einfach auf den folgenden Link und gebe den Code bei der Registrierung ein:\n\nUrl: {url}\nEinladungscode: {code}\n\nIgnoriere diese E-Mail sollte sie fälschlicherweise versandt worden sein.\n"
+      body: "Hallo,\n\nDu wurdest für eine Registrierung in {forum} eingeladen.\n\nWenn du bereit bist, dir ein Konto zu erstellen, klicke einfach auf den folgenden Link und gib den Code bei der Registrierung ein:\n\nUrl: {url}\nEinladungscode: {code}\n\nIgnoriere diese E-Mail, sollte sie fälschlicherweise versandt worden sein.\n"
       subject: 'Zum Beitreten einladen'
     sign_up:
-      doorkey_required: 'Bitte gebe einen Einladungscode ein.'
+      doorkey_required: 'Bitte gib einen Einladungscode ein.'
       doorman_placeholder: Einladungscode
       doorman_placeholder_optional: 'Einladungscode (optional)'
       invalid_doorkey: 'Der von dir eingegebene Einladungscode ist ungültig.'

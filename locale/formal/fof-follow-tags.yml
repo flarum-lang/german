@@ -12,7 +12,7 @@ fof-follow-tags:
   admin:
     settings:
       following_none_label: '=> fof-follow-tags.ref.filtering_options.none'
-      following_page_default_label: 'Standardfilterung der "Folgen"-Seiten'
+      following_page_default_label: 'Standardfilterung der "Du folgst"-Seiten'
       following_tags_label: '=> fof-follow-tags.ref.filtering_options.tags'
   email:
     body:
@@ -62,8 +62,8 @@ fof-follow-tags:
       subscription_label: 'Wähle die Art aus, wie du "{tagName}" abonnierst'
     user:
       settings:
-        filter_label: 'Was standardmäßig auf der "Folgen"-Seite angezeigt werden soll'
-        heading: 'Follow Tags'
+        filter_label: 'Was standardmäßig auf der "Du folgst"-Seite angezeigt werden soll'
+        heading: 'Darstellung der "Du folgst"-Seite'
   ref:
     filtering_options:
       none: 'Gefolgte Diskussionen'
