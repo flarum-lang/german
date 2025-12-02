@@ -2,6 +2,20 @@ CHANGELOG
 =========
 
 
+1.25.1 (XXXX-XX-XX)
+-------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+
+
+Alle Änderungen: [1.25.0...1.25.1](https://github.com/flarum-lang/german/compare/1.25.0...1.25.1).
+
+
 1.25.0 (2025-12-01)
 -------------------
 
