@@ -39,7 +39,7 @@ fof-oauth:
           client_id_label: '=> fof-oauth.ref.settings.app_id'
           client_secret_label: '=> fof-oauth.ref.settings.app_secret'
           description: 'Erstelle eine Applikation unter {link}. Weise deiner erstellten Applikation die <code>read_user</code> scope zu.'
-          domain_label: 'GitLab Domain'
+          domain_label: GitLab-Domain
         google:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
@@ -53,7 +53,7 @@ fof-oauth:
           description: 'Erstelle eine Applikation unter {link}.'
         no_group_label: 'Keine Gruppenzuweisung'
         twitter:
-          api_key_label: 'API Key'
+          api_key_label: API-Schlüssel
           api_secret_label: 'API Secret'
           description: 'Erstelle eine Applikation unter {link}. Du musst eine Nutzungsbedingungen-, sowie eine Datenschutzrichtlinien-URL festlegen. Weise dann die "E-Mail anfordern" Berechtigung deiner Applikation zu.'
       update_email_from_provider_help: 'Wenn diese Option aktiviert ist, wird die E-Mail-Adresse des Nutzers bei jeder Anmeldung im Forum aktualisiert, damit sie mit der vom OAuth-Anbieter angegebenen Adresse übereinstimmt. Nicht alle Anbieter stellen die aktualisierte E-Mail-Adresse zur Verfügung. In diesem Fall hat diese Einstellung bei diesen Anbietern keine Auswirkungen.'
