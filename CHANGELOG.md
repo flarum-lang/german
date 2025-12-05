@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.25.2 (XXXX-XX-XX)
+-------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+
+
+Alle Änderungen: [1.25.1...1.25.2](https://github.com/flarum-lang/german/compare/1.25.1...1.25.2).
+
+
 1.25.1 (2025-12-04)
 -------------------
 
