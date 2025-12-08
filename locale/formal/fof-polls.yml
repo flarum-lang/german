@@ -147,6 +147,13 @@ fof-polls:
     polls_list:
       empty_text: 'Es sieht so aus, als gäbe es hier keine gemeinschaftsweiten Umfragen.'
       load_more_button: 'Mehr laden'
+      sort_dropdown:
+        least_voted: 'Wenigste Stimmen'
+        most_voted: 'Meiste Stimmen'
+        newest: Neueste
+        oldest: Älteste
+        sort_dropdown:
+          default: '=> fof-polls.forum.polls_list.sort_dropdown.newest'
     polls_page:
       title: Umfragen
     public_poll: Abstimmungsergebnis
