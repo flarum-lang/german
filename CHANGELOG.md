@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.25.3 (2025-12-22)
+-------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+
+
+Alle Änderungen: [1.25.2...1.25.3](https://github.com/flarum-lang/german/compare/1.25.2...1.25.3).
+
+
 1.25.2 (2025-12-08)
 -------------------
 
