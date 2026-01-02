@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.25.4 (XXXX-XX-XX)
+-------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates)
+
+
+Alle Änderungen: [1.25.3...1.25.4](https://github.com/flarum-lang/german/compare/1.25.3...1.25.4).
+
+
 1.25.3 (2025-12-22)
 -------------------
 
