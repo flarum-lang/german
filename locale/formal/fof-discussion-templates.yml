@@ -6,19 +6,19 @@ fof-discussion-templates:
   admin:
     permissions:
       manage_all_reply_templates: 'Antwortvorlagen für alle Diskussionen verwalten'
-      manage_own_discussion_reply_templates: 'Antwortvorlagen für deine Diskussionen verwalten'
+      manage_own_discussion_reply_templates: 'Antwortvorlagen für Ihre Diskussionen verwalten'
     settings:
-      append_template_on_tag_change: 'Vorlage bei Tag-Änderung anhängen?'
-      append_template_on_tag_change_help: 'Soll beim Ändern von Tags die Vorlage des neuen Tags angehängt werden, auch wenn der Benutzer bereits mit dem Schreiben begonnen hat? Unabhängig von dieser Einstellung wird die Vorlage gewechselt, wenn Tags geändert werden und der Benutzer keine Änderungen vorgenommen hat.'
-      no_tag_template: 'Standardvorlage (wird verwendet, wenn die Diskussion ohne ausgewählte Tags gestartet wurde):'
+      append_template_on_tag_change: 'Vorlage bei Thema-Änderung anhängen?'
+      append_template_on_tag_change_help: 'Soll beim Ändern von Themen die Vorlage des neuen Themas angehängt werden, auch wenn der Benutzer bereits mit dem Schreiben begonnen hat? Unabhängig von dieser Einstellung wird die Vorlage gewechselt, wenn Themen geändert werden und der Benutzer keine Änderungen vorgenommen hat.'
+      no_tag_template: 'Standardvorlage (wird verwendet, wenn die Diskussion ohne ausgewählte Themen gestartet wurde):'
     tag_template_modal:
-      customize_text: 'Verwalten Sie eine Vorlage für neue Diskussionen in diesem Tag.'
+      customize_text: 'Verwalte eine Vorlage für neue Diskussionen in diesem Thema.'
       submit_button: 'Vorlage speichern'
       title: Diskussionsvorlage
     tags:
       tag_template_button: 'Vorlage bearbeiten'
       tag_template_heading: Diskussionsvorlage
-      tag_template_text: 'Verwalte eine Vorlage für neue Diskussionen in diesem Tag.'
+      tag_template_text: 'Verwalten Sie eine Vorlage für neue Diskussionen in diesem Thema.'
   forum:
     discussion_controls:
       reply_template_button: 'Antwortvorlage bearbeiten'
