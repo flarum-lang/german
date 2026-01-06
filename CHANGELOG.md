@@ -8,6 +8,17 @@ CHANGELOG
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
 * [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates)
+* [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+* [`fof/pretty-mail`](https://github.com/FriendsOfFlarum/pretty-mail)
+* [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 
 
 Alle Änderungen: [1.25.3...1.25.4](https://github.com/flarum-lang/german/compare/1.25.3...1.25.4).
