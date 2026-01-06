@@ -26,14 +26,14 @@ fof-anti-spam:
         delete_user_help: 'Dadurch wird der Benutzer endgültig gelöscht. Wenn deaktiviert, wird der Benutzer stattdessen gesperrt.'
         delete_user_label: 'Benutzer löschen'
         heading: Standard-Moderationsmaßnahmen
-        introduction: "Wenn ein Benutzer als Spammer markiert wird, können Moderatoren aus verschiedenen Aktionen auswählen, wie sie mit dem jeweiligen Anwendungsfall umgehen möchten. Mit diesen Einstellungen kannst du die Aktionen, die du normalerweise durchführst, vorab festlegen, um den Prozess zu beschleunigen, aber auch Variationen nach Bedarf zulassen.\n"
+        introduction: 'Wenn ein Benutzer als Spammer markiert wird, können Moderatoren aus verschiedenen Aktionen auswählen, wie sie mit dem jeweiligen Anwendungsfall umgehen möchten. Mit diesen Einstellungen kannst du die Aktionen, die du normalerweise durchführst, vorab festlegen, um den Prozess zu beschleunigen, aber auch Variationen nach Bedarf zulassen.'
         move_discussions_to_tags_help: 'Dadurch werden alle Diskussionen, die von diesem Benutzer begonnen wurden, in die von Ihnen angegebenen Themen verschoben. Lösche die Themen-Auswahl, um die Diskussionen in ihren ursprünglichen Themen zu belassen. Hat keinen Effekt, wenn die Option "Diskussionen löschen" aktiviert ist.'
         move_discussions_to_tags_label: 'Diskussionen zu Themen verschieben'
       stopforumspam:
         api_key_instructions_text: '<register>Registriere dich auf StopForumSpam</register>. Danach musst du deinen <key>API-Schlüssel anfordern</key>.'
         api_key_label: 'API Schlüssel'
         api_key_text: 'Du hast die Möglichkeit, Spammer an StopForumSpam zu melden, um die allgemeine Forengemeinschaft spamfrei zu halten.'
-        confidence_label: Vertrauen
+        confidence_label: Konfidenz
         email_label: E-Mail-Spam-Prüfung
         frequency_label: Schwellenwert
         heading: StopForumSpam

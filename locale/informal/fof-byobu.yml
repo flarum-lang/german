@@ -61,7 +61,7 @@ fof-byobu:
     input:
       search_recipients: 'Empfänger durch Eingabe der ersten drei Zeichen suchen…'
     labels:
-      recipients: '{count} Empfänger'
+      recipients: '{count, plural, one {{count} Empfänger} other {{count} Empfänger}}'
       user_deleted: '-gelöscht-'
     modal:
       help:
