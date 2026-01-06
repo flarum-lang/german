@@ -9,9 +9,12 @@ fof-anti-spam:
       button: 'Blockierte Registrierungen'
       delete_entry: 'Eintrag löschen'
       email: E-Mail-Adresse
+      help: "Diese Seite listet alle Registrierungen auf, die vom StopForumSpam-Dienst blockiert wurden. Du kannst die Details jeder Registrierung anschauen und, falsch gewünscht, den Eintrag aus der Datenbank löschen.\n"
       ip: IP-Adresse
+      login-provider: Anmeldeanbieter
+      login-provider-data: 'Daten des Loginanbieters'
       no-records: 'Keine blockierten Registrierungen gefunden.'
-      sfs-data: 'StopForumSpam Daten'
+      sfs-data: StopForumSpam-Daten
       title: 'Blockierte Registrierungen'
       username: Benutzername
     permissions:
@@ -31,9 +34,12 @@ fof-anti-spam:
         move_discussions_to_tags_label: 'Diskussionen zu Themen verschieben'
       stopforumspam:
         api_key_instructions_text: '<register>Registriere dich auf StopForumSpam</register>. Danach musst du deinen <key>API-Schlüssel anfordern</key>.'
-        api_key_label: 'API Schlüssel'
+        api_key_label: API-Schlüssel
         api_key_text: 'Du hast die Möglichkeit, Spammer an StopForumSpam zu melden, um die allgemeine Forengemeinschaft spamfrei zu halten.'
+        confidence_help: 'Der Konfidenzwert ist ein recht guter Indikator dafür, dass das untersuchte Feld zu unerwünschten Aktivitäten führen würde. Lege den Konfidenz-Schwellwert als Prozentwert fest. Wenn das Feld gleich oder über diesem Wert liegt, wird die Registrierung blockiert, unabhängig vom „Frequenz“-Test weiter oben.'
         confidence_label: Konfidenz
+        email_hash_help: 'Es wird ein MD5-Hash der E-Mail-Adresse weiter gegeben, wenn du nicht die E-Mail-Adresse weitergeben möchtest. Diese Methode umgeht alle Tests auf Blockierlisten, Normalisierung und Verschleierungsprüfungen.'
+        email_hash_label: 'Gehashte E-Mail-Adresse verwenden'
         email_label: E-Mail-Spam-Prüfung
         frequency_label: Schwellenwert
         heading: StopForumSpam
@@ -51,8 +57,10 @@ fof-anti-spam:
         username_label: Benutzernamen-Spam-Prüfung
   forum:
     spammer_modal:
+      hard_delete_discussions_label: 'Diskussionen löschen'
       hard_delete_posts_label: 'Beiträge löschen'
       hard_delete_user_label: 'Benutzer löschen'
+      move_discussions_tag_label: 'Diskussion zu Quarantäne-Tag verschieben'
       report_to_sfs_label: 'An StopForumSpam melden'
       title: 'Markiere {username} als Spammer'
     user_controls:
