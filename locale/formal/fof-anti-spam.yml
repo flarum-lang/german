@@ -56,11 +56,20 @@ fof-anti-spam:
         sfs_lookup_label: 'Registrierungen überprüfen'
         username_label: Benutzernamen-Spam-Prüfung
   forum:
+    message:
+      stopforumspam:
+        blocked: 'Details deiner Registrierung wurden ein einer Datenbank zur Spamvermeidung gefunden, daher haben wir deine Registrierung abgelehnt.'
     spammer_modal:
+      hard_delete_discussions_help: 'Dadurch werden alle von diesem Benutzer gestarteten Diskussionen dauerhaft gelöscht. Wenn diese Option deaktiviert ist, werden Diskussionen stattdessen nur verborgen.'
       hard_delete_discussions_label: 'Diskussionen löschen'
+      hard_delete_posts_help: 'Dadurch werden alle von diesem Benutzer gestarteten Beiträge (Kommentare, Antworten, u.Ä.) dauerhaft gelöscht. Wenn diese Option deaktiviert ist, werden Beiträge stattdessen nur verborgen.'
       hard_delete_posts_label: 'Beiträge löschen'
+      hard_delete_user_help: 'Dadurch wird dieser Benutzer dauerhaft gelöscht. Wenn diese Option deaktiviert ist, wird der Benutzer stattdessen nur eingeschränkt.'
       hard_delete_user_label: 'Benutzer löschen'
+      intro: 'Wenn ein Benutzer als Spammer markiert wird, werden mehrere Aktionen vorgenommen, abhängig von den in deinem Forum aktivierten Erweiterungen.'
+      move_discussions_tag_help: 'Dadurch werden alle von diesem Benutzer gestarteten Diskussionen in das Thema verschoben, das du in den Forumeinstellungen festgelegt hast. Wenn diese Option deaktiviert ist, verbleiben Diskussionen im bisherigen Thema.'
       move_discussions_tag_label: 'Diskussion zu Quarantäne-Tag verschieben'
+      process_button: Prozess
       report_to_sfs_label: 'An StopForumSpam melden'
       title: 'Markiere {username} als Spammer'
     user_controls:
