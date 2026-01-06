@@ -5,6 +5,11 @@
 fof-reactions:
   admin:
     page:
+      cdn:
+        default-url: 'Standard: {url}'
+        help: "In der Standardkonfiguration werden Assets für Reaktionen über Cloudflares CDN ausgeliefert. Es gibt auch die Möglichkeit eine andere CDN-Adresse zu verwenden. <code>[codepoint]</code> wird durch den Codepoint des Emojis ersetzt.\n\nUm zum Beispiel auf Noto Emoji per jsdelivr zu wechseln, würde man als URL <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code> verwenden. Dieses Feld darf NIE leer bleiben.\n"
+        label: URL
+        title: CDN
       convert:
         button: 'Alte Reaktionen umwandeln'
         converted: 'Erfolgreich alle {number} Gefällt-mirs konvertiert'
@@ -12,6 +17,7 @@ fof-reactions:
         help: 'Wenn du deine Erweiterung gerade aktualisiert hast, müssen deine Reaktionen konvertiert werden. Wenn du diese Erweiterung gerade erst installiert hast, kannst du diese Nachricht getrost ignorieren.'
       reactions:
         Helptext: 'Gib den Namen (Bezeichner) des Emoji oder Font-Awesome Icons ein und wähle aus, welchen Typ du haben möchtest.'
+        delete_confirmation: 'Soll diese Reaktion wirklich gelöscht werden? Dieser Vorgang kann nicht rückgängig gemacht werden.'
         help:
           display: Anzeige
           identifier: Bezeichner
@@ -37,13 +43,15 @@ fof-reactions:
         react_own_posts_label: 'Benutzer können auf eigene Beiträge reagieren'
         save_settings: 'Einstellungen speichern'
     permissions:
+      delete_post_reactions_label: 'Reaktionen auf Beiträge löschen'
       react_posts_label: 'Auf Beiträge reagieren'
       see_reactions_label: 'Sehen, wer auf Beiträge reagiert hat'
   forum:
     disabled-reaction: 'Du kannst diese Reaktion im Moment nicht verwenden, bitte aktualisiere die Seite'
-    mod_item: 'Noch keine Reaktionen'
+    mod_item: 'Reaktionen anzeigen'
     modal:
       anonymous_count: '{count, plural, one {# anonymer Benutzer} other {# anonyme Benutzer}}'
+      no_reactions: 'Noch keine Reaktionen'
       title: Reaktionen
     notification: '{username} hat auf deinen Post mit {reaction} reagiert'
     react_button_label: Reagieren

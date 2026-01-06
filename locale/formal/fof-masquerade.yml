@@ -2,6 +2,11 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-masquerade/de@formal/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-gdpr:
+  lib:
+    data:
+      masqueradeanswers:
+        anonymize_description: '=> flarum-gdpr.lib.data.masqueradeanswers.delete_description'
 fof-masquerade:
   admin:
     buttons:
@@ -12,7 +17,7 @@ fof-masquerade:
       add: 'Feld {field} hinzufügen'
       description: Feld-Beschreibung
       description-help: "Eine optionale Beschreibung, um die Verwendung/Notwendigkeit dieses Feldes zu erklären.\n"
-      edit: 'Feld ''{field}'' bearbeiten'
+      edit: 'Feld „{field}“ bearbeiten'
       force-user-to-completion: 'Ausfüllen des Profils verpflichtend machen'
       icon: Symbol
       icon-help: "Zeigt ein Symbol vor den von den Nutzern eingegebenen Werten an. Eine Liste aller verfügbaren Symbole ist auf der <a>FontAwesome Webseite</a> zu finden. Verwende Symbol Namen mit dem \"fa-\" Prefix, zum Beispiel \"fas fa-info\".\n"

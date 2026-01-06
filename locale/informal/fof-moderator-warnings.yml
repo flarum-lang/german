@@ -18,7 +18,7 @@ fof-moderator-warnings:
   forum:
     notifications:
       warning_no_strikes_text: 'Du wurdest von {mod_username} gewarnt (keine Strikes)'
-      warning_text: '{strikes, plural, one {Du wurdest mit # strike von {mod_username}} verwarnt, other {Du wurdest mit # strikes von {mod_username}} verwarnt}}}'
+      warning_text: '{strikes, plural, one {Du wurdest mit # strike von {mod_username} verwarnt} other {Du wurdest mit # strikes von {mod_username} verwarnt}}'
     post:
       warning: '{strikes, plural, one {Verwarnt mit # Strike by {mod_username}} other {Verwarnt mit # Strikes by {mod_username}}}'
       warning_no_strikes: 'Ohne Strikes von {mod_username} gewarnt'

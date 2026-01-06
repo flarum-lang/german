@@ -19,8 +19,14 @@ fof-byobu:
       delete_on_last_recipient_left_help: 'Wenn diese Option aktiviert ist, werden die PDs dauerhaft aus der Datenbank gelöscht, wenn der letzte Nutzer sie verlässt. Andernfalls wird die PD sanft gelöscht/versteckt.'
       enable-make-public-option: '"Öffentlich machen" Funktion aktivieren'
       enable-make-public-option-help: 'Fügt die Möglichkeit für diejenigen hinzu, die die Berechtigung haben, alle Empfänger zu entfernen, ein neues Thema zuzuweisen und die Diskussion öffentlich sichtbar zu machen (gemäß den Sichtbarkeitseinstellungen des ausgewählten Themas).'
+      general:
+        heading: 'Allgemeine Einstellungen'
+        help: 'Diese Einstellungen betreffen die Grundfunktionen von byobu.'
       hide_from_all_discussions_page: 'PDs von der Seite "Alle Diskussionen" ausblenden'
       hide_from_all_discussions_page_help: 'Private Diskussionen sind nur über die Seite "Private Diskussionen" oder das Benutzerprofil zugänglich'
+      icon:
+        heading: Symboleinstellungen
+        help: 'Diese Einstellungen betreffen die Symbole, die von byobu im Forum verwendet werden.'
       post-event-icon: 'Byobu Post Ereignisse'
   email:
     body:
@@ -50,6 +56,8 @@ fof-byobu:
       title_placeholder: 'Private Diskussion Titel'
     confirm:
       make_public: 'Dadurch wird diese private Diskussion für alle sichtbar. Überlege, ob dies die richtige Handlung ist, bevor du fortfährst.'
+    hero:
+      title: '=> fof-byobu.forum.nav.nav_item'
     input:
       search_recipients: 'Empfänger durch Eingabe der ersten drei Zeichen suchen…'
     labels:

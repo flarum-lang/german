@@ -16,7 +16,7 @@ fof-pretty-mail:
         forumStyle: 'Enthält das <strong>gesamte Forum CSS</strong>'
         link: 'Enthält den Link in der E-Mail'
         settings: 'Ermöglicht die Interaktion mit dem SettingsRepositoryInterface'
-        url: 'Flarum''s <code>UrlGenerator</code>'
+        url: 'Flarums <code>UrlGenerator</code>'
       attributes_label: 'Verfügbare Attribute'
       confirm: 'Möchtest Du wirklich zur Standard-E-Mail-Vorlage für zurückkehren'
       default: Standardvorlage
