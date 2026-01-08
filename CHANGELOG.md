@@ -5,6 +5,11 @@ CHANGELOG
 1.25.5 (XXXX-XX-XX)
 -------------------
 
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`kilowhat/flarum-ext-audit-pro`](https://flarum.org/extension/kilowhat/flarum-ext-audit-pro)
+
+
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget)
@@ -15,6 +20,7 @@ CHANGELOG
 * [`davwheat/flarum-ext-ads`](https://github.com/davwheat/flarum-ext-ads)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
 
 
 Alle Änderungen: [1.25.4...1.25.5](https://github.com/flarum-lang/german/compare/1.25.4...1.25.5).
