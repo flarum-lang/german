@@ -16,7 +16,7 @@ fof-drafts:
     settings:
       enable_scheduled_drafts: 'Geplante Entwürfe aktivieren'
       schedule_log_output: 'Ausgabe des Schedulers an den Logspeicher anhängen'
-      schedule_on_one_server: 'Verwende die ''onOneServer()'' Direktive für den Task-Scheduler (benötigt Redis/Memcache)'
+      schedule_on_one_server: '''onOneServer()''-Direktive für den Task-Scheduler verwenden (benötigt Redis/Memcache)'
       title: 'FoF Entwürfe'
   console:
     scheduled_drafts_disabled: 'Geplante Entwürfe sind derzeit in den Einstellungen deaktiviert.'

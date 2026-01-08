@@ -11,6 +11,8 @@ kilowhat-audit:
       upgrade: 'Upgrade auf Pro'
     limitedSettings:
       configure: Konfigurieren
+      introduction: 'Konfiguriere, was Benutzer mit eingeschränkten Zugriffsrechten sehen können'
+      requiresExtension: 'Benötigt die Erweiterung {extension}'
       title: 'Einstellungen für eingeschränkten Zugriff'
     permissions:
       view: 'Audit-Protokoll anzeigen'
@@ -21,6 +23,8 @@ kilowhat-audit:
     link:
       all-audit: Audit-Protokoll
       discussion-audit: Audit-Protokoll
+    modal:
+      all-title: Audit-Protokoll
   lib:
     browser:
       client:
@@ -39,18 +43,36 @@ kilowhat-audit:
         post: 'Beitrag #{id}'
         tag: 'Thema #{id}'
         user: 'Benutzer #{id}'
+      discussion:
+        created: 'Hat Diskussion {discussion} begonnen'
+        deleted: 'Hat Diskussion {discussion} gelöscht'
+      empty: 'Keine Ergebnisse'
       filterApply: Anwenden
+      filterPlaceholder: 'Protokolle filtern'
       genericResource:
         comment: Kommentar
         post: Beitrag
+      loadMore: 'Mehr laden'
       noReason: '(kein Grund)'
       noValue: '(kein Wert)'
       permissionGroup:
         everyone: '=> core.admin.permissions_controls.everyone_button'
         members: '=> core.admin.permissions_controls.members_button'
+      post:
+        created: 'Hat Beitrag {post} in Diskussion {discussion} erstellt'
+        revised: 'Hat den Beitrag {post} von {postuser} in {discussion} überarbeitet'
+      setting_changed: 'Hat Einstellung {key} bearbeitet'
+      tag:
+        created: 'Hat Thema {tag} erstellt'
+        deleted: 'Hat Thema {tag} gelöscht'
+        updated: 'Hat Thema {tag} aktualisiert'
       user:
+        avatar_changed: 'Hat Avatar von {username} geändert'
+        avatar_removed: 'Hat Avatar von {username} entfernt'
+        deleted: 'Hat {username} gelöscht'
         logged_in: 'Im Konto von {username} angemeldet'
         logged_in_with_provider: 'Im Konto von {username} angemeldet mit {provider}'
         logged_out: 'Aus Konto von {username} abgemeldet'
         password_changed: 'Hat Passwort von {username} geändert'
+        provider_connected: 'Hat Provider {provider} mit Konto {username} verbunden'
       withoutActor: '=> core.group.guest'
