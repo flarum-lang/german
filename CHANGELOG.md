@@ -21,6 +21,9 @@ CHANGELOG
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
 * [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
 * [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
 * [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
 
