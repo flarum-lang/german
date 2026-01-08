@@ -4,6 +4,13 @@
 
 fof-sentry:
   admin:
+    sections:
+      frontend_monitoring: 'Frontend (JavaScript)-Überwachung'
+      frontend_monitoring_help: 'JavaScript-Fehler und Frontend-Leistung überwachen. Beachte, dass die Aktivierung bestimmter Funktionen die Paketgröße erhöht.'
+      general: 'Allgemeine Einstellungen'
+      general_help: 'Konfiguriere deine Sentry-DSN- und Umgebungseinstellungen.'
+      user_context: Benutzerkontext
+    sentry_settings: Sentry-Einstellungen
     settings:
       dsn_backend_help: 'Dieser DSN wird nur für Backend-Fehler verwendet. Dies ist nützlich, wenn du ein anderes Projekt für Backend-Fehler verwenden oder ein Relay verwenden möchtest, um Backend-Fehler an Sentry zu senden (z. B. um die Leistung zu verbessern).'
       dsn_backend_label: 'Sentry DSN (nur Backend)'
