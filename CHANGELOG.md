@@ -8,6 +8,10 @@ CHANGELOG
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget)
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`blomstra/fontawesome`](https://github.com/blomstra/flarum-ext-fontawesome)
+* [`clarkwinkelmann/flarum-ext-popular-discussion-badge`](https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge)
 
 
 Alle Änderungen: [1.25.4...1.25.5](https://github.com/flarum-lang/german/compare/1.25.4...1.25.5).
