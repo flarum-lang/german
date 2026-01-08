@@ -7,7 +7,7 @@ fof-reactions:
     page:
       cdn:
         default-url: 'Standard: {url}'
-        help: "In der Standardkonfiguration werden Assets für Reaktionen über Cloudflares CDN ausgeliefert. Es gibt auch die Möglichkeit eine andere CDN-Adresse zu verwenden. <code>[codepoint]</code> wird durch den Codepoint des Emojis ersetzt.\n\nUm zum Beispiel auf Noto Emoji per jsdelivr zu wechseln, würde man als URL <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code> verwenden. Dieses Feld darf NIE leer bleiben.\n"
+        help: "In der Standardkonfiguration werden Assets für Reaktionen über Cloudflares CDN ausgeliefert. Es gibt auch die Möglichkeit,\neine andere CDN-Adresse zu verwenden. <code>[codepoint]</code> wird durch den Codepoint des Emojis ersetzt.\n\nUm zum Beispiel auf Noto Emoji per jsdelivr zu wechseln, würde man als URL <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code> verwenden. Dieses Feld darf NIE leer bleiben.\n"
         label: URL
         title: CDN
       convert:
@@ -40,7 +40,7 @@ fof-reactions:
             legend: Gefällt-mirs
           warning: 'Die gleiche Reaktion <strong>kann nicht</strong> in ein Gefällt-mir <strong>und</strong> ein Upvote umgewandelt werden'
         react_own_posts_help: 'Wenn diese Option aktiviert ist, können Benutzer auf ihre eigenen Beiträge im Forum reagieren, sofern sie dazu berechtigt sind. Um zu verhindern, dass Benutzer auf ihre eigenen Beiträge reagieren, deaktiviere diese Einstellung.'
-        react_own_posts_label: 'Benutzer können auf eigene Beiträge reagieren'
+        react_own_posts_label: 'Benutzer können auf eigene Beiträge reagieren,'
         save_settings: 'Einstellungen speichern'
     permissions:
       delete_post_reactions_label: 'Reaktionen auf Beiträge löschen'

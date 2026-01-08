@@ -20,7 +20,7 @@ fof-polls:
     settings:
       allow_image_uploads: 'Bilder-Uploads für Umfragen und deren Optionen erlauben'
       allow_image_uploads_help: 'Wenn aktiviert, können Benutzer Bilder hochladen und zusätzlich eine Bild-URL angeben (wenn für Optionen aktiviert, ist dies immer für die Umfrage selbst aktiviert).'
-      allow_option_image: 'Erlaube die Angabe einer Bild-URL für jede Umfrageoption'
+      allow_option_image: 'Angabe einer Bild-URL für jede Umfrageoption erlauben'
       enable_global_polls: 'Globale Umfragen aktivieren'
       enable_global_polls_help: 'Globale Umfragen sind nicht an einen bestimmten Beitrag gebunden und können über eine spezielle Umfragen-Seite aufgerufen werden.'
       enabled_poll_groups: 'Umfragegruppen aktivieren'

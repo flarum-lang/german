@@ -14,8 +14,17 @@ fof-recaptcha:
       signup: '=> core.forum.sign_up.title'
       site_key_label: 'Seiten-Schlüssel (Site Key)'
       title: 'FriendsOfFlarum reCAPTCHA'
+      type_help: 'Diese Erweiterung unterstützt nur reCAPTCHA v2. Der ausgewählte Typ muss mit dem Typ deiner reCAPTCHA-Anmeldeinformationen übereinstimmen.'
       type_label: 'reCAPTCHA Typ'
+    test:
+      help_text: "Dieser Test verwendet die oben eingegebenen Werte. Lade den Test nach jeder Änderung der Einstellungen neu und speichere nach erfolgreichem Test!\nDie unten stehenden Einstellungen entsprechen möglicherweise nicht den gespeicherten Werten.\n"
+      load_test_button: Laden
+      reload_button: 'Neu laden'
+      submit_button: Absenden
+      success_message: 'Erfolg! reCAPTCHA ist korrekt konfiguriert.'
+      title: 'reCAPTCHA testen'
   forum:
     error: 'Beim Absenden vom reCAPTCHA ist ein Fehler aufgetreten, bitte versuch es erneut.'
+    unknown_error: 'Ein unbekannter Fehler ist aufgetreten. Überprüfe das Captcha und versuche es erneut.'
 validation:
   recaptcha: 'reCAPTCHA Validierung fehlgeschlagen.'
