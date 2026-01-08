@@ -52,7 +52,7 @@ ianm-twofactor:
       status_changed: 'Zwei-Faktor-Authentifizierung für dein Konto {type}'
   forum:
     log_in:
-      two_factor_placeholder: '2FA Sicherheitsschlüssel, z.B. 123456'
+      two_factor_placeholder: '2FA-Sicherheitsschlüssel, z.B. 123456'
       two_factor_required_message: 'Ein gültiger 2FA Sicherheitsschlüssel wird benötigt um fortzufahren.'
     security:
       backup_codes: 'Deine Backup-Codes'
@@ -61,20 +61,30 @@ ianm-twofactor:
       cancel_button: Abbrechen
       cannot_disable: 'Die aktuelle Konfiguration sieht vor, dass du die Zwei-Faktor-Authentifizierung nicht deaktivieren kannst.'
       cannot_disable_tooltip: '2FA kann nicht deaktiviert werden'
+      change_device_button: 'Gerät wechseln'
+      change_device_description: '2FA auf ein neues Gerät umziehen'
+      change_device_heading: 'Authentifizierungsgerät wechseln'
+      change_device_title: 'Gerät wechseln'
       confirm_disable_2fa_text: 'Bist du sicher, dass du die Zwei-Faktor-Authentifizierung deaktivieren möchtest?'
       confirm_disable_2fa_text_other_user: 'Bist du sicher, dass du die Zwei-Faktor-Authentifizierung für {username} deaktivieren möchtest? Das entfernt alle Backup-Codes und deaktiviert die 2FA für sein Konto.'
       confirm_disable_2fa_title: 'Bestätige das Deaktivieren der Zwei-Faktor-Authentifizierung'
+      continue_button: Fortsetzen
+      device_changed_confirmation: 'Dein Authentifizierungsgerät wurde erfolgreich gewechselt.'
       disable_2fa_button: '2FA deaktivieren'
       enable_2fa_button: '2FA aktivieren'
       enable_2fa_modal_text: 'Scanne den unten stehenden QR-Code mit deiner Authentifizierungs-App und gebe dann den generierten Sicherheitsschlüssel ein, um die Zwei-Faktor-Authentifizierung zu aktivieren.'
+      enter_current_token: 'Token des aktuellen Geräts eingeben'
+      enter_new_token: 'Token des neuen Geräts eingeben'
       enter_token: 'Sicherheitsschlüssel eingeben'
       loading_qr: 'QR-Code wird geladen...'
       manual_entry_instruction: 'Gebe den bereitgestellten Code in deiner Authentifizierungs-App ein und gebe dann den dort generierten Sicherheitsschlüssel ein, um die Zwei-Faktor-Authentifizierung zu aktivieren.'
       manual_tab: 'Manuelle Einrichtung'
+      new_backup_codes: 'Deine neuen Backup-Codes'
       ok_button: Ok
       qr_code_alt: 'QR-Code für Zwei-Faktor-Authentifizierung'
       qr_tab: 'QR-Code scannen'
       saved_backup_codes_button: 'Ich habe diese Codes gespeichert'
+      scan_new_device_qr: 'Scanne diesen QR-Code mit deinem neuen Authentifizierungsgerät.'
       scan_qr_instruction: 'Scanne den obigen QR-Code mit deiner Authentifizierungs-App und gebe dann den generierten Sicherheitsschlüssel ein, um die Zwei-Faktor-Authentifizierung zu aktivieren.'
       two_factor_apps: 'Apps wie {google}, {authy}, {microsoft} und mehr stehen kostenlos zu Verfügung.'
       two_factor_disabled: '2FA ist für dieses Konto deaktiviert.'
@@ -84,6 +94,8 @@ ianm-twofactor:
       two_factor_help: 'Die Zwei-Faktor-Authentifizierung (2FA) bietet eine zusätzliche Sicherheitsebene für dein Konto. Nach der Aktivierung muss zusätzlich zu deinem Passwort ein Schlüssel aus deiner Authentifizierungs-App eingegeben werden, wenn du dich anmeldest oder bestimmte andere Aktionen durchführst. Dies gewährleistet, dass dein Konto sicher bleibt, selbst wenn dein Passwort geknackt wird, da Angreifer ebenfalls diesen Code benötigen (der sich alle 30 Sekunden ändert), um auf dein Konto zuzugreifen.'
       two_factor_title: 'Status:'
       verify_button: Bestätigen
+      verify_current_device_message: 'Gib bitte einen Token deines aktuellen Authentifizierungsgeräts ein, um deine Identität zu bestätigen.'
+      verify_new_device_message: 'Gib jetzt einen Token von deinem neuen Gerät ein, um den Wechsel abzuschließen.'
     user_2fa:
       alert_message: 'Du musst die Zwei-Faktor-Authentifizierung aktivieren, um weiterhin auf dein Konto zugreifen zu können.'
   views:

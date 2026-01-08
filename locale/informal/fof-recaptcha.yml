@@ -28,3 +28,4 @@ fof-recaptcha:
     unknown_error: 'Ein unbekannter Fehler ist aufgetreten. Überprüfe das Captcha und versuche es erneut.'
 validation:
   recaptcha: 'reCAPTCHA Validierung fehlgeschlagen.'
+  recaptcha-unknown: 'Bei der Validierung von reCAPTCHA ist ein unbekannter Fehler aufgetreten ({errors}).'
