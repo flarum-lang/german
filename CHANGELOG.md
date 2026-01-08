@@ -19,8 +19,10 @@ CHANGELOG
 * [`clarkwinkelmann/flarum-ext-popular-discussion-badge`](https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge)
 * [`davwheat/flarum-ext-ads`](https://github.com/davwheat/flarum-ext-ads)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
 * [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
 * [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
+* [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
 
 
 Alle Änderungen: [1.25.4...1.25.5](https://github.com/flarum-lang/german/compare/1.25.4...1.25.5).
