@@ -30,6 +30,9 @@ huseyinfiliz-modern-footer:
       manage_footer_sections: 'Fußzeilenabschnitte verwalten'
       mobile_tab_height: 'Mobile Tab Höhe'
       mobile_tab_height_help: 'Wenn die Mobile-Tab-Erweiterung installiert ist, kannst du als Wert verwenden: var(--mobile-tab-height)'
+      show_to_everyone: 'Allen anzeigen'
+      show_to_guests_only: 'Nur für Gäste anzeigen'
+      show_to_members_only: 'Nur für Mitglieder anzeigen'
       social_link: 'Sozialer Link'
       social_media_button: 'Schaltfläche für soziale Medien'
       text: Text
