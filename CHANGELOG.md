@@ -28,6 +28,7 @@ CHANGELOG
 * [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
 * [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile)
 * [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
+* [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
 
 
