@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.25.5 (XXXX-XX-XX)
+-------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget)
+
+
+Alle Änderungen: [1.25.4...1.25.5](https://github.com/flarum-lang/german/compare/1.25.4...1.25.5).
+
+
 1.25.4 (2026-01-06)
 -------------------
 
