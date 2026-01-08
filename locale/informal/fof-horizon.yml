@@ -15,15 +15,43 @@ fof-horizon:
       trim_recent_help: "Diese Tabelle wird verwendet, um aktuelle Jobs im Horizon-Dashboard anzuzeigen.\n"
       trim_title: Trim-Einstellungen
     stats:
+      auto_refresh: 'Automatische Aktualisierung'
       data:
+        failed-last-seconds: 'Kürzlich fehlgeschlagene Jobs'
+        failure-rate: Fehlerquote
         jobs-past-hour: 'Jobs der letzten Stunde'
         jobs-per-minute: 'Jobs pro Minute'
+        max-runtime: 'Max. Laufzeit'
+        max-throughput: 'Max. Durchsatz'
+        max-wait-queue: 'Warteschlange: {queue}'
+        max-wait-time: 'Maximale Wartezeit'
+        redis-blocked-clients: 'Blockierte Clients'
+        redis-connected-clients: 'Verbundene Clients'
         redis-cpu-user: 'Redis CPU-Nutzer'
         redis-max-memory: 'Maximaler Redis-Arbeitsspeicher'
         redis-memory-policy: Redis-Arbeitsspeicherrichtlinie
         redis-memory-policy-tooltip: "Die Speicherrichtlinie ist die Art und Weise, wie Redis auswählt, was entfernt werden soll,\nwenn das maximale Speicherlimit erreicht ist. Die Standardeinstellung ist „noeviction“: Neue Werte\nwerden nicht gespeichert, wenn das Speicherlimit erreicht ist. Klicke hier, um die Dokumentation anzuzeigen.\n"
+        redis-memory-usage: Cache-Store-Speichernutzung
+        redis-ops-per-sec: 'Ops pro Sekunde'
         redis-peak-memory: Redis-Spitzenwert-Arbeitsspeicher
         redis-used-memory: Redis-Arbeitsspeicherauslastung
+        status:
+          inactive: Inaktiv
+          label: Status
+          running: Läuft
+        success-rate: Erfolgsquote
+        total-processes: 'Prozesse insgesamt'
+      error:
+        fetch_failed: 'Horizon-Statistiken konnten nicht abgerufen werden. Bitte überprüfe deine Redis-Konfiguration.'
+        setup_docs: 'Redis-Setup-Dokumentation aufrufen'
+        title: Verbindungsfehler
       full_dashboard: 'Horizon Dashboard'
       heading: Warteschlangenübersicht
+      health:
+        critical: Kritisch
+        excellent: Hervorragend
+        good: Gut
+        poor: Schlecht
+        tooltip: 'Systemgesundheitsbewertung: {score}/100'
+      last_refresh: 'Aktualisiert {time}'
       refresh: Aktualisieren

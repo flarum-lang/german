@@ -41,6 +41,7 @@ fof-anti-spam:
         email_hash_help: 'Es wird ein MD5-Hash der E-Mail-Adresse weiter gegeben, wenn du nicht die E-Mail-Adresse weitergeben möchtest. Diese Methode umgeht alle Tests auf Blockierlisten, Normalisierung und Verschleierungsprüfungen.'
         email_hash_label: 'Gehashte E-Mail-Adresse verwenden'
         email_label: E-Mail-Spam-Prüfung
+        frequency_help: "Die Anzahl der Spam-Meldungen aus allen aktivierten Prüfungen, die den Spamfilter auslösen.\nBeispiel: Wenn die E-Mail-Adresse 1 Treffer und die IP-Adresse 2 Treffer liefert, ergibt das insgesamt 3 Treffer. Ist der Schwellenwert auf 3 oder weniger festgelegt, wird die Registrierung abgelehnt.\n"
         frequency_label: Schwellenwert
         heading: StopForumSpam
         introduction: "Prüft neue Benutzerregistrierungen anhand der <a>StopForumSpam</a>-Datenbank. Wenn entweder der Schwellenwert für die <code>Zuverlässigkeit</code> oder der Schwellenwert für die <code>Häufigkeit</code> erreicht ist, wird der Benutzer daran gehindert, seine Registrierung in Ihrem Forum abzuschließen.\n\nSSO-Registrierung über <code>fof/oauth</code> und <code>fof/passport</code> wird ebenfalls unterstützt. Andere SSO-Anbieter sollten funktionieren, wurden jedoch nicht getestet.\n"
