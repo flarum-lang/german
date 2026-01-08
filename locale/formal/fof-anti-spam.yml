@@ -70,6 +70,7 @@ fof-anti-spam:
       move_discussions_tag_help: 'Dadurch werden alle von diesem Benutzer gestarteten Diskussionen in das Thema verschoben, das du in den Forumeinstellungen festgelegt hast. Wenn diese Option deaktiviert ist, verbleiben Diskussionen im bisherigen Thema.'
       move_discussions_tag_label: 'Diskussion zu Quarantäne-Tag verschieben'
       process_button: Prozess
+      report_to_sfs_help: 'Hiermit werden die grundlegenden Benutzerdaten (Benutzername, E-Mail-Adresse, IP-Adresse) an StopForumSpam übermittelt. Damit wird verhindert, dass sich der Benutzer in anderen Foren registriert, die den StopForumSpam-Dienst nutzen.'
       report_to_sfs_label: 'An StopForumSpam melden'
       title: 'Markiere {username} als Spammer'
     user_controls:
