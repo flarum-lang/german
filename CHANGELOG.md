@@ -7,6 +7,7 @@ CHANGELOG
 
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
+* [`ianm/syndication`](https://github.com/imorland/syndication)
 * [`kilowhat/flarum-ext-audit-pro`](https://flarum.org/extension/kilowhat/flarum-ext-audit-pro)
 
 
@@ -25,7 +26,9 @@ CHANGELOG
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
 * [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
+* [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile)
 * [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
 
 
 Alle Änderungen: [1.25.4...1.25.5](https://github.com/flarum-lang/german/compare/1.25.4...1.25.5).
