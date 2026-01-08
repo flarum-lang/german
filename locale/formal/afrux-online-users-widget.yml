@@ -4,6 +4,8 @@
 
 afrux-online-users-widget:
   admin:
+    permissions:
+      view_online_users_widget: 'Online-Benutzer-Widget anzeigen'
     settings:
       cache_ttl: 'Zeit zum Zwischenspeichern der Benutzerliste (in Sekunden)'
       last_seen_interval: 'Zeitintervall, innerhalb dessen ein Benutzer als online betrachtet wird (in Minuten)'

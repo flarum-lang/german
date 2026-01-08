@@ -10,6 +10,7 @@ clarkwinkelmann-popular-discussion-badge:
       comments: Kommentare
       comments_placeholder: '0'
       conditions: 'Bedingungen für das Beliebt-Abzeichen'
+      hours: h
       mode: Funktionsweise
       mode_help: "Der Frontend-Modus ist eine effiziente Lösung, die nicht auf die Datenbank zurückgreift. Der Scheduler-Modus erfordert eine CRON-Einrichtung und erlaubt Zeitspannen in den Bedingungen.\n"
       mode_options:
@@ -17,7 +18,7 @@ clarkwinkelmann-popular-discussion-badge:
         scheduler: 'Scheduler (CRON)'
       or: ODER
       scheduler_frequency: 'Frequenz des Scheduler-Modus'
-      scheduler_frequency_help: "Die Häufigkeit, in der der Beliebtheitsstatus im Scheduler-Modus aktualisiert wird. (Im Frontend-Modus wird der Status immer sofort aktualisiert)\n"
+      scheduler_frequency_help: "Die Häufigkeit, mit der der Beliebtheitsstatus im Scheduler-Modus aktualisiert wird. (Im Frontend-Modus wird der Status immer sofort aktualisiert)\n"
       scheduler_frequency_options:
         everyFifteenMinutes: 'Alle 15 Minuten'
         everyFiveMinutes: 'Alle 5 Minuten'
@@ -26,5 +27,7 @@ clarkwinkelmann-popular-discussion-badge:
         hourly: 'Einmal die Stunde'
       views: Aufrufe
       views_placeholder: '0'
+      within: innerhalb
+      within_placeholder: alle
   forum:
     badge_label: Beliebt

@@ -12,6 +12,7 @@ antoinefr-money:
       - 'Wenn eine Diskussion/ein Beitrag versteckt oder wiederhergestellt wird (Standard)'
       - 'Wenn eine Diskussion/ein Beitrag gelöscht wird'
     permissions:
+      disable_money_label: 'Geld deaktivieren'
       edit_money_label: 'Geld bearbeiten'
     settings:
       autoremove: 'Automatisches Aktualisieren von Geld'
