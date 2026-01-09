@@ -2,6 +2,41 @@ CHANGELOG
 =========
 
 
+1.25.5 (2026-01-09)
+-------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`ianm/syndication`](https://github.com/imorland/syndication)
+* [`kilowhat/flarum-ext-audit-pro`](https://flarum.org/extension/kilowhat/flarum-ext-audit-pro)
+* [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget)
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`blomstra/fontawesome`](https://github.com/blomstra/flarum-ext-fontawesome)
+* [`clarkwinkelmann/flarum-ext-popular-discussion-badge`](https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge)
+* [`davwheat/flarum-ext-ads`](https://github.com/davwheat/flarum-ext-ads)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
+* [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile)
+* [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
+* [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
+
+
+Alle Änderungen: [1.25.4...1.25.5](https://github.com/flarum-lang/german/compare/1.25.4...1.25.5).
+
+
 1.25.4 (2026-01-06)
 -------------------
 
