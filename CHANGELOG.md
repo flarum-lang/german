@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`ianm/syndication`](https://github.com/imorland/syndication)
 * [`kilowhat/flarum-ext-audit-pro`](https://flarum.org/extension/kilowhat/flarum-ext-audit-pro)
+* [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
@@ -26,6 +27,7 @@ CHANGELOG
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
 * [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
 * [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile)
 * [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
 * [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
