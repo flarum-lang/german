@@ -9,6 +9,13 @@ blomstra-gdpr:
         anonymize_description: 'Löscht den Boring Avatar und generiert zufällig einen neuen.'
         delete_description: 'Löscht den Boring Avatar.'
         export_description: 'Fügt den Boring Avatar zum Export-Archiv hinzu.'
+flarum-gdpr:
+  lib:
+    data:
+      boringavatar:
+        anonymize_description: 'Löscht den Boring Avatar und erstellt einen zufälligen neuen.'
+        delete_description: 'Löscht den Boring Avatar.'
+        export_description: 'Boring Avatar zum Export-ZIP-Archiv hinzufügen.'
 ianm-boring-avatars:
   admin:
     settings:

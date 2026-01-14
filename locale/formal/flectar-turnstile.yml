@@ -5,10 +5,14 @@
 flectar-turnstile:
   admin:
     settings:
+      forgot: '=> core.forum.forgot_password.title'
       help_text: 'Turnstile-Schlüssel in deinem Cloudflare-Konto <a>hier</a> erstellen.'
       secret_key: 'Geheimer Schlüssel'
+      signin: '=> core.forum.log_in.title'
+      signup: '=> core.forum.sign_up.title'
       site_key: Website-Schlüssel
   forum:
+    error: 'Es ist ein Fehler aufgetreten während der Prüfung, ob du ein Mensch bist. Bitte erneut versuchen.'
     not_loaded_error: 'Cloudflare Turnstile konnte nicht geladen werden. Bitte die Seite aktualisieren und prüfen, ob ein Adblocker aktiv ist.'
     validation_error: 'Bitte die Turnstile-Prüfung abschließen.'
 validation:

@@ -10,17 +10,22 @@ davwheat:
       settings:
         add_script: Neu
         alert:
+          code_has_script: 'Einer oder mehrere Anzeigenblöcke enthalten nicht erlaubte Script-Tags. Bitte entferne diese und versuche es erneut.'
           fix_errors: 'Bitte beheben Sie die Fehler oberhalb vor dem Speichern'
         allow_after_placeholder: 'Zwischen Beiträgen: Werbung nach dem Antworten-Platzhalter anzeigen'
         between_posts_gap: 'Zwischen Beiträgen: Abstand zwischen Werbeblöcken'
         code_input: HTML-Code
+        code_input_disabled: 'Aktiviere diesen Anzeigenblock, um den HTML-Code zu bearbeiten.'
+        enabled_locations: 'Aktivierte Anzeigenblöcke'
         js_input: JavaScript-Code
+        js_input_disabled: 'Aktiviere diesen Anzeigenblock, um dessen JS-Code zu bearbeiten.'
         pub_id: AdSense-Publisher-ID
         save_btn:
           dirty: 'Änderungen übernehmen'
           fix_errors: 'Behebe die Fehler, bevor du speicherst'
           saved: 'Alle Änderungen wurden gespeichert'
           saving: Speichert...
+        script_deletion: 'Um ein Skript zu entfernen, lass das Textfeld leer und klicke „Änderungen übernehmen“.'
         script_urls: 'Benutzerdefinierte Skript-URL(s)'
         use_adsense: 'AdSense verwenden'
     lib:
