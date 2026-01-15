@@ -8,7 +8,7 @@ fof-sitemap:
       advanced_options_label: 'Erweiterte Optionen'
       exclude_tags: 'Alle Themenseiten von Sitemap ausschließen'
       exclude_tags_help: 'Standardmäßig werden alle Themen, die für Gäste sichtbar ist, indiziert'
-      exclude_users: 'Nutzerprofile von der Sitemap ausschließen'
+      exclude_users: 'Nutzerprofile von Sitemap ausschließen'
       exclude_users_help: 'Standardmäßig wird jeder Nutzer, der für Gäste sichtbar ist, indiziert'
       frequency:
         daily: Täglich

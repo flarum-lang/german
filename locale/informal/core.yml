@@ -57,6 +57,12 @@ core:
     dashboard:
       clear_cache_button: 'Cache leeren'
       description: 'Dein Forum auf einen Blick.'
+      info_button: Systeminformationen
+      info_modal:
+        copy_button: 'In Zwischenablage kopieren'
+        copy_error: 'Kopieren in Zwischenablage fehlgeschlagen'
+        copy_success: 'Systeminformationen in Zwischenablage kopiert'
+        title: Systeminformationen
       io_error_message: 'Es konnte nicht in das Dateisystem geschrieben werden. Überprüfe die Berechtigungen deines Dateisystems und versuche es erneut. Oder versuche es über die Kommandozeile auszuführen.'
       status:
         headers:
@@ -119,9 +125,12 @@ core:
       smtp_heading: 'SMTP Einstellungen'
       title: '=> core.ref.email'
     extension:
+      abandoned_no_replacement: 'Diese Erweiterung wird vom Autor nicht mehr gepflegt und erhält möglicherweise keine Updates mehr.'
+      abandoned_with_replacement: 'Diese Erweiterung wurde durch {replacement} ersetzt. Ziehe in Betracht, zum Ersatzpaket zu wechseln.'
       configure_scopes: 'Bereiche konfigurieren'
       confirm_purge: 'Die Bereinigung entfernt sämtliche Datenbankeinträge und Assets, die sich auf die Erweiterung beziehen. Die Erweiterung wird nicht deinstalliert; dies muss über Composer geschehen. Bist du sicher, dass du fortfahren willst?'
       confirm_uninstall: 'Die Deinstallation entfernt alle Datenbankeinträge und Assets, die mit der Erweiterung in Verbindung stehen. Bist du sicher, dass du fortfahren möchtest?'
+      deprecated: Veraltet
       disabled: Deaktiviert
       enable_to_see: 'Aktiviere die Erweiterung, um Einstellungen einsehen und verändern zu können.'
       enabled: Aktiviert
@@ -141,6 +150,7 @@ core:
         button_label: LIESMICH
         no_readme: 'Diese Erweiterung scheint keine README-Datei zu haben'
         title: 'Dokumentation von {extName}'
+      replaced: Ersetzt
       uninstall_button: Deinstallieren
     header:
       get_help: 'Hilfe erhalten'
