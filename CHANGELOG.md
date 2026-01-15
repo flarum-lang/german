@@ -5,6 +5,11 @@ CHANGELOG
 1.25.6 (XXXX-XX-XX)
 -------------------
 
+**Allgemeine Änderungen**:
+
+* Flarum-Core Übersetzungen aktualisiert.
+
+
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
 * [`clarkwinkelmann/flarum-ext-discussion-lists`](https://github.com/clarkwinkelmann/flarum-ext-discussion-lists)
@@ -17,6 +22,7 @@ CHANGELOG
 
 * [`davwheat/flarum-ext-ads`](https://github.com/davwheat/flarum-ext-ads)
 * [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
 * [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
 * [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer)
