@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.25.7 (XXXX-XX-XX)
+-------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
+
+
+Alle Änderungen: [1.25.6...1.25.7](https://github.com/flarum-lang/german/compare/1.25.6...1.25.7).
+
+
 1.25.6 (2026-01-15)
 -------------------
 
