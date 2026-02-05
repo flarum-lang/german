@@ -8,6 +8,7 @@ CHANGELOG
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
 * [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
+* [`huseyinfiliz/private-profile`](https://github.com/huseyinfiliz/private-profile)
 
 
 Alle Änderungen: [1.25.6...1.25.7](https://github.com/flarum-lang/german/compare/1.25.6...1.25.7).
