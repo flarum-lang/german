@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+1.25.8 (XXXX-XX-XX)
+-------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`clarkwinkelmann/flarum-ext-discussion-open-position`](https://github.com/clarkwinkelmann/flarum-ext-discussion-open-position)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`ianm/translate`](https://flarum.org/extension/ianm/translate)
+
+
+Alle Änderungen: [1.25.7...1.25.8](https://github.com/flarum-lang/german/compare/1.25.7...1.25.8).
+
+
 1.25.7 (2026-02-06)
 -------------------
 
