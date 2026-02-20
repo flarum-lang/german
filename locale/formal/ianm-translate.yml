@@ -7,27 +7,43 @@ ianm-translate:
     glossary:
       button: Glossar
       create_button: 'Neuen Begriff erstellen'
+      create_not_implemented: 'Das Hinzufügen von Begriffen über die Oberfläche ist noch nicht verfügbar. Verwenden Sie den PHP Extender.'
+      delete_not_available: 'Dieser Begriff ist im Code hinterlegt und kann hier nicht gelöscht werden'
       delete_term: 'Begriff löschen'
+      edit_not_available: 'Dieser Begriff ist im Code hinterlegt und kann hier nicht bearbeitet werden'
       edit_term: 'Begriff bearbeiten'
+      extender_info: 'Glossarbegriffe können über den PHP Extender der Erweiterung in Ihrer Datei extend.php hinzugefügt werden.'
       no_terms: 'Keine Glossarbegriffe sind momentan definiert.'
       refresh_button: Aktualisieren
       section:
         heading: 'Glossar Konfiguration'
+        help: 'Glossarbegriffe oder -ausdrücke werden definiert, damit sie vom Übersetzungsdienst nicht übersetzt werden. Dies ist nützlich für Eigennamen, Fachbegriffe oder andere Wörter, die nicht übersetzt werden sollten.'
       source:
         code: 'Im Code definiert'
         database: 'In der Datenbank hinterlegt'
         default: 'Integrierter Standard'
       terms:
         current: '{count, plural, one {# Begriff} other {# Begriffe}} sind momentan definiert'
+    permission:
+      edit-translation: 'Manuelles Bearbeiten einer Übersetzung'
+      refresh-translation: 'Neuübersetzung einer zwischengespeicherten Übersetzung erzwingen'
     settings:
+      bind-browser-language: 'Browsersprache hinzufügen'
+      bind-browser-language-help: 'Wenn aktiviert, werden die Browsersprache(n) des Benutzers zur Liste der für die Übersetzung verfügbaren Sprachen hinzugefügt.'
       button: Einstellungen
       deepl:
+        api_key:
+          help: 'Registrieren Sie sich unter {link}. Der Treiber erkennt den Free-/Pro-Schlüsseltyp automatisch.'
+          label: '=> ianm-translate.lib.settings.api-key'
         en_choice:
+          help: 'Wählen Sie die Variante für Übersetzungen ins Englische aus.'
           label: 'Englische Variante'
           options:
             en-GB: 'Englisch (GB) en-GB'
             en-US: 'Englisch (USA) en-US'
         formality:
+          help: 'Sofern verfügbar können Übersetzungen unterschiedliche Formalitätsstufen nutzen. Wählen Sie hier Ihre bevorzugte Stufe aus.'
+          label: Formalität
           options:
             default: Standard
             prefer_less: 'Weniger formell'
@@ -35,25 +51,95 @@ ianm-translate:
         glossary:
           options:
             none: 'Kein Glossar'
+          pair:
+            label: '{source} nach {target} Glossar'
+        model_type:
+          help: 'Wählen Sie aus, welches DeepL-Modell für die Übersetzung verwendet werden soll.'
+          label: Modellart
+          options:
+            latency_optimized: 'Auf Geschwindigkeit optimiert'
+            prefer_quality_optimized: 'Qualität bevorzugen, wenn verfügbar'
       general:
         heading: 'Allgemeine Einstellungen'
+        help: 'Diese Einstellungen legen das allgemeine Verhalten der Übersetzungsfunktion fest.'
+      google-cloud:
+        api_key:
+          label: '=> ianm-translate.lib.settings.api-key'
       libre:
         port:
           label: Server-Port
         url:
           label: Server-URL
       multi-lang-search: 'Mehrsprachige Suche'
+      multi-lang-search-help: 'Wenn aktiviert, wird die Suche alle Inhaltsübersetzungen einbeziehen.'
       openai:
+        api_key:
+          label: '=> ianm-translate.lib.settings.api-key'
+        de_variant:
+          help: 'Wählen Sie beim Übersetzen ins Deutsche aus, welche Varietät verwendet werden soll.'
+          label: 'Varietät des Deutschen'
+          options:
+            casual: 'Umgangssprachliches Deutsch'
+            swiss: Schweizerdeutsch
+        detection_model:
+          label: Spracherkennungsmodell
+          options:
+            gpt-3:
+              5-turbo: 'GPT-3.5 Turbo (Budget)'
+              5-turbo-0125: 'GPT-3.5 Turbo Neuestes (Budget+)'
+            gpt-4o: 'GPT-4o (Premium)'
+            gpt-4o-mini: 'GPT-4o Mini (Ausgewogen)'
+        en_variant:
+          help: 'Wählen Sie beim Übersetzen ins Englische aus, welche Varietät verwendet werden soll.'
+          label: 'Varietät des Englischen'
+          options:
+            en-GB: 'Britisches Englisch'
+            en-US: 'Amerikanisches Englisch'
+        max_tokens:
+          help: 'Maximale Token für die Übersetzungsausgabe. Höhere Werte ermöglichen längere Übersetzungen, erhöhen aber die Kosten. 1024 Token ≈ 750 Wörter. GPT-4o kostet ~0,03 $ pro 1T Ausgabe-Token, GPT-4o-mini kostet ~0,0006 $ pro 1T Ausgabe-Token.'
+          label: 'Maximale Ausgabe-Token'
+          options:
+            1024: '1.024 Token (~750 Wörter)'
+            2048: '2.048 Token (~1.500 Wörter)'
+            4096: '4.096 Token (~3.000 Wörter)'
+            6144: '6.144 Token (~4.500 Wörter)'
+            8192: '8.192 Token (~6.000 Wörter)'
+        timeout:
+          label: 'Zeitüberschreitung (Sekunden)'
         translation_model:
           label: Übersetzungsmodell
           options:
             gpt-4o: 'GPT-4o (Premium)'
+      provider: Übersetzungsanbieter
+      providers:
+        heading: 'Einstellungen des Übersetzungsanbieters'
+        help: 'Wählen Sie hier Ihren bevorzugten Übersetzungsanbieter aus und konfigurieren Sie dessen Einstellungen.'
+      readme-info: 'Ausführlichere Informationen finden Sie in der LIESMICH-Dokumentation.'
+      readme-none: 'Für diesen Treiber sind keine weiteren Einstellungen erforderlich.'
       seemless: 'Nahtlose Übersetzung'
+      seemless-help: 'Beta-Funktion. Wenn aktiviert, werden alle Benutzerinhalte automatisch in alle anderen verfügbaren Forensprachen übersetzt. Wenn ein Benutzer mehrsprachige Inhalte anzeigt, werden Übersetzungen automatisch angezeigt.'
       seo:
         heading: SEO-Einstellungen
       short-content-length: 'Kurze Inhalte'
+      translate-all-enabled: 'Alle Übersetzungssprachen aktivieren'
+      translate-polls: 'Umfragen übersetzen'
+      translate-polls-help: 'Wenn aktiviert, werden Umfragetitel, Untertitel, Alternativtexte von Bildern und Antwortoptionen beim Erstellen oder Bearbeiten einer Umfrage automatisch übersetzt.'
   forum:
+    composer_edit:
+      language: 'Übersetzten Inhalt in {language} aktualisieren'
+    detected-language: 'Dieser Beitrag ist in {postLang}'
+    discussion:
+      post:
+        close-translation: 'Übersetzung schließen'
+        translated-header: 'KI-Übersetzung von {from} nach {to}'
+        translated-updated: 'Übersetzung zuletzt aktualisiert {time} mittels {provider}'
+      title:
+        detected-language: '{postLang}'
     manage-translations:
+      button-label: 'Übersetzungen verwalten'
+      original-language: 'Originalsprache ({detectedLang})'
+      poll-group:
+        name: Gruppenname
       poll:
         question: Frage
         subtitle: Untertitel
@@ -61,10 +147,24 @@ ianm-translate:
         option: 'Antwort {number}'
         question: Frage
         subtitle: Untertitel
+      save-changes: '=> core.ref.save_changes'
+      translations-label: Übersetzungen
+    original-content:
+      title: Originalinhalt
+      view: 'Originalinhalt anzeigen'
+    refresh-translation: 'Übersetzung aktualisieren'
     translate-button-label: Übersetzen
+    unknown-language: '[Nicht erkannt]'
     user:
       settings:
         heading: Übersetzung
+        source-language:
+          label: 'Sprache immer anzeigen'
   lib:
     providers:
       deepl: DeepL
+      google-cloud: 'Google Cloud Translation'
+      google-free: 'Google Translate'
+      openai: OpenAI
+    settings:
+      api-key: API-Schlüssel
