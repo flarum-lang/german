@@ -6,18 +6,35 @@ ianm-translate:
   admin:
     glossary:
       button: Glossar
+      create_button: 'Neuen Begriff erstellen'
+      delete_term: 'Begriff löschen'
+      edit_term: 'Begriff bearbeiten'
+      no_terms: 'Keine Glossarbegriffe sind momentan definiert.'
+      refresh_button: Aktualisieren
       section:
         heading: 'Glossar Konfiguration'
+      source:
+        code: 'Im Code definiert'
+        database: 'In der Datenbank hinterlegt'
+        default: 'Integrierter Standard'
+      terms:
+        current: '{count, plural, one {# Begriff} other {# Begriffe}} sind momentan definiert'
     settings:
       button: Einstellungen
       deepl:
         en_choice:
           label: 'Englische Variante'
+          options:
+            en-GB: 'Englisch (GB) en-GB'
+            en-US: 'Englisch (USA) en-US'
         formality:
           options:
             default: Standard
             prefer_less: 'Weniger formell'
             prefer_more: Formeller
+        glossary:
+          options:
+            none: 'Kein Glossar'
       general:
         heading: 'Allgemeine Einstellungen'
       libre:
@@ -25,18 +42,29 @@ ianm-translate:
           label: Server-Port
         url:
           label: Server-URL
+      multi-lang-search: 'Mehrsprachige Suche'
+      openai:
+        translation_model:
+          label: Übersetzungsmodell
+          options:
+            gpt-4o: 'GPT-4o (Premium)'
       seemless: 'Nahtlose Übersetzung'
       seo:
         heading: SEO-Einstellungen
+      short-content-length: 'Kurze Inhalte'
   forum:
     manage-translations:
       poll:
         question: Frage
         subtitle: Untertitel
       quiz:
+        option: 'Antwort {number}'
         question: Frage
         subtitle: Untertitel
     translate-button-label: Übersetzen
+    user:
+      settings:
+        heading: Übersetzung
   lib:
     providers:
       deepl: DeepL

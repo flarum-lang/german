@@ -6,6 +6,8 @@ fof-sitemap:
   admin:
     settings:
       advanced_options_label: 'Erweiterte Optionen'
+      build_button: 'Sitemaps jetzt neu erstellen'
+      build_button_help: 'Löst eine sofortige Neuerstellung aller Sitemaps-Dateien aus. Der Auftrag wird in die Warteschlange eingereiht, sofern diese konfiguriert ist, andernfalls wird er sofort ausgeführt.'
       exclude_tags: 'Alle Themenseiten von Sitemap ausschließen'
       exclude_tags_help: 'Standardmäßig werden alle Themen, die für Gäste sichtbar ist, indiziert'
       exclude_users: 'Nutzerprofile von Sitemap ausschließen'
@@ -19,6 +21,7 @@ fof-sitemap:
       include_changefreq_help: 'Angaben zur Änderungshäufigkeit werden von Google ignoriert, können aber von anderen Suchmaschinen zur Planung der Crawlerbesuche genutzt werden'
       include_priority: 'Werte zur Priorisierung in Sitemap aufnehmen'
       include_priority_help: 'Angaben zur Priorisierung werden von Google ignoriert, können aber von anderen Suchmaschinen wie Bing und Yandex genutzt werden'
+      last_build_time: 'Letzte Erstellungszeit'
       mode_help: 'Die Wahl des richtigen Modus für die Größe deines Forums ist von entscheidender Bedeutung.'
       mode_help_cache_disk: 'Am besten geeignet für kleine oder mittelgroße Foren, am ehesten auf Hosting-Umgebungen, die Cronjobs zulassen und den Flarum-Scheduler aktivieren (siehe unten), und mit Diskussionen, Benutzern, Tags und Seiten, die in Summe weniger als 50.000 Einträge umfassen.'
       mode_help_cache_disk_label: Cache-Modus/Disk-Modus
