@@ -78,6 +78,7 @@ ianm-translate:
       multi-lang-search-help: 'Wenn aktiviert, wird die Suche alle Inhaltsübersetzungen einbeziehen.'
       openai:
         api_key:
+          help: 'Registrieren Sie sich unter {link} für einen API-Schlüssel. Dieser Treiber unterstützt die Modelle GPT-4o und GPT-4o-mini.'
           label: '=> ianm-translate.lib.settings.api-key'
         de_variant:
           help: 'Wählen Sie beim Übersetzen ins Deutsche aus, welche Varietät verwendet werden soll.'
@@ -113,7 +114,11 @@ ianm-translate:
         translation_model:
           label: Übersetzungsmodell
           options:
+            gpt-3:
+              5-turbo: 'GPT-3.5 Turbo (Budget)'
+              5-turbo-0125: 'GPT-3.5 Turbo Neuestes (Budget+)'
             gpt-4o: 'GPT-4o (Premium)'
+            gpt-4o-mini: 'GPT-4o Mini (Ausgewogen)'
       provider: Übersetzungsanbieter
       providers:
         heading: 'Einstellungen des Übersetzungsanbieters'
@@ -131,6 +136,7 @@ ianm-translate:
       translate-all-enabled: 'Alle Übersetzungssprachen aktivieren'
       translate-polls: 'Umfragen übersetzen'
       translate-polls-help: 'Wenn aktiviert, werden Umfragetitel, Untertitel, Alternativtexte von Bildern und Antwortoptionen beim Erstellen oder Bearbeiten einer Umfrage automatisch übersetzt.'
+      use-native-locale-names: 'Spracheigennamen verwenden'
   forum:
     composer_edit:
       language: 'Übersetzten Inhalt in {language} aktualisieren'
@@ -144,16 +150,23 @@ ianm-translate:
         detected-language: '{postLang}'
     manage-translations:
       button-label: 'Übersetzungen verwalten'
+      discussion:
+        title: 'Übersetzungen von Diskussionstiteln verwalten'
       original-language: 'Originalsprache ({detectedLang})'
       poll-group:
         name: Gruppenname
       poll:
+        image-alt: 'Alternative Bildbeschreibung (sofern vorhanden)'
+        option: 'Option {number}'
         question: Frage
+        question-language: 'Frage einer Umfrage ({language})'
         subtitle: Untertitel
+        title: 'Umfrageübersetzungen verwalten'
       quiz:
         option: 'Antwort {number}'
         question: Frage
         subtitle: Untertitel
+        title: 'Quizübersetzungen verwalten'
       save-changes: '=> core.ref.save_changes'
       translations-label: Übersetzungen
     original-content:
