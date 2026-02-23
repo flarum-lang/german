@@ -27,6 +27,8 @@ ianm-translate:
     permission:
       edit-translation: 'Manuelles Bearbeiten einer Übersetzung'
       refresh-translation: 'Neuübersetzung einer zwischengespeicherten Übersetzung erzwingen'
+      translate-to-all-locales: 'Übersetzung in allen Forensprachen anzeigen'
+      translate-to-locale: 'Übersetzung in aktuellen Forensprache anzeigen'
     settings:
       bind-browser-language: 'Browsersprache hinzufügen'
       bind-browser-language-help: 'Wenn aktiviert, werden die Browsersprache(n) des Benutzers zur Liste der für die Übersetzung verfügbaren Sprachen hinzugefügt.'
@@ -52,6 +54,7 @@ ianm-translate:
           options:
             none: 'Kein Glossar'
           pair:
+            help: 'Wählen Sie ein Glossar bei der Übersetzung von {source} zu {target} aus, oder wählen Sie „Kein Glossar“, wenn für dieses Sprachpaar kein Glossar benötigt wird.'
             label: '{source} nach {target} Glossar'
         model_type:
           help: 'Wählen Sie aus, welches DeepL-Modell für die Übersetzung verwendet werden soll.'
@@ -64,6 +67,7 @@ ianm-translate:
         help: 'Diese Einstellungen legen das allgemeine Verhalten der Übersetzungsfunktion fest.'
       google-cloud:
         api_key:
+          help: 'Registrieren Sie sich unter {link} für einen API-Schlüssel. Dieser Treiber unterstützt die V2 API - Basic.'
           label: '=> ianm-translate.lib.settings.api-key'
       libre:
         port:
@@ -119,7 +123,10 @@ ianm-translate:
       seemless: 'Nahtlose Übersetzung'
       seemless-help: 'Beta-Funktion. Wenn aktiviert, werden alle Benutzerinhalte automatisch in alle anderen verfügbaren Forensprachen übersetzt. Wenn ein Benutzer mehrsprachige Inhalte anzeigt, werden Übersetzungen automatisch angezeigt.'
       seo:
+        default-lang: 'Standardsprache des Forums verwenden'
+        default-lang-help: 'Wenn aktiviert, wird die Standardsprache des Forums zum Pfad für das hreflang-Tag <code>x-default</code> hinzugefügt.'
         heading: SEO-Einstellungen
+        help: 'Diese Einstellungen legen das Verhalten der Übersetzungsfunktion in Bezug auf SEO fest.'
       short-content-length: 'Kurze Inhalte'
       translate-all-enabled: 'Alle Übersetzungssprachen aktivieren'
       translate-polls: 'Umfragen übersetzen'
