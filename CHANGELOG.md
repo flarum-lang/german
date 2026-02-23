@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.25.9 (XXXX-XX-XX)
+-------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`ianm/translate`](https://flarum.org/extension/ianm/translate)
+
+
+Alle Änderungen: [1.25.8...1.25.9](https://github.com/flarum-lang/german/compare/1.25.8...1.25.9).
+
+
 1.25.8 (2026-02-20)
 -------------------
 
