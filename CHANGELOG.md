@@ -5,9 +5,18 @@ CHANGELOG
 1.25.9 (XXXX-XX-XX)
 -------------------
 
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`clarkwinkelmann/flarum-ext-scratchpad`](https://github.com/clarkwinkelmann/flarum-ext-scratchpad)
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
+
+
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
 * [`ianm/translate`](https://flarum.org/extension/ianm/translate)
+* [`justoverclock/newsletter`](https://github.com/justoverclockl/newsletter)
 
 
 Alle Änderungen: [1.25.8...1.25.9](https://github.com/flarum-lang/german/compare/1.25.8...1.25.9).
