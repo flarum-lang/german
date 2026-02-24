@@ -37,12 +37,12 @@ fof-best-answer:
       remove_solutions_from_main_search: 'Lösungen aus der Hauptsuche entfernen'
       remove_solutions_from_main_search_help: 'Diskussionen mit den besten Antworten aus den Hauptsuchergebnissen von ‚Alle Diskussionen‘ entfernen'
       schedule_log_output: 'Scheduler-Output an den Log anhängen'
-      schedule_on_one_server: 'Verwende die Direktive ''onOneServer()'' für den Taskplaner'
+      schedule_on_one_server: 'Direktive ''onOneServer()'' für den Taskplaner verwenden'
       schedule_on_one_server_help: 'Erfordert Redis/Memcache'
       schedule_stop_overnight: 'Verhindern, dass Erinnerungsbenachrichtigungen während unsozialer Zeiten gesendet werden'
       schedule_stop_overnight_help: '21:00 - 08:00 Uhr Serverzeit'
       select_best_answer_reminder_days: Erinnerungshäufigkeit
-      select_best_answer_reminder_days_help: 'Sende nach der konfigurierbaren Anzahl von Tagen eine Erinnerung an das OP, um eine beste Antwort auszuwählen, 0 = Erinnerungen deaktivieren.'
+      select_best_answer_reminder_days_help: 'Sende nach der konfigurierbaren Anzahl von Tagen eine Erinnerung an den Diskussionsstarter, um eine beste Antwort auszuwählen, 0 = Erinnerungen deaktivieren.'
       select_best_answer_tags_help: 'Wähle aus, ob und welche Tags zu Diskussionen hinzugefügt werden sollen, wenn eine Beste Antwort festgelegt wird. Es sind nur sekundäre Tags erlaubt. Diese Tags werden entfernt, wenn die Beste Antwort entfernt wird.'
       select_best_answer_tags_label: 'Tags für Diskussionen mit Besten Antworten'
       show_filter_help: 'Wähle für Tags, bei denen die besten Antworten aktiviert sind, die Filteroption gelöst/ungelöst in der Diskussionsliste anzeigen'
@@ -52,7 +52,7 @@ fof-best-answer:
       solution_search: Lösungssuche
       solution_search_help: 'Aktivieren Sie die Möglichkeit, nach Diskussionen mit den besten Antworten zu suchen'
       tags_info: "Wenn ein Tag „Beste Antwort“ aktiviert ist, weisen Sie jeder Benutzergruppe, die Antworten festlegen darf (eigene Diskussion, beliebige Diskussion), Berechtigungen zu. Berechtigungen können global (für jeden Tag mit aktivierter „Beste Antwort“) oder pro Tag zugewiesen werden.\n"
-      use_alt_ui: 'Alternatives Layout'
+      use_alt_ui: 'Alternatives Layout verwenden'
       use_alt_ui_help: 'Beste Antwortsteuerelemente in der Fußzeile des Beitrags'
   email:
     body:

@@ -47,7 +47,7 @@ fof-follow-tags:
       follow_button: '=> fof-follow-tags.ref.follow'
       following_button: '=> fof-follow-tags.ref.following'
       following_text: 'Über alle neuen Diskussionen benachricht werden.'
-      header: 'Dein Abo von "{tagName}"'
+      header: 'Dein Abo von „{tagName}“'
       hiding_button: '=> fof-follow-tags.ref.hiding'
       hiding_text: 'Ausblenden von Diskussionen auf der Seite Alle Diskussionen.'
       ignoring_button: '=> fof-follow-tags.ref.ignoring'
@@ -59,7 +59,7 @@ fof-follow-tags:
       notify_alert_tooltip: 'Erhalte eine Forenbenachrichtigung, wenn neue Diskussionen oder Beiträge existieren'
       notify_email_tooltip: 'Erhalte eine E-Mail, wenn neue Diskussionen oder Beiträge existieren'
       submit_button: 'Abo bestätigen'
-      subscription_label: 'Wähle die Art aus, wie du "{tagName}" abonnierst'
+      subscription_label: 'Wähle die Art aus, wie du „{tagName}“ abonnierst'
     user:
       settings:
         filter_label: 'Was standardmäßig auf der "Du folgst"-Seite angezeigt werden soll'
