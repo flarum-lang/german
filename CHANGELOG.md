@@ -15,6 +15,10 @@ CHANGELOG
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
 * [`ianm/translate`](https://flarum.org/extension/ianm/translate)
 * [`justoverclock/newsletter`](https://github.com/justoverclockl/newsletter)
 
