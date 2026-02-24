@@ -8,6 +8,7 @@ fof-best-answer:
       qna_label: 'Die Option Beste Antworten aktivieren, um in diesem Tag festgelegt zu werden'
       reminders: 'Sende Erinnerungen, um eine beste Antwort für Diskussionen in diesem Tag festzulegen'
     permissions:
+      allow_select_own_post: 'Eigenen Beitrag als Beste Antwort auswählen'
       best_answer: 'Beste Antwort auswählen (eigene Diskussion)'
       best_answer_not_own_discussion: 'Beste Antwort auswählen (nicht eigene Diskussion)'
     settings:

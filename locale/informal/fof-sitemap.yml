@@ -8,6 +8,8 @@ fof-sitemap:
       advanced_options_label: 'Erweiterte Optionen'
       build_button: 'Sitemaps jetzt neu erstellen'
       build_button_help: 'Löst eine sofortige Neuerstellung aller Sitemaps-Dateien aus. Der Auftrag wird in die Warteschlange eingereiht, sofern diese konfiguriert ist, andernfalls wird er sofort ausgeführt.'
+      build_error: 'Neuerstellung der Sitemap konnte nicht in die Warteschlange eingereiht werden. Überprüfe die Logs und Konfiguration der Warteschlange.'
+      build_success: 'Neuerstellung der Sitemap wurde erfolgreich in die Warteschlange eingereiht. Du kannst den Fortschritt in den Logs verfolgen.'
       exclude_tags: 'Alle Themenseiten von Sitemap ausschließen'
       exclude_tags_help: 'Standardmäßig werden alle Themen, die für Gäste sichtbar ist, indiziert'
       exclude_users: 'Nutzerprofile von Sitemap ausschließen'
@@ -49,6 +51,6 @@ fof-sitemap:
             minimum_item_threshold_label: 'Thema: Mindestanzahl an Diskussionen'
         user:
           comments:
-            minimum_item_threshold_help: 'Die Mindestanzahl an Stellungsnahmen/Beiträgen, über die ein Nutzer verfügen muss, damit sein Profil in die Sitemap aufgenommen wird.'
-            minimum_item_threshold_label: 'Benutzer: Mindestanzahl an Kommentare/Posts'
+            minimum_item_threshold_help: 'Die Mindestanzahl an Kommentaren / Beiträgen, über die ein Nutzer verfügen muss, damit sein Profil in die Sitemap aufgenommen wird.'
+            minimum_item_threshold_label: 'Benutzer: Mindestanzahl an Kommentaren / Beiträgen'
       title: FoF-Sitemap

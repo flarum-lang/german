@@ -21,6 +21,10 @@ fof-doorman:
         invalid_column: '=> core.admin.users.grid.invalid_column_content'
         no_created_by: 'Unbekannter Benutzer'
         no_group: '=> core.admin.users.grid.columns.group_badges.no_badges'
+        uses:
+          total_uses: '{totalUses, plural, one {{totalUses} Mal verwendet} other {{totalUses} Mal verwendet}}'
+          used_times: '{remaining, plural, =0 {Unbegrenzte Verwendungen} one {{remainingUses} Verwendung verbleibend} other {{remainingUses} Verwendungen verbleibend}}'
+        warning: 'Dieser Einladungscode wurde bereits die maximal erlaubt Anzahl verwendet.'
       pagination:
         back_button: '=> core.admin.users.pagination.back_button'
         first_page_button: '=> core.admin.users.pagination.first_page_button'
@@ -118,6 +122,12 @@ fof-doorman:
           label: 'Max. Verwendungen'
     settings:
       create_doorkey_button: 'Einladungscode erstellen'
+      optional_usage: 'Einladungscode bei der Registrierung optional machen'
+      search: 'Schlüssel durchsuchen'
+      total_doorkeys: 'Schlüssel insgesamt: {count}'
+  email:
+    body: "Hallo,\n\nDu wurdest zum Beitreten eingeladen für {forum}.\n\nWenn du bereit bist, dein Konto zu erstellen, klicke einfach auf den folgenden Link und gib den Code bei der Registrierung ein:\n\nUrl: {url}\nEinladungscode: {code}\n\nSolltest du diese E-Mail irrtümlich erhalten haben, ignoriere sie bitte.\n"
+    subject: 'Einladen zum Beitreten'
   forum:
     email:
       body: "Hallo,\n\nDu wurdest für eine Registrierung in {forum} eingeladen.\n\nWenn du bereit bist, dir ein Konto zu erstellen, klicke einfach auf den folgenden Link und gib den Code bei der Registrierung ein:\n\nUrl: {url}\nEinladungscode: {code}\n\nIgnoriere diese E-Mail, sollte sie fälschlicherweise versandt worden sein.\n"

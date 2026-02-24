@@ -7,6 +7,8 @@ flarum-gdpr:
     data:
       masqueradeanswers:
         anonymize_description: '=> flarum-gdpr.lib.data.masqueradeanswers.delete_description'
+        delete_description: 'Entfernt alle Antworten auf Felder im Nutzerprofil'
+        export_description: 'Exportiert die Antworten auf Felder im Nutzerprofil'
 fof-masquerade:
   admin:
     buttons:
@@ -20,7 +22,7 @@ fof-masquerade:
       edit: 'Feld „{field}“ bearbeiten'
       force-user-to-completion: 'Ausfüllen des Profils verpflichtend machen'
       icon: Symbol
-      icon-help: "Zeigt ein Symbol vor den von den Nutzern eingegebenen Werten an. Eine Liste aller verfügbaren Symbole ist auf der <a>FontAwesome Webseite</a> zu finden. Verwende Symbol Namen mit dem \"fa-\" Prefix, zum Beispiel \"fas fa-info\".\n"
+      icon-help: "Zeigt ein Symbol vor den von den Nutzern eingegebenen Werten an. Eine Liste aller verfügbaren Symbole ist auf der <a>FontAwesome Webseite</a> zu finden. Verwende Symbolnamen mit dem „fa-“ Prefix, zum Beispiel „fas fa-info“.\n"
       name: 'Name des Feldes'
       name-help: "Die öffentlich sichtbare (nicht übersetzbare) Feldbezeichnung.\n"
       on_bio: 'Inhalt dieses Feldes in der Nutzerbio anzeigen'
