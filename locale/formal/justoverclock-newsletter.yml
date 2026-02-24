@@ -22,6 +22,8 @@ justoverclock-newsletter:
     emailSentSuccessMessage: 'E-Mails erfolgreich versendet!'
     emailTitle: 'Titel des Newsletters'
     lastNewsletterSent: 'Letzter Newsletter gesendet'
+    lastNewsletterSentDescription: 'Titel des zuletzt versendeten Newsletters'
+    lastNewsletterSentText: 'gesendet am: '
     newsLetterOptOutFooter: 'Du magst diese E-Mails nicht?'
     newsLetterOptOutFooterUnsubscribe: Abbestellen.
     newsletterCountText: 'Dein Newsletter wird an alle oben genannten Abonnenten gesendet.'
@@ -30,6 +32,7 @@ justoverclock-newsletter:
     sendingText: Senden...
     textOrHtml: 'Newsletter Body (Text oder html)'
     totalSubscribers: 'Abonnenten insgesamt'
+    totalSubscribersCount: 'Gesamtzahl der Abonnenten'
   forum:
     consent: 'Ich lese'
     emailNotFound: 'Abonnent nicht gefunden oder bereits gelöscht'

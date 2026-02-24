@@ -41,7 +41,7 @@ askvortsov-pwa:
         reset_vapid_success: 'VAPID-Schlüssel erfolgreich zurückgesetzt. {count} Abonnements wurden zurückgesetzt. Lade die Seite neu, um einen aktualisierten Statusprüfbericht anzuzeigen.'
         reset_vapid_text: 'Dadurch werden VAPID-Schlüssel neu generiert und alle vorhandenen Abonnements mit den aktuellen VAPID-Schlüsseln gelöscht.'
       other:
-        force_portrait_text: 'Porträt-Orientierung erzwingen'
+        force_portrait_text: 'Porträt-Orientierung erzwingen?'
         heading: Anderes
         push_notif_preference_default_to_email_label: 'Standard-Push-Präferenzen für E-Mail?'
         push_notif_preference_default_to_email_text: 'Bei true verfügen die Nutzer/innen über standardmäßig aktivierte Push-Benachrichtigungen für alle Benachrichtigungsarten, bei denen E-Mail-Benachrichtigungen standardmäßig aktiviert sind. Bei false verfügen die Nutzer/innen standardmäßig über deaktivierte Push-Benachrichtigungen.'
