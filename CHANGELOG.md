@@ -10,10 +10,13 @@ CHANGELOG
 * [`clarkwinkelmann/flarum-ext-scratchpad`](https://github.com/clarkwinkelmann/flarum-ext-scratchpad)
 * [`club-1/flarum-ext-content-permissions`](https://github.com/club-1/flarum-ext-content-permissions)
 * [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
+* [`datlechin/flarum-ai`](https://github.com/datlechin/flarum-ai)
+* [`datlechin/flarum-birthdays-widget`](https://github.com/datlechin/flarum-birthdays-widget)
 * [`datlechin/flarum-who-replied`](https://github.com/datlechin/flarum-who-replied)
 * [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
 * [`fof/categories`](https://github.com/FriendsOfFlarum/categories)
 * [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text)
+* [`foskym/flarum-better-user-directory`](https://github.com/FoskyM/flarum-better-user-directory)
 * [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
 
 
@@ -22,6 +25,8 @@ CHANGELOG
 * [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
 * [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
 * [`clarkwinkelmann/flarum-ext-popular-discussion-badge`](https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge)
+* [`clarkwinkelmann/flarum-ext-status`](https://github.com/clarkwinkelmann/flarum-ext-status)
+* [`flarum/approval`](https://github.com/flarum/approval)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
@@ -36,7 +41,9 @@ CHANGELOG
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
 * [`ianm/syndication`](https://github.com/imorland/syndication)
 * [`ianm/translate`](https://flarum.org/extension/ianm/translate)
+* [`justoverclock/last-users-posts`](https://github.com/justoverclockl/last-users-posts)
 * [`justoverclock/newsletter`](https://github.com/justoverclockl/newsletter)
+* [`v17development/flarum-support`](https://flarum.org/extension/v17development/flarum-support)
 * [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
 
 
