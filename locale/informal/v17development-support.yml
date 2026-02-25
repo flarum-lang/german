@@ -73,7 +73,7 @@ v17development-flarum-support:
         confirm_delete_rating: 'Möchtest du diese Bewertung wirklich löschen?'
         feedback: Feedback
         loading_ratings: 'Bewertungen laden'
-        no_ratings_found: 'Es wurden keine Bewertungen gefunden, die Ihren Suchkriterien entsprechen'
+        no_ratings_found: 'Es wurden keine Bewertungen gefunden, die deinen Suchkriterien entsprechen'
         rated_on: 'Bewertet am'
         rating: Bewertung
         title: Bewertungen

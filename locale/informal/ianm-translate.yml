@@ -122,7 +122,7 @@ ianm-translate:
       provider: Übersetzungsanbieter
       providers:
         heading: 'Einstellungen des Übersetzungsanbieters'
-        help: 'Wählen Sie hier Ihren bevorzugten Übersetzungsanbieter aus und konfigurieren Sie dessen Einstellungen.'
+        help: 'Wähle hier deinen bevorzugten Übersetzungsanbieter aus und konfiguriere dessen Einstellungen.'
       readme-info: 'Ausführlichere Informationen finden Sie in der LIESMICH-Dokumentation.'
       readme-none: 'Für diesen Treiber sind keine weiteren Einstellungen erforderlich.'
       seemless: 'Nahtlose Übersetzung'
