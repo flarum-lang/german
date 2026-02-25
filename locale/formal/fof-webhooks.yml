@@ -86,9 +86,12 @@ fof-webhooks:
         extra_text_label: 'Zusätzlicher Text'
         group_help: 'Ressourcen senden, die von dieser Gruppe gesehen werden können'
         group_label: Gruppe
+        include_matching_tags_label: 'Zutreffende Themen einschliessen — Für Webhooks, die auf bestimmte Themen beschränkt sind, wird angezeigt, welche Themen das Ereignis auslösen'
         max_post_content_length_help: 'Bestimme ein Zahl um die Länge von Beiträgen in allen Beitrags-bezogenen Ereignissen zu limitieren. Um das Limit zu entfernen, gebe 0 oder nichts ein.'
         max_post_content_length_label: 'Maximale Beitrags-Länge'
-        title: 'Webhook Einstellungen'
+        name_help: 'Der Name des Webhooks. Dieser wird für Dinge wie den Discord-Benutzernamen, Slack-Botnamen u.Ä. verwendet.'
+        name_label: Name
+        title: Webhook-Einstellungen
         use_plain_text_label: 'Reduziere die Menge an Formatierungen im Beitrag'
       services:
         discord: Discord

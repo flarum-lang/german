@@ -16,10 +16,10 @@ clarkwinkelmann-popular-discussion-badge:
       mode_help: "Der Frontend-Modus ist eine effiziente Lösung, die nicht auf die Datenbank zurückgreift. Der Scheduler-Modus erfordert eine CRON-Einrichtung und erlaubt Zeitspannen in den Bedingungen.\n"
       mode_options:
         frontend: Frontend
-        scheduler: 'Scheduler (CRON)'
+        scheduler: 'Zeitplaner (CRON)'
       or: ODER
-      scheduler_frequency: 'Frequenz des Scheduler-Modus'
-      scheduler_frequency_help: "Die Häufigkeit, mit der der Beliebtheitsstatus im Scheduler-Modus aktualisiert wird. (Im Frontend-Modus wird der Status immer sofort aktualisiert)\n"
+      scheduler_frequency: 'Frequenz des Zeitplaner-Modus'
+      scheduler_frequency_help: "Die Häufigkeit, mit der der Beliebtheitsstatus im Zeitplaner-Modus aktualisiert wird. (Im Frontend-Modus wird der Status immer sofort aktualisiert)\n"
       scheduler_frequency_options:
         everyFifteenMinutes: 'Alle 15 Minuten'
         everyFiveMinutes: 'Alle 5 Minuten'

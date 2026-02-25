@@ -5,14 +5,19 @@
 fof-horizon:
   admin:
     settings:
+      trim_completed: 'Abgeschlossene Aufträge trimmen'
       trim_completed_help: "Diese Tabelle wird verwendet, um abgeschlossene Aufträge im Horizon-Dashboard anzuzeigen.\n"
+      trim_failed: 'Fehlgeschlagene Aufträge trimmen'
       trim_failed_help: "Diese Tabelle wird verwendet, um fehlgeschlagene Aufträge im Horizon-Dashboard anzuzeigen.\n"
       trim_help: "Hier kannst du einstellen, wie lange (in Minuten) Horizon\ndie letzten und fehlgeschlagenen Aufträge aufbewahren soll. In der Regel werden die letzten Aufträge\neine Stunde lang aufbewahrt, während alle fehlgeschlagenen Aufträge eine ganze Woche lang gespeichert werden.\n"
-      trim_monitored_help: "Diese Tabelle wird verwendet, um überwachte Jobs im Horizon-Dashboard anzuzeigen.\n"
+      trim_monitored: 'Überwachte Aufträge trimmen'
+      trim_monitored_help: "Diese Tabelle wird verwendet, um überwachte Aufträge im Horizon-Dashboard anzuzeigen.\n"
+      trim_pending: 'Ausstehende Aufträge trimmen'
       trim_pending_help: "Diese Tabelle wird verwendet, um ausstehende Aufträge im Horizon-Dashboard anzuzeigen.\n"
-      trim_recent: 'Aktuelle Trim-Jobs'
+      trim_recent: 'Kürzliche Aufträge trimmen'
+      trim_recent_failed: 'Kürzlich fehlgeschlagene Aufträge trimmen'
       trim_recent_failed_help: "Diese Tabelle wird verwendet, um kürzlich fehlgeschlagene Aufträge im Horizon-Dashboard anzuzeigen.\n"
-      trim_recent_help: "Diese Tabelle wird verwendet, um aktuelle Jobs im Horizon-Dashboard anzuzeigen.\n"
+      trim_recent_help: "Diese Tabelle wird verwendet, um aktuelle Aufträge im Horizon-Dashboard anzuzeigen.\n"
       trim_title: Trim-Einstellungen
     stats:
       auto_refresh: 'Automatische Aktualisierung'
@@ -45,7 +50,7 @@ fof-horizon:
         fetch_failed: 'Horizon-Statistiken konnten nicht abgerufen werden. Bitte überprüfe deine Redis-Konfiguration.'
         setup_docs: 'Redis-Setup-Dokumentation aufrufen'
         title: Verbindungsfehler
-      full_dashboard: 'Horizon Dashboard'
+      full_dashboard: Horizon-Dashboard
       heading: Warteschlangenübersicht
       health:
         critical: Kritisch

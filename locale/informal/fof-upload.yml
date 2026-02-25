@@ -65,6 +65,7 @@ fof-upload:
           media-btn: 'Nur Upload-Schaltfläche'
           upload-btn: 'Nur Upload-Button'
         title: Composer-Schaltflächen
+      configured_by_environment: 'Deine Speichereinstellungen wurden durch Umgebungsvariablen vorkonfiguriert.'
       disable-download-logging:
         title: 'Protokollierung von Downloads deaktivieren'
         toggle: Deaktivieren
@@ -93,6 +94,11 @@ fof-upload:
         max_width: 'Maximale Bildbreite/-höhe'
         title: 'Bildgröße anpassen'
         toggle: 'Größe der Bilder ändern'
+      svg-sanitizer:
+        allow_animate: 'SVG-Animationen erlauben'
+        allow_animate_help: 'SVG-Animationen zu erlauben kann ernsthafte Sicherheitslücken öffnen, da animierte SVGs bösartigen Code enthalten können. Aktiviere diese Einstellung auf eigene Gefahr und nur, wenn du deinen Benutzern vertraust.'
+        help: 'Lege fest, wie SVG-Dateien beim Hochladen verarbeitet und bereinigt werden. SVG-Dateien können potenziell schädliche Skripte enthalten und sollten daher mit Vorsicht behandelt werden. Hochgeladene SVG-Dateien werden beim Hochladen bereinigt und schädliche Skripte und Tags werden entfernt.'
+        title: SVG-Reiniger
       watermark:
         file: 'Lade dein Wasserzeichen hoch'
         position: 'Wasserzeichen Position'
@@ -198,7 +204,7 @@ fof-upload:
         btn_a11y_label_hide: '„{fileName}“ aus dem Medienmanager ausblenden'
         btn_a11y_label_show: 'Zeige „{fileName}“ im Medienmanager'
         hide_confirmation: 'Bist du sicher, dass du „{fileName}“ ausblenden willst? Wenn du eine Datei ausblendest, wird sie nur aus deinem Medienmanager entfernt und hat keine Auswirkungen auf bestehende Beiträge.'
-        hide_fail: 'Datei „{fileName}“ konnte nicht ausgeblendet werden.'
+        hide_fail: 'Datei „{fileName}“ konnte nicht ausgeblendet werden'
         hide_success: 'Datei versteckt'
         loading: 'Datei ausblenden...'
         show_confirmation: 'Bist du sicher, dass du „{fileName}“ anzeigen möchtest? Wenn du eine Datei anzeigst, wird sie in deinem Medienmanager sichtbar.'

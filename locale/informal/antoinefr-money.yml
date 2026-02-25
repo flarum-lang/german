@@ -16,7 +16,9 @@ antoinefr-money:
       edit_money_label: 'Geld bearbeiten'
     settings:
       autoremove: 'Automatisches Aktualisieren von Geld'
+      cascaderemove: 'Geld entfernen, wenn eine Diskussion gelöscht wurde'
       helpextensionlikes: 'Erfordert die <code>flarum/likes</code> Erweiterung'
+      ignore_notifying_users: 'Beim Zählen der Wörter in Antworten nur den Inhaltsbereich auszählen'
       moneyfordiscussion: 'Geld gegeben für eine neue Diskussion'
       moneyforlike: 'Gegebenes Geld, wenn ein Beitrag geliked wird'
       moneyforpost: 'Geld gegeben für einen neuen Beitrag'

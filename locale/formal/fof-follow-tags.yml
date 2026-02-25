@@ -63,7 +63,7 @@ fof-follow-tags:
     user:
       settings:
         filter_label: 'Was standardmäßig auf der "Du folgst"-Seite angezeigt werden soll'
-        heading: 'Darstellung der "Du folgst"-Seite'
+        heading: 'Darstellung der „Du folgst“-Seite'
   ref:
     filtering_options:
       none: 'Gefolgte Diskussionen'

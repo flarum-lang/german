@@ -79,6 +79,7 @@ v17development-flarum-badges:
       earning_reason: 'Grund für Abzeichenerwerb'
       name: 'Abzeichen Name'
       no_earning_reason: 'Kein Grund angegeben'
+      others_link: '+ {count} weitere'
       received_on: 'Erhalten am {date}'
       update_earning_reason: 'Grund aktualisieren'
     badge_information: 'Abzeichen Information'
