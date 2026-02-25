@@ -28,7 +28,7 @@ fof-best-answer:
         advanced: Erweitert
         general: Allgemein
         reminders: Erinnerungen
-        reminders_notice: 'Damit Erinnerungen funktionieren, müssen Sie den Flarum-Planer richtig eingerichtet haben.'
+        reminders_notice: 'Damit Erinnerungen funktionieren, musst du den Flarum-Planer richtig eingerichtet haben.'
         search: Durchsuchen
         tags: 'Tags für beste Antworten'
       remind_tag_ids: 'Um Erinnerungen auf bestimmte Themen zu beschränken, gebe die ID''s der Themen hier ein (kommagetrennt)'

@@ -6,8 +6,8 @@ flarum-approval:
   admin:
     permissions:
       approve_posts_label: 'Beiträge genehmigen'
-      reply_without_approval_label: 'Auf eine Diskussion antworten ohne Genehmigung'
-      start_discussions_without_approval_label: 'Diskussion starten ohne Genehmigung'
+      reply_without_approval_label: 'Auf eine Diskussion ohne Genehmigung antworten'
+      start_discussions_without_approval_label: 'Diskussionen ohne Genehmigung starten'
   forum:
     badge:
       awaiting_approval_tooltip: '=> flarum-approval.ref.awaiting_approval'

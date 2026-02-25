@@ -46,31 +46,31 @@ v17development-flarum-support:
       article_hidden: 'Artikel wurde von {username} versteckt'
       article_modified: '{username} hat diesen Artikel bearbeitet.'
       article_public: 'Artikel wurde von {username} veröffentlicht'
-    ask_a_question_on_forums: 'Stellen Sie eine Frage im Forum'
-    ask_your_question_on_forum: 'Stellen Sie Ihre Frage im Forum'
+    ask_a_question_on_forums: 'Stelle eine Frage im Forum'
+    ask_your_question_on_forum: 'Stelle deine Frage im Forum'
     composer:
       article_saved: 'Artikel wurde gespeichert'
       compose_article: 'Artikel verfassen'
       compose_ticket: 'Ticket verfassen'
-      enter_message_here: 'Geben Sie hier Ihre Nachricht ein'
+      enter_message_here: 'Gib hier deine Nachricht ein'
       manage_tags: 'Tags verwalten'
       new_article_title: 'Neuer Artikeltitel'
       nothing_to_preview: 'Keine Vorschau möglich'
       publish_article: 'Artikel veröffentlichen'
       publish_article_hint: 'Artikel sofort veröffentlichen.'
       view: Anschauen
-      warning_save_changes: "UNG: Sie haben Ihre Änderungen nicht gespeichert. Möchten Sie Ihre Änderungen vor dem Verlassen speichern?\n\n[OK] = Ja [CANCEL] = Nein\n"
+      warning_save_changes: "ACHTUNG: Du bist dabei diese Seite zu verlassen und hast deine Änderungen nicht gespeichert. Möchtest du deine Änderungen vor dem Verlassen speichern?\n\n[OK] = Ja [CANCEL] = Nein\n"
       write: Schreiben
     create: Erstellen
     discard: Verwerfen
     hero:
-      check_forum: 'Sie können nicht finden, wonach Sie suchen? <a>Besuchen Sie unser Forum</a>'
+      check_forum: 'Du kannst nicht finden, wonach du suchst? <a>Besuche unser Forum</a>'
       help_question: 'Wie können wir Ihnen helfen?'
     knowledge_base: Wissensdatenbank
     modals:
       article_ratings:
         article_not_rated: 'Dieser Artikel wurde noch nicht bewertet.'
-        confirm_delete_rating: 'Möchten Sie diese Bewertung wirklich löschen?'
+        confirm_delete_rating: 'Möchtest du diese Bewertung wirklich löschen?'
         feedback: Feedback
         loading_ratings: 'Bewertungen laden'
         no_ratings_found: 'Es wurden keine Bewertungen gefunden, die Ihren Suchkriterien entsprechen'
@@ -111,41 +111,41 @@ v17development-flarum-support:
         recount_articles: 'Artikel nachzählen'
         rename_category: 'Kategorie umbenennen'
     reopen: 'Wieder öffnen'
-    return_to_home: 'Züruck zur Wissensdatenbank'
+    return_to_home: 'Zurück zur Wissensdatenbank'
     search:
       back_to_search_results: 'Zurück zu den Suchergebnissen'
       no_results: 'Wir konnten nichts für {searchterm} finden.'
-      search_knowledge_base: 'Durchsuchen Sie unsere Wissensdatenbank'
-      searched_for: 'Sie haben nach {searchterm} gesucht und es gab {results} Ergebnisse.'
+      search_knowledge_base: 'Durchsuche unsere Wissensdatenbank'
+      searched_for: 'Du hast nach {searchterm} gesucht und es gab {results} Ergebnisse.'
       searching: Suchen
       searching_for: 'Auf der Suche nach {searchterm}'
       title: Suchen
-      use_searchbox_below: 'Verwenden Sie das Suchfeld, um in unserer Wissensdatenbank zu suchen.'
+      use_searchbox_below: 'Verwende das Suchfeld, um in unserer Wissensdatenbank zu suchen.'
     send: Senden
     settings: '=> core.ref.settings'
     support_ratings:
-      enter_feedback: 'Geben Sie hier Ihr Feedback ein'
-      feedback: 'Vielen Dank für Ihre Bewertung. Haben Sie Feedback?'
-      feedback_not_helpful: 'Es tut uns leid, dass dieser Artikel Ihnen nicht geholfen hat. Was haben Sie gesucht?'
+      enter_feedback: 'Gib hier dein Feedback ein'
+      feedback: 'Vielen Dank für deine Bewertung. Hast du noch Feedback?'
+      feedback_not_helpful: 'Es tut uns leid, dass dieser Artikel dir nicht geholfen hat. Wonach hast du gesucht?'
       finished: 'Danke! Ihre Bewertung wurde gespeichert.'
       helful_article: 'War dieser Artikel hilfreich?'
-      helful_support: 'Sind Sie zufrieden damit, wie wir mit Ihrem Support-Ticket umgehen?'
+      helful_support: 'Bist du zufrieden damit, wie mit deinem Support-Ticket umgegangen wurde?'
       score: Punktzahl
       switch_sort_score:
         description: 'Nur Artikel zeigen, die Feedback erhalten haben, nach aufsteigender Punktzahl sortiert.'
         label: 'Zeige die Artikel nach aufsteigender Punktzahl sortiert'
       validation:
-        cannot_rate_article: 'Sie können diesen Artikel nicht bewerten.'
-        guest: 'Bitte melden Sie sich an, bevor Sie diesen Artikel bewerten.'
-        invalid_discussion: 'Oh nein! Etwas ist schief gelaufen. Sie können diesen Artikel/dieses Support-Ticket nicht bewerten.'
+        cannot_rate_article: 'Du kannst diesen Artikel nicht bewerten.'
+        guest: 'Bitte melde dich an, um diesen Artikel zu bewerten.'
+        invalid_discussion: 'Oh nein! Etwas ist schief gelaufen. Du kannst diesen Artikel/dieses Support-Ticket nicht bewerten.'
         invalid_points: 'Ungültige Bewertung. Bitte versuche es erneut.'
         missing_article_id: 'Fehlende oder ungültige Artikel-ID'
         neutral_emoji_disabled: 'Das neutrale Emoji wurde deaktiviert.'
-    support_tickets: 'Support Tickets'
+    support_tickets: Support-Tickets
     tickets:
       compose_ticket:
-        not_allowed: 'Sie können jetzt kein neues Support-Ticket öffnen'
-        private_support: 'Für den privaten Support können Sie dieses Formular verwenden, um ein neues Ticket in unserer Support-Plattform zu erstellen. Informationen zu nicht privaten Supportfragen finden Sie in <a>unseren öffentlichen Foren </a>.'
+        not_allowed: 'Du kannst jetzt kein neues Support-Ticket öffnen'
+        private_support: 'Für den privaten Support kannst du dieses Formular verwenden, um ein neues Ticket in unserer Support-Plattform zu erstellen. Informationen zu nicht privaten Supportfragen findest du in <a>unseren öffentlichen Foren </a>.'
         title: 'Erstelle ein neues Ticket'
       convert_to_discussion:
         button: 'Zur Diskussion konvertieren'
@@ -160,7 +160,7 @@ v17development-flarum-support:
           placeholder: 'Der Status des Tickets'
           title: Beauftragten
         information:
-          placeholder: 'Sagen Sie uns, wie wir Ihnen helfen können'
+          placeholder: 'Sag uns, wie wir dir helfen können'
           title: Ticketinformation
         language:
           description: 'Ihr Support-Ticket wird in {language} behandelt.'
@@ -177,14 +177,14 @@ v17development-flarum-support:
           placeholder: 'Der Status des Tickets'
           title: Status
         subject:
-          description: 'Versuchen Sie, Ihre Frage in einem kurzen Satz zu beschreiben.'
+          description: 'Versuche, deine Frage in einem kurzen Satz zu beschreiben.'
           placeholder: 'Ticket Betreff'
           title: Betreff
       load_more:
-        title: 'Laden Sie weitere Tickets'
+        title: 'Weitere Tickets laden'
       my_tickets:
-        description: 'Auf dieser Seite finden Sie alle Ihre privaten Tickets.'
-        no_tickets: 'Sie haben noch keine Tickets.'
+        description: 'Auf dieser Seite findest du alle deine privaten Tickets.'
+        no_tickets: 'Du hast noch keine Tickets.'
         title: 'Meine Tickets'
       new_tickets_dropdown:
         no_tickets: 'Keine Ticketbenachrichtigungen'
@@ -223,7 +223,7 @@ v17development-flarum-support:
           close_after_posting: 'Ticket nach dem Posten schließen'
           description: 'Dieses Ticket wurde geschlossen.'
           is_auto_closed: 'Dieses Ticket wurde wegen Inaktivität geschlossen.'
-          is_closed: 'Dieses Ticket ist geschlossen, wenn Sie antworten, wird es wieder geöffnet. Wir empfehlen, ein Ticket nur dann erneut zu öffnen, wenn das Problem nicht behoben wurde. Wenn es sich um ein neues Problem handelt, öffnen Sie bitte ein neues Ticket.'
+          is_closed: 'Dieses Ticket ist geschlossen. Wenn du antwortest, wird es wieder geöffnet. Wir empfehlen, ein Ticket nur dann erneut zu öffnen, wenn das Problem nicht behoben wurde. Wenn es sich um ein neues Problem handelt, öffne bitte ein neues Ticket.'
           title: Geschlossen
         duplicate:
           description: 'description: Dieses Ticket ist als Duplikat gekennzeichnet.'
@@ -239,11 +239,11 @@ v17development-flarum-support:
           title: Offen
         pending:
           description: 'Dieses Ticket wartet auf die Antwort des Benutzers.'
-          description_user: 'Wir warten darauf, dass Sie antworten oder dieses Ticket als gelöst markieren.'
+          description_user: 'Wir warten darauf, dass du antwortest oder dieses Ticket als gelöst markierst.'
           title: 'Steht aus'
         solved:
           description: 'Dieses Ticket ist als gelöst markiert'
-          mark_as_solved: 'Markieren Sie dieses Ticket als gelöst'
+          mark_as_solved: 'Dieses Ticket als gelöst markieren'
           title: Gelöst
       subject: Betreff
       ticket: Ticket
@@ -251,7 +251,7 @@ v17development-flarum-support:
       ticket_does_not_exist: 'Das angeforderte Support Ticket existiert nicht.'
       ticket_overview: Ticketübersicht
       tools:
-        assign_me: 'Weisen Sie mir zu'
+        assign_me: 'Mir zuweisen'
         close_ticket: 'Ticket schließen'
         remove_me: 'Entferne mich'
         update_note: 'Private Notiz aktualisieren'
@@ -260,5 +260,5 @@ v17development-flarum-support:
         view_ticket: 'Ticket anzeigen'
     utils:
       redirect:
-        link: '<a>Klicken Sie hier</a>, wenn die Seite Sie nicht weiterleitet'
-        title: 'Wir leiten Sie weiter...'
+        link: '<a>Klicke hier</a>, wenn die Seite dich nicht weiterleitet'
+        title: 'Wir leiten dich zu unserem Artikel weiter…'

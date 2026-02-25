@@ -6,7 +6,7 @@ justoverclock-last-users-posts:
   admin:
     charlength: 'Zeichenlänge (Standard ist 80, wenn leer)'
     charlength-help: 'schreibe hier die maximale Länge des Beitrags (Zeichen)'
-    limit: 'Beitragslimit (Standard ist 10, wenn Sie es leer lassen)'
+    limit: 'Beitragslimit (Standard ist 10, wenn du es leer lässt)'
     limit-help: 'schreibe hier die Anzahl der Beiträge die du angezeigt bekommen möchtest'
   forum:
     widget-title: 'Letzte Beiträge'

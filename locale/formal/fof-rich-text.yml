@@ -6,6 +6,11 @@ fof-rich-text:
   admin:
     settings:
       toggle_on_editor: 'Umschalter für Rich-Text-Modus im Editor anzeigen?'
+  forum:
+    settings:
+      composer_heading: Beitrags-Editor
+      rich_text_compact_paragraphs_label: 'Absätze nicht durch eine neue Zeile trennen.'
+      use_rich_text_editor_label: 'Rich-Text-Editor verwenden?'
   lib:
     composer:
       additional_items_tooltip: 'Zusätzliche Bedienelemente'

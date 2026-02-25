@@ -13,7 +13,7 @@ clarkwinkelmann-status:
       only-countries: 'Nur Länderflaggen'
   forum:
     menu:
-      set-status: 'Setzen Sie einen Status'
+      set-status: 'Setze einen Status'
     modal:
       clear: Leeren
       submit: Absenden
