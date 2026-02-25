@@ -4,6 +4,7 @@
 
 datlechin-who-replied:
   admin:
+    limit_help: 'Die Anzahl der Beiträge, neben denen der Knopf zur Anzeige der Antwortenden angezeigt wird (Standard ist 5).'
     limit_label: 'Anzahl der Beiträge beschränken'
   forum:
     button_label: 'Anzeigen, wer geantwortet hat'
