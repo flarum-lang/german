@@ -41,6 +41,7 @@ CHANGELOG
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
 * [`ianm/syndication`](https://github.com/imorland/syndication)
 * [`ianm/translate`](https://flarum.org/extension/ianm/translate)
+* [`justoverclock/custom-header`](https://github.com/justoverclockl/custom-header)
 * [`justoverclock/last-users-posts`](https://github.com/justoverclockl/last-users-posts)
 * [`justoverclock/newsletter`](https://github.com/justoverclockl/newsletter)
 * [`v17development/flarum-support`](https://flarum.org/extension/v17development/flarum-support)
