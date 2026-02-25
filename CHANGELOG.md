@@ -10,7 +10,9 @@ CHANGELOG
 * [`clarkwinkelmann/flarum-ext-scratchpad`](https://github.com/clarkwinkelmann/flarum-ext-scratchpad)
 * [`club-1/flarum-ext-content-permissions`](https://github.com/club-1/flarum-ext-content-permissions)
 * [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
+* [`datlechin/flarum-who-replied`](https://github.com/datlechin/flarum-who-replied)
 * [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
+* [`fof/categories`](https://github.com/FriendsOfFlarum/categories)
 * [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
 
 
