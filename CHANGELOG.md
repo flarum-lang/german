@@ -13,6 +13,7 @@ CHANGELOG
 * [`datlechin/flarum-who-replied`](https://github.com/datlechin/flarum-who-replied)
 * [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
 * [`fof/categories`](https://github.com/FriendsOfFlarum/categories)
+* [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text)
 * [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
 
 
