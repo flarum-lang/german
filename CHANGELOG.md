@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.25.10 (XXXX-XX-XX)
+--------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`kilowhat/flarum-ext-formulaire`](https://flarum.org/extension/kilowhat/flarum-ext-formulaire)
+
+
+Alle Änderungen: [1.25.9...1.25.10](https://github.com/flarum-lang/german/compare/1.25.9...1.25.10).
+
+
 1.25.9 (2026-02-26)
 -------------------
 
