@@ -2,6 +2,29 @@ CHANGELOG
 =========
 
 
+1.25.10 (XXXX-XX-XX)
+--------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff)
+* [`imdong/flarum-ext-visible-to-op-only`](https://github.com/imdong/flarum-ext-visible-to-op-only)
+* [`kyrne/evergreen`](https://github.com/KyrneDev/Evergreen)
+* [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor)
+* [`xelson/flarum-ext-chat`](https://github.com/Xelson/flarum-ext-chat)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
+* [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
+* [`kilowhat/flarum-ext-formulaire`](https://flarum.org/extension/kilowhat/flarum-ext-formulaire)
+
+
+Alle Änderungen: [1.25.9...1.25.10](https://github.com/flarum-lang/german/compare/1.25.9...1.25.10).
+
+
 1.25.9 (2026-02-26)
 -------------------
 
