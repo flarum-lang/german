@@ -5,8 +5,16 @@ CHANGELOG
 1.25.10 (XXXX-XX-XX)
 --------------------
 
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor)
+* [`xelson/flarum-ext-chat`](https://github.com/Xelson/flarum-ext-chat)
+
+
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
 * [`kilowhat/flarum-ext-formulaire`](https://flarum.org/extension/kilowhat/flarum-ext-formulaire)
 
 
