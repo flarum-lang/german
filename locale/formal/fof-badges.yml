@@ -131,6 +131,7 @@ fof-badges:
     trigger_builder:
       date_end: Enddatum
       date_start: Startdatum
+      loading_tags: 'Themen werden geladen...'
     uncategorized: Unkategorisiert
   forum:
     notification:
