@@ -52,6 +52,7 @@ gtdxyz-flarum-badges:
     edit_category: 'Kategorie bearbeiten'
     new_badge: 'Neues Abzeichen'
     nothing_here_yet: 'Du hast noch keine Kategorien oder Abzeichen erstellt.'
+    number_of_badges_on_user_card: 'Anzahl der Abzeichen'
     permissions:
       badge_detail_users: 'Kann Benutzer auf der Badge-Detailseite sehen'
       give_badge: 'Abzeichen für Benutzer hinzufügen'
