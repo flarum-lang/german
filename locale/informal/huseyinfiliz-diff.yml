@@ -3,5 +3,38 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 huseyinfiliz-diff:
+  admin:
+    settings:
+      title: Diff-Einstellungen
   forum:
+    createdInfo: '{username} hat {ago} erstellt'
+    deleteButton: '=> core.forum.post_controls.delete_button'
+    deleteSuccessMessage: 'Die Inhalte der Bearbeitung wurden gelöscht.'
+    deletedInfo: '{username} hat diesen Inhalt {ago} gelöscht'
+    deletedText: (gelöscht)
+    differences:
+      currentContent: '=> huseyinfiliz-diff.ref.currentContent'
+      originalContent: '=> huseyinfiliz-diff.ref.originalContent'
+      revisionWithNumber: '=> huseyinfiliz-diff.ref.revisionWithNumber'
+      sentence: 'Du siehst die Änderungen zwischen {old} und {new}'
+    editedInfo: '=> core.forum.post.edited_tooltip'
     editedText: '=> core.forum.post.edited_text'
+    emptyText: 'Keine Überarbeitungen'
+    optionsButton: Optionen
+    previewMode:
+      currentContent: '=> huseyinfiliz-diff.ref.currentContent'
+      originalContent: '=> huseyinfiliz-diff.ref.originalContent'
+      revisionWithNumber: '=> huseyinfiliz-diff.ref.revisionWithNumber'
+      sentence: 'Du siehst die Vorschau für {content}'
+    revertChangesButton: 'Änderungen rückgängig machen'
+    revisions: '{revisionCount, plural, one {{revisionCount} Überarbeitung} other {{revisionCount} Überarbeitungen}}'
+    rollbackButton: 'Auf Überarbeitung {number} zurücksetzen'
+    rollbackSuccessMessage: 'Deine Änderungen wurden rückgängig gemacht.'
+    rollbackToOriginalButton: 'Auf Original zurücksetzen'
+    tooltips:
+      combined: Kombiniert
+      inline: Zeilenweise
+      originalContent: '=> huseyinfiliz-diff.ref.originalContent'
+      preview: '=> core.forum.composer.preview_tooltip'
+      revisionWithNumber: '=> huseyinfiliz-diff.ref.revisionWithNumber'
+      sideBySide: Nebeneinander
