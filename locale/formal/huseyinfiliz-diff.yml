@@ -4,11 +4,30 @@
 
 huseyinfiliz-diff:
   admin:
+    permissions:
+      deleteEditHistory: 'Bearbeitungsverlauf von anderen löschen'
+      selfDeleteEditHistory: 'Eigenen Bearbeitungsverlauf löschen'
+      viewEditHistory: 'Bearbeitungsverlauf ansehen'
     settings:
+      archiveOlds: 'Alte Überarbeitungen archivieren'
+      charLevel: Zeichen-Ebene
+      dbOptimisation: Datenbank-Optimierung
+      detailLevel: Detailgrad
+      lineLevel: Zeilen-Ebene
+      mainPostOnly: 'Nur Überarbeitungen des Hauptbeitrags speichern'
+      neighborLines: Nachbarzeilen
+      neighborLinesHelp: 'Gib die Anzahl der Nachbarzeilen an, die angezeigt werden sollen.'
+      noneLevel: Ohne-Ebene
+      onlyUnsigned: 'Es sind nur <strong>unvorzeichenbehaftete Ganzzahlen</strong> zulässig!'
+      separateBlock: 'Trennzeichen zwischen verschiedenen Diff-Hunks in HTML-Renderern anzeigen'
+      textFormatting: 'Textformatierung für die Vorschau aktivieren'
       title: Diff-Einstellungen
+      usePoint: 'Verwenden Sie <strong>Punkt</strong> als Dezimaltrennzeichen für Fließkommawerte.'
+      wordLevel: Wort-Ebene
   forum:
     createdInfo: '{username} hat {ago} erstellt'
     deleteButton: '=> core.forum.post_controls.delete_button'
+    deleteErrorMessage: 'Löschen der Inhalte der Bearbeitung fehlgeschlagen.'
     deleteSuccessMessage: 'Die Inhalte der Bearbeitung wurden gelöscht.'
     deletedInfo: '{username} hat diesen Inhalt {ago} gelöscht'
     deletedText: (gelöscht)
@@ -20,6 +39,7 @@ huseyinfiliz-diff:
     editedInfo: '=> core.forum.post.edited_tooltip'
     editedText: '=> core.forum.post.edited_text'
     emptyText: 'Keine Überarbeitungen'
+    noDiff: 'Keine Unterschiede zwischen beiden Inhalten gefunden.'
     optionsButton: Optionen
     previewMode:
       currentContent: '=> huseyinfiliz-diff.ref.currentContent'
@@ -27,14 +47,19 @@ huseyinfiliz-diff:
       revisionWithNumber: '=> huseyinfiliz-diff.ref.revisionWithNumber'
       sentence: 'Du siehst die Vorschau für {content}'
     revertChangesButton: 'Änderungen rückgängig machen'
+    revisionInfo: '{revisionCount, plural, one {{revisionCount} Mal} other {{revisionCount} Mal}} bearbeitet, Neueste oben'
     revisions: '{revisionCount, plural, one {{revisionCount} Überarbeitung} other {{revisionCount} Überarbeitungen}}'
     rollbackButton: 'Auf Überarbeitung {number} zurücksetzen'
+    rollbackErrorMessage: 'Rückgängig machen der Änderungen fehlgeschlagen.'
     rollbackSuccessMessage: 'Deine Änderungen wurden rückgängig gemacht.'
     rollbackToOriginalButton: 'Auf Original zurücksetzen'
     tooltips:
       combined: Kombiniert
       inline: Zeilenweise
+      mostRecent: Aktuellste
       originalContent: '=> huseyinfiliz-diff.ref.originalContent'
       preview: '=> core.forum.composer.preview_tooltip'
       revisionWithNumber: '=> huseyinfiliz-diff.ref.revisionWithNumber'
       sideBySide: Nebeneinander
+  ref:
+    revisionWithNumber: 'Überarbeitung {number}'
