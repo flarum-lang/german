@@ -8,6 +8,7 @@ CHANGELOG
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
 * [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff)
+* [`imdong/flarum-ext-visible-to-op-only`](https://github.com/imdong/flarum-ext-visible-to-op-only)
 * [`kyrne/evergreen`](https://github.com/KyrneDev/Evergreen)
 * [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor)
 * [`xelson/flarum-ext-chat`](https://github.com/Xelson/flarum-ext-chat)
