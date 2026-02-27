@@ -4,40 +4,147 @@
 
 fof-badges:
   admin:
+    active: Aktiv
+    appearance: Erscheinungsbild
+    assign: Zuweisen
+    automatic: Automatisch
+    background_color: Hintegrundfarbe
+    badge_category: Kategorie
+    badge_count: '{count, plural, one {# Abzeichen} other {# Abzeichen}}'
+    badge_description: Beschreibung
+    badge_name: Name
     create_badge: 'Abzeichen erstellen'
     create_category: 'Kategorie erstellen'
+    delete: Löschen
+    disabled: Deaktiviert
+    earned_count: '{count} verdient'
+    edit: Bearbeiten
+    edit_badge: 'Abzeichen bearbeiten'
+    enabled: Aktiviert
+    headers:
+      badges: Abzeichen
+      description: Beschreibung
+      earned: Verdient
+      icon: Symbol
+      name: Name
+      order: Reihenfolge
+      rarity: Seltenheit
+      status: Status
+      type: Art
+    icon_color: Symbolfarbe
+    inactive: 'Nicht aktiv'
+    is_active: Aktiv
+    manual: Manuell
+    move_down: 'Nach unten'
+    move_up: 'Nach oben'
+    no_badges: 'Noch keine Abzeichen. Erstelle dein erstes Abzeichen!'
+    no_categories: 'Noch keine Kategorien. Erstelle deine erste Kategorie!'
+    no_category: 'Keine Kategorie'
     permissions:
       give_manually: 'Abzeichen manuell zuweisen'
       moderate: 'Abzeichen verwalten'
       view_list: 'Abzeichenliste anzeigen'
       view_user_badges: 'Nutzerabzeichen anzeigen'
+    preview: Vorschau
+    rarity: '{percent}% Seltenheit'
     recalculate: 'Neu berechnen'
+    recalculate_confirm: 'Hiermit werden alle automatischen Abzeichen für alle Benutzer neu berechnet. Dieser Vorgang läuft im Hintergrund ab. Fortsetzen?'
     recalculate_error: 'Neuberechnung der Abzeichen fehlgeschlagen. Bitte erneut starten.'
+    recalculate_success: 'Neuberechnung abgeschlossen! Verliehen: {awarded}, Widerrufen: {revoked}, Verarbeitete Benutzer : {users}'
     recalculate_tab:
+      all_badges: 'Alle automatischen Abzeichen'
+      badge_help: 'Wähle ein bestimmtes Abzeichen aus oder führe die Neuberechnung für alle automatischen Abzeichen aus.'
+      badge_label: 'Abzeichen zur Neuberechnung'
+      badges_to_check: 'Zu überprüfende Abzeichen'
+      chunk_size_help: 'Anzahl der Benutzer, die pro Job verarbeitet werden. Kleinere Blöcke sind verlässlicher, benötigen aber länger.'
+      chunk_size_label: Blockgröße
       default: Standard
+      estimated_chunks: 'Geschätzte Blöcke'
+      info: 'Die Neuberechnung verarbeitet Benutzer in Blöcken, um Zeitüberschreitungen in der Warteschlange zu vermeiden. Jeder Block wird als separater Hintergrundjob ausgeführt.'
+      jobs_empty: 'Noch keine Jobs zur Neuberechnung.'
+      jobs_title: Jobverlauf
+      no_automatic_badges: 'Keine automatischen Abzeichen eingerichtet. Erstelle zunächst ein Abzeichen mit Auslösebedingungen.'
+      no_revoke_help: 'Wenn aktiviert, behalten Benutzer, die die Kriterien nicht mehr erfüllen, ihre Abzeichen.'
+      no_revoke_label: 'Verliehene Abzeichen nicht widerrufen'
+      show_more: '{count} weitere anzeigen'
+      start: 'Neuberechnung starten'
+      sync_counts: 'Abzeichenanzahl synchronisieren'
+      sync_counts_title: 'Abzeichenanzahl synchronisieren'
       title: 'Neuberechnung starten'
+      total_users: 'Benutzer insgesamt'
     recalculation:
       already_running: 'Neuberechnung der Abzeichen läuft bereits.'
       auto_refresh_off: 'Automatisch aktualisieren'
+      auto_refresh_on: 'Automatische Aktualisierung aktiviert'
       cancel: Abbrechen
+      cancel_confirm: 'Willst du die Neuberechnung wirklich abbrechen? Alle Fortschritte gehen dabei verloren.'
       cancel_error: 'Neuberechnung konnte nicht abgebrochen werden.'
       cancelled: 'Neuberechnung abgebrochen'
+      chunks: 'Blöcke: {processed} / {total}'
       completed: 'Neuberechnung abgeschlossen!'
+      dismiss: Verwerfen
       failed: 'Neuberechnung fehlgeschlagen'
       pending: 'Neuberechnung wird vorbereitet...'
+      progress: '{processed} / {total} Auswertungen ({percentage}%)'
       running: 'Abzeichen werden neu berechnet...'
+      started: 'Neuberechnung wurde begonnen. Diese wird im Hintergrund ausgeführt.'
+      stats: 'Verliehen: {awarded} | Widerrufen: {revoked}'
+    recalculation_jobs:
+      button: Jobs
+      cancel: Abbrechen
+      empty: 'Keine Jobs zur Neuberechnung gefunden.'
+      force_cancel: 'Abbrechen erzwingen'
+      marked_failed: 'Job wurde als fehlgeschlagen markiert.'
+      results: 'Verliehen: {awarded} | Widerrufen: {revoked}'
+      status:
+        cancelled: Abgebrochen
+        completed: Abgeschlossen
+        failed: Fehlgeschlagen
+        pending: Ausstehend
+        running: 'Wird ausgeführt'
+      title: Neuberechnungs-Jobs
+      users: '{processed} / {total} Auswertungen'
     settings:
       display_title: Anzeigeeinstellungen
+      integrations_help: 'Badge-Metriken, die von anderen Erweiterungen abhängig sind. Installiere die Erweiterung, um die entsprechenden Metriken freizuschalten.'
       integrations_title: Erweiterungsintegrationen
       new_badge_highlight: '„NEU“-Markierung auf kürzlich freigeschalteten Abzeichen anzeigen'
+      new_badge_highlight_help: '„NEU“-Markierung neben Abzeichen anzeigen, die innerhalb der letzten 7 Tage erworben wurden.'
+      post_badge_display_limit: 'Anzeige-Limit für Abzeichen in Beiträgen'
+      post_badge_display_limit_help: 'Maximalzahl der Abzeichen, die unterhalb von Beiträgen angezeigt werden. Auf 0 setzen zum Deaktivieren.'
+      primary_badge_display: 'Darstellung der Hauptabzeichen'
+      primary_badge_display_help: 'Wie die Hauptabzeichen des Benutzers neben deren Namen angezeigt werden.'
       primary_badge_hidden: Verborgen
       primary_badge_icon: 'Nur Symbol'
       primary_badge_icon_name: 'Symbol und Name'
       save: 'Einstellungen speichern'
       save_error: 'Einstellungen konnten nicht gespeichert werden.'
       saved: 'Einstellungen erfolgreich gespeichert.'
+      show_badges_on_user_card: 'Abzeichen auf der Benutzerkarte anzeigen'
+      show_badges_on_user_card_help: 'Zeigt die beliebtesten oder seltensten Abzeichen des Benutzers auf deren Benutzerkarte und der Profilseite an.'
+    status: Status
     tabs:
       badges: Abzeichen
       categories: Kategorien
       recalculation: Neuberechnung
       settings: Einstellungen
+    trigger_builder:
+      date_end: Enddatum
+      date_start: Startdatum
+    uncategorized: Unkategorisiert
+  forum:
+    notification:
+      a_badge: 'ein Abzeichen'
+      badge_earned: 'Du hast {badge} erworben'
+    user:
+      recalculate_modal:
+        all_badges: 'Alle automatischen Abzeichen'
+        manual: manuell
+        submit: 'Neu berechnen'
+  lib:
+    rarity_common: Häufig
+    rarity_epic: Episch
+    rarity_explain: '{percent}% aller Benutzer haben dieses Abzeichen'
+    rarity_legendary: Legendär
+    rarity_rare: Rar
+    rarity_uncommon: Selten

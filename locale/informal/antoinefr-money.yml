@@ -24,7 +24,7 @@ antoinefr-money:
       moneyforpost: 'Geld gegeben für einen neuen Beitrag'
       moneyname: 'Name des Geldes (zB: [money] Punkte)'
       noshowzero: 'Nicht zeigen, wenn der Betrag Null ist'
-      postminimumlength: 'Mindestlänge des Beitrags, um das Geld zu erhalten (0 zum deaktivieren)'
+      postminimumlength: 'Mindestlänge des Beitrags, um das Geld zu erhalten (0 zum Deaktivieren)'
       title: Einstellungen
   forum:
     modal:
