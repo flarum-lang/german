@@ -40,7 +40,32 @@ kilowhat-formulaire:
         native: 'Native Browser-Schaltflächen'
         switch: Flarum-Schalter
       title: 'Globale Formulareinstellungen'
+      translateManually: 'Manuelle Formularübersetzung aktivieren'
+  api:
+    cannot-change-form-type: 'Du kannst den Formulartyp nicht mehr ändern, wenn bereits Einreichungen vorhanden sind'
+    export:
+      meta:
+        created_at: '=> kilowhat-formulaire.ref.submission-meta.created_at'
+        hidden_at: '=> kilowhat-formulaire.ref.submission-meta.hidden_at'
+        link_id: '=> kilowhat-formulaire.ref.submission-meta.link_id'
+        locked_at: '=> kilowhat-formulaire.ref.submission-meta.locked_at'
+        uid: '=> kilowhat-formulaire.ref.submission-meta.uid'
+        updated_at: '=> kilowhat-formulaire.ref.submission-meta.updated_at'
+        user_activated: '=> kilowhat-formulaire.ref.submission-meta.user_activated'
+        user_displayname: '=> kilowhat-formulaire.ref.submission-meta.user_displayname'
+        user_email: '=> kilowhat-formulaire.ref.submission-meta.user_email'
+        user_groups: '=> kilowhat-formulaire.ref.submission-meta.user_groups'
+        user_id: '=> kilowhat-formulaire.ref.submission-meta.user_id'
+        user_joined_at: '=> kilowhat-formulaire.ref.submission-meta.user_joined_at'
+        user_username: '=> kilowhat-formulaire.ref.submission-meta.user_username'
   forum:
+    auto-discussion-options-modal:
+      field:
+        title: Diskussionstitel
+    confirmation-email-options-modal:
+      field:
+        title: Titel
+      title: E-Mail-Vorlage
     discussion-composer:
       field:
         content: Nachricht
@@ -50,12 +75,41 @@ kilowhat-formulaire:
     discussion-submission:
       edit: Bearbeiten
       empty: 'Noch keine Daten'
+    error-page:
+      denied-title: 'Keine Genehmigung'
+      notfound-title: 'Nicht gefunden'
     export:
+      fields: Felder
+      format: Format
+      format-options:
+        csv: CSV
+        json: JSON
+        ods: ODS
+        xls: XLS
+        xlsx: XLSX
+      heading-options:
+        title: Feldtitel
       meta: Metadaten
+      meta-options:
+        created_at: '=> kilowhat-formulaire.ref.submission-meta.created_at'
+        hidden_at: '=> kilowhat-formulaire.ref.submission-meta.hidden_at'
+        link_id: '=> kilowhat-formulaire.ref.submission-meta.link_id'
+        locked_at: '=> kilowhat-formulaire.ref.submission-meta.locked_at'
+        uid: '=> kilowhat-formulaire.ref.submission-meta.uid'
+        updated_at: '=> kilowhat-formulaire.ref.submission-meta.updated_at'
+        user_activated: '=> kilowhat-formulaire.ref.submission-meta.user_activated'
+        user_displayname: '=> kilowhat-formulaire.ref.submission-meta.user_displayname'
+        user_groups: '=> kilowhat-formulaire.ref.submission-meta.user_groups'
+        user_id: '=> kilowhat-formulaire.ref.submission-meta.user_id'
+        user_joined_at: '=> kilowhat-formulaire.ref.submission-meta.user_joined_at'
+        user_username: '=> kilowhat-formulaire.ref.submission-meta.user_username'
+      preview: Vorschau
       preview-primitives:
         boolean-false: Falsch
         boolean-true: Wahr
+        excel-date: '(EXCEL DATUM)'
       submit: Herunterladen
+      title: 'Einreichungen exportieren'
     form-create:
       button:
         create: 'Formular erstellen'
@@ -80,19 +134,36 @@ kilowhat-formulaire:
       restore: Wiederherstellen
       tabs:
         access: Zugriff
+        submissions: Einreichungen
         template: Vorlage
     form-edit:
       field:
+        accept-submissions: 'Neue Einreichungen erlauben'
+        allow-modification: 'Benutzern erlauben, ihre Einreichungen zu bearbeiten'
         automatic-discussion: 'Automatisch Diskussion aus Formular-Einreichung erstellen'
+        enable: Aktivieren
         link: 'Spezielle Formulartypen'
+        max-submissions: 'Maximale Anzahl Einreichungen (leer lassen für unbegrenzt)'
+        permission-edit-any: 'Jede Einreichung bearbeiten'
+        permission-edit-own: 'Eigene Einreichung bearbeiten'
+        permission-see-any: 'Jede Einreichung ansehen'
+        permission-see-own: 'Eigene Einreichung ansehen'
         title: 'Öffentlicher Titel'
+      link-options:
+        all-groups: 'Für jede Gruppe'
+        groups: Benutzerprofil
+        standalone: Eigenständig
+        tags: Diskussionsfelder
+      preview: 'Vorschau in neuem Tab'
+      save-for-preview: 'Für Vorschau speichern'
       section:
         permissions: Berechtigungen
         template: Vorlage
     form-index:
       columns:
-        accept-submissions: Öffnen
+        accept-submissions: Offen
         actions: Aktionen
+        allow-modification: Bearbeitet
         submissions: Einreichungen
         title: Titel
       edit: Bearbeiten
@@ -128,3 +199,56 @@ kilowhat-formulaire:
       title: 'Globale Berechtigungen'
     nav:
       forms: '=> kilowhat-formulaire.ref.manager'
+    options-editor:
+      columns:
+        title: Titel
+    show-advanced-attributes-modal:
+      title: 'Erweiterte Feldattribute anzeigen'
+    submission-index:
+      columns:
+        actions: Aktionen
+        date: Datum
+        user: Benutzer
+      empty: 'Noch keine Einreichungen'
+      form-show: 'Neue Einreichung'
+      guest: Gast
+      search: 'Einreichungen suchen...'
+      show: Anzeigen
+    submission-sort:
+      latest: 'Neueste Einreichungen'
+      oldest: 'Älteste Einreichungen'
+    submission:
+      form-closed: 'Dieses Formular ist geschlossen.'
+      form-full: 'Dieses Formular hat die maximale Anzahl erlaubter Einreichungen erreicht.'
+      restore: Wiederherstellen
+    template-editor:
+      missing-title: 'Feld ohne Titel'
+      no-answer: 'Nicht beantwortet'
+      title: Titel
+      titleTranslationKey: '(Expert) Übersetzungsschlüssel für Titel'
+      type:
+        date: Datum
+  mail:
+    edit: Bearbeiten
+    footer: 'Gesendet von {title}'
+    no-answer: 'Nicht beantwortet'
+    title-new-submission: 'Neue Einreichung für {title}'
+    title-your-submission: 'Deine Einreichungen für {title}'
+  ref:
+    permissions:
+      fill: 'Eigenständige Formulare ausfüllen'
+    submission-meta:
+      created_at: Erstellungsdatum
+      uid: Einreichungs-ID
+      updated_at: Aktualisierungsdatum
+      user_activated: 'Aktiviertes Konto'
+      user_displayname: 'Benutzer Anzeigename'
+      user_email: Benutzer-E-Mail
+      user_groups: Benutzergruppen
+      user_id: Benutzer-ID
+      user_joined_at: Beitrittsdatum
+      user_username: Benutzername
+    type:
+      discussion: Diskussionsfelder
+      standalone: 'Eigenständige Formulare'
+      user: Benutzerprofil
