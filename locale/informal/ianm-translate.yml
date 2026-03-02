@@ -87,6 +87,7 @@ ianm-translate:
             casual: 'Umgangssprachliches Deutsch'
             swiss: Schweizerdeutsch
         detection_model:
+          help: 'Wähle aus, welches OpenAI-Modell für die Spracherkennung verwendet werden soll. GPT-3.5-turbo wird empfohlen, da die Spracherkennung eine einfache Aufgabe ist, für die kein besonders leistungsstarkes Modell erforderlich ist.'
           label: Spracherkennungsmodell
           options:
             gpt-3:
@@ -110,8 +111,10 @@ ianm-translate:
             6144: '6.144 Token (~4.500 Wörter)'
             8192: '8.192 Token (~6.000 Wörter)'
         timeout:
+          help: 'Zeitüberschreitung bei Anfragen in Sekunden. Erhöhe diesen Wert, wenn Zeitüberschreitungsfehler auftreten.'
           label: 'Zeitüberschreitung (Sekunden)'
         translation_model:
+          help: 'Wähle aus, welches OpenAI-Modell für Übersetzungen verwendet werden soll. GPT-4o bietet die höchste Qualität, GPT-4o-mini bietet ein gutes Gleichgewicht und GPT-3.5-turbo ist am kostengünstigsten.'
           label: Übersetzungsmodell
           options:
             gpt-3:
@@ -133,10 +136,15 @@ ianm-translate:
         heading: SEO-Einstellungen
         help: 'Diese Einstellungen legen das Verhalten der Übersetzungsfunktion in Bezug auf SEO fest.'
       short-content-length: 'Kurze Inhalte'
+      short-content-length-help: 'Wenn aktiviert, werden Inhalte übersetzt, die kürzer als die angegebene Länge sind, und als in der aktuellen Sprache der Benutzeroberfläche verfasst angesehen. 0 deaktiviert diese Funktion.'
       translate-all-enabled: 'Alle Übersetzungssprachen aktivieren'
+      translate-all-help: 'Wenn aktiviert, können Administratoren und andere Benutzer mit der Berechtigung Inhalte in jede installierte Forensprache übersetzen.'
       translate-polls: 'Umfragen übersetzen'
       translate-polls-help: 'Wenn aktiviert, werden Umfragetitel, Untertitel, Alternativtexte von Bildern und Antwortoptionen beim Erstellen oder Bearbeiten einer Umfrage automatisch übersetzt.'
+      translate-quiz: 'Quiz übersetzen'
+      translate-quiz-help: 'Wenn aktiviert, werden der Titel, der Untertitel, die Erklärung der richtigen Antwort und die Antwortoptionen des Quiz automatisch übersetzt, wenn ein Quiz erstellt oder bearbeitet wird.'
       use-native-locale-names: 'Spracheigennamen verwenden'
+      use-native-locale-names-help: 'Wenn aktiviert, wird der Eigenname der Sprache anstelle der aktuellen Sprachversion des Namens verwendet.'
   forum:
     composer_edit:
       language: 'Übersetzten Inhalt in {language} aktualisieren'
@@ -155,6 +163,7 @@ ianm-translate:
       original-language: 'Originalsprache ({detectedLang})'
       poll-group:
         name: Gruppenname
+        title: 'Übersetzungen der Umfragegruppe verwalten'
       poll:
         image-alt: 'Alternative Bildbeschreibung (sofern vorhanden)'
         option: 'Option {number}'
@@ -162,7 +171,10 @@ ianm-translate:
         question-language: 'Frage einer Umfrage ({language})'
         subtitle: Untertitel
         title: 'Umfrageübersetzungen verwalten'
+      post:
+        title: 'Beitragsübersetzungen verwalten'
       quiz:
+        answer-additional: 'Erläuterung der richtigen Antwort'
         option: 'Antwort {number}'
         question: Frage
         subtitle: Untertitel
@@ -172,6 +184,8 @@ ianm-translate:
     original-content:
       title: Originalinhalt
       view: 'Originalinhalt anzeigen'
+    post:
+      translation-error: 'Es trat ein Problem bei der Anzeige der Übersetzung dieses Beitrags auf. Der Fehler wurde mit der ID {uuid} protokolliert. Bitte melde dies, wenn das Problem weiterhin besteht.'
     refresh-translation: 'Übersetzung aktualisieren'
     translate-button-label: Übersetzen
     unknown-language: '[Nicht erkannt]'
@@ -179,6 +193,7 @@ ianm-translate:
       settings:
         heading: Übersetzung
         source-language:
+          help: 'Wenn deaktiviert, werden nur übersetzbare Inhalte gekennzeichnet, die in einer anderen Sprache als der aktuellen Forensprache verfasst sind. Um alle Inhalte mit der erkannten Sprache zu kennzeichnen, aktiviere diese Einstellung.'
           label: 'Sprache immer anzeigen'
   lib:
     providers:
