@@ -12,10 +12,19 @@ fof-badges:
     badge_category: Kategorie
     badge_count: '{count, plural, one {# Abzeichen} other {# Abzeichen}}'
     badge_description: Beschreibung
+    badge_description_placeholder: 'Beschreibe, wie dieses Abzeichen erworben werden kann...'
     badge_name: Name
+    badge_name_placeholder: 'z.B., „Meister der 100 Beiträge“'
+    badge_slug: Slug
+    badge_slug_help: 'URL-freundliche Kennung. Wird automatisch aus dem Namen generiert, wenn dieses Feld leer gelassen wird.'
+    badge_slug_placeholder: 'z.B., „100-beitraege-meister“'
+    cancel: Abbrechen
     create_badge: 'Abzeichen erstellen'
     create_category: 'Kategorie erstellen'
     delete: Löschen
+    delete_badge_confirm: 'Möchtest du das Abzeichen „{name}“ wirklich löschen? Dadurch wird es auch bei allen Benutzern entfernt, die es erhalten haben.'
+    delete_category_confirm: 'Möchtest du die Kategorie „{name}“ wirklich löschen?'
+    delete_category_confirm_with_badges: 'Möchtest du die Kategorie „{name}“ wirklich löschen? {count, plural, one {# Abzeichen} other {# Abzeichen}} werden dann nicht mehr kategorisiert sein.'
     disabled: Deaktiviert
     earned_count: '{count} verdient'
     edit: Bearbeiten
@@ -32,8 +41,17 @@ fof-badges:
       status: Status
       type: Art
     icon_color: Symbolfarbe
+    icon_picker:
+      collapse: 'Symbolauswahl verbergen'
+      expand: 'Symbolauswahl anzeigen'
     inactive: 'Nicht aktiv'
+    install_defaults: 'Standardabzeichen installieren'
+    install_defaults_error: 'Installation der Standardabzeichen fehlgeschlagen.'
+    install_defaults_success: 'Standardabzeichen wurden erfolgreich installiert!'
     is_active: Aktiv
+    is_active_help: 'Inaktive Abzeichen werden Benutzern nicht automatisch verliehen.'
+    is_visible: 'Sichtbar in der Abzeichenliste'
+    is_visible_help: 'Versteckte Abzeichen werden nicht in der öffentlichen Abzeichenliste angezeigt, aber Benutzer können sie trotzdem verdienen.'
     manual: Manuell
     move_down: 'Nach unten'
     move_up: 'Nach oben'
@@ -69,6 +87,8 @@ fof-badges:
       show_more: '{count} weitere anzeigen'
       start: 'Neuberechnung starten'
       sync_counts: 'Abzeichenanzahl synchronisieren'
+      sync_counts_error: 'Synchronisierung der Abzeichenanzahl fehlgeschlagen.'
+      sync_counts_success: 'Abzeichenanzahl wurde synchronisiert! {corrected} von {total} Abzeichen wurden korrigiert.'
       sync_counts_title: 'Abzeichenanzahl synchronisieren'
       title: 'Neuberechnung starten'
       total_users: 'Benutzer insgesamt'
@@ -92,8 +112,12 @@ fof-badges:
     recalculation_jobs:
       button: Jobs
       cancel: Abbrechen
+      cancel_error: 'Abbrechen des Jobs fehlgeschlagen.'
+      cancelled: 'Job erfolgreich abgebrochen.'
       empty: 'Keine Jobs zur Neuberechnung gefunden.'
       force_cancel: 'Abbrechen erzwingen'
+      mark_failed: 'Als fehlgeschlagen markieren'
+      mark_failed_error: 'Die Markierung des Jobs als fehlgeschlagen ist fehlgeschlagen.'
       marked_failed: 'Job wurde als fehlgeschlagen markiert.'
       results: 'Verliehen: {awarded} | Widerrufen: {revoked}'
       status:
@@ -104,6 +128,7 @@ fof-badges:
         running: 'Wird ausgeführt'
       title: Neuberechnungs-Jobs
       users: '{processed} / {total} Auswertungen'
+    save: Speichern
     settings:
       display_title: Anzeigeeinstellungen
       integrations_help: 'Badge-Metriken, die von anderen Erweiterungen abhängig sind. Installiere die Erweiterung, um die entsprechenden Metriken freizuschalten.'
@@ -129,10 +154,18 @@ fof-badges:
       recalculation: Neuberechnung
       settings: Einstellungen
     trigger_builder:
+      add_condition: 'Bedingung hinzufügen'
+      and: 'ALLE müssen zutreffen (UND)'
       date_end: Enddatum
       date_start: Startdatum
       loading_tags: 'Themen werden geladen...'
+      logic: 'Wenn mehrere Bedingungen'
+      or: 'IRGENDEINE muss zutreffen (ODER)'
+      remove_condition: 'Bedingung entfernen'
+    trigger_config: 'Automatischer Auslöser'
     uncategorized: Unkategorisiert
+    validation:
+      tag_required: 'Du musst ein Thema auswählen, wenn du die Metrik „Beiträge im Thema“ verwendest.'
   forum:
     notification:
       a_badge: 'ein Abzeichen'
