@@ -4,11 +4,19 @@
 
 fof-badges:
   admin:
+    actions: 'Aktion beim Erhalt des Abzeichens'
     active: Aktiv
+    add_to_group: 'Benutzer zu Gruppe hinzufügen'
+    add_to_group_help: 'Benutzer automatisch zu dieser Gruppe hinzufügen, wenn sie das Abzeichen erhalten.'
     appearance: Erscheinungsbild
     assign: Zuweisen
+    assign_badge: 'Vergeben: {badge}'
+    assign_reason: 'Begründung (optional)'
+    assign_reason_help: 'Diese Begründung wird auf dem Benutzerabzeichen angezeigt.'
+    assign_reason_placeholder: 'Warum wurde dieses Abzeichen vergeben?'
     automatic: Automatisch
     background_color: Hintegrundfarbe
+    badge_assigned: 'Abzeichen „{badge}“ wurde an {username} vergeben!'
     badge_category: Kategorie
     badge_count: '{count, plural, one {# Abzeichen} other {# Abzeichen}}'
     badge_description: Beschreibung
@@ -19,6 +27,13 @@ fof-badges:
     badge_slug_help: 'URL-freundliche Kennung. Wird automatisch aus dem Namen generiert, wenn dieses Feld leer gelassen wird.'
     badge_slug_placeholder: 'z.B., „100-beitraege-meister“'
     cancel: Abbrechen
+    category_description: Beschreibung
+    category_description_placeholder: 'Beschreibe diese Abzeichen-Kategorie...'
+    category_enabled: Aktiviert
+    category_enabled_help: 'Deaktivierte Kategorien und ihre Abzeichen werden nicht in der Abzeichenliste angezeigt.'
+    category_name: Name
+    category_slug: Slug
+    clear_selection: 'Auswahl leeren'
     create_badge: 'Abzeichen erstellen'
     create_category: 'Kategorie erstellen'
     delete: Löschen
@@ -29,6 +44,7 @@ fof-badges:
     earned_count: '{count} verdient'
     edit: Bearbeiten
     edit_badge: 'Abzeichen bearbeiten'
+    edit_category: 'Kategorie bearbeiten'
     enabled: Aktiviert
     headers:
       badges: Abzeichen
@@ -44,6 +60,7 @@ fof-badges:
     icon_picker:
       collapse: 'Symbolauswahl verbergen'
       expand: 'Symbolauswahl anzeigen'
+      hint: 'Klicke auf ein Symbol, um es auszuwählen, oder gib oben einen Font Awesome-Klassennamen ein.'
     inactive: 'Nicht aktiv'
     install_defaults: 'Standardabzeichen installieren'
     install_defaults_error: 'Installation der Standardabzeichen fehlgeschlagen.'
@@ -53,11 +70,35 @@ fof-badges:
     is_visible: 'Sichtbar in der Abzeichenliste'
     is_visible_help: 'Versteckte Abzeichen werden nicht in der öffentlichen Abzeichenliste angezeigt, aber Benutzer können sie trotzdem verdienen.'
     manual: Manuell
+    metrics:
+      best_answers_received: 'Markierung „Beste Antwort“ erhalten'
+      discussion_count: 'Diskussionen begonnen'
+      downvotes_given: 'Downvotes vergeben'
+      downvotes_received: 'Downvotes erhalten'
+      edit_count: 'Beiträge bearbeitet'
+      files_uploaded: 'Dateien hochgeladen'
+      has_avatar: 'Hat ein Avatar'
+      has_bio: 'Hat eine Biografie'
+      has_nickname: 'Hat einen Spitznamen'
+      likes_given: 'Likes vergeben'
+      likes_received: 'Likes erhalten'
+      member_days: 'Tage als Mitglied'
+      polls_created: 'Umfragen erstellt'
+      polls_voted: 'In Umfragen abgestimmt'
+      post_count: Beitragsanzahl
+      private_discussions_created: 'Private Diskussionen erstellt'
+      reactions_given: 'Reaktionen vergeben'
+      reactions_received: 'Reaktionen erhalten'
+      tag_posts: 'Beiträge zum Thema'
+      upvotes_given: 'Upvotes vergeben'
+      upvotes_received: 'Upvotes erhalten'
     move_down: 'Nach unten'
     move_up: 'Nach oben'
     no_badges: 'Noch keine Abzeichen. Erstelle dein erstes Abzeichen!'
     no_categories: 'Noch keine Kategorien. Erstelle deine erste Kategorie!'
     no_category: 'Keine Kategorie'
+    no_group: 'Nicht zu Gruppe hinzufügen'
+    no_users_found: 'Keine Benutzer gefunden'
     permissions:
       give_manually: 'Abzeichen manuell zuweisen'
       moderate: 'Abzeichen verwalten'
@@ -84,10 +125,13 @@ fof-badges:
       no_automatic_badges: 'Keine automatischen Abzeichen eingerichtet. Erstelle zunächst ein Abzeichen mit Auslösebedingungen.'
       no_revoke_help: 'Wenn aktiviert, behalten Benutzer, die die Kriterien nicht mehr erfüllen, ihre Abzeichen.'
       no_revoke_label: 'Verliehene Abzeichen nicht widerrufen'
+      reapply_actions_help: 'Wenn aktiviert, werden Abzeichen-Aktionen (wie das Hinzufügen zu einer Gruppe) erneut auf Benutzer angewendet, die das Abzeichen bereits haben. Dies ist nützlich, wenn du einem bestehenden Abzeichen neue Aktionen hinzugefügt haben.'
+      reapply_actions_label: 'Aktionen bestehenden Abzeichenbesitzern erneut zuweisen'
       show_more: '{count} weitere anzeigen'
       start: 'Neuberechnung starten'
       sync_counts: 'Abzeichenanzahl synchronisieren'
       sync_counts_error: 'Synchronisierung der Abzeichenanzahl fehlgeschlagen.'
+      sync_counts_info: 'Berechne die „verdiente Anzahl“ für alle Abzeichen auf der Grundlage der tatsächlichen user_badges-Datensätze neu. Verwende diese Funktion, wenn die Anzahl nach der Neuberechnung nicht mehr korrekt ist.'
       sync_counts_success: 'Abzeichenanzahl wurde synchronisiert! {corrected} von {total} Abzeichen wurden korrigiert.'
       sync_counts_title: 'Abzeichenanzahl synchronisieren'
       title: 'Neuberechnung starten'
@@ -126,9 +170,13 @@ fof-badges:
         failed: Fehlgeschlagen
         pending: Ausstehend
         running: 'Wird ausgeführt'
+      stuck: 'Sitzt fest'
       title: Neuberechnungs-Jobs
       users: '{processed} / {total} Auswertungen'
     save: Speichern
+    search_user_placeholder: 'Suche nach Benutzer- oder Anzeigenamen...'
+    select_user: 'Benutzer auswählen'
+    send_notification: 'Benutzer benachrichtigen'
     settings:
       display_title: Anzeigeeinstellungen
       integrations_help: 'Badge-Metriken, die von anderen Erweiterungen abhängig sind. Installiere die Erweiterung, um die entsprechenden Metriken freizuschalten.'
@@ -148,6 +196,7 @@ fof-badges:
       show_badges_on_user_card: 'Abzeichen auf der Benutzerkarte anzeigen'
       show_badges_on_user_card_help: 'Zeigt die beliebtesten oder seltensten Abzeichen des Benutzers auf deren Benutzerkarte und der Profilseite an.'
     status: Status
+    tab_assign: Vergeben
     tabs:
       badges: Abzeichen
       categories: Kategorien
@@ -156,13 +205,22 @@ fof-badges:
     trigger_builder:
       add_condition: 'Bedingung hinzufügen'
       and: 'ALLE müssen zutreffen (UND)'
+      and_help: 'Benutzer müssen alle Bedingungen gleichzeitig erfüllen, um dieses Abzeichen zu erhalten.'
       date_end: Enddatum
+      date_range_help: 'Nur Aktivitäten innerhalb dieses Zeitraums zählen. Nützlich für Veranstaltungsabzeichen.'
       date_start: Startdatum
       loading_tags: 'Themen werden geladen...'
       logic: 'Wenn mehrere Bedingungen'
+      no_conditions_info: 'Keine Bedingungen festgelegt. Dieses Abzeichen kann nur manuell von Moderatoren vergeben werden.'
       or: 'IRGENDEINE muss zutreffen (ODER)'
+      or_help: 'Benutzer müssen mindestens eine Bedingung erfüllen, um dieses Abzeichen zu erhalten.'
       remove_condition: 'Bedingung entfernen'
+      select_tag: 'Ein Thema auswählen...'
+      tag_filter: Themenfilter
+      tag_filter_help: 'Erforderlich bei Verwendung der Metrik „Beiträge im Thema“.'
+      use_date_range: 'Auf Zeitraum beschränken'
     trigger_config: 'Automatischer Auslöser'
+    trigger_config_help: 'Konfiguriere die Bedingungen für die automatische Vergabe von Abzeichen. Lasse das Feld leer, wenn Abzeichen nur manuell vergeben werden sollen.'
     uncategorized: Unkategorisiert
     validation:
       tag_required: 'Du musst ein Thema auswählen, wenn du die Metrik „Beiträge im Thema“ verwendest.'

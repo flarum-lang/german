@@ -7,17 +7,36 @@ fof-categories:
     basics:
       categories_label: Kategorien
     headings:
+      child_display: 'Darstellung von Unterkategorien'
       layout: Anordnung
       nav: Navigation
+      parent_display: 'Darstellung von Elternkategorien'
+      performance: Leistung
+    help:
+      child_bare_icon: 'Sollen Symbole in Unterkategorien ohne kreisförmigen Hintergrund angezeigt werden?'
+      full_page_desktop: 'Soll das Navigationsmenü in der Seitenleiste auf eine Zeile reduziert werden (wie auf der herkömmlichen Themen-Seite)? Dadurch werden auch Widgets (wie „Friends of Flarum Forum Statistics“) aus der Navigationsleiste der Kategorieseite ausgeblendet.'
+      small_forum_optimized: 'Dadurch werden die Diskussions-/Beitragszahlen genauer, aber mittlere und große Foren werden dadurch erheblich verlangsamt.'
     labels:
+      child_bare_icon: 'Einfache Unter-Symbole?'
       compact_mobile_mode: 'Kompakter Mobilmodus'
+      full_page_desktop: 'Vollbild-Desktop?'
       keep_tags_nav: 'Link zur Themenseite in der Navigations-Seitenleiste behalten?'
+      parent_remove_description: 'Beschreibungen für Themen der obersten Ebene ausblenden?'
+      parent_remove_icon: 'Symbole für Themen der obersten Ebene ausblenden?'
+      parent_remove_last_discussion: 'Die neuesten Diskussionen für Themen der obersten Ebene ausblenden?'
+      parent_remove_stats: 'Statistiken für Top-Level-Themen ausblenden?'
       small_forum_optimized: 'Für kleine Foren optimieren?'
+    title: 'Einstellungen für Kategorien'
   forum:
     all_categories:
+      meta_description_text: 'Alle Kategorien'
       meta_title_text: '=> fof-categories.ref.categories'
+    header:
+      back_to_categories_tooltip: 'Zurück zu Kategorien'
     index:
       categories_link: '=> fof-categories.ref.categories'
+    last_discussion_widget:
+      no_discussions: 'Keine Diskussionen (Bisher!)'
     stat-widgets:
       discussion_label: Diskussionen
       post_label: Beiträge
