@@ -13,11 +13,15 @@ fof-geoip:
       see_country: 'Land zur IP-Adresse immer anzeigen'
     settings:
       access_key_label: Zugangsschlüssel
+      error_code_prefix: 'Code:'
+      error_prefix: 'Fehler:'
       general:
         heading: 'Allgemeine Einstellungen'
         help: 'Diese Einstellungen legen das allgemeine Verhalten der Erweiterung fest.'
       providers:
         heading: IP-Lookup-Dienst
+        help: 'Wähle einen Dienst für IP-Lookups aus. Einige Dienste haben Ratenbeschränkungen. Weitere Informationen findest du in der Dokumentation des jeweiligen Dienstes.'
+      quota_label: Lookup-Kontingent
       security_label: 'Sicherheitsmodul (erfordert Professional Plus)'
       service_freegeoip_description: 'Verwende <b>https://freegeoip.app/</b>, um bis zu 15.000 IP-Ländercodes pro Stunde kostenlos abzurufen.'
       service_freegeoip_label: FreeGeoIP
@@ -25,20 +29,41 @@ fof-geoip:
       service_ipapi-pro_label: 'IP Api Pro'
       service_ipapi_description: 'Verwende <b>http://ip-api.com/</b>, um bis zu 45 kostenlose Auflösungen pro Minute durchzuführen. Wenn Du mehr durchführst, werden deine Anfragen eingereiht und erst nach dem Zurücksetzen des Zeitfensters aufgelöst.'
       service_ipapi_label: 'IP Api'
-      service_ipdata_description: 'Verwende <b>https://ipdata.co</b>, um täglich bis zu 1.500 kostenlose Auflösungen durchzuführen.'
+      service_ipdata_description: 'Verwende <b>https://ipdata.co</b>, um täglich bis zu 1.500 kostenlose Auflösungen durchzuführen. Es sind auch kostenpflichtige Tarife mit höheren Nutzungslimits verfügbar.'
       service_ipdata_label: IPData
+      service_ipinfo-lite_description: 'Verwende <b>https://ipinfo.io</b>, um IP-Informationen ohne Ratenbegrenzung oder Einschränkungen abzurufen. Erfordert die Registrierung für einen kostenlosen API-Schlüssel.'
       service_ipinfo-lite_label: 'IPInfo Lite'
+      service_iplocation_description: 'Verwende <b>https://www.iplocation.net/</b>, um Länder- und ISP-Daten abzurufen. Die Suchratenbeschränkungen sind unbekannt.'
       service_iplocation_label: 'IP Location'
+      service_ipsevenex_description: 'Verwende <b>https://7x.ax</b>, um einen kostenlosen API-Schlüssel für bis zu 20 Anfragen pro Minute zu erhalten. Es sind auch kostenpflichtige Tarife für höhere Nutzungslimits verfügbar.'
       service_ipsevenex_label: '7x Geolocation API'
       service_ipstack_description: 'Verwende <b>https://ipstack.com</b>, um bis zu 10.000 kostenlose Durchführungen pro Monat durchzuführen. Bezahlte Pläne beinhalten Verbindungsinformationen (ISP, Organisation) und Bedrohungsstufe.'
       service_ipstack_label: IPStack
       service_label: Dienstanbieter
-      show_flag_help: 'Zeigen Sie ohne Offenlegung der IP-Adresse die Länderflagge der IP-Adresse des Beitragsautors an.'
+      show_flag_help: 'Ohne die IP-Adresse preiszugeben, wird die Landesflagge der IP-Adresse des Verfassers des Beitrags angezeigt, wenn der Benutzer dies in seinen Einstellungen aktiviert hat.'
       show_flag_label: 'Länderflagge für jeden Beitrag anzeigen'
+      status_error: '✗ Fehler'
+      status_success: '✓ Erfolg'
+      status_unknown: Unbekannt
+      test:
+        heading: 'Dienstkonfiguration testen'
+        help: 'Teste die Konfiguration deines IP-Lookup-Dienstes mit einer Beispiel-IP-Adresse. Speichere deine Einstellungen vor dem Testen.'
+      test_button: 'Dienst testen'
+      test_error_details_label: 'Fehlerdetails:'
+      test_http_status_code_label: 'HTTP-Statuscode:'
+      test_response_time_label: 'Antwortzeit:'
+      test_result_title: Testergebnis
+      test_service_help: 'Gib eine IPv4- oder IPv6-Adresse ein, um deine aktuelle Dienstkonfiguration zu testen.'
+      test_service_label: 'IP-Lookup-Dienst testen'
+      test_service_label_result: 'Dienst:'
+      test_status_label: 'Status:'
+      test_timestamp_label: 'Zeitstempel:'
+      testing: 'Wird getestet...'
       title: 'FriendsOfFlarum GeoIP'
   forum:
     alerts:
       ip_copied: 'Kopierte IP-Adresse'
+    copy_ip_label: 'IP in die Zwischenablage kopieren'
     map_button_label: IP-Informationen
     map_modal:
       as: ASN

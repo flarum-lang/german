@@ -128,7 +128,7 @@ clarkwinkelmann-catch-the-fish:
       permission: 'Du verfügst über keine Berechtigung, die Rangliste zu sehen'
       title: Rangliste
     round-alert:
-      message: 'Runde ''{name}'', fang so viele Fische wie möglich bis {time}'
+      message: 'Runde „{name}“, fang so viele Fische wie möglich bis {time}'
       rankings: 'Ranglisten ansehen'
     table-fish:
       actions: Aktionen
