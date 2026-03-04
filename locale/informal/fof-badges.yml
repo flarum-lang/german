@@ -23,6 +23,7 @@ fof-badges:
     badge_description_placeholder: 'Beschreibe, wie dieses Abzeichen erworben werden kann...'
     badge_name: Name
     badge_name_placeholder: 'z.B., „Meister der 100 Beiträge“'
+    badge_revoked: 'Abzeichen „{badge}“ wurde von {username} zurückgenommen.'
     badge_slug: Slug
     badge_slug_help: 'URL-freundliche Kennung. Wird automatisch aus dem Namen generiert, wenn dieses Feld leer gelassen wird.'
     badge_slug_placeholder: 'z.B., „100-beitraege-meister“'
@@ -32,7 +33,10 @@ fof-badges:
     category_enabled: Aktiviert
     category_enabled_help: 'Deaktivierte Kategorien und ihre Abzeichen werden nicht in der Abzeichenliste angezeigt.'
     category_name: Name
+    category_name_placeholder: 'z.B. „Errungenschaftsabzeichen“'
     category_slug: Slug
+    category_slug_help: 'URL-freundliche Kennung der Kategorie.'
+    category_slug_placeholder: 'z.B. „errungenschaften“'
     clear_selection: 'Auswahl leeren'
     create_badge: 'Abzeichen erstellen'
     create_category: 'Kategorie erstellen'
@@ -46,6 +50,7 @@ fof-badges:
     edit_badge: 'Abzeichen bearbeiten'
     edit_category: 'Kategorie bearbeiten'
     enabled: Aktiviert
+    granted_by_system: System
     headers:
       badges: Abzeichen
       description: Beschreibung
@@ -94,10 +99,13 @@ fof-badges:
       upvotes_received: 'Upvotes erhalten'
     move_down: 'Nach unten'
     move_up: 'Nach oben'
+    next: Weiter
     no_badges: 'Noch keine Abzeichen. Erstelle dein erstes Abzeichen!'
     no_categories: 'Noch keine Kategorien. Erstelle deine erste Kategorie!'
     no_category: 'Keine Kategorie'
     no_group: 'Nicht zu Gruppe hinzufügen'
+    no_holders: 'Niemand hat dieses Abzeichen bisher erworben.'
+    no_holders_found: 'Keine Inhaber gefunden, auf die deine Suche zutraf.'
     no_users_found: 'Keine Benutzer gefunden'
     permissions:
       give_manually: 'Abzeichen manuell zuweisen'
@@ -105,6 +113,7 @@ fof-badges:
       view_list: 'Abzeichenliste anzeigen'
       view_user_badges: 'Nutzerabzeichen anzeigen'
     preview: Vorschau
+    previous: Zurück
     rarity: '{percent}% Seltenheit'
     recalculate: 'Neu berechnen'
     recalculate_confirm: 'Hiermit werden alle automatischen Abzeichen für alle Benutzer neu berechnet. Dieser Vorgang läuft im Hintergrund ab. Fortsetzen?'
@@ -124,7 +133,7 @@ fof-badges:
       jobs_title: Jobverlauf
       no_automatic_badges: 'Keine automatischen Abzeichen eingerichtet. Erstelle zunächst ein Abzeichen mit Auslösebedingungen.'
       no_revoke_help: 'Wenn aktiviert, behalten Benutzer, die die Kriterien nicht mehr erfüllen, ihre Abzeichen.'
-      no_revoke_label: 'Verliehene Abzeichen nicht widerrufen'
+      no_revoke_label: 'Verliehene Abzeichen nicht zurück genommen'
       reapply_actions_help: 'Wenn aktiviert, werden Abzeichen-Aktionen (wie das Hinzufügen zu einer Gruppe) erneut auf Benutzer angewendet, die das Abzeichen bereits haben. Dies ist nützlich, wenn du einem bestehenden Abzeichen neue Aktionen hinzugefügt haben.'
       reapply_actions_label: 'Aktionen bestehenden Abzeichenbesitzern erneut zuweisen'
       show_more: '{count} weitere anzeigen'
@@ -173,7 +182,11 @@ fof-badges:
       stuck: 'Sitzt fest'
       title: Neuberechnungs-Jobs
       users: '{processed} / {total} Auswertungen'
+    revoke: Zurücknehmen
+    revoke_confirm: 'Möchtest du das Abzeichen „{badge}“ wirklich von {username} zurücknehmen?'
+    revoke_error: 'Zurücknahme des Abzeichens fehlgeschlagen.'
     save: Speichern
+    search_holders_placeholder: 'Inhaber durchsuchen...'
     search_user_placeholder: 'Suche nach Benutzer- oder Anzeigenamen...'
     select_user: 'Benutzer auswählen'
     send_notification: 'Benutzer benachrichtigen'
@@ -195,8 +208,10 @@ fof-badges:
       saved: 'Einstellungen erfolgreich gespeichert.'
       show_badges_on_user_card: 'Abzeichen auf der Benutzerkarte anzeigen'
       show_badges_on_user_card_help: 'Zeigt die beliebtesten oder seltensten Abzeichen des Benutzers auf deren Benutzerkarte und der Profilseite an.'
+    showing_holders: 'Anzeige von {from}-{to} von {total}'
     status: Status
     tab_assign: Vergeben
+    tab_holders: 'Inhaber ({count})'
     tabs:
       badges: Abzeichen
       categories: Kategorien
@@ -225,14 +240,70 @@ fof-badges:
     validation:
       tag_required: 'Du musst ein Thema auswählen, wenn du die Metrik „Beiträge im Thema“ verwendest.'
   forum:
+    all_badges: 'Alle Abzeichen'
+    badges_subtitle: 'Verdiene Abzeichen, durch dein Engagement in der Community!'
+    badges_title: Abzeichen
+    earned_by: '{count, plural, one {# Benutzer} other {# Benutzer}}'
+    earned_users: 'Verdient durch'
+    loading: 'Wird geladen...'
+    more_users_earned: 'Und weitere Benutzer...'
+    my_badges: 'Meine Abzeichen'
+    nav:
+      badges: Abzeichen
+    new_tag: NEU
+    no_badges: 'Noch keine Abzeichen verfügbar.'
+    no_users_earned: 'Noch niemand hat dieses Abzeichen verdient. Sei der Erste!'
     notification:
       a_badge: 'ein Abzeichen'
       badge_earned: 'Du hast {badge} erworben'
+    other_badges: 'Andere Abzeichen'
+    owned_badge: 'Du besitzt dieses Abzeichen'
+    toggle_category_dropdown: 'Kategorie-Dropdown umschalten'
     user:
+      assign_badge: 'Abzeichen vergeben'
+      assign_badge_title: 'Abzeichen vergeben an {username}'
+      assign_button: 'Abzeichen vergeben'
+      assign_reason: 'Begründung (optional)'
+      assign_reason_help: 'Diese Begründung wird auf dem Abzeichen des Benutzers angezeigt.'
+      assign_reason_placeholder: 'Warum wird dieses Abzeichen vergeben?'
+      badge_actions: Abzeichen-Aktionen
+      badge_assigned: 'Abzeichen "{badge}"wurde an {username} vergeben!'
+      badge_revoked: 'Abzeichen „{badge}“ wurde zurück genommen.'
+      badges_count: '{count, plural, one {# Abzeichen} other {# Abzeichen}}'
+      badges_tab: Abzeichen
+      badges_title: 'Abzeichen von {username}'
+      cancel: Abbrechen
+      earned_on: 'Verdient {date}'
+      favorite_badge: Abzeichen-Favorit
+      hidden_badge: 'Vom Profil verborgen'
+      hide_badge: 'Vom Profil verbergen'
+      load_more: 'Mehr laden'
+      manually_awarded: 'Manuell zugewiesen'
+      no_badges: 'Dieser Benutzer hat noch keine Abzeichen verdient.'
+      no_badges_available: 'Keine Abzeichen verfügbar.'
+      recalculate: 'Abzeichen neu berechnen'
+      recalculate_error: 'Neuberechnung der Abzeichen fehlgeschlagen. Bitte versuche es erneut.'
       recalculate_modal:
         all_badges: 'Alle automatischen Abzeichen'
+        badge_label: 'Abzeichen zur Neuberechnung'
         manual: manuell
+        no_revoke_help: 'Wenn aktiviert, behält der Benutzer die Abzeichen auch dann, wenn er die Kriterien nicht mehr erfüllt.'
+        no_revoke_label: 'Vorhandene Abzeichen nicht zurücknehmen'
+        reapply_actions_help: 'Abzeichen-Aktionen (wie das Hinzufügen zu einer Gruppe) werden erneut ausgeführt, auch wenn der Benutzer dieses Abzeichen bereits besitzt.'
+        reapply_actions_label: 'Aktionen für vorhandene Abzeichen erneut anwenden'
         submit: 'Neu berechnen'
+        title: 'Abzeichen neu berechnen'
+      recalculate_reapplied: 'Aktionen erneut angewendet für {reapplied} Abzeichen'
+      recalculate_success: 'Abzeichen wurden neu berechnet! Zugewiesen: {awarded}, Widerrufen: {revoked}, Erneut zugewiesen: {reapplied}'
+      remove_favorite: 'Favorit entfernen'
+      revoke_badge: 'Abzeichen zurücknehmen'
+      revoke_confirm: 'Möchtest du das Abzeichen „{badge}“ wirklich von diesem Benutzer zurücknehmen?'
+      revoke_error: 'Rücknahme des Abzeichens ist fehlgeschlagen.'
+      select_badge: 'Ein Abzeichen auswählen...'
+      select_badge_label: 'Abzeichen auswählen'
+      set_favorite: 'Als Favorit festlegen'
+      show_badge: 'Im Profil anzeigen'
+      view_all_badges: 'Alle Abzeichen anzeigen'
   lib:
     rarity_common: Häufig
     rarity_epic: Episch

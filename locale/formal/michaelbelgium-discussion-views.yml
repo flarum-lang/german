@@ -16,7 +16,7 @@ michaelbelgium-discussion-views:
       abbr_numbers_label: 'Aufrufzahlen abkürzen'
       abbr_numbers_text: 'Wenn diese Option aktiviert ist, werden die Zahlen für hohe Ansichten abgekürzt (z.B. 1000 = 1K)'
       ignore_crawlers_label: 'Bots/Crawler ignorieren'
-      ignore_crawlers_text: 'Verhindert Bots und Crawler, um die Anzahl der Aufrufe zu erhöhen'
+      ignore_crawlers_text: 'Verhindert, dass Bots und Crawler die Anzahl der Aufrufe erhöhen'
       max_viewcount_label: 'Maximale Einträge in Aufrufliste'
       max_viewcount_text: 'Lege eine maximale Anzahl von Nutzern in einer Ansichtsliste fest (gilt für die Footer- und Sidebar-Ansichtsliste)'
       show_filter_label: 'Beliebt/Unbeliebt Sortierung anzeigen'
