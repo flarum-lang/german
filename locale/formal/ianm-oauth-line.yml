@@ -3,6 +3,13 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 fof-oauth:
+  admin:
+    settings:
+      providers:
+        line:
+          client_id_label: Kanal-ID
+          client_secret_label: 'Kanal Secret'
+          description: 'Registriere dein Forum in der LINE Developers Console {link}'
   forum:
     log_in:
       with_line_button: '=> fof-oauth.forum.log_in.with_button'

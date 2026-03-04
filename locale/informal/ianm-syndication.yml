@@ -13,6 +13,7 @@ ianm-syndication:
         help: 'Wähle aus, welches Format (Atom oder RSS) für die im Forum angezeigten Links verwendet werden soll.'
         label: Forumfeed-Format
       full-text:
+        help: 'Wenn deaktiviert, enthalten Feeds nur Auszüge aus Beiträgen, und Benutzer müssen das Forum aufrufen, um den vollständigen Beitrag zu lesen. Ich würde empfehlen, diese Option aktiviert zu lassen, um die Personen zu berücksichtigen, die das Forum über einen RSS-Aggregator verfolgen – falls vorhanden.'
         label: Volltext-Feeds
       html:
         help: 'Wenn aktiviert, enthalten die Feeds HTML. Ansonsten sind die Feeds in unformatiertem Klartext.'

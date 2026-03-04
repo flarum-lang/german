@@ -106,7 +106,7 @@ clarkwinkelmann-catch-the-fish:
       starting-pack-help: 'Enthält ein paar Fische, damit Du in kürzester Zeit loslegen kannst'
       starts-at: Startzeit
     fish-image:
-      alt: 'Bild von Fisch ''{name}'''
+      alt: 'Bild des Fisches „{name}“'
       missing: 'Fehlendes Fischbild'
     moderate:
       add: Hinzufügen
@@ -117,7 +117,7 @@ clarkwinkelmann-catch-the-fish:
     moving-fish:
       login: 'Einloggen um Fische zu fangen'
     nav:
-      rankings: 'Catch The Fish Rankings'
+      rankings: 'Catch The Fish Rangliste'
       settings: 'Catch The Fish Einstellungen'
     new-fish-modal:
       title: 'Neuer Fisch'

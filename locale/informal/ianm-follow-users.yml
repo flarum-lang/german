@@ -32,6 +32,7 @@ ianm-follow-users:
       following: 'Gefolgte Benutzer'
     followed: Gefolgt
     followers: '{count, plural, one {Follower} other {Followers}}'
+    followers_link: Follower
     index:
       follow_tag_button: '=> ianm-follow-users.lib.follow'
       unfollow_tag_button: '=> ianm-follow-users.lib.change_follow_type'
@@ -52,6 +53,7 @@ ianm-follow-users:
       new_unfollower_text: '{username} folgt dir nicht mehr'
     profile_link: '=> ianm-follow-users.lib.following_link'
     profile_page:
+      no_followers: 'Es sieht so aus, als hättest du noch keine Follower.'
       no_following: 'Anscheinend folgst du niemandem.'
     settings:
       block_follow: 'Verhindern, dass Benutzer mir folgen'

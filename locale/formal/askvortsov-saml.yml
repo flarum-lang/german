@@ -12,7 +12,7 @@ askvortsov-saml:
       idp_metadata_url: 'Identitätsanbieter-Metadaten-URL (Alternative zu XML)'
       logout_request_signed: 'Abmeldeanfragen signieren?'
       logout_response_signed: 'Abmeldeantworten signieren?'
-      nameid_format: 'NameID Format'
+      nameid_format: NameID-Format
       only_option: 'Verwendest Du SAML2 SSO als einzige Anmeldeoption?'
       sign_metadata: 'Metadaten signieren?'
       slo: 'SLO aktivieren? Wenn Dein IDP dies nicht unterstützt, wird dies nichts tun.'

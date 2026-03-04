@@ -5,13 +5,15 @@
 ianm-log-viewer:
   admin:
     permissions:
-      access_logfile_api: 'Zugriff auf Protokolldateien durch die API'
+      access_logfile_api: 'Protokolldateien anzeigen und verwalten'
     settings:
       max-file-size: 'Maximale Dateigröße des Protokolls (MB)'
+      max-file-size-help: 'Wenn eine Protokolldatei diese Größe überschreitet, wird sie in mehrere Teile aufgeteilt. Setze den Wert auf 0, um die Aufteilung zu deaktivieren. Der Standardwert ist 1 MB. Die maximal zulässige Größe beträgt 150 MB.'
       purge-days: 'Protokolldateien nach Tagen bereinigen'
       purge-days-help: 'Setzt voraus, dass der Flarum Scheduler aktiv ist. 0 zum deaktivieren.'
     viewer:
       available_logs_heading: 'Verfügbare Dateien'
+      confirm_delete: 'Möchtest du diese Protokolldatei wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden.'
       delete_log: 'Protokolldatei löschen'
       download_log: 'Protokolldatei herunterladen'
       file_contents_heading: Dateiinhalte
