@@ -7,6 +7,7 @@ CHANGELOG
 
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
+* [`datitisev/flarum-maintenance`](https://flarum.org/extension/datitisev/flarum-maintenance)
 * [`fof/mason`](https://github.com/FriendsOfFlarum/mason)
 * [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff)
 * [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard)
@@ -26,6 +27,7 @@ CHANGELOG
 * [`flarum/gdpr`](https://github.com/flarum/gdpr)
 * [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
 * [`fof/categories`](https://github.com/FriendsOfFlarum/categories)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors)
 * [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective)
 * [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
