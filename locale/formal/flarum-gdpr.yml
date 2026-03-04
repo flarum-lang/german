@@ -20,8 +20,18 @@ flarum-gdpr:
         heading: DSGVO-Einstellungen
         help_text: 'Auf der Suche nach den DSGVO-Einstellungen? Diese befinden sich auf der Seite der Erweiterung.'
       user_table_data:
+        column: Spalte
+        extension: Erweiterung
         help_text: "In den meisten Fällen werden alle Spalten, die der <code>Benutzer</code>-Tabelle hinzugefügt werden, automatisch behandelt, sowohl für den Export von Daten als auch für das Löschen.\nEs gibt jedoch einige Sonderfälle, die im Folgenden aufgeführt sind.\n"
+        'no': Nein
+        nullable: Nullbar
+        pii: 'personenbezogene Daten'
+        pii_tooltip: 'Diese Spalte gilt als personenbezogene Information und wird in anonymisierten Kontexten (z. B. anonymisierten Ereignis-Payloads) unkenntlich gemacht.'
+        redacted_on_export: 'Bei Export geschwärzt'
+        redacted_on_export_tooltip: 'Der Wert dieser Spalte wird beim Generieren eines Benutzerdatenexports gelöscht (auf null gesetzt). Die Spalte erscheint weiterhin im Export mit einem Nullwert.'
         title: 'Daten der Benutzertabelle'
+        type: Typ
+        'yes': Ja
     nav:
       gdpr_button: DSGVO-Integrationen
     permissions:
@@ -111,6 +121,7 @@ flarum-gdpr:
       avatar:
         delete_description: 'Löscht den Avatar des Benutzers aus dem Dateisystem.'
         export_description: 'Ruft den Avatar des Benutzers aus dem Dateisystem ab und schließt ihn in den Export ein.'
+      default_user_action: 'Keine Aktion, wird standardmäßig von der Benutzertabellen-Datenverarbeitung behandelt.'
       discussions:
         export_description: 'Exportiert alle Diskussionen, die der Benutzer begonnen hat. Die Daten beschränken sich auf Titel und Erstellungsdatum.'
       forum:
