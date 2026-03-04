@@ -7,7 +7,9 @@ CHANGELOG
 
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
+* [`fof/mason`](https://github.com/FriendsOfFlarum/mason)
 * [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff)
+* [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard)
 * [`imdong/flarum-ext-visible-to-op-only`](https://github.com/imdong/flarum-ext-visible-to-op-only)
 * [`kyrne/evergreen`](https://github.com/KyrneDev/Evergreen)
 * [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor)
@@ -22,6 +24,7 @@ CHANGELOG
 * [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
 * [`ianm/translate`](https://flarum.org/extension/ianm/translate)
 * [`kilowhat/flarum-ext-formulaire`](https://flarum.org/extension/kilowhat/flarum-ext-formulaire)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
 
 
 Alle Änderungen: [1.25.9...1.25.10](https://github.com/flarum-lang/german/compare/1.25.9...1.25.10).
