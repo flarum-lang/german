@@ -78,10 +78,14 @@ kilowhat-formulaire:
   forum:
     auto-discussion-options-modal:
       field:
+        content: Beitragsinhalt
+        tags: Diskussionsthemen
         title: Diskussionstitel
     confirmation-email-options-modal:
       field:
+        message: Text
         title: Titel
+      submit: 'Änderungen überprüfen'
       title: E-Mail-Vorlage
     discussion-composer:
       field:
@@ -166,6 +170,9 @@ kilowhat-formulaire:
         translate: Übersetzen
       template-export: 'Vorlagen importieren/exportieren'
     form-edit:
+      auto-discussion-options: 'Optionen für neue Diskussionen'
+      email-confirmation-options: 'Vorlage der Bestätigungs-E-Mail'
+      exiting-with-unsaved-data: 'Sie haben ungespeicherte Änderungen. Möchtest du die Seite wirklich verlassen?'
       expert-mode-warning: "Erweiterte Feldattribute sind sichtbar. Lies unbedingt die Dokumentation zu diesen Funktionen, da du sonst möglicherweise Fehler verursachen kannst!\n"
       field:
         accept-submissions: 'Neue Einreichungen erlauben'
@@ -174,13 +181,22 @@ kilowhat-formulaire:
         enable: Aktivieren
         link: 'Spezielle Formulartypen'
         max-submissions: 'Maximale Anzahl Einreichungen (leer lassen für unbegrenzt)'
+        notify-emails: 'Eine Kopie der Daten an die durch Kommas getrennten Liste von E-Mail-Adressen senden'
         permission-edit-any: 'Jede Einreichung bearbeiten'
         permission-edit-own: 'Eigene Einreichung bearbeiten'
         permission-see-any: 'Jede Einreichung ansehen'
         permission-see-own: 'Eigene Einreichung ansehen'
+        require-submission:
+          switch: 'Für die Nutzung des Forums ist die Einreichung erforderlich'
+          warning: 'Nach dem Speichern werden alle Benutzer mit einem unvollständigen Formular aus dem Forum ausgesperrt, bis sie das Formular erneut einreichen. Weitermachen?'
+        send-confirmation-to-participants: 'Bestätigungs-E-Mail an Teilnehmer senden'
+        show-on-creation:
+          user: 'Bei der Anmeldung anzeigen'
         title: 'Öffentlicher Titel'
+        web-confirmation-message: 'Bestätigungsmeldung auf der Seite (Formatierung aktiviert)'
       link-options:
         all-groups: 'Für jede Gruppe'
+        all-tags: 'Für jedes Thema'
         groups: Benutzerprofil
         standalone: Eigenständig
         tags: Diskussionsfelder
@@ -189,6 +205,9 @@ kilowhat-formulaire:
       section:
         permissions: Berechtigungen
         template: Vorlage
+      warnings:
+        show-on-composer-invalid-permissions: "Stelle sicher, dass die Berechtigungen „Eigene anzeigen” und „Eigene bearbeiten” mit den Personen übereinstimmen, die Diskussionen mit den ausgewählten Themen starten können, um „In Composer anzeigen” zu verwenden. Wenn du dir nicht sicher bist, wähle „Mitglieder”. Diese Meldung kann auch dann angezeigt werden, wenn deine Einstellungen korrekt sind.\n"
+        show-on-signup-invalid-permissions: "Du musst nicht genehmigten Mitgliedern die Berechtigungen „Eigene anzeigen“ und „Eigene bearbeiten“ zuweisen, um „Bei Anmeldung anzeigen“ verwenden zu können.\n"
     form-index:
       columns:
         accept-submissions: Offen
@@ -233,11 +252,28 @@ kilowhat-formulaire:
     options-editor:
       columns:
         title: Titel
+    permission-controls:
+      disabled_members_button: 'Nicht aktivierte und suspendierte Mitglieder'
+      everyone_button: '=> core.admin.permissions_controls.everyone_button'
+      inherit: 'Standardeinstellungen verwenden'
+      members_button: 'Aktivierte Mitglieder'
     require-submission-alert:
       action: 'Formular öffnen'
       message: 'Wir haben den Zugriff auf dein Konto vorübergehend eingeschränkt, bis du das Formular „{title}“ eingereicht hast.'
+    save-controls:
+      redo: Wiederholen
+      save: Speichern
+      saved-at: 'Gespeichert {ago}'
+      undo: Rückgängig
+      unsaved-changes: 'Es gibt ungespeicherte Änderungen'
+      validation-errors: 'Wir haben einige Fehler in deiner Einreichung gefunden'
     show-advanced-attributes-modal:
+      attribute:
+        key: Schlüssel
+        translationKey: Übersetzungsschlüssel
+      close: Schließen
       title: 'Erweiterte Feldattribute anzeigen'
+      toggle: 'Alle umschalten'
     submission-index:
       columns:
         actions: Aktionen
@@ -252,12 +288,18 @@ kilowhat-formulaire:
       latest: 'Neueste Einreichungen'
       oldest: 'Älteste Einreichungen'
     submission:
+      delete-confirmation: 'Die Einreichung vom {date} wird dauerhaft gelöscht'
       form-closed: 'Dieses Formular ist geschlossen.'
       form-full: 'Dieses Formular hat die maximale Anzahl erlaubter Einreichungen erreicht.'
       restore: Wiederherstellen
     template-editor:
+      add-field: 'Ein Feld hinzufügen'
+      description: Beschreibung
+      max: Maximum
+      min: Minimum
       missing-title: 'Feld ohne Titel'
       no-answer: 'Nicht beantwortet'
+      required: Erforderlich
       title: Titel
       titleTranslationKey: '(Expert) Übersetzungsschlüssel für Titel'
       type:
