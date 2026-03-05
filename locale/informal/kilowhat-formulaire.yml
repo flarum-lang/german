@@ -27,10 +27,22 @@ kilowhat-formulaire:
       history-controls: 'Schaltflächen für rückgängig/wiederholen auf der Einreichungsseite anzeigen'
       horizontal-layout: 'Horizontales Formularlayout verwenden'
       horizontal-layout-locations:
+        discussionComposer: Diskussions-Composer
+        discussionEdit: 'Modal zur Diskussionsbearbeitung'
+        discussionView: 'Container für Diskussionsansicht'
+        profileEdit: Profil-Bearbeitungsseite
+        profileView: Profil-Anzeigeseite
+        signUp: 'Anmeldeformular (nur Formulaire-Felder)'
         standaloneEdit: 'Separate Seite zum Ausfüllen/Bearbeiten'
         standaloneView: 'Separate Anzeigeseite'
       max-file-size: 'Maximale Dateigröße (kB)'
+      noByobuFields: 'Diskussionsfelder nicht mit privaten Diskussionen aus der Byobu-Erweiterung integrieren'
+      noByobuFieldsHelp: 'Standardmäßig gelten Diskussionsfelder, die nicht Themen-spezifisch sind, für alle Diskussionen, einschließlich privater Diskussionen.'
       radio-style: Optionsfeldstil
+      replacementPatternLocale: 'Bei der Anwendung eines Ersetzungsmusters verwendete Sprache'
+      replacementPatternLocaleHelp: "Die Standardoption „Auto“ bedeutet, dass die Sprache des Benutzers, der das Formular abgeschickt hat, verwendet wird, wenn keine Warteschlange aktiv ist. Wenn eine Warteschlange aktiv ist, wird die Standardsprache des Forums verwendet. Diese Einstellung wirkt sich sowohl auf Benachrichtigungs-E-Mails als auch auf die automatische Erstellung von Diskussionen aus.\n"
+      replacementPatternLocaleOptions:
+        auto: Automatisch
       side-nav-on-submission: 'Seitennavigation auf der Einreichungsseite anzeigen'
       style-options:
         far-circle: 'FontAwesome rundes Standardsymbol'
@@ -41,6 +53,11 @@ kilowhat-formulaire:
         switch: Flarum-Schalter
       title: 'Globale Formulareinstellungen'
       translateManually: 'Manuelle Formularübersetzung aktivieren'
+      translateManuallyHelp: "Wenn aktiv, können Feldnamen in der Benutzeroberfläche des Formular-Managers übersetzt werden. Im Forum müssen mehrere Sprachen aktiv sein.\n"
+      translateWithTranslator: 'Formularübersetzung mit der Flarum-Translator-API aktivieren'
+      translateWithTranslatorHelp: "Wenn aktiv, können Feldnamen über lokale Erweiterungen und Sprachpakete angepasst werden. Informationen zur Verwendung dieser Funktion findest du in der Dokumentation.\n"
+      uniformComposerLayout: 'Einheitliches Layout für Diskussions-Composer'
+      uniformComposerLayoutHelp: "Ändert das Design der Themen, Titel- und Inhaltsfelder, damit sie zu Formulaire passen. Dieses Layout benötigt noch mehr Platz, daher wird empfohlen, die Erweiterung <a>Composer Page</a> zu installieren und zu aktivieren.\n"
   api:
     cannot-change-form-type: 'Du kannst den Formulartyp nicht mehr ändern, wenn bereits Einreichungen vorhanden sind'
     export:
@@ -118,25 +135,38 @@ kilowhat-formulaire:
       title: 'Neues Formular'
     form-edit-header:
       access-status:
+        both: 'Erstellen und bearbeiten'
         closed: Geschlossen
+        create: 'Nur erstellen'
         disabled: Entwurf
+        edit: 'Nur bearbeiten'
+        enabled: Aktiviert
       back: Zurück
       category:
         discussion: '=> kilowhat-formulaire.ref.type.discussion'
         standalone: '=> kilowhat-formulaire.ref.type.standalone'
         user: '=> kilowhat-formulaire.ref.type.user'
+      controls: Steuerelemente
       delete: 'Dauerhaft löschen'
       delete-confirmation: 'Das Formular „{title}“ wird dauerhaft gelöscht'
+      disable-expert-mode: 'Expertenmodus deaktivieren'
+      enable-expert-mode: 'Expertenmodus aktivieren'
       fields:
         private-title: 'Privater Titel'
         slug: 'Benutzerdefinierter URL-Slug (optional)'
       hide: Löschen
       restore: Wiederherstellen
+      show-advanced-attributes: 'Erweiterte Attribute anzeigen...'
       tabs:
         access: Zugriff
+        notifications: Benachrichtigungen
+        placement: Platzierung
         submissions: Einreichungen
         template: Vorlage
+        translate: Übersetzen
+      template-export: 'Vorlagen importieren/exportieren'
     form-edit:
+      expert-mode-warning: "Erweiterte Feldattribute sind sichtbar. Lies unbedingt die Dokumentation zu diesen Funktionen, da du sonst möglicherweise Fehler verursachen kannst!\n"
       field:
         accept-submissions: 'Neue Einreichungen erlauben'
         allow-modification: 'Benutzern erlauben, ihre Einreichungen zu bearbeiten'
@@ -164,6 +194,7 @@ kilowhat-formulaire:
         accept-submissions: Offen
         actions: Aktionen
         allow-modification: Bearbeitet
+        enabled: Aktiviert
         submissions: Einreichungen
         title: Titel
       edit: Bearbeiten
@@ -202,6 +233,9 @@ kilowhat-formulaire:
     options-editor:
       columns:
         title: Titel
+    require-submission-alert:
+      action: 'Formular öffnen'
+      message: 'Wir haben den Zugriff auf dein Konto vorübergehend eingeschränkt, bis du das Formular „{title}“ eingereicht hast.'
     show-advanced-attributes-modal:
       title: 'Erweiterte Feldattribute anzeigen'
     submission-index:
