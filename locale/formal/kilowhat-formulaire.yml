@@ -75,12 +75,16 @@ kilowhat-formulaire:
         user_id: '=> kilowhat-formulaire.ref.submission-meta.user_id'
         user_joined_at: '=> kilowhat-formulaire.ref.submission-meta.user_joined_at'
         user_username: '=> kilowhat-formulaire.ref.submission-meta.user_username'
+    unauthorized-form: 'Du verfügst nicht über die erforderlichen Berechtigungen, um das Formular mit der ID {id} auszufüllen'
   forum:
     auto-discussion-options-modal:
       field:
         content: Beitragsinhalt
         tags: Diskussionsthemen
         title: Diskussionstitel
+    badge:
+      hidden: Verbergen
+      locked: Gesperrt
     confirmation-email-options-modal:
       field:
         message: Text
@@ -97,7 +101,9 @@ kilowhat-formulaire:
       edit: Bearbeiten
       empty: 'Noch keine Daten'
     error-page:
+      denied-description: 'Es sieht so aus, als hättest du keinen Zugriff auf diesen Inhalt. Versuche dich anzumelden.'
       denied-title: 'Keine Genehmigung'
+      notfound-description: 'Dieser Inhalt existiert entweder nicht oder du hast möglicherweise keinen Zugriff darauf.'
       notfound-title: 'Nicht gefunden'
     export:
       fields: Felder
@@ -172,6 +178,7 @@ kilowhat-formulaire:
     form-edit:
       auto-discussion-options: 'Optionen für neue Diskussionen'
       email-confirmation-options: 'Vorlage der Bestätigungs-E-Mail'
+      email-notification-options: 'Vorlage für Benachrichtigungs-E-Mail'
       exiting-with-unsaved-data: 'Sie haben ungespeicherte Änderungen. Möchtest du die Seite wirklich verlassen?'
       expert-mode-warning: "Erweiterte Feldattribute sind sichtbar. Lies unbedingt die Dokumentation zu diesen Funktionen, da du sonst möglicherweise Fehler verursachen kannst!\n"
       field:
@@ -206,6 +213,7 @@ kilowhat-formulaire:
         permissions: Berechtigungen
         template: Vorlage
       warnings:
+        require-submission-invalid-permissions: "Du musst nicht genehmigten Mitgliedern die Berechtigungen „Eigene Beiträge anzeigen“ und „Eigene Beiträge bearbeiten“ zuweisen, um die Option „Zur Nutzung des Forums ist eine Anmeldung erforderlich“ verwenden zu können.\n"
         show-on-composer-invalid-permissions: "Stelle sicher, dass die Berechtigungen „Eigene anzeigen” und „Eigene bearbeiten” mit den Personen übereinstimmen, die Diskussionen mit den ausgewählten Themen starten können, um „In Composer anzeigen” zu verwenden. Wenn du dir nicht sicher bist, wähle „Mitglieder”. Diese Meldung kann auch dann angezeigt werden, wenn deine Einstellungen korrekt sind.\n"
         show-on-signup-invalid-permissions: "Du musst nicht genehmigten Mitgliedern die Berechtigungen „Eigene anzeigen“ und „Eigene bearbeiten“ zuweisen, um „Bei Anmeldung anzeigen“ verwenden zu können.\n"
     form-index:
@@ -247,11 +255,16 @@ kilowhat-formulaire:
         seeOwnDiscussion: '=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion'
         seeOwnUser: '=> kilowhat-formulaire.ref.permissions.seeOwnUser'
       title: 'Globale Berechtigungen'
+    items-editor:
+      add: 'Zeile hinzufügen'
+      remove: 'Zeile entfernen'
     nav:
       forms: '=> kilowhat-formulaire.ref.manager'
     options-editor:
       columns:
         title: Titel
+      new-placeholder: 'Neue Option...'
+      remove: 'Option entfernen'
     permission-controls:
       disabled_members_button: 'Nicht aktivierte und suspendierte Mitglieder'
       everyone_button: '=> core.admin.permissions_controls.everyone_button'
@@ -280,23 +293,30 @@ kilowhat-formulaire:
         date: Datum
         user: Benutzer
       empty: 'Noch keine Einreichungen'
+      export: Exportieren
+      form-edit: 'Formular bearbeiten'
       form-show: 'Neue Einreichung'
       guest: Gast
+      load-more: 'Mehr laden'
       search: 'Einreichungen suchen...'
       show: Anzeigen
     submission-sort:
       latest: 'Neueste Einreichungen'
       oldest: 'Älteste Einreichungen'
     submission:
+      delete: 'Dauerhaft löschen'
       delete-confirmation: 'Die Einreichung vom {date} wird dauerhaft gelöscht'
       form-closed: 'Dieses Formular ist geschlossen.'
       form-full: 'Dieses Formular hat die maximale Anzahl erlaubter Einreichungen erreicht.'
+      hide: Löschen
       restore: Wiederherstellen
     template-editor:
       add-field: 'Ein Feld hinzufügen'
       delete: 'Feld löschen'
       description: Beschreibung
+      duplicate: 'Feld duplizieren'
       email: E-Mail
+      fill-permission: '(Experte) Ausfüllberechtigungen'
       integer: Ganzzahl
       max: Maximum
       min: Minimum
@@ -307,10 +327,20 @@ kilowhat-formulaire:
       title: Titel
       titleTranslationKey: '(Expert) Übersetzungsschlüssel für Titel'
       type:
+        checkbox: Kontrollkästchen
+        content: Inhalt
         date: Datum
+        items: Mehrfachauswahl
         long: 'Langer Text'
         number: Zahl
+        radio: Optionsfeld
+        select: Dropdown-Liste
         short: 'Kurzer Text'
+        upload: Hochladen
+    translate:
+      option-heading: 'Option #{number}'
+    upload-editor:
+      remove: 'Datei entfernen'
   mail:
     edit: Bearbeiten
     footer: 'Gesendet von {title}'
