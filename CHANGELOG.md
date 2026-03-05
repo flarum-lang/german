@@ -30,6 +30,7 @@ CHANGELOG
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors)
 * [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
 * [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
 * [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
