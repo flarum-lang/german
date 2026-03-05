@@ -22,6 +22,10 @@ fof-geoip:
         heading: IP-Lookup-Dienst
         help: 'Wähle einen Dienst für IP-Lookups aus. Einige Dienste haben Ratenbeschränkungen. Weitere Informationen findest du in der Dokumentation des jeweiligen Dienstes.'
       quota_label: Lookup-Kontingent
+      raw_http_response_label: 'Roher HTTP-Antworttext'
+      request_options_label: Anfrageoptionen
+      request_url_label: Anfrage-URL
+      response_headers_label: Antwort-Header
       security_label: 'Sicherheitsmodul (erfordert Professional Plus)'
       service_freegeoip_description: 'Verwende <b>https://freegeoip.app/</b>, um bis zu 15.000 IP-Ländercodes pro Stunde kostenlos abzurufen.'
       service_freegeoip_label: FreeGeoIP
@@ -49,8 +53,11 @@ fof-geoip:
         heading: 'Dienstkonfiguration testen'
         help: 'Teste die Konfiguration deines IP-Lookup-Dienstes mit einer Beispiel-IP-Adresse. Speichere deine Einstellungen vor dem Testen.'
       test_button: 'Dienst testen'
+      test_error: 'Beim Testen des Dienstes ist ein Fehler aufgetreten.'
       test_error_details_label: 'Fehlerdetails:'
       test_http_status_code_label: 'HTTP-Statuscode:'
+      test_ip_required: 'Bitte gib eine IP-Adresse zum Testen ein.'
+      test_processed_service_response_label: 'Verarbeitete Serviceantwort:'
       test_response_time_label: 'Antwortzeit:'
       test_result_title: Testergebnis
       test_service_help: 'Gib eine IPv4- oder IPv6-Adresse ein, um deine aktuelle Dienstkonfiguration zu testen.'

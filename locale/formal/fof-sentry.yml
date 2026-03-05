@@ -5,17 +5,23 @@
 fof-sentry:
   admin:
     sections:
+      backend_performance: 'Überwachung der Backend-Leistung'
+      backend_performance_help: 'Verfolge die Leistung und Profilerstellung des PHP-Backends. Lege Abtastraten fest, um den Overhead zu steuern.'
+      database_monitoring: 'Überwachung von Datenbankabfragen'
+      database_monitoring_help: 'Überwache die Leistung von Datenbankabfragen, erkennen langsame Abfragen und N+1-Probleme. Nur aktiv, wenn die Backend-Leistungsüberwachung aktiviert ist.'
       frontend_monitoring: 'Frontend (JavaScript)-Überwachung'
       frontend_monitoring_help: 'JavaScript-Fehler und Frontend-Leistung überwachen. Beachte, dass die Aktivierung bestimmter Funktionen die Paketgröße erhöht.'
       general: 'Allgemeine Einstellungen'
       general_help: 'Konfiguriere deine Sentry-DSN- und Umgebungseinstellungen.'
       user_context: Benutzerkontext
+      user_context_help: 'Lege fest, welche Benutzerinformationen mit Fehlerberichten an Sentry gesendet werden.'
     sentry_settings: Sentry-Einstellungen
     settings:
-      dsn_backend_help: 'Dieser DSN wird nur für Backend-Fehler verwendet. Dies ist nützlich, wenn du ein anderes Projekt für Backend-Fehler verwenden oder ein Relay verwenden möchtest, um Backend-Fehler an Sentry zu senden (z. B. um die Leistung zu verbessern).'
-      dsn_backend_label: 'Sentry DSN (nur Backend)'
-      dsn_help: 'Wenn du einen Relais-DSN als primären DSN verwendest, darfst du "Benutzer-Feedback" nicht ankreuzen, da es sonst nicht funktioniert.'
-      dsn_label: 'Sentry DSN'
+      dsn_backend_help: 'Optionaler separater DSN ausschließlich für Backend-Fehler (PHP). Nützlich, um ein anderes Sentry-Projekt für Backend-Fehler zu verwenden, die Weiterleitung über ein Relay für eine verbesserte Leistung zu nutzen oder die Fehlerverfolgung für Frontend und Backend zu trennen. Wenn nicht festgelegt, wird der oben angegebene primäre DSN für beide verwendet.'
+      dsn_backend_label: 'Sentry-DSN (nur Backend)'
+      dsn_help: 'Der Name deiner Sentry-Datenquelle – die primäre Verbindungs-URL für die Fehlerberichterstattung im Frontend und Backend. Diese findest du in deinen Sentry-Projekteinstellungen. Wichtig: Wenn du einen Relay-DSN verwenden, deaktiviere „User Feedback“, da hierfür ein direkter Zugriff auf Sentry erforderlich ist.'
+      dsn_label: Sentry-DSN
+      environment_help: 'Kennzeichne alle Ereignisse mit einem Umgebungsnamen (z. B. „Produktion“, „Staging“, „Entwicklung“). Auf diese Weise kannst du Fehler nach Bereitstellungsumgebung filtern und unterschiedliche Alarmregeln für jede Umgebung festlegen.'
       environment_label: 'Sentry Umgebung'
       javascript_console_label: 'JavaScript-Konsole erfassen'
       javascript_label: 'JavaScript-Fehler melden'
@@ -25,8 +31,11 @@ fof-sentry:
       javascript_replays_session_sample_rate_help: 'Die Abtastrate für Wiederholungen, die sofort mit der Aufzeichnung beginnen und die gesamte Sitzung des Nutzers/der Nutzerin andauern. {br}✱ Wenn du über eine aktivierte Wiedergabeoption verfügst, erhöht sich die Größe des Pakets um ~150 KB.'
       javascript_trace_sample_rate: 'Rate der Front-End-Leistungsüberwachung (0 - 100)'
       javascript_trace_sample_rate_help: 'Die Abtastrate für alle Transaktionen. {br} ✱ Wenn du diese Funktion aktivierst, erhöht sich die Paketgröße um ~30 KB.'
-      monitor_performance_label: 'Rate der Back-End-Leistungsüberwachung (0 - 100)'
+      monitor_performance_help: 'Prozentsatz der zu verfolgenden Backend-Anfragen (0 = deaktiviert, 100 = alle verfolgen). Leistungsüberwachungen umfassen Anfrage-/Antwortzeiten, Datenbankabfragen und Ladezeiten von Erweiterungen. Empfehlung: Beginne mit 10–25 % in der Produktion und 100 % in der Staging-Umgebung. Niedrigere Werte reduzieren das Datenvolumen und die Sentry-Kosten.'
+      monitor_performance_label: 'Abtastrate der Backend-Leistungsüberwachung'
       profile_rate_help: "Dies bezieht sich auf die Rate der Leistungsüberwachung. Die Leistungsüberwachung muss aktiviert sein, damit sie funktioniert.\n\n{br}Die Aktivierung dieser Funktion wirkt sich auf die Antwortzeit aus, da die Profilerstellung und die an Sentry gesendeten Anfragen einen Overhead verursachen. Erfahre, wie du dies ausgleichen kannst @ <a>https://docs.sentry.io/platforms/php/profiling/#improve-response-time</a>.\n{br}{icon} <bold>Diese Funktion erfordert den Sampling-Profiler Excimer von Wikipedia, der nur für Linux verfügbar ist.</bold>\n"
-      profile_rate_label: 'Back-End Profiling Rate (0 - 100)'
-      send_user_emails_label: 'Benutzer-E-Mail-Adressen mit Sentry-Berichten senden?'
-      user_feedback_label: Benutzer-Feedback
+      profile_rate_label: 'Abtastrate für Backend-Profiling'
+      send_user_emails_help: 'Wenn aktiviert, werden E-Mail-Adressen der Benutzer in alle Sentry-Ereignisse aufgenommen, um Benutzer zu kontaktieren und Fehler zu filtern. Datenschutzhinweis: Überprüfe deine Datenschutzrichtlinie, bevor du diese Option aktivierst. Benutzer-ID, Benutzername und Gruppen werden unabhängig von dieser Einstellung immer berücksichtigt.'
+      send_user_emails_label: 'Benutzer-E-Mail-Adressen mit Berichte aufnehmen'
+      user_feedback_help: 'Wenn aktiviert, wird Benutzern nach Auftreten eines Fehlers ein Feedback-Formular angezeigt, in dem sie beschreiben können, was passiert ist. Das Formular wird automatisch mit ihrem Benutzernamen, ihrer E-Mail-Adresse (sofern aktiviert) und ihrer Gruppenmitgliedschaft vorausgefüllt. Erstellt einen direkten Kommunikationskanal mit Benutzern, bei denen Probleme auftreten. Erfordert einen direkten Sentry-DSN (keinen Relay-DSN).'
+      user_feedback_label: 'Benutzer-Feedback-Dialog aktivieren'
