@@ -294,16 +294,23 @@ kilowhat-formulaire:
       restore: Wiederherstellen
     template-editor:
       add-field: 'Ein Feld hinzufügen'
+      delete: 'Feld löschen'
       description: Beschreibung
+      email: E-Mail
+      integer: Ganzzahl
       max: Maximum
       min: Minimum
       missing-title: 'Feld ohne Titel'
       no-answer: 'Nicht beantwortet'
+      regex: 'Regulärer Ausdruck'
       required: Erforderlich
       title: Titel
       titleTranslationKey: '(Expert) Übersetzungsschlüssel für Titel'
       type:
         date: Datum
+        long: 'Langer Text'
+        number: Zahl
+        short: 'Kurzer Text'
   mail:
     edit: Bearbeiten
     footer: 'Gesendet von {title}'
