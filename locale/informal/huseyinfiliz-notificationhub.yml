@@ -4,13 +4,46 @@
 
 huseyinfiliz-notificationhub:
   admin:
+    permissions:
+      send_all: 'Benachrichtigungen an alle Benutzer senden'
+      send_user: 'Benachrichtigungen an einzelne Benutzer senden'
     settings:
+      add_button: 'Benachrichtigungsart hinzufügen'
+      add_notification_type: 'Benachrichtigungsart hinzufügen'
+      delete_confirm: 'Möchtest du diese Benachrichtigungsart und alle zugehörigen Benachrichtigungen wirklich löschen?'
+      edit_notification_type: 'Benachrichtigungsart bearbeiten'
       fields:
+        actions: Aktionen
+        active: Aktiv
+        color: 'Farbe der Benachrichtigungsart'
         default_message_key: Standardnachricht
         default_recipients: Standardempfänger
         default_url: Standardlink
+        description: 'Beschreibung der Benachrichtigungsart'
+        excerpt_key: Standardauszug
         icon: Standardsymbol
+        name: 'Name der Benachrichtigungsart'
+        permission: 'Berechtigung der Benachrichtigungsart'
+        sort_order: Sortierreihenfolge
+      no_data: 'Noch keine Benachrichtigungsarten.'
       save: Speichern
+    title:
+      page_title: Benachrichtigungsarten
   forum:
+    links:
+      notification_all: 'Benachrichtigung senden'
+      notification_individual: 'Benachrichtigung senden'
     modal_notification:
+      message_label: Nachricht
+      no_notification_types: 'Keine aktiven Benachrichtigungsarten gefunden.'
+      notification_type_label: Benachrichtigungsart
+      preview_message_placeholder: Benachrichtigungsnachricht...
+      preview_title: Benachrichtigungsvorschau
       recipients_label: Empfänger
+      submit_button: 'Benachrichtigung senden'
+      title_text: 'Benachrichtigung senden'
+      url_label: Ziellink
+      url_placeholder: 'https://www.beispiel.de'
+    recipient_kinds:
+      group: Gruppe
+      user: Benutzer
