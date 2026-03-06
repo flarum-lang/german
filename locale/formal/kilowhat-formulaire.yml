@@ -82,6 +82,9 @@ kilowhat-formulaire:
         content: Beitragsinhalt
         tags: Diskussionsthemen
         title: Diskussionstitel
+      introduction: "Diese Einstellungen gelten für neue Diskussionen, die automatisch durch das Absenden eines mit einem Thema verknüpften Formulars erstellt wurden. Du kannst Werte aus der Formulareinreichung verwenden, indem du eine Klammer-Syntax mit dem Feld-Slug verwendest. Standardmäßig werden { title } und { content } verwendet.\n"
+      submit: 'Änderungen überprüfen'
+      title: 'Automatische Diskussionsoptionen'
     badge:
       hidden: Verbergen
       locked: Gesperrt
@@ -185,6 +188,7 @@ kilowhat-formulaire:
         accept-submissions: 'Neue Einreichungen erlauben'
         allow-modification: 'Benutzern erlauben, ihre Einreichungen zu bearbeiten'
         automatic-discussion: 'Automatisch Diskussion aus Formular-Einreichung erstellen'
+        automatic-discussion-help: "Wenn aktiviert, bleibt das Formular wie ein eigenständiges Formular zugänglich. Eingereichte Beiträge werden automatisch erstellt und mit neuen Diskussionen verknüpft.\n"
         enable: Aktivieren
         link: 'Spezielle Formulartypen'
         max-submissions: 'Maximale Anzahl Einreichungen (leer lassen für unbegrenzt)'
@@ -198,6 +202,7 @@ kilowhat-formulaire:
           warning: 'Nach dem Speichern werden alle Benutzer mit einem unvollständigen Formular aus dem Forum ausgesperrt, bis sie das Formular erneut einreichen. Weitermachen?'
         send-confirmation-to-participants: 'Bestätigungs-E-Mail an Teilnehmer senden'
         show-on-creation:
+          discussionHelp: "Der Flarum-Diskussions-Composer ist nicht dafür geeignet, viele Felder zu enthalten. Du solltest die Erweiterung <a>Composer Page</a> installieren und aktivieren, um sicherzustellen, dass alle Felder auf allen Geräten zugänglich bleiben.\n"
           user: 'Bei der Anmeldung anzeigen'
         title: 'Öffentlicher Titel'
         web-confirmation-message: 'Bestätigungsmeldung auf der Seite (Formatierung aktiviert)'
@@ -213,6 +218,8 @@ kilowhat-formulaire:
         permissions: Berechtigungen
         template: Vorlage
       warnings:
+        auto-link-permission-warning: "Formulare mit der Option „Diskussionen automatisch erstellen“ verwenden die globale Berechtigung zum Ausfüllen, wenn sie eigenständig aufgerufen werden.\n"
+        linked-form-is-draft: "Dieses Formular befindet sich derzeit im Entwurfsmodus. Aktiviere es unter „Zugriff“, damit die Felder im Forum angezeigt werden.\n"
         require-submission-invalid-permissions: "Du musst nicht genehmigten Mitgliedern die Berechtigungen „Eigene Beiträge anzeigen“ und „Eigene Beiträge bearbeiten“ zuweisen, um die Option „Zur Nutzung des Forums ist eine Anmeldung erforderlich“ verwenden zu können.\n"
         show-on-composer-invalid-permissions: "Stelle sicher, dass die Berechtigungen „Eigene anzeigen” und „Eigene bearbeiten” mit den Personen übereinstimmen, die Diskussionen mit den ausgewählten Themen starten können, um „In Composer anzeigen” zu verwenden. Wenn du dir nicht sicher bist, wähle „Mitglieder”. Diese Meldung kann auch dann angezeigt werden, wenn deine Einstellungen korrekt sind.\n"
         show-on-signup-invalid-permissions: "Du musst nicht genehmigten Mitgliedern die Berechtigungen „Eigene anzeigen“ und „Eigene bearbeiten“ zuweisen, um „Bei Anmeldung anzeigen“ verwenden zu können.\n"
@@ -282,6 +289,7 @@ kilowhat-formulaire:
       validation-errors: 'Wir haben einige Fehler in deiner Einreichung gefunden'
     show-advanced-attributes-modal:
       attribute:
+        fillPermission: Ausfüllberechtigung
         key: Schlüssel
         translationKey: Übersetzungsschlüssel
       close: Schließen
