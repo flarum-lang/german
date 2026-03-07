@@ -27,6 +27,7 @@ CHANGELOG
 * [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
 * [`askvortsov/flarum-saml`](https://github.com/askvortsov1/flarum-saml)
 * [`clarkwinkelmann/catch-the-fish`](https://github.com/clarkwinkelmann/catch-the-fish)
+* [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr)
 * [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
 * [`fof/categories`](https://github.com/FriendsOfFlarum/categories)
