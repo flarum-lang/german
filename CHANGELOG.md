@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`datitisev/flarum-maintenance`](https://flarum.org/extension/datitisev/flarum-maintenance)
 * [`fof/mason`](https://github.com/FriendsOfFlarum/mason)
+* [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards)
 * [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff)
 * [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard)
 * [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest)
