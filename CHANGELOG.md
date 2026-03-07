@@ -20,6 +20,7 @@ CHANGELOG
 * [`kyrne/evergreen`](https://github.com/KyrneDev/Evergreen)
 * [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor)
 * [`xelson/flarum-ext-chat`](https://github.com/Xelson/flarum-ext-chat)
+* [`yippy/flarum-ext-auth-ldap`](https://github.com/Yippy/flarum-ext-auth-ldap)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
@@ -44,6 +45,7 @@ CHANGELOG
 * [`ianm/translate`](https://flarum.org/extension/ianm/translate)
 * [`kilowhat/flarum-ext-formulaire`](https://flarum.org/extension/kilowhat/flarum-ext-formulaire)
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
+* [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover)
 
 
 Alle Änderungen: [1.25.9...1.25.10](https://github.com/flarum-lang/german/compare/1.25.9...1.25.10).
