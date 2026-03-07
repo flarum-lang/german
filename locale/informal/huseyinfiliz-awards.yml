@@ -64,10 +64,15 @@ huseyinfiliz-awards:
   forum:
     my_votes:
       add_vote: 'Stimme abgeben'
+      categories_remaining: 'Kategorien ohne Stimmen'
+      change: Ändern
       last_vote: 'Zuletzt abgestimmt: {time}'
+      no_votes: 'Du hast noch nicht abgestimmt'
       remove: Entfernen
       title: 'Deine Stimmen'
+      total_votes: '{count} Stimmen insgesamt'
       vote_now: 'Jetzt abstimmen'
+      votes_unlimited: '{count} Stimmen'
     progress:
       complete: Abgeschlossen!
     voting:

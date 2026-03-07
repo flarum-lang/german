@@ -25,6 +25,12 @@ datitisev-backup:
         bucket:
           description: 'S3-Bucket zum Hochladen.'
           label: Bucket
+        credentials-key:
+          description: AWS-Anmeldedaten-Schlüssel
+          label: Schlüssel
+        credentials-secret:
+          description: AWS-Anmeldedaten-Schlüssel
+          label: Secret
         credentials:
           key:
             description: AWS-Anmeldeinformationen-Schlüssel
@@ -52,6 +58,16 @@ datitisev-backup:
         access-token:
           description: 'Generiere ein oAuth 2-Zugriffstoken @https://www.dropbox.com/developers/apps.'
           label: Zugangstoken
+        help:
+          obtain-access-code-button: 'Dropbox öffnen'
+          obtain-access-code-label: 'Zugangscode erhalten (App-Schlüssel erforderlich)'
+          obtain-refresh-token-button: 'Code verwenden'
+          obtain-refresh-token-label: 'Verwende den Zugriffscode, um ein Aktualisierungstoken zu erhalten (erfordert App-Schlüssel und Secret)'
+          obtain-refresh-token-success: 'Aktualisierungstoken erfolgreich abgerufen und oben aktualisiert! Speichere die Änderungen, um sie zu sichern.'
+        key:
+          label: App-Schlüssel
+        secret:
+          label: App-Secret
       ftp:
         host:
           description: 'Der Hostname, zu dem Du dich mit FTP verbinden möchtest, zB: <em>ftp.yourdomain.local</em>.'
@@ -81,6 +97,11 @@ datitisev-backup:
           description: 'Der Benutzername für die Authentifizierung auf dem FTP-Server.'
           label: Benutzername
       gdrive:
+        client-id:
+          label: Client-ID
+        client-secret:
+          description: ' '
+          label: Client-Secret
         client:
           id:
             description: "Folge den Anweisungen @https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md, um ein Google-Projekt zu erstellen, Deine Client-ID und Dein Client-Geheimnis abzurufen.\n"
@@ -91,6 +112,9 @@ datitisev-backup:
         folder:
           description: 'https://drive.google.com/drive/u/0/folders/ID'
           label: Ordner-ID
+        help:
+          test_button: 'Verbindung testen'
+          test_success_alert: 'Erfolgreich mit Google Drive verbunden! Speichere die Änderungen, um die Einstellungen zu übernehmen.'
         refresh-token:
           description: "Folgen Sie den Anweisungen @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md, um das Aktualisierungstoken für Ihre Google oAuth-App abzurufen.\n"
           label: 'Token aktualisieren'
@@ -113,6 +137,9 @@ datitisev-backup:
       sftp: SFTP
       webdav: Webdav
       zip: Zip-Archiv
+    create_button: 'Neuen Adapter hinzufügen'
+    delete_button: Löschen
+    delete_confirmation: 'Möchtest du „{name}“ ({adapter}) wirklich löschen?'
     nav:
       description: 'Speicher Kopien Deines Forums.'
       label: Backup
