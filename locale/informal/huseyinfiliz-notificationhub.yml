@@ -29,6 +29,11 @@ huseyinfiliz-notificationhub:
       save: Speichern
     title:
       page_title: Benachrichtigungsarten
+  api:
+    message_required: 'Nachricht ist erforderlich.'
+    no_valid_recipients: 'Keine gültigen Empfänger gefunden.'
+    subject_id_required: 'Benachrichtigungsart ist erforderlich.'
+    user_ids_required: 'Benutzer-IDs sind erforderlich.'
   forum:
     links:
       notification_all: 'Benachrichtigung senden'
@@ -36,10 +41,12 @@ huseyinfiliz-notificationhub:
     modal_notification:
       message_label: Nachricht
       no_notification_types: 'Keine aktiven Benachrichtigungsarten gefunden.'
+      notification_sent_message: 'Benachrichtigungen wurden an {recipientsCount} Benutzer gesendet!'
       notification_type_label: Benachrichtigungsart
       preview_message_placeholder: Benachrichtigungsnachricht...
       preview_title: Benachrichtigungsvorschau
       recipients_label: Empfänger
+      recipients_placeholder: 'Gib einen Benutzernamen oder Gruppennamen ein...'
       submit_button: 'Benachrichtigung senden'
       title_text: 'Benachrichtigung senden'
       url_label: Ziellink

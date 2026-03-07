@@ -6,15 +6,15 @@ sycho-profile-cover:
   admin:
     max_size: 'Maximale Größe des Profiltitelbilds (in KB)'
     permission:
-      set_cover: 'Setze Profil-Cover'
+      set_cover: 'Profiltitelbild festlegen'
     thumbnails: 'Miniaturansichten erstellen'
   forum:
     added:
       error: 'Bild konnte nicht hochgeladen werden.'
       success: 'Profil-Cover aktualisiert.'
-    cover: Cover
-    edit_cover: 'Cover bearbeiten'
+    cover: Profiltitelbild
+    edit_cover: 'Profiltitelbild bearbeiten'
     notice: 'Maximale Größe: {size}'
     removed:
-      error: 'Cover konnte nicht entfernt werden. Versuche es später erneut.'
+      error: 'Profiltitelbild konnte nicht entfernt werden. Versuche es später erneut.'
       success: 'Profil-Cover entfernt.'
