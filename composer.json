@@ -12,7 +12,7 @@
     },
     "require": {
         "flarum/core": "^2.0",
-        "flarum-lang/utils": "^1.0"
+        "flarum-lang/utils": "^2.0"
     },
     "authors": [
         {
