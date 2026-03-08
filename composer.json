@@ -35,6 +35,9 @@
         "flarum-locale": {
             "code": "de",
             "title": "Deutsch"
+        },
+        "branch-alias": {
+            "dev-master": "1.x-dev"
         }
     }
 }
