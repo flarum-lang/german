@@ -24,13 +24,19 @@ core:
         bisect:
           begin_button_text: 'Bisect starten'
           continue_button_text: 'Bisect fortsetzen'
+          help: 'Hilft dabei, diejenige Erweiterung zu identifizieren, die das von dir beobachtete Problem verursacht. Dadurch wird das Forum automatisch in den Wartungsmodus (niedrig) versetzt, bis der Vorgang abgeschlossen ist.'
           label: Erweiterungs-Bisect
         bisect_modal:
+          description: "Dadurch wird das Forum bis zum Abschluss des Vorgangs in den Wartungsmodus (niedrig) versetzt. In jedem Schritt werden einige Erweiterungen deaktiviert, bis diejenige gefunden wurde, die das Problem verursacht. Sei also nicht überrascht, wenn Funktionen fehlen oder das Design des Themes anders ist. Lass diese Seite geöffnet und versuche, das Problem nach jedem Schritt auf einer separaten Seite zu reproduzieren. Du kannst jederzeit zu dieser Seite zurückkehren, wenn du sie versehentlich geschlossen hast.\n"
           end_button: 'Schließen und zur Erweiterungsseite gehen'
           issue_question: 'Tritt das Problem weiterhin auf?'
           issue_question_help: 'Versuche, das Problem auf einer separaten Seite zu reproduzieren, und antworte anhand des Ergebnisses.'
           no_button: Nein
+          result_description: "Das Forum befindet sich nicht mehr im Wartungsmodus. Die Erweiterung „Bisect“ wurde beendet. Basierend auf deinen Antworten zu den einzelnen Schritten ist die Ursache des Problems die folgende Erweiterung:\n"
+          start_button: 'Bisect starten'
           steps_left: 'Verbleibende Schritte: {steps}'
+          stop_button: 'Bisect beenden'
+          title: Erweiterungs-Bisect
           total_steps: 'Dafür sind {steps} Schritte nötig.'
           yes_button: Ja
         config_override:
@@ -60,6 +66,9 @@ core:
         sync_info: 'Dein Forum verwendet den synchronen Warteschlangentreiber. Aufträge werden sofort im Hauptprozess-Thread verarbeitet.'
         timeout_help: 'Maximaldauer, die ein einzelner Job ausgeführt werden kann. Der Standardwert beträgt 60 Sekunden.'
         timeout_label: 'Zeitlimit für Jobs (Sekunden)'
+      search:
+        driver_heading: 'Treiber suchen: {model}'
+        section_label: 'Treiber suchen'
     appearance:
       color_scheme_label: 'Farbschema (Standard)'
       color_schemes:
