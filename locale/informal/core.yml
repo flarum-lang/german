@@ -54,6 +54,8 @@ core:
       pgsql:
         search_configuration: 'Zu verwendende Suchkonfiguration'
       queue:
+        backoff_help: 'Zeit, die vor dem erneuten Versuch eines fehlgeschlagenen Jobs gewartet werden soll. Der Standardwert ist 0 Sekunden.'
+        backoff_label: 'Zurückstellen (Sekunden)'
         custom_driver: 'Dein Forum verwendet den {driver} Queue-Treiber, der von einer Erweiterung bereitgestellt wird.'
         memory_help: 'Maximaler Speicher, den der Queue-Worker vor dem Neustart verwenden kann. Der Standardwert beträgt 128 MB.'
         memory_label: 'Speicherlimit (MB)'
@@ -68,8 +70,11 @@ core:
         timeout_label: 'Zeitlimit für Jobs (Sekunden)'
       search:
         driver_heading: 'Treiber suchen: {model}'
+        driver_text: 'Wähle einen Treiber, der für die Suche nach diesem Modell verwendet werden soll.'
         section_label: 'Treiber suchen'
+      title: Fortgeschritten
     appearance:
+      allow_user_color_scheme_label: 'Benutzern die Auswahl ihres eigenen Farbschemas ermöglichen'
       color_scheme_label: 'Farbschema (Standard)'
       color_schemes:
         dark_hc_mode_label: '=> core.ref.dark_hc_mode_label'
@@ -685,7 +690,7 @@ core:
     delete: Löschen
     delete_forever: 'Endgültig löschen'
     discussions: Diskussionen
-    edit: Ändern
+    edit: Bearbeiten
     edit_user: 'Benutzer bearbeiten'
     email: E-Mail
     extensions: Erweiterungen
