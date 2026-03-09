@@ -7,6 +7,7 @@ CHANGELOG
 
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
+* [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue)
 * [`datitisev/flarum-maintenance`](https://flarum.org/extension/datitisev/flarum-maintenance)
 * [`fof/mason`](https://github.com/FriendsOfFlarum/mason)
 * [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
