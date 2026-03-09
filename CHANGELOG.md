@@ -2,6 +2,57 @@ CHANGELOG
 =========
 
 
+1.25.10 (2026-03-09)
+--------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue)
+* [`datitisev/flarum-maintenance`](https://flarum.org/extension/datitisev/flarum-maintenance)
+* [`fof/mason`](https://github.com/FriendsOfFlarum/mason)
+* [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
+* [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards)
+* [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff)
+* [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard)
+* [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest)
+* [`ianm/oauth-line`](https://github.com/imorland/flarum-ext-oauth-line)
+* [`ianm/oauth-reddit`](https://github.com/imorland/flarum-ext-oauth-reddit)
+* [`ianm/oauth-twitch`](https://github.com/imorland/flarum-ext-oauth-twitch)
+* [`imdong/flarum-ext-visible-to-op-only`](https://github.com/imdong/flarum-ext-visible-to-op-only)
+* [`kyrne/evergreen`](https://github.com/KyrneDev/Evergreen)
+* [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor)
+* [`xelson/flarum-ext-chat`](https://github.com/Xelson/flarum-ext-chat)
+* [`yippy/flarum-ext-auth-ldap`](https://github.com/Yippy/flarum-ext-auth-ldap)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`askvortsov/flarum-saml`](https://github.com/askvortsov1/flarum-saml)
+* [`clarkwinkelmann/catch-the-fish`](https://github.com/clarkwinkelmann/catch-the-fish)
+* [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
+* [`fof/categories`](https://github.com/FriendsOfFlarum/categories)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors)
+* [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
+* [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
+* [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer)
+* [`ianm/syndication`](https://github.com/imorland/syndication)
+* [`ianm/translate`](https://flarum.org/extension/ianm/translate)
+* [`kilowhat/flarum-ext-formulaire`](https://flarum.org/extension/kilowhat/flarum-ext-formulaire)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
+* [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover)
+
+
+Alle Änderungen: [1.25.9...1.25.10](https://github.com/flarum-lang/german/compare/1.25.9...1.25.10).
+
+
 1.25.9 (2026-02-26)
 -------------------
 
