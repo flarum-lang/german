@@ -66,7 +66,7 @@ flarum-extension-manager:
     extensions:
       check_why_it_failed_updating: 'Zeige, warum sie nicht auf die neueste Version aktualisiert wurde.'
       install: 'Installiere eine neue Erweiterung'
-      install_help: "Gib den Namen des Erweiterungspakets ein, um fortzufahren. Du kannst eine <semantic_link>semantische Version</semantic_link> im Format <code>Anbieter/Paketname:Version</code> angeben. Besuche {link}, um Erweiterungen zu durchsuchen.\n"
+      install_help: "Geben sie den Paketnamen der Erweiterung ein, um fortzufahren. Sie können mithilfe des Formats <code>vendor/package-name:version</code> eine <semantic_link>semantische Version</semantic_link> angeben. Besuchen sie {extiverse}, um Erweiterungen zu durchsuchen.\n"
       proceed: Fortfahren
       remove: Deinstallieren
       successful_install: '{extension} wurde erfolgreich installiert, leite weiter...'
