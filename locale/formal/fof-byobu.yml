@@ -96,3 +96,9 @@ fof-byobu:
       dropdown_label: 'Private Diskussionen'
       settings:
         block_pd: 'Private Diskussionen sperren'
+  lib:
+    gambits:
+      allows-pd:
+        key: pd-erlaubt
+      private:
+        key: privat

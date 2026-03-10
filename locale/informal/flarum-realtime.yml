@@ -3,6 +3,14 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 flarum-realtime:
+  admin:
+    settings:
+      release-discussion-updates: DiscussionList-Aktualisierungen
+      release-discussion-updates-help: 'Wenn aktiviert, werden neue Diskussionen in dem unten definierten Intervall in die <code>DiscussionList</code> verschoben.'
+      release-discussion-updates-interval: 'Intervall für das automatische Pushen neuer Diskussionsaktivitäten'
+      release-discussion-updates-interval-help: 'In Sekunden. 0 bedeutet kein automatischer Push.'
+      typing-indicator: Live-Eingabeanzeige
+      typing-indicator-help: 'Wenn aktiviert, können Benutzer vorbehaltlich einer entsprechenden Berechtigung die Anzahl der anderen Benutzer anzeigen, die gerade in einer Diskussion tippen. Wenn deaktiviert, wird die Tippaktivität sowohl aus der Benutzeroberfläche als auch aus der Websocket-Nutzlast entfernt.'
   forum:
     push:
       discussion-list-new-activity: '{count, plural, one {# aktualisierte Diskussion anzeigen} other {# aktualisierte Diskussionen anzeigen}}'
