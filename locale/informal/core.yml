@@ -70,7 +70,10 @@ core:
         timeout_label: 'Zeitlimit für Jobs (Sekunden)'
       search:
         driver_heading: 'Treiber suchen: {model}'
+        driver_options:
+          default: Standard-Datenbanksuche
         driver_text: 'Wähle einen Treiber, der für die Suche nach diesem Modell verwendet werden soll.'
+        no_other_drivers: 'Es sind noch keine Suchtreiber verfügbar. Installiere eine Suchtreiber-Erweiterung, um diese konfigurieren zu können.'
         section_label: 'Treiber suchen'
       title: Fortgeschritten
     appearance:
@@ -118,6 +121,13 @@ core:
       home_page_text: 'Wähle die Seite aus, die Benutzer beim Besuch des Forums zuerst sehen.'
       show_language_selector_label: 'Sprachauswahlmenü zeigen'
       slug_driver_heading: 'Slug-Treiber: {model}'
+      slug_driver_options:
+        discussions:
+          default: 'ID mit Slug'
+          utf8: 'ID mit UTF-8-Slug'
+        users:
+          default: Benutzername
+          id: ID
       slug_driver_text: 'Wähle den Treiber, welcher die Foren-URLs mit einem "Slug" ausstattet.'
       title: Grundeinstellungen
       welcome_banner_heading: Willkommensnachricht
@@ -151,6 +161,7 @@ core:
           inactive: Inaktiv
           never-run: 'Nie ausführen'
       title: Dashboard
+      toggle_advanced_page_button: 'Erweiterte Seite umschalten'
       tools_button: Werkzeuge
     debug-warning:
       detail: "Sofern der <code>Debugmodus</code> aktiv ist, wird Flarum seine <code>JavaScript</code> und <code>CSS</code> Ressourcen bei jedem Seitenabruf neu generieren und könnte zudem potenziell weitere Informationen preisgeben, etwa Datenbankgeheimnisse, Umgebungsvariablen usw.\n\nEs wird dringend empfohlen, den <code>debug</code> in deiner <code>config.php</code> Datei in einem Produktionskontext zu deaktivieren. Konsultiere die <link>Flarum Dokumentation</link> für zusätzliche Informationen.\n"
@@ -184,8 +195,17 @@ core:
       description: 'Konfiguriere den Mail-Treiber, die Parameter und die zu verwendenden Adressen für den Versand von E-Mails.'
       driver_heading: 'Treiber auswählen'
       driver_label: Treiber
+      format:
+        html_option: HTML
+        multipart_option: 'Multipart (empfohlen)'
+        plain_option: Klartext
+      format_heading: 'Format für ausgehende E-Mails'
+      format_help: 'Wähle das Format, in dem ausgehende E-Mails versendet werden sollen. Die empfohlene Option ist <code>multipart</code>, da dadurch der E-Mail-Client deines Benutzers das am besten geeignete Format anzeigen kann.'
       from_label: Absenderadresse
       mail_encryption_label: Verschlüsselung
+      mail_encryption_none_help: 'Keine Verschlüsselung. Nicht für den produktiven Einsatz empfohlen.'
+      mail_encryption_ssl_help: 'Die Verbindung ist von Anfang an verschlüsselt (implizites TLS). Wird in der Regel mit Port 465 verwendet.'
+      mail_encryption_tls_help: 'Die Verbindung beginnt unverschlüsselt und wird auf TLS (STARTTLS) hochgestuft. Wird in der Regel mit Port 587 oder 25 verwendet.'
       mail_host_label: Host
       mail_mailgun_domain_label: Domäne
       mail_mailgun_region_label: Region
@@ -602,8 +622,10 @@ core:
       username_label: '=> core.ref.username'
     error:
       circular_dependencies_message: 'Zirkuläre Abhängigkeiten erkannt: {extensions}. Prozess abgebrochen. Bitte deaktiviere eine der Erweiterungen und versuche es erneut.'
+      db_error_message: 'Datenbankabfrage fehlgeschlagen. Dies kann durch eine Inkompatibilität zwischen einer Erweiterung und deinem Datenbanktreiber verursacht werden.'
       dependent_extensions_message: 'Die Erweiterung {extension} kann nicht deaktiviert werden, bis die folgenden abhängigen Erweiterungen deaktiviert wurden: {extensions}'
       extension_initialiation_failed_message: '{extension} konnte nicht initialisiert werden, überprüfe die Browser-Konsole für weitere Informationen.'
+      extension_runtime_failed_message: 'Bei der Ausführung von {extension} ist ein Fehler aufgetreten. Weitere Informationen findest du in der Browserkonsole.'
       generic_cross_origin_message: 'Ups! Bei einer Cross-Origin-Anfrage ist etwas schief gelaufen. Bitte lade die Seite neu und versuche es erneut.'
       generic_message: 'Ups! Da ist was schief gelaufen. Bitte lade die Seite neu oder versuche es erneut.'
       missing_dependencies_message: 'Die Erweiterung {extension} kann nicht aktiviert werden, bis die folgenden abhängigen Erweiterungen aktiviert wurden: {extensions}'
@@ -615,6 +637,7 @@ core:
     gambits:
       discussions:
         author:
+          hint: 'Benutzername oder durch Kommas getrennte Liste von Benutzernamen'
           key: Autor
         created:
           hint: '2020-12-31 oder 2020-12-31..2021-09-30'
@@ -636,6 +659,7 @@ core:
           hint: beispiel@rechner.local
           key: E-Mail
         group:
+          hint: 'Singular- oder Plural-Gruppennamen'
           key: Gruppe
     input:
       clear_button: 'Eingabe leeren'
@@ -650,6 +674,8 @@ core:
       placeholder: 'Mehrere Optionen auswählen'
     nav:
       drawer_button: 'Navigationsleiste öffnen'
+    notices:
+      bisecting_continue: 'Bisect fortsetzen'
     number_suffix:
       kilo_text: K
       mega_text: M
