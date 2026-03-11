@@ -17,6 +17,7 @@ datlechin-birthdays:
       required_label: 'Erforderliche Eingabe von Geburtstagen'
       set_on_registration_label: 'Geburtsdatum bei der Registrierung angeben'
   api:
+    birthday_required_message: 'Das Geburtsdatum ist erforderlich.'
     invalid_age_message: 'Ihr Alter muss mindestens {minAge} Jahre betragen.'
     invalid_dob_message: 'Ungültiges Geburtsdatum'
   forum:

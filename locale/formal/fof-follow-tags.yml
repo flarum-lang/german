@@ -16,10 +16,22 @@ fof-follow-tags:
       following_tags_label: '=> fof-follow-tags.ref.filtering_options.tags'
   email:
     newDiscussionInTag:
+      html:
+        body: "{actor_display_name} hat eine Diskussion in einem Tag gestartet, dem du folgst: [{discussion_title}]({discussion_url})\n"
+      plain:
+        body: "{actor_display_name} hat eine Diskussion in einem Tag gestartet, dem du folgst: {discussion_title}\n\nUm die neue Diskussion anzuzeigen, klicke auf den folgenden Link:\n{discussion_url}\n\n---\n\n{content}\n"
       subject: '[Tag | Neue Diskussion] {title}'
     newDiscussionTag:
+      html:
+        body: "{actor_display_name} hat gerade das Tag einer Diskussion von {author_display_name} in ein Tag geändert, dem du folgst: [{discussion_title}]({discussion_url})\n"
+      plain:
+        body: "{actor_display_name} hat gerade das Tag einer Diskussion von {author_display_name} in ein Tag geändert, dem du folgst: {discussion_title}\n\nUm die Diskussion anzuzeigen, klicke auf den folgenden Link:\n{discussion_url}\n\n---\n\n{content}\n"
       subject: '[Tag | Geändertes Tag] {title}'
     newPostInTag:
+      html:
+        body: "{actor_display_name} hat in einer Diskussion zu einem Tag, dem du folgst, einen Beitrag gepostet: [{discussion_title}]({post_url})\n"
+      plain:
+        body: "{actor_display_name} hat in einer Diskussion zu einem Tag, dem du folgst, einen Beitrag gepostet: {discussion_title}\n\nUm die neue Aktivität anzuzeigen, klicke auf den folgenden Link:\n{post_url}\n\n---\n\n{content}\n"
       subject: '[Tag | Neuer Beitrag] {title}'
   forum:
     badge:

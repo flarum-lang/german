@@ -24,7 +24,7 @@ ianm-follow-users:
     filter:
       following: 'Gefolgte Benutzer'
     followed: Gefolgt
-    followers: '{count, plural, one {Follower} other {Followers}}'
+    followers: '{count, plural, one {Follower} other {Follower}}'
     followers_link: Follower
     index:
       follow_tag_button: '=> ianm-follow-users.lib.follow'

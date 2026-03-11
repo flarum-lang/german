@@ -17,7 +17,9 @@ fof-reactions:
         help: 'Wenn du deine Erweiterung gerade aktualisiert hast, müssen deine Reaktionen konvertiert werden. Wenn du diese Erweiterung gerade erst installiert hast, kannst du diese Nachricht getrost ignorieren.'
       reactions:
         Helptext: 'Gib den Namen (Bezeichner) des Emoji oder Font-Awesome Icons ein und wähle aus, welchen Typ du haben möchtest.'
+        add_reaction_button: 'Reaktion hinzufügen'
         delete_confirmation: 'Soll diese Reaktion wirklich gelöscht werden? Dieser Vorgang kann nicht rückgängig gemacht werden.'
+        delete_reaction_button: 'Reaktion löschen'
         help:
           display: Anzeige
           identifier: Bezeichner
@@ -52,10 +54,14 @@ fof-reactions:
     modal:
       anonymous_count: '{count, plural, one {# anonymer Benutzer} other {# anonyme Benutzer}}'
       no_reactions: 'Noch keine Reaktionen'
+      remove_all_reaction_type: 'Alle {Reaktion} Reaktionen entfernen'
+      remove_user_reaction: 'Reaktion entfernen'
       title: Reaktionen
     notification: '{username} hat auf deinen Post mit {reaction} reagiert'
     react_button_label: Reagieren
+    reacted_with_label: '{count, plural, one {{reaction} (# Reaktion)} other {{reaction} (# Reaktionen)}}'
     reacting-own-post: 'Du kannst nicht auf deinen eigenen Beitrag reagieren'
+    reaction_button_label: 'Mit {reaction} reagieren'
     settings:
       notify_post_reacted_label: 'Jemand reagiert auf einen meiner Beiträge'
     warning: 'Deine Reaktion wurde umgewandelt'

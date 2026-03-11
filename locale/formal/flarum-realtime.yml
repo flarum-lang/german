@@ -4,6 +4,8 @@
 
 flarum-realtime:
   admin:
+    permission:
+      view-who-types: 'Sehen, wer gerade tippt'
     settings:
       release-discussion-updates: DiscussionList-Aktualisierungen
       release-discussion-updates-help: 'Wenn aktiviert, werden neue Diskussionen in dem unten definierten Intervall in die <code>DiscussionList</code> verschoben.'
@@ -23,3 +25,6 @@ flarum-realtime:
     user:
       settings:
         heading: Echtzeit
+        typing-indicator-type:
+          help: 'Wenn aktiviert, zeigt die Eingabeanzeige die Benutzer an, die gerade tippen. Deaktiviere diese Option, um nur die Anzahl der Benutzer anzuzeigen, die gerade tippen.'
+          label: 'Anzeigen, wer gerade tippt'

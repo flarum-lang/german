@@ -18,10 +18,12 @@ fof-upload:
       disable-download-logging: "Deaktiviere die Protokollierung aller Downloads, die von Nutzern deines Forums getätigt werden. Wenn du es aktiviert lässt, kannst du die Anzahl der Downloads und andere Metriken in der nahen Zukunft einsehen.\n"
       disable-hotlink-protection: "Der Hotlink-Schutz verhindert das Öffnen von Downloads auf anderen Seiten. Die aktuelle Methode erfordert ein csrf-Token und eine Post-ID.\n"
       download_templates: "Downloadvorlagen sind die Art und Weise, wie Uploads in deinem Forum angezeigt werden, z.B. als Vorschaubilder oder Buttons. Derzeit verfügbar:\n"
+      mime_types: "Bitte konfiguriere hier deine Zuordnung. Jeder reguläre Ausdruck für einen MIME-Typ wird von einem bestimmten Upload-Adapter und einer bestimmten Download-Vorlage verarbeitet.\nOptional kannst du jedem Eintrag eine Berechtigungsbezeichnung (z. B. „Bilder“, „Videos“) zuweisen, um eine spezielle Berechtigung im Berechtigungsraster zu erstellen.\nAuf diese Weise kannst du einschränken, welche Gruppen bestimmte Dateitypen hochladen dürfen – zusätzlich zur Basisberechtigung „Dateien hochladen“, die immer erforderlich ist.\n"
       resize: "Wähle aus, ob du die Größe deiner Bilder ändern möchtest, bevor sie hochgeladen werden. Du kannst eine maximale Breite und Höhe in Pixeln wählen. Bei der Größenänderung wird das Seitenverhältnis der Bilder beibehalten.\n"
       s3_acl: "Die Zugriffssteuerungsliste (ACL), die auf das hochgeladene Objekt angewendet werden soll (Standard: private). Für mögliche Werte, siehe https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n"
       s3_compatible_storage: "Die folgenden Einstellungen sind nur erforderlich, wenn du S3 kompatiblen Speicher verwendest. Wenn du AWS verwendest, kannst du sie leer lassen.\n"
       s3_instance_profile: "Schlüssel und Secret leer lassen, um Anmeldeinformationen im Instanzprofil zu verwenden.\n"
+      thumbnails: "Erstelle beim Hochladen eine verkleinerte Miniaturansicht für Bilder. Die Miniaturansicht wird inline angezeigt.\nDurch Anklicken wird die Originaldatei in voller Auflösung in einem neuen Tab geöffnet. Miniaturansichten\nreduzieren die Bandbreite und das Seitengewicht für Foren mit vielen großen Bildern erheblich.\n"
       watermark: "Wähle aus, ob Bilder beim Hochladen mit einem Wasserzeichen versehen werden sollen. Wasserzeichen werden basierend auf deinen Einstellungen unten hinzugefügt, jedoch nicht bei GIF's.\n"
     inspect-mime:
       description: "FoF Upload verwendet den <a>PHP Mime Detector</a> eine Bibliothek für gängige MIME-Typen und PHP Fileinfo als Fallback.\nDer von Fileinfo zurückgegebene MIME-Wert kann von Server zu Server unterschiedlich sein!\n"
@@ -145,6 +147,8 @@ fof-upload:
       local: Lokal
       ovh-svfs: 'OVH SVFS'
       qiniu: QiNiu
+    warnings:
+      fileinfo_missing: "Die PHP-Erweiterung <strong>fileinfo</strong> ist auf diesem Server nicht geladen. FoF Upload funktioniert weiterhin, aber die MIME-Typ-Kreuzvalidierung ist deaktiviert, wodurch der Schutz vor gefälschten Dateitypen verringert wird. Aktiviere die Erweiterung in deiner PHP-Konfiguration, um optimale Sicherheit zu gewährleisten.\n"
   api:
     upload_errors:
       cannot_write_to_disk: 'Kann nicht auf die Festplatte schreiben.'

@@ -27,7 +27,7 @@ fof-geoip:
       request_url_label: Anfrage-URL
       response_headers_label: Antwort-Header
       service_ipapi-pro_description: 'Verwende <b>https://members.ip-api.com/#pricing</b>. Das Pro-Abonnement beinhaltet uneingeschränkte Nutzung.'
-      service_ipapi-pro_label: 'IP Api Pro'
+      service_ipapi-pro_label: 'IP API Pro'
       service_ipapi_description: 'Verwende <b>http://ip-api.com/</b>, um bis zu 45 kostenlose Auflösungen pro Minute durchzuführen. Wenn Du mehr durchführst, werden deine Anfragen eingereiht und erst nach dem Zurücksetzen des Zeitfensters aufgelöst.'
       service_ipapi_label: 'IP Api'
       service_ipdata_description: 'Verwende <b>https://ipdata.co</b>, um täglich bis zu 1.500 kostenlose Auflösungen durchzuführen. Es sind auch kostenpflichtige Tarife mit höheren Nutzungslimits verfügbar.'

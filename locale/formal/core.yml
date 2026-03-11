@@ -80,6 +80,7 @@ core:
       allow_user_color_scheme_label: 'Benutzern die Auswahl ihres eigenen Farbschemas ermöglichen'
       color_scheme_label: 'Farbschema (Standard)'
       color_schemes:
+        auto_mode_label: 'System oder konfigurierte Einstellungen verwenden'
         dark_hc_mode_label: '=> core.ref.dark_hc_mode_label'
         dark_mode_label: '=> core.ref.dark_mode_label'
         light_hc_mode_label: '=> core.ref.light_hc_mode_label'
@@ -219,6 +220,7 @@ core:
       send_test_mail_heading: 'Test-E-Mail senden'
       send_test_mail_success: 'Test-E-Mail wurde erfolgreich versandt!'
       send_test_mail_text: 'Versenden Sie eine E-Mail mit der gegebenen Konfiguration an Ihre Adresse, {email}.'
+      smtp_description: 'Konfiguriere die SMTP-Verbindungseinstellungen. Gängige Konfigurationen: Port 587 mit TLS oder Port 465 mit SSL.'
       smtp_heading: 'SMTP Einstellungen'
       title: '=> core.ref.email'
     extension:
@@ -226,6 +228,7 @@ core:
       abandoned_with_replacement: 'Diese Erweiterung wurde durch {replacement} ersetzt. Erwägen Sie die Migration zum Ersatzpaket.'
       configure_scopes: 'Bereiche konfigurieren'
       confirm_purge: 'Die Bereinigung entfernt sämtliche Datenbankeinträge und Assets, die sich auf die Erweiterung beziehen. Die Deinstallation der Erweiterung wird nicht ausgeführt; dies muss über Composer geschehen. Sind Sie sicher, dass Sie fortfahren möchten?'
+      database_driver_mismatch: 'Diese Erweiterung unterstützt den von dir konfigurierten Datenbanktreiber nicht.'
       deprecated: Veraltet
       disabled: Deaktiviert
       enable_to_see: 'Aktivieren Sie die Erweiterung, um Einstellungen einsehen und verändern zu können.'

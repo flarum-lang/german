@@ -10,6 +10,7 @@ fof-default-user-preferences:
       followAfterReply: 'Nach Antwort folgen'
       followAfterReply-help: 'Wenn diese Option aktiviert ist, folgen neue Benutzer automatisch Diskussionen, auf die sie antworten oder die sie kommentieren.'
       groupMentioned: 'Gruppe erwähnt E-Mail'
+      groupMentioned-help: 'Wenn aktiviert, erhalten neue Benutzer automatisch eine E-Mail-Benachrichtigung, wenn eine Gruppe, der sie angehören, erwähnt wird.'
       indexProfile: 'Profilseite indizieren'
       indexProfile-help: 'Wenn diese Option aktiviert ist, können die Profilseiten neuer Benutzer von Suchmaschinen indiziert werden, außer andere Seiten- oder Erweiterungseinstellungen unterbinden dies.'
       postMentioned: 'Poste erwähnte E-Mail'

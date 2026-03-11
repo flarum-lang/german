@@ -18,6 +18,7 @@ fof-merge-discussions:
       updating_failed: 'Aktualisierung der Diskussionsdetails fehlgeschlagen.'
   email:
     merged:
+      body: "Deine Diskussion {merged_discussion_title} wurde von {actor_display_name} mit {discussion_title} zusammengeführt.\n\nDu kannst sie hier ansehen: {discussion_url} .\n"
       subject: 'Deine Diskussion "{merged_discussion_title}" wurde zusammengeführt'
   forum:
     discussion:

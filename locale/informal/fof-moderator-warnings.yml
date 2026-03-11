@@ -26,9 +26,11 @@ fof-moderator-warnings:
       warning_button: 'Benutzer verwarnen'
     settings:
       warning_notification_label: 'Ein Moderator warnt mich'
+    user:
+      warnings: Warnungen
     validation:
       invalid_strike_count: 'Die Anzahl der Strikes muss eine ganze Zahl zwischen 0 und 5 sein.'
-      public_comment_required: 'Du gibst meistens einen öffentlichen Kommentar ab.'
+      public_comment_required: 'Du musst eine öffentliche Begründung abgeben.'
     warning_controls:
       delete_button: Entfernen
       delete_forever_button: 'Entgültig löschen'
@@ -36,16 +38,18 @@ fof-moderator-warnings:
     warning_list:
       add_button: 'Neue Verwarnung'
       no_warnings: 'Anscheindend befinden sich hier keine Verwarnungen.'
-      warnings: '{strikes, plural, one {Moderator Verwarnungen: # Strike erhalten} other {Moderator Verwarnugen: # Strikes erhalten}}'
-      warnings_no_strikes: 'Moderator Warnungen: Keine Strikes erhalten'
+      warnings: '{strikes, plural, one {Moderator-Verwarnungen: # Strike erhalten} other {Moderator-Verwarnugen: # Strikes erhalten}}'
+      warnings_no_strikes: 'Moderator-Verwarnungen: Keine Strikes erhalten'
     warning_list_item:
       linked_post: 'Verlinkter Beitrag'
+      list_item_heading: '{strikes, plural, one {# Strike, {time}} other {# Strikes, {time}}}'
+      list_item_heading_hidden: '{strikes, plural, one {# Strike, {time} (entfernt)} other {# Strikes, {time} (entfernt)}}'
       private_comment: 'Moderator-sichtbare Kommentare'
       public_comment: Verwarnung
     warning_modal:
       confirmation_message: 'Deine Warnung wurde hinterlegt. Möglicherweise musst Du die Seite aktualisieren, um sie anzuzeigen.'
       heading: '<strong>{username}</strong> verwarnen'
-      private_comment_heading: 'Wieso erhält <strong>{username}</strong> diese Warnungen? Diese Kommentare sind NUR für andere Moderatoren sichtbar.'
-      public_comment_heading: 'Wieso erhält <strong>{username}</strong> diese Warnungen? Diese Kommentare sind für den Benutzer und andere Moderatoren sichtbar.'
+      private_comment_heading: 'Wieso erhält <strong>{username}</strong> diese Verwarnungen? Diese Kommentare sind NUR für andere Moderatoren sichtbar.'
+      public_comment_heading: 'Wieso erhält <strong>{username}</strong> diese Verwarnungen? Diese Kommentare sind für den Benutzer und andere Moderatoren sichtbar.'
       strikes_heading: 'Wie viele Strikes sollen angewendet werden?'
-      submit_button: 'Warnung sichern'
+      submit_button: 'Verwarnung speichern'

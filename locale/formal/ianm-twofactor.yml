@@ -40,6 +40,7 @@ ianm-twofactor:
     body:
       status_changed: "Hallo {recipient_display_name},\n\nDie Zwei-Faktor-Authentifizierung für dein Konto auf {forum_url} wurde {type}.\n\nWenn du diese Änderung vorgenommen hast, sind keine weiteren Schritte notwendig. Solltest du diese Umstellung nicht autorisiert haben, kontaktiere bitte umgehend die Forum-Administratoren.\n"
     status_type:
+      device_changed: 'Gerät geändert'
       disabled: deaktiviert
       enabled: aktiviert
     subject:
@@ -96,5 +97,6 @@ ianm-twofactor:
     reset_password:
       two_factor_token_label: '2FA Sicherheitsschlüssel'
     two_factor_token:
+      oauth_session_expired: 'Die OAuth-Sitzung ist abgelaufen. Bitte versuche erneut, dich anzumelden.'
       submit_button: Absenden
       title: Zwei-Faktor-Authentifizierung
