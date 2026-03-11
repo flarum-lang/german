@@ -7,7 +7,7 @@ justoverclock-related-discussions:
     DiscussionPageLayout: 'Verwandte Diskussionen unten auf den Diskussionsseiten anzeigen'
     relatedLimit: 'Anzuzeigende ähnliche Diskussionen (Standard 4)'
     relatedLimit-help: 'gebe hier die Nummer der Diskussion ein, die Du sehen möchtest (z. B. ''4'')'
-    relatedTitle: 'Titel für "Verwandte Diskussionen"'
+    relatedTitle: 'Titel für „Verwandte Diskussionen“'
     relatedTitle-help: 'Den Standardtitel für verwandte Diskussionen durch deinen eigenen ersetzen'
     showExcerpt: 'Zusammenfassungsauszug anzeigen'
     showTooltip: 'Tooltip mit Auszug anzeigen'
