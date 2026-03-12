@@ -72,4 +72,6 @@ huseyinfiliz-diff:
       revisionWithNumber: '=> huseyinfiliz-diff.ref.revisionWithNumber'
       sideBySide: Nebeneinander
   ref:
+    currentContent: 'Aktueller Inhalt'
+    originalContent: Originalinhalt
     revisionWithNumber: 'Überarbeitung {number}'
