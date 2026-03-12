@@ -29,6 +29,9 @@ fof-byobu:
         help: 'Diese Einstellungen betreffen die Symbole, die von byobu im Forum verwendet werden.'
       post-event-icon: 'Byobu Post Ereignisse'
   email:
+    body:
+      private_discussion_created: "{actor_display_name} hat eine neue private Diskussion mit dir als Empfänger gestartet: {discussion_title}.\n\nHier kannst du sie anzeigen:\n{discussion_url}\n\nMöglicherweise musst du dich zuerst anmelden, bevor du auf diesen Link zugreifen kannst.\n"
+      private_discussion_replied: "{actor_display_name} hat in einer privaten Diskussion mit dir als Empfänger folgenden Beitrag gepostet: {discussion_title}.\n\nHier kannst du ihn ansehen:\n{post_url}\n\nMöglicherweise musst du dich zuerst anmelden, bevor du auf diesen Link zugreifen kannst.\n"
     subject:
       private_discussion_added: '[Private Diskussion] {display_name} hat dich zu einer privaten Diskussion hinzugefügt'
       private_discussion_created: '[Private Diskussion] {display_name} hat eine neue private Diskussion mit dir begonnen'

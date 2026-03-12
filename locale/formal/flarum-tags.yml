@@ -74,7 +74,7 @@ flarum-tags:
       discussions:
         tag:
           hint: 'Name eines Themas oder durch Kommas getrennte Liste von Themen-Namen oder „untagged“ (nicht getaggt)'
-          key: Thema
+          key: thema
     tag_selection_modal:
       bypass_requirements: 'Themen-Bedigungen umgehen'
       choose_primary_placeholder: '{count, plural, one {Wählen Sie ein primäres Thema} other {Wählen Sie # primäre Themen}}'

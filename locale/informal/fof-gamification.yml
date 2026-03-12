@@ -80,7 +80,7 @@ fof-gamification:
     mod_item: 'Wähler anzeigen'
     modal:
       downvotes_label: 'Downvoter:'
-      title: Wähler
+      title: Wählende
       upvotes_label: 'Upvoter:'
     nav:
       name: Ranglisten
@@ -103,8 +103,8 @@ fof-gamification:
       votes_link: Abstimmungen
     vote_title: 'Zeigen, wer gewählt hat'
     voters:
-      label: 'Noch keine Wähler'
-      label_none: 'Keine Wähler'
+      label: Wählende
+      label_none: 'Keine Wählenden'
       none: 'Noch keine Wähler'
     votes: Abstimmungen
 lib:

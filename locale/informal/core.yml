@@ -697,7 +697,7 @@ core:
       discussions:
         author:
           hint: 'Benutzername oder durch Kommas getrennte Liste von Benutzernamen'
-          key: Autor
+          key: autor
         created:
           hint: '2020-12-31 oder 2020-12-31..2021-09-30'
           key: erstellt
