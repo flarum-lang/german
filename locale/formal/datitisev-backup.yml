@@ -44,6 +44,12 @@ datitisev-backup:
         container:
           description: Azure-Container
           label: Container
+        endpoint:
+          description: 'Die Verbindungszeichenfolge für deinen Azure-Speicher.'
+          label: Verbindungszeichenfolge
+        path-prefix:
+          description: 'Optionales Standard-Pfadpräfix für Dateien.'
+          label: Pfadpräfix
       dropbox:
         help:
           obtain-access-code-button: 'Dropbox öffnen'
@@ -59,6 +65,9 @@ datitisev-backup:
         host:
           description: 'Der Hostname, zu dem Du dich mit FTP verbinden möchtest, zB: <em>ftp.yourdomain.local</em>.'
           label: Remote-Hostname
+        passive:
+          description: 'Ob für die FTP-Verbindung der passive Modus verwendet werden soll.'
+          toggle: 'Passiver Modus'
         password:
           description: 'Das Benutzerkennwort für die Authentifizierung auf dem FTP-Server.'
           label: Passwort
@@ -96,6 +105,17 @@ datitisev-backup:
         target:
           description: 'Gebe das lokale Verzeichnis an, in dem Backups gespeichert werden sollen.'
           label: Zielpfad
+      name_label: Standortname
+      sftp:
+        host: '=> datitisev-backup.admin.adapter-settings-modal.ftp.host'
+        password: '=> datitisev-backup.admin.adapter-settings-modal.ftp.password'
+        port:
+          label: Port
+        root: '=> datitisev-backup.admin.adapter-settings-modal.ftp.root'
+        timeout: '=> datitisev-backup.admin.adapter-settings-modal.ftp.timeout'
+        username: '=> datitisev-backup.admin.adapter-settings-modal.ftp.username'
+      timestamp_help: "Gib das Format für Zeitstempel in Sicherungsdateinamen an. Der Standardwert ist <code>U</code> (Unix-Zeitstempel). Verwendet <a>PHP-Datumsformatierung</a>. Unsichere Dateinamenzeichen werden bereinigt. Der Dateiname hat das Format <code>{forum}-[formatierter Zeitstempel].zip</code>.\n"
+      timestamp_label: 'Format des Zeitstempels bei Dateinamen'
       title: '{adapter} konfigurieren'
     adapters:
       aliyun: 'Alibaba-Cloud (Aliyun)'
@@ -116,4 +136,7 @@ datitisev-backup:
       content: "Um diesen Treiber verwenden zu können, musst Du ein bestimmtes Paket installieren. Führe dazu den folgenden Composer-Befehl in deinem Flarum-Installationsverzeichnis aus: <code>composer require {package}</code>.\n"
       title: 'Für {adapter} wird ein Paket benötigt'
     required_package_button: Einrichten
+    settings:
+      database_bin_path_help: "Wenn sich die Binärdateien deiner Datenbank (z. B. mysqldump, pg_dump) nicht im PATH deines Systems befinden, kannst du hier das Verzeichnis angeben, in dem sie sich befinden. Achte darauf, den abschließenden Schrägstrich anzugeben (z. B. <code>/usr/local/mysql/bin/</code>).\n"
+      database_bin_path_label: '(Optional) Pfad zu den Datenbank-Binärdateien'
     settings_button: Konfigurieren
