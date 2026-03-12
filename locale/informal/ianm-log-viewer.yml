@@ -20,4 +20,7 @@ ianm-log-viewer:
       file_size: 'Größe (Bytes): {size}'
       last_updated: 'Zuletzt aktualisiert: {updated}'
       no_file_selected: 'Wähle eine Protokolldatei, um ihren Inhalt anzusehen.'
+      no_log_files: 'Keine Protokolldateien gefunden.'
+      scroll_to_bottom: 'Ans Ende scrollen'
+      scroll_to_top: 'Zum Anfang scrollen'
       view_log: 'Protokolldatei ansehen'

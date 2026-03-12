@@ -13,6 +13,7 @@ flarum-ext-welcomebox:
     discussion: '=> core.ref.discussions'
     goToProfile: Profil
     lastSeen: 'Letzter Besuch'
+    neverSeen: 'Noch nie gesehen'
     notregistered: 'Du bist aktuell nicht im Forum registriert.'
     npost: '=> core.ref.posts'
     tooltipDisclist: 'Meine Diskussions-Liste'

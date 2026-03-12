@@ -13,3 +13,18 @@ yippy-tag-with-themes:
         themeName: 'Theme auswählen'
       header:
         theme: 'Benutzerdefiniertes Theme'
+    options:
+      design_options:
+        basic: Einfach
+        basic_banner: 'Einfach (Haupt-Banner)'
+        basic_tab: 'Einfach (Haupt-Tab)'
+        basic_tag: 'Einfach (Haupt-Tag)'
+        flat: Flach
+        flat_banner: 'Flach (Haupt-Banner)'
+        flat_tab: 'Flach (Haupt-Tab)'
+        flat_tag: 'Flach (Haupt-Tag)'
+        none: Kein
+        sticky_note: Haftnotiz
+        sticky_note_banner: 'Haftnotiz (Haupt-Banner)'
+        sticky_note_tab: 'Haftnotiz (Haupt-Tab)'
+        sticky_note_tag: 'Haftnotiz (Haupt-Tag)'

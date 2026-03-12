@@ -41,3 +41,5 @@ datlechin-birthdays:
     user:
       age_text: '{age} Jahre alt'
       birthday_text: 'Geburtstag: {date}'
+  ref:
+    date_of_birth: Geburtsdatum
