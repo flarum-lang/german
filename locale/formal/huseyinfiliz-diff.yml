@@ -15,6 +15,8 @@ huseyinfiliz-diff:
       detailLevel: Detailgrad
       lineLevel: Zeilen-Ebene
       mainPostOnly: 'Nur Überarbeitungen des Hauptbeitrags speichern'
+      mergeThreshold: 'Zusammenführungsschwelle für den kombinierten Renderer'
+      mergeThresholdHelp: 'Dies bestimmt, ob ein Block vom Typ „Ersetzen“ je nach dem Verhältnis der geänderten Inhalte, dessen Wert zwischen 0 und 1 liegt, zusammengeführt werden soll oder nicht.'
       neighborLines: Nachbarzeilen
       neighborLinesHelp: 'Gib die Anzahl der Nachbarzeilen an, die angezeigt werden sollen.'
       noneLevel: Ohne-Ebene
@@ -22,9 +24,11 @@ huseyinfiliz-diff:
       separateBlock: 'Trennzeichen zwischen verschiedenen Diff-Hunks in HTML-Renderern anzeigen'
       textFormatting: 'Textformatierung für die Vorschau aktivieren'
       title: Diff-Einstellungen
-      usePoint: 'Verwenden Sie <strong>Punkt</strong> als Dezimaltrennzeichen für Fließkommawerte.'
+      usePoint: 'Verwende <strong>Punkt</strong> als Dezimaltrennzeichen für Fließkommawerte.'
       wordLevel: Wort-Ebene
   forum:
+    confirmDelete: 'Möchtest du den Inhalt dieser Bearbeitung wirklich aus dem Verlauf löschen?'
+    confirmRollback: 'Bust du sicher, dass du deinen aktuellen Beitrag ändern möchtest?'
     createdInfo: '{username} hat {ago} erstellt'
     deleteButton: '=> core.forum.post_controls.delete_button'
     deleteErrorMessage: 'Löschen der Inhalte der Bearbeitung fehlgeschlagen.'

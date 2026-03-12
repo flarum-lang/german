@@ -23,4 +23,4 @@ ianm-boring-avatars:
       identifier_help: "Wird verwendet, um einen einzigartigen Avatar für jeden Benutzer zu erzeugen.\n"
       identifier_id: Benutzer-ID
       theme: Theme
-      theme_help: "Das Theme welches für die Boring Avatars verwendet wird.\n"
+      theme_help: "Das Theme, welches für die Boring Avatars verwendet wird.\n"
