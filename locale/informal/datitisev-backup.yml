@@ -108,11 +108,21 @@ datitisev-backup:
       name_label: Standortname
       sftp:
         host: '=> datitisev-backup.admin.adapter-settings-modal.ftp.host'
+        passphrase:
+          description: 'Die Passphrase für den privaten Schlüssel, falls zutreffend.'
+          label: Passphrase
         password: '=> datitisev-backup.admin.adapter-settings-modal.ftp.password'
         port:
+          description: 'Der SFTP-Port (Standardwert ist 22).'
           label: Port
+        private-key:
+          description: 'Pfad (vorzugsweise absolut) zu einem privaten Schlüssel, der bei der Authentifizierung der SFTP-Verbindung verwendet werden soll.'
+          label: 'Privater Schlüssel'
         root: '=> datitisev-backup.admin.adapter-settings-modal.ftp.root'
         timeout: '=> datitisev-backup.admin.adapter-settings-modal.ftp.timeout'
+        use-agent:
+          description: 'Ob der SSH-Agent zur Authentifizierung der Verbindung verwendet werden soll (Standardwert: false).'
+          toggle: 'Agent verwenden'
         username: '=> datitisev-backup.admin.adapter-settings-modal.ftp.username'
       timestamp_help: "Gib das Format für Zeitstempel in Sicherungsdateinamen an. Der Standardwert ist <code>U</code> (Unix-Zeitstempel). Verwendet <a>PHP-Datumsformatierung</a>. Unsichere Dateinamenzeichen werden bereinigt. Der Dateiname hat das Format <code>{forum}-[formatierter Zeitstempel].zip</code>.\n"
       timestamp_label: 'Format des Zeitstempels bei Dateinamen'
