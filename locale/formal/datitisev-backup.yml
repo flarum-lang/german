@@ -66,6 +66,9 @@ datitisev-backup:
           obtain-refresh-token-success: 'Aktualisierungstoken erfolgreich abgerufen und oben aktualisiert! Speichere die Änderungen, um sie zu sichern.'
         key:
           label: App-Schlüssel
+        refresh-token:
+          description: 'Verwende die folgenden Felder, um das Aktualisierungstoken zu erhalten, oder befolge manuell die Anweisungen unter https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually.'
+          label: Aktualisierungstoken
         secret:
           label: App-Secret
       ftp:
@@ -98,6 +101,7 @@ datitisev-backup:
           label: Benutzername
       gdrive:
         client-id:
+          description: "Befolge die Anweisungen unter https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md, um ein Google-Projekt zu erstellen und deine Client-ID und deinen geheimen Client-Schlüssel abzurufen.\n"
           label: Client-ID
         client-secret:
           description: ' '
@@ -122,6 +126,7 @@ datitisev-backup:
         target:
           description: 'Gebe das lokale Verzeichnis an, in dem Backups gespeichert werden sollen.'
           label: Zielpfad
+      name_label: Standortname
       title: '{adapter} konfigurieren'
     adapters:
       aliyun: 'Alibaba-Cloud (Aliyun)'
