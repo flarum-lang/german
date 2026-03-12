@@ -6,10 +6,14 @@ huseyinfiliz-diff:
   admin:
     permissions:
       deleteEditHistory: 'Bearbeitungsverlauf von anderen löschen'
+      rollbackEditHistory: 'Bearbeitungsverlauf anderer zurücksetzen'
       selfDeleteEditHistory: 'Eigenen Bearbeitungsverlauf löschen'
+      selfRollbackEditHistory: 'Eigenen Bearbeitungsverlauf zurücksetzen'
       viewEditHistory: 'Bearbeitungsverlauf ansehen'
     settings:
+      archiveInfo: 'Beachte, dass du beide Optionen deaktivieren und den Befehl <code>php flarum diff:archive</code> ausführen kannst, um alte Revisionen manuell zu archivieren.'
       archiveOlds: 'Alte Überarbeitungen archivieren'
+      archiveOldsInfo: 'Wenn <strong>x ≥ A</strong>, werden die ersten <strong>y=mx+b</strong> Revisionen des Beitrags als zusammengeführt und komprimiert gespeichert. Das <strong>x</strong> bezieht sich auf die Anzahl der Revisionen des Beitrags. Fließkommawerte von <strong>y</strong> werden auf den nächstniedrigeren ganzzahligen Wert gerundet.'
       charLevel: Zeichen-Ebene
       dbOptimisation: Datenbank-Optimierung
       detailLevel: Detailgrad
@@ -24,6 +28,8 @@ huseyinfiliz-diff:
       separateBlock: 'Trennzeichen zwischen verschiedenen Diff-Hunks in HTML-Renderern anzeigen'
       textFormatting: 'Textformatierung für die Vorschau aktivieren'
       title: Diff-Einstellungen
+      useCrons: 'Verwende Cron-Jobs, um alte Revisionen zu archivieren'
+      useCronsHelp: 'Du musst einen Cron-Eintrag zu deinem Server hinzufügen, damit diese Option funktioniert. Sie wird wöchentlich sonntags um 02:00 Uhr ausgeführt. Wenn du diese Option deaktivierst und die oben genannte Option aktivierst, werden alle Revisionen des Beitrags auf Archivierung überprüft, wenn der zugehörige Beitrag überarbeitet wird.'
       usePoint: 'Verwende <strong>Punkt</strong> als Dezimaltrennzeichen für Fließkommawerte.'
       wordLevel: Wort-Ebene
   forum:
