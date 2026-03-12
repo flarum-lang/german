@@ -712,14 +712,14 @@ core:
       posts:
         discussion:
           hint: 'die ID der Diskussion'
-          key: Diskussion
+          key: diskussion
       users:
         email:
           hint: beispiel@rechner.local
-          key: E-Mail
+          key: email
         group:
           hint: 'Singular- oder Plural-Gruppennamen'
-          key: Gruppe
+          key: gruppe
     input:
       clear_button: 'Eingabe leeren'
     loading_indicator:
