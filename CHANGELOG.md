@@ -14,6 +14,8 @@ CHANGELOG
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup)
+* [`glowingblue/redis-setup`](https://github.com/glowingblue/flarum-ext-redis-setup)
 * [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
 
 
