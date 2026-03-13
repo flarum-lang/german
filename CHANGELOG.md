@@ -9,6 +9,8 @@ CHANGELOG
 
 * [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content)
 * [`huoxin/relative-url`](https://github.com/huoxin233/flarum-ext-relative-url)
+* [`import-ai/flarum-webhook`](https://github.com/import-ai/flarum-webhook)
+* [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
