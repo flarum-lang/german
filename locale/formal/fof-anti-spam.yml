@@ -28,13 +28,17 @@ fof-anti-spam:
         allowlist_heading: Domänen-Zulassungsliste
         blocked_words_heading: 'Blockierte Wörter und Ausdrücke'
         blocked_words_label: 'Blockierte Wörter oder Ausdrücke'
+        detect_emails_help: 'Melde Inhalte, die E-Mail-Adressen enthalten.'
         detect_emails_label: 'E-Mail-Adressen erkennen'
+        detect_phones_help: 'Melde Inhalte, die Telefonnummern im internationalen Format enthalten.'
         detect_phones_label: 'Telefonnummern erkennen'
         detectors_heading: Detektionsmethoden
         enabled_help: 'Wenn aktiviert, werden Beiträge und Diskussionen neuer Benutzer auf Spam-Indikatoren analysiert.'
         enabled_label: 'Inhaltsfilter aktivieren'
         heading: Inhaltsfilter
         introduction: 'Spam-Inhalte von neuen Benutzern automatisch erkennen und kennzeichnen. Dieses System überwacht Beiträge und Diskussionen von kürzlich registrierten Benutzern auf häufige Spam-Indikatoren wie Telefonnummern, E-Mail-Adressen und verdächtige URLs.'
+        monitor_hours_old_help: 'Analysiere nur Inhalte von Benutzern, deren Konten jünger als diese Anzahl von Stunden sind. Setze den Wert auf 0, um die Altersprüfung zu deaktivieren.'
+        monitor_hours_old_label: 'Überwache Benutzer bis zu Stunden alt'
         spam_threshold_label: 'Spam-Schwellenwert (0–100)'
       default-actions:
         delete_discussions_help: 'Dadurch werden alle von diesem Benutzer gestarteten Diskussionen dauerhaft gelöscht. Wenn diese Option deaktiviert ist, werden Diskussionen stattdessen nur vorübergehend gelöscht.'
