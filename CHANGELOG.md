@@ -2,6 +2,29 @@ CHANGELOG
 =========
 
 
+1.25.11 (XXXX-XX-XX)
+--------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content)
+* [`huoxin/relative-url`](https://github.com/huoxin233/flarum-ext-relative-url)
+* [`import-ai/flarum-webhook`](https://github.com/import-ai/flarum-webhook)
+* [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup)
+* [`glowingblue/redis-setup`](https://github.com/glowingblue/flarum-ext-redis-setup)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
+
+
+Alle Änderungen: [1.25.10...1.25.11](https://github.com/flarum-lang/german/compare/1.25.10...1.25.11).
+
+
 1.25.10 (2026-03-09)
 --------------------
 
