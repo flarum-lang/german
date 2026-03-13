@@ -15,7 +15,7 @@ ianm-follow-users:
       be_followed_label: 'Darf Benutzern folgen'
     settings:
       button-on-profile-label: 'Schaltfläche „Folgen“ direkt in der Kopfzeile des Benutzerprofils anzeigen'
-      stats-on-profile-label: 'Follower- und Followerzahlen auf Nutzerprofilen anzeigen'
+      stats-on-profile-label: 'Zahlen für Follower und Gefolgte Benutzer auf Nutzerprofilen anzeigen'
   email:
     new_discussion_by_user:
       html:
