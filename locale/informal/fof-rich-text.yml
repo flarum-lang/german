@@ -5,6 +5,7 @@
 fof-rich-text:
   admin:
     settings:
+      force_compact_paragraphs: 'Für alle Benutzer kompakte Absätze erzwingen (Die Eingabetaste fügt einen Zeilenumbruch statt eines neuen Absatzes ein)'
       toggle_on_editor: 'Umschalter für Rich-Text-Modus im Editor anzeigen?'
   forum:
     settings:
@@ -29,7 +30,16 @@ fof-rich-text:
         remove_button: Entfernen
         text_placeholder: Text
         title_placeholder: 'Titel (wird beim Darüberfahren angezeigt)'
+      italic_tooltip: 'Kursivschrift ({modifierKey}-i)'
       link_tooltip: 'Link hinzufügen'
+      ordered_list_tooltip: 'Nummerierte Liste ({modifierKey}-Umschalt-9)'
+      paragraph_tooltip: 'Wechseln zu Absatz ({modifierKey}-Umschalt-0)'
+      quote_tooltip: 'Zitat einfügen ({modifierKey}-q)'
       spoiler_block_tooltip: 'Aufklappbarer Spoiler'
+      spoiler_inline_tooltip: 'Spoiler ({modifierKey}-;)'
+      strike_tooltip: 'Durchgestrichen (Alt-Umschalt-5)'
+      sub_tooltip: 'Tiefgestellt ({modifierKey}-,)'
+      sup_tooltip: 'Hochgestellt ({modifierKey}-.)'
       text_type_tooltip: 'Textart wählen'
       toggle_button: 'Rich-Text-Modus umschalten'
+      unordered_list_tooltip: 'Aufzählung ({modifierKey}-Umschalt-8)'

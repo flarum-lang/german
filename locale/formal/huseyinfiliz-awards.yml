@@ -12,8 +12,13 @@ huseyinfiliz-awards:
       edit_title: 'Auszeichnung bearbeiten'
       empty: 'Noch keine Auszeichnungen erstellt.'
       ends_at: Abstimmungsende
+      image_url: 'URL des Titelbildes'
+      image_url_help: 'Titelbild, das im Hero-Bereich angezeigt wird. Hochladen oder URL einfügen.'
       name: Auszeichnungsname
       publish: 'Ergebnisse veröffentlichen'
+      publish_confirm: 'Möchtest du die Ergebnisse wirklich veröffentlichen? Alle Abstimmenden werden darüber informiert.'
+      show_live_votes: 'Live-Abstimmungsergebnisse anzeigen'
+      show_live_votes_help: 'Anzahl der Stimmen anzeigen, während die Abstimmung läuft'
       starts_at: Abstimmungsbeginn
       status: Status
       status_active: Aktiv
@@ -39,20 +44,40 @@ huseyinfiliz-awards:
     nominees:
       create: 'Nominierten erstellen'
       create_title: 'Neuen Nominierten erstellen'
+      delete_confirm: 'Möchtest du diesen Kandidaten wirklich löschen?'
+      description_help: 'Kurzbeschreibung unter dem Namen (optional)'
+      displayed_votes: 'Angezeigte Stimmen'
       edit_title: 'Nominierten bearbeiten'
+      empty: 'Keine Kandidaten gefunden.'
       image: Bild
       image_url: Bild-URL
       name: 'Name des Nominierten'
       reset: Zurücksetzen
+      reset_adjustment: 'Anpassung auf 0 zurücksetzen'
       select_category: 'Kategorie auswählen'
       title: 'Nominierte verwalten'
+    settings:
+      nav_icon: Navigationssymbol
+      nav_icon_help: 'FontAwesome-Symbolklasse (z. B. fas fa-trophy, fas fa-award, fas fa-star)'
+      nav_title: Navigationstitel
+      nav_title_help: 'Text in der Navigations-Seitenleiste'
+      title: Einstellungen
+      votes_per_category: 'Stimmen pro Kategorie'
+      votes_per_category_help: '0 für unbegrenzte Stimmen, 1 für eine Stimme (ersetzen), >1 für mehrere Stimmen.'
     suggestions:
       approve: Genehmigen
+      approve_confirm: 'Als neuen Kandidaten vorschlagen? Der Benutzer wird automatisch dafür stimmen.'
       category: Kategorie
       date: Datum
+      empty: 'Keine ausstehenden Vorschläge'
       merge: Zusammenführen
+      name: 'Vorgeschlagener Name'
+      no_nominees: 'In dieser Kategorie sind keine Kandidaten vorhanden, die zusammengeführt werden könnten.'
       reject: Ablehnen
+      reject_confirm: 'Diesen Vorschlag ablehnen?'
       select_nominee_label: 'Nominierten auswählen'
+      select_nominee_placeholder: '-- Wähle einen Kandidaten aus --'
+      title: 'Ausstehende Vorschläge'
       user: 'Eingereicht durch'
     tabs:
       awards: Auszeichnungen
@@ -62,6 +87,12 @@ huseyinfiliz-awards:
       suggestions: Vorschläge
     title: Auszeichnungs-Verwaltung
   forum:
+    category:
+      nominees_count: '{count} Kandidaten'
+      votes_unlimited: '{count} Stimmen'
+      votes_used: '{used}/{limit} Stimmen'
+    error:
+      voting_closed: 'Abstimmung ist beendet.'
     my_votes:
       add_vote: 'Stimme abgeben'
       categories_remaining: 'Kategorien ohne Stimmen'
@@ -69,13 +100,66 @@ huseyinfiliz-awards:
       last_vote: 'Zuletzt abgestimmt: {time}'
       no_votes: 'Du hast noch nicht abgestimmt'
       remove: Entfernen
+      summary: 'Du hast in {voted}/{total} Kategorien abgestimmt'
       title: 'Deine Stimmen'
       total_votes: '{count} Stimmen insgesamt'
       vote_now: 'Jetzt abstimmen'
       votes_unlimited: '{count} Stimmen'
+      votes_used: '{used}/{limit} Stimmen verwendet'
+    nav:
+      all_categories: 'Alle Kategorien'
+      categories: Kategorien
+    other:
+      cancel: Abbrechen
+      status_approved: Angenommen
+      status_merged: Zusammengeführt
+      status_pending: Ausstehend
+      status_rejected: Abgelehnt
+      submit: 'Kandidaten vorschlagen'
+      suggest: 'Andere vorschlagen'
+    page:
+      results_published: 'Ergebnisse veröffentlicht'
+      voting_ended: 'Abstimmung endete um {time}'
+      voting_ends: 'Abstimmung endet um {time}'
+      voting_starts: 'Abstimmung beginnt um {time}'
+    prediction:
+      correct: 'Korrekt:'
+      wrong: 'Falsch:'
     progress:
       complete: Abgeschlossen!
+      next: Weiter
+      prev: Zurück
+      voted: '{count}/{total} Kategorien abgestimmt'
+    results:
+      full_results: 'Alle Ergebnisse'
+      percentage: '{percent} %'
+      runner_up: Zweiter
+      view_all: 'Alle Ergebnisse anzeigen'
+      votes: '{count} Stimmen'
+      winner: Gewinner
+    tabs:
+      categories: Kategorien
+      my_votes: 'Meine Stimmen'
+      results: Ergebnisse
     voting:
+      change_vote: 'Stimme ändern'
+      ended: 'Abstimmung wurde beendet'
+      ends_in_days: 'Abstimmung endet in {days} Tagen'
+      ends_in_hours: 'Abstimmung endet in {hours} Stunden'
+      ends_soon: 'Abstimmung endet bald'
+      select: Auswählen
       vote_removed: 'Deine Stimme wurde entfernt.'
+      vote_saved: 'Deine Stimme wurde gewertet!'
+      voted: Abgestimmt
+      voting_closed: 'Abstimmung ist beendet'
   lib:
+    actions: Aktionen
+    description: Beschreibung
+    move_down: 'Nach unten'
+    move_up: 'Nach oben'
     save: 'Änderungen speichern'
+    slug: Slug
+    sort_order: Reihenfolge
+    upload_image: 'Bild hochladen'
+    upload_success: 'Bild erfolgreich hochgeladen'
+    votes: Stimmen
