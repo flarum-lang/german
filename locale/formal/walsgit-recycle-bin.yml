@@ -23,10 +23,13 @@ walsgit-recycle-bin:
     mass_delete_modal:
       text_end: ' ausgewählte Diskussionen?'
     mass_delete_post_modal:
+      submit_button: 'Diese Beiträge endgültig löschen'
       text_end: ' ausgewählte Beiträge?'
+      title: 'Diese Beiträge endgültig löschen'
     mass_restore_modal:
       text_end: ' ausgewählte Diskussionen?'
     mass_restore_post_modal:
+      submit_button: 'Diese Beiträge wiederherstellen'
       text_end: ' ausgewählte Beiträge?'
     posts_bin: Beiträge-Papierkorb
     restore_discussion:
