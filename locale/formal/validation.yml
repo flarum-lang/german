@@ -3,6 +3,8 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 validation:
+  accepted: 'Das Feld „:attribute“ muss akzeptiert werden.'
+  accepted_if: 'Das Feld :attribute muss akzeptiert werden, wenn :other den Wert :value hat.'
   attributes:
     content: Inhalt
     email: E-Mail-Adresse
