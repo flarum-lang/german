@@ -24,6 +24,7 @@ fof-drafts:
       schedule_on_one_server: '''onOneServer()''-Direktive für den Task-Scheduler verwenden (benötigt Redis/Memcache)'
       title: 'FoF Entwürfe'
   console:
+    no_title_error: 'Entwurf übersprungen: Titel der Diskussion fehlt.'
     scheduled_drafts_disabled: 'Geplante Entwürfe sind derzeit in den Einstellungen deaktiviert.'
   forum:
     composer:
@@ -44,6 +45,7 @@ fof-drafts:
       title: Entwürfe
       tooltip: '=> fof-drafts.forum.dropdown.title'
     schedule_draft_modal:
+      no_title_error: 'Für die Planung einer Veröffentlichung muss ein Diskussionstitel angegeben werden.'
       reschedule_button: 'Plan aktualisieren'
       schedule_button: Planen
       schedule_time_preview: 'Dieser Entwurf wird automatisch am <b>{datetime}</b> veröffentlicht.'

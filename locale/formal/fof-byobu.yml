@@ -14,7 +14,7 @@ fof-byobu:
       make_private_into_public: 'Eine private Diskussion in eine öffentliche Diskussion umwandeln'
       view_private_discussions-when-flagged: 'Private Diskussionen anderer Nutzer anzeigen, wenn diese gemeldet sind'
     settings:
-      badge-icon: 'Byobu Diskussions Abzeichen'
+      badge-icon: Byobu-Diskussionmarkierung
       delete_on_last_recipient_left: 'PDs löschen, wenn der letzte Nutzer geht'
       delete_on_last_recipient_left_help: 'Wenn diese Option aktiviert ist, werden die PDs dauerhaft aus der Datenbank gelöscht, wenn der letzte Nutzer sie verlässt. Andernfalls wird die PD sanft gelöscht/versteckt.'
       enable-make-public-option: '"Öffentlich machen" Funktion aktivieren'

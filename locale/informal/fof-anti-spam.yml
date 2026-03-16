@@ -23,23 +23,43 @@ fof-anti-spam:
       button: Einstellungen
       content-filter:
         actions_heading: 'Automatische Aktionen'
+        advanced_block_patterns_help: 'Benutzerdefinierte Regex-Muster für fortgeschrittene Benutzer. Mit Vorsicht verwenden – ungültige Muster werden übersprungen. Das Format sollte ein JSON-Array aus Objekten mit den Schlüsseln „pattern“ und optional „description“ sein.'
+        advanced_block_patterns_label: 'Erweiterte Muster (Regex)'
+        advanced_patterns_heading: 'Erweiterte Blockiermuster'
         allowed_domains_help: 'URLs aus diesen Domänen werden nicht markiert. Gib pro Zeile eine Domäne ein. Die Domäne deines Forums wird automatisch auf die Zulassungsliste gesetzt.'
         allowed_domains_label: 'Erlaubte Domänen'
         allowlist_heading: Domänen-Zulassungsliste
+        auto_flag_help: 'Wenn aktiviert, werden Inhalte, die den Schwellenwert für die Markierung erreichen, automatisch zur Überprüfung durch einen Moderator markiert (erfordert „flarum/flags“). Die Begründung für die Markierung enthält Angaben dazu, warum der Inhalt als Spam erkannt wurde.'
+        auto_flag_label: 'Spaminhalte automatisch melden'
+        auto_unapprove_help: 'Wenn aktiviert, werden Beiträge, die den Spam-Schwellenwert erreichen, in die Genehmigungswarteschlange verschoben (erfordert „flarum/approval“). Moderatoren müssen die Beiträge genehmigen, bevor sie sichtbar werden.'
+        auto_unapprove_label: 'Spaminhalte automatisch ablehnen'
         blocked_words_heading: 'Blockierte Wörter und Ausdrücke'
+        blocked_words_help: 'Wörter oder Begriffe, die als Spam blockiert werden sollen. Ein Eintrag pro Zeile. Die Groß-/Kleinschreibung spielt keine Rolle, und es werden nur ganze Wörter berücksichtigt. Beispielsweise wird „viagra“ bei „viagra“ als Treffer erkannt, „niagara“ jedoch nicht.'
         blocked_words_label: 'Blockierte Wörter oder Ausdrücke'
         detect_emails_help: 'Melde Inhalte, die E-Mail-Adressen enthalten.'
         detect_emails_label: 'E-Mail-Adressen erkennen'
         detect_phones_help: 'Melde Inhalte, die Telefonnummern im internationalen Format enthalten.'
         detect_phones_label: 'Telefonnummern erkennen'
+        detect_urls_help: 'Melde Inhalte, die URLs enthalten, die nicht auf der Zulassungsliste stehen.'
+        detect_urls_label: 'URLs erkennen'
         detectors_heading: Detektionsmethoden
         enabled_help: 'Wenn aktiviert, werden Beiträge und Diskussionen neuer Benutzer auf Spam-Indikatoren analysiert.'
         enabled_label: 'Inhaltsfilter aktivieren'
+        flag_threshold_help: 'Inhalte mit einer Spam-Bewertung, die diesem Wert entspricht oder darüber liegt, werden zur Moderation markiert (erfordert die Erweiterung „flarum/flags“).'
+        flag_threshold_label: 'Meldungs-Schwellwert (0-100)'
         heading: Inhaltsfilter
         introduction: 'Spam-Inhalte von neuen Benutzern automatisch erkennen und kennzeichnen. Dieses System überwacht Beiträge und Diskussionen von kürzlich registrierten Benutzern auf häufige Spam-Indikatoren wie Telefonnummern, E-Mail-Adressen und verdächtige URLs.'
         monitor_hours_old_help: 'Analysiere nur Inhalte von Benutzern, deren Konten jünger als diese Anzahl von Stunden sind. Setze den Wert auf 0, um die Altersprüfung zu deaktivieren.'
-        monitor_hours_old_label: 'Überwache Benutzer bis zu Stunden alt'
+        monitor_hours_old_label: 'Benutzer nach Registrierungsalter überwachen'
+        monitor_post_count_help: 'Es werden nur Beiträge von Nutzern analysiert, die weniger als diese Anzahl an Beiträgen verfasst haben. Setze den Wert auf 0, um die Überprüfung der Beitragsanzahl zu deaktivieren.'
+        monitor_post_count_label: 'Benutzer bis zu dieser Beitragsanzahl überwachen'
+        no_action_extensions: 'Installiere die Erweiterungen „flarum/approval“ und/oder „flarum/flags“, um automatische Moderationsmaßnahmen zu aktivieren. Erkannter Spam wird über die in Flarum integrierte Genehmigungswarteschlange und das Meldesystem verwaltet.'
+        spam_threshold_help: 'Inhalte mit einer Spam-Bewertung, die diesem Wert entspricht oder darüber liegt, werden automatisch abgelehnt (erfordert die Erweiterung „flarum/approval“).'
         spam_threshold_label: 'Spam-Schwellenwert (0–100)'
+        system_user_id_help: 'Die Benutzer-ID, die als Urheber automatischer Spam-Markierungen verwendet wird. In der Regel sollte dies ein Admin- oder Systemkonto sein. Wenn keine Konfiguration vorliegt, wird standardmäßig die Benutzer-ID 1 verwendet.'
+        system_user_id_label: 'System-Benutzer-ID für Meldungen'
+        thresholds_heading: 'Schwellenwerte für die Spam-Bewertung'
+        user_targeting_heading: Zielgruppenmonitoring
       default-actions:
         delete_discussions_help: 'Dadurch werden alle von diesem Benutzer gestarteten Diskussionen dauerhaft gelöscht. Wenn diese Option deaktiviert ist, werden Diskussionen stattdessen nur vorübergehend gelöscht.'
         delete_discussions_label: 'Diskussionen löschen'
@@ -55,6 +75,8 @@ fof-anti-spam:
         api_key_instructions_text: '<register>Registriere dich auf StopForumSpam</register>. Danach musst du deinen <key>API-Schlüssel anfordern</key>.'
         api_key_label: API-Schlüssel
         api_key_text: 'Du hast die Möglichkeit, Spammer an StopForumSpam zu melden, um die allgemeine Forengemeinschaft spamfrei zu halten.'
+        block_tor_exit_nodes_help: 'Wenn aktiviert, werden Registrierungen von bekannten Tor-Ausgangsknoten automatisch blockiert. Dies kann dazu beitragen, anonyme Spam-Registrierungen zu verhindern, kann aber auch legitime Nutzer ausschließen, die Tor zum Schutz ihrer Privatsphäre nutzen.'
+        block_tor_exit_nodes_label: 'Tor-Ausgangsknoten blockieren'
         confidence_help: 'Der Konfidenzwert ist ein recht guter Indikator dafür, dass das untersuchte Feld zu unerwünschten Aktivitäten führen würde. Lege den Konfidenz-Schwellwert als Prozentwert fest. Wenn das Feld gleich oder über diesem Wert liegt, wird die Registrierung blockiert, unabhängig vom „Frequenz“-Test weiter oben.'
         confidence_label: Konfidenz
         email_hash_help: 'Es wird ein MD5-Hash der E-Mail-Adresse weiter gegeben, wenn du nicht die E-Mail-Adresse weitergeben möchtest. Diese Methode umgeht alle Tests auf Blockierlisten, Normalisierung und Verschleierungsprüfungen.'
@@ -78,6 +100,8 @@ fof-anti-spam:
     message:
       stopforumspam:
         blocked: 'Details deiner Registrierung wurden ein einer Datenbank zur Spamvermeidung gefunden, daher haben wir deine Registrierung abgelehnt.'
+    post:
+      flagged_as_spam_text: 'Automatische Spam-Erkennung – Bewertung {score}'
     spammer_modal:
       hard_delete_discussions_help: 'Dadurch werden alle von diesem Benutzer gestarteten Diskussionen dauerhaft gelöscht. Wenn diese Option deaktiviert ist, werden Diskussionen stattdessen nur verborgen.'
       hard_delete_discussions_label: 'Diskussionen löschen'
