@@ -40,8 +40,12 @@ huseyinfiliz-awards:
       select_award: 'Auszeichnung auswählen'
       title: 'Kategorien verwalten'
     nav:
+      description: 'Community-Auszeichnungen und Abstimmung verwalten'
       title: Auszeichnungen
     nominees:
+      adjust_votes: 'Stimmen anpassen'
+      adjustment: Anpassung
+      adjustment_help: 'Gib eine positive oder negative Zahl ein, um die angezeigte Stimmenzahl anzupassen.'
       create: 'Nominierten erstellen'
       create_title: 'Neuen Nominierten erstellen'
       delete_confirm: 'Möchtest du diesen Kandidaten wirklich löschen?'
@@ -51,11 +55,19 @@ huseyinfiliz-awards:
       empty: 'Keine Kandidaten gefunden.'
       image: Bild
       image_url: Bild-URL
+      image_url_help: 'URL zum Bild des Vorschlags (z. B. Spielcover, Porträtfoto)'
       name: 'Name des Nominierten'
+      real_votes: 'Echte Stimmen'
       reset: Zurücksetzen
       reset_adjustment: 'Anpassung auf 0 zurücksetzen'
       select_category: 'Kategorie auswählen'
       title: 'Nominierte verwalten'
+      vote_adjustment_title: Stimmenanpassung
+    permissions:
+      manage: 'Auszeichnungen verwalten'
+      view: 'Auszeichnungen ansehen'
+      view_results: 'Ergebnisse vorzeitig ansehen'
+      vote: 'Für die Auszeichnungen abstimmen'
     settings:
       nav_icon: Navigationssymbol
       nav_icon_help: 'FontAwesome-Symbolklasse (z. B. fas fa-trophy, fas fa-award, fas fa-star)'
@@ -71,11 +83,13 @@ huseyinfiliz-awards:
       date: Datum
       empty: 'Keine ausstehenden Vorschläge'
       merge: Zusammenführen
+      merge_info: '„{name}“ mit einem bestehenden Kandidaten zusammenführen. Die Stimme des Benutzers werden zu diesem Kandidaten hinzugefügt.'
+      merge_title: 'Vorschlag zusammenführen'
       name: 'Vorgeschlagener Name'
       no_nominees: 'In dieser Kategorie sind keine Kandidaten vorhanden, die zusammengeführt werden könnten.'
       reject: Ablehnen
       reject_confirm: 'Diesen Vorschlag ablehnen?'
-      select_nominee_label: 'Nominierten auswählen'
+      select_nominee_label: 'Kandidaten auswählen'
       select_nominee_placeholder: '-- Wähle einen Kandidaten aus --'
       title: 'Ausstehende Vorschläge'
       user: 'Eingereicht durch'
@@ -93,6 +107,12 @@ huseyinfiliz-awards:
       votes_used: '{used}/{limit} Stimmen'
     error:
       voting_closed: 'Abstimmung ist beendet.'
+    hero:
+      countdown: 'Abstimmung endet in: {days}d {hours}h {minutes}m {seconds}s'
+      draft_preview: 'Vorschau auf den Entwurf'
+      results_preview: 'Vorschau der Ergebnisse'
+      results_published: 'Ergebnisse veröffentlicht'
+      voting_ended: 'Abstimmung ist beendet'
     my_votes:
       add_vote: 'Stimme abgeben'
       categories_remaining: 'Kategorien ohne Stimmen'
@@ -109,6 +129,7 @@ huseyinfiliz-awards:
     nav:
       all_categories: 'Alle Kategorien'
       categories: Kategorien
+      title: Auszeichnungen
     other:
       cancel: Abbrechen
       status_approved: Angenommen
@@ -118,13 +139,19 @@ huseyinfiliz-awards:
       submit: 'Kandidaten vorschlagen'
       suggest: 'Andere vorschlagen'
     page:
+      previous_awards: 'Auszeichnungen des Vorjahres'
       results_published: 'Ergebnisse veröffentlicht'
+      select_award: 'Auszeichnung auswählen'
       voting_ended: 'Abstimmung endete um {time}'
       voting_ends: 'Abstimmung endet um {time}'
       voting_starts: 'Abstimmung beginnt um {time}'
     prediction:
       correct: 'Korrekt:'
+      score: '{correct}/{total} richtige Vorhersagen!'
+      title: 'Dein Vorhersage-Ergebnis'
       wrong: 'Falsch:'
+    preview:
+      admin_only: 'Vorschau-Modus – Nur für autorisierte Benutzer sichtbar'
     progress:
       complete: Abgeschlossen!
       next: Weiter
