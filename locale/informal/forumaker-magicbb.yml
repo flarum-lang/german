@@ -30,6 +30,7 @@ forumaker-magicbb:
       audio_button: 'Audio hinzufügen'
       center_button: Zentrieren
       color_button: 'Farbe hinzufügen'
+      image_button: 'Smart-Image hinzufügen'
       info_button: 'Warnung hinzufügen'
       justify_button: Blocksatz
       more_button: Mehr

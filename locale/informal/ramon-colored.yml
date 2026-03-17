@@ -4,13 +4,25 @@
 
 colored:
   admin:
+    donate: 'Unterstütze diese Erweiterung'
     settings:
       custom_css_help: 'Füge hier beliebige benutzerdefinierte CSS-Stile ein, die du anwenden möchtest.'
       custom_css_label: 'Benutzerdefiniertes CSS'
       elements:
+        alerts_description: 'Fügt System-Benachrichtigungen einen farbigen Rahmen hinzu'
+        alerts_help: 'Einfärbung für Benachrichtigungen aktivieren.'
+        alerts_label: Toast-Benachrichtigungen
         button_description: 'Wendet Farben auf wichtige Elemente wie Schaltflächen, Links und Menüeinträge an'
         button_help: 'Einfärbung für Hauptelemente aktivieren'
         button_label: Hauptelemente
+        composer_description: 'Fügt dem Texteditor einen farbigen Hintergrund hinzu'
+        composer_help: 'Einfärbung für Texteditor aktivieren.'
+        composer_label: Texteditor
+        custom_help: 'Verwendung von benutzerdefiniertem CSS aktivieren.'
+        custom_label: 'Benutzerdefiniertes CSS'
+        dropdown_description: 'Fügt Dropdown-Menüs einen farbigen Hintergrund hinzu'
+        dropdown_help: 'Einfärbung für Dropdown-Menüs aktivieren.'
+        dropdown_label: Dropdown-Menüs
         header_description: 'Fügt einen farbigen Rand oberhalb der Kopfzeile des Forums hinzu'
         header_help: 'Einfärbung der Kopfzeile aktivieren.'
         header_label: Kopfzeilenrahmen
@@ -20,11 +32,15 @@ colored:
         navigation_description: 'Fügt der Navigationsleiste einen farbigen Rahmen hinzu'
         navigation_help: 'Einfärbung der Navigationsleiste aktivieren.'
         navigation_label: Navigationsleiste
+        post_description: 'Fügt der Seite eines Beitrags einen farbigen Rahmen hinzu'
+        post_help: 'Einfärbung für Beiträge aktivieren.'
+        post_label: Beiträge
         usercard_description: 'Fügt Benutzerkarten einen farbigen Rahmen hinzu'
         usercard_help: 'Einfärbung für Benutzerkarten aktivieren.'
         usercard_label: Benutzerkarte
       tag_mode_custom: Benutzerdefiniert
       tag_mode_first: 'Erstes Thema'
+      tag_mode_label: Themen-Farbmodus
       tag_mode_second: 'Zweites Thema'
       tag_position_help: 'Wähle die Position des Themas für die Anpassung.'
       tag_position_label: Themenposition

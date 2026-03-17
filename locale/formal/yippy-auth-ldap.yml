@@ -5,26 +5,52 @@
 yippy-auth-ldap:
   admin:
     settings:
+      display_detailed_error: 'Detaillierte LDAP-Fehler bei fehlgeschlagenen Anmeldeversuchen anzeigen'
       domains:
         add: 'Domäne hinzufügen'
         banner: 'Domäne {index} – [{isEnabled}]'
         data:
+          admin_dn: 'Distinguished Name (DNs)'
+          admin_dn_help: 'Für anonyme Bindung leer lassen'
           admin_password: Passwort
+          admin_password_help: 'Für anonyme Bindung leer lassen'
+          base_dn: Basis-DNs
+          base_dn_help: 'Mehrere Basis-DNs durch Semikolons getrennt.'
+          filter: 'Filter anwenden'
+          filter_help: 'Optional: Die „Suchfelder“ müssen aus dem Filter ausgeschlossen werden. Wenn du beispielsweise den Filter „(objectclass=user)“ eingibst und in den „Suchfeldern“ „uid“ auswählen, wird der Filter zu „(&(objectclass=user)(uid=[Benutzereingabe])“ geändert.'
+          follow_referrals: 'Befolge die Anweisungen, um eine Verbindung zum LDAP-Server herzustellen'
           host: 'Domänen- oder Server-IP-Adressen'
           host_help: 'Durch Kommas getrennt'
+          is_enabled: 'LDAP-Server aktivieren'
+          permission_groups: 'Bestimmte Berechtigungen zuweisen'
+          permission_groups_help: 'Dies gilt ab der Registrierung'
           port: Port
           port_help: 'Nicht-SSL (Port 389) oder SSL (Port 636).'
+          search_user_fields: Suchfelder
+          search_user_fields_help: 'Wähle über die Dropdown-Optionen mehrere Suchfelder aus. Wenn du beispielsweise „mail“ auswählst, wird nur nach E-Mail-Adressen gesucht, während bei „uid,mail“ sowohl nach E-Mail-Adressen als auch nach Benutzernamen gesucht wird.'
           use_ssl: 'SSL verwenden'
           use_tls: 'TLS verwenden'
+          user_mail: 'Feld „E-Mail“ zuweisen'
+          user_mail_help: 'Feld leer lassen, damit Benutzer bei der Registrierung ihre eigene E-Mail-Adresse angeben können'
+          user_nickname_fields: 'Spitznamen mit Feldern zuweisen'
+          user_nickname_fields_help: 'Die Spitznamen-Erweiterung muss aktiviert sein. Stelle den Spitznamen mithilfe der Dropdown-Optionen aus mehreren LDAP-Feldern zusammen. Wenn du beispielsweise „givenname,sn“ auswählst, wird als Spitzname „[Vorname] [Nachname]“ zugewiesen.'
+          user_username: 'Feld „Benutzername“ zuweisen'
           version: LDAP-Version
+          version_help: 'Kann nur auf 2 oder 3 eingestellt werden (Standardwert ist 3).'
+        description: 'Gib alle verfügbaren LDAP-Domänen ein, die Flarum für die Anmeldung verwenden soll'
         header:
           admin: LDAP-Admin
           flarum: 'Flarum Benutzerprofil'
+          flarum_description: 'Sobald das LDAP-Konto gefunden wurde, kannst du bei der Registrierung die entsprechenden Felder dem Flarum-Benutzerprofil zuweisen.'
           search_fields: LDAP-Kontosuche
+          search_fields_description: 'Erstelle eine Liste von LDAP-Feldern, die mit dem vom Benutzer angegebenen Benutzernamen abgeglichen werden sollen.'
           server: LDAP-Server-Einstellungen
         is_enabled:
           disabled: Deaktiviert
           enabled: Aktivieren
+        title: LDAP-Domänen
+      method_name: 'Name des LDAP-Servers (wird hinter „Anmelden mit“ angezeigt)'
+      onlyUse: 'Standard-Anmeldemethode von Flarum ausblenden'
       title: LDAP-Einstellungen
   forum:
     account_found: 'Konto auf {server} gefunden'
@@ -40,8 +66,15 @@ yippy-auth-ldap:
       core_csrf_token_mismatch: '=> core.views.error.csrf_token_mismatch'
       csrf_token_mismatch: 'Du bist zu lange inaktiv gewesen. Bitte aktualisiere die Seite und versuche es erneut.'
       domains:
-        empty_host: 'Für die Domäne {domain_index} sind keine Domänen- oder Server-IP-Adressen festgelegt. Passe die Erweiterungseinstellungen an.'
-        no_domains: 'In den Admin-Einstellungen sind keine Domänen festgelegt, passe die Erweiterungseinstellungen an.'
-      search_filter_is_invalid: 'Die Suche nach {server} kann aufgrund ungültiger „LDAP-Suchfelder“ nicht gefiltert werden. Ändere die Erweiterungseinstellungen.'
+        connection_failed: 'Die Verbindung zur Domäne {domain_index} ist fehlgeschlagen. Fehlercode „{data}“'
+        empty_base_dn: 'Für die Domäne {domain_index} sind keine Basis-DNs festgelegt. Passe die Erweiterungs-Einstellungen an.'
+        empty_host: 'Für die Domäne {domain_index} sind keine Domänen- oder Server-IP-Adressen festgelegt. Passe die Erweiterungs-Einstellungen an.'
+        empty_search_field: 'Die Domäne {domain_index} verfügt über die LDAP-Kontosuche – das „Suchfeld“ ist leer. Passe die Erweiterungs-Einstellungen an.'
+        empty_user_username: 'Die Domäne {domain_index} weist im Flarum-Benutzerprofil ein leeres Feld „Benutzername“ auf. Passe die Erweiterungs-Einstellungen an.'
+        mail_field_does_not_exist: 'Die Domäne {domain_index} kann keine E-Mail für das Flarum-Benutzerprofil – „E-Mail“-Feld mit „{data}“ – finden. Passe die Erweiterungs-Einstellungen an.'
+        no_domains: 'In den Admin-Einstellungen sind keine Domänen festgelegt. Passe die Erweiterungs-Einstellungen an.'
+        username_field_does_not_exist: 'Die Domäne {domain_index} kann den Benutzernamen für das Flarum-Benutzerprofil – „Benutzername“-Feld mit „{data}“ – nicht finden. Passe die Erweiterungs-Einstellungen an.'
+      not_authenticated: '{server} kann aufgrund ungültiger Anmeldedaten nicht verbunden werden. Passe die Erweiterungs-Einstellungen an.'
+      search_filter_is_invalid: 'Die Suche nach {server} kann aufgrund ungültiger „LDAP-Suchfelder“ nicht gefiltert werden. Passe die Erweiterungs-Einstellungen an.'
     log_in_with: 'Bei {server} anmelden'
     log_out: '=> core.ref.log_out'

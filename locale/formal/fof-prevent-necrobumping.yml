@@ -6,10 +6,10 @@ fof-prevent-necrobumping:
   admin:
     settings:
       days_help: 'Diskussionen nach so vielen Tagen seit dem letzten Beitrag als inaktiv markieren. Setze den Wert auf <code>0</code>, um diese Funktion standardmäßig zu deaktivieren.'
-      days_label: 'Tage nach denen eine Diskussion als inaktiv gilt'
+      days_label: 'Tage, nach denen eine Diskussion als inaktiv gilt'
       general_heading: 'Allgemeine Einstellungen'
       show_discussion_cta_help: 'Zeige einen Vorschlag zum Starten einer neuen Diskussion an, wenn Benutzer versuchen, auf inaktive Diskussionen zu antworten.'
-      show_discussion_cta_label: 'Die Aufforderung „Neue Diskussion starten“ anzeigen'
+      show_discussion_cta_label: 'Aufforderung „Neue Diskussion starten“ anzeigen'
       tags_help: 'Überschreibe den globalen Schwellenwert für Inaktivität für bestimmte Themen. Lasse das Feld leer, um den Standardwert zu verwenden. Wenn mehrere Themen unterschiedliche Werte haben, gilt der kürzeste Zeitraum.'
       tags_placeholder: Standard
       tags_title: 'Themenspezifische Einstellungen'
