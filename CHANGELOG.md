@@ -8,6 +8,8 @@ CHANGELOG
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
 * [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content)
+* [`datlechin/flarum-more-discussions`](https://github.com/datlechin/flarum-more-discussions)
+* [`forumaker/magicslider`](https://github.com/forumaker/magicslider)
 * [`huoxin/relative-url`](https://github.com/huoxin233/flarum-ext-relative-url)
 * [`import-ai/flarum-webhook`](https://github.com/import-ai/flarum-webhook)
 * [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
