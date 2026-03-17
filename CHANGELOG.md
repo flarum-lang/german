@@ -21,6 +21,7 @@ CHANGELOG
 * [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup)
 * [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords)
 * [`glowingblue/redis-setup`](https://github.com/glowingblue/flarum-ext-redis-setup)
+* [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards)
 * [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
 * [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
