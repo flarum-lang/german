@@ -5,12 +5,29 @@
 capy-magic-slider:
   admin:
     settings:
+      add_slide: 'Slide hinzufügen'
+      autoplay: 'Intervall für die automatische Wiedergabe'
+      autoplay_help: '0 deaktiviert die automatische Slide-Umschaltung. In Sekunden'
+      delete: Löschen
+      disable_desktop: 'Slider auf Desktop deaktivieren'
+      disable_desktop_help: 'Auf Bildschirmen breiter als 768px verbergen'
+      disable_mobile: 'Slider auf Mobil deaktivieren'
+      disable_mobile_help: 'Auf Bildschirmen bis 768px verbergen'
+      fit_to_layout: 'Slider an die Breite des Hauptlayouts anpassen'
+      fit_to_layout_help: 'Wenn aktiviert, erstreckt sich der Slider genau über die Breite des Hauptinhaltsbereichs bei Themen oder Diskussionslisten'
       height: Höhe
       height_help: 'Feste Höhe für diesen Bildschirmtyp'
+      hide_on_tag_pages: 'Slider auf Themenseiten verbergen'
+      hide_on_tag_pages_help: 'Auf Themen-Seiten den Standard-Themen-Hero von Flarum anstelle des Sliders anzeigen'
+      image_placeholder: Bild-URL
+      link_placeholder: Link-URL
+      new_tab: 'In neuem Tab öffnen'
       padding: 'Äusseres Padding'
-      padding_help: 'Abstand um den Schiebereglerblock'
-      radius: Eckenrundung
+      padding_help: 'Abstand um den Sliderabschnitt'
+      radius: Rahmenrundung
+      radius_help: Eckenrundung
       section_behavior: Verhalten
       section_desktop: Desktop
       section_display: Darstellung
       section_mobile: Mobil
+      section_slides: Slides
