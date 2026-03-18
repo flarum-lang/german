@@ -32,4 +32,4 @@ flarum-likes:
       posts:
         likedBy:
           hint: 'Die ID oder Benutzername des Benutzers'
-          key: likedBy
+          key: likeVon

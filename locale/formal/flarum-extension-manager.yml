@@ -66,7 +66,7 @@ flarum-extension-manager:
     extensions:
       check_why_it_failed_updating: 'Zeige, warum sie nicht auf die neueste Version aktualisiert wurde.'
       install: 'Installiere eine neue Erweiterung'
-      install_help: "Geben sie den Paketnamen der Erweiterung ein, um fortzufahren. Sie können mithilfe des Formats <code>vendor/package-name:version</code> eine <semantic_link>semantische Version</semantic_link> angeben. Besuchen sie {extiverse}, um Erweiterungen zu durchsuchen.\n"
+      install_help: "Geben Sie den Paketnamen der Erweiterung ein, um fortzufahren. Sie können mithilfe des Formats <code>vendor/package-name:version</code> eine <semantic_link>semantische Version</semantic_link> angeben. Besuchen Sie {link}, um Erweiterungen zu durchsuchen.\n"
       proceed: Fortfahren
       remove: Deinstallieren
       successful_install: '{extension} wurde erfolgreich installiert, leite weiter...'
@@ -86,7 +86,7 @@ flarum-extension-manager:
       title: 'Großes Update für Flarum {version} verfügbar'
       update: Aktualisieren
     minor_update_confirmation:
-      content: 'Dadurch werden auch alle anderen Erweiterungen/Pakete mit verfügbaren Updates aktualisiert.'
+      content: 'Dadurch werden auch alle anderen Erweiterungen/Pakete aktualisiert, für die Aktualisierungen verfügbar sind.'
     required_php_functions: "Der Erweiterungsmanager erfordert, dass die folgenden PHP-Funktionen aktiviert sind: <code>{functions}</code>. Wenn du keinen Zugriff auf die PHP-Konfiguration hast, wende dich bitte an deinen Hosting-Anbieter.\n"
     sections:
       discover:
@@ -156,7 +156,7 @@ flarum-extension-manager:
       access_warning: 'Bitte seien sie vorsichtig, wem sie Zugang zum Admin-Bereich geben, der Erweiterungs-Manager könnte von bösartigen Akteuren missbraucht werden, um Pakete zu installieren, die zu Sicherheitslücken führen können.'
       debug_mode_warning: 'Sie sind im Debug-Modus, der Erweiterungs-Manager kann lokale Entwicklungs-Pakete nicht richtig installieren und aktualisieren. Bitte benutzen sie für solche Zwecke stattdessen die Kommandozeilen-Schnittstelle.'
       queue_jobs: 'Operationen im Hintergrund ausführen'
-      queue_jobs_help: "Du kannst dich über eine <basic_impl_link>grundlegende Warteschlangenimplementierung</basic_impl_link> oder eine <adv_impl_link>fortgeschrittenere</adv_impl_link> Implementierung informieren. Stelle sicher, dass die für die Warteschlange verwendete PHP-Version {php_version} ist. Stelle auch sicher, dass die <folder_perms_link>Ordnerberechtigungen</folder_perms_link> korrekt konfiguriert sind.\n"
+      queue_jobs_help: "Sie können sich über eine <basic_impl_link>einfache Warteschlangen-Implementierung</basic_impl_link> oder eine <adv_impl_link>fortgeschrittenere</adv_impl_link> Variante informieren. Stellen Sie sicher, dass die für die Warteschlange verwendete PHP-Version {php_version} ist. Stellen Sie ausserdem sicher, dass die <folder_perms_link>Ordnerberechtigungen</folder_perms_link> korrekt konfiguriert sind.\n"
       task_retention_days: 'Aufbewahrungstage für Aufgaben'
       task_retention_days_help: "Die Anzahl der Tage, die abgeschlossene Aufgaben in der Datenbank aufbewahrt werden. Aufgaben, die älter als diese sind, werden gelöscht. Setze auf 0, um alle Aufgaben zu behalten.\n"
       title: '=> core.ref.settings'

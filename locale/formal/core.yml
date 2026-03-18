@@ -377,13 +377,13 @@ core:
       must_be_numeric_message: 'Der {filter} Filter muss numerisch sein.'
       must_not_be_array_message: 'Der {filter} Filter darf kein Array sein.'
       must_not_be_multidimensional_array_message: 'Der {filter} Filter darf kein mehrdimensionales Array sein.'
-    invalid_username_message: 'Der Benutzername darf nur Buchstaben, Zahlen und Bindestriche enthalten. Mindestens ein Buchstabe muss enthalten sein.'
+    invalid_username_message: 'Der Benutzername darf nur Buchstaben, Zahlen und Bindestriche enthalten. Er muss mindestens einen Buchstaben enthalten.'
   email:
     activate_account:
-      body: "Jemand (hoffentlich du!) hat sich mit dieser E-Mail-Adresse bei {forum} angemeldet.\n\nWenn du das warst, klicke einfach auf den folgenden Link, um dein Konto zu aktivieren:\n{url}\n\nWenn du dich nicht angemeldet haben, ignoriere diese E-Mail bitte.\n"
+      body: "Jemand (hoffentlich Sie!) hat sich mit dieser E-Mail-Adresse bei {forum} registriert.\n\nFalls Sie das waren, klicken Sie einfach auf den folgenden Link, um Ihr Konto zu aktivieren:\n{url}\n\nFalls Sie sich nicht registriert haben, ignorieren Sie diese E-Mail bitte.\n"
       subject: 'Aktivierung Ihres neuen Kontos'
     confirm_email:
-      body: "Jemand (hoffentlich du!) hat seine E-Mail-Adresse im {forum} in diese geändert.\n\nWenn du das warst, klicke einfach auf den folgenden Link, um deine E-Mail-Adresse zu bestätigen:\n{url}\n\nWenn du das nicht warst, ignoriere bitte diese E-Mail.\n"
+      body: "Jemand (hoffentlich Sie!) hat seine E-Mail-Adresse im {forum} auf diese geändert.\n\nFalls Sie das waren, klicken Sie einfach auf den folgenden Link, um Ihre E-Mail-Adresse zu bestätigen:\n{url}\n\nFalls Sie das nicht waren, ignorieren Sie diese E-Mail bitte.\n"
       subject: 'Bestätigung Ihrer E-Mail-Adresse'
     greeting: 'Hallo {displayName},'
     informational:
@@ -400,10 +400,10 @@ core:
         unsubscribe_text: 'Wenn du diese Art von Benachrichtigungen nicht mehr erhalten möchtest, [melde dich hier ab]({unsubscribeLink}).'
         unsubscribe_text_plain: 'Wenn du diese Art von Benachrichtigungen nicht mehr erhalten möchtest, kannst du dich hier abmelden: {unsubscribeLink}'
     reset_password:
-      body: "Jemand (hoffentlich du!) hat eine Anfrage zum Zurücksetzen des Passworts für dein Konto bei {forum} gestellt.\n\nWenn du das warst, klicke auf den folgenden Link, um dein Passwort zurückzusetzen:\n{url}\n\nWenn du dein Passwort nicht ändern möchtest, ignoriere diese E-Mail einfach, dann geschieht nichts weiter.\n"
+      body: "Jemand (hoffentlich Sie!) hat für Ihr Konto auf {forum} eine Anfrage wegen eines vergessenen Passworts gestellt.\n\nFalls Sie das waren, klicken Sie auf den folgenden Link, um Ihr Passwort zurückzusetzen:\n{url}\n\nWenn Sie Ihr Passwort nicht ändern möchten, ignorieren Sie diese E-Mail einfach – es wird nichts passieren.\n"
       subject: 'Zurücksetzung Ihres Passwortes'
     send_test:
-      body: "Dies ist eine Test-E-Mail, um zu überprüfen, ob deine Flarum-E-Mail-Konfiguration ordnungsgemäß funktioniert.\n\nWenn du der Absender warst, bedeutet diese E-Mail, dass deine Konfiguration funktioniert!\n\nWenn du nicht der Absender warst, ignoriere diese E-Mail bitte.\n"
+      body: "Dies ist eine Test-E-Mail, um zu überprüfen, ob Ihre E-Mail-Konfiguration in Flarum ordnungsgemäß funktioniert.\n\nFalls Sie diese E-Mail erhalten haben, bedeutet dies, dass Ihre Konfiguration funktioniert!\n\nFalls Sie diese E-Mail nicht erhalten haben, ignorieren Sie sie bitte.\n"
       subject: 'Flarum E-Mail Test'
     signoff: 'Das {forumTitle}-Team'
   forum:
@@ -508,7 +508,7 @@ core:
       title: '=> core.ref.log_in'
       username_or_email_placeholder: '=> core.ref.username_or_email_placeholder'
     notifications:
-      delete_all_confirm: 'Möchtest du wirklich alle Benachrichtigungen löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.'
+      delete_all_confirm: 'Möchten Sie wirklich alle Benachrichtigungen löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.'
       delete_all_tooltip: 'Alle Benachrichtigungen löschen'
       discussion_renamed_text: '{username} hat den Titel geändert'
       empty_text: 'Keine neuen Benachrichtigungen'

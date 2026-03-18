@@ -56,7 +56,7 @@ fof-byobu:
       submit_button: 'Erstelle private Diskussion'
       title_placeholder: 'Private Diskussion Titel'
     confirm:
-      make_public: 'Dadurch wird diese private Diskussion für alle sichtbar. Überlege, ob dies die richtige Handlung ist, bevor du fortfährst.'
+      make_public: 'Dadurch wird diese private Diskussion für alle sichtbar. Überlegen Sie, ob dies die richtige Handlung ist, bevor Sie fortfahren.'
     hero:
       title: '=> fof-byobu.forum.nav.nav_item'
     input:

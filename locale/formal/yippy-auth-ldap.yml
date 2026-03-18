@@ -17,7 +17,7 @@ yippy-auth-ldap:
           base_dn: Basis-DNs
           base_dn_help: 'Mehrere Basis-DNs durch Semikolons getrennt.'
           filter: 'Filter anwenden'
-          filter_help: 'Optional: Die „Suchfelder“ müssen aus dem Filter ausgeschlossen werden. Wenn du beispielsweise den Filter „(objectclass=user)“ eingibst und in den „Suchfeldern“ „uid“ auswählen, wird der Filter zu „(&(objectclass=user)(uid=[Benutzereingabe])“ geändert.'
+          filter_help: 'Optional: Die „Suchfelder“ müssen aus dem Filter ausgeschlossen werden. Wenn Sie beispielsweise den Filter „(objectclass=user)“ eingeben und in den „Suchfeldern“ „uid“ auswählen, wird der Filter zu „(&(objectclass=user)(uid=[Benutzereingabe])“ geändert.'
           follow_referrals: 'Befolge die Anweisungen, um eine Verbindung zum LDAP-Server herzustellen'
           host: 'Domänen- oder Server-IP-Adressen'
           host_help: 'Durch Kommas getrennt'
@@ -33,7 +33,7 @@ yippy-auth-ldap:
           user_mail: 'Feld „E-Mail“ zuweisen'
           user_mail_help: 'Feld leer lassen, damit Benutzer bei der Registrierung ihre eigene E-Mail-Adresse angeben können'
           user_nickname_fields: 'Spitznamen mit Feldern zuweisen'
-          user_nickname_fields_help: 'Die Spitznamen-Erweiterung muss aktiviert sein. Stelle den Spitznamen mithilfe der Dropdown-Optionen aus mehreren LDAP-Feldern zusammen. Wenn du beispielsweise „givenname,sn“ auswählst, wird als Spitzname „[Vorname] [Nachname]“ zugewiesen.'
+          user_nickname_fields_help: 'Die Spitznamen-Erweiterung muss aktiviert sein. Stellen Sie den Spitznamen mithilfe der Dropdown-Optionen aus mehreren LDAP-Feldern zusammen. Wenn Sie beispielsweise „givenname,sn“ auswählen, wird als Spitzname „[Vorname] [Nachname]“ zugewiesen.'
           user_username: 'Feld „Benutzername“ zuweisen'
           version: LDAP-Version
           version_help: 'Kann nur auf 2 oder 3 eingestellt werden (Standardwert ist 3).'
@@ -64,7 +64,7 @@ yippy-auth-ldap:
         not_found: 'Dein Konto kann auf {server} nicht gefunden werden.'
         password_expired: 'Dein Passwort ist abgelaufen.'
       core_csrf_token_mismatch: '=> core.views.error.csrf_token_mismatch'
-      csrf_token_mismatch: 'Du bist zu lange inaktiv gewesen. Bitte aktualisiere die Seite und versuche es erneut.'
+      csrf_token_mismatch: 'Sie sind zu lange inaktiv gewesen. Bitte aktualisieren Sie die Seite und versuchen Sie es erneut.'
       domains:
         connection_failed: 'Die Verbindung zur Domäne {domain_index} ist fehlgeschlagen. Fehlercode „{data}“'
         empty_base_dn: 'Für die Domäne {domain_index} sind keine Basis-DNs festgelegt. Passe die Erweiterungs-Einstellungen an.'

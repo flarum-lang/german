@@ -37,7 +37,7 @@ fof-geoip:
       service_iplocation_description: 'Verwende <b>https://www.iplocation.net/</b>, um Länder- und ISP-Daten abzurufen. Die Suchratenbeschränkungen sind unbekannt.'
       service_iplocation_label: 'IP Location'
       service_ipsevenex_description: 'Verwende <b>https://7x.ax</b>, um einen kostenlosen API-Schlüssel für bis zu 20 Anfragen pro Minute zu erhalten. Es sind auch kostenpflichtige Tarife für höhere Nutzungslimits verfügbar.'
-      service_ipsevenex_label: '7x Geolocation API'
+      service_ipsevenex_label: '7x Geolocation-API'
       service_label: Dienstanbieter
       show_flag_help: 'Ohne die IP-Adresse preiszugeben, wird die Landesflagge der IP-Adresse des Verfassers des Beitrags angezeigt, wenn der Benutzer dies in seinen Einstellungen aktiviert hat.'
       show_flag_label: 'Länderflagge für jeden Beitrag anzeigen'

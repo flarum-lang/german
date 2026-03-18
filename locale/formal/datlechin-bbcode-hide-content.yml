@@ -8,6 +8,6 @@ datlechin-bbcode-hide-content:
       bypass_like_label: 'Like-Anforderung umgehen'
       bypass_reply_label: 'Antwort-Anforderung umgehen'
   forum:
-    must_be_logged_in: 'Du musst angemeldet sein, um diesen Inhalt ansehen zu können.'
-    must_liked: 'Du musst diesen Inhalt liken, um ihn ansehen zu können.'
-    must_replied: 'Du musst auf diesen Inhalt antworten, um ihn ansehen zu können.'
+    must_be_logged_in: 'Sie müssen angemeldet sein, um diesen Inhalt ansehen zu können'
+    must_liked: 'Sie müssen diesen Inhalt liken, um ihn ansehen zu können'
+    must_replied: 'Sie müssen auf diesen Inhalt antworten, um ihn ansehen zu können'
