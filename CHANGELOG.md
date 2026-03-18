@@ -12,6 +12,9 @@ CHANGELOG
 * [`forumaker/magicslider`](https://github.com/forumaker/magicslider)
 * [`huoxin/relative-url`](https://github.com/huoxin233/flarum-ext-relative-url)
 * [`import-ai/flarum-webhook`](https://github.com/import-ai/flarum-webhook)
+* [`resofire/blog-cards`](https://github.com/ResofireV2/blog-cards)
+* [`resofire/discussion-participants`](https://github.com/ResofireV2/discussion-participants)
+* [`resofire/menu-control`](https://github.com/ResofireV2/menu-control)
 * [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
 
 
