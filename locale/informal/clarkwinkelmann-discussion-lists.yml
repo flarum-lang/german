@@ -7,3 +7,5 @@ clarkwinkelmann-discussion-lists:
     permissions:
       createPublic: 'Liste öffentlicher Diskussionen erstellen'
       viewPublic: 'Öffentliche Diskussionsliste anzeigen'
+    settings:
+      collapseSeries: 'Serienindex standardmäßig ausblenden'

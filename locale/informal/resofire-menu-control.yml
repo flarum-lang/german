@@ -7,6 +7,7 @@ resofire-menu-control:
     nav_order:
       add_highlight: 'Dieses Element für Benutzer hervorheben'
       description: 'Verwende die Pfeiltasten, um die Elemente der Seitenleiste auf der Startseite des Forums neu anzuordnen. Die Änderungen werden sofort nach dem Speichern wirksam.'
+      flip_help: 'Wenn aktiviert, werden die Themen-Links oben in der Seitenleiste angezeigt und die Navigationselemente (Alle Diskussionen, Abonnierte usw.) erscheinen darunter.'
       flip_label: 'Navigation umkehren (Themen oberhalb der Menüpunkte anzeigen)'
       highlight_color_help: 'Hintergrundfarbe für hervorgehobene Navigationselemente. Lasse das Feld leer, um die Standardfarbe des Themes zu verwenden.'
       highlight_color_label: Hervorhebungsfarbe
@@ -18,4 +19,6 @@ resofire-menu-control:
       remove_item: 'Von Liste entfernen'
       save_button: 'Reihenfolge speichern'
       save_success: 'Navigationsreihenfolge gespeichert.'
+      sticky_help: 'Wenn aktiviert, bleibt die Seitenleiste einschließlich der Schaltfläche „Diskussion starten“ beim Herunterscrollen oben im Ansichtsbereich fixiert.'
+      sticky_label: 'Feste Seitenleiste (die Seitenleiste bleibt beim Scrollen sichtbar)'
       title: 'Reihenfolge der Menüpunkte'
