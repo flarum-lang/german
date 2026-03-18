@@ -105,6 +105,9 @@ huseyinfiliz-awards:
       nominees_count: '{count} Kandidaten'
       votes_unlimited: '{count} Stimmen'
       votes_used: '{used}/{limit} Stimmen'
+    empty:
+      no_categories: 'In dieser Auszeichnung gibt es noch keine Kategorien.'
+      no_nominees: 'In dieser Kategorie gibt es noch keine Kandidaten.'
     error:
       voting_closed: 'Abstimmung ist beendet.'
     hero:
