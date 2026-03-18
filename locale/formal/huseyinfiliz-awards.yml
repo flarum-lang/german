@@ -101,6 +101,9 @@ huseyinfiliz-awards:
       suggestions: Vorschläge
     title: Auszeichnungs-Verwaltung
   forum:
+    empty:
+      no_categories: 'In dieser Auszeichnung gibt es noch keine Kategorien.'
+      no_nominees: 'In dieser Kategorie gibt es noch keine Kandidaten.'
     hero:
       countdown: 'Abstimmung endet in: {days}d {hours}h {minutes}m {seconds}s'
       draft_preview: 'Vorschau auf den Entwurf'
