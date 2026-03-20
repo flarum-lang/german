@@ -21,10 +21,20 @@ fof-move-posts:
       selected_posts: '{count, plural, one {Ein Beitrag ausgewählt} other {{count} Beiträge ausgewählt}}'
       status:
         old_to_new_move: '=> fof-move-posts.ref.status.old_to_new_move'
+      submit: Fortfahren
+      title: '=> fof-move-posts.ref.move_posts'
+    notifications:
+      post_moved_text: 'Einer oder mehrere deiner Beiträge wurden nach {targetDiscussionTitle} verschoben.'
     post:
       move: 'Zum Verschieben auswählen'
       moving: 'Beitrag verschieben'
+    post_stream:
+      post_moved: '{count, plural, one {{username} hat einen Beitrag verschoben nach {target_discussion}.} other {{username} hat {count} Beiträge verschoben nach {target_discussion}.}}'
   lib:
     discussion:
       first_post:
         default_content: "*Dieser Beitrag wurde verschoben nach **[%DISCUSSION_NAME%](%POST_LINK%)**.*\n"
+  ref:
+    move_posts: 'Beiträge verschieben'
+    status:
+      old_to_new_move: 'Ein alter Beitrag kann nicht in eine neuere Diskussion verschoben werden.'
