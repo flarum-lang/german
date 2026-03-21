@@ -5,6 +5,7 @@
 ekumanov-inline-audio:
   admin:
     settings:
+      auto_play: 'Wiedergabe sofort beginnen, sobald auf einen Dateinamen geklickt wird'
       show_download_button: 'Download-Schaltfläche in der Player-Leiste anzeigen'
       show_right_click_download: 'Speichern der Datei per Rechtsklick auf den Dateinamen erlauben'
   forum:
