@@ -16,5 +16,9 @@ justoverclock-related-discussions:
     deleted: Gelöscht
     hasBestAnswer: Gelöst
     hasBestAnswer-title: 'Diese Diskussion ist als gelöst markiert'
+    noRelatedFound: 'Keine verwandten Diskussionen gefunden...'
+    participants: Teilnehmer
     postedOn: 'auf:'
+    postnumber: 'Anzahl der Antworten'
     reldiscussion: 'Vorgeschlagene Diskussionen:'
+    repliedOn: 'Letzte Antwort'

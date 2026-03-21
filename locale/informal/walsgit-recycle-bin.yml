@@ -6,13 +6,23 @@ walsgit-recycle-bin:
   admin:
     actions: Aktionen
     author: Autor
+    bulk_actions: 'Aktionen für ausgewählte Diskussionen: '
+    bulk_post_actions: 'Aktionen für ausgewählte Beiträge: '
+    bulk_post_restore_label: 'Ausgewählte Beiträge wiederherstellen'
+    bulk_restore_label: 'Ausgewählte Diskussionen wiederherstellen'
     created_at: 'Erstellt am'
     delete_discussion:
+      confirmation: 'Möchtest du diese Diskussion wirklich <u>endgültig löschen</u> (nicht rückgängig zu machen):'
       delete_button: 'Diese Diskussion endgültig löschen'
+      success: 'Die Diskussion wurde erfolgreich gelöscht'
       title: 'Endgültig löschen'
     delete_post:
+      confirmation: 'Möchtest du diesen Beitrag wirklich <u>endgültig löschen</u> (nicht rückgängig zu machen):'
       delete_button: 'Diesen Beitrag endgültig löschen'
+      success: 'Der Beitrag wurde erfolgreich gelöscht'
       title: 'Endgültig löschen'
+    delete_post_tooltip: 'Beitrag löschen'
+    delete_tooltip: 'Diskussion löschen'
     discussion_id: ID
     discussion_link_tooltip: 'Diskussion anzeigen'
     discussion_title: Diskussionstitel
@@ -21,20 +31,37 @@ walsgit-recycle-bin:
     hidden_at: 'Verborgen am'
     hidden_discussions: 'Verborgene Diskussionen'
     mass_delete_modal:
+      submit_button: 'Diese Diskussionen endgültig löschen'
       text_end: ' ausgewählte Diskussionen?'
+      text_start: 'Möchtest du diese wirklich <u>endgültig löschen</u> '
+      title: 'Diese Diskussionen endgültig löschen'
     mass_delete_post_modal:
       submit_button: 'Diese Beiträge endgültig löschen'
       text_end: ' ausgewählte Beiträge?'
       title: 'Diese Beiträge endgültig löschen'
     mass_restore_modal:
+      submit_button: 'Diese Diskussionen wiederherstellen'
+      success: 'Die ausgewählten Diskussionen wurden erfolgreich wiederhergestellt'
       text_end: ' ausgewählte Diskussionen?'
+      text_start: 'Möchtest du diese wirklich wiederherstellen '
+      title: 'Die ausgewählten Diskussionen wiederherstellen'
     mass_restore_post_modal:
       submit_button: 'Diese Beiträge wiederherstellen'
+      success: 'Die ausgewählten Beiträge wurden erfolgreich wiederhergestellt'
       text_end: ' ausgewählte Beiträge?'
+      text_start: 'Möchtest du diese wirklich wiederherstellen '
+      title: 'Die ausgewählten Beiträge wiederherstellen'
     posts_bin: Beiträge-Papierkorb
     restore_discussion:
+      confirmation: 'Möchtest du diese Diskussion wirklich wiederherstellen:'
       restore_button: 'Diese Diskussion wiederherstellen'
+      success: 'Die Diskussion wurde erfolgreich wiederhergestellt'
       title: 'Diskussion wiederherstellen'
+    restore_post:
+      confirmation: 'Möchtest du diesen Beitrag aus der Diskussion wirklich wiederherstellen '
+      restore_button: 'Diesen Beitrag wiederherstellen'
+      success: 'Der Beitrag wurde erfolgreich wiederhergestellt'
+      title: 'Beitrag wiederherstellen'
     restore_post_tooltip: 'Beitrag wiederherstellen'
     restore_tooltip: 'Diskussion wiederherstellen'
     search_help_text: 'Sucht nach Wörtern sowohl in den Titeln als auch in den Beiträgen der Diskussionen'
