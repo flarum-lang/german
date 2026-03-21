@@ -6,7 +6,7 @@ fof-byobu:
   admin:
     permission:
       add_more_than_two_user_recipients: 'Mehr als 2 Benutzer-Empfänger zu einer privaten Diskussion hinzufügen'
-      create_private_discussions_with_blocking_users: 'Erstelle private Diskussionen mit Nutzern, die du blockierst'
+      create_private_discussions_with_blocking_users: 'Erstelle private Diskussionen mit Nutzern, die es blockieren'
       create_private_discussions_with_groups: 'Private Diskussionen mit Gruppen erstellen'
       create_private_discussions_with_users: 'Private Diskussionen mit Nutzern erstellen'
       edit_group_recipients: 'Gruppen bearbeiten, die an privaten Diskussionen teilnehmen'
@@ -27,17 +27,17 @@ fof-byobu:
       icon:
         heading: Symboleinstellungen
         help: 'Diese Einstellungen betreffen die Symbole, die von byobu im Forum verwendet werden.'
-      post-event-icon: 'Byobu Post Ereignisse'
+      post-event-icon: Byobu-Post-Ereignisse
   email:
     body:
       made_public: "{actor_display_name} hat alle Empfänger entfernt und die Diskussion öffentlich gemacht: {discussion_title}.\n\nHier ansehen:\n{discussion_url}\n\nMöglicherweise musst du dich zuerst anmelden, bevor du auf diesen Link zugreifen kannst.\n"
-      private_discussion_added: "{actor_display_name} hat dich zu einer bestehenden privaten Diskussion hinzugefügt: {discussion_title}.\n\nHier kannst du sie einsehen:\n{discussion_url}\n\nMöglicherweise musst du dich zuerst anmelden, bevor du auf diesen Link zugreifen kannst.\n"
-      private_discussion_created: "{actor_display_name} hat eine neue private Diskussion mit dir als Empfänger gestartet: {discussion_title}.\n\nHier kannst du sie anzeigen:\n{discussion_url}\n\nMöglicherweise musst du dich zuerst anmelden, bevor du auf diesen Link zugreifen kannst.\n"
-      private_discussion_replied: "{actor_display_name} hat in einer privaten Diskussion mit dir als Empfänger folgenden Beitrag gepostet: {discussion_title}.\n\nHier kannst du ihn ansehen:\n{post_url}\n\nMöglicherweise musst du dich zuerst anmelden, bevor du auf diesen Link zugreifen kannst.\n"
-      recipient_removed: "{actor_display_name} hat die private Diskussion verlassen: {discussion_title}. Er/sie kann nun keine Inhalte mehr davon sehen.\n\nHier ansehen:\n{discussion_url}\n\nMöglicherweise musst du dich zuerst anmelden, bevor du auf diesen Link zugreifen kannst.\n"
+      private_discussion_added: "{actor_display_name} hat Sie zu einer bestehenden privaten Diskussion hinzugefügt: {discussion_title}.\n\nHier können Sie sie einsehen:\n{discussion_url}\n\nMöglicherweise müssen Sie sich zuerst anmelden, bevor Sie auf diesen Link zugreifen können.\n"
+      private_discussion_created: "{actor_display_name} hat eine neue private Diskussion mit Ihnen als Empfänger gestartet: {discussion_title}.\n\nHier können Sie sie anzeigen:\n{discussion_url}\n\nMöglicherweise müssen Sie sich zuerst anmelden, bevor Sie auf diesen Link zugreifen können.\n"
+      private_discussion_replied: "{actor_display_name} hat in einer privaten Diskussion mit Ihnen als Empfänger folgenden Beitrag gepostet: {discussion_title}.\n\nHier können Sie ihn ansehen:\n{post_url}\n\nMöglicherweise müssen Sie sich zuerst anmelden, bevor Sie auf diesen Link zugreifen können.\n"
+      recipient_removed: "{actor_display_name} hat die private Diskussion verlassen: {discussion_title}. Er/sie kann nun keine Inhalte mehr davon sehen.\n\nHier ansehen:\n{discussion_url}\n\nMöglicherweise müssen Sie sich zuerst anmelden, bevor Sie auf diesen Link zugreifen können.\n"
     subject:
       private_discussion_added: '[Private Diskussion] {display_name} hat dich zu einer privaten Diskussion hinzugefügt'
-      private_discussion_created: '[Private Diskussion] {display_name} hat eine neue private Diskussion mit dir begonnen'
+      private_discussion_created: '[Private Diskussion] {display_name} hat eine neue private Diskussion mit Ihnen begonnen'
       private_discussion_replied: '[Private Diskussion] {display_name} hat in einer privaten Diskussion gepostet'
       recipient_removed: '[Private Diskussion] {display_name} hat die Diskussion verlassen'
   forum:
@@ -65,10 +65,10 @@ fof-byobu:
       recipients: '{count, plural, one {{count} Empfänger} other {{count} Empfänger}}'
     modal:
       help:
-        add_recipients: 'Diese Diskussion wird nur für die Nutzer sichtbar sein, die du hier auswählst. Mindestens 1 Empfänger (außer dir selbst) ist erforderlich.'
+        add_recipients: 'Diese Diskussion wird nur für die Nutzer sichtbar sein, die Sie hier auswählen. Mindestens 1 Empfänger (außer dir selbst) ist erforderlich.'
         click_user_to_remove_tooltip: 'Zum Entfernen anklicken'
-        selected_users: 'Klicke auf den Namen eines Benutzers, um ihn zu entfernen.'
-        update_recipients: 'Diese Diskussion wird nur für die Nutzer sichtbar sein, die du hier auswählst.'
+        selected_users: 'Klicken Sie auf den Namen eines Benutzers, um ihn zu entfernen.'
+        update_recipients: 'Diese Diskussion wird nur für die Nutzer sichtbar sein, die Sie hier auswählen.'
       labels:
         search_field: 'Benutzer suchen'
         selected_users: 'Ausgewählte Benutzer'
@@ -80,11 +80,11 @@ fof-byobu:
       start_button: 'Privat diskutieren'
     notifications:
       pd_added_label: 'Jemand fügt mich zu einer bestehenden privaten Diskussion hinzu'
-      pd_added_text: '{username} hat dich zu einer privaten Diskussion hinzugefügt'
+      pd_added_text: '{username} hat Sie zu einer privaten Diskussion hinzugefügt'
       pd_label: 'Jemand nimmt mich in eine neue private Diskussion auf'
       pd_reply_label: 'Jemand postet in einer privaten Diskussion in der ich Empfänger bin'
-      pd_reply_text: '{username} hat in einer privaten Diskussion gepostet, an der du beteiligt bist'
-      pd_text: '{username} hat eine neue private Diskussion mit dir begonnen'
+      pd_reply_text: '{username} hat in einer privaten Diskussion gepostet, an der Sie beteiligt sind'
+      pd_text: '{username} hat eine neue private Diskussion mit Ihnen begonnen'
       pd_user_left_label: 'Ein Empfänger verlässt eine private Diskussion, an der ich teilnehme'
       pd_user_left_text: '{username} hat die private Diskussion verlassen'
     post:

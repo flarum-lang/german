@@ -111,6 +111,12 @@ huseyinfiliz-awards:
       no_categories: 'In dieser Auszeichnung gibt es noch keine Kategorien.'
       no_nominees: 'In dieser Kategorie gibt es noch keine Kandidaten.'
     error:
+      cannot_delete_processed_suggestion: 'Es können nur ausstehende Vorschläge storniert werden.'
+      not_available: 'Diese Auszeichnung ist noch nicht verfügbar.'
+      other_not_allowed: 'In dieser Kategorie werden keine Vorschläge angenommen.'
+      rate_limit: 'Zu viele Stimmen. Bitte einen Moment warten.'
+      vote_limit_reached: 'In dieser Kategorie kannst du nur für {limit} Nominierte stimmen.'
+      vote_quota_exhausted: 'Du hast alle deine verfügbaren Stimmen/Vorschläge für diese Kategorie bereits abgegeben.'
       voting_closed: 'Abstimmung ist beendet.'
     hero:
       countdown: 'Abstimmung endet in: {days}d {hours}h {minutes}m {seconds}s'
@@ -204,6 +210,8 @@ huseyinfiliz-awards:
     save: 'Änderungen speichern'
     slug: Slug
     sort_order: Reihenfolge
+    success_message: 'Änderungen erfolgreich gespeichert!'
+    upload_error: 'Das Hochladen des Bildes ist fehlgeschlagen'
     upload_image: 'Bild hochladen'
     upload_success: 'Bild erfolgreich hochgeladen'
     votes: Stimmen

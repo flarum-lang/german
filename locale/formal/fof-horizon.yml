@@ -9,7 +9,7 @@ fof-horizon:
       trim_completed_help: "Diese Tabelle wird verwendet, um abgeschlossene Aufträge im Horizon-Dashboard anzuzeigen.\n"
       trim_failed: 'Fehlgeschlagene Aufträge trimmen'
       trim_failed_help: "Diese Tabelle wird verwendet, um fehlgeschlagene Aufträge im Horizon-Dashboard anzuzeigen.\n"
-      trim_help: "Hier kannst du einstellen, wie lange (in Minuten) Horizon\ndie letzten und fehlgeschlagenen Aufträge aufbewahren soll. In der Regel werden die letzten Aufträge\neine Stunde lang aufbewahrt, während alle fehlgeschlagenen Aufträge eine ganze Woche lang gespeichert werden.\n"
+      trim_help: "Hier können Sie einstellen, wie lange (in Minuten) Horizon\ndie letzten und fehlgeschlagenen Aufträge aufbewahren soll. In der Regel werden die letzten Aufträge\neine Stunde lang aufbewahrt, während alle fehlgeschlagenen Aufträge eine ganze Woche lang gespeichert werden.\n"
       trim_monitored: 'Überwachte Aufträge trimmen'
       trim_monitored_help: "Diese Tabelle wird verwendet, um überwachte Aufträge im Horizon-Dashboard anzuzeigen.\n"
       trim_pending: 'Ausstehende Aufträge trimmen'
@@ -34,7 +34,7 @@ fof-horizon:
         redis-connected-clients: 'Verbundene Clients'
         redis-max-memory: 'Maximaler Redis-Arbeitsspeicher'
         redis-memory-policy: Redis-Arbeitsspeicherrichtlinie
-        redis-memory-policy-tooltip: "Die Speicherrichtlinie ist die Art und Weise, wie Redis auswählt, was entfernt werden soll,\nwenn das maximale Speicherlimit erreicht ist. Die Standardeinstellung ist „noeviction“: Neue Werte\nwerden nicht gespeichert, wenn das Speicherlimit erreicht ist. Klicke hier, um die Dokumentation anzuzeigen.\n"
+        redis-memory-policy-tooltip: "Die Speicherrichtlinie ist die Art und Weise, wie Redis auswählt, was entfernt werden soll,\nwenn das maximale Speicherlimit erreicht ist. Die Standardeinstellung ist „noeviction“: Neue Werte\nwerden nicht gespeichert, wenn das Speicherlimit erreicht ist. Klicken Sie hier, um die Dokumentation anzuzeigen.\n"
         redis-memory-usage: Cache-Store-Speichernutzung
         redis-ops-per-sec: 'Ops pro Sekunde'
         redis-peak-memory: Redis-Spitzenwert-Arbeitsspeicher
@@ -46,7 +46,7 @@ fof-horizon:
         success-rate: Erfolgsquote
         total-processes: 'Prozesse insgesamt'
       error:
-        fetch_failed: 'Horizon-Statistiken konnten nicht abgerufen werden. Bitte überprüfe deine Redis-Konfiguration.'
+        fetch_failed: 'Horizon-Statistiken konnten nicht abgerufen werden. Bitte überprüfen Sie Ihre Redis-Konfiguration.'
         setup_docs: 'Redis-Setup-Dokumentation aufrufen'
         title: Verbindungsfehler
       full_dashboard: Horizon-Dashboard
