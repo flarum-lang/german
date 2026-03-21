@@ -106,6 +106,8 @@ huseyinfiliz-awards:
       votes_unlimited: '{count} Stimmen'
       votes_used: '{used}/{limit} Stimmen'
     empty:
+      no_awards: 'Keine aktiven Auszeichnungen'
+      no_awards_description: 'Derzeit sind keine Auszeichnungen verfügbar. Schaue später noch einmal vorbei!'
       no_categories: 'In dieser Auszeichnung gibt es noch keine Kategorien.'
       no_nominees: 'In dieser Kategorie gibt es noch keine Kandidaten.'
     error:
@@ -133,13 +135,25 @@ huseyinfiliz-awards:
       all_categories: 'Alle Kategorien'
       categories: Kategorien
       title: Auszeichnungen
+    notification:
+      results_published: 'Die Ergebnisse für {awardName} wurden veröffentlicht!'
     other:
+      already_submitted: 'Du hast bereits einen Vorschlag für diese Kategorie eingereicht.'
       cancel: Abbrechen
+      cancel_confirm: 'Diesen Vorschlag verwerfen?'
+      click_to_suggest: 'Klicken, um einen Kandidaten vorzuschlagen'
+      my_suggestions: 'Meine Vorschläge'
+      no_remaining: 'Es sind keine Plätze für Vorschläge mehr verfügbar'
+      no_suggestions: 'Du hast noch keine Vorschläge eingereicht.'
+      pending_count: '{count} ausstehende Vorschläge'
+      placeholder: 'Namen des Nominierten eingeben...'
+      remaining: '{count} verbleibende Vorschläge'
       status_approved: Angenommen
       status_merged: Zusammengeführt
       status_pending: Ausstehend
       status_rejected: Abgelehnt
       submit: 'Kandidaten vorschlagen'
+      success: 'Vorschlag eingereicht! Er wird von den Moderatoren geprüft.'
       suggest: 'Andere vorschlagen'
     page:
       previous_awards: 'Auszeichnungen des Vorjahres'
