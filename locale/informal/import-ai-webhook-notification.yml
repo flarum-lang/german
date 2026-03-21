@@ -5,10 +5,20 @@
 import-ai-webhook-notification:
   admin:
     settings:
+      channel_icon_help: ' Symbolklasse (z.B. fas fa-globe).'
+      channel_icon_label: Kanalsymbol
+      channel_label_help: 'Anzeigename für den Benachrichtigungskanal, der in den Benutzereinstellungen angezeigt wird.'
+      channel_label_label: Kanalbeschriftung
+      retry_count_help: 'Anzahl der Wiederholungsversuche bei einem Fehler. Standardwert ist 3.'
+      retry_count_label: 'Anzahl der Wiederholungsversuche'
+      timeout_help: 'Zeitlimit für die Anfrage in Sekunden. Standardwert ist 30.'
+      timeout_label: 'Zeitlimit (Sekunden)'
       webhook_token_help: 'Optionales Bearer-Token für den Autorisierungs-Header.'
       webhook_token_label: Bearer-Token
       webhook_url_help: 'Die URL, an die Benachrichtigungs-Webhooks gesendet werden sollen. Zur Deaktivierung leer lassen.'
       webhook_url_label: Webhook-URL
+    validation:
+      timeout_invalid: 'Das Zeitlimit muss zwischen 1 und 300 Sekunden liegen.'
   forum:
     settings:
       notify_webhook_label: Webhook
