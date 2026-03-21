@@ -7,6 +7,9 @@ fof-move-posts:
     permissions:
       move_posts: '=> fof-move-posts.ref.move_posts'
   forum:
+    alerts:
+      posts_moved: '{count, plural, one {Beitrag verschoben.} other {{count} Beiträge verschoben.}}'
+      posts_moved_to: '{count, plural, one {Beitrag verschoben nach {target_discussion}.} other {{count} Beiträge verschoben nach {target_discussion}.}}'
     badge:
       first_moved_tooltip: Verschoben
     discussion:
@@ -15,12 +18,15 @@ fof-move-posts:
       move_old_post_to_newer_discussion: '=> fof-move-posts.ref.status.old_to_new_move'
       move_posts_to_same_discussion: 'Beiträge können nicht in dieselbe Diskussion verschoben werden.'
     modal:
+      check: 'Operation vorab prüfen'
       destination: Zieldiskussion
+      discussion_help: 'Es werden die Themen der ursprünglichen Diskussion verwendet. Diese können nach der Erstellung geändert werden.'
       discussion_name: '=> core.forum.composer_discussion.title_placeholder'
       new_discussion: 'Neue Diskussion'
       selected_posts: '{count, plural, one {Ein Beitrag ausgewählt} other {{count} Beiträge ausgewählt}}'
       status:
         old_to_new_move: '=> fof-move-posts.ref.status.old_to_new_move'
+        simple_move: 'Das wird eine einfache Verschiebung sein. Alle Beiträge werden am Ende der Diskussion hinzugefügt.'
       submit: Fortfahren
       title: '=> fof-move-posts.ref.move_posts'
     notifications:
