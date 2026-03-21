@@ -6,6 +6,10 @@ fof-move-posts:
   admin:
     permissions:
       move_posts: '=> fof-move-posts.ref.move_posts'
+    settings:
+      group_sequential_posts: 'Die aufeinanderfolgenden Beiträge nach dem Ereignis wurden zu einem einzigen Beitrag zusammengefasst.'
+      moved_first_post_content: 'Inhalt der verschobenen Diskussion (erster Beitrag)'
+      moved_first_post_content_help: "Wenn eine Diskussion nur aus einem einzigen Beitrag besteht, führt das Verschieben dieses Beitrags dazu, dass der erste Beitrag der ursprünglichen Diskussion so bearbeitet wird, dass er auf die neue Diskussion verweist. Den Inhalt dieses Beitrags kannst du hier bearbeiten.\n"
   forum:
     alerts:
       posts_moved: '{count, plural, one {Beitrag verschoben.} other {{count} Beiträge verschoben.}}'
@@ -25,6 +29,7 @@ fof-move-posts:
       new_discussion: 'Neue Diskussion'
       selected_posts: '{count, plural, one {Ein Beitrag ausgewählt} other {{count} Beiträge ausgewählt}}'
       status:
+        complex_move: 'Das wird ein aufwendiger Vorgang sein, da Beiträge zwischen andere Beiträge verschoben werden, was dazu führt, dass sich auch die vorherigen URL-Verweise auf die Beiträge der Zieldiskussion ändern.'
         old_to_new_move: '=> fof-move-posts.ref.status.old_to_new_move'
         simple_move: 'Das wird eine einfache Verschiebung sein. Alle Beiträge werden am Ende der Diskussion hinzugefügt.'
       submit: Fortfahren
@@ -34,6 +39,7 @@ fof-move-posts:
     post:
       move: 'Zum Verschieben auswählen'
       moving: 'Beitrag verschieben'
+      unmove: 'Vom Verschieben abwählen'
     post_stream:
       post_moved: '{count, plural, one {{username} hat einen Beitrag verschoben nach {target_discussion}.} other {{username} hat {count} Beiträge verschoben nach {target_discussion}.}}'
   lib:
