@@ -22,6 +22,7 @@ CHANGELOG
 * [`huoxin/relative-url`](https://github.com/huoxin233/flarum-ext-relative-url)
 * [`import-ai/flarum-webhook-notification`](https://github.com/import-ai/flarum-webhook-notification)
 * [`import-ai/flarum-webhook`](https://github.com/import-ai/flarum-webhook)
+* [`litalino/flarum-related-discussions`](https://github.com/Litalino/flarum-related-discussions)
 * [`resofire/blog-cards`](https://github.com/ResofireV2/blog-cards)
 * [`resofire/discussion-participants`](https://github.com/ResofireV2/discussion-participants)
 * [`resofire/menu-control`](https://github.com/ResofireV2/menu-control)
