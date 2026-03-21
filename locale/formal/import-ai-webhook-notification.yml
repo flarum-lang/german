@@ -5,7 +5,7 @@
 import-ai-webhook-notification:
   admin:
     settings:
-      channel_icon_help: ' Symbolklasse (z.B. fas fa-globe).'
+      channel_icon_help: ' Symbolklasse (z. B. fas fa-globe).'
       channel_icon_label: Kanalsymbol
       channel_label_help: 'Anzeigename für den Benachrichtigungskanal, der in den Benutzereinstellungen angezeigt wird.'
       channel_label_label: Kanalbeschriftung
@@ -18,6 +18,9 @@ import-ai-webhook-notification:
       webhook_url_help: 'Die URL, an die Benachrichtigungs-Webhooks gesendet werden sollen. Zur Deaktivierung leer lassen.'
       webhook_url_label: Webhook-URL
     validation:
+      channel_icon_invalid: 'Ungültiges Symbolformat. Verwende das Font-Awesome-Format (z. B. fas fa-globe).'
+      channel_label_required: 'Kanalbezeichnung ist erforderlich, wenn ein Symbol festgelegt ist.'
+      retry_count_invalid: 'Die Anzahl der Wiederholungsversuche muss zwischen 0 und 10 liegen.'
       timeout_invalid: 'Das Zeitlimit muss zwischen 1 und 300 Sekunden liegen.'
   forum:
     settings:

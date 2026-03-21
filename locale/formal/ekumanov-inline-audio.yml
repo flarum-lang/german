@@ -3,5 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ekumanov-inline-audio:
+  admin:
+    settings:
+      show_download_button: 'Download-Schaltfläche in der Player-Leiste anzeigen'
+      show_right_click_download: 'Speichern der Datei per Rechtsklick auf den Dateinamen erlauben'
   forum:
     bbcode_description: 'Audio-Player einbetten: [player]URL[/player]'
