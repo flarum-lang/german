@@ -5,6 +5,7 @@
 import-ai-webhook-notification:
   admin:
     settings:
+      webhook_token_help: 'Optionales Bearer-Token für den Autorisierungs-Header.'
       webhook_token_label: Bearer-Token
       webhook_url_help: 'Die URL, an die Benachrichtigungs-Webhooks gesendet werden sollen. Zur Deaktivierung leer lassen.'
       webhook_url_label: Webhook-URL
