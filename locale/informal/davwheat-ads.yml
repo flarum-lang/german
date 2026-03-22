@@ -9,6 +9,7 @@ davwheat:
         bypassAds: 'Werbung im Forum ausblenden'
       settings:
         add_script: Neu
+        admin_bypass_warning: "Aufgrund der Funktionsweise des Berechtigungssystems von Flarum werden Mitgliedern der Admin-Gruppe\nim Forum keine Anzeigen angezeigt. Wenn du deine Anzeigen testen möchtest, rufe das Forum bitte\nin einem Inkognito- oder privaten Fenster auf.\n"
         alert:
           code_has_script: 'Einer oder mehrere Anzeigenblöcke enthalten nicht erlaubte Script-Tags. Bitte entferne diese und versuche es erneut.'
           fix_errors: 'Bitte beheben Sie die Fehler oberhalb vor dem Speichern'
@@ -28,6 +29,7 @@ davwheat:
         script_deletion: 'Um ein Skript zu entfernen, lass das Textfeld leer und klicke „Änderungen übernehmen“.'
         script_urls: 'Benutzerdefinierte Skript-URL(s)'
         use_adsense: 'AdSense verwenden'
+        warning: "<b>Anleitung:</b>\n<br></br>\n<b>HTML</b> - Füge den HTML-Inhalt für die Anzeige in dieses Feld ein. Füge in diesem Feld keine {script}-Tags ein. Diese werden nicht ausgeführt.\n<br></br>\n<b>JS</b> - Füge benutzerdefinierten JavaScript-Code ein, der in ein Script-Tag eingefügt werden soll. Dieser darf <b>NICHT</b> das {script}-Tag selbst enthalten.\n"
     lib:
       locations:
         between_posts: 'Zwischen Beiträgen'

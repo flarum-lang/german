@@ -8,7 +8,7 @@ flarum-extension-manager:
       add_label: 'Neue Authentifizierungsmethode'
       add_modal:
         host_label: Host
-        host_placeholder: 'Beispiel: extiverse.com'
+        host_placeholder: 'Beispiel: packages.beispiel.de'
         submit_button: Senden
         token_label: Token
         type_label: Typ

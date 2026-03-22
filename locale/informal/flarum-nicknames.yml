@@ -14,6 +14,7 @@ flarum-nicknames:
       min_label: 'Minimale Länge für Spitznamen'
       random_username_help: 'Durch diese Einstellung wird die Eingabe des `Benutzernamens` während der Registrierung ausgeblendet und stattdessen eine Zufallszahl verwendet. Außerdem wird das Feld `Spitzname` obligatorisch. Diese Änderung tritt nur in Kraft, wenn ''Einstellen von Spitznamen bei der Registrierung zulassen'' aktiviert ist.'
       random_username_label: 'Zufällige Benutzernamen'
+      regex_help: 'Die folgenden Zeichen sind in Spitznamen grundsätzlich nicht zulässig: [ ] ( ) < >'
       regex_label: 'Regulärer Ausdruck zur Validierung'
       set_on_registration_label: 'Einstellen von Spitznamen bei der Registrierung zulassen'
       unique_label: 'Einzigartige Spitznamen erforderlich'

@@ -95,7 +95,10 @@ flarum-gdpr:
       anonymization_button: 'Benutzer anonymisieren'
       comments_label: 'Kommentare (optional)'
       confirm: 'Bist du sicher, dass du das Konto von {name} unter dem {mode}-Modus löschen möchtest?'
+      confirmed_at: 'Bestätigt: {date}'
       deletion_button: 'Benutzer löschen'
+      eligible_at: 'Für die automatische Verarbeitung geeignet: {date}'
+      requested_at: 'Angefordert: {date}'
       text: '{name} hat die Löschung seines Kontos beantragt.'
       title: 'Löschantrag bearbeiten'
     request_erasure:
