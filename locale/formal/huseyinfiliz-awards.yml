@@ -56,6 +56,7 @@ huseyinfiliz-awards:
       image: Bild
       image_url: Bild-URL
       image_url_help: 'URL zum Bild des Vorschlags (z. B. Spielcover, Porträtfoto)'
+      load_more: 'Mehr laden'
       name: 'Name des Nominierten'
       real_votes: 'Echte Stimmen'
       reset: Zurücksetzen
