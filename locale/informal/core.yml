@@ -654,6 +654,7 @@ core:
       csrf_token_mismatch: 'Du warst zu lange inaktiv.'
       csrf_token_mismatch_return_link: 'Gehe zurück um es erneut zu versuchen'
       invalid_confirmation_token: 'Der Bestätigungslink wurde bereits verwendet oder ist ungültig.'
+      method_not_allowed: 'Diese Seite unterstützt diese Anforderungsmethode nicht.'
       not_authenticated: 'Du hast keine Berechtigung, auf diese Seite zuzugreifen. Versuche dich erneut anzumelden.'
       not_found: 'Die angeforderte Seite konnte nicht gefunden werden.'
       not_found_return_link: 'Zurück zu {forum}'

@@ -10,6 +10,8 @@ fof-sitemap:
       build_button_help: 'Löst eine sofortige Neuerstellung aller Sitemaps-Dateien aus. Der Auftrag wird in die Warteschlange eingereiht, sofern diese konfiguriert ist, andernfalls wird er sofort ausgeführt.'
       build_error: 'Neuerstellung der Sitemap konnte nicht in die Warteschlange eingereiht werden. Überprüfe die Logs und Konfiguration der Warteschlange.'
       build_success: 'Neuerstellung der Sitemap wurde erfolgreich in die Warteschlange eingereiht. Du kannst den Fortschritt in den Logs verfolgen.'
+      column_pruning: 'Spaltenbeschneidung aktivieren'
+      column_pruning_help: 'Ruft nur die Spalten ab, die zur Generierung von URLs benötigt werden (z. B. id, slug, username, dates), anstatt SELECT *. Reduziert den Speicherbedarf pro Modell in großen Foren erheblich. Standardmäßig aktiviert – nur deaktivieren, wenn ein benutzerdefinierter Slug-Treiber oder Sichtbarkeitsbereich Spalten erfordert, die nicht in der Standardauswahl enthalten sind.'
       exclude_tags: 'Alle Themenseiten von Sitemap ausschließen'
       exclude_tags_help: 'Standardmäßig werden alle Themen, die für Gäste sichtbar ist, indiziert'
       exclude_users: 'Nutzerprofile von Sitemap ausschließen'

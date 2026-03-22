@@ -31,7 +31,7 @@ fof-subscribed:
       post_created_text: '{username} hat einen neuen Beitrag geschrieben'
       post_flagged_text: '{username} hat einen Beitrag gemeldet'
       post_unapproved_text: '{username} hat einen Beitrag erstellt, der genehmigt werden muss'
-      user_created_text: '{username} hatte sich gerade registriert'
+      user_created_text: '{username} hat sich gerade registriert'
     settings:
       defaults_label: '"{setting}" standardmäßig aktiviert setzen'
       forced_label: 'Erzwinge die Aktivierung von "{setting}" für alle'
