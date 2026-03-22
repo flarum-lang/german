@@ -10,7 +10,7 @@ fof-username-request:
       request_username: 'Änderung des Benutzernamens anfordern'
   email:
     body:
-      approved: "Deine Anfrage, um deinen Benutzernamen in „{new_username}” zu ändern, wurde von {actor_display_name} genehmigt.\n\nDu kannst dich nun mit deinem neuen Benutzernamen anmelden: {login_url}\n"
+      approved: "Ihr Antrag auf Änderung Ihres Benutzernamens in „{new_username}“ wurde von {actor_display_name} genehmigt.\n\nSie können sich nun mit Ihrem neuen Benutzernamen anmelden: {login_url}\n"
       noReasonProvided: 'Kein Grund angegeben.'
       rejected: "Deine Anfrage, deinen Benutzernamen von „{old_username}” in „{requested_username}” zu ändern, wurde von {actor_display_name} abgelehnt.\n\nGrund: {reason}\n"
     subject:

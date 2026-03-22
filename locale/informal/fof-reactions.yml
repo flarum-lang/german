@@ -7,7 +7,7 @@ fof-reactions:
     page:
       cdn:
         default-url: 'Standard: {url}'
-        help: "In der Standardkonfiguration werden Assets für Reaktionen über Cloudflares CDN ausgeliefert. Es gibt auch die Möglichkeit,\neine andere CDN-Adresse zu verwenden. <code>[codepoint]</code> wird durch den Codepoint des Emojis ersetzt.\n\nUm zum Beispiel auf Noto Emoji per jsdelivr zu wechseln, würde man als URL <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code> verwenden. Dieses Feld darf NIE leer bleiben.\n"
+        help: "In der Standardkonfiguration werden Assets für Reaktionen über Cloudflares CDN ausgeliefert. Es gibt auch die Möglichkeit,\neine andere CDN-Adresse zu verwenden. <code>[codepoint]</code> wird durch den Codepoint des Emojis ersetzt.\n\nUm zum Beispiel auf Noto Emoji per jsdelivr zu wechseln, würde man als URL <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code> verwenden.\n\nDein CDN muss Emoji/Unicode {emojibase} oder höher unterstützen. Verwende [twemoji], um durch die Twemoji-Version zu ersetzen.\n"
         label: URL
         title: CDN
       convert:
@@ -18,13 +18,21 @@ fof-reactions:
       reactions:
         Helptext: 'Gib den Namen (Bezeichner) des Emoji oder Font-Awesome Icons ein und wähle aus, welchen Typ du haben möchtest.'
         add_reaction_button: 'Reaktion hinzufügen'
+        add_reaction_label: 'Neue Reaktion hinzufügen'
         delete_confirmation: 'Soll diese Reaktion wirklich gelöscht werden? Dieser Vorgang kann nicht rückgängig gemacht werden.'
         delete_reaction_button: 'Reaktion löschen'
+        header:
+          action: Aktion
+          display: Anzeigetext
+          enabled: Aktiviert
+          identifier: Symbol-/Emoji-Kennung
+          preview: Vorschau
+          type: Typ
         help:
           display: Anzeige
           identifier: Bezeichner
         reactions: 'Aktuelle Reaktionen'
-        title: 'Benutzerdefinierte Reaktionen'
+        title: Reaktionen
       settings:
         allow-anonymous: 'Anonyme (Gast-)Reaktionen zulassen'
         allow-anonymous-help: 'Wenn diese Option aktiviert ist, können Gäste und anonyme Nutzer auf Beiträge reagieren. Beachte, dass anonyme Reaktionen nicht mit einem Nutzerprofil verknüpft werden und in der Liste der Reaktionen zusammengefasst werden.'
@@ -53,7 +61,9 @@ fof-reactions:
     mod_item: 'Reaktionen anzeigen'
     modal:
       anonymous_count: '{count, plural, one {# anonymer Benutzer} other {# anonyme Benutzer}}'
+      load_more: 'Mehr laden'
       no_reactions: 'Noch keine Reaktionen'
+      others_count: '+ {count, plural, one {# andere} other {# andere}}'
       remove_all_reaction_type: 'Alle {Reaktion} Reaktionen entfernen'
       remove_user_reaction: 'Reaktion entfernen'
       title: Reaktionen
@@ -64,4 +74,5 @@ fof-reactions:
     reaction_button_label: 'Mit {reaction} reagieren'
     settings:
       notify_post_reacted_label: 'Jemand reagiert auf einen meiner Beiträge'
+    unreact_button_label: 'Reaktion entfernen'
     warning: 'Deine Reaktion wurde umgewandelt'
