@@ -7,7 +7,9 @@ walsgit-recycle-bin:
     actions: Aktionen
     author: Autor
     bulk_actions: 'Aktionen für ausgewählte Diskussionen: '
+    bulk_delete_label: 'Ausgewählte Diskussionen löschen'
     bulk_post_actions: 'Aktionen für ausgewählte Beiträge: '
+    bulk_post_delete_label: 'Ausgewählte Beiträge löschen'
     bulk_post_restore_label: 'Ausgewählte Beiträge wiederherstellen'
     bulk_restore_label: 'Ausgewählte Diskussionen wiederherstellen'
     created_at: 'Erstellt am'
@@ -28,17 +30,23 @@ walsgit-recycle-bin:
     discussion_title: Diskussionstitel
     discussions_bin: Diskussions-Papierkorb
     empty_list: 'Keine Diskussionen im Papierkorb.'
+    grid:
+      invalid_column_content: 'Ungültiger Inhalt!'
     hidden_at: 'Verborgen am'
     hidden_discussions: 'Verborgene Diskussionen'
     mass_delete_modal:
       submit_button: 'Diese Diskussionen endgültig löschen'
+      success: 'Die ausgewählten Diskussionen wurden erfolgreich gelöscht'
       text_end: ' ausgewählte Diskussionen?'
       text_start: 'Möchtest du diese wirklich <u>endgültig löschen</u> '
       title: 'Diese Diskussionen endgültig löschen'
     mass_delete_post_modal:
       submit_button: 'Diese Beiträge endgültig löschen'
+      success: 'Die ausgewählten Beiträge wurden erfolgreich gelöscht'
       text_end: ' ausgewählte Beiträge?'
+      text_start: 'Möchtest du diese wirklich <u>endgültig löschen</u> '
       title: 'Diese Beiträge endgültig löschen'
+    mass_help_text: 'Bitte warte, bis die Seite neu geladen wird, nachdem du die Massenwiederherstellung oder das Massenlöschen bestätigt hast'
     mass_restore_modal:
       submit_button: 'Diese Diskussionen wiederherstellen'
       success: 'Die ausgewählten Diskussionen wurden erfolgreich wiederhergestellt'
@@ -51,6 +59,17 @@ walsgit-recycle-bin:
       text_end: ' ausgewählte Beiträge?'
       text_start: 'Möchtest du diese wirklich wiederherstellen '
       title: 'Die ausgewählten Beiträge wiederherstellen'
+    pagination:
+      back_button: 'Zurück zur vorherigen Seite'
+      first_page_button: 'Zur Startseite'
+      go_to_page_textbox_a11y_label: 'Direkt zur Seitenzahl springen'
+      last_page_button: 'Zur letzten Seite'
+      next_button: 'Zur nächsten Seite'
+      page_counter: 'Seite {current} von {total}'
+    post:
+      id: ID
+      open_post: 'Beitrag öffnen'
+      title: Beitragstext
     posts_bin: Beiträge-Papierkorb
     restore_discussion:
       confirmation: 'Möchtest du diese Diskussion wirklich wiederherstellen:'

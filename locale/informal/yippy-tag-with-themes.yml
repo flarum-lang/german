@@ -5,26 +5,69 @@
 yippy-tag-with-themes:
   admin:
     designs:
+      add: 'Design für Themen hinzufügen'
+      banner: 'Design-Thema {index} - [{isEnabled}]'
       data:
+        child_background_color: 'Hintergrundfarbe des Unterelements bearbeiten'
+        child_font_class: 'Schriftart des Unterelements bearbeiten'
+        is_enabled: 'Design-Thema aktivieren'
+        opacity_background: 'Deckkraft des Hintergrunds'
+        opacity_footer: 'Deckkraft der Fußzeile'
+        opacity_outline: 'Deckkraft der Gliederung'
+        outline_background_color: 'Farbe der Gliederung bearbeiten'
         primary_background_color: 'Primäre Hintergrundfarbe bearbeiten'
         primary_font_class: 'Primäre Schriftart bearbeiten'
         secondary_font_class: 'Sekundäre Schriftart bearbeiten'
         tags: 'Ausgewählte Hauptthemen'
+        tags_help: 'Wähle eines oder mehrere Themen für dieses benutzerdefinierte Design-Thema aus'
         themeName: 'Theme auswählen'
+        unread_color: 'Hintergrundfarbe des ungelesenen Elements bearbeiten'
+      description: 'Erstelle eine Liste mit Regeln für die Anzeige verschiedener Designs für bestimmte Themen'
       header:
+        color_theme: 'Standard-Farbthema individuell gestalten'
         theme: 'Benutzerdefiniertes Theme'
+      is_enabled:
+        disabled: Deaktiviert
+        enabled: Aktivieren
+      title: 'Individuell gestaltetes Design-Thema für Themen'
+    helps:
+      design_default: 'Wähle ein Standard-Layout aus'
+      display_themes: 'Themen nur für bestimmte Gruppen zulassen'
+    labels:
+      design_default: Diskussionsdesigndarstellung
+      display_themes: 'Berechtigung „Thema für Designs“ aktivieren'
     options:
       design_options:
         basic: Einfach
-        basic_banner: 'Einfach (Haupt-Banner)'
-        basic_tab: 'Einfach (Haupt-Tab)'
-        basic_tag: 'Einfach (Haupt-Tag)'
+        basic_banner: 'Einfach (Hauptbanner)'
+        basic_outline: 'Einfache Gliederung'
+        basic_outline_banner: 'Einfache Gliederung (Hauptbanner)'
+        basic_outline_tab: 'Einfache Gliederung (Haupttab)'
+        basic_outline_tag: 'Einfache Gliederung (Hauptthema)'
+        basic_tab: 'Einfach (Haupttab)'
+        basic_tag: 'Einfach (Hauptthema)'
         flat: Flach
-        flat_banner: 'Flach (Haupt-Banner)'
-        flat_tab: 'Flach (Haupt-Tab)'
-        flat_tag: 'Flach (Haupt-Tag)'
+        flat_banner: 'Flach (Hauptbanner)'
+        flat_border: 'Flacher Rahmen'
+        flat_border_banner: 'Flacher Rahmen (Hauptbanner)'
+        flat_border_tab: 'Flacher Rahmen (Haupttab)'
+        flat_border_tag: 'Flacher Rahmen (Hauptthema)'
+        flat_tab: 'Flach (Haupttab)'
+        flat_tag: 'Flach (Hauptthema)'
         none: Kein
+        rounded_flat: 'Flach abgerundet'
+        rounded_flat_banner: 'Flach abgerundet (Hauptbanner)'
+        rounded_flat_border: 'Flach abgerundet mit Rand'
+        rounded_flat_border_banner: 'Flach abgerundet mit Rand (Hauptbanner)'
+        rounded_flat_border_tab: 'Flach abgerundet mit Rand (Haupttab)'
+        rounded_flat_border_tag: 'Flach abgerundet mit Rand (Hauptthema)'
+        rounded_flat_tab: 'Flach abgerundet (Haupttab)'
+        rounded_flat_tag: 'Flach abgerundet (Hauptthema)'
         sticky_note: Haftnotiz
-        sticky_note_banner: 'Haftnotiz (Haupt-Banner)'
-        sticky_note_tab: 'Haftnotiz (Haupt-Tab)'
-        sticky_note_tag: 'Haftnotiz (Haupt-Tag)'
+        sticky_note_banner: 'Haftnotiz (Hauptbanner)'
+        sticky_note_outline: 'Gliederung der gepinnten Notiz'
+        sticky_note_outline_banner: 'Gliederung der gepinnten Notiz (Hauptbanner)'
+        sticky_note_outline_tab: 'Gliederung der gepinnten Notiz (Haupttab)'
+        sticky_note_outline_tag: 'Gliederung der gepinnten Notiz (Hauptthema)'
+        sticky_note_tab: 'Haftnotiz (Haupttab)'
+        sticky_note_tag: 'Haftnotiz (Hauptthema)'
