@@ -5,6 +5,11 @@ CHANGELOG
 1.25.11 (XXXX-XX-XX)
 --------------------
 
+**Allgemeine Änderungen**:
+
+* Flarum-Core Übersetzungen aktualisiert.
+
+
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
 * [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello)
@@ -25,6 +30,7 @@ CHANGELOG
 * [`import-ai/flarum-webhook-notification`](https://github.com/import-ai/flarum-webhook-notification)
 * [`import-ai/flarum-webhook`](https://github.com/import-ai/flarum-webhook)
 * [`litalino/flarum-related-discussions`](https://github.com/Litalino/flarum-related-discussions)
+* [`ralkage/flarum-ext-word-censor`](https://github.com/Ralkage/flarum-ext-word-censor)
 * [`resofire/blog-cards`](https://github.com/ResofireV2/blog-cards)
 * [`resofire/discussion-participants`](https://github.com/ResofireV2/discussion-participants)
 * [`resofire/menu-control`](https://github.com/ResofireV2/menu-control)
@@ -42,6 +48,8 @@ CHANGELOG
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr)
 * [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed)
 * [`glowingblue/redis-setup`](https://github.com/glowingblue/flarum-ext-redis-setup)
 * [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards)
 * [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest)
