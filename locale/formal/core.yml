@@ -74,7 +74,7 @@ core:
           default: Standard-Datenbanksuche
         driver_text: 'Wähle einen Treiber, der für die Suche nach diesem Modell verwendet werden soll.'
         no_other_drivers: 'Es sind noch keine Suchtreiber verfügbar. Installiere eine Suchtreiber-Erweiterung, um diese konfigurieren zu können.'
-        section_label: 'Treiber suchen'
+        section_label: Suchtreiber
       title: Fortgeschritten
     appearance:
       allow_user_color_scheme_label: 'Benutzern die Auswahl ihres eigenen Farbschemas ermöglichen'

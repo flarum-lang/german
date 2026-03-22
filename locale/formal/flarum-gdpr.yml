@@ -10,7 +10,7 @@ flarum-gdpr:
         delete_description: Löschung
         export_description: Exportieren
         extension: Erweiterung
-        help_text: "Hier sind die derzeit registrierten Datentypen aufgeführt. Jeder Typ wird zusammen mit den zugehörigen Export-, Anonymisierungs- und Löschungsaktionen aufgeführt. Wenn eine Erweiterung Daten verarbeitet, die unter die DSGVO-Vorschriften fallen, so sollte sie ihre Datentypen bei <code>blomstra/gdpr</code> registrieren.\nDaten, die in der <code>Benutzer</code>-Tabelle gespeichert sind, werden gesondert behandelt, siehe Benutzertabellendaten unten.\n"
+        help_text: "Hier sind die derzeit registrierten Datentypen aufgeführt. Jeder Typ wird zusammen mit den zugehörigen Export-, Anonymisierungs- und Löschungsaktionen aufgeführt. Wenn eine Erweiterung Daten verarbeitet, die unter die DSGVO-Vorschriften fallen, so sollte sie ihre Datentypen bei <code>flarum/gdpr</code> registrieren.\nDaten, die in der <code>Benutzer</code>-Tabelle gespeichert sind, werden gesondert behandelt, siehe „Daten der Benutzertabelle“ unten.\n"
         title: 'Arten der Daten'
         type: Art
       description: 'Übersicht der DSGVO-konformen Maßnahmen und Integrationen'
@@ -53,20 +53,20 @@ flarum-gdpr:
             tooltip: 'Datenexport für {username}'
   email:
     confirm_erasure:
-      body: "Jemand (hoffentlich du) hat gerade die Löschung des Kontos „{display_name}“ beantragt.\n\nUm diesen Vorgang zu bestätigen, folge bitte dem folgenden Link. Anschließend wird dein Antrag von unserem Team bearbeitet.\n\n{erasure_confirm_url}\n"
+      body: "Jemand (hoffentlich Sie) hat gerade die Löschung des Kontos „{display_name}“ beantragt.\n\nUm diesen Vorgang zu bestätigen, folgen Sie bitte dem folgenden Link. Anschließend wird Ihr Antrag von unserem Team bearbeitet.\n\n{erasure_confirm_url}\n"
       subject: 'Bestätige die Anfrage zur Löschung deines Kontos'
     erasure_cancelled:
-      body: "Dies ist eine automatische Benachrichtigung, dass deine Anfrage zur Stornierung der Kontolöschung bearbeitet wurde.\n\nDein Konto wird nicht mehr gelöscht.\n"
+      body: "Dies ist eine automatische Benachrichtigung, dass Ihre Anfrage zur Rücknahme der Kontolöschung bearbeitet wurde.\n\nIhr Konto wird nun nicht mehr gelöscht.\n"
       subject: 'Antrag zur Kontolöschung abgebrochen'
     erasure_completed:
       anonymization:
-        body: "Dies ist eine automatische, finale Benachrichtigung darüber, dass dein Konto anonymisiert wurde.\n"
+        body: "Dies ist eine automatische, abschließende Benachrichtigung darüber, dass Ihr Konto anonymisiert wurde.\n"
         subject: 'Anonymisierung des Kontos abgeschlossen'
       deletion:
-        body: "Dies ist eine automatische, endgültige Benachrichtigung darüber, dass dein Konto gelöscht wurde.\n"
+        body: "Dies ist eine automatische, abschließende Benachrichtigung darüber, dass Ihr Konto gelöscht wurde.\n"
         subject: 'Kontolöschung abgeschlossen'
     export_available:
-      body: "Du hast einen Export der Kontodaten für {Benutzername} angefordert. Dieser Export wurde erfolgreich erstellt und steht nun zur Verfügung:\n\n{url}\n\nDieser Export bleibt bis {destroys_at} verfügbar.\n"
+      body: "Sie haben einen Export der Kontodaten für {username} angefordert. Dieser Export wurde erfolgreich erstellt und steht nun zur Verfügung:\n\n{url}\n\nDieser Export bleibt bis zum {destroys_at} verfügbar.\n"
       subject: 'Datenexport verfügbar'
   forum:
     badges:

@@ -18,7 +18,7 @@ fof-upload:
       disable-download-logging: "Deaktiviere die Protokollierung aller Downloads, die von Nutzern deines Forums getätigt werden. Wenn du es aktiviert lässt, kannst du die Anzahl der Downloads und andere Metriken in der nahen Zukunft einsehen.\n"
       disable-hotlink-protection: "Der Hotlink-Schutz verhindert das Öffnen von Downloads auf anderen Seiten. Die aktuelle Methode erfordert ein csrf-Token und eine Post-ID.\n"
       download_templates: "Downloadvorlagen sind die Art und Weise, wie Uploads in deinem Forum angezeigt werden, z.B. als Vorschaubilder oder Buttons. Derzeit verfügbar:\n"
-      mime_types: "Bitte konfiguriere hier deine Zuordnung. Jeder reguläre Ausdruck für einen MIME-Typ wird von einem bestimmten Upload-Adapter und einer bestimmten Download-Vorlage verarbeitet.\nOptional kannst du jedem Eintrag eine Berechtigungsbezeichnung (z. B. „Bilder“, „Videos“) zuweisen, um eine spezielle Berechtigung im Berechtigungsraster zu erstellen.\nAuf diese Weise kannst du einschränken, welche Gruppen bestimmte Dateitypen hochladen dürfen – zusätzlich zur Basisberechtigung „Dateien hochladen“, die immer erforderlich ist.\n"
+      mime_types: "Bitte konfigurieren Sie hier Ihre Zuordnung. Jeder reguläre Ausdruck für einen MIME-Typ wird von einem bestimmten Upload-Adapter und einer bestimmten Download-Vorlage verarbeitet.\nOptional können Sie jedem Eintrag eine Berechtigungsbezeichnung (z. B. „Bilder“, „Videos“) zuweisen, um eine eigene Berechtigung im Berechtigungsraster zu erstellen.\nAuf diese Weise können Sie einschränken, welche Gruppen bestimmte Dateitypen hochladen dürfen – zusätzlich zu der grundlegenden Berechtigung „Dateien hochladen“, die immer erforderlich ist.\n"
       resize: "Wähle aus, ob du die Größe deiner Bilder ändern möchtest, bevor sie hochgeladen werden. Du kannst eine maximale Breite und Höhe in Pixeln wählen. Bei der Größenänderung wird das Seitenverhältnis der Bilder beibehalten.\n"
       s3_acl: "Die Zugriffssteuerungsliste (ACL), die auf das hochgeladene Objekt angewendet werden soll (Standard: private). Für mögliche Werte, siehe https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n"
       s3_compatible_storage: "Die folgenden Einstellungen sind nur erforderlich, wenn du S3 kompatiblen Speicher verwendest. Wenn du AWS verwendest, kannst du sie leer lassen.\n"
@@ -116,7 +116,7 @@ fof-upload:
       access_shared_label: 'Zugriff auf freigegebene Dateien in Media Manager'
       delete_uploads_of_others_label: 'Benutzer-Uploads löschen'
       download_label: 'Dateien herunterladen'
-      upload_label: 'Dateien hochladen (Basisberechtigung, erforderlich für alle Uploads)'
+      upload_label: 'Dateien hochladen (Basisberechtigung, für alle Uploads erforderlich)'
       upload_mime_label: '{label} hochladen'
       upload_shared_label: 'Gemeinsame Dateien hochladen'
       view_user_uploads_label: 'Benutzer-Uploads anzeigen'

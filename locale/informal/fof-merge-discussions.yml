@@ -7,8 +7,8 @@ fof-merge-discussions:
     permissions:
       merge_discussions_label: 'Diskussionen zusammenführen'
     settings:
-      search_result_help: 'Wie viele Diskussionen zurückgegeben werden sollen, wenn im Modal `Diskussionen zusammenführen` gesucht wird.'
-      search_result_label: 'Suchlimit für Diskussionen zusammenführen'
+      search_result_help: 'Wie viele Diskussionen zurückgegeben werden sollen, wenn im Modal „Diskussionen zusammenführen“ gesucht wird.'
+      search_result_label: 'Suchlimit für das Zusammenführen von Diskussionen'
   api:
     error:
       deleting_failed: 'Leere Diskussionen konnten nicht gelöscht werden.'
@@ -19,7 +19,7 @@ fof-merge-discussions:
   email:
     merged:
       body: "Deine Diskussion {merged_discussion_title} wurde von {actor_display_name} mit {discussion_title} zusammengeführt.\n\nDu kannst sie hier ansehen: {discussion_url} .\n"
-      subject: 'Deine Diskussion "{merged_discussion_title}" wurde zusammengeführt'
+      subject: 'Deine Diskussion „{merged_discussion_title}“ wurde zusammengeführt'
   forum:
     discussion:
       merge: '=> fof-merge-discussions.ref.merge'
@@ -27,7 +27,7 @@ fof-merge-discussions:
       load_preview_button: Vorschau
       ordering_date_help: 'Beiträge in der resultierenden Diskussion werden nach ihrem individuellen Erstellungsdatum neu geordnet'
       ordering_date_label: 'Beiträge nach Erstellungsdatum zusammenführen'
-      ordering_heading: 'Bestellung zusammenführen'
+      ordering_heading: 'Sortierung beim Zusammenführen'
       ordering_suffix_help: 'Beiträge, die in die bestehende Diskussion eingebunden werden, werden am Ende der Diskussion angehängt'
       ordering_suffix_label: 'Zusammengeführte Beiträge am Ende der Diskussion hinzufügen'
       search_discussions_placeholder: 'Diskussionen suchen...'
@@ -35,14 +35,14 @@ fof-merge-discussions:
       title: 'Diskussionen zusammenführen'
       type_from_help_text: 'Wähle die Ziel-Diskussion aus, in die {title} zusammengeführt werden soll.'
       type_from_label: 'Diese Diskussion in eine andere zusammenführen'
-      type_heading: 'Typ zusammenführen'
-      type_target_help_text: 'Wähle die Diskussion(en) aus, die du in {Titel} zusammenführen möchtest.'
+      type_heading: 'Art der Zusammenführung'
+      type_target_help_text: 'Wähle die Diskussion(en) aus, die du in {title} zusammenführen möchtest.'
       type_target_label: 'Mit mir zusammenführen'
     notification:
       discussion_merged: 'Deine Diskussion {oldTitle} wurde von {username} mit dieser Diskussion zusammengeführt.'
       preferences:
         discussion_merged: 'Jemand führt eine meiner Diskussionen mit einer anderen zusammen'
     post:
-      merged: '{count, plural, one {1 Beitrag von {titles} zusammengeführt.} other {{count} Beitrag von {titles} zusammengeführt.}}'
+      merged: '{count, plural, one {Ein Beitrag von {titles} zusammengeführt.} other {{count} Beiträge von {titles} zusammengeführt.}}'
   ref:
     merge: Zusammenführen
