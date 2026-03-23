@@ -23,6 +23,7 @@ fof-move-posts:
       move_posts_to_same_discussion: 'Beiträge können nicht in dieselbe Diskussion verschoben werden.'
     modal:
       check: 'Operation vorab prüfen'
+      confirm_move_all_to_new_discussion: 'Du bist dabei, alle Beiträge aus dieser Diskussion in eine neue zu verschieben. In den meisten Fällen ist es sinnvoller, stattdessen die bestehende Diskussion zu bearbeiten, beispielsweise indem du den Titel, die Themen oder andere Attribute änderst. Möchtest du fortfahren?'
       destination: Zieldiskussion
       discussion_help: 'Es werden die Themen der ursprünglichen Diskussion verwendet. Diese können nach der Erstellung geändert werden.'
       discussion_name: '=> core.forum.composer_discussion.title_placeholder'

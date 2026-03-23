@@ -8,5 +8,6 @@ ekumanov-inline-audio:
       auto_play: 'Wiedergabe sofort beginnen, sobald auf einen Dateinamen geklickt wird'
       show_download_button: 'Download-Schaltfläche in der Player-Leiste anzeigen'
       show_right_click_download: 'Speichern der Datei per Rechtsklick auf den Dateinamen erlauben'
+      strip_upload_prefix: 'Numerisches Präfix aus den Dateinamen hochgeladener Dateien ausblenden (z. B. „1774205518-685373-song.mp3“ → „song.mp3“)'
   forum:
     bbcode_description: 'Audio-Player einbetten: [player]URL[/player]'
