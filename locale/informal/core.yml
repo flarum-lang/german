@@ -246,6 +246,7 @@ core:
       mail_username_label: '=> core.ref.username'
       mailgun_heading: 'Mailgun Einstellungen'
       not_sending_message: 'Flarum sendet derzeit keine E-Mails. Bitte überprüfe die Korrektheit deiner E-Mail-Konfiguration.'
+      postmark_description: 'E-Mails über die HTTP-API von Postmark versenden. Optional kann ein Nachrichtenstream angegeben werden, um einen anderen als den Standardstream zu verwenden.'
       send_test_mail_button: Absenden
       send_test_mail_heading: 'Test-E-Mail senden'
       send_test_mail_success: 'Test-E-Mail wurde erfolgreich versandt!'
