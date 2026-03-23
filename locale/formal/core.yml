@@ -14,6 +14,13 @@ core:
           label: Konfigurationsüberschreibung
         kit_url_help: 'Die URL deines FontAwesome-Kit-Skripts (von kit.fontawesome.com)'
         kit_url_label: Kit-URL
+        preview:
+          button: Symbolvorschau
+          fa5_fa6_label: FA5/FA6-Aliasse
+          fa7_label: FA7-Klassen
+          help: 'Überprüfe deine FontAwesome-Konfiguration. Ein gerendertes Symbol bedeutet, dass diese Stufe verfügbar ist; ein durchgestrichenes Kästchen bedeutet, dass sie nicht geladen wurde.'
+          label: Symbolvorschau
+          pro_label: 'Nur Pro'
         section_label: FontAwesome-Symbole
         source_cdn: CDN
         source_help: 'Wähle aus, wie FontAwesome-Symbole geladen werden sollen. „Lokal“ verwendet gebündelte Schriftarten, „CDN“ lädt von einem CDN und „Kit“ verwendet FontAwesome-Kits mit benutzerdefinierten Symbolen.'
@@ -24,10 +31,10 @@ core:
         bisect:
           begin_button_text: 'Bisect starten'
           continue_button_text: 'Bisect fortsetzen'
-          help: 'Hilft dabei, diejenige Erweiterung zu identifizieren, die das von dir beobachtete Problem verursacht. Dadurch wird das Forum automatisch in den Wartungsmodus (niedrig) versetzt, bis der Vorgang abgeschlossen ist.'
+          help: 'Hilft dabei, diejenige Erweiterung zu identifizieren, die das von dir beobachtete Problem verursacht. Dadurch wird das Forum automatisch in den einfachen Wartungsmodus versetzt, bis der Vorgang abgeschlossen ist.'
           label: Erweiterungs-Bisect
         bisect_modal:
-          description: "Dadurch wird das Forum bis zum Abschluss des Vorgangs in den Wartungsmodus (niedrig) versetzt. In jedem Schritt werden einige Erweiterungen deaktiviert, bis diejenige gefunden wurde, die das Problem verursacht. Sei also nicht überrascht, wenn Funktionen fehlen oder das Design des Themes anders ist. Lass diese Seite geöffnet und versuche, das Problem nach jedem Schritt auf einer separaten Seite zu reproduzieren. Du kannst jederzeit zu dieser Seite zurückkehren, wenn du sie versehentlich geschlossen hast.\n"
+          description: "Dadurch wird das Forum bis zum Abschluss des Vorgangs in den einfache Wartungsmodus versetzt. In jedem Schritt werden einige Erweiterungen deaktiviert, bis diejenige gefunden wurde, die das Problem verursacht. Sei also nicht überrascht, wenn Funktionen fehlen oder das Design des Themes anders ist. Lass diese Seite geöffnet und versuche, das Problem nach jedem Schritt auf einer separaten Seite zu reproduzieren. Du kannst jederzeit zu dieser Seite zurückkehren, wenn du sie versehentlich geschlossen hast.\n"
           end_button: 'Schließen und zur Erweiterungsseite gehen'
           issue_question: 'Tritt das Problem weiterhin auf?'
           issue_question_help: 'Versuche, das Problem auf einer separaten Seite zu reproduzieren, und antworte anhand des Ergebnisses.'
@@ -76,6 +83,19 @@ core:
         no_other_drivers: 'Es sind noch keine Suchtreiber verfügbar. Installiere eine Suchtreiber-Erweiterung, um diese konfigurieren zu können.'
         section_label: Suchtreiber
       title: Fortgeschritten
+    announcements:
+      about: 'Aktuelle Nachrichten und Ankündigungen aus der offiziellen Flarum-Community unter discuss.flarum.org.'
+      comments_label: '{count, plural, one {# Kommentar} other {# Kommentare}}'
+      description: 'Aktuelle Neuigkeiten und Ankündigungen des Flarum-Teams.'
+      empty: 'Keine Ankündigungen gefunden.'
+      hide: 'Ankündigungen ausblenden'
+      load_error: 'Die Ankündigungen konnten nicht geladen werden. Bitte versuche es später erneut.'
+      read_more: Weiterlesen
+      refresh: 'Ankündigungen aktualisieren'
+      retry: 'Erneut versuchen'
+      show: 'Ankündigungen anzeigen'
+      title: Ankündigungen
+      view_all: 'Alle Beiträge auf discuss.flarum.org anzeigen'
     appearance:
       allow_user_color_scheme_label: 'Benutzern die Auswahl ihres eigenen Farbschemas ermöglichen'
       color_scheme_label: 'Farbschema (Standard)'
@@ -104,11 +124,17 @@ core:
       enter_hex_message: 'Geben Sie eine Farbe im Hexadezimalformat ein.'
       favicon_heading: Favicon
       favicon_text: 'Laden Sie ein Bild hoch, welches als Favicon für das Forum verwendet wird.'
+      logo_dark_mode_heading: 'Logo für dunklen Modus'
+      logo_dark_mode_text: 'Lade ein alternatives Logo hoch, das angezeigt werden soll, wenn der Dunkle Modus aktiviert ist.'
       logo_heading: Firmenzeichen
       logo_text: 'Laden Sie ein Logo hoch, welches anstelle des Forum-Titels angezeigt wird.'
       title: Erscheinungsbild
     basics:
       all_discussions_label: '=> core.ref.all_discussions'
+      avatar_driver_heading: Benutzeravatar
+      avatar_driver_options:
+        default: Standard
+      avatar_driver_text: 'Wähle einen Treiber aus, der für die Avatare der Benutzer verwendet werden soll, wenn kein vom Benutzer hochgeladener Avatar verfügbar ist. Standardmäßig wird kein Avatar angezeigt, wenn ein Benutzer keinen hochgeladen hat.'
       default_language_heading: Standardsprache
       description: 'Legen Sie den Forentitel, die Sprache und weitere Grundeinstellungen fest.'
       display_name_driver_options:
@@ -129,6 +155,7 @@ core:
         users:
           default: Benutzername
           id: ID
+          id_with_display_name: 'ID mit Anzeigename'
       slug_driver_text: 'Wählen Sie den Treiber, welcher die Foren-URLs mit einem "Slug" ausstattet.'
       title: Grundeinstellungen
       welcome_banner_heading: Willkommensnachricht
@@ -213,6 +240,9 @@ core:
       mail_mailgun_secret_label: 'Geheimer Schlüssel'
       mail_password_label: '=> core.ref.password'
       mail_port_label: Port
+      mail_postmark_token_label: Server-Token
+      mail_smtp_verify_peer_help: 'Überprüfe das SSL-Zertifikat des Servers, wenn du TLS- oder SSL-Verschlüsselung verwendest. Deaktiviere diese Option nur, wenn dein Mailserver ein selbstsigniertes Zertifikat verwendet.'
+      mail_smtp_verify_peer_label: 'SSL-Zertifikat überprüfen'
       mail_username_label: '=> core.ref.username'
       mailgun_heading: 'Mailgun Einstellungen'
       not_sending_message: 'Flarum sendet derzeit keine E-Mails. Bitte überprüfen Sie die Korrektheit ihrer E-Mail-Konfiguration.'
@@ -251,6 +281,21 @@ core:
         title: 'Dokumentation von {extName}'
       replaced: Ersetzt
       safe_mode_warning: 'Der abgesicherte Modus ist derzeit aktiviert. Erweiterungen werden nicht gestartet, sodass auf ihre Einstellungen nicht zugegriffen werden kann.'
+    extensions-health-widget:
+      abandoned_no_replacement: 'Kein Ersatz verfügbar'
+      abandoned_with_replacement: 'Ersetzt durch {replacement}'
+      all_healthy: 'Alle Erweiterungen sind in Ordnung.'
+      section_abandoned_empty: 'Es wurden keine Probleme festgestellt.'
+      section_abandoned_heading: 'Erfordert deine Aufmerksamkeit'
+      section_abandoned_help: 'Diese Erweiterungen werden nicht mehr gepflegt oder weisen möglicherweise Kompatibilitätsprobleme auf. Du solltest erwägen, sie zu aktualisieren, zu ersetzen oder zu entfernen.'
+      section_disabled_empty: 'Alle Erweiterungen sind aktiviert.'
+      section_disabled_heading: Deaktiviert
+      section_disabled_help: 'Diese Erweiterungen sind installiert, aber derzeit nicht aktiviert. Aktiviere sie über die jeweilige Einstellungsseite oder entferne sie, wenn sie nicht mehr benötigt werden.'
+      section_suggested_empty: 'Keine Vorschläge.'
+      section_suggested_heading: Vorgeschlagen
+      section_suggested_help: 'Flarum-Erweiterungen können durch die Angabe weiterer Erweiterungen oder Pakete optionale Zusatzfunktionen hinzufügen. Diese können zusätzliche Funktionen oder Integrationen ergänzen.'
+      suggested_by: 'Vorgeschlagen von {extension}'
+      title: 'Status der Erweiterungen'
     header:
       get_help: 'Hilfe erhalten'
       log_out_button: '=> core.ref.log_out'

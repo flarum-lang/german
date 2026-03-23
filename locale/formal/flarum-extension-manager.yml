@@ -94,6 +94,7 @@ flarum-extension-manager:
         empty_results: 'Es sieht so aus, als wären keine Erweiterungen verfügbar.'
         extension:
           badges:
+            abandoned: Aufgegeben
             compatible: Kompatibel
             flarum: Flarum
             fof: 'Friends Of Flarum'
