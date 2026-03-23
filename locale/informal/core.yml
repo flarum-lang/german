@@ -873,6 +873,7 @@ core:
       maintenance_mode_link: Administrator-Anmeldung
       maintenance_mode_message: 'Dieses Forum ist derzeit wegen Wartungsarbeiten nicht verfügbar. Bitte versuche es später erneut.'
       maintenance_mode_title: Wartung
+      method_not_allowed: 'Diese Seite unterstützt diese Anforderungsmethode nicht.'
       not_authenticated: 'Du hast keine Berechtigung, auf diese Seite zuzugreifen. Versuche dich erneut anzumelden.'
       not_found: 'Die angeforderte Seite konnte nicht gefunden werden.'
       not_found_return_link: 'Zurück zu {forum}'
