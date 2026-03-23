@@ -240,6 +240,7 @@ core:
       mail_mailgun_secret_label: 'Geheimer Schlüssel'
       mail_password_label: '=> core.ref.password'
       mail_port_label: Port
+      mail_postmark_message_stream_label: Nachrichtenstream
       mail_postmark_token_label: Server-Token
       mail_smtp_verify_peer_help: 'Überprüfe das SSL-Zertifikat des Servers, wenn du TLS- oder SSL-Verschlüsselung verwendest. Deaktiviere diese Option nur, wenn dein Mailserver ein selbstsigniertes Zertifikat verwendet.'
       mail_smtp_verify_peer_label: 'SSL-Zertifikat überprüfen'
@@ -247,6 +248,7 @@ core:
       mailgun_heading: 'Mailgun Einstellungen'
       not_sending_message: 'Flarum sendet derzeit keine E-Mails. Bitte überprüfen Sie die Korrektheit ihrer E-Mail-Konfiguration.'
       postmark_description: 'E-Mails über die HTTP-API von Postmark versenden. Optional kann ein Nachrichtenstream angegeben werden, um einen anderen als den Standardstream zu verwenden.'
+      postmark_heading: Postmark-Einstellungen
       send_test_mail_button: Absenden
       send_test_mail_heading: 'Test-E-Mail senden'
       send_test_mail_success: 'Test-E-Mail wurde erfolgreich versandt!'
@@ -316,11 +318,13 @@ core:
       basics_button: '=> core.admin.basics.title'
       basics_title: '=> core.admin.basics.description'
       categories:
+        analytics: Analytik
         authentication: Authentifizierung
         core: Kernkonfiguration
         discussion: Diskussion
         feature: Funktionen
         formatting: Formatierung
+        infrastructure: Infrastruktur
         language: Sprachen
         moderation: Moderation
         other: 'Sonstige Erweiterungen'
@@ -643,6 +647,9 @@ core:
         dark_mode_label: '=> core.ref.dark_mode_label'
         light_hc_mode_label: '=> core.ref.light_hc_mode_label'
         light_mode_label: '=> core.ref.light_mode_label'
+      device_heading: Geräte
+      haptic_feedback_help: 'Nur auf unterstützten Mobilgeräten verfügbar'
+      haptic_feedback_label: 'Haptisches Feedback aktivieren'
       notification_checkbox_a11y_label_template: 'Erhalten Sie "{description}" Benachrichtigungen über {method}'
       notifications_heading: '=> core.ref.notifications'
       notify_by_email_heading: '=> core.ref.email'
