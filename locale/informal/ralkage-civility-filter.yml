@@ -23,18 +23,29 @@ ralkage-civility-filter:
       export: 'CSV exportieren'
       filter_action: 'Nach Aktion filtern'
       moderated: Moderiert
+      no_logs: 'Es wurden keine Einträge im Höflichkeitsprotokoll gefunden.'
       score: Bewertung
       suspend: Aussetzen
       suspended: Ausgesetzt
+      title: Höflichkeits-Filterprotokoll
       username: Benutzername
       warned: Verwarnt
     nav:
+      civility_log: Höflichkeitsprotokoll
       stats: Statistiken
+    permissions:
+      bypass_label: 'Höflichkeitsfilter umgehen'
     settings:
       ai_provider_help: 'Wähle den gewünschten KI-Anbieter aus. Gib unten den entsprechenden API-Schlüssel ein.'
       ai_provider_label: KI-Anbieter
       api_key_help: 'Dein Anthropic-API-Schlüssel für Claude-Modelle.'
       api_key_label: Anthropic-API-Schlüssel
+      auto_suspend_days_help: 'Wie viele Tage ein Benutzer gesperrt werden soll. Standard: 3'
+      auto_suspend_days_label: 'Dauer der automatischen Sperrung (Tage)'
+      auto_suspend_threshold_help: 'Benutzer nach dieser Anzahl von Verstößen innerhalb des Zeitfensters automatisch sperren. Auf 0 setzen, um die Funktion zu deaktivieren.'
+      auto_suspend_threshold_label: 'Automatische Sperre nach X Verstößen'
+      auto_suspend_window_help: 'Anzahl von Tagen innerhalb derer Verstöße gezählt werden. Standard: 7'
+      auto_suspend_window_label: 'Fenster für automatische Sperrung (Tage)'
       block_threshold_help: 'Bei einem Wert auf oder über diesem Niveau wird der Beitrag komplett blockiert. Standardwert: 95'
       block_threshold_label: 'Block-Schwellenwert (0–100)'
       custom_prompt_help: 'Standard-Bewertungs-Prompt überschreiben. Die KI muss angewiesen werden, JSON-Daten mit den Feldern „score“, „categories“ und „reason“ zurückzugeben. Für die Standardeinstellung leer lassen.'
@@ -53,8 +64,13 @@ ralkage-civility-filter:
       openai_api_key_label: OpenAI-API-Schlüssel
       openrouter_api_key_help: 'Dein OpenRouter-API-Schlüssel. Greife über eine einzige API auf über 200 Modelle zu.'
       openrouter_api_key_label: OpenRouter-API-Schlüssel
+      rate_limit_help: 'Maximale Anzahl von KI-API-Aufrufen pro Stunde. Beiträge werden ungeprüft weitergeleitet, wenn das Limit erreicht ist. Setze den Wert auf 0, um die Anzahl unbegrenzt zu lassen.'
+      rate_limit_label: 'API-Aufrufbegrenzung (Aufrufe/Stunde)'
       warn_threshold_help: 'Bei einem Wert auf oder über diesem Niveau wird eine Warnung ausgegeben. Standardwert: 60'
       warn_threshold_label: 'Warnschwelle (0–100)'
+      webhook_min_action_help: 'Sende Webhook-Benachrichtigungen nur für diese Aktionsstufe oder höher.'
+      webhook_min_action_label: 'Mindestaktion für Webhook'
+      webhook_url_help: 'Discord-Webhook oder allgemeine URL, um Benachrichtigungen zu erhalten, wenn Beiträge gemeldet werden. Zum Deaktivieren leer lassen.'
       webhook_url_label: Webhook-URL
       word_blocklist_help: 'Ein Wort/ein Satz pro Zeile. Beiträge, die diese enthalten, werden sofort blockiert, ohne dass die KI hinzugezogen wird.'
       word_blocklist_label: Wort-Sperrliste
@@ -86,3 +102,8 @@ ralkage-civility-filter:
       result_score: Höflichkeitsbewertung
       submit: 'Bewerten lassen'
       title: Testbewertung
+  forum:
+    user_profile:
+      average_score: 'Durchschnittliche Bewertung'
+      no_history: 'Keine Eintragungen wegen Unhöflichkeit.'
+      violations: Verstöße
