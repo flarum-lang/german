@@ -6,7 +6,9 @@ flarum-twemoji:
   admin:
     settings:
       base: Basis
+      basehelp: 'Tipps: Wenn du „$“ eingibst, wird dies durch die aktuelle Versionsnummer ersetzt. Bei der Eingabe wird zwischen Groß- und Kleinschreibung unterschieden.'
       baseph: 'Beispiel: https://www.beispiel.de/'
+      disable_autocomplete: 'Auto-Vervollständigung deaktivieren'
       ext: Erweiterung
       extph: 'Beispiel: .gif'
       folder: Ordner
