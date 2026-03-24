@@ -21,11 +21,11 @@ datlechin-birthdays:
     invalid_dob_message: 'Ungültiges Geburtsdatum'
   forum:
     change_dob:
-      date_of_birth_text: Geburtsdatum
+      date_of_birth_text: '=> datlechin-birthdays.ref.date_of_birth'
       submit_button: '=> core.ref.save_changes'
       title: 'Geburtsdatum ändern'
     edit_user:
-      dob_heading: Geburtsdatum
+      dob_heading: '=> datlechin-birthdays.ref.date_of_birth'
     header:
       edit_dob_button: 'Geburtsdatum ändern'
     nav:
@@ -35,10 +35,14 @@ datlechin-birthdays:
       post_count: '{count, plural, one {Beitrag: #} other {Beiträge: #}}'
     settings:
       change_dob_label: 'Geburtsdatum ändern'
-      dob_heading: Geburtsdatum
+      dob_heading: '=> datlechin-birthdays.ref.date_of_birth'
       show_dob_date_label: 'Geburtstag und Monat anzeigen'
       show_dob_year_help: 'Dadurch können die Leute Dein Alter sehen.'
       show_dob_year_label: 'Geburtsjahr anzeigen'
+    sign_up:
+      dob_placeholder: '=> datlechin-birthdays.ref.date_of_birth'
     user:
       age_text: '{age} Jahre alt'
       birthday_text: 'Geburtstag: {date}'
+  ref:
+    date_of_birth: Geburtsdatum

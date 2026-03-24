@@ -102,8 +102,19 @@ ralkage-civility-filter:
       result_score: Höflichkeitsbewertung
       submit: 'Bewerten lassen'
       title: Testbewertung
+  api:
+    post_blocked: 'Dein Beitrag wurde vom Höflichkeitsfilter blockiert. Bitte formuliere deine Nachricht respektvoller und konstruktiver und versuche es dann erneut.'
   forum:
+    notification_moderated: 'Dein letzter Beitrag wurde vom Höflichkeitsfilter zur Überprüfung zurückgehalten. Ein Moderator wird ihn in Kürze prüfen.'
+    notification_warned: 'Dein letzter Beitrag wurde vom Höflichkeitsfilter markiert. Bitte achte darauf, dass die Diskussionen respektvoll bleiben.'
+    post_notice_moderated: 'Dieser Beitrag wurde aufgrund potenziell schädlicher Inhalte durch den Höflichkeitsfilter zur Überprüfung zurückgehalten.'
+    post_notice_warned_author: 'Dein Beitrag wurde vom Höflichkeitsfilter markiert. Bitte achte darauf, dass die Diskussionen respektvoll und konstruktiv bleiben.'
+    post_notice_warned_mod: 'Dieser Beitrag wurde vom Höflichkeitsfilter wegen möglicher Unhöflichkeit markiert. (Nur für Moderatoren sichtbar)'
+    settings:
+      notify_civility_flagged: 'Jemand meldet meinen Beitrag wegen Unhöflichkeit'
     user_profile:
       average_score: 'Durchschnittliche Bewertung'
+      civility_title: Höflichkeitsprotokoll
       no_history: 'Keine Eintragungen wegen Unhöflichkeit.'
+      total_checks: 'Überprüfungen insgesamt'
       violations: Verstöße

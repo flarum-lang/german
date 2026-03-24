@@ -7,4 +7,14 @@ fof-oauth:
     settings:
       providers:
         envato:
+          client_id_label: Client-ID
+          client_secret_label: Client-Secret
           description: 'Registriere dein Forum bei Envato {link}.'
+  forum:
+    log_in:
+      with_envato_button: '=> fof-oauth.forum.log_in.with_button'
+    providers:
+      envato: '=> fof-oauth.lib.providers.envato'
+  lib:
+    providers:
+      envato: Envato
