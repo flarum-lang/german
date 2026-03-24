@@ -289,7 +289,7 @@ core:
       abandoned_with_replacement: 'Ersetzt durch {replacement}'
       all_healthy: 'Alle Erweiterungen sind in Ordnung.'
       section_abandoned_empty: 'Es wurden keine Probleme festgestellt.'
-      section_abandoned_heading: 'Erfordert deine Aufmerksamkeit'
+      section_abandoned_heading: 'Erfordern deine Aufmerksamkeit'
       section_abandoned_help: 'Diese Erweiterungen werden nicht mehr gepflegt oder weisen möglicherweise Kompatibilitätsprobleme auf. Du solltest erwägen, sie zu aktualisieren, zu ersetzen oder zu entfernen.'
       section_disabled_empty: 'Alle Erweiterungen sind aktiviert.'
       section_disabled_heading: Deaktiviert

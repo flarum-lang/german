@@ -7,6 +7,8 @@ flarum-realtime:
     permission:
       view-who-types: 'Sehen, wer gerade tippt'
     settings:
+      notification-toast-dismiss-after: 'Anzeigedauer der Benachrichtigungs-Toasts'
+      notification-toast-dismiss-after-help: 'Wie lange (in Sekunden) eine Echtzeit-Benachrichtigung auf dem Bildschirm angezeigt wird, bevor sie automatisch ausgeblendet wird. Setze den Wert auf 0, um Benachrichtigungen zu deaktivieren.'
       release-discussion-updates: DiscussionList-Aktualisierungen
       release-discussion-updates-help: 'Wenn aktiviert, werden neue Diskussionen in dem unten definierten Intervall in die <code>DiscussionList</code> verschoben.'
       release-discussion-updates-interval: 'Intervall für das automatische Pushen neuer Diskussionsaktivitäten'
