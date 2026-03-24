@@ -95,7 +95,7 @@ core:
       retry: 'Erneut versuchen'
       show: 'Ankündigungen anzeigen'
       title: Ankündigungen
-      view_all: 'Alle Beiträge auf discuss.flarum.org anzeigen'
+      view_all: 'Alle auf discuss.flarum.org anzeigen'
     appearance:
       allow_user_color_scheme_label: 'Benutzern die Auswahl ihres eigenen Farbschemas ermöglichen'
       color_scheme_label: 'Farbschema (Standard)'
