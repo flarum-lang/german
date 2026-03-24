@@ -36,6 +36,7 @@ CHANGELOG
 * [`import-ai/flarum-webhook-notification`](https://github.com/import-ai/flarum-webhook-notification)
 * [`import-ai/flarum-webhook`](https://github.com/import-ai/flarum-webhook)
 * [`litalino/flarum-related-discussions`](https://github.com/Litalino/flarum-related-discussions)
+* [`ralkage/flarum-ext-cap-captcha`](https://github.com/Ralkage/flarum-ext-cap-captcha)
 * [`ralkage/flarum-ext-civility-filter`](https://github.com/Ralkage/flarum-ext-civility-filter)
 * [`ralkage/flarum-ext-linked-accounts`](https://github.com/Ralkage/flarum-ext-linked-accounts)
 * [`ralkage/flarum-ext-profile-messages`](https://github.com/Ralkage/flarum-ext-profile-messages)
