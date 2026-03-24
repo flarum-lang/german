@@ -14,6 +14,8 @@ huseyinfiliz-stickiest:
       badge_icon_text: '=> core.ref.icon_text'
       display_tag_sticky_label: 'Themen stickies in der Liste „Alle Diskussionen“ anzeigen'
       display_tag_sticky_text: 'Sie werden wie normale Diskussionen behandelt und bleiben nicht oben angeheftet.'
+      show_sticky_highlight_help: 'Wenn aktiviert, werden angeheftete Diskussionen in der Diskussionsliste mit einem farbigen linken Rand und einem farbigen Hintergrund angezeigt.'
+      show_sticky_highlight_label: 'Hervorhebung für gepinnte Diskussionen anzeigen'
       show_tag_sticky_help: 'Wenn deaktiviert, werden angepinnte Diskussionen nur angezeigt, wenn man sich das jeweilige Thema ansieht.'
       show_tag_sticky_label: 'Angepinnte Themen in „Alle Diskussionen“ anzeigen'
       stickiest_icon_help: 'Font Awesome-Symbolklasse (z. B. fas fa-star)'
