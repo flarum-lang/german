@@ -855,7 +855,7 @@ core:
     extensions: Erweiterungen
     generic_confirmation_message: 'Sind Sie sicher, dass Sie fortfahren möchten? Diese Aktion kann nicht rückgängig gemacht werden.'
     icon: Symbol
-    icon_text: 'Geben Sie den Namen des <a>FontAwesome</a>-Symbols ein, aber <em>mit</em> dem Präfix <code>fas fa-</code>.'
+    icon_text: 'Geben Sie den Namen der <a>FontAwesome</a>-Symbolklasse ein, aber <em>mit</em> dem Präfix (z. B. <code>fas fa-flag</code> oder <code>fa-solid fa-flag</code>).'
     invalid_login_message: 'Deine Anmeldedaten waren falsch.'
     light_hc_mode_label: 'Heller Modus mit hohem Kontrast'
     light_mode_label: 'Heller Modus'

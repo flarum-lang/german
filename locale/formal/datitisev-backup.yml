@@ -7,7 +7,7 @@ datitisev-backup:
     adapter-settings-modal:
       aliyun:
         access-id:
-          description: 'Deine Authentifizierungs-Zugriffstoken-ID'
+          description: 'Ihre Authentifizierungs-Zugriffstoken-ID'
           label: Zugangs-ID
         access-key:
           description: 'Dein Authentifizierungs-Zugriffstoken-Schlüssel'
@@ -16,7 +16,7 @@ datitisev-backup:
           description: 'Der zu verwendende Speicher-Bucket.'
           label: Bucket
         endpoint:
-          description: 'Die URL zu Deinem Speicherendpunkt.'
+          description: 'Die URL zu Ihrem Speicherendpunkt.'
           label: Endpunkt
         path-prefix:
           description: 'Optionales Standardpfadpräfix für die Dateien.'
@@ -35,17 +35,17 @@ datitisev-backup:
           description: 'Optionales Standardpfadpräfix für die Dateien.'
           label: Pfadpräfix
         region:
-          description: 'Region Deines Buckets.'
+          description: 'Region Ihres Buckets.'
           label: Region
         version:
-          description: 'Gebe eine Version an oder lasse das Feld für latest leer.'
+          description: 'Geben Sie eine Version an oder lassen Sie das Feld für die neueste leer.'
           label: Version
       azure:
         container:
           description: Azure-Container
           label: Container
         endpoint:
-          description: 'Die Verbindungszeichenfolge für deinen Azure-Speicher.'
+          description: 'Die Verbindungszeichenfolge für Ihren Azure-Speicher.'
           label: Verbindungszeichenfolge
         path-prefix:
           description: 'Optionales Standard-Pfadpräfix für Dateien.'
@@ -55,22 +55,22 @@ datitisev-backup:
           obtain-access-code-button: 'Dropbox öffnen'
           obtain-access-code-label: 'Zugangscode erhalten (App-Schlüssel erforderlich)'
           obtain-refresh-token-button: 'Code verwenden'
-          obtain-refresh-token-label: 'Verwende den Zugriffscode, um ein Aktualisierungstoken zu erhalten (erfordert App-Schlüssel und Secret)'
-          obtain-refresh-token-success: 'Aktualisierungstoken erfolgreich abgerufen und oben aktualisiert! Speichere die Änderungen, um sie zu sichern.'
+          obtain-refresh-token-label: 'Verwenden Sie den Zugriffscode, um ein Aktualisierungstoken zu erhalten (erfordert App-Schlüssel und Secret)'
+          obtain-refresh-token-success: 'Aktualisierungstoken erfolgreich abgerufen und oben aktualisiert! Speichern Sie die Änderungen, um sie zu sichern.'
         key:
           label: App-Schlüssel
         refresh-token:
-          description: 'Verwende die folgenden Felder, um das Aktualisierungstoken zu erhalten, oder befolge manuell die Anweisungen unter https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually.'
+          description: 'Verwenden Sie die folgenden Felder, um das Aktualisierungstoken zu erhalten, oder befolgen Sie manuell die Anweisungen unter https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually.'
           label: Aktualisierungstoken
         secret:
           label: App-Secret
       ftp:
         host:
-          description: 'Der Hostname, zu dem Du dich mit FTP verbinden möchtest, zB: <em>ftp.yourdomain.local</em>.'
+          description: 'Der Hostname, zu dem Sie sich mit FTP verbinden möchten, z. B.: <em>ftp.yourdomain.local</em>.'
           label: Remote-Hostname
         passive:
           description: 'Ob für die FTP-Verbindung der passive Modus verwendet werden soll.'
-          toggle: 'Passiver Modus'
+          toggle: Passivmodus
         password:
           description: 'Das Benutzerkennwort für die Authentifizierung auf dem FTP-Server.'
           label: Passwort
@@ -91,7 +91,7 @@ datitisev-backup:
           label: Benutzername
       gdrive:
         client-id:
-          description: "Befolge die Anweisungen unter https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md, um ein Google-Projekt zu erstellen und deine Client-ID und deinen geheimen Client-Schlüssel abzurufen.\n"
+          description: "Befolgen Sie die Anweisungen unter https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md, um ein Google-Projekt zu erstellen und Ihre Client-ID und Ihren geheimen Client-Schlüssel abzurufen.\n"
           label: Client-ID
         client-secret:
           description: ' '
@@ -101,13 +101,13 @@ datitisev-backup:
           label: Ordner-ID
         help:
           test_button: 'Verbindung testen'
-          test_success_alert: 'Erfolgreich mit Google Drive verbunden! Speichere die Änderungen, um die Einstellungen zu übernehmen.'
+          test_success_alert: 'Erfolgreich mit Google Drive verbunden! Speichern Sie die Änderungen, um die Einstellungen zu übernehmen.'
         refresh-token:
-          description: "Folgen Sie den Anweisungen @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md, um das Aktualisierungstoken für Ihre Google oAuth-App abzurufen.\n"
+          description: "Folge den Anweisungen @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md, um das Aktualisierungstoken für deine Google oAuth-App abzurufen.\n"
           label: 'Token aktualisieren'
       local:
         target:
-          description: 'Gebe das lokale Verzeichnis an, in dem Backups gespeichert werden sollen.'
+          description: 'Geben Sie das lokale Verzeichnis an, in dem Backups gespeichert werden sollen.'
           label: Zielpfad
       name_label: Standortname
       sftp:
@@ -128,7 +128,7 @@ datitisev-backup:
           description: 'Ob der SSH-Agent zur Authentifizierung der Verbindung verwendet werden soll (Standardwert: false).'
           toggle: 'Agent verwenden'
         username: '=> datitisev-backup.admin.adapter-settings-modal.ftp.username'
-      timestamp_help: "Gib das Format für Zeitstempel in Sicherungsdateinamen an. Der Standardwert ist <code>U</code> (Unix-Zeitstempel). Verwendet <a>PHP-Datumsformatierung</a>. Unsichere Dateinamenzeichen werden bereinigt. Der Dateiname hat das Format <code>{forum}-[formatierter Zeitstempel].zip</code>.\n"
+      timestamp_help: "Geben Sie das Format für Zeitstempel in Sicherungsdateinamen an. Der Standardwert ist <code>U</code> (Unix-Zeitstempel). Verwendet <a>PHP-Datumsformatierung</a>. Unsichere Dateinamenzeichen werden bereinigt. Der Dateiname hat das Format <code>{forum}-[formatierter Zeitstempel].zip</code>.\n"
       timestamp_label: 'Format des Zeitstempels bei Dateinamen'
       title: '{adapter} konfigurieren'
     adapters:
@@ -142,15 +142,15 @@ datitisev-backup:
       sftp: SFTP
     create_button: 'Neuen Adapter hinzufügen'
     delete_button: Löschen
-    delete_confirmation: 'Möchtest du „{name}“ ({adapter}) wirklich löschen?'
+    delete_confirmation: 'Möchten Sie „{name}“ ({adapter}) wirklich löschen?'
     nav:
-      description: 'Speicher Kopien Deines Forums.'
+      description: 'Speichern Sie Kopien Ihres Forums.'
       label: Backup
     required-package-modal:
-      content: "Um diesen Treiber verwenden zu können, musst Du ein bestimmtes Paket installieren. Führe dazu den folgenden Composer-Befehl in deinem Flarum-Installationsverzeichnis aus: <code>composer require {package}</code>.\n"
+      content: "Um diesen Treiber verwenden zu können, müssen Sie ein bestimmtes Paket installieren. Führen Sie dazu den folgenden Composer-Befehl in Ihrem Flarum-Installationsverzeichnis aus: <code>composer require {package}</code>.\n"
       title: 'Für {adapter} wird ein Paket benötigt'
     required_package_button: Einrichten
     settings:
-      database_bin_path_help: "Wenn sich die Binärdateien deiner Datenbank (z. B. mysqldump, pg_dump) nicht im PATH deines Systems befinden, kannst du hier das Verzeichnis angeben, in dem sie sich befinden. Achte darauf, den abschließenden Schrägstrich anzugeben (z. B. <code>/usr/local/mysql/bin/</code>).\n"
+      database_bin_path_help: "Wenn sich die Binärdateien Ihrer Datenbank (z. B. mysqldump, pg_dump) nicht im PATH Ihres Systems befinden, können Sie hier das Verzeichnis angeben, in dem sie sich befinden. Achten Sie darauf, den abschließenden Schrägstrich anzugeben (z. B. <code>/usr/local/mysql/bin/</code>).\n"
       database_bin_path_label: '(Optional) Pfad zu den Datenbank-Binärdateien'
     settings_button: Konfigurieren

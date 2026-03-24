@@ -38,7 +38,7 @@ datitisev-backup:
           description: 'Region Deines Buckets.'
           label: Region
         version:
-          description: 'Gebe eine Version an oder lasse das Feld für latest leer.'
+          description: 'Gib eine Version an oder lasse das Feld für die neueste leer.'
           label: Version
       azure:
         container:
@@ -103,11 +103,11 @@ datitisev-backup:
           test_button: 'Verbindung testen'
           test_success_alert: 'Erfolgreich mit Google Drive verbunden! Speichere die Änderungen, um die Einstellungen zu übernehmen.'
         refresh-token:
-          description: "Folgen Sie den Anweisungen @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md, um das Aktualisierungstoken für Ihre Google oAuth-App abzurufen.\n"
+          description: "Folge den Anweisungen @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md, um das Aktualisierungstoken für deine Google oAuth-App abzurufen.\n"
           label: 'Token aktualisieren'
       local:
         target:
-          description: 'Gebe das lokale Verzeichnis an, in dem Backups gespeichert werden sollen.'
+          description: 'Gib das lokale Verzeichnis an, in dem Backups gespeichert werden sollen.'
           label: Zielpfad
       name_label: Standortname
       sftp:
