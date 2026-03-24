@@ -13,10 +13,13 @@ CHANGELOG
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
 * [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello)
+* [`blt950/oauth-generic`](https://github.com/blt950/flarum-ext-oauth-generic)
 * [`cccyun/flarum-clogin-oauth`](https://github.com/netcccyun/flarum-clogin-oauth)
 * [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed)
 * [`clarkwinkelmann/flarum-ext-sudo-mode`](https://github.com/clarkwinkelmann/flarum-ext-sudo-mode)
 * [`clarkwinkelmann/flarum-ext-vote-with-money`](https://github.com/clarkwinkelmann/flarum-ext-vote-with-money)
+* [`dalez/flarum-msemoji`](https://github.com/zDaleZ/flarum-msemoji)
+* [`dalez/flarum-twemoji`](https://github.com/zDaleZ/flarum-twemoji)
 * [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content)
 * [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
 * [`datlechin/flarum-more-discussions`](https://github.com/datlechin/flarum-more-discussions)
@@ -27,10 +30,13 @@ CHANGELOG
 * [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
 * [`forumaker/magicslider`](https://github.com/forumaker/magicslider)
 * [`huoxin/relative-url`](https://github.com/huoxin233/flarum-ext-relative-url)
+* [`huseyinfiliz/guest`](https://github.com/huseyinfiliz/guest)
 * [`import-ai/flarum-webhook-notification`](https://github.com/import-ai/flarum-webhook-notification)
 * [`import-ai/flarum-webhook`](https://github.com/import-ai/flarum-webhook)
 * [`litalino/flarum-related-discussions`](https://github.com/Litalino/flarum-related-discussions)
 * [`ralkage/flarum-ext-civility-filter`](https://github.com/Ralkage/flarum-ext-civility-filter)
+* [`ralkage/flarum-ext-linked-accounts`](https://github.com/Ralkage/flarum-ext-linked-accounts)
+* [`ralkage/flarum-ext-profile-messages`](https://github.com/Ralkage/flarum-ext-profile-messages)
 * [`ralkage/flarum-ext-word-censor`](https://github.com/Ralkage/flarum-ext-word-censor)
 * [`resofire/blog-cards`](https://github.com/ResofireV2/blog-cards)
 * [`resofire/discussion-participants`](https://github.com/ResofireV2/discussion-participants)
@@ -51,11 +57,13 @@ CHANGELOG
 * [`flarum/nicknames`](https://github.com/flarum/nicknames)
 * [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
 * [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed)
+* [`foskym/flarum-better-user-directory`](https://github.com/FoskyM/flarum-better-user-directory)
 * [`glowingblue/redis-setup`](https://github.com/glowingblue/flarum-ext-redis-setup)
 * [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards)
 * [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
 * [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
 
 
 Alle Änderungen: [1.25.10...1.25.11](https://github.com/flarum-lang/german/compare/1.25.10...1.25.11).
