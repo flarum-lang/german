@@ -20,9 +20,13 @@ datlechin-keyboard-shortcuts:
       follow: 'Folgen / Nicht mehr folgen'
       help: Hilfe
       last_post: 'Letzter Beitrag'
+      login: Anmelden
       mark_all_as_read: 'Alle als gelesen markieren'
       new_discussion: 'Neue Diskussion'
       notifications: Benachrichtigungen
+      pin_nav: 'Navigation anheften'
       refresh: Aktualisieren
       reply: Antworten
       search: Suche
+      session: Benutzermenü
+      signup: Registrieren
