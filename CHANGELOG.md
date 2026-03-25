@@ -12,6 +12,7 @@ CHANGELOG
 
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
+* [`blomstra/s3-assets`](https://github.com/blomstra/flarum-ext-s3-assets)
 * [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello)
 * [`blt950/oauth-generic`](https://github.com/blt950/flarum-ext-oauth-generic)
 * [`cccyun/flarum-clogin-oauth`](https://github.com/netcccyun/flarum-clogin-oauth)
@@ -44,6 +45,7 @@ CHANGELOG
 * [`resofire/blog-cards`](https://github.com/ResofireV2/blog-cards)
 * [`resofire/discussion-participants`](https://github.com/ResofireV2/discussion-participants)
 * [`resofire/menu-control`](https://github.com/ResofireV2/menu-control)
+* [`songnguxyz/oauth-mediawiki`](https://github.com/songnguxyz/flarum-ext-oauth-mediawiki)
 * [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
 * [`xrh0905/oauth-microsoft`](https://github.com/xrh0905/flarum-ext-oauth-microsoft)
 
