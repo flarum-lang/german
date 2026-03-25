@@ -8,6 +8,10 @@ datlechin-bbcode-hide-content:
       bypass_like_label: 'Like-Anforderung umgehen'
       bypass_reply_label: 'Antwort-Anforderung umgehen'
   forum:
+    composer:
+      hide_like_tooltip: 'Verbergen bis geliked wurde'
+      hide_login_tooltip: 'Vor Gästen verbergen'
+      hide_reply_tooltip: 'Verbergen bis geantwortet wurde'
     must_be_logged_in: 'Du musst angemeldet sein, um diesen Inhalt ansehen zu können.'
     must_liked: 'Du musst diesen Inhalt liken, um ihn ansehen zu können.'
     must_replied: 'Du musst auf diesen Inhalt antworten, um ihn ansehen zu können.'
