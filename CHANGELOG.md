@@ -45,6 +45,7 @@ CHANGELOG
 * [`resofire/discussion-participants`](https://github.com/ResofireV2/discussion-participants)
 * [`resofire/menu-control`](https://github.com/ResofireV2/menu-control)
 * [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
+* [`xrh0905/oauth-microsoft`](https://github.com/xrh0905/flarum-ext-oauth-microsoft)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
