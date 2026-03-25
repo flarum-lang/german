@@ -7,4 +7,14 @@ fof-oauth:
     settings:
       providers:
         spotify:
+          client_id_label: Client-ID
+          client_secret_label: Client-Secret
           description: 'Registriere dein Forum bei Spotify {link}.'
+  forum:
+    log_in:
+      with_spotify_button: '=> fof-oauth.forum.log_in.with_button'
+    providers:
+      spotify: '=> fof-oauth.lib.providers.spotify'
+  lib:
+    providers:
+      spotify: Spotify
