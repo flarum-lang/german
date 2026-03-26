@@ -19,6 +19,8 @@ resofire_blog_cards:
       fullWidth_label: 'Karten in voller Breite'
       onIndexPage_help: 'Wenn aktiviert, werden diese Karten auf der Seite der Diskussionsliste angezeigt.'
       onIndexPage_label: 'In der Diskussionsliste verwenden'
+      showParticipants_help: 'Wenn aktiviert, wird am unteren Rand jeder Karte eine Reihe von Teilnehmer-Avataren angezeigt.'
+      showParticipants_label: 'Teilnehmer-Avatare anzeigen'
       tagIds_help: 'Wähle Themen aus, für die Karten verwendet werden sollen. Wenn keine ausgewählt sind, werden die Karten auf allen Themen-Seiten verwendet.'
       tagIds_label: 'Auf Themen beschränken'
     tools_heading: Werkzeuge
