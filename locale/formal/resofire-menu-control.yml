@@ -5,7 +5,9 @@
 resofire-menu-control:
   admin:
     nav_order:
+      add_custom_link: 'Benutzerdefinierten Link hinzufügen'
       add_highlight: 'Dieses Element für Benutzer hervorheben'
+      custom_link_label: Linkbeschriftung
       description: 'Verwende die Pfeiltasten, um die Elemente der Seitenleiste auf der Startseite des Forums neu anzuordnen. Die Änderungen werden sofort nach dem Speichern wirksam.'
       flip_help: 'Wenn aktiviert, werden die Themen-Links oben in der Seitenleiste angezeigt und die Navigationselemente (Alle Diskussionen, Abonnierte usw.) erscheinen darunter.'
       flip_label: 'Navigation umkehren (Themen oberhalb der Menüpunkte anzeigen)'
@@ -15,6 +17,7 @@ resofire-menu-control:
       move_down: 'Nach unten'
       move_up: 'Nach oben'
       no_items: 'Es wurden noch keine Navigationselemente erkannt. Besuche zunächst die Startseite des Forums als Administrator, um diese Liste zu füllen.'
+      polls_note: 'Hinweis: Wenn „fof/polls“ installiert ist, können „fof-polls-showcase“ und ähnliche Einträge in dieser Liste erscheinen, auch wenn globale Umfragen deaktiviert sind. Verwende die Schaltfläche „×“, um sie dauerhaft zu entfernen.'
       remove_highlight: 'Hervorhebung entfernen'
       remove_item: 'Von Liste entfernen'
       save_button: 'Reihenfolge speichern'
