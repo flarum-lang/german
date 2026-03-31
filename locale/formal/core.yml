@@ -295,8 +295,8 @@ core:
       section_disabled_heading: Deaktiviert
       section_disabled_help: 'Diese Erweiterungen sind installiert, aber derzeit nicht aktiviert. Aktiviere sie über die jeweilige Einstellungsseite oder entferne sie, wenn sie nicht mehr benötigt werden.'
       section_suggested_empty: 'Keine Vorschläge.'
-      section_suggested_heading: Vorgeschlagen
-      section_suggested_help: 'Flarum-Erweiterungen können durch die Angabe weiterer Erweiterungen oder Pakete optionale Zusatzfunktionen hinzufügen. Diese können zusätzliche Funktionen oder Integrationen ergänzen.'
+      section_suggested_heading: 'Vorschläge für Erweiterungen'
+      section_suggested_help: 'Flarum-Erweiterungen können durch das Hinzufügen weiterer Erweiterungen oder Pakete optionale Zusatzfunktionen erhalten. Diese können zusätzliche Funktionen oder Integrationen ergänzen.'
       suggested_by: 'Vorgeschlagen von {extension}'
       title: 'Status der Erweiterungen'
     header:

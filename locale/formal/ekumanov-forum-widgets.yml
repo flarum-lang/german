@@ -23,6 +23,10 @@ ekumanov-forum-widgets:
       section_statistics: Forum-Statistiken
       show_online_users: 'Online-Benutzer anzeigen'
       show_online_users_help: 'Aktiviere oder deaktiviere die Funktion „Online-Benutzer“ vollständig. Bei Deaktivierung werden keine Daten zu Online-Benutzern erfasst oder angezeigt.'
+      widget_layout: Widget-Layout
+      widget_layout_classic: 'Seitenleiste (Klassisch)'
+      widget_layout_full_width: 'Volle Breite (oberhalb der Diskussionen)'
+      widget_layout_help: 'Klassisch: kompaktes Widget in der Seitenleiste. Volle Breite: einreihige Leiste oberhalb der Diskussionsliste.'
   forum:
     aria:
       collapse_details: 'Forumdetails verbergen'
@@ -36,12 +40,16 @@ ekumanov-forum-widgets:
       title: Online-Benutzer
     stats:
       discussions_count: 'Diskussionen: {count}'
+      label_discussions: '{count, plural, one {Diskussion} other {Diskussionen}}'
+      label_online: '{count, plural, one {Benutzer online} other {Benutzer online}}'
+      label_posts: '{count, plural, one {Beitrag} other {Beiträge}}'
+      label_users: '{count, plural, one {Benutzer} other {Benutzer}}'
       latest_registration: 'Neueste Registrierung:'
       posts_count: 'Beiträge: {count}'
       title: Forum-Statistiken
       tooltip_discussions: Diskussionen
       tooltip_latest_registration: 'Neueste Registrierung: {name}'
-      tooltip_online: Online-Benutzer
+      tooltip_online: 'Benutzer online'
       tooltip_posts: Beiträge
       tooltip_users: Benutzer
       users_count: 'Benutzer: {count}'
