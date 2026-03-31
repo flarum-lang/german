@@ -11,6 +11,14 @@ ekumanov-forum-widgets:
       view_posts_count: 'Anzahl der Beiträge ansehen'
       view_users_count: 'Anzahl der Benutzer ansehen'
     settings:
+      bar_position_above: 'Oberhalb der Symbolleiste'
+      bar_position_below: 'Unterhalb der Symbolleiste'
+      bar_position_desktop: 'Leistenposition (Desktop)'
+      bar_position_desktop_help: 'Wo die Statistikleiste auf dem Desktop im Verhältnis zur Symbolleiste platziert werden soll. Gilt nur für das Layout in voller Breite.'
+      bar_position_inside: 'Innerhalb der Symbolleiste'
+      bar_position_mobile: 'Leistenposition (Mobil)'
+      bar_position_mobile_help: 'Wo die Statistikleiste auf der Mobilseite im Verhältnis zur Symbolleiste platziert werden soll.'
+      ignore_private_discussions: 'Private Diskussionen bei der Zählung ignorieren'
       last_seen_interval: 'Intervall für „zuletzt gesehen“ (Minuten)'
       last_seen_interval_help: 'Wie viele Minuten seit der letzten Aktivität vergangen sein müssen, damit ein Nutzer immer noch als online gilt.'
       max_online_users: 'Maximale Anzahl der anzuzeigenden Online-Benutzer'
@@ -18,15 +26,25 @@ ekumanov-forum-widgets:
       max_online_users_privileged: 'Maximale Anzahl der anzuzeigenden Online-Nutzer (für Benutzer mit Sonderrechten)'
       max_online_users_privileged_help: 'Maximale Anzahl der angezeigten Avatare für privilegierte Benutzer (d. h. Benutzer mit der Berechtigung „Letzte Sichtungszeit des Benutzers immer anzeigen“ – in der Regel Administratoren und Moderatoren). Da dieser Cache von weniger Benutzern genutzt wird, kann er problemlos mehr Einträge enthalten. Empfehlung: 30–50.'
       online_users_cache_ttl: 'Cache-Dauer für Online-Benutzer (Sekunden)'
+      online_users_cache_ttl_help: 'Wie lange soll die Liste der Online-Benutzer zwischengespeichert werden? Es werden zwei separate Caches geführt: einer für privilegierte Benutzer (diejenigen mit der Berechtigung „Letzte Sichtungszeit des Benutzers immer anzeigen“, die auch versteckte Benutzer sehen können) und einer für normale Benutzer. Jeder Cache unterliegt seiner eigenen maximalen Anzeigegrenze.'
       section_online_users: Online-Benutzer
       section_online_users_help: 'Konfiguriere die Anzeige der Online-Benutzer im aufgeklappten Widget-Bereich.'
       section_statistics: Forum-Statistiken
+      section_statistics_help: 'Konfiguriere das Caching für die Anzahl der Diskussionen, die Anzahl der Beiträge, die Gesamtzahl der Benutzer und die Statistiken zu den neuesten Registrierungen.'
+      show_discussions_count: 'Anzahl der Diskussionen anzeigen'
+      show_latest_registration: 'Neueste Registrierung anzeigen'
       show_online_users: 'Online-Benutzer anzeigen'
-      show_online_users_help: 'Aktiviere oder deaktiviere die Funktion „Online-Benutzer“ vollständig. Bei Deaktivierung werden keine Daten zu Online-Benutzern erfasst oder angezeigt.'
+      show_online_users_help: 'Aktiviere oder deaktiviere die Funktion „Online-Benutzer“ vollständig. Wenn deaktiviert, werden keine Abfragen nach Online-Benutzern ausgeführt.'
+      show_posts_count: 'Anzahl der Beiträge anzeigen'
+      show_users_count: 'Anzahl der Benutzer anzeigen'
+      stats_cache_duration: 'Speicherdauer des Statistik-Caches (Sekunden)'
+      stats_cache_duration_help: 'Wie lange sollen die Anzahl der Diskussionen, die Anzahl der Beiträge, die Gesamtzahl der Benutzer und die letzte Registrierung zwischengespeichert werden? Der Cache wird automatisch ungültig, wenn Diskussionen, Beiträge oder Benutzer erstellt oder gelöscht werden. Setze den Wert auf 0, um die Zwischenspeicherung zu deaktivieren (für große Foren nicht empfohlen).'
       widget_layout: Widget-Layout
       widget_layout_classic: 'Seitenleiste (Klassisch)'
       widget_layout_full_width: 'Volle Breite (oberhalb der Diskussionen)'
       widget_layout_help: 'Klassisch: kompaktes Widget in der Seitenleiste. Volle Breite: einreihige Leiste oberhalb der Diskussionsliste.'
+      widget_position: 'Position des Widgets in der Seitenleiste (Priorität)'
+      widget_position_help: 'Legt fest, wo das Widget in der Seitenleiste angezeigt wird. Je niedriger (je negativer) der Wert, desto weiter unten wird es platziert. Standardwert: -10. Gilt nur für das Seitenleisten-Layout.'
   forum:
     aria:
       collapse_details: 'Forumdetails verbergen'

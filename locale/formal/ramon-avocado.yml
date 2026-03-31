@@ -5,11 +5,22 @@
 ramon-avocado:
   admin:
     settings:
+      auth_image_help: 'Hintergrundbild, das im rechten Bereich der Modalfenster für Anmeldung, Registrierung und Passwort vergessen angezeigt wird.'
+      auth_image_label: 'Bild im Anmeldefenster'
       banner_image_help: 'Lade das Bannerbild hoch, das oben im Forum angezeigt wird.'
       banner_image_label: Bannerbild
+      featured_tags_empty: 'Keine Themen gefunden.'
       featured_tags_help: 'Ausgewählte Kategorien werden auf der Startseite und der Kategorieseite mit einem Sternsymbol hervorgehoben.'
       featured_tags_label: 'Hervorgehobene Kategorien'
       fixed_avatar_effect_help: 'Avatar des Beitragsautors beim Scrollen bei längeren Beiträgen auf Desktop am oberen Rand fixieren.'
       fixed_avatar_effect_label: 'Fixierte Avatare aktivieren'
+      hero_image_position_help: 'CSS-Wert für „background-position“, z. B. „center top“ oder „50% 20%“.'
+      hero_image_position_label: 'Position des Titelbildes'
+      search_v1_help: 'Zeige das Dropdown-Menü für die Inline-Suche anstelle des V2-Modals an.'
+      search_v1_label: 'Suchleistenstil „V1“ aktivieren'
+      section_auth: 'Anmeldung und Registrierung'
       section_homepage: Homepage
       section_posts: Beiträge
+      section_search: Suche
+      show_auth_buttons_help: 'Zeige für Gäste die Schaltflächen „Anmelden“ und „Registrieren“ in der sekundären Kopfzeilen-Navigation an.'
+      show_auth_buttons_label: 'Anmelde- und Registrierungsschaltflächen in der Kopfzeile für Gäste anzeigen'
