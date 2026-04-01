@@ -16,11 +16,20 @@ ramon-avocado:
       fixed_avatar_effect_label: 'Fixierte Avatare aktivieren'
       hero_image_position_help: 'CSS-Wert für „background-position“, z. B. „center top“ oder „50% 20%“.'
       hero_image_position_label: 'Position des Titelbildes'
+      logo_enabled_help: 'Das benutzerdefinierte Logo in der Kopfzeile anzeigen.'
+      logo_enabled_label: 'Benutzerdefiniertes Logo aktivieren'
+      logo_svg_help: 'Lade ein benutzerdefiniertes SVG-Logo für dein Forum hoch.'
+      logo_svg_label: SVG-Logo
       search_v1_help: 'Zeige das Dropdown-Menü für die Inline-Suche anstelle des V2-Modals an.'
       search_v1_label: 'Suchleistenstil „V1“ aktivieren'
       section_auth: 'Anmeldung und Registrierung'
       section_homepage: Homepage
+      section_logo: Logo
       section_posts: Beiträge
       section_search: Suche
+      show_action_icons_help: 'Zeige Font Awesome-Symbole auf den Aktionsschaltflächen „Gefällt mir“ und „Antworten“ an.'
+      show_action_icons_label: 'Symbole auf den Schaltflächen „Gefällt mir“ und „Antworten“ anzeigen'
       show_auth_buttons_help: 'Zeige für Gäste die Schaltflächen „Anmelden“ und „Registrieren“ in der sekundären Kopfzeilen-Navigation an.'
       show_auth_buttons_label: 'Anmelde- und Registrierungsschaltflächen in der Kopfzeile für Gäste anzeigen'
+      show_share_help: 'Füge zu jedem Beitrag eine Schaltfläche zum Teilen hinzu.'
+      show_share_label: 'Teilen-Knopf neben Beiträgen anzeigen'
