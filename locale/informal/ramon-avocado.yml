@@ -12,11 +12,18 @@ ramon-avocado:
       footer_company_name: Unternehmensname
       footer_copyright_text: Urheberrechtshinweis
       footer_enabled: 'Benutzerdefinierte Fußzeile aktivieren'
+      footer_footer_bottom: 'Fußzeile unten'
+      footer_links_config: 'Konfiguration der Fußzeilenlinks'
+      footer_links_help_json: 'Konfiguriere die Spalten für die Fußzeilenlinks im JSON-Format. Jede Spalte sollte einen Titel und eine Liste von Links mit Bezeichnung und URL enthalten.'
+      footer_show_social: 'Social-Media-Links anzeigen'
+      footer_social: Social-Media-Links
+      footer_social_help_json: 'Konfiguriere Social-Media-Links im JSON-Format. Verwende folgende Schlüssel: facebook, twitter, linkedin, instagram, youtube.'
     settings:
       auth_image_help: 'Hintergrundbild, das im rechten Bereich der Modalfenster für Anmeldung, Registrierung und Passwort vergessen angezeigt wird.'
       auth_image_label: 'Bild im Anmeldefenster'
       banner_image_help: 'Lade das Bannerbild hoch, das oben im Forum angezeigt wird.'
       banner_image_label: Bannerbild
+      custom_default_avatar_help: 'Lade ein benutzerdefiniertes Standard-Avatarbild für Benutzer hoch, die keinen Avatar haben.'
       custom_default_avatar_label: 'Benutzerdefinierter Standard-Avatar'
       featured_tags_empty: 'Keine Themen gefunden.'
       featured_tags_help: 'Ausgewählte Kategorien werden auf der Startseite und der Kategorieseite mit einem Sternsymbol hervorgehoben.'
@@ -41,6 +48,8 @@ ramon-avocado:
       show_action_icons_label: 'Symbole auf den Schaltflächen „Gefällt mir“ und „Antworten“ anzeigen'
       show_auth_buttons_help: 'Zeige für Gäste die Schaltflächen „Anmelden“ und „Registrieren“ in der sekundären Kopfzeilen-Navigation an.'
       show_auth_buttons_label: 'Anmelde- und Registrierungsschaltflächen in der Kopfzeile für Gäste anzeigen'
+      show_guest_cta_help: 'Zeige Gästen einen Call-to-Action an.'
+      show_guest_cta_label: 'Call-to-Action für Gäste anzeigen'
       show_online_users_help: 'Zeige die Anzahl der derzeit online befindlichen Benutzer an.'
       show_online_users_label: 'Anzahl der Online-Nutzer anzeigen'
       show_share_help: 'Füge zu jedem Beitrag eine Schaltfläche zum Teilen hinzu.'
@@ -50,3 +59,7 @@ ramon-avocado:
       share: Teilen
     home:
       all_categories: 'Alle Kategorien'
+      all_title: 'Alle Diskussionen'
+      back_home: Startseite
+      categories_heading: Kategorien
+      choose_tags: 'Themen wählen'
