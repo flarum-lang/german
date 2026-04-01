@@ -4,11 +4,20 @@
 
 ramon-avocado:
   admin:
+    footer_settings:
+      footer_company: Unternehmensinformationen
+      footer_company_description: Unternehmensbeschreibung
+      footer_company_description_placeholder: 'Eine kurze Beschreibung deines Unternehmens oder Forums...'
+      footer_company_logo_url: 'URL des Unternehmenslogos'
+      footer_company_name: Unternehmensname
+      footer_copyright_text: Urheberrechtshinweis
+      footer_enabled: 'Benutzerdefinierte Fußzeile aktivieren'
     settings:
       auth_image_help: 'Hintergrundbild, das im rechten Bereich der Modalfenster für Anmeldung, Registrierung und Passwort vergessen angezeigt wird.'
       auth_image_label: 'Bild im Anmeldefenster'
       banner_image_help: 'Lade das Bannerbild hoch, das oben im Forum angezeigt wird.'
       banner_image_label: Bannerbild
+      custom_default_avatar_label: 'Benutzerdefinierter Standard-Avatar'
       featured_tags_empty: 'Keine Themen gefunden.'
       featured_tags_help: 'Ausgewählte Kategorien werden auf der Startseite und der Kategorieseite mit einem Sternsymbol hervorgehoben.'
       featured_tags_label: 'Hervorgehobene Kategorien'
@@ -23,6 +32,7 @@ ramon-avocado:
       search_v1_help: 'Zeige das Dropdown-Menü für die Inline-Suche anstelle des V2-Modals an.'
       search_v1_label: 'Suchleistenstil „V1“ aktivieren'
       section_auth: 'Anmeldung und Registrierung'
+      section_footer: Fußzeile
       section_homepage: Homepage
       section_logo: Logo
       section_posts: Beiträge
@@ -31,5 +41,12 @@ ramon-avocado:
       show_action_icons_label: 'Symbole auf den Schaltflächen „Gefällt mir“ und „Antworten“ anzeigen'
       show_auth_buttons_help: 'Zeige für Gäste die Schaltflächen „Anmelden“ und „Registrieren“ in der sekundären Kopfzeilen-Navigation an.'
       show_auth_buttons_label: 'Anmelde- und Registrierungsschaltflächen in der Kopfzeile für Gäste anzeigen'
+      show_online_users_help: 'Zeige die Anzahl der derzeit online befindlichen Benutzer an.'
+      show_online_users_label: 'Anzahl der Online-Nutzer anzeigen'
       show_share_help: 'Füge zu jedem Beitrag eine Schaltfläche zum Teilen hinzu.'
       show_share_label: 'Teilen-Knopf neben Beiträgen anzeigen'
+  forum:
+    actions:
+      share: Teilen
+    home:
+      all_categories: 'Alle Kategorien'
