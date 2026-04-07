@@ -2,6 +2,35 @@ CHANGELOG
 =========
 
 
+1.25.12 (XXXX-XX-XX)
+--------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`blomstra/web3`](https://github.com/blomstra/flarum-ext-web3)
+* [`club-1/flarum-ext-server-side-highlight`](https://github.com/club-1/flarum-ext-server-side-highlight)
+* [`dalez/flarum-identityagent`](https://github.com/zDaleZ/flarum-identityagent)
+* [`danirod/flarum-plausible`](https://github.com/danirod/flarum-plausible)
+* [`datitisev/flarum-webhooks-pro`](https://flarum.org/extension/datitisev/flarum-webhooks-pro)
+* [`datlechin/flarum-cbox`](https://github.com/datlechin/flarum-cbox)
+* [`davwheat/virtual-authors`](https://flarum.org/extension/davwheat/virtual-authors)
+* [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
+* [`forumaker/magicread`](https://github.com/forumaker/magicread)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue)
+* [`clarkwinkelmann/flarum-ext-discussion-open-position`](https://github.com/clarkwinkelmann/flarum-ext-discussion-open-position)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+
+
+Alle Änderungen: [1.25.11...1.25.12](https://github.com/flarum-lang/german/compare/1.25.11...1.25.12).
+
+
 1.25.11 (2026-04-06)
 --------------------
 
