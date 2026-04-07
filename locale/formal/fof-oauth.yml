@@ -16,7 +16,7 @@ fof-oauth:
       disable_avatars_label: 'Avatare dieses Anbieters deaktivieren'
       fullscreen_popup_help: 'Sofern aktiviert, wird das OAuth-Anmeldefenster im Vollbild geöffnet. Wenn es aktiviert ist, werden die Einstellungen für Breite und Höhe ignoriert.'
       fullscreen_popup_label: 'OAuth-Popup im Vollbild öffnen'
-      only_icons_label: 'Zeige nur die Symbole ohne Text auf den Einloggen-Buttons (alternatives Layout)'
+      only_icons_label: 'Nur die Symbole ohne Text auf den Einloggen-Buttons (alternatives Layout) anzeigen'
       popup_height_help: 'Legt die Höhe des OAuth-Popupfensters fest. Diese Einstellung wird ignoriert, wenn "OAuth-Popup im Vollbild öffnen" aktiviert ist.'
       popup_height_label: 'Höhe des OAuth-Popupfensters'
       popup_width_help: 'Legt die Breite des OAuth-Popupfensters fest. Diese Einstellung wird ignoriert, wenn "OAuth-Popup im Vollbild öffnen" aktiviert ist.'

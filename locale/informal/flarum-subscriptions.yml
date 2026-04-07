@@ -26,7 +26,7 @@ flarum-subscriptions:
       new_post_text: '{username} hat geschrieben'
     settings:
       follow_after_create_label: 'Diskussionen, die ich erstelle, automatisch folgen'
-      follow_after_reply_label: 'Diskussionen automatisch folgen, an denen du teilgenommen hast'
+      follow_after_reply_label: 'Diskussionen automatisch folgen, an denen ich teilgenommen habe'
       notify_for_all_posts_label: 'Benachrichtige über jeden neuen Beitrag und nicht nur über den letzten in einer Diskussion'
       notify_new_post_label: 'Jemand hat in einer Diskussion geantwortet, der du folgst'
     sub_controls:
