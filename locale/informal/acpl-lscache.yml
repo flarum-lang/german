@@ -6,23 +6,23 @@ acpl-lscache:
   admin:
     cache_enabled_help: 'Auf der <a>Informationsseite</a> erfährst du, wie du den Cache testen kannst. HINWEIS: Wenn du den Cache deaktivierst, werden alle zwischengespeicherten Einträge für diese Seite gelöscht.'
     cache_enabled_label: 'LSCache einschalten'
-    cache_exclude_help: 'Pfade, die diese Zeichenfolgen enthalten, werden nicht zwischengespeichert. Für <code>/mypath/mypage?aa=bb</code> kann hier beispielsweise <code>mypage?aa=</code> verwendet werden. Um den Anfang abzugleichen, füge <code>^</code> am Anfang des Elements hinzu. Um eine genaue Übereinstimmung zu erzielen, füge <code>$</code> am Ende der URL hinzu. Eine pro Zeile.'
+    cache_exclude_help: 'Pfade, die diese Zeichenfolgen enthalten, werden nicht zwischengespeichert. Für <code>/mypath/mypage?aa=bb</code> können Sie <code>mypage?aa=</code> verwenden. Um den Anfang abzugleichen, füge am Anfang <code>^</code> hinzu. Für eine exakte Übereinstimmung füge am Ende der URL <code>$</code> hinzu. Eine pro Zeile.'
     cache_exclude_label: 'Pfade nicht zwischenspeichern'
-    clearing_cache_listener_label: 'LSCache löschen, wenn der Flarum-Cache geleert wird'
+    clearing_cache_listener_label: 'LSCache löschen, wenn der Flarum-Cache geleert ist'
     drop_qs_help: "Verwenden Sie diese Funktion, um bestimmte Abfrageparameter wie <code>fbclid</code> oder <code>utm*</code> beim Caching zu entfernen. Dadurch wird das redundante Caching von Seiten mit „unnötigen” Abfragezeichenfolgen wie UTM-Codes verhindert, die zwar für die Nachverfolgung verwendet werden, aber keinen Einfluss auf den Seiteninhalt haben. Hierfür ist LSWS v5.2.3 oder neuer erforderlich. Listen Sie die zu entfernenden Abfragezeichenfolgen auf, eine pro Zeile. <a>Erfahren Sie mehr über das Entfernen von Abfragezeichenfolgen</a>.<br></br>\n⚠️ Diese Einstellung ändert die Datei .htaccess.\n"
-    drop_qs_label: 'Abfrageparameter entfernen'
+    drop_qs_label: 'Abfragezeichenfolgen löschen'
     permissions:
       purge: '=> acpl-lscache.ref.purge_cache'
-    public_cache_ttl_help: 'Gib an, wie lange (in Sekunden) öffentliche Seiten zwischengespeichert werden sollen. Der Standardwert ist 604800 Sekunden (eine Woche).'
+    public_cache_ttl_help: 'Gebe an, wie lange (in Sekunden) öffentliche Seiten zwischengespeichert werden. Standard sind 604800 Sekunden (eine Woche).'
     public_cache_ttl_label: 'Öffentliche Standard-Cache-TTL'
     purge_all: '=> acpl-lscache.ref.purge_cache'
     purge_all_success: 'LiteSpeed Webserver benachrichtigt, um alle LSCache-Einträge zu löschen'
-    purge_on_discussion_update_help: 'Gib eine URL oder ein Tag pro Zeile an. URL sollte mit <code>/</code> beginnen, z.B. <code>/rankings</code> und Cache-Tag sollte mit <code>tag=</code> beginnen, z.B. <code>tag=rankings</code>. Diese Erweiterung markiert jede Route und wenn Du beispielsweise viele Routen hast, die Du löschen möchtest, ist es besser, eine Regel in .htaccess mit einem regulären Ausdruck hinzuzufügen, der die Routen markiert. Gib dann hier in den Einstellungen nur dieses Tag ein . Diese Methode wird viel schneller sein. <a>Weitere Informationen</a>. Standardmäßig wird der Cache für die Homepage sowie der Cache für die aktualisierten Diskussionen geleert.'
-    purge_on_discussion_update_label: 'URLs oder Tags löschen, wenn eine Diskussion oder eine Diskussion aktualisiert wird'
-    serve_stale_help: 'Wenn aktiviert, wird den Besuchern die veraltete Kopie einer im Cache gespeicherten Seite angezeigt, bis eine neue Cache-Kopie verfügbar ist. Reduziert die Serverlast für folgende Besuche. Wenn deaktiviert, wird die Seite dynamisch generiert, während die Besucher warten. Diese Option kann konstruktionsbedingt veraltete Inhalte bereitstellen. Aktiviere diese Option nicht, wenn dies für Dich nicht in Ordnung ist.'
+    purge_on_discussion_update_help: 'Gebe die URLs oder Cache-Tags ein, die du löschen möchten, wenn eine Diskussion aktualisiert wird, jeweils eine pro Zeile. Die URL sollte mit <code>/</code> beginnen, z. B. <code>/rankings</code>, und das Cache-Tag sollte mit <code>tag=</code> beginnen, z. B. <code>tag=rankings</code>. Bei mehreren Routen ist es schneller, eine Regel in .htaccess mit einem regulären Ausdruck hinzuzufügen, der Routen markiert, und hier nur dieses Tag einzugeben. <a>Weitere Informationen</a>. Standardmäßig wird der Cache für die Startseite und aktualisierte Diskussionen gelöscht.'
+    purge_on_discussion_update_label: 'URLs/Tags löschen, wenn Diskussion/en oder ein Beitrag/Beiträge aktualisiert werden'
+    serve_stale_help: 'Wenn diese Option aktiviert ist, wird Besuchern eine veraltete Version einer zwischengespeicherten Seite angezeigt, bis eine neue Cache-Kopie erstellt wird. Dadurch wird die Serverlast reduziert. Wenn diese Option deaktiviert ist, wird die Seite während der Cache-Aktualisierung dynamisch generiert, was zu längeren Wartezeiten führen kann. Diese Option kann grundsätzlich veraltete Inhalte anzeigen. Bitte aktivieren Sie diese Option nicht, wenn Sie dies für inakzeptabel halten.'
     serve_stale_label: 'Veraltete Inhalte bereitstellen'
     status_codes_cache_help: 'Gib einen HTTP-Statuscode und die Anzahl der Sekunden an, für die diese Seite zwischengespeichert werden soll. Verwende ein Leerzeichen als Trennzeichen. Ein Eintrag pro Zeile.'
-    status_codes_cache_label: 'TTL für Standard-HTTP-Statuscode-Seite'
+    status_codes_cache_label: 'Standard-HTTP-Statuscode-Seite TTL'
     test_failed_alert: 'Es sieht so aus, als würde dein Server LSCache nicht unterstützen. Überprüfe deine Serverkonfiguration. Erkannter Server: <b>{server}</b>, erkannter LiteSpeed-Typ: <b>{type}</b>.'
   forum:
     purge:

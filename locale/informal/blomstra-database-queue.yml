@@ -5,4 +5,4 @@
 blomstra-database-queue:
   admin:
     settings:
-      backoff_label: Zurückstellen
+      backoff_label: Backoff
