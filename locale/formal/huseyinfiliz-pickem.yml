@@ -19,6 +19,13 @@ huseyinfiliz-pickem:
       team: Team
       vs: gegen
       week: Woche
+    form:
+      end_date: Enddatum
+      logo_url: Logo-URL
+      name: Name
+      slug: Slug
+      start_date: Startdatum
+      week_number: Wochennummer
     headers:
       accuracy: Genauigkeit
       correct: Korrekt
@@ -30,6 +37,7 @@ huseyinfiliz-pickem:
       rank: Rang
       slug: Slug
       total: Insgesamt
+      week_number: Wochennummer
     nav:
       leaderboard: Rangliste
       matches: Spiele
