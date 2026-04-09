@@ -16,7 +16,9 @@ CHANGELOG
 * [`davwheat/virtual-authors`](https://flarum.org/extension/davwheat/virtual-authors)
 * [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
 * [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist)
+* [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats)
 * [`forumaker/magicread`](https://github.com/forumaker/magicread)
+* [`huseyinfiliz/pickem`](https://github.com/huseyinfiliz/pickem)
 * [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar)
 
 
@@ -26,6 +28,7 @@ CHANGELOG
 * [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue)
 * [`clarkwinkelmann/flarum-ext-discussion-open-position`](https://github.com/clarkwinkelmann/flarum-ext-discussion-open-position)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
 * [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover)
 * [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
