@@ -19,6 +19,17 @@ huseyinfiliz-pickem:
       team: Team
       vs: gegen
       week: Woche
+    headers:
+      accuracy: Genauigkeit
+      correct: Korrekt
+      cutoff_date: Anmeldeschluss
+      logo: Logo
+      match_date: Spieldatum
+      name: Name
+      player: Spieler
+      rank: Rang
+      slug: Slug
+      total: Insgesamt
     nav:
       leaderboard: Rangliste
       matches: Spiele
@@ -29,4 +40,9 @@ huseyinfiliz-pickem:
       teams: Teams
       weeks: Wochen
     status:
+      closed: Geschlossen
+      correct: Korrekt
+      finished: Abgeschlossen
+      incorrect: Falsch
+      pending: Ausstehend
       scheduled: Geplant
