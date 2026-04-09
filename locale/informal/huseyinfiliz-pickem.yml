@@ -4,6 +4,17 @@
 
 huseyinfiliz-pickem:
   lib:
+    actions:
+      create: Erstellen
+      edit: Bearbeiten
+      enter_result: 'Ergebnis eingeben'
+    buttons:
+      cancel: Abbrechen
+      create: Erstellen
+      delete: Löschen
+      edit: Bearbeiten
+      load_more: 'Mehr laden'
+      save: Speichern
     common:
       away: Auswärts
       date: Datum
@@ -19,10 +30,17 @@ huseyinfiliz-pickem:
       team: Team
       vs: gegen
       week: Woche
+    filters:
+      all: Alle
     form:
+      away_team: Gästemannschaft
       end_date: Enddatum
+      home_team: Heimmannschaft
       logo_url: Logo-URL
       name: Name
+      select_season: 'Saison wählen'
+      select_team: 'Mannschaft wählen'
+      select_week: 'Woche wählen'
       slug: Slug
       start_date: Startdatum
       week_number: Wochennummer
