@@ -5,6 +5,9 @@
 vlssu-flarum-cravatar:
   admin:
     settings:
+      allow-user-toggle:
+        helptext: 'Wenn aktiviert, können Benutzer wählen, ob sie ihr Cravatar-Bild oder den im Forum hochgeladenen Avatar verwenden möchten.'
+        title: 'Benutzern erlauben, zwischen Cravatar und hochgeladenen Avataren zu wechseln'
       defaults:
         helptext: 'Was passiert, wenn für eine E-Mail-Adresse kein passendes Cravatar-Bild vorhanden ist? Cravatar verfügt über eine Reihe integrierter Optionen, die als Standardwerte verwenden können. Die meisten davon funktionieren so, dass sie den Hash der angeforderten E-Mail-Adresse verwenden, um ein themenbezogenes Bild zu generieren, das für diese E-Mail-Adresse einzigartig ist.'
         identicon_label: 'identicon: ein geometrisches Muster, das auf dem E-Mail-Hash basiert'
@@ -12,9 +15,14 @@ vlssu-flarum-cravatar:
         mp_label: 'mp: (mystery-person) eine einfache, im Cartoon-Stil gezeichnete Silhouette einer Person (ändert sich nicht je nach E-Mail-Hash)'
         retro_label: 'retro: Tolle generierte, pixelige Gesichter im 8-Bit-Arcade-Stil'
         robohash_label: 'robohash: ein generierter Roboter mit verschiedenen Farben, Gesichtern usw.'
+        title: Standardwerte
         wavatar_label: 'wavatar: generierte Gesichter mit unterschiedlichen Gesichtszügen und Hintergründen'
       force-default:
+        helptext: 'Erzwingt die Verwendung eines Standard-Sets, auch wenn der E-Mail-Hash auf einen vom Benutzer hochgeladenen benutzerdefinierten Avatar verweist'
         title: 'Standardwert erzwingen'
+      proxy:
+        helptext: 'Standardmäßig werden Cravatar-URLs direkt von cravatar.cn abgerufen. Hiermit werden alle Cravatar-Anfragen direkt vom Forum selbst bedient.'
+        title: Proxy-Cravatare
       rating:
         g_label: 'g: geeignet für die Darstellung auf allen Websites mit jeder Art von Zielgruppe'
         helptext: 'Mit Cravatar können Nutzer ihre Bilder selbst bewerten, um anzugeben, ob ein Bild für ein bestimmtes Publikum geeignet ist. Standardmäßig werden nur Bilder mit der Bewertung „G“ angezeigt, es sei denn, du gibst an, dass du Bilder mit höheren Bewertungen sehen möchtest. Du kannst eine der folgenden Bewertungen auswählen, um Bilder bis einschließlich dieser Bewertung anzuzeigen.'
@@ -22,3 +30,11 @@ vlssu-flarum-cravatar:
         r_label: 'r: Kann Inhalte wie derbe Schimpfwörter, extreme Gewalt, Nacktszenen oder den Konsum harter Drogen enthalten'
         title: Einstufung
         x_label: 'x: Kann explizite sexuelle Darstellungen oder extrem verstörende Gewaltszenen enthalten'
+      replace-flarum-custom:
+        helptext: 'Die bereits im Forum hochgeladenen benutzerdefinierten Avatare durch einen Cravatar ersetzen'
+        title: 'Benutzerdefinierte Avatare im Forum ersetzen'
+  forum:
+    settings:
+      edit-cravatar: 'Avatar auf cravatar.cn verwalten'
+      use-cravatar: 'Cravatar-Avatar verwenden'
+      use-uploaded: 'Hochgeladenen Avatar verwenden'
