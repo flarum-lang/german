@@ -17,6 +17,7 @@ fof-masquerade:
       edit-field: 'Änderungen speichern'
     fields:
       add: 'Feld {field} hinzufügen'
+      delete-confirmation: 'Möchtest du das Feld {field} wirklich löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.'
       description: Feld-Beschreibung
       description-help: "Eine optionale Beschreibung, um die Verwendung/Notwendigkeit dieses Feldes zu erklären.\n"
       edit: 'Feld „{field}“ bearbeiten'
