@@ -6,3 +6,9 @@ fof-clockwork:
   admin:
     dashboard:
       button_label: 'Clockwork öffnen'
+      section_label: Clockwork
+    settings:
+      disable_auth_help: 'Wenn aktiviert, werden alle Anfragen protokolliert und der Clockwork-Viewer ist ohne Anmeldung zugänglich. Aktiviere diese Option nur vorübergehend zu Debugging-Zwecken.'
+      disable_auth_label: 'Authentifizierung deaktivieren'
+      disable_auth_warning: 'Warnung: Die Authentifizierung ist deaktiviert. Der Clockwork-Viewer und alle Profiling-Daten sind öffentlich zugänglich. Deaktiviere diese Option, sobald du mit der Fehlerbehebung fertig bist.'
+      section_label: Einstellungen
