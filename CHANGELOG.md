@@ -15,7 +15,9 @@ CHANGELOG
 * [`datlechin/flarum-cbox`](https://github.com/datlechin/flarum-cbox)
 * [`davwheat/virtual-authors`](https://flarum.org/extension/davwheat/virtual-authors)
 * [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
+* [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist)
 * [`forumaker/magicread`](https://github.com/forumaker/magicread)
+* [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
@@ -23,6 +25,7 @@ CHANGELOG
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
 * [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue)
 * [`clarkwinkelmann/flarum-ext-discussion-open-position`](https://github.com/clarkwinkelmann/flarum-ext-discussion-open-position)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
 * [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover)
 * [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
