@@ -22,8 +22,8 @@ fof-byobu:
       general:
         heading: 'Allgemeine Einstellungen'
         help: 'Diese Einstellungen betreffen die Grundfunktionen von byobu.'
-      hide_from_all_discussions_page: 'PDs von der Seite "Alle Diskussionen" ausblenden'
-      hide_from_all_discussions_page_help: 'Private Diskussionen sind nur über die Seite "Private Diskussionen" oder das Benutzerprofil zugänglich'
+      hide_from_all_discussions_page: 'PDs von der Seite „Alle Diskussionen“ ausblenden'
+      hide_from_all_discussions_page_help: 'Private Diskussionen sind nur über die Seite „Private Diskussionen“ oder das Benutzerprofil zugänglich'
       icon:
         heading: Symboleinstellungen
         help: 'Diese Einstellungen betreffen die Symbole, die von byobu im Forum verwendet werden.'
