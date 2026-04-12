@@ -5,17 +5,84 @@
 ianm-html-head:
   admin:
     create_button: Hinzufügen
+    help:
+      cache: 'Das gerenderte HTML wird beim Speichern zwischengespeichert. Änderungen werden sofort wirksam, ohne dass der gesamte Forum-Cache geleert werden muss.'
+      intro: 'Füge benutzerdefinierte Tags hinzu, die in den HTML-Code deines Forums eingebunden werden sollen. Die Elemente werden zwischengespeichert und effizient bereitgestellt – beim Laden der Seite sind keine Datenbankabfragen erforderlich.'
+      location: 'Elemente können am Kopf oder am Ende des Seiten-Bodys eingefügt werden.'
+      pages: 'Jeder Eintrag kann sich auf das Forum-Frontend, das Admin-Panel oder beides beziehen.'
+      preconnect: 'Für Link- und Script-Tags, die auf externe Quellen verweisen, werden automatisch „preconnect“- und „dns-prefetch“-Hinweise generiert, wodurch die Verbindung bereits aufgebaut wird, bevor der Browser sie benötigt.'
     modal:
-      create_title: 'Erstelle ein neues Element'
+      create_title: 'Erstelle ein Kopf-Element'
+      description_help: 'Eine Beschriftung zu deiner Orientierung – wird nicht in die Seite eingebunden.'
       description_label: Beschreibung
-      edit_title: 'Element bearbeiten'
+      edit_title: 'Kopf-Element bearbeiten'
       header_label: 'Benutzerdefiniertes Header-Element'
+      link:
+        as_help: 'Teilt dem Browser mit, um welche Art von Ressource es sich bei dem Vorladen handelt, damit er die richtigen Anforderungsheader setzen kann. Erforderlich für rel=preload.'
+        as_label: 'as=""'
+        crossorigin_help: 'Erforderlich für Schriftarten und Skripte, die von einer anderen Domain geladen werden, damit der Browser die Verbindung gemeinsam nutzen kann. Aktiviere diese Option, wenn die Ressource von einer anderen Quelle stammt.'
+        crossorigin_label: 'crossorigin="anonymous" hinzufügen'
+        extras_add: 'Attribut hinzufügen'
+        extras_label: 'Zusätzliche Attribute'
+        extras_remove: Entfernen
+        fetchpriority_default: Browser-Standard
+        fetchpriority_help: 'Hinweis für den Browser zur relativen Priorität dieser Ressource. high: früher laden (z. B. Hero-Bild oder wichtiges Stylesheet). low: später laden (z. B. Ressource unterhalb der Falz). Nicht festlegen, um den Browser selbst entscheiden zu lassen.'
+        fetchpriority_label: 'fetchpriority=""'
+        href_label: 'href="" (URL)'
+        rel_label: 'rel=""'
+      location:
+        foot: Fußzeile
+        head: Seitenkopf
+      location_help: 'Seitenkopf: Wird vor dem Rendern der Seite geladen, am besten geeignet für Stile und wichtige Metadaten. Fußzeile: Wird nach dem Seiteninhalt geladen, am besten geeignet für nicht kritische Skripte.'
+      location_label: 'Einbinden in'
+      meta:
+        content_label: Inhalt
+        name_label: 'name=""'
+        property_label: 'property="" (OpenGraph)'
+        variant_label: Variante
+      pages:
+        admin: Admin-Panel
+        forum: Forum
+      pages_label: 'Anwenden auf'
+      preview_empty: 'Fülle die obigen Felder aus, um eine Vorschau anzuzeigen.'
+      preview_label: Vorschau
+      raw:
+        content_label: HTML
+        help_text: 'Gib reinen HTML-Code ein. Für alle hier gefundenen Cross-Origin-Links oder Skript-Tags werden automatisch Preconnect-Hinweise generiert. Die Sortierreihenfolge und die Umschaltfunktion funktionieren wie gewohnt, aber typspezifische Funktionen (fetchpriority, defer usw.) sind nicht verfügbar – verwende einen strukturierten Typ, wenn diese benötigt werden.'
       save_button: Speichern
+      script:
+        async_help: 'Das Skript wird sofort nach dem Herunterladen ausgeführt, ohne dass die Reihenfolge beachtet wird. Am besten geeignet für eigenständige Skripte wie beispielsweise Analyse-Skripte.'
+        async_label: async
+        crossorigin_help: 'Erforderlich beim Laden von Skripten aus einer anderen Domain, die CORS-Zugriff benötigen.'
+        crossorigin_label: 'crossorigin="anonymous"'
+        defer_help: 'Das Skript wird ausgeführt, nachdem die Seite geladen wurde, ohne die Darstellung zu blockieren. Ideal für die meisten Skripte.'
+        defer_label: defer
+        external_label: 'Extern (src)'
+        inline_content_label: Script-Inhalt
+        inline_label: Inline
+        module_help: 'Aktiviere diese Option, wenn in der Dokumentation des Skriptanbieters die Verwendung von type="module" empfohlen wird. Module werden nach dem Laden der Seite geladen, ohne diese zu blockieren.'
+        module_label: 'type="module"'
+        src_label: 'src="" (URL)'
+      style:
+        inline_help: 'Wird global auf alle Seiten angewendet, auf die sich dieses Element bezieht. Halte die Regeln spezifisch, um unbeabsichtigte Nebenwirkungen zu vermeiden.'
+        inline_label: CSS-Inhalt
       text: 'Vergewissere dich, dass deine Syntax korrekt ist, da es möglich ist, das Forum zu beschädigen, wenn du falsche Daten im Kopfbereich angibst. Sobald du gespeichert hast, aktiviere dein neues Kopfzeilen-Element mit dem dafür vorgesehenen Kippschalter.'
+      type:
+        link: Link
+        meta: Meta-Tag
+        raw: 'Reines HTML'
+        script: Script
+        style: Stil
+      type_label: Typ
     table:
       active_label: Aktiv
       delete_button: Entfernen
+      delete_confirm: 'Möchtest du diesen Eintrag wirklich löschen?'
       description_label: Beschreibung
+      drag_handle: 'Zum Neuanordnen ziehen'
       edit_button: Bearbeiten
-      empty_text: 'Keine Einträge'
+      empty_text: 'Noch keine Einträge. Klicke auf „Erstellen“, um deinen ersten Eintrag hinzuzufügen.'
       header_label: Header-Element
+      location_label: Standort
+      pages_label: Seiten
+      type_label: Typ

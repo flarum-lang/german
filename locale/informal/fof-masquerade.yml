@@ -17,6 +17,7 @@ fof-masquerade:
       edit-field: 'Änderungen speichern'
     fields:
       add: 'Feld {field} hinzufügen'
+      create: 'Feld erstellen'
       delete-confirmation: 'Möchtest du das Feld {field} wirklich löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.'
       description: Feld-Beschreibung
       description-help: "Eine optionale Beschreibung, um die Verwendung/Notwendigkeit dieses Feldes zu erklären.\n"
@@ -61,3 +62,7 @@ fof-masquerade:
       select:
         none-optional: 'Keine Option ausgewählt (optional)'
         none-required: 'Bitte wähle eine Option (required)'
+  lib:
+    gambits:
+      answer:
+        key: antwort
