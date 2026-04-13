@@ -4,6 +4,33 @@
 
 tryhackx-advanced-pages:
   admin:
+    edit_page:
+      cancel_button: Abbrechen
+      content_label: Inhalt
+      content_type_label: Inhaltstyp
+      create_title: 'Seite erstellen'
+      delete_button: Löschen
+      delete_confirmation: 'Möchtest du diese Seite wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden.'
+      delete_title: 'Seite löschen'
+      discard_button: Verwerfen
+      edit_title: 'Seite bearbeiten'
+      is_hidden_label: 'Verborgen (nur für Administratoren sichtbar)'
+      is_published_label: Veröffentlicht
+      is_restricted_label: 'Eingeschränkt (Zugang erfordert Anmeldung)'
+      keep_editing_button: 'Weiter bearbeiten'
+      meta_description_label: 'Metabeschreibung (SEO)'
+      newline_flarum: 'Flarum (Standardversion – mehrere Zeilenumbrüche = ein Zeilenumbruch)'
+      newline_mode_label: Zeilenumbruch-Modus
+      preview: Vorschau
+      raw: Roh
+      slug_label: URL-Slug
+      submit_button: 'Seite speichern'
+      title_label: Titel
+      type_text: 'Nur Text'
+      unsaved_message: 'Es gibt ungespeicherte Änderungen. Möchtest du wirklich schließen, ohne zu speichern?'
+      unsaved_title: 'Ungespeicherte Änderungen'
+      visible_groups_help: 'Lasse alle Kontrollkästchen aktiviert, damit die Seite für alle sichtbar ist. Deaktiviere die Kontrollkästchen für Gruppen, um den Zugriff einzuschränken. Administratoren haben immer Zugriff.'
+      visible_groups_label: 'Für Gruppen sichtbar'
     pages:
       actions_column: Aktionen
       create_button: 'Seite erstellen'
@@ -21,11 +48,18 @@ tryhackx-advanced-pages:
       type_column: Art
     permissions:
       manage_pages_label: 'Erweiterte Seiten verwalten'
+      view_spoilers_label: 'Spoilerinhalt anzeigen'
     settings:
       bbcode_center: '[center] — Text zentrieren'
       bbcode_help: 'Aktiviere oder deaktiviere benutzerdefinierte BBCode-Tags für die Seitenanzeige. Nach der Änderung muss der Formatierungs-Cache geleert werden (php flarum cache:clear).'
       bbcode_spoiler: '[spoiler] — Spoiler/Details'
       bbcode_table: '[table] [tr] [th] [td] — Tabellen'
       bbcode_url: '[url] — Erweiterter URL-Parser (akzeptiert URLs, die von Flarum abgelehnt werden)'
+      forum_help: 'Überschreibt die Darstellung von Spoilern in normalen Forenbeiträgen. Dazu muss der Formatierungs-Cache geleert werden (php flarum cache:clear).'
       forum_title: Forenintegration
+      replace_forum_spoiler: 'Den Standard-Spoiler von Flarum durch den Spoiler-Stil von „Advanced Pages“ ersetzen (details/summary)'
       title: BBCode-Einstellungen
+  forum:
+    page:
+      loading: 'Wird geladen…'
+      not_found_title: 'Seite nicht gefunden'
