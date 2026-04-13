@@ -4,6 +4,19 @@
 
 core:
   admin:
+    announcements:
+      about: 'Aktuelle Nachrichten und Ankündigungen aus der offiziellen Flarum-Community unter discuss.flarum.org.'
+      comments_label: '{count, plural, one {# Kommentar} other {# Kommentare}}'
+      description: 'Aktuelle Neuigkeiten und Ankündigungen des Flarum-Teams.'
+      empty: 'Keine Ankündigungen gefunden.'
+      hide: 'Ankündigungen ausblenden'
+      load_error: 'Die Ankündigungen konnten nicht geladen werden. Bitte versuche es später erneut.'
+      read_more: Weiterlesen
+      refresh: 'Ankündigungen aktualisieren'
+      retry: 'Erneut versuchen'
+      show: 'Ankündigungen anzeigen'
+      title: Ankündigungen
+      view_all: 'Alle auf discuss.flarum.org anzeigen'
     appearance:
       colored_header_label: 'Kopfzeile einfärben'
       colors_heading: Farbgebung
