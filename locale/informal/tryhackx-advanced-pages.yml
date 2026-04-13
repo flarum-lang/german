@@ -21,6 +21,8 @@ tryhackx-advanced-pages:
       meta_description_label: 'Metabeschreibung (SEO)'
       newline_flarum: 'Flarum (Standardversion – mehrere Zeilenumbrüche = ein Zeilenumbruch)'
       newline_mode_label: Zeilenumbruch-Modus
+      newline_preserve: 'Beibehalten (alle Zeilenumbrüche beibehalten)'
+      php_warning: 'PHP-Seiten führen serverseitigen Code aus. Erstelle PHP-Seiten nur, wenn du dir der damit verbundenen Sicherheitsrisiken bewusst bist. Fehler werden protokolliert, aber den Besuchern niemals angezeigt.'
       preview: Vorschau
       raw: Roh
       slug_label: URL-Slug
