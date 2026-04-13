@@ -5,17 +5,53 @@
 huseyinfiliz-rewind:
   admin:
     generate_modal:
+      all_users: 'Alle Benutzer'
       cancel: Abbrechen
       close: Schließen
+      community_title: 'Community-Rewind erstellen'
       confirm: Bestätigen
       delete_confirm: Löschen
+      delete_title: 'Benutzer-Rewinds löschen'
+      deleted: '{count} Rewinds gelöscht.'
+      done: 'Abgeschlossen — {count} Elemente verarbeitet.'
+      group_label: Benutzergruppe
+      invalid_year: 'Das Jahr muss eine ganze Zahl zwischen 2000 und dem aktuellen Jahr sein.'
+      nothing: 'Es gibt nichts zu verarbeiten — alles auf dem neuesten Stand.'
+      start: Beginnen
+      users_title: 'Fehlende Benutzer-Rewinds erstellen'
+      warning: 'Schließe diese Seite nicht, solange dieser Vorgang läuft.'
       year_label: Jahr
+    permissions:
+      generate: 'Eigenes Rewind erstellen'
+      moderate: 'Rewinds verwalten'
+      view_forum: 'Rewind-Seite anzeigen'
     settings:
       active_year_label: 'Aktives Jahr'
+      community_comparison_help: 'Wenn aktiviert, wird in Benutzer-Rewinds angezeigt, wie die Kennzahlen im Vergleich zu den Durchschnittswerten der Community ausfallen. Das Community-Rewind muss zuvor erstellt werden.'
+      community_comparison_label: 'Community-Vergleich in Benutzer-Rewinds aktivieren'
+      community_slide_badge_leaderboard: Abzeichen-Rangliste
+      community_slide_best_answers_leaderboard: 'Rangliste für Beste Antworten'
       community_slide_busiest_month: 'Geschäftigster Monat'
+      community_slide_most_active_user: 'Aktivster Benutzer'
+      community_slide_most_loved: Meistgeliebt
+      community_slide_new_members: 'Neue Mitglieder'
       community_slide_peak_hour: Stoßzeiten
+      community_slide_star_post: Star-Beitrag
+      community_slide_top_contributors: 'Aktivste Mitglieder'
+      community_slide_top_discussion: 'Heiß diskutiertes Thema'
+      community_slide_top_tag: Top-Thema
+      community_slide_total_words: 'Wörter geschrieben'
       community_slide_year-overview: 'Das Jahr in Zahlen'
+      delete_rewinds_button: 'Rewinds löschen'
+      delete_rewinds_help: 'Benutzer-Rewind-Snapshots nach Jahr und optional nach Gruppe löschen.'
+      delete_rewinds_title: 'Benutzer-Rewinds löschen'
       enabled_label: 'Rewind aktivieren'
+      generate_community_button: 'Community-Rewind erstellen'
+      generate_community_help: 'Berechne die community-weiten Statistiken für das aktive Jahr. Dies sollte erfolgen, bevor Benutzer-Rewinds generiert werden, sofern der Gemeinschaftsvergleich aktiviert ist.'
+      generate_community_title: 'Community-Rewind erstellen'
+      generate_users_button: 'Fehlende Rewinds erstellen'
+      generate_users_help: 'Erstelle „Rewind“-Snapshots für alle Benutzer, die noch keinen haben. Wähle ein Jahr aus und filtere optional nach Gruppe.'
+      generate_users_title: 'Fehlende Benutzer-Rewinds erstellen'
       invalid_active_year: 'Das aktive Jahr muss eine ganze Zahl zwischen 2000 und 2100 sein.'
       section_achievements: Errungenschaften
       section_content: Inhalt
@@ -100,8 +136,16 @@ huseyinfiliz-rewind:
           tier_5: 'Thomas Mann wäre stolz'
         title: Wörter
     page:
+      admin_notice: '„Rewind“ ist derzeit für normale Benutzer nicht sichtbar. Aktiviere die Funktion im Admin-Bereich, um sie öffentlich zugänglich zu machen.'
+      generate_button: 'Mein Rewind erstellen'
+      generating: 'Dein Rewind wird erstellt...'
+      hero_subtitle: 'Dein Jahresrückblick'
       hero_title: '{year} Rewind'
+      my_rewind: 'Mein Rewind'
+      not_available: 'Rewind ist derzeit nicht verfügbar.'
+      personal_title: 'Dein persönliches Rewind'
       title: Rewind
+      view_button: 'Mein Rewind anzeigen'
     profile:
       controls:
         confirm_delete: 'Möchtest du diesen Rewind wirklich löschen?'
