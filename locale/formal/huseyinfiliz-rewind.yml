@@ -4,16 +4,28 @@
 
 huseyinfiliz-rewind:
   admin:
+    generate_modal:
+      cancel: Abbrechen
+      close: Schließen
+      confirm: Bestätigen
+      delete_confirm: Löschen
+      year_label: Jahr
     settings:
       active_year_label: 'Aktives Jahr'
+      community_slide_busiest_month: 'Geschäftigster Monat'
+      community_slide_peak_hour: Stoßzeiten
+      community_slide_year-overview: 'Das Jahr in Zahlen'
       enabled_label: 'Rewind aktivieren'
       invalid_active_year: 'Das aktive Jahr muss eine ganze Zahl zwischen 2000 und 2100 sein.'
+      section_achievements: Errungenschaften
       section_content: Inhalt
       section_core: Kernmetriken
       section_people: Leute
       section_social: Social
       show_menu_link_label: 'Rewind-Link im Benutzermenü anzeigen'
       slide_active_days: 'Tage aktiv'
+      slide_badges_earned: Abzeichen
+      slide_best_answers: 'Beste Antworten'
       slide_best_friend: 'Engste Freunde'
       slide_best_friend_mentions: Erwähnungen
       slide_best_post: 'Bester Beitrag'
@@ -37,6 +49,15 @@ huseyinfiliz-rewind:
   forum:
     community:
       post_count_label: '{count} Beiträge'
+      regenerate_short: 'Neu erstellen'
+      title: Community-Höhepunkte
+    community_slideshow:
+      best_answers: 'Beste Antworten'
+      discussions: Diskussionen
+      new_members: 'Neue Mitglieder'
+      posts: Beiträge
+      total_words_label: 'Wörter insgesamt'
+      words: Wörter
     metrics:
       active_days:
         description: 'An {count} verschiedenen Tagen beigetragen'
@@ -66,6 +87,9 @@ huseyinfiliz-rewind:
         description: 'Das aktivste Thema mit {count} Beiträgen'
         no_data: 'Keine Themendaten verfügbar'
         title: Topthema
+      top_words:
+        description: 'Am häufigsten verwendete Wörter'
+        title: 'Häufigste Wörter'
       word_count:
         description: 'Hat ungefähr {count} Wörter geschrieben'
         messages:
@@ -75,6 +99,9 @@ huseyinfiliz-rewind:
           tier_4: '„Krieg und Frieden“ zittert vor Angst'
           tier_5: 'Thomas Mann wäre stolz'
         title: Wörter
+    page:
+      hero_title: '{year} Rewind'
+      title: Rewind
     profile:
       controls:
         confirm_delete: 'Möchtest du diesen Rewind wirklich löschen?'
@@ -88,3 +115,8 @@ huseyinfiliz-rewind:
       tab: Rewind
       tap_to_watch: 'Zum Anschauen antippen'
       year_card: '{year} Rewind'
+    slideshow:
+      close: Schließen
+      share: Teilen
+      tap_to_start: 'Zum Starten antippen →'
+      visibility_status_private: Privat

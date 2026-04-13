@@ -5,8 +5,21 @@
 quasimo-llms-txt:
   admin:
     settings:
+      custom_intro_help: 'Lasse das Feld leer, um den Eintrag wegzulassen. Es werden reiner Text und Markdown unterstützt.'
+      custom_intro_label: 'Individuell angepasster Einleitungsabsatz'
+      custom_intro_placeholder: 'Gib eine optionale Einleitung ein, die in beiden Dateien unterhalb des Forumtitels angezeigt wird.'
+      enabled_help: 'Stelle unter {url} eine übersichtliche Übersicht über dein Forum bereit – mit Links zu Kategorien und aktuellen Diskussionen.'
       enabled_label: 'llms.txt aktivieren'
+      full_enabled_help: 'Stellt unter {url} den vollständigen Text aller Diskussionen bereit — einschließlich des Inhalts jedes Beitrags.'
+      full_enabled_label: 'llms-full.txt aktivieren'
+      max_discussions_help: 'Maximale Anzahl der aufzuführenden Diskussionen (1–1000). Standardwert: 100.'
+      max_discussions_label: 'Maximalanzahl der zu berücksichtigenden Diskussionen'
+      max_posts_help: 'Maximale Anzahl der Beiträge pro Diskussion, die in die vollständige Datei aufgenommen werden sollen (1–500). Standardwert: 50.'
+      max_posts_label: 'Maximale Anzahl von Beiträgen pro Diskussion (nur für llms-full.txt)'
+      open_label: 'In einem neuen Tab öffnen'
       sort_help: 'Wie die Diskussionen in beiden generierten Dateien sortiert sind.'
+      sort_label: 'Sortierreihenfolge der Diskussionen'
       sort_latest: 'Letzte Aktivität'
       sort_top: 'Meiste Antworten'
+      urls_help: 'Sobald diese Funktion aktiviert ist, werden die folgenden URLs LLM-freundliche Inhalte zu deinem Forum bereitstellen.'
       urls_label: Endpunkt-URLs
