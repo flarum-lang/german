@@ -5,6 +5,11 @@ CHANGELOG
 1.25.12 (XXXX-XX-XX)
 --------------------
 
+**Allgemeine Änderungen**:
+
+* Flarum-Core Übersetzungen aktualisiert.
+
+
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
 * [`blomstra/web3`](https://github.com/blomstra/flarum-ext-web3)
@@ -16,10 +21,17 @@ CHANGELOG
 * [`davwheat/virtual-authors`](https://flarum.org/extension/davwheat/virtual-authors)
 * [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
 * [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist)
+* [`fof/forum-stats-widget`](https://github.com/FriendsOfFlarum/forum-stats-widget)
+* [`fof/forum-widgets-core`](https://github.com/FriendsOfFlarum/forum-widgets-core)
+* [`fof/news-widget`](https://github.com/FriendsOfFlarum/news-widget)
+* [`fof/online-users-widget`](https://github.com/FriendsOfFlarum/online-users-widget)
+* [`fof/top-posters-widget`](https://github.com/FriendsOfFlarum/top-posters-widget)
 * [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats)
 * [`forumaker/magicread`](https://github.com/forumaker/magicread)
 * [`huseyinfiliz/pickem`](https://github.com/huseyinfiliz/pickem)
+* [`huseyinfiliz/sort-changer`](https://github.com/huseyinfiliz/sort-changer)
 * [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar)
+* [`ziiven/view-history`](https://github.com/Ziiven/view-history)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
