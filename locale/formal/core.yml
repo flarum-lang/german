@@ -141,9 +141,9 @@ core:
         username: Benutzername
       display_name_heading: Anzeigename
       display_name_text: 'Wählen Sie den Treiber, der verwendet wird, um den Anzeigenamen der Benutzer zu bestimmen. Standardmäßig wird der Benutzername angezeigt.'
-      forum_description_heading: 'Beschreibung des Forums'
+      forum_description_heading: Forumbeschreibung
       forum_description_text: 'Kurze Beschreibung des Forums. Diese erscheint in den Meta-Tags für Suchmaschinen.'
-      forum_title_heading: 'Titel des Forums'
+      forum_title_heading: Forumtitel
       home_page_heading: Startseite
       home_page_text: 'Wählen Sie die Seite aus, die Benutzer beim Besuch des Forums zuerst sehen.'
       show_language_selector_label: 'Sprachauswahlmenü zeigen'
