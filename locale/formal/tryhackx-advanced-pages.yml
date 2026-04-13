@@ -61,7 +61,14 @@ tryhackx-advanced-pages:
       forum_title: Forenintegration
       replace_forum_spoiler: 'Den Standard-Spoiler von Flarum durch den Spoiler-Stil von „Advanced Pages“ ersetzen (details/summary)'
       title: BBCode-Einstellungen
+    support:
+      button: 'Unterstütze die Entwicklung'
+      copy: 'Adresse kopieren'
+      description: 'Wenn dir diese Erweiterung gefällt, würde ich mich über eine kleine Spende freuen, um die Weiterentwicklung zu unterstützen. Jeder Beitrag hilft dabei, das Projekt am Leben zu erhalten und weiter zu pflegen.'
+      thanks: 'Vielen Dank für deine Unterstützung!'
+      title: 'Unterstütze diese Erweiterung'
   forum:
     page:
       loading: 'Wird geladen…'
+      not_found_message: 'Die gesuchte Seite existiert nicht oder du hast keine Berechtigung, sie anzuzeigen.'
       not_found_title: 'Seite nicht gefunden'

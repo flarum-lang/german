@@ -18,6 +18,7 @@ ramon-avocado:
       footer_show_social: 'Social-Media-Links anzeigen'
       footer_social: Social-Media-Links
       footer_social_help_json: 'Konfiguriere Social-Media-Links im JSON-Format. Verwende folgende Schlüssel: facebook, twitter, linkedin, instagram, youtube.'
+    loading: 'Wird geladen…'
     settings:
       auth_image_help: 'Hintergrundbild, das im rechten Bereich der Modalfenster für Anmeldung, Registrierung und Passwort vergessen angezeigt wird.'
       auth_image_label: 'Bild im Anmeldefenster'
@@ -30,8 +31,12 @@ ramon-avocado:
       featured_tags_label: 'Hervorgehobene Kategorien'
       fixed_avatar_effect_help: 'Avatar des Beitragsautors beim Scrollen bei längeren Beiträgen auf Desktop am oberen Rand fixieren.'
       fixed_avatar_effect_label: 'Fixierte Avatare aktivieren'
+      hero_decoration_icon_opacity_help: 'Stelle die Deckkraft des Dekorationssymbols als Prozentsatz ein. 100 = vollständig deckend, 0 = durchsichtig.'
+      hero_decoration_icon_opacity_label: 'Deckkraft des Symbols (0–100)'
       hero_image_position_help: 'CSS-Wert für „background-position“, z. B. „center top“ oder „50% 20%“.'
       hero_image_position_label: 'Position des Titelbildes'
+      hide_links_for_guests_help: 'Verhindert, dass Gäste Links in Beiträgen anklicken können. Beim Anklicken eines Links wird stattdessen eine Aufforderung zum Anmelden oder Registrieren angezeigt.'
+      hide_links_for_guests_label: 'Links für Gäste verbergen'
       logo_enabled_help: 'Das benutzerdefinierte Logo in der Kopfzeile anzeigen.'
       logo_enabled_label: 'Benutzerdefiniertes Logo aktivieren'
       logo_svg_help: 'Lade ein benutzerdefiniertes SVG-Logo für dein Forum hoch.'
@@ -57,9 +62,35 @@ ramon-avocado:
   forum:
     actions:
       share: Teilen
+    discussion:
+      participant_plural: Teilnehmer
+      participant_singular: Teilnehmer
+      post_plural: Beiträge
+      post_singular: Beitrag
+    header:
+      back_home: 'Zurück zur Startseite'
+      or: oder
+      search: Suche
     home:
       all_categories: 'Alle Kategorien'
       all_title: 'Alle Diskussionen'
       back_home: Startseite
       categories_heading: Kategorien
       choose_tags: 'Themen wählen'
+      composer_close: Schließen
+    post_cta:
+      or: oder
+    search:
+      clear: Löschen
+      hero_sub: 'Diskussionen, Beiträge und Mitglieder suchen'
+      hero_title: 'Wonach suchst du?'
+      placeholder: Suche…
+      placeholder_hero: 'Im Forum suchen…'
+      search_button: Suchen
+      sort_latest: Aktuellste
+      sort_newest: Neueste
+      sort_oldest: Älteste
+      tab_discussions: Diskussionen
+      tab_posts: Beiträge
+      tab_users: Benutzer
+      title: Suche

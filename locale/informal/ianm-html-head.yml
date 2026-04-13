@@ -81,7 +81,7 @@ ianm-html-head:
       description_label: Beschreibung
       drag_handle: 'Zum Neuanordnen ziehen'
       edit_button: Bearbeiten
-      empty_text: 'Noch keine Einträge. Klicke auf „Erstellen“, um deinen ersten Eintrag hinzuzufügen.'
+      empty_text: 'Noch keine Einträge. Klicke auf „Hinzufügen“, um deinen ersten Eintrag hinzuzufügen.'
       header_label: Header-Element
       location_label: Standort
       pages_label: Seiten
