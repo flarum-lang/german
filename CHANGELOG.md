@@ -28,6 +28,7 @@ CHANGELOG
 * [`fof/top-posters-widget`](https://github.com/FriendsOfFlarum/top-posters-widget)
 * [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats)
 * [`forumaker/magicread`](https://github.com/forumaker/magicread)
+* [`gbcl/userip`](https://github.com/GBCLStudio/userip)
 * [`huseyinfiliz/pickem`](https://github.com/huseyinfiliz/pickem)
 * [`huseyinfiliz/sort-changer`](https://github.com/huseyinfiliz/sort-changer)
 * [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar)
