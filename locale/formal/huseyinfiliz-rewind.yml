@@ -142,6 +142,7 @@ huseyinfiliz-rewind:
       hero_subtitle: 'Dein Jahresrückblick'
       hero_title: '{year} Rewind'
       my_rewind: 'Mein Rewind'
+      no_snapshot: 'Du hast dein {year} Rewind noch nicht erstellt.'
       not_available: 'Rewind ist derzeit nicht verfügbar.'
       personal_title: 'Dein persönliches Rewind'
       title: Rewind

@@ -8,3 +8,4 @@ fof-news-widget:
       add_line: 'Nachrichtenzeile hinzufügen'
       html_warning: 'Bitte sei vorsichtig, da jeglicher HTML-Code gerendert wird.'
       lines: Nachrichtenzeilen
+      remove_line: 'Nachrichtenzeile entfernen'

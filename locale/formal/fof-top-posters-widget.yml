@@ -9,3 +9,7 @@ fof-top-posters-widget:
   forum:
     widget:
       title: 'Aktivste Benutzer dieses Monats'
+  lib:
+    gambits:
+      top_poster:
+        key: top_poster
