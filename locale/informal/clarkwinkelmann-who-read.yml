@@ -14,6 +14,7 @@ clarkwinkelmann-who-read:
       max-visible: 'Maximalanzahl von Benutzern, ab der „Mehr lesen“ angezeigt wird'
       only-groups: 'Nur den Gelesen-Status von Benutzern dieser Gruppen anzeigen'
       show-between-posts: 'Gelesen-Status zwischen Beiträgen anzeigen'
+      show-count-of-readers-who-stopped: 'Anzahl der Nutzer zwischen Beiträgen anzeigen, die das Lesen abgebrochen haben, anstatt die Gesamtzahl der Leser'
       show-in-discussion-list: 'Leser in der Diskussionsliste anzeigen'
       show-in-hero: 'Leser im Diskussions-Hero anzeigen'
       unread-icon: 'Symbol für die „Ungelesen“-Markierung'
@@ -25,6 +26,10 @@ clarkwinkelmann-who-read:
     controls:
       remove-unread: 'Ungelesen entfernen'
       set-unread: 'Als ungelesen markieren'
+    footer:
+      read-no-further: '{count, plural, =0 {Alle haben weiter gelesen} one {Ein Benutzer hat nicht weiter gelesen} other {# haben nicht weiter gelesen}}'
+      read-this-post: '{count, plural, =0 {Niemand hat diesen Beitrag gelesen} one {Ein Benutzer hat diesen Beitrag gelesen} other {# Benutzer haben diesen Beitrag gelesen}}'
+      read-to-end: '{count, plural, =0 {Niemand hat bis zum Ende gelesen} one {Ein Benutzer hat bis zum Ende gelesen} other {# Benutzer haben bis zum Ende gelesen}}'
     modal:
       behind: 'Benutzer, die nicht bis zum Ende gelesen haben'
       past-this-post: 'Benutzer, die weiter als diesen Beitrag gelesen haben'
