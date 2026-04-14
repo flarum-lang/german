@@ -40,9 +40,11 @@ CHANGELOG
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
 * [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue)
 * [`clarkwinkelmann/flarum-ext-discussion-open-position`](https://github.com/clarkwinkelmann/flarum-ext-discussion-open-position)
+* [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
 * [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover)
 * [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
 
