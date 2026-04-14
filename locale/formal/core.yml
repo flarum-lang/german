@@ -89,7 +89,7 @@ core:
       description: 'Aktuelle Neuigkeiten und Ankündigungen des Flarum-Teams.'
       empty: 'Keine Ankündigungen gefunden.'
       hide: 'Ankündigungen ausblenden'
-      load_error: 'Die Ankündigungen konnten nicht geladen werden. Bitte versuche es später erneut.'
+      load_error: 'Die Ankündigungen konnten nicht geladen werden. Bitte versuchen Sie es später erneut.'
       read_more: Weiterlesen
       refresh: 'Ankündigungen aktualisieren'
       retry: 'Erneut versuchen'
