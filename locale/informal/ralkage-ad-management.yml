@@ -4,6 +4,50 @@
 
 ralkage-ad-management:
   admin:
+    ads:
+      approve: Genehmigen
+      content: HTML/JS-Inhalt
+      create: 'Werbebanner erstellen'
+      edit: 'Werbebanner bearbeiten'
+      end_date: Enddatum
+      filter:
+        active: Aktiv
+        all: Alle
+        inactive: Inaktiv
+        pending_review: 'Prüfung ausstehend'
+        rejected: Abgelehnt
+      height: 'Höhe (px)'
+      image_url: Bild-URL
+      is_active: Aktiv
+      link_url: Link-URL
+      name: Bannername
+      pending_badge: 'Ausstehend ({count})'
+      reject: Ablehnen
+      select_zone: 'Wähle einen Bereich aus...'
+      start_date: Startdatum
+      stats:
+        clicks: Klicks
+      status: Status
+      statuses:
+        active: Aktiv
+        inactive: Inaktiv
+        pending_review: 'Prüfung ausstehend'
+        rejected: Abgelehnt
+      title: Werbebanner
+      type: Bannertyp
+      types:
+        html: HTML
+        image: Bild
+      width: 'Breite (px)'
+      zone: Bereich
+    analytics:
+      clicks_header: Klicks
+      date: Datum
+      period: Zeitraum
+      periods:
+        30d: 'Letzte 30 Tage'
+        7d: 'Letzte 7 Tage'
+        90d: 'Letzte 90 Tage'
     cancel: Abbrechen
     nav:
       title: Ad-Verwaltung
@@ -23,6 +67,8 @@ ralkage-ad-management:
       default_max_image_changes_help: 'Die maximale Anzahl, wie oft ein Anzeigeninhaber sein Anzeigenbild ändern kann. Setze den Wert auf 0, um die Anzahl unbegrenzt zu lassen.'
       enable_compression: 'Bildkomprimierung aktivieren'
       enable_compression_help: 'Hochgeladene Anzeigenbilder automatisch komprimieren, um die Dateigröße zu verringern.'
+      expiration_reminder_days: 'Ablauferinnerung (Tage)'
+      expiration_reminder_days_help: 'Sendet E-Mail-Erinnerungen an Anzeigeninhaber so viele Tage vor Ablauf ihrer Anzeige. Setze den Wert auf 0, um diese Funktion zu deaktivieren.'
       image_settings_title: Bildeinstellungen
       notifications_title: E-Mail-Benachrichtigungen
       show_sponsored_label: '„Gesponsert“-Kennzeichnung anzeigen'
@@ -39,3 +85,26 @@ ralkage-ad-management:
       analytics: Analytik
       settings: Einstellungen
       zones: 'Bereiche für Werbebanner'
+  forum:
+    ad:
+      sponsored: Gesponsert
+    ads:
+      alt_text: Bildbeschreibung
+      image_url: Bild-URL
+      link_url: Link-URL
+    page:
+      cancel: Abbrechen
+      clicks: '{count} Klicks'
+      ctr: '{value}% CTR'
+      edit_image: 'Bild ändern'
+      image_changes_remaining: '{count} Bildwechsel verbleibend'
+      impressions: '{count} Aufrufe'
+      no_changes_remaining: 'Keine Bildwechsel verbleibend'
+      stats: Statistiken
+      status:
+        active: Aktiv
+        expired: Abgelaufen
+        inactive: Inaktiv
+        pending: 'Prüfung ausstehend'
+        rejected: Abgelehnt
+        scheduled: Geplant
