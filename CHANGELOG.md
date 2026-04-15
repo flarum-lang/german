@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.25.13 (XXXX-XX-XX)
+--------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`ralkage/flarum-ext-ad-management`](https://github.com/Ralkage/flarum-ext-ad-management)
+
+
+Alle Änderungen: [1.25.12...1.25.13](https://github.com/flarum-lang/german/compare/1.25.12...1.25.13).
+
+
 1.25.12 (2026-04-14)
 --------------------
 
