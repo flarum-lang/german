@@ -4,8 +4,36 @@
 
 ralkage-ad-management:
   admin:
+    cancel: Abbrechen
     nav:
       title: Ad-Verwaltung
+    save: Speichern
+    settings:
+      adsense_publisher_id: 'Google AdSense Publisher-ID'
+      adsense_publisher_id_help: 'Deine AdSense Publisher-ID (z. B. ca-pub-1234567890).'
+      allowed_image_formats: 'Erlaubte Bildformate'
+      allowed_image_formats_help: 'Durch Kommas getrennte Liste der zulässigen Bilddateiformate (z. B. jpg, jpeg, png, webp, gif).'
+      between_posts_interval: 'Beiträge zwischen Werbebanner'
+      between_posts_interval_help: 'Zeige nach jeweils N Beiträgen in Diskussionen eine Anzeige an. Setze den Wert auf 0, um diese Funktion zu deaktivieren.'
+      compression_method: Komprimierungsverfahren
+      compression_method_help: 'PHP GD ist integriert. reSmush.it nutzt eine externe API für die verlustfreie Optimierung (erfordert curl).'
+      compression_quality: Komprimierungsqualität
+      compression_quality_help: 'Bildqualität nach der Komprimierung (1–100). Niedrigere Werte = kleinere Dateien. Empfohlen: 80–90.'
+      default_max_image_changes: 'Maximale Standardanzahl für Bildwechsel'
+      default_max_image_changes_help: 'Die maximale Anzahl, wie oft ein Anzeigeninhaber sein Anzeigenbild ändern kann. Setze den Wert auf 0, um die Anzahl unbegrenzt zu lassen.'
+      enable_compression: 'Bildkomprimierung aktivieren'
+      enable_compression_help: 'Hochgeladene Anzeigenbilder automatisch komprimieren, um die Dateigröße zu verringern.'
+      image_settings_title: Bildeinstellungen
+      notifications_title: E-Mail-Benachrichtigungen
+      show_sponsored_label: '„Gesponsert“-Kennzeichnung anzeigen'
+      show_sponsored_label_help: 'Zeige eine Beschriftung unter den Anzeigen an. Deaktiviere das Kontrollkästchen, um sie vollständig auszublenden.'
+      sponsored_label_text: 'Beschriftung für Anzeigenkennzeichnung'
+      sponsored_label_text_help: 'Benutzerdefinierter Text für die Beschriftung (z. B. „Werbung“). Lasse das Feld leer, um die Standardübersetzung zu verwenden.'
+      templates_placeholders_expiry: 'Erlaubte Platzhalter: {forum_title}, {forum_url}, {owner_name}, {owner_username}, {ad_name}, {days_left}, {expiry_date}, {impressions}, {clicks}. Lasse das Feld leer, um die Standardvorlage zu verwenden.'
+      track_clicks: 'Klicks erfassen'
+      track_clicks_help: 'Zähle, wie oft jede Anzeige geklickt wird.'
+      track_impressions: 'Aufrufe erfassen'
+      track_impressions_help: 'Zähle, wie oft jede Anzeige angezeigt wird.'
     tabs:
       ads: Werbebanner
       analytics: Analytik
