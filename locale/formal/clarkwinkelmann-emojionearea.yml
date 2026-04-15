@@ -6,7 +6,7 @@ clarkwinkelmann-emojionearea:
   admin:
     settings:
       closeOnPick: 'Feld nach Emoji-Auswahl schließen'
-      enableRecent: 'Aktuelles aktivieren'
+      enableRecent: 'Kürzlich verwendete aktivieren'
       enableSearch: 'Suche aktivieren'
       enableTones: 'Farbtöne aktivieren'
       filtersPosition: 'Kategorien nach unten verschieben'
