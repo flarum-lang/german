@@ -84,16 +84,42 @@ huseyinfiliz-rewind:
       slides: Slides
   forum:
     community:
+      coming_soon: 'Community-Rewind wurde noch nicht erstellt. Bleib dran!'
+      generate_button: 'Community-Rewind erstellen'
+      most_active_user: 'Aktivstes Mitglied'
+      new_users: 'Neue Mitglieder'
+      no_activity: 'Für dieses Jahr gibt es nicht genug Aktivitäten'
+      not_generated: 'Community-Rewind wurde noch nicht erstellt.'
       post_count_label: '{count} Beiträge'
+      regenerate: 'Community-Rewind neu erstellen'
+      regenerate_confirm: 'Dadurch werden die vorhandenen Community-Rewind-Daten für dieses Jahr überschrieben. Möchtest du fortfahren?'
       regenerate_short: 'Neu erstellen'
       title: Community-Höhepunkte
+      top_discussion: 'Aktivste Diskussion'
+      top_tag: Top-Thema
+      total_discussions: 'Diskussionen begonnen'
+      total_posts: 'Beiträge insgesamt'
+      view_slideshow: 'Diashow anzeigen'
+      watch_slideshow: 'Sieh dir den Community-Rewind für {Jahr} an'
+      watch_slideshow_desc: 'Die Höhepunkte des Jahres im Story-Format'
     community_slideshow:
       best_answers: 'Beste Antworten'
       discussions: Diskussionen
+      hot_discussion_desc: '{count} Beiträge in dieser Diskussion'
+      intro_label: 'COMMUNITY REWIND'
       new_members: 'Neue Mitglieder'
+      new_members_desc: '{count} sind der Community beigetreten'
+      new_members_slide: 'Neue Mitglieder'
       posts: Beiträge
+      reactions: Reaktionen
+      summary_title: '{year} Community-Höhepunkte'
+      title: Community-Rewind
+      top_tag: Top-Thema
+      total_words: 'Geschriebene Wörter'
+      total_words_desc: 'Von der gesamten Community'
       total_words_label: 'Wörter insgesamt'
       words: Wörter
+      year_in_numbers: 'Das Jahr in Zahlen'
     metrics:
       active_days:
         description: 'An {count} verschiedenen Tagen beigetragen'
@@ -118,6 +144,8 @@ huseyinfiliz-rewind:
         description: 'Spitzenmonat mit {count} Beiträgen'
         title: 'Geschäftigster Monat'
       post_count:
+        messages:
+          tier_5: 'Schläfst du überhaupt irgendwann?'
         title: Beiträge
       top_tag:
         description: 'Das aktivste Thema mit {count} Beiträgen'
@@ -137,6 +165,7 @@ huseyinfiliz-rewind:
         title: Wörter
     page:
       admin_notice: '„Rewind“ ist derzeit für normale Benutzer nicht sichtbar. Aktiviere die Funktion im Admin-Bereich, um sie öffentlich zugänglich zu machen.'
+      empty_public: 'Dieser Nutzer hat keine öffentlichen Rewind-Snapshots.'
       generate_button: 'Mein Rewind erstellen'
       generating: 'Dein Rewind wird erstellt...'
       hero_subtitle: 'Dein Jahresrückblick'
@@ -151,6 +180,8 @@ huseyinfiliz-rewind:
       controls:
         confirm_delete: 'Möchtest du diesen Rewind wirklich löschen?'
         delete: Löschen
+        make_private: 'Privat machen'
+        make_public: 'Öffentlich machen'
         regenerate: 'Neu erstellen'
       generate_for_year: '{year} Rewind erstellen'
       no_activity: 'Zu wenig Aktivität'
@@ -162,6 +193,10 @@ huseyinfiliz-rewind:
       year_card: '{year} Rewind'
     slideshow:
       close: Schließen
+      link_copied: 'Link in die Zwischenablage kopiert!'
+      not_available: 'Rewind nicht verfügbar'
       share: Teilen
+      summary_title: 'Dein Jahr {Jahr} in Zahlen'
       tap_to_start: 'Zum Starten antippen →'
       visibility_status_private: Privat
+      visibility_status_public: Öffentlich
