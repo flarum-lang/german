@@ -68,7 +68,7 @@ core:
         memory_label: 'Speicherlimit (MB)'
         rest_help: 'Zeit, die zwischen der Verarbeitung von Jobs gewartet werden soll. Der Standardwert ist 0 Sekunden.'
         rest_label: 'Restzeit (Sekunden)'
-        retries_help: 'Maximale Anzahl von Versuchen, einen Auftrag auszuführen, bevor er als fehlgeschlagen markiert wird. Der Standardwert ist 1.'
+        retries_help: 'Maximale Anzahl von Versuchen, einen Job auszuführen, bevor er als fehlgeschlagen markiert wird. Der Standardwert ist 1.'
         retries_label: Job-Wiederholungsversuche
         section_label: Warteschlange
         sync_help: 'Für eine bessere Leistung und Benutzererfahrung solltest du die Verwendung des Datenbank-Warteschlangentreibers in Betracht ziehen. Weitere Informationen findest du in der Dokumentation.'
