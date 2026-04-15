@@ -26,9 +26,9 @@ huseyinfiliz-stickiest:
       sticky_tooltip: Angepinnt
       super_sticky_tooltip: '=> huseyinfiliz-stickiest.ref.super_sticky'
       super_tag_sticky_tooltip: '=> huseyinfiliz-stickiest.ref.super_tag_sticky'
-      tag_sticky_tooltip: '=> huseyinfiliz-stickiest.ref.tag_sticky'
+      tag_sticky_tooltip: 'Angepinnt markieren'
     discussion_controls:
-      sticky_button: '=> flarum-sticky.forum.discussion_controls.sticky_button'
+      sticky_button: Anpinnen
     post_stream:
       discussion_common_stickied_text: '{username} hat die Diskussion nocht mehr als besonders sticky markiert.'
       discussion_stickied_text: '=> flarum-sticky.forum.post_stream.discussion_stickied_text'
