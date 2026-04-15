@@ -23,7 +23,7 @@ huseyinfiliz-stickiest:
   forum:
     badge:
       stickiest_tooltip: 'Besonders wichtig'
-      sticky_tooltip: '=> huseyinfiliz-stickiest.ref.sticky'
+      sticky_tooltip: Angepinnt
       super_sticky_tooltip: '=> huseyinfiliz-stickiest.ref.super_sticky'
       super_tag_sticky_tooltip: '=> huseyinfiliz-stickiest.ref.super_tag_sticky'
       tag_sticky_tooltip: '=> huseyinfiliz-stickiest.ref.tag_sticky'
