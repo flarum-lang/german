@@ -15,7 +15,11 @@ kilowhat-audit:
     browser:
       cache_cleared: 'Manuell den Cache geleert'
       client:
+        access_token: Zugriffstoken
         api_key: API-Schlüssel
+        cli: Kommandozeile
+        session: Websitzung
+        unknown: 'Unbekannter Client'
       controls:
         filterDiscussion: 'Protokolle anzeigen, die dieselbe Diskussion betreffen'
         filterIp: 'Protokolle von dieser IP anzeigen'
@@ -45,6 +49,7 @@ kilowhat-audit:
         unbanned: 'IP {ip} entsperrt'
       genericResource:
         comment: Kommentar
+        post: Beitrag
       loadMore: 'Mehr laden'
       noReason: '(keine Begründung)'
       noValue: '(kein Wert)'

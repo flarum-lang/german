@@ -48,7 +48,7 @@ justoverclock-feedback:
       placeholder: 'Gebe Dein Feedback hier ein'
       submit: Senden
       success: Danke!👊
-      title: 'Flarum Feedback'
+      title: Flarum-Feedback
       type-message: 'Welches Feedback hast Du?'
       types:
         bug: Fehlerbericht
