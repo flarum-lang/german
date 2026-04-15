@@ -8,6 +8,7 @@ CHANGELOG
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`ralkage/flarum-ext-ad-management`](https://github.com/Ralkage/flarum-ext-ad-management)
+* [`clarkwinkelmann/flarum-ext-emojionearea`](https://github.com/clarkwinkelmann/flarum-ext-emojionearea)
 
 
 Alle Änderungen: [1.25.12...1.25.13](https://github.com/flarum-lang/german/compare/1.25.12...1.25.13).
