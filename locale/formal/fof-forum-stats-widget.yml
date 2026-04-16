@@ -3,6 +3,11 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 fof-forum-stats-widget:
+  admin:
+    settings:
+      decimal_places:
+        help: 'Die Anzahl der anzuzeigenden Dezimalstellen bei großen Zahlen (0–2).'
+        label: Dezimalstellen
   forum:
     widget:
       stats:

@@ -8,27 +8,27 @@ huseyinfiliz-rewind:
       all_users: 'Alle Benutzer'
       cancel: Abbrechen
       close: Schließen
-      community_title: 'Community-Rewind erstellen'
+      community_title: 'Community-Rückblick erstellen'
       confirm: Bestätigen
       delete_confirm: Löschen
-      delete_title: 'Benutzer-Rewinds löschen'
-      deleted: '{count} Rewinds gelöscht.'
+      delete_title: 'Benutzer-Rückblicke löschen'
+      deleted: '{count} Rückblicke gelöscht.'
       done: 'Abgeschlossen — {count} Elemente verarbeitet.'
       group_label: Benutzergruppe
       invalid_year: 'Das Jahr muss eine ganze Zahl zwischen 2000 und dem aktuellen Jahr sein.'
       nothing: 'Es gibt nichts zu verarbeiten — alles auf dem neuesten Stand.'
       start: Beginnen
-      users_title: 'Fehlende Benutzer-Rewinds erstellen'
+      users_title: 'Fehlende Benutzer-Rückblicke erstellen'
       warning: 'Schließe diese Seite nicht, solange dieser Vorgang läuft.'
       year_label: Jahr
     permissions:
-      generate: 'Eigenes Rewind erstellen'
-      moderate: 'Rewinds verwalten'
-      view_forum: 'Rewind-Seite anzeigen'
+      generate: 'Eigenen Rückblick erstellen'
+      moderate: 'Rückblicke verwalten'
+      view_forum: 'Rückblick-Seite anzeigen'
     settings:
       active_year_label: 'Aktives Jahr'
-      community_comparison_help: 'Wenn aktiviert, wird in Benutzer-Rewinds angezeigt, wie die Kennzahlen im Vergleich zu den Durchschnittswerten der Community ausfallen. Das Community-Rewind muss zuvor erstellt werden.'
-      community_comparison_label: 'Community-Vergleich in Benutzer-Rewinds aktivieren'
+      community_comparison_help: 'Wenn aktiviert, wird in Benutzer-Rückblicken angezeigt, wie die Kennzahlen im Vergleich zu den Durchschnittswerten der Community ausfallen. Der Community-Rückblick muss zuvor erstellt werden.'
+      community_comparison_label: 'Community-Vergleich in Benutzer-Rückblick aktivieren'
       community_slide_badge_leaderboard: Abzeichen-Rangliste
       community_slide_best_answers_leaderboard: 'Rangliste für Beste Antworten'
       community_slide_busiest_month: 'Geschäftigster Monat'
@@ -42,23 +42,23 @@ huseyinfiliz-rewind:
       community_slide_top_tag: Top-Thema
       community_slide_total_words: 'Wörter geschrieben'
       community_slide_year-overview: 'Das Jahr in Zahlen'
-      delete_rewinds_button: 'Rewinds löschen'
-      delete_rewinds_help: 'Benutzer-Rewind-Snapshots nach Jahr und optional nach Gruppe löschen.'
-      delete_rewinds_title: 'Benutzer-Rewinds löschen'
-      enabled_label: 'Rewind aktivieren'
-      generate_community_button: 'Community-Rewind erstellen'
-      generate_community_help: 'Berechne die community-weiten Statistiken für das aktive Jahr. Dies sollte erfolgen, bevor Benutzer-Rewinds generiert werden, sofern der Gemeinschaftsvergleich aktiviert ist.'
-      generate_community_title: 'Community-Rewind erstellen'
-      generate_users_button: 'Fehlende Rewinds erstellen'
-      generate_users_help: 'Erstelle „Rewind“-Snapshots für alle Benutzer, die noch keinen haben. Wähle ein Jahr aus und filtere optional nach Gruppe.'
-      generate_users_title: 'Fehlende Benutzer-Rewinds erstellen'
+      delete_rewinds_button: 'Rückblicke löschen'
+      delete_rewinds_help: 'Benutzer-Rückblick-Snapshots nach Jahr und optional nach Gruppe löschen.'
+      delete_rewinds_title: 'Benutzer-Rückblicke löschen'
+      enabled_label: 'Rückblick aktivieren'
+      generate_community_button: 'Community-Rückblick erstellen'
+      generate_community_help: 'Berechne die community-weiten Statistiken für das aktive Jahr. Dies sollte erfolgen, bevor Benutzer-Rückblicke generiert werden, sofern der Community-Vergleich aktiviert ist.'
+      generate_community_title: 'Community-Rückblick erstellen'
+      generate_users_button: 'Fehlende Rückblicke erstellen'
+      generate_users_help: 'Erstelle „Rückblick“-Snapshots für alle Benutzer, die noch keinen haben. Wähle ein Jahr aus und filtere optional nach Gruppe.'
+      generate_users_title: 'Fehlende Benutzer-Rückblicke erstellen'
       invalid_active_year: 'Das aktive Jahr muss eine ganze Zahl zwischen 2000 und 2100 sein.'
       section_achievements: Errungenschaften
       section_content: Inhalt
       section_core: Kernmetriken
       section_people: Leute
       section_social: Social
-      show_menu_link_label: 'Rewind-Link im Benutzermenü anzeigen'
+      show_menu_link_label: 'Rückblick-Link im Benutzermenü anzeigen'
       slide_active_days: 'Tage aktiv'
       slide_badges_earned: Abzeichen
       slide_best_answers: 'Beste Antworten'
@@ -75,24 +75,24 @@ huseyinfiliz-rewind:
       slide_top_tag: 'Beliebteste Themen'
       slide_top_words: 'Häufigste Wörter'
       slide_word_count: 'Wörter geschrieben'
-      slides_community: Community-Rewind
-      slides_help: 'Wähle aus, welche Slides in der „Rewind“-Diashow angezeigt werden sollen. Es werden immer alle Daten erfasst – ausgeblendete Slides werden lediglich nicht angezeigt.'
-      slides_user: Benutzer-Rewind
+      slides_community: Community-Rückblick
+      slides_help: 'Wähle aus, welche Folien in der „Rückblick“-Diashow angezeigt werden sollen. Es werden immer alle Daten erfasst – ausgeblendete Folien werden lediglich nicht angezeigt.'
+      slides_user: Benutzer-Rückblick
     tabs:
       advanced: Erweitert
       general: Allgemein
-      slides: Slides
+      slides: Folien
   forum:
     community:
-      coming_soon: 'Community-Rewind wurde noch nicht erstellt. Bleib dran!'
-      generate_button: 'Community-Rewind erstellen'
+      coming_soon: 'Community-Rückblick wurde noch nicht erstellt. Bleib dran!'
+      generate_button: 'Community-Rückblick erstellen'
       most_active_user: 'Aktivstes Mitglied'
       new_users: 'Neue Mitglieder'
       no_activity: 'Für dieses Jahr gibt es nicht genug Aktivitäten'
-      not_generated: 'Community-Rewind wurde noch nicht erstellt.'
+      not_generated: 'Community-Rückblick wurde noch nicht erstellt.'
       post_count_label: '{count} Beiträge'
-      regenerate: 'Community-Rewind neu erstellen'
-      regenerate_confirm: 'Dadurch werden die vorhandenen Community-Rewind-Daten für dieses Jahr überschrieben. Möchtest du fortfahren?'
+      regenerate: 'Community-Rückblick neu erstellen'
+      regenerate_confirm: 'Dadurch werden die vorhandenen Community-Rückblick-Daten für dieses Jahr überschrieben. Möchtest du fortfahren?'
       regenerate_short: 'Neu erstellen'
       title: Community-Höhepunkte
       top_discussion: 'Aktivste Diskussion'
@@ -100,20 +100,26 @@ huseyinfiliz-rewind:
       total_discussions: 'Diskussionen begonnen'
       total_posts: 'Beiträge insgesamt'
       view_slideshow: 'Diashow anzeigen'
-      watch_slideshow: 'Sieh dir den Community-Rewind für {Jahr} an'
+      watch_slideshow: 'Sieh dir den Community-Rückblick für {Jahr} an'
       watch_slideshow_desc: 'Die Höhepunkte des Jahres im Story-Format'
     community_slideshow:
+      badge_leaderboard: Abzeichensammler
+      badge_leaderboard_desc: 'Mitglieder mit den meisten Abzeichen'
       best_answers: 'Beste Antworten'
+      best_answers_leaderboard: Problemlöser
+      best_answers_leaderboard_desc: 'Mitglieder mit den meisten besten Antworten'
       discussions: Diskussionen
       hot_discussion_desc: '{count} Beiträge in dieser Diskussion'
-      intro_label: 'COMMUNITY REWIND'
+      intro_label: 'COMMUNITY RÜCKBLICK'
       new_members: 'Neue Mitglieder'
       new_members_desc: '{count} sind der Community beigetreten'
       new_members_slide: 'Neue Mitglieder'
       posts: Beiträge
       reactions: Reaktionen
       summary_title: '{year} Community-Höhepunkte'
-      title: Community-Rewind
+      title: Community-Rückblick
+      top_contributors: Top-Beitragende
+      top_contributors_desc: 'Aktivste Mitglieder in diesem Jahr'
       top_tag: Top-Thema
       total_words: 'Geschriebene Wörter'
       total_words_desc: 'Von der gesamten Community'
@@ -130,13 +136,35 @@ huseyinfiliz-rewind:
           tier_4: 'Praktisch schon Teil der Einrichtung'
           tier_5: 'Jede Woche, ohne Ausnahme'
         title: 'Aktive Tage'
+      badges_earned:
+        description: 'Hat dieses Jahr {count} Abzeichen gesammelt'
+        no_data: 'Dieses Jahr keine Abzeichen gesammelt'
+        title: Abzeichen
+      best_answers:
+        description: '{count} Antworten als Lösung markiert'
+      best_friend:
+        description: '{display_name} hat deinen Beiträgen {count} Likes gegeben'
+        stat_likes_given: 'Magst du'
+        stat_likes_received: 'Mag dich'
+        stat_mentions_from: 'Hat dich erwähnt'
+        stat_mentions_to: 'Hast du erwähnt'
+      best_friend_mentions:
+        description: 'Du hast {display_name} {count} Mal erwähnt'
+        title: Erwähnungen
       best_post:
         description_likes: '{count} Likes in „{discussion_title}“'
         description_replies: '{count} Antworten in „{discussion_title}“'
         title: 'Bester Beitrag'
+      community_compare:
+        above_average: 'Über dem Community-Durchschnitt'
+        average: 'Etwa der Community-Durchschnitt'
+        below_average: 'Unter dem Community-Durchschnitt'
       discussion_count:
         description: '{count} neue Konversationen begonnen'
         title: Diskussionen
+      likes_given:
+        description: 'Hat {count} Likes im Forum vergeben'
+        title: 'Likes vergeben'
       likes_received:
         description: 'In diesem Jahr {count} Likes erhalten'
         title: 'Likes empfangen'
@@ -164,39 +192,42 @@ huseyinfiliz-rewind:
           tier_5: 'Thomas Mann wäre stolz'
         title: Wörter
     page:
-      admin_notice: '„Rewind“ ist derzeit für normale Benutzer nicht sichtbar. Aktiviere die Funktion im Admin-Bereich, um sie öffentlich zugänglich zu machen.'
-      empty_public: 'Dieser Nutzer hat keine öffentlichen Rewind-Snapshots.'
-      generate_button: 'Mein Rewind erstellen'
-      generating: 'Dein Rewind wird erstellt...'
+      admin_notice: '„Rückblick“ ist derzeit für normale Benutzer nicht sichtbar. Aktiviere die Funktion im Admin-Bereich, um sie öffentlich zugänglich zu machen.'
+      empty_public: 'Dieser Nutzer hat keine öffentlichen Rückblick-Schnappschüsse.'
+      generate_button: 'Mein Rückblick erstellen'
+      generating: 'Dein Rückblick wird erstellt...'
       hero_subtitle: 'Dein Jahresrückblick'
-      hero_title: '{year} Rewind'
-      my_rewind: 'Mein Rewind'
-      no_snapshot: 'Du hast dein {year} Rewind noch nicht erstellt.'
-      not_available: 'Rewind ist derzeit nicht verfügbar.'
-      personal_title: 'Dein persönliches Rewind'
-      title: Rewind
-      view_button: 'Mein Rewind anzeigen'
+      hero_title: '{year} Rückblick'
+      my_rewind: 'Mein Rückblick'
+      no_snapshot: 'Du hast dein {year} Rückblick noch nicht erstellt.'
+      not_available: 'Rückblick ist derzeit nicht verfügbar.'
+      personal_title: 'Dein persönlicher Rückblick'
+      title: Rückblick
+      view_button: 'Mein Rückblick anzeigen'
     profile:
       controls:
-        confirm_delete: 'Möchtest du diesen Rewind wirklich löschen?'
+        confirm_delete: 'Möchtest du diesen Rückblick wirklich löschen?'
         delete: Löschen
         make_private: 'Privat machen'
         make_public: 'Öffentlich machen'
         regenerate: 'Neu erstellen'
-      generate_for_year: '{year} Rewind erstellen'
+      generate_for_year: '{year} Rückblick erstellen'
       no_activity: 'Zu wenig Aktivität'
       not_yet_available: 'Noch nicht verfügbar'
       private_badge: Privat
       public_badge: Öffentlich
-      tab: Rewind
+      tab: Rückblick
       tap_to_watch: 'Zum Anschauen antippen'
-      year_card: '{year} Rewind'
+      year_card: '{year} Rückblick'
     slideshow:
       close: Schließen
       link_copied: 'Link in die Zwischenablage kopiert!'
-      not_available: 'Rewind nicht verfügbar'
+      no_data: 'Zu wenig Aktivität, um einen Rückblick zu erstellen'
+      not_available: 'Rückblick nicht verfügbar'
       share: Teilen
       summary_title: 'Dein Jahr {Jahr} in Zahlen'
       tap_to_start: 'Zum Starten antippen →'
       visibility_status_private: Privat
       visibility_status_public: Öffentlich
+    user_menu:
+      rewind_link: 'Rückblick {year}'

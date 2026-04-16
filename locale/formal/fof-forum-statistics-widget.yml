@@ -12,6 +12,8 @@ fof-forum-statistics-widget:
     settings:
       cache_duration_help: 'Legt fest, wie lange (in Sekunden) die Statistiken für das Widget gecached werden. Verwende <code>0</code>, um das Caching zu deaktivieren (nicht empfohlen).'
       cache_duration_label: Cache-Dauer
+      classic_look_help: 'Das ursprüngliche Erscheinungsbild des Widgets wiederherstellen, das vor der Integration von fof/forum-widgets-core verwendet wurde.'
+      classic_look_label: 'Klassisches Design'
       flush_cache_on_new_registration_help: 'Wenn aktiviert, wird der Statistik-Cache geleert, wenn sich ein neuer Benutzer im Forum registriert.'
       flush_cache_on_new_registration_label: 'Statistik-Cache bei neuer Registrierung leeren'
       widget_ignore_private_discussions_label: 'Private Diskussionen ignorieren'

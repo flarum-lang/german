@@ -807,7 +807,7 @@ core:
       no_results_text: 'Es sieht so aus, als gäbe es hier keine Ergebnisse.'
       no_search_text: 'Du hast noch nicht nach etwas gesucht.'
       options_heading: Suchoptionen
-      placeholder: Suche...
+      placeholder: Suchen...
       preview_heading: Suchvorschau
       search_clear_button_accessible_label: 'Suchanfrage löschen'
       title: Suche
