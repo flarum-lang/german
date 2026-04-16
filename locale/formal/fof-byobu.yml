@@ -17,7 +17,7 @@ fof-byobu:
       badge-icon: Byobu-Diskussionmarkierung
       delete_on_last_recipient_left: 'PDs löschen, wenn der letzte Nutzer geht'
       delete_on_last_recipient_left_help: 'Wenn diese Option aktiviert ist, werden die PDs dauerhaft aus der Datenbank gelöscht, wenn der letzte Nutzer sie verlässt. Andernfalls wird die PD sanft gelöscht/versteckt.'
-      enable-make-public-option: '"Öffentlich machen" Funktion aktivieren'
+      enable-make-public-option: '„Öffentlich machen“ Funktion aktivieren'
       enable-make-public-option-help: 'Fügt die Möglichkeit für diejenigen hinzu, die die Berechtigung haben, alle Empfänger zu entfernen, ein neues Thema zuzuweisen und die Diskussion öffentlich sichtbar zu machen (gemäß den Sichtbarkeitseinstellungen des ausgewählten Themas).'
       general:
         heading: 'Allgemeine Einstellungen'
