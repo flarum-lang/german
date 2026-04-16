@@ -154,6 +154,7 @@ huseyinfiliz-rewind:
       best_post:
         description_likes: '{count} Likes in „{discussion_title}“'
         description_replies: '{count} Antworten in „{discussion_title}“'
+        no_data: 'Kein herausragender Beitrag in diesem Jahr'
         title: 'Bester Beitrag'
       community_compare:
         above_average: 'Über dem Community-Durchschnitt'
@@ -161,6 +162,10 @@ huseyinfiliz-rewind:
         below_average: 'Unter dem Community-Durchschnitt'
       discussion_count:
         description: '{count} neue Konversationen begonnen'
+        messages:
+          tier_1: 'Jedes Gespräch beginnt mit jemandem, der mutig genug für den ersten Schritt ist'
+          tier_2: 'Regt überall Gespräche an'
+          tier_3: 'Ein echter Gemeinschaftsbildner'
         title: Diskussionen
       likes_given:
         description: 'Hat {count} Likes im Forum vergeben'
@@ -172,7 +177,12 @@ huseyinfiliz-rewind:
         description: 'Spitzenmonat mit {count} Beiträgen'
         title: 'Geschäftigster Monat'
       post_count:
+        description: 'Hat {count} Beiträge im Forum beigetragen'
         messages:
+          tier_1: 'Jede Legende fängt mit dem ersten Beitrag an'
+          tier_2: 'Das Forum hört aufmerksam zu'
+          tier_3: 'Leute kennen deinen Namen'
+          tier_4: 'Das Forum wäre um Einiges stiller ohne dich'
           tier_5: 'Schläfst du überhaupt irgendwann?'
         title: Beiträge
       top_tag:
