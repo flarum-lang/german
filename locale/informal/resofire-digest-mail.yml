@@ -32,6 +32,8 @@ resofire-digest-mail:
       queue_chunk_size_help: 'Anzahl der pro Scheduler-Minute verteilten Benutzer (Standardwert 200, min. 50, max. 10000). Kleine Foren: 200–500. Große Foren auf dedizierten Servern: 1000–10000. Höhere Werte führen zu einer schnelleren Ausführung, verbrauchen jedoch mehr Speicher pro Zyklus.'
       queue_chunk_size_label: 'Größe des Warteschlangen-Blocks'
       queue_delay_label: 'Job-Verzögerung (Sekunden)'
+      queue_name_help: 'Die benannte Warteschlange, in die die Digest-Jobs verschoben werden. Muss mit dem Argument „--queue“ in deinem Cron-Eintrag „queue:work“ übereinstimmen. Standard: digest.'
+      queue_name_label: Warteschlangenname
       send_hour_help: 'Die Uhrzeit, zu der der Versand der Zusammenfassungs-E-Mails beginnt.'
       send_hour_label: Versandzeit
       send_window_end_help: 'Lasse diese Einstellung unverändert, um alle E-Mails auf einmal zu versenden. Stelle einen späteren Zeitpunkt ein, um den Versand über mehrere Stunden zu verteilen – dies wird für größere Foren empfohlen. Wenn du beispielsweise den Start auf 2 Uhr morgens und das Ende auf 4 Uhr morgens festlegst, werden die E-Mails schrittweise zwischen 2 und 4 Uhr morgens versendet.'
