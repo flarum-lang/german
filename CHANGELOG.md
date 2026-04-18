@@ -2,6 +2,29 @@ CHANGELOG
 =========
 
 
+1.25.13 (2026-04-18)
+--------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`justoverclock/auto-post-count-badge`](https://github.com/justoverclockl/auto-post-count-badge)
+* [`resofire/digest-mail`](https://github.com/ResofireV2/digest-mail)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`clarkwinkelmann/flarum-ext-carving-contest`](https://github.com/clarkwinkelmann/flarum-ext-carving-contest)
+* [`clarkwinkelmann/flarum-ext-emojionearea`](https://github.com/clarkwinkelmann/flarum-ext-emojionearea)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
+* [`justoverclock/flarum-ext-feedback`](https://github.com/justoverclockl/flarum-ext-feedback)
+* [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free)
+* [`ralkage/flarum-ext-ad-management`](https://github.com/Ralkage/flarum-ext-ad-management)
+
+
+Alle Änderungen: [1.25.12...1.25.13](https://github.com/flarum-lang/german/compare/1.25.12...1.25.13).
+
+
 1.25.12 (2026-04-14)
 --------------------
 
