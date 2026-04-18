@@ -17,7 +17,7 @@ Extension to localize the Flarum forum software and its official and third-party
 Use Composer in the root directory of your forum:
 
 ```text
-composer require flarum-lang/german
+composer require "flarum-lang/german:*"
 ```
 
 After the installation, you can change the language to formal German through your admin control panel, under this extensions settings menu. Select "Formell" in the language dropdown menu.
