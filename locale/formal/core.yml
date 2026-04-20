@@ -295,6 +295,7 @@ core:
         confirm_button: Zurücksetzen
         title: 'Einstellungen zurücksetzen'
         title_extension: 'Einstellungen für {extensionTitle} zurücksetzen'
+        warning: 'Dieser Vorgang ist unwiderruflich. Die folgenden Einstellungen werden dauerhaft aus der Datenbank gelöscht und auf ihre Standardwerte zurückgesetzt. Die Daten dieser Erweiterung sind davon nicht betroffen.'
       safe_mode_warning: 'Der abgesicherte Modus ist derzeit aktiviert. Erweiterungen werden nicht gestartet, sodass auf ihre Einstellungen nicht zugegriffen werden kann.'
     extensions-health-widget:
       abandoned_no_replacement: 'Kein Ersatz verfügbar'
@@ -444,6 +445,7 @@ core:
   email:
     abandoned_extensions:
       body_intro: 'Folgende installierte Erweiterung(en) wurde(n) als veraltet markiert:'
+      body_outro: 'Bitte prüfe diese Erweiterungen und erwäge gegebenenfalls eine Umstellung auf Alternativen, sofern diese verfügbar sind.'
       line_no_replacement: '{package} (Kein Ersatz verfügbar)'
       line_with_replacement: '{package} (vorgeschlagener Ersatz: {replacement})'
       subject: 'Aktion erforderlich: Verwaiste Erweiterung(en) erkannt'

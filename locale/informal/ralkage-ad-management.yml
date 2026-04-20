@@ -71,6 +71,7 @@ ralkage-ad-management:
       expiration_reminder_days_help: 'Sendet E-Mail-Erinnerungen an Anzeigeninhaber so viele Tage vor Ablauf ihrer Anzeige. Setze den Wert auf 0, um diese Funktion zu deaktivieren.'
       image_settings_title: Bildeinstellungen
       notifications_title: E-Mail-Benachrichtigungen
+      require_image_approval: 'Genehmigung für Bildänderungen erforderlich'
       show_sponsored_label: '„Gesponsert“-Kennzeichnung anzeigen'
       show_sponsored_label_help: 'Zeige eine Beschriftung unter den Anzeigen an. Deaktiviere das Kontrollkästchen, um sie vollständig auszublenden.'
       sponsored_label_text: 'Beschriftung für Anzeigenkennzeichnung'
