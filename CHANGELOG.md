@@ -14,6 +14,7 @@ CHANGELOG
 
 * [`ekumanov/flarum-ext-forum-widgets`](https://github.com/ekumanov/flarum-ext-forum-stats-widget)
 * [`ralkage/flarum-ext-ad-management`](https://github.com/Ralkage/flarum-ext-ad-management)
+* [`resofire/digest-mail`](https://github.com/ResofireV2/digest-mail)
 
 
 Alle Änderungen: [2.0.1...2.0.2](https://github.com/flarum-lang/german/compare/2.0.1...2.0.2).
