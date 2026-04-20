@@ -42,6 +42,12 @@ core:
       logo_text: 'Laden Sie ein Logo hoch, welches anstelle des Forum-Titels angezeigt wird.'
       title: Erscheinungsbild
     basics:
+      abandoned_extensions_heading: 'Verwaiste Erweiterungen'
+      abandoned_extensions_notify_admins_label: 'Administratoren per E-Mail benachrichtigen, wenn bei der wöchentlichen Prüfung eine neue verwaiste Erweiterung erkannt wird'
+      abandoned_extensions_sync_button: 'Jetzt prüfen'
+      abandoned_extensions_sync_error: 'Das Abrufen der Liste verwaister Erweiterungen ist fehlgeschlagen. Bitte versuchen Sie es später erneut.'
+      abandoned_extensions_sync_success: 'Liste der verwaisten Erweiterungen wurde aktualisiert. {count} installierte Erweiterung(en) wurden gefunden.'
+      abandoned_extensions_text: 'Flarum führt eine <a>Community-Liste verwaister Erweiterungen</a>. Wenn eine installierte Erweiterung auf dieser Liste erscheint, wird sie im Admin-Panel markiert.'
       all_discussions_label: '=> core.ref.all_discussions'
       default_language_heading: Standardsprache
       description: 'Legen Sie den Forentitel, die Sprache und weitere Grundeinstellungen fest.'
@@ -181,6 +187,7 @@ core:
         discussion: Diskussion
         feature: Funktionen
         formatting: Formatierung
+        forum-widget: Forum-Widgets
         language: Sprachen
         moderation: Moderation
         other: 'Sonstige Erweiterungen'
@@ -288,6 +295,11 @@ core:
       must_not_be_multidimensional_array_message: 'Der {filter} Filter darf kein mehrdimensionales Array sein.'
     invalid_username_message: 'Der Benutzername darf nur Buchstaben, Zahlen und Gedankenstriche enthalten.'
   email:
+    abandoned_extensions:
+      body: "Hallo {username},\n\nDie folgenden installierte(n) Erweiterung(en) wurden als verwaist markiert:\n\n{extensions}\n\nBitte überprüfen Sie diese Erweiterungen und erwägen Sie den Wechsel zu Alternativen, sofern verfügbar.\n"
+      line_no_replacement: '- {package} (kein Ersatz verfügbar)'
+      line_with_replacement: '- {package} (empfohlener Ersatz: {replacement})'
+      subject: 'Aktion erforderlich: Verwaiste Erweiterung(en) erkannt'
     activate_account:
       body: "Sehr geehrte/r {username},\n\njemand (hoffentlich Sie!) hat sich im Forum {forum} mit dieser E-Mail-Adresse registriert.\n\nFalls Sie es waren, folgen Sie bitte dem untenstehenden Link, um Ihr Konto zu aktivieren:\n{url}\n\nFalls Sie es nicht waren, ignorieren Sie bitte diese E-Mail.\n"
       subject: 'Aktivierung Ihres neuen Kontos'
