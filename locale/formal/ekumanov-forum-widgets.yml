@@ -12,6 +12,7 @@ ekumanov-forum-widgets:
       view_users_count: 'Anzahl der Benutzer ansehen'
     settings:
       bar_position_above: 'Oberhalb der Symbolleiste'
+      bar_position_above_footer: 'Oberhalb der Fußzeile'
       bar_position_below: 'Unterhalb der Symbolleiste'
       bar_position_desktop: 'Leistenposition (Desktop)'
       bar_position_desktop_help: 'Wo die Statistikleiste auf dem Desktop im Verhältnis zur Symbolleiste platziert werden soll. Gilt nur für das Layout in voller Breite.'

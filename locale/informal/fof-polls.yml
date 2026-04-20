@@ -18,6 +18,11 @@ fof-polls:
       view_results_without_voting: 'Ergebnisse anzeigen ohne abzustimmen'
       vote: 'In Umfragen abstimmen'
     settings:
+      discussion_polls:
+        heading: Diskussionsumfragen
+        help: 'Diese Einstellungen betreffen Umfragen, die an Diskussionsbeiträge angehängt sind.'
+      enable_discussion_polls: 'Diskussionsumfragen aktivieren'
+      enable_discussion_polls_help: 'Wenn aktiviert, können Benutzer Umfragen in Diskussionsbeiträgen erstellen. Deaktiviere diese Option, wenn Du nur globale Umfragen verwenden möchten.'
       enable_global_polls: 'Globale Umfragen aktivieren'
       enable_global_polls_help: 'Globale Umfragen sind nicht an einen bestimmten Beitrag gebunden und können über eine spezielle Umfragen-Seite aufgerufen werden.'
       enabled_poll_groups: 'Umfragegruppen aktivieren'
@@ -30,6 +35,12 @@ fof-polls:
         help: 'Diese Einstellungen beeinflussen die Funktionen der globalen Umfragen.'
       image:
         heading: Bildeinstellungen
+        help: 'Konfiguriere die Obergrenzen und Abmessungen für das Hochladen von Bildern. Bilder werden automatisch in das WebP-Format konvertiert, und es werden responsive Varianten erstellt.'
+      image_dimensions_help: 'Die Grundabmessungen für gespeicherte Bilder. HiDPI-Varianten (@2x, @3x) werden automatisch generiert, wenn das Ausgangsbild groß genug ist.'
+      image_height: 'Bildhöhe anpassen (px)'
+      image_width: 'Bildbreite anpassen (px)'
+      max_image_upload_size: 'Maximale Größe für hochgeladene Bilder (KB)'
+      max_image_upload_size_help: 'Die maximale Dateigröße für das hochgeladene Bilder in Kilobyte. Bilder werden nach dem Hochladen automatisch in das WebP-Format konvertiert und in ihrer Größe angepasst, sodass die endgültige Speichergröße in der Regel deutlich geringer ausfällt. Der Standardwert beträgt 10240 KB (10 MB).'
       max_options: 'Maximale Anzahl von Optionen pro Umfrage'
       options_color_blend: 'Textfarbe in Umfrageoptionen für bessere Lesbarkeit anpassen'
       options_color_blend_help: 'Mit dieser Funktion kannst du durch Farbmischen die Umfrageoptionen besser lesbar machen. Deaktiviere diese Funktion wenn sie dein Forum seltsam aussehen lässt und die Lesbarkeit verringert.'
@@ -53,6 +64,7 @@ fof-polls:
       add_title: 'Umfrage hinzufügen'
       allow_change_vote_label: 'Benutzern erlauben, ihre Stimme zu ändern'
       allow_multiple_votes_label: 'Benutzern erlauben, für mehrere Optionen abzustimmen'
+      date_clear: 'Enddatum löschen'
       date_placeholder: 'Enddatum der Umfrage (optional)'
       delete: Löschen
       edit_title: 'Umfrage bearbeiten'
@@ -73,6 +85,7 @@ fof-polls:
         alt_label: 'Alt-Text für das Bild'
         help: 'Laden Sie ein Bild hoch, das neben der Umfrage angezeigt werden soll (optional).'
         label: Umfragebild
+        url_deprecated: 'Diese Umfrage verwendet eine externe Bild-URL. Externe URLs sind veraltet und werden in einer zukünftigen Version entfernt. Bitte lade das Bild über die Schaltfläche „Hochladen“ erneut hoch.'
       poll_option_image:
         help: 'Laden Sie ein Bild hoch, das neben der Umfrage-Antwort angezeigt werden soll (optional).'
         label: Umfrage-Antwortbild
@@ -83,6 +96,7 @@ fof-polls:
       tooltip:
         options:
           add-button: 'Antwort hinzufügen'
+          remove-button: 'Antwort entfernen'
     moderation:
       add: 'Umfrage hinzufügen'
       delete: 'Umfrage entfernen'
@@ -105,6 +119,7 @@ fof-polls:
       delete_label: Löschen
       delete_success_message: 'Umfrage erfolgreich gelöscht.'
       edit_label: Bearbeiten
+      toggle_dropdown_accessible_label: 'Menü für die Umfrageeinstellungen umschalten'
       view_label: Anzeigen
     poll_ended: 'Diese Umfrage ist bereits beendet.'
     poll_form:
