@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+2.0.1 (2026-04-20)
+------------------
+
+**Allgemeine Änderungen**:
+
+* Flarum-Core Übersetzungen aktualisiert.
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`ekumanov/flarum-ext-forum-widgets`](https://github.com/ekumanov/flarum-ext-forum-stats-widget)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+
+
+Alle Änderungen: [2.0.0...2.0.1](https://github.com/flarum-lang/german/compare/2.0.0...2.0.1).
+
+
 2.0.0 (2026-04-18)
 ------------------
 
