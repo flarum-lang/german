@@ -5,6 +5,11 @@ CHANGELOG
 2.0.1 (XXXX-XX-XX)
 ------------------
 
+**Allgemeine Änderungen**:
+
+* Flarum-Core Übersetzungen aktualisiert.
+
+
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`ekumanov/flarum-ext-forum-widgets`](https://github.com/ekumanov/flarum-ext-forum-stats-widget)
