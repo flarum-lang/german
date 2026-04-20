@@ -130,6 +130,12 @@ core:
       logo_text: 'Laden Sie ein Logo hoch, welches anstelle des Forum-Titels angezeigt wird.'
       title: Erscheinungsbild
     basics:
+      abandoned_extensions_heading: 'Verwaiste Erweiterungen'
+      abandoned_extensions_notify_admins_label: 'Administratoren per E-Mail benachrichtigen, wenn bei der wöchentlichen Prüfung eine neue verwaiste Erweiterung erkannt wird'
+      abandoned_extensions_sync_button: 'Jetzt prüfen'
+      abandoned_extensions_sync_error: 'Das Abrufen der Liste verwaister Erweiterungen ist fehlgeschlagen. Bitte versuchen Sie es später erneut.'
+      abandoned_extensions_sync_success: 'Liste der verwaisten Erweiterungen wurde aktualisiert. {count} installierte Erweiterung(en) wurden gefunden.'
+      abandoned_extensions_text: 'Flarum führt eine <a>Community-Liste verwaister Erweiterungen</a>. Wenn eine installierte Erweiterung auf dieser Liste erscheint, wird sie im Admin-Panel markiert.'
       all_discussions_label: '=> core.ref.all_discussions'
       avatar_driver_heading: Benutzeravatar
       avatar_driver_options:
@@ -324,6 +330,7 @@ core:
         discussion: Diskussion
         feature: Funktionen
         formatting: Formatierung
+        forum-widget: Forum-Widgets
         infrastructure: Infrastruktur
         language: Sprachen
         moderation: Moderation
@@ -429,6 +436,8 @@ core:
       must_not_be_multidimensional_array_message: 'Der {filter} Filter darf kein mehrdimensionales Array sein.'
     invalid_username_message: 'Der Benutzername darf nur Buchstaben, Zahlen und Bindestriche enthalten. Er muss mindestens einen Buchstaben enthalten.'
   email:
+    abandoned_extensions:
+      subject: 'Aktion erforderlich: Verwaiste Erweiterung(en) erkannt'
     activate_account:
       body: "Jemand (hoffentlich Sie!) hat sich mit dieser E-Mail-Adresse bei {forum} registriert.\n\nFalls Sie das waren, klicken Sie einfach auf den folgenden Link, um Ihr Konto zu aktivieren:\n{url}\n\nFalls Sie sich nicht registriert haben, ignorieren Sie diese E-Mail bitte.\n"
       subject: 'Aktivierung Ihres neuen Kontos'
