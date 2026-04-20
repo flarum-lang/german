@@ -19,6 +19,9 @@ ekumanov-forum-widgets:
       bar_position_inside: 'Innerhalb der Symbolleiste'
       bar_position_mobile: 'Leistenposition (Mobil)'
       bar_position_mobile_help: 'Wo die Statistikleiste auf der Mobilseite im Verhältnis zur Symbolleiste platziert werden soll.'
+      expanded_panel_width: 'Breite des erweiterten Fensters (Desktop)'
+      expanded_panel_width_full_bar: Voll-Leisten-Breite
+      expanded_panel_width_help: 'Volle Leiste: Das Fenster erstreckt sich über die gesamte Breite der Leiste; durch Klicken an einer beliebigen Stelle der Leiste wird es erweitert. Online-Zelle: Das Fenster erscheint nur unterhalb der Anzahl der Online-Nutzer; durch Klicken auf die Zelle „Online-Nutzer“ wird es erweitert.'
       expanded_panel_width_online_cell: 'Nur für die Online-Benutzer-Zelle'
       ignore_private_discussions: 'Private Diskussionen bei der Zählung ignorieren'
       last_seen_interval: 'Intervall für „zuletzt gesehen“ (Minuten)'
@@ -38,6 +41,8 @@ ekumanov-forum-widgets:
       show_online_users: 'Online-Benutzer anzeigen'
       show_online_users_help: 'Aktiviere oder deaktiviere die Funktion „Online-Benutzer“ vollständig. Wenn deaktiviert, werden keine Abfragen nach Online-Benutzern ausgeführt.'
       show_posts_count: 'Anzahl der Beiträge anzeigen'
+      show_toggle: 'Schaltfläche zum Ein- und Ausblenden anzeigen'
+      show_toggle_help: 'Legt fest, ob die Chevron-Schaltfläche angezeigt wird, mit der das Detailfenster ein- und ausgeblendet werden kann. Bei deaktivierter Option kann das Fenster weiterhin durch Klicken auf die Leiste (Voll-Leisten-Modus) oder auf die Zelle „Online-Benutzer“ (Online-Zellenmodus) geöffnet werden.'
       show_users_count: 'Anzahl der Benutzer anzeigen'
       stats_cache_duration: 'Speicherdauer des Statistik-Caches (Sekunden)'
       stats_cache_duration_help: 'Wie lange sollen die Anzahl der Diskussionen, die Anzahl der Beiträge, die Gesamtzahl der Benutzer und die letzte Registrierung zwischengespeichert werden? Der Cache wird automatisch ungültig, wenn Diskussionen, Beiträge oder Benutzer erstellt oder gelöscht werden. Setze den Wert auf 0, um die Zwischenspeicherung zu deaktivieren (für große Foren nicht empfohlen).'

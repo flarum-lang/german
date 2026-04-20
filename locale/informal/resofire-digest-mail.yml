@@ -25,6 +25,7 @@ resofire-digest-mail:
       limit_new_label: 'Neue Diskussionen — maximale Anzahl'
       limit_pickem_help: 'Maximale Anzahl der kommenden Spiele, der letzten Ergebnisse und der Einträge in der Rangliste, die in der Zusammenfassung angezeigt werden sollen (Standard: 5, Mindestanzahl: 3). Erfordert huseyinfiliz/pickem.'
       limit_pickem_label: 'Pick''em — maximale Anzahl'
+      limit_resofire_gamepedia_label: 'Resofire Gamepedia – Maximale Anzahl an Spielen pro Abschnitt'
       limit_unread_help: 'Maximale Anzahl ungelesener Diskussionen, die in jeder Zusammenfassung aufgenommen werden sollen.'
       limit_unread_label: 'Ungelesene Diskussionen — maximale Anzahl'
       monthly_day_help: 'Tag des Monats, an dem die monatlichen Zusammenfassungen versendet werden. Die Obergrenze liegt bei 28, sodass es auch im Februar funktioniert.'
