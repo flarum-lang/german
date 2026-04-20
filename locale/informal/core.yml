@@ -148,7 +148,7 @@ core:
       display_name_heading: Anzeigename
       display_name_text: 'Wähle den Treiber, der verwendet wird, um den Anzeigenamen der Benutzer zu bestimmen. Standardmäßig wird der Benutzername angezeigt.'
       forum_description_heading: Forumbeschreibung
-      forum_description_text: 'Kurze Beschreibung des Forums. Diese erscheint in den Meta-Tags für Suchmaschinen.'
+      forum_description_text: 'Kurze Beschreibung des Forums. Diese erscheint in den Meta-Tags und wird in Suchmaschinen angezeigt.'
       forum_title_heading: Forumtitel
       home_page_heading: Startseite
       home_page_text: 'Wähle die Seite aus, die Benutzer beim Besuch des Forums zuerst sehen.'
@@ -289,6 +289,12 @@ core:
         no_readme: 'Diese Erweiterung scheint keine README-Datei zu haben'
         title: 'Dokumentation von {extName}'
       replaced: Ersetzt
+      reset_settings:
+        button: 'Einstellungen zurücksetzen'
+        cancel_button: Abbrechen
+        confirm_button: Zurücksetzen
+        title: 'Einstellungen zurücksetzen'
+        title_extension: 'Einstellungen für {extensionTitle} zurücksetzen'
       safe_mode_warning: 'Der abgesicherte Modus ist derzeit aktiviert. Erweiterungen werden nicht gestartet, sodass auf ihre Einstellungen nicht zugegriffen werden kann.'
     extensions-health-widget:
       abandoned_no_replacement: 'Kein Ersatz verfügbar'
@@ -437,6 +443,9 @@ core:
     invalid_username_message: 'Der Benutzername darf nur Buchstaben, Zahlen und Bindestriche enthalten. Mindestens ein Buchstabe muss enthalten sein.'
   email:
     abandoned_extensions:
+      body_intro: 'Folgende installierte Erweiterung(en) wurde(n) als veraltet markiert:'
+      line_no_replacement: '{package} (Kein Ersatz verfügbar)'
+      line_with_replacement: '{package} (vorgeschlagener Ersatz: {replacement})'
       subject: 'Aktion erforderlich: Verwaiste Erweiterung(en) erkannt'
     activate_account:
       body: "Jemand (hoffentlich du!) hat sich mit dieser E-Mail-Adresse bei {forum} angemeldet.\n\nWenn du das warst, klicke einfach auf den folgenden Link, um dein Konto zu aktivieren:\n{url}\n\nWenn du dich nicht angemeldet haben, ignoriere diese E-Mail bitte.\n"
