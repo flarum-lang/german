@@ -10,6 +10,11 @@ CHANGELOG
 * Flarum-Core Übersetzungen aktualisiert.
 
 
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+
+
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`ekumanov/flarum-ext-forum-widgets`](https://github.com/ekumanov/flarum-ext-forum-stats-widget)
