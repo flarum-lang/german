@@ -13,6 +13,7 @@ CHANGELOG
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
 * [`ekumanov/flarum-ext-post-search`](https://github.com/ekumanov/flarum-ext-post-search)
+* [`fof/photoswipe`](https://github.com/FriendsOfFlarum/photoswipe)
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
 
 
