@@ -13,7 +13,14 @@ fof-recaptcha:
       signin: '=> core.forum.log_in.title'
       signup: '=> core.forum.sign_up.title'
       site_key_label: 'Seiten-Schlüssel (Site Key)'
+      type_help: 'Der ausgewählte Typ muss mit dem Typ deiner reCAPTCHA-Anmeldedaten übereinstimmen. „Checkbox“ und „Invisible“ sind beide reCAPTCHA v2; v3 ist punktebasiert und läuft im Hintergrund.'
       type_label: 'reCAPTCHA Typ'
+      type_options:
+        checkbox: 'v2 Checkbox'
+        invisible: 'v2 Invisible'
+        v3: 'v3 (punktebasiert)'
+      v3_threshold_help: 'Beiträge, deren Punktebewertung unter diesem Wert liegt (0.0 = wahrscheinlich ein Bot, 1.0 = wahrscheinlich ein Mensch), werden abgelehnt. Google empfiehlt 0.5 als Ausgangswert. Wird nur verwendet, wenn der Typ auf v3 gesetzt ist.'
+      v3_threshold_label: 'reCAPTCHA v3 Punkteschwelle'
     test:
       help_text: "Dieser Test verwendet die oben eingegebenen Werte. Lade den Test nach jeder Änderung der Einstellungen neu und speichere nach erfolgreichem Test!\nDie unten stehenden Einstellungen entsprechen möglicherweise nicht den gespeicherten Werten.\n"
       load_test_button: Laden
@@ -21,6 +28,11 @@ fof-recaptcha:
       submit_button: Absenden
       success_message: 'Erfolg! reCAPTCHA ist korrekt konfiguriert.'
       title: 'reCAPTCHA testen'
+  lib:
+    error: 'Beim Absenden von reCAPTCHA ist ein Fehler aufgetreten. Bitte versuche es erneut.'
+    not_completed: 'Bitte führe die reCAPTCHA-Überprüfung durch, bevor du fortfahren kannst.'
+    rejected: 'Die reCAPTCHA-Überprüfung ist fehlgeschlagen. Bitte versuche es erneut.'
+    unknown_error: 'Es ist ein unbekannter Fehler aufgetreten. Bitte versuche es erneut.'
 validation:
   recaptcha: 'reCAPTCHA Validierung fehlgeschlagen.'
   recaptcha-unknown: 'Bei der Validierung von reCAPTCHA ist ein unbekannter Fehler aufgetreten ({errors}).'
