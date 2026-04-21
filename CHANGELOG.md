@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+1.25.15 (XXXX-XX-XX)
+--------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`fof/photoswipe`](https://github.com/FriendsOfFlarum/photoswipe)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
+* [`fof/forum-stats-widget`](https://github.com/FriendsOfFlarum/forum-stats-widget)
+
+
+Alle Änderungen: [1.25.14...1.25.15](https://github.com/flarum-lang/german/compare/1.25.14...1.25.15).
+
+
 1.25.14 (2026-04-20)
 --------------------
 
