@@ -13,13 +13,17 @@ CHANGELOG
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
 * [`ekumanov/flarum-ext-post-search`](https://github.com/ekumanov/flarum-ext-post-search)
+* [`fof/mailing`](https://github.com/FriendsOfFlarum/mailing)
 * [`fof/photoswipe`](https://github.com/FriendsOfFlarum/photoswipe)
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`dashzeveg/flarum-ads-manager`](https://github.com/dashzeveg/flarum-ads-manager)
 * [`ekumanov/flarum-ext-forum-widgets`](https://github.com/ekumanov/flarum-ext-forum-stats-widget)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`forumaker/magicread`](https://github.com/forumaker/magicread)
 * [`ralkage/flarum-ext-ad-management`](https://github.com/Ralkage/flarum-ext-ad-management)
 * [`resofire/digest-mail`](https://github.com/ResofireV2/digest-mail)
 
