@@ -23,6 +23,7 @@ fof-masquerade:
       description-help: "Eine optionale Beschreibung, um die Verwendung/Notwendigkeit dieses Feldes zu erklären.\n"
       edit: 'Feld „{field}“ bearbeiten'
       force-user-to-completion: 'Ausfüllen des Profils verpflichtend machen'
+      hide-empty-fields: 'Leere Felder verbergen'
       icon: Symbol
       icon-help: "Zeigt ein Symbol vor den von den Nutzern eingegebenen Werten an. Eine Liste aller verfügbaren Symbole ist auf der <a>FontAwesome Webseite</a> zu finden. Verwende Symbolnamen mit dem „fa-“ Prefix, zum Beispiel „fas fa-info“.\n"
       name: 'Name des Feldes'

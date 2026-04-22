@@ -6,10 +6,20 @@ forumaker-magicread:
   admin:
     settings:
       enable_counter: 'Live-Zeichenzähler im Composer'
-      enable_pagination: 'Paginierung innerhalb von Diskussionen'
+      enable_pagination: 'Fügt Seitennavigation unterhalb der Scrollleiste hinzu'
       enable_readmore: 'Weitere Vorschau auf der Profilseite lesen'
+      enable_readmore_help: 'Blendet lange Beiträge auf Profilseiten aus und fügt eine Schaltfläche hinzu, um sie zu erweitern'
       section_main: Einstellungen
+      section_pagination: Paginierung
   forum:
     counter:
       label: Zeichen
+    pager:
+      first: 'Zurück zum Anfang'
+      go: Los
+      input_label: 'Zu Seite wechseln'
+      last: 'Gehe zur letzten Seite'
+      next: 'Nächste Seite'
+      page: Seite
+      prev: 'Vorherige Seite'
     read_more: 'Mehr lesen'
