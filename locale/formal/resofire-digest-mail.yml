@@ -25,6 +25,7 @@ resofire-digest-mail:
       limit_new_label: 'Neue Diskussionen — maximale Anzahl'
       limit_pickem_help: 'Maximale Anzahl der kommenden Spiele, der letzten Ergebnisse und der Einträge in der Rangliste, die in der Zusammenfassung angezeigt werden sollen (Standard: 5, Mindestanzahl: 3). Erfordert huseyinfiliz/pickem.'
       limit_pickem_label: 'Pick''em — maximale Anzahl'
+      limit_resofire_gamepedia_help: 'Maximale Anzahl der Spiele, die in den Rubriken „Meistdiskutiert“, „Neu hinzugefügt“ und „Top-Genres“ angezeigt werden sollen (Standard: 5, Mindestanzahl: 3). Erfordert resofire/gamepedia.'
       limit_resofire_gamepedia_label: 'Resofire Gamepedia – Maximale Anzahl an Spielen pro Abschnitt'
       limit_unread_help: 'Maximale Anzahl ungelesener Diskussionen, die in jeder Zusammenfassung aufgenommen werden sollen.'
       limit_unread_label: 'Ungelesene Diskussionen — maximale Anzahl'
@@ -32,9 +33,12 @@ resofire-digest-mail:
       monthly_day_label: 'Monatliche Zusammenfassung — Versandtag'
       queue_chunk_size_help: 'Anzahl der pro Scheduler-Minute verteilten Benutzer (Standardwert 200, min. 50, max. 10000). Kleine Foren: 200–500. Große Foren auf dedizierten Servern: 1000–10000. Höhere Werte führen zu einer schnelleren Ausführung, verbrauchen jedoch mehr Speicher pro Zyklus.'
       queue_chunk_size_label: 'Größe des Warteschlangen-Blocks'
+      queue_delay_help: 'Sekunden, bevor Aufgaben aus der Warteschlange für die Worker verfügbar werden (Standardwert: 0). Im Fenstermodus ist dies selten erforderlich – das Fenster selbst verteilt die Last über einen längeren Zeitraum. Nur sinnvoll, wenn der zweistufige Befehl „digest:enqueue“ bei sehr großen Foren verwendet wird.'
       queue_delay_label: 'Job-Verzögerung (Sekunden)'
       queue_name_help: 'Die benannte Warteschlange, in die die Digest-Jobs verschoben werden. Muss mit dem Argument „--queue“ in deinem Cron-Eintrag „queue:work“ übereinstimmen. Standard: digest.'
       queue_name_label: Warteschlangenname
+      queue_tries_help: 'Wie oft ein fehlgeschlagener Digest-Job erneut versucht wird, bevor er in die Tabelle der fehlgeschlagenen Jobs verschoben wird (Standardwert: 3). Bei den Wiederholungsversuchen kommt ein exponentieller Backoff zum Einsatz: 30 s, 60 s, 120 s. Hinweis: Wenn Du blomstra/database-queue installiert hast, verfügt dieses über eine eigene Einstellung für Wiederholungsversuche – es gilt der niedrigere der beiden Werte. Es wird empfohlen, beide Erweiterungs-Einstellungen auf denselben Wert zu setzen.'
+      queue_tries_label: 'Maximale Anzahl von Wiederholungsversuchen'
       send_hour_help: 'Die Uhrzeit, zu der der Versand der Zusammenfassungs-E-Mails beginnt.'
       send_hour_label: Versandzeit
       send_window_end_help: 'Lasse diese Einstellung unverändert, um alle E-Mails auf einmal zu versenden. Stelle einen späteren Zeitpunkt ein, um den Versand über mehrere Stunden zu verteilen – dies wird für größere Foren empfohlen. Wenn du beispielsweise den Start auf 2 Uhr morgens und das Ende auf 4 Uhr morgens festlegst, werden die E-Mails schrittweise zwischen 2 und 4 Uhr morgens versendet.'
