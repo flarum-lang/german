@@ -16,6 +16,7 @@ CHANGELOG
 * [`fof/mailing`](https://github.com/FriendsOfFlarum/mailing)
 * [`fof/photoswipe`](https://github.com/FriendsOfFlarum/photoswipe)
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`michaelbelgium/flarum-ai-autoreply`](https://github.com/MichaelBelgium/flarum-ai-autoreply)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
@@ -24,7 +25,9 @@ CHANGELOG
 * [`ekumanov/flarum-ext-forum-widgets`](https://github.com/ekumanov/flarum-ext-forum-stats-widget)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 * [`forumaker/magicread`](https://github.com/forumaker/magicread)
+* [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind)
 * [`ralkage/flarum-ext-ad-management`](https://github.com/Ralkage/flarum-ext-ad-management)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado)
 * [`resofire/digest-mail`](https://github.com/ResofireV2/digest-mail)
 
 
