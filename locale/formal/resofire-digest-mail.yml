@@ -80,33 +80,64 @@ resofire-digest-mail:
   email:
     awards:
       categories: Kategorien
+      coming_soon: Demnächst
       cta_results: 'Vollständige Ergebnisse ansehen'
       cta_view: 'Auszeichnungen ansehen'
+    badges:
+      earned_count_plural: '{count} Mal verdient in dieser {period}'
+      earned_count_singular: '{count} Mal verdient in dieser {period}'
+      intro: 'Mitglieder, die in dieser {period} Abzeichen verdient haben.'
+      rarest: 'Seltenstes verliehenes Abzeichen'
+      rarest_count_plural: 'Nur {count} Mitglieder haben dieses Abzeichen'
+      rarest_count_singular: 'Nur {count} Mitglieder haben dieses Abzeichen'
     featured:
       author_label: Verfasser
+      badge: Hervorgehoben
+      cta: 'Diskutiere mit'
+    gamepedia:
+      cta: 'Gamepedia durchsuchen'
+      newly_added: 'Neu hinzugefügt'
+    heading: 'Was gab es in dieser {period} Neues?'
     leaderboard:
+      biggest_mover: 'Stärkster Aufsteiger in dieser {period}'
       col_member: Mitglied
       col_move: Verschieben
       col_rank: '#'
+      col_score: Punkte
       new_badge: NEU
+      rankings_note: 'Ranglisten basieren auf der Gesamtpunktzahl, die durch Beiträge, Diskussionen, Likes, Abzeichen und tägliche Anmeldungen erzielt wurde.'
+      spot_plural: Plätze
+      spot_singular: Platz
     members:
       joined: '{time_ago} beigetreten'
     pickem:
       col_accuracy: Genauigkeit
       col_player: Spieler
       col_pts: Pkt
+      col_rank: '#'
+      draw: Unentschieden
+      leaderboard_heading: 'Pick''em Rangliste'
+      results_heading: 'Aktuelle Ergebnisse'
+      upcoming_heading: 'Bevorstehende Spiele'
+    resofire_gamepedia:
+      cta: 'Gamepedia durchsuchen'
+      most_discussed: 'Meistdiskutiert in dieser {period}'
+      newly_added: 'Neu hinzugefügt'
     sections:
       active_discussions: 'Aktive Diskussionen'
       badges: Abzeichen
+      favorites: Lieblingsdiskussionen
       gamepedia: Gamepedia
       leaderboard: Rangliste
       new_discussions: 'Neue Diskussionen'
       new_members: 'Neue Mitglieder'
+      pickem: 'Pick''em'
     stats:
       active_users: 'Aktive Benutzer'
       discussions: Diskussionen
       new_members: 'Neue Mitglieder'
       posts: Beiträge
+    subject: '{forum} — Deine {frequency} Zusammenfassung'
   forum:
     onboarding:
       modal_body: 'Erhalte regelmäßig eine Zusammenfassung der besten Diskussionen, neuer Mitglieder und der aktuellen Ereignisse im Forum – direkt in deinem Posteingang.'
@@ -122,12 +153,16 @@ resofire-digest-mail:
       save_error: 'Deine Einstellung konnte nicht gespeichert werden. Bitte versuche es erneut.'
       saved: Gespeichert
   unsubscribe:
+    click_hint: 'Klicke auf eine Option, um deine Einstellung sofort zu speichern.'
     daily_desc: 'Eine E-Mail pro Tag mit den neuesten Aktivitäten.'
     daily_title: Täglich
+    greeting: 'Hallo, {name}. Wähle aus, wie oft du eine Zusammenfassung der Neuigkeiten aus dem {forum} erhalten möchtest.'
+    heading: 'Einstellungen für die E-Mail-Zusammenfassung'
     monthly_desc: 'Eine monatliche Zusammenfassung am {day} jedes Monats.'
     monthly_title: Monatlich
     off_desc: 'Schick mir keine E-Mail-Zusammenfassung.'
     off_title: Aus
+    page_title: 'Einstellungen für die E-Mail-Zusammenfassung'
     weekly_desc: 'Eine wöchentliche Zusammenfassung jeden {day}.'
     weekly_title: Wöchentlich
   unsubscribe_invalid:
