@@ -4,11 +4,23 @@
 
 resofire-digest-mail:
   admin:
+    onboarding:
+      frequency_label: 'Häufigkeit der automatischen Anmeldung'
+      mode_auto_enroll: 'Neue Benutzer automatisch anmelden'
+      mode_help: 'Legt fest, wie neue Benutzer bei der Aktivierung ihres Kontos für die Zusammenfassungs-E-Mails angemeldet werden.'
+      mode_label: Einführungsmodus
+      mode_none: 'Keine Voreinstellung — die Benutzer wählen ihre eigenen Einstellungen'
+      mode_opt_in_modal: 'Modalfenster zum Anmelden anzeigen'
+      section_heading: 'Einführung für neue Benutzer'
     settings:
       enable_awards_help: 'Aktuelle und bevorstehende Auszeichnungen in der Zusammenfassung anzeigen. Erfordert huseyinfiliz/awards.'
       enable_awards_label: Auszeichnungen
       featured_discussion_help: 'Gib eine Diskussions-ID ein, um die Diskussion als „Empfohlene Diskussion“ oben in jeder Zusammenfassung anzuzeigen. Lasse das Feld leer, wenn keine empfohlene Diskussion angezeigt werden soll.'
       featured_discussion_label: 'ID einer empfohlenen Diskussion'
+      hot_recency_weight_help: 'Wie stark sich die Aktualität auf die Beliebtheit auswirkt. Je höher der Wert, desto stärker werden neuere Beiträge gewichtet. Setze den Wert auf 0, um die Rangfolge ausschließlich nach Antworten zu bestimmen.'
+      hot_recency_weight_label: 'Beliebtheitsbewertung — Gewichtung von Aktualität'
+      hot_reply_weight_help: 'Wie stark jede Antwort in die Beliebtheitsbewertung einer Diskussion einfließt. Je höher der Wert, desto stärker wird die Bewertung von den Antworten bestimmt.'
+      hot_reply_weight_label: 'Beliebtheitsbewertung — Gewichtung von Antworten'
       limit_badges_help: 'Maximale Anzahl der Benutzer, die kürzlich Abzeichen erhalten haben und in der Zusammenfassung aufgeführt werden sollen (Standardwert 5, Mindestwert 3). Erfordert fof/badges.'
       limit_badges_label: 'Abzeichen — maximale Anzahl der kürzlich erworbenen'
       limit_favorites_help: 'Maximale Anzahl der anzuzeigenden Lieblingsdiskussionen, sortiert nach Likes / Reaktionen im angegebenen Zeitraum (Standard: 6, Mindestwert: 3). Auf 0 setzen, um die Funktion zu deaktivieren. Verwendet „fof/reactions“, falls aktiviert, andernfalls „flarum/likes“.'
@@ -65,6 +77,36 @@ resofire-digest-mail:
       theme_label: Design-Vorschau
       theme_light: Hell
       theme_light_only: 'Nur Heller Modus – installiere und aktiviere „fof/nightmode“, um E-Mails im dunklen Modus freizuschalten'
+  email:
+    awards:
+      categories: Kategorien
+      cta_results: 'Vollständige Ergebnisse ansehen'
+      cta_view: 'Auszeichnungen ansehen'
+    featured:
+      author_label: Verfasser
+    leaderboard:
+      col_member: Mitglied
+      col_move: Verschieben
+      col_rank: '#'
+      new_badge: NEU
+    members:
+      joined: '{time_ago} beigetreten'
+    pickem:
+      col_accuracy: Genauigkeit
+      col_player: Spieler
+      col_pts: Pkt
+    sections:
+      active_discussions: 'Aktive Diskussionen'
+      badges: Abzeichen
+      gamepedia: Gamepedia
+      leaderboard: Rangliste
+      new_discussions: 'Neue Diskussionen'
+      new_members: 'Neue Mitglieder'
+    stats:
+      active_users: 'Aktive Benutzer'
+      discussions: Diskussionen
+      new_members: 'Neue Mitglieder'
+      posts: Beiträge
   forum:
     onboarding:
       modal_body: 'Erhalte regelmäßig eine Zusammenfassung der besten Diskussionen, neuer Mitglieder und der aktuellen Ereignisse im Forum – direkt in deinem Posteingang.'
@@ -79,3 +121,22 @@ resofire-digest-mail:
       frequency_weekly: Wöchentlich
       save_error: 'Deine Einstellung konnte nicht gespeichert werden. Bitte versuche es erneut.'
       saved: Gespeichert
+  unsubscribe:
+    daily_desc: 'Eine E-Mail pro Tag mit den neuesten Aktivitäten.'
+    daily_title: Täglich
+    monthly_desc: 'Eine monatliche Zusammenfassung am {day} jedes Monats.'
+    monthly_title: Monatlich
+    off_desc: 'Schick mir keine E-Mail-Zusammenfassung.'
+    off_title: Aus
+    weekly_desc: 'Eine wöchentliche Zusammenfassung jeden {day}.'
+    weekly_title: Wöchentlich
+  unsubscribe_invalid:
+    body_expired: 'Dieser Abmeldelink ist entweder abgelaufen (Links sind 90 Tage lang gültig) oder wurde bereits verwendet. In jeder Zusammenfassungs-E-Mail, die wir dir senden, findest du einen neuen Link.'
+    body_signin: 'Um deine Einstellungen für die Zusammenfassung zu verwalten, melde dich bei {forum} an und rufe deine Benachrichtigungseinstellungen auf.'
+    heading: 'Dieser Link ist nicht mehr gültig'
+    page_title: 'Ungültiger oder veralteter Link'
+  unsubscribe_saved:
+    body: 'Deine Einstellungen für die E-Mail-Zusammenfassung wurden erfolgreich aktualisiert.'
+    heading: 'Einstellungen gespeichert'
+    page_title: 'Einstellungen gespeichert'
+    return_link: 'Zurück zu {forum}'

@@ -35,11 +35,11 @@ huseyinfiliz-rewind:
       community_slide_most_active_user: 'Aktivster Benutzer'
       community_slide_most_loved: Meistgeliebt
       community_slide_new_members: 'Neue Mitglieder'
-      community_slide_peak_hour: Stoßzeiten
+      community_slide_peak_hour: 'Aktivste Tageszeit'
       community_slide_star_post: Star-Beitrag
       community_slide_top_contributors: 'Aktivste Mitglieder'
       community_slide_top_discussion: 'Heiß diskutiertes Thema'
-      community_slide_top_tag: Top-Thema
+      community_slide_top_tag: 'Beliebtestes Thema'
       community_slide_total_words: 'Wörter geschrieben'
       community_slide_year-overview: 'Das Jahr in Zahlen'
       delete_rewinds_button: 'Rückblicke löschen'
@@ -72,7 +72,7 @@ huseyinfiliz-rewind:
       slide_night_owl: 'Aktivste Stunden'
       slide_post_count: Beiträge
       slide_top_emojis: 'Beliebteste Emojis'
-      slide_top_tag: 'Beliebteste Themen'
+      slide_top_tag: 'Beliebtestes Thema'
       slide_top_words: 'Häufigste Wörter'
       slide_word_count: 'Wörter geschrieben'
       slides_community: Community-Rückblick
@@ -96,31 +96,47 @@ huseyinfiliz-rewind:
       regenerate_short: 'Neu erstellen'
       title: Community-Höhepunkte
       top_discussion: 'Aktivste Diskussion'
-      top_tag: Top-Thema
+      top_tag: 'Beliebtestes Thema'
       total_discussions: 'Diskussionen begonnen'
       total_posts: 'Beiträge insgesamt'
       view_slideshow: 'Diashow anzeigen'
       watch_slideshow: 'Sieh dir den Community-Rückblick für {Jahr} an'
       watch_slideshow_desc: 'Die Höhepunkte des Jahres im Story-Format'
     community_slideshow:
+      avg_per_post: 'Durchschnitt pro Beitrag'
       badge_leaderboard: Abzeichensammler
       badge_leaderboard_desc: 'Mitglieder mit den meisten Abzeichen'
+      badges_awarded: 'Abzeichen vergeben'
       best_answers: 'Beste Antworten'
       best_answers_leaderboard: Problemlöser
       best_answers_leaderboard_desc: 'Mitglieder mit den meisten besten Antworten'
+      busiest_month: 'Geschäftigster Monat'
+      busiest_month_desc: 'Spitzenmonat mit {count} Beiträgen'
+      busiest_month_label: 'Geschäftigster Monat'
       discussions: Diskussionen
+      hot_discussion: 'Heiß diskutiert'
       hot_discussion_desc: '{count} Beiträge in dieser Diskussion'
       intro_label: 'COMMUNITY RÜCKBLICK'
+      most_loved: 'Am beliebtesten'
+      most_loved_desc: 'Mitglieder, die die meisten Likes erhalten haben'
       new_members: 'Neue Mitglieder'
       new_members_desc: '{count} sind der Community beigetreten'
       new_members_slide: 'Neue Mitglieder'
+      peak_hour_label: 'Aktivste Stunde'
+      peak_hours: 'Aktivste Tageszeit'
+      peak_hours_desc: 'Die meisten Beiträge wurden um diese Uhrzeit verfasst'
       posts: Beiträge
       reactions: Reaktionen
+      star_post: Star-Beitrag
+      star_post_desc: 'Beliebtester Beitrag des Jahres'
       summary_title: '{year} Community-Höhepunkte'
       title: Community-Rückblick
+      top_contributor_label: Top-Beitragender
       top_contributors: Top-Beitragende
       top_contributors_desc: 'Aktivste Mitglieder in diesem Jahr'
-      top_tag: Top-Thema
+      top_tag: 'Beliebtestes Thema'
+      top_tag_desc: 'Meistdiskutiertes Thema mit {count} Diskussionen'
+      top_tag_label: 'Beliebtestes Thema'
       total_words: 'Geschriebene Wörter'
       total_words_desc: 'Von der gesamten Community'
       total_words_label: 'Wörter insgesamt'
@@ -142,21 +158,33 @@ huseyinfiliz-rewind:
         title: Abzeichen
       best_answers:
         description: '{count} Antworten als Lösung markiert'
+        messages:
+          tier_1: 'Hat jemandem geholfen, eine Antwort zu finden'
+          tier_2: 'Die erste Anlaufstelle für Antworten'
+          tier_3: 'Der Experte des Forums'
+        title: 'Beste Antworten'
       best_friend:
         description: '{display_name} hat deinen Beiträgen {count} Likes gegeben'
+        message: 'Unzertrennlich in diesem Jahr'
+        no_data: 'Es liegen keine Daten zu besten Freunden vor'
         stat_likes_given: 'Magst du'
         stat_likes_received: 'Mag dich'
         stat_mentions_from: 'Hat dich erwähnt'
         stat_mentions_to: 'Hast du erwähnt'
+        title: 'Bester Freund'
       best_friend_mentions:
         description: 'Du hast {display_name} {count} Mal erwähnt'
+        mentioned_you: 'Du wurdest erwähnt × {count}'
+        no_data: 'Es liegen kein Daten zu Erwähnungen vor'
         title: Erwähnungen
+        you_mentioned: 'Du hast erwähnt × {count}'
       best_post:
         description_likes: '{count} Likes in „{discussion_title}“'
         description_replies: '{count} Antworten in „{discussion_title}“'
         no_data: 'Kein herausragender Beitrag in diesem Jahr'
         title: 'Bester Beitrag'
       community_compare:
+        above: '{times}x der Durchschnittswert der Community'
         above_average: 'Über dem Community-Durchschnitt'
         average: 'Etwa der Community-Durchschnitt'
         below_average: 'Unter dem Community-Durchschnitt'
@@ -169,13 +197,25 @@ huseyinfiliz-rewind:
         title: Diskussionen
       likes_given:
         description: 'Hat {count} Likes im Forum vergeben'
+        messages:
+          tier_1: 'Ein aufmerksames Like hier und da'
+          tier_2: 'Verbreitet positive Stimmung'
+          tier_3: 'Größter Anfeurer des Forums'
         title: 'Likes vergeben'
       likes_received:
         description: 'In diesem Jahr {count} Likes erhalten'
+        messages:
+          tier_1: 'Worte, die nachhallten'
+          tier_2: 'Die Leute wissen wirklich zu schätzen, was du schreibst'
+          tier_3: 'Sehr beliebt hier'
         title: 'Likes empfangen'
       most_active_month:
         description: 'Spitzenmonat mit {count} Beiträgen'
         title: 'Geschäftigster Monat'
+      night_owl:
+        description: 'Die meisten Beiträge wurden um diese Uhrzeit verfasst'
+        description_owl: 'Die meisten Beiträge wurden um diese Uhrzeit verfasst'
+        title: 'Aktive Stunden'
       post_count:
         description: 'Hat {count} Beiträge im Forum beigetragen'
         messages:
@@ -185,10 +225,13 @@ huseyinfiliz-rewind:
           tier_4: 'Das Forum wäre um Einiges stiller ohne dich'
           tier_5: 'Schläfst du überhaupt irgendwann?'
         title: Beiträge
+      top_emojis:
+        description: 'Die am häufigsten verwendeten Emojis'
+        title: 'Beliebteste Emojis'
       top_tag:
         description: 'Das aktivste Thema mit {count} Beiträgen'
         no_data: 'Keine Themendaten verfügbar'
-        title: Topthema
+        title: 'Beliebtestes Thema'
       top_words:
         description: 'Am häufigsten verwendete Wörter'
         title: 'Häufigste Wörter'
@@ -239,5 +282,7 @@ huseyinfiliz-rewind:
       tap_to_start: 'Zum Starten antippen →'
       visibility_status_private: Privat
       visibility_status_public: Öffentlich
+      visibility_tap_hide: 'Zum Ausblenden antippen'
+      visibility_tap_show: 'Zum Veröffentlichen antippen'
     user_menu:
       rewind_link: 'Rückblick {year}'

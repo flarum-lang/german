@@ -26,6 +26,8 @@ ramon-avocado:
       banner_image_label: Bannerbild
       custom_default_avatar_help: 'Lade ein benutzerdefiniertes Standard-Avatarbild für Benutzer hoch, die keinen Avatar haben.'
       custom_default_avatar_label: 'Benutzerdefinierter Standard-Avatar'
+      custom_loading_spinner_help: 'Ersetze die standardmäßige Lade-Animation durch einen animierten SVG-Lade-Spinner.'
+      custom_loading_spinner_label: 'Benutzerdefinierte Lade-Animation'
       featured_tags_empty: 'Keine Themen gefunden.'
       featured_tags_help: 'Ausgewählte Kategorien werden auf der Startseite und der Kategorieseite mit einem Sternsymbol hervorgehoben.'
       featured_tags_label: 'Hervorgehobene Kategorien'
@@ -37,6 +39,7 @@ ramon-avocado:
       hero_image_position_label: 'Position des Titelbildes'
       hide_links_for_guests_help: 'Verhindert, dass Gäste Links in Beiträgen anklicken können. Beim Anklicken eines Links wird stattdessen eine Aufforderung zum Anmelden oder Registrieren angezeigt.'
       hide_links_for_guests_label: 'Links für Gäste verbergen'
+      loading_spinner_style_label: Spinner-Stil
       logo_enabled_help: 'Das benutzerdefinierte Logo in der Kopfzeile anzeigen.'
       logo_enabled_label: 'Benutzerdefiniertes Logo aktivieren'
       logo_svg_help: 'Lade ein benutzerdefiniertes SVG-Logo für dein Forum hoch.'
@@ -57,8 +60,12 @@ ramon-avocado:
       show_guest_cta_label: 'Call-to-Action für Gäste anzeigen'
       show_online_users_help: 'Zeige die Anzahl der derzeit online befindlichen Benutzer an.'
       show_online_users_label: 'Anzahl der Online-Nutzer anzeigen'
+      show_post_cta_help: 'Zeige nach dem ersten Beitrag in einer Diskussion eine Einblendung mit den Optionen „Anmelden“ und „Registrieren“ an, die nur für Gäste sichtbar ist.'
+      show_post_cta_label: 'Für Gäste nach dem ersten Beitrag einen Aufruf zum Beitritt anzeigen'
       show_share_help: 'Füge zu jedem Beitrag eine Schaltfläche zum Teilen hinzu.'
       show_share_label: 'Teilen-Knopf neben Beiträgen anzeigen'
+      spinner_custom_code_help: 'Füge einen beliebigen SVG- oder HTML-Code ein, der als Lade-Spinner verwendet werden soll.'
+      spinner_custom_code_label: 'Benutzerdefinierter Spinner-Code'
   forum:
     actions:
       share: Teilen
@@ -67,6 +74,9 @@ ramon-avocado:
       participant_singular: Teilnehmer
       post_plural: Beiträge
       post_singular: Beitrag
+    discussions:
+      load_more: 'Mehr laden'
+      title: 'Alle Diskussionen'
     header:
       back_home: 'Zurück zur Startseite'
       or: oder
@@ -78,6 +88,30 @@ ramon-avocado:
       categories_heading: Kategorien
       choose_tags: 'Themen wählen'
       composer_close: Schließen
+      discussion_plural_card: '{count} Diskussionen'
+      discussion_singular: Diskussion
+      discussion_singular_card: 'Eine Diskussion'
+      discussions: Diskussionen
+      like: Like
+      like_count_plural: '{count} Likes'
+      like_count_singular: '1 Like'
+      or: oder
+      post_plural: '{count} Beiträge'
+      post_singular: 'Ein Beitrag'
+      replies: Antworten
+      reply_count_plural: '{count} Antworten'
+      reply_count_singular: 'Eine Antwort'
+      reply_label: Antworten
+      reply_plural: '{count} Antworten'
+      reply_singular: 'Eine Antwort'
+      see_all: 'Alle anzeigen'
+      see_other_replies: '{count} weitere Antworten anzeigen'
+      see_other_reply_singular: '{count} andere Antwort anzeigen'
+      today_time: 'Heute, {time}'
+      untitled: 'Ohne Titel'
+      yesterday_time: 'Gestern, {time}'
+    post:
+      op_badge: Verfasser
     post_cta:
       or: oder
     search:
@@ -94,3 +128,18 @@ ramon-avocado:
       tab_posts: Beiträge
       tab_users: Benutzer
       title: Suche
+    tags:
+      all_discussions: 'Alle Diskussionen'
+      discussion_plural: Diskussionen
+      discussion_singular: Diskussion
+      other_tags_label: 'Andere Themen'
+      title: Kategorien
+    team:
+      disabled: 'Diese Seite ist nicht verfügbar.'
+      discussions: Diskussionen
+      empty: 'Keine Mitglieder gefunden.'
+      member_plural: Mitglieder
+      member_since: Seit
+      member_singular: Mitglied
+      posts: Beiträge
+      title: 'Unser Team'

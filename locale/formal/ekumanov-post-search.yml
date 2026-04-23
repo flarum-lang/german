@@ -14,10 +14,24 @@ ekumanov-post-search:
       sideNavAccess: 'Zugriff über die Seitenleiste im Diskussionsbereich'
       sideNavAccessHelp: 'Zeige in der Diskussions-Seitenleiste eine Schaltfläche „Diskussion durchsuchen“ an.'
   forum:
+    cannotGoToPost:
+      action: 'Versuche, die Filter zurückzusetzen'
+      message: 'Kann diesen Beitrag nicht aufrufen'
+    discussionControls:
+      searchInDiscussion: 'Diskussion durchsuchen'
+    post:
+      opBadge: Diskussionsstarter
+      opBadgeTooltip: 'Klicken, um nur Antworten dieses Benutzers anzuzeigen'
+    postControls:
+      authorFilter: 'Nur Antworten dieses Autors anzeigen'
     stream:
       noResults: 'In dieser Diskussion gibt es keine Beiträge, auf die die Suchanfrage zutrifft'
       otherAuthorsGap: '{count, plural, one {Ein Beitrag eines anderen Autors ausgeblendet} other {{count} Beiträge anderer Autoren ausgeblendet}}'
       unmatchedGap: '{count, plural, one {Ein nicht passender Beitrag wurde ausgeblendet} other {{count} nicht passende Beiträge wurden ausgeblendet}}'
     toolbar:
       authorPlaceholder: 'Nach Autor filtern…'
+      clear: 'Filter löschen'
+      close: 'Filter löschen und Symbolleiste schließen'
+      pin: 'Filter-Symbolleiste in Diskussionen immer öffnen'
       searchPlaceholder: 'Diskussion durchsuchen…'
+      summary: '{matching} Treffer von {total}'
