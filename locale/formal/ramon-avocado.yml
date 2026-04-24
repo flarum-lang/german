@@ -86,6 +86,7 @@ ramon-avocado:
       post_plural: Beiträge
       post_singular: Beitrag
     discussions:
+      home: 'Zurück zur Startseite'
       load_more: 'Mehr laden'
       title: 'Alle Diskussionen'
     header:
@@ -99,14 +100,24 @@ ramon-avocado:
       categories_heading: Kategorien
       choose_tags: 'Themen wählen'
       composer_close: Schließen
+      composer_post: 'Diskussion veröffentlichen'
+      composer_submitting: 'Wird veröffentlicht…'
+      composer_title_placeholder: Diskussionstitel…
       discussion_plural_card: '{count} Diskussionen'
       discussion_singular: Diskussion
       discussion_singular_card: 'Eine Diskussion'
       discussions: Diskussionen
+      filter_tags: 'Themen filtern'
       like: Like
       like_count_plural: '{count} Likes'
       like_count_singular: '1 Like'
+      log_in: Anmelden
+      more: mehr
+      new_discussion: 'Neue Diskussion'
+      no_tags_found: 'Keine Themen gefunden'
       or: oder
+      popular_heading: 'Populäre Diskussionen'
+      popular_no_discussions: 'Noch keine Diskussionen.'
       post_plural: '{count} Beiträge'
       post_singular: 'Ein Beitrag'
       replies: Antworten
@@ -118,9 +129,14 @@ ramon-avocado:
       see_all: 'Alle anzeigen'
       see_other_replies: '{count} weitere Antworten anzeigen'
       see_other_reply_singular: '{count} andere Antwort anzeigen'
+      sign_up: Registrieren
       today_time: 'Heute, {time}'
       untitled: 'Ohne Titel'
+      view: Anzeigen
+      view_post: 'Beitrag anzeigen'
       yesterday_time: 'Gestern, {time}'
+    link:
+      login_to_view: 'Bitte melde dich an, um den Link anzuzeigen'
     link_cta:
       placeholder: 'Bitte melde dich an, um den Link anzuzeigen'
     post:
@@ -164,5 +180,6 @@ ramon-avocado:
       member_plural: Mitglieder
       member_since: Seit
       member_singular: Mitglied
+      no_bio: Community-Mitglied.
       posts: Beiträge
       title: 'Unser Team'
