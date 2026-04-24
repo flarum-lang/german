@@ -24,6 +24,7 @@ CHANGELOG
 * [`dashzeveg/flarum-ads-manager`](https://github.com/dashzeveg/flarum-ads-manager)
 * [`ekumanov/flarum-ext-forum-widgets`](https://github.com/ekumanov/flarum-ext-forum-stats-widget)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping)
 * [`forumaker/magicread`](https://github.com/forumaker/magicread)
 * [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind)
 * [`ralkage/flarum-ext-ad-management`](https://github.com/Ralkage/flarum-ext-ad-management)
