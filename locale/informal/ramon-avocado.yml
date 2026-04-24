@@ -18,6 +18,15 @@ ramon-avocado:
       footer_show_social: 'Social-Media-Links anzeigen'
       footer_social: Social-Media-Links
       footer_social_help_json: 'Konfiguriere Social-Media-Links im JSON-Format. Verwende folgende Schlüssel: facebook, twitter, linkedin, instagram, youtube.'
+      section_team: Teamseite
+      team_desc_label: Seitenbeschreibung
+      team_desc_placeholder: 'Lerne die Menschen hinter der Community kennen.'
+      team_enabled_help: 'Zeigt die Seite „/team“ mit den Mitgliedern der ausgewählten Gruppen an.'
+      team_enabled_label: 'Teamseite aktivieren'
+      team_groups_empty: 'Keine Gruppen gefunden.'
+      team_groups_help: 'Die Mitglieder der ausgewählten Gruppen werden auf der Team-Seite angezeigt.'
+      team_groups_label: 'Anzuzeigende Gruppen'
+      team_title_label: Seitentitel
     loading: 'Wird geladen…'
     settings:
       auth_image_help: 'Hintergrundbild, das im rechten Bereich der Modalfenster für Anmeldung, Registrierung und Passwort vergessen angezeigt wird.'
@@ -33,6 +42,8 @@ ramon-avocado:
       featured_tags_label: 'Hervorgehobene Kategorien'
       fixed_avatar_effect_help: 'Avatar des Beitragsautors beim Scrollen bei längeren Beiträgen auf Desktop am oberen Rand fixieren.'
       fixed_avatar_effect_label: 'Fixierte Avatare aktivieren'
+      hero_decoration_icon_help: 'Zeige das Symbol für das Unterthema als großes dekoratives Element auf der rechten Seite der Diskussionsüberschrift an.'
+      hero_decoration_icon_label: 'Unterthema-Symbol im Diskussions-Hero anzeigen'
       hero_decoration_icon_opacity_help: 'Stelle die Deckkraft des Dekorationssymbols als Prozentsatz ein. 100 = vollständig deckend, 0 = durchsichtig.'
       hero_decoration_icon_opacity_label: 'Deckkraft des Symbols (0–100)'
       hero_image_position_help: 'CSS-Wert für „background-position“, z. B. „center top“ oder „50% 20%“.'
@@ -110,20 +121,32 @@ ramon-avocado:
       today_time: 'Heute, {time}'
       untitled: 'Ohne Titel'
       yesterday_time: 'Gestern, {time}'
+    link_cta:
+      placeholder: 'Bitte melde dich an, um den Link anzuzeigen'
     post:
       op_badge: Verfasser
     post_cta:
       or: oder
+      text: 'Gefällt dir, was du siehst? Steig in die Diskussion ein!'
     search:
       clear: Löschen
+      enter_search_term: 'Gib einen Suchbegriff ein, um Benutzer zu finden.'
       hero_sub: 'Diskussionen, Beiträge und Mitglieder suchen'
       hero_title: 'Wonach suchst du?'
+      no_posts_found: 'Keine Beiträge gefunden für „{q}“.'
+      no_posts_match: 'Keine Beiträge entsprechen diesen Filtern.'
+      no_users_found: 'Keine Benutzer gefunden für „{q}“.'
       placeholder: Suche…
       placeholder_hero: 'Im Forum suchen…'
+      posts_filtered_by: 'Beiträge gefiltert nach'
+      posts_for: 'Beiträge für'
+      posts_title: Beitragssuche
       search_button: Suchen
       sort_latest: Aktuellste
       sort_newest: Neueste
       sort_oldest: Älteste
+      sort_relevance: Relevanz
+      sort_top: Beliebteste
       tab_discussions: Diskussionen
       tab_posts: Beiträge
       tab_users: Benutzer

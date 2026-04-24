@@ -5,7 +5,8 @@
 resofire-digest-mail:
   admin:
     onboarding:
-      frequency_label: 'Häufigkeit der automatischen Anmeldung'
+      frequency_help: 'Die Häufigkeit, mit der neue Benutzer automatisch für den Empfang der Zusammenfassung angemeldet werden. Es stehen nur die Häufigkeiten zur Verfügung, die oben unter Häufigkeitsoptionen aktiviert wurden.'
+      frequency_label: 'Häufigkeitswert bei automatischer Anmeldung'
       mode_auto_enroll: 'Neue Benutzer automatisch anmelden'
       mode_help: 'Legt fest, wie neue Benutzer bei der Aktivierung ihres Kontos für die Zusammenfassungs-E-Mails angemeldet werden.'
       mode_label: Einführungsmodus
@@ -52,7 +53,7 @@ resofire-digest-mail:
       queue_tries_help: 'Wie oft ein fehlgeschlagener Digest-Job erneut versucht wird, bevor er in die Tabelle der fehlgeschlagenen Jobs verschoben wird (Standardwert: 3). Bei den Wiederholungsversuchen kommt ein exponentieller Backoff zum Einsatz: 30 s, 60 s, 120 s. Hinweis: Wenn Du blomstra/database-queue installiert hast, verfügt dieses über eine eigene Einstellung für Wiederholungsversuche – es gilt der niedrigere der beiden Werte. Es wird empfohlen, beide Erweiterungs-Einstellungen auf denselben Wert zu setzen.'
       queue_tries_label: 'Maximale Anzahl von Wiederholungsversuchen'
       send_hour_help: 'Die Uhrzeit, zu der der Versand der Zusammenfassungs-E-Mails beginnt.'
-      send_hour_label: Versandzeit
+      send_hour_label: Versandstunde
       send_window_end_help: 'Lasse diese Einstellung unverändert, um alle E-Mails auf einmal zu versenden. Stelle einen späteren Zeitpunkt ein, um den Versand über mehrere Stunden zu verteilen – dies wird für größere Foren empfohlen. Wenn du beispielsweise den Start auf 2 Uhr morgens und das Ende auf 4 Uhr morgens festlegst, werden die E-Mails schrittweise zwischen 2 und 4 Uhr morgens versendet.'
       send_window_end_label: 'Versandzeit – Ende (optional)'
       send_window_start_help: 'Die Tageszeit, zu der der Versand der Zusammenfassungs-E-Mails beginnt. Wähle eine ruhige Zeit, in der in deinem Forum wenig los ist – in der Regel spätabends oder frühmorgens.'
@@ -65,9 +66,9 @@ resofire-digest-mail:
       email_placeholder: empfaenger@beispiel.de
       error_empty_email: 'Bitte gib eine E-Mail-Adresse ein.'
       error_generic: 'Versand fehlgeschlagen. Überprüfe deine E-Mail-Einstellungen und versuche es erneut.'
-      frequency_label: Frequenz
+      frequency_label: Häufigkeit
       heading: 'Test-E-Mail versenden'
-      help: 'Sendet sofort eine Live-Zusammenfassung per E-Mail an eine beliebige Adresse. Die Inhalte werden anhand der Sichtbarkeit deines Kontos zusammengestellt. Dies hat keine Auswirkungen auf den geplanten Versand oder Abmelde-Token.'
+      help: 'Sendet sofort eine echte Zusammenfassungs-E-Mail an eine beliebige Adresse. Die Inhalte werden anhand der Sichtbarkeit deines Kontos zusammengestellt. Dies hat keine Auswirkungen auf den geplanten Versand oder Abmelde-Token.'
       send_button: 'Test-E-Mail versenden'
       sending_button: 'Wird versendet…'
       success: 'Gesendet! Schau in das Postfach von {email} für die {frequency} Zusammenfassung.'
@@ -81,12 +82,18 @@ resofire-digest-mail:
     awards:
       categories: Kategorien
       coming_soon: Demnächst
+      cta_nominees: 'Nominierte anzeigen'
       cta_results: 'Vollständige Ergebnisse ansehen'
       cta_view: 'Auszeichnungen ansehen'
+      cta_vote: 'Gib deine Stimme ab'
+      front_runners: 'Aktuelle Spitzenreiter'
+      tallying: 'Die Ergebnisse werden gerade ausgezählt. Bleibe dran für die Bekanntgabe!'
+      voting_closed: 'Abstimmung ist beendet'
     badges:
       earned_count_plural: '{count} Mal verdient in dieser {period}'
       earned_count_singular: '{count} Mal verdient in dieser {period}'
       intro: 'Mitglieder, die in dieser {period} Abzeichen verdient haben.'
+      most_earned: 'Am häufigsten verdient in dieser {period}'
       rarest: 'Seltenstes verliehenes Abzeichen'
       rarest_count_plural: 'Nur {count} Mitglieder haben dieses Abzeichen'
       rarest_count_singular: 'Nur {count} Mitglieder haben dieses Abzeichen'
@@ -94,8 +101,11 @@ resofire-digest-mail:
       author_label: Verfasser
       badge: Hervorgehoben
       cta: 'Diskutiere mit'
+    footer:
+      unsubscribe: 'Häufigkeit ändern oder abmelden'
     gamepedia:
       cta: 'Gamepedia durchsuchen'
+      most_discussed: 'Meistdiskutiert in dieser {period}'
       newly_added: 'Neu hinzugefügt'
     heading: 'Was gab es in dieser {period} Neues?'
     leaderboard:
@@ -115,14 +125,17 @@ resofire-digest-mail:
       col_player: Spieler
       col_pts: Pkt
       col_rank: '#'
+      cta: 'Gib deine Tipps ab'
       draw: Unentschieden
       leaderboard_heading: 'Pick''em Rangliste'
       results_heading: 'Aktuelle Ergebnisse'
       upcoming_heading: 'Bevorstehende Spiele'
+      upcoming_note: 'Verpasse nicht deine Chance, auszuwählen — die Teilnahmefristen findest du unten.'
     resofire_gamepedia:
       cta: 'Gamepedia durchsuchen'
       most_discussed: 'Meistdiskutiert in dieser {period}'
       newly_added: 'Neu hinzugefügt'
+      top_genres: 'Beliebteste Genres in dieser {period}'
     sections:
       active_discussions: 'Aktive Diskussionen'
       badges: Abzeichen
@@ -132,6 +145,7 @@ resofire-digest-mail:
       new_discussions: 'Neue Diskussionen'
       new_members: 'Neue Mitglieder'
       pickem: 'Pick''em'
+      unread: 'Das hast du noch nicht gesehen'
     stats:
       active_users: 'Aktive Benutzer'
       discussions: Diskussionen

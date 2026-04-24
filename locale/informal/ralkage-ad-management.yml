@@ -7,6 +7,7 @@ ralkage-ad-management:
     ads:
       approve: Genehmigen
       content: HTML/JS-Inhalt
+      content_help: 'Für HTML- und AdSense-Anzeigenformate. Füge deinen Anzeigencode hier ein.'
       create: 'Werbebanner erstellen'
       edit: 'Werbebanner bearbeiten'
       end_date: Enddatum
@@ -70,8 +71,12 @@ ralkage-ad-management:
       expiration_reminder_days: 'Ablauferinnerung (Tage)'
       expiration_reminder_days_help: 'Sendet E-Mail-Erinnerungen an Anzeigeninhaber so viele Tage vor Ablauf ihrer Anzeige. Setze den Wert auf 0, um diese Funktion zu deaktivieren.'
       image_settings_title: Bildeinstellungen
+      notifications_info: 'Um Benachrichtigungen zu versenden, füge einen Cron-Job hinzu: php flarum ad-management:send-notifications'
       notifications_title: E-Mail-Benachrichtigungen
       require_image_approval: 'Genehmigung für Bildänderungen erforderlich'
+      require_image_approval_help: 'Wenn aktiviert, werden von Anzeigeninhabern eingereichte Bildänderungen vor der Veröffentlichung zur Überprüfung durch den Administrator in eine Warteschlange gestellt.'
+      send_performance_reports: 'Leistungsberichte senden'
+      send_performance_reports_help: 'Füge beim Versenden von Benachrichtigungs-E-Mails Leistungsübersichten (Impressionen, Klicks, Klickrate) hinzu.'
       show_sponsored_label: '„Gesponsert“-Kennzeichnung anzeigen'
       show_sponsored_label_help: 'Zeige eine Beschriftung unter den Anzeigen an. Deaktiviere das Kontrollkästchen, um sie vollständig auszublenden.'
       sponsored_label_text: 'Beschriftung für Anzeigenkennzeichnung'
@@ -86,6 +91,29 @@ ralkage-ad-management:
       analytics: Analytik
       settings: Einstellungen
       zones: 'Bereiche für Werbebanner'
+    zones:
+      ads_count: Anzeigen
+      create: 'Zone erstellen'
+      default_badge: Standard
+      description: Beschreibung
+      dimensions: Abmessungen
+      display_mode: Anzeigemodus
+      display_mode_help: 'Bei „Rotieren“ wird bei jedem Seitenwechsel eine zufällige Anzeige angezeigt. Bei „Stapeln“ werden alle Anzeigen in diesem Bereich gleichzeitig angezeigt.'
+      display_modes:
+        rotate: Rotieren
+        stack: 'Alle stapeln'
+      edit: 'Zone bearbeiten'
+      is_active: Aktiv
+      max_height: 'Maximale Höhe (px)'
+      max_width: 'Maximale Breite (px)'
+      name: Zonenname
+      position: Position
+      positions:
+        above_footer: 'Über der Fußzeile'
+        custom: Benutzerdefiniert
+        footer: Fußzeile
+        sidebar: Seitenleiste
+      sort_order: Sortierreihenfolge
   forum:
     ad:
       sponsored: Gesponsert
