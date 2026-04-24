@@ -97,8 +97,11 @@ ramon-avocado:
       all_categories: 'Alle Kategorien'
       all_title: 'Alle Diskussionen'
       back_home: Startseite
+      badge_following: Folgend
+      badge_sticky: Angeheftet
       categories_heading: Kategorien
       choose_tags: 'Themen wählen'
+      composer_body_placeholder: 'Teile deine Meinung…'
       composer_close: Schließen
       composer_post: 'Diskussion veröffentlichen'
       composer_submitting: 'Wird veröffentlicht…'
@@ -108,6 +111,7 @@ ramon-avocado:
       discussion_singular_card: 'Eine Diskussion'
       discussions: Diskussionen
       filter_tags: 'Themen filtern'
+      following_heading: Folgend
       like: Like
       like_count_plural: '{count} Likes'
       like_count_singular: '1 Like'
@@ -129,7 +133,10 @@ ramon-avocado:
       see_all: 'Alle anzeigen'
       see_other_replies: '{count} weitere Antworten anzeigen'
       see_other_reply_singular: '{count} andere Antwort anzeigen'
+      showcase_heading: Vitrine
       sign_up: Registrieren
+      sort_trending: 'Im Trend'
+      start_discussion: 'Erzähl allen, woran du gerade arbeitest…'
       today_time: 'Heute, {time}'
       untitled: 'Ohne Titel'
       view: Anzeigen
@@ -171,6 +178,7 @@ ramon-avocado:
       all_discussions: 'Alle Diskussionen'
       discussion_plural: Diskussionen
       discussion_singular: Diskussion
+      featured: Hervorgehoben
       other_tags_label: 'Andere Themen'
       title: Kategorien
     team:

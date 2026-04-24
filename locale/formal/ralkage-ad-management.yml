@@ -10,6 +10,7 @@ ralkage-ad-management:
       content_help: 'Für HTML- und AdSense-Anzeigenformate. Füge deinen Anzeigencode hier ein.'
       create: 'Werbebanner erstellen'
       edit: 'Werbebanner bearbeiten'
+      empty: 'Keine Werbebanner gefunden.'
       end_date: Enddatum
       filter:
         active: Aktiv
@@ -52,6 +53,9 @@ ralkage-ad-management:
     cancel: Abbrechen
     nav:
       title: Ad-Verwaltung
+    permissions:
+      no_ads: 'Ohne Werbung (alle Anzeigen ausblenden)'
+      submit_ad: 'Werbebanner einreichen'
     save: Speichern
     settings:
       adsense_publisher_id: 'Google AdSense Publisher-ID'
@@ -70,18 +74,22 @@ ralkage-ad-management:
       enable_compression_help: 'Hochgeladene Anzeigenbilder automatisch komprimieren, um die Dateigröße zu verringern.'
       expiration_reminder_days: 'Ablauferinnerung (Tage)'
       expiration_reminder_days_help: 'Sendet E-Mail-Erinnerungen an Anzeigeninhaber so viele Tage vor Ablauf ihrer Anzeige. Setze den Wert auf 0, um diese Funktion zu deaktivieren.'
+      expiration_subject_template: Betreffvorlage
       image_settings_title: Bildeinstellungen
       notifications_info: 'Um Benachrichtigungen zu versenden, füge einen Cron-Job hinzu: php flarum ad-management:send-notifications'
       notifications_title: E-Mail-Benachrichtigungen
+      performance_subject_template: Betreffvorlage
+      performance_templates_title: Leistungsberichtvorlagen
       require_image_approval: 'Genehmigung für Bildänderungen erforderlich'
       require_image_approval_help: 'Wenn aktiviert, werden von Anzeigeninhabern eingereichte Bildänderungen vor der Veröffentlichung zur Überprüfung durch den Administrator in eine Warteschlange gestellt.'
       send_performance_reports: 'Leistungsberichte senden'
-      send_performance_reports_help: 'Füge beim Versenden von Benachrichtigungs-E-Mails Leistungsübersichten (Impressionen, Klicks, Klickrate) hinzu.'
+      send_performance_reports_help: 'Füge beim Versenden von Benachrichtigungs-E-Mails Leistungsberichten (Impressionen, Klicks, Klickrate) hinzu.'
       show_sponsored_label: '„Gesponsert“-Kennzeichnung anzeigen'
       show_sponsored_label_help: 'Zeige eine Beschriftung unter den Anzeigen an. Deaktiviere das Kontrollkästchen, um sie vollständig auszublenden.'
       sponsored_label_text: 'Beschriftung für Anzeigenkennzeichnung'
       sponsored_label_text_help: 'Benutzerdefinierter Text für die Beschriftung (z. B. „Werbung“). Lasse das Feld leer, um die Standardübersetzung zu verwenden.'
       templates_placeholders_expiry: 'Erlaubte Platzhalter: {forum_title}, {forum_url}, {owner_name}, {owner_username}, {ad_name}, {days_left}, {expiry_date}, {impressions}, {clicks}. Lasse das Feld leer, um die Standardvorlage zu verwenden.'
+      templates_placeholders_performance: 'Verfügbare Platzhalter: {forum_title}, {forum_url}, {owner_name}, {owner_username}, {ad_count}, {total_impressions}, {total_clicks}, {ctr}, {ad_lines}. Lasse das Feld leer, um die Standardvorlage zu verwenden.'
       track_clicks: 'Klicks erfassen'
       track_clicks_help: 'Zähle, wie oft jede Anzeige geklickt wird.'
       track_impressions: 'Aufrufe erfassen'
@@ -98,22 +106,29 @@ ralkage-ad-management:
       description: Beschreibung
       dimensions: Abmessungen
       display_mode: Anzeigemodus
-      display_mode_help: 'Bei „Rotieren“ wird bei jedem Seitenwechsel eine zufällige Anzeige angezeigt. Bei „Stapeln“ werden alle Anzeigen in diesem Bereich gleichzeitig angezeigt.'
+      display_mode_help: 'Bei „Rotieren“ wird bei jedem Seitenwechsel eine zufällige Anzeige angezeigt. Bei „Stapeln“ werden alle Anzeigen in dieser Zone gleichzeitig angezeigt.'
       display_modes:
         rotate: Rotieren
         stack: 'Alle stapeln'
       edit: 'Zone bearbeiten'
       is_active: Aktiv
+      label: Anzeige-Bezeichnung
       max_height: 'Maximale Höhe (px)'
       max_width: 'Maximale Breite (px)'
       name: Zonenname
       position: Position
       positions:
         above_footer: 'Über der Fußzeile'
+        below_header: 'Unter der Kopfzeile'
+        between_posts: 'Zwischen Beiträgen'
         custom: Benutzerdefiniert
         footer: Fußzeile
+        header: Kopfzeile
         sidebar: Seitenleiste
+      shortcode_help: 'Füge diesen Tag in einen beliebigen Beitrag oder eine Diskussion ein, um Anzeigen aus einer bestimmten Zone direkt im Text anzuzeigen.'
       sort_order: Sortierreihenfolge
+      title: 'Bereiche für Werbebanner'
+      zone_tag: 'Zonentag: {tag}'
   forum:
     ad:
       sponsored: Gesponsert
@@ -126,6 +141,7 @@ ralkage-ad-management:
       clicks: '{count} Klicks'
       ctr: '{value}% CTR'
       edit_image: 'Bild ändern'
+      empty: 'Du hast noch keine Anzeigen.'
       image_changes_remaining: '{count} Bildwechsel verbleibend'
       impressions: '{count} Aufrufe'
       no_changes_remaining: 'Keine Bildwechsel verbleibend'
@@ -137,3 +153,4 @@ ralkage-ad-management:
         pending: 'Prüfung ausstehend'
         rejected: Abgelehnt
         scheduled: Geplant
+      title: 'Meine Werbebanner'
