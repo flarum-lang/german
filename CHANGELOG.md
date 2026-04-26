@@ -21,6 +21,7 @@ CHANGELOG
 * [`ianm/syndication`](https://github.com/imorland/syndication)
 * [`michaelbelgium/flarum-ai-autoreply`](https://github.com/MichaelBelgium/flarum-ai-autoreply)
 * [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
+* [`tryhackx/flarum-homepage-blocks`](https://github.com/TryHackX/flarum-homepage-blocks)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
@@ -29,6 +30,7 @@ CHANGELOG
 * [`ekumanov/flarum-ext-forum-widgets`](https://github.com/ekumanov/flarum-ext-forum-stats-widget)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 * [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping)
+* [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
 * [`forumaker/magicread`](https://github.com/forumaker/magicread)
 * [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind)
 * [`ralkage/flarum-ext-ad-management`](https://github.com/Ralkage/flarum-ext-ad-management)
