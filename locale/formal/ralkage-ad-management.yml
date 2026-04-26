@@ -5,7 +5,9 @@
 ralkage-ad-management:
   admin:
     ads:
+      alt_text: Beschreibungstext
       approve: Genehmigen
+      confirm_delete: 'Möchtest du diese Anzeige wirklich löschen?'
       content: HTML/JS-Inhalt
       content_help: 'Für HTML- und AdSense-Anzeigenformate. Füge deinen Anzeigencode hier ein.'
       create: 'Werbebanner erstellen'
@@ -18,12 +20,22 @@ ralkage-ad-management:
         inactive: Inaktiv
         pending_review: 'Prüfung ausstehend'
         rejected: Abgelehnt
+      group_visibility: Gruppensichtbarkeit
+      group_visibility_help: 'Durch Kommas getrennte Gruppen-IDs. Leer lassen, um allen Gruppen anzuzeigen.'
       height: 'Höhe (px)'
       image_url: Bild-URL
       is_active: Aktiv
       link_url: Link-URL
+      max_clicks: 'Maximale Klicks'
+      max_clicks_help: 'Die Anzeige wird nach dieser Anzahl an Klicks deaktiviert. Für eine unbegrenzte Anzahl lasse das Feld leer.'
+      max_impressions: 'Maximale Impressionen'
+      max_impressions_help: 'Die Anzeige wird nach dieser Anzahl an Aufrufen deaktiviert. Für eine unbegrenzte Anzahl lasse das Feld leer.'
       name: Bannername
+      owner: Anzeigeninhaber
+      owner_help: 'Benutzername des Inserenten. Leer lassen, wenn kein Inserent vorhanden ist.'
       pending_badge: 'Ausstehend ({count})'
+      priority: Priorität
+      priority_help: 'Anzeigen mit höherer Priorität werden zuerst angezeigt. Der Standardwert ist 0.'
       reject: Ablehnen
       select_zone: 'Wähle einen Bereich aus...'
       start_date: Startdatum
@@ -38,18 +50,24 @@ ralkage-ad-management:
       title: Werbebanner
       type: Bannertyp
       types:
+        adsense: 'Google AdSense'
         html: HTML
         image: Bild
       width: 'Breite (px)'
       zone: Bereich
     analytics:
+      clicks_by_day: 'Klicks pro Tag'
       clicks_header: Klicks
       date: Datum
+      no_data: 'Für diesen Zeitraum liegen keine Analysedaten vor.'
       period: Zeitraum
+      period_clicks: 'Klicks (Zeitraum)'
       periods:
         30d: 'Letzte 30 Tage'
         7d: 'Letzte 7 Tage'
         90d: 'Letzte 90 Tage'
+      select_ad: 'Anzeige auswählen…'
+      total_clicks: 'Gesamtanzahl der Klicks (insgesamt)'
     cancel: Abbrechen
     nav:
       title: Ad-Verwaltung
@@ -72,12 +90,15 @@ ralkage-ad-management:
       default_max_image_changes_help: 'Die maximale Anzahl, wie oft ein Anzeigeninhaber sein Anzeigenbild ändern kann. Setze den Wert auf 0, um die Anzahl unbegrenzt zu lassen.'
       enable_compression: 'Bildkomprimierung aktivieren'
       enable_compression_help: 'Hochgeladene Anzeigenbilder automatisch komprimieren, um die Dateigröße zu verringern.'
+      expiration_body_template: 'Vorlage für Nachrichtenkörper'
       expiration_reminder_days: 'Ablauferinnerung (Tage)'
       expiration_reminder_days_help: 'Sendet E-Mail-Erinnerungen an Anzeigeninhaber so viele Tage vor Ablauf ihrer Anzeige. Setze den Wert auf 0, um diese Funktion zu deaktivieren.'
       expiration_subject_template: Betreffvorlage
+      expiration_templates_title: 'Vorlagen für Ablauf-E-Mails'
       image_settings_title: Bildeinstellungen
       notifications_info: 'Um Benachrichtigungen zu versenden, füge einen Cron-Job hinzu: php flarum ad-management:send-notifications'
       notifications_title: E-Mail-Benachrichtigungen
+      performance_body_template: 'Vorlage für Nachrichtenkörper'
       performance_subject_template: Betreffvorlage
       performance_templates_title: Leistungsberichtvorlagen
       require_image_approval: 'Genehmigung für Bildänderungen erforderlich'
@@ -101,6 +122,7 @@ ralkage-ad-management:
       zones: 'Bereiche für Werbebanner'
     zones:
       ads_count: Anzeigen
+      confirm_delete: 'Möchtest du diese Zone wirklich löschen? Alle Anzeigen in dieser Zone werden ebenfalls gelöscht.'
       create: 'Zone erstellen'
       default_badge: Standard
       description: Beschreibung
@@ -116,6 +138,7 @@ ralkage-ad-management:
       max_height: 'Maximale Höhe (px)'
       max_width: 'Maximale Breite (px)'
       name: Zonenname
+      name_help: 'Eindeutige Kennung (Kleinbuchstaben, keine Leerzeichen). Wird in Zonen-Tags verwendet.'
       position: Position
       positions:
         above_footer: 'Über der Fußzeile'
@@ -126,6 +149,7 @@ ralkage-ad-management:
         header: Kopfzeile
         sidebar: Seitenleiste
       shortcode_help: 'Füge diesen Tag in einen beliebigen Beitrag oder eine Diskussion ein, um Anzeigen aus einer bestimmten Zone direkt im Text anzuzeigen.'
+      shortcode_title: 'Beitrags-Shortcode:'
       sort_order: Sortierreihenfolge
       title: 'Bereiche für Werbebanner'
       zone_tag: 'Zonentag: {tag}'
@@ -136,6 +160,11 @@ ralkage-ad-management:
       alt_text: Bildbeschreibung
       image_url: Bild-URL
       link_url: Link-URL
+      name: Anzeigename
+      select_zone: 'Zone auswählen…'
+      zone: Zone
+    nav:
+      my_ads: 'Meine Anzeigen'
     page:
       cancel: Abbrechen
       clicks: '{count} Klicks'
@@ -153,4 +182,6 @@ ralkage-ad-management:
         pending: 'Prüfung ausstehend'
         rejected: Abgelehnt
         scheduled: Geplant
+      submit_ad: 'Anzeige einreichen'
+      submit_pending_notice: 'Deine Anzeige wird vor der Veröffentlichung von einem Administrator geprüft.'
       title: 'Meine Werbebanner'

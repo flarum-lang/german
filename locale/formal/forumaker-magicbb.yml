@@ -5,16 +5,25 @@
 forumaker-magicbb:
   admin:
     permissions:
+      bypass_like: 'Like-Anforderung umgehen'
+      bypass_reply: 'Antwort-Anforderung umgehen'
       use_iframe: 'iFrame erlauben'
     sections:
       content: Inhalts-Formatierungen
       features: Funktionen
+      hide: 'Schaltflächen ausblenden'
       images: Bild-Formatierungen
       text: Text-Formatierungen
     settings:
       bb_audio: Audio
       bb_center: Zentrieren
       bb_color: Farbe
+      bb_hide_like: Like
+      bb_hide_like_help: 'Der Inhalt ist so lange verborgen bis der Benutzer den Beitrag liked'
+      bb_hide_login: Anmeldung
+      bb_hide_login_help: 'Der Inhalt ist für Gäste verborgen und für alle angemeldeten Benutzer sichtbar'
+      bb_hide_reply: Antwort
+      bb_hide_reply_help: 'Der Inhalt ist so lange verborgen bis der Benutzer in der Diskussion antwortet'
       bb_iframe: iFrame
       bb_iframe_help: 'Ermöglicht das Einbetten von iFrames aus beliebigen Quellen. Mit Vorsicht verwenden – eingebettete Inhalte können externe Skripte enthalten. 🧹 Bitte leeren Sie nach dem Ändern dieser Einstellung den Flarum-Cache.'
       bb_image: 'FoF Upload'
@@ -30,9 +39,20 @@ forumaker-magicbb:
       audio_button: 'Audio hinzufügen'
       center_button: Zentrieren
       color_button: 'Farbe hinzufügen'
+      hide_like_button: 'Verborgen – Like erforderlich'
+      hide_login_button: 'Verborgen – Anmeldung erforderlich'
+      hide_reply_button: 'Verborgen – Antwort erforderlich'
       image_button: 'Smart-Image hinzufügen'
       info_button: 'Warnung hinzufügen'
       justify_button: Blocksatz
       more_button: Mehr
       spoiler_button: 'Spoiler hinzufügen'
       table_button: 'Tabelle hinzufügen'
+    hide:
+      like_link_fallback: Like
+      like_to_see: 'Dieser Inhalt ist nach dem {like} des Beitrags sichtbar'
+      like_to_see_simple: 'Vergib einen Like an diesen Beitrag, um diesen Inhalt anzuzeigen'
+      login_to_see: 'Dieser Inhalt ist nach der {login} sichtbar'
+      login_to_see_simple: 'Melde dich an, um diesen Inhalt anzuzeigen'
+      reply_to_see: 'Dieser Inhalt ist nach der {reply} sichtbar'
+      reply_to_see_simple: 'Antworte in dieser Diskussion, um diesen Inhalt anzuzeigen'
