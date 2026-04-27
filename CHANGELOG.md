@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`fof/mailing`](https://github.com/FriendsOfFlarum/mailing)
 * [`fof/photoswipe`](https://github.com/FriendsOfFlarum/photoswipe)
+* [`gbcl/minecraft-oauth`](https://github.com/GBCLStudio/Flarum-MinecraftAuth)
 * [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
 * [`rehiy/flarum-reply-to-see`](https://github.com/rehiy/flarum-reply-to-see)
 * [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
