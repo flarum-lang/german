@@ -29,7 +29,10 @@ CHANGELOG
 
 * [`dashzeveg/flarum-ads-manager`](https://github.com/dashzeveg/flarum-ads-manager)
 * [`ekumanov/flarum-ext-forum-widgets`](https://github.com/ekumanov/flarum-ext-forum-stats-widget)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping)
 * [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
 * [`forumaker/magicread`](https://github.com/forumaker/magicread)
