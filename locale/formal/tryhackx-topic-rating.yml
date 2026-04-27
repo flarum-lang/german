@@ -29,10 +29,17 @@ tryhackx-topic-rating:
     rating_count: 'Bewertungen: {count}'
     ratings_modal:
       deleted_user: '[gelöscht]'
+      empty: 'Noch keine Bewertungen.'
+      title: 'Bewertungen ({count})'
       updated_prefix: 'aktualisiert '
     reset_modal:
+      cancel: Abbrechen
       confirm: 'Bewertungen zurücksetzen'
+      message: 'Möchtest du wirklich alle {count} Bewertungen für diese Diskussion löschen? Diese Aktion kann nicht rückgängig gemacht werden.'
       title: 'Alle Bewertungen zurücksetzen'
     tooltip:
+      activation_required: 'Dein Konto muss aktiviert sein, um eine Bewertung abzugeben.'
+      login_required: 'Du musst angemeldet sein, um eine Bewertung abzugeben.'
+      rate_first: 'Sei der Erste, der eine Bewertung abgibt!'
       rate_this: 'Diese Diskussion bewerten'
       your_rating: 'Deine Bewertung:'
