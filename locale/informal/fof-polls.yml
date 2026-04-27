@@ -68,7 +68,7 @@ fof-polls:
       date_placeholder: 'Enddatum der Umfrage (optional)'
       delete: Löschen
       edit_title: 'Umfrage bearbeiten'
-      error: 'Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut'
+      error: '=> core.lib.error.generic_message'
       hide_votes_label: 'Stimmen ausblenden, bis die Umfrage endet'
       hide_votes_label_help: 'Der Benutzer, der die Umfrage gestartet hat, kann die Stimmen immer einsehen.'
       image_option_placeholder: 'Bild-URL (optional)'
@@ -83,11 +83,11 @@ fof-polls:
       poll_image:
         alt_help_text: 'Dieser Text ist erforderlich, wenn ein Bild festgelegt wurde. Er wird angezeigt, falls das Bild nicht laden kann.'
         alt_label: 'Alt-Text für das Bild'
-        help: 'Laden Sie ein Bild hoch, das neben der Umfrage angezeigt werden soll (optional).'
+        help: 'Lade ein Bild hoch, das neben der Umfrage angezeigt werden soll (optional).'
         label: Umfragebild
         url_deprecated: 'Diese Umfrage verwendet eine externe Bild-URL. Externe URLs sind veraltet und werden in einer zukünftigen Version entfernt. Bitte lade das Bild über die Schaltfläche „Hochladen“ erneut hoch.'
       poll_option_image:
-        help: 'Laden Sie ein Bild hoch, das neben der Umfrage-Antwort angezeigt werden soll (optional).'
+        help: 'Lade ein Bild hoch, das neben der Umfrage-Antwort angezeigt werden soll (optional).'
         label: Umfrage-Antwortbild
       public_poll_label: 'Alle dürfen sehen, wer abgestimmt hat'
       question_placeholder: Frage
@@ -124,7 +124,7 @@ fof-polls:
     poll_ended: 'Diese Umfrage ist bereits beendet.'
     poll_form:
       delete: 'Umfrage löschen'
-      error: 'Beim Speichern der Umfrage ist ein Fehler aufgetreten, bitte kontaktieren Sie einen Administrator.'
+      error: 'Beim Speichern der Umfrage ist ein Fehler aufgetreten, bitte kontaktiere einen Administrator.'
     poll_groups:
       composer:
         add_title: 'Umfrage-Gruppe hinzufügen'
@@ -136,7 +136,7 @@ fof-polls:
         view_group: 'Umfrage-Gruppe anzeigen'
       controls:
         add_poll_label: 'Umfrage hinzufügen'
-        delete_confirmation: 'Sind Sie sicher, dass Sie diese Umfrage-Gruppe löschen möchten?'
+        delete_confirmation: 'Möchtest du diese Umfrage-Gruppe wirklich löschen?'
         delete_error_message: 'Beim Löschen der Umfragegruppe ist etwas schiefgelaufen.'
         delete_label: Löschen
         delete_success_message: 'Umfrage-Gruppe erfolgreich gelöscht.'

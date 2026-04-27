@@ -15,7 +15,7 @@ fof-best-answer:
       discussion_sidebar_jump_button: 'Schaltfläche „Zur besten Antwort springen“ in der Diskussionsseitenleiste anzeigen'
       discussion_sidebar_jump_button_help: 'Fügt der Diskussionsseitenleiste eine Schaltfläche hinzu, die zur besten Antwort im Beitragsstream springt.'
       documentation: Dokumentation
-      enabled_tags_help: 'Wählen Sie aus, für welche Tags (sofern vorhanden) die Option „Beste Antworten“ aktiviert werden soll. Diese Tags werden zu Tags im „Fragen und Antworten“-Format und können die Option „Beste Antworten“ festlegen.'
+      enabled_tags_help: 'Wähle aus, für welche Tags (sofern vorhanden) die Option „Beste Antworten“ aktiviert werden soll. Diese Tags werden zu Tags im „Fragen und Antworten“-Format und können die Option „Beste Antworten“ festlegen.'
       enabled_tags_label: 'Aktivierte Tags'
       label:
         advanced: Erweitert
@@ -23,7 +23,7 @@ fof-best-answer:
         reminders: Erinnerungen
         reminders_notice: 'Damit Erinnerungen funktionieren, musst du den Flarum-Planer richtig eingerichtet haben.'
         tags: 'Tags für beste Antworten'
-      remind_tags_help: 'Wählen Sie aus, für welche Tags (sofern vorhanden) Erinnerungen gesendet werden sollen. Erinnerungen werden nur für Diskussionen mit diesen Tags gesendet.'
+      remind_tags_help: 'Wähle aus, für welche Tags (sofern vorhanden) Erinnerungen gesendet werden sollen. Erinnerungen werden nur für Diskussionen mit diesen Tags gesendet.'
       remind_tags_label: Erinnerungs-Tags
       schedule_log_output: 'Scheduler-Output an den Log anhängen'
       schedule_on_one_server: 'Direktive ''onOneServer()'' für den Taskplaner verwenden'
@@ -38,7 +38,7 @@ fof-best-answer:
       show_filter_label: 'Dropdown-Liste für Filter für beste Antwort anzeigen'
       show_max_lines_help: 'Zum Deaktivieren auf 0 festlegen. Wenn ein Beitrag länger als die konfigurierte Anzahl von Zeilen ist, wird er in der Beitragsvorschau mit einem Ausblendeffekt abgeschnitten.'
       show_max_lines_label: 'Maximal anzuzeigende Zeilen in der Postvorschau'
-      tags_info: "Wenn ein Tag „Beste Antwort“ aktiviert ist, weisen Sie jeder Benutzergruppe, die Antworten festlegen darf (eigene Diskussion, beliebige Diskussion), Berechtigungen zu. Berechtigungen können global (für jeden Tag mit aktivierter „Beste Antwort“) oder pro Tag zugewiesen werden.\n"
+      tags_info: "Wenn ein Tag „Beste Antwort“ aktiviert ist, weise jeder Benutzergruppe, die Antworten festlegen darf (eigene Diskussion, beliebige Diskussion), Berechtigungen zu. Berechtigungen können global (für jeden Tag mit aktivierter „Beste Antwort“) oder pro Tag zugewiesen werden.\n"
       use_alt_ui: 'Alternatives Layout verwenden'
       use_alt_ui_help: 'Beste Antwortsteuerelemente in der Fußzeile des Beitrags'
   email:
@@ -49,7 +49,7 @@ fof-best-answer:
     subject:
       awarded: 'Dein Beitrag wurde von {display_name} als beste Antwort ausgewählt'
       ba-set: '{display_name} hat eine beste Antwort gewählt'
-      select: 'Konnten Sie eine Antwort auf Ihre Frage erhalten?'
+      select: 'Konntest du eine Antwort auf deine Frage erhalten?'
   forum:
     answered_badge: Beantwortet
     best_answer_button: 'Beste Antwort'

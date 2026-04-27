@@ -24,8 +24,8 @@ fof-links:
         guest-only:
           help: 'Nur {guest} können diesen Link sehen. Die Berechtigung oberhalb sollte auf ''{everyone}'' gesetzt sein.'
           label: 'Nur {guest}?'
-        help: 'Links sind standardmässig nur für <code>{admin}</code>-Nutzer sichtbar. Passen Sie die Berechtigungen an, um festzulegen, wer diesen Link sehen kann.'
-        help-disabled: 'Speichern Sie den Link, um die Sichtbarkeit anpassen zu können.'
+        help: 'Links sind standardmässig nur für <code>{admin}</code>-Nutzer sichtbar. Passe die Berechtigungen an, um festzulegen, wer diesen Link sehen kann.'
+        help-disabled: 'Speichere den Link, um die Sichtbarkeit anpassen zu können.'
         label: 'Sichtbarkeit des Links'
     links:
       create_button: '=> fof-links.ref.create_link'
