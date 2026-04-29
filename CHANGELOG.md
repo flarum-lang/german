@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.3 (XXXX-XX-XX)
+------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`resofire/digest-mail`](https://github.com/ResofireV2/digest-mail)
+
+
+Alle Änderungen: [2.0.2...2.0.3](https://github.com/flarum-lang/german/compare/2.0.2...2.0.3).
+
+
 2.0.2 (2026-04-29)
 ------------------
 
