@@ -16,6 +16,8 @@ resofire-digest-mail:
     settings:
       enable_awards_help: 'Aktuelle und bevorstehende Auszeichnungen in der Zusammenfassung anzeigen. Erfordert huseyinfiliz/awards.'
       enable_awards_label: Auszeichnungen
+      enable_picks_help: 'Zeige in der Zusammenfassung die kommenden Spiele, die letzten Ergebnisse und die Rangliste der Tipps an. Erfordert resofire/picks.'
+      enable_picks_label: 'CFB-Tipps — Abschnitt aktivieren'
       featured_discussion_help: 'Gib eine Diskussions-ID ein, um die Diskussion als „Empfohlene Diskussion“ oben in jeder Zusammenfassung anzuzeigen. Lasse das Feld leer, wenn keine empfohlene Diskussion angezeigt werden soll.'
       featured_discussion_label: 'ID einer empfohlenen Diskussion'
       hot_recency_weight_help: 'Wie stark sich die Aktualität auf die Beliebtheit auswirkt. Je höher der Wert, desto stärker werden neuere Beiträge gewichtet. Setze den Wert auf 0, um die Rangfolge ausschließlich nach Antworten zu bestimmen.'
@@ -38,12 +40,19 @@ resofire-digest-mail:
       limit_new_label: 'Neue Diskussionen — maximale Anzahl'
       limit_pickem_help: 'Maximale Anzahl der kommenden Spiele, der letzten Ergebnisse und der Einträge in der Rangliste, die in der Zusammenfassung angezeigt werden sollen (Standard: 5, Mindestanzahl: 3). Erfordert huseyinfiliz/pickem.'
       limit_pickem_label: 'Pick''em — maximale Anzahl'
+      limit_picks_help: 'Maximale Anzahl der kommenden Spiele, der letzten Ergebnisse und der Einträge in der Rangliste, die in der Zusammenfassung angezeigt werden sollen (Standard: 5, Minimum: 3). Erfordert resofire/picks.'
+      limit_picks_label: 'CFB-Tipps — maximale Anzahl pro Abschnitt'
       limit_resofire_gamepedia_help: 'Maximale Anzahl der Spiele, die in den Rubriken „Meistdiskutiert“, „Neu hinzugefügt“ und „Top-Genres“ angezeigt werden sollen (Standard: 5, Mindestanzahl: 3). Erfordert resofire/gamepedia.'
       limit_resofire_gamepedia_label: 'Resofire Gamepedia – Maximale Anzahl an Spielen pro Abschnitt'
       limit_unread_help: 'Maximale Anzahl ungelesener Diskussionen, die in jeder Zusammenfassung aufgenommen werden sollen.'
       limit_unread_label: 'Ungelesene Diskussionen — maximale Anzahl'
       monthly_day_help: 'Tag des Monats, an dem die monatlichen Zusammenfassungen versendet werden. Die Obergrenze liegt bei 28, sodass es auch im Februar funktioniert.'
       monthly_day_label: 'Monatliche Zusammenfassung — Versandtag'
+      picks_leaderboard_scope_alltime: Gesamtwertung
+      picks_leaderboard_scope_help: 'Welche Rangliste angezeigt werden soll: die der zuletzt abgeschlossenen Woche, die der aktuellen Saison oder die Gesamtwertung.'
+      picks_leaderboard_scope_label: 'CFB-Tipps — Ranglistenzeitraum'
+      picks_leaderboard_scope_season: 'Aktuelle Saison'
+      picks_leaderboard_scope_week: 'Letzte Woche'
       queue_chunk_size_help: 'Anzahl der pro Scheduler-Minute verteilten Benutzer (Standardwert 200, min. 50, max. 10000). Kleine Foren: 200–500. Große Foren auf dedizierten Servern: 1000–10000. Höhere Werte führen zu einer schnelleren Ausführung, verbrauchen jedoch mehr Speicher pro Zyklus.'
       queue_chunk_size_label: 'Größe des Warteschlangen-Blocks'
       queue_delay_help: 'Sekunden, bevor Aufgaben aus der Warteschlange für die Worker verfügbar werden (Standardwert: 0). Im Fenstermodus ist dies selten erforderlich – das Fenster selbst verteilt die Last über einen längeren Zeitraum. Nur sinnvoll, wenn der zweistufige Befehl „digest:enqueue“ bei sehr großen Foren verwendet wird.'
@@ -131,6 +140,24 @@ resofire-digest-mail:
       results_heading: 'Aktuelle Ergebnisse'
       upcoming_heading: 'Bevorstehende Spiele'
       upcoming_note: 'Verpasse nicht deine Chance, auszuwählen — die Teilnahmefristen findest du unten.'
+    picks:
+      col_accuracy: Gen.
+      col_player: Spieler
+      col_pts: Pkt
+      col_rank: '#'
+      confidence_note: 'Der Zuversichtsmodus ist aktiv — die Punkte werden anhand der Zuversichtsbewertung (1–10) gewichtet, die jeder Spieler für seine Tipps abgegeben hat.'
+      cta: 'Gib deine Tipps ab'
+      move_down: 'Nach unten {n}'
+      move_held: —
+      move_new: Neu
+      move_up: 'Nach oben {n}'
+      neutral_site: 'Neutraler Ort'
+      results_heading: 'Aktuelle Ergebnisse'
+      upcoming_heading: 'Bevorstehende Spiele'
+      upcoming_note: 'Die Tipps werden bei Ablauf der Frist für jedes Spiel einzeln gesperrt.'
+      week_closed: 'Tipps gesperrt'
+      week_open: 'Tipps können abgegeben werden'
+      winner: Gewinner
     resofire_gamepedia:
       cta: 'Gamepedia durchsuchen'
       most_discussed: 'Meistdiskutiert in dieser {period}'
@@ -145,6 +172,7 @@ resofire-digest-mail:
       new_discussions: 'Neue Diskussionen'
       new_members: 'Neue Mitglieder'
       pickem: 'Pick''em'
+      picks: CFB-Tipps
       unread: 'Das hast du noch nicht gesehen'
     stats:
       active_users: 'Aktive Benutzer'
