@@ -2,6 +2,52 @@ CHANGELOG
 =========
 
 
+2.0.2 (2026-04-29)
+------------------
+
+**Allgemeine Änderungen**:
+
+* Flarum-Core Übersetzungen aktualisiert.
+
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`ekumanov/flarum-ext-post-search`](https://github.com/ekumanov/flarum-ext-post-search)
+* [`fof/mailing`](https://github.com/FriendsOfFlarum/mailing)
+* [`fof/photoswipe`](https://github.com/FriendsOfFlarum/photoswipe)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`forumaker/profile-cover`](https://github.com/forumaker/Profile-Cover)
+* [`forumaker/yandex-smartcaptcha`](https://github.com/forumaker/Yandex-SmartCaptcha)
+* [`ianm/oauth-reddit`](https://github.com/imorland/flarum-ext-oauth-reddit)
+* [`ianm/syndication`](https://github.com/imorland/syndication)
+* [`michaelbelgium/flarum-ai-autoreply`](https://github.com/MichaelBelgium/flarum-ai-autoreply)
+* [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
+* [`tryhackx/flarum-homepage-blocks`](https://github.com/TryHackX/flarum-homepage-blocks)
+* [`tryhackx/flarum-magnet-link`](https://github.com/TryHackX/flarum-magnet-link)
+* [`tryhackx/flarum-thumb-sliders`](https://github.com/TryHackX/flarum-thumb-sliders)
+* [`tryhackx/flarum-topic-rating`](https://github.com/TryHackX/flarum-topic-rating)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`dashzeveg/flarum-ads-manager`](https://github.com/dashzeveg/flarum-ads-manager)
+* [`ekumanov/flarum-ext-forum-widgets`](https://github.com/ekumanov/flarum-ext-forum-stats-widget)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping)
+* [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
+* [`forumaker/magicread`](https://github.com/forumaker/magicread)
+* [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind)
+* [`ralkage/flarum-ext-ad-management`](https://github.com/Ralkage/flarum-ext-ad-management)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado)
+* [`resofire/digest-mail`](https://github.com/ResofireV2/digest-mail)
+
+
+Alle Änderungen: [2.0.1...2.0.2](https://github.com/flarum-lang/german/compare/2.0.1...2.0.2).
+
+
 2.0.1 (2026-04-20)
 ------------------
 
