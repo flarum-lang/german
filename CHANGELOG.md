@@ -8,6 +8,7 @@ CHANGELOG
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`resofire/digest-mail`](https://github.com/ResofireV2/digest-mail)
+* [`tryhackx/flarum-magnet-link`](https://github.com/TryHackX/flarum-magnet-link)
 
 
 Alle Änderungen: [2.0.2...2.0.3](https://github.com/flarum-lang/german/compare/2.0.2...2.0.3).
