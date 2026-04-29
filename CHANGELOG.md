@@ -17,6 +17,7 @@ CHANGELOG
 * [`fof/photoswipe`](https://github.com/FriendsOfFlarum/photoswipe)
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
 * [`forumaker/profile-cover`](https://github.com/forumaker/Profile-Cover)
+* [`forumaker/yandex-smartcaptcha`](https://github.com/forumaker/Yandex-SmartCaptcha)
 * [`ianm/oauth-reddit`](https://github.com/imorland/flarum-ext-oauth-reddit)
 * [`ianm/syndication`](https://github.com/imorland/syndication)
 * [`michaelbelgium/flarum-ai-autoreply`](https://github.com/MichaelBelgium/flarum-ai-autoreply)
