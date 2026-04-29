@@ -5,6 +5,6 @@
 clarkwinkelmann-meilisearch-dashboard:
   admin:
     header:
-      link: 'Meilisearch Dashboard'
+      link: Meilisearch-Dashboard
     permission:
       access: 'Zugang zum Meilisearch Dashboard'

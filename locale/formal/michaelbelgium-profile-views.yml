@@ -11,7 +11,7 @@ michaelbelgium-flarum-profile-views:
   forum:
     user:
       last_viewers_heading: 'Letzte Besucher'
-      view_count_text: '{viewcount} mal aufgerufen'
+      view_count_text: '{viewcount, plural, one {{viewcount} mal aufgerufen} other {{viewcount} mal aufgerufen}}'
       viewlist:
         guest: Gast
         title: 'Letzte Besucher'

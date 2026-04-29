@@ -30,10 +30,16 @@ tryhackx-magnet-link:
       http_only_label: 'Nur HTTP(S)-Trackers'
       max_trackers_help: 'Maximale Anzahl der abzufragenden Tracker. Setze den Wert auf 0, um die Anzahl nicht zu begrenzen. Wenn „Alle auswählen“ aktiviert ist, begrenzt dies die Anzahl der erfolgreichen Antworten.'
       max_trackers_label: 'Maximale Anzahl von Trackern für die Abfrage'
+      rename_enabled_help: 'Erlaube den Autoren von Beiträgen, die Anzeigenamen von Magnet-Links in ihren eigenen Beiträgen umzubenennen.'
+      rename_enabled_label: 'Benutzerdefinierte Torrent-Namen aktivieren'
       scraper_enabled_help: 'Wenn aktiviert, fragt die Erweiterung Tracker ab, um Statistiken zu Seedern, Leechern und Downloads abzurufen. Wenn deaktiviert, werden nur der Torrent-Name und die Anzahl der Klicks angezeigt.'
       scraper_enabled_label: 'Tracker-Statistiken abrufen'
+      self_interval_help: 'Wie lange es dauert, bis dieselbe IP-Adresse die Klickzahl für denselben Magnet-Link erneut erhöhen kann.'
+      self_interval_label: 'Intervall zwischen Selbstklicks (Tage)'
       tooltip_enabled_help: 'Statistiken zu Magnet-Links anzeigen, wenn man mit der Maus über Beiträge in der Diskussionsliste fährt.'
       tooltip_enabled_label: 'Tooltip für Diskussion aktivieren'
+      tooltip_max_magnets_help: 'Maximale Anzahl der Magnet-Links, die im Tooltip der Diskussion angezeigt werden. Setze den Wert auf 0, um die Anzahl nicht zu begrenzen.'
+      tooltip_max_magnets_label: 'Maximale Anzahl von Magnets im Tooltip'
       tracker_timeout_help: 'Maximale Wartezeit auf eine Antwort des Trackers. Auf 0 setzen, um die Standardeinstellung (2 Sekunden) zu verwenden.'
       tracker_timeout_label: 'Zeitüberschreitung für Tracker (Sekunden)'
     support:
@@ -51,10 +57,33 @@ tryhackx-magnet-link:
       prompt: 'Magnet-Link eingeben:'
       tooltip: 'Magnet-Link einfügen'
     email_not_confirmed: 'Bitte bestätige deine E-Mail-Adresse, um Magnet-Links anzuzeigen.'
+    errors:
+      invalid_magnet: 'Ungültiges Magnet-Link-Format'
+      load_failed: 'Magnetdaten konnten nicht geladen werden'
+      no_http_trackers: 'Es sind keine HTTP(S)-Tracker verfügbar'
+      no_response: 'Kein Tracker hat geantwortet'
+      no_trackers: 'Der Magnet-Link enthält keine Tracker'
+      scraper_error: 'Es konnte keine Verbindung zu den Trackern hergestellt werden'
     guest_not_allowed: 'Du musst angemeldet sein, um Magnet-Links anzuzeigen.'
+    leeches: 'Leeches:'
+    loading: 'Magnetdaten werden geladen...'
     login: Anmelden
     or: oder
     permission_denied: 'Du hast keine Berechtigung, Magnet-Links anzuzeigen.'
     refresh: 'Tracker-Daten aktualisieren'
     register: Registrieren
+    rename:
+      cancel: Abbrechen
+      label: 'Benutzerdefinierter Name:'
+      modal_title: 'Torrent umbenennen'
+      restore: 'Ursprünglichen Namen wiederherstellen'
+      save: Speichern
+      tooltip: 'Torrent umbenennen'
+    seeds: 'Seeds:'
     size: 'Größe:'
+    tooltip:
+      header: Magnet-Links
+      loading: 'Magnetdaten werden geladen...'
+      no_magnets: 'In dieser Diskussion gibt es keine Magnet-Links'
+  permissions:
+    viewMagnetLinks: 'Magnet-Links anzeigen'
