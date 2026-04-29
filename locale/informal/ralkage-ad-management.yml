@@ -7,6 +7,7 @@ ralkage-ad-management:
     ads:
       alt_text: Beschreibungstext
       approve: Genehmigen
+      approve_image: 'Bildänderung genehmigen'
       confirm_delete: 'Möchtest du diese Anzeige wirklich löschen?'
       content: HTML/JS-Inhalt
       content_help: 'Für HTML- und AdSense-Anzeigenformate. Füge deinen Anzeigencode hier ein.'
@@ -28,19 +29,24 @@ ralkage-ad-management:
       link_url: Link-URL
       max_clicks: 'Maximale Klicks'
       max_clicks_help: 'Die Anzeige wird nach dieser Anzahl an Klicks deaktiviert. Für eine unbegrenzte Anzahl lasse das Feld leer.'
-      max_impressions: 'Maximale Impressionen'
+      max_image_changes: 'Maximale Anzahl Bildänderungen'
+      max_impressions: 'Maximale Aufrufe'
       max_impressions_help: 'Die Anzeige wird nach dieser Anzahl an Aufrufen deaktiviert. Für eine unbegrenzte Anzahl lasse das Feld leer.'
       name: Bannername
       owner: Anzeigeninhaber
       owner_help: 'Benutzername des Inserenten. Leer lassen, wenn kein Inserent vorhanden ist.'
       pending_badge: 'Ausstehend ({count})'
+      pending_image_badge: 'Bild ausstehend'
       priority: Priorität
       priority_help: 'Anzeigen mit höherer Priorität werden zuerst angezeigt. Der Standardwert ist 0.'
       reject: Ablehnen
+      reject_image: 'Bildänderung ablehnen'
       select_zone: 'Wähle einen Bereich aus...'
       start_date: Startdatum
       stats:
         clicks: Klicks
+        ctr: Klickrate
+        impressions: Aufrufe
       status: Status
       statuses:
         active: Aktiv
@@ -58,6 +64,7 @@ ralkage-ad-management:
     analytics:
       clicks_by_day: 'Klicks pro Tag'
       clicks_header: Klicks
+      ctr: Klickrate
       date: Datum
       no_data: 'Für diesen Zeitraum liegen keine Analysedaten vor.'
       period: Zeitraum
@@ -67,7 +74,9 @@ ralkage-ad-management:
         7d: 'Letzte 7 Tage'
         90d: 'Letzte 90 Tage'
       select_ad: 'Anzeige auswählen…'
+      title: Analytics
       total_clicks: 'Gesamtanzahl der Klicks (insgesamt)'
+      total_impressions: 'Gesamtanzahl der Aufrufe (insgesamt)'
     cancel: Abbrechen
     nav:
       title: Ad-Verwaltung
@@ -104,7 +113,7 @@ ralkage-ad-management:
       require_image_approval: 'Genehmigung für Bildänderungen erforderlich'
       require_image_approval_help: 'Wenn aktiviert, werden von Anzeigeninhabern eingereichte Bildänderungen vor der Veröffentlichung zur Überprüfung durch den Administrator in eine Warteschlange gestellt.'
       send_performance_reports: 'Leistungsberichte senden'
-      send_performance_reports_help: 'Füge beim Versenden von Benachrichtigungs-E-Mails Leistungsberichten (Impressionen, Klicks, Klickrate) hinzu.'
+      send_performance_reports_help: 'Füge beim Versenden von Benachrichtigungs-E-Mails Leistungsberichten (Aufrufe, Klicks, Klickrate) hinzu.'
       show_sponsored_label: '„Gesponsert“-Kennzeichnung anzeigen'
       show_sponsored_label_help: 'Zeige eine Beschriftung unter den Anzeigen an. Deaktiviere das Kontrollkästchen, um sie vollständig auszublenden.'
       sponsored_label_text: 'Beschriftung für Anzeigenkennzeichnung'
