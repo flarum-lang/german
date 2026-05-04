@@ -5,6 +5,11 @@ CHANGELOG
 2.0.3 (XXXX-XX-XX)
 ------------------
 
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`ekumanov/flarum-ext-markdown-tables`](https://github.com/ekumanov/flarum-ext-markdown-tables)
+
+
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`resofire/digest-mail`](https://github.com/ResofireV2/digest-mail)
