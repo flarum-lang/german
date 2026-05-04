@@ -44,6 +44,8 @@ pianotell-flamoji:
       picker_set_native: Nativ
       picker_set_text: 'So werden Emojis in der Auswahl angezeigt. Die Einstellung „Automatisch“ passt sich der Flarum-Emoji-Erweiterung an: bei aktivierter Erweiterung werden Twemoji-Emojis verwendet, andernfalls die native Betriebssystem-Darstellung, sodass die Auswahl genau das widerspiegelt, was in den Beiträgen tatsächlich angezeigt wird.'
       picker_set_twemoji: Twemoji
+      prepopulate_recents_label: 'Mit beliebten Emojis vorab füllen'
+      prepopulate_recents_text: 'Wenn aktiviert, werden im Bereich „Häufig verwendet“ standardmäßig beliebte Emojis angezeigt, noch bevor der Benutzer welche ausgewählt hat. Wenn deaktiviert, ist der Bereich zunächst leer und füllt sich erst, wenn der Benutzer Emojis auswählt.'
       show_category_buttons_label: 'Kategorie-Schaltflächen anzeigen'
       show_category_buttons_text: 'Zeige die Reihe mit Kategoriesymbolen oben im Auswahlfeld an. Es ist sinnvoll, diese Option zu deaktivieren, wenn nur eine oder zwei Kategorien aktiviert sind.'
       show_preview_label: 'Vorschaubereich anzeigen'
@@ -94,7 +96,7 @@ pianotell-flamoji:
       custom: Benutzerdefiniert
       flags: Flaggen
       foods: 'Essen & Trinken'
-      frequent: 'Kürzlich verwendet'
+      frequent: 'Häufig verwendet'
       nature: 'Tiere & Natur'
       objects: Objekte
       people: 'Lächeln & Leute'
