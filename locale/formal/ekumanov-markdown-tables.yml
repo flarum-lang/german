@@ -5,4 +5,18 @@
 ekumanov-markdown-tables:
   lib:
     composer:
+      table_menu:
+        column: Spalte
+        delete_table: 'Tabelle löschen'
+        insert_column_after: 'Spalte dahinter einfügen'
+        insert_column_before: 'Spalte vorher einfügen'
+        insert_row_after: 'Zeile dahinter einfügen'
+        insert_row_before: 'Zeile vorher einfügen'
+        insert_table: 'Tabelle einfügen'
+        num_cols: Spalten
+        num_rows: 'Zeilen (inklusive Titel)'
+        remove_column: 'Spalte löschen'
+        remove_row: 'Zeile löschen'
+        row: Zeile
+        toggle_header_row: 'Titelzeile umschalten'
       table_tooltip: 'Tabelle einfügen'
