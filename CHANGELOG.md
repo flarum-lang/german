@@ -8,10 +8,12 @@ CHANGELOG
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
 * [`ekumanov/flarum-ext-markdown-tables`](https://github.com/ekumanov/flarum-ext-markdown-tables)
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
 * [`resofire/digest-mail`](https://github.com/ResofireV2/digest-mail)
 * [`tryhackx/flarum-magnet-link`](https://github.com/TryHackX/flarum-magnet-link)
 
