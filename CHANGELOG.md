@@ -14,6 +14,7 @@ CHANGELOG
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`forumaker/profile-cover`](https://github.com/forumaker/Profile-Cover)
 * [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
 * [`resofire/digest-mail`](https://github.com/ResofireV2/digest-mail)
 * [`tryhackx/flarum-magnet-link`](https://github.com/TryHackX/flarum-magnet-link)
