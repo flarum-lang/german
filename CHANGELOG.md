@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`anto0102/mailguard`](https://github.com/anto0102/MailGuard)
 * [`ekumanov/flarum-ext-markdown-tables`](https://github.com/ekumanov/flarum-ext-markdown-tables)
+* [`ramon/verified`](https://github.com/ram0ng1/verified)
 * [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
 
 
