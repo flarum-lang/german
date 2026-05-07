@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+2.0.4 (XXXX-XX-XX)
+------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length)
+* [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum)
+
+
+Alle Änderungen: [2.0.3...2.0.4](https://github.com/flarum-lang/german/compare/2.0.3...2.0.4).
+
+
 2.0.3 (2026-05-07)
 ------------------
 
