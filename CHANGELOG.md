@@ -11,6 +11,7 @@ CHANGELOG
 * [`ekumanov/flarum-ext-markdown-tables`](https://github.com/ekumanov/flarum-ext-markdown-tables)
 * [`linkrobins/referral`](https://github.com/linkrobins/referral)
 * [`ramon/verified`](https://github.com/ram0ng1/verified)
+* [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
 * [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
 
 
