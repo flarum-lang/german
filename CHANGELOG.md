@@ -2,6 +2,31 @@ CHANGELOG
 =========
 
 
+2.0.3 (2026-05-07)
+------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`anto0102/mailguard`](https://github.com/anto0102/MailGuard)
+* [`ekumanov/flarum-ext-markdown-tables`](https://github.com/ekumanov/flarum-ext-markdown-tables)
+* [`linkrobins/referral`](https://github.com/linkrobins/referral)
+* [`ramon/verified`](https://github.com/ram0ng1/verified)
+* [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`ekumanov/flarum-ext-forum-widgets`](https://github.com/ekumanov/flarum-ext-forum-stats-widget)
+* [`forumaker/profile-cover`](https://github.com/forumaker/Profile-Cover)
+* [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
+* [`resofire/digest-mail`](https://github.com/ResofireV2/digest-mail)
+* [`tryhackx/flarum-magnet-link`](https://github.com/TryHackX/flarum-magnet-link)
+
+
+Alle Änderungen: [2.0.2...2.0.3](https://github.com/flarum-lang/german/compare/2.0.2...2.0.3).
+
+
 2.0.2 (2026-04-29)
 ------------------
 
