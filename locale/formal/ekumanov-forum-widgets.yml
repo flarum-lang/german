@@ -19,25 +19,31 @@ ekumanov-forum-widgets:
       bar_position_inside: 'Innerhalb der Symbolleiste'
       bar_position_mobile: 'Leistenposition (Mobil)'
       bar_position_mobile_help: 'Wo die Statistikleiste auf der Mobilseite im Verhältnis zur Symbolleiste platziert werden soll.'
+      enable_heartbeat: 'Präsenz-Heartbeat aktivieren'
+      enable_heartbeat_help: 'Wenn aktiviert, sendet jeder geöffnete und aktive Forum-Tab einen kleinen Hintergrund-Ping. Bei angemeldeten Benutzern sorgt dies dafür, dass die „Online“-Anzeige aktuell bleibt, während sie lesen oder Beiträge verfassen, ohne zwischen den Seiten zu wechseln (zum Beispiel bei einer langen Antwort über die Echtzeit-Erweiterung); bei Gästen (sofern die Gästezählung aktiviert ist) wird auf diese Weise die Gästeanzahl erfasst. Die Serverauslastung ist vernachlässigbar – beide Pfade drosseln ihre Schreibvorgänge serverseitig, unabhängig davon, wie viele Tabs geöffnet sind. Deaktiviere diese Option, wenn du keinen Hintergrundverkehr wünschst.'
       expanded_panel_width: 'Breite des erweiterten Fensters (Desktop)'
       expanded_panel_width_full_bar: Voll-Leisten-Breite
       expanded_panel_width_help: 'Volle Leiste: Das Fenster erstreckt sich über die gesamte Breite der Leiste; durch Klicken an einer beliebigen Stelle der Leiste wird es erweitert. Online-Zelle: Das Fenster erscheint nur unterhalb der Anzahl der Online-Nutzer; durch Klicken auf die Zelle „Online-Nutzer“ wird es erweitert.'
       expanded_panel_width_online_cell: 'Nur für die Online-Benutzer-Zelle'
       ignore_private_discussions: 'Private Diskussionen bei der Zählung ignorieren'
+      include_guests_in_total: 'Gäste in die Gesamtzahl der Online-Benutzer einbeziehen'
+      include_guests_in_total_help: 'Wenn aktiviert, umfasst die in der Leiste (und in der Überschrift des erweiterten Bereichs) angezeigte Zahl sowohl angemeldete Mitglieder als auch Gäste. In den Aufschlüsselungszeilen des erweiterten Bereichs werden die einzelnen Komponenten weiterhin separat aufgeführt. Deaktiviere diese Option, damit die Zahl in der Leiste nur die angemeldeten Benutzer widerspiegelt.'
       last_seen_interval: 'Intervall für „zuletzt gesehen“ (Minuten)'
-      last_seen_interval_help: 'Wie viele Minuten seit der letzten Aktivität vergangen sein müssen, damit ein Nutzer immer noch als online gilt.'
+      last_seen_interval_help: 'Wie viele Minuten seit der letzten Aktivität vergangen sein müssen, damit ein Nutzer immer noch als online gilt. Standardwert: 5. Dieser Wert ist an den Präsenz-Heartbeat (standardmäßig aktiviert) gekoppelt – der Heartbeat hält die Aktivität für Benutzer mit einem geöffneten aktiven Tab auf dem neuesten Stand, sodass aktive Benutzer nicht aus der Liste fallen. Wenn du den Heartbeat deaktivierst, erhöhe diesen Wert auf 10 oder mehr, um zu vermeiden, dass Benutzer mitten in einer Sitzung als offline angezeigt werden.'
       max_online_users: 'Maximale Anzahl der anzuzeigenden Online-Benutzer'
       max_online_users_help: 'Maximale Anzahl der angezeigten Avatare für reguläre Nutzer. Nutzer, die über diese Anzahl hinausgehen, werden als „+N weitere“ angezeigt. Höhere Werte erhöhen die Cache-Größe und die API-Datenmenge. Empfohlen: 10–20.'
       max_online_users_privileged: 'Maximale Anzahl der anzuzeigenden Online-Nutzer (für Benutzer mit Sonderrechten)'
       max_online_users_privileged_help: 'Maximale Anzahl der angezeigten Avatare für privilegierte Benutzer (d. h. Benutzer mit der Berechtigung „Letzte Sichtungszeit des Benutzers immer anzeigen“ – in der Regel Administratoren und Moderatoren). Da dieser Cache von weniger Benutzern genutzt wird, kann er problemlos mehr Einträge enthalten. Empfehlung: 30–50.'
       online_users_cache_ttl: 'Cache-Dauer für Online-Benutzer (Sekunden)'
-      online_users_cache_ttl_help: 'Wie lange soll die Liste der Online-Benutzer zwischengespeichert werden? Es werden zwei separate Caches geführt: einer für privilegierte Benutzer (diejenigen mit der Berechtigung „Letzte Sichtungszeit des Benutzers immer anzeigen“, die auch versteckte Benutzer sehen können) und einer für normale Benutzer. Jeder Cache unterliegt seiner eigenen maximalen Anzeigegrenze.'
+      online_users_cache_ttl_help: 'Wie lange soll die Liste der Online-Benutzer zwischengespeichert werden. Es werden zwei separate Caches geführt: einer für privilegierte Benutzer (diejenigen mit der Berechtigung „Letzte Sichtungszeit des Benutzers immer anzeigen“, die auch versteckte Benutzer sehen können) und einer für alle anderen.'
       section_online_users: Online-Benutzer
       section_online_users_help: 'Konfiguriere die Anzeige der Online-Benutzer im aufgeklappten Widget-Bereich.'
       section_statistics: Forum-Statistiken
       section_statistics_help: 'Konfiguriere das Caching für die Anzahl der Diskussionen, die Anzahl der Beiträge, die Gesamtzahl der Benutzer und die Statistiken zu den neuesten Registrierungen.'
       show_discussions_count: 'Anzahl der Diskussionen anzeigen'
       show_latest_registration: 'Neueste Registrierung anzeigen'
+      show_online_guests: 'Online-Gäste anzeigen'
+      show_online_guests_help: 'Wenn aktiviert, wird im erweiterten Bereich unterhalb der ausgeblendeten Benutzer eine ungefähre Anzahl nicht authentifizierter Besucher als gepunkteter Kreis angezeigt. Jeder Gast-Tab sendet eine Anfrage an einen kleinen Endpunkt, der einen Hash der IP-Adresse und des User-Agents des Besuchers in einer kurzlebigen Präsenzkarte speichert; die Anzahl entspricht der Anzahl der eindeutigen Fingerabdrücke, die innerhalb des „letzten Sichtbarkeitsintervalls“ erfasst wurden. Die Zählung ist eine Schätzung – Besucher hinter einem gemeinsamen NAT werden zu einem einzigen Besucher zusammengefasst, mobile Nutzer mit wechselnden IP-Adressen können doppelt gezählt werden. Im Browser des Besuchers wird kein dauerhafter Identifikator gespeichert.'
       show_online_users: 'Online-Benutzer anzeigen'
       show_online_users_help: 'Aktiviere oder deaktiviere die Funktion „Online-Benutzer“ vollständig. Wenn deaktiviert, werden keine Abfragen nach Online-Benutzern ausgeführt.'
       show_posts_count: 'Anzahl der Beiträge anzeigen'
@@ -60,6 +66,7 @@ ekumanov-forum-widgets:
       overflow_users: '{count} weitere Online-Benutzer'
     online_users:
       empty: 'Keine Benutzer online.'
+      guests: '{count, plural, ein {guest} andere {guests}}'
       hidden_users: verborgen
       overflow_more: weitere
       title: Online-Benutzer

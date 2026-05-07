@@ -3,8 +3,19 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ramon-verified:
+  forum:
+    settings:
+      heading: Verifizierung
+      pending_label: 'Verifizierung ausstehend'
+      pending_sublabel: 'Ein Administrator wird sich in Kürze bei dir melden.'
+      request_button: 'Verifizierung beantragen'
+      verified_label: 'Dein Konto wurde verifiziert'
+      verified_sublabel: 'Deine Identität wurde von einem Administrator bestätigt.'
   lib:
     popover:
+      headline: 'Dieses Konto verfügt über eine <strong>verifizierte Identität</strong>.'
       pill: Verifiziert
+      verified_no_date: 'Automatisch verifiziertes Konto'
+      verified_on: 'Verifiziert {date}'
     tooltip: 'Verifiziertes Konto'
     tooltip_with_date: 'Verifiziertes Konto · seit {date}'
