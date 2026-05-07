@@ -9,12 +9,14 @@ CHANGELOG
 
 * [`anto0102/mailguard`](https://github.com/anto0102/MailGuard)
 * [`ekumanov/flarum-ext-markdown-tables`](https://github.com/ekumanov/flarum-ext-markdown-tables)
+* [`linkrobins/referral`](https://github.com/linkrobins/referral)
 * [`ramon/verified`](https://github.com/ram0ng1/verified)
 * [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`ekumanov/flarum-ext-forum-widgets`](https://github.com/ekumanov/flarum-ext-forum-stats-widget)
 * [`forumaker/profile-cover`](https://github.com/forumaker/Profile-Cover)
 * [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
 * [`resofire/digest-mail`](https://github.com/ResofireV2/digest-mail)
