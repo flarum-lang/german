@@ -2,6 +2,20 @@ CHANGELOG
 =========
 
 
+1.25.16 (2026-05-07)
+--------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`clarkwinkelmann/flarum-ext-meilisearch-dashboard`](https://github.com/clarkwinkelmann/flarum-ext-meilisearch-dashboard)
+* [`justoverclock/hot-discussions-cards`](https://github.com/justoverclockl/hot-discussions-cards)
+* [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views)
+* [`tryhackx/flarum-magnet-link`](https://github.com/TryHackX/flarum-magnet-link)
+
+
+Alle Änderungen: [1.25.15...1.25.16](https://github.com/flarum-lang/german/compare/1.25.15...1.25.16).
+
+
 1.25.15 (2026-04-29)
 --------------------
 
