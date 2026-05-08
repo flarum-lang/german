@@ -12,6 +12,9 @@ tryhackx-homepage-blocks:
     section_stats: Tracker-Statistiken
     section_tracker: Tracker-Informationen
     settings:
+      category_label: 'Benutzerdefinierte Bezeichnung für den Kategorie-Filter'
+      category_label_help: 'Lasse das Feld leer, um die Standardübersetzung zu verwenden.'
+      content_length_enabled: 'Anpassung der Inhaltslänge aktivieren'
       content_length_help: 'Die Inhaltsspalte ist vom Typ „mediumtext“ (bis zu 16 Millionen Zeichen). Setze den Wert auf 0, um leere Beiträge zuzulassen.'
       content_max_length: 'Maximallänge des Inhalts'
       content_min_length: 'Mindestlänge des Inhalts'
@@ -37,8 +40,16 @@ tryhackx-homepage-blocks:
       recaptcha_points_cost_random: 'Kosten — Zufällige Schaltfläche'
       recaptcha_points_cost_search: 'Kosten — Suche / Filter'
       recaptcha_points_cost_stats: 'Kosten — Interne Statistiken'
+      recaptcha_points_enabled: 'Punktbasierte Ratenbegrenzung aktivieren'
+      recaptcha_points_enabled_help: 'Anstatt bei jeder Anfrage ein reCAPTCHA zu lösen, verfügt jeder Besucher über ein Punktebudget. Ist dieses aufgebraucht, erscheint ein Captcha-Fenster. Das Guthaben füllt sich im Laufe der Zeit wieder auf.'
       recaptcha_points_guest_extra: 'Zusatzkosten für Gäste'
       recaptcha_points_guest_extra_help: 'Wird zu den Kosten jeder Aktion für nicht angemeldete Besucher addiert. Standard: +2'
+      recaptcha_points_refill_amount: Nachfüllmenge
+      recaptcha_points_refill_amount_help: 'Wie viele Punkte pro Intervall hinzugefügt werden. Standard: 1'
+      recaptcha_points_refill_seconds: 'Nachfüllintervall (Sekunden)'
+      recaptcha_points_refill_seconds_help: 'Wie oft +N Punkte wieder gutgeschrieben werden. Standard: 15 s'
+      recaptcha_points_start: 'Anfängliche Punkteanzahl'
+      recaptcha_points_start_help: 'Anzahl der Punkte, die jedem Besucher zu Beginn gutgeschrieben werden. Standard: 10'
       recaptcha_secret_key: 'reCAPTCHA Secret Key'
       recaptcha_site_key: reCAPTCHA-Seitenschlüssel
       recaptcha_skip_authenticated: 'reCAPTCHA für angemeldete Benutzer überspringen'
@@ -46,7 +57,10 @@ tryhackx-homepage-blocks:
       recaptcha_v3_threshold: 'reCAPTCHA v3 Schwellwert'
       recaptcha_v3_threshold_help: 'Mindestwert (0.0–1.0), der für v3 akzeptiert wird. Je niedriger der Wert, desto weniger streng die Anforderungen. Standardwert: 0,5'
       recaptcha_version: reCAPTCHA-Version
+      resolution_label_help: 'Lasse das Feld leer, um die Standardübersetzung zu verwenden.'
       restore_defaults: Standardwerte
+      search_debounce_ms: 'Such-Entprellzeit (ms)'
+      search_debounce_ms_help: 'Verzögerung vor dem Auslösen einer Suche während der Eingabe. Höherer Wert = weniger Anfragen. Standard: 500 ms'
       section1_collapsed: 'Abschnitt 1 standardmäßig zusammengeklappt'
       section1_enabled: 'Abschnitt 1 aktivieren (Zufall & Statistiken)'
       section1_title: 'Titel für Abschnitt 1 (Zufall & Statistiken)'
@@ -56,6 +70,8 @@ tryhackx-homepage-blocks:
       show_tag_count: 'Anzahl der Beiträge neben den Themen-Namen anzeigen'
       stats_enabled: 'Interne Statistiken (aus Datenbank) aktivieren'
       stats_title: 'Titel des Statistikabschnitts'
+      theme_mode: Themenmodus
+      theme_mode_help: 'Erkennt automatisch die Einstellungen für den Dunkelmodus des Betriebssystems bzw. Browsers.'
       title_length_enabled: 'Änderung der Titellänge aktivieren'
       title_length_help: 'Die Spalte „Titel“ ist vom Typ varchar(200). Der Mindestwert muss mindestens 1 betragen, der Höchstwert höchstens 200.'
       title_max_length: 'Maximallänge des Titels'

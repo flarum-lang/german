@@ -6,18 +6,35 @@ irmmr-rtl:
   admin:
     settings:
       ad_status_label: 'Linksläufige Administration'
+      ad_status_text: 'Aktiviert das linksläufige Layout für das Admin-Backend. Wenn „Sprachbasierte linksläufige Schreibrichtung“ aktiviert ist, gilt dies nur, wenn die ausgewählte Sprache eine mit linksläufiger Schreibrichtung ist.'
       driver_label: CSS-Treiber
+      driver_options:
+        custom: 'Benutzerdefinierte Assets'
+        rtlcss: 'Compiler für linksläufiges CSS'
+      driver_text: "Wähle aus, wie linksläufige Stile behandelt werden sollen. „rtlcss“ generiert automatisch eine linksläufige Version deines kompilierten CSS unter Verwendung linksläufiger Transformationsregeln. „custom“ deaktiviert die automatische Generierung linksläufiger Stile, sodass du diese manuell über Asset-Regeln oder einen benutzerdefinierten Build-Prozess verwalten kannst. Bitte leere nach dem Ändern dieser Einstellung den Flarum-Cache, damit die Assets neu erstellt werden können.\n"
       fm_status_label: 'Linksläufiges Forum'
+      fm_status_text: 'Aktiviert das linksläufige Layout für das Forum-Frontend. Wenn „Sprachbasierte linksläufige Schreibrichtung“ aktiviert ist, gilt dies nur, wenn die ausgewählte Sprache eine mit linksläufiger Schreibrichtung ist.'
       lang_base_label: 'Sprachbasierte linksläufige Schreibrichtung'
       lang_base_text: 'Wenn aktiviert, wird die linksläufige Schreibrichtung nur angewendet, wenn die aktive Sprache diese Schrift verwendet. Wenn deaktiviert, werden die Einstellungen des Forums bzw. der Administration für die linksläufige Schreibrichtung bedingungslos angewendet.'
       mappings:
         add_button: 'Regel hinzufügen'
+        empty_text: 'Es sind keine Zuordnungsregeln definiert'
+        help_text: "Lege fest, wie ursprüngliche CSS- oder JS-Dateien ihren linksläufigen Versionen zugeordnet werden sollen. Muster können Platzhalter wie „*.css“ enthalten. Beispiele:\n    bootstrap*.css  → bootstrap*.rtl.css\n    app.css         → app-rtl.css\nDiese Zuordnungen werden bei der Umwandlung von Nutzdaten oder bei der Generierung von linksläufigem CSS mit dem rtlcss-Treiber angewendet. Denke daran, den Flarum-Cache nach Änderungen zu leeren."
         pattern_placeholder: 'Muster, z.B. *.css'
         replace_placeholder: 'Ersetzung, z.B. *.rtl.css'
+        section_title: Asset-Zuordnungsregeln
         type_options:
           auto: Auto
           css: CSS
           js: JS
+      minify_label: 'Kompiliertes CSS minimieren'
+      minify_text: "Wenn aktiviert, werden kompilierte CSS-Dateien (einschließlich der LESS-zu-CSS-Ausgabe und des generierten linksläufigen CSS) minimiert, um die Dateigröße zu reduzieren und die Leistung zu verbessern. Dieser Vorgang erfordert mindestens 512 MB PHP-Speicher und wird nur einmal während des Build-Prozesses ausgeführt, nicht bei jeder Anfrage. Bitte leere nach dem Ändern dieser Einstellung den Flarum-Cache, um die kompilierten Assets neu zu generieren.\n"
+      payloads:
+        add_button: 'Nutzdaten hinzufügen'
+        empty_text: 'Noch keine Nutzdaten hinzugefügt'
+        help_text: "Nutzdaten sind CSS-/JS-Dateien, die über das Frontend-Nutzdaten-System von Flarum in die Seite eingebunden werden. Wenn hier Nutzdaten hinzugefügt wird, prüft die Erweiterung, ob es sich um eine CSS- oder JS-Datei handelt, und ersetzt diese entsprechend dem ausgewählten Treiber und den Regeln zur Zuordnung von Dateien durch eine mit linksläufiger Schreibrichtung kompatiblen Version.\n"
+        placeholder: 'Nutzdaten-Schlüssel, z. B. fof-nightmode.assets.day'
+        section_title: 'Überschreibungen der Nutzdaten'
       rtl_languages_label: 'Sprachcode für linksläufige Schreibrichtung'
       rtl_languages_placeholder: 'ar, fa, he, ur, yi'
       rtl_languages_text: "Durch Kommas getrennte Liste von Sprachcodes, die als von rechts nach links geschrieben behandelt werden sollen, wenn die sprachbasierte linksläufige Schreibrichtung aktiviert ist. Beispiel: ar, fa, he, ur, yi\n"
