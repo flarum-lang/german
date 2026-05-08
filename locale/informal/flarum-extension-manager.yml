@@ -154,7 +154,7 @@ flarum-extension-manager:
         description: 'Konfiguriere den Erweiterungsmanager und überprüfe die Vorgänge in der Warteschlange.'
         title: 'Optionen und Warteschlange'
     settings:
-      access_warning: 'Bitte sei vorsichtig, wem du Zugang zum Admin-Bereich gibst, der Erweiterungs-Manager könnte von bösartigen Akteuren missbraucht werden, um Pakete zu installieren, die zu Sicherheitslücken führen können.'
+      access_warning: 'Bitte sei vorsichtig, wem du Zugang zum Admin-Bereich gibst. Der Erweiterungs-Manager könnte von bösartigen Akteuren missbraucht werden, um Pakete zu installieren, die zu Sicherheitslücken führen können.'
       debug_mode_warning: 'Du bist im Debug-Modus, der Erweiterungs-Manager kann lokale Entwicklungs-Pakete nicht richtig installieren und aktualisieren. Bitte benutze für solche Zwecke stattdessen die Kommandozeile.'
       queue_jobs: 'Operationen im Hintergrund ausführen'
       queue_jobs_help: "Du kannst dich über eine <basic_impl_link>grundlegende Warteschlangenimplementierung</basic_impl_link> oder eine <adv_impl_link>fortgeschrittenere</adv_impl_link> Implementierung informieren. Stelle sicher, dass die für die Warteschlange verwendete PHP-Version {php_version} ist. Stelle auch sicher, dass die <folder_perms_link>Ordnerberechtigungen</folder_perms_link> korrekt konfiguriert sind.\n"
