@@ -14,6 +14,7 @@ CHANGELOG
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`tryhackx/flarum-homepage-blocks`](https://github.com/TryHackX/flarum-homepage-blocks)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 
 
