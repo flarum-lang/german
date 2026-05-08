@@ -14,7 +14,8 @@ linkrobins-referral:
       user_referred: '{displayName} hat sich mit deinem Einladungscode registriert!'
     profile:
       copy: Kopieren
-      invite_code_help: 'Teile diesen Code mit allen, die du einladen möchtest. Sie geben ihn bei der Anmeldung in das Feld „Einladungscode“ ein.'
+      copy_link: 'Empfehlungslink kopieren'
+      invite_code_help: 'Teile deinen Code oder deinen Empfehlungslink. Bei jedem, der deinen Link folgt, wird der Code bei der Registrierung automatisch vorausgefüllt.'
       invite_code_title: 'Dein Einladungscode'
       no_referrals: 'Noch keine Weiterempfehlungen. Teile deinen Einladungscode, um loszulegen!'
       tab: Weiterempfehlungen
