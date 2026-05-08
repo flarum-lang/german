@@ -11,6 +11,11 @@ CHANGELOG
 * [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum)
 
 
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+
+
 Alle Änderungen: [2.0.3...2.0.4](https://github.com/flarum-lang/german/compare/2.0.3...2.0.4).
 
 
