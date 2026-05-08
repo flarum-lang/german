@@ -14,6 +14,7 @@ CHANGELOG
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`linkrobins/referral`](https://github.com/linkrobins/referral)
 * [`tryhackx/flarum-homepage-blocks`](https://github.com/TryHackX/flarum-homepage-blocks)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 
