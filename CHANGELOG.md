@@ -8,6 +8,7 @@ CHANGELOG
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
 * [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length)
+* [`irmmr/flarum-ext-rtl`](https://github.com/irmmr/flarum-ext-rtl)
 * [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum)
 
 
