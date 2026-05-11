@@ -17,11 +17,13 @@ CHANGELOG
 * [`linkrobins/markdown-widget`](https://github.com/linkrobins/markdown-widget)
 * [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
 * [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum)
+* [`ramon/guest-cta`](https://github.com/ram0ng1/guest-cta)
 * [`treeslins/flarum-ext-reply-to-see`](https://github.com/treeslins/flarum-ext-reply-to-see)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`datlechin/flarum-posted-on`](https://github.com/datlechin/flarum-posted-on)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`flarum/mentions`](https://github.com/flarum/mentions)
 * [`linkrobins/referral`](https://github.com/linkrobins/referral)
