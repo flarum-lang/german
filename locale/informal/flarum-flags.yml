@@ -8,7 +8,7 @@ flarum-flags:
       flag_posts_label: 'Beiträge melden'
       view_flags_label: 'Gemeldete Beiträge anzeigen'
     settings:
-      flag_own_posts_label: 'Erlaube Benutzern eigene Beiträge zu melden'
+      flag_own_posts_label: 'Erlaube Benutzern, eigene Beiträge zu melden'
       guidelines_url_label: Community-Richtlinien-URL
       title: Flags-Einstellungen
   forum:

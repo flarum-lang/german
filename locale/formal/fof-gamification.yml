@@ -80,15 +80,15 @@ fof-gamification:
     mod_item: 'Wähler anzeigen'
     modal:
       downvotes_label: 'Downvoter:'
-      title: Wählende
+      title: Abstimmende
       upvotes_label: 'Upvoter:'
     nav:
       name: Ranglisten
     notification:
-      downvote: '{username} hat deinen Beitrag Downgevoted'
+      downvote: '{username} hat deinen Beitrag downgevoted'
       prefrences:
         vote: 'Wenn einer meiner Beiträge mit Up/Down bewertet wird'
-      upvote: '{username} hat deinen Beitrag Upgevoted'
+      upvote: '{username} hat deinen Beitrag upgevoted'
     post:
       downvote_button: 'Beitrag negativ bewerten'
       upvote_button: 'Beitrag positiv bewerten'
@@ -103,9 +103,9 @@ fof-gamification:
       votes_link: Abstimmungen
     vote_title: 'Zeigen, wer gewählt hat'
     voters:
-      label: Wählende
-      label_none: 'Keine Wählenden'
-      none: 'Noch keine Wähler'
+      label: Abstimmende
+      label_none: 'Keine Abstimmenden'
+      none: 'Noch keine Abstimmenden'
     votes: Abstimmungen
 lib:
   gambits:
