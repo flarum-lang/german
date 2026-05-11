@@ -26,11 +26,13 @@ CHANGELOG
 * [`datlechin/flarum-posted-on`](https://github.com/datlechin/flarum-posted-on)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
 * [`linkrobins/referral`](https://github.com/linkrobins/referral)
 * [`resofire/digest-mail`](https://github.com/ResofireV2/digest-mail)
 * [`tryhackx/flarum-homepage-blocks`](https://github.com/TryHackX/flarum-homepage-blocks)
 * [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
 * [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
+* [`flarum/flags`](https://github.com/flarum/flags)
 
 
 Alle Änderungen: [2.0.3...2.0.4](https://github.com/flarum-lang/german/compare/2.0.3...2.0.4).
