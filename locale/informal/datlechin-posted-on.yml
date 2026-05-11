@@ -3,8 +3,35 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 datlechin-posted-on:
+  admin:
+    settings:
+      display_mode_help: 'Details pro Beitrag. Die vollständige Aufschlüsselung ist jederzeit im Tooltip einsehbar.'
+      display_mode_label: 'Was neben einem Beitrag angezeigt werden soll'
+      display_mode_os_browser: 'Betriebssystem und Browser (z. B. Windows 11 · Chrome 147)'
+      display_mode_os_only: 'Nur Betriebssystem (z. B. Windows 11)'
+      skip_guests_help: 'Wenn aktiviert, erhalten Beiträge, die von Gastkonten verfasst wurden, keine Plattform-Metadaten.'
+      skip_guests_label: 'Nicht für Gäste erfassen'
   forum:
+    device_types:
+      camera: Kamera
+      'car browser': Auto
+      console: Konsole
+      desktop: Desktop
+      'feature phone': Telefon
+      peripheral: Peripheral
+      phablet: Phablet
+      'portable media player': Mediaplayer
+      'smart display': Smart-Display
+      'smart speaker': Smart-Lautsprecher
+      smartphone: Handy
+      tablet: Tablet
+      tv: Fernseher
+      wearable: Wearable
     post:
       posted_on_text: 'Gepostet auf {posted_on}'
+      tooltip:
+        client: Browser
+        device: Gerät
+        os: Betriebssystem
     settings:
-      privacy_disclose_posted_on_label: 'Anderen erlauben zu sehen, auf welchen Geräten ich gepostet werde'
+      privacy_disclose_posted_on_label: 'Anderen anzeigen, von welchem Gerät aus ich poste'

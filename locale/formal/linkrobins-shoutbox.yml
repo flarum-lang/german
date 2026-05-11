@@ -3,7 +3,15 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 linkrobins-shoutbox:
+  admin:
+    settings:
+      height_help: 'Höhe des Nachrichtenbereichs in Pixeln. Der Standardwert beträgt 320.'
+      height_label: 'Höhe der Nachrichten (px)'
   forum:
     widget:
+      delete_confirm: 'Diese Nachricht löschen?'
+      load_error: 'Nachrichten konnten nicht geladen werden.'
+      login_to_shout: 'Anmelden und mitreden!'
       placeholder: 'Sag etwas...'
       send: Senden
+      title: Shoutbox
