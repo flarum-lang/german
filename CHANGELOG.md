@@ -5,20 +5,32 @@ CHANGELOG
 1.25.17 (XXXX-XX-XX)
 --------------------
 
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`datlechin/flarum-ai-summarize`](https://github.com/datlechin/flarum-ai-summarize)
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
+
+
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`blomstra/fontawesome`](https://github.com/blomstra/flarum-ext-fontawesome)
 * [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content)
 * [`davwheat/flarum-ext-share`](https://github.com/davwheat/flarum-ext-share)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
 * [`flarum/mentions`](https://github.com/flarum/mentions)
 * [`flarum/pusher`](https://github.com/flarum/pusher)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
 * [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
 * [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`justoverclock/reputation-score`](https://flarum.org/extension/justoverclock/reputation-score)
 * [`nearata/flarum-ext-embed-video`](https://github.com/Nearata/flarum-ext-embed-video)
+* [`resofire/digest-mail`](https://github.com/ResofireV2/digest-mail)
+* [`tryhackx/flarum-homepage-blocks`](https://github.com/TryHackX/flarum-homepage-blocks)
 * [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
 * [`yippy/flarum-ext-auth-ldap`](https://github.com/Yippy/flarum-ext-auth-ldap)
 
