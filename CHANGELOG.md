@@ -10,8 +10,12 @@ CHANGELOG
 * [`captchala/flarum`](https://github.com/Captcha-La/captchala-flarum)
 * [`datlechin/flarum-mermaid`](https://github.com/datlechin/flarum-mermaid)
 * [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length)
+* [`ernestdefoe/social-groups`](https://github.com/ernestdefoe/social-groups)
 * [`irmmr/flarum-ext-rtl`](https://github.com/irmmr/flarum-ext-rtl)
+* [`linkrobins/countdown-widget`](https://github.com/linkrobins/countdown-widget)
 * [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget)
+* [`linkrobins/markdown-widget`](https://github.com/linkrobins/markdown-widget)
+* [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
 * [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum)
 * [`treeslins/flarum-ext-reply-to-see`](https://github.com/treeslins/flarum-ext-reply-to-see)
 
