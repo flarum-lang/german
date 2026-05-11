@@ -28,6 +28,8 @@ CHANGELOG
 * [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
 * [`justoverclock/reputation-score`](https://flarum.org/extension/justoverclock/reputation-score)
+* [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free)
+* [`kilowhat/flarum-ext-audit-pro`](https://flarum.org/extension/kilowhat/flarum-ext-audit-pro)
 * [`nearata/flarum-ext-embed-video`](https://github.com/Nearata/flarum-ext-embed-video)
 * [`resofire/digest-mail`](https://github.com/ResofireV2/digest-mail)
 * [`tryhackx/flarum-homepage-blocks`](https://github.com/TryHackX/flarum-homepage-blocks)
