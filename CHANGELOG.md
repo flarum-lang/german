@@ -22,6 +22,7 @@ CHANGELOG
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`flarum/mentions`](https://github.com/flarum/mentions)
 * [`linkrobins/referral`](https://github.com/linkrobins/referral)
 * [`tryhackx/flarum-homepage-blocks`](https://github.com/TryHackX/flarum-homepage-blocks)
 * [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
