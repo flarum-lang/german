@@ -36,7 +36,7 @@ resofire-digest-mail:
       send_hour_label: Versandzeit
       send_window_end_help: 'Lasse diese Einstellung unverändert, um alle E-Mails auf einmal zu versenden. Stelle einen späteren Zeitpunkt ein, um den Versand über mehrere Stunden zu verteilen – dies wird für größere Foren empfohlen. Wenn du beispielsweise den Start auf 2 Uhr morgens und das Ende auf 4 Uhr morgens festlegst, werden die E-Mails schrittweise zwischen 2 und 4 Uhr morgens versendet.'
       send_window_end_label: 'Versandzeit – Ende (optional)'
-      send_window_start_help: 'Die Tageszeit, zu der der Versand der Zusammenfassungs-E-Mails beginnt. Wähle eine ruhige Zeit, in der in deinem Forum wenig los ist – in der Regel spätabends oder frühmorgens.'
+      send_window_start_help: 'Die Tageszeit, zu der der Versand der Zusammenfassungs-E-Mails beginnt. Wählen Sie eine ruhige Zeit, in der in Ihrem Forum wenig los ist – in der Regel spätabends oder frühmorgens.'
       send_window_start_label: Versandzeit
       timezone_help: 'Wähle deine eigene Zeitzone – nicht die deines Servers. Die unten festgelegte Sendezeit wird zu dieser Uhrzeit in der hier ausgewählten Zeitzone ausgelöst. Wenn du dich beispielsweise in Berlin befindest und möchtest, dass E-Mails um 8 Uhr morgens deiner Ortszeit versendet werden, wähle „Central European Time“ und stelle die Sendezeit auf 8 Uhr morgens ein.'
       timezone_label: 'Deine Zeitzone'

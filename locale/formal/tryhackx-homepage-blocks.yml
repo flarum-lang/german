@@ -39,7 +39,7 @@ tryhackx-homepage-blocks:
       recaptcha_points_cost_stats: 'Kosten — Interne Statistiken'
       recaptcha_points_guest_extra: 'Zusatzkosten für Gäste'
       recaptcha_points_guest_extra_help: 'Wird zu den Kosten jeder Aktion für nicht angemeldete Besucher addiert. Standard: +2'
-      recaptcha_secret_key: 'reCAPTCHA Secret Key'
+      recaptcha_secret_key: 'reCAPTCHA Geheimer Schlüssel'
       recaptcha_site_key: reCAPTCHA-Seitenschlüssel
       recaptcha_skip_authenticated: 'reCAPTCHA für angemeldete Benutzer überspringen'
       recaptcha_skip_authenticated_help: 'Wenn aktiviert, wird angemeldeten Benutzern keine Aufgabe gestellt — reCAPTCHA gilt nur für Gäste.'

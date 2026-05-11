@@ -34,7 +34,7 @@ justoverclock-reputation-score:
       discussionPointsHelp: 'Gib die Anzahl der Punkte ein, die ein Nutzer für das Erstellen einer neuen Diskussion erhält (z.B. 0,55)'
       discussionRewardThreshold: 'Grenzwert für die Anzahl der Diskussionen'
       flagPoints: 'Punkte für Meldung eines Beitrags'
-      flagPointsHelp: 'Gib die Anzahl der Punkte ein, die ein Nutzer für das Melden von Beiträgen erhält.'
+      flagPointsHelp: 'Geben Sie die Anzahl der Punkte ein, die ein Nutzer für das Melden von Beiträgen erhält.'
       likePoints: 'Punkte für erhaltenes Like'
       likePointsHelp: 'Gib die Anzahl der Punkte ein, die ein Nutzer für ein „Like“ erhält'
       maxPoints: 'Maximale Ansehen-Punkte'

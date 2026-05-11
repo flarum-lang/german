@@ -23,7 +23,7 @@ flarum-extension-manager:
       remove_button_label: 'Authentifizierungsmethode entfernen'
       title: Authentifizierungsmethoden
       types:
-        bearer: 'HTTP Bearer'
+        bearer: HTTP-Bearer
         github-oauth: 'GitHub OAuth'
         gitlab-oauth: 'GitLab OAuth'
         gitlab-token: 'GitLab Token'
@@ -38,7 +38,7 @@ flarum-extension-manager:
         options:
           alpha: Alpha
           beta: Beta
-          dev: Dev
+          dev: Entwickler
           rc: Release-Kandidat
           stable: 'Stabil (Empfohlen)'
       repositories:
@@ -66,7 +66,7 @@ flarum-extension-manager:
     extensions:
       check_why_it_failed_updating: 'Zeige, warum sie nicht auf die neueste Version aktualisiert wurde.'
       install: 'Installiere eine neue Erweiterung'
-      install_help: "Geben sie den Paketnamen der Erweiterung ein, um fortzufahren. Sie können mithilfe des Formats <code>vendor/package-name:version</code> eine <semantic_link>semantische Version</semantic_link> angeben. Besuchen sie {extiverse}, um Erweiterungen zu durchsuchen.\n"
+      install_help: "Geben Sie den Paketnamen der Erweiterung ein, um fortzufahren. Sie können mithilfe des Formats <code>vendor/package-name:version</code> eine <semantic_link>semantische Version</semantic_link> angeben. Besuchen Sie {link}, um Erweiterungen zu durchsuchen.\n"
       proceed: Fortfahren
       remove: Deinstallieren
       successful_install: '{extension} wurde erfolgreich installiert, leite weiter...'
@@ -138,7 +138,7 @@ flarum-extension-manager:
       run_global_update: 'Globale Aktualisierung starten'
       up_to_date: 'Alles ist aktuell!'
       updater_help: 'Führt eine Überprüfung auf neue Erweiterungen und Flarum-Updates durch.'
-      updater_title: Updates
+      updater_title: Aktualisierungen
     why_not_modal:
       title: 'Warum wird es nicht aktualisiert'
   validation:

@@ -59,10 +59,10 @@ flarum-gdpr:
           export: 'Daten für {username} exportieren'
   email:
     confirm_erasure:
-      body: "Jemand (hoffentlich Sie) hat gerade die Löschung des Kontos `{display_name}` beantragt.\n\nUm diese Aktion zu bestätigen, folgen Sie bitte dem folgenden Link. Anschließend wird Ihre Anfrage von unserem Team bearbeitet.\n\n{erasure_confirm_url}\n"
+      body: "Hallo {display_name}!\n\nJemand (hoffentlich Sie) hat gerade die Löschung des Kontos „{display_name}“ beantragt.\n\nUm diese Aktion zu bestätigen, folgen Sie bitte dem folgenden Link. Anschließend wird Ihre Anfrage von unserem Team bearbeitet.\n\n{erasure_confirm_url}\n"
       subject: 'Bestätige die Anfrage zur Löschung deines Kontos'
     erasure_cancelled:
-      body: "Dies ist eine automatische Benachrichtigung, dass Ihr Antrag auf Stornierung der Kontolöschung bearbeitet wurde.\n\nIhr Konto wird nicht mehr gelöscht.\n"
+      body: "Hallo {display_name}!\n\nDies ist eine automatische Benachrichtigung, dass Ihr Antrag auf Stornierung der Kontolöschung bearbeitet wurde.\n\nIhr Konto wird nicht mehr gelöscht.\n"
       subject: 'Antrag zur Kontolöschung abgebrochen'
     erasure_completed:
       anonymization:
@@ -72,7 +72,7 @@ flarum-gdpr:
         body: "Hey {display_name}!\n\nDies ist eine automatische und endgültige Benachrichtigung, dass dein Konto erfolgreich gelöscht wurde.\n"
         subject: 'Kontolöschung abgeschlossen'
     export_available:
-      body: "Sie haben einen Export der Kontodaten für {username} angefordert. Dieser Export wurde erfolgreich generiert und ist jetzt verfügbar:\n\n{url}\n\nDieser Export bleibt bis {destroys_at} verfügbar.\n"
+      body: "Hallo {display_name}!\n\nSie haben einen Export der Kontodaten für {username} angefordert. Dieser Export wurde erfolgreich generiert und ist jetzt verfügbar:\n\n{url}\n\nDieser Export bleibt bis {destroys_at} verfügbar.\n"
       subject: 'Datenexport verfügbar'
   forum:
     badges:

@@ -54,7 +54,7 @@ fof-oauth:
         no_group_label: 'Keine Gruppenzuweisung'
         twitter:
           api_key_label: API-Schlüssel
-          api_secret_label: 'API Secret'
+          api_secret_label: API-Secret
           description: 'Erstelle eine Applikation unter {link}. Du musst eine Nutzungsbedingungen-, sowie eine Datenschutzrichtlinien-URL festlegen. Weise dann die "E-Mail anfordern" Berechtigung deiner Applikation zu.'
       update_email_from_provider_help: 'Wenn diese Option aktiviert ist, wird die E-Mail-Adresse des Nutzers bei jeder Anmeldung im Forum aktualisiert, damit sie mit der vom OAuth-Anbieter angegebenen Adresse übereinstimmt. Nicht alle Anbieter stellen die aktualisierte E-Mail-Adresse zur Verfügung. In diesem Fall hat diese Einstellung bei diesen Anbietern keine Auswirkungen.'
       update_email_from_provider_label: 'E-Mail Adresse vom Anbieter aktualisieren'
@@ -105,7 +105,7 @@ fof-oauth:
       twitter: Twitter
   ref:
     settings:
-      app_id: 'App ID'
-      app_secret: 'App Secret'
+      app_id: App-ID
+      app_secret: App-Secret
       client_id: 'Client ID'
-      client_secret: 'Client Secret'
+      client_secret: Client-Secret
