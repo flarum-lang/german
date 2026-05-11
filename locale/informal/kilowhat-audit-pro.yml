@@ -44,11 +44,28 @@ kilowhat-audit:
         tag: 'Thema #{id}'
         user: 'Benutzer #{id}'
       discussion:
-        created: 'Hat Diskussion {discussion} begonnen'
-        deleted: 'Hat Diskussion {discussion} gelöscht'
+        create_date_changed: 'Das Startdatum von {discussion} wurde von {old_date} auf {new_date} geändert'
+        created: 'Diskussion {discussion} gestartet'
+        deleted: 'Diskussion {discussion} gelöscht'
+        hidden: 'Diskussion {discussion} wurde verborgen'
+        locked: 'Diskussion {discussion} geschlossen'
+        merged_away: '{discussion} in {new_discussion} zusammengeführt'
+        restored: 'Diskussion {discussion} wiederhergestellt'
+        split_away: '{post_count} Beiträge aus {discussion} in {new_discussion} aufgeteilt'
+        split_into: '{post_count} Beiträge in eine neue Diskussion {discussion} aufgeteilt'
+        stickied: 'Diskussion {discussion} angeheftet'
+        tagged: 'Themen zu {discussion} von {old_tags} zu {new_tags} geändert'
+        unlocked: 'Diskussion {discussion} freigegeben'
+        user_changed: 'Autor von {discussion} von {old_user} zu {new_user} geändert'
       empty: 'Keine Ergebnisse'
+      extension:
+        disabled: 'Erweiterung {package} deaktiviert'
+        enabled: 'Erweiterung {package} aktiviert'
       filterApply: Anwenden
       filterPlaceholder: 'Protokolle filtern'
+      fof_ban_ips:
+        banned: 'IP {ip} gesperrt'
+        unbanned: 'IP {ip} entsperrt'
       genericResource:
         comment: Kommentar
         post: Beitrag
@@ -58,8 +75,12 @@ kilowhat-audit:
       permissionGroup:
         everyone: '=> core.admin.permissions_controls.everyone_button'
         members: '=> core.admin.permissions_controls.members_button'
+      permission_changed: 'Berechtigung {permission} von {old_groups} auf {new_groups} geändert'
       post:
+        approved: '{post} von {postuser} in {discussion} genehmigt'
+        create_date_changed: 'Veröffentlichungsdatum von {postuser}s {post} von {old_date} auf {new_date} geändert'
         created: 'Hat Beitrag {post} in Diskussion {discussion} erstellt'
+        deleted: '{post} von {postuser} in {discussion} gelöscht'
         revised: 'Hat den Beitrag {post} von {postuser} in {discussion} überarbeitet'
       setting_changed: 'Hat Einstellung {key} bearbeitet'
       tag:

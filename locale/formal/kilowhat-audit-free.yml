@@ -13,6 +13,7 @@ kilowhat-audit:
       view: 'Audit-Protokoll anzeigen'
   lib:
     browser:
+      audit_log_cleared: '{deleted_count} Einträge aus den Protokollen gelöscht'
       cache_cleared: 'Manuell den Cache geleert'
       client:
         access_token: Zugriffstoken
@@ -21,8 +22,14 @@ kilowhat-audit:
         session: Websitzung
         unknown: 'Unbekannter Client'
       controls:
+        filterAction: 'Protokolle derselben Aktion anzeigen'
+        filterActor: 'Protokolle dieses Akteurs anzeigen'
+        filterClient: 'Protokolle dieses Clients anzeigen'
         filterDiscussion: 'Protokolle anzeigen, die dieselbe Diskussion betreffen'
         filterIp: 'Protokolle von dieser IP anzeigen'
+        filterUser: 'Protokolle anzeigen, die denselben Benutzer betreffen'
+        hideRaw: 'Rohprotokoll ausblenden'
+        showRaw: 'Rohprotokoll anzeigen'
       deletedResource:
         discussion: 'Diskussion #{id}'
         group: 'Gruppe #{id}'
@@ -30,13 +37,20 @@ kilowhat-audit:
         tag: 'Thema #{id}'
         user: 'Benutzer #{id}'
       discussion:
+        create_date_changed: 'Das Startdatum von {discussion} wurde von {old_date} auf {new_date} geändert'
         created: 'Diskussion {discussion} gestartet'
         deleted: 'Diskussion {discussion} gelöscht'
+        hidden: 'Diskussion {discussion} wurde verborgen'
         locked: 'Diskussion {discussion} geschlossen'
         merged_away: 'Zusammenführung von {discussion} in {new_discussion}'
+        merged_into: '{post_count} Beiträge aus {original_discussion_ids_count} Diskussionen wurden in {discussion} zusammengeführt'
         renamed: 'Diskussion von {old_title} zu {new_title} umbenannt'
+        restored: 'Diskussion {discussion} wiederhergestellt'
+        split_away: '{post_count} Beiträge aus {discussion} in {new_discussion} aufgeteilt'
+        split_into: '{post_count} Beiträge in eine neue Diskussion {discussion} aufgeteilt'
         stickied: 'Diskussion {discussion} angeheftet'
         tagged: 'Themen zu {discussion} von {old_tags} zu {new_tags} geändert'
+        unlocked: 'Diskussion {discussion} freigegeben'
         user_changed: 'Autor von {discussion} von {old_user} zu {new_user} geändert'
       empty: 'Keine Ergebnisse'
       extension:
@@ -56,7 +70,15 @@ kilowhat-audit:
       permissionGroup:
         everyone: '=> core.admin.permissions_controls.everyone_button'
         members: '=> core.admin.permissions_controls.members_button'
+      permission_changed: 'Berechtigung {permission} von {old_groups} auf {new_groups} geändert'
       post:
+        approved: '{post} von {postuser} in {discussion} genehmigt'
+        create_date_changed: 'Veröffentlichungsdatum von {postuser}s {post} von {old_date} auf {new_date} geändert'
+        created: 'Ein {post} in {discussion} erstellt'
+        deleted: '{post} von {postuser} in {discussion} gelöscht'
+        hidden: '{post} von {postuser} in {discussion} verborgen'
+        restored: '{post} von {postuser} in {discussion} wiederhergestellt'
+        revised: '{post} von {postuser} in {discussion} überarbeitet'
         user_changed: 'Autor von {post} von {old_user} zu {new_user} geändert'
       setting_changed: 'Einstellung {key} geändert'
       setting_changed_with_values: 'Einstellung {key} von {old_value} zu {new_value} geändert'
@@ -65,11 +87,19 @@ kilowhat-audit:
         deleted: 'Thema {tag} gelöscht'
         updated: 'Thema {tag} aktualisiert'
       user:
+        activated: 'Konto von {username} manuell aktiviert'
+        activated_with_email: 'Konto von {username} mit Bestätigungslink aktiviert'
         avatar_changed: '{username}s Profilbild geändert'
         avatar_removed: '{username}s Profilbild entfernt'
         bio_changed: '{username}s Bio bearbeitet'
+        deleted: '{username} gelöscht'
+        email_changed: 'E-Mail von {username} geändert von {old_email} zu {new_email}'
+        logged_in: 'Angemeldet als {username}'
+        logged_in_with_provider: 'Angemeldet als {username} mit {provider}'
+        logged_out: 'Abgemeldet von {username}'
         nickname_changed: '{username}s Nicknamen von {old_nickname} zu {new_nickname} geändert'
         password_changed: '{username}s Passwort geändert'
+        provider_connected: 'Anbieter {provider} mit dem Konto {username} verbunden'
         suspended: '{username} gesperrt bis {until}'
         unsuspended: '{username} entsperrt'
         username_changed: '{username}s Benutzernamen von {old_username} zu {new_username} geändert'
