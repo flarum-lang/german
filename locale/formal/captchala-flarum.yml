@@ -5,17 +5,26 @@
 captchala-flarum:
   admin:
     settings:
+      app_key_help: 'Du findest diesen in deinem CaptchaLa-Dashboard unter <a>dash.captcha.la</a>. Erforderlich.'
       app_key_label: App-Schlüssel
+      app_secret_help: 'Nur serverseitig. Nicht im Browser zugänglich gemacht.'
+      app_secret_label: App-Secret
       forgot: '=> core.forum.forgot_password.title'
+      lang_help: 'BCP-47-Tag (z. B. ja, pt-BR) oder „auto“, um die Sprache des Browsers des Besuchers zu übernehmen.'
       lang_label: Sprache
+      post: 'Neue Diskussionen und Antworten schützen'
+      product_label: Widget-Modus
       signin: '=> core.forum.log_in.title'
       signup: '=> core.forum.sign_up.title'
     test:
       button: 'Verbindung testen'
       failure: 'Verbindung fehlgeschlagen: {reason}'
+      help_text: "Überprüft, ob der gespeicherte App-Schlüssel und das App-Secret das CaptchaLa-Backend erreichen können.\nSpeichere deine Änderungen, bevor du den Test ausführst.\n"
       success: 'Verbindung OK.'
       title: 'Verbindung testen'
   forum:
     powered_by: 'Geschützt durch CaptchaLa'
+  lib:
+    not_completed: 'Bitte fülle das CAPTCHA aus, bevor du fortfährst.'
 validation:
   captchala: 'CAPTCHA-Verifizierung war nicht erfolgreich.'
