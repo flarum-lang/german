@@ -7,6 +7,8 @@ CHANGELOG
 
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
+* [`captchala/flarum`](https://github.com/Captcha-La/captchala-flarum)
+* [`datlechin/flarum-mermaid`](https://github.com/datlechin/flarum-mermaid)
 * [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length)
 * [`irmmr/flarum-ext-rtl`](https://github.com/irmmr/flarum-ext-rtl)
 * [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum)
@@ -16,6 +18,7 @@ CHANGELOG
 
 * [`linkrobins/referral`](https://github.com/linkrobins/referral)
 * [`tryhackx/flarum-homepage-blocks`](https://github.com/TryHackX/flarum-homepage-blocks)
+* [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 
 
