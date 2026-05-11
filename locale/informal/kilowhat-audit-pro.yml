@@ -21,20 +21,32 @@ kilowhat-audit:
       limitedIpAddress: 'IP-Adresse anzeigen'
   forum:
     link:
+      actor-audit: 'Audit-Protokoll (Benutzer als Akteur)'
       all-audit: Audit-Protokoll
       discussion-audit: Audit-Protokoll
+      user-audit: 'Audit-Protokoll (Kontobearbeitungen)'
     modal:
+      actor-title: Akteur-Audit-Protokoll
       all-title: Audit-Protokoll
+      discussion-title: Diskussions-Audit-Protokoll
+      user-title: Benutzer-Audit-Protokoll
   lib:
     browser:
+      audit_log_cleared: '{deleted_count} Einträge aus den Protokollen gelöscht'
+      cache_cleared: 'Manuell den Cache geleert'
       client:
         access_token: Zugriffstoken
         api_key: API-Schlüssel
         cli: Kommandozeile
+        session: Websitzung
         unknown: 'Unbekannter Client'
       controls:
+        filterAction: 'Protokolle derselben Aktion anzeigen'
         filterActor: 'Protokolleinträge dieses Akteurs anzeigen'
+        filterClient: 'Protokolle dieses Clients anzeigen'
+        filterDiscussion: 'Protokolle anzeigen, die dieselbe Diskussion betreffen'
         filterIp: 'Protokolleinträge dieser IP anzeigen'
+        filterUser: 'Protokolle anzeigen, die denselben Benutzer betreffen'
         hideRaw: 'Rohprotokoll verbergen'
         showRaw: 'Rohprotokoll anzeigen'
       deletedResource:
@@ -50,12 +62,15 @@ kilowhat-audit:
         hidden: 'Diskussion {discussion} wurde verborgen'
         locked: 'Diskussion {discussion} geschlossen'
         merged_away: '{discussion} in {new_discussion} zusammengeführt'
+        merged_into: '{post_count} Beiträge aus {original_discussion_ids_count} Diskussionen wurden in {discussion} zusammengeführt'
+        renamed: 'Diskussion von {old_title} zu {new_title} umbenannt'
         restored: 'Diskussion {discussion} wiederhergestellt'
         split_away: '{post_count} Beiträge aus {discussion} in {new_discussion} aufgeteilt'
         split_into: '{post_count} Beiträge in eine neue Diskussion {discussion} aufgeteilt'
         stickied: 'Diskussion {discussion} angeheftet'
         tagged: 'Themen zu {discussion} von {old_tags} zu {new_tags} geändert'
         unlocked: 'Diskussion {discussion} freigegeben'
+        unstickied: 'Diskussion {discussion} nicht mehr angeheftet'
         user_changed: 'Autor von {discussion} von {old_user} zu {new_user} geändert'
       empty: 'Keine Ergebnisse'
       extension:
@@ -81,19 +96,45 @@ kilowhat-audit:
         create_date_changed: 'Veröffentlichungsdatum von {postuser}s {post} von {old_date} auf {new_date} geändert'
         created: 'Hat Beitrag {post} in Diskussion {discussion} erstellt'
         deleted: '{post} von {postuser} in {discussion} gelöscht'
+        dismissed_flags: 'Meldungen für {post} von {postuser} in {discussion} abgelehnt'
+        edit_date_changed: 'Bearbeitungsdatum von {postuser}s {post} von {old_date} auf {new_date} geändert'
+        flagged: '{post} von {postuser} in {discussion} wegen {reason} gemeldet'
+        hidden: '{post} von {postuser} in {discussion} verborgen'
+        restored: '{post} von {postuser} in {discussion} wiederhergestellt'
         revised: 'Hat den Beitrag {post} von {postuser} in {discussion} überarbeitet'
+        user_changed: 'Autor von {post} von {old_user} zu {new_user} geändert'
       setting_changed: 'Hat Einstellung {key} bearbeitet'
+      setting_changed_with_values: 'Einstellung {key} von {old_value} zu {new_value} geändert'
       tag:
         created: 'Hat Thema {tag} erstellt'
         deleted: 'Hat Thema {tag} gelöscht'
         updated: 'Hat Thema {tag} aktualisiert'
       user:
+        activated: 'Konto von {username} manuell aktiviert'
+        activated_with_email: 'Konto von {username} mit Bestätigungslink aktiviert'
         avatar_changed: 'Hat Avatar von {username} geändert'
         avatar_removed: 'Hat Avatar von {username} entfernt'
+        bio_changed: '{username}s Bio bearbeitet'
+        created: 'Konto {username} erstellt'
         deleted: 'Hat {username} gelöscht'
+        email_change_requested: 'Hat beantragt, die E-Mail von {username} in {new_email} zu ändern'
+        email_changed: 'E-Mail von {username} geändert von {old_email} zu {new_email}'
+        groups_changed: 'Hat die Gruppen von {username} von {old_groups} in {new_groups} geändert'
+        impersonated: 'Hat sich als {username} ausgegeben'
         logged_in: 'Im Konto von {username} angemeldet'
         logged_in_with_provider: 'Im Konto von {username} angemeldet mit {provider}'
         logged_out: 'Aus Konto von {username} abgemeldet'
+        nickname_changed: '{username}s Nicknamen von {old_nickname} zu {new_nickname} geändert'
+        nickname_request_approved: 'Änderung des Spitznamens für Benutzer {username} von {old_nickname} zu {new_nickname} genehmigt'
+        nickname_request_rejected: 'Neuen Spitznamen für Benutzer {username} abgelehnt'
+        nickname_requested: 'Neuen Spitzname {new_nickname} für Benutzer {username} beantragt'
+        password_change_requested: 'Änderung des Passworts von {username} beantragt'
         password_changed: 'Hat Passwort von {username} geändert'
         provider_connected: 'Hat Provider {provider} mit Konto {username} verbunden'
+        suspended: '{username} gesperrt bis {until}'
+        unsuspended: '{username} entsperrt'
+        username_changed: '{username}s Benutzernamen von {old_username} zu {new_username} geändert'
+        username_request_approved: 'Änderung des Benutzernamens für {username} von {old_username} in {new_username} genehmigt'
+        username_request_rejected: 'Änderung des Benutzernamens für {username} abgelehnt'
+        username_requested: 'Neuen Benutzernamen {new_username} für Benutzer {username} beantragt'
       withoutActor: '=> core.group.guest'
