@@ -11,7 +11,9 @@ CHANGELOG
 * [`datlechin/flarum-mermaid`](https://github.com/datlechin/flarum-mermaid)
 * [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length)
 * [`irmmr/flarum-ext-rtl`](https://github.com/irmmr/flarum-ext-rtl)
+* [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget)
 * [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum)
+* [`treeslins/flarum-ext-reply-to-see`](https://github.com/treeslins/flarum-ext-reply-to-see)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
