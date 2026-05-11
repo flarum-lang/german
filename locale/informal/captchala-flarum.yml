@@ -13,7 +13,13 @@ captchala-flarum:
       lang_help: 'BCP-47-Tag (z. B. ja, pt-BR) oder „auto“, um die Sprache des Browsers des Besuchers zu übernehmen.'
       lang_label: Sprache
       post: 'Neue Diskussionen und Antworten schützen'
+      product_help: 'bind, popup, float oder embed. bind wird an die Absenden-Schaltfläche angehängt.'
       product_label: Widget-Modus
+      product_options:
+        bind: 'An die Absenden-Schaltfläche anhängen'
+        embed: Inline-Einbettung
+        float: 'Schwebendes Widget'
+        popup: Modal-Popup
       signin: '=> core.forum.log_in.title'
       signup: '=> core.forum.sign_up.title'
     test:
@@ -25,6 +31,9 @@ captchala-flarum:
   forum:
     powered_by: 'Geschützt durch CaptchaLa'
   lib:
+    error: 'Bei der Überprüfung des CAPTCHA ist ein Fehler aufgetreten. Bitte versuche es erneut.'
     not_completed: 'Bitte fülle das CAPTCHA aus, bevor du fortfährst.'
+    rejected: 'Die CAPTCHA-Prüfung ist fehlgeschlagen. Bitte versuche es erneut.'
+    unknown_error: 'Es ist ein unbekannter Fehler aufgetreten. Bitte versuche es erneut.'
 validation:
   captchala: 'CAPTCHA-Verifizierung war nicht erfolgreich.'
