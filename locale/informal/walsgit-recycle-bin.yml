@@ -23,8 +23,8 @@ walsgit-recycle-bin:
       delete_button: 'Diesen Beitrag endgültig löschen'
       success: 'Der Beitrag wurde erfolgreich gelöscht'
       title: 'Endgültig löschen'
-    delete_post_tooltip: 'Beitrag löschen'
-    delete_tooltip: 'Diskussion löschen'
+    delete_post_tooltip: 'Beitrag #{postId} löschen'
+    delete_tooltip: 'Diskussion #{discussionId} löschen'
     discussion_id: ID
     discussion_link_tooltip: 'Diskussion anzeigen'
     discussion_title: Diskussionstitel
@@ -81,8 +81,8 @@ walsgit-recycle-bin:
       restore_button: 'Diesen Beitrag wiederherstellen'
       success: 'Der Beitrag wurde erfolgreich wiederhergestellt'
       title: 'Beitrag wiederherstellen'
-    restore_post_tooltip: 'Beitrag wiederherstellen'
-    restore_tooltip: 'Diskussion wiederherstellen'
+    restore_post_tooltip: 'Beitrag #{postId} wiederherstellen'
+    restore_tooltip: 'Diskussion #{discussionId} wiederherstellen'
     search_help_text: 'Sucht nach Wörtern sowohl in den Titeln als auch in den Beiträgen der Diskussionen'
     search_placeholder: 'Suche nach einer Diskussion'
     search_post_help_text: 'Sucht nach Wörtern in verborgenen Beiträgen'
@@ -90,4 +90,5 @@ walsgit-recycle-bin:
     total_hidden_discussions: 'Verborgene Diskussionen insgesamt'
     total_hidden_posts: 'Verborgene Beiträge insgesamt'
     unknown_date: 'Unbekanntes Datum'
+    unknown_user: 'Unbekannter Benutzer'
     unknownn_user: 'Unbekannter Benutzer'
