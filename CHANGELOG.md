@@ -2,6 +2,21 @@ CHANGELOG
 =========
 
 
+1.25.17 (XXXX-XX-XX)
+--------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content)
+* [`davwheat/flarum-ext-share`](https://github.com/davwheat/flarum-ext-share)
+* [`flarum/pusher`](https://github.com/flarum/pusher)
+* [`nearata/flarum-ext-embed-video`](https://github.com/Nearata/flarum-ext-embed-video)
+* [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
+
+
+Alle Änderungen: [1.25.16...1.25.17](https://github.com/flarum-lang/german/compare/1.25.16...1.25.17).
+
+
 1.25.16 (2026-05-07)
 --------------------
 
