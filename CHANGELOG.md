@@ -7,11 +7,20 @@ CHANGELOG
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`blomstra/fontawesome`](https://github.com/blomstra/flarum-ext-fontawesome)
 * [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content)
 * [`davwheat/flarum-ext-share`](https://github.com/davwheat/flarum-ext-share)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
 * [`flarum/pusher`](https://github.com/flarum/pusher)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
+* [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
 * [`nearata/flarum-ext-embed-video`](https://github.com/Nearata/flarum-ext-embed-video)
 * [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
+* [`yippy/flarum-ext-auth-ldap`](https://github.com/Yippy/flarum-ext-auth-ldap)
 
 
 Alle Änderungen: [1.25.16...1.25.17](https://github.com/flarum-lang/german/compare/1.25.16...1.25.17).
