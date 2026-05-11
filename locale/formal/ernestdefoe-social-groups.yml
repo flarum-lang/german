@@ -3,14 +3,94 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ernestdefoe-social-groups:
+  admin:
+    permissions:
+      create_groups: 'Soziale Gruppen erstellen'
   forum:
+    create_modal:
+      banner_label: Bannerbild
+      color_label: Akzentfarbe
+      description_label: Beschreibung
+      description_placeholder: 'Worum geht es in dieser Gruppe?'
+      image_label: Gruppenbild
+      membership_type_approval: 'Genehmigung erforderlich – der Ersteller muss jede Anfrage genehmigen'
+      membership_type_label: Mitgliedschaft
+      membership_type_open: 'Offen – jeder kann sofort mitmachen'
+      name_label: Gruppenname
+      name_placeholder: 'z. B. Fotoliebhaber'
+      private_help: 'Private Gruppen sind nur für Mitglieder sichtbar.'
+      private_label: 'Private Gruppe'
+      submit: 'Gruppe erstellen'
+      title: 'Eine Gruppe erstellen'
+    discussions:
+      back: 'Zurück zur Gruppe'
+      cancel_edit: Abbrechen
+      content_label: 'Erster Beitrag'
+      content_placeholder: 'Schreib etwas…'
+      create_title: 'Starte eine Diskussion'
+      delete: 'Diskussion löschen'
+      delete_confirm: 'Diese Diskussion und alle Antworten darauf löschen?'
+      delete_post: Löschen
+      delete_post_confirm: 'Diesen Beitrag löschen?'
+      edit: Bearbeiten
+      edited: (bearbeitet)
+      empty: 'Es gibt noch keine Diskussionen. Sei der Erste, der eine startet!'
+      locked: Gesperrt
+      new_button: 'Neue Diskussion'
+      next_page: 'Nächste Seite'
+      prev_page: 'Vorherige Seite'
+      reply_button: Antworten
+      reply_count: '{count} Antwort|{count} Antworten'
+      reply_placeholder: 'Antworten schreiben…'
+      save_edit: Speichern
+      start_button: 'Starte eine Diskussion'
+      submit: 'Diskussion absenden'
+      title: Diskussionen
+      title_label: Titel
+      title_placeholder: 'Was beschäftigt dich gerade?'
+    edit_modal:
+      submit: 'Änderungen speichern'
+      title: 'Gruppe bearbeiten'
+    group:
+      about_title: 'Über diese Gruppe'
+      delete: 'Gruppe löschen'
+      delete_confirm: 'Möchtest du diese Gruppe wirklich löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.'
+      demote_member: 'Zum einfachen Mitglied herabstufen'
+      description_placeholder: 'Noch keine Beschreibung vorhanden.'
+      edit: 'Gruppe bearbeiten'
+      members_section: Mitglieder
+      promote_member: 'Zum Moderator befördern'
+      remove_member: Entfernen
+      role_admin: Moderator
+      role_creator: Ersteller
     groups:
+      cancel_request: 'Anfrage abbrechen'
       create_button: 'Gruppe erstellen'
+      empty_search: 'Es wurden keine Gruppen gefunden, die deiner Suche entsprechen.'
+      empty_text: 'Sei der Erste, der eine Gruppe erstellt!'
       empty_title: 'Noch keine Gruppen'
       join: Beitreten
       joined: Beigetreten
       leave: Verlassen
+      members_count: '{count} Mitglied|{count} Mitglieder'
+      pending: Ausstehend…
       private: Privat
+      request_to_join: 'Beitrittsanfrage stellen'
       search_placeholder: 'Gruppen durchsuchen…'
       title: Gruppen
       view: Ansehen
+    invite:
+      button: Einladen
+      error_generic: 'Es ist ein Fehler aufgetreten. Bitte versuche es erneut.'
+      submit: 'Einladung senden'
+      success: '{username} wurde zur Gruppe hinzugefügt.'
+      title: 'Mitglied einladen'
+      username_label: Benutzername
+      username_placeholder: 'Gib den genauen Benutzernamen ein…'
+    requests:
+      approve: Genehmigen
+      reject: Ablehnen
+      title: Beitrittsanfragen
+    upload:
+      invalid_type: 'Ungültiger Dateityp. Bitte lade ein Bild im Format JPG, PNG, GIF oder WebP hoch.'
+      too_large: 'Die Datei ist zu groß. Die maximale Größe beträgt 5 MB.'
