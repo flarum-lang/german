@@ -10,7 +10,7 @@ blomstra-fontawesome:
       test:
         desc: 'Im Folgenden findest du einige Tests, mit denen du prüfen kannst, ob die Symbole richtig funktionieren. Möglicherweise musst du die Seite aktualisieren, wenn du irgendwelche Einstellungen geändert hast. Wenn du ein Quadrat/Rechteck anstelle eines Symbols siehst, bedeutet das, dass das festgelegte Symbol nicht richtig funktioniert.'
         fa5_compat: 'FontAwesome 5 Kompatibilität'
-        fa6_free: 'FontAwesome 6 Free'
+        fa6_free: 'FontAwesome 6 Kostenlos'
         fa6_pro: 'FontAwesome 6 Pro'
         heading: Icon-Tests
       type: 'Font Awesome-Bibliothekstyp'

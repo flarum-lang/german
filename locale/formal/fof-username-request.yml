@@ -26,7 +26,7 @@ fof-username-request:
         reason_title: '=> fof-username-request.ref.action.reason_title'
         rejected_label: '=> fof-username-request.ref.action.rejected_label'
         submit_button: '=> fof-username-request.ref.action.submit_button'
-        success: '=> fof-username-request.ref.action.success'
+        success: 'Entscheidung gesendet.'
         title: '=> fof-username-request.ref.nickname_change_request'
       request:
         confirmation_message: '=> fof-username-request.ref.request.confirmation_message'

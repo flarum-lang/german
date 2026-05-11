@@ -39,7 +39,7 @@ yippy-auth-ldap:
         not_found: 'Dein Konto kann auf {server} nicht gefunden werden.'
         password_expired: 'Dein Passwort ist abgelaufen.'
       core_csrf_token_mismatch: '=> core.views.error.csrf_token_mismatch'
-      csrf_token_mismatch: 'Du bist zu lange inaktiv gewesen. Bitte aktualisiere die Seite und versuche es erneut.'
+      csrf_token_mismatch: 'Sie sind zu lange inaktiv gewesen. Bitte aktualisieren Sie die Seite und versuchen Sie es erneut.'
       domains:
         empty_host: 'Für die Domäne {domain_index} sind keine Domänen- oder Server-IP-Adressen festgelegt. Passe die Erweiterungseinstellungen an.'
         no_domains: 'In den Admin-Einstellungen sind keine Domänen festgelegt, passe die Erweiterungseinstellungen an.'

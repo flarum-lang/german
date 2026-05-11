@@ -16,7 +16,7 @@ forumaker-magicbb:
       bb_center: Zentrieren
       bb_color: Farbe
       bb_iframe: iFrame
-      bb_iframe_help: 'Ermöglicht das Einbetten von iFrames aus beliebigen Quellen. Mit Vorsicht verwenden – eingebettete Inhalte können externe Skripte enthalten. 🧹 Bitte leere nach dem Ändern dieser Einstellung den Flarum-Cache.'
+      bb_iframe_help: 'Ermöglicht das Einbetten von iFrames aus beliebigen Quellen. Mit Vorsicht verwenden – eingebettete Inhalte können externe Skripte enthalten. 🧹 Bitte leeren Sie nach dem Ändern dieser Einstellung den Flarum-Cache.'
       bb_image: 'FoF Upload'
       bb_image_help: 'Fügt dem Editor eine neue Schaltfläche für die Bildausrichtung hinzu. Große, zentrierte Bilder werden automatisch auf 60 % der Beitragsbreite verkleinert, seitlich ausgerichtete Bilder auf bis zu 40 %.'
       bb_info: Warnhinweis
