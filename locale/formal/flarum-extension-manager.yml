@@ -38,7 +38,7 @@ flarum-extension-manager:
         options:
           alpha: Alpha
           beta: Beta
-          dev: Dev
+          dev: Entwickler
           rc: Release-Kandidat
           stable: 'Stabil (Empfohlen)'
       repositories:

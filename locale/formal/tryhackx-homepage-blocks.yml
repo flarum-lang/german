@@ -50,7 +50,7 @@ tryhackx-homepage-blocks:
       recaptcha_points_refill_seconds_help: 'Wie oft +N Punkte wieder gutgeschrieben werden. Standard: 15 s'
       recaptcha_points_start: 'Anfängliche Punkteanzahl'
       recaptcha_points_start_help: 'Anzahl der Punkte, die jedem Besucher zu Beginn gutgeschrieben werden. Standard: 10'
-      recaptcha_secret_key: 'reCAPTCHA Secret Key'
+      recaptcha_secret_key: 'reCAPTCHA Geheimer Schlüssel'
       recaptcha_site_key: reCAPTCHA-Seitenschlüssel
       recaptcha_skip_authenticated: 'reCAPTCHA für angemeldete Benutzer überspringen'
       recaptcha_skip_authenticated_help: 'Wenn aktiviert, wird angemeldeten Benutzern keine Aufgabe gestellt — reCAPTCHA gilt nur für Gäste.'

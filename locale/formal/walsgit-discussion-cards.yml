@@ -6,7 +6,15 @@ walsgit_discussion_cards:
   admin:
     settings:
       statsToolsBanner:
+        purgeImagesModal_deleteAllLabel: 'Alle Bilder der Diskussionskarten löschen'
+        purgeImagesModal_deleteUnusedBtnText: 'Nicht verwendete Bilder löschen'
+        purgeImagesModal_deleteUnusedHelp: 'Dadurch werden alle nicht verwendeten Bilder von deiner (Server-)Festplatte gelöscht. Diese Bilder werden von keiner Diskussionskarte mehr verwendet und können daher bedenkenlos gelöscht werden. Durch Klicken auf die folgende Schaltfläche wird dieser CLI-Befehl ausgeführt: <code>php flarum discussion-cards:purge-images</code>'
+        purgeImagesModal_deleteUnusedLabel: 'Nicht verwendete Bilder von Diskussionskarten löschen'
+        purgeImagesModal_helpText: "Mit diesen Optionen kannst du Bilder von Diskussionskarten von deinem Server löschen. Weitere Löschoptionen findest du mit dem folgenden CLI-Befehl: <code>php flarum discussion-cards:purge-images --help</code>\n<strong>WARNUNG: Diese Aktionen sind irreversibel!</strong> Beachte außerdem, dass Standardbilder (allgemein oder nach Tag) hier nicht gelöscht werden (um sie zu löschen, verwende die Schaltfläche „Entfernen“ im entsprechenden Bereich der Erweiterungs- bzw. Tag-Einstellungen)."
+        purgeImagesModal_title: 'Bilder löschen'
         refreshStats: 'Bildstatistiken wurden erfolgreich aktualisiert'
   forum:
+    console:
+      postUpdateCardImageError: 'Diskussionskarten > Fehler beim Aktualisieren des aktualisierten Kartenbildes für diese Diskussion: '
     replies: 'Antworten: {count}'
     unreadReplies: 'Ungelesene Antworten: {count}'
