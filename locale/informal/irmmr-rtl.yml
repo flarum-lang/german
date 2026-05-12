@@ -6,6 +6,8 @@ irmmr-rtl:
   admin:
     settings:
       ad_status_label: Adminstatus
+      ad_status_text: 'Linksläufige Unterstützung für die Admin-Oberfläche erstellen.'
       fm_status_label: Forumstatus
+      fm_status_text: 'Linksläufige Unterstützung für die Foren-Oberfläche erstellen.'
       lang_base_label: Sprachbasiert
       lang_base_text: 'Automatische Auswahl der Schreibrichtung abhängig von der ausgewählten Sprache.'

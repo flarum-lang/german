@@ -7,14 +7,18 @@ pianotell-flamoji:
     custom_emojis_section:
       edit_emoji:
         delete_emoji_button: 'Emoji löschen'
+        delete_emoji_confirmation: 'Möchtest du dieses Emoji wirklich löschen?'
+        emoji_title_label: Emoji-Titel
         modal_title: 'Emoji hinzufügen'
         path_or_url_label: 'Pfad oder URL'
         saved_message: '=> core.admin.settings.saved_message'
         submit_button: '=> core.ref.save_changes'
+        text_to_replace_label: 'Zu ersetzender Text'
       emoji_list:
         load_more_button: '=> core.forum.post_stream.load_more_button'
       export_json_button: 'JSON exportieren'
       heading_title: 'Benutzerdefinierte Emojis'
+      import_emojis_message: 'Dadurch werden nur die Emoji-Einstellungen importiert. Die Emoji-Bilder musst du immer noch manuell hochladen.'
       import_json_button: 'JSON importieren'
     settings:
       auto_hide_label: 'Automatisch ausblenden'
@@ -30,17 +34,21 @@ pianotell-flamoji:
         places: '=> pianotell-flamoji.ref.emoji_categories.places'
         symbols: '=> pianotell-flamoji.ref.emoji_categories.symbols'
       emoji_settings_heading: Emoji-Einstellungen
+      frequent_rows_label: 'Reihen häufiger Emojis'
+      frequent_rows_text: 'Anzahl der Zeilen mit zuletzt/häufig verwendeten Emojis, die oben im Auswahlfeld angezeigt werden sollen (1–10).'
       general_ui_settings_heading: 'Allgemeine UI-Einstellungen'
       picker_set_auto: Automatisch
       picker_set_label: Emoji-Stil
       picker_set_native: Nativ
       picker_set_text: 'So werden Emojis in der Auswahl angezeigt. Die Einstellung „Automatisch“ passt sich der Flarum-Emoji-Erweiterung an: bei aktivierter Erweiterung werden Twemoji-Emojis verwendet, andernfalls die native Betriebssystem-Darstellung, sodass die Auswahl genau das widerspiegelt, was in den Beiträgen tatsächlich angezeigt wird.'
       picker_set_twemoji: Twemoji
+      prepopulate_recents_label: 'Mit beliebten Emojis vorab füllen'
+      prepopulate_recents_text: 'Wenn aktiviert, werden im Bereich „Häufig verwendet“ standardmäßig beliebte Emojis angezeigt, noch bevor der Benutzer welche ausgewählt hat. Wenn deaktiviert, ist der Bereich zunächst leer und füllt sich erst, wenn der Benutzer Emojis auswählt.'
       show_category_buttons_label: 'Kategorie-Schaltflächen anzeigen'
       show_category_buttons_text: 'Zeige die Reihe mit Kategoriesymbolen oben im Auswahlfeld an. Es ist sinnvoll, diese Option zu deaktivieren, wenn nur eine oder zwei Kategorien aktiviert sind.'
       show_preview_label: 'Vorschaubereich anzeigen'
       show_preview_text: 'Zeige den Namen des Emojis, den Shortcode und die Auswahl für den Hautton in einem Vorschaufenster unterhalb des Auswahlrasters an.'
-      show_recents_label: 'Zuletzt verwendete Emojis anzeigen (und speichern)'
+      show_recents_label: 'Häufig verwendete Emojis anzeigen (und speichern)'
       show_recents_text: 'Zeige die Registerkarte „Häufig verwendet“ oben im Auswahlfeld an. Die Favoriten jedes Benutzers werden ausschließlich in seinem eigenen Browser gespeichert.'
       show_search_label: 'Sucheingabefeld anzeigen'
       show_search_text: 'Zeige das Suchfeld oben im Auswahlfeld an.'
@@ -51,7 +59,11 @@ pianotell-flamoji:
   forum:
     composer:
       emoji_tooltip: 'Emoji einfügen'
+      picker_load_error: 'Der Emoji-Auswähler konnte nicht geladen werden. Bitte versuche es erneut.'
+      picker_load_retry: 'Erneut versuchen'
+      picker_loading: 'Emojis werden geladen…'
     emoji-mart:
+      add_custom: 'Benutzerdefiniertes Emoji hinzufügen'
       categories:
         activity: '=> pianotell-flamoji.ref.emoji_categories.activity'
         custom: '=> pianotell-flamoji.ref.emoji_categories.custom'
@@ -63,9 +75,12 @@ pianotell-flamoji:
         people: '=> pianotell-flamoji.ref.emoji_categories.people'
         places: '=> pianotell-flamoji.ref.emoji_categories.places'
         symbols: '=> pianotell-flamoji.ref.emoji_categories.symbols'
+      category_search: Suchergebnisse
       no_emojis_found_message: 'Keine Emojis gefunden'
       no_emojis_found_title: 'Oh nein!'
+      pick: 'Wähle ein Emoji'
       search_placeholder: Suchen
+      skin_tone_choose: 'Standard-Hautton auswählen'
       skin_tone_dark: Dunkel
       skin_tone_default: Standard
       skin_tone_light: Hell
@@ -78,7 +93,7 @@ pianotell-flamoji:
       custom: Benutzerdefiniert
       flags: Flaggen
       foods: 'Essen & Trinken'
-      frequent: 'Kürzlich verwendet'
+      frequent: 'Häufig verwendet'
       nature: 'Tiere & Natur'
       objects: Objekte
       people: 'Lächeln & Leute'

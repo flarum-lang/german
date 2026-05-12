@@ -60,6 +60,7 @@ kilowhat-formulaire:
       uniformComposerLayoutHelp: "Ändert das Design der Themen, Titel- und Inhaltsfelder, damit sie zu Formulaire passen. Dieses Layout benötigt noch mehr Platz, daher wird empfohlen, die Erweiterung <a>Composer Page</a> zu installieren und zu aktivieren.\n"
   api:
     cannot-change-form-type: 'Du kannst den Formulartyp nicht mehr ändern, wenn bereits Einreichungen vorhanden sind'
+    duplicate-field-key: 'Schlüssel sollte eindeutig sein'
     export:
       meta:
         created_at: '=> kilowhat-formulaire.ref.submission-meta.created_at'
@@ -75,7 +76,14 @@ kilowhat-formulaire:
         user_id: '=> kilowhat-formulaire.ref.submission-meta.user_id'
         user_joined_at: '=> kilowhat-formulaire.ref.submission-meta.user_joined_at'
         user_username: '=> kilowhat-formulaire.ref.submission-meta.user_username'
+    file-already-belongs-form: 'Datei {id} gehört zu einem anderen Formular'
+    file-already-belongs-submission: 'Datei {id} gehört zu einer anderen Einreichung'
+    formatter-parsing-error: 'Inhalt konnte nicht analysiert werden: {message}'
+    not-allowed-to-fill-field: 'Sie dürfen den Wert dieses Feldes nicht ändern'
     unauthorized-form: 'Du verfügst nicht über die erforderlichen Berechtigungen, um das Formular mit der ID {id} auszufüllen'
+    unauthorized-scoped-form: 'Das Formular mit der ID {id} kann mit der aktuellen Themen-Kombination nicht ausgefüllt werden'
+    unknown-form: 'Unbekannte Formular-ID {id}'
+    unsupported-discussion-form: 'In dieser Art von Diskussion kannst du das Formular mit der ID {id} nicht ausfüllen'
   forum:
     auto-discussion-options-modal:
       field:
@@ -124,6 +132,7 @@ kilowhat-formulaire:
       heading: 'Überschrift / Schlüssel'
       heading-options:
         key: Feldschlüssel
+        none: 'Keine Kopfzeile'
         title: Feldtitel
       meta: Metadaten
       meta-options:
@@ -135,6 +144,7 @@ kilowhat-formulaire:
         updated_at: '=> kilowhat-formulaire.ref.submission-meta.updated_at'
         user_activated: '=> kilowhat-formulaire.ref.submission-meta.user_activated'
         user_displayname: '=> kilowhat-formulaire.ref.submission-meta.user_displayname'
+        user_email: '=> kilowhat-formulaire.ref.submission-meta.user_email'
         user_groups: '=> kilowhat-formulaire.ref.submission-meta.user_groups'
         user_id: '=> kilowhat-formulaire.ref.submission-meta.user_id'
         user_joined_at: '=> kilowhat-formulaire.ref.submission-meta.user_joined_at'
@@ -384,13 +394,26 @@ kilowhat-formulaire:
     edit: Bearbeiten
     footer: 'Gesendet von {title}'
     no-answer: 'Nicht beantwortet'
+    sub-entries: '{count} Einträge'
     title-new-submission: 'Neue Einreichung für {title}'
     title-your-submission: 'Deine Einreichungen für {title}'
   ref:
+    manager: Formularverwaltung
     permissions:
+      editAnyDiscussion: 'Alle Diskussionsfelder bearbeiten'
+      editAnyUser: 'Alle Profilfelder bearbeiten'
+      editOwnDiscussion: 'Eigene Diskussionsfelder bearbeiten'
+      editOwnUser: 'Eigene Profilfelder bearbeiten'
       fill: 'Eigenständige Formulare ausfüllen'
+      seeAnyDiscussion: 'Alle Diskussionsfelder ansehen'
+      seeAnyUser: 'Alle Profilfelder anzeigen'
+      seeOwnDiscussion: 'Eigene Diskussionsfelder ansehen'
+      seeOwnUser: 'Eigene Profilfelder anzeigen'
     submission-meta:
       created_at: Erstellungsdatum
+      hidden_at: 'Datum der vorläufigen Löschung'
+      link_id: 'Verknüpfte Ressourcen-ID'
+      locked_at: Sperrdatum
       uid: Einreichungs-ID
       updated_at: Aktualisierungsdatum
       user_activated: 'Aktiviertes Konto'

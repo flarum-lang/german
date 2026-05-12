@@ -4,7 +4,10 @@
 
 justoverclock-country-flags:
   admin:
+    bind_help: 'Land an Konto binden, wenn kein Land nach der Anmeldung registriert wurde'
+    bind_label: 'Länderspezifische Eingabe erforderlich'
     countryColumn: Land
+    required_help: 'Du musst die Option „Nach Land festlegen“ aktivieren, damit diese Funktion genutzt werden kann'
     required_label: 'Angabe eines Landes erforderlich'
     set_on_registration_label: 'Erlaube die Auswahl eines Landes bei der Registrierung'
     showFlagsOnPosts: 'Zeige Länderflagge bei Beiträgen'
