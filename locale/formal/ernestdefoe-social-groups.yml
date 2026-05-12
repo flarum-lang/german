@@ -6,6 +6,7 @@ ernestdefoe-social-groups:
   admin:
     permissions:
       create_groups: 'Soziale Gruppen erstellen'
+      moderate_groups: 'Soziale Gruppen bearbeiten und löschen'
   forum:
     create_modal:
       banner_label: Bannerbild
@@ -58,7 +59,12 @@ ernestdefoe-social-groups:
       demote_member: 'Zum einfachen Mitglied herabstufen'
       description_placeholder: 'Noch keine Beschreibung vorhanden.'
       edit: 'Gruppe bearbeiten'
+      load_error: 'Laden der Gruppe fehlgeschlagen.'
+      members_empty: 'Noch keine Mitglieder.'
+      members_load_error: 'Mitglieder konnten nicht geladen werden.'
       members_section: Mitglieder
+      not_found: 'Gruppe nicht gefunden.'
+      options: Gruppenoptionen
       promote_member: 'Zum Moderator befördern'
       remove_member: Entfernen
       role_admin: Moderator
@@ -72,6 +78,7 @@ ernestdefoe-social-groups:
       join: Beitreten
       joined: Beigetreten
       leave: Verlassen
+      load_error: 'Laden der Gruppen fehlgeschlagen. Bitte versuche es erneut.'
       members_count: '{count} Mitglied|{count} Mitglieder'
       pending: Ausstehend…
       private: Privat

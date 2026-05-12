@@ -57,6 +57,7 @@ tryhackx-homepage-blocks:
       recaptcha_v3_threshold: 'reCAPTCHA v3 Schwellwert'
       recaptcha_v3_threshold_help: 'Mindestwert (0.0–1.0), der für v3 akzeptiert wird. Je niedriger der Wert, desto weniger streng die Anforderungen. Standardwert: 0,5'
       recaptcha_version: reCAPTCHA-Version
+      resolution_label: 'Benutzerdefinierte Beschriftung für Auflösungsfilter'
       resolution_label_help: 'Lasse das Feld leer, um die Standardübersetzung zu verwenden.'
       restore_defaults: Standardwerte
       search_debounce_ms: 'Such-Entprellzeit (ms)'
@@ -100,6 +101,8 @@ tryhackx-homepage-blocks:
     filter_category: Kategorie
     filter_date_interval: Erstellungsintervall
     filter_direction: Sortieren
+    filter_rating_interval: Bewertungsintervall
+    filter_resolution: Auflösung
     filter_sort_by: 'Sortieren nach'
     filter_title: Titel
     filter_title_placeholder: 'Titel suchen…'
@@ -115,6 +118,15 @@ tryhackx-homepage-blocks:
     interval_all: Alle
     interval_today: Heute
     random_not_found: 'In dieser Kategorie wurden keine Diskussionen gefunden.'
+    sort_asc: Aufsteigend
+    sort_avg_rating: 'Durchschnittliche Bewertung'
+    sort_created: Erstellungsdatum
+    sort_desc: Absteigend
+    sort_magnet_max: 'Maximale Magnetklicks'
+    sort_magnet_sum: 'Magnetklicks insgesamt'
+    sort_rating_count: 'Anzahl der Bewertungen'
+    sort_recently_clicked: 'Kürzlich geklickt'
+    sort_recently_rated: 'Kürzlich bewertet'
     sort_steamdb: 'Steam DB-Bewertung'
     sort_views: Aufrufe
     stats_avg_rating: 'Durchschn. Bewertung'
@@ -123,8 +135,10 @@ tryhackx-homepage-blocks:
     stats_error: 'Statistiken konnten nicht geladen werden.'
     stats_external_label: OpenTracker
     stats_internal_label: Forumsdaten
+    stats_magnets: Magnets
     stats_peers: Peers
     stats_seeds: Seeds
     stats_torrents: Torrents
+    stats_uptime: Verfügbarkeit
     stats_users: Benutzer
     stats_views: Aufrufe
