@@ -81,6 +81,7 @@ kilowhat-formulaire:
       field:
         content: Beitragsinhalt
         tags: Diskussionsthemen
+        tags-help: "Durch Kommas getrennte Liste von Themen-Slugs. Die ausgewählten Themen werden zusätzlich zu dem Thema hinzugefügt, mit dem dieses Formular verknüpft ist.\n"
         title: Diskussionstitel
       introduction: "Diese Einstellungen gelten für neue Diskussionen, die automatisch durch das Absenden eines mit einem Thema verknüpften Formulars erstellt wurden. Du kannst Werte aus der Formulareinreichung verwenden, indem du eine Klammer-Syntax mit dem Feld-Slug verwendest. Standardmäßig werden { title } und { content } verwendet.\n"
       submit: 'Änderungen überprüfen'
@@ -88,6 +89,9 @@ kilowhat-formulaire:
     badge:
       hidden: Verbergen
       locked: Gesperrt
+    choice:
+      other-label: 'Andere:'
+      other-placeholder: Typ...
     confirmation-email-options-modal:
       field:
         message: Text
@@ -117,7 +121,9 @@ kilowhat-formulaire:
         ods: ODS
         xls: XLS
         xlsx: XLSX
+      heading: 'Überschrift / Schlüssel'
       heading-options:
+        key: Feldschlüssel
         title: Feldtitel
       meta: Metadaten
       meta-options:
@@ -133,6 +139,8 @@ kilowhat-formulaire:
         user_id: '=> kilowhat-formulaire.ref.submission-meta.user_id'
         user_joined_at: '=> kilowhat-formulaire.ref.submission-meta.user_joined_at'
         user_username: '=> kilowhat-formulaire.ref.submission-meta.user_username'
+      more-meta: 'Weitere Meta-Optionen'
+      option-keys: 'Optionsschlüssel anstelle von Bezeichnungen für Kontrollkästchen, Optionsfelder und Dropdown-Menüs exportieren'
       preview: Vorschau
       preview-primitives:
         boolean-false: Falsch
@@ -202,6 +210,7 @@ kilowhat-formulaire:
           warning: 'Nach dem Speichern werden alle Benutzer mit einem unvollständigen Formular aus dem Forum ausgesperrt, bis sie das Formular erneut einreichen. Weitermachen?'
         send-confirmation-to-participants: 'Bestätigungs-E-Mail an Teilnehmer senden'
         show-on-creation:
+          discussion: 'Im Diskussions-Composer anzeigen'
           discussionHelp: "Der Flarum-Diskussions-Composer ist nicht dafür geeignet, viele Felder zu enthalten. Du solltest die Erweiterung <a>Composer Page</a> installieren und aktivieren, um sicherzustellen, dass alle Felder auf allen Geräten zugänglich bleiben.\n"
           user: 'Bei der Anmeldung anzeigen'
         title: 'Öffentlicher Titel'
@@ -269,7 +278,10 @@ kilowhat-formulaire:
       forms: '=> kilowhat-formulaire.ref.manager'
     options-editor:
       columns:
+        defaultValue: Standardmäßig
+        key: '(Experte) Eindeutiger Schlüssel'
         title: Titel
+        titleTranslationKey: '(Experte) Übersetzungsschlüssel'
       new-placeholder: 'Neue Option...'
       remove: 'Option entfernen'
     permission-controls:
@@ -280,6 +292,8 @@ kilowhat-formulaire:
     require-submission-alert:
       action: 'Formular öffnen'
       message: 'Wir haben den Zugriff auf dein Konto vorübergehend eingeschränkt, bis du das Formular „{title}“ eingereicht hast.'
+    rich-text:
+      preview-placeholder: 'Gib etwas ein, um eine Vorschau anzuzeigen'
     save-controls:
       redo: Wiederholen
       save: Speichern
@@ -287,6 +301,8 @@ kilowhat-formulaire:
       undo: Rückgängig
       unsaved-changes: 'Es gibt ungespeicherte Änderungen'
       validation-errors: 'Wir haben einige Fehler in deiner Einreichung gefunden'
+    select:
+      choose: 'Wähle eine Option'
     show-advanced-attributes-modal:
       attribute:
         fillPermission: Ausfüllberechtigung
@@ -314,24 +330,37 @@ kilowhat-formulaire:
     submission:
       delete: 'Dauerhaft löschen'
       delete-confirmation: 'Die Einreichung vom {date} wird dauerhaft gelöscht'
+      edit-forbidden: 'Du kannst diese Einreichung nicht mehr bearbeiten.'
+      edit-submission: 'Einreichung bearbeiten'
       form-closed: 'Dieses Formular ist geschlossen.'
       form-full: 'Dieses Formular hat die maximale Anzahl erlaubter Einreichungen erreicht.'
       hide: Löschen
+      lock: Sperren
       restore: Wiederherstellen
+      submit-other: 'Noch eine Einreichung'
+      submitted-successfully: 'Deine Einreichung wurde erfolgreich übermittelt.'
+      unlock: Freigeben
     template-editor:
       add-field: 'Ein Feld hinzufügen'
+      contentTranslationKey: '(Experte) Übersetzungsschlüssel für Inhalt'
+      defaultValue: Standardwert
       delete: 'Feld löschen'
       description: Beschreibung
+      descriptionTranslationKey: '(Experte) Übersetzungsschlüssel für Beschreibung'
       duplicate: 'Feld duplizieren'
       email: E-Mail
       fill-permission: '(Experte) Ausfüllberechtigungen'
       integer: Ganzzahl
+      key: '(Experte) JSON-Schlüssel in der Einreichungs-Nutzlast'
       max: Maximum
+      mime: 'MIME-Typ (durch Kommas getrennt, akzeptiert Platzhalter als zweiten Teil)'
       min: Minimum
       missing-title: 'Feld ohne Titel'
       no-answer: 'Nicht beantwortet'
+      other: 'Den Wert „anderer“ für Benutzer zulassen'
       regex: 'Regulärer Ausdruck'
       required: Erforderlich
+      rich: 'Rich Text (TextFormatter)'
       title: Titel
       titleTranslationKey: '(Expert) Übersetzungsschlüssel für Titel'
       type:
@@ -347,8 +376,10 @@ kilowhat-formulaire:
         upload: Hochladen
     translate:
       option-heading: 'Option #{number}'
+      switch-tab-to-edit: 'Wechsel zur Registerkarte „Vorlage“, um die Feldkonfiguration zu ändern'
     upload-editor:
       remove: 'Datei entfernen'
+      uploading: 'Wird hochgeladen...'
   mail:
     edit: Bearbeiten
     footer: 'Gesendet von {title}'
