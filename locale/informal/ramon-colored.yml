@@ -4,14 +4,46 @@
 
 colored:
   admin:
+    donate: 'Unterstütze diese Erweiterung'
     settings:
       custom_css_help: 'Füge hier beliebige benutzerdefinierte CSS-Stile ein, die du anwenden möchtest.'
       custom_css_label: 'Benutzerdefiniertes CSS'
       elements:
+        alerts_description: 'Fügt den Systembenachrichtigungen einen farbigen Rahmen hinzu.'
+        alerts_help: 'Einfärben für Benachrichtigungen aktivieren.'
+        alerts_label: Benachrichtigungen
+        button_description: 'Färbt Hauptelemente wie Schaltflächen, Links und Menüeintrage ein'
+        button_help: 'Einfärben für Primärelemente aktivieren'
+        button_label: Primärelemente
+        composer_description: 'Färbt den Hintergrund des Texteditors ein'
+        composer_help: 'Einfärben für Beitragscomposer aktivieren.'
+        composer_label: Texteditor
+        custom_help: 'Verwendung von benutzerdefiniertem CSS aktivieren.'
+        custom_label: 'Benutzerdefiniertes CSS'
+        dropdown_description: 'Färbt den Hintergrund von Ausklappmenüs ein'
+        dropdown_help: 'Einfärben für Ausklappmenüs aktivieren.'
+        dropdown_label: Ausklappmenüs
+        header_description: 'Fügt der Oberseite des Forenkopfes einen farbigen Rahmen hinzu.'
+        header_help: 'Einfärben der Kopfzeile aktivieren.'
+        header_label: Kopfzeilen-Rahmen
+        hero_description: 'Färbt den Hintergrund des Hauptseitenbanners ein.'
+        hero_help: 'Einfärben des Seitenheros aktivieren.'
+        hero_label: Hauptbanner
+        navigation_description: 'Fügt der Navigationsleiste einen farbigen Rahmen hinzu.'
+        navigation_help: 'Einfärben der Navigationsleiste aktivieren.'
         navigation_label: Navigationsleiste
+        post_description: 'Fügt der Seite von Beiträgen einen farbigen Rahmen hinzu.'
+        post_help: 'Einfärben für Beiträge aktivieren.'
+        post_label: Beiträge
+        usercard_description: 'Fügt der Benutzerkarte einen farbigen Rahmen hinzu.'
+        usercard_help: 'Einfärben der Benutzerkarten aktivieren.'
+        usercard_label: Benutzerkarte
       tag_mode_custom: Benutzerdefniert
       tag_mode_first: 'Erstes Thema'
+      tag_mode_label: Themen-Farb-Modus
       tag_mode_second: 'Zweites Thema'
+      tag_position_help: 'Wähle die Position des Themas für die Anpassung aus.'
+      tag_position_label: Themenposition
       transition_custom_help: 'Benutzerdefinierte Übergangszeit in Sekunden eingeben (z. B. 0,7)'
       transition_custom_label: 'Benutzerdefinierte Geschwindigkeit'
       transition_delay_help: 'Geschwindigkeit der Farbübergänge auswählen'
