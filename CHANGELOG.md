@@ -5,6 +5,11 @@ CHANGELOG
 2.0.4 (XXXX-XX-XX)
 ------------------
 
+**Allgemeine Änderungen**:
+
+* Flarum-Core Übersetzungen aktualisiert.
+
+
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
 * [`captchala/flarum`](https://github.com/Captcha-La/captchala-flarum)
