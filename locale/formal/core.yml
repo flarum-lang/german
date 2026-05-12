@@ -5,7 +5,7 @@
 core:
   admin:
     advanced:
-      description: 'Erweiterte Einstellungen für dein Forum konfigurieren.'
+      description: 'Erweiterte Einstellungen für Ihr Forum konfigurieren.'
       fontawesome:
         cdn_url_help: 'Vollständige URL zur FontAwesome-CSS-Datei auf einem CDN'
         cdn_url_label: CDN-URL
@@ -39,7 +39,7 @@ core:
           issue_question: 'Tritt das Problem weiterhin auf?'
           issue_question_help: 'Versuche, das Problem auf einer separaten Seite zu reproduzieren, und antworte anhand des Ergebnisses.'
           no_button: Nein
-          result_description: "Das Forum befindet sich nicht mehr im Wartungsmodus. Die Erweiterung „Bisect“ wurde beendet. Basierend auf deinen Antworten zu den einzelnen Schritten ist die Ursache des Problems die folgende Erweiterung:\n"
+          result_description: "Das Forum befindet sich nicht mehr im Wartungsmodus. Die Erweiterung „Bisect“ wurde beendet. Basierend auf Ihren Antworten zu den einzelnen Schritten ist die Ursache des Problems die folgende Erweiterung:\n"
           start_button: 'Bisect starten'
           steps_left: 'Verbleibende Schritte: {steps}'
           stop_button: 'Bisect beenden'
@@ -49,7 +49,7 @@ core:
         config_override:
           help: 'Du kannst diese Einstellungen hier weiterhin ändern, sie werden jedoch erst wirksam, wenn du in deiner Datei <code>config.php</code> den Wert <code>offline</code> auf <code>0</code> setzst.'
           label: 'Deine Datei <code>config.php</code> überschreibt diese Einstellungen.'
-        help: 'Versetze dein Forum in den Wartungsmodus, um zu verhindern, dass Benutzer darauf zugreifen können.'
+        help: 'Versetzen Sie Ihr Forum in den Wartungsmodus, um zu verhindern, dass Benutzer darauf zugreifen können.'
         options:
           high: 'Intensiver Wartungsmodus. Niemand kann auf das Forum zugreifen (kann nur über config.php aktiviert werden)'
           low: 'Einfacher Wartungsmodus. Administratoren können auf das Forum zugreifen.'
@@ -63,7 +63,7 @@ core:
       queue:
         backoff_help: 'Zeit, die vor dem erneuten Versuch eines fehlgeschlagenen Jobs gewartet werden soll. Der Standardwert ist 0 Sekunden.'
         backoff_label: 'Zurückstellen (Sekunden)'
-        custom_driver: 'Dein Forum verwendet den {driver} Queue-Treiber, der von einer Erweiterung bereitgestellt wird.'
+        custom_driver: 'Ihr Forum verwendet den {driver} Queue-Treiber, der von einer Erweiterung bereitgestellt wird.'
         memory_help: 'Maximaler Speicher, den der Queue-Worker vor dem Neustart verwenden kann. Der Standardwert beträgt 128 MB.'
         memory_label: 'Speicherlimit (MB)'
         rest_help: 'Zeit, die zwischen der Verarbeitung von Jobs gewartet werden soll. Der Standardwert ist 0 Sekunden.'
@@ -72,7 +72,7 @@ core:
         retries_label: Job-Wiederholungsversuche
         section_label: Warteschlange
         sync_help: 'Für eine bessere Leistung und Benutzererfahrung solltest du die Verwendung des Datenbank-Warteschlangentreibers in Betracht ziehen. Weitere Informationen findest du in der Dokumentation.'
-        sync_info: 'Dein Forum verwendet den synchronen Warteschlangentreiber. Aufträge werden sofort im Hauptprozess-Thread verarbeitet.'
+        sync_info: 'Ihr Forum verwendet den synchronen Warteschlangentreiber. Aufträge werden sofort im Hauptprozess-Thread verarbeitet.'
         timeout_help: 'Maximaldauer, die ein einzelner Job ausgeführt werden kann. Der Standardwert beträgt 60 Sekunden.'
         timeout_label: 'Zeitlimit für Jobs (Sekunden)'
       search:
@@ -165,7 +165,7 @@ core:
       slug_driver_text: 'Wählen Sie den Treiber, welcher die Foren-URLs mit einem "Slug" ausstattet.'
       title: Grundeinstellungen
       welcome_banner_heading: Willkommensnachricht
-      welcome_banner_text: 'Legen Sie den Text fest, der auf der Seite "Alle Diskussionen" erscheint, um Besucher zu begrüßen.'
+      welcome_banner_text: 'Legen Sie den Text fest, der auf der Seite „Alle Diskussionen“ erscheint, um Besucher zu begrüßen.'
     create_user:
       email_confirmed_label: 'Benutzer muss diese E-Mail bestätigen'
       email_placeholder: '=> core.ref.email'
@@ -248,7 +248,7 @@ core:
       mail_port_label: Port
       mail_postmark_message_stream_label: Nachrichtenstream
       mail_postmark_token_label: Server-Token
-      mail_smtp_verify_peer_help: 'Überprüfe das SSL-Zertifikat des Servers, wenn du TLS- oder SSL-Verschlüsselung verwendest. Deaktiviere diese Option nur, wenn dein Mailserver ein selbstsigniertes Zertifikat verwendet.'
+      mail_smtp_verify_peer_help: 'Überprüfen Sie das SSL-Zertifikat des Servers, wenn Sie TLS- oder SSL-Verschlüsselung verwenden. Deaktivieren Sie diese Option nur, wenn Ihr Mailserver ein selbstsigniertes Zertifikat verwendet.'
       mail_smtp_verify_peer_label: 'SSL-Zertifikat überprüfen'
       mail_username_label: '=> core.ref.username'
       mailgun_heading: 'Mailgun Einstellungen'
@@ -458,8 +458,8 @@ core:
     greeting: 'Hallo {displayName},'
     informational:
       default_title: Information
-      footer: 'Diese E-Mail wurde als Informationsdienstleistung in Bezug auf dein Konto bei [{forumTitle}]({forumUrl}) an {userEmail} gesendet.'
-      footer_plain: 'Diese E-Mail wurde als Informationsdienstleistung in Bezug auf dein Konto bei {forumTitle} an {userEmail} gesendet.'
+      footer: 'Diese E-Mail wurde als Informationsdienstleistung in Bezug auf Ihr Konto bei [{forumTitle}]({forumUrl}) an {userEmail} gesendet.'
+      footer_plain: 'Diese E-Mail wurde als Informationsdienstleistung in Bezug auf Ihr Konto bei {forumTitle} an {userEmail} gesendet.'
     notification:
       default_title: Benachrichtigung
       footer:
