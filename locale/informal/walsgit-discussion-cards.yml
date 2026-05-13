@@ -10,15 +10,21 @@ walsgit_discussion_cards:
       general:
         allowedTags_help: 'Für die ausgewählten Themenseiten werden Diskussionskarten aktiviert und angezeigt.'
         allowedTags_label: 'Themen auswählen'
+        cardOptions_info: 'Lege fest, welche Daten/Informationen auf den Karten angezeigt werden sollen.'
+        cardOptions_title: Kartenoptionen
+        defaultImage_info: 'Hier kannst du das Standardbild ändern, das auf Karten verwendet wird, wenn in der ersten Nachricht der Diskussion kein Bild gefunden wird. <u>WICHTIG</u>: <em>Beachte bitte, dass durch das Ändern des Bildes alle anderen noch nicht gespeicherten Einstellungsänderungen verworfen werden und die Seite automatisch neu geladen wird. Bitte speichere deine Änderungen, bevor du das Bild änderst</em> (oder umgekehrt 😉). Akzeptierte Formate: JPG-, PNG-, GIF-, BMP- oder WebP-Dateien. Ideale Auflösung: 400px x 225px (alle hochgeladenen Bilder werden in eine WebP-Datei konvertiert und auf eine Breite von 400px skaliert, mit Ausnahme von Bildern mit geringerer Breite, die ihre ursprüngliche Auflösung beibehalten und nicht hochskaliert werden). Je nach Auflösung deiner Datei kann das Bild auf Karten beschnitten und/oder gestreckt angezeigt werden.'
+        defaultImage_title: 'Allgemeines Standardbild'
         desktopCardWidth_help: 'Lege die Breite (in %) der Hauptkarten auf dem Desktop fest. (zwischen 10 und 100)'
         desktopCardWidth_label: 'Breite der Hauptkarten auf Desktop'
         listCardOptions_info: 'Lege die Optionen für Diskussionslisten-Karten fest (kleiner als Hauptkarten).'
         listCardOptions_title: 'Optionen für Listenkarten'
+        listCardsCount_help: 'Anzahl der Einträge in der Diskussionsliste, die als kleinere Karten angezeigt werden sollen, wenn <em>Karten für Diskussionslisten verwenden</em> aktiviert ist (0 für alle, max.: 20)'
         listCardsCount_label: 'Anzahl der Listenkarten'
         listCards_help: 'Diskussionslistenelemente als Karten anzeigen (kleiner als Hauptkarten). Ist diese Option nicht aktiviert, werden die Standard-Diskussionslistenelemente von Flarum angezeigt (keine Karten).'
         listCards_label: 'Karten für Diskussionslisten verwenden'
         onIndexPage_help: 'Wenn aktiviert, werden auf der Seite <em>Alle Diskussionen</em> Karten angezeigt.'
         onIndexPage_label: 'Aktiviere Karten auf der Indexseite'
+        previewText_label: Vorschautext
         primaryCardOptions_info: 'Lege die Optionen für die Hauptkarten fest (größere Karten oben auf jeder Seite unter Verwendung von Diskussionskarten).'
         primaryCardOptions_title: 'Optionen für Hauptkarten'
         primaryCards_help: 'Anzahl der größeren Karten, die oben auf jeder Seite mithilfe von Diskussionskarten angezeigt werden. Positive Zahl (0 für keine).'
