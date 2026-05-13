@@ -14,6 +14,7 @@ walsgit_discussion_cards:
         desktopCardWidth_label: 'Breite der Hauptkarten auf Desktop'
         listCardOptions_info: 'Lege die Optionen für Diskussionslisten-Karten fest (kleiner als Hauptkarten).'
         listCardOptions_title: 'Optionen für Listenkarten'
+        listCardsCount_label: 'Anzahl der Listenkarten'
         listCards_help: 'Diskussionslistenelemente als Karten anzeigen (kleiner als Hauptkarten). Ist diese Option nicht aktiviert, werden die Standard-Diskussionslistenelemente von Flarum angezeigt (keine Karten).'
         listCards_label: 'Karten für Diskussionslisten verwenden'
         onIndexPage_help: 'Wenn aktiviert, werden auf der Seite <em>Alle Diskussionen</em> Karten angezeigt.'
@@ -28,6 +29,11 @@ walsgit_discussion_cards:
         where_info: 'Lege fest, wo die Diskussionskarten eingesetzt werden sollen.'
         where_title: 'Wo?'
       statsToolsBanner:
+        debugModal_copyButton: 'In die Zwischenablage kopieren'
+        debugModal_copyError: 'Debug-Informationen konnten nicht kopiert werden!'
+        debugModal_copySuccess: 'Debug-Informationen wurden erfolgreich kopiert!'
+        debugModal_discussionDebugLabel: Diskussions-ID
+        debugModal_title: 'Debug-Informationen für Diskussionskarten'
         purgeImagesModal_deleteAllBtnText: 'Alle Bilder löschen'
         purgeImagesModal_deleteAllHelp: 'Dadurch werden alle Bilder der Diskussionskarten von deiner Festplatte (des Servers) gelöscht. Durch Klicken auf die folgende Schaltfläche wird dieser CLI-Befehl ausgeführt: <code>php flarum discussion-cards:purge-images --all</code>'
         purgeImagesModal_deleteAllLabel: 'Alle Bilder der Diskussionskarten löschen'
@@ -61,7 +67,11 @@ walsgit_discussion_cards:
         statDiscussionsWithoutImagesTitle: 'Diskussionen ohne Bilder'
         statTotalImagesTitle: 'Bilder insgesamt'
         statUnusedImagesTitle: 'Nicht verwendete Bilder'
+        toolsMenuDebug: Debug-Informationen
         toolsMenuLabel: Werkzeuge
+        toolsMenuPurgeImages: 'Bilder bereinigen'
+        toolsMenuRegenerateImages: 'Bilder neu erstellen'
+        toolsMenuUpdateStats: Aktualisierungsstatistiken
     tag_modal:
       submit_button: Speichern
   forum:
