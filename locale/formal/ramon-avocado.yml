@@ -127,8 +127,16 @@ ramon-avocado:
       spinner_custom_code_help: 'Füge einen beliebigen SVG- oder HTML-Code ein, der als Lade-Spinner verwendet werden soll.'
       spinner_custom_code_label: 'Benutzerdefinierter Spinner-Code'
       tag_picker_placeholder: 'Themen auswählen…'
+      team_desc_label: Seitenbeschreibung
+      team_desc_placeholder: 'Lerne die Menschen hinter der Community kennen.'
+      team_enabled_help: 'Zeige eine /team-Seite an, auf der die Mitglieder der ausgewählten Gruppen aufgelistet sind.'
+      team_enabled_label: 'Teamseite aktivieren'
+      team_groups_empty: 'Keine Gruppen gefunden.'
+      team_groups_help: 'Die Mitglieder der ausgewählten Gruppen werden auf der Teamseite angezeigt.'
+      team_groups_label: 'Anzuzeigende Gruppen'
+      team_title_label: Seitentitel
       threads_style_help: 'Zeige den Startbeitrag als Karte an und rücke die Antworten mit einem linken Rand ein, wie in der Threads-App.'
-      threads_style_label: 'Diskussionslayout im Thread-Stil aktivieren'
+      threads_style_label: 'Diskussionslayout im Stil von Threads aktivieren'
   forum:
     actions:
       share: Teilen
