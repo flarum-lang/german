@@ -7,6 +7,8 @@ linkrobins-clipboard:
     settings:
       codeLang_help: 'Zeige die erkannte Programmiersprache oben rechts in jedem Code-Block an (z. B. Python, Bash, JavaScript). Dazu ist ein Syntax-Highlighter erforderlich, der deinen Code-Elementen „language-X“-Klassen hinzufügt.'
       codeLang_label: 'Sprachbezeichnung in Codeblöcken anzeigen'
+      copy_enable_help: 'Wenn aktiviert, erscheint bei jedem Code-Block in Beiträgen eine Schaltfläche zum Kopieren. Besucher können darauf klicken, um den Code in ihre Zwischenablage zu kopieren.'
+      copy_enable_label: 'Schaltfläche „Kopieren“ in Code-Blöcken aktivieren'
       themes:
         cnblog: cnBlogs
         csdn: CSDN
@@ -15,4 +17,12 @@ linkrobins-clipboard:
         jianshu: 'Jian Shu'
         lingcoder: LingCoder
         segmentfault: SegmentFault
+      themes_help: 'Wähle das Erscheinungsbild der Kopieren-Schaltfläche aus. Jedes Design verwendet unterschiedliche Symbole, Farben und Anordnungen.'
       themes_label: 'Stil der Kopieren-Schaltfläche'
+  forum:
+    action_copy: Kopieren
+    action_cut: Ausschneiden
+    error_btn: Fehler
+    msg: 'Drücke {actionKey}, um {action} auszuführen'
+    no_support: 'Nicht unterstützt'
+    ok_btn: Kopiert
