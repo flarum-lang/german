@@ -57,6 +57,11 @@ walsgit_discussion_cards:
         regenerateImagesModal_success: 'Bilder erfolgreich neu erstellt'
         regenerateImagesModal_title: 'Bilder neu erstellen'
         regenerateImagesModal_unknownError: 'Unbekannter Fehler'
+        statDiscussionImagesTitle: 'Bilder in Diskussionen'
+        statDiscussionsWithoutImagesTitle: 'Diskussionen ohne Bilder'
+        statTotalImagesTitle: 'Bilder insgesamt'
+        statUnusedImagesTitle: 'Nicht verwendete Bilder'
+        toolsMenuLabel: Werkzeuge
     tag_modal:
       submit_button: Speichern
   forum:
