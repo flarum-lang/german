@@ -5,10 +5,16 @@
 treeslins-reply-to-see:
   admin:
     permissions:
-      bypass: 'Verborgenen Inhalt anzeigen, ohne zu antworten'
+      bypass: 'Darf verborgenen Inhalt ansehen, ohne zu antworten'
     settings:
+      enabled: '„Antworten, um ansehen zu können“ aktivieren'
+      placeholder: Platzhaltertext
       placeholder-text: 'Platzhaltertext für verborgenen Inhalt'
       placeholder-text-help: 'Die Meldung, die Benutzern angezeigt wird, die noch nicht geantwortet haben. Für die Standardeinstellung leer lassen.'
+      placeholder_help: 'Meldung für Nutzer, die noch nicht geantwortet haben'
   forum:
+    button: 'Verborgenen Inhalt einfügen'
     insert-button: '„Antworten, um zu sehen“-Tag einfügen'
+    placeholder: 'Bitte antworte, um den verborgenen Inhalt anzuzeigen'
     unlocked-label: 'Verborgener Inhalt:'
+    unlocked_label: 'Verborgener Inhalt freigeschaltet'
