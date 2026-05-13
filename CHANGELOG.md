@@ -17,6 +17,7 @@ CHANGELOG
 * [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length)
 * [`ernestdefoe/social-groups`](https://github.com/ernestdefoe/social-groups)
 * [`irmmr/flarum-ext-rtl`](https://github.com/irmmr/flarum-ext-rtl)
+* [`linkrobins/blog`](https://github.com/linkrobins/blog)
 * [`linkrobins/clipboard`](https://github.com/linkrobins/clipboard)
 * [`linkrobins/countdown-widget`](https://github.com/linkrobins/countdown-widget)
 * [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget)
