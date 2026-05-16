@@ -35,9 +35,9 @@ php flarum cache:clear
 
 ## Contributing
 
-All translations are managed on this [Weblate instance](https://weblate.rob006.net/engage/flarum/de/), no coding skills or Git knowledge is required to contribute. Flarum internal strings are handled in the 'core' component, otherwise select the extension you want to translate. You can use the search function on a components page to quickly find specific strings you wish to translate or update.
+All translations are managed on this [Weblate instance](https://weblate.rob006.net/engage/flarum2/de/), no coding skills or Git knowledge is required to contribute. Flarum internal strings are handled in the 'core' component, otherwise select the extension you want to translate. You can use the search function on a components page to quickly find specific strings you wish to translate or update.
 
-For translations that differ between formal and informal language we have a separate [Weblate repository](https://weblate.rob006.net/engage/flarum/de@formal/). Please only submit translations here if the formal translation differs from the informal variant. They get merged during export, meaning that translations included in the main repository do not need to be duplicated into the formal repository.
+For translations that differ between formal and informal language we have a separate [Weblate repository](https://weblate.rob006.net/engage/flarum2/de@formal/). Please only submit translations here if the formal translation differs from the informal variant. They get merged during export, meaning that translations included in the main repository do not need to be duplicated into the formal repository.
 
 Additions and improvements to the translations are very welcome, all help is greatly appreciated!
 
