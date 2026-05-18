@@ -23,6 +23,7 @@ ramon-stickers:
         delete_sticker_confirmation: 'Möchtest du diesen Sticker wirklich löschen?'
         modal_title: 'Sticker hinzufügen'
         path_or_url_label: 'Pfad oder URL'
+        save_error: 'Das Speichern des Stickers ist fehlgeschlagen. Bitte überprüfe deine Eingabe und versuche es erneut.'
         saved_message: '=> core.admin.settings.saved_message'
         sticker_category_label: Kategorie-Code
         sticker_title_label: Stickertitel
