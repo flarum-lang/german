@@ -51,14 +51,18 @@ datlechin-link-clicks:
       view_analytics_label: 'Link-Klick-Analysen anzeigen'
     settings:
       bot_ua_placeholder: "Googlebot\nMJ12bot\nAhrefsBot"
+      domain_blocklist_help: 'Zu überspringende Hosts. Einer pro Zeile. Verwende *.beispiel.de, um alle Subdomains abzudecken. Beiträge, die auf diese Hosts verweisen, erhalten kein Abzeichen, und Klicks werden nicht erfasst.'
       domain_blocklist_label: 'Domains blockieren'
       enabled_help: 'Hauptschalter. Wenn ausgeschaltet, findet weder ein Überschreiben noch eine Aufzeichnung statt.'
       enabled_label: 'Link-Klicks erfassen'
       honor_dnt_help: 'Aufzeichnung überspringen, wenn die Anfrage DNT: 1 enthält.'
       honor_dnt_label: '„Do Not Track“ beachten'
       open_new_window_label: 'Links in einem neuen Fenster öffnen'
+      retention_help: 'Tägliche Jobs löschen alle link_click_events, die älter als dieser sind. Setze den Wert auf 0, um Ereignisse dauerhaft zu speichern.'
+      retention_label: 'Speicherdauer von Ereignissen (in Tagen)'
       track_internal_help: '„Aus“ sorgt dafür, dass die Zählung auf ausgehende Ressourcen konzentriert bleibt.'
       track_internal_label: 'Links zu diesem Forum erfassen'
+      webhook_enabled_help: 'Leite jeden erfassten Klick als JSON-POST über die Warteschlange an eine externe URL weiter.'
       webhook_enabled_label: 'Webhook aktivieren'
       webhook_url_label: Webhook-URL
     tabs:
