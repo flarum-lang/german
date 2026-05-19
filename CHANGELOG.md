@@ -2,6 +2,61 @@ CHANGELOG
 =========
 
 
+2.0.4 (2026-05-19)
+------------------
+
+**Allgemeine Änderungen**:
+
+* Flarum-Core Übersetzungen aktualisiert.
+
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`captchala/flarum`](https://github.com/Captcha-La/captchala-flarum)
+* [`datlechin/flarum-link-clicks`](https://github.com/datlechin/flarum-link-clicks)
+* [`datlechin/flarum-mermaid`](https://github.com/datlechin/flarum-mermaid)
+* [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length)
+* [`ernestdefoe/cross-references`](https://github.com/ernestdefoe/cross-references)
+* [`ernestdefoe/social-groups`](https://github.com/ernestdefoe/social-groups)
+* [`gitzaai/cnsearch`](https://github.com/gitzaai/cnsearch)
+* [`irmmr/flarum-ext-rtl`](https://github.com/irmmr/flarum-ext-rtl)
+* [`linkrobins/blog`](https://github.com/linkrobins/blog)
+* [`linkrobins/clipboard`](https://github.com/linkrobins/clipboard)
+* [`linkrobins/countdown-widget`](https://github.com/linkrobins/countdown-widget)
+* [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget)
+* [`linkrobins/markdown-widget`](https://github.com/linkrobins/markdown-widget)
+* [`linkrobins/op`](https://github.com/linkrobins/OP)
+* [`linkrobins/post-num`](https://github.com/linkrobins/post-num)
+* [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
+* [`linkrobins/support`](https://github.com/linkrobins/support)
+* [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum)
+* [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views)
+* [`peopleinside/fla-powcaptcha`](https://github.com/PeopleInside/fla-powcaptcha)
+* [`ramon/auth-modals`](https://github.com/ram0ng1/auth-modals)
+* [`ramon/guest-cta`](https://github.com/ram0ng1/guest-cta)
+* [`treeslins/reply-to-see`](https://github.com/treeslins/reply-to-see)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`datlechin/flarum-posted-on`](https://github.com/datlechin/flarum-posted-on)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
+* [`linkrobins/referral`](https://github.com/linkrobins/referral)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado)
+* [`ramon/stickers`](https://github.com/ram0ng1/stickers)
+* [`resofire/digest-mail`](https://github.com/ResofireV2/digest-mail)
+* [`tryhackx/flarum-homepage-blocks`](https://github.com/TryHackX/flarum-homepage-blocks)
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
+* [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
+* [`flarum/flags`](https://github.com/flarum/flags)
+
+
+Alle Änderungen: [2.0.3...2.0.4](https://github.com/flarum-lang/german/compare/2.0.3...2.0.4).
+
+
 2.0.3 (2026-05-07)
 ------------------
 
