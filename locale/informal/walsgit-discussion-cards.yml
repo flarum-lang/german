@@ -48,6 +48,7 @@ walsgit_discussion_cards:
         showViews_label: 'Aufrufe anzeigen'
         showViews_title_end: ' Erweiterung installiert und aktiviert kannst du die folgende (1) Option einstellen:'
         showViews_title_or: ' ODER '
+        showViews_title_start: 'Entweder mit '
         tabletCardWidth_help: 'Lege die Breite (in %) der Hauptkarten auf Tablets fest. (zwischen 10 und 100)'
         tabletCardWidth_label: 'Breite der Hauptkarten auf Tablets'
         viewsExtension_notActivated: '{icon} Damit diese Einstellung funktioniert, muss die Erweiterung „Discussion Views“ aktiviert sein.'
@@ -104,6 +105,11 @@ walsgit_discussion_cards:
         toolsMenuUpdateStats: Aktualisierungsstatistiken
     tag_modal:
       submit_button: Speichern
+    tags:
+      activation_button: 'Für dieses Thema aktivieren'
+      deactivation_button: 'Für dieses Thema deaktivieren'
+      defaultImage_title: Standardbild
+      options_heading: Diskussionskarten
   forum:
     console:
       postUpdateCardImageError: 'Diskussionskarten > Fehler beim Aktualisieren des aktualisierten Kartenbildes für diese Diskussion: '
