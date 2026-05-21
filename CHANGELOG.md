@@ -10,6 +10,11 @@ CHANGELOG
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
 
 
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
+
+
 Alle Änderungen: [2.0.4...2.0.5](https://github.com/flarum-lang/german/compare/2.0.4...2.0.5).
 
 
