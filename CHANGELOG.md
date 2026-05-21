@@ -7,6 +7,8 @@ CHANGELOG
 
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
+* [`ernestdefoe/theme-toggle`](https://github.com/ernestdefoe/theme-toggle)
+* [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer)
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
 
 
