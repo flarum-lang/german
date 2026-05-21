@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.25.18 (XXXX-XX-XX)
+--------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
+
+
+Alle Änderungen: [1.25.17...1.25.18](https://github.com/flarum-lang/german/compare/1.25.17...1.25.18).
+
+
 1.25.17 (2026-05-19)
 --------------------
 
