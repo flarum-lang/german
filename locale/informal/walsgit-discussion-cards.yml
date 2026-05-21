@@ -26,8 +26,12 @@ walsgit_discussion_cards:
         listCardsCount_label: 'Anzahl der Listenkarten'
         listCards_help: 'Diskussionslistenelemente als Karten anzeigen (kleiner als Hauptkarten). Ist diese Option nicht aktiviert, werden die Standard-Diskussionslistenelemente von Flarum angezeigt (keine Karten).'
         listCards_label: 'Karten für Diskussionslisten verwenden'
+        markReadCards_help: 'Wenn aktiviert, werden die Titel und Texte gelesener Diskussionen in einer helleren Schriftfarbe angezeigt.'
+        markReadCards_label: 'Karten für gelesene und ungelesene Diskussionen unterscheiden'
         onIndexPage_help: 'Wenn aktiviert, werden auf der Seite <em>Alle Diskussionen</em> Karten angezeigt.'
         onIndexPage_label: 'Aktiviere Karten auf der Indexseite'
+        otherOptions_info: 'Für die folgenden Optionen müssen weitere Erweiterungen installiert und aktiviert werden, damit sie funktionieren. <strong>WICHTIG: Bitte lies <u>alle</u> Informationen zu den einzelnen Optionen und führe die erforderlichen Schritte durch, bevor du diese aktivierst</strong>.'
+        otherOptions_title: 'Optionen erfordern andere Erweiterungen'
         previewText_help: 'Wenn aktiviert, wird der Anfang der ersten Nachricht als Vorschau auf der Karte angezeigt.'
         previewText_label: Vorschautext
         primaryCardOptions_info: 'Lege die Optionen für die Hauptkarten fest (größere Karten oben auf jeder Seite unter Verwendung von Diskussionskarten).'
