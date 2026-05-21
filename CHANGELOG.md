@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.5 (XXXX-XX-XX)
+------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
+
+
+Alle Änderungen: [2.0.4...2.0.5](https://github.com/flarum-lang/german/compare/2.0.4...2.0.5).
+
+
 2.0.4 (2026-05-19)
 ------------------
 
