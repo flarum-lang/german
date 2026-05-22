@@ -49,10 +49,20 @@ fof-polls:
     compose:
       add_title: 'Umfrage hinzufügen'
       continue_editing: 'Bearbeitung fortsetzen'
+      draft_saved: 'Entwurf gespeichert'
       edit_title: 'Umfrage bearbeiten'
       polls_manager: Umfragenmanager
       polls_preview: 'Umfrage ansehen'
+      publish: Veröffentlichen
+      save_as_draft: 'Als Entwurf speichern'
+      schedule: Planen
+      schedule_datetime_label: 'Veröffentlichen am'
+      schedule_publication: 'Veröffentlichung planen'
+      schedule_publication_edit: 'Geplante Veröffentlichung bearbeiten'
+      schedule_submit: Planen
+      submit: Absenden
       success: 'Umfrage erfolgreich gespeichert.'
+      update_draft: 'Entwurf aktualisieren'
     composer_discussion:
       add_poll: '=> fof-polls.forum.moderation.add'
       edit_poll: '=> fof-polls.forum.moderation.edit'
@@ -68,6 +78,7 @@ fof-polls:
       date_placeholder: 'Enddatum der Umfrage (optional)'
       delete: Löschen
       edit_title: 'Umfrage bearbeiten'
+      empty_answers: '{count, plural, one {# Antwort ist leer — bitte ausfüllen oder entfernen.} other {# Antworten sind leer — bitte ausfüllen oder entfernen.}}'
       error: '=> core.lib.error.generic_message'
       hide_votes_label: 'Stimmen ausblenden, bis die Umfrage endet'
       hide_votes_label_help: 'Der Benutzer, der die Umfrage gestartet hat, kann die Stimmen immer einsehen.'
@@ -110,17 +121,30 @@ fof-polls:
     poll:
       cannot_change_vote: 'Du kannst deine Stimme nach dem Abstimmen nicht mehr ändern.'
       cannot_start_poll_button: 'Umfrage kann nicht gestartet werden'
+      draft_label: Entwurf
+      scheduled_error_tooltip: 'Die geplante Veröffentlichung ist fehlgeschlagen. Öffne die Umfrage, um zu erfahren, warum.'
+      scheduled_label: 'Geplant für {date}'
       start_poll_button: 'Globale Umfrage starten'
       submit_button: Abstimmen
       total_votes: '{count, plural, one {# Stimme wurde abgegeben} other {# Stimmen wurden abgegeben}}'
     poll_controls:
+      cancel_schedule_label: 'Geplante Veröffentlichung absagen'
+      cancel_schedule_success: 'Geplante Veröffentlichung wurde abgesagt.'
       delete_confirmation: 'Bist du sicher, dass du diese Umfrage löschen möchtest?'
       delete_error_message: 'Beim Löschen der Umfrage ist etwas schiefgelaufen.'
-      delete_label: Löschen
+      delete_label: '=> core.ref.delete'
       delete_success_message: 'Umfrage erfolgreich gelöscht.'
-      edit_label: Bearbeiten
+      edit_label: '=> core.ref.edit'
+      edit_schedule_publish_label: 'Geplante Veröffentlichung bearbeiten'
+      publish_label: 'Jetzt veröffentlichen'
+      publish_success: 'Umfrage veröffentlicht.'
+      schedule_publish_label: 'Veröffentlichung planen'
       toggle_dropdown_accessible_label: 'Menü für die Umfrageeinstellungen umschalten'
-      view_label: Anzeigen
+      unpublish_confirmation: 'Diese Umfrage wieder in den Entwurfsordner verschieben? Sie wird dann aus der Übersicht verschwinden.'
+      unpublish_error_has_votes: 'Die Veröffentlichung kann nicht rückgängig gemacht werden – die Umfrage enthält bereits Stimmen. Lösche die Umfrage stattdessen.'
+      unpublish_label: 'Zurück zum Entwurf verschieben'
+      unpublish_success: 'Umfrage zu Entwürfen verschoben.'
+      view_label: '=> core.ref.view'
     poll_ended: 'Diese Umfrage ist bereits beendet.'
     poll_form:
       delete: 'Umfrage löschen'
@@ -162,6 +186,10 @@ fof-polls:
         oldest: Älteste
         sort_dropdown:
           default: '=> fof-polls.forum.polls_list.sort_dropdown.newest'
+      status_filter:
+        all: Alle
+        draft: Entwürfe
+        published: Veröffentlicht
     polls_page:
       title: Umfragen
     public_poll: Abstimmungsergebnis
