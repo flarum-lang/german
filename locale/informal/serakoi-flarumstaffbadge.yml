@@ -4,6 +4,11 @@
 
 serakoi-flarumstaffbadge:
   admin:
+    permissions:
+      canEditStaffBadge:
+        label: 'Darf Personalabzeichen bearbeiten'
+      canEditTagList:
+        label: 'Darf Tag-Liste bearbeiten'
     staffBadge:
       help: 'Der Text des Mitarbeiterabzeichens (standardmäßig ''STAFF'')'
       label: Personalabzeichen-Text

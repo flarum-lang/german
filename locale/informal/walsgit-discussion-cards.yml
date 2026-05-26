@@ -4,10 +4,27 @@
 
 walsgit_discussion_cards:
   admin:
+    console:
+      imageMigrationServiceUnknownError: 'Unbekannter Fehler'
+      migrateImagesError: '❌ Fehler: '
     errors:
+      deleteFilenameRequired: 'Löschfehler: Dateiname erforderlich!'
+      deleteTargetNotFound: 'Es gibt nichts zu löschen: Zieldatei {file} nicht gefunden!'
+      desktopCardWidth: 'Die Breite der Hauptkarten auf dem Desktop muss ein Wert zwischen 10 und 100 sein'
+      fileSize: 'Die Dateigröße muss unter 2 MB liegen'
+      imageProcessingFailed: 'Bildverarbeitung fehlgeschlagen!'
+      imageProcessingSourceNotFound: 'Bildverarbeitung: Quellbild {path} nicht gefunden!'
       invalidFile: 'Ungültige Datei!'
+      invalidMime: 'Dateiformat wird nicht unterstützt. Akzeptierte Formate: JPEG, PNG, GIF, BMP oder WebP'
+      listCardsCount: 'Der Wert von <em>Anzahl der Listenkarten</em> muss zwischen 0 und 20 liegen (0 für alle)'
+      noFileUploaded: 'Keine Datei hochgeladen!'
+      primaryCards: 'Die Anzahl der Hauptkarten muss eine positive Zahl sein (0 oder größer)'
+      tabletCardWidth: 'Die Breite der Hauptkarten auf Tablets muss ein Wert zwischen 10 und 100 sein'
+      useListCards: 'Wert muss null, 0 oder 1 sein'
     settings:
       general:
+        allowRepostLinks_help: 'Wenn Option aktiviert (zusammen mit der „repost“-Erweiterung), wird bei Karten für Diskussionen, deren Titel mit einer URL beginnt, diese URL geöffnet, sobald man auf den Titel der Karte klickt; wird hingegen auf einen anderen Teil der Karte geklickt, wird die Diskussion wie gewohnt geöffnet.'
+        allowRepostLinks_label: 'Verhalten von „Repost“-Links auf Karten zulassen'
         allowedTags_help: 'Für die ausgewählten Themenseiten werden Diskussionskarten aktiviert und angezeigt.'
         allowedTags_label: 'Themen auswählen'
         blogExtension_notActivated: '{icon} Diese Erweiterung muss aktiviert sein, damit diese Einstellungen funktionieren.'
@@ -38,6 +55,10 @@ walsgit_discussion_cards:
         primaryCardOptions_title: 'Optionen für Hauptkarten'
         primaryCards_help: 'Anzahl der größeren Karten, die oben auf jeder Seite mithilfe von Diskussionskarten angezeigt werden. Positive Zahl (0 für keine).'
         primaryCards_label: 'Anzahl der Hauptkarten'
+        repostExtension_notActivated: '{icon} Diese Erweiterung muss aktiviert sein, damit diese Einstellung funktioniert.'
+        repostExtension_notInstalled: '{icon} Diese Erweiterung muss installiert und aktiviert sein, damit diese Einstellung funktioniert.'
+        repostExtension_title_end: ' Erweiterung installiert und aktiviert, kannst du die folgende (1) Option einstellen:'
+        repostExtension_title_start: 'Mit der '
         showAuthor_help: 'Wenn aktiviert, wird der Verfasser der Diskussion auf den Karten angezeigt.'
         showAuthor_label: 'Autor anzeigen'
         showBadges_help: 'Wenn aktiviert, werden in der oberen linken Ecke der Karten Abzeichen angezeigt.'
@@ -55,6 +76,10 @@ walsgit_discussion_cards:
         showViews_title_start: 'Entweder mit '
         tabletCardWidth_help: 'Lege die Breite (in %) der Hauptkarten auf Tablets fest. (zwischen 10 und 100)'
         tabletCardWidth_label: 'Breite der Hauptkarten auf Tablets'
+        useBlogImages_help: 'Wenn diese Option aktiviert ist, wird das Bild der Karten für jeden Blogbeitrag wie folgt festgelegt: zunächst das Titelbild des Blogbeitrags; falls kein Titelbild vorhanden ist, das erste gefundene Bild im Inhalt des Blogs; falls kein solches Bild vorhanden ist, das Standardbild der Blog-Erweiterung; falls kein solches Bild vorhanden ist, das Standardbild für Tags der Diskussionskarten; falls kein solches Bild vorhanden ist, das Hauptstandardbild der Diskussionskarten. Beachte, dass benutzerdefinierte Einstellungen für Themen, die als Blog-Themen verwendet werden, natürlich ignoriert werden, wenn du in den Einstellungen der Flarum-Blog-Erweiterung die Umleitung von Blog-Themen ausgewählt hast.'
+        useBlogImages_label: 'Standard- und hervorgehobene Bilder des Blogs verwenden'
+        useBlogSummary_help: 'Wenn diese Option und der Vorschautext aktiviert sind, wird auf den Karten für Blogbeiträge der Anfang der Zusammenfassung des Blogbeitrags als Vorschautext angezeigt, anstatt den Anfang des eigentlichen Textes.'
+        useBlogSummary_label: 'Die Zusammenfassung des Blogbeitrags als Vorschautext verwenden'
         viewsExtension_notActivated: '{icon} Damit diese Einstellung funktioniert, muss die Erweiterung „Discussion Views“ aktiviert sein.'
         viewsExtension_notInstalled: '{icon} Damit diese Einstellung funktioniert, muss eine dieser Erweiterungen installiert und aktiviert sein.'
         where_info: 'Lege fest, wo die Diskussionskarten eingesetzt werden sollen.'
@@ -108,11 +133,26 @@ walsgit_discussion_cards:
         toolsMenuRegenerateImages: 'Bilder neu erstellen'
         toolsMenuUpdateStats: Aktualisierungsstatistiken
     tag_modal:
+      desktopCardWidth_help: 'Lege die Breite (in %) der Hauptkarten auf dem Desktop fest (globale Einstellung: {default} %, min: 10 % & max: 100 %).'
+      desktopCardWidth_label: 'Breite der Hauptkarten auf dem Desktop'
+      intro_text: 'Hier kannst du verschiedene Einstellungen für die Diskussionskarten auf der Seite des aktuellen Themas vornehmen.'
+      listCardsCount_help: 'Anzahl der Einträge in der Diskussionsliste, die als kleinere Karten angezeigt werden sollen, wenn <em>Karten für Diskussionslisten verwenden</em> aktiviert ist (0 für alle, max.: 20)'
+      listCardsCount_label: 'Anzahl der Listenkarten'
+      primaryCards_help: 'Anzahl der größeren Karten, die oben auf der Seite angezeigt werden (globale Einstellung: {default}, min: 0).'
+      primaryCards_label: 'Anzahl der Hauptkarten'
       submit_button: Speichern
+      tabletCardWidth_help: 'Lege die Breite (in %) der Hauptkarten auf Tablets fest (globale Einstellung: {default} %, min: 10 % & max: 100 %).'
+      tabletCardWidth_label: 'Breite der Hauptkarten auf Tablets'
+      title: 'Einstellungen für Diskussionskarten für '
+      useListCards_help: 'Diskussionslistenelemente als Karten anzeigen (kleiner als Hauptkarten). Ist diese Option nicht aktiviert, werden die Standard-Diskussionslistenelemente von Flarum angezeigt (keine Karten).'
+      useListCards_label: 'Karten für Diskussionslisten verwenden'
+      useListCards_title: 'Optionen für Listenkarten'
     tags:
       activation_button: 'Für dieses Thema aktivieren'
       deactivation_button: 'Für dieses Thema deaktivieren'
+      defaultImage_info: 'Lege das Standardbild für die Seite dieses Themas fest oder ändere es. Weitere Informationen zu den zulässigen Dateiformaten und Auflösungen findest du in den allgemeinen Einstellungen für Diskussionskarten.'
       defaultImage_title: Standardbild
+      options_button: 'Weitere Einstellungen für Diskussionskarten'
       options_heading: Diskussionskarten
   forum:
     console:
