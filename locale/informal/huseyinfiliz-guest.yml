@@ -4,11 +4,15 @@
 
 huseyinfiliz-guest:
   admin:
+    max_posts_help: 'Maximal zulässige Anzahl von Beiträgen für Gastnutzer'
     max_posts_label: 'Maximale Anzahl an Gastbeiträgen'
     username_help: 'Präfix für Gast-Benutzernamen (z. B. „Gast“)'
     username_label: 'Präfix für Gast-Benutzernamen'
   forum:
     login_button: Gast-Anmeldung
+    login_error: 'Die Anmeldung ist fehlgeschlagen. Bitte versuche es erneut.'
+    max_posts_reached: 'Du hast die maximale Anzahl von {max} Beiträgen für Gastnutzer erreicht. Bitte erstelle ein Konto, um fortzufahren.'
     modal_title: 'Willkommen Gast'
     modal_understood: Verstanden!
+    rate_limit_error: 'Bitte warte einen Moment, bevor du es erneut versuchst.'
     welcome_message: 'Willkommen, Gast! Gäste dürfen maximal drei Beiträge verfassen.'

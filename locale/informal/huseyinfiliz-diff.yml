@@ -6,7 +6,9 @@ huseyinfiliz-diff:
   admin:
     permissions:
       deleteEditHistory: 'Bearbeitungsverlauf von anderen löschen'
+      rollbackEditHistory: 'Bearbeitungshistorie anderer rückgängig machen'
       selfDeleteEditHistory: 'Eigenen Bearbeitungsverlauf löschen'
+      selfRollbackEditHistory: 'Eigene Bearbeitungshistorie rückgängig machen'
       viewEditHistory: 'Bearbeitungsverlauf ansehen'
     settings:
       archiveInfo: 'Beachte, dass du beide Optionen deaktivieren und den Befehl <code>php flarum diff:archive</code> ausführen kannst, um alte Versionen manuell zu archivieren.'
@@ -70,4 +72,6 @@ huseyinfiliz-diff:
       revisionWithNumber: '=> huseyinfiliz-diff.ref.revisionWithNumber'
       sideBySide: Nebeneinander
   ref:
+    currentContent: 'Aktueller Inhalt'
+    originalContent: 'Originaler Inhalt'
     revisionWithNumber: 'Überarbeitung {number}'
