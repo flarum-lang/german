@@ -5,11 +5,22 @@ CHANGELOG
 1.25.18 (XXXX-XX-XX)
 --------------------
 
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`foskym/nickname-group-formatter`](https://github.com/FoskyM/flarum-nickname-group-formatter)
+* [`litalino/flarum-top-bar`](https://github.com/Litalino/flarum-top-bar)
+* [`matteociaroni/flarum-old-content`](https://github.com/matteociaroni/flarum-old-content)
+* [`mattoid/flarum-ext-store-auto-check-in`](https://github.com/Mattoids/flarum-ext-store-auto-check-in)
+* [`mattoid/flarum-ext-store-check-in`](https://github.com/Mattoids/flarum-ext-store-check-in)
+* [`xypp/store-group`](https://github.com/zxy19/flarum-store-group)
+
+
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff)
 * [`huseyinfiliz/guest`](https://github.com/huseyinfiliz/guest)
+* [`serakoi/flarumstaffbadge`](https://github.com/ThatKoffe/flarumstaffbadge)
 * [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
 * [`xrh0905/oauth-microsoft`](https://github.com/xrh0905/flarum-ext-oauth-microsoft)
 
