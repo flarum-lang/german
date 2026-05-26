@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff)
+* [`huseyinfiliz/guest`](https://github.com/huseyinfiliz/guest)
 * [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
 * [`xrh0905/oauth-microsoft`](https://github.com/xrh0905/flarum-ext-oauth-microsoft)
 
