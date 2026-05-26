@@ -8,7 +8,9 @@ CHANGELOG
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff)
 * [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
+* [`xrh0905/oauth-microsoft`](https://github.com/xrh0905/flarum-ext-oauth-microsoft)
 
 
 Alle Änderungen: [1.25.17...1.25.18](https://github.com/flarum-lang/german/compare/1.25.17...1.25.18).
