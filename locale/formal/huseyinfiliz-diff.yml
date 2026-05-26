@@ -9,12 +9,16 @@ huseyinfiliz-diff:
       selfDeleteEditHistory: 'Eigenen Bearbeitungsverlauf löschen'
       viewEditHistory: 'Bearbeitungsverlauf ansehen'
     settings:
+      archiveInfo: 'Beachte, dass du beide Optionen deaktivieren und den Befehl <code>php flarum diff:archive</code> ausführen kannst, um alte Versionen manuell zu archivieren.'
       archiveOlds: 'Alte Überarbeitungen archivieren'
+      archiveOldsInfo: 'Wenn <strong>x ≥ A</strong> ist, werden die ersten <strong>y=mx+b</strong> Revisionen des Beitrags als zusammengeführt und komprimiert gespeichert. <strong>x</strong> bezieht sich auf die Anzahl der Revisionen des Beitrags. Gleitkommawerte von <strong>y</strong> werden auf den nächstniedrigeren ganzzahligen Wert gerundet.'
       charLevel: Zeichen-Ebene
       dbOptimisation: Datenbank-Optimierung
       detailLevel: Detailgrad
       lineLevel: Zeilen-Ebene
       mainPostOnly: 'Nur Überarbeitungen des Hauptbeitrags speichern'
+      mergeThreshold: 'Zusammenführungsschwelle für den kombinierten Renderer'
+      mergeThresholdHelp: 'Dies legt fest, ob ein Block vom Typ „Ersetzen“ je nach dem Anteil der geänderten Inhalte – der zwischen 0 und 1 liegt – zusammengeführt werden soll oder nicht.'
       neighborLines: Nachbarzeilen
       neighborLinesHelp: 'Gib die Anzahl der Nachbarzeilen an, die angezeigt werden sollen.'
       noneLevel: Ohne-Ebene
@@ -22,9 +26,13 @@ huseyinfiliz-diff:
       separateBlock: 'Trennzeichen zwischen verschiedenen Diff-Hunks in HTML-Renderern anzeigen'
       textFormatting: 'Textformatierung für die Vorschau aktivieren'
       title: Diff-Einstellungen
+      useCrons: 'Verwende Cron-Jobs, um alte Versionen zu archivieren'
+      useCronsHelp: 'Du musst einen Cron-Eintrag auf deinem Server hinzufügen, damit diese Option funktioniert. Sie wird wöchentlich sonntags um 02:00 Uhr ausgeführt. Wenn du diese Option deaktivierst und die oben genannte aktivierst, werden alle Überarbeitungen des Beitrags auf Archivierungsbedarf überprüft, sobald der betreffende Beitrag überarbeitet wird.'
       usePoint: 'Verwenden Sie <strong>Punkt</strong> als Dezimaltrennzeichen für Fließkommawerte.'
       wordLevel: Wort-Ebene
   forum:
+    confirmDelete: 'Möchtest du den Inhalt dieser Bearbeitung wirklich aus dem Verlauf löschen?'
+    confirmRollback: 'Möchtest du deinen aktuellen Beitrag wirklich ändern?'
     createdInfo: '{username} hat {ago} erstellt'
     deleteButton: '=> core.forum.post_controls.delete_button'
     deleteErrorMessage: 'Löschen der Inhalte der Bearbeitung fehlgeschlagen.'
