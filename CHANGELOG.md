@@ -11,6 +11,7 @@ CHANGELOG
 * [`ernestdefoe/respawn`](https://github.com/ernestdefoe/respawn)
 * [`ernestdefoe/theme-toggle`](https://github.com/ernestdefoe/theme-toggle)
 * [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer)
+* [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
 
 
