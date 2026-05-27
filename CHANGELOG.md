@@ -17,7 +17,9 @@ CHANGELOG
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`flarum/mentions`](https://github.com/flarum/mentions)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`forumaker/magicslider`](https://github.com/forumaker/magicslider)
 * [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff)
 * [`huseyinfiliz/guest`](https://github.com/huseyinfiliz/guest)
 * [`serakoi/flarumstaffbadge`](https://github.com/ThatKoffe/flarumstaffbadge)
