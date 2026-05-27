@@ -10,6 +10,7 @@ CHANGELOG
 * [`ernestdefoe/aurora`](https://github.com/ernestdefoe/aurora)
 * [`ernestdefoe/respawn`](https://github.com/ernestdefoe/respawn)
 * [`ernestdefoe/theme-toggle`](https://github.com/ernestdefoe/theme-toggle)
+* [`forumaker/steam-oauth`](https://github.com/forumaker/Steam-Oauth)
 * [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer)
 * [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
