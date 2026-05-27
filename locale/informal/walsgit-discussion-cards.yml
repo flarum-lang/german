@@ -33,8 +33,13 @@ walsgit_discussion_cards:
       purgeImagesSummary: '➡ Zusammenfassung der Bereinigung: {deleted} gelöschte, {skipped} übersprungene und {updated} aktualisierte Diskussionen'
       regenerateImagesCancelled: '❌ Aktion abgebrochen'
       regenerateImagesConfirmAll: '⚠️ Möchtest du wirklich die Kartenbilder für ALLE Diskussionen neu generieren? Das könnte eine Weile dauern und viele Ressourcen beanspruchen (Y/N)'
+      regenerateImagesError: '❌ Fehler bei der Bearbeitung der Diskussion #{id}: {message}'
       regenerateImagesInvalidTagOption: '--tag muss von einer oder mehreren (durch Kommas getrennten) Tag-IDs (Zahlen) und/oder in Anführungszeichen gesetzten Themen-Slugs (z. B.: „slug-1“, „slug-2“) gefolgt werden.'
       regenerateImagesNothingToDo: 'Es sind keine Diskussionen zu bearbeiten'
+      regenerateImagesStart: '➡ Die Verarbeitung von {count} Diskussionen wird gestartet...'
+      regenerateImagesStartAll: '➡ Die Verarbeitung ALLER [{count}] Diskussionen wird gestartet...'
+      regenerateImagesStartAllWithout: '➡ Die Verarbeitung von [{count}] Diskussionen ohne Bilder wird gestartet...'
+      regenerateImagesSummary: '➡ Zusammenfassung der Regeneration{mode}: {total} verarbeitet, {success} erfolgreich & {errors} Fehler.'
     errors:
       adminImageNoPath: 'Der Dienst hat keinen Dateinamen angegeben.'
       adminImageProcessingError: 'Fehler bei der Bildverarbeitung: '

@@ -31,3 +31,23 @@ capy-magic-slider:
       section_display: Darstellung
       section_mobile: Mobil
       section_slides: Slides
+forumaker-magicslider:
+  admin:
+    settings:
+      autoplay: 'Intervall für die automatische Wiedergabe'
+      autoplay_help: '0 deaktiviert die automatische Sliderumschaltung. In Sekunden'
+      disable_desktop: 'Slider auf Desktop deaktivieren'
+      disable_desktop_help: 'Auf Bildschirmen breiter als 768 px ausblenden'
+      disable_mobile: 'Slider auf Mobilgeräten deaktivieren'
+      disable_mobile_help: 'Auf Bildschirmen mit einer Breite von bis zu 768 px ausblenden'
+      height: Höhe
+      height_help: 'Feste Höhe für diesen Bildschirmtyp'
+      hide_on_tag_pages: 'Slider auf Themenseiten verbergen'
+      padding: Außenabstand
+      padding_help: 'Abstand um den Sliderblock'
+      radius: Kantenradius
+      radius_help: Eckenrundung
+      section_behavior: Verhalten
+      section_desktop: Desktop
+      section_mobile: Mobil
+      section_slides: Slides
