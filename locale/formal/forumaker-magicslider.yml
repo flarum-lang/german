@@ -34,15 +34,24 @@ capy-magic-slider:
 forumaker-magicslider:
   admin:
     settings:
+      add_slide: 'Slide hinzufügen'
       autoplay: 'Intervall für die automatische Wiedergabe'
       autoplay_help: '0 deaktiviert die automatische Sliderumschaltung. In Sekunden'
+      delete: Löschen
       disable_desktop: 'Slider auf Desktop deaktivieren'
       disable_desktop_help: 'Auf Bildschirmen breiter als 768 px ausblenden'
       disable_mobile: 'Slider auf Mobilgeräten deaktivieren'
       disable_mobile_help: 'Auf Bildschirmen mit einer Breite von bis zu 768 px ausblenden'
+      drag: 'Zum Neuanordnen ziehen'
+      fit_to_layout: 'Slider an die Breite des Hauptlayouts anpassen'
+      fit_to_layout_help: 'Wenn aktiviert ist, erstreckt sich der Slider genau über die Breite des Hauptinhaltsbereichs bei Themen oder Diskussionslisten'
       height: Höhe
       height_help: 'Feste Höhe für diesen Bildschirmtyp'
       hide_on_tag_pages: 'Slider auf Themenseiten verbergen'
+      hide_on_tag_pages_help: 'Auf Themenseiten den Standard-Themen-Hero von Flarum anstelle des Sliders anzeigen'
+      image_placeholder: Bild-URL
+      link_placeholder: Link-URL
+      new_tab: 'In neuem Tab öffnen'
       padding: Außenabstand
       padding_help: 'Abstand um den Sliderblock'
       radius: Kantenradius
@@ -51,3 +60,6 @@ forumaker-magicslider:
       section_desktop: Desktop
       section_mobile: Mobil
       section_slides: Slides
+      upload: 'Bild hochladen'
+      upload_error: 'Bild konnte nicht hochgeladen werden'
+      uploading: 'Wird hochgeladen...'
