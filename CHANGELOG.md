@@ -17,7 +17,9 @@ CHANGELOG
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`flarum/mentions`](https://github.com/flarum/mentions)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`forumaker/magicslider`](https://github.com/forumaker/magicslider)
 * [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
 
 
