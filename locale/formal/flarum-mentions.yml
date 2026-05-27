@@ -40,7 +40,7 @@ flarum-mentions:
     notifications:
       group_mentioned_text: '{username} hat eine Gruppe erwähnt, in der Sie Mitglied sind'
       others_text: '=> core.ref.some_others'
-      post_mentioned_text: '{username} {count, plural, one {hat} other {haben}} auf Ihren Beitrag geantwortet'
+      post_mentioned_text: '{username} hat auf Ihren Beitrag geantwortet'
       user_mentioned_text: '{username} hat Sie erwähnt'
     post:
       mentioned_by_more_text: '{count} weitere Antworten.'
