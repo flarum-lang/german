@@ -13,12 +13,14 @@ ernestdefoe-aurora:
       gradient_start: 'Primärfarbverlauf – Startfarbe'
   forum:
     palette:
+      apply: 'Palette {palette} anwenden'
       aurora: Aurora
       button_label: 'Farbpalette auswählen'
       ember: Glut
       forest: Wald
       nebula: Nebel
       ocean: Ozean
+      palette: Palette
       sunset: Sonnenuntergang
       title: Farbpalette
     widgets:
