@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`ernestdefoe/aurora`](https://github.com/ernestdefoe/aurora)
 * [`ernestdefoe/respawn`](https://github.com/ernestdefoe/respawn)
+* [`ernestdefoe/seo`](https://github.com/ernestdefoe/seo)
 * [`ernestdefoe/theme-toggle`](https://github.com/ernestdefoe/theme-toggle)
 * [`forumaker/steam-oauth`](https://github.com/forumaker/Steam-Oauth)
 * [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer)
@@ -18,9 +19,15 @@ CHANGELOG
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`ernestdefoe/cross-references`](https://github.com/ernestdefoe/cross-references)
 * [`flarum/mentions`](https://github.com/flarum/mentions)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`forumaker/magicslider`](https://github.com/forumaker/magicslider)
+* [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget)
+* [`linkrobins/markdown-widget`](https://github.com/linkrobins/markdown-widget)
+* [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
+* [`ramon/stickers`](https://github.com/ram0ng1/stickers)
 * [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
 
 
