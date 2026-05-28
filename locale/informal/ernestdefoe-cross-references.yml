@@ -3,6 +3,12 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ernestdefoe-cross-references:
+  admin:
+    settings:
+      create_backlinks_help: 'Wenn ein Beitrag auf eine andere Diskussion verweist, füge im Ziel-Thread einen kurzen Systembeitrag ein, der den Verweis anzeigt. Deaktiviere diese Funktion für Foren, in denen ruhige Ziel-Threads bevorzugt werden.'
+      create_backlinks_label: 'Backlink-Beiträge zu Veranstaltungen in den entsprechenden Diskussionen erstellen'
+      notify_author_help: 'Sende eine Benachrichtigung innerhalb der App an den Verfasser der genannten Diskussion. Der Verfasser wird nicht über eigene Beiträge benachrichtigt.'
+      notify_author_label: 'Den Verfasser der betreffenden Diskussion benachrichtigen'
   forum:
     event_post:
       post_specific: ' (bestimmter Beitrag)'
@@ -11,6 +17,7 @@ ernestdefoe-cross-references:
       text: 'Hat deine Diskussion von {discussion} referenziert'
     post_number:
       copied: '{ref} in die Zwischenablage kopiert.'
+      copy_failed: 'Konnte nicht kopiert werden. Die Referenz lautet {ref}.'
       tooltip: 'Beitrag # — Zum Kopieren des Querverweises hier klicken ({ref})'
     sidebar:
       by_user: 'von {username}'

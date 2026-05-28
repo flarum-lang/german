@@ -5,9 +5,10 @@
 linkrobins-html-widget:
   admin:
     settings:
-      body_help: 'Roh-HTML wird unverändert angezeigt. Sei vorsichtig und füge nur HTML-Code ein, dem du vertraust.'
+      body_help: 'Roh-HTML, das vor der Anzeige bereinigt wird – Skript-Tags, Attribute für Ereignisbehandler, „javascript:“-URLs und unsichere Elemente wie iFrames werden entfernt.'
       body_label: HTML-Body
       icon_help: 'Die FontAwesome-Klasse, die neben dem Titel angezeigt wird (z. B. fas fa-bullhorn). Für kein Symbol bitte leer lassen.'
       icon_label: Symbolklasse
       title_help: 'Optional. Wird oberhalb des Texts angezeigt. Für keine Kopfzeile leer lassen.'
       title_label: Titel
+      title_placeholder: 'Willkommen in unserer Community!'

@@ -61,6 +61,7 @@ walsgit_discussion_cards:
       tabletCardWidth: 'Die Breite der Hauptkarten auf Tablets muss ein Wert zwischen 10 und 100 sein'
       tagImageNoTagId: 'Es wurde keine tag-ID angegeben!'
       tagImageUnsupportedMethod: 'Nicht unterstützte Methode ({method})'
+      tagSettingsNoTagId: 'Es wurde keine tag-ID angegeben!'
       useListCards: 'Wert muss null, 0 oder 1 sein'
     settings:
       general:
@@ -90,6 +91,8 @@ walsgit_discussion_cards:
         onIndexPage_label: 'Aktiviere Karten auf der Indexseite'
         otherOptions_info: 'Für die folgenden Optionen müssen weitere Erweiterungen installiert und aktiviert werden, damit sie funktionieren. <strong>WICHTIG: Bitte lies <u>alle</u> Informationen zu den einzelnen Optionen und führe die erforderlichen Schritte durch, bevor du diese aktivierst</strong>.'
         otherOptions_title: 'Optionen erfordern andere Erweiterungen'
+        otherOptions_warningLabel: 'Warnung: Erweiterungen sind nicht mit Flarum V2 kompatibel'
+        otherOptions_warningText: 'Die meisten der folgenden Erweiterungen wurden noch nicht für Flarum 2.x portiert, sodass sie mit Discussion Cards nicht funktionieren. Zum Zeitpunkt dieser Version von Discussion Cards wurde nur <strong>fof/discussion-views</strong> für Flarum 2.x portiert und <em>wird von dieser Version von Discussion Cards unterstützt</em>. Bei den anderen Erweiterungen solltest du, selbst wenn eine 2.x-kompatible Version erscheint, auf zukünftige Releases von Discussion Cards warten, um deren vollständige Unterstützung zu überprüfen, bevor du die unten aufgeführten Optionen aktivierst. Diese Meldung wird entsprechend angepasst, sobald dies geschieht, und <em>dieser Hinweis verschwindet, sobald alle Erweiterungen von Drittanbietern auf Flarum 2.x portiert wurden und von Discussion Cards</em> vollständig unterstützt werden. Beachte, dass die Unterstützung für einige davon eingestellt werden könnte, wenn sie nicht auf Flarum 2.x portiert werden oder keine Alternative existiert.'
         previewText_help: 'Wenn aktiviert, wird der Anfang der ersten Nachricht als Vorschau auf der Karte angezeigt.'
         previewText_label: Vorschautext
         primaryCardOptions_info: 'Lege die Optionen für die Hauptkarten fest (größere Karten oben auf jeder Seite unter Verwendung von Diskussionskarten).'
@@ -117,6 +120,7 @@ walsgit_discussion_cards:
         showViews_title_start: 'Entweder mit '
         tabletCardWidth_help: 'Lege die Breite (in %) der Hauptkarten auf Tablets fest. (zwischen 10 und 100)'
         tabletCardWidth_label: 'Breite der Hauptkarten auf Tablets'
+        tempExtension_Message: '{icon} Diese Erweiterung wird von Discussion Cards noch nicht vollständig unterstützt (bitte warte auf zukünftige Versionen von Discussion Cards)'
         useBlogImages_help: 'Wenn diese Option aktiviert ist, wird das Bild der Karten für jeden Blogbeitrag wie folgt festgelegt: zunächst das Titelbild des Blogbeitrags; falls kein Titelbild vorhanden ist, das erste gefundene Bild im Inhalt des Blogs; falls kein solches Bild vorhanden ist, das Standardbild der Blog-Erweiterung; falls kein solches Bild vorhanden ist, das Standardbild für Tags der Diskussionskarten; falls kein solches Bild vorhanden ist, das Hauptstandardbild der Diskussionskarten. Beachte, dass benutzerdefinierte Einstellungen für Themen, die als Blog-Themen verwendet werden, natürlich ignoriert werden, wenn du in den Einstellungen der Flarum-Blog-Erweiterung die Umleitung von Blog-Themen ausgewählt hast.'
         useBlogImages_label: 'Standard- und hervorgehobene Bilder des Blogs verwenden'
         useBlogSummary_help: 'Wenn diese Option und der Vorschautext aktiviert sind, wird auf den Karten für Blogbeiträge der Anfang der Zusammenfassung des Blogbeitrags als Vorschautext angezeigt, anstatt den Anfang des eigentlichen Textes.'

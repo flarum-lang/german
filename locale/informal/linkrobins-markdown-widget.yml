@@ -5,9 +5,10 @@
 linkrobins-markdown-widget:
   admin:
     settings:
-      body_help: 'Standard-Markdown (GitHub-Variante). Überschriften, Listen, Links, Code, Tabellen und Inline-HTML werden unterstützt. Inline-HTML wird unverändert dargestellt, füge daher nur Inhalte ein, denen du vertraust.'
+      body_help: 'Standard-Markdown (GitHub-Variante). Überschriften, Listen, Links, Code und Tabellen werden unterstützt. Inline-HTML ist zulässig, wird jedoch bereinigt – Skript-Tags, Ereignisbehandler und andere unsichere Markups werden vor der Anzeige entfernt.'
       body_label: Markdown-Body
       icon_help: 'Die FontAwesome-Klasse, die neben dem Titel angezeigt wird (z. B. fas fa-bullhorn). Für kein Symbol bitte leer lassen.'
       icon_label: Symbolklasse
       title_help: 'Optional. Wird oberhalb des Texts angezeigt. Für keine Kopfzeile leer lassen.'
       title_label: Titel
+      title_placeholder: 'Willkommen in unserer Community!'

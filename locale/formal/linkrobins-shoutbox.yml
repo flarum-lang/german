@@ -9,7 +9,9 @@ linkrobins-shoutbox:
       height_label: 'Höhe der Nachrichten (px)'
   forum:
     widget:
+      delete: Löschen
       delete_confirm: 'Diese Nachricht löschen?'
+      delete_error: 'Shout konnte nicht gelöscht werden. Bitte versuche es erneut.'
       load_error: 'Nachrichten konnten nicht geladen werden.'
       login_to_shout: 'Anmelden und mitreden!'
       placeholder: 'Sag etwas...'

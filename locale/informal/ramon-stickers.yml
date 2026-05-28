@@ -17,10 +17,14 @@ ramon-stickers:
       cancel_select_button: Abbrechen
       delete_selected_button: 'Löschen ({count})'
       delete_selected_confirm: '{count} Sticker löschen? Dies kann nicht rückgängig gemacht werden.'
+      delete_selected_error: 'Einige Sticker konnten nicht gelöscht werden. Bitte versuche es erneut.'
       edit_sticker:
+        category_help: 'Nur Kleinbuchstaben, Zahlen und Unterstriche. Sonderzeichen werden automatisch bereinigt.'
         category_name_label: Kategoriename
         delete_sticker_button: 'Sticker löschen'
         delete_sticker_confirmation: 'Möchtest du diesen Sticker wirklich löschen?'
+        external_anim_notice_body: 'Animierte Sticker (.json / .tgs) müssen auf der Domain dieses Forums gehostet werden, damit sie angezeigt werden können. Dateien, die von einer externen URL geladen werden, werden für Besucher nicht animiert – lade die Datei hoch oder verwende stattdessen einen Pfad derselben Herkunft.'
+        external_anim_notice_title: 'Animierter Sticker unter einer externen URL'
         modal_title: 'Sticker hinzufügen'
         path_or_url_label: 'Pfad oder URL'
         save_error: 'Das Speichern des Stickers ist fehlgeschlagen. Bitte überprüfe deine Eingabe und versuche es erneut.'
@@ -29,6 +33,8 @@ ramon-stickers:
         sticker_title_label: Stickertitel
         submit_button: '=> core.ref.save_changes'
         text_to_replace_label: 'Zu ersetzender Text (z. B. :sticker:)'
+        tgs_notice_body: 'TGS-Dateien sind animierte Telegram-Sticker und unterliegen möglicherweise Urheberrechts- oder Verbreitungsbeschränkungen, die von ihren ursprünglichen Urhebern auferlegt wurden. Durch das Speichern dieses Stickers bestätigst du, dass du berechtigt bist, diesen Inhalt zu nutzen und zu verbreiten, und übernimmst die volle rechtliche Verantwortung dafür.'
+        tgs_notice_title: 'Lizenzhinweis – TGS-Datei'
         upload_button: 'Datei auswählen'
         upload_help: 'Unterstützt animierte Lottie-JSON-Dateien (.json), Telegram-Sticker (.tgs), PNG, GIF, WebP und JPEG.'
         upload_label: 'Datei hochladen'
@@ -44,6 +50,7 @@ ramon-stickers:
       select_button: Auswählen
       sticker_list:
         load_more_button: '=> core.forum.post_stream.load_more_button'
+        move_category_error: 'Die Reihenfolge der Kategorien konnte nicht gespeichert werden. Bitte versuche es erneut.'
   forum:
     composer:
       sticker_tooltip: 'Sticker einfügen'

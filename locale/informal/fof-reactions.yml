@@ -61,6 +61,8 @@ fof-reactions:
     mod_item: 'Reaktionen anzeigen'
     modal:
       anonymous_count: '{count, plural, one {# anonymer Benutzer} other {# anonyme Benutzer}}'
+      confirm_remove_all_reaction_type: 'Möchtest du wirklich alle {reaction}-Reaktionen von diesem Beitrag entfernen? Diese Aktion kann nicht rückgängig gemacht werden.'
+      confirm_remove_user_reaction: 'Möchtest du die Reaktion {reaction} von {username} wirklich von diesem Beitrag entfernen? Diese Aktion kann nicht rückgängig gemacht werden.'
       load_more: 'Mehr laden'
       no_reactions: 'Noch keine Reaktionen'
       others_count: '+ {count, plural, one {# andere} other {# andere}}'
