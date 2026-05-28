@@ -27,6 +27,7 @@ CHANGELOG
 * [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget)
 * [`linkrobins/markdown-widget`](https://github.com/linkrobins/markdown-widget)
 * [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado)
 * [`ramon/stickers`](https://github.com/ram0ng1/stickers)
 * [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
 
