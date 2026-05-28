@@ -70,6 +70,8 @@ ramon-avocado:
       hero_decoration_icon_opacity_label: 'Deckkraft des Symbols (0–100)'
       hero_image_position_help: 'CSS-Wert für „background-position“, z. B. „center top“ oder „50% 20%“.'
       hero_image_position_label: 'Position des Titelbildes'
+      hero_image_tags_help: 'Wenn der Benutzer einem neuen Beitrag eines dieser Themen hinzufügt, wird im Editor ein optionales Feld zum Hochladen von Bildern angezeigt. Das hochgeladene Bild wird als Hintergrund für die Beitragsüberschrift und als erstes Bild in der Vorschau auf der Startseite angezeigt.'
+      hero_image_tags_label: 'Themen, die ein Hero-Bild erfordern'
       hide_links_for_guests_help: 'Verhindert, dass Gäste Links in Beiträgen anklicken können. Beim Anklicken eines Links wird stattdessen eine Aufforderung zum Anmelden oder Registrieren angezeigt.'
       hide_links_for_guests_label: 'Links für Gäste verbergen'
       loading_spinner_style_label: Spinner-Stil
@@ -141,15 +143,21 @@ ramon-avocado:
     actions:
       share: Teilen
     discussion:
+      hero_image_add: 'Bild hinzufügen'
+      hero_image_remove: 'Bild entfernen'
+      hero_image_remove_confirm: 'Soll das Titelbild aus dieser Diskussion entfernt werden?'
+      hero_image_replace: 'Bild ersetzen'
       participant_plural: Teilnehmer
       participant_singular: Teilnehmer
       post_plural: Beiträge
       post_singular: Beitrag
     discussions:
+      empty: 'Keine Diskussionen gefunden.'
       home: 'Zurück zur Startseite'
       load_more: 'Mehr laden'
       title: 'Alle Diskussionen'
     header:
+      back: Zurück
       back_home: 'Zurück zur Startseite'
       or: oder
       search: Suche
@@ -159,11 +167,24 @@ ramon-avocado:
       back_home: Startseite
       badge_following: Folgend
       badge_sticky: Angeheftet
+      badge_unread_tooltip: '{count} ungelesene Beiträge'
+      bypass_tag_requirements: 'Themenanforderung umgehen'
       categories_heading: Kategorien
+      choose_primary_tag_plural: '{count} Hauptthemen auswählen'
+      choose_primary_tag_singular: '1 Hauptthema auswählen'
+      choose_secondary_tag_plural: '{count} Unterthemen auswählen'
+      choose_secondary_tag_singular: '1 Unterthema auswählen'
       choose_tags: 'Themen wählen'
       composer_body_placeholder: 'Teile deine Meinung…'
       composer_close: Schließen
+      composer_edit: Bearbeiten
+      composer_hero_image_label: 'Titelbild (optional)'
+      composer_hero_image_picked: 'Bild ausgewählt'
+      composer_hero_image_remove: 'Bild entfernen'
+      composer_hero_image_upload_failed: 'Das Titelbild konnte nicht hochgeladen werden. Du kannst es auf der Diskussionsseite erneut versuchen.'
       composer_post: 'Diskussion veröffentlichen'
+      composer_preview: Vorschau
+      composer_preview_empty: 'Keine Vorschau verfügbar.'
       composer_submitting: 'Wird veröffentlicht…'
       composer_title_placeholder: Diskussionstitel…
       discussion_plural_card: '{count} Diskussionen'
@@ -206,6 +227,8 @@ ramon-avocado:
       login_to_view: 'Bitte melde dich an, um den Link anzuzeigen'
     link_cta:
       placeholder: 'Bitte melde dich an, um den Link anzuzeigen'
+    messages:
+      deleted_message: 'Nachricht gelöscht'
     post:
       op_badge: Verfasser
     post_cta:
@@ -214,8 +237,11 @@ ramon-avocado:
     search:
       clear: Löschen
       enter_search_term: 'Gib einen Suchbegriff ein, um Benutzer zu finden.'
+      filtered_by: 'Gefiltert nach'
       hero_sub: 'Diskussionen, Beiträge und Mitglieder suchen'
       hero_title: 'Wonach suchst du?'
+      no_discussions_filter: 'Es wurden keine Diskussionen gefunden, die diesen Filtern entsprechen.'
+      no_discussions_query: 'Es wurden keine Diskussionen zu „{q}“ gefunden.'
       no_posts_found: 'Keine Beiträge gefunden für „{q}“.'
       no_posts_match: 'Keine Beiträge entsprechen diesen Filtern.'
       no_users_found: 'Keine Benutzer gefunden für „{q}“.'
@@ -224,6 +250,8 @@ ramon-avocado:
       posts_filtered_by: 'Beiträge gefiltert nach'
       posts_for: 'Beiträge für'
       posts_title: Beitragssuche
+      results: Suchergebnisse
+      results_for: 'Ergebnisse für'
       search_button: Suchen
       sort_latest: Aktuellste
       sort_newest: Neueste
@@ -233,12 +261,18 @@ ramon-avocado:
       tab_discussions: Diskussionen
       tab_posts: Beiträge
       tab_users: Benutzer
+      tip: 'Tipp: Präfix '
+      tip_suffix: ' um nach Themen zu filtern'
       title: Suche
     tags:
       all_discussions: 'Alle Diskussionen'
       discussion_plural: Diskussionen
       discussion_singular: Diskussion
+      empty: 'In dieser Kategorie gibt es noch keine Diskussionen.'
       featured: Hervorgehoben
+      home: Start
+      load_more: 'Mehr laden'
+      not_found: 'Thema nicht gefunden.'
       other_tags_label: 'Andere Themen'
       title: Kategorien
     team:
@@ -251,3 +285,10 @@ ramon-avocado:
       no_bio: Community-Mitglied.
       posts: Beiträge
       title: 'Unser Team'
+    user:
+      discussions_empty: 'Noch keine Diskussionen.'
+      likes_empty: 'Es gibt noch keine Beiträge mit Likes.'
+      load_more: 'Mehr laden'
+      mentions_empty: 'Noch keine Erwähnungen.'
+      online: Online
+      posts_empty: 'Noch keine Beiträge.'
