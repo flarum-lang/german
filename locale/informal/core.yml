@@ -463,7 +463,7 @@ core:
     notification:
       default_title: Benachrichtigung
       footer:
-        main_text: 'Diese E-Mail wurde an {E-Mail-Adresse} gesendet, da du Benachrichtigungen vom Typ „{Typ}” auf [{Forumstitel}]({Forum-URL}) abonniert hast.'
+        main_text: 'Diese E-Mail wurde an {email} gesendet, da du Benachrichtigungen vom Typ „{type}” auf [{forumTitle}]({forumUrl}) abonniert hast.'
         main_text_plain: 'Diese E-Mail wurde an {email} gesendet, da du Benachrichtigungen vom Typ „{type}” auf {forumTitle} abonniert hast.'
         settings_text: 'Verwalte deine Benachrichtigungseinstellungen [hier]({settingsLink}).'
         settings_text_plain: 'Verwalte deine Benachrichtigungseinstellungen hier: {settingsLink}'
