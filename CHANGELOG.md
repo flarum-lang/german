@@ -5,6 +5,11 @@ CHANGELOG
 2.0.5 (XXXX-XX-XX)
 ------------------
 
+**Allgemeine Änderungen**:
+
+* Flarum-Core Übersetzungen aktualisiert.
+
+
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
 * [`ernestdefoe/aurora`](https://github.com/ernestdefoe/aurora)
