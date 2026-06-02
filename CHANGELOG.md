@@ -2,6 +2,34 @@ CHANGELOG
 =========
 
 
+1.25.18 (2026-06-02)
+--------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`foskym/nickname-group-formatter`](https://github.com/FoskyM/flarum-nickname-group-formatter)
+* [`litalino/flarum-top-bar`](https://github.com/Litalino/flarum-top-bar)
+* [`matteociaroni/flarum-old-content`](https://github.com/matteociaroni/flarum-old-content)
+* [`mattoid/flarum-ext-store-auto-check-in`](https://github.com/Mattoids/flarum-ext-store-auto-check-in)
+* [`mattoid/flarum-ext-store-check-in`](https://github.com/Mattoids/flarum-ext-store-check-in)
+* [`xypp/store-group`](https://github.com/zxy19/flarum-store-group)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`forumaker/magicslider`](https://github.com/forumaker/magicslider)
+* [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff)
+* [`huseyinfiliz/guest`](https://github.com/huseyinfiliz/guest)
+* [`serakoi/flarumstaffbadge`](https://github.com/ThatKoffe/flarumstaffbadge)
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
+* [`xrh0905/oauth-microsoft`](https://github.com/xrh0905/flarum-ext-oauth-microsoft)
+
+
+Alle Änderungen: [1.25.17...1.25.18](https://github.com/flarum-lang/german/compare/1.25.17...1.25.18).
+
+
 1.25.17 (2026-05-19)
 --------------------
 
