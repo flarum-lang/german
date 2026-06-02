@@ -2,6 +2,20 @@ CHANGELOG
 =========
 
 
+2.0.6 (XXXX-XX-XX)
+------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer)
+* [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
+* [`tryhackx/flarum-magnet-link`](https://github.com/TryHackX/flarum-magnet-link)
+
+
+Alle Änderungen: [2.0.5...2.0.6](https://github.com/flarum-lang/german/compare/2.0.5...2.0.6).
+
+
 2.0.5 (2026-06-02)
 ------------------
 
