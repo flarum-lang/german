@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.25.19 (XXXX-XX-XX)
+--------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`startracex/flarum-dark`](https://github.com/startracex/flarum-dark)
+
+
+Alle Änderungen: [1.25.18...1.25.19](https://github.com/flarum-lang/german/compare/1.25.18...1.25.19).
+
+
 1.25.18 (2026-06-02)
 --------------------
 
