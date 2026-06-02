@@ -5,6 +5,11 @@ CHANGELOG
 2.0.6 (XXXX-XX-XX)
 ------------------
 
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`datlechin/flarum-passkey`](https://github.com/datlechin/flarum-passkey)
+
+
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
