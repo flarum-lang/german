@@ -10,13 +10,21 @@ datlechin-passkey:
     settings:
       attestation_direct: Direkt
       attestation_indirect: Indirekt
+      attestation_label: 'Übertragung der Bescheinigung'
+      attestation_none: 'Keine (empfohlen)'
       description: 'Richte die Passkey-Authentifizierung für dieses Forum ein.'
+      related_origins_help: 'Zusätzliche Ursprungsdomänen, die zur Durchführung von Passkey-Zeremonien zugelassen sind. Wird in Verbindung mit dem W3C-Dokument zu verwandten Ursprungsdomänen unter /.well-known/webauthn verwendet.'
+      related_origins_label: 'Verwandte Ursprungsdomänen (eine pro Zeile)'
+      rp_id_help: 'Der DNS-Name, der den Gültigkeitsbereich eines Passkeys festlegt. Lasse das Feld leer, damit der Host der Anfrage automatisch erkannt wird. Durch eine Änderung werden alle bestehenden Passkeys ungültig.'
       rp_id_label: 'ID der vertrauenden Partei'
       rp_name_help: 'Der Name, der den Benutzern in der Passkey-Eingabeaufforderung des Browsers angezeigt wird. Standardmäßig ist dies der Titel des Forums.'
       rp_name_label: 'Anzeigename der vertrauenden Partei'
       throttle_label: 'Anmeldeversuche pro Minute je IP'
       title: Passkey
+      user_verification_discouraged: 'Nicht empfohlen (nur Touch, weniger sicher)'
       user_verification_label: Benutzerverifikation
+      user_verification_preferred: 'Bevorzugt (fragt danach, wenn das Gerät dies unterstützt)'
+      user_verification_required: 'Erforderlich (immer nach biometrischen Daten oder PIN fragen)'
   email:
     backup_state:
       body: "Hallo {username},\n\nDein Passkey „{device}“ auf {forum} hat nun den Status {state}.\n\nWenn du dies selbst ausgelöst hast (beispielsweise durch die Anmeldung bei iCloud Keychain oder einem Passwort-Manager auf einem neuen Gerät), kannst du diese Nachricht ignorieren. Falls nicht, melde dich an und überprüfe den Reiter „Sicherheit“. Der Passkey wurde möglicherweise auf ein anderes Gerät kopiert.\n\n{forum}\n"
