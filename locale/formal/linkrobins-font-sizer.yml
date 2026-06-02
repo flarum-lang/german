@@ -13,6 +13,7 @@ linkrobins-font-sizer:
       ui_large: Groß
       ui_size_help: 'Legt die siteweite Standardeinstellung für Navigation, Schaltflächen und andere Elemente der Benutzeroberfläche fest. Benutzer können diese Einstellung über die Schaltfläche „Schriftgröße“ in der Kopfzeile überschreiben.'
       ui_size_label: 'Standardgröße für Benutzeroberfläche'
+      ui_toggle_label: 'Größere Benutzeroberfläche verwenden'
   forum:
     header_button:
       label: Schriftgröße
@@ -21,7 +22,8 @@ linkrobins-font-sizer:
       close_button_label: Schließen
       interface_size_heading: 'Größe der Benutzeroberflächenelemente'
       interface_size_hint: 'Betrifft die Navigation, Schaltflächen und andere Elemente der Benutzeroberfläche.'
-      reading_text_heading: Lesetext
+      interface_size_label: 'Größere Benutzeroberfläche verwenden'
+      reading_text_heading: 'Schriftgröße des Lesetexts'
       reading_text_hint: 'Betrifft den Textkörper von Beiträgen und die Titel von Diskussionen.'
       reading_text_value: '{percent}%'
       reset_button: 'Auf Standardeinstellungen zurücksetzen'

@@ -4,10 +4,15 @@
 
 linkrobins-shoutbox:
   admin:
+    permissions:
+      moderate: 'Shouts anderer Benutzer löschen'
+      shout: 'Shouts veröffentlichen'
     settings:
       height_help: 'Höhe des Nachrichtenbereichs in Pixeln. Der Standardwert beträgt 320.'
       height_label: 'Höhe der Nachrichten (px)'
   forum:
+    nav: Shoutbox
+    page_title: Shoutbox
     widget:
       delete: Löschen
       delete_confirm: 'Diese Nachricht löschen?'
@@ -15,5 +20,6 @@ linkrobins-shoutbox:
       load_error: 'Nachrichten konnten nicht geladen werden.'
       login_to_shout: 'Anmelden und mitreden!'
       placeholder: 'Sag etwas...'
+      rate_limited: 'Du sendest Nachrichten zu schnell hintereinander. Bitte warte einen Moment.'
       send: Senden
       title: Shoutbox

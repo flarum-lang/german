@@ -71,11 +71,11 @@ fof-webhooks:
             renamed: '=> fof-webhooks.ref.renamed'
             title: 'Flarum Nutzer'
       debug_help: 'Fügt der Flarum-Protokolldatei zusätzliche Protokolle hinzu, um Probleme mit Webhooks und/oder Ereignissen zu beheben, die nicht richtig funktionieren.'
-      debug_label: Debuggen
+      debug_label: 'Debug-Details hinzufügen'
       help:
         disabled: 'Dieser Webhook ist deaktiviert, weil keine Ereignisse für ihn aktiviert sind.'
         general: 'Hier kannst du Webhooks in deinem Forum hinzufügen, bearbeiten und entfernen.'
-        tags: 'Du kannst Webhooks auf bestimmte Tags beschränken. Wenn du bestimmte Tags auswählst, wird der Webhook nur ausgelöst, wenn die Veranstaltung auf einer Ressource ausgelöst wird, die eines der ausgewählten Tags hat.'
+        tags: 'Du kannst Webhooks auf bestimmte Themen beschränken. Wenn du bestimmte Themen auswählst, wird der Webhook nur ausgelöst, wenn das Ereignis auf einer Ressource ausgelöst wird, die eines der ausgewählten Thema hat.'
         url: 'Der Endpunkt des Webhooks, der ausgeführt werden soll'
       item:
         create_button: Erstellen

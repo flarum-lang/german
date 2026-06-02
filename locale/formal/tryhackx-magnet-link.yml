@@ -4,6 +4,12 @@
 
 tryhackx-magnet-link:
   admin:
+    reparse:
+      button: 'Ältere Magnet-Links neu analysieren'
+      error: 'Das erneute Parsen der Magnet-Links ist fehlgeschlagen. Überprüfe die Serverprotokolle.'
+      help: 'Magnet-Links, die vor der Aktivierung dieser Erweiterung gepostet wurden, werden als Klartext gespeichert, sodass sie in Beiträgen nicht dargestellt werden und auch nicht in Tooltips erscheinen. Führe diesen Befehl einmal aus (nach der Aktivierung der Erweiterung oder dem Importieren alter Inhalte), um sie neu zu parsen. Verwende bei sehr großen Foren stattdessen die Befehlszeile: php flarum magnet:reparse'
+      label: 'Magnet Rückfüllung'
+      success: '{count} Beiträge neu analysiert.'
     settings:
       activated_only_help: 'Nur Benutzer mit einer bestätigten E-Mail-Adresse können Magnet-Links anzeigen. Diese Einstellung gilt nur für angemeldete Nutzer.'
       activated_only_label: 'Nur aktivierte Benutzer'
@@ -40,6 +46,8 @@ tryhackx-magnet-link:
       tooltip_enabled_label: 'Tooltip für Diskussion aktivieren'
       tooltip_max_magnets_help: 'Maximale Anzahl der Magnet-Links, die im Tooltip der Diskussion angezeigt werden. Setze den Wert auf 0, um die Anzahl nicht zu begrenzen.'
       tooltip_max_magnets_label: 'Maximale Anzahl von Magnets im Tooltip'
+      tooltip_show_permission_errors_help: 'Wenn ein Gast oder ein Nutzer ohne Berechtigung mit der Maus über eine Diskussion mit Magnet-Links fährt, wird im Tooltip eine eindeutige Meldung angezeigt („Du musst angemeldet sein…“), anstatt nur kurz den Ladezustand anzuzeigen und dann zu verschwinden. Dies entspricht dem Verhalten innerhalb von Beiträgen. Standardmäßig aktiviert.'
+      tooltip_show_permission_errors_label: 'Berechtigungsnachricht im Tooltip anzeigen'
       tracker_timeout_help: 'Maximale Wartezeit auf eine Antwort des Trackers. Auf 0 setzen, um die Standardeinstellung (2 Sekunden) zu verwenden.'
       tracker_timeout_label: 'Zeitüberschreitung für Tracker (Sekunden)'
     support:
