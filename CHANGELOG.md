@@ -13,6 +13,7 @@ CHANGELOG
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`flarum/flags`](https://github.com/flarum/flags)
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
 * [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer)
