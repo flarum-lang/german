@@ -5,11 +5,21 @@
 linkrobins-referral:
   admin:
     campaign:
+      col_code: Code
+      col_expiry: 'Läuft ab'
+      col_label: Bezeichnung
+      col_uses: Verwendungen
+      confirm_delete: 'Diesen Aktionscode löschen? Wer ihn verwendet, kann sich damit nicht mehr registrieren.'
+      create: 'Code erstellen'
+      delete: Löschen
+      expired: abgelaufen
       expiry_label: 'Ablaufdatum (optional)'
       help: 'Einzelne Einladungscodes, die nicht an einen bestimmten Benutzer gebunden sind – ideal für Social Media oder Marketingaktionen. Sie werden keinem Werber gutgeschrieben, ihre Nutzung wird jedoch gezählt.'
-      label_label: Beschriftung
+      label_label: Bezeichnung
       label_placeholder: 'z. B. Facebook-Sommeraktion'
-      title: Kampagnencodes
+      no_expiry: Nie
+      none: 'Es gibt noch keine Aktionscodes.'
+      title: Aktionscodes
     eligibility:
       groups_help: 'Wenn Gruppen ausgewählt sind, erhalten nur die Mitglieder dieser Gruppen einen persönlichen Einladungscode. Lasse alle Kästchen deaktiviert, um alle Gruppen zuzulassen.'
       groups_label: 'Erlaubte Gruppen'
@@ -25,6 +35,8 @@ linkrobins-referral:
       require_help: 'Wenn aktiviert, müssen Benutzer einen gültigen Einladungscode eingeben, um die Registrierung abzuschließen.'
       require_label: 'Einladungscode für die Registrierung erforderlich machen'
       title: Allgemein
+  api:
+    invalid_expiry: 'Ungültiges Ablaufdatum.'
   forum:
     notification:
       user_referred: '{displayName} hat sich mit deinem Einladungscode registriert!'
