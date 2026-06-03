@@ -156,7 +156,7 @@ flarum-extension-manager:
     settings:
       access_warning: 'Bitte seien sie vorsichtig, wem sie Zugang zum Admin-Bereich geben, der Erweiterungs-Manager könnte von bösartigen Akteuren missbraucht werden, um Pakete zu installieren, die zu Sicherheitslücken führen können.'
       debug_mode_warning: 'Sie sind im Debug-Modus, der Erweiterungs-Manager kann lokale Entwicklungs-Pakete nicht richtig installieren und aktualisieren. Bitte benutzen sie für solche Zwecke stattdessen die Kommandozeilen-Schnittstelle.'
-      queue_jobs: 'Operationen im Hintergrund ausführen'
+      queue_jobs: 'Operationen in der Hintergrundwarteschlange ausführen'
       queue_jobs_help: "Sie können sich über eine <basic_impl_link>einfache Warteschlangen-Implementierung</basic_impl_link> oder eine <adv_impl_link>fortgeschrittenere</adv_impl_link> Variante informieren. Stellen Sie sicher, dass die für die Warteschlange verwendete PHP-Version {php_version} ist. Stellen Sie ausserdem sicher, dass die <folder_perms_link>Ordnerberechtigungen</folder_perms_link> korrekt konfiguriert sind.\n"
       task_retention_days: 'Aufbewahrungstage für Aufgaben'
       task_retention_days_help: "Die Anzahl der Tage, die abgeschlossene Aufgaben in der Datenbank aufbewahrt werden. Aufgaben, die älter als diese sind, werden gelöscht. Setze auf 0, um alle Aufgaben zu behalten.\n"
