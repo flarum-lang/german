@@ -13,9 +13,13 @@ CHANGELOG
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`flarum/flags`](https://github.com/flarum/flags)
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
 * [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer)
+* [`linkrobins/referral`](https://github.com/linkrobins/referral)
 * [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
+* [`peopleinside/fla-powcaptcha`](https://github.com/PeopleInside/fla-powcaptcha)
+* [`ralkage/flarum-ext-profile-messages`](https://github.com/Ralkage/flarum-ext-profile-messages)
 * [`tryhackx/flarum-magnet-link`](https://github.com/TryHackX/flarum-magnet-link)
 
 
