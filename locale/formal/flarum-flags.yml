@@ -18,6 +18,7 @@ flarum-flags:
       reason_details_placeholder: 'Zusätzliche Informationen (optional)'
       reason_inappropriate_label: Unangebracht
       reason_inappropriate_text: 'Dieser Beitrag ist anstößig, beleidigend oder verstößt gegen die <a>Community-Richtlinien</a>.'
+      reason_inappropriate_text_no_guidelines: 'Dieser Beitrag ist anstößig oder beleidigend.'
       reason_missing_message: 'Bitte geben Sie einen Grund an.'
       reason_off_topic_label: 'Nicht zur Diskussion passend'
       reason_off_topic_text: 'Dieser Beitrag hat keinen Bezug zu der Diskussion und sollte in eine andere Diskussion verschoben werden.'

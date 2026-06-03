@@ -18,11 +18,15 @@ antoinefr-money:
       autoremove: 'Automatisches Aktualisieren von Geld'
       cascaderemove: 'Geld entfernen, wenn eine Diskussion gelöscht wurde'
       helpextensionlikes: 'Erfordert die <code>flarum/likes</code> Erweiterung'
+      helpmoneyname: 'Verwende <code>[money]</code>, um den Wert einzufügen'
+      helppostminimumlength: 'Gib 0 ein, um diese Funktion zu deaktivieren'
       ignore_notifying_users: 'Beim Zählen der Wörter in Antworten nur den Inhaltsbereich auszählen'
       moneyfordiscussion: 'Geld gegeben für eine neue Diskussion'
       moneyforlike: 'Gegebenes Geld, wenn ein Beitrag geliked wird'
       moneyforpost: 'Geld gegeben für einen neuen Beitrag'
+      moneyname: 'Name des Geldes'
       noshowzero: 'Nicht zeigen, wenn der Betrag Null ist'
+      postminimumlength: 'Mindestlänge des Beitrags, um Geld zu erhalten'
       title: Einstellungen
   forum:
     modal:

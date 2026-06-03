@@ -4,11 +4,14 @@
 
 linkrobins-referral:
   admin:
+    eligibility:
+      title: 'Anspruch auf persönliche Einladungscodes'
     settings:
       disabled: Deaktiviert
       enabled: Aktiviert
       require_help: 'Wenn aktiviert, müssen Benutzer einen gültigen Einladungscode eingeben, um die Registrierung abzuschließen.'
       require_label: 'Einladungscode für die Registrierung erforderlich machen'
+      title: Allgemein
   forum:
     notification:
       user_referred: '{displayName} hat sich mit deinem Einladungscode registriert!'
@@ -18,12 +21,16 @@ linkrobins-referral:
       invite_code_help: 'Teile deinen Code oder deinen Empfehlungslink. Bei jedem, der deinen Link folgt, wird der Code bei der Registrierung automatisch vorausgefüllt.'
       invite_code_title: 'Dein Einladungscode'
       no_referrals: 'Noch keine Weiterempfehlungen. Teile deinen Einladungscode, um loszulegen!'
+      not_eligible: 'Du hast noch keinen persönlichen Einladungscode freigeschaltet. Mach weiter mit und schau später noch einmal vorbei.'
       tab: Weiterempfehlungen
       total_referrals: 'Weiterempfehlungen insgesamt'
     sign_up:
       invite_code_label: Einladungscode
       invite_code_label_required: 'Einladungscode *'
-      invite_code_placeholder: 'z.B. K7XM2QNP'
+      invite_code_placeholder: 'z. B. K7XM2QNP'
+    user_card:
+      referrals_plural: '{count} Empfehlungen'
+      referrals_singular: '{count} Empfehlung'
   validation:
     invalid: 'Ungültiger Einladungscode.'
     required: 'Für die Registrierung ist ein Einladungscode erforderlich.'
