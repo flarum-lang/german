@@ -4,8 +4,21 @@
 
 linkrobins-referral:
   admin:
+    campaign:
+      expiry_label: 'Ablaufdatum (optional)'
+      help: 'Einzelne Einladungscodes, die nicht an einen bestimmten Benutzer gebunden sind – ideal für Social Media oder Marketingaktionen. Sie werden keinem Werber gutgeschrieben, ihre Nutzung wird jedoch gezählt.'
+      label_label: Beschriftung
+      label_placeholder: 'z. B. Facebook-Sommeraktion'
+      title: Kampagnencodes
     eligibility:
+      groups_help: 'Wenn Gruppen ausgewählt sind, erhalten nur die Mitglieder dieser Gruppen einen persönlichen Einladungscode. Lasse alle Kästchen deaktiviert, um alle Gruppen zuzulassen.'
+      groups_label: 'Erlaubte Gruppen'
+      help: 'Lege fest, wer einen persönlichen Einladungscode erhält. Administratoren und Benutzer auf der Whitelist sind immer berechtigt. Lasse eine Regel leer oder setze sie auf 0, um sie zu überspringen; wenn mehrere Regeln festgelegt sind, muss ein Benutzer alle erfüllen.'
+      min_age_label: 'Mindestalter des Kontos (in Tagen)'
+      min_posts_label: 'Mindestanzahl an Beiträgen'
       title: 'Anspruch auf persönliche Einladungscodes'
+      whitelist_help: 'Benutzernamen, die unabhängig von den oben genannten Regeln immer einen Einladungscode erhalten. Trenne die Namen durch Kommas, Leerzeichen oder Zeilenumbrüche.'
+      whitelist_label: Whitelist
     settings:
       disabled: Deaktiviert
       enabled: Aktiviert
