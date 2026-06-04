@@ -21,6 +21,7 @@ CHANGELOG
 * [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
 * [`peopleinside/fla-powcaptcha`](https://github.com/PeopleInside/fla-powcaptcha)
 * [`ralkage/flarum-ext-profile-messages`](https://github.com/Ralkage/flarum-ext-profile-messages)
+* [`tryhackx/flarum-homepage-blocks`](https://github.com/TryHackX/flarum-homepage-blocks)
 * [`tryhackx/flarum-magnet-link`](https://github.com/TryHackX/flarum-magnet-link)
 
 
