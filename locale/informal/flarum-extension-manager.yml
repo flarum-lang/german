@@ -157,9 +157,9 @@ flarum-extension-manager:
       access_warning: 'Bitte sei vorsichtig, wem du Zugang zum Admin-Bereich gibst. Der Erweiterungs-Manager könnte von bösartigen Akteuren missbraucht werden, um Pakete zu installieren, die zu Sicherheitslücken führen können.'
       debug_mode_warning: 'Du bist im Debug-Modus, der Erweiterungs-Manager kann lokale Entwicklungs-Pakete nicht richtig installieren und aktualisieren. Bitte benutze für solche Zwecke stattdessen die Kommandozeile.'
       queue_jobs: 'Operationen in der Hintergrundwarteschlange ausführen'
-      queue_jobs_help: "Du kannst dich über eine <basic_impl_link>grundlegende Warteschlangenimplementierung</basic_impl_link> oder eine <adv_impl_link>fortgeschrittenere</adv_impl_link> Implementierung informieren. Stelle sicher, dass die für die Warteschlange verwendete PHP-Version {php_version} ist. Stelle auch sicher, dass die <folder_perms_link>Ordnerberechtigungen</folder_perms_link> korrekt konfiguriert sind.\n"
+      queue_jobs_help: "Du kannst dich über eine <basic_impl_link>einfache Warteschlange</basic_impl_link> oder eine <adv_impl_link>fortgeschrittenere</adv_impl_link> Implementierung informieren. Stelle sicher, dass die für die Warteschlange verwendete PHP-Version {php_version} ist. Prüfe auch, dass die <folder_perms_link>Ordnerberechtigungen</folder_perms_link> korrekt konfiguriert sind.\n"
       task_retention_days: 'Aufbewahrungstage für Aufgaben'
-      task_retention_days_help: "Die Anzahl der Tage, die abgeschlossene Aufgaben in der Datenbank aufbewahrt werden. Aufgaben, die älter als diese sind, werden gelöscht. Setze auf 0, um alle Aufgaben zu behalten.\n"
+      task_retention_days_help: "Die Anzahl der Tage, die abgeschlossene Aufgaben in der Datenbank aufbewahrt werden. Ältere Aufgaben werden gelöscht. Setze auf 0, um alle zu behalten.\n"
       title: '=> core.ref.settings'
     update_successful: 'Flarum erfolgreich aktualisiert.'
     updater:

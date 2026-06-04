@@ -122,8 +122,8 @@ tryhackx-homepage-blocks:
     sort_avg_rating: 'Durchschnittliche Bewertung'
     sort_created: Erstellungsdatum
     sort_desc: Absteigend
-    sort_magnet_max: 'Maximale Magnetklicks'
-    sort_magnet_sum: 'Magnetklicks insgesamt'
+    sort_magnet_max: 'Magnetklicks (Top-Magnet)'
+    sort_magnet_sum: 'Magnetklicks (insgesamt)'
     sort_rating_count: 'Anzahl der Bewertungen'
     sort_recently_clicked: 'Kürzlich geklickt'
     sort_recently_rated: 'Kürzlich bewertet'
