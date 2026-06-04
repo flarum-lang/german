@@ -16,6 +16,7 @@ CHANGELOG
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`flarum/flags`](https://github.com/flarum/flags)
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`linkrobins/blog`](https://github.com/linkrobins/blog)
 * [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer)
 * [`linkrobins/referral`](https://github.com/linkrobins/referral)
 * [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
