@@ -6,18 +6,90 @@ linkrobins-blog:
   admin:
     basics:
       home_label: 'Blog (Link Robins)'
+    categories:
+      action_delete: Löschen
+      action_edit: Bearbeiten
+      col_actions: Aktionen
+      col_name: Name
+      col_position: '#'
+      col_posts: Beiträge
+      col_slug: Slug
+      delete_confirm: 'Soll die Kategorie „{name}“ gelöscht werden?'
+      delete_confirm_with_posts_many: 'Soll die Kategorie „{name}“ gelöscht werden?\n\nDiese Kategorie enthält {count} Beiträge. Der Inhalt bleibt erhalten, die Zuordnung zur Kategorie geht jedoch verloren.'
+      delete_confirm_with_posts_one: 'Soll die Kategorie „{name}“ gelöscht werden?\n\nDiese Kategorie enthält 1 Beitrag. Der Inhalt bleibt erhalten, die Zuordnung zur Kategorie geht jedoch verloren.'
+      delete_failed: 'Kategorie konnte nicht gelöscht werden.'
+      empty: 'Es gibt noch keine Kategorien. Erstelle eine, um deine Blogartikel zu sortieren.'
+      fallback_name: 'Kategorie #{id}'
+      heading: 'Kategorien ({count})'
+      load_failed: 'Kategorie konnte nicht geladen werden.'
+      loading: 'Kategorien werden geladen…'
+      new_button: 'Neue Kategorie'
+      refresh_button: Aktualisieren
+    edit_category:
+      cancel_button: Abbrechen
+      color_label: Farbe
+      color_placeholder: '#7f7f7f'
+      create_button: 'Kategorie erstellen'
+      description_label: 'Beschreibung (optional)'
+      icon_help: 'z. B. fas fa-newspaper, far fa-comments, fab fa-github'
+      icon_label: 'Symbol (FontAwesome-Klasse)'
+      icon_placeholder: 'fas fa-folder'
+      name_label: Name
+      name_placeholder: 'z. B. Ankündigungen'
+      position_label: Position
+      save_button: 'Änderungen speichern'
+      saving: Speichern…
+      slug_label: Slug
+      slug_placeholder: 'automatisch aus dem Namen generiert'
+      title_create: 'Neue Kategorie'
+      title_edit: 'Kategorie bearbeiten'
+      unknown_error: 'Unbekannter Fehler.'
+    posts:
+      action_delete: Löschen
+      action_edit: Bearbeiten
+      action_view: Ansehen
+      col_actions: Aktionen
+      col_author: Autor
+      col_category: Kategorie
+      col_published: Veröffentlicht
+      col_status: Status
+      col_title: Titel
+      delete_confirm: '„{title}“ löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.'
+      delete_failed: 'Der Beitrag konnte nicht gelöscht werden.'
+      empty: 'Es gibt noch keine Beiträge. Klicke auf „Neuer Beitrag“, um deinen ersten zu verfassen.'
+      heading: 'Beiträge ({count})'
+      load_failed: 'Beiträge konnten nicht geladen werden.'
+      loading: 'Beiträge werden geladen…'
+      new_button: 'Neuer Beitrag'
+      status_draft: Entwurf
+      status_members: 'Nur für Mitglieder'
+      status_public: Öffentlich
+      status_published: Veröffentlicht
     settings:
       custom_logo_url_label: 'URL für benutzerdefiniertes Logo'
       header_mode_custom: 'URL für benutzerdefiniertes Bild'
+      header_mode_text: Text
       nav_icon_help: 'Font Awesome-Klasse für das Symbol des Blog-Links (z. B. fas fa-feather-alt, fas fa-book, fas fa-newspaper, fas fa-pencil-alt). Lasse das Feld leer, um die Standardeinstellung zu verwenden.'
       nav_icon_label: Navigationssymbol
       nav_label_help: 'Die Bezeichnung für den Blog-Link in der Forennavigation. Lasse das Feld leer, um die Standardbezeichnung („Blog“) zu verwenden.'
       nav_label_label: Navigationsbeschriftung
+      section_layout: Layout
+      section_nav: Navigation
       show_featured_help: 'Wenn aktiviert, wird der neueste Blogbeitrag in einer größeren Highlight-Karte oben auf der Übersichtsseite angezeigt.'
       show_featured_label: 'Hervorgehobenen Beitrag anzeigen'
       tagline_help: 'Optionaler einzeiliger Text, der unter dem Blogtitel angezeigt wird.'
       tagline_label: Slogan
       title_label: Blogtitel
+      title_placeholder_fallback: 'Mein Blog'
+    subscribers:
+      count_label: Abonennten
+      download_csv: 'CSV herunterladen'
+    tabs:
+      categories: Kategorien
+      posts: Beiträge
+      settings: Einstellungen
+      soon_badge: ' · bald'
+      subscribers: Abonnenten
   forum:
     comments_heading: '{count, plural, one {# Kommentar} other {# Kommentare}}'
     leave_comment: 'Kommentar hinterlassen'
