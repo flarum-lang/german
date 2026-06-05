@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
 * [`datlechin/flarum-passkey`](https://github.com/datlechin/flarum-passkey)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
