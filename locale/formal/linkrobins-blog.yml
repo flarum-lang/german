@@ -31,6 +31,7 @@ linkrobins-blog:
       color_placeholder: '#7f7f7f'
       create_button: 'Kategorie erstellen'
       description_label: 'Beschreibung (optional)'
+      description_placeholder: 'Kurze Beschreibung, die bei Hover und im Kategorietitel angezeigt wird.'
       icon_help: 'z. B. fas fa-newspaper, far fa-comments, fab fa-github'
       icon_label: 'Symbol (FontAwesome-Klasse)'
       icon_placeholder: 'fas fa-folder'
