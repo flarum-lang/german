@@ -22,6 +22,7 @@ linkrobins-clipboard:
   forum:
     action_copy: Kopieren
     action_cut: Ausschneiden
+    copy_code_aria: 'Code kopieren'
     error_btn: Fehler
     msg: 'Drücke {actionKey}, um {action} auszuführen'
     no_support: 'Nicht unterstützt'

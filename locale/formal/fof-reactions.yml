@@ -14,7 +14,7 @@ fof-reactions:
         button: 'Alte Reaktionen umwandeln'
         converted: 'Erfolgreich alle {number} Gefällt-mirs konvertiert'
         converting: 'Deine Reaktionen werden nun konvertiert. Lade die Seite nach ein paar Minuten neu, um zu sehen, dass der Prozess abgeschlossen ist. (Die Konvertierungszeit kann abhängig von der Gesamtzahl deiner Reaktionen eine Weile dauern)'
-        help: 'Wenn du deine Erweiterung gerade aktualisiert hast, müssen deine Reaktionen konvertiert werden. Wenn du diese Erweiterung gerade erst installiert hast, kannst du diese Nachricht getrost ignorieren.'
+        help: 'Wenn Sie Ihere Erweiterung gerade aktualisiert hast, müssen Ihre Reaktionen konvertiert werden. Wenn Sie diese Erweiterung gerade erst installiert haben, können Sie diese Nachricht getrost ignorieren.'
       reactions:
         Helptext: 'Gib den Namen (Bezeichner) des Emoji oder Font-Awesome Icons ein und wähle aus, welchen Typ du haben möchtest.'
         add_reaction_button: 'Reaktion hinzufügen'

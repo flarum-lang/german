@@ -38,7 +38,7 @@ fof-drafts:
       delete_all_alert: 'Bist du sicher, dass du alle deine Entwürfe löschen willst?'
       delete_all_button: 'Alle Entwürfe löschen'
       delete_button: 'Entwurf löschen'
-      empty_text: 'Du hast keine Entwürfe gespeichert'
+      empty_text: 'Sie haben keine Entwürfe gespeichert'
       schedule_button: 'Entwurf planen'
       scheduled_icon_tooltip: 'Geplant für {datetime}'
       scheduled_icon_tooltip_formatter: 'L [at] LT'

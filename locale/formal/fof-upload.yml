@@ -14,7 +14,7 @@ fof-upload:
     help_texts:
       client_extension: "Standardmäßig wählt Upload eine sichere Dateierweiterung basierend auf dem MIME-Typ.\nBei einigen Dateitypen, die auf ZIP- oder Binärdaten basieren, kann dies dazu führen, dass generische Erweiterungen statt der erwarteten verwendet werden.\nHier kannst du eine kommagetrennte Liste von Dateierweiterungen eingeben, die genau beibehalten werden sollen.\n"
       composer_buttons: "Standardmäßig sind sowohl die Medienmanager-Schaltfläche als auch die Upload-Schaltfläche sichtbar. Du kannst auch festlegen, dass nur eine Schaltfläche angezeigt wird.\n"
-      custom_s3_url: "Verwende diese Einstellung, wenn du einen S3-kompatiblen Dienst nutzt, der ein bestimmtes URL-Format erfordert (z. B. Backblaze B2) oder wenn du Probleme mit dem Standard-URL-Format hast. In der Regel ist diese Einstellung für die meisten Dienste nicht erforderlich. Achte darauf, dass die URL das Protokoll (https://) enthält und korrekt formatiert ist. Beispiel: https://your-bucket.s3.your-region.backblazeb2.com\n"
+      custom_s3_url: "Verwende diese Einstellung, wenn Sie einen S3-kompatiblen Dienst nutzen, der ein bestimmtes URL-Format erfordert (z. B. Backblaze B2) oder wenn Sie Probleme mit dem Standard-URL-Format haben. In der Regel ist diese Einstellung für die meisten Dienste nicht erforderlich. Achten Sie darauf, dass die URL das Protokoll (https://) enthält und korrekt formatiert ist. Beispiel: https://your-bucket.s3.your-region.backblazeb2.com\n"
       disable-download-logging: "Deaktiviere die Protokollierung aller Downloads, die von Nutzern deines Forums getätigt werden. Wenn du es aktiviert lässt, kannst du die Anzahl der Downloads und andere Metriken in der nahen Zukunft einsehen.\n"
       disable-hotlink-protection: "Der Hotlink-Schutz verhindert das Öffnen von Downloads auf anderen Seiten. Die aktuelle Methode erfordert ein csrf-Token und eine Post-ID.\n"
       download_templates: "Downloadvorlagen sind die Art und Weise, wie Uploads in deinem Forum angezeigt werden, z.B. als Vorschaubilder oder Buttons. Derzeit verfügbar:\n"
@@ -156,7 +156,7 @@ fof-upload:
       forbidden_type: 'Das Hochladen von Dateien dieses Typs ist nicht erlaubt.'
       max_upload_file_size_form: 'Die maximale Dateigröße für den Upload wurde im Formular erreicht.'
       max_upload_file_size_ini: 'Die maximale Dateigröße für den Upload wurde in der php.ini erreicht.'
-      mime_permission_denied: 'Du hast keine Berechtigung, diesen Dateityp hochzuladen.'
+      mime_permission_denied: 'Sie haben keine Berechtigung, diesen Dateityp hochzuladen.'
       no_file_uploaded: 'Keine Datei hochgeladen.'
       no_files_made_it_to_upload: 'Bitte lade keine Dateien hoch, die größer als {max} kb sind.'
       no_upload_tmp_folder: 'Kein tmp-Ordner zum Hochladen von Dateien.'

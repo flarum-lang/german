@@ -255,7 +255,7 @@ fof-badges:
     no_users_earned: 'Noch niemand hat dieses Abzeichen verdient. Sei der Erste!'
     notification:
       a_badge: 'ein Abzeichen'
-      badge_earned: 'Du hast {badge} erworben'
+      badge_earned: 'Sie haben {badge} erworben'
     other_badges: 'Andere Abzeichen'
     owned_badge: 'Du besitzt dieses Abzeichen'
     toggle_category_dropdown: 'Kategorie-Dropdown umschalten'

@@ -7,6 +7,7 @@ linkrobins-countdown-widget:
     settings:
       done_message_help: 'Was soll angezeigt werden, wenn der Countdown bei Null angelangt ist? Wenn das Feld leer bleibt, wird standardmäßig ein Party-Emoji angezeigt.'
       done_message_label: 'Nachricht nach Ablauf'
+      done_message_placeholder: '🎉 Wir sind live!'
       icon_help: 'Die FontAwesome-Klasse, die neben dem Titel angezeigt wird (z. B. fas fa-bullhorn). Für kein Symbol bitte leer lassen.'
       icon_label: Symbolklasse
       link_url_help: 'Optional. Wenn aktiviert, werden die Countdown-Felder (und die Abschlussmeldung) zu einem anklickbaren Link zu dieser URL.'
@@ -17,6 +18,7 @@ linkrobins-countdown-widget:
       timezone_label: Zeitzone
       title_help: 'Optional. Wird oberhalb des Countdowns angezeigt. Für keine Kopfzeile leer lassen.'
       title_label: Titel
+      title_placeholder: 'Start in...'
       use_my_timezone: 'Meine Zeitzone verwenden'
   forum:
     not_configured: 'Lege im Admin-Bereich ein Endzeitpunkt fest.'

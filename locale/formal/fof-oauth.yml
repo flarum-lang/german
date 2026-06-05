@@ -97,7 +97,7 @@ fof-oauth:
           label: 'Verknüpfte Konten'
           last-used-label: 'Zuletzt verwendet'
           link-created-label: 'Link erstellt'
-          orphaned-account: 'Du hast dich zuvor über diesen Anbieter angemeldet, jedoch hat das Forum die Anmeldung mit dieser Methode seitdem deaktiviert.'
+          orphaned-account: 'Sie haben sich zuvor über diesen Anbieter angemeldet, jedoch hat das Forum die Anmeldung mit dieser Methode seitdem deaktiviert.'
           unlink-confirm: 'Bist du sicher, dass du den Link mit {provider} entfernen willst? Du wirst dich nicht mehr in diesem Forum anmelden können, wenn du dich nicht in Zukunft neu authentifizierst.'
   lib:
     gambits:

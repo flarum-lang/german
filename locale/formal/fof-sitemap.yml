@@ -25,7 +25,7 @@ fof-sitemap:
       include_priority_help: 'Angaben zur Priorisierung werden von Google ignoriert, können aber von anderen Suchmaschinen wie Bing und Yandex genutzt werden'
       last_build_time: 'Letzte Erstellungszeit'
       mode_help: 'Die Wahl des richtigen Modus für die Größe deines Forums ist von entscheidender Bedeutung.'
-      mode_help_large: '50.000 ist das technische Limit für Sitemap-Dateien. Wenn du mehr Einträge zu speichern hast, nutze die folgende Option!'
+      mode_help_large: '50.000 ist das technische Limit für Sitemap-Dateien. Wenn Sie mehr Einträge zu speichern haben, nutzen Sie die folgende Option!'
       mode_help_multi: 'Am besten für größere Foren ab 10.000 Elementen. Mehrteilige, komprimierte Sitemap-Dateien werden generiert und im /public Ordner gespeichert'
       mode_help_multi_label: Mehrdateien-Modus
       mode_help_runtime: 'Für kleine Foren, meist auf Shared-Hosting-Umgebungen, mit Diskussionen, Benutzern, Tags und Seiten, die in der Summe weniger als 10.000 Einträge haben. Die Sitemap wird bei jeder Anfrage in Echtzeit generiert.'
