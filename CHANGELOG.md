@@ -7,6 +7,7 @@ CHANGELOG
 
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
+* [`fof/signature`](https://github.com/FriendsOfFlarum/signature)
 * [`startracex/flarum-dark`](https://github.com/startracex/flarum-dark)
 
 
