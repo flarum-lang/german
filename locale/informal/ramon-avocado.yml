@@ -137,11 +137,13 @@ ramon-avocado:
       team_groups_help: 'Die Mitglieder der ausgewählten Gruppen werden auf der Teamseite angezeigt.'
       team_groups_label: 'Anzuzeigende Gruppen'
       team_title_label: Seitentitel
+      team_title_placeholder: 'Unser Team'
       threads_style_help: 'Zeige den Startbeitrag als Karte an und rücke die Antworten mit einem linken Rand ein, wie in der Threads-App.'
       threads_style_label: 'Diskussionslayout im Stil von Threads aktivieren'
   forum:
     actions:
       share: Teilen
+    back: Zurück
     discussion:
       hero_image_add: 'Bild hinzufügen'
       hero_image_remove: 'Bild entfernen'
@@ -198,6 +200,7 @@ ramon-avocado:
       like_count_singular: '1 Like'
       log_in: Anmelden
       more: mehr
+      nav_label: Navigation
       new_discussion: 'Neue Diskussion'
       no_tags_found: 'Keine Themen gefunden'
       or: oder
@@ -229,14 +232,21 @@ ramon-avocado:
       placeholder: 'Bitte melde dich an, um den Link anzuzeigen'
     messages:
       deleted_message: 'Nachricht gelöscht'
+    online_users:
+      online: online
     post:
       op_badge: Verfasser
     post_cta:
       or: oder
       text: 'Gefällt dir, was du siehst? Steig in die Diskussion ein!'
+    profile:
+      joined: 'Beigetreten {date}'
+      scroll_left: 'Nach links scrollen'
+      scroll_right: 'Nach rechts scrollen'
     search:
       clear: Löschen
       enter_search_term: 'Gib einen Suchbegriff ein, um Benutzer zu finden.'
+      esc_key: ESC
       filtered_by: 'Gefiltert nach'
       hero_sub: 'Diskussionen, Beiträge und Mitglieder suchen'
       hero_title: 'Wonach suchst du?'
@@ -264,6 +274,8 @@ ramon-avocado:
       tip: 'Tipp: Präfix '
       tip_suffix: ' um nach Themen zu filtern'
       title: Suche
+    tag_picker:
+      remove: 'Thema entfernen'
     tags:
       all_discussions: 'Alle Diskussionen'
       discussion_plural: Diskussionen
