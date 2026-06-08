@@ -154,8 +154,10 @@ fof-seo:
       social_media_image:
         heading: Social-Media-Bild
         help_size: 'Es wird ein quadratisches Bild erwartet. Die empfohlene Größe beträgt 1200 x 1200 Pixel. Andernfalls verwende bitte ein Bild im Querformat; die empfohlene Größe hierbei beträgt 1200 x 630 Pixel.'
-        help_usage: 'Dieses Bild wird in den sozialen Medien verwendet, wenn ein Nutzer eine Seite deiner Website teilt (Facebook, X, Reddit).'
+        help_usage: 'Dieses Bild wird in den sozialen Medien verwendet, wenn ein Nutzer eine Seite deiner Website teilt (Facebook, 𝕏 (ehemals Twitter), Reddit).'
       twitter_card:
+        heading: 'Größe der Karte auf 𝕏 (ehemals Twitter)'
+        help: 'Wenn ein Beitrag auf 𝕏 (ehemals Twitter) geteilt wird, wird er mit einem Bild angezeigt (sofern ein Bild für soziale Medien hinterlegt wurde). Dabei kann es sich um eine große Karte mit einem großen Bild oder um eine kleine Karte (Zusammenfassung) mit einem kleineren Bild handeln.'
         option_large: 'Große Karte (mit großem Bild)'
         option_summary: 'Zusammenfassungskarte (mit kleinem Bild)'
       updated:
