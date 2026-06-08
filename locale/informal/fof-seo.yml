@@ -111,9 +111,13 @@ fof-seo:
         added_heading: 'Okay, ich habe SSL eingerichtet!'
         how_body: 'Für Nutzer eines Webhostings ist es am gängigsten, sich im Webhosting-Panel anzumelden, zu den Hosting-Einstellungen der Website zu gehen und auf „SSL“ zu klicken. Befolge die dortigen Anweisungen, um SSL für deine Website hinzuzufügen. Die meisten Webhosting-Anbieter unterstützen heutzutage den beliebten Zertifikatsaussteller {link}.'
         how_heading: 'Wie füge ich SSL zu meiner Website hinzu?'
+        intro_body: 'Das Bewusstsein für Sicherheit und Datenschutz im Internet nimmt zu. <b>Fast jeder</b> Entwickler oder Website-Betreiber möchte, dass seine Website für die Besucher sicher ist, damit diese keine Angst haben müssen, dass ihre Daten von Hackern oder Betrügern missbraucht werden.'
         intro_heading: 'Warum brauche ich eine sichere Verbindung?'
         no_ssl_body: 'In diesem Fall kannst du diese Erweiterung deinstallieren, da Suchmaschinen <b>dein Forum nicht indizieren</b> oder es aus Sicherheitsgründen weit hinter anderen Websites platzieren.'
         no_ssl_heading: 'Was ist, wenn ich kein SSL hinzufügen möchte?'
+        rankings_body: 'Wenn es keine sichere Verbindung zu deiner Website gibt, stufen Suchmaschinen deine Website viel niedriger ein als andere Websites oder nehmen sie gar nicht erst in ihren Index auf.'
+        rankings_body_ssl: 'Wenn SSL verfügbar ist, erhält deine Website ein besseres Ranking und wird indexiert.'
+        rankings_heading: 'Suchmaschinen {icon} sichere Verbindungen'
         what_body: 'Die meisten Menschen kennen <b>https</b>, das für sichere Verbindungen als SSL verwendet wird: <i>Secure Sockets Layer</i>. Offiziell heißt es TLS: <i>Transport Layer Security</i>. Diese Methode wird verwendet, um eine sichere Verbindung zu deinem Webserver herzustellen, wodurch verhindert wird, dass Angreifer oder andere Webserver sich als deine Website ausgeben, und damit deine Besucher geschützt werden. In diesem Fall wird die SSL-Verbindung unterbrochen und die Browser der Besucher warnen den Nutzer, dass die Seite nicht vertrauenswürdig ist.'
         what_heading: 'Was ist SSL oder TLS?'
     permissions:
