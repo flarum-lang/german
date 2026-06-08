@@ -39,6 +39,10 @@ fof-seo:
     pages:
       health:
         checks:
+          crawl:
+            button: 'Beitragseinstellungen überprüfen'
+            label: 'Einstellungen für das Crawlen von Diskussionsbeiträgen überprüfen'
+            reason: 'Du musst diese Einstellung durchgehen, um fortzufahren.'
           description:
             button: 'Beschreibung aktualisieren'
             label: 'Dein Forum hat eine Beschreibung'
@@ -47,6 +51,7 @@ fof-seo:
             reason_too_short: 'Die Beschreibung deines Forums ist kürzer als 20 Zeichen. Bitte erweitere sie, um bessere Suchergebnisse zu erzielen.'
           keywords:
             button: 'Stichwörter aktualisieren'
+            reason: 'Du hast noch keine Stichwörter für das Forum festgelegt!'
           meta_tags:
             label: 'Dein Forum verfügt über Meta-Tags (die von diesem Plugin generiert werden)'
           review:
@@ -60,13 +65,15 @@ fof-seo:
           search_engines:
             button: 'Weitere Informationen'
             label: 'Registriere dein Forum bei Suchmaschinen'
-            reason: 'Du musst das durchgehen, um zu bestehen.'
+            reason: 'Du musst das durchgehen, um fortzufahren.'
           sitemap:
             button: 'Erfahre mehr über das Hinzufügen einer Sitemap'
             label: 'Für dein Forum steht eine Sitemap zur Verfügung'
             reason: 'Es wird dringend empfohlen, die Erweiterung „Sitemap“ von FriendsOfFlarum zu installieren!'
           social_media:
             button: 'Bild aktualisieren'
+            label: 'Ein Social-Media-Bild einrichten'
+            reason: 'Du hast noch kein Social-Media-Bild für dein Forum festgelegt. Es wird empfohlen, eines festzulegen. Dein Favicon wird nun als Vorschaubild in den sozialen Medien verwendet.'
           ssl:
             button: 'So richtest du SSL ein'
             label: 'Deine Website verfügt über eine sichere Verbindung (SSL/TLS)'
@@ -170,29 +177,69 @@ fof-seo:
       reset_seo: 'SEO zurücksetzen'
       update_seo: 'SEO aktualisieren'
     meta_seo:
+      auto_update:
+        help: 'Wenn aktiviert, werden die Meta-Tags dieses Elements automatisch aktualisiert, sobald sich das Objekt ändert.'
+        label: 'Meta-Tags automatisch aktualisieren'
+        switch: 'Objekt-SEO bei Änderungen aktualisieren'
       close:
         autofill_info: 'Diese Änderung macht benutzerdefinierte Änderungen rückgängig und füllt die Meta-Tags mit Artikeldaten.'
         close: Schließen
         save: Speichern
         save_autofill: 'Speichern & automatisch ausfüllen'
+      image:
+        help: 'Zeigt ein Bild an.'
+        label: Meta-Bild
+        managed_by: 'Bildquelle verwaltet durch {source}'
+        placeholder: 'Bild-URL eingeben'
+        upload: 'Datei hochladen'
+      keywords:
+        comma_note: 'Hinweis: Trenne die Stichwörter durch Kommas.'
+        example: 'Beispiel: Flarum, Webentwicklung, Forum, Äpfel, Sicherheit'
+        help: 'Gib ein oder mehrere Stichwörter ein, die diesen Artikel beschreiben.'
+        label: Stichwörter
+        placeholder: 'Füge ein paar Stichwörter hinzu'
       managed: Verwaltet
+      meta_description:
+        help: 'Beschreibt den Artikel und wird in Suchmaschinen angezeigt.'
+        label: Meta-Beschreibung
+      meta_title:
+        help: 'Titel für Suchmaschinen.'
+        label: Meta-Titel
+        placeholder: 'Seitentitel eingeben'
       note_prefix: 'Hinweis:'
       og:
         auto_switch: 'Open Graph Tags automatisch erstellen'
         description:
           label: 'Open Graph-Beschreibung'
+          placeholder: 'Benutzerdefinierte Open Graph-Beschreibung'
         label: 'Open Graph-Tags'
         title: 'Open Graph-Titel'
       reading_time:
         help: 'Geschätzte Lesezeit in Sekunden.'
         label: 'Geschätzte Lesezeit'
         placeholder: 'Lesezeit in Sekunden'
+      robots:
+        help: 'Robot-Crawling-Einstellungen für diesen Artikel.'
+        label: Robots
+        tags:
+          archive_not_allowed: 'Archivieren von Seiten nicht erlauben'
+          follow_allowed: 'Folgen von Links zulassen'
+          follow_not_allowed: 'Folgen von Links nicht erlauben'
+          indexing_allowed: 'Indizierung der Seite zulassen'
+          indexing_not_allowed: 'Seitenindizierung nicht erlauben'
       saved: Gespeichert!
       title: 'SEO-Einstellungen - Meta'
       twitter:
+        auto_switch: '𝕏 (ehemals Twitter) Karte automatisch generieren'
+        description: '𝕏 (ehemals Twitter) Beschreibung'
         image:
+          help: 'Zeigt ein Bild auf 𝕏 (ehemals Twitter) an.'
+          label: '𝕏 (ehemals Twitter) Bild'
           reset: 'Bild zurücksetzen'
+        label: '𝕏 (ehemals Twitter) Karte'
+        title: '𝕏 (ehemals Twitter) Titel'
       unsupported_object:
+        body: 'Bitte öffne diesen Dialog über die Eigenschaften „objectType“ und „objectId“ oder registriere stattdessen die Objektbeziehung.'
         docs_link: Dokumentation
         title: 'Dieses Objekt ist kein unterstütztes SeoMeta-Objekt'
     profile_description: 'Profil von {username} | {discussion_count} Diskussionen | {comment_count} Beiträge'
