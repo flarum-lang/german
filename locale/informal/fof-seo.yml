@@ -49,12 +49,18 @@ fof-seo:
             button: 'Stichwörter aktualisieren'
           meta_tags:
             label: 'Dein Forum verfügt über Meta-Tags (die von diesem Plugin generiert werden)'
+          review:
+            button: 'Okay! Ich habe sie durchgesehen!'
+            label: 'Überprüfe deine SEO-Einstellungen alle zwei Monate. Die nächste Überprüfung ist am {date} fällig.'
+            reason: 'Es ist an der Zeit, deine SEO-Einstellungen noch einmal zu überprüfen.'
           robots:
             button: 'Erfahre mehr über das Hinzufügen einer Sitemap'
             label: 'Dein Forum verfügt über eine robots.txt-Datei'
             reason: 'Deine robots.txt-Datei wird von der Sitemap-Erweiterung von FriendsOfFlarum bereitgestellt. Installiere und aktiviere sie, um Suchmaschinen eine robots.txt-Datei zur Verfügung zu stellen.'
           search_engines:
+            button: 'Weitere Informationen'
             label: 'Registriere dein Forum bei Suchmaschinen'
+            reason: 'Du musst das durchgehen, um zu bestehen.'
           sitemap:
             button: 'Erfahre mehr über das Hinzufügen einer Sitemap'
             label: 'Für dein Forum steht eine Sitemap zur Verfügung'
@@ -132,7 +138,18 @@ fof-seo:
         heading: 'Hast du diese Einstellung aktualisiert?'
         help: 'Wenn du bereit bist, klicke auf die Schaltfläche unten, um den Status dieser Einstellung erneut zu überprüfen.'
   forum:
+    controls:
+      configure_seo: 'SEO konfigurieren'
+      reset_seo: 'SEO zurücksetzen'
+      update_seo: 'SEO aktualisieren'
     meta_seo:
+      close:
+        autofill_info: 'Diese Änderung macht benutzerdefinierte Änderungen rückgängig und füllt die Meta-Tags mit Artikeldaten.'
+        close: Schließen
+        save: Speichern
+        save_autofill: 'Speichern & automatisch ausfüllen'
+      managed: Verwaltet
+      note_prefix: 'Hinweis:'
       og:
         auto_switch: 'Open Graph Tags automatisch erstellen'
         description:
@@ -143,6 +160,13 @@ fof-seo:
         help: 'Geschätzte Lesezeit in Sekunden.'
         label: 'Geschätzte Lesezeit'
         placeholder: 'Lesezeit in Sekunden'
+      saved: Gespeichert!
+      title: 'SEO-Einstellungen - Meta'
       twitter:
         image:
           reset: 'Bild zurücksetzen'
+      unsupported_object:
+        docs_link: Dokumentation
+        title: 'Dieses Objekt ist kein unterstütztes SeoMeta-Objekt'
+    profile_description: 'Profil von {username} | {discussion_count} Diskussionen | {comment_count} Beiträge'
+    profile_title: 'Profil von {username}'
