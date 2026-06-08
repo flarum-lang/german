@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
 * [`datlechin/flarum-passkey`](https://github.com/datlechin/flarum-passkey)
+* [`ernestdefoe/google-fonts`](https://github.com/ernestdefoe/google-fonts)
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
 * [`fof/signature`](https://github.com/FriendsOfFlarum/signature)
