@@ -31,19 +31,81 @@ fof-seo:
         switch_label: 'Alle Beiträge crawlen (die Seitenaktualisierung dauert zwar länger, aber die Suchergebnisse sind besser)'
         title: 'Einstellungen für das Beitrags-Crawling'
       dofollow:
-        add_placeholder: 'Eine Domäne erlauben'
-        default_note: 'Die Domänen, die du für deine Flarum-Instanz verwendest, wird standardmäßig zur Liste hinzugefügt.'
-        duplicate_error: 'Diese Domäne ist bereits in deiner Do-Follow-Liste.'
+        add_placeholder: 'Eine Domain erlauben'
+        default_note: 'Die Domain, die du für deine Flarum-Instanz verwendest, wird standardmäßig zur Liste hinzugefügt.'
+        duplicate_error: 'Diese Domain ist bereits in deiner Do-Follow-Liste.'
         intro: 'Gib die <b>Hostnamen</b> der Domänen ein, die du zur Do-Follow-Liste hinzufügen möchten.'
         learn_more_line: '<a>Erfahre mehr</a> über die Do-Follow-Liste.'
         title: Do-Follow-Liste
+    pages:
+      health:
+        checks:
+          description:
+            button: 'Beschreibung aktualisieren'
+            label: 'Dein Forum hat eine Beschreibung'
+            reason_default: 'Du hast die Standardbeschreibung des Forums nach der Installation nicht geändert!'
+            reason_missing: 'Du hast noch keine Forumbeschreibung erstellt!'
+            reason_too_short: 'Die Beschreibung deines Forums ist kürzer als 20 Zeichen. Bitte erweitere sie, um bessere Suchergebnisse zu erzielen.'
+          keywords:
+            button: 'Stichwörter aktualisieren'
+          meta_tags:
+            label: 'Dein Forum verfügt über Meta-Tags (die von diesem Plugin generiert werden)'
+          robots:
+            button: 'Erfahre mehr über das Hinzufügen einer Sitemap'
+            label: 'Dein Forum verfügt über eine robots.txt-Datei'
+            reason: 'Deine robots.txt-Datei wird von der Sitemap-Erweiterung von FriendsOfFlarum bereitgestellt. Installiere und aktiviere sie, um Suchmaschinen eine robots.txt-Datei zur Verfügung zu stellen.'
+          search_engines:
+            label: 'Registriere dein Forum bei Suchmaschinen'
+          sitemap:
+            button: 'Erfahre mehr über das Hinzufügen einer Sitemap'
+            label: 'Für dein Forum steht eine Sitemap zur Verfügung'
+            reason: 'Es wird dringend empfohlen, die Erweiterung „Sitemap“ von FriendsOfFlarum zu installieren!'
+          social_media:
+            button: 'Bild aktualisieren'
+          ssl:
+            button: 'So richtest du SSL ein'
+            label: 'Deine Website verfügt über eine sichere Verbindung (SSL/TLS)'
+            reason: 'Dein Forum erzwingt keine SSL/TLS-Verbindung (eine sichere Verbindung zu deiner Website). Die meisten Suchmaschinen indexieren deine Website nicht oder stufen ihr Ranking herab, wenn keine sichere Verbindung verfügbar ist.'
+        default_button: 'Einstellungen aktualisieren'
+        legend: 'Um optimale Suchmaschinenergebnisse zu erzielen, stelle sicher, dass alle Häkchen grün sind.'
+        status:
+          passed: 'Alles bereit!'
+          warning: Warnung!
+        table:
+          status: Status
+          technique: 'Technik / Funktion'
+      search_engines:
+        google_heading: 'Füge deine Website zu den Google-Suchergebnissen hinzu'
+        google_sitemap: 'Nachdem du die Registrierung in der Google Search Console abgeschlossen hast, rufe die Seite <b>Sitemaps</b> auf. Übermittele deine <b>sitemap.xml</b> an Google. Stelle sicher, dass Google deine Sitemap crawlen kann und dies auch weiterhin tun wird.'
+        google_visit: 'Wenn dein deine Website in die Google-Suchergebnisse aufnehmen möchtest, besuche {link}. Du musst deine Website hinzufügen und bestätigen, dass du der Inhaber der zugehörigen Domain bist.'
+        google_www: 'Wenn du deine Domain eingibst, musst du dir folgende Frage stellen: Möchtest du die Subdomain „www“ in den Suchergebnissen verwenden? Du kannst dies später <strong>nicht</strong> ändern. Eine mehrfache Registrierung deiner Domain in der Google Search Console führt nicht zu einem besseren Ranking.'
+        heading: 'Deine Website bei Suchmaschinen einreichen'
+        intro: 'Es empfiehlt sich, Suchmaschinen darüber zu informieren, dass deine Website existiert. Auf dieser Seite erfährst du, wie du dies erfolgreich umsetzen kannst.'
+        sitemap_tip: 'Es wird empfohlen, vor der Durchführung dieser Anleitung eine Sitemap bereitzuhalten. Falls du noch keine Sitemap hast, <a>klicke hier, um mehr darüber zu erfahren</a>.'
+      ssl:
+        added_body: 'Super! Ändere nun deine <b>config.php</b> und setze den Wert von <b>„url“</b> auf <b>https</b>!'
+        added_heading: 'Okay, ich habe SSL eingerichtet!'
+        how_body: 'Für Nutzer eines Webhostings ist es am gängigsten, sich im Webhosting-Panel anzumelden, zu den Hosting-Einstellungen der Website zu gehen und auf „SSL“ zu klicken. Befolge die dortigen Anweisungen, um SSL für deine Website hinzuzufügen. Die meisten Webhosting-Anbieter unterstützen heutzutage den beliebten Zertifikatsaussteller {link}.'
+        how_heading: 'Wie füge ich SSL zu meiner Website hinzu?'
+        no_ssl_body: 'In diesem Fall kannst du diese Erweiterung deinstallieren, da Suchmaschinen <b>dein Forum nicht indizieren</b> oder es aus Sicherheitsgründen weit hinter anderen Websites platzieren.'
+        no_ssl_heading: 'Was ist, wenn ich kein SSL hinzufügen möchte?'
+        what_body: 'Die meisten Menschen kennen <b>https</b>, das für sichere Verbindungen als SSL verwendet wird: <i>Secure Sockets Layer</i>. Offiziell heißt es TLS: <i>Transport Layer Security</i>. Diese Methode wird verwendet, um eine sichere Verbindung zu deinem Webserver herzustellen, wodurch verhindert wird, dass Angreifer oder andere Webserver sich als deine Website ausgeben, und damit deine Besucher geschützt werden. In diesem Fall wird die SSL-Verbindung unterbrochen und die Browser der Besucher warnen den Nutzer, dass die Seite nicht vertrauenswürdig ist.'
+        what_heading: 'Was ist SSL oder TLS?'
     permissions:
       category_label: SEO
       configure_seo: 'SEO-Einstellungen bearbeiten'
     settings:
       crawl:
+        button: 'Einstellungen für das Beitrags-Crawling vornehmen'
         heading: 'Einstellungen für das Crawling von Diskussionsbeiträgen'
         help: 'Dies ist eine wichtige Einstellung, die sich darauf bezieht, wie Diskussionsbeiträge gecrawlt und in den Suchergebnissen dargestellt werden.'
+      indexing:
+        heading: 'Steuerelemente für die Indizierung'
+        profiles_help: 'Wenn diese Option aktiviert ist, enthalten die Benutzerprofilseiten einen „noindex“-Meta-Tag, sodass sie aus den Suchergebnissen ausgeschlossen werden. Die Links auf der Seite werden weiterhin verfolgt, sodass Crawler die Inhalte, auf die sie verweisen, nach wie vor erreichen können.'
+        profiles_label: 'Profilseiten aus dem Index entfernen'
+        tags_button: 'Themen auswählen'
+        tags_help: 'Beiträge in den ausgewählten Themen (sowie auf den jeweiligen Themen-Seiten) werden mithilfe eines „noindex“-Meta-Tags aus den Suchergebnissen ausgeschlossen. Links werden weiterhin verfolgt. Die Auswahl eines übergeordneten Themas umfasst auch dessen untergeordnete Themen.'
+        tags_none_selected: 'Es werden keine Tags von der Indizierung ausgeschlossen.'
       info:
         maintain: 'Überprüfe bei der Ersteinrichtung dieser Erweiterung alle deine Einstellungen. Passe diese an, um die besten Suchergebnisse zu erhalten.'
         overview: 'Diese Seite enthält einige weitere Einstellungen aus dem Admin-Bereich. Es ist jedoch ratsam, sich einen guten Überblick über diese Einstellungen zu verschaffen. Vergiss nicht, die SEO-Prüfung durchzuführen.'
@@ -53,13 +115,27 @@ fof-seo:
         heading: Forum-Stichwörter
         help: 'Gib ein oder mehrere Stichwörter ein, die dein Forum beschreiben.'
         placeholder: 'Ein paar Stichwörter hinzufügen'
+      new_tab:
+        heading: 'Externe Links in einem neuen Tab öffnen'
+        help: 'Diese Erweiterung sorgt außerdem dafür, dass externe Links (zu anderen Domains) in einem neuen Tab geöffnet werden. Derzeit ist es nicht möglich, diese Einstellung zu deaktivieren.'
+      nofollow:
+        button: 'Do-Follow-Liste für Domains öffnen'
+        heading: No-Follow-Links
+        help: 'Alle Links zu externen Domänen werden standardmäßig mit dem Attribut „<i>nofollow</i>“ versehen. Dadurch wird sichergestellt, dass Nutzer dein Forum nicht mit Links zu anderen Domänen zuspammen, um mehr Verweise zu erhalten.'
+        help_dofollow: 'Mit dieser Einstellung kannst du Domänen zur „Do-Follow“-Liste hinzufügen. Du kannst beispielsweise <i>flarum.org</i> hinzufügen, um sicherzustellen, dass Links zu dieser Website kein „nofollow“-Attribut erhalten.'
       social_media_image:
         heading: Social-Media-Bild
         help_size: 'Es wird ein quadratisches Bild erwartet. Die empfohlene Größe beträgt 1200 x 1200 Pixel. Andernfalls verwende bitte ein Bild im Querformat; die empfohlene Größe hierbei beträgt 1200 x 630 Pixel.'
-        help_usage: 'Dieses Bild wird in den sozialen Medien verwendet, wenn ein Nutzer eine Seite deiner Website teilt (Facebook, X, Reddit).'
+        help_usage: 'Dieses Bild wird in den sozialen Medien verwendet, wenn ein Nutzer eine Seite deiner Website teilt (Facebook, 𝕏 (ehemals Twitter), Reddit).'
       twitter_card:
+        heading: 'Größe der Karte auf 𝕏 (ehemals Twitter)'
+        help: 'Wenn ein Beitrag auf 𝕏 (ehemals Twitter) geteilt wird, wird er mit einem Bild angezeigt (sofern ein Bild für soziale Medien hinterlegt wurde). Dabei kann es sich um eine große Karte mit einem großen Bild oder um eine kleine Karte (Zusammenfassung) mit einem kleineren Bild handeln.'
         option_large: 'Große Karte (mit großem Bild)'
         option_summary: 'Zusammenfassungskarte (mit kleinem Bild)'
+      updated:
+        button: 'Zurück zur Übersicht und erneut prüfen'
+        heading: 'Hast du diese Einstellung aktualisiert?'
+        help: 'Wenn du bereit bist, klicke auf die Schaltfläche unten, um den Status dieser Einstellung erneut zu überprüfen.'
   forum:
     meta_seo:
       og:
