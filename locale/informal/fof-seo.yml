@@ -80,6 +80,9 @@ fof-seo:
           status: Status
           technique: 'Technik / Funktion'
       search_engines:
+        bing_heading: 'Füge deine Website zu den Bing-Suchergebnissen hinzu'
+        bing_sitemap: 'Vergiss nicht, die URL deiner Sitemap zu konfigurieren. Sobald du deine Website verifiziert hast, ist alles bereit, und Bing wird deine Website nun indizieren.'
+        bing_visit: 'Wenn du deine Website zu den Bing-Suchergebnissen hinzufügen möchtest, rufe {link} auf und führe die angegebenen Schritte aus. Nicht alle Felder müssen ausgefüllt werden.'
         google_heading: 'Füge deine Website zu den Google-Suchergebnissen hinzu'
         google_sitemap: 'Nachdem du die Registrierung in der Google Search Console abgeschlossen hast, rufe die Seite <b>Sitemaps</b> auf. Übermittele deine <b>sitemap.xml</b> an Google. Stelle sicher, dass Google deine Sitemap crawlen kann und dies auch weiterhin tun wird.'
         google_visit: 'Wenn dein deine Website in die Google-Suchergebnisse aufnehmen möchtest, besuche {link}. Du musst deine Website hinzufügen und bestätigen, dass du der Inhaber der zugehörigen Domain bist.'
@@ -87,6 +90,8 @@ fof-seo:
         heading: 'Deine Website bei Suchmaschinen einreichen'
         intro: 'Es empfiehlt sich, Suchmaschinen darüber zu informieren, dass deine Website existiert. Auf dieser Seite erfährst du, wie du dies erfolgreich umsetzen kannst.'
         sitemap_tip: 'Es wird empfohlen, vor der Durchführung dieser Anleitung eine Sitemap bereitzuhalten. Falls du noch keine Sitemap hast, <a>klicke hier, um mehr darüber zu erfahren</a>.'
+        yandex_heading: 'Füge deine Website zu den Yandex-Suchergebnissen hinzu'
+        yandex_visit: 'Wenn du deine Website zu den Yandex-Suchergebnissen hinzufügen möchtest, rufe {link} auf und führe die angegebenen Schritte aus.'
       ssl:
         added_heading: 'Okay, ich habe SSL eingerichtet!'
         how_body: 'Für Nutzer eines Webhostings ist es am gängigsten, sich im Webhosting-Panel anzumelden, zu den Hosting-Einstellungen der Website zu gehen und auf „SSL“ zu klicken. Befolge die dortigen Anweisungen, um SSL für deine Website hinzuzufügen. Die meisten Webhosting-Anbieter unterstützen heutzutage den beliebten Zertifikatsaussteller {link}.'
