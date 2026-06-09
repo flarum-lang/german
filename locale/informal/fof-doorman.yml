@@ -5,6 +5,10 @@
 fof-doorman:
   admin:
     list:
+      actions:
+        delete: 'Einladungscode löschen'
+        edit: 'Einladungscode bearbeiten'
+        notify: 'Diesen Einladungscode per E-Mail versenden'
       columns:
         activates_user: '=> fof-doorman.admin.ref.fields.activates_user.label'
         created_by: 'Erstellt von'
@@ -23,6 +27,12 @@ fof-doorman:
           total_uses: '{totalUses, plural, one {{totalUses} Mal verwendet} other {{totalUses} Mal verwendet}}'
           used_times: '{remaining, plural, =0 {Unbegrenzte Verwendungen} one {{remainingUses} Verwendung verbleibend} other {{remainingUses} Verwendungen verbleibend}}'
         warning: 'Dieser Einladungscode wurde bereits die maximal erlaubt Anzahl verwendet.'
+      heading: Einladungscodes
+      pagination:
+        back_button: '=> core.lib.pagination.back_button'
+        first_page_button: '=> core.lib.pagination.first_button'
+        go_to_page_textbox_a11y_label: '=> core.lib.pagination.go_to_page_textbox_a11y_label'
+        page_counter: '=> core.lib.pagination.page_counter'
     modals:
       create_doorkey:
         activates_user:
@@ -74,13 +84,15 @@ fof-doorman:
           label: Gruppe
         key:
           help: 'Code, den Nutzer bei der Registrierung verwenden.'
-          label: Schlüssel
+          label: xSchlüssel
         max_uses:
           help: 'Die maximale Anzahl von Verwendungen des Codes. Setze auf 0 für unbegrenzte Verwendungen'
           label: 'Max. Verwendungen'
     settings:
       create_doorkey_button: 'Einladungscode erstellen'
+      heading: Einstellungen
       optional_usage: 'Einladungscode bei der Registrierung optional machen'
+      optional_usage_help: 'Wenn aktiviert , können sich Besucher ohne Eingabe eines Einladungscodes registrieren.'
       search: 'Schlüssel durchsuchen'
       total_doorkeys: 'Schlüssel insgesamt: {count}'
   email:
