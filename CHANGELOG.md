@@ -2,6 +2,48 @@ CHANGELOG
 =========
 
 
+2.0.6 (2026-06-09)
+------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`datlechin/flarum-passkey`](https://github.com/datlechin/flarum-passkey)
+* [`ernestdefoe/google-fonts`](https://github.com/ernestdefoe/google-fonts)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
+* [`fof/signature`](https://github.com/FriendsOfFlarum/signature)
+* [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/flags`](https://github.com/flarum/flags)
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
+* [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`linkrobins/blog`](https://github.com/linkrobins/blog)
+* [`linkrobins/clipboard`](https://github.com/linkrobins/clipboard)
+* [`linkrobins/countdown-widget`](https://github.com/linkrobins/countdown-widget)
+* [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer)
+* [`linkrobins/referral`](https://github.com/linkrobins/referral)
+* [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
+* [`peopleinside/fla-powcaptcha`](https://github.com/PeopleInside/fla-powcaptcha)
+* [`ralkage/flarum-ext-profile-messages`](https://github.com/Ralkage/flarum-ext-profile-messages)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado)
+* [`tryhackx/flarum-homepage-blocks`](https://github.com/TryHackX/flarum-homepage-blocks)
+* [`tryhackx/flarum-magnet-link`](https://github.com/TryHackX/flarum-magnet-link)
+
+
+Alle Änderungen: [2.0.5...2.0.6](https://github.com/flarum-lang/german/compare/2.0.5...2.0.6).
+
+
 2.0.5 (2026-06-02)
 ------------------
 
