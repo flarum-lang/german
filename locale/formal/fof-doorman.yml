@@ -32,6 +32,8 @@ fof-doorman:
         back_button: '=> core.lib.pagination.back_button'
         first_page_button: '=> core.lib.pagination.first_button'
         go_to_page_textbox_a11y_label: '=> core.lib.pagination.go_to_page_textbox_a11y_label'
+        last_page_button: '=> core.lib.pagination.last_button'
+        next_button: '=> core.lib.pagination.next_button'
         page_counter: '=> core.lib.pagination.page_counter'
     modals:
       create_doorkey:
@@ -84,7 +86,7 @@ fof-doorman:
           label: Gruppe
         key:
           help: 'Code, den Nutzer bei der Registrierung verwenden.'
-          label: xSchlüssel
+          label: Schlüssel
         max_uses:
           help: 'Die maximale Anzahl von Verwendungen des Codes. Setze auf 0 für unbegrenzte Verwendungen'
           label: 'Max. Verwendungen'
@@ -96,6 +98,7 @@ fof-doorman:
       search: 'Schlüssel durchsuchen'
       total_doorkeys: 'Schlüssel insgesamt: {count}'
   email:
+    body: "Sie wurden zum Beitritt für {forum} eingeladen.\n\nWenn Sie bereit sind, Ihr Konto zu erstellen, klicken Sie einfach auf den folgenden Link und geben Sie den Code bei der Registrierung ein:\n\nUrl: {url}\nEinladungscode: {code}\n\nSollten Sie diese E-Mail irrtümlich erhalten haben, ignorieren Sie sie bitte.\n"
     subject: 'Einladen zum Beitreten'
   forum:
     sign_up:
