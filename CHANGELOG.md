@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+1.25.19 (2026-06-09)
+--------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
+* [`fof/signature`](https://github.com/FriendsOfFlarum/signature)
+* [`startracex/flarum-dark`](https://github.com/startracex/flarum-dark)
+
+
+Alle Änderungen: [1.25.18...1.25.19](https://github.com/flarum-lang/german/compare/1.25.18...1.25.19).
+
+
 1.25.18 (2026-06-02)
 --------------------
 
