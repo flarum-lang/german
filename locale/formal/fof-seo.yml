@@ -51,6 +51,7 @@ fof-seo:
             reason_too_short: 'Die Beschreibung deines Forums ist kürzer als 20 Zeichen. Bitte erweitere sie, um bessere Suchergebnisse zu erzielen.'
           keywords:
             button: 'Stichwörter aktualisieren'
+            label: 'In deinem Forum sind Stichwörter eingerichtet'
             reason: 'Du hast noch keine Stichwörter für das Forum festgelegt!'
           meta_tags:
             label: 'Dein Forum verfügt über Meta-Tags (die von diesem Plugin generiert werden)'
