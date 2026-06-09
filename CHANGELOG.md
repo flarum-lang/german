@@ -11,6 +11,7 @@ CHANGELOG
 * [`datlechin/flarum-passkey`](https://github.com/datlechin/flarum-passkey)
 * [`ernestdefoe/google-fonts`](https://github.com/ernestdefoe/google-fonts)
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 * [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
 * [`fof/signature`](https://github.com/FriendsOfFlarum/signature)
 * [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
