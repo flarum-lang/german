@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.25.20 (XXXX-XX-XX)
+--------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+
+
+Alle Änderungen: [1.25.19...1.25.20](https://github.com/flarum-lang/german/compare/1.25.19...1.25.20).
+
+
 1.25.19 (2026-06-09)
 --------------------
 
