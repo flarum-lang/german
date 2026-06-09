@@ -116,7 +116,7 @@ fof-doorman:
           label: Gruppe
         key:
           help: 'Code, den Nutzer bei der Registrierung verwenden.'
-          label: Schlüssel
+          label: xSchlüssel
         max_uses:
           help: 'Die maximale Anzahl von Verwendungen des Codes. Setze auf 0 für unbegrenzte Verwendungen'
           label: 'Max. Verwendungen'
