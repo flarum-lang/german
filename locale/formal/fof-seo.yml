@@ -23,6 +23,7 @@ fof-seo:
     modals:
       crawl_post:
         intro: '<b>Lies diesen Dialog sorgfältig durch.</b> Diese Funktion wird nur bei einer Seitenaktualisierung in einer Diskussion ausgeführt. Du kannst diese Option später jederzeit ändern.'
+        mode_all_help: 'Suchmaschinen verstehen die Diskussionen und können sogar einzelne relevante Beiträge unterhalb der Suchergebnisse anzeigen. Wenn du die Erweiterung „<a>best answer</a>“ in deinem Forum installiert und aktiviert hast, wird die Diskussion in den Suchergebnissen als „beantwortet“ gekennzeichnet und der Nutzer zu diesem bestimmten Beitrag weitergeleitet. Jede Antwort wird zudem mit der Anzahl der Likes und Upvotes angezeigt, sodass Suchmaschinen auch ohne die Erweiterung „best answer“ die hilfreichsten Antworten identifizieren können. <b>Je nach deinen Server-Einstellungen kann dies jedoch eine höhere Belastung darstellen</b>. Es kann zu Leistungseinbußen kommen, daher hängt es von der Geschwindigkeit deines Servers ab, ob du diese Funktion aktivieren sollten.'
         mode_all_title: 'Alle Beiträge in einer Diskussion indizieren (Einstellung aktiviert)'
         mode_main_help: 'Die Suchmaschine zeigt in den Suchergebnissen nur den Hauptbeitrag an. Die Ladegeschwindigkeit wird nicht beeinträchtigt, wenn du über Forenlinks dorthin navigierst.'
         mode_main_title: 'Nur den Hauptbeitrag indizieren (Standard)'
@@ -116,6 +117,7 @@ fof-seo:
         why_body: 'Eine Sitemap ist eine XML-Datei, die eine Liste aller auf deiner Website verfügbaren Seiten enthält. Sie wird von Crawlern und Suchmaschinen genutzt, um Seiten auf deiner Website zu finden.'
         why_heading: 'Warum sollte man eine Sitemap verwenden?'
       ssl:
+        added_body: 'Super! Ändere nun deine <b>config.php</b> und setze den Wert von <b>„url“</b> auf <b>https</b>!'
         added_heading: 'Okay, ich habe SSL eingerichtet!'
         how_body: 'Für Nutzer eines Webhostings ist es am gängigsten, sich im Webhosting-Panel anzumelden, zu den Hosting-Einstellungen der Website zu gehen und auf „SSL“ zu klicken. Befolge die dortigen Anweisungen, um SSL für deine Website hinzuzufügen. Die meisten Webhosting-Anbieter unterstützen heutzutage den beliebten Zertifikatsaussteller {link}.'
         how_heading: 'Wie füge ich SSL zu meiner Website hinzu?'
@@ -158,6 +160,7 @@ fof-seo:
       nofollow:
         button: 'Do-Follow-Liste für Domains öffnen'
         heading: No-Follow-Links
+        help: 'Alle Links zu externen Domänen werden standardmäßig mit dem Attribut „<i>nofollow</i>“ versehen. Dadurch wird sichergestellt, dass Nutzer dein Forum nicht mit Links zu anderen Domänen zuspammen, um mehr Verweise zu erhalten.'
         help_dofollow: 'Mit dieser Einstellung kannst du Domänen zur „Do-Follow“-Liste hinzufügen. Du kannst beispielsweise <i>flarum.org</i> hinzufügen, um sicherzustellen, dass Links zu dieser Website kein „nofollow“-Attribut erhalten.'
       social_media_image:
         heading: Social-Media-Bild
