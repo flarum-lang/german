@@ -45,23 +45,23 @@ fof-seo:
             reason: 'Du musst diese Einstellung durchgehen, um fortzufahren.'
           description:
             button: 'Beschreibung aktualisieren'
-            label: 'Dein Forum hat eine Beschreibung'
+            label: 'Prüft, ob dein Forum eine Beschreibung hat'
             reason_default: 'Du hast die Standardbeschreibung des Forums nach der Installation nicht geändert!'
             reason_missing: 'Du hast noch keine Forumbeschreibung erstellt!'
             reason_too_short: 'Die Beschreibung deines Forums ist kürzer als 20 Zeichen. Bitte erweitere sie, um bessere Suchergebnisse zu erzielen.'
           keywords:
             button: 'Stichwörter aktualisieren'
-            label: 'In deinem Forum sind Stichwörter eingerichtet'
+            label: 'Prüft, ob in deinem Forum Stichwörter eingerichtet sind'
             reason: 'Du hast noch keine Stichwörter für das Forum festgelegt!'
           meta_tags:
-            label: 'Dein Forum verfügt über Meta-Tags (die von diesem Plugin generiert werden)'
+            label: 'Prüft, ob dein Forum über Meta-Tags (die von diesem Plugin generiert werden) verfügt'
           review:
             button: 'Okay! Ich habe sie durchgesehen!'
             label: 'Überprüfe deine SEO-Einstellungen alle zwei Monate. Die nächste Überprüfung ist am {date} fällig.'
             reason: 'Es ist an der Zeit, deine SEO-Einstellungen noch einmal zu überprüfen.'
           robots:
-            button: 'Erfahre mehr über das Hinzufügen einer Sitemap'
-            label: 'Dein Forum verfügt über eine robots.txt-Datei'
+            button: 'Erfahre mehr über das Hinzufügen einer robots.txt'
+            label: 'Prüft, ob dein Forum über eine robots.txt-Datei verfügt'
             reason: 'Deine robots.txt-Datei wird von der Sitemap-Erweiterung von FriendsOfFlarum bereitgestellt. Installiere und aktiviere sie, um Suchmaschinen eine robots.txt-Datei zur Verfügung zu stellen.'
           search_engines:
             button: 'Weitere Informationen'
@@ -69,7 +69,7 @@ fof-seo:
             reason: 'Du musst das durchgehen, um fortzufahren.'
           sitemap:
             button: 'Erfahre mehr über das Hinzufügen einer Sitemap'
-            label: 'Für dein Forum steht eine Sitemap zur Verfügung'
+            label: 'Prüft, ob für dein Forum eine Sitemap zur Verfügung steht'
             reason: 'Es wird dringend empfohlen, die Erweiterung „Sitemap“ von FriendsOfFlarum zu installieren!'
           social_media:
             button: 'Bild aktualisieren'
@@ -77,7 +77,7 @@ fof-seo:
             reason: 'Du hast noch kein Social-Media-Bild für dein Forum festgelegt. Es wird empfohlen, eines festzulegen. Dein Favicon wird nun als Vorschaubild in den sozialen Medien verwendet.'
           ssl:
             button: 'So richtest du SSL ein'
-            label: 'Deine Website verfügt über eine sichere Verbindung (SSL/TLS)'
+            label: 'Prüft, ob deine Website über eine sichere Verbindung (SSL/TLS) verfügt'
             reason: 'Dein Forum erzwingt keine SSL/TLS-Verbindung (eine sichere Verbindung zu deiner Website). Die meisten Suchmaschinen indexieren deine Website nicht oder stufen ihr Ranking herab, wenn keine sichere Verbindung verfügbar ist.'
         default_button: 'Einstellungen aktualisieren'
         legend: 'Um optimale Suchmaschinenergebnisse zu erzielen, stelle sicher, dass alle Häkchen grün sind.'
@@ -222,12 +222,20 @@ fof-seo:
       robots:
         help: 'Robot-Crawling-Einstellungen für diesen Artikel.'
         label: Robots
+        switch:
+          follow: 'Linknachverfolgung auf andere Seiten erlauben'
+          indexing: 'Indizierung der Seite erlauben'
+          noarchive: 'Seite nicht archivieren (noarchive)'
+          noimageindex: 'Bildindizierung auf dieser Seite deaktivieren (noimageindex)'
+          nosnippet: 'Text-Snippets auf der Seite deaktivieren (nosnippet)'
         tags:
           archive_not_allowed: 'Archivieren von Seiten nicht erlauben'
           follow_allowed: 'Folgen von Links zulassen'
           follow_not_allowed: 'Folgen von Links nicht erlauben'
+          imageindex_not_allowed: 'Bildindizierung nicht erlauben'
           indexing_allowed: 'Indizierung der Seite zulassen'
           indexing_not_allowed: 'Seitenindizierung nicht erlauben'
+          snippet_not_allowed: 'Übernahme von Textausschnitten nicht erlauben'
       saved: Gespeichert!
       title: 'SEO-Einstellungen - Meta'
       twitter:
