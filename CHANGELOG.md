@@ -15,6 +15,7 @@ CHANGELOG
 
 * [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 * [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
+* [`ianm/translate`](https://flarum.org/extension/ianm/translate)
 
 
 Alle Änderungen: [1.25.19...1.25.20](https://github.com/flarum-lang/german/compare/1.25.19...1.25.20).
