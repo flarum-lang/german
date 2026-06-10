@@ -14,6 +14,7 @@ CHANGELOG
 
 * [`ernestdefoe/respawn`](https://github.com/ernestdefoe/respawn)
 * [`forumaker/bento`](https://github.com/forumaker/Bento)
+* [`tryhackx/flarum-homepage-blocks`](https://github.com/TryHackX/flarum-homepage-blocks)
 
 
 Alle Änderungen: [2.0.6...2.0.7](https://github.com/flarum-lang/german/compare/2.0.6...2.0.7).
