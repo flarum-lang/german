@@ -74,6 +74,7 @@ linkrobins-blog:
       nav_icon_label: Navigationssymbol
       nav_label_help: 'Die Bezeichnung für den Blog-Link in der Forennavigation. Lasse das Feld leer, um die Standardbezeichnung („Blog“) zu verwenden.'
       nav_label_label: Navigationsbeschriftung
+      save_button: 'Änderungen speichern'
       section_layout: Layout
       section_nav: Navigation
       show_featured_help: 'Wenn aktiviert, wird der neueste Blogbeitrag in einer größeren Highlight-Karte oben auf der Übersichtsseite angezeigt.'
@@ -93,6 +94,8 @@ linkrobins-blog:
       subscribers: Abonnenten
   forum:
     comments_heading: '{count, plural, one {# Kommentar} other {# Kommentare}}'
+    edit_post:
+      cancel_button: Abbrechen
     leave_comment: 'Kommentar hinterlassen'
     load_more: 'Mehr laden'
     login_to_comment: 'Anmelden, um einen Kommentar zu hinterlassen'

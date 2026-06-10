@@ -176,7 +176,7 @@ ramon-avocado:
       choose_primary_tag_singular: '1 Hauptthema auswählen'
       choose_secondary_tag_plural: '{count} Unterthemen auswählen'
       choose_secondary_tag_singular: '1 Unterthema auswählen'
-      choose_tags: 'Themen wählen'
+      choose_tags: 'Themen auswählen'
       composer_body_placeholder: 'Teile deine Meinung…'
       composer_close: Schließen
       composer_edit: Bearbeiten

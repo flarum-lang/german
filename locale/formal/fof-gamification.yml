@@ -94,7 +94,7 @@ fof-gamification:
       upvote_button: 'Beitrag positiv bewerten'
     ranking:
       amount: Punkte
-      name: Nutzer
+      name: Benutzer
       rank: Platz
     user:
       card:

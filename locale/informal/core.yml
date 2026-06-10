@@ -197,6 +197,9 @@ core:
       title: Dashboard
       toggle_advanced_page_button: 'Erweiterte Seite umschalten'
       tools_button: Werkzeuge
+    database-driver-mismatch-warning:
+      detail: "Deine <code>config.php</code> ist für die Verwendung des Datenbanktreibers <code>{configured}</code> konfiguriert, aber Flarum hat festgestellt, dass der Datenbankserver tatsächlich <code>{actual}</code> ist.\n\nDie Verwendung des falschen Treibers kann zu subtilen, schwer zu diagnostizierenden Fehlern führen. Setze <code>‚driver‘ => ‚‘{actual}‚‘</code> im Abschnitt <code>database</code> deiner <code>config.php</code>-Datei. Weitere Informationen findest du in der <link>Flarum-Dokumentation</link>.\n"
+      label: Datenbank-Treiber-Konflikt
     debug-warning:
       detail: "Sofern der <code>Debugmodus</code> aktiv ist, wird Flarum seine <code>JavaScript</code> und <code>CSS</code> Ressourcen bei jedem Seitenabruf neu generieren und könnte zudem potenziell weitere Informationen preisgeben, etwa Datenbankgeheimnisse, Umgebungsvariablen usw.\n\nEs wird dringend empfohlen, den <code>debug</code> in deiner <code>config.php</code> Datei in einem Produktionskontext zu deaktivieren. Konsultiere die <link>Flarum Dokumentation</link> für zusätzliche Informationen.\n"
       label: 'Debugmodus aktiv'

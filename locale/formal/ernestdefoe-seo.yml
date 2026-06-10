@@ -5,6 +5,8 @@
 ernestdefoe-seo:
   admin:
     meta_seo_modal:
+      buttons:
+        save: Speichern
       managed_label: Verwaltet
       meta_description:
         title: Meta-Beschreibung

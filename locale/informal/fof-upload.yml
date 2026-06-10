@@ -166,7 +166,7 @@ fof-upload:
   forum:
     buttons:
       attach: Anhängen
-      cancel: Abbruch
+      cancel: Abbrechen
       media: 'Meine Medien'
       shared_media: 'Geteilte Medien'
       upload: Hochladen

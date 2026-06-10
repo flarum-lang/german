@@ -26,7 +26,7 @@ fof-terms:
     policies:
       export-url: 'Download/Export URL'
       export-url-help: "Jede:r Nutzer:in mit der Berechtigung \"Download/Export alle Richtlinien Daten\" kann auf diese URL zum Download der Nutzer:innen die dieser Richtlinie zugestimmt haben zugreifen. Du kannst weitere Details über verfügbare Optionen im <a>Extension Wiki</a> finden.\n"
-      name: Namen
+      name: Name
       name-help: 'Dieser Name wird sowohl neben der Checkbox wie auch im Titel des Update-Overlays angezeigt.'
       optional: 'Optionale Richtlinie'
       optional-help: 'Wenn diese Option aktiviert ist, können Nutzer das Forum nutzen und mit ihm interagieren, ohne diese Richtlinie zu akzeptieren.'

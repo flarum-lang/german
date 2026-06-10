@@ -4,6 +4,8 @@
 
 tryhackx-thumb-sliders:
   admin:
+    fallback:
+      delete_modal_cancel: Abbrechen
     settings:
       autoplay_speed_help: 'Zeit zwischen den Übergängen in Millisekunden.'
       autoplay_speed_label: 'Wiedergabegeschwindigkeit (ms)'

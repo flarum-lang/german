@@ -4,10 +4,18 @@
 
 linkrobins-support:
   admin:
+    categories:
+      column_name: Name
+    category_editor:
+      field_name: Name
+      submit_update: 'Änderungen speichern'
     settings:
       description: 'Konfiguriere Support-Kategorien und Ratenbegrenzungen für das Ticket-System.'
       title: Support
   forum:
+    action:
+      cancel: Abbrechen
+      save_changes: 'Änderungen speichern'
     nav: Support
     new_ticket: 'Neues Ticket'
     settings:
