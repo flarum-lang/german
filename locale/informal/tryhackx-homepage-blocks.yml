@@ -18,8 +18,22 @@ tryhackx-homepage-blocks:
       content_length_help: 'Die Inhaltsspalte ist vom Typ „mediumtext“ (bis zu 16 Millionen Zeichen). Setze den Wert auf 0, um leere Beiträge zuzulassen.'
       content_max_length: 'Maximallänge des Inhalts'
       content_min_length: 'Mindestlänge des Inhalts'
-      custom_links: 'Benutzerdefinierte Links (JSON)'
-      custom_links_help: 'JSON-Array mit den Eigenschaften „label“, „url“, „color“ und „external“. Entnimm das Format bitte dem Platzhalter.'
+      custom_links: Links
+      custom_links_add: 'Link hinzufügen'
+      custom_links_class: CSS-Klasse
+      custom_links_class_placeholder: 'z. B. glow-on-hover'
+      custom_links_color: Farbe
+      custom_links_css: 'Benutzerdefiniertes CSS (fancy buttons)'
+      custom_links_css_help: 'Optionale CSS-Einbindung für die gesamte Website. Füge hier deine Klassendefinitionen (und @keyframes) ein und gib den Klassennamen anschließend in das Feld „CSS-Klasse“ eines Links ein, um diesen zu gestalten – zum Beispiel eine Schaltfläche mit Leuchteffekt beim Bewegen des Mauszeigers darüber.'
+      custom_links_help: 'In Abschnitt 1 angezeigte Links. Jeder Link hat einen Namen und eine URL; optional eine Farbe und die Angabe, ob er in einem neuen Tab geöffnet wird.'
+      custom_links_move_down: 'Nach unten'
+      custom_links_move_up: 'Nach oben'
+      custom_links_name: Name
+      custom_links_newtab: 'In einem neuen Tab öffnen'
+      custom_links_remove: Entfernen
+      custom_links_title: 'Titel des Link-Abschnitts'
+      custom_links_title_help: 'Optionaler Titel, der über den Links angezeigt wird (zum Beispiel: Nützliche Links). Lasse das Feld leer, um ihn auszublenden.'
+      custom_links_url: URL
       external_stats_enabled: 'Statistiken für externe Tracker aktivieren (OpenTracker)'
       external_stats_mode: 'Externe Statistikquelle'
       external_stats_native_url: 'Direkte OpenTracker-URL (nativ)'
@@ -41,7 +55,7 @@ tryhackx-homepage-blocks:
       recaptcha_points_cost_search: 'Kosten — Suche / Filter'
       recaptcha_points_cost_stats: 'Kosten — Interne Statistiken'
       recaptcha_points_enabled: 'Punktbasierte Ratenbegrenzung aktivieren'
-      recaptcha_points_enabled_help: 'Anstatt bei jeder Anfrage ein reCAPTCHA zu lösen, verfügt jeder Besucher über ein Punktebudget. Ist dieses aufgebraucht, erscheint ein Captcha-Fenster. Das Guthaben füllt sich im Laufe der Zeit wieder auf.'
+      recaptcha_points_enabled_help: 'Jeder Besucher verfügt über ein Punktguthaben, das sich mit der Zeit wieder auffüllt, sodass eine gelegentliche Nutzung reibungslos funktioniert, während massives Spamming unterbunden wird. Wenn das Guthaben aufgebraucht ist, kannst du entweder ein reCAPTCHA verlangen oder die IP-Adresse vorübergehend sperren (siehe unten) – im Sperrmodus ist kein reCAPTCHA erforderlich.'
       recaptcha_points_guest_extra: 'Zusatzkosten für Gäste'
       recaptcha_points_guest_extra_help: 'Wird zu den Kosten jeder Aktion für nicht angemeldete Besucher addiert. Standard: +2'
       recaptcha_points_refill_amount: Nachfüllmenge
