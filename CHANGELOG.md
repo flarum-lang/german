@@ -12,6 +12,7 @@ CHANGELOG
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`ernestdefoe/respawn`](https://github.com/ernestdefoe/respawn)
 * [`forumaker/bento`](https://github.com/forumaker/Bento)
 
 
