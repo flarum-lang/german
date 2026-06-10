@@ -7,12 +7,14 @@ CHANGELOG
 
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
+* [`datlechin/flarum-passkey`](https://github.com/datlechin/flarum-passkey)
 * [`jeromegillard/map`](https://github.com/JeromeGillard/flarum-map)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
 
 
 Alle Änderungen: [1.25.19...1.25.20](https://github.com/flarum-lang/german/compare/1.25.19...1.25.20).
