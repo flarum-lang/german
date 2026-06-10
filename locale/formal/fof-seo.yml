@@ -83,7 +83,7 @@ fof-seo:
         default_button: 'Einstellungen aktualisieren'
         legend: 'Um optimale Suchmaschinenergebnisse zu erzielen, stelle sicher, dass alle Häkchen grün sind.'
         status:
-          passed: 'Alles bereit!'
+          passed: 'Alles OK!'
           warning: Warnung!
         table:
           status: Status
@@ -111,7 +111,7 @@ fof-seo:
         just_installed_heading: 'Ich habe die Erweiterung gerade installiert'
         robots_body: 'Die selbe Erweiterung erstellt außerdem eine <b>robots.txt</b> für dein Forum. Diese Datei teilt Suchmaschinen mit, welche Bereiche sie crawlen dürfen, und verweist sie auf die Sitemap. Durch die Installation werden also beide Dateien auf einmal eingerichtet – es sind keine zusätzlichen Konfigurationen erforderlich.'
         robots_heading: 'Was hat es mit der robots.txt-Datei auf sich?'
-        which_extension_body: '{link} ist die empfohlene Erweiterung für Flarum. Wir empfehlen nachdrücklich, diese Erweiterung zu installieren und zu aktivieren.'
+        which_extension_body: '{link} ist die empfohlene Erweiterung für Flarum. Wir empfehlen nachdrücklich, diese zu installieren und zu aktivieren.'
         which_extension_details: 'Diese Erweiterung sorgt dafür, dass Crawler deine <b>Diskussionen</b>, <b>Themen</b> (sofern die Erweiterung aktiviert ist) und <b>Seiten</b> (sofern die Erweiterung installiert und aktiviert ist) finden. Außerdem wird automatisch eine sitemap.xml bereitgestellt.'
         which_extension_heading: 'Welche Erweiterung soll ich installieren?'
         why_body: 'Eine Sitemap ist eine XML-Datei, die eine Liste aller auf deiner Website verfügbaren Seiten enthält. Sie wird von Crawlern und Suchmaschinen genutzt, um Seiten auf deiner Website zu finden.'

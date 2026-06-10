@@ -28,7 +28,7 @@ datlechin-passkey:
   email:
     backup_state:
       body: "Hallo {username},\n\nDein Passkey „{device}“ auf {forum} hat nun den Status {state}.\n\nWenn du dies selbst ausgelöst hast (beispielsweise durch die Anmeldung bei iCloud Keychain oder einem Passwort-Manager auf einem neuen Gerät), kannst du diese Nachricht ignorieren. Falls nicht, melde dich an und überprüfe den Reiter „Sicherheit“. Der Passkey wurde möglicherweise auf ein anderes Gerät kopiert.\n\n{forum}\n"
-      subject: 'Der Synchronisierungsstatus eines Passworts auf {forum} hat sich geändert'
+      subject: 'Der Synchronisierungsstatus eines Passkeys auf {forum} hat sich geändert'
       synced: 'synchronisiert mit einem Cloud-Passwortmanager'
       unsynced: 'nur auf einem einzigen Gerät gespeichert'
     bulk_revoked:
@@ -38,7 +38,7 @@ datlechin-passkey:
       subject: 'Alle Passkeys wurden aus deinem {forum}-Konto entfernt'
     counter_regression:
       body: "Hallo {username},\n\nDer Versuch, sich bei {forum} mit deinem Passkey „{device}“ anzumelden, ist fehlgeschlagen, da der Signaturzähler der Anmeldedaten niedriger war als der in unseren Unterlagen vermerkte. Dies ist ein eindeutiges Anzeichen dafür, dass die Anmeldedaten möglicherweise auf ein zweites Gerät kopiert wurden.\n\nDie Anmeldung wurde abgelehnt. Wir empfehlen dir, dich mit deinem Passwort anzumelden, diesen Passkey zu widerrufen und einen neuen zu registrieren. Falls du andere Geräte mit denselben Anmeldedaten konfiguriert hast, entferne diese ebenfalls aus deinem Passwort-Manager.\n\n{forum}\n"
-      subject: 'Möglicher Passwort-Klon bei deinem {forum}-Konto festgestellt'
+      subject: 'Möglicher Passkey-Klon bei deinem {forum}-Konto festgestellt'
     revoked:
       actor_admin: 'Ein Moderator der Website hat ihn in deinem Namen entfernt.'
       actor_self: 'Du hast diesen Widerruf über die Registerkarte „Sicherheit“ veranlasst.'
@@ -101,7 +101,7 @@ datlechin-passkey:
       body: 'Melde dich beim nächsten Mal schneller an, ohne dir ein Passwort merken zu müssen. Dein Gerät generiert einen Passkey, der nur auf dieser Website funktioniert.'
       not_now: 'Nicht jetzt'
       set_up: 'Passkey einrichten'
-      title: 'Ein Passkey einrichten'
+      title: 'Einen Passkey einrichten'
   gdpr:
     anonymize_description: 'Alle Passkeys dieses Benutzers werden widerrufen.'
     delete_description: 'Alle Passkeys dieses Benutzers werden gelöscht.'
