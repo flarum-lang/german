@@ -5,18 +5,36 @@ CHANGELOG
 2.0.7 (XXXX-XX-XX)
 ------------------
 
+**Allgemeine Änderungen**:
+
+* Flarum-Core Übersetzungen aktualisiert.
+
+
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
+* [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar)
+* [`ernestdefoe/giveaways`](https://github.com/ernestdefoe/giveaways)
+* [`ernestdefoe/group-messages`](https://github.com/ernestdefoe/group-messages)
 * [`linkrobins/toc`](https://github.com/linkrobins/toc)
+* [`ramon/backup`](https://github.com/ram0ng1/backup)
+* [`ramon/point-system`](https://github.com/ram0ng1/point-system)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`datlechin/flarum-passkey`](https://github.com/datlechin/flarum-passkey)
 * [`ernestdefoe/respawn`](https://github.com/ernestdefoe/respawn)
+* [`ernestdefoe/seo`](https://github.com/ernestdefoe/seo)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
 * [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`forumaker/bento`](https://github.com/forumaker/Bento)
+* [`linkrobins/blog`](https://github.com/linkrobins/blog)
+* [`linkrobins/support`](https://github.com/linkrobins/support)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado)
 * [`tryhackx/flarum-homepage-blocks`](https://github.com/TryHackX/flarum-homepage-blocks)
+* [`tryhackx/flarum-thumb-sliders`](https://github.com/TryHackX/flarum-thumb-sliders)
 
 
 Alle Änderungen: [2.0.6...2.0.7](https://github.com/flarum-lang/german/compare/2.0.6...2.0.7).
