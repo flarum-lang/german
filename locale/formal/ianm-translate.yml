@@ -28,7 +28,7 @@ ianm-translate:
       edit-translation: 'Manuelles Bearbeiten einer Übersetzung'
       refresh-translation: 'Neuübersetzung einer zwischengespeicherten Übersetzung erzwingen'
       translate-to-all-locales: 'Übersetzung in allen Forensprachen anzeigen'
-      translate-to-locale: 'Übersetzung in aktuellen Forensprache anzeigen'
+      translate-to-locale: 'Übersetzung in aktueller Forensprache anzeigen'
     settings:
       bind-browser-language: 'Browsersprache hinzufügen'
       bind-browser-language-help: 'Wenn aktiviert, werden die Browsersprache(n) des Benutzers zur Liste der für die Übersetzung verfügbaren Sprachen hinzugefügt.'
