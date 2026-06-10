@@ -5,8 +5,17 @@
 forumaker-bento:
   admin:
     settings:
-      columns_desktop: 'Anzahl der Kacheln pro Reihe'
-      columns_desktop_help: 'Zwischen 2 und 6 Kacheln pro Reihe auf Desktop. Die Mobilversion verwendet weiterhin die Flarum-Standardnavigation.'
+      columns_desktop: 'Elemente pro Reihe'
+      columns_desktop_help: 'Zwischen 2 und 6 pro Reihe auf Desktop. Die Mobilversion verwendet weiterhin die Flarum-Standardnavigation.'
+      layout: Navigationsart
+      layout_help: 'Kacheln: Karten mit Symbol und Beschriftung. Pillen: kompakte Inline-Elemente'
+      layout_pills: Pillen
+      layout_tiles: Kacheln
+      pill_shape: Form
+      pill_shape_capsule: Kapsel
+      pill_shape_help: 'Kapsel: vollständig abgerundete Kanten. Rechteck: entspricht eher dem Standard-Flarum-Stil'
+      pill_shape_rect: Rechteck
       plain_create_button: 'Füllung von der Schaltfläche „Neue Diskussion“ entfernen'
-      plain_create_button_help: 'Visuell den Nachbarkacheln angleichen — kein farbiger Hintergrund'
-      section_grid: Kacheln
+      plain_create_button_help: 'Visuell den Nachbarelementen angleichen — kein farbiger Hintergrund'
+      section_grid: Einstellungen
+      section_layout: Erscheinungsbild
