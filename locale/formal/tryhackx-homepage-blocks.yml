@@ -43,6 +43,7 @@ tryhackx-homepage-blocks:
       external_stats_url: 'Proxy-URL (JSON)'
       external_stats_url_help: 'URL, die JSON-Daten mit den Feldern „torrents“, „seeds“, „peers“, „completed“ und „uptime“ zurückgibt'
       hide_hero: 'Standard-Banner von Flarum verbergen'
+      points_costs_header: Aktionskosten
       random_buttons: 'Konfiguration der Zufalls-Schaltfläche (JSON)'
       random_buttons_help: 'JSON-Array mit den Eigenschaften „label“ und „tag“. Das Format des Platzhalters dient als Beispiel.'
       recaptcha_enabled: 'reCAPTCHA aktivieren'
@@ -50,12 +51,22 @@ tryhackx-homepage-blocks:
       recaptcha_on_random: 'reCAPTCHA für zufällige Schaltflächen erfordern'
       recaptcha_on_search: 'reCAPTCHA für die Suche / erweiterte Filter aktivieren'
       recaptcha_on_stats: 'reCAPTCHA für interne Statistiken erfordern'
+      recaptcha_points_block_reset: 'Wenn die Sperre aufgehoben wird'
+      recaptcha_points_block_reset_empty: 'Leer neu starten (von Null auffüllen)'
+      recaptcha_points_block_reset_full: 'Volles Punktguthaben zurück geben'
+      recaptcha_points_block_reset_help: 'Was aus dem Punktguthaben des Besuchers wird, sobald der IP-Block abgelaufen ist. „Voll“ ist großzügiger; bei „Leer“ bleibt die Drosselung bestehen (die Punkte werden dann mit der Auffüllrate nach und nach wieder gutgeschrieben). Während der Blockierung werden die Punkte nie wieder aufgefüllt – der Block dauert immer die gesamte Dauer und wird nicht vorzeitig aufgehoben.'
+      recaptcha_points_block_seconds: 'Dauer der IP-Sperre (Sekunden)'
+      recaptcha_points_block_seconds_help: 'Wie lange eine IP-Adresse gesperrt bleibt, nachdem die Punkte aufgebraucht sind (Sperrmodus). Während der Sperre werden keine Punkte nachgeladen. Standard: 60 Sekunden'
       recaptcha_points_cost_external_stats: 'Kosten — Externe Statistiken'
       recaptcha_points_cost_random: 'Kosten — Zufällige Schaltfläche'
       recaptcha_points_cost_search: 'Kosten — Suche / Filter'
       recaptcha_points_cost_stats: 'Kosten — Interne Statistiken'
       recaptcha_points_enabled: 'Punktbasierte Ratenbegrenzung aktivieren'
       recaptcha_points_enabled_help: 'Jeder Besucher verfügt über ein Punktguthaben, das sich mit der Zeit wieder auffüllt, sodass eine gelegentliche Nutzung reibungslos funktioniert, während massives Spamming unterbunden wird. Wenn das Guthaben aufgebraucht ist, kannst du entweder ein reCAPTCHA verlangen oder die IP-Adresse vorübergehend sperren (siehe unten) – im Sperrmodus ist kein reCAPTCHA erforderlich.'
+      recaptcha_points_enforcement: 'Wenn Punkte aufgebraucht sind'
+      recaptcha_points_enforcement_block: 'IP vorübergehend sperren'
+      recaptcha_points_enforcement_captcha: 'reCAPTCHA-Challenge anzeigen'
+      recaptcha_points_enforcement_help: 'Was passiert, wenn ein Besucher seine Punkte aufgebraucht hat. Die Option „Vorübergehend sperren“ erfordert kein reCAPTCHA – ideal für eine reine IP-Ratenbegrenzung. Ist reCAPTCHA nicht konfiguriert, wird automatisch der Sperrmodus verwendet.'
       recaptcha_points_guest_extra: 'Zusatzkosten für Gäste'
       recaptcha_points_guest_extra_help: 'Wird zu den Kosten jeder Aktion für nicht angemeldete Besucher addiert. Standard: +2'
       recaptcha_points_refill_amount: Nachfüllmenge
@@ -132,6 +143,8 @@ tryhackx-homepage-blocks:
     interval_all: Alle
     interval_today: Heute
     random_not_found: 'In dieser Kategorie wurden keine Diskussionen gefunden.'
+    rate_limited: 'Zu viele Aktionen in kurzer Zeit. Bitte versuche es in {seconds} Sekunden erneut.'
+    rate_limited_ready: 'Du kannst es jetzt erneut versuchen.'
     sort_asc: Aufsteigend
     sort_avg_rating: 'Durchschnittliche Bewertung'
     sort_created: Erstellungsdatum
