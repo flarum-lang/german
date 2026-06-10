@@ -12,7 +12,9 @@ CHANGELOG
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`datlechin/flarum-passkey`](https://github.com/datlechin/flarum-passkey)
 * [`ernestdefoe/respawn`](https://github.com/ernestdefoe/respawn)
+* [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
 * [`forumaker/bento`](https://github.com/forumaker/Bento)
 * [`tryhackx/flarum-homepage-blocks`](https://github.com/TryHackX/flarum-homepage-blocks)
 
