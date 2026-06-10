@@ -7,17 +7,25 @@ ernestdefoe-respawn:
     settings:
       chips_help: 'Durch Kommas getrennte Liste von Tag-Slugs, die als Schnellzugriff-Kacheln angezeigt werden sollen (z. B. halo, elden-ring, deals). Leer lassen, um sie auszublenden.'
       chips_label: 'Hero Themen-Chips'
+      chips_placeholder: 'halo, elden-ring, angebote'
       eyebrow_help: 'Kleine Akzentlinie über der Überschrift (z. B. ▸ Spieler verbunden).'
       eyebrow_label: 'Hero Augenbraue'
+      eyebrow_placeholder: '▸ Spieler verbunden'
       mode_help: 'Standardfarbmodus. Benutzer können über das Mond-/Sonnen-Symbol in der Kopfzeile zwischen den Modi wechseln.'
       mode_label: Designmodus
+      mode_option_dark: Dunkel
+      mode_option_light: Hell
       tagline_help: 'Untertitel, der unter der Begrüßungszeile angezeigt wird. Zum Ausblenden leer lassen.'
       tagline_label: 'Hero Slogan'
+      tagline_placeholder: 'Schau rein, Level up und diskutiere mit.'
   forum:
     hero:
       new_discussion: '+ Neue Diskussion'
       search_placeholder: 'Diskussionen, Spieler, Themen suchen…'
       welcome: 'Willkommen im {forum}'
+    mode:
+      to_dark: 'Zum dunklen Modus wechseln'
+      to_light: 'Zum hellen Modus wechseln'
     stats:
       discussions: Diskussionen
       empty: —
