@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+2.0.7 (XXXX-XX-XX)
+------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`linkrobins/toc`](https://github.com/linkrobins/toc)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`forumaker/bento`](https://github.com/forumaker/Bento)
+
+
+Alle Änderungen: [2.0.6...2.0.7](https://github.com/flarum-lang/german/compare/2.0.6...2.0.7).
+
+
 2.0.6 (2026-06-09)
 ------------------
 
