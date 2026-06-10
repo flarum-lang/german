@@ -5,6 +5,11 @@ CHANGELOG
 1.25.20 (XXXX-XX-XX)
 --------------------
 
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`jeromegillard/map`](https://github.com/JeromeGillard/flarum-map)
+
+
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
