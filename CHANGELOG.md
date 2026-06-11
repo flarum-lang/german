@@ -23,6 +23,7 @@ CHANGELOG
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`datlechin/flarum-link-clicks`](https://github.com/datlechin/flarum-link-clicks)
 * [`datlechin/flarum-passkey`](https://github.com/datlechin/flarum-passkey)
 * [`ernestdefoe/respawn`](https://github.com/ernestdefoe/respawn)
 * [`ernestdefoe/seo`](https://github.com/ernestdefoe/seo)
