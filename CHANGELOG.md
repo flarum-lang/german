@@ -15,6 +15,7 @@ CHANGELOG
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
 * [`ianm/translate`](https://flarum.org/extension/ianm/translate)
 
