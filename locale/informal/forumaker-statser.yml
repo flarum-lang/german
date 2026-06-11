@@ -5,7 +5,12 @@
 forumaker-statser:
   admin:
     permissions:
+      view_current_page: 'Zuletzt aufgerufene Seiten im Widget anzeigen'
+      view_discussions_count: 'Anzahl der Diskussionen im Widget anzeigen'
+      view_latest_registration: 'Letzte Registrierung im Widget anzeigen'
       view_online_users: 'Aktuelle Online-Benutzer im Widget anzeigen'
+      view_posts_count: 'Anzahl der Beiträge im Widget anzeigen'
+      view_users_count: 'Gesamtzahl der Nutzer im Widget anzeigen'
     settings:
       enable_heartbeat: 'Aktivitäts-Herzschlag aktivieren'
       enable_heartbeat_help: 'Ein geöffneter Tab sendet in regelmäßigen Abständen eine Anfrage, die den aktiven Status des Benutzers aktualisiert'
