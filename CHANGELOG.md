@@ -27,6 +27,7 @@ CHANGELOG
 * [`ernestdefoe/respawn`](https://github.com/ernestdefoe/respawn)
 * [`ernestdefoe/seo`](https://github.com/ernestdefoe/seo)
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
 * [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
