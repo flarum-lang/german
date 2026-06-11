@@ -8,8 +8,9 @@ forumaker-bento:
       columns_desktop: 'Elemente pro Reihe'
       columns_desktop_help: 'Zwischen 2 und 6 pro Reihe auf Desktop. Die Mobilversion verwendet weiterhin die Flarum-Standardnavigation.'
       layout: Navigationsart
-      layout_help: 'Kacheln: Karten mit Symbol und Beschriftung. Pillen: kompakte Inline-Elemente'
+      layout_help: 'Kacheln: Karten mit Symbol und Beschriftung. Pillen: kompakte Inline-Elemente. Slider: horizontal scrollbare Zeile'
       layout_pills: Pillen
+      layout_slider: Slider
       layout_tiles: Kacheln
       pill_shape: Form
       pill_shape_capsule: Kapsel
