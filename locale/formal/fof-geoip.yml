@@ -92,6 +92,7 @@ fof-geoip:
     copy_ip_label: 'IP-Adresse in die Zwischenablage kopieren'
     custom_flag:
       none: 'Keine benutzerdefinierte Flagge'
+      placeholder: 'Suche ein Land…'
     map_button_label: IP-Informationen
     map_modal:
       as: ASN
