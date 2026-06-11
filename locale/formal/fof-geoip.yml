@@ -13,6 +13,8 @@ fof-geoip:
       see_country: 'Land zur IP-Adresse immer anzeigen'
     settings:
       access_key_label: Zugangsschlüssel
+      allow_custom_flag_help: 'Wenn aktiviert, können Benutzer in ihren Profileinstellungen ein Land auswählen, das neben ihren Beiträgen angezeigt werden soll. Die vom Benutzer ausgewählte Flagge wird allen angezeigt und hat Vorrang vor der IP-basierten Flagge. Dazu muss die Option „Länderflagge für jeden Beitrag anzeigen“ aktiviert sein.'
+      allow_custom_flag_label: 'Benutzern erlauben, das Land selber auszuwählen'
       error_code_prefix: 'Code:'
       error_prefix: 'Fehler:'
       general:
@@ -87,4 +89,26 @@ fof-geoip:
       zip_code: PLZ
     user:
       settings:
+        custom_flag_help: 'Wähle eine Landesflagge aus, die neben deinen Beiträgen angezeigt werden soll. Diese Flagge ist für alle sichtbar und wird anstelle der Flagge angezeigt, die sich nach deiner IP-Adresse richtet.'
+        custom_flag_label: 'Flagge eines bestimmten Landes'
         ip_country: 'Die Flagge des Landes anzeigen, aus dem ich poste, basierend auf meiner IP-Adresse'
+  lib:
+    alerts:
+      ip_copied: 'IP-Adresse kopiert'
+    copy_ip_label: 'IP-Adresse in die Zwischenablage kopieren'
+    custom_flag:
+      none: 'Keine benutzerdefinierte Flagge'
+    map_button_label: IP-Informationen
+    map_modal:
+      as: ASN
+      country_code: Ländercode
+      error: Fehler
+      ip_address: IP-Adresse
+      isp: Internetanbieter
+      mobile: Mobilfunknetz
+      not_enough_data: 'Es liegen nicht genügend Daten vor, um eine Karte zu erstellen'
+      organization: Organisation
+      threat_level: Bedrohungsstufe
+      threat_types: 'Arten von Bedrohungen'
+      title: IP-Informationen
+      zip_code: Postleitzahl
