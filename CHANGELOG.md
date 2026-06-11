@@ -8,6 +8,7 @@ CHANGELOG
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
 * [`datlechin/flarum-passkey`](https://github.com/datlechin/flarum-passkey)
+* [`huseyinfiliz/custom-profile-page`](https://github.com/huseyinfiliz/custom-profile-page)
 * [`jeromegillard/map`](https://github.com/JeromeGillard/flarum-map)
 
 
