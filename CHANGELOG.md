@@ -34,6 +34,7 @@ CHANGELOG
 * [`linkrobins/blog`](https://github.com/linkrobins/blog)
 * [`linkrobins/support`](https://github.com/linkrobins/support)
 * [`ramon/avocado`](https://github.com/ram0ng1/avocado)
+* [`tryhackx/flarum-advanced-pages`](https://github.com/TryHackX/flarum-advanced-pages)
 * [`tryhackx/flarum-homepage-blocks`](https://github.com/TryHackX/flarum-homepage-blocks)
 * [`tryhackx/flarum-thumb-sliders`](https://github.com/TryHackX/flarum-thumb-sliders)
 
