@@ -5,10 +5,14 @@
 tryhackx-advanced-pages:
   admin:
     edit_page:
+      allow_scripts_help: 'Skript-Tags auf dieser Seite sperren (standardmäßig deaktiviert): Bei deaktivierter Option werden sie nicht ausgeführt; bei aktivierter Option werden Inline- und externe Skripte im Browser jedes Besuchers ausgeführt. Dies ist KEINE Sandbox – reines HTML kann JavaScript weiterhin auf andere Weise ausführen (z. B. über Inline-Attribute für Ereignisbehandler wie „onerror“), veröffentliche daher nur HTML-/PHP-Seiten, denen du voll und ganz vertraust.'
+      allow_scripts_label: 'Skript-Ausführung auf dieser Seite zulassen'
       cancel_button: Abbrechen
       content_label: Inhalt
       content_type_label: Inhaltstyp
       create_title: 'Seite erstellen'
+      custom_breadcrumbs_css_help: 'Gestalte die Breadcrumbs für diese Seite und alle darunter liegenden Seiten (oder blende sie aus). Verwende z. B. den Selektor „.AdvancedPages-breadcrumbs“ und „display:none“, um sie vollständig auszublenden.'
+      custom_breadcrumbs_css_label: 'Benutzerdefiniertes CSS für Breadcrumbs?'
       delete_button: Löschen
       delete_confirmation: 'Möchtest du diese Seite wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden.'
       delete_title: 'Seite löschen'
@@ -22,6 +26,9 @@ tryhackx-advanced-pages:
       newline_flarum: 'Flarum (Standardversion – mehrere Zeilenumbrüche = ein Zeilenumbruch)'
       newline_mode_label: Zeilenumbruch-Modus
       newline_preserve: 'Beibehalten (alle Zeilenumbrüche beibehalten)'
+      parent_help: 'Optional. Verschachtele diese Seite unter einer anderen, um eine Hierarchie aufzubauen (z. B. /p/docs/getting-started). Bei der Auswahl einer übergeordneten Seite wird ein passender Slug vorgeschlagen – Du kannst diesen jedoch noch bearbeiten.'
+      parent_label: 'Übergeordnete Seite'
+      parent_none: '— Keine (Top-Ebene) —'
       php_warning: 'PHP-Seiten führen serverseitigen Code aus. Erstelle PHP-Seiten nur, wenn du dir der damit verbundenen Sicherheitsrisiken bewusst bist. Fehler werden protokolliert, aber den Besuchern niemals angezeigt.'
       preview: Vorschau
       raw: Roh
@@ -37,6 +44,7 @@ tryhackx-advanced-pages:
       actions_column: Aktionen
       create_button: 'Seite erstellen'
       draft: Entwurf
+      drag_hint: 'Zum Neuanordnen ziehen – auf eine Seite ziehen, um sie darunter einzufügen'
       edit_button: Bearbeiten
       empty: 'Es wurden noch keine Seiten erstellt.'
       everyone: Jeder
@@ -49,6 +57,9 @@ tryhackx-advanced-pages:
       title_column: Titel
       type_column: Art
     permissions:
+      create_bbcode_label: 'Seiten erstellen: BBCode'
+      create_markdown_label: 'Seiten erstellen: Markdown'
+      create_text_label: 'Seiten erstellen: Reiner Text'
       manage_pages_label: 'Erweiterte Seiten verwalten'
       view_spoilers_label: 'Spoilerinhalt anzeigen'
     settings:
@@ -72,3 +83,5 @@ tryhackx-advanced-pages:
       loading: 'Wird geladen…'
       not_found_message: 'Die gesuchte Seite existiert nicht oder du hast keine Berechtigung, sie anzuzeigen.'
       not_found_title: 'Seite nicht gefunden'
+    spoiler:
+      locked: 'Du hast keine Berechtigung, Spoiler-Inhalte anzuzeigen.'

@@ -4,15 +4,27 @@
 
 forumaker-statser:
   admin:
+    permissions:
+      view_online_users: 'Aktuelle Online-Benutzer im Widget anzeigen'
     settings:
+      enable_heartbeat: 'Aktivitäts-Herzschlag aktivieren'
+      enable_heartbeat_help: 'Ein geöffneter Tab sendet in regelmäßigen Abständen eine Anfrage, die den aktiven Status des Benutzers aktualisiert'
       exclude_bots: 'Bots bei Zählung der Gäste ausschließen'
       exclude_bots_help: 'Verhindert, dass Suchmaschinen-Crawler den Gästezähler in die Höhe treiben'
+      heartbeat_interval: 'Intervall des Aktivitätsherzschlags – in Sekunden'
+      heartbeat_interval_help: 'Wie oft ein aktiver Tab einen Präsenz-Ping sendet. Niedrigere Werte sind genauer, verursachen jedoch mehr Hintergrundanfragen'
+      ignore_private_discussions: 'Private Diskussionen aus der Zählung ausschließen'
       include_guests_in_total: 'Gäste bei der Online-Zählung mit einbeziehen'
       last_seen_interval: 'Online-Intervall – in Minuten'
       last_seen_interval_help: 'Minuten der Inaktivität, nach der ein Benutzer nicht mehr als online zählt'
+      max_avatars: 'Maximaler Anzahl an Avataren im Widget'
+      max_avatars_help: 'Wie viele Avatare sollen im Widget angezeigt werden? Alle weiteren werden zu einem „+N“-Zähler zusammengefasst.'
       online_users_cache_ttl: 'Cache für Online-Nutzer – in Sekunden'
       section_activity: Aktivität
       section_online: Online
+      section_stats: Forumzähler
+      show_current_page: 'Die vom Benutzer aktuell angesehene Seite anzeigen, wenn der Mauszeiger über das Profilbild bewegt wird'
+      show_current_page_help: 'Verfolgt die Hauptbereiche des Forums – Diskussionen und Profile. Zeigt andernfalls eine allgemeine Bezeichnung an'
       show_discussions_count: 'Anzahl der Diskussionen anzeigen'
       show_hidden_users: 'Anzahl der versteckten Benutzer anzeigen'
       show_hidden_users_help: 'Anzahl der anonymen Nutzer, ohne deren Identität preiszugeben'
@@ -26,8 +38,12 @@ forumaker-statser:
       stats_cache_duration: 'Statistik-Cache – in Sekunden'
       stats_cache_duration_help: '0 deaktiviert das Caching. Nicht empfohlen für große Foren'
   forum:
+    aria:
+      collapse: 'Online-Benutzer verbergen'
+      expand: 'Online-Benutzer anzeigen'
     routes:
       discussion: 'Diskussion „{title}“'
+      flags: Meldungen
       generic: 'das Forum'
       index: 'alle Diskussionen'
       notifications: Benachrichtigungen
