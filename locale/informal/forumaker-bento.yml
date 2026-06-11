@@ -14,8 +14,8 @@ forumaker-bento:
       layout_tiles: Kacheln
       pill_shape: Form
       pill_shape_capsule: Kapsel
-      pill_shape_help: 'Kapsel: vollständig abgerundete Kanten. Rechteck: entspricht eher dem Standard-Flarum-Stil'
-      pill_shape_rect: Rechteck
+      pill_shape_help: 'Kapsel: vollständig abgerundete Kanten. Klassisch: Standard-Eckenradius von Flarum'
+      pill_shape_rect: Klassisch
       plain_create_button: 'Füllung von der Schaltfläche „Neue Diskussion“ entfernen'
       plain_create_button_help: 'Visuell den Nachbarelementen angleichen — kein farbiger Hintergrund'
       section_grid: Einstellungen
