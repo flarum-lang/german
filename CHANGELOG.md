@@ -15,6 +15,7 @@ CHANGELOG
 * [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar)
 * [`ernestdefoe/giveaways`](https://github.com/ernestdefoe/giveaways)
 * [`ernestdefoe/group-messages`](https://github.com/ernestdefoe/group-messages)
+* [`forumaker/statser`](https://github.com/forumaker/Statser)
 * [`linkrobins/toc`](https://github.com/linkrobins/toc)
 * [`ramon/backup`](https://github.com/ram0ng1/backup)
 * [`ramon/point-system`](https://github.com/ram0ng1/point-system)
