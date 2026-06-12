@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+2.0.8 (XXXX-XX-XX)
+------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
+* [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha)
+
+
+Alle Änderungen: [2.0.7...2.0.8](https://github.com/flarum-lang/german/compare/2.0.7...2.0.8).
+
+
 2.0.7 (2026-06-12)
 ------------------
 
