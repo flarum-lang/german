@@ -4,12 +4,20 @@
 
 litalino-related-discussions:
   admin:
+    DiscussionPageLayout: 'Ähnliche Diskussionen am Ende der Diskussionsseiten anzeigen'
     relatedLimit: 'Ähnliche Diskussionen, die angezeigt werden sollen (Standard: 4)'
+    relatedLimit-help: 'Gib hier die Anzahl der Beiträge ein, die du sehen möchtest (z. B. „4“)'
+    relatedTitle: 'Überschrift für „Ähnliche Diskussionen“'
+    relatedTitle-help: 'Ersetze den Standardtitel für ähnliche Diskussion durch deinen eigenen'
+    showExcerpt: 'Auszug der Zusammenfassung anzeigen'
+    showTooltip: 'Tooltip mit Auszug anzeigen'
   forum:
+    avatarTooltip: 'Beitrag erstellt am'
     deleted: Gelöscht
     hasBestAnswer: Gelöst
     hasBestAnswer-title: 'Diese Diskussion wurde als gelöst markiert'
     participants: Teilnehmer
     postedOn: um
     postnumber: 'Anzahl der Beiträge'
+    reldiscussion: 'Vorgeschlagene Diskussionen'
     repliedOn: geantwortet
