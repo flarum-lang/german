@@ -14,14 +14,21 @@ CHANGELOG
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`clarkwinkelmann/flarum-ext-anonymous-posting`](https://github.com/clarkwinkelmann/flarum-ext-anonymous-posting)
+* [`clarkwinkelmann/flarum-ext-post-stream-search`](https://github.com/clarkwinkelmann/flarum-ext-post-stream-search)
 * [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
 * [`glowingblue/localizd`](https://flarum.org/extension/glowingblue/localizd)
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
 * [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
 * [`ianm/translate`](https://flarum.org/extension/ianm/translate)
+* [`justoverclock/theaudiodb-api`](https://github.com/justoverclockl/theaudiodb-api)
 * [`litalino/flarum-related-discussions`](https://github.com/Litalino/flarum-related-discussions)
 * [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha)
+* [`ralkage/flarum-ext-profile-messages`](https://github.com/Ralkage/flarum-ext-profile-messages)
+* [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in)
+* [`ziiven/money-transfer`](https://github.com/Ziiven/ziven-money-transfer)
 
 
 Alle Änderungen: [1.25.19...1.25.20](https://github.com/flarum-lang/german/compare/1.25.19...1.25.20).
