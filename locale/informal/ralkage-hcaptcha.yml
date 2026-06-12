@@ -16,6 +16,6 @@ ralkage-hcaptcha:
       site_key_label: Seiten-Schlüssel
       type_label: hCaptcha-Typ
   forum:
-    error: 'Beim Absenden des H-Captchas ist ein Fehler aufgetreten. Versuche es nochmal.'
+    error: 'Beim Absenden des hCaptchas ist ein Fehler aufgetreten. Versuche es nochmal.'
 validation:
   hcaptcha: 'hCaptcha-Validierung fehlgeschlagen.'
