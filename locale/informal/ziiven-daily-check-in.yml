@@ -5,6 +5,7 @@
 ziven-checkin:
   admin:
     settings:
+      Alert: Warnung
       Modal: Modalfenster
       None: Keine
       allow-check-in: 'Einchecken erlauben'

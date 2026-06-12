@@ -6,18 +6,23 @@ ziven-transfer-money:
   admin:
     permission:
       allow_use_transfer_money: 'Erlaube Geldüberweisungen'
+    transfer-money-client-customization: Client-Anpassung
+    transfer-money-client-customization-help: 'Funktionen, die für einen Kunden entwickelt wurden. Können bei anderen Benutzern zu unerwarteten Fehlern führen.'
     transfer-money-timezone: Zeitzone
     transfer-money-timezone-default: Asien/Shanghai
+    transfer-money-timezone-help: 'Stelle die Zeitzone für den Übertragungszeitpunkt ein. Die Standardeinstellung ist „Asia/Shanghai“.'
   forum:
     cancel: Abbrechen
     current-money-amount: 'Derzeitiges Geld: '
     need-money-amount: 'Insgesamt überwiesenes Geld: '
     notifications:
+      user-transfer-money-details: 'Du hast {cost} erhalten. Überweisungs-ID: {id}'
       user-transfer-money-to-you: '{username} hat Geld an dich überwiesen'
     ok: Ok
     receive-transfer-from-user: 'Erhalte Geldüberweisungen von anderen Benutzern'
     search_user_header: Benutzer
     transfer-error: Überweisungsfehler
+    transfer-error-insufficient-fund: 'Nicht genügend Guthaben'
     transfer-error-no-permission: 'Du hast keine Berechtigung'
     transfer-error-no-target-user-selected: 'Bitte wähle mindestens einen Benutzer zum Überweisen aus'
     transfer-list-assign-at: 'Datum der Überweisung'

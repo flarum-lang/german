@@ -48,4 +48,5 @@ clarkwinkelmann-anonymous-posting:
       profileHelp: 'Nur du kannst deine anonymen Beiträge in deinem Profil sehen'
   lib:
     userMeta:
+      initials: '?'
       username: Anonym

@@ -26,9 +26,12 @@ clarkwinkelmann-post-stream-search:
       authorFilter: 'Nur Antworten dieses Autors anzeigen'
     stream:
       noResults: 'In dieser Diskussion entsprechen keine Beiträge der Suchanfrage'
+      otherAuthorsGap: '{count, plural, one {Ein Beitrag von einem anderen Autor wurde ausgeblendet} other {{count} Beiträge von anderen Autoren wurden ausgeblendet}}'
+      unmatchedGap: '{count, plural, one {Ein nicht passender Beitrag wurde ausgeblendet} other {{count} nicht passende Beiträge wurden ausgeblendet}}'
     toolbar:
       authorPlaceholder: 'Nach Autor filtern...'
       clear: 'Filter löschen'
       close: 'Filter löschen und Symbolleiste schließen'
       pin: 'Filter-Symbolleiste bei Diskussionen immer öffnen'
       searchPlaceholder: 'Finden Sie in der Diskussion...'
+      summary: '{matching} von {total} Treffern'

@@ -4,6 +4,8 @@
 
 justoverclock-theaudiodb-api:
   admin:
+    apiKey: 'Hier kannst du deinen API-Schlüssel abrufen: https://www.theaudiodb.com/api_apply.php'
+    apiKeyHelp: 'Für die Durchführung der Anfrage und das Abrufen von Daten ist ein API-Schlüssel erforderlich.'
     langcode: Sprachcode
     langcode-help: 'Gebe den Sprachcode ein (verfügbare Codes, EN, DE, FR, CN, IT, JP, RU, ES, PT, SE, NL, HU, NO, IL, PL)'
   forum:

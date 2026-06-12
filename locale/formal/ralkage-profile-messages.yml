@@ -36,6 +36,7 @@ ralkage-profile-messages:
       report_button: Melden
       show_replies: '{count, plural, one {# Antwort anzeigen} other {# Antworten anzeigen}}'
     notification:
+      new_profile_message_reply_text: '{username} hat auf deine Nachricht auf dem Profil von {profileOwner} geantwortet.'
       new_profile_message_text: '{username} hat eine Nachricht auf deinem Profil veröffentlicht.'
     report:
       already_reported: 'Du hast diese Nachricht bereits gemeldet.'

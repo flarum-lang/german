@@ -30,9 +30,15 @@ huseyinfiliz-notificationhub:
     title:
       page_title: Benachrichtigungsarten
   api:
+    invalid_url: 'Ungültiges URL-Protokoll erkannt.'
+    invalid_url_scheme: 'Ungültiges URL-Schema. Es sind nur HTTP-, HTTPS-, mailto-, tel- oder relative Links zulässig.'
     message_required: 'Nachricht ist erforderlich.'
+    message_too_long: 'Nachricht darf nicht länger als 5000 Zeichen sein.'
+    name_required: 'Die Angabe des Namens der Benachrichtigungsart ist erforderlich.'
+    name_too_long: 'Name darf nicht länger als 255 Zeichen sein.'
     no_valid_recipients: 'Keine gültigen Empfänger gefunden.'
     subject_id_required: 'Benachrichtigungsart ist erforderlich.'
+    url_too_long: 'URL darf nicht länger als 2048 Zeichen sein.'
     user_ids_required: 'Benutzer-IDs sind erforderlich.'
   forum:
     links:
