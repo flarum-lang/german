@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.8 (XXXX-XX-XX)
+------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha)
+
+
+Alle Änderungen: [2.0.7...2.0.8](https://github.com/flarum-lang/german/compare/2.0.7...2.0.8).
+
+
 2.0.7 (2026-06-12)
 ------------------
 
