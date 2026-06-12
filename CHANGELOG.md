@@ -17,7 +17,11 @@ CHANGELOG
 * [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
+* [`glowingblue/localizd`](https://flarum.org/extension/glowingblue/localizd)
+* [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
 * [`ianm/translate`](https://flarum.org/extension/ianm/translate)
+* [`litalino/flarum-related-discussions`](https://github.com/Litalino/flarum-related-discussions)
+* [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha)
 
 
 Alle Änderungen: [1.25.19...1.25.20](https://github.com/flarum-lang/german/compare/1.25.19...1.25.20).
