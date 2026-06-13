@@ -4,6 +4,7 @@
 
 justoverclock-reputation-score:
   admin:
+    discussions: Diskussionen
     fiveYearSeniority: '5+ Jahre Betriebszugehörigkeit'
     historyBestAnswerSet: 'Die Ansehen-Punkte erhöhen sich, wenn du eine beste Antwort erhältst.'
     historyBestAnswerUnset: 'Die Ansehen-Punkte sanken, wenn die Zuweisung einer besten Antwort aufgehoben wurde.'
@@ -14,6 +15,7 @@ justoverclock-reputation-score:
     historyLikeUnset: 'Die Ansehen-Punkte sinken, wenn du ein „Like“ verlierst.'
     historyPostCreated: 'Die Ansehen-Punkte für das Erstellen eines Beitrags steigen.'
     historyPostDeleted: 'Die Ansehen-Punkte sind durch das Löschen oder Verstecken von Beiträgen gesunken.'
+    like: Likes
     oneYearSeniority: '1+ Jahr Betriebszugehörigkeit'
     permission:
       canEarnReputationForDiscussion: 'Kann Ansehenspunkte für das Erstellen einer Diskussion erhalten'
@@ -22,6 +24,7 @@ justoverclock-reputation-score:
       canPostWithReputation: 'Zugang mit minimalen Ansehenspunkten'
     pointsDecreased: 'Punkte Verringert'
     pointsIncreased: 'Punkte Erhöht'
+    posts: Beiträge
     resetRewardDisclaimer: 'Diese Aktion sollte nur verwendet werden, wenn es Erweiterungs-Updates gibt, die die Übersetzungen oder die interne Logik für die Vergabe von Ansehen verändern!'
     resetRewardsButton: 'Alle Benutzerbelohnungen zurücksetzen'
     resetRewardsButtonHelp: 'Diese Aktion ist unumkehrbar! Wenn du auf diese Schaltfläche klickst, werden alle in der Belohnungsspalte geladenen Informationen gelöscht und bei der ersten Benutzerinteraktion automatisch neu berechnet.'

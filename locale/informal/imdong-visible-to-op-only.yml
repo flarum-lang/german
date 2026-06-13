@@ -7,6 +7,9 @@ imdong-visible-to-op-only:
     permissions:
       view-hide-post: 'Verborgenen Inhalt ansehen'
       view-post: 'Beitrag ansehen'
+    settings:
+      allow-view-sticky: 'Anzeige von Sticky erlauben'
+      allow-view-sticky-text: 'Unter der Beschriftung, die das Anzeigen der Antwort verhindert, kannst du auch den oben angezeigten Antwortinhalt einsehen; hierfür ist das Plugin „Stickiest & Sticky“ erforderlich (unbedeutend)'
   forum:
     button_tooltip_only_op_see: 'Kann nur der Diskussionsstarter sehen'
     editor_empty_tips: 'Code [OP][/OP] ist in der Mitte leer'
