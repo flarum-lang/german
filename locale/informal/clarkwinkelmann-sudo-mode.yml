@@ -6,3 +6,13 @@ clarkwinkelmann-sudo-mode:
   admin:
     settings:
       duration: 'Wie lange der sudo-Modus aktiv bleibt (Sekunden)'
+  api:
+    errors:
+      cookieOnly: 'Nur mit Cookies verfügbar'
+      incorrectPassword: 'Passwort ist ungültig'
+  lib:
+    sudo:
+      message: "Bestätigen dein Passwort, um in den Sudo-Modus zu wechseln. Du wirst erst nach einigen Stunden erneut zur Authentifizierung aufgefordert.\n"
+      password: Passwort
+      submit: Absenden
+      title: 'Zugriff bestätigen'

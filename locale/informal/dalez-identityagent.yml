@@ -3,5 +3,11 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 dalez-identityagent:
+  admin:
+    can_use_feature: 'Diese Funktion zulassen'
   forum:
     button_text: 'Benutzer wechseln'
+    confirmation: 'Möchtest du zu deinem ursprünglichen Konto zurückkehren?'
+    login:
+      note: 'Sollten beim Wechseln des Benutzers Probleme auftreten, kehre stattdessen zur ursprünglichen Vorgehensweise zurück.'
+      title: '=> dalez-identityagent.forum.button_text'

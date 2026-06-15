@@ -9,6 +9,10 @@ resofire-digest-mail:
       enable_awards_label: Auszeichnungen
       featured_discussion_help: 'Gib eine Diskussions-ID ein, um die Diskussion als „Empfohlene Diskussion“ oben in jeder Zusammenfassung anzuzeigen. Lasse das Feld leer, wenn keine empfohlene Diskussion angezeigt werden soll.'
       featured_discussion_label: 'ID einer empfohlenen Diskussion'
+      hot_recency_weight_help: 'Wie stark die Aktualität die Beliebtheit beeinflusst. Je höher der Wert, desto stärker werden neuere Beiträge gewichtet. Setze den Wert auf 0, um die Rangfolge ausschließlich nach Antworten zu bestimmen.'
+      hot_recency_weight_label: 'Hot-Score – Gewichtung nach Aktualität'
+      hot_reply_weight_help: 'Wie stark jede Antwort in die Beliebtheitsbewertung einer Diskussion einfließt. Je höher der Wert, desto stärker wird die Bewertung von den Antworten bestimmt.'
+      hot_reply_weight_label: 'Hot Score – Antwortgewicht'
       limit_badges_help: 'Maximale Anzahl der Benutzer, die kürzlich Abzeichen erhalten haben und in der Zusammenfassung aufgeführt werden sollen (Standardwert 5, Mindestwert 3). Erfordert fof/badges.'
       limit_badges_label: 'Abzeichen — maximale Anzahl der kürzlich erworbenen'
       limit_favorites_help: 'Maximale Anzahl der anzuzeigenden Lieblingsdiskussionen, sortiert nach Likes / Reaktionen im angegebenen Zeitraum (Standard: 6, Mindestwert: 3). Auf 0 setzen, um die Funktion zu deaktivieren. Verwendet „fof/reactions“, falls aktiviert, andernfalls „flarum/likes“.'
@@ -31,7 +35,12 @@ resofire-digest-mail:
       monthly_day_label: 'Monatliche Zusammenfassung — Versandtag'
       queue_chunk_size_help: 'Anzahl der pro Scheduler-Minute verteilten Benutzer (Standardwert 200, min. 50, max. 10000). Kleine Foren: 200–500. Große Foren auf dedizierten Servern: 1000–10000. Höhere Werte führen zu einer schnelleren Ausführung, verbrauchen jedoch mehr Speicher pro Zyklus.'
       queue_chunk_size_label: 'Größe des Warteschlangen-Blocks'
+      queue_delay_help: 'Sekunden, bevor Aufgaben aus der Warteschlange den Bearbeitern zur Verfügung stehen (Standardwert: 0). Im Fenstermodus ist dies selten erforderlich – das Fenster verteilt die Last von selbst über einen längeren Zeitraum. Nur sinnvoll, wenn der zweistufige Befehl „digest:enqueue“ in sehr großen Foren verwendet wird.'
       queue_delay_label: 'Job-Verzögerung (Sekunden)'
+      queue_name_help: 'Die benannte Warteschlange, in die die Digest-Jobs verschoben werden. Muss mit dem Argument „--queue“ in deinem Cron-Eintrag „queue:work“ übereinstimmen. Standard: digest.'
+      queue_name_label: 'Name der Warteschlange'
+      queue_tries_help: 'Wie oft ein fehlgeschlagener Digest-Job erneut versucht wird, bevor er in die Tabelle der fehlgeschlagenen Jobs verschoben wird (Standardwert: 3). Bei den Wiederholungsversuchen kommt ein exponentieller Backoff zum Einsatz: 30 s, 60 s, 120 s. Hinweis: Wenn du blomstra/database-queue installiert hast, verfügt dieses über eine eigene Einstellung für Wiederholungsversuche – es gilt der niedrigere der beiden Werte. Es wird empfohlen, beide Erweiterungs-Einstellungen auf denselben Wert zu setzen.'
+      queue_tries_label: 'Maximale Anzahl an Wiederholungsversuchen'
       send_hour_help: 'Die Uhrzeit, zu der der Versand der Zusammenfassungs-E-Mails beginnt.'
       send_hour_label: Versandzeit
       send_window_end_help: 'Lasse diese Einstellung unverändert, um alle E-Mails auf einmal zu versenden. Stelle einen späteren Zeitpunkt ein, um den Versand über mehrere Stunden zu verteilen – dies wird für größere Foren empfohlen. Wenn du beispielsweise den Start auf 2 Uhr morgens und das Ende auf 4 Uhr morgens festlegst, werden die E-Mails schrittweise zwischen 2 und 4 Uhr morgens versendet.'
