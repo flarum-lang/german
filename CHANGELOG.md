@@ -10,12 +10,17 @@ CHANGELOG
 * [`datlechin/flarum-passkey`](https://github.com/datlechin/flarum-passkey)
 * [`huseyinfiliz/custom-profile-page`](https://github.com/huseyinfiliz/custom-profile-page)
 * [`jeromegillard/map`](https://github.com/JeromeGillard/flarum-map)
+* [`nearata/flarum-ext-password-strength-enforcer`](https://github.com/Nearata/flarum-ext-password-strength-enforcer)
+* [`webbinaro/gpx-preview`](https://github.com/eddiewebb/flarum-gpx-preview)
+* [`ziiven/flarum-fireworks`](https://github.com/Ziiven/flarum-fireworks)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`clarkwinkelmann/flarum-ext-anonymous-posting`](https://github.com/clarkwinkelmann/flarum-ext-anonymous-posting)
 * [`clarkwinkelmann/flarum-ext-post-stream-search`](https://github.com/clarkwinkelmann/flarum-ext-post-stream-search)
+* [`clarkwinkelmann/flarum-ext-sudo-mode`](https://github.com/clarkwinkelmann/flarum-ext-sudo-mode)
+* [`dalez/flarum-identityagent`](https://github.com/zDaleZ/flarum-identityagent)
 * [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
@@ -30,6 +35,7 @@ CHANGELOG
 * [`litalino/flarum-related-discussions`](https://github.com/Litalino/flarum-related-discussions)
 * [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha)
 * [`ralkage/flarum-ext-profile-messages`](https://github.com/Ralkage/flarum-ext-profile-messages)
+* [`resofire/digest-mail`](https://github.com/ResofireV2/digest-mail)
 * [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in)
 * [`ziiven/money-transfer`](https://github.com/Ziiven/ziven-money-transfer)
 
