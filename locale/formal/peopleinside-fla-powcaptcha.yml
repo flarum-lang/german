@@ -22,6 +22,7 @@ peopleinside-powcaptcha:
     error: 'Die Sicherheitsabfrage ist fehlgeschlagen. Bitte versuche es erneut.'
     retry: 'Erneut versuchen'
     solving: 'Bewältigung der Sicherheitsabfrage…'
+    submitting: 'Sicherheit wird überprüft… Die Übermittlung wird automatisch abgeschlossen.'
     verified: 'Sicherheitsabfrage bestanden'
   validation:
     pow_captcha: 'Die Sicherheitsabfrage konnte nicht überprüft werden. Bitte versuche es erneut.'
