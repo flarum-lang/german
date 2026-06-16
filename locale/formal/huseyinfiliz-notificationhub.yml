@@ -30,6 +30,7 @@ huseyinfiliz-notificationhub:
     title:
       page_title: Benachrichtigungsarten
   api:
+    field_too_long: 'Dieses Feld ist zu lang.'
     invalid_url: 'Ungültiges URL-Protokoll erkannt.'
     invalid_url_scheme: 'Ungültiges URL-Schema. Es sind nur HTTP-, HTTPS-, mailto-, tel- oder relative Links zulässig.'
     message_required: 'Nachricht ist erforderlich.'
@@ -37,6 +38,7 @@ huseyinfiliz-notificationhub:
     name_required: 'Die Angabe des Namens der Benachrichtigungsart ist erforderlich.'
     name_too_long: 'Name darf nicht länger als 255 Zeichen sein.'
     no_valid_recipients: 'Keine gültigen Empfänger gefunden.'
+    sort_order_invalid: 'Die Sortierreihenfolge muss eine nicht-negative Zahl sein.'
     subject_id_required: 'Benachrichtigungsart ist erforderlich.'
     url_too_long: 'URL darf nicht länger als 2048 Zeichen sein.'
     user_ids_required: 'Benutzer-IDs sind erforderlich.'
@@ -49,6 +51,7 @@ huseyinfiliz-notificationhub:
       no_notification_types: 'Keine aktiven Benachrichtigungsarten gefunden.'
       notification_sent_message: 'Benachrichtigungen wurden an {recipientsCount} Benutzer gesendet!'
       notification_type_label: Benachrichtigungsart
+      preview_all_members: 'Alle Mitglieder'
       preview_message_placeholder: Benachrichtigungsnachricht...
       preview_title: Benachrichtigungsvorschau
       recipients_label: Empfänger
