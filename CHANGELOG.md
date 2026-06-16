@@ -8,6 +8,7 @@ CHANGELOG
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
 * [`datlechin/flarum-passkey`](https://github.com/datlechin/flarum-passkey)
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
 * [`huseyinfiliz/custom-profile-page`](https://github.com/huseyinfiliz/custom-profile-page)
 * [`jeromegillard/map`](https://github.com/JeromeGillard/flarum-map)
 * [`nearata/flarum-ext-password-strength-enforcer`](https://github.com/Nearata/flarum-ext-password-strength-enforcer)
