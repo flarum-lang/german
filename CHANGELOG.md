@@ -13,6 +13,7 @@ CHANGELOG
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
 * [`peopleinside/fla-powcaptcha`](https://github.com/PeopleInside/fla-powcaptcha)
 * [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha)
 
