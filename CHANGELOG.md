@@ -24,6 +24,7 @@ CHANGELOG
 * [`dalez/flarum-identityagent`](https://github.com/zDaleZ/flarum-identityagent)
 * [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
 * [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
 * [`glowingblue/localizd`](https://flarum.org/extension/glowingblue/localizd)
 * [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
