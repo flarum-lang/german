@@ -7,7 +7,7 @@ fof-move-posts:
     permissions:
       move_posts: '=> fof-move-posts.ref.move_posts'
     settings:
-      group_sequential_posts: 'Die aufeinanderfolgenden Beiträge nach dem Ereignis wurden zu einem einzigen Beitrag zusammengefasst.'
+      group_sequential_posts: 'Aufeinanderfolgende "Beitrag verschoben"-Ereignisbeiträge zu einem einzigen zusammenfassen.'
       moved_first_post_content: 'Inhalt der verschobenen Diskussion (erster Beitrag)'
       moved_first_post_content_help: "Wenn eine Diskussion nur aus einem einzigen Beitrag besteht, führt das Verschieben dieses Beitrags dazu, dass der erste Beitrag der ursprünglichen Diskussion so bearbeitet wird, dass er auf die neue Diskussion verweist. Den Inhalt dieses Beitrags kannst du hier bearbeiten.\n"
   forum:
