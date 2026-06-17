@@ -6,8 +6,8 @@ flarum-audit:
   lib:
     browser:
       posts:
-        moved: '{username} hat {count, plural, one {einen Beitrag} other {{count} Beiträge}} von {discussion} nach {new_discussion} verschoben'
-        moved_to_new_discussion: '{username} hat Beiträge von {discussion} in die neue Diskussion {new_discussion} verschoben'
+        moved: 'Hat {post_count, plural, one {einen Beitrag} other {{post_count} Beiträge}} von {discussion} nach {new_discussion} verschoben'
+        moved_to_new_discussion: 'Hat {post_count, plural, one {einen Beitrag} other {{post_count} Beiträge}} von {discussion} in die neue Diskussion {new_discussion} verschoben'
 fof-move-posts:
   admin:
     permissions:
