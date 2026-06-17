@@ -13,9 +13,11 @@ CHANGELOG
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
 * [`peopleinside/fla-powcaptcha`](https://github.com/PeopleInside/fla-powcaptcha)
 * [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha)
+* [`tryhackx/flarum-homepage-blocks`](https://github.com/TryHackX/flarum-homepage-blocks)
 
 
 Alle Änderungen: [2.0.7...2.0.8](https://github.com/flarum-lang/german/compare/2.0.7...2.0.8).
