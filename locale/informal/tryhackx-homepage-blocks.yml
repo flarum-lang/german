@@ -42,6 +42,7 @@ tryhackx-homepage-blocks:
       external_stats_refresh_help: 'Wie oft die Statistiken des externen Trackers aktualisiert werden sollen. Standard: 5 Sekunden.'
       external_stats_url: 'Proxy-URL (JSON)'
       external_stats_url_help: 'URL, die JSON-Daten mit den Feldern „torrents“, „seeds“, „peers“, „completed“ und „uptime“ zurückgibt'
+      field_length_reflection_failed_warning: 'Hinweis: Die Längenbeschränkungen für Titel und Inhalte werden derzeit NICHT durchgesetzt. Diese Erweiterung überschreibt die integrierten Validierungsregeln von Flarum mittels Reflection, doch dieser Schritt ist fehlgeschlagen – höchstwahrscheinlich hat ein Update des Flarum-Kerns die internen Validierungsmechanismen verändert. Bitte aktualisiere diese Erweiterung (oder melde das Problem), damit die Längenbeschränkungen wieder durchgesetzt werden können.'
       hide_hero: 'Standard-Banner von Flarum verbergen'
       points_costs_header: Aktionskosten
       random_buttons: 'Konfiguration der Zufalls-Schaltfläche (JSON)'

@@ -7,10 +7,10 @@ peopleinside-powcaptcha:
     settings:
       difficulty_1: 'Stufe 1 – Minimal (~1 ms)'
       difficulty_2: 'Stufe 2 – Einfach (~10 ms)'
-      difficulty_3: 'Stufe 3 – Standard (~100 ms)'
-      difficulty_4: 'Stufe 4 – Schwer (~1 s)'
-      difficulty_5: 'Stufe 5 – Sehr schwer (~10 s)'
-      difficulty_help: 'Ein höherer Schwierigkeitsgrad stellt höhere Anforderungen an die Bots. Stufe 3 ist für Menschen nicht wahrnehmbar (unter 100 ms). Stufe 5 kann auf langsameren Geräten einige Sekunden dauern.'
+      difficulty_3: 'Stufe 1 – Einfach (~100 ms)'
+      difficulty_4: 'Stufe 2 – Schwer (~1 s)'
+      difficulty_5: 'Stufe 3 – Sehr schwer (~10 s)'
+      difficulty_help: 'Ein höherer Schwierigkeitsgrad stellt höhere Anforderungen an die Bots. Stufe 1 ist für Menschen nicht wahrnehmbar (unter 100 ms). Stufe 3 kann auf langsameren Geräten einige Sekunden dauern.'
       difficulty_label: Schwierigkeit
       enabled_forgot_help: 'Zeige die PoW-Sicherheitsabfrage im Formular „Passwort vergessen“ an.'
       enabled_forgot_label: 'CAPTCHA bei Passwortrücksetzung aktivieren'
@@ -19,6 +19,7 @@ peopleinside-powcaptcha:
       enabled_signup_help: 'Zeige die PoW-Sicherheitsabfrage im Registrierungsformular an.'
       enabled_signup_label: 'CAPTCHA bei Registrierung aktivieren'
   forum:
+    challenge_not_ready: 'Die Sicherheitsüberprüfung läuft noch oder ist noch nicht abgeschlossen. Bitte warten.'
     error: 'Die Sicherheitsabfrage ist fehlgeschlagen. Bitte versuche es erneut.'
     retry: 'Erneut versuchen'
     solving: 'Bewältigung der Sicherheitsabfrage…'

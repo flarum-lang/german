@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-move-posts/de/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      posts:
+        moved: '{username} hat {count, plural, one {einen Beitrag} other {{count} Beiträge}} von {discussion} nach {new_discussion} verschoben'
+        moved_to_new_discussion: '{username} hat Beiträge von {discussion} in die neue Diskussion {new_discussion} verschoben'
 fof-move-posts:
   admin:
     permissions:
