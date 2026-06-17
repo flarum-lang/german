@@ -8,6 +8,7 @@ CHANGELOG
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
 * [`datlechin/flarum-passkey`](https://github.com/datlechin/flarum-passkey)
+* [`flarum/audit`](https://github.com/flarum/audit)
 * [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
 * [`huseyinfiliz/custom-profile-page`](https://github.com/huseyinfiliz/custom-profile-page)
 * [`jeromegillard/map`](https://github.com/JeromeGillard/flarum-map)
@@ -20,6 +21,7 @@ CHANGELOG
 
 * [`clarkwinkelmann/flarum-ext-anonymous-posting`](https://github.com/clarkwinkelmann/flarum-ext-anonymous-posting)
 * [`clarkwinkelmann/flarum-ext-post-stream-search`](https://github.com/clarkwinkelmann/flarum-ext-post-stream-search)
+* [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed)
 * [`clarkwinkelmann/flarum-ext-sudo-mode`](https://github.com/clarkwinkelmann/flarum-ext-sudo-mode)
 * [`dalez/flarum-identityagent`](https://github.com/zDaleZ/flarum-identityagent)
 * [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
