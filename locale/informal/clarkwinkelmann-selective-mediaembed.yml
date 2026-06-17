@@ -4,4 +4,7 @@
 
 clarkwinkelmann-selective-mediaembed:
   admin:
+    clearCache: 'Cache jetzt leeren'
+    mustClearCache: 'Du musst den Cache nach dem Speichern der Änderungen leeren!'
     selectAll: 'Alles auswählen'
+    unselectAll: 'Alle abwählen'
