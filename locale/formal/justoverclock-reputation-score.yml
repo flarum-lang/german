@@ -36,6 +36,7 @@ justoverclock-reputation-score:
       discussionPoints: 'Punkte für eine neu erstellte Diskussion'
       discussionPointsHelp: 'Gib die Anzahl der Punkte ein, die ein Nutzer für das Erstellen einer neuen Diskussion erhält (z.B. 0,55)'
       discussionRewardThreshold: 'Grenzwert für die Anzahl der Diskussionen'
+      discussionRewardThresholdHelp: "<p>Gib die Mindestanzahl an Diskussionen ein, ab der ein Nutzer mit einer Medaille belohnt wird.</p>\n<span>\n  Jeder Nutzer kann je nach Anzahl der Diskussionen drei Belohnungen erhalten. Wenn du\n  beispielsweise „50“ festlegst, vergibt der interne Multiplikator (x1, x3, x8) die Belohnung\n  für „50“, „150“ und „400“ Diskussionen (jeweils Bronze, Silber und Gold).\n</span>\n"
       flagPoints: 'Punkte für Meldung eines Beitrags'
       flagPointsHelp: 'Geben Sie die Anzahl der Punkte ein, die ein Nutzer für das Melden von Beiträgen erhält.'
       likePoints: 'Punkte für erhaltenes Like'
@@ -47,13 +48,16 @@ justoverclock-reputation-score:
       postPoints: 'Punkte für erstellte Beiträge'
       postPointsHelp: 'Gib die Anzahl der Punkte ein, die ein Nutzer für das Erstellen eines neuen Beitrags erhält (die Punkte werden mit der Länge des Beitrags multipliziert)'
       postRewardThreshold: 'Grenzwert für die Anzahl der Beiträge'
+      postRewardThresholdHelp: "<p>Gib die Mindestanzahl an Beiträgen an, ab der ein Nutzer mit einer Medaille belohnt wird.</p>\n<span>\n  Jeder Nutzer kann je nach Anzahl seiner Beiträge drei Belohnungen erhalten. Wenn du\n  beispielsweise „50“ festlegst, vergibt der interne Multiplikator (x1, x3, x8) die Belohnung\n  für „50“, „150“ und „400“ Beiträge (jeweils Bronze, Silber und Gold).\n</span>\n"
       seniorityRewardThreshold: 'Grenzwert für das Dienstalter'
+      seniorityRewardThresholdHelp: "<p>Gib die Mindestdienstjahre ein, ab denen ein Benutzer mit einer Medaille ausgezeichnet wird.</p>\n<span>\n  Jeder Benutzer kann je nach seiner Forum-Zugehörigkeit 3 Belohnungen erhalten. Wenn du\n  beispielsweise „1“ festlegst, vergibt der interne Multiplikator (x1, x3, x5) die Belohnung\n  für 1, 3 und 5 Jahre Zugehörigkeit (jeweils Bronze-, Silber- und Gold-Stufe).\n</span>\n"
     tagMinimumReputationLabel: 'Mindestbeschränkung des Ansehens'
     tagMinimumReputationLabelHelp: 'Lege die Mindestanzahl an Ansehenspunkten fest, um ein Thema zu erstellen und darauf zu antworten.'
     threeYearSeniority: '3+ Jahre Betriebszugehörigkeit'
   forum:
     discussionCount: 'Anzahl der Diskussionen'
     emptyReputationHistory: 'Kein Verlauf für diesen Benutzer gefunden...'
+    firstLoginModalContent: "<p>\n    Dieses Forum nutzt ein dynamisches Reputationssystem, um positives Engagement innerhalb der Community zu fördern.\n    Als Nutzer kannst du Reputationspunkte sammeln, indem du einen sinnvollen Beitrag zu Diskussionen und Interaktionen leistest, zum Beispiel:\n    <ul>\n      <li>\n        Neue Diskussionen erstellen: Teile deine Gedanken und Ideen mit der Community.\n      </li>\n      <li>\n        Auf Beiträge antworten: Sammle Punkte basierend auf der Qualität deiner Antworten.\n      </li>\n      <li>\n        Benutzer melden: Tragen Sie zur Aufrechterhaltung eines gesunden Umfelds bei, indem Sie unangemessenes Verhalten melden.\n      </li>\n      <li>\n        Likes erhalten: Zeigen Sie Ihre Wertschätzung für die Beiträge anderer und werden Sie dafür belohnt.\n      </li>\n      <li>\n        Beste Antworten verfassen: Sammeln Sie Punkte, indem Sie Antworten beitragen, die ein Problem lösen und als „beste Antwort“ ausgewählt werden.\n      </li>\n    </ul>\n  </p>\n  <p>\n    Verdiene Reputationspunkte, indem du dich positiv verhältst, anderen hilfst und einen Beitrag zur Community leistest. Deine Taten\n    sagen mehr als Worte, und mit jedem Punkt erhältst du Anerkennung für deine Bemühungen. Bleib aktiv und baue deine Reputation auf!\n  </p>\n"
     notEnoughReputationMessage: 'Du verfügst nicht über genügend Ansehen, um auf dieses Thema zu antworten...'
     pageTitle: 'Top 20 der vertrauenswürdigen Nutzer'
     reputation: Ansehen
