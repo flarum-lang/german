@@ -12,6 +12,7 @@ CHANGELOG
 
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
+* [`ernestdefoe/flarum-facebook-post`](https://github.com/ernestdefoe/flarum-facebook-post)
 * [`ernestdefoe/mobile-tab`](https://github.com/ernestdefoe/mobiletab)
 * [`flarum/audit`](https://github.com/flarum/audit)
 * [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
