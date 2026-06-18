@@ -4,9 +4,16 @@
 
 ernestdefoe-mobile-tab:
   admin:
+    add_tab: 'Registerkarte hinzufügen'
     field_center: Zentriert
     field_icon: Symbol
     field_label: Beschriftung
     field_type: Art
     field_url: URL
     field_visibility: 'Angezeigt für'
+    preview_caption: 'Live-Vorschau (Handy) – Reihenfolge mit den Pfeilen verschieben'
+    raised: 'Erhöht (mittig)'
+    remove: 'Registerkarte entfernen'
+    reset_default: 'Auf Standard zurücksetzen'
+    tabs_help: 'Erstelle deine mobile Fußleiste. Jede Zeile entspricht einer Registerkarte – wähle einen Typ aus, lege ein Font Awesome-Symbol und eine Beschriftung fest, lege fest, wer sie sehen soll, und aktiviere das Kontrollkästchen „Erhöht“, um sie zur hervorgehobenen Schaltfläche in der Mitte zu machen. Mit den Pfeilen kannst du die Reihenfolge ändern. Bei den Typen „Website-Logo“ und „Favicon“ wird automatisch das Bild deiner Website angezeigt. Lasse die Liste leer, um die Standardleiste zu verwenden.'
+    tabs_label: 'Registerkarten in der Fußleiste'
