@@ -46,6 +46,7 @@ flarum-audit:
         filterUser: 'Einträge anzeigen, die diesen Benutzer betreffen'
         hideRaw: 'Rohprotokoll verbergen'
         showRaw: 'Rohprotokoll anzeigen'
+        title: Kontrollen
       core: core
       deletedResource:
         discussion: 'Diskussion #{id}'
@@ -53,6 +54,7 @@ flarum-audit:
         post: 'Beitrag #{id}'
         tag: 'Thema #{id}'
         user: 'Benutzer #{id}'
+      developer_token_created: 'Entwickler-Zugriffstoken „{title}“ für {username} erstellt'
       discussion:
         create_date_changed: 'Das Startdatum von {discussion} wurde von {old_date} auf {new_date} geändert'
         created: 'Diskussion {discussion} gestartet'

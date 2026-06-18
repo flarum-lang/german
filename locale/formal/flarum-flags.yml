@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-flags/de@formal/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      post:
+        dismissed_flags: 'Meldungen von {postuser}s {post} in {discussion} abgelehnt'
+        flagged: 'Hat {postuser}s {post} in {discussion} wegen {reason} gemeldet'
 flarum-flags:
   admin:
     permissions:

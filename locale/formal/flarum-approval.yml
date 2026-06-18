@@ -17,3 +17,10 @@ flarum-approval:
       approve_button: Genehmigen
   ref:
     awaiting_approval: 'Warte auf Genehmigung'
+flarum-audit:
+  lib:
+    browser:
+      discussion:
+        approved: 'Hat {discussion} genehmigt'
+      post:
+        approved: 'Hat {postuser}s {post} in {discussion} genehmigt'

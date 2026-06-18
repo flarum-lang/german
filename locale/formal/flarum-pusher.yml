@@ -5,10 +5,15 @@
 flarum-pusher:
   admin:
     pusher_settings:
+      app_cluster_help: 'Der Cluster, in dem deine Pusher-App gehostet wird (z. B. <code>eu</code> oder <code>us2</code>), wird auf der Seite „App-Schlüssel“ der App angezeigt. Lasse das Feld leer, wenn du unten einen benutzerdefinierten Server-Hostnamen festlegst.'
       app_cluster_label: Cluster
+      app_id_help: 'Die numerische App-ID von der Seite „App-Schlüssel“ deiner Pusher-App.'
       app_id_label: App-ID
+      app_key_help: 'Der öffentliche Schlüssel von der Seite „App-Schlüssel“ deiner Pusher-App. Er wird an Browser gesendet und ist daher nicht geheim.'
       app_key_label: App-Schlüssel
+      app_secret_help: 'Das private Geheimnis von der Seite „App-Schlüssel“ deiner Pusher-App. Behandele diese Information vertraulich – sie wird ausschließlich serverseitig verwendet.'
       app_secret_label: App-Secret
+      server_hostname_help: 'Optional. Überschreibe den Host, mit dem der Client eine Verbindung herstellt, für einen selbst gehosteten Pusher-kompatiblen Server (z. B. soketi). Lasse das Feld leer, um den von Pusher gehosteten Dienst mit dem oben genannten Cluster zu nutzen.'
       server_hostname_label: Server-Hostname
       title: Pusher-Einstellungen
   forum:

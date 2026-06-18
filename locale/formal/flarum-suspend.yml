@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-suspend/de@formal/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      user:
+        suspended: 'Hat {username} bis {until} ausgeschlossen'
+        unsuspended: 'Hat den Ausschluss von {username} aufgehoben'
 flarum-suspend:
   admin:
     permissions:
