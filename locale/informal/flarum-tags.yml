@@ -2,9 +2,21 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-tags/de/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      discussion:
+        tagged: 'Hat die Themen von {discussion} von {old_tags} nach {new_tags} aktualisiert'
+      tag:
+        created: 'Thema {tag} erstellt'
+        deleted: 'Thema {tag} gelöscht'
+        updated: 'Thema {tag} aktualisiert'
 flarum-tags:
   admin:
     basics:
+      slug_driver_options:
+        default: Standard
+        id_with_slug: 'ID mit Slug'
       tags_label: '=> flarum-tags.ref.tags'
     edit_tag:
       color_label: '=> core.ref.color'

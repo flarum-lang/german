@@ -16,6 +16,9 @@ flarum-realtime:
       typing-indicator: Live-Eingabeanzeige
       typing-indicator-help: 'Wenn aktiviert, können Benutzer vorbehaltlich einer entsprechenden Berechtigung die Anzahl der anderen Benutzer anzeigen, die gerade in einer Diskussion tippen. Wenn deaktiviert, wird die Tippaktivität sowohl aus der Benutzeroberfläche als auch aus der Websocket-Nutzlast entfernt.'
   forum:
+    index-typing:
+      someone-typing: 'Jemand schreibt in dieser Diskussion'
+      someone-typing-tag: 'Jemand schreibt in diesem Thema'
     push:
       discussion-list-new-activity: '{count, plural, one {# aktualisierte Diskussion anzeigen} other {# aktualisierte Diskussionen anzeigen}}'
       discussion-list-new-activity-with-auto-release: '{count, plural, one {# Diskussion hat} other {# Diskussionen haben}} aktualisierte Aktivität und wird in {releaseTimeout} Sekunden veröffentlicht. Klicke hier, um sie jetzt anzuzeigen.'

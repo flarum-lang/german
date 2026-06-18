@@ -87,6 +87,9 @@ flarum-audit:
       genericResource:
         comment: Kommentar
         post: Beitrag
+      group:
+        created: 'Gruppe {name} erstellt'
+        deleted: 'Gruppe {name} gelöscht'
       help:
         multiple: 'Trenne Werte durch Kommas, um einen beliebigen davon abzugleichen, z. B. action:post.created,post.deleted'
         negate: 'Stelle einem Filter ein Minuszeichen voran, um Übereinstimmungen auszuschließen, z. B. -client:cli'
