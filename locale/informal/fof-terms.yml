@@ -51,7 +51,7 @@ fof-terms:
       accept: Bestätigen
       close: 'Vielen Dank für deine Zustimmung, du kannst nun zum Forum zurückkehren'
       i-accept: 'Ich akzeptiere die neuen <a>{policy}</a>'
-      title: 'geänderte Bedingungen'
+      title: 'Aktualisierung der Bedingungen'
       updated-at: 'Die Bedingungen wurden am {date} aktualisiert'
       updated-recently: 'Die Bedingungen wurden seit Deinem letzten Besuch aktualisiert'
     signup:
