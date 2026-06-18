@@ -46,6 +46,7 @@ flarum-audit:
         filterUser: 'Einträge anzeigen, die diesen Benutzer betreffen'
         hideRaw: 'Rohprotokoll verbergen'
         showRaw: 'Rohprotokoll anzeigen'
+      core: core
       deletedResource:
         discussion: 'Diskussion #{id}'
         group: 'Gruppe #{id}'
