@@ -729,6 +729,9 @@ core:
   lib:
     alert:
       dismiss_a11y_label: 'Warnung schließen'
+    assets_updated:
+      message: 'Eine neuere Version der Seite ist verfügbar.'
+      reload_button: 'Neu laden'
     badge:
       hidden_tooltip: Versteckt
     data_segment:
