@@ -7,6 +7,7 @@ CHANGELOG
 
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
+* [`flarum/audit`](https://github.com/flarum/audit)
 * [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
 * [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget)
 
