@@ -19,6 +19,8 @@ CHANGELOG
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`flarum/realtime`](https://github.com/flarum/realtime)
+* [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
 * [`peopleinside/fla-powcaptcha`](https://github.com/PeopleInside/fla-powcaptcha)
