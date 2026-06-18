@@ -5,6 +5,11 @@ CHANGELOG
 2.0.8 (XXXX-XX-XX)
 ------------------
 
+**Allgemeine Änderungen**:
+
+* Flarum-Core Übersetzungen aktualisiert.
+
+
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
 * [`flarum/audit`](https://github.com/flarum/audit)
