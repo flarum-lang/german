@@ -90,6 +90,7 @@ flarum-audit:
       group:
         created: 'Gruppe {name} erstellt'
         deleted: 'Gruppe {name} gelöscht'
+        renamed: 'Gruppe von {old_name} nach {new_name} umbenannt'
       help:
         multiple: 'Trenne Werte durch Kommas, um einen beliebigen davon abzugleichen, z. B. action:post.created,post.deleted'
         negate: 'Stelle einem Filter ein Minuszeichen voran, um Übereinstimmungen auszuschließen, z. B. -client:cli'
@@ -113,6 +114,7 @@ flarum-audit:
       refresh: Aktualisieren
       setting_changed: 'Hat Einstellung {key} bearbeitet'
       setting_changed_with_values: 'Einstellung {key} von {old_value} zu {new_value} geändert'
+      settings_reset: 'Einstellungen {keys} für {extension} zurückgesetzt'
       user:
         activated: 'Konto von {username} manuell aktiviert'
         activated_with_email: 'Konto von {username} per Bestätigungslink aktiviert'

@@ -9,6 +9,7 @@ flarum-pusher:
       app_id_label: App-ID
       app_key_label: App-Schlüssel
       app_secret_label: 'App Secret'
+      server_hostname_label: Server-Hostname
       title: Pusher-Einstellungen
   forum:
     discussion_list:

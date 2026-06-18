@@ -2,27 +2,33 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-sticky/de@formal/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      discussion:
+        stickied: 'Hat die Diskussion {discussion} angeheftet'
+        unstickied: 'Hat die Diskussion {discussion} abgelöst'
 flarum-sticky:
   admin:
     permissions:
-      sticky_discussions_label: 'Diskussion anpinnen'
+      sticky_discussions_label: 'Diskussion anheften'
     settings:
       enable_display_excerpt: 'Auszug aus dem ersten Beitrag anzeigen, wenn eine angeheftete Diskussion ungelesen ist'
       only_sticky_unread_discussions_help: 'Auf der Seite „Alle Diskussionen“ werden ungelesene angeheftete Diskussionen oben angeheftet, während gelesene angeheftete Diskussionen der regulären Reihenfolge folgen.'
       only_sticky_unread_discussions_label: 'Nur angeheftete ungelesene Diskussionen'
   forum:
     badge:
-      sticky_tooltip: Angepinnt
+      sticky_tooltip: Angeheftet
     discussion_controls:
       sticky_button: '=> flarum-sticky.ref.sticky'
-      unsticky_button: 'Anpinnen zurücknehmen'
+      unsticky_button: 'Anheften zurücknehmen'
     post_stream:
-      discussion_stickied_text: '{username} hat die Diskussion angepinnt ({time}).'
-      discussion_unstickied_text: '{username} hat die Diskussion gelöst ({time}).'
+      discussion_stickied_text: '{username} hat die Diskussion angeheftet ({time}).'
+      discussion_unstickied_text: '{username} hat die Diskussion abgelöst ({time}).'
   lib:
     gambits:
       discussions:
         sticky:
           key: angeheftet
   ref:
-    sticky: Anpinnen
+    sticky: Anheften
