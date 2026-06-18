@@ -12,6 +12,7 @@ CHANGELOG
 
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
+* [`ernestdefoe/mobile-tab`](https://github.com/ernestdefoe/mobiletab)
 * [`flarum/audit`](https://github.com/flarum/audit)
 * [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
 * [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget)
@@ -19,10 +20,15 @@ CHANGELOG
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`flarum/approval`](https://github.com/flarum/approval)
+* [`flarum/flags`](https://github.com/flarum/flags)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
 * [`flarum/lock`](https://github.com/flarum/lock)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
 * [`flarum/pusher`](https://github.com/flarum/pusher)
 * [`flarum/realtime`](https://github.com/flarum/realtime)
 * [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flarum/suspend`](https://github.com/flarum/suspend)
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
