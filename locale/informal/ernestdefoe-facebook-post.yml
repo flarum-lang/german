@@ -6,7 +6,14 @@ ernestdefoe-facebook-post:
   admin:
     settings:
       destination_type_group: Facebook-Gruppe
+      destination_type_help: 'Entscheide, ob neue Diskussionen auf einer Facebook-Seite oder in einer Facebook-Gruppe veröffentlicht werden sollen.'
+      destination_type_label: Zieltyp
       destination_type_page: Facebook-Seite
+      enabled_help: 'Wenn aktiviert, werden neue Diskussionen automatisch auf der von dir ausgewählten Facebook-Seite veröffentlicht.'
+      enabled_label: 'Facebook-Autopost aktivieren'
+      graph_api_version_help: 'Die Version der Facebook Graph-API, auf die diese Erweiterung zugreift (z. B. v19.0, v20.0). Erhöhe diesen Wert, sobald Meta die Abkündigung der aktuellen Version ankündigt – das Änderungsprotokoll und den Zeitplan für das Ende der Unterstützung findest du unter https://developers.facebook.com/docs/graph-api/changelog.'
+      graph_api_version_label: Graph-API-Version
+      group_access_token_help: 'Benutzerzugriffstoken mit der Berechtigung „publish_to_groups“. Wird verwendet, wenn als Zieltyp „Facebook-Gruppe“ ausgewählt ist.'
       group_access_token_label: Gruppen-Zugriffstoken
       group_id_help: 'Die numerische ID deiner Facebook-Gruppe. Erforderlich, wenn als Zieltyp „Facebook-Gruppe“ ausgewählt ist.'
       group_id_label: Facebook-Gruppen-ID
@@ -16,3 +23,9 @@ ernestdefoe-facebook-post:
       page_id_help: 'Die numerische ID deiner Facebook-Seite (z. B. 123456789012345). Erforderlich, wenn als Zieltyp „Facebook-Seite“ ausgewählt ist.'
       page_id_label: Facebook-Seiten-ID
       page_id_placeholder: '123456789012345'
+    tag_selector:
+      help: 'Wähle aus, welche primären Themen einen Facebook-Beitrag auslösen sollen.'
+      help_all: 'Lasse alle Kontrollkästchen deaktiviert, um jede neue Diskussion unabhängig vom Thema zu veröffentlichen.'
+      no_tags: 'Es wurden keine primären Themen gefunden. Installiere und konfiguriere zunächst die Flarum-Tags-Erweiterung.'
+      saving: 'Wird gespeichert…'
+      title: 'Primäre Themen auf Facebook veröffentlichen'
