@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.9 (XXXX-XX-XX)
+------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+
+
+Alle Änderungen: [2.0.8...2.0.9](https://github.com/flarum-lang/german/compare/2.0.8...2.0.9).
+
+
 2.0.8 (2026-06-19)
 ------------------
 
