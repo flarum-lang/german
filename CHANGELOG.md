@@ -5,6 +5,11 @@ CHANGELOG
 2.0.9 (XXXX-XX-XX)
 ------------------
 
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
+
+
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
