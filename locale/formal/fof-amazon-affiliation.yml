@@ -6,12 +6,16 @@ fof-amazon-affiliation:
   admin:
     settings:
       field:
+        help-mediaembed: 'Produktkarten verwenden immer das von dir konfigurierte Tag, daher gilt die Einstellung „Vorhandene Tags beibehalten“ nur für einfache Links.'
         keep-existing-tag: 'Behalte Amazon Affiliate-Tags von Originallinks, anstatt sie zu ersetzen'
         keep-existing-tag-help: 'Standardmäßig wird jedes vorhandene Tag in der ursprünglichen URL durch das unten definierte Tag ersetzt.'
         remove-tag-if-unhandled: 'Entferne Amazon-Partner-Tags auf Amazon-Links, die nicht abgedeckt sind'
         remove-tag-if-unhandled-help: 'Standardmäßig werden nicht abgedeckte Links unverändert belassen, einschließlich ihres Tags, falls vorhanden.'
+        rich-card: 'Amazon-Produktlinks als umfangreiche Produktkarte anzeigen'
+        rich-card-help: 'Wenn diese Option aktiviert ist, werden Amazon-Produkt-URLs (/dp/ und /gp/product/) als kompakte Karte angezeigt, die auf die mit einem Tag versehene Produktseite verweist. Wenn deaktiviert, bleiben sie einfache Links und werden wie jeder andere Amazon-Link mit einem Tag versehen.'
         tag: '{name} (amazon.{domain})'
         tag-placeholder: 'Leer lassen, um diese Links nicht zu verdecken'
       title:
         modal: 'Amazon Affiliation Einstellungen'
         tags: Affiliate-Tags
+        tags-mediaembed: 'Lege unten ein Affiliate-Tag pro Marktplatz fest. Produktlinks zu einem konfigurierten Marktplatz werden mit dem entsprechenden Wert versehen; lasse ein Feld für einen Marktplatz leer, um diesen zu überspringen.'
