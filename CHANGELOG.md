@@ -2,6 +2,47 @@ CHANGELOG
 =========
 
 
+2.0.8 (2026-06-19)
+------------------
+
+**Allgemeine Änderungen**:
+
+* Flarum-Core Übersetzungen aktualisiert.
+
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`ernestdefoe/flarum-facebook-post`](https://github.com/ernestdefoe/flarum-facebook-post)
+* [`ernestdefoe/mobile-tab`](https://github.com/ernestdefoe/mobiletab)
+* [`flarum/audit`](https://github.com/flarum/audit)
+* [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
+* [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`flarum/approval`](https://github.com/flarum/approval)
+* [`flarum/flags`](https://github.com/flarum/flags)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
+* [`flarum/lock`](https://github.com/flarum/lock)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`flarum/pusher`](https://github.com/flarum/pusher)
+* [`flarum/realtime`](https://github.com/flarum/realtime)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flarum/suspend`](https://github.com/flarum/suspend)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
+* [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`peopleinside/fla-powcaptcha`](https://github.com/PeopleInside/fla-powcaptcha)
+* [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha)
+* [`tryhackx/flarum-homepage-blocks`](https://github.com/TryHackX/flarum-homepage-blocks)
+
+
+Alle Änderungen: [2.0.7...2.0.8](https://github.com/flarum-lang/german/compare/2.0.7...2.0.8).
+
+
 2.0.7 (2026-06-12)
 ------------------
 
