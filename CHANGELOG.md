@@ -16,6 +16,7 @@ CHANGELOG
 * [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
 * [`ernestdefoe/google-fonts`](https://github.com/ernestdefoe/google-fonts)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 * [`peopleinside/fla-powcaptcha`](https://github.com/PeopleInside/fla-powcaptcha)
 
 
