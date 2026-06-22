@@ -7,10 +7,10 @@ peopleinside-powcaptcha:
     settings:
       difficulty_1: 'Stufe 1 – Minimal (~1 ms)'
       difficulty_2: 'Stufe 2 – Einfach (~10 ms)'
-      difficulty_3: 'Stufe 1 – Einfach (~100 ms)'
-      difficulty_4: 'Stufe 2 – Schwer (~1 s)'
-      difficulty_5: 'Stufe 3 – Sehr schwer (~10 s)'
-      difficulty_help: 'Ein höherer Schwierigkeitsgrad stellt höhere Anforderungen an die Bots. Stufe 1 ist für Menschen nicht wahrnehmbar (unter 100 ms). Stufe 3 kann auf langsameren Geräten einige Sekunden dauern.'
+      difficulty_3: 'Stufe 1 – Niedrig (~100 ms)'
+      difficulty_4: 'Stufe 2 – Mittel (~1 s)'
+      difficulty_5: 'Stufe 3 – Hoch (~10 s)'
+      difficulty_help: 'Ein höherer Schwierigkeitsgrad stellt höhere Anforderungen an die Bots. Stufe 1 kann von einigen Bots umgangen werden (~100 ms). Stufe 2 bietet besseren Schutz und ist die Standardeinstellung (~1 s). Stufe 3 versucht, maximalen Schutz und maximalen Schwierigkeitsgrad für Bots zu gewährleisten (~10 s).'
       difficulty_label: Schwierigkeit
       enabled_forgot_help: 'Zeige die PoW-Sicherheitsabfrage im Formular „Passwort vergessen“ an.'
       enabled_forgot_label: 'CAPTCHA bei Passwortrücksetzung aktivieren'

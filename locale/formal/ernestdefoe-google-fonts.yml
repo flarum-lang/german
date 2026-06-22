@@ -5,7 +5,7 @@
 ernestdefoe-google-fonts:
   admin:
     add_weight: '.woff2 hochladen'
-    body_font_help: "Die Schriftart, die für Fließtext in deinem Forum verwendet wird. Beginne mit der Eingabe, um die Google Fonts-Bibliothek zu durchsuchen, oder lade deine eigene Schriftart hoch, um sie selbst zu hosten.\n"
+    body_font_help: "Die Schriftart, die für Fließtext in deinem Forum verwendet wird. Beginne mit der Eingabe, um die <a>Google Fonts-Bibliothek</a> zu durchsuchen, oder lade deine eigene Schriftart hoch, um sie selbst zu hosten.\n"
     body_font_label: 'Schriftart des Fließtextes'
     clear: Löschen
     family_name: 'Name der Schriftart'
