@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.25.21 (XXXX-XX-XX)
+--------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+
+
+Alle Änderungen: [1.25.20...1.25.21](https://github.com/flarum-lang/german/compare/1.25.20...1.25.21).
+
+
 1.25.20 (2026-06-19)
 --------------------
 
