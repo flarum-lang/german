@@ -13,7 +13,10 @@ CHANGELOG
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`ernestdefoe/google-fonts`](https://github.com/ernestdefoe/google-fonts)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`peopleinside/fla-powcaptcha`](https://github.com/PeopleInside/fla-powcaptcha)
 
 
 Alle Änderungen: [2.0.8...2.0.9](https://github.com/flarum-lang/german/compare/2.0.8...2.0.9).
