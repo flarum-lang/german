@@ -17,7 +17,9 @@ CHANGELOG
 * [`ernestdefoe/google-fonts`](https://github.com/ernestdefoe/google-fonts)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
 * [`peopleinside/fla-powcaptcha`](https://github.com/PeopleInside/fla-powcaptcha)
+* [`tryhackx/flarum-advanced-pages`](https://github.com/TryHackX/flarum-advanced-pages)
 
 
 Alle Änderungen: [2.0.8...2.0.9](https://github.com/flarum-lang/german/compare/2.0.8...2.0.9).
