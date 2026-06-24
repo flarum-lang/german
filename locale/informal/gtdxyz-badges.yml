@@ -53,8 +53,11 @@ gtdxyz-flarum-badges:
     new_badge: 'Neues Abzeichen'
     nothing_here_yet: 'Du hast noch keine Kategorien oder Abzeichen erstellt.'
     number_of_badges_on_user_card: 'Anzahl der Abzeichen'
+    number_of_badges_on_user_card_help: 'Anzahl der Abzeichen, die auf der Benutzerkarte angezeigt werden sollen'
     permissions:
       badge_detail_users: 'Kann Benutzer auf der Badge-Detailseite sehen'
+      edit_card_badges: 'Abzeichen auf allen Benutzerkarten bearbeiten'
+      edit_own_card_badges: 'Eigene Abzeichen auf der Benutzerkarte bearbeiten'
       give_badge: 'Abzeichen für Benutzer hinzufügen'
       take_badge: 'Abzeichen von Benutzer entfernen'
     show_badges_on_user_card: 'Abzeichen auf der Benutzerkarte anzeigen'
@@ -76,10 +79,18 @@ gtdxyz-flarum-badges:
       earning_reason: 'Grund für Abzeichenerwerb'
       name: 'Abzeichen Name'
       no_earning_reason: 'Kein Grund angegeben'
+      others_link: '+ {count} weitere'
       received_on: 'Erhalten am {date}'
       update_earning_reason: 'Grund aktualisieren'
     badge_information: 'Abzeichen Information'
+    badges_in_card:
+      description: 'Du kannst die angezeigten Abzeichen in deiner Benutzerkarte durch andere deiner Abzeichen ersetzen. Wenn du keines auswählst, werden sie automatisch ausgewählt.'
+      hit_limit: 'Auf deiner Karte ist nur Platz für <b> {limit, plural, one {<b>ein Abzeichen</b>} other {<b># Abzeichen</b>}}</b>. Deaktiviere ein Abzeichen, um Platz für dieses Abzeichen zu schaffen.'
+      manage_badges: 'Abzeichen verwalten'
+      select_limit: 'Du kannst {limit, plural, one {<b>ein Abzeichen</b>} other {<b># Abzeichen</b>}} auswählen, die in deiner Benutzerkarte angezeigt werden sollen.'
+      title: 'Abzeichen auf Benutzerkarte'
     give_badge: 'Abzeichen vergeben'
+    hidden_badges: 'Dieser Benutzer hat noch keine Abzeichen.'
     moderation:
       give_badge: 'Abzeichen vergeben'
       remove_badge: 'Abzeichen vom Benutzer entfernen'
@@ -88,6 +99,7 @@ gtdxyz-flarum-badges:
     notification:
       settings: 'Ich habe ein Abzeichen erhalten'
       title: 'Du hast ein neues Abzeichen erhalten'
+    save_changes: 'Änderungen speichern'
     select_badge: 'Abzeichen auswählen'
     uncategorized: '=> gtdxyz-flarum-badges.admin.uncategorized'
     update_badge: 'Abzeichen aktualisieren'

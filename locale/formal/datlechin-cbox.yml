@@ -5,4 +5,9 @@
 datlechin-cbox:
   admin:
     settings:
+      box_id: Box-ID
+      box_tag: Box-Thema
       description: 'Ihre Cbox muss die Pro-Version sein. Gehe zu <strong>Benutzer</strong> -> <strong>Benutzerintegration</strong>, um die Integration zu aktivieren und die erforderlichen Informationen zu erhalten.'
+      secret: Secret
+      show_when_user_not_login: 'Für nicht angemeldete Benutzer anzeigen'
+      show_when_user_not_login_help: 'Die Chatbox anzeigen, auch wenn der Benutzer nicht angemeldet ist'
