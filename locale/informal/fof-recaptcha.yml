@@ -4,6 +4,7 @@
 
 fof-recaptcha:
   admin:
+    maintenance_mode_warning: 'reCAPTCHA ist auf der Anmeldeseite deaktiviert, wenn sich das Forum im Wartungsmodus befindet.'
     permissions:
       post_without_captcha: 'Beiträge und Diskussionen ohne Captcha erstellen'
     settings:
@@ -34,5 +35,7 @@ fof-recaptcha:
     rejected: 'Die reCAPTCHA-Überprüfung ist fehlgeschlagen. Bitte versuche es erneut.'
     unknown_error: 'Es ist ein unbekannter Fehler aufgetreten. Bitte versuche es erneut.'
 validation:
+  attributes:
+    g-recaptcha-response: reCAPTCHA
   recaptcha: 'reCAPTCHA Validierung fehlgeschlagen.'
   recaptcha-unknown: 'Bei der Validierung von reCAPTCHA ist ein unbekannter Fehler aufgetreten ({errors}).'
