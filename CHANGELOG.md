@@ -18,6 +18,8 @@ CHANGELOG
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer)
+* [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
 * [`peopleinside/fla-powcaptcha`](https://github.com/PeopleInside/fla-powcaptcha)
 * [`tryhackx/flarum-advanced-pages`](https://github.com/TryHackX/flarum-advanced-pages)
 
