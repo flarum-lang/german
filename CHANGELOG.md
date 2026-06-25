@@ -7,7 +7,9 @@ CHANGELOG
 
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
+* [`ernestdefoe/federation`](https://github.com/ernestdefoe/federation)
 * [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
+* [`linkrobins/auto-verify`](https://github.com/linkrobins/auto-verify)
 * [`peopleinside/flarum-ext-antiflood`](https://github.com/PeopleInside/flarum-ext-antiflood)
 
 
