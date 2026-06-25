@@ -5,6 +5,9 @@
 linkrobins-font-sizer:
   admin:
     settings:
+      preview_button: Beispielschaltfläche
+      preview_label: Vorschau
+      preview_text: 'Franz jagt im komplett verwahrlosten Taxi quer durch Bayern. Dieser Beispieltext passt sich an die oben gewählte Einstellung an.'
       reset_button: 'Auf 100 % zurücksetzen'
       text_size_help: 'Legt die siteweite Standardeinstellung für den Textkörper und den Titel von Beiträgen fest. Benutzer können diese Einstellung über die Schaltfläche „Schriftgröße“ in der Kopfzeile überschreiben.'
       text_size_label: 'Standardgröße für Lesetexte'

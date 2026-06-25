@@ -8,6 +8,8 @@ linkrobins-shoutbox:
       moderate: 'Shouts anderer Benutzer löschen'
       shout: 'Shouts veröffentlichen'
     settings:
+      cooldown_help: 'Mindestzeit in Sekunden, die ein Benutzer zwischen zwei Shouts warten muss. Der Standardwert beträgt 3.'
+      cooldown_label: 'Abklingzeit (Sekunden)'
       display_mode_both: 'Seite und Widget'
       display_mode_help: 'Wähle aus, wo die Shoutbox in deinem Forum angezeigt werden soll.'
       display_mode_label: Anzeigemodus
@@ -15,6 +17,8 @@ linkrobins-shoutbox:
       display_mode_widget: 'Nur Widget'
       height_help: 'Höhe des Nachrichtenbereichs in Pixeln. Der Standardwert beträgt 320.'
       height_label: 'Höhe der Nachrichten (px)'
+      max_rows_help: 'Ältere Shouts, die über diese Anzahl hinausgehen, werden entfernt. Der Standardwert beträgt 500.'
+      max_rows_label: 'Maximale Anzahl gespeicherter Shouts'
   api:
     empty_content: 'Du musst eine Nachricht eingeben.'
     rate_limited: 'Du schreibst zu schnell. Bitte warte einen Moment.'
