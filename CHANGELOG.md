@@ -25,6 +25,7 @@ CHANGELOG
 * [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer)
 * [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
 * [`peopleinside/fla-powcaptcha`](https://github.com/PeopleInside/fla-powcaptcha)
+* [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
 * [`tryhackx/flarum-advanced-pages`](https://github.com/TryHackX/flarum-advanced-pages)
 
 
