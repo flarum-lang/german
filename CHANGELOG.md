@@ -11,6 +11,8 @@ CHANGELOG
 * [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
 * [`linkrobins/auto-verify`](https://github.com/linkrobins/auto-verify)
 * [`peopleinside/flarum-ext-antiflood`](https://github.com/PeopleInside/flarum-ext-antiflood)
+* [`shebaoting/flarum-money`](https://github.com/shebaoting/flarum-money)
+* [`shebaoting/flarum-repost`](https://github.com/shebaoting/flarum-repost)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
