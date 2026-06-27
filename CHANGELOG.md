@@ -13,12 +13,14 @@ CHANGELOG
 * [`peopleinside/flarum-ext-antiflood`](https://github.com/PeopleInside/flarum-ext-antiflood)
 * [`shebaoting/flarum-money`](https://github.com/shebaoting/flarum-money)
 * [`shebaoting/flarum-repost`](https://github.com/shebaoting/flarum-repost)
+* [`shebaoting/flarum-rss`](https://github.com/shebaoting/flarum-rss)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
 * [`ernestdefoe/google-fonts`](https://github.com/ernestdefoe/google-fonts)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
