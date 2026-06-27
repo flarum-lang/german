@@ -15,6 +15,7 @@ shebaoting-rss:
         status: Genehmigungsstatus
         title: RSS-Feed-Titel
         url: RSS-Feed-URL
+        user: 'Zugewiesener Benutzer'
       load_error: 'RSS-Feeds konnten nicht geladen werden.'
       materialized_tag_help: 'Wenn ein Nutzer zum ersten Mal einen Kommentar zu einem RSS-Artikel hinterlässt, wird eine echte Diskussion erstellt und diesem Flarum-Thema zugeordnet.'
       materialized_tag_label: 'Thema für RSS-Diskussionen'
@@ -32,12 +33,31 @@ shebaoting-rss:
       status_approved: Genehmigt
       status_pending: Ausstehend
       title: RSS-Aggregator-Einstellungen
+      user_bind_tooltip: 'Benutzer zuweisen'
+      user_change_tooltip: 'Zugewiesenen Benutzer ändern'
+      user_select_title: 'Zugewiesenen Benutzer auswählen'
+      user_unbind_tooltip: 'Zugewiesenen Benutzer entfernen'
       view: Anzeigen
   forum:
     comment:
       cancel_button: Abbrechen
       comment_count: '{count} Kommentare'
+      login_button: 'Anmelden, um zu kommentieren'
+      original_link_line: 'Originalartikel: {url}'
+      placeholder: 'Schreibe deinen Kommentar...'
+      published_line: 'Veröffentlicht: {time}'
+      source_line: 'Quelle: {site}'
+      submit_button: 'Kommentar hinterlassen'
+      submit_error: 'Dein Kommentar konnte nicht veröffentlicht werden. Bitte versuche es erneut.'
+      title: 'Diskutiere mit'
+      validation_required: 'Ein Kommentartext ist erforderlich.'
+      validation_too_long: 'Der Kommentartext ist zu lang.'
+      view_comments: 'Kommentare anzeigen'
     empty_text: 'Es sind noch keine RSS-Einträge verfügbar.'
+    index:
+      submit_feed_tooltip: 'RSS-Feed hinzufügen'
+      switch_to_native_tooltip: 'Zur nativen Diskussionsliste wechseln'
+      switch_to_rss_tooltip: 'Zur RSS-Mischliste wechseln'
     load_error: 'RSS-Einträge konnten nicht geladen werden.'
     load_more: 'Mehr laden'
     open_original: 'Originalartikel öffnen'
@@ -46,7 +66,18 @@ shebaoting-rss:
     rss_link: 'Unabhängige Blogs'
     settings:
       heading: RSS
+      show_on_index_help: 'Wenn diese Option aktiviert ist, wird standardmäßig die gemischte RSS-Liste als Startseite angezeigt. Ist sie deaktiviert, wird standardmäßig die native Diskussionsliste angezeigt.'
+      show_on_index_label: 'RSS-Artikel auf der Startseite anzeigen'
     submit_feed_button: 'Feed einreichen'
     submit_modal:
+      load_error: 'Dein RSS-Feed konnte nicht geladen werden.'
+      site_title_label: 'Titel der Website'
+      site_title_placeholder: 'Titel der Website eingeben'
+      submit_button: Absenden
+      submit_error: 'Die Übermittlung ist fehlgeschlagen. Bitte versuche es erneut.'
+      success_message: 'RSS-Feed wurde erfolgreich übermittelt.'
+      title: 'RSS-Feed einreichen'
       url_label: RSS-URL
+      url_placeholder: 'Gib die URL des RSS-Feeds ein'
+      validation_error: 'Die RSS-URL und der Seitentitel sind erforderlich.'
     unknown_site: RSS-Feed

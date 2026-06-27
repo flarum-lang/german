@@ -18,10 +18,10 @@ pianotell-flamoji:
         path_or_url_label: 'Pfad oder URL'
         path_or_url_text: 'Wo das Bild gehostet wird: eine vollständige URL (https://…) oder ein zum Forum relativer Pfad (/assets/…). Erforderlich. Lade das Bild bitte zunächst selbst hoch – hier wird lediglich der Speicherort erfasst.'
         saved_message: '=> core.admin.settings.saved_message'
-        shortcode_invalid: 'Setze den Shortcode in Doppelpunkte und verwende ausschließlich Buchstaben, Zahlen sowie die Zeichen _, + und - (z. B.: :flamoji_party-papagei:).'
+        shortcode_invalid: 'Setze den Shortcode in Doppelpunkte und verwende ausschließlich Buchstaben, Zahlen sowie die Zeichen _, + und - (z. B.: :meinemoji_party-papagei:).'
         submit_button: '=> core.ref.save_changes'
         text_to_replace_label: Shortcode
-        text_to_replace_text: 'Der Text, den Mitglieder eingeben, um dieses Emoji einzufügen. Er muss in Doppelpunkte gesetzt sein und darf nur Buchstaben, Zahlen sowie die Zeichen _ + - enthalten (z. B.: :flamoji_party-papagei:). Er ist erforderlich und muss eindeutig sein. Tipp: Füge deinem Shortcodes ein Präfix hinzu, damit sie klar lesbar sind und nicht mit Standard-Emojis in Konflikt geraten.'
+        text_to_replace_text: 'Der Text, den Mitglieder eingeben, um dieses Emoji einzufügen. Er muss in Doppelpunkte gesetzt sein und darf nur Buchstaben, Zahlen sowie die Zeichen _ + - enthalten (z. B.: :meinemoji_party-papagei:). Er ist erforderlich und muss eindeutig sein. Tipp: Füge deinem Shortcodes ein Präfix hinzu, damit sie klar lesbar sind und nicht mit Standard-Emojis in Konflikt geraten.'
       emoji_list:
         add_button: 'Emoji hinzufügen'
         edit_button: 'Emoji bearbeiten'
@@ -60,7 +60,7 @@ pianotell-flamoji:
       show_preview_label: 'Vorschaubereich anzeigen'
       show_preview_text: 'Zeige den Namen des Emojis, den Shortcode und die Auswahl für den Hautton in einem Vorschaufenster unterhalb des Auswahlrasters an.'
       show_recents_label: 'Häufig verwendete Emojis anzeigen (und speichern)'
-      show_recents_text: 'Zeige die Registerkarte „Häufig verwendet“ oben im Auswahlfeld an. Die Favoriten jedes Benutzers werden ausschließlich in seinem eigenen Browser gespeichert.'
+      show_recents_text: 'Zeige die Registerkarte „Häufig verwendet“ oben im Auswahlfeld an. Es ist zunächst leer und füllt sich mit jedem vom Benutzer ausgewählten Emoji. Die Favoriten jedes Benutzers werden ausschließlich in deren Browser gespeichert.'
       show_search_label: 'Sucheingabefeld anzeigen'
       show_search_text: 'Zeige das Suchfeld oben im Auswahlfeld an.'
       show_variants_label: 'Hautton-Varianten anzeigen'
