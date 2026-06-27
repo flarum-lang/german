@@ -2,6 +2,41 @@ CHANGELOG
 =========
 
 
+2.0.9 (XXXX-XX-XX)
+------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`ernestdefoe/digest-mail`](https://github.com/ernestdefoe/digest-mail)
+* [`ernestdefoe/federation`](https://github.com/ernestdefoe/federation)
+* [`ernestdefoe/hero-builder`](https://github.com/ernestdefoe/hero-builder)
+* [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
+* [`linkrobins/auto-verify`](https://github.com/linkrobins/auto-verify)
+* [`peopleinside/flarum-ext-antiflood`](https://github.com/PeopleInside/flarum-ext-antiflood)
+* [`shebaoting/flarum-money`](https://github.com/shebaoting/flarum-money)
+* [`shebaoting/flarum-repost`](https://github.com/shebaoting/flarum-repost)
+* [`shebaoting/flarum-rss`](https://github.com/shebaoting/flarum-rss)
+* [`tapao/auto-ai-moderation`](https://github.com/Tapao-NonSen/Auto-AI-Moderation)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`ernestdefoe/google-fonts`](https://github.com/ernestdefoe/google-fonts)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer)
+* [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
+* [`peopleinside/fla-powcaptcha`](https://github.com/PeopleInside/fla-powcaptcha)
+* [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
+* [`tryhackx/flarum-advanced-pages`](https://github.com/TryHackX/flarum-advanced-pages)
+
+
+Alle Änderungen: [2.0.8...2.0.9](https://github.com/flarum-lang/german/compare/2.0.8...2.0.9).
+
+
 2.0.8 (2026-06-19)
 ------------------
 
