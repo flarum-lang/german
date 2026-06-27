@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-best-answer/de@formal/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      discussion:
+        best_answer_set: '{post} in {discussion} als beste Antwort markiert'
+        best_answer_unset: 'Markierung als beste Antwort von {post} in {discussion} entfernt'
 fof-best-answer:
   admin:
     edit_tag:
