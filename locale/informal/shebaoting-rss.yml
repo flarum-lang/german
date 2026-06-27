@@ -21,6 +21,11 @@ shebaoting-rss:
       materialized_tag_none: 'Kein Thema'
       new_title: 'Titel des neuen RSS-Feeds'
       new_url: 'URL des neuen RSS-Feeds'
+      preview_default_title: RSS-Feed
+      preview_empty: 'Dieser RSS-Feed hat keine Artikel zurückgegeben.'
+      preview_error: 'Dieser RSS-Feed konnte nicht in Echtzeit abgerufen werden.'
+      preview_open: Öffnen
+      preview_title: 'RSS-Artikel von {title}'
       save_error: 'RSS-Feed konnte nicht gespeichert werden.'
       show_on_index_help: 'Wenn diese Option aktiviert ist, wird der Link „Unabhängige Blogs“ in der Seitenleiste ausgeblendet, und RSS-Beiträge werden nach Veröffentlichungszeitpunkt in die Diskussionsliste auf der Startseite eingereiht.'
       show_on_index_label: 'RSS-Artikel in der Liste auf der Startseite anzeigen'
@@ -28,3 +33,20 @@ shebaoting-rss:
       status_pending: Ausstehend
       title: RSS-Aggregator-Einstellungen
       view: Anzeigen
+  forum:
+    comment:
+      cancel_button: Abbrechen
+      comment_count: '{count} Kommentare'
+    empty_text: 'Es sind noch keine RSS-Einträge verfügbar.'
+    load_error: 'RSS-Einträge konnten nicht geladen werden.'
+    load_more: 'Mehr laden'
+    open_original: 'Originalartikel öffnen'
+    page_title: RSS-Feed-Aggregator
+    published_at: Veröffentlicht
+    rss_link: 'Unabhängige Blogs'
+    settings:
+      heading: RSS
+    submit_feed_button: 'Feed einreichen'
+    submit_modal:
+      url_label: RSS-URL
+    unknown_site: RSS-Feed
