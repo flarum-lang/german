@@ -7,13 +7,16 @@ CHANGELOG
 
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
+* [`ernestdefoe/digest-mail`](https://github.com/ernestdefoe/digest-mail)
 * [`ernestdefoe/federation`](https://github.com/ernestdefoe/federation)
+* [`ernestdefoe/hero-builder`](https://github.com/ernestdefoe/hero-builder)
 * [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
 * [`linkrobins/auto-verify`](https://github.com/linkrobins/auto-verify)
 * [`peopleinside/flarum-ext-antiflood`](https://github.com/PeopleInside/flarum-ext-antiflood)
 * [`shebaoting/flarum-money`](https://github.com/shebaoting/flarum-money)
 * [`shebaoting/flarum-repost`](https://github.com/shebaoting/flarum-repost)
 * [`shebaoting/flarum-rss`](https://github.com/shebaoting/flarum-rss)
+* [`tapao/auto-ai-moderation`](https://github.com/Tapao-NonSen/Auto-AI-Moderation)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
