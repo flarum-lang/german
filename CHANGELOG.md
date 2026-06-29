@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+1.25.21 (2026-06-29)
+--------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`datlechin/flarum-cbox`](https://github.com/datlechin/flarum-cbox)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
+
+
+Alle Änderungen: [1.25.20...1.25.21](https://github.com/flarum-lang/german/compare/1.25.20...1.25.21).
+
+
 1.25.20 (2026-06-19)
 --------------------
 
