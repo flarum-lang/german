@@ -6,20 +6,29 @@ pianotell-flamoji:
   admin:
     custom_emojis_section:
       edit_emoji:
+        category_label: Kategorie
+        category_placeholder: 'z. B. Memes'
+        category_text: 'Optional. Benutzerdefinierte Emojis derselben Kategorie werden gemeinsam auf einer eigenen Registerkarte im Emoji-Auswahlfeld angezeigt. Lasse das Feld leer, um die Standardregisterkarte „Benutzerdefiniert“ zu verwenden.'
         delete_emoji_button: 'Emoji löschen'
         delete_emoji_confirmation: 'Möchtest du dieses Emoji wirklich löschen?'
         emoji_title_label: Emoji-Titel
+        emoji_title_text: 'Ein beschreibender Name, der in der Vorschau der Auswahlliste angezeigt und bei der Suche abgeglichen wird. Optional.'
+        intro_text: 'Benutzerdefinierte Emojis sind eigene Bilder, die Mitglieder durch Eingabe eines Shortcodes einfügen können. Der Shortcode und das Bild sind erforderlich; Titel und Kategorie sind optional.'
         modal_title: 'Emoji hinzufügen'
         path_or_url_label: 'Pfad oder URL'
+        path_or_url_text: 'Wo das Bild gehostet wird: eine vollständige URL (https://…) oder ein zum Forum relativer Pfad (/assets/…). Erforderlich. Lade das Bild bitte zunächst selbst hoch – hier wird lediglich der Speicherort erfasst.'
         saved_message: '=> core.admin.settings.saved_message'
+        shortcode_invalid: 'Setze den Shortcode in Doppelpunkte und verwende ausschließlich Buchstaben, Zahlen sowie die Zeichen _, + und - (z. B.: :meinemoji_party-papagei:).'
         submit_button: '=> core.ref.save_changes'
-        text_to_replace_label: 'Zu ersetzender Text'
+        text_to_replace_label: Shortcode
+        text_to_replace_text: 'Der Text, den Mitglieder eingeben, um dieses Emoji einzufügen. Er muss in Doppelpunkte gesetzt sein und darf nur Buchstaben, Zahlen sowie die Zeichen _ + - enthalten (z. B.: :meinemoji_party-papagei:). Er ist erforderlich und muss eindeutig sein. Tipp: Füge deinem Shortcodes ein Präfix hinzu, damit sie klar lesbar sind und nicht mit Standard-Emojis in Konflikt geraten.'
       emoji_list:
         load_more_button: '=> core.forum.post_stream.load_more_button'
       export_json_button: 'JSON exportieren'
       heading_title: 'Benutzerdefinierte Emojis'
       import_emojis_message: 'Dadurch werden nur die Emoji-Einstellungen importiert. Die Emoji-Bilder musst du immer noch manuell hochladen.'
       import_json_button: 'JSON importieren'
+      import_legacy_shortcodes: 'Es wurden {count} Emojis importiert, deren Shortcodes nicht der empfohlenen :wort:-Konvention entsprechen: {shortcodes}. Sie wurden unverändert importiert und funktionieren weiterhin, du solltest jedoch in Erwägung ziehen, sie anzupassen.'
     settings:
       auto_hide_label: 'Automatisch ausblenden'
       auto_hide_text: 'Das Auswahlfeld ausblenden, nachdem ein Emoji ausgewählt wurde.'
@@ -49,13 +58,15 @@ pianotell-flamoji:
       show_preview_label: 'Vorschaubereich anzeigen'
       show_preview_text: 'Zeige den Namen des Emojis, den Shortcode und die Auswahl für den Hautton in einem Vorschaufenster unterhalb des Auswahlrasters an.'
       show_recents_label: 'Häufig verwendete Emojis anzeigen (und speichern)'
-      show_recents_text: 'Zeige die Registerkarte „Häufig verwendet“ oben im Auswahlfeld an. Die Favoriten jedes Benutzers werden ausschließlich in seinem eigenen Browser gespeichert.'
+      show_recents_text: 'Zeige die Registerkarte „Häufig verwendet“ oben im Auswahlfeld an. Es ist zunächst leer und füllt sich mit jedem vom Benutzer ausgewählten Emoji. Die Favoriten jedes Benutzers werden ausschließlich in deren Browser gespeichert.'
       show_search_label: 'Sucheingabefeld anzeigen'
       show_search_text: 'Zeige das Suchfeld oben im Auswahlfeld an.'
       show_variants_label: 'Hautton-Varianten anzeigen'
-      show_variants_text: 'Einige Emojis verfügen über Varianten mit unterschiedlichen Hauttönen. Wenn im Auswahlfeld ein Emoji ausgewählt wird, für das Varianten verfügbar sind, erscheint ein Popup-Fenster, in dem der Benutzer die gewünschte Variante auswählen kann.'
+      show_variants_text: 'Einige Emojis verfügen über Varianten mit unterschiedlichen Hauttönen. Wenn im Auswahlfeld ein Emoji ausgewählt wird, für das Varianten verfügbar sind, erscheint ein Popup-Fenster, in dem der Benutzer die gewünschte Variante auswählen kann. Im Sticker-Modus hat dies keine Auswirkungen, da benutzerdefinierte Emojis keine Hautfarbenvarianten haben.'
       specify_categories_label: 'Kategorien auswählen'
       specify_categories_text: 'Du kannst hier eine Liste von Kategorien angeben, und die Auswahlanzeige zeigt dann nur diese Kategorien an.'
+      sticker_mode_label: Sticker-Modus
+      sticker_mode_text: 'Benutzerdefinierte Emojis als große Sticker anzeigen – in Beiträgen, in der Vorschau des Live-Editors und in einem vergrößerten Auswahlraster. Da nur benutzerdefinierte Emojis vergrößert werden, beschränkt sich die Auswahl auf deine benutzerdefinierten Emojis, solange diese Funktion aktiviert ist. Standardmäßig deaktiviert.'
   forum:
     composer:
       emoji_tooltip: 'Emoji einfügen'
