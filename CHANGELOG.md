@@ -17,6 +17,7 @@ CHANGELOG
 * [`shebaoting/flarum-repost`](https://github.com/shebaoting/flarum-repost)
 * [`shebaoting/flarum-rss`](https://github.com/shebaoting/flarum-rss)
 * [`tapao/auto-ai-moderation`](https://github.com/Tapao-NonSen/Auto-AI-Moderation)
+* [`tapao/custom-landing-page`](https://github.com/Tapao-NonSen/Custom-Landing-Page)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
