@@ -144,6 +144,13 @@ ramon-avocado:
     actions:
       share: Teilen
     back: Zurück
+    bookmarks:
+      empty: 'Du hast noch keine Diskussionen gespeichert.'
+      guest_prompt: 'Melde dich an, um Diskussionen zu speichern und sie später hier wiederzufinden.'
+      save: Speichern
+      title: Gespeichert
+      toggle_error: 'Deine gespeicherte Liste konnte nicht aktualisiert werden. Bitte versuche es erneut.'
+      unsave: 'Aus den Favoriten entfernen'
     discussion:
       hero_image_add: 'Bild hinzufügen'
       hero_image_remove: 'Bild entfernen'
@@ -241,6 +248,7 @@ ramon-avocado:
       text: 'Gefällt dir, was du siehst? Steig in die Diskussion ein!'
     profile:
       joined: 'Beigetreten {date}'
+      member_since: 'Mitglied seit {date}'
       scroll_left: 'Nach links scrollen'
       scroll_right: 'Nach rechts scrollen'
     search:
