@@ -13,6 +13,7 @@ CHANGELOG
 * [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
 * [`linkrobins/auto-verify`](https://github.com/linkrobins/auto-verify)
 * [`peopleinside/flarum-ext-antiflood`](https://github.com/PeopleInside/flarum-ext-antiflood)
+* [`shebaoting/flarum-avatar`](https://github.com/shebaoting/flarum-avatar)
 * [`shebaoting/flarum-money`](https://github.com/shebaoting/flarum-money)
 * [`shebaoting/flarum-repost`](https://github.com/shebaoting/flarum-repost)
 * [`shebaoting/flarum-rss`](https://github.com/shebaoting/flarum-rss)
@@ -32,6 +33,7 @@ CHANGELOG
 * [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
 * [`peopleinside/fla-powcaptcha`](https://github.com/PeopleInside/fla-powcaptcha)
 * [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado)
 * [`tryhackx/flarum-advanced-pages`](https://github.com/TryHackX/flarum-advanced-pages)
 
 
