@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+1.25.22 (XXXX-XX-XX)
+--------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`blomstra/realtime`](https://flarum.org/extension/blomstra/realtime)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
+
+
+Alle Änderungen: [1.25.21...1.25.22](https://github.com/flarum-lang/german/compare/1.25.21...1.25.22).
+
+
 1.25.21 (2026-06-29)
 --------------------
 
