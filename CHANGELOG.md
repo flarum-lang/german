@@ -7,6 +7,8 @@ CHANGELOG
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`blomstra/realtime`](https://flarum.org/extension/blomstra/realtime)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
 
 
