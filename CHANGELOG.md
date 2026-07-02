@@ -11,6 +11,7 @@ CHANGELOG
 * [`ernestdefoe/federation`](https://github.com/ernestdefoe/federation)
 * [`ernestdefoe/hero-builder`](https://github.com/ernestdefoe/hero-builder)
 * [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
+* [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change)
 * [`linkrobins/auto-verify`](https://github.com/linkrobins/auto-verify)
 * [`peopleinside/flarum-ext-antiflood`](https://github.com/PeopleInside/flarum-ext-antiflood)
 * [`shebaoting/flarum-avatar`](https://github.com/shebaoting/flarum-avatar)
