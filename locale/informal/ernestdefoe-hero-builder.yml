@@ -7,6 +7,9 @@ ernestdefoe-hero-builder:
     enabled: 'Kopfzeilenbausatz aktivieren'
     enabled_help: 'Hauptschalter – Animierte Kopfzeile oberhalb der Diskussionsliste und auf jeder Themen-Seite anzeigen.'
     studio:
+      border_color: Rahmenfarbe
+      border_width: 'Rahmenbreite (px)'
+      border_width_help: '0 = kein Rahmen. Für den normalen schmalen Rand das Feld leer lassen.'
       c1: 'Farbverlauf Farbe 1'
       c2: 'Farbverlauf Farbe 2'
       context: 'Kopfzeile bearbeiten für'
@@ -19,13 +22,30 @@ ernestdefoe-hero-builder:
       image: 'URL des Titelbildes'
       image_help: 'Optional. Anstelle des Farbverlaufs wird die ein vollständiges Bild angezeigt.'
       loading_tags: 'Themen werden geladen…'
+      margin_bottom: 'Unterer Rand (px)'
+      margin_help: 'Abstand über dem Banner – setze den Wert auf 0, damit er bündig unter der Kopfzeile sitzt.'
+      margin_top: 'Oberer Rand (px)'
+      shadow: Schlagschatten
+      shadow_default: Standard
+      shadow_medium: Mittel
+      shadow_none: Keiner
+      shadow_soft: Weich
+      shadow_strong: Hart
       sharp_corners: 'Scharfe Ecken (anstelle von abgerundeten)'
       show_hero: 'Kopfzeile hier anzeigen'
       show_stats: 'Statistiken anzeigen'
+      stat_add: 'Metrik hinzufügen'
+      stat_icon: 'Symbol (z. B. fas fa-users)'
+      stat_label: Beschriftung
+      stat_remove: Entfernen
+      stat_value: 'Wert (z. B. 1,2T)'
+      stats_custom: Metriken
+      stats_custom_help: 'Optional – lasse das Feld leer, um LIVE-Metriken automatisch anzuzeigen (der „Home“-Hero zeigt die Gesamtzahlen des Forums an: Diskussionen, Beiträge, Mitglieder; ein „Tag“-Hero zeigt die Anzahl der Diskussionen an). Füge hier nur dann Zeilen hinzu, wenn du diese durch eigene überschreiben möchtest. Jede Zeile besteht aus einem Wert, einem Font Awesome-Symbol und einer Beschriftung.'
       subtitle: Untertitel
       title: Titel
       width: 'Maximale Breite (px)'
       width_ph: 'Volle Breite'
   forum:
     discussions: Diskussionen
+    members: Mitglieder
     posts: Beiträge
