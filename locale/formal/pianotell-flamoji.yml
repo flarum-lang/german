@@ -33,6 +33,11 @@ pianotell-flamoji:
       auto_hide_label: 'Automatisch ausblenden'
       auto_hide_text: 'Das Auswahlfeld ausblenden, nachdem ein Emoji ausgewählt wurde.'
       category_settings_heading: Kategorie-Einstellungen
+      cdn_advanced_text: 'Die Standardwerte sind an die genaue Emoji-Mart-Version gebunden, auf deren Grundlage diese Erweiterung erstellt wurde, und verfügen über entsprechende SRI-Hashes. Wenn du eine URL änderst, passe den zugehörigen SRI-Hash entsprechend an (oder lösche ihn, um die Integritätsprüfung zu deaktivieren) und stelle sicher, dass die Datenversion mit dem Emoji-Sprite-Sheet übereinstimmt – bei nicht übereinstimmenden Versionen können Emojis möglicherweise falsch dargestellt werden. Lasse das URL-Feld leer, um das Laden dieser Ressource lokal zu erzwingen.'
+      cdn_data_sri_label: 'Daten-SRI-Hash (Optional)'
+      cdn_data_url_label: CDN-Daten-URL
+      cdn_js_sri_label: 'JavaScript-SRI-Hash (Optional)'
+      cdn_js_url_label: CDN-JavaScript-URL
       emoji_categories:
         activity: '=> pianotell-flamoji.ref.emoji_categories.activity'
         flags: '=> pianotell-flamoji.ref.emoji_categories.flags'
@@ -67,6 +72,8 @@ pianotell-flamoji:
       specify_categories_text: 'Du kannst hier eine Liste von Kategorien angeben, und die Auswahlanzeige zeigt dann nur diese Kategorien an.'
       sticker_mode_label: Sticker-Modus
       sticker_mode_text: 'Benutzerdefinierte Emojis als große Sticker anzeigen – in Beiträgen, in der Vorschau des Live-Editors und in einem vergrößerten Auswahlraster. Da nur benutzerdefinierte Emojis vergrößert werden, beschränkt sich die Auswahl auf deine benutzerdefinierten Emojis, solange diese Funktion aktiviert ist. Standardmäßig deaktiviert.'
+      use_cdn_label: 'Emoji-Mart über CDN laden'
+      use_cdn_text: 'Lädt die „emoji-mart“-Bibliothek und die Emoji-Daten von einem CDN eines Drittanbieters (z. B. jsDelivr), anstatt sie von deinem eigenen Server bereitzustellen. Standardmäßig deaktiviert. Wenn das Laden über das CDN fehlschlägt – oder ein SRI-Hash (Subresource Integrity) nicht übereinstimmt –, greift der Picker automatisch auf die mit dieser Erweiterung gebündelte Kopie zurück. Beachte, dass das Laden von einer externen Quelle erfordert, dass deine Content-Security-Policy (falls vorhanden) dies zulässt.'
   forum:
     composer:
       emoji_tooltip: 'Emoji einfügen'
