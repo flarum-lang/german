@@ -63,7 +63,7 @@ fof-upgrade-advisor:
       test_fail_auth: 'Authentifizierung fehlgeschlagen – bitte überprüfe das Token'
       test_fail_invalid: 'Ungültige Antwort – bitte überprüfe die URL'
       test_fail_unreachable: 'Das Repository konnte nicht erreicht werden'
-      test_ok: Verbunden
+      test_ok: 'Verbunden ✓'
       token: Token
       type_composer: 'Private Packagist / Benutzerdefiniert'
       type_floxum: Floxum

@@ -8,14 +8,25 @@ datlechin-ai:
       api_key_label: 'API-Schlüssel ({provider})'
       api_key_placeholder: 'Gib deinen API-Schlüssel von {provider} ein'
       base_url_label: 'Basis-URL (optional)'
+      base_url_placeholder: 'Leer lassen, um den Standardwert zu verwenden'
+      custom_base_url_label: 'Benutzerdefinierte Basis-URL'
+      custom_model_label: 'Name für benutzerdefiniertes Modell'
+      custom_model_placeholder: 'Namen für benutzerdefiniertes Modell eingeben'
+      embeddings_model_label: Embeddings-Modell
+      moderation_model_label: Moderations-Modell
       provider_anthropic: Anthropic
       provider_gemini: 'Google Gemini'
       provider_label: KI-Anbieter
       provider_openai: OpenAI
+      test_embeddings_button: 'Embeddings testen'
       test_failed: 'Test fehlgeschlagen: {error}'
+      test_moderation_button: 'Moderation testen'
       test_success: 'Test bestanden!'
+      test_text_button: 'Text-Modell testen'
+      text_model_label: Text/Chat-Modell
   forum:
     ai_search_placeholder: 'Mit KI suchen…'
   permissions:
+    embed: 'Embeddings erstellen'
     generate: 'Text mit KI erstellen'
     moderate: 'KI-Moderation verwenden'

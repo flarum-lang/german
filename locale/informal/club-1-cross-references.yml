@@ -7,9 +7,15 @@ club-1-cross-references:
     enable_short_references:
       help: '#<ID> Texte in Nachrichten (z.B. #42) in Links zur dazugehörigen Diskussion konvertieren.'
       label: 'Kurze Referenzen aktivieren'
+    retrofit_links_in_frontend:
+      help: "<p><strong>Veraltet</strong> (wird in <code>v1.2.0</code> entfernt) Verwende stattdessen den Befehl <code>chore:reparse</code> der Erweiterung <code>club-1/flarum-ext-chore-commands</code>. Siehe: <code>https://github.com/club-1/flarum-ext-chore-commands</code></p> <p>Zeigt die Titel von Diskussionslinks in Nachrichten an, die gesendet wurden, als diese Erweiterung noch nicht aktiviert war. Dies geschieht im Frontend, was zu einer schlechten Benutzererfahrung führen kann.</p>\n"
+      label: 'Links im Frontend nachträglich einfügen'
     show_discussion_id:
       help: 'Diskussions-ID überall dort hinzufügen, wo eine Diskussion angezeigt wird.'
       label: 'Diskussions-ID anzeigen'
   forum:
     comment: Kommentar
+    post_stream:
+      discussion_referenced_multiple_text: '{username} hat auf diese Diskussion von mehreren Quellen verwiesen: {sources}'
+      discussion_referenced_text: '{username} hat auf diese Diskussion von {source} verwiesen.'
     unknown_discussion: '[unbekannte Diskussion]'
