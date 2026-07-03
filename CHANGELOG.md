@@ -2,6 +2,26 @@ CHANGELOG
 =========
 
 
+1.25.22 (2026-07-03)
+--------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change)
+* [`fof/upgrade-advisor`](https://github.com/FriendsOfFlarum/upgrade-advisor)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`blomstra/realtime`](https://flarum.org/extension/blomstra/realtime)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
+* [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
+
+
+Alle Änderungen: [1.25.21...1.25.22](https://github.com/flarum-lang/german/compare/1.25.21...1.25.22).
+
+
 1.25.21 (2026-06-29)
 --------------------
 
