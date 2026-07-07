@@ -10,8 +10,10 @@ linkrobins-countdown-widget:
       done_message_placeholder: '🎉 Wir sind live!'
       icon_help: 'Die FontAwesome-Klasse, die neben dem Titel angezeigt wird (z. B. fas fa-bullhorn). Für kein Symbol bitte leer lassen.'
       icon_label: Symbolklasse
+      icon_placeholder: 'fas fa-rocket'
       link_url_help: 'Optional. Wenn aktiviert, werden die Countdown-Felder (und die Abschlussmeldung) zu einem anklickbaren Link zu dieser URL.'
       link_url_label: Link-URL
+      link_url_placeholder: 'https://beispiel.de/start'
       target_help: 'Wähle den Zeitpunkt aus, bis zu dem der Countdown hinunterzählt. Die Datumsauswahl des Browsers zeigt Jahr, Monat, Tag, Stunde und Minute an. Die Zeitzoneneinstellung unten teilt dem Widget mit, in welcher Zeitzone sich diese Uhrzeit befindet.'
       target_label: Endzeitpunkt
       timezone_help: 'IANA-Zeitzonenname (z. B. UTC, America/New_York, Europe/Berlin, Asia/Tokyo). Der Browser jedes Besuchers zählt bis zum selben aktuellen Zeitpunkt herunter, unabhängig davon, wo er sich befindet.'

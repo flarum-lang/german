@@ -37,6 +37,7 @@ linkrobins-referral:
       title: Allgemein
   api:
     invalid_expiry: 'Ungültiges Ablaufdatum.'
+    label_too_long: 'Die Beschriftung ist zu lang.'
   forum:
     notification:
       user_referred: '{displayName} hat sich mit deinem Einladungscode registriert!'

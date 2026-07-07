@@ -8,5 +8,5 @@ tapao-custom-landing-page:
       enabled_label: 'Benutzerdefinierte Landingpage aktivieren'
       guests_only_help: "Wenn aktiviert, umgehen angemeldete Benutzer die Startseite und gelangen direkt zum normalen Forum. Installiere „fof/direct-links“, um eigene Seiten für /login und /register zu erstellen, oder verwende die Vorlagenvariablen „{{ login_url }}“ und „{{ register_url }}“ in deinem HTML-Code.\n"
       guests_only_label: 'Nur für Gäste anzeigen'
-      html_help: "Füge hier dein vollständiges HTML-Dokument ein (einschließlich der Tags <!DOCTYPE html> und <html>). Verfügbare Vorlagenvariablen: ‚{{ forum_title }}‘, ‚{{ forum_url }}‘, ‚{{ login_url }}‘, ‚{{ register_url }}‘, ‚{{ year }}‘.\n"
+      html_help: "Füge hier dein vollständiges HTML-Dokument ein (einschließlich der Tags DOCTYPE html und html). Verfügbare Vorlagenvariablen: ‚{{ forum_title }}‘, ‚{{ forum_url }}‘, ‚{{ login_url }}‘, ‚{{ register_url }}‘, ‚{{ year }}‘.\n"
       html_label: 'HTML der Landingpage'
