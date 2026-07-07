@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+2.0.10 (XXXX-XX-XX)
+-------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`ernestdefoe/topic-map`](https://github.com/ernestdefoe/topic-map)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`linkrobins/countdown-widget`](https://github.com/linkrobins/countdown-widget)
+* [`linkrobins/referral`](https://github.com/linkrobins/referral)
+* [`tapao/custom-landing-page`](https://github.com/Tapao-NonSen/Custom-Landing-Page)
+
+
+Alle Änderungen: [2.0.9...2.0.10](https://github.com/flarum-lang/german/compare/2.0.9...2.0.10).
+
+
 2.0.9 (2026-07-03)
 ------------------
 
