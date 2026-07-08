@@ -3,5 +3,13 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ernestdefoe-topic-map:
+  admin:
+    min_replies_label: 'Mindestanzahl Antworten'
   forum:
+    likes: Likes
+    links: Links
+    min_read: 'Minuten gelesen'
     reactions: Reaktionen
+    top_replies: 'Top Antworten'
+    users: Benutzer
+    views: Aufrufe
