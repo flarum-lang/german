@@ -8,6 +8,7 @@ CHANGELOG
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
 * [`ernestdefoe/topic-map`](https://github.com/ernestdefoe/topic-map)
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
