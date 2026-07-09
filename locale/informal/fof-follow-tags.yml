@@ -14,11 +14,13 @@ fof-follow-tags:
       following_none_label: '=> fof-follow-tags.ref.filtering_options.none'
       following_page_default_label: 'Standardfilterung der "Du folgst"-Seiten'
       following_tags_label: '=> fof-follow-tags.ref.filtering_options.tags'
+      prompt_new_users_help: "Nutzern, die ihre Auswahl noch nicht bestätigt haben, wird ein Modalfenster angezeigt, in dem sie aufgefordert werden, Tags zu folgen. Das Modalfenster wird bei jedem Besuch erneut angezeigt, bis sie auf „Weiter zum Forum“ klicken.\n"
+      prompt_new_users_label: 'Neue Nutzer dazu auffordern, Tags auszuwählen, denen sie folgen möchten'
   email:
     body:
-      newDiscussionInTag: "Hallo {recipient_display_name},\n\n{actor_display_name} hat eine Diskussion in einem Tag gestartet, dem Sie folgen: {discussion_title}\n\nUm die neue Diskussion anzuzeigen, besuche den folgenden Link:\n{discussion_url}\n\n---\n\n{post_content}\n"
+      newDiscussionInTag: "Hallo {recipient_display_name},\n\n{actor_display_name} hat eine Diskussion in einem Tag gestartet, dem du folgst: {discussion_title}\n\nUm die neue Diskussion anzuzeigen, besuche den folgenden Link:\n{discussion_url}\n\n---\n\n{post_content}\n"
       newDiscussionTag: "Hey {recipient_display_name},\n\n{actor_display_name} hat gerade das Tag einer Diskussion von {author_display_name} in ein Tag geändert, dem Du folgst {discussion_title}\n\nUm die neue Diskussion anzuzeigen, besuche den folgenden Link:\n{discussion_url}\n"
-      newPostInTag: "Hallo {recipient_display_name},\n\n{actor_display_name} hat in einer Diskussion zu einem Tag gepostet, dem Sie folgen: {discussion_title}\n\nUm die neue Aktivität anzuzeigen, besuche den folgenden Link:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nDu erhälst keine weiteren Benachrichtigungen zu dieser Diskussion, bis Du auf dem Laufenden bist.\n"
+      newPostInTag: "Hallo {recipient_display_name},\n\n{actor_display_name} hat in einer Diskussion zu einem Tag gepostet, dem du folgst: {discussion_title}\n\nUm die neue Aktivität anzuzeigen, besuche den folgenden Link:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nDu erhälst keine weiteren Benachrichtigungen zu dieser Diskussion, bis Du auf dem Laufenden bist.\n"
     subject:
       newDiscussionInTag: '[Tag | Neue Diskussion] {title}'
       newDiscussionTag: '[Tag | Geändertes Tag] {title}'
@@ -39,6 +41,11 @@ fof-follow-tags:
       new_discussion_tag_text: '{username} hat das Tag geändert'
       new_discussion_text: '{username} gestartet'
       new_post_text: '{username} gepostet'
+    prompt:
+      choose_button: 'Wähle Tags aus, denen Du folgen möchtest'
+      continue_button: 'Weiter zum Forum'
+      later_button: 'Später erinnern'
+      modal_title: 'Wähle Tags aus, denen Du folgen möchtest'
     settings:
       notify_new_discussion_label: 'Jemand erstellt eine Diskussion in einem Tag, dem ich folge'
       notify_new_discussion_tag_label: 'Jemand markiert eine Diskussion erneut mit einem Tag, dem ich folge'
@@ -56,8 +63,8 @@ fof-follow-tags:
       lurking_text: 'Über alle neuen Diskussionen und Antworten benachrichtigen lassen.'
       not_following_button: 'Nicht folgend'
       not_following_text: 'Werde nur benachrichtigt, wenn @erwähnt.'
-      notify_alert_tooltip: 'Erhalte eine Forenbenachrichtigung, wenn neue Diskussionen oder Beiträge existieren'
-      notify_email_tooltip: 'Erhalte eine E-Mail, wenn neue Diskussionen oder Beiträge existieren'
+      notify_alert_tooltip: 'Erhalte eine Forenbenachrichtigung, wenn neue Diskussionen oder Beiträge erstellt werden'
+      notify_email_tooltip: 'Erhalte eine E-Mail, wenn neue Diskussionen oder Beiträge erstellt werden'
       submit_button: 'Abo bestätigen'
       subscription_label: 'Wähle die Art aus, wie du „{tagName}“ abonnierst'
     user:
