@@ -13,6 +13,7 @@ CHANGELOG
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`linkrobins/countdown-widget`](https://github.com/linkrobins/countdown-widget)
 * [`linkrobins/referral`](https://github.com/linkrobins/referral)
 * [`tapao/custom-landing-page`](https://github.com/Tapao-NonSen/Custom-Landing-Page)
