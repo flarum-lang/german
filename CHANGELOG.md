@@ -10,6 +10,7 @@ CHANGELOG
 * [`blomstra/s3-assets`](https://github.com/blomstra/flarum-ext-s3-assets)
 * [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
 * [`datlechin/flarum-ai`](https://github.com/datlechin/flarum-ai)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`fof/upgrade-advisor`](https://github.com/FriendsOfFlarum/upgrade-advisor)
 
 
