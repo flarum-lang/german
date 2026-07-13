@@ -10,12 +10,25 @@ flarum-gdpr:
         export_description: 'Exportiert die Details der Abonnementstufe für einen Tag, falls eine solche existiert.'
 fof-follow-tags:
   admin:
+    basics:
+      following_label: '=> flarum-subscriptions.forum.index.following_link'
     settings:
+      all_discussions_on_following_page_for_guests_label: 'Alle Diskussionen auf der „Du folgst“-Seite für Gäste anzeigen'
       following_none_label: '=> fof-follow-tags.ref.filtering_options.none'
       following_page_default_label: 'Standardfilterung der "Du folgst"-Seiten'
       following_tags_label: '=> fof-follow-tags.ref.filtering_options.tags'
+      prompt_button_on_following_page_label: 'Schaltfläche „Wähle Tags aus, denen Du folgen möchtest“ auf der „Du folgst“ anzeigen'
       prompt_new_users_help: "Nutzern, die ihre Auswahl noch nicht bestätigt haben, wird ein Modalfenster angezeigt, in dem sie aufgefordert werden, Tags zu folgen. Das Modalfenster wird bei jedem Besuch erneut angezeigt, bis sie auf „Weiter zum Forum“ klicken.\n"
       prompt_new_users_label: 'Neue Nutzer dazu auffordern, Tags auszuwählen, denen sie folgen möchten'
+      prompt_tag_ids_label: 'Zur Auswahl stehende Tags'
+      prompt_tag_strategy_label: 'Zur Auswahl stehende Tags'
+      prompt_tag_strategy_options:
+        all: 'Alle Tags'
+        list: 'Unten ausgewählte Tags'
+        primary: 'Haupt-Tags der obersten Ebene'
+        primaryAndChildren: 'Alle Haupt-Tags von jeder Ebene'
+        primaryAndSecondary: 'Haupt-Tags der obersten Ebene und Sekundär-Tags'
+        secondary: 'Nur Sekundär-Tags'
   email:
     body:
       newDiscussionInTag: "Hallo {recipient_display_name},\n\n{actor_display_name} hat eine Diskussion in einem Tag gestartet, dem du folgst: {discussion_title}\n\nUm die neue Diskussion anzuzeigen, besuche den folgenden Link:\n{discussion_url}\n\n---\n\n{post_content}\n"
