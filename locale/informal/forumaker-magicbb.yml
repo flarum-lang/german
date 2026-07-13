@@ -34,6 +34,7 @@ forumaker-magicbb:
       bb_justify: Blocksatz
       bb_spoiler: Spoiler
       bb_table: Tabelle
+      bb_video: Video
       toolbar_group: 'MagicBB-Schaltflächen zusammenfassen'
       toolbar_group_help: 'Wenn aktiviert, werden alle MagicBB-Schaltflächen im Editor zu einer einzigen Schaltfläche zusammengefasst.'
   forum:

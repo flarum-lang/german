@@ -3,6 +3,12 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 linkrobins-toc:
+  admin:
+    settings:
+      max_depth_help: 'Tiefste Überschriftenebene, die im Inhaltsverzeichnis aufgeführt wird (1–3). Die Standardeinstellung ist 3.'
+      max_depth_label: 'Maximale Ebene der Überschriften'
+      min_headings_help: 'Zeige Inhaltsverzeichnis nur bei Beiträgen an, die mindestens diese Anzahl an Überschriften enthalten. Der Standardwert ist 2.'
+      min_headings_label: 'Minimalanzahl von Überschriften für Anzeige'
   forum:
     toc:
       copy_link: 'Link kopiert'

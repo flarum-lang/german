@@ -47,14 +47,16 @@ forumaker-statser:
       collapse: 'Online-Benutzer verbergen'
       expand: 'Online-Benutzer anzeigen'
     routes:
+      arena: 'Kämpfe in der Arena'
       discussion: 'Diskussion „{title}“'
       flags: Meldungen
       generic: 'das Forum'
       index: 'alle Diskussionen'
       notifications: Benachrichtigungen
+      private_discussion: 'eine private Diskussion'
       search: Suche
       settings: Einstellungen
-      tag: 'Thema „{name}“'
+      tag: 'Tag „{name}“'
       tags: Startseite
       user: '{name}s Profil'
     widget:
@@ -69,6 +71,7 @@ forumaker-statser:
       online_users: Online
       online_users_count: '{count, plural, one {# Benutzer} other {# Benutzer}}'
       posts: '{count, plural, one {Beitrag} other {Beiträge}}'
+      title: Online-Statistiken
       total_users: '{count, plural, one {Benutzer} other {Benutzer}}'
       viewing_page: 'Liest {page}'
       viewing_unknown: 'Stöbert im Forum'

@@ -6,11 +6,11 @@ flarum-audit:
   lib:
     browser:
       discussion:
-        tagged: 'Hat die Themen von {discussion} von {old_tags} nach {new_tags} aktualisiert'
+        tagged: 'Hat die Tags von {discussion} von {old_tags} nach {new_tags} aktualisiert'
       tag:
-        created: 'Thema {tag} erstellt'
-        deleted: 'Thema {tag} gelöscht'
-        updated: 'Thema {tag} aktualisiert'
+        created: 'Tag {tag} erstellt'
+        deleted: 'Tag {tag} gelöscht'
+        updated: 'Tag {tag} aktualisiert'
 flarum-tags:
   admin:
     basics:
@@ -21,7 +21,7 @@ flarum-tags:
     edit_tag:
       color_label: '=> core.ref.color'
       delete_tag_button: Entfernen
-      delete_tag_confirmation: 'Soll das Thema wirklich entfernt werden? Die Diskussionen werden NICHT gelöscht.'
+      delete_tag_confirmation: 'Soll das Tag wirklich entfernt werden? Die Diskussionen werden NICHT gelöscht.'
       description_label: Beschreibung
       hide_label: 'Von allen Diskussionen ausblenden'
       icon_label: '=> core.ref.icon'
@@ -30,72 +30,72 @@ flarum-tags:
       name_placeholder: '=> flarum-tags.ref.name'
       slug_label: 'Slug (Teil der URL)'
       submit_button: '=> core.ref.save_changes'
-      title: 'Thema erstellen'
+      title: 'Tag erstellen'
     nav:
       tags_button: '=> flarum-tags.ref.tags'
-      tags_text: 'Ordne die Liste der Themen um die Diskussionen zu organisieren.'
+      tags_text: 'Ordne die Liste der Tags, um die Diskussionen zu organisieren.'
     permissions:
-      allow_edit_tags_label: 'Erlaube, Themen zu ändern'
-      bypass_tag_counts_label: 'Themen-Anforderungen umgehen'
-      restrict_by_tag_heading: 'Durch Themen beschränken'
-      tag_discussions_label: 'Themen für Diskussionen anpassen'
+      allow_edit_tags_label: 'Erlaube, Tags zu ändern'
+      bypass_tag_counts_label: 'Tag-Anforderungen umgehen'
+      restrict_by_tag_heading: 'Durch Tag beschränken'
+      tag_discussions_label: 'Tag für Diskussionen anpassen'
     settings:
       button_text: '=> flarum-tags.ref.choose_tags'
     tag_settings:
       range_separator_text: ' bis '
-      required_primary_heading: 'Anzahl der benötigten Hauptthemen'
-      required_primary_text: 'Gib die minimale und die maximale Anzahl von Hauptthemen an, die einer Diskussion hinzugefügt werden können.'
-      required_secondary_heading: 'Anzahl der benötigten Unterthemen'
-      required_secondary_text: 'Gib die minimale und die maximale Anzahl von Unterthemen an, die einer Diskussion hinzugefügt werden können.'
-      title: Themen-Einstellungen
+      required_primary_heading: 'Anzahl der benötigten Haupt-Tags'
+      required_primary_text: 'Gib die minimale und die maximale Anzahl von Haupt-Tags an, die einer Diskussion hinzugefügt werden können.'
+      required_secondary_heading: 'Anzahl der benötigten Unter-Tags'
+      required_secondary_text: 'Gib die minimale und die maximale Anzahl von Unter-Tags an, die einer Diskussion hinzugefügt werden können.'
+      title: Tag-Einstellungen
     tags:
-      about_tags_text: 'Themen dienen der Strukturierung von Diskussionen. Hauptthemen sind wie traditionelle Kategorien in einem Forum: sie können in zwei Ebenen geordnet werden. Unterthemen haben keine Ebenen und keine Reihenfolge. Sie können helfen, die Diskussionen feiner zu strukturieren.'
-      create_primary_tag_button: 'Hauptthema erstellen'
-      create_secondary_tag_button: 'Unterthema erstellen'
-      edit_tag_label: 'Thema {tag} bearbeiten'
-      primary_heading: Hauptthemen
-      secondary_heading: Unterthemen
+      about_tags_text: 'Tags dienen der Strukturierung von Diskussionen. Haupt-Tags sind wie traditionelle Kategorien in einem Forum: sie können in zwei Ebenen geordnet werden. Unter-Tags haben keine Ebenen und keine Reihenfolge. Sie können helfen, die Diskussionen feiner zu strukturieren.'
+      create_primary_tag_button: 'Haupt-Tag erstellen'
+      create_secondary_tag_button: 'Unter-Tags erstellen'
+      edit_tag_label: 'Tag {tag} bearbeiten'
+      primary_heading: Haupt-Tags
+      secondary_heading: Unter-Tags
       settings_heading: Einstellungen
   forum:
     all_tags:
-      meta_description_text: 'Alle Themen'
+      meta_description_text: 'Alle Tags'
       meta_title_text: '=> flarum-tags.ref.tags'
     choose_tags:
-      edit_title: 'Themen für {title} bearbeiten'
-      title: 'Themen für die Diskussion auswählen'
+      edit_title: 'Tags für {title} bearbeiten'
+      title: 'Tags für die Diskussion auswählen'
     composer_discussion:
       choose_tags_link: '=> flarum-tags.ref.choose_tags'
     discussion_controls:
-      edit_tags_button: 'Themen ändern'
+      edit_tags_button: 'Tags ändern'
     header:
-      back_to_tags_tooltip: 'Zurück zur Themen-Liste'
+      back_to_tags_tooltip: 'Zurück zur Tag-Liste'
     index:
       more_link: Mehr…
       tags_link: '=> flarum-tags.ref.tags'
-      untagged_link: 'nicht mit Thema versehen'
+      untagged_link: 'nicht getaggt'
     post_stream:
       added_and_removed_tags_text: '{username} hat {tagsAdded} hinzugefügt und {tagsRemoved} entfernt ({time}).'
       added_tags_text: '{username} hat {tagsAdded} hinzugefügt ({time}).'
       removed_tags_text: '{username} hat {tagsRemoved} entfernt ({time}).'
-      tags_text: '{count, plural, one {das Thema {tags}} other {die Themen {tags}}}'
+      tags_text: '{count, plural, one {das Tag {tags}} other {die Tags {tags}}}'
     tag:
-      meta_description_text: 'Alle Diskussionen mit dem {tag} Thema'
+      meta_description_text: 'Alle Diskussionen mit dem Tag {tag}'
   lib:
     deleted_tag_text: Entfernt
     gambits:
       discussions:
         tag:
-          hint: 'Name eines Themas oder durch Kommas getrennte Liste von Themen-Namen oder „untagged“ (nicht getaggt)'
-          key: thema
+          hint: 'Name eines Tags oder durch Kommas getrennte Liste von Tag-Namen oder „untagged“ (nicht getaggt)'
+          key: tag
     tag_selection_modal:
-      bypass_requirements: 'Themen-Bedigungen umgehen'
-      choose_primary_placeholder: '{count, plural, one {Wähle ein primäres Thema} other {Wähle # primäre Themen}}'
+      bypass_requirements: 'Tag-Bedigungen umgehen'
+      choose_primary_placeholder: '{count, plural, one {Wähle ein Haupt-Tag} other {Wähle # Haupt-Tags}}'
       choose_secondary_placeholder: '=> flarum-tags.ref.choose_tags_placeholder'
       choose_tags_placeholder: '=> flarum-tags.ref.choose_tags_placeholder'
       submit_button: '=> core.ref.okay'
       title: '=> flarum-tags.ref.choose_tags'
   ref:
-    choose_tags: 'Themen auswählen'
-    choose_tags_placeholder: '{count, plural, one {Wähle ein Thema mehr} other {Wähle # mehr Themen}}'
+    choose_tags: 'Tags auswählen'
+    choose_tags_placeholder: '{count, plural, one {Wähle noch ein Tag} other {Wähle # weitere Tags}}'
     name: Name
-    tags: Themen
+    tags: Tags

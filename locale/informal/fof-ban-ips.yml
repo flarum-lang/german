@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-ban-ips/de/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      fof_ban_ips:
+        banned: 'Hat IP {ip} gesperrt'
+        unbanned: 'Hat IP {ip} entsperrt'
 flarum-gdpr:
   lib:
     data:

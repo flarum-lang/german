@@ -2,18 +2,30 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-impersonate/de@formal/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      user:
+        impersonated: 'Hat sich als {username} ausgegeben'
+        impersonation_ended: 'Ist zu {username} zurückgekehrt'
 fof-impersonate:
   admin:
     permissions:
       login: 'Als andere Benutzer anmelden'
     settings:
-      no_settings_available: 'Derzeit sind keine Einstellungen verfügbar. Versuche fof/moderator-notes zu installieren'
+      no_settings_available: 'Derzeit sind keine Einstellungen verfügbar. Versuche fof/moderator-notes oder flarum/audit zu installieren'
       require_reason: 'Eingabe eines Grundes verlangen, bevor man sich als einen anderen Nutzer ausgeben kann.'
+      require_reason_help: 'Der Grund wird im Audit-Protokoll (flarum/audit) und/oder als Moderator-Notizen in beiden Konten (fof/moderator-notes) festgehalten, je nachdem, welche Option aktiviert ist.'
       title: 'FoF Impersonate'
+  forum:
+    notice:
+      message: 'Du gibst dich derzeit als {username} aus.'
+    return:
+      button: 'Zu {username} zurückkehren'
   lib:
     modal:
       impersonate_username: 'Als {username} anmelden'
-      label: 'Mit großer Macht kommt große Verantwortung. Wenn du fortfährst, wirst du bis zum Abmelden zu {username}.'
+      label: 'Mit großer Macht kommt große Verantwortung. Wenn du fortfährst, wirst du zu {username} bis du wieder zurückwechselst.'
       placeholder_optional: '(Optional) Gib einen Grund für den Wechsel zu diesem Benutzer an'
       placeholder_required: 'Du musst einen Grund für den Wechsel zu diesem Benutzer angeben, bevor du fortfahren kannst'
       title: 'Als anderer Benutzer anmelden'

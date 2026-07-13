@@ -16,8 +16,10 @@ huseyinfiliz-modern-footer:
       bottom_section: 'Unterer Abschnitt'
       custom: Benutzerdefinierte
       custom_html: 'Benutzerdefinierter HTML-Code'
+      custom_html_help: 'Dieser HTML-Code wird für jeden Besucher unverändert dargestellt. Füge nur Markup hinzu, dem du vertraust.'
       custom_js: 'Benutzerdefiniertes JS'
       custom_js_code: 'Benutzerdefinierter JavaScript-Code'
+      custom_js_help: 'Dieser Code wird direkt im Browser jedes Besuchers ausgeführt. Füge nur Code hinzu, dem du vertraust.'
       display_mode: 'Anzeigemodus der Fußzeile'
       font_awesome_icon: 'Font Awesome-Symbol'
       forum_logo: Forum-Logo
