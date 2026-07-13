@@ -8,17 +8,23 @@ ramon-backup:
       actions:
         generate: 'Schlüsselpaar generieren'
         generate_failed: 'Schlüsselpaar konnte nicht generiert werden.'
+      clipboard_failed: 'Das Kopieren ist fehlgeschlagen – Dein Browser hat den Zugriff auf die Zwischenablage blockiert. Wähle den Wert manuell aus.'
+      clipboard_unavailable: 'Dein Browser lässt das Kopieren in die Zwischenablage nicht zu. Wähle den Wert bitte manuell aus.'
       public_key:
         copied: Kopiert!
       regenerate_modal:
         submit: 'Neues Schlüsselpaar generieren'
       reveal_modal:
         copied: Kopiert!
+      section_help: 'Verschlüssele neue Sicherungen mit einem asymmetrischen Schlüsselpaar. Der öffentliche Schlüssel wird in der Datenbank gespeichert, der private Schlüssel MUSS in die Datei „config.php“ eingefügt werden – der Webprozess verwaltet niemals einen Schlüssel, der ihm nicht mitgeteilt wurde.'
       section_title: Verschlüsselung
       status:
         absent: Fehlt
+        mismatch_title: 'Schlüsselpaar stimmt nicht überein'
         present: Vorhanden
         private_key_label: 'Privater Schlüssel (config.php)'
+        private_missing_body: 'Es wurde ein öffentlicher Schlüssel generiert, aber der dazugehörige private Schlüssel ist nicht in deiner config.php enthalten. Vorhandene verschlüsselte Backups können hier erst entschlüsselt werden, wenn der private Schlüssel wiederhergestellt wurde.'
+        private_missing_title: 'Privater Schlüssel fehlt'
         public_key_label: 'Öffentlicher Schlüssel'
     errors:
       boundary_body: 'Es ist ein unerwarteter Fehler aufgetreten. Der Rest des Fensters funktioniert weiterhin – versuche es erneut oder lade die Seite neu, falls das Problem weiterhin besteht.'
@@ -59,13 +65,20 @@ ramon-backup:
       warnings_title: '{count} Warnung zur Umwandlung|{count} Warnungen zur Umwandlung'
     import_modal:
       cancel_button: Abbrechen
+      close_button: Schließen
+      completed: 'Wiederherstellung abgeschlossen.'
       confirm_title: 'Vorhandene Daten ersetzen'
+      done_body: 'Alle ausgewählten Dateien wurden wiederhergestellt. Die Datenbank wurde nicht verändert, sodass deine aktuelle Sitzung unverändert bleibt.'
+      done_title: 'Wiederherstellung abgeschlossen'
       key_title: 'Privater Schlüssel'
+      logout_title: 'Du wurdest abgemeldet'
       meta_contents: Enthält
       meta_flarum: Flarum-Version
       meta_size: Archivgröße
       meta_source_url: Quell-URL
       meta_when: Erstellt
+      phase_done: Fertig
+      phase_error: Fehler
       section_assets: Assets
       section_count: '{count} Dateien'
       section_db: Datenbank
@@ -79,17 +92,25 @@ ramon-backup:
       col_size: Größe
       col_status: Verschlüsselung
       col_when: Wann
+      confirm_delete: 'Möchtest du diese Sicherung endgültig löschen? Die .flarum-Datei wird vom Server entfernt.'
+      confirm_delete_title: 'Diese Sicherung löschen?'
       content_assets: Assets
       content_db: Datenbank
       content_extensions: Erweiterungen
       content_storage: Speicher
       delete_failed: 'Sicherung konnte nicht gelöscht werden.'
+      delete_title: Löschen
       deleted: 'Sicherung gelöscht.'
+      download_title: Herunterladen
       empty: 'Es gibt noch keine Sicherungen. Klicke auf „Sicherung erstellen“, um eine zu erstellen.'
       encrypted: Verschlüsselt
+      load_failed: 'Die Sicherungsliste konnte nicht geladen werden.'
       plain: Einfach
+      retry: 'Erneut versuchen'
       target_for: 'für {engine}'
+      target_tooltip: 'Die SQL-Datei dieser Sicherung wurde für {engine} generiert. Stelle sie auf einer {engine}-Installation wieder her.'
     panel:
+      actions_help: 'Erstelle ein portables Archiv deines Forums, stelle es wieder her oder übertrage es zwischen verschiedenen Flarum-Installationen.'
       actions_title: 'Sicherung & Migration'
       create_button: 'Sicherung erstellen'
       import_button: 'Sicherung importieren'
