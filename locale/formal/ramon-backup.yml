@@ -21,7 +21,9 @@ ramon-backup:
         private_key_label: 'Privater Schlüssel (config.php)'
         public_key_label: 'Öffentlicher Schlüssel'
     errors:
+      boundary_body: 'Es ist ein unerwarteter Fehler aufgetreten. Der Rest des Fensters funktioniert weiterhin – versuche es erneut oder lade die Seite neu, falls das Problem weiterhin besteht.'
       boundary_retry: 'Erneut versuchen'
+      boundary_title: 'Dieser Abschnitt konnte nicht dargestellt werden.'
       cancel_default: Abbrechen
       confirm_default: Bestätigen
       generic: 'Es ist ein Fehler aufgetreten. Bitte versuche es erneut.'
@@ -57,6 +59,7 @@ ramon-backup:
       warnings_title: '{count} Warnung zur Umwandlung|{count} Warnungen zur Umwandlung'
     import_modal:
       cancel_button: Abbrechen
+      confirm_title: 'Vorhandene Daten ersetzen'
       key_title: 'Privater Schlüssel'
       meta_contents: Enthält
       meta_flarum: Flarum-Version
@@ -67,7 +70,9 @@ ramon-backup:
       section_count: '{count} Dateien'
       section_db: Datenbank
       section_extensions: Erweiterungen
+      section_storage: Speicher
       start_button: Wiederherstellen
+      start_failed: 'Wiederherstellung konnte nicht gestartet werden.'
       uploading_pct: 'Hochladen… {pct}%'
     list:
       col_contents: Inhalte
