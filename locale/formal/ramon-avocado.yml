@@ -28,7 +28,7 @@ ramon-avocado:
       team_groups_label: 'Anzuzeigende Gruppen'
       team_title_label: Seitentitel
     loading: 'Wird geladen…'
-    search_tags: 'Themen durchsuchen…'
+    search_tags: 'Tags durchsuchen…'
     settings:
       auth_image_help: 'Hintergrundbild, das im rechten Bereich der Modalfenster für Anmeldung, Registrierung und Passwort vergessen angezeigt wird.'
       auth_image_label: 'Bild im Anmeldefenster'
@@ -40,7 +40,7 @@ ramon-avocado:
       colored_border_style_label: 'Rahmenstil für Diskussionskarten'
       colored_border_style_left: 'Linker Rahmen'
       colored_border_style_none: Keinen
-      colored_enabled_help: 'Wende die Farbe für aktive Themen oder Diskussionen auf die wichtigsten Schaltflächen, Links und andere UI-Akzente im gesamten Forum an.'
+      colored_enabled_help: 'Wende die Farbe für das aktive Tag oder der Diskussionen auf die wichtigsten Schaltflächen, Links und andere UI-Akzente im gesamten Forum an.'
       colored_enabled_label: 'Farbakzente aktivieren'
       custom_default_avatar_help: 'Lade ein benutzerdefiniertes Standard-Avatarbild für Benutzer hoch, die keinen Avatar haben.'
       custom_default_avatar_label: 'Benutzerdefinierter Standard-Avatar'
@@ -50,7 +50,7 @@ ramon-avocado:
       custom_hero_html_label: 'Benutzerdefiniertes Hero-HTML'
       custom_loading_spinner_help: 'Ersetze die standardmäßige Lade-Animation durch einen animierten SVG-Lade-Spinner.'
       custom_loading_spinner_label: 'Benutzerdefinierte Lade-Animation'
-      featured_tags_empty: 'Keine Themen gefunden.'
+      featured_tags_empty: 'Keine Tags gefunden.'
       featured_tags_help: 'Ausgewählte Kategorien werden auf der Startseite und der Kategorieseite mit einem Sternsymbol hervorgehoben.'
       featured_tags_label: 'Hervorgehobene Kategorien'
       fixed_avatar_effect_help: 'Avatar des Beitragsautors beim Scrollen bei längeren Beiträgen auf Desktop am oberen Rand fixieren.'
@@ -62,16 +62,16 @@ ramon-avocado:
       hero_deco_divider_label: 'Trennsymbol zwischen den Dekorationssymbolen anzeigen'
       hero_decoration_icon_count_help: 'Bei 1 Symbol wird das erste untergeordnete Element verwendet. Bei 2 Symbolen wird zusätzlich das zweite untergeordnete Element angezeigt, das nach links versetzt ist.'
       hero_decoration_icon_count_label: 'Anzahl der Schmucksymbole'
-      hero_decoration_icon_count_one: '1 Symbol (erstes untergeordnetes Thema)'
-      hero_decoration_icon_count_two: '2 Symbole (erstes und zweites untergeordnetes Thema)'
+      hero_decoration_icon_count_one: '1 Symbol (erstes untergeordnetes Tag)'
+      hero_decoration_icon_count_two: '2 Symbole (erstes und zweites untergeordnetes Tag)'
       hero_decoration_icon_help: 'Zeige das Symbol für das Unterthema als großes dekoratives Element auf der rechten Seite der Diskussionsüberschrift an.'
       hero_decoration_icon_label: 'Unterthema-Symbol im Diskussions-Hero anzeigen'
       hero_decoration_icon_opacity_help: 'Stelle die Deckkraft des Dekorationssymbols als Prozentsatz ein. 100 = vollständig deckend, 0 = durchsichtig.'
       hero_decoration_icon_opacity_label: 'Deckkraft des Symbols (0–100)'
       hero_image_position_help: 'CSS-Wert für „background-position“, z. B. „center top“ oder „50% 20%“.'
       hero_image_position_label: 'Position des Titelbildes'
-      hero_image_tags_help: 'Wenn der Benutzer einem neuen Beitrag eines dieser Themen hinzufügt, wird im Editor ein optionales Feld zum Hochladen von Bildern angezeigt. Das hochgeladene Bild wird als Hintergrund für die Beitragsüberschrift und als erstes Bild in der Vorschau auf der Startseite angezeigt.'
-      hero_image_tags_label: 'Themen, die ein Hero-Bild erfordern'
+      hero_image_tags_help: 'Wenn der Benutzer einem neuen Beitrag eines dieser Tags hinzufügt, wird im Editor ein optionales Feld zum Hochladen von Bildern angezeigt. Das hochgeladene Bild wird als Hintergrund für die Beitragsüberschrift und als erstes Bild in der Vorschau auf der Startseite angezeigt.'
+      hero_image_tags_label: 'Tags, die ein Hero-Bild erfordern'
       hide_links_for_guests_help: 'Verhindert, dass Gäste Links in Beiträgen anklicken können. Beim Anklicken eines Links wird stattdessen eine Aufforderung zum Anmelden oder Registrieren angezeigt.'
       hide_links_for_guests_label: 'Links für Gäste verbergen'
       loading_spinner_style_label: Spinner-Stil
@@ -116,7 +116,7 @@ ramon-avocado:
       show_share_label: 'Teilen-Knopf neben Beiträgen anzeigen'
       showcase_count_help: 'Stelle 1 bis 5 Diskussionskarten im Showcase-Abschnitt aus.'
       showcase_count_label: 'Anzahl der Showcase-Elemente'
-      showcase_enabled_help: 'Zeige auf der Startseite einen Showcase-Slider mit Diskussionen aus ausgewählten Themen an.'
+      showcase_enabled_help: 'Zeige auf der Startseite einen Showcase-Slider mit Diskussionen aus ausgewählten Tags an.'
       showcase_enabled_label: 'Abschnitt Showcase / Portfolio aktivieren'
       showcase_heading_help: 'Benutzerdefinierter Titel für den Showcase-Abschnitt. Leer lassen, um den Standardtitel zu verwenden.'
       showcase_heading_label: 'Titel des Showcase-Abschnitts'
@@ -124,11 +124,11 @@ ramon-avocado:
       showcase_image_style_full: 'Volles Bild'
       showcase_image_style_help: 'Wähle zwischen kompakter oder Bildanzeige in voller Höhe.'
       showcase_image_style_label: 'Bildstil der Karten'
-      showcase_tag_help: 'Diskussionen aus diesen Themen werden im Showcase-Slider auf der Startseite angezeigt.'
-      showcase_tag_label: 'Showcase / Portfolio Themen'
+      showcase_tag_help: 'Diskussionen aus diesen Tags werden im Showcase-Slider auf der Startseite angezeigt.'
+      showcase_tag_label: 'Showcase- / Portfolio-Tags'
       spinner_custom_code_help: 'Füge einen beliebigen SVG- oder HTML-Code ein, der als Lade-Spinner verwendet werden soll.'
       spinner_custom_code_label: 'Benutzerdefinierter Spinner-Code'
-      tag_picker_placeholder: 'Themen auswählen…'
+      tag_picker_placeholder: 'Tags auswählen…'
       team_desc_label: Seitenbeschreibung
       team_desc_placeholder: 'Lerne die Menschen hinter der Community kennen.'
       team_enabled_help: 'Zeige eine /team-Seite an, auf der die Mitglieder der ausgewählten Gruppen aufgelistet sind.'
@@ -183,7 +183,7 @@ ramon-avocado:
       choose_primary_tag_singular: '1 Hauptthema auswählen'
       choose_secondary_tag_plural: '{count} Unterthemen auswählen'
       choose_secondary_tag_singular: '1 Unterthema auswählen'
-      choose_tags: 'Themen auswählen'
+      choose_tags: 'Tags auswählen'
       composer_body_placeholder: 'Teile deine Meinung…'
       composer_close: Schließen
       composer_edit: Bearbeiten
@@ -200,7 +200,7 @@ ramon-avocado:
       discussion_singular: Diskussion
       discussion_singular_card: 'Eine Diskussion'
       discussions: Diskussionen
-      filter_tags: 'Themen filtern'
+      filter_tags: 'Tags filtern'
       following_heading: Folgend
       like: Like
       like_count_plural: '{count} Likes'
@@ -209,7 +209,7 @@ ramon-avocado:
       more: mehr
       nav_label: Navigation
       new_discussion: 'Neue Diskussion'
-      no_tags_found: 'Keine Themen gefunden'
+      no_tags_found: 'Keine Tags gefunden'
       or: oder
       popular_heading: 'Populäre Diskussionen'
       popular_no_discussions: 'Noch keine Diskussionen.'
@@ -280,10 +280,10 @@ ramon-avocado:
       tab_posts: Beiträge
       tab_users: Benutzer
       tip: 'Tipp: Präfix '
-      tip_suffix: ' um nach Themen zu filtern'
+      tip_suffix: ' um nach Tags zu filtern'
       title: Suche
     tag_picker:
-      remove: 'Thema entfernen'
+      remove: 'Tag entfernen'
     tags:
       all_discussions: 'Alle Diskussionen'
       discussion_plural: Diskussionen
@@ -292,8 +292,8 @@ ramon-avocado:
       featured: Hervorgehoben
       home: Start
       load_more: 'Mehr laden'
-      not_found: 'Thema nicht gefunden.'
-      other_tags_label: 'Andere Themen'
+      not_found: 'Tag nicht gefunden.'
+      other_tags_label: 'Andere Tags'
       title: Kategorien
     team:
       disabled: 'Diese Seite ist nicht verfügbar.'

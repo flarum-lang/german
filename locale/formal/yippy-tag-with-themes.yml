@@ -5,7 +5,7 @@
 yippy-tag-with-themes:
   admin:
     designs:
-      add: 'Design für Themen hinzufügen'
+      add: 'Design für Tags hinzufügen'
       banner: 'Design-Thema {index} - [{isEnabled}]'
       data:
         child_background_color: 'Hintergrundfarbe des Unterelements bearbeiten'
@@ -19,23 +19,23 @@ yippy-tag-with-themes:
         primary_font_class: 'Primäre Schriftart bearbeiten'
         secondary_font_class: 'Sekundäre Schriftart bearbeiten'
         tags: 'Ausgewählte Hauptthemen'
-        tags_help: 'Wähle eines oder mehrere Themen für dieses benutzerdefinierte Design-Thema aus'
+        tags_help: 'Wähle eines oder mehrere Tags für dieses benutzerdefinierte Design-Thema aus'
         themeName: 'Theme auswählen'
         unread_color: 'Hintergrundfarbe des ungelesenen Elements bearbeiten'
-      description: 'Erstelle eine Liste mit Regeln für die Anzeige verschiedener Designs für bestimmte Themen'
+      description: 'Erstelle eine Liste mit Regeln für die Anzeige verschiedener Designs für bestimmte Tags'
       header:
         color_theme: 'Standard-Farbthema individuell gestalten'
         theme: 'Benutzerdefiniertes Theme'
       is_enabled:
         disabled: Deaktiviert
         enabled: Aktivieren
-      title: 'Individuell gestaltetes Design-Thema für Themen'
+      title: 'Individuell gestaltetes Design-Thema für Tags'
     helps:
       design_default: 'Wähle ein Standard-Layout aus'
       display_themes: 'Themen nur für bestimmte Gruppen zulassen'
     labels:
       design_default: Diskussionsdesigndarstellung
-      display_themes: 'Berechtigung „Thema für Designs“ aktivieren'
+      display_themes: 'Berechtigung „Tag für Designs“ aktivieren'
     options:
       design_options:
         basic: Einfach

@@ -11,8 +11,8 @@ michaelbelgium-ai-autoreply:
       api_key_label: API-Schlüssel
       enable_on_discussion_started_help: 'Wenn aktiviert, antwortet die KI nur zu Beginn einer Diskussion. Wenn sie deaktiviert ist, wird die Diskussion zu einem Chat zwischen dem Verfasser des Beitrags und dem Assistenten; der Assistent antwortet auf jeden Beitrag des Verfassers.'
       enable_on_discussion_started_label: 'Bei Diskussionsbeginn aktivieren'
-      enabled_tags_help: 'Wähle aus, bei welchen Themen der Assistent antworten soll.'
-      enabled_tags_label: Themen
+      enabled_tags_help: 'Wähle aus, bei welchen Tags der Assistent antworten soll.'
+      enabled_tags_label: Tags
       max_tokens_help: '<a>Was sind Tokens und wie werden sie gezählt?</a>'
       max_tokens_label: 'Maximale Tokens'
       model_help: 'Erfahre mehr über <a>{platform} Modelle</a> (Standard: <code>{model}</code>)..'

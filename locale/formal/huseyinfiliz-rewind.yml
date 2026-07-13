@@ -39,7 +39,7 @@ huseyinfiliz-rewind:
       community_slide_star_post: Star-Beitrag
       community_slide_top_contributors: 'Aktivste Mitglieder'
       community_slide_top_discussion: 'Heiß diskutiertes Thema'
-      community_slide_top_tag: 'Beliebtestes Thema'
+      community_slide_top_tag: 'Beliebtestes Tag'
       community_slide_total_words: 'Wörter geschrieben'
       community_slide_year-overview: 'Das Jahr in Zahlen'
       delete_rewinds_button: 'Rückblicke löschen'
@@ -72,7 +72,7 @@ huseyinfiliz-rewind:
       slide_night_owl: 'Aktivste Stunden'
       slide_post_count: Beiträge
       slide_top_emojis: 'Beliebteste Emojis'
-      slide_top_tag: 'Beliebtestes Thema'
+      slide_top_tag: 'Beliebtestes Tag'
       slide_top_words: 'Häufigste Wörter'
       slide_word_count: 'Wörter geschrieben'
       slides_community: Community-Rückblick
@@ -96,7 +96,7 @@ huseyinfiliz-rewind:
       regenerate_short: 'Neu erstellen'
       title: Community-Höhepunkte
       top_discussion: 'Aktivste Diskussion'
-      top_tag: 'Beliebtestes Thema'
+      top_tag: 'Beliebtestes Tag'
       total_discussions: 'Diskussionen begonnen'
       total_posts: 'Beiträge insgesamt'
       view_slideshow: 'Diashow anzeigen'
@@ -134,9 +134,9 @@ huseyinfiliz-rewind:
       top_contributor_label: Top-Beitragender
       top_contributors: Top-Beitragende
       top_contributors_desc: 'Aktivste Mitglieder in diesem Jahr'
-      top_tag: 'Beliebtestes Thema'
-      top_tag_desc: 'Meistdiskutiertes Thema mit {count} Diskussionen'
-      top_tag_label: 'Beliebtestes Thema'
+      top_tag: 'Beliebtestes Tag'
+      top_tag_desc: 'Meistdiskutiertes Tag mit {count} Diskussionen'
+      top_tag_label: 'Beliebtestes Tag'
       total_words: 'Geschriebene Wörter'
       total_words_desc: 'Von der gesamten Community'
       total_words_label: 'Wörter insgesamt'
@@ -229,9 +229,9 @@ huseyinfiliz-rewind:
         description: 'Die am häufigsten verwendeten Emojis'
         title: 'Beliebteste Emojis'
       top_tag:
-        description: 'Das aktivste Thema mit {count} Beiträgen'
+        description: 'Das aktivste Tag mit {count} Beiträgen'
         no_data: 'Keine Themendaten verfügbar'
-        title: 'Beliebtestes Thema'
+        title: 'Beliebtestes Tag'
       top_words:
         description: 'Am häufigsten verwendete Wörter'
         title: 'Häufigste Wörter'

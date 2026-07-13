@@ -18,7 +18,7 @@ datlechin-link-clicks:
       scope_external: 'Nur externe'
       scope_internal: 'Nur interne'
       since: Seit
-      tag: Themen
+      tag: Tag
       tag_placeholder: 'tag-slug (optional)'
       until: Bis
     click_trail:

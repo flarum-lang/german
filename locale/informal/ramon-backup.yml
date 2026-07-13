@@ -4,9 +4,51 @@
 
 ramon-backup:
   admin:
+    encryption:
+      public_key:
+        copied: Kopiert!
+      reveal_modal:
+        copied: Kopiert!
+      section_title: Verschlüsselung
+      status:
+        absent: Fehlt
+        present: Vorhanden
+        private_key_label: 'Privater Schlüssel (config.php)'
+        public_key_label: 'Öffentlicher Schlüssel'
     errors:
+      boundary_retry: 'Erneut versuchen'
       cancel_default: Abbrechen
+      confirm_default: Bestätigen
+      generic: 'Es ist ein Fehler aufgetreten. Bitte versuche es erneut.'
     export_modal:
       cancel_button: Abbrechen
+      content_db: Datenbank
+      content_extensions: Erweiterungen
+      contents_title: 'Was soll enthalten sein'
+      intro: 'Wähle aus, was du sichern möchtest. Das Ergebnis ist eine einzige .flarum-Datei, die du herunterladen, übertragen oder extern speichern kannst.'
+      title: 'Sicherung erstellen'
+      warnings_title: '{count} Warnung zur Umwandlung|{count} Warnungen zur Umwandlung'
     import_modal:
       cancel_button: Abbrechen
+    list:
+      col_contents: Inhalte
+      col_size: Größe
+      col_status: Verschlüsselung
+      col_when: Wann
+      content_assets: Assets
+      content_db: Datenbank
+      content_extensions: Erweiterungen
+      content_storage: Speicher
+      delete_failed: 'Sicherung konnte nicht gelöscht werden.'
+      deleted: 'Sicherung gelöscht.'
+      empty: 'Es gibt noch keine Sicherungen. Klicke auf „Sicherung erstellen“, um eine zu erstellen.'
+      encrypted: Verschlüsselt
+      plain: Einfach
+      target_for: 'für {engine}'
+    panel:
+      actions_title: 'Sicherung & Migration'
+      create_button: 'Sicherung erstellen'
+      import_button: 'Sicherung importieren'
+      list_title: 'Gespeicherte Sicherungen'
+    permissions:
+      manage_label: 'Sicherungen verwalten'

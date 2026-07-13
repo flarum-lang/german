@@ -94,7 +94,7 @@ fof-badges:
       private_discussions_created: 'Private Diskussionen erstellt'
       reactions_given: 'Reaktionen vergeben'
       reactions_received: 'Reaktionen erhalten'
-      tag_posts: 'Beiträge zum Thema'
+      tag_posts: 'Beiträge im Tag'
       upvotes_given: 'Upvotes vergeben'
       upvotes_received: 'Upvotes erhalten'
     move_down: 'Nach unten'
@@ -224,21 +224,21 @@ fof-badges:
       date_end: Enddatum
       date_range_help: 'Nur Aktivitäten innerhalb dieses Zeitraums zählen. Nützlich für Veranstaltungsabzeichen.'
       date_start: Startdatum
-      loading_tags: 'Themen werden geladen...'
+      loading_tags: 'Tags werden geladen...'
       logic: 'Wenn mehrere Bedingungen'
       no_conditions_info: 'Keine Bedingungen festgelegt. Dieses Abzeichen kann nur manuell von Moderatoren vergeben werden.'
       or: 'IRGENDEINE muss zutreffen (ODER)'
       or_help: 'Benutzer müssen mindestens eine Bedingung erfüllen, um dieses Abzeichen zu erhalten.'
       remove_condition: 'Bedingung entfernen'
-      select_tag: 'Ein Thema auswählen...'
+      select_tag: 'Ein Tag auswählen...'
       tag_filter: Themenfilter
-      tag_filter_help: 'Erforderlich bei Verwendung der Metrik „Beiträge im Thema“.'
+      tag_filter_help: 'Erforderlich bei Verwendung der Metrik „Beiträge im Tag“.'
       use_date_range: 'Auf Zeitraum beschränken'
     trigger_config: 'Automatischer Auslöser'
     trigger_config_help: 'Konfiguriere die Bedingungen für die automatische Vergabe von Abzeichen. Lasse das Feld leer, wenn Abzeichen nur manuell vergeben werden sollen.'
     uncategorized: Unkategorisiert
     validation:
-      tag_required: 'Du musst ein Thema auswählen, wenn du die Metrik „Beiträge im Thema“ verwendest.'
+      tag_required: 'Du musst ein Tag auswählen, wenn du die Metrik „Beiträge im Tag“ verwendest.'
   forum:
     all_badges: 'Alle Abzeichen'
     badges_subtitle: 'Verdiene Abzeichen, durch dein Engagement in der Community!'

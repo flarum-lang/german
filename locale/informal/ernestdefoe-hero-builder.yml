@@ -5,7 +5,7 @@
 ernestdefoe-hero-builder:
   admin:
     enabled: 'Kopfzeilenbausatz aktivieren'
-    enabled_help: 'Hauptschalter – Animierte Kopfzeile oberhalb der Diskussionsliste und auf jeder Themen-Seite anzeigen.'
+    enabled_help: 'Hauptschalter – Animierte Kopfzeile oberhalb der Diskussionsliste und auf jeder Tag-Seite anzeigen.'
     studio:
       border_color: Rahmenfarbe
       border_width: 'Rahmenbreite (px)'
@@ -21,7 +21,7 @@ ernestdefoe-hero-builder:
       icon_help: 'Beliebige Font Awesome-Klasse eingeben – z. B. fas fa-dragon, fas fa-fire, fab fa-discord.'
       image: 'URL des Titelbildes'
       image_help: 'Optional. Anstelle des Farbverlaufs wird die ein vollständiges Bild angezeigt.'
-      loading_tags: 'Themen werden geladen…'
+      loading_tags: 'Tags werden geladen…'
       margin_bottom: 'Unterer Rand (px)'
       margin_help: 'Abstand über dem Banner – setze den Wert auf 0, damit er bündig unter der Kopfzeile sitzt.'
       margin_top: 'Oberer Rand (px)'

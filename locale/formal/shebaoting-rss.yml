@@ -17,9 +17,9 @@ shebaoting-rss:
         url: RSS-Feed-URL
         user: 'Zugewiesener Benutzer'
       load_error: 'RSS-Feeds konnten nicht geladen werden.'
-      materialized_tag_help: 'Wenn ein Nutzer zum ersten Mal einen Kommentar zu einem RSS-Artikel hinterlässt, wird eine echte Diskussion erstellt und diesem Flarum-Thema zugeordnet.'
-      materialized_tag_label: 'Thema für RSS-Diskussionen'
-      materialized_tag_none: 'Kein Thema'
+      materialized_tag_help: 'Wenn ein Nutzer zum ersten Mal einen Kommentar zu einem RSS-Artikel hinterlässt, wird eine echte Diskussion erstellt und diesem Flarum-Tag zugeordnet.'
+      materialized_tag_label: 'Tag für RSS-Diskussionen'
+      materialized_tag_none: 'Kein Tag'
       new_title: 'Titel des neuen RSS-Feeds'
       new_url: 'URL des neuen RSS-Feeds'
       preview_default_title: RSS-Feed

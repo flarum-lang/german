@@ -11,7 +11,7 @@ fof-sitemap:
       build_error: 'Neuerstellung der Sitemap konnte nicht in die Warteschlange eingereiht werden. Überprüfe die Logs und Konfiguration der Warteschlange.'
       build_success: 'Neuerstellung der Sitemap wurde erfolgreich in die Warteschlange eingereiht. Du kannst den Fortschritt in den Logs verfolgen.'
       exclude_tags: 'Alle Themenseiten von Sitemap ausschließen'
-      exclude_tags_help: 'Standardmäßig werden alle Themen, die für Gäste sichtbar ist, indiziert'
+      exclude_tags_help: 'Standardmäßig werden alle Tags, die für Gäste sichtbar ist, indiziert'
       exclude_users: 'Nutzerprofile von Sitemap ausschließen'
       exclude_users_help: 'Standardmäßig wird jeder Nutzer, der für Gäste sichtbar ist, indiziert'
       frequency:
@@ -43,8 +43,8 @@ fof-sitemap:
         help: 'Wenn ein Modell keinen oder nur wenig relevanten Inhalt hat, können Google und andere Crawler diese als "weiche 404"-Seiten kennzeichnen. Um dies zu vermeiden, legst du hier eine Mindestanzahl von Datenobjekten fest, die für jedes qualifizierte Datenobjekt erforderlich sind.'
         tags:
           discussion:
-            minimum_item_threshold_help: 'Die Mindestanzahl an Diskussionen, über die ein Thema verfügen muss, damit es in die Sitemap aufgenommen wird.'
-            minimum_item_threshold_label: 'Thema: Mindestanzahl an Diskussionen'
+            minimum_item_threshold_help: 'Die Mindestanzahl an Diskussionen, über die ein Tag verfügen muss, damit es in die Sitemap aufgenommen wird.'
+            minimum_item_threshold_label: 'Tag: Mindestanzahl an Diskussionen'
         user:
           comments:
             minimum_item_threshold_help: 'Die Mindestanzahl an Kommentaren / Beiträgen, über die ein Nutzer verfügen muss, damit sein Profil in die Sitemap aufgenommen wird.'

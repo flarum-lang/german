@@ -6,7 +6,7 @@ ernestdefoe-respawn:
   admin:
     settings:
       chips_help: 'Durch Kommas getrennte Liste von Tag-Slugs, die als Schnellzugriff-Kacheln angezeigt werden sollen (z. B. halo, elden-ring, deals). Leer lassen, um sie auszublenden.'
-      chips_label: 'Hero Themen-Chips'
+      chips_label: 'Hero Tag-Chips'
       chips_placeholder: 'halo, elden-ring, angebote'
       eyebrow_help: 'Kleine Akzentlinie über der Überschrift (z. B. ▸ Spieler verbunden).'
       eyebrow_label: 'Hero Augenbraue'
@@ -21,11 +21,21 @@ ernestdefoe-respawn:
   forum:
     hero:
       new_discussion: '+ Neue Diskussion'
-      search_placeholder: 'Diskussionen, Spieler, Themen suchen…'
+      search_placeholder: 'Diskussionen, Spieler, Tags suchen…'
       welcome: 'Willkommen im {forum}'
     mode:
       to_dark: 'Zum dunklen Modus wechseln'
       to_light: 'Zum hellen Modus wechseln'
+    player:
+      level: 'LVL {level} · {posts} BEITRÄGE'
+      next: 'NÄCHSTES: LVL {level}'
+      progress: '{progress} / 100'
+    rarity:
+      common: Gewöhnlich
+      epic: Episch
+      legendary: Legendär
+      rare: Selten
+      title: Seltenheitsstufen
     stats:
       discussions: Diskussionen
       empty: —

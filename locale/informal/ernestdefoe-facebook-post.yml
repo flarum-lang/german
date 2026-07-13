@@ -24,8 +24,8 @@ ernestdefoe-facebook-post:
       page_id_label: Facebook-Seiten-ID
       page_id_placeholder: '123456789012345'
     tag_selector:
-      help: 'Wähle aus, welche primären Themen einen Facebook-Beitrag auslösen sollen.'
-      help_all: 'Lasse alle Kontrollkästchen deaktiviert, um jede neue Diskussion unabhängig vom Thema zu veröffentlichen.'
-      no_tags: 'Es wurden keine primären Themen gefunden. Installiere und konfiguriere zunächst die Flarum-Tags-Erweiterung.'
+      help: 'Wähle aus, welche Haupt-Tags einen Facebook-Beitrag auslösen sollen.'
+      help_all: 'Lasse alle Kontrollkästchen deaktiviert, um jede neue Diskussion unabhängig vom Tag zu veröffentlichen.'
+      no_tags: 'Es wurden keine Haupt-Tags gefunden. Installiere und konfiguriere zunächst die Flarum-Tags-Erweiterung.'
       saving: 'Wird gespeichert…'
-      title: 'Primäre Themen auf Facebook veröffentlichen'
+      title: 'Haupt-Tags auf Facebook veröffentlichen'

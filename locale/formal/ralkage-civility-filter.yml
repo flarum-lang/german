@@ -58,8 +58,8 @@ ralkage-civility-filter:
       log_all_label: 'Alle Prüfungen protokollieren'
       model_help: 'Wähle ein Modell deines gewählten Anbieters aus.'
       model_label: KI-Modell
-      monitored_tags_help: 'Wähle die zu überwachenden Themen aus. Lasse das Feld leer, um alle Themen zu überwachen.'
-      monitored_tags_label: 'Überwachte Themen'
+      monitored_tags_help: 'Wähle die zu überwachenden Tags aus. Lasse das Feld leer, um alle Tags zu überwachen.'
+      monitored_tags_label: 'Überwachte Tags'
       openai_api_key_help: 'Dein OpenAI-API-Schlüssel für GPT-Modelle.'
       openai_api_key_label: OpenAI-API-Schlüssel
       openrouter_api_key_help: 'Dein OpenRouter-API-Schlüssel. Greife über eine einzige API auf über 200 Modelle zu.'

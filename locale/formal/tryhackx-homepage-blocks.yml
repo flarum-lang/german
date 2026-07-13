@@ -93,8 +93,8 @@ tryhackx-homepage-blocks:
       section1_title: 'Titel für Abschnitt 1 (Zufall & Statistiken)'
       section2_enabled: 'Abschnitt 2 aktivieren (Diskussionslistenkopf & Filter)'
       section2_title: 'Titel für Abschnitt 2 (Diskussionsliste)'
-      show_only_used_tags: 'Nur Themen anzeigen, in denen Diskussionen vorhanden sind'
-      show_tag_count: 'Anzahl der Beiträge neben den Themen-Namen anzeigen'
+      show_only_used_tags: 'Nur Tags anzeigen, in denen Diskussionen vorhanden sind'
+      show_tag_count: 'Anzahl der Beiträge neben den Tag-Namen anzeigen'
       stats_enabled: 'Interne Statistiken (aus Datenbank) aktivieren'
       stats_title: 'Titel des Statistikabschnitts'
       theme_mode: Themenmodus

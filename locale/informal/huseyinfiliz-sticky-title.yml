@@ -27,8 +27,8 @@ huseyinfiliz-sticky-title:
       scrubber_replace_original_help: 'Wähle, wo der Diskussionstitel anstatt "Erster Beitrag" angezeigt wird'
       scrubber_replace_original_label: '"Erster Beitrag" durch Diskussionstitel ersetzen'
       scrubber_section_title: 'Einstellungen für Schrubber'
-      tag_color_style_help: 'Wähle aus, wie die Farben der Themen im Seitenleistenbereich angezeigt werden sollen'
-      tag_color_style_label: Themen-Farbstil
+      tag_color_style_help: 'Wähle aus, wie die Farben des Tags im Seitenleistenbereich angezeigt werden sollen'
+      tag_color_style_label: Tag-Farbstil
       tag_color_style_options:
         background: 'Hintergrundfarbe (Standard)'
         border: 'Nur Rahmenfarbe'

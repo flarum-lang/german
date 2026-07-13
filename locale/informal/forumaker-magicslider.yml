@@ -44,11 +44,11 @@ forumaker-magicslider:
       disable_mobile_help: 'Auf Bildschirmen mit einer Breite von bis zu 768 px ausblenden'
       drag: 'Zum Neuanordnen ziehen'
       fit_to_layout: 'Slider an die Breite des Hauptlayouts anpassen'
-      fit_to_layout_help: 'Wenn aktiviert ist, erstreckt sich der Slider genau über die Breite des Hauptinhaltsbereichs bei Themen oder Diskussionslisten'
+      fit_to_layout_help: 'Wenn aktiviert ist, erstreckt sich der Slider genau über die Breite des Hauptinhaltsbereichs bei Tags oder Diskussionslisten'
       height: Höhe
       height_help: 'Feste Höhe für diesen Bildschirmtyp'
       hide_on_tag_pages: 'Slider auf Themenseiten verbergen'
-      hide_on_tag_pages_help: 'Auf Themenseiten den Standard-Themen-Hero von Flarum anstelle des Sliders anzeigen'
+      hide_on_tag_pages_help: 'Auf Tag-Seiten den Standard-Tag-Hero von Flarum anstelle des Sliders anzeigen'
       image_placeholder: Bild-URL
       link_placeholder: Link-URL
       new_tab: 'In neuem Tab öffnen'

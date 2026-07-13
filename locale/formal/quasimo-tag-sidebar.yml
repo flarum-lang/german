@@ -6,12 +6,12 @@ quasimo-tag-sidebar:
   admin:
     content_type_html: HTML
     content_type_markdown: Markdown
-    instruction_1: 'Rufe eine beliebige Themen-Seite im Forum auf.'
+    instruction_1: 'Rufe eine beliebige Tag-Seite im Forum auf.'
     instruction_2: 'Für Benutzer mit entsprechender Berechtigung wird eine Schaltfläche „Seitenleiste bearbeiten“ angezeigt.'
     instruction_3: 'Klicke auf die Schaltfläche, um den Editor zu öffnen, gib den Inhalt ein und speichere ihn anschließend.'
     instruction_4: 'Weise die folgende Berechtigung zu, damit Moderatoren den Inhalt der Seitenleiste bearbeiten können.'
     instructions_title: Anleitung
-    permission_edit_sidebar: 'Inhalt der Themen-Seitenleiste bearbeiten'
+    permission_edit_sidebar: 'Inhalt der Tag-Seitenleiste bearbeiten'
     position_left: 'Links — nach der Seitenleiste (Standard)'
     position_right: 'Rechts — neben der Beitragsliste'
     setting_content_type: Inhaltstyp

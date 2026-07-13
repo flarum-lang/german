@@ -75,13 +75,13 @@ fof-webhooks:
       help:
         disabled: 'Dieser Webhook ist deaktiviert, weil keine Ereignisse für ihn aktiviert sind.'
         general: 'Hier kannst du Webhooks in deinem Forum hinzufügen, bearbeiten und entfernen.'
-        tags: 'Du kannst Webhooks auf bestimmte Themen beschränken. Wenn du bestimmte Themen auswählst, wird der Webhook nur ausgelöst, wenn das Ereignis auf einer Ressource ausgelöst wird, die eines der ausgewählten Thema hat.'
+        tags: 'Du kannst Webhooks auf bestimmte Tags beschränken. Wenn du bestimmte Tags auswählst, wird der Webhook nur ausgelöst, wenn das Ereignis auf einer Ressource ausgelöst wird, die eines der ausgewählten Tags hat.'
         url: 'Der Endpunkt des Webhooks, der ausgeführt werden soll'
       item:
         create_button: Erstellen
         delete_confirm_alert: 'Möchtest du diesen {service} Webhook wirklich löschen?'
         delete_tooltip: 'Webhook löschen'
-        edit_tags_button: 'Themen bearbeiten'
+        edit_tags_button: 'Tags bearbeiten'
         edit_tooltip: 'Webhook-Einstellungen bearbeiten'
         tag_any_label: 'Beliebiger Tag'
       modal:
@@ -91,7 +91,7 @@ fof-webhooks:
         extra_text_label: 'Zusätzlicher Text'
         group_help: 'Ressourcen senden, die von dieser Gruppe gesehen werden können'
         group_label: Gruppe
-        include_matching_tags_label: 'Zutreffende Themen einschliessen — Für Webhooks, die auf bestimmte Themen beschränkt sind, wird angezeigt, welche Themen das Ereignis auslösen'
+        include_matching_tags_label: 'Zutreffende Tags einschliessen — Für Webhooks, die auf bestimmte Tags beschränkt sind, wird angezeigt, welches das Ereignis auslöst'
         max_post_content_length_help: 'Bestimme ein Zahl um die Länge von Beiträgen in allen Beitrags-bezogenen Ereignissen zu limitieren. Um das Limit zu entfernen, gebe 0 oder nichts ein.'
         max_post_content_length_label: 'Maximale Beitrags-Länge'
         name_help: 'Der Name des Webhooks. Dieser wird für Dinge wie den Discord-Benutzernamen, Slack-Botnamen u.Ä. verwendet.'

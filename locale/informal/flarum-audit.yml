@@ -52,7 +52,7 @@ flarum-audit:
         discussion: 'Diskussion #{id}'
         group: 'Gruppe #{id}'
         post: 'Beitrag #{id}'
-        tag: 'Thema #{id}'
+        tag: 'Tag #{id}'
         user: 'Benutzer #{id}'
       developer_token_created: 'Entwickler-Zugriffstoken „{title}“ für {username} erstellt'
       discussion:

@@ -9,8 +9,8 @@ flarum-realtime:
     settings:
       index-typing-indicator: 'Eingabe-Punkte in der Diskussionsliste'
       index-typing-indicator-help: 'Wenn aktiviert, erscheint in der Diskussionsliste ein Symbol für jede öffentlich sichtbare Diskussion, in der gerade jemand einen Beitrag eingibt. Es werden keine Namen angezeigt.'
-      index-typing-indicator-restricted: 'Eingabe-Punkte in der Diskussionsliste für eingeschränkte Themen'
-      index-typing-indicator-restricted-help: 'Zeige auch Eingabe-Punkte für Diskussionen in eingeschränkten Themen an – für Benutzer, die diese Themen sehen können. Erfordert die Erweiterung „Tags“. Standardmäßig deaktiviert.'
+      index-typing-indicator-restricted: 'Eingabe-Punkte in der Diskussionsliste für eingeschränkte Tags'
+      index-typing-indicator-restricted-help: 'Zeige auch Eingabe-Punkte für Diskussionen in eingeschränkten Tags an – für Benutzer, die diese Tags sehen können. Erfordert die „Tags“-Erweiterung. Standardmäßig deaktiviert.'
       notification-toast-dismiss-after: 'Anzeigedauer der Benachrichtigungs-Toasts'
       notification-toast-dismiss-after-help: 'Wie lange (in Sekunden) eine Echtzeit-Benachrichtigung auf dem Bildschirm angezeigt wird, bevor sie automatisch ausgeblendet wird. Setze den Wert auf 0, um Benachrichtigungen zu deaktivieren.'
       release-discussion-updates: DiscussionList-Aktualisierungen
@@ -22,7 +22,7 @@ flarum-realtime:
   forum:
     index-typing:
       someone-typing: 'Jemand schreibt in dieser Diskussion'
-      someone-typing-tag: 'Jemand schreibt in diesem Thema'
+      someone-typing-tag: 'Jemand schreibt in diesem Tag'
     push:
       discussion-list-new-activity: '{count, plural, one {# aktualisierte Diskussion anzeigen} other {# aktualisierte Diskussionen anzeigen}}'
       discussion-list-new-activity-with-auto-release: '{count, plural, one {# Diskussion hat} other {# Diskussionen haben}} aktualisierte Aktivität und wird in {releaseTimeout} Sekunden veröffentlicht. Klicke hier, um sie jetzt anzuzeigen.'

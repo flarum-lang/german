@@ -19,7 +19,7 @@ migratetoflarum-fake-data:
       date-interval-placeholder: 'Intervall (Standard: 1 Sekunde)'
       date-start-placeholder: 'Startdatum (Standard: jetzt)'
       discussion-count: 'Anzahl der Diskussionen, die erstellt werden sollen'
-      discussion-tags: 'Themen für neue Diskussionen'
+      discussion-tags: 'Tags für neue Diskussionen'
       discussion-tags-none: Keine
       discussion-tags-random: Zufällig
       post-count: 'Anzahl der Beiträge, die erstellt werden sollen'

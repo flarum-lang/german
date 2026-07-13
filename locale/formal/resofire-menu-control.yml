@@ -9,8 +9,8 @@ resofire-menu-control:
       add_highlight: 'Dieses Element für Benutzer hervorheben'
       custom_link_label: Linkbeschriftung
       description: 'Verwende die Pfeiltasten, um die Elemente der Seitenleiste auf der Startseite des Forums neu anzuordnen. Die Änderungen werden sofort nach dem Speichern wirksam.'
-      flip_help: 'Wenn aktiviert, werden die Themen-Links oben in der Seitenleiste angezeigt und die Navigationselemente (Alle Diskussionen, Abonnierte usw.) erscheinen darunter.'
-      flip_label: 'Navigation umkehren (Themen oberhalb der Menüpunkte anzeigen)'
+      flip_help: 'Wenn aktiviert, werden die Tag-Links oben in der Seitenleiste angezeigt und die Navigationselemente (Alle Diskussionen, Abonnierte usw.) erscheinen darunter.'
+      flip_label: 'Navigation umkehren (Tags oberhalb der Menüpunkte anzeigen)'
       highlight_color_help: 'Hintergrundfarbe für hervorgehobene Navigationselemente. Lasse das Feld leer, um die Standardfarbe des Themes zu verwenden.'
       highlight_color_label: Hervorhebungsfarbe
       icon_input_title: 'Benutzerdefinierte Font Awesome-Symbolklasse (z. B. fas fa-bolt). Leer lassen, um die Standardklasse zu verwenden.'
