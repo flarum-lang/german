@@ -7,15 +7,29 @@ CHANGELOG
 
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
+* [`ernestdefoe/maintenance`](https://github.com/ernestdefoe/maintenance)
 * [`ernestdefoe/topic-map`](https://github.com/ernestdefoe/topic-map)
 * [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
+* [`huseyinfiliz/simple-dark-mode`](https://github.com/huseyinfiliz/simple-dark-mode)
+* [`linkrobins/flarum-warble`](https://github.com/linkrobins/warble)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
+* [`fof/split`](https://github.com/FriendsOfFlarum/split)
+* [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
+* [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
+* [`forumaker/statser`](https://github.com/forumaker/Statser)
+* [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
 * [`linkrobins/countdown-widget`](https://github.com/linkrobins/countdown-widget)
 * [`linkrobins/referral`](https://github.com/linkrobins/referral)
+* [`linkrobins/toc`](https://github.com/linkrobins/toc)
 * [`tapao/custom-landing-page`](https://github.com/Tapao-NonSen/Custom-Landing-Page)
 
 
