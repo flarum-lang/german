@@ -22,12 +22,16 @@ ramon-backup:
       section_title: Verschlüsselung
       status:
         absent: Fehlt
+        libsodium_missing: 'libsodium ist nicht auf diesem Server verfügbar. Die Verschlüsselung kann nicht aktiviert werden.'
+        load_failed: 'Verschlüsselungsstatus konnte nicht vom Server geladen werden.'
         mismatch_title: 'Schlüsselpaar stimmt nicht überein'
         present: Vorhanden
         private_key_label: 'Privater Schlüssel (config.php)'
         private_missing_body: 'Es wurde ein öffentlicher Schlüssel generiert, aber der dazugehörige private Schlüssel ist nicht in deiner config.php enthalten. Vorhandene verschlüsselte Backups können hier erst entschlüsselt werden, wenn der private Schlüssel wiederhergestellt wurde.'
         private_missing_title: 'Privater Schlüssel fehlt'
         public_key_label: 'Öffentlicher Schlüssel'
+        retry: 'Erneut versuchen'
+        unknown: 'Verschlüsselungsstatus konnte nicht geladen werden.'
     errors:
       boundary_body: 'Es ist ein unerwarteter Fehler aufgetreten. Der Rest des Fensters funktioniert weiterhin – versuche es erneut oder lade die Seite neu, falls das Problem weiterhin besteht.'
       boundary_retry: 'Erneut versuchen'
