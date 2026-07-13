@@ -2,6 +2,21 @@ CHANGELOG
 =========
 
 
+1.25.23 (2026-07-13)
+--------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`blomstra/s3-assets`](https://github.com/blomstra/flarum-ext-s3-assets)
+* [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
+* [`datlechin/flarum-ai`](https://github.com/datlechin/flarum-ai)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/upgrade-advisor`](https://github.com/FriendsOfFlarum/upgrade-advisor)
+
+
+Alle Änderungen: [1.25.22...1.25.23](https://github.com/flarum-lang/german/compare/1.25.22...1.25.23).
+
+
 1.25.22 (2026-07-03)
 --------------------
 
