@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.11 (XXXX-XX-XX)
+-------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`ramon/backup`](https://github.com/ram0ng1/backup)
+
+
+Alle Änderungen: [2.0.10...2.0.11](https://github.com/flarum-lang/german/compare/2.0.10...2.0.11).
+
+
 2.0.10 (2026-07-13)
 -------------------
 
