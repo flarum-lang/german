@@ -12,10 +12,12 @@ ramon-backup:
       clipboard_unavailable: 'Dein Browser lässt das Kopieren in die Zwischenablage nicht zu. Wähle den Wert bitte manuell aus.'
       public_key:
         copied: Kopiert!
+        copy_title: 'Öffentlichen Schlüssel kopieren'
       regenerate_modal:
         submit: 'Neues Schlüsselpaar generieren'
       reveal_modal:
         copied: Kopiert!
+        copy_button: 'Snippet kopieren'
       section_help: 'Verschlüssele neue Sicherungen mit einem asymmetrischen Schlüsselpaar. Der öffentliche Schlüssel wird in der Datenbank gespeichert, der private Schlüssel MUSS in die Datei „config.php“ eingefügt werden – der Webprozess verwaltet niemals einen Schlüssel, der ihm nicht mitgeteilt wurde.'
       section_title: Verschlüsselung
       status:
