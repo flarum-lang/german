@@ -101,5 +101,8 @@ tryhackx-advanced-pages:
       loading: 'Wird geladen…'
       not_found_message: 'Die gesuchte Seite existiert nicht oder du hast keine Berechtigung, sie anzuzeigen.'
       not_found_title: 'Seite nicht gefunden'
+    redirect:
+      countdown: 'Du wirst weitergeleitet in {seconds} s…'
+      invalid: 'Für diese Weiterleitung hat kein gültiges Ziel konfiguriert.'
     spoiler:
       locked: 'Du hast keine Berechtigung, Spoiler-Inhalte anzuzeigen.'

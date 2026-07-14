@@ -68,7 +68,9 @@ linkrobins-wiki:
       confirm_delete: 'Diesen Kommentar löschen?'
       confirm_delete_forever: 'Diesen Kommentar endgültig löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.'
       deleted: 'Dieser Kommentar wurde gelöscht.'
+      discard_confirm: 'Du hast einen noch nicht abgeschickten Kommentar. Möchtest du ihn verwerfen?'
       empty: 'Noch keine Kommentare.'
+      empty_error: 'Bitte schreib zuerst etwas.'
       error_delete: 'Kommentar konnte nicht gelöscht werden.'
       error_edit: 'Kommentar konnte nicht gespeichert werden.'
       error_post: 'Kommentar konnte nicht veröffentlicht werden.'
@@ -92,6 +94,11 @@ linkrobins-wiki:
       title_edit: 'Artikel bearbeiten'
       title_label: Titel
       title_placeholder: Artikel-Titel
+    confirm:
+      delete_forever: 'Diesen Artikel und seinen Versionsverlauf endgültig löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.'
+      soft_delete: 'Diesen Artikel löschen? Bearbeiter können ihn später wiederherstellen.'
+    errors:
+      load_articles: 'Artikel konnten nicht geladen werden.'
     index:
       deleted_badge: Gelöscht
       empty: 'Es wurden keine Artikel gefunden.'
