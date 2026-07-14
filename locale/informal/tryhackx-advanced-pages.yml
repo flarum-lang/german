@@ -30,8 +30,15 @@ tryhackx-advanced-pages:
       parent_label: 'Übergeordnete Seite'
       parent_none: '— Keine (Top-Ebene) —'
       php_warning: 'PHP-Seiten führen serverseitigen Code aus. Erstelle PHP-Seiten nur, wenn du dir der damit verbundenen Sicherheitsrisiken bewusst bist. Fehler werden protokolliert, aber den Besuchern niemals angezeigt.'
+      pin_icon_help: 'FontAwesome-Klasse für den Menü-Link, z. B. „fas fa-book“ oder „far fa-file-alt“. Für ein Standard-Symbol das Feld leer lassen.'
+      pin_icon_label: 'Menüsymbol (optional)'
+      pin_short_name_help: 'Eine kürzere Bezeichnung für das Menü, falls der Seitentitel zu lang ist. Lasse das Feld leer, um den Seitentitel zu verwenden.'
+      pin_short_name_label: 'Kurzname (nicht erforderlich)'
+      pin_to_nav_help: 'Diese Seite als Link in der Seitenleiste des Forums anzeigen (neben „Alle Diskussionen“, „Mitglieder“ usw.). Angeheftete Seiten folgen derselben Reihenfolge wie die Seitenliste und berücksichtigen die Sichtbarkeit der jeweiligen Seite.'
+      pin_to_nav_label: 'An das Navigationsmenü anheften'
       preview: Vorschau
       raw: Roh
+      redirect_immediate_help: 'Ein: Besucher werden sofort an die Zielseite weitergeleitet (eine echte HTTP-Weiterleitung). Aus: Die Seite wird kurz angezeigt und leitet dann nach etwa einer Sekunde automatisch weiter. In beiden Fällen wird der Besuch zunächst gezählt.'
       redirect_immediate_label: 'Direkt weiterleiten'
       redirect_url_help: 'Wohin Besucher dieser Seite weitergeleitet werden. Verwende eine vollständige https://-Adresse (z. B. https://beispiel.de) oder einen stammverwandten Pfad in diesem Forum (z. B. /tags). Hefte die Seite an, um sie als Link im Navigationsmenü hinzuzufügen – Klicks werden gezählt.'
       redirect_url_label: Weiterleitungs-URL
