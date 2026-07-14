@@ -98,7 +98,10 @@ linkrobins-wiki:
       delete_forever: 'Diesen Artikel und seinen Versionsverlauf endgültig löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.'
       soft_delete: 'Diesen Artikel löschen? Bearbeiter können ihn später wiederherstellen.'
     errors:
+      empty_body: 'Bitte verfasse den Artikeltext, bevor du ihn einreichst.'
+      load_article: 'Dieser Artikel konnte nicht geladen werden. Möglicherweise wurde er gelöscht, oder du verfügst nicht über die Berechtigung, ihn anzuzeigen.'
       load_articles: 'Artikel konnten nicht geladen werden.'
+      title_required: 'Bitte gib einen Titel ein.'
     index:
       deleted_badge: Gelöscht
       empty: 'Es wurden keine Artikel gefunden.'
