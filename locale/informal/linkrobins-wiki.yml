@@ -6,6 +6,12 @@ linkrobins-wiki:
   admin:
     index_layout:
       heading: Wiki-Startseite
+      help: 'Jeder Shortcode steht in einer eigenen Zeile. Zeilen, die keine Shortcodes sind, werden als Text angezeigt; Zeilen, die mit #, ## oder ### beginnen, werden zu Überschriften.'
+      intro: 'Gestalte den Inhalt der /wiki-Startseite mithilfe von Shortcodes. Lasse das Feld leer, um einfach alle Artikel aufzulisten.'
+      label: 'Layout der Startseite'
+      shortcode_articles: 'Alle Artikel auflisten.'
+      shortcode_articles_cat: 'Eine Kategorie auflisten (nach Slug oder ID), optional auf die N neuesten Einträge beschränkt. Füge title="…" hinzu, um eine Überschrift zu erstellen.'
+      shortcodes_heading: 'Verfügbare Shortcodes'
     permissions:
       comment: 'Wiki-Artikel kommentieren'
       create_article: 'Wiki-Artikel erstellen'

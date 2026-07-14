@@ -38,7 +38,7 @@ flarum-tags:
       allow_edit_tags_label: 'Erlaube, Tags zu ändern'
       bypass_tag_counts_label: 'Tag-Anforderungen umgehen'
       restrict_by_tag_heading: 'Durch Tag beschränken'
-      tag_discussions_label: 'Tag für Diskussionen anpassen'
+      tag_discussions_label: 'Tag von Diskussionen anpassen'
     settings:
       button_text: '=> flarum-tags.ref.choose_tags'
     tag_settings:
