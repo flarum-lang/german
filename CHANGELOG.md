@@ -13,6 +13,7 @@ CHANGELOG
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`datlechin/flarum-mermaid`](https://github.com/datlechin/flarum-mermaid)
+* [`flarum/tags`](https://github.com/flarum/tags)
 * [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer)
 * [`linkrobins/referral`](https://github.com/linkrobins/referral)
 * [`ramon/backup`](https://github.com/ram0ng1/backup)
