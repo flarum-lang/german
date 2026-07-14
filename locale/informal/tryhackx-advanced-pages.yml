@@ -32,6 +32,8 @@ tryhackx-advanced-pages:
       php_warning: 'PHP-Seiten führen serverseitigen Code aus. Erstelle PHP-Seiten nur, wenn du dir der damit verbundenen Sicherheitsrisiken bewusst bist. Fehler werden protokolliert, aber den Besuchern niemals angezeigt.'
       preview: Vorschau
       raw: Roh
+      redirect_immediate_label: 'Direkt weiterleiten'
+      redirect_url_help: 'Wohin Besucher dieser Seite weitergeleitet werden. Verwende eine vollständige https://-Adresse (z. B. https://beispiel.de) oder einen stammverwandten Pfad in diesem Forum (z. B. /tags). Hefte die Seite an, um sie als Link im Navigationsmenü hinzuzufügen – Klicks werden gezählt.'
       redirect_url_label: Weiterleitungs-URL
       slug_label: URL-Slug
       submit_button: 'Seite speichern'
