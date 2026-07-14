@@ -17,6 +17,7 @@ CHANGELOG
 * [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer)
 * [`linkrobins/referral`](https://github.com/linkrobins/referral)
 * [`ramon/backup`](https://github.com/ram0ng1/backup)
+* [`tryhackx/flarum-advanced-pages`](https://github.com/TryHackX/flarum-advanced-pages)
 
 
 Alle Änderungen: [2.0.10...2.0.11](https://github.com/flarum-lang/german/compare/2.0.10...2.0.11).
