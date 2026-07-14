@@ -6,3 +6,15 @@ datlechin-mermaid:
   admin:
     settings:
       description: 'Es sind noch keine Einstellungen vorhanden. Mermaid-Diagramme werden automatisch innerhalb von umschlossenen ```Mermaid-Code-Blöcken gerendert.'
+      font_family_help: 'Beliebiger CSS-Schriftart-Stapel, zum Beispiel: „Inter“, system-ui, sans-serif. Lasse das Feld leer, um die Schriftart zu verwenden, die dein Forum für den Beitragstext nutzt.'
+      font_family_label: Schriftart
+      font_family_placeholder: 'Aus dem Forum übernehmen'
+      theme_help: 'So werden Diagramme eingefärbt. Die Option „An Forum-Design anpassen“ übernimmt die Farben deines Forums und passt sich dem hellen und dunklen Modus an.'
+      theme_label: Diagramm-Design
+      theme_options:
+        auto: 'Mermaid hell & dunkel'
+        dark: 'Mermaid dunkel'
+        default: 'Mermaid Standard'
+        flarum: 'An Forum-Design anpassen'
+        forest: 'Mermaid Wald'
+        neutral: 'Mermaid neutral'

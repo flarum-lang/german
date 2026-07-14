@@ -13,18 +13,32 @@ ramon-backup:
       public_key:
         copied: Kopiert!
         copy_title: 'Öffentlichen Schlüssel kopieren'
+        label: 'Aktueller öffentlicher Schlüssel'
+        remove_button: 'Schlüsselpaar rotieren'
       regenerate_modal:
+        acknowledge: 'Ich habe das verstanden und möchte die Schlüssel rotieren.'
         submit: 'Neues Schlüsselpaar generieren'
+        title: 'Verschlüsselungsschlüsselpaar rotieren'
+        warning: 'Durch die Erstellung eines neuen Schlüsselpaars werden alle Backups, die bereits mit dem ALTEN öffentlichen Schlüssel verschlüsselt wurden, auf diesem Server unlesbar (Du kannst sie jedoch weiterhin extern entschlüsseln, sofern du den alten privaten Schlüssel gespeichert hast). Neue Backups werden mit dem neuen Schlüssel verschlüsselt.'
       reveal_modal:
+        close: 'Ich habe meinen privaten Schlüssel gespeichert'
         copied: Kopiert!
         copy_button: 'Snippet kopieren'
+        intro: 'Wir haben soeben ein neues Schlüsselpaar generiert. Der private Schlüssel wird unten EINMAL angezeigt. Füge ihn in deine config.php ein – wir können ihn dir danach nicht mehr anzeigen.'
+        snippet_label: 'Füge diese Zeile in die Datei „config.php“ ein:'
+        title: 'Speichere deinen privaten Schlüssel'
+        warning_body: 'Wenn du den privaten Schlüssel verlierst, sind alle mit dem dazugehörigen öffentlichen Schlüssel verschlüsselten Sicherungskopien dauerhaft unlesbar.'
+        warning_title: 'Verliere diesen Schlüssel nicht'
       section_help: 'Verschlüssele neue Sicherungen mit einem asymmetrischen Schlüsselpaar. Der öffentliche Schlüssel wird in der Datenbank gespeichert, der private Schlüssel MUSS in die Datei „config.php“ eingefügt werden – der Webprozess verwaltet niemals einen Schlüssel, der ihm nicht mitgeteilt wurde.'
       section_title: Verschlüsselung
       status:
         absent: Fehlt
+        healthy: 'Verschlüsselung ist konfiguriert. Neue Backups werden automatisch verschlüsselt, wenn du im Export-Modalfenster das Kontrollkästchen „Verschlüsseln“ aktivierst.'
         libsodium_missing: 'libsodium ist nicht auf diesem Server verfügbar. Die Verschlüsselung kann nicht aktiviert werden.'
         load_failed: 'Verschlüsselungsstatus konnte nicht vom Server geladen werden.'
+        mismatch_body: 'Der private Schlüssel in der Datei „config.php“ stimmt nicht mit dem in der Datenbank gespeicherten öffentlichen Schlüssel überein. Vorhandene verschlüsselte Backups können auf diesem Server nicht entschlüsselt werden. Stelle entweder den ursprünglichen privaten Schlüssel wieder her oder wechsele zu einem neuen Schlüsselpaar (wodurch die vorhandenen verschlüsselten Dateien zwar unverändert bleiben, hier jedoch nicht mehr lesbar sind).'
         mismatch_title: 'Schlüsselpaar stimmt nicht überein'
+        not_setup: 'Es wurde noch kein Schlüsselpaar zur Verschlüsselung generiert. Backups werden im Klartext gespeichert, sofern du die Verchlüsselung nicht bei jedem Export ausdrücklich aktivierst.'
         present: Vorhanden
         private_key_label: 'Privater Schlüssel (config.php)'
         private_missing_body: 'Es wurde ein öffentlicher Schlüssel generiert, aber der dazugehörige private Schlüssel ist nicht in deiner config.php enthalten. Vorhandene verschlüsselte Backups können hier erst entschlüsselt werden, wenn der private Schlüssel wiederhergestellt wurde.'
@@ -49,6 +63,8 @@ ramon-backup:
       content_db_help: 'Jede Tabelle – Benutzer, Beiträge, Einstellungen usw. Der Dump enthält DROP-/CREATE-Anweisungen, sodass eine saubere Wiederherstellung möglich ist.'
       content_extensions: Erweiterungen
       content_extensions_help: 'Quelldateien einer oder mehrerer installierter Erweiterungen (aus dem Verzeichnis „workbench/“ oder „vendor/“) bündeln. Aktiviere das Kontrollkästchen und wähle unten die gewünschten Erweiterungen aus.'
+      content_storage: 'Speicher (Cache, Sitzungen, Protokolle)'
+      content_storage_help: 'Wird in der Regel übersprungen: Enthält Laufzeitdateien, die neu generiert werden können und selten zwischen verschiedenen Installationen übertragbar sind.'
       contents_title: 'Was soll enthalten sein'
       encryption_enable: 'Diese Sicherung verschlüsseln'
       encryption_help: 'Verwendet die Hybridverschlüsselung von libsodium. Der Hauptteil wird mit einem archivspezifischen symmetrischen Schlüssel verschlüsselt, der anschließend mit einem öffentlichen Schlüssel versiegelt wird.'

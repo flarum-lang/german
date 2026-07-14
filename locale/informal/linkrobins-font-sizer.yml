@@ -5,13 +5,21 @@
 linkrobins-font-sizer:
   admin:
     settings:
+      base_input_label: Beitragstext
+      bases_help: 'Die Ausgangsgrößen in Pixeln, mit denen die Skalierung des Lesetextes multipliziert wird. Wenn die Schriftart deines Designs zu klein oder zu groß ist (was bei vielen Serifenschriften der Fall ist), passe diese Werte entsprechend an, anstatt benutzerdefiniertes CSS zu schreiben. Die geänderten Werte gelten für alle, auch bei 100 %.'
+      bases_label: Basis-Textgrößen
+      bases_reset_button: 'Auf Standardwerte zurücksetzen (14 / 12 / 16)'
       preview_button: Beispielschaltfläche
       preview_label: Vorschau
-      preview_text: 'Franz jagt im komplett verwahrlosten Taxi quer durch Bayern. Dieser Beispieltext passt sich an die oben gewählte Einstellung an.'
+      preview_small: 'Eine kleine Auszugszeile, wie die unter Diskussionstiteln.'
+      preview_text: 'Franz jagt im komplett verwahrlosten Taxi quer durch Bayern. Dieser Beispieltext passt sich an die oben gewählte Einstellungen an.'
+      preview_title: 'Ein Beispiel für einen Diskussionstitel'
       reset_button: 'Auf 100 % zurücksetzen'
+      small_input_label: 'Kleiner Text'
       text_size_help: 'Legt die siteweite Standardeinstellung für den Textkörper und den Titel von Beiträgen fest. Benutzer können diese Einstellung über die Schaltfläche „Schriftgröße“ in der Kopfzeile überschreiben.'
       text_size_label: 'Standardgröße für Lesetexte'
       text_size_value: '{percent}%'
+      title_input_label: Überschriften
       ui_default: Standard
       ui_large: Groß
       ui_size_help: 'Legt die siteweite Standardeinstellung für Navigation, Schaltflächen und andere Elemente der Benutzeroberfläche fest. Benutzer können diese Einstellung über die Schaltfläche „Schriftgröße“ in der Kopfzeile überschreiben.'

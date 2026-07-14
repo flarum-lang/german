@@ -19,6 +19,7 @@ linkrobins-referral:
       label_placeholder: 'z. B. Facebook-Sommeraktion'
       no_expiry: Nie
       none: 'Es gibt noch keine Aktionscodes.'
+      qr: 'QR-Code anzeigen'
       title: Aktionscodes
     eligibility:
       groups_help: 'Wenn Gruppen ausgewählt sind, erhalten nur die Mitglieder dieser Gruppen einen persönlichen Einladungscode. Lasse alle Kästchen deaktiviert, um alle Gruppen zuzulassen.'
@@ -38,9 +39,18 @@ linkrobins-referral:
   api:
     invalid_expiry: 'Ungültiges Ablaufdatum.'
     label_too_long: 'Die Beschriftung ist zu lang.'
+  email:
+    registered_body: 'Gute Nachrichten! {name} hat sich gerade mit deinem Einladungscode im Forum registriert.'
+    registered_subject: '{name} hat sich über deinen Einladungscode angemeldet'
+    someone: Jemand
+    view_profile: 'Profil anzeigen'
   forum:
     notification:
       user_referred: '{displayName} hat sich mit deinem Einladungscode registriert!'
+    notifications:
+      group_label: Weiterempfehlungen
+      registered_text: '{name} hat sich über deinen Einladungscode angemeldet'
+      someone: Jemand
     profile:
       copy: Kopieren
       copy_link: 'Empfehlungslink kopieren'
@@ -48,8 +58,11 @@ linkrobins-referral:
       invite_code_title: 'Dein Einladungscode'
       no_referrals: 'Noch keine Weiterempfehlungen. Teile deinen Einladungscode, um loszulegen!'
       not_eligible: 'Du hast noch keinen persönlichen Einladungscode freigeschaltet. Mach weiter mit und schau später noch einmal vorbei.'
+      qr_button: QR-Code
       tab: Weiterempfehlungen
       total_referrals: 'Weiterempfehlungen insgesamt'
+    settings:
+      notify_registered_label: 'Jemand meldet sich mit deinem Einladungscode an'
     sign_up:
       invite_code_label: Einladungscode
       invite_code_label_required: 'Einladungscode *'
@@ -57,6 +70,10 @@ linkrobins-referral:
     user_card:
       referrals_plural: '{count} Empfehlungen'
       referrals_singular: '{count} Empfehlung'
+  lib:
+    qr:
+      download: 'PNG herunterladen'
+      title: 'Einladungs-QR-Code: {code}'
   validation:
     invalid: 'Ungültiger Einladungscode.'
     required: 'Für die Registrierung ist ein Einladungscode erforderlich.'
