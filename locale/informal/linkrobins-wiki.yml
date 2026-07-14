@@ -4,15 +4,114 @@
 
 linkrobins-wiki:
   admin:
+    categories:
+      column_articles: Artikel
+      column_name: Name
+      column_slug: Slug
+      delete_button: Löschen
+      delete_confirm_named: 'Die Kategorie „{name}“ löschen? Die darin enthaltenen Artikel werden dann nicht mehr einer Kategorie zugeordnet.'
+      edit_button: Bearbeiten
+      empty: 'Es gibt noch keine Kategorien. Erstelle eine, um loszulegen.'
+      heading: Wiki-Kategorien
+      intro: 'Erstelle und organisiere die Kategorien, unter denen Artikel abgelegt werden können.'
+      new_button: 'Neue Kategorie'
+      this_category: 'diese Kategorie'
+    category_editor:
+      error_delete: 'Die Kategorie konnte nicht gelöscht werden.'
+      error_save: 'Die Kategorie konnte nicht gespeichert werden. Bitte überprüfe die Felder und versuche es erneut.'
+      field_color: Farbe
+      field_color_help: 'Hex-Farbcode (z. B. #3b82f6), der für das Abzeichen der Kategorie verwendet wird.'
+      field_description: Beschreibung
+      field_icon: Symbol
+      field_icon_help: 'Eine Font Awesome-Klasse, z. B. fas fa-book.'
+      field_name: Name
+      field_position: Position
+      field_position_help: 'Kategorien werden nach diesem Wert sortiert, beginnend mit dem niedrigsten Wert.'
+      field_slug: Slug
+      field_slug_help: 'Wird in der Kategorie-URL verwendet. Lasse das Feld leer, um die URL anhand des Namens zu generieren.'
+      field_slug_placeholder: 'z. B. leitfaden'
+      submit_create: 'Kategorie erstellen'
+      submit_update: 'Änderungen speichern'
+      title_edit: 'Kategorie bearbeiten'
+      title_new: 'Neue Kategorie'
     index_layout:
       heading: Wiki-Startseite
       help: 'Jeder Shortcode steht in einer eigenen Zeile. Zeilen, die keine Shortcodes sind, werden als Text angezeigt; Zeilen, die mit #, ## oder ### beginnen, werden zu Überschriften.'
       intro: 'Gestalte den Inhalt der /wiki-Startseite mithilfe von Shortcodes. Lasse das Feld leer, um einfach alle Artikel aufzulisten.'
       label: 'Layout der Startseite'
+      shortcode_article: 'Einen einzelnen Artikel anhand seiner ID verlinken.'
       shortcode_articles: 'Alle Artikel auflisten.'
       shortcode_articles_cat: 'Eine Kategorie auflisten (nach Slug oder ID), optional auf die N neuesten Einträge beschränkt. Füge title="…" hinzu, um eine Überschrift zu erstellen.'
+      shortcode_categories: 'Kategorien auflisten.'
+      shortcode_heading: 'Eine Überschrift (## und ### für kleinere).'
       shortcodes_heading: 'Verfügbare Shortcodes'
     permissions:
       comment: 'Wiki-Artikel kommentieren'
       create_article: 'Wiki-Artikel erstellen'
       edit_articles: 'Alle Wiki-Artikel bearbeiten und moderieren'
+    toc:
+      enabled_help: 'Wenn aktiviert, wird bei jedem Artikel in einem feststehenden Seitenbalken ein Inhaltsverzeichnis angezeigt, das aus den Überschriften der Ebenen #, ## und ### zusammengestellt wird. Es bleibt sichtbar, während der Leser scrollt.'
+      enabled_label: 'Inhaltsverzeichnis neben Artikeln anzeigen'
+      heading: Inhaltsverzeichnis
+      intro: 'Zeige in jedem Artikel ein automatisches Inhaltsverzeichnis an, das aus den Überschriften des Artikels erstellt wird.'
+      min_headings_help: 'Das Inhaltsverzeichnis wird nur angezeigt, wenn ein Artikel mindestens diese Anzahl an Überschriften enthält.'
+      min_headings_label: 'Minimalanzahl an Überschriften'
+  forum:
+    action:
+      cancel: Abbrechen
+      delete: Löschen
+      delete_forever: 'Für immer löschen'
+      edit: Bearbeiten
+      restore: Wiederherstellen
+      save_changes: 'Änderungen speichern'
+    comments:
+      confirm_delete: 'Diesen Kommentar löschen?'
+      confirm_delete_forever: 'Diesen Kommentar endgültig löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.'
+      deleted: 'Dieser Kommentar wurde gelöscht.'
+      empty: 'Noch keine Kommentare.'
+      error_delete: 'Kommentar konnte nicht gelöscht werden.'
+      error_edit: 'Kommentar konnte nicht gespeichert werden.'
+      error_post: 'Kommentar konnte nicht veröffentlicht werden.'
+      heading: 'Kommentare ({count})'
+      load_more: 'Mehr Kommentare laden'
+      placeholder: 'Einen Kommentar verfassen…'
+      post: 'Kommentar schreiben'
+    common:
+      date_at_time: '{date} um {time}'
+    compose:
+      body_label: Inhalt
+      body_placeholder: 'Schreibe den Artikel. Markdown wird unterstützt.'
+      body_placeholder_click: 'Klicke hier, um den Artikel zu schreiben…'
+      body_placeholder_edit: 'Klicke hier, um mit der Bearbeitung fortzufahren…'
+      category_label: Kategorie
+      discard_confirm: 'Du hast einen nicht gespeicherten Artikel. Möchtest du ihn verwerfen?'
+      no_category: 'Keine Kategorie'
+      submit_create: 'Artikel veröffentlichen'
+      submit_update: 'Änderungen speichern'
+      title: 'Neuer Artikel'
+      title_edit: 'Artikel bearbeiten'
+      title_label: Titel
+      title_placeholder: Artikel-Titel
+    index:
+      deleted_badge: Gelöscht
+      empty: 'Es wurden keine Artikel gefunden.'
+      empty_own: 'Es gibt noch keine Artikel. Klicke auf „Neuer Artikel“, um einen zu verfassen.'
+      index_label: Index
+      new_article: 'Neuer Artikel'
+      new_article_tooltip: 'Einen neuen Artikel verfassen'
+      no_categories: 'Noch keine Kategorien.'
+      untitled: 'Ohne Titel'
+    nav: Wiki
+    show:
+      by: 'von '
+      deleted_notice: 'Dieser Artikel wurde gelöscht. Nur Bearbeiter können ihn sehen.'
+      diff_from_previous: 'Änderungen gegenüber der Vorgängerversion'
+      diff_initial: 'Erste Fassung'
+      diff_none: 'Keine inhaltlichen Änderungen.'
+      diff_title: Titel
+      history: 'Änderungsverlauf ({count})'
+      initial_version: Erstellt
+      last_edited: 'zuletzt bearbeitet von '
+      load_more_history: 'Ältere Überarbeitungen laden'
+      no_history: 'Noch keine Überarbeitungen.'
+      toc_heading: Inhalte

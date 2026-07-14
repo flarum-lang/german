@@ -32,9 +32,11 @@ tryhackx-advanced-pages:
       php_warning: 'PHP-Seiten führen serverseitigen Code aus. Erstelle PHP-Seiten nur, wenn du dir der damit verbundenen Sicherheitsrisiken bewusst bist. Fehler werden protokolliert, aber den Besuchern niemals angezeigt.'
       preview: Vorschau
       raw: Roh
+      redirect_url_label: Weiterleitungs-URL
       slug_label: URL-Slug
       submit_button: 'Seite speichern'
       title_label: Titel
+      type_redirect: Weiterleitung
       type_text: 'Nur Text'
       unsaved_message: 'Es gibt ungespeicherte Änderungen. Möchtest du wirklich schließen, ohne zu speichern?'
       unsaved_title: 'Ungespeicherte Änderungen'
@@ -56,9 +58,11 @@ tryhackx-advanced-pages:
       status_column: Status
       title_column: Titel
       type_column: Art
+      views_column: Aufrufe
     permissions:
       create_bbcode_label: 'Seiten erstellen: BBCode'
       create_markdown_label: 'Seiten erstellen: Markdown'
+      create_redirect_label: 'Seiten erstellen: Weiterleitung'
       create_text_label: 'Seiten erstellen: Reiner Text'
       manage_pages_label: 'Erweiterte Seiten verwalten'
       view_spoilers_label: 'Spoilerinhalt anzeigen'
