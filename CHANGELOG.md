@@ -5,8 +5,16 @@ CHANGELOG
 2.0.11 (XXXX-XX-XX)
 -------------------
 
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki)
+
+
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`datlechin/flarum-mermaid`](https://github.com/datlechin/flarum-mermaid)
+* [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer)
+* [`linkrobins/referral`](https://github.com/linkrobins/referral)
 * [`ramon/backup`](https://github.com/ram0ng1/backup)
 
 
