@@ -2,6 +2,13 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-anti-spam/de/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      registration:
+        blocked: 'Hat Registrierungen für {username} ({email}) von {ip} blockiert'
+      user:
+        marked_as_spammer: 'Hat {username} als Spammer markiert'
 fof-anti-spam:
   admin:
     blocked_registrations:
