@@ -13,6 +13,8 @@ ramon-backup:
       public_key:
         copied: Kopiert!
         copy_title: 'Öffentlichen Schlüssel kopieren'
+        help_broken: 'Die Verschlüsselung ist konfiguriert, eine Entschlüsselung ist jedoch nicht möglich – siehe obige Warnmeldung.'
+        help_healthy: 'Neue verschlüsselte Backups werden mit diesem Schlüssel versiegelt. Jeder, der über den passenden privaten Schlüssel verfügt, kann sie entschlüsseln.'
         label: 'Aktueller öffentlicher Schlüssel'
         remove_button: 'Schlüsselpaar rotieren'
       regenerate_modal:
@@ -79,10 +81,15 @@ ramon-backup:
       intro: 'Wähle aus, was du sichern möchtest. Das Ergebnis ist eine einzige .flarum-Datei, die du herunterladen, übertragen oder extern speichern kannst.'
       phase_done: Abgeschlossen
       phase_error: Fehler
+      start_button: 'Sicherung starten'
+      start_failed: 'Export konnte nicht gestartet werden.'
+      target_help: 'Wo soll diese Sicherung wiederhergestellt werden? Wähle die Engine des Zielsystems aus, falls diese von der aktuellen abweicht – die SQL-Anweisungen werden für diese Engine generiert, sodass du ohne manuelle Konvertierung von MySQL zu PostgreSQL (oder einer beliebigen anderen Kombination) migrieren kannst.'
       target_mariadb: 'MariaDB 10.3+'
       target_mysql: 'MySQL 5.7+ / 8.0.30+'
       target_postgres: 'PostgreSQL 10+'
+      target_same: 'Genau wie diese Installation (keine Konvertierung)'
       target_sqlite: 'SQLite 3.35+'
+      target_title: Ziel-Datenbank
       title: 'Sicherung erstellen'
       warnings_title: '{count} Warnung zur Umwandlung|{count} Warnungen zur Umwandlung'
     import_modal:

@@ -56,6 +56,14 @@ linkrobins-wiki:
       intro: 'Zeige in jedem Artikel ein automatisches Inhaltsverzeichnis an, das aus den Überschriften des Artikels erstellt wird.'
       min_headings_help: 'Das Inhaltsverzeichnis wird nur angezeigt, wenn ein Artikel mindestens diese Anzahl an Überschriften enthält.'
       min_headings_label: 'Minimalanzahl an Überschriften'
+  api:
+    article_not_found: 'Artikel nicht gefunden.'
+    article_required: 'Ein Artikel ist erforderlich.'
+    article_soft_delete_first: 'Ein Artikel muss erst gelöscht werden, bevor er endgültig entfernt werden kann.'
+    comment_required: 'Kommentarinhalt ist erforderlich.'
+    comment_soft_delete_first: 'Ein Kommentar muss erst gelöscht werden, bevor er endgültig entfernt werden kann.'
+    content_required: 'Artikelinhalt ist erforderlich.'
+    title_required: 'Ein Titel für den Artikel ist erforderlich.'
   forum:
     action:
       cancel: Abbrechen
@@ -98,10 +106,17 @@ linkrobins-wiki:
       delete_forever: 'Diesen Artikel und seinen Versionsverlauf endgültig löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.'
       soft_delete: 'Diesen Artikel löschen? Bearbeiter können ihn später wiederherstellen.'
     errors:
+      delete_article: 'Artikel konnte nicht gelöscht werden.'
+      delete_article_forever: 'Artikel konnte nicht dauerhaft gelöscht werden.'
       empty_body: 'Bitte verfasse den Artikeltext, bevor du ihn einreichst.'
       load_article: 'Dieser Artikel konnte nicht geladen werden. Möglicherweise wurde er gelöscht, oder du verfügst nicht über die Berechtigung, ihn anzuzeigen.'
       load_articles: 'Artikel konnten nicht geladen werden.'
+      restore_article: 'Artikel konnte nicht wiederhergestellt werden.'
+      submit: 'Artikel konnte nicht gespeichert werden.'
       title_required: 'Bitte gib einen Titel ein.'
+      unknown: 'Unbekannter Fehler.'
+      upload: 'Datei konnte nicht hochgeladen werden.'
+      upload_no_files: 'Beim Hochladen wurden keine Dateien gefunden. Bitte versuche es erneut.'
     index:
       deleted_badge: Gelöscht
       empty: 'Es wurden keine Artikel gefunden.'
