@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.25.24 (XXXX-XX-XX)
+--------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+
+
+Alle Änderungen: [1.25.23...1.25.24](https://github.com/flarum-lang/german/compare/1.25.23...1.25.24).
+
+
 1.25.23 (2026-07-13)
 --------------------
 
