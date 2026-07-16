@@ -57,6 +57,7 @@ ramon-backup:
       generic: 'Es ist ein Fehler aufgetreten. Bitte versuche es erneut.'
     export_modal:
       cancel_button: Abbrechen
+      cancel_failed_warn: 'Das Modalfenster wurde geschlossen, aber der Server hält möglicherweise noch die Sperre für den Exportauftrag. Überprüfe in Kürze die Sicherungsliste – sollte ein veralteter Auftrag weiterhin bestehen, versuche es erneut oder wende dich an den Support.'
       close_button: Schließen
       completed: 'Sicherung erstellt.'
       content_assets: 'Assets (hochgeladene Dateien)'
@@ -69,18 +70,29 @@ ramon-backup:
       content_storage_help: 'Wird in der Regel übersprungen: Enthält Laufzeitdateien, die neu generiert werden können und selten zwischen verschiedenen Installationen übertragbar sind.'
       contents_title: 'Was soll enthalten sein'
       encryption_enable: 'Diese Sicherung verschlüsseln'
+      encryption_external: 'Mit einem anderen öffentlichen Schlüssel verschlüsseln (zur Übertragung)'
+      encryption_external_help: 'Füge den öffentlichen Schlüssel des Zielservers ein. Dies ist nützlich, wenn du ein Backup erstellst, um es an einem anderen Ort wiederherzustellen, ohne private Schlüssel weitergeben zu müssen.'
       encryption_help: 'Verwendet die Hybridverschlüsselung von libsodium. Der Hauptteil wird mit einem archivspezifischen symmetrischen Schlüssel verschlüsselt, der anschließend mit einem öffentlichen Schlüssel versiegelt wird.'
       encryption_title: Verschlüsselung
+      extensions_group_unknown: Andere
+      extensions_group_vendor: 'Anbieter (verwaltet durch composer)'
       extensions_group_workbench: 'Workbench (lokale Entwicklung)'
       extensions_load_failed: 'Die Erweiterungsliste konnte nicht geladen werden.'
       extensions_none: 'In diesem Flarum-Forum sind keine Erweiterungen installiert.'
       extensions_select_all: 'Alle auswählen'
       extensions_select_none: 'Keine auswählen'
       extensions_tag_unknown: unbekannt
+      extensions_tag_vendor: anbieter
+      extensions_tag_workbench: workbench
       files_count: '{done} / {total} Dateien'
       intro: 'Wähle aus, was du sichern möchtest. Das Ergebnis ist eine einzige .flarum-Datei, die du herunterladen, übertragen oder extern speichern kannst.'
+      phase_bundle: 'Dateien werden zusammengefasst…'
+      phase_db_dump: 'Datenbank wird gesichert…'
       phase_done: Abgeschlossen
       phase_error: Fehler
+      phase_error_network: 'Während der Sicherung ist die Verbindung zum Server unterbrochen worden. Der Auftrag wird möglicherweise noch auf dem Server ausgeführt – überprüfe in Kürze die Sicherungsliste.'
+      phase_finalize: 'Wird abgeschlossen…'
+      phase_scan: 'Wird gescannt…'
       start_button: 'Sicherung starten'
       start_failed: 'Export konnte nicht gestartet werden.'
       target_help: 'Wo soll diese Sicherung wiederhergestellt werden? Wähle die Engine des Zielsystems aus, falls diese von der aktuellen abweicht – die SQL-Anweisungen werden für diese Engine generiert, sodass du ohne manuelle Konvertierung von MySQL zu PostgreSQL (oder einer beliebigen anderen Kombination) migrieren kannst.'
@@ -91,15 +103,32 @@ ramon-backup:
       target_sqlite: 'SQLite 3.35+'
       target_title: Ziel-Datenbank
       title: 'Sicherung erstellen'
+      warnings_help: 'Einige Spalten verwenden Datentypen, für die es in der ausgewählten Ziel-Engine keine direkte Entsprechung gibt. Die Sicherung selbst wird zwar abgeschlossen – die Zielspalte wird jedoch möglicherweise nicht validiert oder verhält sich nicht identisch. Lese die folgenden Hinweise sorgfältig durch, bevor du diese Sicherung für die Migration verwendest.'
       warnings_title: '{count} Warnung zur Umwandlung|{count} Warnungen zur Umwandlung'
     import_modal:
       cancel_button: Abbrechen
+      cancel_failed_warn: 'Das Modalfenster wurde geschlossen, aber der Server führt möglicherweise noch Änderungen durch. Überprüfe den Serverstatus, bevor du es erneut versuchst.'
+      choose_file: 'Hier klicken, um eine .flarum-Datei auszuwählen'
       close_button: Schließen
       completed: 'Wiederherstellung abgeschlossen.'
+      confirm_body: 'Die Tabellen im Archiv ersetzen die Tabellen hier. Die Dateien werden in ihre ursprünglichen Pfade geschrieben.'
+      confirm_check: 'Ich verstehe. Ersetze meine aktuellen Daten durch diese Sicherung.'
       confirm_title: 'Vorhandene Daten ersetzen'
       done_body: 'Alle ausgewählten Dateien wurden wiederhergestellt. Die Datenbank wurde nicht verändert, sodass deine aktuelle Sitzung unverändert bleibt.'
       done_title: 'Wiederherstellung abgeschlossen'
+      extensions_composer_note: 'Die Dateien „composer.json“ und „composer.lock“ sind im Paket enthalten und überschreiben das Projektverzeichnis am Zielort. Führe nach der Wiederherstellung den Befehl `composer install` aus, um die Vendor-Erweiterungen zu aktivieren.'
+      extensions_tag_unknown: unbekannt
+      extensions_tag_vendor: vendor
+      extensions_tag_workbench: workbench
+      inspect_title: Archivdetails
+      inspecting_archive: 'Archiv wird geprüft…'
+      key_help: 'Dieses Archiv ist verschlüsselt. Füge den passenden privaten Base64-Schlüssel ein – er bleibt in dieser Browsersitzung gespeichert und wird EINMALIG zur Wiederherstellung an den Server gesendet.'
+      key_hint_local: 'Lasse das Feld leer, um den in der Datei „config.php“ dieses Servers konfigurierten privaten Schlüssel zu verwenden.'
       key_title: 'Privater Schlüssel'
+      logout_body: 'Durch die Wiederherstellung der Datenbank wurden die Tabellen „users“ und „sessions“ dieses Servers überschrieben, sodass das Konto, mit dem du angemeldet warst, hier nicht mehr existiert. Melde dich bitte erneut mit den Zugangsdaten des importierten Forums an, um fortzufahren.'
+      logout_button: 'Neu laden und anmelden'
+      logout_step_login: 'Melde dich mit den Administrator-Zugangsdaten des Quellforums an'
+      logout_step_reload: 'Lade die untenstehende Seite neu, um das veraltete Sitzungs-Cookie zu löschen'
       logout_title: 'Du wurdest abgemeldet'
       meta_contents: Enthält
       meta_flarum: Flarum-Version
@@ -108,14 +137,31 @@ ramon-backup:
       meta_when: Erstellt
       phase_done: Fertig
       phase_error: Fehler
+      phase_error_network: 'Die Verbindung zum Server wurde während der Wiederherstellung unterbrochen. Der Server ist möglicherweise noch mit dem Schreiben beschäftigt – warte einen Moment und überprüfe den Status der Datenbank, bevor du es erneut versuchst.'
+      phase_extract: 'Wird extrahiert…'
+      phase_finalize: 'Wird fertiggestellt…'
+      phase_inspect: 'Archiv wird geprüft…'
+      phase_restore: 'Datenbank wird wiederhergestellt…'
+      phase_rewrite: 'URLs werden umgeschrieben…'
+      reload_button: 'Seite neu laden'
+      reload_required: 'Die Forumdaten wurden aktualisiert. Lade die Seite neu, um mit einer neuen Sitzung fortzufahren – möglicherweise wurde auch deine vorherige Anmeldung zurückgesetzt.'
       section_assets: Assets
       section_count: '{count} Dateien'
       section_db: Datenbank
       section_extensions: Erweiterungen
       section_storage: Speicher
+      selection_help: 'Wähle aus, welche Abschnitte dieser Sicherung übernommen werden sollen. Alles, was du abwählst, wird bei der Wiederherstellung übersprungen – die entsprechenden Dateien bzw. Datenbankänderungen werden einfach nicht übernommen.'
+      selection_title: 'Was soll wiederhergestellt werden'
       start_button: Wiederherstellen
       start_failed: 'Wiederherstellung konnte nicht gestartet werden.'
+      title: 'Sicherung importieren'
+      upload_button: 'Hochladen und prüfen'
+      upload_failed: 'Hochladen fehlgeschlagen.'
+      upload_idle_timeout: 'Der Upload ist ins Stocken geraten (seit über einer Minute wurden keine Daten gesendet). Überprüfe deine Netzwerkverbindung und versuche es erneut.'
       uploading_pct: 'Hochladen… {pct}%'
+      url_rewrite_note: 'URLs in der Datenbank, die auf den Ursprungsserver verweisen, werden automatisch in die URL dieses Servers umgeschrieben.'
+      warning_body: 'Durch das Importieren einer Sicherungskopie wird die Datenbank überschrieben und Dateien werden ersetzt. Stelle zunächst sicher, dass du über eine aktuelle Sicherungskopie DIESER Installation verfügen.'
+      warning_title: 'Dadurch werden Daten ersetzt'
     list:
       col_contents: Inhalte
       col_size: Größe
