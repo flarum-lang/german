@@ -7,6 +7,7 @@ CHANGELOG
 
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
+* [`ernestdefoe/typesense`](https://github.com/ernestdefoe/typesense)
 * [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki)
 
 
