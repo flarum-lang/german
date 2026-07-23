@@ -2,6 +2,29 @@ CHANGELOG
 =========
 
 
+2.0.11 (XXXX-XX-XX)
+-------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`ernestdefoe/typesense`](https://github.com/ernestdefoe/typesense)
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+* [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`datlechin/flarum-mermaid`](https://github.com/datlechin/flarum-mermaid)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer)
+* [`linkrobins/referral`](https://github.com/linkrobins/referral)
+* [`ramon/backup`](https://github.com/ram0ng1/backup)
+* [`tryhackx/flarum-advanced-pages`](https://github.com/TryHackX/flarum-advanced-pages)
+
+
+Alle Änderungen: [2.0.10...2.0.11](https://github.com/flarum-lang/german/compare/2.0.10...2.0.11).
+
+
 2.0.10 (2026-07-13)
 -------------------
 
