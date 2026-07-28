@@ -10,6 +10,7 @@ CHANGELOG
 * [`ernestdefoe/typesense`](https://github.com/ernestdefoe/typesense)
 * [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
 * [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki)
+* [`u0-ani-nya/ani-nya_i18n`](https://github.com/u0-ani-nya/ani-nya_i18n)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
