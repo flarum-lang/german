@@ -13,10 +13,10 @@ acpl-lscache:
     drop_qs_label: 'Abfragezeichenfolgen löschen'
     permissions:
       purge: '=> acpl-lscache.ref.purge_cache'
-    public_cache_ttl_help: 'Gebe an, wie lange (in Sekunden) öffentliche Seiten zwischengespeichert werden. Standard sind 604800 Sekunden (eine Woche).'
+    public_cache_ttl_help: 'Gib an, wie lange (in Sekunden) öffentliche Seiten zwischengespeichert werden. Standard sind 604800 Sekunden (eine Woche).'
     public_cache_ttl_label: 'Öffentliche Standard-Cache-TTL'
     purge_all: '=> acpl-lscache.ref.purge_cache'
-    purge_on_discussion_update_help: 'Gebe die URLs oder Cache-Tags ein, die du löschen möchten, wenn eine Diskussion aktualisiert wird, jeweils eine pro Zeile. Die URL sollte mit <code>/</code> beginnen, z. B. <code>/rankings</code>, und das Cache-Tag sollte mit <code>tag=</code> beginnen, z. B. <code>tag=rankings</code>. Bei mehreren Routen ist es schneller, eine Regel in .htaccess mit einem regulären Ausdruck hinzuzufügen, der Routen markiert, und hier nur dieses Tag einzugeben. <a>Weitere Informationen</a>. Standardmäßig wird der Cache für die Startseite und aktualisierte Diskussionen gelöscht.'
+    purge_on_discussion_update_help: 'Gib die URLs oder Cache-Tags ein, die du löschen möchten, wenn eine Diskussion aktualisiert wird, jeweils eine pro Zeile. Die URL sollte mit <code>/</code> beginnen, z. B. <code>/rankings</code>, und das Cache-Tag sollte mit <code>tag=</code> beginnen, z. B. <code>tag=rankings</code>. Bei mehreren Routen ist es schneller, eine Regel in .htaccess mit einem regulären Ausdruck hinzuzufügen, der Routen markiert, und hier nur dieses Tag einzugeben. <a>Weitere Informationen</a>. Standardmäßig wird der Cache für die Startseite und aktualisierte Diskussionen gelöscht.'
     purge_on_discussion_update_label: 'URLs/Tags löschen, wenn Diskussion/en oder ein Beitrag/Beiträge aktualisiert werden'
     serve_stale_help: 'Wenn diese Option aktiviert ist, wird Besuchern eine veraltete Version einer zwischengespeicherten Seite angezeigt, bis eine neue Cache-Kopie erstellt wird. Dadurch wird die Serverlast reduziert. Wenn diese Option deaktiviert ist, wird die Seite während der Cache-Aktualisierung dynamisch generiert, was zu längeren Wartezeiten führen kann. Diese Option kann grundsätzlich veraltete Inhalte anzeigen. Bitte aktivieren Sie diese Option nicht, wenn Sie dies für inakzeptabel halten.'
     serve_stale_label: 'Veraltete Inhalte bereitstellen'

@@ -54,7 +54,7 @@ fof-blog:
       select_categories_button: 'Blog-Kategorien auswählen'
       selected_category_count: '{count, plural, one {Du hast # Kategorie ausgewählt} other {Du hast # Kategorien ausgewählt}}'
       show_tag_hierarchy_label: 'Tag-Hierarchie anzeigen'
-      show_tag_hierarchy_text: 'Füge Abstände zu den Unterkategorien hinzu und gebe der Kategorieliste eine Hierarchie.'
+      show_tag_hierarchy_text: 'Füge Abstände zu den Unterkategorien hinzu und gib der Kategorieliste eine Hierarchie.'
   forum:
     article:
       slug: Slug
@@ -84,7 +84,7 @@ fof-blog:
     composer:
       comment_section: 'Der Kommentarbereich ist beim Verfassen eines Artikels nicht verfügbar.'
       edit_categories: 'Kategorien bearbeiten'
-      enter_message_here: 'Gebe deine Nachricht hier ein'
+      enter_message_here: 'Gib deine Nachricht hier ein'
       no_blog_tags_selected: 'Keiner der ausgewählten Tags ist ein Blog-Tag. Bitte wähle mindestens einen aus.'
       no_title: 'Kein Titel'
       nothing_to_preview: 'Keine Vorschau'

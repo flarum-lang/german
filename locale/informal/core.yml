@@ -540,7 +540,7 @@ core:
       email_sent_message: 'Falls die von dir eingegebene E-Mail-Adresse auf dieser Seite registriert ist, senden wir dir eine E-Mail mit einem Link, mit dem du dein Passwort zurücksetzen kannst. Bitte prüfe auch deinen Spam-Ordner, falls die E-Mail nicht innerhalb der nächsten Minuten ankommt.'
       not_found_message: 'Es existiert kein Benutzer mit dieser E-Mail-Adresse.'
       submit_button: 'Passwort wiederherstellen'
-      text: 'Bitte gebe deine E-Mail-Adresse ein, um einen Link zum Zurücksetzen deines Passwortes zu erhalten.'
+      text: 'Bitte gib deine E-Mail-Adresse ein, um einen Link zum Zurücksetzen deines Passwortes zu erhalten.'
       title: 'Passwort vergessen'
     header:
       admin_button: Administration
@@ -881,7 +881,7 @@ core:
     extensions: Erweiterungen
     generic_confirmation_message: 'Bist du sicher, dass du fortfahren willst? Diese Aktion kann nicht rückgängig gemacht werden.'
     icon: Symbol
-    icon_text: 'Gebe den Namen der <a>FontAwesome</a>-Symbolklasse ein, aber <em>mit</em> dem Präfix (z. B. <code>fas fa-flag</code> oder <code>fa-solid fa-flag</code>).'
+    icon_text: 'Gib den Namen der <a>FontAwesome</a>-Symbolklasse ein, aber <em>mit</em> dem Präfix (z. B. <code>fas fa-flag</code> oder <code>fa-solid fa-flag</code>).'
     invalid_login_message: 'Deine Anmeldedaten waren falsch.'
     light_hc_mode_label: 'Heller Modus mit hohem Kontrast'
     light_mode_label: 'Heller Modus'

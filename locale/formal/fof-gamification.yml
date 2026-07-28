@@ -39,7 +39,7 @@ fof-gamification:
       ranks:
         help:
           color: '#ffffff'
-          help: 'Gebe die gewünschte Anzahl an Upvotes, den Namen des Ranges und die Hex-Farbe des Ranges ein'
+          help: 'Gib die gewünschte Anzahl an Upvotes, den Namen des Ranges und die Hex-Farbe des Ranges ein'
           name: Name
           points: Punkte
         number_title: 'Wie viele Rangabzeichen sollen angezeigt werden?'
@@ -54,7 +54,7 @@ fof-gamification:
         color_holder: '#ffffff'
         discussion_page: 'Gesamtzahl der Stimmen des ursprünglichen Beitrags in der Diskussionsliste anzeigen'
         first_post_only: 'Stimmen nach oben/unten nur im ersten Beitrag einer Diskussion zulassen'
-        icon_help: 'Gebe ein beliebiges Font-Awesome-Icon mit den Endungen -up und -down ein. Beispiele: arrow, thumbs, chevron'
+        icon_help: 'Gib ein beliebiges Font-Awesome-Symbol mit den Endungen -up und -down ein. Beispiele: arrow, thumbs, chevron'
         icon_name: 'Upvote/Downvote Symbol'
         icon_preview_downvote: Downvote
         icon_preview_upvote: Upvote

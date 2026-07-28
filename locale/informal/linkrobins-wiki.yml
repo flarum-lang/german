@@ -64,6 +64,9 @@ linkrobins-wiki:
     comment_required: 'Kommentarinhalt ist erforderlich.'
     comment_soft_delete_first: 'Ein Kommentar muss erst gelöscht werden, bevor er endgültig entfernt werden kann.'
     content_required: 'Artikelinhalt ist erforderlich.'
+    faq_too_many: 'Ein Artikel kann maximal {max} FAQ-Einträge enthalten.'
+    slug_invalid: 'Dieser URL-Slug ist reserviert. Bitte wähle einen, der nicht nur aus einer Zahl besteht.'
+    slug_taken: 'Ein anderer Artikel verwendet bereits diesen URL-Slug.'
     title_required: 'Ein Titel für den Artikel ist erforderlich.'
   forum:
     action:
@@ -96,7 +99,12 @@ linkrobins-wiki:
       body_placeholder_edit: 'Klicke hier, um mit der Bearbeitung fortzufahren…'
       category_label: Kategorie
       discard_confirm: 'Du hast einen nicht gespeicherten Artikel. Möchtest du ihn verwerfen?'
+      faq_add: 'Frage hinzufügen'
+      faq_answer_placeholder: 'Antwort. Markdown wird unterstützt.'
       faq_heading: FAQ
+      faq_help: 'Optionale Fragen und Antworten unter dem Artikel. In den Antworten wird Markdown unterstützt.'
+      faq_question_placeholder: Frage
+      faq_remove: 'Frage entfernen'
       no_category: 'Keine Kategorie'
       slug_help: 'Wird in der URL des Artikels verwendet. Lasse das Feld leer, um die URL aus dem Titel zu generieren.'
       slug_label: URL-Slug
@@ -139,6 +147,7 @@ linkrobins-wiki:
       diff_initial: 'Erste Fassung'
       diff_none: 'Keine inhaltlichen Änderungen.'
       diff_title: Titel
+      faq_heading: 'Häufig gestellte Fragen'
       history: 'Änderungsverlauf ({count})'
       initial_version: Erstellt
       last_edited: 'zuletzt bearbeitet von '

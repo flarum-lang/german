@@ -38,14 +38,14 @@ fof-reactions:
         allow-anonymous-help: 'Wenn diese Option aktiviert ist, können Gäste und anonyme Nutzer auf Beiträge reagieren. Beachte, dass anonyme Reaktionen nicht mit einem Nutzerprofil verknüpft werden und in der Liste der Reaktionen zusammengefasst werden.'
         integrations:
           gamification:
-            downvoteHelptext: 'Gebe den Bezeichner der Reaktion ein, die du automatisch in ein Downvote umwandeln möchtest'
+            downvoteHelptext: 'Gib den Bezeichner der Reaktion ein, die du automatisch in ein Downvote umwandeln möchtest'
             downvoteLabel: 'Reaktionen in Downvotes umwandeln'
             legend: Gamifizierung
-            upvoteHelptext: 'Gebe den Bezeichner der Reaktion ein, die du automatisch in ein Upvote umwandeln möchtest'
+            upvoteHelptext: 'Gib den Bezeichner der Reaktion ein, die du automatisch in ein Upvote umwandeln möchtest'
             upvoteLabel: 'Konvertiere Reaktionen in Upvotes'
           legend: Integrationen
           likes:
-            Helptext: 'Gebe den Bezeichner der Reaktion ein, die du automatisch in ein Gefällt mir umwandeln möchtest'
+            Helptext: 'Gib den Bezeichner der Reaktion ein, die du automatisch in ein Gefällt mir umwandeln möchtest'
             Label: 'Reaktionen zu Gefällt-mirs konvertieren'
             legend: Gefällt-mirs
           warning: 'Die gleiche Reaktion <strong>kann nicht</strong> in ein Gefällt-mir <strong>und</strong> ein Upvote umgewandelt werden'

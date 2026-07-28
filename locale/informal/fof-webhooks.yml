@@ -92,7 +92,7 @@ fof-webhooks:
         group_help: 'Ressourcen senden, die von dieser Gruppe gesehen werden können'
         group_label: Gruppe
         include_matching_tags_label: 'Zutreffende Tags einschliessen — Für Webhooks, die auf bestimmte Tags beschränkt sind, wird angezeigt, welches das Ereignis auslöst'
-        max_post_content_length_help: 'Bestimme ein Zahl um die Länge von Beiträgen in allen Beitrags-bezogenen Ereignissen zu limitieren. Um das Limit zu entfernen, gebe 0 oder nichts ein.'
+        max_post_content_length_help: 'Gib eine Zahl an, um den Inhalt von Beiträgen in allen Beitrags-bezogenen Ereignissen zu limitieren. Um das Limit zu entfernen, gib 0 oder nichts ein.'
         max_post_content_length_label: 'Maximale Beitrags-Länge'
         name_help: 'Der Name des Webhooks. Dieser wird für Dinge wie den Discord-Benutzernamen, Slack-Botnamen u.Ä. verwendet.'
         name_label: Name
