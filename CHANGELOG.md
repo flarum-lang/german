@@ -18,6 +18,7 @@ CHANGELOG
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer)
+* [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget)
 * [`linkrobins/referral`](https://github.com/linkrobins/referral)
 * [`ramon/backup`](https://github.com/ram0ng1/backup)
 * [`tryhackx/flarum-advanced-pages`](https://github.com/TryHackX/flarum-advanced-pages)
