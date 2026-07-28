@@ -5,6 +5,11 @@ CHANGELOG
 1.25.24 (XXXX-XX-XX)
 --------------------
 
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye)
+
+
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
