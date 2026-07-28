@@ -4,20 +4,30 @@
 
 ernestdefoe-importer:
   admin:
+    complete: 'Import abgeschlossen'
+    confirm_start: 'Jetzt mit dem Import starten? Dadurch werden Diskussionen, Beiträge und Mitglieder in dieses Forum übernommen. Für optimale Ergebnisse solltest du den Import in ein neues Forum durchführen.'
     database: Datenbank-Name
     database_redis: 'Redis Datenbank-Nummer'
     dump_file: Datenbank-Dump
     dump_help: 'Eine mysqldump-.sql-Datei (optional gzip-komprimiert) oder eine SQLite-Datei. Sehr große Foren können das Upload-Limit deines Hosts überschreiten – nutze stattdessen die Live-Verbindung oder komprimiere den Dump zunächst mit gzip.'
+    failed: 'Import fehlgeschlagen'
     host: Datenbank-Host
+    import_another: 'Weiterer Import'
     intro: 'Migriere ein bestehendes Forum zu Flarum. Wähle deine Quellplattform aus, stelle eine Verbindung zu deren Datenbank her, teste die Verbindung und führe den Import anschließend im Hintergrund durch – die Verarbeitung erfolgt stapelweise mit einem Live-Fortschrittsbalken, sodass selbst bei großen Foren keine Zeitüberschreitung auftritt.'
     mode_connect: 'Verbinde mit einer Datenbank'
     mode_upload: 'Eine Datenbankdatei hochladen'
     password: Datenbank-Passwort
     port: Port
     prefix: Tabellenpräfix
+    running: 'Import läuft'
+    shared_note: 'Wird in kleinen Chargen direkt über deinen Browser ausgeführt – es sind weder ein Queue-Worker noch SSH erforderlich, sodass es auch auf Shared-Hosting-Servern funktioniert. Lasse diesen Tab geöffnet; sollte der Vorgang unterbrochen werden, öffne diese Seite einfach erneut, und der Vorgang wird an der Stelle fortgesetzt, an der er unterbrochen wurde.'
     source: Quellplattform
     start: 'Import starten'
+    start_failed: 'Import konnte nicht gestartet werden.'
+    starting: Starten…
     test: 'Verbindung testen'
+    test_failed: 'Verbindung fehlgeschlagen.'
+    test_ok: 'Verbunden. Das wurde gefunden:'
     title: 'Ein Forum importieren'
     upload: 'Hochladen & prüfen'
     upload_failed: 'Hochladen ist fehlgeschlagen – die Datei ist möglicherweise zu groß für das Upload-Limit dieses Servers.'
