@@ -2,6 +2,15 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-blog/de@formal/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      article:
+        approved: 'Hat den Blog-Artikel {discussion} genehmigt'
+        created: 'Hat den Blog-Artikel {discussion} erstellt'
+        featured: 'Hat den Blog-Artikel {discussion} hervorgehoben'
+        unfeatured: 'Hat die Hervorhebung des Blog-Artikels {discussion} entfernt'
+        updated: 'Hat Metadaten für den Blog-Artikel {discussion} aktualisiert'
 fof-blog:
   admin:
     blog: Blog
@@ -20,6 +29,8 @@ fof-blog:
       categories_heading: Kategorien
       categories_modal:
         close: Schließen
+        description: 'Bitte wähle ein oder mehrere Tags aus, die als Blog-Tags gelten.'
+        no_tags: 'Du hast derzeit keine Tags.'
         tag_name_column: Tagname
         visit_blog: 'Besuche dein Blog.'
       default_article_image_label: Standardartikelbild
@@ -32,6 +43,12 @@ fof-blog:
       hide_tags_in_taglist_text: 'Wenn diese Erweiterung aktiviert ist, werden die Blog-Tags auf der Homepage ausgeblendet.'
       no_categories_selected: 'Keine Kategorien ausgewählt'
       redirects_heading: Umleitungen
+      redirects_options:
+        both: 'Artikel und Tags weiterleiten'
+        discussions_only: 'Nur Artikel weiterleiten'
+        none: 'Keine Weiterleitungen'
+        tags_only: 'Nur Tags weiterleiten'
+      redirects_text: 'URLs der ursprünglichen Diskussionen und Tags auf die entsprechenden Blog-Beiträge weiterleiten.'
       require_review_label: 'Blogeinträge erfordern Überprüfung'
       require_review_text: 'Neue Blogeinträge sind nicht direkt sichtbar und erfordern eine Überprüfung durch einen Moderator.'
       select_categories_button: 'Blog-Kategorien auswählen'
@@ -105,3 +122,7 @@ fof-blog:
         title: 'Weiterleitung zum Blogeintrag…'
     validation:
       missing_id: 'Fehlende ID'
+  lib:
+    gambits:
+      blog:
+        key: blog

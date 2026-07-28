@@ -49,6 +49,7 @@ linkrobins-wiki:
       comment: 'Wiki-Artikel kommentieren'
       create_article: 'Wiki-Artikel erstellen'
       edit_articles: 'Alle Wiki-Artikel bearbeiten und moderieren'
+      view_history: 'Versionsverlauf des Wiki-Artikels anzeigen'
     toc:
       enabled_help: 'Wenn aktiviert, wird bei jedem Artikel in einem feststehenden Seitenbalken ein Inhaltsverzeichnis angezeigt, das aus den Überschriften der Ebenen #, ## und ### zusammengestellt wird. Es bleibt sichtbar, während der Leser scrollt.'
       enabled_label: 'Inhaltsverzeichnis neben Artikeln anzeigen'
@@ -95,7 +96,11 @@ linkrobins-wiki:
       body_placeholder_edit: 'Klicke hier, um mit der Bearbeitung fortzufahren…'
       category_label: Kategorie
       discard_confirm: 'Du hast einen nicht gespeicherten Artikel. Möchtest du ihn verwerfen?'
+      faq_heading: FAQ
       no_category: 'Keine Kategorie'
+      slug_help: 'Wird in der URL des Artikels verwendet. Lasse das Feld leer, um die URL aus dem Titel zu generieren.'
+      slug_label: URL-Slug
+      slug_placeholder: 'z. B. los-gehts'
       submit_create: 'Artikel veröffentlichen'
       submit_update: 'Änderungen speichern'
       title: 'Neuer Artikel'
