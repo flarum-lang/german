@@ -18,6 +18,10 @@ fof-blog:
       allow_comments_text: 'Standardmäßig sind Kommentare in Blogeinträgen erlaubt. Wenn dies deaktiviert ist, kann dies für jeden Blogbeitrag einzeln aktiviert werden. <b>Hinweis:</b> Wenn du diese Einstellung änderst, hat dies keine Auswirkungen auf bereits existierende Blogbeiträge.'
       blog_heading: Blog
       categories_heading: Kategorien
+      categories_modal:
+        close: Schließen
+        tag_name_column: Tagname
+        visit_blog: 'Besuche dein Blog.'
       default_article_image_label: Standardartikelbild
       default_article_image_text: 'Wähle ein Standardartikelbild aus, das angezeigt werden soll, wenn kein Bild eingestellt ist.'
       featured_count_label: 'Max. hervorgehobene Beiträge'

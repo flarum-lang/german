@@ -73,7 +73,8 @@ fof-upload:
         cdn_url: 'Content Delivery URL (Präfixe für Dateien)'
         title: 'Lokale Speichereinstellungen'
       preferences:
-        max_file_size: 'Maximale Dateigröße (in Kilobytes)'
+        max_file_size: 'Maximale Dateigröße'
+        max_file_size_equivalent: 'Gespeichert als <code>{kb}</code> KB ({value}).'
         mime_type_permission_placeholder: 'Berechtigungslabel (optional, z. B. Bilder)'
         mime_type_regex_invalid: 'Ungültiger regulärer Ausdruck (z. B. leere Alternativen wie ||)'
         mime_type_regex_placeholder: 'z.B. ^image/(jpeg|png|gif)$'
