@@ -104,7 +104,7 @@ ramon-backup:
       target_title: Ziel-Datenbank
       title: 'Sicherung erstellen'
       warnings_help: 'Einige Spalten verwenden Datentypen, für die es in der ausgewählten Ziel-Engine keine direkte Entsprechung gibt. Die Sicherung selbst wird zwar abgeschlossen – die Zielspalte wird jedoch möglicherweise nicht validiert oder verhält sich nicht identisch. Lese die folgenden Hinweise sorgfältig durch, bevor du diese Sicherung für die Migration verwendest.'
-      warnings_title: '{count} Warnung zur Umwandlung|{count} Warnungen zur Umwandlung'
+      warnings_title: '{count, plural, one {# Warnung zur Umwandlung} other {# Warnungen zur Umwandlung}}'
     import_modal:
       cancel_button: Abbrechen
       cancel_failed_warn: 'Das Modalfenster wurde geschlossen, aber der Server führt möglicherweise noch Änderungen durch. Überprüfe den Serverstatus, bevor du es erneut versuchst.'
