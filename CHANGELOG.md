@@ -16,6 +16,7 @@ CHANGELOG
 
 * [`datlechin/flarum-mermaid`](https://github.com/datlechin/flarum-mermaid)
 * [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer)
 * [`linkrobins/referral`](https://github.com/linkrobins/referral)
 * [`ramon/backup`](https://github.com/ram0ng1/backup)
