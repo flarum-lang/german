@@ -16,9 +16,11 @@ CHANGELOG
 
 * [`datlechin/flarum-mermaid`](https://github.com/datlechin/flarum-mermaid)
 * [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer)
 * [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget)
+* [`linkrobins/markdown-widget`](https://github.com/linkrobins/markdown-widget)
 * [`linkrobins/referral`](https://github.com/linkrobins/referral)
 * [`ramon/backup`](https://github.com/ram0ng1/backup)
 * [`tryhackx/flarum-advanced-pages`](https://github.com/TryHackX/flarum-advanced-pages)
