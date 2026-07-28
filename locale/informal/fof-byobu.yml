@@ -6,7 +6,7 @@ fof-byobu:
   admin:
     permission:
       add_more_than_two_user_recipients: 'Mehr als 2 Benutzer-Empfänger zu einer privaten Diskussion hinzufügen'
-      create_private_discussions_with_blocking_users: 'Erstelle private Diskussionen mit Nutzern, die du blockierst'
+      create_private_discussions_with_blocking_users: 'Erstelle private Diskussionen mit Nutzern, die dies blockieren'
       create_private_discussions_with_groups: 'Private Diskussionen mit Gruppen erstellen'
       create_private_discussions_with_users: 'Private Diskussionen mit Nutzern erstellen'
       edit_group_recipients: 'Gruppen bearbeiten, die an privaten Diskussionen teilnehmen'
@@ -27,7 +27,7 @@ fof-byobu:
       icon:
         heading: Symboleinstellungen
         help: 'Diese Einstellungen betreffen die Symbole, die von byobu im Forum verwendet werden.'
-      post-event-icon: 'Byobu Post Ereignisse'
+      post-event-icon: 'Byobu Post-Ereignisse'
   email:
     body:
       made_public: "{actor_display_name} hat alle Empfänger entfernt und die Diskussion öffentlich gemacht: {discussion_title}.\n\nHier ansehen:\n{discussion_url}\n\nMöglicherweise musst du dich zuerst anmelden, bevor du auf diesen Link zugreifen kannst.\n"
