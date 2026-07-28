@@ -5,6 +5,8 @@
 linkrobins-markdown-widget:
   admin:
     settings:
+      background_help: 'Optional. Die Hintergrundfarbe des Widgets. Lasse das Feld leer, um die Farbe deines Designs zu übernehmen.'
+      background_label: Hintergrundfarbe
       body_help: 'Standard-Markdown (GitHub-Variante). Überschriften, Listen, Links, Code und Tabellen werden unterstützt. Inline-HTML ist zulässig, wird jedoch bereinigt – Skript-Tags, Ereignisbehandler und andere unsichere Markups werden vor der Anzeige entfernt.'
       body_label: Markdown-Body
       icon_help: 'Die FontAwesome-Klasse, die neben dem Titel angezeigt wird (z. B. fas fa-bullhorn). Für kein Symbol bitte leer lassen.'

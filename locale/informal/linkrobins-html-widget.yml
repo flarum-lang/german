@@ -5,6 +5,7 @@
 linkrobins-html-widget:
   admin:
     settings:
+      background_help: 'Optional. Die Hintergrundfarbe des Widgets. Lasse das Feld leer, um die Farbe deines Designs zu übernehmen.'
       background_label: Hintergrundfarbe
       body_help: 'Roh-HTML, das vor der Anzeige bereinigt wird – Skript-Tags, Attribute für Ereignisbehandler, „javascript:“-URLs und unsichere Elemente wie iFrames werden entfernt.'
       body_label: HTML-Body

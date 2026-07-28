@@ -105,8 +105,10 @@ fof-byobu:
   lib:
     gambits:
       allows-pd:
+        hint: ja
         key: pd-erlaubt
       byobu:
+        hint: 'Benutzername oder Anzeigename eines Empfängers'
         key: byobu
       private:
         key: privat

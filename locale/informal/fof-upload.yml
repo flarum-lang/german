@@ -150,6 +150,7 @@ fof-upload:
       qiniu: QiNiu
     warnings:
       fileinfo_missing: "Die PHP-Erweiterung <strong>fileinfo</strong> ist auf diesem Server nicht geladen. FoF Upload funktioniert weiterhin, aber die MIME-Typ-Kreuzvalidierung ist deaktiviert, wodurch der Schutz vor gefälschten Dateitypen verringert wird. Aktiviere die Erweiterung in deiner PHP-Konfiguration, um optimale Sicherheit zu gewährleisten.\n"
+      max_file_size_exceeds_php: 'Dies überschreitet das effektive Upload-Limit deines Servers von <strong>{limit}</strong> (<code>post_max_size={post}</code>, <code>upload_max_filesize={upload}</code>). Uploads, die dieses Limit überschreiten, werden von PHP unabhängig von dieser Einstellung abgelehnt. Senke diesen Wert oder erhöhe die Grenzwerte in deiner <code>php.ini</code> (sowie <code>client_max_body_size</code>, falls du Nginx verwendest).'
   api:
     upload_errors:
       cannot_write_to_disk: 'Kann nicht auf die Festplatte schreiben.'

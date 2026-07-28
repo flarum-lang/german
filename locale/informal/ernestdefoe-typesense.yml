@@ -25,3 +25,5 @@ ernestdefoe-typesense:
     use_for_discussions: Diskussionssuche
     use_for_posts: Beitragssuche
     use_for_users: Benutzersuche
+  forum:
+    powered_by: 'Unterstützt von Typesense'
