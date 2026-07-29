@@ -6,6 +6,7 @@ linkrobins-birdseye:
   admin:
     settings:
       license_key_label: Lizenzschlüssel
+      weekly_digest_label: 'Wöchentliche E-Mail-Zusammenfassung'
   email:
     digest:
       heading: '{forum} — Woche vom {start} bis {end}'
@@ -13,6 +14,8 @@ linkrobins-birdseye:
       posts_line: 'Beiträge: {count} ({change})'
       registrations_line: 'Registrierungen: {count} ({change})'
       subject: '{forum} letzte Woche: {visitors} Besucher'
+      top_discussion_line: 'Beliebteste Diskussion: „{title}“ ({views} Aufrufe)'
+      top_search_line: 'Beliebtester Suchbegriff: „{query}“ ({count} Suchen)'
       visitors_line: 'Besucher: {count} ({change})'
   lib:
     dashboard:
