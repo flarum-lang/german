@@ -13,8 +13,10 @@ CHANGELOG
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
 * [`ernestdefoe/importer`](https://github.com/ernestdefoe/importer)
+* [`ernestdefoe/janitor`](https://github.com/ernestdefoe/janitor)
 * [`ernestdefoe/typesense`](https://github.com/ernestdefoe/typesense)
 * [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+* [`linkrobins/badge-labels`](https://github.com/linkrobins/flarum-badge-labels)
 * [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye)
 * [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki)
 * [`u0-ani-nya/ani-nya_i18n`](https://github.com/u0-ani-nya/ani-nya_i18n)
