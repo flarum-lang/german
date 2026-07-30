@@ -4,11 +4,22 @@
 
 linkrobins-birdseye:
   admin:
+    permissions:
+      view_stats_label: 'Forum-Statistiken anzeigen'
     settings:
+      collect_help: 'Die Erfassung vorübergehend anhalten, ohne die Erweiterung zu deaktivieren. Bereits vorhandene Statistiken werden weiterhin angezeigt.'
+      collect_label: 'Analysedaten erfassen'
+      country_header_help: 'Der Proxy-Header, der den zweistelligen Ländercode jedes Besuchers enthält – „CF-IPCountry“ bei Cloudflare oder z. B. „X-Country“ von nginx-geoip. Er wird unverändert als vertrauenswürdig angesehen. Gib daher nur einen Header an, den dein Proxy tatsächlich setzt; lasse das Feld leer, wenn du keinen solchen Proxy hast und stattdessen auf das anonymisierte IP-Präfix zurückgreifst.'
+      country_header_label: 'Header für „Vertrauenswürdiges Land“'
+      geo_ip_prefix_help: 'Wenn kein Proxy-Länder-Header vorhanden ist, wird ein gekürztes IP-Präfix (niemals die vollständige Adresse) im 72-Stunden-Puffer gespeichert, damit der Prozessor die Herkunftsländer der Besucher ermitteln kann. Deaktiviere diese Option, um Länderstatistiken für nicht über einen Proxy geleiteten Datenverkehr zu überspringen.'
+      geo_ip_prefix_label: 'Ländersuche über anonymisiertes IP-Präfix'
+      license_key_help: 'Von deinem Birdseye-Abonnement auf linkrobins.com. Ohne Schlüssel erfasst die Erweiterung lediglich grundlegende Tageswerte, und zwar ausschließlich lokal. Durch das Speichern eines Schlüssels wird sofort eine Verbindung zu Birdseye hergestellt, sodass dein Dashboard das Forum innerhalb von Sekunden als verbunden anzeigt.'
       license_key_label: Lizenzschlüssel
+      weekly_digest_help: 'Jeden Montag wird den Administratoren per E-Mail eine Zusammenfassung der vergangenen Woche zugesandt – Besucherzahlen, Seitenaufrufe, Beiträge, Neuanmeldungen, beliebteste Diskussionen und beliebteste Suchbegriffe. Der Versand erfolgt über den eigenen Mailer deines Forums; es verlassen keine Daten den Server.'
       weekly_digest_label: 'Wöchentliche E-Mail-Zusammenfassung'
   email:
     digest:
+      footer: '— Link Robins Birdseye. Du kannst diesen Überblick jederzeit unter „Admin → Birdseye“ deaktivieren.'
       heading: '{forum} — Woche vom {start} bis {end}'
       pageviews_line: 'Seitenaufrufe: {count} ({change})'
       posts_line: 'Beiträge: {count} ({change})'
@@ -17,13 +28,16 @@ linkrobins-birdseye:
       top_discussion_line: 'Beliebteste Diskussion: „{title}“ ({views} Aufrufe)'
       top_search_line: 'Beliebtester Suchbegriff: „{query}“ ({count} Suchen)'
       visitors_line: 'Besucher: {count} ({change})'
+  forum:
+    session_menu:
+      analytics_button: Analytik
   lib:
     dashboard:
       avg_visit: 'Durchschn. Besuche'
       bounce_rate: Absprungrate
       col_label: Beschriftung
       col_members: 'Neue Mitglieder'
-      col_searches: Suchen
+      col_searches: Suchbegriffe
       col_section: Abschnitt
       col_value: Wert
       col_views: Aufrufe
@@ -42,16 +56,19 @@ linkrobins-birdseye:
       posts: Beiträge
       range_30d: '30 Tage'
       range_7d: '7 Tage'
-      searches: Suchen
-      searches_word: Suchen
+      searches: Suchbegriffe
+      searches_word: Suchbegriffe
       signups: Registrierungen
       sources: Quellen
       tags: Top-Tags
+      title: Analytik
       today: 'Bis jetzt heute'
       today_note: 'live - wird am Ende des Tages endgültig'
       top_discussions: 'Beliebteste Diskussionen'
       top_pages: 'Beliebteste Seiten'
       totals: Insgesamt
+      unanswered: 'benötigt eine Antwort'
+      unanswered_note: 'diese Woche aufgerufen, keine Antworten'
       unknown: Unbekannt
       view_bars: Balken
       view_pie: Kreis
