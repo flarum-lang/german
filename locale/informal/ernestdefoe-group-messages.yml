@@ -4,5 +4,9 @@
 
 ernestdefoe-group-messages:
   forum:
+    compose:
+      group_button: 'Neue Gruppennachricht'
+      group_title: 'Neue Gruppennachricht'
+      name_label: Gruppenname
     manage:
       save_button: Speichern

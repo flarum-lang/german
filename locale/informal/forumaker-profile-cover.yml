@@ -7,12 +7,14 @@ forumaker-profile-cover:
     delete_error: 'Miniaturansichten konnten nicht gelöscht werden'
     delete_success: 'Alle Miniaturansichten gelöscht'
     delete_thumbnails: 'Miniaturansichten löschen'
+    delete_thumbnails_confirm: 'Alle Miniaturansichten löschen?'
     max_size: 'Maximale Größe des Profiltitelbilds (in KB)'
     permission:
       set_cover: 'Profiltitelbild festlegen'
     recreate_error: 'Miniaturansichten konnten nicht neu erstellt werden'
     recreate_success: 'Miniaturansichten erfolgreich neu erstellst'
     recreate_thumbnails: 'Miniaturansichten neu erstellen'
+    recreate_thumbnails_confirm: 'Alle Miniaturansichten neu erstellen?'
     sections:
       general: Allgemein
       thumbnails: Miniaturansichten

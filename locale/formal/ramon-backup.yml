@@ -116,10 +116,12 @@ ramon-backup:
       confirm_title: 'Vorhandene Daten ersetzen'
       done_body: 'Alle ausgewählten Dateien wurden wiederhergestellt. Die Datenbank wurde nicht verändert, sodass deine aktuelle Sitzung unverändert bleibt.'
       done_title: 'Wiederherstellung abgeschlossen'
-      extensions_composer_note: 'Die Dateien „composer.json“ und „composer.lock“ sind im Paket enthalten und überschreiben das Projektverzeichnis am Zielort. Führe nach der Wiederherstellung den Befehl `composer install` aus, um die Vendor-Erweiterungen zu aktivieren.'
+      extensions_composer_note: 'Die Datei „composer.json“ wird mit der dieses Servers zusammengeführt, jedoch niemals überschrieben – nichts, was hier installiert ist, wird entfernt. Die Datei „composer.lock“ wird NICHT übernommen, da eine Lock-Datei von einem anderen Server Pakete entfernt, die nur hier vorhanden sind. Führe nach der Wiederherstellung den Befehl `composer install` aus, um die Vendor-Erweiterungen zu aktivieren.'
       extensions_tag_unknown: unbekannt
       extensions_tag_vendor: vendor
       extensions_tag_workbench: workbench
+      incomplete_body: 'Die Wiederherstellung wurde vollständig durchgeführt, jedoch wurden nicht alle ausgewählten Elemente geschrieben. Bitte überprüfe die folgenden Details, bevor du diese Migration als abgeschlossen betrachtest.'
+      incomplete_title: 'Wiederherstellung unvollständig abgeschlossen'
       inspect_title: Archivdetails
       inspecting_archive: 'Archiv wird geprüft…'
       key_help: 'Dieses Archiv ist verschlüsselt. Füge den passenden privaten Base64-Schlüssel ein – er bleibt in dieser Browsersitzung gespeichert und wird EINMALIG zur Wiederherstellung an den Server gesendet.'
@@ -141,17 +143,24 @@ ramon-backup:
       phase_extract: 'Wird extrahiert…'
       phase_finalize: 'Wird fertiggestellt…'
       phase_inspect: 'Archiv wird geprüft…'
+      phase_reconcile: 'Projektdateien abgleichen…'
       phase_restore: 'Datenbank wird wiederhergestellt…'
       phase_rewrite: 'URLs werden umgeschrieben…'
+      phase_verify: 'Überprüfung, dass das Forum immer noch läuft…'
       reload_button: 'Seite neu laden'
       reload_required: 'Die Forumdaten wurden aktualisiert. Lade die Seite neu, um mit einer neuen Sitzung fortzufahren – möglicherweise wurde auch deine vorherige Anmeldung zurückgesetzt.'
+      root_extend_warning: 'Die Root-Datei „extend.php“ wird geladen, bevor der Fehlerbehandler von Flarum verfügbar ist – eine Klasse, auf die darin verwiesen wird und die hier nicht installiert ist, führt dazu, dass das Forum mit einem leeren HTTP-500-Fehler ausfällt. Die aktuelle Datei wird zunächst in eine .bak-*-Datei kopiert, und die Wiederherstellung prüft nach Abschluss des Vorgangs, ob nicht auflösbare Klassen vorhanden sind.'
       section_assets: Assets
       section_count: '{count} Dateien'
       section_db: Datenbank
       section_extensions: Erweiterungen
+      section_preserve_settings: 'Behalte die E-Mail-, Warteschlangen- und Integrationseinstellungen dieses Servers'
+      section_root_extend: 'Ersetze die Datei „extend.php“ im Stammverzeichnis durch die aus der Sicherung'
       section_storage: Speicher
       selection_help: 'Wähle aus, welche Abschnitte dieser Sicherung übernommen werden sollen. Alles, was du abwählst, wird bei der Wiederherstellung übersprungen – die entsprechenden Dateien bzw. Datenbankänderungen werden einfach nicht übernommen.'
       selection_title: 'Was soll wiederhergestellt werden'
+      server_state_help: 'In der Sicherung werden einige Einstellungen für DIESEN Server und nicht für das Forum gespeichert – SMTP-Anmeldedaten, Warteschlangentreiber, Integrationstoken und die Root-Datei „extend.php“. Diese Optionen legen fest, was bei der Wiederherstellung erhalten bleibt.'
+      server_state_title: 'Die eigene Konfiguration dieses Servers'
       start_button: Wiederherstellen
       start_failed: 'Wiederherstellung konnte nicht gestartet werden.'
       title: 'Sicherung importieren'

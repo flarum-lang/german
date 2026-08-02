@@ -8,6 +8,11 @@ linkrobins-shoutbox:
       moderate: 'Shouts anderer Benutzer löschen'
       shout: 'Shouts veröffentlichen'
     settings:
+      composer_position_auto: 'Neben der neuesten Nachricht (Standard)'
+      composer_position_bottom: 'Immer unten'
+      composer_position_help: 'Wo das Eingabefeld für die Benutzer angezeigt wird. Standardmäßig richtet es sich nach der Reihenfolge der Nachrichten, sodass es immer neben der neuesten Nachricht erscheint.'
+      composer_position_label: 'Position des Eingabefelds'
+      composer_position_top: 'Immer oben'
       cooldown_help: 'Mindestzeit in Sekunden, die ein Benutzer zwischen zwei Shouts warten muss. Der Standardwert beträgt 3.'
       cooldown_label: 'Abklingzeit (Sekunden)'
       display_mode_both: 'Seite und Widget'
@@ -19,6 +24,12 @@ linkrobins-shoutbox:
       height_label: 'Höhe der Nachrichten (px)'
       max_rows_help: 'Ältere Shouts, die über diese Anzahl hinausgehen, werden entfernt. Der Standardwert beträgt 500.'
       max_rows_label: 'Maximale Anzahl gespeicherter Shouts'
+      order_help: 'Wo neue Nachrichten angezeigt werden. Standardmäßig richtet sich das Eingabefeld nach der Reihenfolge und wird neben der neuesten Nachricht angezeigt. Dies kannst du weiter unten ändern.'
+      order_label: Nachrichtenreihenfolge
+      order_newest_first: 'Neueste zuerst (neueste oben)'
+      order_oldest_first: 'Älteste zuerst (neueste unten)'
+      poll_interval_help: 'Wie oft eine geöffnete Shoutbox nach neuen Nachrichten sucht. Höhere Werte verringern die Belastung in einem stark frequentierten Forum. Zwischen 10 und 300, der Standardwert ist 30.'
+      poll_interval_label: 'Aktualisierungsintervall (Sekunden)'
   api:
     empty_content: 'Du musst eine Nachricht eingeben.'
     rate_limited: 'Du schreibst zu schnell. Bitte warte einen Moment.'
