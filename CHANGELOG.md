@@ -26,6 +26,7 @@ CHANGELOG
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
 * [`datlechin/flarum-mermaid`](https://github.com/datlechin/flarum-mermaid)
+* [`ernestdefoe/group-messages`](https://github.com/ernestdefoe/group-messages)
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
@@ -33,6 +34,7 @@ CHANGELOG
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`forumaker/profile-cover`](https://github.com/forumaker/Profile-Cover)
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
 * [`justoverclock/related-discussions`](https://flarum.org/extension/justoverclock/related-discussions)
 * [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox)
@@ -40,6 +42,7 @@ CHANGELOG
 * [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget)
 * [`linkrobins/markdown-widget`](https://github.com/linkrobins/markdown-widget)
 * [`linkrobins/referral`](https://github.com/linkrobins/referral)
+* [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
 * [`ramon/backup`](https://github.com/ram0ng1/backup)
 * [`tryhackx/flarum-advanced-pages`](https://github.com/TryHackX/flarum-advanced-pages)
 * [`flarum/flags`](https://github.com/flarum/flags)
