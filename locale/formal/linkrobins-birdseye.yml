@@ -47,6 +47,8 @@ linkrobins-birdseye:
       direct: 'Direkt / unbekannt'
       export: 'Als CSV exportieren'
       export_all: 'CSV exportieren'
+      map_collapse: 'Vollbild verlassen'
+      map_expand: Vollbild
       members_word: Mitglieder
       new_members: 'Neue Mitglieder'
       no_data: 'Noch keine Daten.'
@@ -77,3 +79,5 @@ linkrobins-birdseye:
       visitors_per_day: 'Besucher pro Tag'
       visitors_word: Besucher
       world: Welt
+      zoom_in: Vergrößern
+      zoom_out: Verkleinern
