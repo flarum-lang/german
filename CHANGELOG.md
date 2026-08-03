@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.25.24 (XXXX-XX-XX)
+1.25.24 (2026-08-03)
 --------------------
 
 **Unterstützung für neue Erweiterungen hinzugefügt**:
