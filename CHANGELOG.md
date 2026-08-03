@@ -8,6 +8,7 @@ CHANGELOG
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`fof/split`](https://github.com/FriendsOfFlarum/split)
+* [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest)
 * [`linkrobins/badge-labels`](https://github.com/linkrobins/flarum-badge-labels)
 * [`ramon/chat`](https://github.com/ram0ng1/chat)
 
