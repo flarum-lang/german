@@ -123,15 +123,21 @@ ramon-chat:
       editing: 'Nachricht wird bearbeitet'
       emoji: Emoji
       insert_date: 'Datum einfügen'
+      mention_all: 'Jedes Mitglied benachrichtigen'
+      mention_here: 'Jeden sonst benachrichtigen'
       placeholder: 'Nachricht an {channel}'
       placeholder_closed: 'Dieser Kanal ist geschlossen'
       placeholder_thread: 'Im Thread antworten'
       send: Senden
+      send_ctrl_enter: 'Senden (Strg+Eingabetaste)'
+      send_enter: 'Senden (Eingabetaste)'
       send_failed: 'Deine Nachricht konnte nicht gesendet werden.'
+      slow_mode_wait: 'Der Langsam-Modus ist aktiviert. In {duration} kannst du wieder schreiben.'
       sticker: 'Einen Sticker einfügen'
       sticker_none: 'Keine Sticker gefunden.'
       sticker_search: 'Sticker durchsuchen'
       too_large: 'Diese Datei ist zu groß.'
+      too_long_body: 'Kürze deine Nachricht um {over} Zeichen. Dieser Kanal akzeptiert bis zu {max}.'
       too_long_dismiss: Ok
       too_long_title: 'Deine Nachricht ist zu lang.'
       upload_failed: 'Hochladen fehlgeschlagen.'
@@ -172,6 +178,7 @@ ramon-chat:
       submit: 'Bericht senden'
       title: 'Nachricht melden'
     flags:
+      action_failed: 'Diese Aktion konnte nicht abgeschlossen werden.'
       delete_message: 'Nachricht löschen'
       dismiss: Verwerfen
       empty: 'Nichts wurde gemeldet.'
@@ -182,6 +189,8 @@ ramon-chat:
       load_failed: 'Berichte konnten nicht geladen werden.'
       message_deleted: 'Diese Nachricht wurde gelöscht.'
       message_gone: 'Die gemeldete Nachricht existiert nicht mehr.'
+      resolved_by: 'Bearbeitet von {moderator}'
+      show_resolved: 'Bearbeitete einbeziehen'
       title: 'Gemeldete Nachrichten'
     info:
       archive_channel: 'Kanal archivieren'
@@ -288,11 +297,16 @@ ramon-chat:
       unknown_editor: Unbekannt
     search:
       in_channel: 'in {channel}'
+      placeholder: 'Alle Kanäle durchsuchen'
+      title: 'Chat durchsuchen'
     selection:
       cancel: Abbrechen
       copied: 'In die Zwischenablage kopiert.'
+      copy_failed: 'Dein Browser erlaubt nicht das Kopieren.'
+      failed: 'Diese Aktion konnte nicht abgeschlossen werden.'
       move_to: 'Verschieben zu…'
       moved: '{count} Nachrichten verschoben.'
+      omitted: '{count} Nachrichten wurden ausgelassen, da du diese nicht lesen kannst.'
     sidebar:
       back_to_channels: 'Zurück zu Kanälen'
       bookmarks: Lesezeichen
@@ -305,12 +319,16 @@ ramon-chat:
       no_channels: 'Du bist noch keinem Kanal beigetreten.'
       search: Suche
     stream:
+      jump_to_latest: 'Zur neuesten springen'
       new_messages: 'Neue Nachrichten'
       today: Heute
       yesterday: Gestern
     thread:
+      close: 'Thread-Panel schließen'
+      no_replies: 'Noch keine Antworten. Sei der Erste.'
       no_threads: 'Du folgst keinen Threads.'
       replies: '{count} Antworten'
+      set_title: 'Threadtitel festlegen'
       title: Thread
       tracking: Benachrichtigungen
       tracking_mentions: 'Nur Erwähnungen'

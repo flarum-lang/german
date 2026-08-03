@@ -5,10 +5,10 @@
 huseyinfiliz-stickiest:
   admin:
     permissions:
-      stickiest_label: 'Besonders wichtige Diskussionen anpinnen'
+      stickiest_label: 'Besonders wichtige Diskussionen anheften'
       super_sticky_discussions_label: 'Besonders wichtige Diskussionen'
       tag_sticky_discussions_label: 'Thema sticky Diskussionen'
-      tag_sticky_label: 'Diskussionen anpinnen'
+      tag_sticky_label: 'Diskussionen anheften'
     settings:
       badge_icon_label: 'Super sticky Symbol'
       badge_icon_text: '=> core.ref.icon_text'
@@ -28,7 +28,7 @@ huseyinfiliz-stickiest:
       super_tag_sticky_tooltip: '=> huseyinfiliz-stickiest.ref.super_tag_sticky'
       tag_sticky_tooltip: 'Angepinnt markieren'
     discussion_controls:
-      sticky_button: Anpinnen
+      sticky_button: Anheften
     post_stream:
       discussion_common_stickied_text: '{username} hat die Diskussion nocht mehr als besonders sticky markiert.'
       discussion_stickied_text: '=> flarum-sticky.forum.post_stream.discussion_stickied_text'
@@ -50,7 +50,7 @@ huseyinfiliz-stickiest:
       select_tags: 'Tags auswählen'
       stickiest_help: 'Immer und überall ganz oben angepinnt.'
       stickiest_label: 'Besonders wichtig'
-      sticky_help: 'In „Alle Diskussionen“ oben anpinnen, wenn ungelesen. In der Tag-Ansicht immer angepinnt.'
+      sticky_help: 'In „Alle Diskussionen“ oben anheften, wenn ungelesen. In der Tag-Ansicht immer angeheftet.'
       sticky_label: Angepinnt
       submit_button: 'Änderungen speichern'
       tag_sticky_help: 'Nur angepinnt bei der Anzeige ausgewählter Tags.'
