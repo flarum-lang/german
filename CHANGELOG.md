@@ -19,6 +19,7 @@ CHANGELOG
 * [`linkrobins/badge-labels`](https://github.com/linkrobins/flarum-badge-labels)
 * [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye)
 * [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki)
+* [`ramon/chat`](https://github.com/ram0ng1/chat)
 * [`u0-ani-nya/ani-nya_i18n`](https://github.com/u0-ani-nya/ani-nya_i18n)
 
 
