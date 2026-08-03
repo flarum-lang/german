@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-2.0.11 (XXXX-XX-XX)
+2.0.11 (2026-08-03)
 -------------------
 
 **Allgemeine Änderungen**:
