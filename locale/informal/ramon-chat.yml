@@ -7,6 +7,15 @@ ramon-chat:
     bot:
       remove_upload: 'Bild entfernen'
       upload: 'Bild hochladen'
+    settings:
+      allow_archiving_channels: 'Kanalarchivierung erlauben'
+      behaviour_title: Verhalten
+      bot_name_label: Botname
+      icon_help: 'Eine Font Awesome-Klasse, z. B. fas fa-comments.'
+      icon_label: Chatsymbol
+      show_icon_label: 'Chatsymbol anzeigen'
+      sound: Benachrichtigungston
+      title_label: Chatname
     webhooks:
       active: Aktiv
       create: 'Webhook erstellen'
@@ -47,17 +56,30 @@ ramon-chat:
     upload_too_large: 'Diese Datei ist zu groß.'
     upload_unsupported: 'Nicht unterstützter Dateityp: {type}'
     uploads_disabled: 'Das Hochladen von Dateien ist im Chat deaktiviert.'
+    webhook_channel_unavailable: 'Der Kanal dieses Webhooks ist geschlossen oder nicht verfügbar.'
+    webhook_empty: 'Die Webhook-Nutzlast enthielt keinen Text.'
   email:
     mentioned:
+      direct_channel: 'eine Direktnachricht'
       html:
         action: 'Den Kanal öffnen'
+        intro: '<strong>{author}</strong> hat dich in <strong>{channel}</strong> erwähnt.'
+      plain:
+        body: "{author} hat dich in {channel} erwähnt:\n\n{content}\n\nAntworten: {url}\n"
       subject: 'Du wurdest in {channel} erwähnt'
       unknown_author: Jemand
   forum:
     add_members:
+      added: '{count} wurden dem Kanal hinzugefügt.'
+      deselect: '{username} aus der Auswahl entfernen'
       submit: Hinzufügen
       submit_count: '{count} hinzufügen'
       title: 'Mitglieder hinzufügen'
+    bookmarks:
+      empty: 'Du hast noch keine Nachrichten gespeichert.'
+      no_text: '(nur Anhänge)'
+      remove: 'Lesezeichen entfernen'
+      remove_failed: 'Das Lesezeichen konnte nicht entfernt werden.'
     browse:
       filter_all: Alle
       filter_archived: Archiviert
@@ -72,25 +94,48 @@ ramon-chat:
       subtitle: 'Such dir einen Kanal aus, dem du beitreten möchtest, oder gründe einen eigenen.'
       title: 'Kanäle durchsuchen'
     channel:
+      archived: 'Dieser Kanal wurde archiviert.'
+      archived_link: 'Die archivierte Mitschrift anzeigen'
+      close_pinned: 'Angeheftete Nachrichten schließen'
       closed: 'Dieser Kanal ist geschlossen. Es können keine neuen Nachrichten gesendet werden.'
       edit: 'Kanal bearbeiten'
       join: 'Kanal beitreten'
+      join_failed: 'Du konntest dem Kanal nicht beitreten.'
+      join_hidden: 'Beitreten, ohne gesehen zu werden'
       join_to_post: 'Tritt diesem Kanal bei, um Nachrichten zu senden.'
+      joined_hidden: 'Du bist beigetreten, ohne in der Mitgliederliste aufgeführt zu werden.'
       leave: 'Kanal verlassen'
+      leave_confirm: 'Diesen Kanal verlassen? Du kannst später wieder beitreten, und dein Verlauf bleibt erhalten.'
+      leave_failed: 'Der Kanal konnte nicht verlassen werden.'
       members: '{count} Mitglieder'
+      moderators_only: 'Nur Moderatoren dürfen in diesem Kanal Beiträge verfassen.'
+      muted: Stummgeschaltet
+      no_messages: 'Noch keine Nachrichten. Schreib etwas.'
+      no_pinned_messages: 'Dieser Kanal hat keine angehefteten Nachrichten.'
       pinned_messages: 'Angeheftete Nachrichten'
       scroll_to_latest: 'Zur neuesten Nachricht springen'
       search_in_channel: 'In diesem Kanal suchen'
       threading_enabled: 'Threads aktiviert'
       view_info: Kanaldetails
     composer:
+      attach: 'Eine Datei anhängen'
       cancel_edit: Abbrechen
+      editing: 'Nachricht wird bearbeitet'
       emoji: Emoji
       insert_date: 'Datum einfügen'
-      placeholder: 'Nachricht {channel}'
+      placeholder: 'Nachricht an {channel}'
+      placeholder_closed: 'Dieser Kanal ist geschlossen'
+      placeholder_thread: 'Im Thread antworten'
       send: Senden
+      send_failed: 'Deine Nachricht konnte nicht gesendet werden.'
+      sticker: 'Einen Sticker einfügen'
+      sticker_none: 'Keine Sticker gefunden.'
+      sticker_search: 'Sticker durchsuchen'
+      too_large: 'Diese Datei ist zu groß.'
       too_long_dismiss: Ok
       too_long_title: 'Deine Nachricht ist zu lang.'
+      upload_failed: 'Hochladen fehlgeschlagen.'
+      uploading: 'Wird hochgeladen…'
     drawer:
       close: 'Chat schließen'
       collapse: Zuklappen
@@ -104,9 +149,18 @@ ramon-chat:
     edit_channel:
       submit: 'Änderungen speichern'
       title: Kanaleinstellungen
+    emoji_picker:
+      clear: 'Emoji entfernen'
+      empty: 'Kein Emoji gefunden.'
+      placeholder: 'Emoji suchen'
     error:
+      render: 'Im Chat konnte etwas nicht dargestellt werden.'
       retry: 'Erneut versuchen'
     flag:
+      detail: 'Gibt es noch etwas, das die Moderatoren wissen sollten (optional)?'
+      detail_placeholder: 'Nur Moderatoren werden das sehen.'
+      detail_required: 'Teile den Moderatoren mit, was nicht stimmt'
+      failed: 'Bericht konnte nicht gesendet werden.'
       reason: 'Warum willst du diese Nachricht melden?'
       reasons:
         harassment: Belästigung
@@ -114,10 +168,19 @@ ramon-chat:
         off_topic: 'Off topic'
         other: 'Etwas anderes'
         spam: Spam
+      sent: 'Meldung eingereicht. Ein Moderator wird es sich ansehen.'
       submit: 'Bericht senden'
       title: 'Nachricht melden'
     flags:
       delete_message: 'Nachricht löschen'
+      dismiss: Verwerfen
+      empty: 'Nichts wurde gemeldet.'
+      empty_all: 'Noch keine Berichte.'
+      flarum_item: '{username} wurde gemeldet in {em}{channel}{/em} wegen {reason}'
+      forbidden: 'Du hast keine Berechtigung, gemeldete Nachrichten einzusehen.'
+      go_to: 'Zur Nachricht gehen'
+      load_failed: 'Berichte konnten nicht geladen werden.'
+      message_deleted: 'Diese Nachricht wurde gelöscht.'
       message_gone: 'Die gemeldete Nachricht existiert nicht mehr.'
       title: 'Gemeldete Nachrichten'
     info:
@@ -125,6 +188,7 @@ ramon-chat:
       category: Kategorie
       close_channel: 'Kanal schließen'
       delete_channel: 'Kanal löschen'
+      delete_confirm: 'Das Löschen eines Kanals kann nicht rückgängig gemacht werden. Möchtest du ihn trotzdem löschen?'
       description: Beschreibung
       level_always: 'Jede Nachricht'
       level_always_help: 'Jede Nachricht hier löst eine Benachrichtigung aus.'
@@ -132,13 +196,21 @@ ramon-chat:
       level_mentions_help: 'Nur Nachrichten, in denen du namentlich erwähnt wirst oder in denen „@channel“ oder „@here“ verwendet werden, lösen eine Benachrichtigung aus.'
       level_never: Nichts
       level_never_help: 'Dieser Kanal sendet keine Benachrichtigungen. Ungelesene Nachrichten werden weiterhin in der Seitenleiste angezeigt.'
+      member_removed: '{username} wurde aus dem Kanal entfernt.'
+      member_search: 'Mitglieder filtern'
       mute: 'Diesen Kanal stummschalten'
       notification_level: 'Benachrichtige mich über'
       notifications: Benachrichtigungen
+      remove_member: '{username} entfernen'
       reopen_channel: 'Kanal wieder öffnen'
       tab_members: Mitglieder
       tab_settings: Einstellungen
       threading: 'Threads aktivieren'
+    lightbox:
+      close: Schließen
+      next: 'Nächstes Bild'
+      open_original: 'Original öffnen'
+      previous: 'Vorheriges Bild'
     message:
       bookmark: Lesezeichen
       copy_link: 'Link kopieren'
@@ -147,6 +219,7 @@ ramon-chat:
       delete_confirm: 'Diese Nachricht löschen?'
       delete_failed: 'Diese Nachricht konnte nicht gelöscht werden.'
       deleted: 'Diese Nachricht wurde gelöscht.'
+      deleted_by_moderator: 'Diese Nachricht wurde von einem Moderator entfernt.'
       deleted_by_named: 'Diese Nachricht wurde von {username} entfernt.'
       edit: Bearbeiten
       edited: bearbeitet
@@ -154,10 +227,14 @@ ramon-chat:
       flag: 'Nachricht melden'
       flagged: 'Du hast diese Nachricht gemeldet'
       like: Like
+      move: 'In Kanal verschieben'
       pin: 'Nachricht anheften'
+      pin_failed: 'Anheftung konnte nicht gewechselt werden.'
       pinned: Angeheftet
       purge: 'Dauerhaft löschen'
+      purge_confirm: 'Diese Nachricht und ihren Tombstone endgültig löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.'
       purge_failed: 'Diese Nachricht konnte nicht entfernt werden.'
+      quote_in_discussion: 'In Diskussion zitieren'
       react: Reagieren
       remove_bookmark: 'Lesezeichen entfernen'
       reply: Antworten
@@ -165,11 +242,13 @@ ramon-chat:
       replying_to: 'Antwort an {username}'
       restore: Wiederherstellen
       select: Auswählen
+      starting_thread: 'Einen Thread zu {username}s Nachricht starten'
       system:
         channel_archived: 'Dieser Kanal wurde archiviert.'
         channel_closed: 'Dieser Kanal wurde geschlossen.'
         channel_reopened: 'Dieser Kanal wurde wieder geöffnet.'
         discussion_started: '{username} hat eine Diskussion begonnen: {title}'
+        user_added: '{username} wurde von {actor} hinzugefügt.'
         user_joined: '{username} ist dem Kanal beigetreten.'
         user_left: '{username} hat den Kanal verlassen.'
       unlike: 'Like entfernen'
@@ -190,6 +269,7 @@ ramon-chat:
       icon_kind_to_image: 'Stattdessen ein Bild verwenden'
       image: Bild
       image_failed: 'Das Bild konnte nicht hochgeladen werden.'
+      image_failed_after_create: 'Der Kanal wurde erstellt, das Bild konnte jedoch nicht hochgeladen werden. Füge es über die Einstellungen des Kanals hinzu.'
       image_remove: 'Bild entfernen'
       image_upload: 'Bild hochladen'
       message_length: Nachrichtenlänge
@@ -204,8 +284,15 @@ ramon-chat:
       slow_mode: Langsam-Modus
       slow_mode_off: Aus
       submit: 'Kanal erstellen'
+    revisions:
+      unknown_editor: Unbekannt
+    search:
+      in_channel: 'in {channel}'
     selection:
       cancel: Abbrechen
+      copied: 'In die Zwischenablage kopiert.'
+      move_to: 'Verschieben zu…'
+      moved: '{count} Nachrichten verschoben.'
     sidebar:
       back_to_channels: 'Zurück zu Kanälen'
       bookmarks: Lesezeichen
@@ -221,8 +308,25 @@ ramon-chat:
       new_messages: 'Neue Nachrichten'
       today: Heute
       yesterday: Gestern
+    thread:
+      no_threads: 'Du folgst keinen Threads.'
+      replies: '{count} Antworten'
+      title: Thread
+      tracking: Benachrichtigungen
+      tracking_mentions: 'Nur Erwähnungen'
+      tracking_never: Stummgeschaltet
+      untitled: 'Thread ohne Titel'
+    typing:
+      one: '{username} schreibt gerade…'
+      several: '{count} Benutzer schreiben gerade…'
     user_controls:
       start_chat: 'Nachricht senden'
+  lib:
+    gdpr:
+      anonymize_description: 'Deine Chat-Nachrichten bleiben erhalten, sodass die Unterhaltungen weiterhin lesbar sind, werden jedoch nicht mehr dir zugeordnet. Anhänge, Reaktionen, Entwürfe und Kanalmitgliedschaften werden gelöscht.'
+      delete_description: 'Deine Chat-Nachrichten und Anhänge werden gelöscht, ebenso wie deine Reaktionen, Entwürfe und Kanalmitgliedschaften.'
+      export_description: 'Deine Chat-Nachrichten, die Details zu deren Anhängen und die Kanäle, denen du angehörst.'
   notifications:
     chat_channel_invite: '{username} hat dich zu {channel} hinzugefügt'
     chat_mention: '{username} hat dich in {channel} erwähnt'
+    chat_message: '{username} hat in {channel} eine Nachricht gesendet'

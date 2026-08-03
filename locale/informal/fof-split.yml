@@ -11,7 +11,7 @@ flarum-audit:
 fof-split:
   admin:
     permissions:
-      split_discussion_label: 'Teile Beiträge von Diskussionen auf'
+      split_discussion_label: 'Beiträge von Diskussionen aufteilen'
   forum:
     modal:
       new_discussion_label: 'Lege den Titel für die neue Diskussion fest'

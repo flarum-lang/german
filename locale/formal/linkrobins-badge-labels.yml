@@ -5,9 +5,12 @@
 linkrobins-badge-labels:
   admin:
     settings:
+      arrangement_centered: 'Eines pro Zeile, zentriert'
+      arrangement_label: 'Anordnung der Abzeichen'
+      arrangement_rows: 'Eines pro Zeile'
       column_width_help: 'Wie viel Platz die Abzeichen und Titel neben dem Beitrag einnehmen. Wird nur verwendet, wenn die Abzeichen unterhalb des Avatars angezeigt werden. Zwischen 85 und 400.'
       column_width_label: 'Breite der Autorenspalte (Pixel)'
-      labels_help: 'Zeige den Namen jedes Abzeichens neben dem entsprechenden Symbol an, anstatt nur das Symbol allein anzuzeigen.'
+      labels_help: 'Zeige den Namen jedes Abzeichens neben dem entsprechenden Symbol an, anstatt nur das Symbol allein anzuzeigen. Da nur das erste Abzeichen das Hauptabzeichen eines Benutzers ist, kann dessen Name vollständig angezeigt werden, während die übrigen als Symbole dargestellt werden.'
       labels_label: 'Vollständigen Abzeichentitel anzeigen'
       layout_below: 'Unter dem Avatar'
       layout_beside: 'Neben dem Benutzernamen'
