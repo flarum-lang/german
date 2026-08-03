@@ -2,6 +2,56 @@ CHANGELOG
 =========
 
 
+2.0.11 (2026-08-03)
+-------------------
+
+**Allgemeine Änderungen**:
+
+* Flarum-Core Übersetzungen aktualisiert.
+
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`ernestdefoe/importer`](https://github.com/ernestdefoe/importer)
+* [`ernestdefoe/janitor`](https://github.com/ernestdefoe/janitor)
+* [`ernestdefoe/typesense`](https://github.com/ernestdefoe/typesense)
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+* [`linkrobins/badge-labels`](https://github.com/linkrobins/flarum-badge-labels)
+* [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye)
+* [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki)
+* [`ramon/chat`](https://github.com/ram0ng1/chat)
+* [`u0-ani-nya/ani-nya_i18n`](https://github.com/u0-ani-nya/ani-nya_i18n)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`datlechin/flarum-mermaid`](https://github.com/datlechin/flarum-mermaid)
+* [`ernestdefoe/group-messages`](https://github.com/ernestdefoe/group-messages)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`forumaker/profile-cover`](https://github.com/forumaker/Profile-Cover)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
+* [`justoverclock/related-discussions`](https://flarum.org/extension/justoverclock/related-discussions)
+* [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox)
+* [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer)
+* [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget)
+* [`linkrobins/markdown-widget`](https://github.com/linkrobins/markdown-widget)
+* [`linkrobins/referral`](https://github.com/linkrobins/referral)
+* [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
+* [`ramon/backup`](https://github.com/ram0ng1/backup)
+* [`tryhackx/flarum-advanced-pages`](https://github.com/TryHackX/flarum-advanced-pages)
+* [`flarum/flags`](https://github.com/flarum/flags)
+
+
+Alle Änderungen: [2.0.10...2.0.11](https://github.com/flarum-lang/german/compare/2.0.10...2.0.11).
+
+
 2.0.10 (2026-07-13)
 -------------------
 
