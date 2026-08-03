@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.25.25 (XXXX-XX-XX)
+--------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`linkrobins/discussion-banners`](https://github.com/linkrobins/flarum-discussion-banners)
+
+
+Alle Änderungen: [1.25.24...1.25.25](https://github.com/flarum-lang/german/compare/1.25.24...1.25.25).
+
+
 1.25.24 (2026-08-03)
 --------------------
 
