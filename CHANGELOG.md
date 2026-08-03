@@ -5,6 +5,11 @@ CHANGELOG
 2.0.12 (XXXX-XX-XX)
 -------------------
 
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`linkrobins/discussion-banners`](https://github.com/linkrobins/flarum-discussion-banners)
+
+
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`fof/split`](https://github.com/FriendsOfFlarum/split)
