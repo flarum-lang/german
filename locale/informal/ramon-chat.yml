@@ -16,22 +16,43 @@ ramon-chat:
     archive_discussion_not_found: 'Diese Diskussion existiert nicht oder du hast keinen Zugriff darauf.'
     archive_empty: 'Dieser Kanal wurde ohne Nachrichten archiviert.'
     archive_title_required: 'Ein Archiv benötigt einen Diskussionstitel.'
+    cannot_remove_self: 'Benutze „Kanal verlassen“, um dich selbst zu entfernen.'
     channel_not_found: 'Dieser Kanal existiert nicht oder du hast keinen Zugriff darauf.'
+    direct_channel_self: 'Nur du'
+    direct_needs_participant: 'Wähle mindestens eine Person aus, der du eine Nachricht senden möchtest.'
+    direct_too_many: 'Ein Gruppenchat kann höchstens {max} Teilnehmer haben.'
+    direct_unknown_user: 'Einer dieser Benutzer existiert nicht.'
     flag_detail_required: 'Beschreibe bitte, was an dieser Nachricht nicht stimmt.'
     flag_reason_invalid: 'Das ist kein Grund, aus dem eine Nachricht gemeldet werden kann.'
     invalid_channel_status: 'Ein Kanal kann nur auf „offen“ oder „geschlossen“ eingestellt werden.'
     invalid_reaction: 'Dies ist keine gültige Emoji-Reaktion.'
     invalid_reply_target: 'Du kannst nicht auf eine Nachricht aus einem anderen Kanal antworten.'
     invalid_thread_target: 'Dieser Thread gehört nicht zu diesem Kanal.'
+    members_empty: 'Wähle mindestens eine Person aus, die du hinzufügen möchtest.'
+    members_too_many: 'Du kannst höchstens {max} Personen auf einmal hinzufügen.'
     message_empty: 'Du kannst keine leere Nachricht senden.'
     message_too_long: 'Nachrichten dürfen nicht länger als {max} Zeichen sein.'
     message_too_short: 'Nachrichten müssen mindestens {min} Zeichen lang sein.'
+    move_empty: 'Es wurden keine Nachrichten ausgewählt, oder sie befinden sich bereits in diesem Kanal.'
+    move_target_frozen: 'Du kannst keine Nachrichten in einen geschlossenen oder archivierten Kanal verschieben.'
+    move_too_many: 'Du kannst höchstens {max} Nachrichten auf einmal verschieben.'
+    not_a_member: 'Dieser Benutzer ist nicht in diesem Kanal.'
     rate_limited: 'Du sendest zu schnell Nachrichten. Bitte mach etwas langsamer.'
     slow_mode_wait: 'In diesem Kanal ist der Langsam-Modus aktiviert. Du kannst in {seconds} Sekunden erneut schreiben.'
+    stickers_not_allowed: 'Du darfst keine Sticker verschicken.'
     threading_disabled: 'Threads sind in diesem Kanal nicht aktiviert.'
+    transcript_empty: 'Es wurden keine Nachrichten ausgewählt, oder du kannst sie nicht lesen.'
+    transcript_too_many: 'Du kannst höchstens {max} Nachrichten gleichzeitig zitieren.'
     upload_missing: 'Keine Datei wurde hochgeladen.'
     upload_too_large: 'Diese Datei ist zu groß.'
     upload_unsupported: 'Nicht unterstützter Dateityp: {type}'
+    uploads_disabled: 'Das Hochladen von Dateien ist im Chat deaktiviert.'
+  email:
+    mentioned:
+      html:
+        action: 'Den Kanal öffnen'
+      subject: 'Du wurdest in {channel} erwähnt'
+      unknown_author: Jemand
   forum:
     add_members:
       submit: Hinzufügen
@@ -51,8 +72,16 @@ ramon-chat:
       subtitle: 'Such dir einen Kanal aus, dem du beitreten möchtest, oder gründe einen eigenen.'
       title: 'Kanäle durchsuchen'
     channel:
+      closed: 'Dieser Kanal ist geschlossen. Es können keine neuen Nachrichten gesendet werden.'
+      edit: 'Kanal bearbeiten'
+      join: 'Kanal beitreten'
+      join_to_post: 'Tritt diesem Kanal bei, um Nachrichten zu senden.'
+      leave: 'Kanal verlassen'
       members: '{count} Mitglieder'
+      pinned_messages: 'Angeheftete Nachrichten'
+      scroll_to_latest: 'Zur neuesten Nachricht springen'
       search_in_channel: 'In diesem Kanal suchen'
+      threading_enabled: 'Threads aktiviert'
       view_info: Kanaldetails
     composer:
       cancel_edit: Abbrechen
@@ -66,6 +95,7 @@ ramon-chat:
       close: 'Chat schließen'
       collapse: Zuklappen
       expand: Aufklappen
+      full_screen: 'Im Vollbildmodus anzeigen'
       title: Chat
     duration:
       hours: '{count} h'
@@ -116,7 +146,11 @@ ramon-chat:
       delete: Löschen
       delete_confirm: 'Diese Nachricht löschen?'
       delete_failed: 'Diese Nachricht konnte nicht gelöscht werden.'
+      deleted: 'Diese Nachricht wurde gelöscht.'
+      deleted_by_named: 'Diese Nachricht wurde von {username} entfernt.'
       edit: Bearbeiten
+      edited: bearbeitet
+      edited_at: '{ago} bearbeitet'
       flag: 'Nachricht melden'
       flagged: 'Du hast diese Nachricht gemeldet'
       like: Like
@@ -124,7 +158,10 @@ ramon-chat:
       pinned: Angeheftet
       purge: 'Dauerhaft löschen'
       purge_failed: 'Diese Nachricht konnte nicht entfernt werden.'
+      react: Reagieren
       remove_bookmark: 'Lesezeichen entfernen'
+      reply: Antworten
+      reply_in_thread: 'Im Thread antworten'
       replying_to: 'Antwort an {username}'
       restore: Wiederherstellen
       select: Auswählen
@@ -152,6 +189,7 @@ ramon-chat:
       icon_kind_to_emoji: 'Stattdessen ein Emoji verwenden'
       icon_kind_to_image: 'Stattdessen ein Bild verwenden'
       image: Bild
+      image_failed: 'Das Bild konnte nicht hochgeladen werden.'
       image_remove: 'Bild entfernen'
       image_upload: 'Bild hochladen'
       message_length: Nachrichtenlänge
@@ -169,12 +207,15 @@ ramon-chat:
     selection:
       cancel: Abbrechen
     sidebar:
+      back_to_channels: 'Zurück zu Kanälen'
       bookmarks: Lesezeichen
       browse_channels: 'Kanäle durchsuchen'
       channels: Kanäle
       direct_messages: Direktnachrichten
+      flags: Gemeldet
       my_threads: 'Meine Threads'
       new_channel: 'Neuer Kanal'
+      no_channels: 'Du bist noch keinem Kanal beigetreten.'
       search: Suche
     stream:
       new_messages: 'Neue Nachrichten'
@@ -182,3 +223,6 @@ ramon-chat:
       yesterday: Gestern
     user_controls:
       start_chat: 'Nachricht senden'
+  notifications:
+    chat_channel_invite: '{username} hat dich zu {channel} hinzugefügt'
+    chat_mention: '{username} hat dich in {channel} erwähnt'
