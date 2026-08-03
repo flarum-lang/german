@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+2.0.12 (XXXX-XX-XX)
+-------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`fof/split`](https://github.com/FriendsOfFlarum/split)
+* [`linkrobins/badge-labels`](https://github.com/linkrobins/flarum-badge-labels)
+* [`ramon/chat`](https://github.com/ram0ng1/chat)
+
+
+Alle Änderungen: [2.0.11...2.0.12](https://github.com/flarum-lang/german/compare/2.0.11...2.0.12).
+
+
 2.0.11 (2026-08-03)
 -------------------
 
