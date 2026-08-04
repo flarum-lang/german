@@ -5,23 +5,56 @@
 ramon-chat:
   admin:
     bot:
+      intro: 'Neue Diskussionen in einer verknüpften Kategorie werden im Kanal angekündigt. Wähle aus, unter welchem Namen sie veröffentlicht werden sollen.'
       remove_upload: 'Bild entfernen'
       upload: 'Bild hochladen'
+      upload_failed: 'Das Bild konnte nicht hochgeladen werden.'
+      use_bot: 'Stattdessen den Bot verwenden'
+      user_active: 'Ankündigungen werden unter dem Namen dieses Mitglieds veröffentlicht.'
+      user_help: 'Wähle ein Konto aus, und die Ankündigungen werden zu normalen Nachrichten dieses Mitglieds – ohne Bot-Namen, ohne Bild und ohne „BOT“-Kennzeichnung.'
+      user_label: 'Stattdessen als Mitglied veröffentlichen'
       user_search: 'Mitglieder durchsuchen'
     permissions:
+      access_private_channels: 'Private Kanäle sehen und beitreten'
+      bypass_slow_mode: 'Langsam-Modus überspringen'
       create_channel: 'Kanäle erstellen'
+      create_thread: 'Threads von einer Antwort erstellen'
       edit_channel: 'Kanäle bearbeiten'
+      flag_message: 'Nachrichten melden'
       mention_channel_wide: 'Verwende @here und @all'
+      moderate: 'Chat moderieren'
+      pin_message: 'Nachrichten anheften und Anheftung entfernen'
+      react: 'Auf Nachrichten reagieren'
+      send_stickers: 'Sticker im Chat versenden'
+      start_direct: 'Direktnachrichten starten'
+      upload: 'Dateien im Chat hochladen'
+      use: 'Chat verwenden'
     settings:
       allow_archiving_channels: 'Kanalarchivierung erlauben'
       allow_uploads: 'Hochladen von Dateien im Chat erlauben'
       behaviour_title: Verhalten
+      bot_avatar_help: 'Eine URL zum Bild des Bots. Wird das Feld leer gelassen, wird stattdessen dessen Initial angezeigt.'
+      bot_avatar_label: Bot-Avatar
+      bot_name_help: 'Der Autor wird bei Nachrichten angezeigt, die der Chat selbst veröffentlicht, wie beispielsweise Ankündigungen zu neuen Diskussionen.'
       bot_name_label: Botname
+      channel_retention_days: 'Kanalaufbewahrung (Tage)'
+      channel_retention_help: 'Anzahl der Tage, für die Nachrichten in Kategoriekanälen aufbewahrt werden sollen. Bei 0 werden sie dauerhaft gespeichert.'
+      dm_retention_days: 'Aufbewahrung für Direktnachrichten (Tage)'
+      dm_retention_help: 'Anzahl der Tage, für die Direkt- und Gruppen-Nachrichten aufbewahrt werden sollen. Bei 0 werden sie dauerhaft gespeichert.'
       icon_help: 'Eine Font Awesome-Klasse, z. B. fas fa-comments.'
       icon_label: Chatsymbol
       limits_title: 'Einschränkungen und Sicherheit'
+      max_message_length: 'Maximallänge für Nachrichten'
+      max_messages_per_second: 'Maximale Anzahl von Nachrichten pro Sekunde und Benutzer'
+      max_upload_size: 'Maximale Dateigröße beim Hochladen (Bytes)'
       message_edit_window_help: 'Wie lange ein Autor seine Nachricht bearbeiten darf. 0 bedeutet: keine Begrenzung.'
       message_edit_window_minutes: 'Bearbeitungsfenster (in Minuten)'
+      min_message_length: 'Mindestlänge für Nachrichten'
+      queue_realtime: 'Ereignisse in Echtzeit über die Warteschlange übermitteln'
+      queue_realtime_help: 'Standardmäßig deaktiviert: Push-Nachrichten werden im Rahmen der Anfrage übermittelt, sodass sie sofort ankommen. Aktiviere diese Option nur, wenn dein Forum einen kontinuierlich laufenden Queue-Worker nutzt oder wenn der Webserver den WebSocket-Daemon nicht erreichen kann. Bei Verwendung des Datenbank-Queue-Treibers von Flarum wird der Worker einmal pro Minute ausgeführt, wodurch sich jede Nachricht um bis zu diese Zeitspanne verzögert.'
+      retention_help: 'Ältere Nachrichten werden im Rahmen der nächtlichen Bereinigung entfernt.'
+      retention_title: 'Aufbewahrungsfrist für Nachrichten'
+      retention_warning: 'Durch die Löschung werden Nachrichten endgültig gelöscht. Eine Wiederherstellung ist nicht möglich.'
       send_with_ctrl_enter: 'Nachrichten mit Strg+Eingabetaste senden'
       send_with_ctrl_enter_help: 'Wenn aktiviert, fügt die Eingabetaste einen Zeilenumbruch ein, und nur die Tastenkombination Strg+Eingabetaste (Cmd+Eingabetaste unter macOS) sendet die Nachricht. Wenn deaktiviert, sendet die Eingabetaste die Nachricht, und die Tastenkombination Umschalt+Eingabetaste fügt einen Zeilenumbruch ein.'
       show_icon_help: 'Deaktivieren, um nur den Namen anzuzeigen.'
@@ -33,13 +66,21 @@ ramon-chat:
       sound_none: Aus
       threading_default: 'Threads in neuen Kanälen standardmäßig aktivieren'
       title: Chat
+      title_help: 'Wird auf der Schaltfläche in der Kopfzeile und in der Leiste angezeigt. Lasse das Feld leer, um „Chat“ zu verwenden.'
       title_label: Chatname
       uploads_title: Hochladen
       webhook_channel: Kanal
       webhook_copy: 'URL kopieren'
       webhook_delete: Löschen
+      webhook_description: Beschreibung
       webhook_emoji: Emoji
+      webhook_empty: 'Noch keine eingehenden Webhooks eingerichtet.'
+      webhook_name: Name
+      webhook_new: 'Neuer eingehender Webhook'
+      webhook_regenerate: 'Schlüssel neu erstellen'
       webhook_url: URL
+      webhook_username: 'Veröffentlichen als'
+      webhooks_help: 'Slack-kompatible Endpunkte, die Nachrichten in einen Kanal veröffentlichen.'
       webhooks_title: 'Eingehende Webhooks'
     webhooks:
       active: Aktiv
@@ -50,6 +91,7 @@ ramon-chat:
       failed: 'Diese Änderung konnte nicht gespeichert werden.'
       name: Webhook-Name
       pick_channel: 'Kanal wählen'
+      title: 'Eingehende Webhooks'
   api:
     archive_discussion_not_found: 'Diese Diskussion existiert nicht oder du hast keinen Zugriff darauf.'
     archive_empty: 'Dieser Kanal wurde ohne Nachrichten archiviert.'
@@ -132,7 +174,7 @@ ramon-chat:
       messages: '{count} Nachrichten'
       new_channel: 'Neuer Kanal'
       no_description: 'Keine Beschreibung.'
-      open: Offen
+      open: Öffnen
       search_placeholder: 'Kanäle suchen'
       subtitle: 'Such dir einen Kanal aus, dem du beitreten möchtest, oder gründe einen eigenen.'
       subtitle_join_only: 'Finde einen Kanal, dem du beitreten kannst.'
@@ -381,6 +423,7 @@ ramon-chat:
     notifications:
       channel_invite: '{username} hat dich zu {channel} hinzugefügt'
       message_flagged: '{username} hat eine Nachricht in {channel} gemeldet'
+      someone: Jemand
     revisions:
       current: 'Aktuelle Version'
       failed: 'Der Änderungsverlauf konnte nicht geladen werden.'
@@ -402,7 +445,12 @@ ramon-chat:
       moved: '{count} Nachrichten verschoben.'
       omitted: '{count} Nachrichten wurden ausgelassen, da du diese nicht lesen kannst.'
     settings:
+      channel_wide_mentions: 'Benachrichtige mich bei @here und @all'
+      email_notifications: 'Schick mir eine E-Mail bezüglich Erwähnungen im Chat'
       enabled: 'Chat für mein Konto aktivieren'
+      notify_channel_invite: 'Jemand fügt mich zu einem Chat-Kanal hinzu'
+      notify_message_flagged: 'Jemand meldet eine Chat-Nachricht'
+      open_in_drawer: 'Chat in einer Leiste statt im Vollbildmodus öffnen'
       sound: Benachrichtigungston
       sound_none: Keiner
       title: Chat

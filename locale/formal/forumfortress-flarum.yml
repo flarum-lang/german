@@ -13,6 +13,7 @@ forumfortress-flarum:
       automatic_selection: 'Automatische Auswahl'
       blocked: blockiert
       checking: 'Wird überprüft...'
+      checks_this_month: 'Prüft diesen Monat'
       configured: Konfiguriert
       connected: Verbunden
       connection_test: Verbindungstest
@@ -21,19 +22,30 @@ forumfortress-flarum:
       enable_attack_mode: 'Angriffsmodus aktivieren'
       end_attack_mode: 'Angriffsmodus beenden'
       maintenance: 'Wartung und Wiederherstellung'
+      maintenance_help: 'Weniger häufige Konto- und Diagnosemaßnahmen'
       not_available: 'Nicht verfügbar'
       not_checked: 'Noch nicht geprüft'
       plan: Plan
       portal_login: Portal-Anmeldung
+      portal_popup_blocked: 'Der Browser hat das Portal-Fenster blockiert. Erlaube Popups für diese Website und versuche es erneut.'
+      portal_success: 'Das Portal wird in einem neuen Tab geöffnet.'
+      portal_url_missing: 'Forum Fortress hat keine Portal-URL zurückgegeben.'
       preferred_endpoint: 'Bevorzugter Endpunkt'
       protection: Schutz
       refresh: Aktualisieren
+      refresh_to_view: 'Zur Anzeige aktualisieren'
+      register_site: 'Seite registrieren'
+      register_success: 'Seitenregistrierung abgeschlossen.'
+      registration_help: 'Verwende die Registrierung nur, wenn du diese Website mit einem Konto verknüpfst. Im Normalbetrieb erfolgt die Initialisierung automatisch.'
+      request_failed: 'Forum Fortress konnte die Anfrage nicht ausführen. Überprüfe die Verbindung und versuche es erneut.'
+      request_timeout: 'Die Anfrage lief ab, bevor Forum Fortress antwortete.'
       site_id: Seiten-ID
       site_status: Seitenstatus
       status_summary: 'Echtzeit-Verbindung und Nutzungsübersicht'
       sync_success: 'Synchronisierung mit Forum Fortress abgeschlossen.'
       synchronize_now: 'Jetzt synchronisieren'
       tagline: 'Schutzstatus, Steuerungen und Kontenverknüpfungen.'
+      test_success: 'Verbindungstest erfolgreich abgeschlossen.'
       unknown: Unbekannt
     settings:
       api_base_url_label: 'API-Basis-URL prüfen'
