@@ -11,7 +11,10 @@ linkrobins-discussion-banners:
       banners_label: Banner
       bottom_heading: 'Unterhalb der Diskussion'
       bottom_short: Unten
+      color_label: Akzentfarbe
       content_label: 'Bannerinhalt (HTML)'
+      icon_label: Symbol
+      icon_none: 'Kein Symbol'
       label_help: 'Die kurze Zeile in Großbuchstaben am oberen Rand des Banners, zum Beispiel „Info“ oder „Von unserem Sponsor“. Für keine Angabe bitte leer lassen.'
       label_label: 'Kleine Überschrift'
       placement_help: 'Über dem ersten Beitrag, unter dem letzten Beitrag oder nach jeweils einigen Beiträgen wiederholt.'
@@ -28,3 +31,6 @@ linkrobins-discussion-banners:
       target_tags_label: Tags
       top_heading: 'Oberhalb der Diskussion'
       top_short: Oben
+      visibility_everyone: Jeder
+      visibility_guests: 'Nur Gäste'
+      visibility_members: 'Nur angemeldete Benutzer'
