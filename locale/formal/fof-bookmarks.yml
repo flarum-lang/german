@@ -34,3 +34,7 @@ fof-bookmarks:
     postButton:
       add: 'Lesezeichen setzen'
       remove: 'Lesezeichen gesetzt'
+  lib:
+    gambits:
+      bookmarked:
+        key: lesezeichen

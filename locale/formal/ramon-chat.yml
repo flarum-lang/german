@@ -264,6 +264,7 @@ ramon-chat:
       member_search: 'Mitglieder filtern'
       mute: 'Diesen Kanal stummschalten'
       mute_help: 'Bei stummgeschalteten Kanälen werden keine Zähler für ungelesene Beiträge angezeigt.'
+      no_members: 'Es wurden keine Mitglieder gefunden.'
       notification_level: 'Benachrichtige mich über'
       notifications: Benachrichtigungen
       post_discussions: 'Neue Diskussionen aus dieser Kategorie ankündigen'
@@ -377,11 +378,16 @@ ramon-chat:
       subtitle: 'Gib ihm einen Namen und entscheide, für wen er bestimmt ist. Alles andere kann sich später noch ändern.'
       threading_help: 'Antworten können in einen eigenen Thread verzweigen, anstatt den Hauptkanal zu unterbrechen.'
       visibility: 'Wer diesen Kanal sehen kann'
+    notifications:
+      channel_invite: '{username} hat dich zu {channel} hinzugefügt'
+      message_flagged: '{username} hat eine Nachricht in {channel} gemeldet'
     revisions:
       current: 'Aktuelle Version'
+      failed: 'Der Änderungsverlauf konnte nicht geladen werden.'
       title: Änderungsverlauf
       unknown_editor: Unbekannt
     search:
+      empty: 'Keine passenden Nachrichten gefunden.'
       in_channel: 'in {channel}'
       placeholder: 'Alle Kanäle durchsuchen'
       prompt: 'Gib einen Suchbegriff ein, um Nachrichten zu suchen.'
