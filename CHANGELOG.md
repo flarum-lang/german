@@ -8,6 +8,7 @@ CHANGELOG
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
 * [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks)
+* [`forumfortress/flarum`](https://github.com/forum-fortress/flarum)
 * [`linkrobins/discussion-banners`](https://github.com/linkrobins/flarum-discussion-banners)
 
 
