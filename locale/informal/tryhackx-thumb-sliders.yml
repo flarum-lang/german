@@ -2,15 +2,47 @@
 # Use https://weblate.rob006.net/projects/flarum2/tryhackx-thumb-sliders/de/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+tryhackx-avatars:
+  admin:
+    device_desktop: Desktop
+    device_mobile: Handy
+    help: 'Lege fest, wie sich der Autoren-Avatar in der Diskussionsliste verhält – separat für Desktop- und Mobilgeräte. Dies ist eine gemeinsame Einstellung – wenn du sie hier änderst, wird sie auch in „Thumb Sliders“ bzw. „Topic Rating“ aktualisiert, je nachdem, welches der beiden Erweiterungen du installiert hast.'
+    hint_always: 'Das Miniaturansicht (oder das konfigurierte Ausweichbild) ersetzt immer den Avatar; bei Diskussionen, für die überhaupt keine Miniaturansicht vorhanden ist, bleibt der Avatar erhalten.'
+    hint_hide: 'Der Avatar wird nie angezeigt. Ist ein Miniaturbild verfügbar, wird dieses an seiner Stelle angezeigt; andernfalls enthält die Zeile einfach keinen Avatar.'
+    hint_replace_no_thumbs: '„Thumb Sliders“ ist deaktiviert, daher wird der Avatar wie gewohnt angezeigt. Installiere bzw. aktiviere „Thumb Sliders“, um ihn durch eine Miniaturansicht zu ersetzen, oder wähle „Avatar ausblenden“.'
+    hint_show: 'Der Avatar des Verfassers wird immer angezeigt.'
+    hint_with_image: 'Das Vorschaubild ersetzt den Avatar nur, wenn die Diskussion ein echtes Bild enthält; andernfalls wird der Avatar angezeigt.'
+    mode_always: 'Immer durch Miniaturansicht ersetzen'
+    mode_hide: 'Avatar verbergen'
+    mode_show: 'Avatar anzeigen'
+    mode_with_image: 'Durch Miniaturansicht ersetzen, wenn die Diskussion ein Bild enthält'
+    save_error: 'Avatareinstellung konnte nicht gespeichert werden. Bitte versuche es erneut.'
+    thumbs_inactive: '„Thumb Sliders“ ist nicht aktiviert, daher gibt es kein Vorschaubild, durch das der Avatar ersetzt werden könnte. Die unten stehenden „Ersetzen“-Optionen verhalten sich wie „Avatar anzeigen“ – verwende „Avatar ausblenden“, um Avatare zu entfernen (z. B. für eine übersichtlichere Liste auf Mobilgeräten).'
+    title: 'Avatare in der Diskussionsliste'
 tryhackx-thumb-sliders:
   admin:
     fallback:
+      clear_selection: 'Keine Auswahl verwenden'
+      confirm_delete: 'Dieses Bild löschen?'
+      delete: Löschen
       delete_modal_cancel: Abbrechen
+      delete_modal_error: 'Dieses Bild konnte nicht gelöscht werden. Bitte versuche es erneut.'
+      delete_modal_title: 'Ausweichbild löschen'
+      no_files: 'Noch keine Bilder hochgeladen.'
+      not_active_mode: 'Diese Bilder werden nur verwendet, wenn der Ausweich-Modus auf „Benutzerdefiniertes hochgeladenes Bild“ eingestellt ist.'
+      title: Ausweich-Bildbibliothek
+      upload_button: 'Bild hochladen'
+      uploading: 'Wird hochgeladen…'
     settings:
       autoplay_speed_help: 'Zeit zwischen den Übergängen in Millisekunden.'
       autoplay_speed_label: 'Wiedergabegeschwindigkeit (ms)'
       enabled_help: 'Schieberegler für Miniaturansichten in der Diskussionsliste anzeigen.'
       enabled_label: 'Miniatur-Schieberegler aktivieren'
+      fallback_mode_custom: 'Benutzerdefiniertes hochgeladenes Bild'
+      fallback_mode_default: 'Eingebauter Platzhalter'
+      fallback_mode_help: 'Lege fest, was angezeigt werden soll, wenn zu einer Diskussion kein brauchbares Bild vorhanden ist oder wenn das Bild nicht geladen werden kann.'
+      fallback_mode_label: 'Ausweichlösung, wenn kein Bild verfügbar ist'
+      fallback_mode_none: 'Kein Vorschaubild (Inhalt verschiebt sich nach links)'
       max_images_help: 'Maximale Anzahl der Bilder, die im Schieberegler angezeigt werden sollen (max. 20).'
       max_images_label: 'Maximale Anzahl an Bildern pro Diskussion'
       max_img_size_help: 'Bilder, deren Breite oder Höhe größer als dieser Wert ist, werden ausgeschlossen.'
@@ -19,3 +51,8 @@ tryhackx-thumb-sliders:
       min_img_size_label: 'Mindestbildgröße (px)'
       slider_width_help: 'Breite des Schiebereglers für Miniaturansichen. Die Höhe wird automatisch angepasst (Bildformat 2:3).'
       slider_width_label: 'Breite des Schiebereglers (px)'
+    support:
+      button: 'Unterstütze die Entwicklung'
+      copy: 'Adresse kopieren'
+      thanks: 'Vielen Dank für deine Unterstützung!'
+      title: 'Unterstütze diese Erweiterung'

@@ -7,6 +7,7 @@ ramon-chat:
     bot:
       intro: 'Neue Diskussionen in einer verknüpften Kategorie werden im Kanal angekündigt. Wähle aus, unter welchem Namen sie veröffentlicht werden sollen.'
       remove_upload: 'Bild entfernen'
+      title: Ankündiger
       upload: 'Bild hochladen'
       upload_failed: 'Das Bild konnte nicht hochgeladen werden.'
       use_bot: 'Stattdessen den Bot verwenden'
@@ -86,12 +87,17 @@ ramon-chat:
       active: Aktiv
       create: 'Webhook erstellen'
       delete: Löschen
+      delete_confirm: 'Diesen Webhook löschen? Alle Dienste, die dessen URL verwenden, funktionieren dann nicht mehr.'
       deliveries: '{count} Zustellungen'
       empty: 'Noch keine Webhooks.'
       failed: 'Diese Änderung konnte nicht gespeichert werden.'
+      help: 'Ein externer Dienst kann über eine geheime URL eine Nachricht per POST an einen Kanal senden. Die URL wird einmalig angezeigt, und zwar bei ihrer Erstellung oder bei einer Rotation.'
       name: Webhook-Name
       pick_channel: 'Kanal wählen'
+      rotate: 'Schlüssel rotieren'
+      rotate_confirm: 'Durch das Rotieren des Schlüssels werden alle Anwendungen unterbrochen, die die alte URL verwenden. Möchtest du fortfahren?'
       title: 'Eingehende Webhooks'
+      url_once: 'Kopiere diese URL jetzt – sie wird nicht noch einmal angezeigt.'
   api:
     archive_discussion_not_found: 'Diese Diskussion existiert nicht oder du hast keinen Zugriff darauf.'
     archive_empty: 'Dieser Kanal wurde ohne Nachrichten archiviert.'
