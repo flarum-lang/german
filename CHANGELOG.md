@@ -7,6 +7,7 @@ CHANGELOG
 
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
+* [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks)
 * [`linkrobins/discussion-banners`](https://github.com/linkrobins/flarum-discussion-banners)
 
 
