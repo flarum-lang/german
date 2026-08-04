@@ -10,6 +10,7 @@ CHANGELOG
 * [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks)
 * [`forumfortress/flarum`](https://github.com/forum-fortress/flarum)
 * [`linkrobins/discussion-banners`](https://github.com/linkrobins/flarum-discussion-banners)
+* [`shebaoting/flarum-dependency-collector`](https://github.com/shebaoting/flarum-dependency-collector)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
