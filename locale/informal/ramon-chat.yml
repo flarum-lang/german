@@ -7,20 +7,49 @@ ramon-chat:
     bot:
       remove_upload: 'Bild entfernen'
       upload: 'Bild hochladen'
+      user_search: 'Mitglieder durchsuchen'
+    permissions:
+      create_channel: 'Kanäle erstellen'
+      edit_channel: 'Kanäle bearbeiten'
+      mention_channel_wide: 'Verwende @here und @all'
     settings:
       allow_archiving_channels: 'Kanalarchivierung erlauben'
+      allow_uploads: 'Hochladen von Dateien im Chat erlauben'
       behaviour_title: Verhalten
       bot_name_label: Botname
       icon_help: 'Eine Font Awesome-Klasse, z. B. fas fa-comments.'
       icon_label: Chatsymbol
+      limits_title: 'Einschränkungen und Sicherheit'
+      message_edit_window_help: 'Wie lange ein Autor seine Nachricht bearbeiten darf. 0 bedeutet: keine Begrenzung.'
+      message_edit_window_minutes: 'Bearbeitungsfenster (in Minuten)'
+      send_with_ctrl_enter: 'Nachrichten mit Strg+Eingabetaste senden'
+      send_with_ctrl_enter_help: 'Wenn aktiviert, fügt die Eingabetaste einen Zeilenumbruch ein, und nur die Tastenkombination Strg+Eingabetaste (Cmd+Eingabetaste unter macOS) sendet die Nachricht. Wenn deaktiviert, sendet die Eingabetaste die Nachricht, und die Tastenkombination Umschalt+Eingabetaste fügt einen Zeilenumbruch ein.'
+      show_icon_help: 'Deaktivieren, um nur den Namen anzuzeigen.'
       show_icon_label: 'Chatsymbol anzeigen'
       sound: Benachrichtigungston
+      sound_alert: Warnung
+      sound_chime: Glockenspiel
+      sound_help: 'Wird abgespielt, wenn eine Nachricht in einem Kanal eintrifft, den du gerade nicht im Blick hast.'
+      sound_none: Aus
+      threading_default: 'Threads in neuen Kanälen standardmäßig aktivieren'
+      title: Chat
       title_label: Chatname
+      uploads_title: Hochladen
+      webhook_channel: Kanal
+      webhook_copy: 'URL kopieren'
+      webhook_delete: Löschen
+      webhook_emoji: Emoji
+      webhook_url: URL
+      webhooks_title: 'Eingehende Webhooks'
     webhooks:
       active: Aktiv
       create: 'Webhook erstellen'
       delete: Löschen
+      deliveries: '{count} Zustellungen'
       empty: 'Noch keine Webhooks.'
+      failed: 'Diese Änderung konnte nicht gespeichert werden.'
+      name: Webhook-Name
+      pick_channel: 'Kanal wählen'
   api:
     archive_discussion_not_found: 'Diese Diskussion existiert nicht oder du hast keinen Zugriff darauf.'
     archive_empty: 'Dieser Kanal wurde ohne Nachrichten archiviert.'
@@ -72,6 +101,12 @@ ramon-chat:
     add_members:
       added: '{count} wurden dem Kanal hinzugefügt.'
       deselect: '{username} aus der Auswahl entfernen'
+      empty: 'Es wurde niemand gefunden, oder alle passenden Benutzer sind bereits hier.'
+      failed: 'Diese Benutzer konnten nicht hinzugefügt werden.'
+      hint: 'Gib mindestens zwei Buchstaben ein, um jemanden zu finden.'
+      search_failed: 'Diese Benutzer konnten derzeit nicht durchsucht werden.'
+      search_placeholder: 'Benutzer nach Namen suchen'
+      searching: Suchen…
       submit: Hinzufügen
       submit_count: '{count} hinzufügen'
       title: 'Mitglieder hinzufügen'
@@ -80,18 +115,27 @@ ramon-chat:
       no_text: '(nur Anhänge)'
       remove: 'Lesezeichen entfernen'
       remove_failed: 'Das Lesezeichen konnte nicht entfernt werden.'
+    bot:
+      default_name: Bot
+      tag: BOT
     browse:
+      clear_search: 'Suche löschen'
+      empty: 'Hier gibt es noch keine Kanäle.'
+      empty_search: 'Es wurden keine Kanäle gefunden, die mit „{query}“ übereinstimmen.'
       filter_all: Alle
       filter_archived: Archiviert
       filter_closed: Geschlossen
       filter_mine: 'Meine Kanäle'
       filter_open: Offen
+      joined: Beigetreten
+      load_failed: 'Die Kanalliste konnte nicht geladen werden.'
       messages: '{count} Nachrichten'
       new_channel: 'Neuer Kanal'
       no_description: 'Keine Beschreibung.'
       open: Offen
       search_placeholder: 'Kanäle suchen'
       subtitle: 'Such dir einen Kanal aus, dem du beitreten möchtest, oder gründe einen eigenen.'
+      subtitle_join_only: 'Finde einen Kanal, dem du beitreten kannst.'
       title: 'Kanäle durchsuchen'
     channel:
       archived: 'Dieser Kanal wurde archiviert.'
@@ -153,7 +197,13 @@ ramon-chat:
       minutes: '{count} m'
       seconds: '{count} s'
     edit_channel:
+      archive_confirm: 'Diesen Kanal archivieren? Der Verlauf wird in eine Diskussion kopiert und der Kanal wird dauerhaft gesperrt.'
+      failed: 'Diese Änderungen konnten nicht gespeichert werden.'
+      lifecycle: Kanalstatus
+      lifecycle_help: 'Durch das Schließen werden keine neuen Nachrichten mehr zugelassen, der Kanal bleibt jedoch weiterhin lesbar. Durch das Archivieren wird der Verlauf in eine Diskussion kopiert und der Kanal endgültig gesperrt.'
+      saved: 'Kanal aktualisiert.'
       submit: 'Änderungen speichern'
+      subtitle: 'Die Änderungen gelten für alle Teilnehmer des Kanals, sobald du sie speicherst.'
       title: Kanaleinstellungen
     emoji_picker:
       clear: 'Emoji entfernen'
@@ -194,6 +244,11 @@ ramon-chat:
       title: 'Gemeldete Nachrichten'
     info:
       archive_channel: 'Kanal archivieren'
+      auto_join: 'Alle Benutzer automatisch hinzufügen'
+      auto_join_help: 'Alle bestehenden und zukünftigen Nutzer werden diesem Kanal hinzugefügt.'
+      auto_join_on_reply: 'Benutzer hinzufügen, die in dieser Kategorie antworten'
+      auto_join_on_reply_help_bound: 'Ein Nutzer wird beim ersten Mal als Mitglied hinzugefügt, wenn er auf eine Diskussion in {category} antwortet, und wird nicht erneut hinzugefügt, wenn er die Gruppe später verlässt.'
+      auto_join_on_reply_help_none: 'Wird nur dann ausgeführt, wenn der Kanal einer Kategorie zugeordnet ist.'
       category: Kategorie
       close_channel: 'Kanal schließen'
       delete_channel: 'Kanal löschen'
@@ -208,10 +263,15 @@ ramon-chat:
       member_removed: '{username} wurde aus dem Kanal entfernt.'
       member_search: 'Mitglieder filtern'
       mute: 'Diesen Kanal stummschalten'
+      mute_help: 'Bei stummgeschalteten Kanälen werden keine Zähler für ungelesene Beiträge angezeigt.'
       notification_level: 'Benachrichtige mich über'
       notifications: Benachrichtigungen
+      post_discussions: 'Neue Diskussionen aus dieser Kategorie ankündigen'
+      post_discussions_help_bound: 'Jede neue Diskussion, die in {category} gestartet wird, wird im Kanal angekündigt.'
       remove_member: '{username} entfernen'
+      remove_member_confirm: '{username} aus diesem Kanal entfernen?'
       reopen_channel: 'Kanal wieder öffnen'
+      save_failed: 'Änderung konnte nicht gespeichert werden.'
       tab_members: Mitglieder
       tab_settings: Einstellungen
       threading: 'Threads aktivieren'
@@ -270,8 +330,12 @@ ramon-chat:
     new_channel:
       cancel: Abbrechen
       category: Kategorie
+      category_help_bound: 'Der Kanal übernimmt die Berechtigungen von {category}: Nur Personen, die diese Kategorie sehen können, können auch diesen Kanal sehen.'
+      category_help_none: 'Der Kanal ist für das gesamte Forum zugänglich. Jeder, der den Chat nutzen kann, kann ihn sehen.'
+      channel_wide_mentions_help: 'Ermöglicht es Mitgliedern, mit @channel und @here alle gleichzeitig zu benachrichtigen.'
       description: Beschreibung
       emoji: Emoji
+      emoji_help: 'Wird neben dem Kanalnamen, in der Seitenleiste und unter „Durchsuchen“ angezeigt.'
       failed: 'Dieser Kanal konnte nicht erstellt werden.'
       icon_kind: 'Emoji oder Bild'
       icon_kind_to_emoji: 'Stattdessen ein Emoji verwenden'
@@ -279,34 +343,63 @@ ramon-chat:
       image: Bild
       image_failed: 'Das Bild konnte nicht hochgeladen werden.'
       image_failed_after_create: 'Der Kanal wurde erstellt, das Bild konnte jedoch nicht hochgeladen werden. Füge es über die Einstellungen des Kanals hinzu.'
+      image_help: 'Ein quadratisches Bild eignet sich am besten – es wird auf 128×128 zugeschnitten und in der Größe angepasst.'
       image_remove: 'Bild entfernen'
       image_upload: 'Bild hochladen'
       message_length: Nachrichtenlänge
       message_length_chars: '{count} Zeichen'
+      message_length_custom: Benutzerdefiniert…
+      message_length_help_clamped: 'Außerhalb des zulässigen Bereichs – dies wird als {count} Zeichen gespeichert.'
+      message_length_help_empty: 'Lasse dieses Feld leer, um die Forum-Standardeinstellung von {count} Zeichen zu übernehmen.'
+      message_length_help_inherit: 'Nachrichten können hier bis zu {count} Zeichen lang sein, genau wie im restlichen Forum. Wenn du die Forumseinstellung änderst, wird diese Änderung auch auf diesen Kanal angewandt.'
+      message_length_help_own: 'Beiträge können hier bis zu {count} Zeichen lang sein, unabhängig davon, was im restlichen Forum zulässig ist.'
+      message_length_inherit: 'Forumstandard ({count} Zeichen)'
       name: Kanalname
       name_placeholder: 'z. B. Allgemein'
       no_category: 'Keine Kategorie (gesamtes Forum)'
+      post_all: 'Jeder im Kanal'
+      post_all_help: 'Jedes Mitglied des Kanals kann Nachrichten senden.'
+      post_moderators: 'Nur Moderatoren'
+      post_moderators_help: 'Der Kanal ist ein Schwarzes Brett – jeder kann lesen, nur Moderatoren können Nachrichten verfassen.'
+      post_permission: 'Wer kann Nachrichten senden'
       private: Privat
+      private_help: 'Nur auf Einladung. Er erscheint nicht im Verzeichnis und ist nur für Mitglieder sichtbar.'
       public: Öffentlich
+      public_help: 'Jeder, der gemäß der Kategorie dazu berechtigt ist, kann die Gruppe unter „Durchsuchen“ finden und ihr selbst beitreten.'
       section_access: Zugriff
       section_behaviour: Verhalten
+      section_identity: Identität
       slow_mode: Langsam-Modus
+      slow_mode_help_off: 'Mitglieder können nacheinander Nachrichten senden, ohne warten zu müssen.'
+      slow_mode_help_on: 'Jeder Benutzer muss zwischen Nachrichten eine Pause von {duration} einlegen. Moderatoren sind davon ausgenommen.'
       slow_mode_off: Aus
       submit: 'Kanal erstellen'
+      subtitle: 'Gib ihm einen Namen und entscheide, für wen er bestimmt ist. Alles andere kann sich später noch ändern.'
+      threading_help: 'Antworten können in einen eigenen Thread verzweigen, anstatt den Hauptkanal zu unterbrechen.'
+      visibility: 'Wer diesen Kanal sehen kann'
     revisions:
+      current: 'Aktuelle Version'
+      title: Änderungsverlauf
       unknown_editor: Unbekannt
     search:
       in_channel: 'in {channel}'
       placeholder: 'Alle Kanäle durchsuchen'
+      prompt: 'Gib einen Suchbegriff ein, um Nachrichten zu suchen.'
       title: 'Chat durchsuchen'
     selection:
       cancel: Abbrechen
       copied: 'In die Zwischenablage kopiert.'
       copy_failed: 'Dein Browser erlaubt nicht das Kopieren.'
+      count: '{count} ausgewählt'
       failed: 'Diese Aktion konnte nicht abgeschlossen werden.'
       move_to: 'Verschieben zu…'
       moved: '{count} Nachrichten verschoben.'
       omitted: '{count} Nachrichten wurden ausgelassen, da du diese nicht lesen kannst.'
+    settings:
+      enabled: 'Chat für mein Konto aktivieren'
+      sound: Benachrichtigungston
+      sound_none: Keiner
+      title: Chat
     sidebar:
       back_to_channels: 'Zurück zu Kanälen'
       bookmarks: Lesezeichen
@@ -331,6 +424,7 @@ ramon-chat:
       set_title: 'Threadtitel festlegen'
       title: Thread
       tracking: Benachrichtigungen
+      tracking_always: Beobachten
       tracking_mentions: 'Nur Erwähnungen'
       tracking_never: Stummgeschaltet
       untitled: 'Thread ohne Titel'
@@ -339,6 +433,7 @@ ramon-chat:
       several: '{count} Benutzer schreiben gerade…'
     user_controls:
       start_chat: 'Nachricht senden'
+      start_chat_failed: 'Der Chat konnte nicht gestartet werden.'
   lib:
     gdpr:
       anonymize_description: 'Deine Chat-Nachrichten bleiben erhalten, sodass die Unterhaltungen weiterhin lesbar sind, werden jedoch nicht mehr dir zugeordnet. Anhänge, Reaktionen, Entwürfe und Kanalmitgliedschaften werden gelöscht.'
