@@ -11,26 +11,53 @@ linkrobins-discussion-banners:
       banners_label: Banner
       bottom_heading: 'Unterhalb der Diskussion'
       bottom_short: Unten
+      color_help: 'Legt die Farbe für den Bannerrand, den Hintergrund und die kleine Überschrift fest. Lasse das Feld leer, um die Farbe deines Designs zu verwenden. Der Fließtext richtet sich immer nach dem Design, damit er sowohl im hellen als auch im dunklen Modus gut lesbar bleibt.'
       color_label: Akzentfarbe
+      content_help: 'Der Inhalt des Banners. HTML ist zulässig und wird vor der Anzeige bereinigt.'
       content_label: 'Bannerinhalt (HTML)'
+      delete: 'Banner löschen'
+      icon_emoji: Emoji
+      icon_emoji_placeholder: 'Eingeben oder einfügen'
+      icon_help: 'Ein optionales Symbol neben dem Bannertext: Lade ein kleines Bild hoch oder wähle ein Emoji aus.'
+      icon_image: 'Hochgeladenes Bild'
       icon_label: Symbol
       icon_none: 'Kein Symbol'
+      icon_remove: Entfernen
+      icon_replace_image: 'Bild ersetzen'
+      icon_upload_image: 'Bild hochladen'
       label_help: 'Die kurze Zeile in Großbuchstaben am oberen Rand des Banners, zum Beispiel „Info“ oder „Von unserem Sponsor“. Für keine Angabe bitte leer lassen.'
       label_label: 'Kleine Überschrift'
       placement_help: 'Über dem ersten Beitrag, unter dem letzten Beitrag oder nach jeweils einigen Beiträgen wiederholt.'
       placement_label: 'Wo es angezeigt wird'
       scope_all: 'Alle Diskussionen'
+      scope_empty_except: 'Es ist noch nichts ausgewählt, daher wird dieses Banner überall angezeigt.'
+      scope_empty_only: 'Es ist noch nichts ausgewählt, daher wird dieses Banner noch nirgendwo angezeigt.'
       scope_except: 'Alle Diskussionen, außer denen, die ich auswähle'
+      scope_help: 'Zeige dieses Banner überall an oder wähle die Diskussionen und Tags aus, zu denen es passt. Füge ein zweites Banner mit einem anderen Text für eine andere Diskussion hinzu.'
       scope_label: 'Welche Diskussionen'
       scope_only: 'Nur die Diskussionen, die ich auswähle'
       stream_every_help: 'Das Banner erscheint nach jedem N-ten Beitrag in einer Diskussion. Mindestens 2.'
       stream_every_label: 'Nach jeweils N Beiträgen anzeigen'
       stream_heading: 'Zwischen Beiträgen'
       stream_short: Dazwischen
+      summary_all: 'In jeder Diskussion'
+      summary_discussion_many: '{count} Diskussionen'
+      summary_discussion_one: '1 Diskussion'
+      summary_except: 'Überall außer'
+      summary_nothing: 'Nichts ausgewählt'
+      summary_only: 'Nur in'
+      summary_tag_many: '{count} Tags'
+      summary_tag_one: '1 Tag'
+      target_none: 'Nichts ausgewählt'
       target_remove: Entfernen
+      target_search_placeholder: 'Diskussionen suchen oder Diskussionslink/ID einfügen'
+      target_searching: Suchen...
       target_tags_label: Tags
+      target_tags_loading: 'Tags laden...'
+      target_use_id: 'Diskussion {id} verwenden'
       top_heading: 'Oberhalb der Diskussion'
       top_short: Oben
       visibility_everyone: Jeder
       visibility_guests: 'Nur Gäste'
+      visibility_label: 'Wer sieht es'
       visibility_members: 'Nur angemeldete Benutzer'
