@@ -18,6 +18,7 @@ CHANGELOG
 * [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest)
 * [`linkrobins/badge-labels`](https://github.com/linkrobins/flarum-badge-labels)
 * [`ramon/chat`](https://github.com/ram0ng1/chat)
+* [`tryhackx/flarum-thumb-sliders`](https://github.com/TryHackX/flarum-thumb-sliders)
 
 
 Alle Änderungen: [2.0.11...2.0.12](https://github.com/flarum-lang/german/compare/2.0.11...2.0.12).
