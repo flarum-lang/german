@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+2.0.13 (XXXX-XX-XX)
+-------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`shebaoting/flarum-dependency-collector`](https://github.com/shebaoting/flarum-dependency-collector)
+* [`tryhackx/flarum-thumb-sliders`](https://github.com/TryHackX/flarum-thumb-sliders)
+
+
+Alle Änderungen: [2.0.12...2.0.13](https://github.com/flarum-lang/german/compare/2.0.12...2.0.13).
+
+
 2.0.12 (2026-08-05)
 -------------------
 
