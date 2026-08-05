@@ -2,6 +2,29 @@ CHANGELOG
 =========
 
 
+2.0.12 (2026-08-05)
+-------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks)
+* [`forumfortress/flarum`](https://github.com/forum-fortress/flarum)
+* [`linkrobins/discussion-banners`](https://github.com/linkrobins/flarum-discussion-banners)
+* [`shebaoting/flarum-dependency-collector`](https://github.com/shebaoting/flarum-dependency-collector)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`fof/split`](https://github.com/FriendsOfFlarum/split)
+* [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest)
+* [`linkrobins/badge-labels`](https://github.com/linkrobins/flarum-badge-labels)
+* [`ramon/chat`](https://github.com/ram0ng1/chat)
+* [`tryhackx/flarum-thumb-sliders`](https://github.com/TryHackX/flarum-thumb-sliders)
+
+
+Alle Änderungen: [2.0.11...2.0.12](https://github.com/flarum-lang/german/compare/2.0.11...2.0.12).
+
+
 2.0.11 (2026-08-03)
 -------------------
 
