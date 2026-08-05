@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.25.26 (XXXX-XX-XX)
+--------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`shebaoting/flarum-dependency-collector`](https://github.com/shebaoting/flarum-dependency-collector)
+
+
+Alle Änderungen: [1.25.25...1.25.26](https://github.com/flarum-lang/german/compare/1.25.25...1.25.26).
+
+
 1.25.25 (2026-08-05)
 --------------------
 
