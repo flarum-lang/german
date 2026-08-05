@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+1.25.25 (2026-08-05)
+--------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks)
+* [`linkrobins/discussion-banners`](https://github.com/linkrobins/flarum-discussion-banners)
+* [`shebaoting/flarum-dependency-collector`](https://github.com/shebaoting/flarum-dependency-collector)
+
+
+Alle Änderungen: [1.25.24...1.25.25](https://github.com/flarum-lang/german/compare/1.25.24...1.25.25).
+
+
 1.25.24 (2026-08-03)
 --------------------
 
