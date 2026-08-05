@@ -11,9 +11,18 @@ ramon-verified:
       request_button: 'Verifizierung beantragen'
       verified_label: 'Dein Konto wurde verifiziert'
       verified_sublabel: 'Deine Identität wurde von einem Administrator bestätigt.'
+    user_controls:
+      revoke_button: 'Verifizierung widerrufen'
+      verify_button: 'Benutzer verifizieren'
+      verify_success: 'Benutzer wurde verifiziert.'
   lib:
+    errors:
+      clipboard: 'Kopieren in die Zwischenablage fehlgeschlagen.'
+      generic: 'Es ist ein Fehler aufgetreten. Bitte versuche es erneut.'
+      network: 'Netzwerkfehler. Überprüfe deine Verbindung und versuche es erneut.'
     popover:
       headline: 'Dieses Konto verfügt über eine <strong>verifizierte Identität</strong>.'
+      learn_more: 'Mehr erfahren'
       pill: Verifiziert
       verified_no_date: 'Automatisch verifiziertes Konto'
       verified_on: 'Verifiziert {date}'

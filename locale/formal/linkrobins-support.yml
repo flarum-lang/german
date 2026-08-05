@@ -6,9 +6,21 @@ linkrobins-support:
   admin:
     categories:
       column_name: Name
+      delete_button: Löschen
+      edit_button: Bearbeiten
+      empty: 'Es gibt noch keine Kategorien. Erstelle eine, um loszulegen.'
+      new_button: 'Neue Kategorie'
     category_editor:
       field_name: Name
       submit_update: 'Änderungen speichern'
+    common:
+      loading: Lädt…
+      unknown_error: 'Es ist ein Fehler aufgetreten. Bitte versuche es erneut.'
+    nav:
+      categories: Kategorien
+    permissions:
+      force_delete_tickets: 'Support-Tickets dauerhaft löschen'
+      handle_tickets: 'Support-Tickets bearbeiten'
     settings:
       description: 'Konfiguriere Support-Kategorien und Ratenbegrenzungen für das Ticket-System.'
       title: Support
