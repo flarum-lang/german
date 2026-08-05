@@ -54,5 +54,6 @@ tryhackx-thumb-sliders:
     support:
       button: 'Unterstütze die Entwicklung'
       copy: 'Adresse kopieren'
+      description: 'Wenn du diese Erweiterung nützlich findest, würden wir uns über eine kleine Spende zur Unterstützung ihrer Weiterentwicklung freuen. Jeder Beitrag trägt dazu bei, das Projekt am Leben zu erhalten und weiterzuentwickeln.'
       thanks: 'Vielen Dank für deine Unterstützung!'
       title: 'Unterstütze diese Erweiterung'

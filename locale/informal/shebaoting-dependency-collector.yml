@@ -8,6 +8,7 @@ shebaoting-dependency-collector:
       approve: Genehmigen
       reject: Ablehnen
     modal:
+      edit_tag_title: 'Kategorie bearbeiten - {name}'
       tag_color_label: 'Farbe (z. B.'
       tag_description_label: 'Beschreibung (optional)'
       tag_icon_help: 'Finde Symbole auf <a>Font Awesome</a>.'
