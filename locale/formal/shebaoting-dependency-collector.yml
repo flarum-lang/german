@@ -36,6 +36,7 @@ shebaoting-dependency-collector:
     item:
       delete_button_label: Löschen
       favorite_button_label: 'Als Favorit markieren'
+      pending_approval: 'Genehmigung ausstehend'
       unfavorite_button_label: 'Nicht mehr Favorit'
     list:
       my_favorites_button: 'Meine Favoriten'
