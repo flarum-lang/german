@@ -21,12 +21,20 @@ linkrobins-birdseye:
     digest:
       footer: '— Link Robins Birdseye. Du kannst diesen Überblick jederzeit unter „Admin → Birdseye“ deaktivieren.'
       heading: '{forum} — Woche vom {start} bis {end}'
+      pageviews_label: Seitenaufrufe
       pageviews_line: 'Seitenaufrufe: {count} ({change})'
+      posts_label: Beiträge
       posts_line: 'Beiträge: {count} ({change})'
+      registrations_label: Registrierungen
       registrations_line: 'Registrierungen: {count} ({change})'
+      searches_suffix: '{count} Suchen'
       subject: '{forum} letzte Woche: {visitors} Besucher'
+      top_discussion_label: 'Beliebteste Diskussion'
       top_discussion_line: 'Beliebteste Diskussion: „{title}“ ({views} Aufrufe)'
+      top_search_label: 'Beliebtester Suchbegriff'
       top_search_line: 'Beliebtester Suchbegriff: „{query}“ ({count} Suchen)'
+      views_suffix: '{views} Aufrufe'
+      visitors_label: Besucher
       visitors_line: 'Besucher: {count} ({change})'
   forum:
     session_menu:
@@ -62,7 +70,7 @@ linkrobins-birdseye:
       searches_word: Suchbegriffe
       signups: Registrierungen
       sources: Quellen
-      tags: Top-Tags
+      tags: 'Beliebteste Tags'
       title: Analytik
       today: 'Bis jetzt heute'
       today_note: 'live - wird am Ende des Tages endgültig'

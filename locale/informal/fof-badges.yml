@@ -133,7 +133,7 @@ fof-badges:
       jobs_title: Jobverlauf
       no_automatic_badges: 'Keine automatischen Abzeichen eingerichtet. Erstelle zunächst ein Abzeichen mit Auslösebedingungen.'
       no_revoke_help: 'Wenn aktiviert, behalten Benutzer, die die Kriterien nicht mehr erfüllen, ihre Abzeichen.'
-      no_revoke_label: 'Verliehene Abzeichen nicht zurück genommen'
+      no_revoke_label: 'Verliehene Abzeichen nicht zurücknehmen'
       reapply_actions_help: 'Wenn aktiviert, werden Abzeichen-Aktionen (wie das Hinzufügen zu einer Gruppe) erneut auf Benutzer angewendet, die das Abzeichen bereits haben. Dies ist nützlich, wenn du einem bestehenden Abzeichen neue Aktionen hinzugefügt haben.'
       reapply_actions_label: 'Aktionen bestehenden Abzeichenbesitzern erneut zuweisen'
       show_more: '{count} weitere anzeigen'

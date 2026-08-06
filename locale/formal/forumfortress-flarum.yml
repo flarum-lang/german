@@ -36,7 +36,7 @@ forumfortress-flarum:
       refresh_to_view: 'Zur Anzeige aktualisieren'
       register_site: 'Seite registrieren'
       register_success: 'Seitenregistrierung abgeschlossen.'
-      registration_help: 'Verwende die Registrierung nur, wenn du diese Website mit einem Konto verknüpfst. Im Normalbetrieb erfolgt die Initialisierung automatisch.'
+      registration_help: 'Verwende „Seite registrieren“ nur, wenn du dieses Forum mit einem Konto verknüpfst. Im Normalbetrieb erfolgt die Initialisierung automatisch, und die Portalregistrierung bleibt weiterhin verfügbar.'
       request_failed: 'Forum Fortress konnte die Anfrage nicht ausführen. Überprüfe die Verbindung und versuche es erneut.'
       request_timeout: 'Die Anfrage lief ab, bevor Forum Fortress antwortete.'
       site_id: Seiten-ID
@@ -63,7 +63,7 @@ forumfortress-flarum:
       fail_open_label: 'Anfragen erlauben, auch wenn Forum Fortress nicht verfügbar ist'
       preferred_endpoint_help: 'Wird automatisch ausgefüllt, wenn Bootstrap einen regionalen Endpunkt auswählt.'
       preferred_endpoint_label: 'Bevorzugter Edge-Endpunkt'
-      registration_email_help: 'Wird beim Upgrade der anonymen Website über das Control Panel verwendet.'
+      registration_email_help: 'Für den normalen Betrieb optional. Gib hier nur die E-Mail-Adresse deines Kontos ein, wenn du den Plugin-Ablauf „Register Site“ verwendest; für die Registrierung über das Portal ist dies nicht erforderlich.'
       registration_email_label: 'Zur Registrierung der Seite verwendete E-Mail'
       send_ham_label: 'Wiederhergestellte Beiträge als Ham melden'
       timeout_label: 'Zeitlimit für die Anfrage in Sekunden'
