@@ -8,6 +8,7 @@ CHANGELOG
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`linkrobins/support`](https://github.com/linkrobins/support)
+* [`ramon/chat`](https://github.com/ram0ng1/chat)
 * [`ramon/verified`](https://github.com/ram0ng1/verified)
 * [`shebaoting/flarum-dependency-collector`](https://github.com/shebaoting/flarum-dependency-collector)
 * [`tryhackx/flarum-thumb-sliders`](https://github.com/TryHackX/flarum-thumb-sliders)
