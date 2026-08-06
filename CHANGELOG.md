@@ -7,6 +7,10 @@ CHANGELOG
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
+* [`forumfortress/flarum`](https://github.com/forum-fortress/flarum)
+* [`linkrobins/badge-labels`](https://github.com/linkrobins/flarum-badge-labels)
+* [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye)
 * [`linkrobins/support`](https://github.com/linkrobins/support)
 * [`ramon/chat`](https://github.com/ram0ng1/chat)
 * [`ramon/verified`](https://github.com/ram0ng1/verified)
