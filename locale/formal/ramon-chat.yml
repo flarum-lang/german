@@ -5,16 +5,16 @@
 ramon-chat:
   admin:
     bot:
-      intro: 'Neue Diskussionen in einer verknüpften Kategorie werden im Kanal angekündigt. Wähle aus, unter welchem Namen sie veröffentlicht werden sollen.'
+      intro: 'Neue Diskussionen in einer verknüpften Kategorie werden im Kanal angekündigt. Wähle aus, von welchem Namen sie gesendet werden sollen.'
       remove_upload: 'Bild entfernen'
       title: Ankündiger
       upload: 'Bild hochladen'
       upload_failed: 'Das Bild konnte nicht hochgeladen werden.'
       use_bot: 'Stattdessen den Bot verwenden'
-      user_active: 'Ankündigungen werden unter dem Namen dieses Mitglieds veröffentlicht.'
+      user_active: 'Ankündigungen werden unter dem Namen dieses Mitglieds gesendet.'
       user_help: 'Wähle ein Konto aus, und die Ankündigungen werden zu normalen Nachrichten dieses Mitglieds – ohne Bot-Namen, ohne Bild und ohne „BOT“-Kennzeichnung.'
-      user_label: 'Stattdessen als Mitglied veröffentlichen'
-      user_search: 'Mitglieder durchsuchen'
+      user_label: 'Stattdessen als Mitglied senden'
+      user_search: 'Benutzer durchsuchen'
     permissions:
       access_private_channels: 'Private Kanäle sehen und beitreten'
       bypass_slow_mode: 'Langsam-Modus überspringen'
@@ -36,7 +36,7 @@ ramon-chat:
       behaviour_title: Verhalten
       bot_avatar_help: 'Eine URL zum Bild des Bots. Wird das Feld leer gelassen, wird stattdessen dessen Initial angezeigt.'
       bot_avatar_label: Bot-Avatar
-      bot_name_help: 'Der Autor wird bei Nachrichten angezeigt, die der Chat selbst veröffentlicht, wie beispielsweise Ankündigungen zu neuen Diskussionen.'
+      bot_name_help: 'Der Autor wird bei Nachrichten angezeigt, die der Chat selbst sendet, wie beispielsweise Ankündigungen zu neuen Diskussionen.'
       bot_name_label: Botname
       channel_retention_days: 'Kanalaufbewahrung (Tage)'
       channel_retention_help: 'Anzahl der Tage, für die Nachrichten in Kategoriekanälen aufbewahrt werden sollen. Bei 0 werden sie dauerhaft gespeichert.'
@@ -80,15 +80,15 @@ ramon-chat:
       webhook_new: 'Neuer eingehender Webhook'
       webhook_regenerate: 'Schlüssel neu erstellen'
       webhook_url: URL
-      webhook_username: 'Veröffentlichen als'
-      webhooks_help: 'Slack-kompatible Endpunkte, die Nachrichten in einen Kanal veröffentlichen.'
+      webhook_username: 'Senden als'
+      webhooks_help: 'Slack-kompatible Endpunkte, die Nachrichten in einen Kanal senden.'
       webhooks_title: 'Eingehende Webhooks'
     webhooks:
       active: Aktiv
       create: 'Webhook erstellen'
       delete: Löschen
       delete_confirm: 'Diesen Webhook löschen? Alle Dienste, die dessen URL verwenden, funktionieren dann nicht mehr.'
-      deliveries: '{count} Zustellungen'
+      deliveries: '{count, plural, one {# Zustellung} other {# Zustellungen}}'
       empty: 'Noch keine Webhooks.'
       failed: 'Diese Änderung konnte nicht gespeichert werden.'
       help: 'Ein externer Dienst kann über eine geheime URL eine Nachricht per POST an einen Kanal senden. Die URL wird einmalig angezeigt, und zwar bei ihrer Erstellung oder bei einer Rotation.'
@@ -106,7 +106,7 @@ ramon-chat:
     channel_not_found: 'Dieser Kanal existiert nicht oder du hast keinen Zugriff darauf.'
     direct_channel_self: 'Nur du'
     direct_needs_participant: 'Wähle mindestens eine Person aus, der du eine Nachricht senden möchtest.'
-    direct_too_many: 'Ein Gruppenchat kann höchstens {max} Teilnehmer haben.'
+    direct_too_many: '{max, plural, one {Ein Gruppenchat kann höchstens # Teilnehmer haben.} other {Ein Gruppenchat kann höchstens # Teilnehmer haben.}}'
     direct_unknown_user: 'Einer dieser Benutzer existiert nicht.'
     flag_detail_required: 'Beschreibe bitte, was an dieser Nachricht nicht stimmt.'
     flag_reason_invalid: 'Das ist kein Grund, aus dem eine Nachricht gemeldet werden kann.'
@@ -114,21 +114,21 @@ ramon-chat:
     invalid_reaction: 'Dies ist keine gültige Emoji-Reaktion.'
     invalid_reply_target: 'Du kannst nicht auf eine Nachricht aus einem anderen Kanal antworten.'
     invalid_thread_target: 'Dieser Thread gehört nicht zu diesem Kanal.'
-    members_empty: 'Wähle mindestens eine Person aus, die du hinzufügen möchtest.'
-    members_too_many: 'Du kannst höchstens {max} Personen auf einmal hinzufügen.'
+    members_empty: 'Wähle mindestens einen Benutzer aus, den du hinzufügen möchtest.'
+    members_too_many: '{max, plural, one {Du kannst höchstens # Benutzer auf einmal hinzufügen.} other {Du kannst höchstens # Benutzer auf einmal hinzufügen.}}'
     message_empty: 'Du kannst keine leere Nachricht senden.'
     message_too_long: 'Nachrichten dürfen nicht länger als {max} Zeichen sein.'
     message_too_short: 'Nachrichten müssen mindestens {min} Zeichen lang sein.'
     move_empty: 'Es wurden keine Nachrichten ausgewählt, oder sie befinden sich bereits in diesem Kanal.'
     move_target_frozen: 'Du kannst keine Nachrichten in einen geschlossenen oder archivierten Kanal verschieben.'
-    move_too_many: 'Du kannst höchstens {max} Nachrichten auf einmal verschieben.'
+    move_too_many: '{max, plural, one {Du kannst höchstens # Nachrichten auf einmal verschieben.} other {Du kannst höchstens # Nachrichten auf einmal verschieben.}}'
     not_a_member: 'Dieser Benutzer ist nicht in diesem Kanal.'
     rate_limited: 'Du sendest zu schnell Nachrichten. Bitte mach etwas langsamer.'
-    slow_mode_wait: 'In diesem Kanal ist der Langsam-Modus aktiviert. Du kannst in {seconds} Sekunden erneut schreiben.'
+    slow_mode_wait: 'In diesem Kanal ist der Langsam-Modus aktiviert. Du kannst in {seconds} Sekunden erneut eine Nachricht senden.'
     stickers_not_allowed: 'Du darfst keine Sticker verschicken.'
     threading_disabled: 'Threads sind in diesem Kanal nicht aktiviert.'
     transcript_empty: 'Es wurden keine Nachrichten ausgewählt, oder du kannst sie nicht lesen.'
-    transcript_too_many: 'Du kannst höchstens {max} Nachrichten gleichzeitig zitieren.'
+    transcript_too_many: '{max, plural, one {Du kannst höchstens # Nachrichten gleichzeitig zitieren.} other {Du kannst höchstens # Nachrichten gleichzeitig zitieren.}}'
     upload_missing: 'Keine Datei wurde hochgeladen.'
     upload_too_large: 'Diese Datei ist zu groß.'
     upload_unsupported: 'Nicht unterstützter Dateityp: {type}'
@@ -147,13 +147,13 @@ ramon-chat:
       unknown_author: Jemand
   forum:
     add_members:
-      added: '{count} wurden dem Kanal hinzugefügt.'
+      added: '{count, plural, one {# wurde dem Kanal hinzugefügt.} other {# wurden dem Kanal hinzugefügt.}}'
       deselect: '{username} aus der Auswahl entfernen'
       empty: 'Es wurde niemand gefunden, oder alle passenden Benutzer sind bereits hier.'
       failed: 'Diese Benutzer konnten nicht hinzugefügt werden.'
       hint: 'Gib mindestens zwei Buchstaben ein, um jemanden zu finden.'
       search_failed: 'Diese Benutzer konnten derzeit nicht durchsucht werden.'
-      search_placeholder: 'Benutzer nach Namen suchen'
+      search_placeholder: 'Benutzer suchen'
       searching: Suchen…
       submit: Hinzufügen
       submit_count: '{count} hinzufügen'
@@ -177,7 +177,7 @@ ramon-chat:
       filter_open: Offen
       joined: Beigetreten
       load_failed: 'Die Kanalliste konnte nicht geladen werden.'
-      messages: '{count} Nachrichten'
+      messages: '{count, plural, one {# Nachricht} other {# Nachrichten}}'
       new_channel: 'Neuer Kanal'
       no_description: 'Keine Beschreibung.'
       open: Öffnen
@@ -199,8 +199,8 @@ ramon-chat:
       leave: 'Kanal verlassen'
       leave_confirm: 'Diesen Kanal verlassen? Du kannst später wieder beitreten, und dein Verlauf bleibt erhalten.'
       leave_failed: 'Der Kanal konnte nicht verlassen werden.'
-      members: '{count} Mitglieder'
-      moderators_only: 'Nur Moderatoren dürfen in diesem Kanal Beiträge verfassen.'
+      members: '{count, plural, one {# Mitglied} other {# Mitglieder}}'
+      moderators_only: 'Nur Moderatoren dürfen in diesem Kanal Nachrichten verfassen.'
       muted: Stummgeschaltet
       no_messages: 'Noch keine Nachrichten. Schreib etwas.'
       no_pinned_messages: 'Dieser Kanal hat keine angehefteten Nachrichten.'
@@ -299,6 +299,7 @@ ramon-chat:
       auto_join_on_reply_help_none: 'Wird nur dann ausgeführt, wenn der Kanal einer Kategorie zugeordnet ist.'
       category: Kategorie
       close_channel: 'Kanal schließen'
+      composer: Composer
       delete_channel: 'Kanal löschen'
       delete_confirm: 'Das Löschen eines Kanals kann nicht rückgängig gemacht werden. Möchtest du ihn trotzdem löschen?'
       description: Beschreibung
@@ -321,6 +322,11 @@ ramon-chat:
       remove_member_confirm: '{username} aus diesem Kanal entfernen?'
       reopen_channel: 'Kanal wieder öffnen'
       save_failed: 'Änderung konnte nicht gespeichert werden.'
+      send_key: 'Eine Nachricht senden'
+      send_key_ctrl: 'Strg+Eingabetaste schickt ab'
+      send_key_enter: 'Eingabetaste sendet'
+      send_key_help_ctrl: 'Mit Strg+Eingabetaste (Cmd+Eingabetaste unter macOS) wird deine Nachricht gesendet, und mit der Eingabetaste wird eine neue Zeile begonnen. Gilt in jedem Kanal.'
+      send_key_help_enter: 'Mit der Eingabetaste wird deine Nachricht gesendet, mit Umschalt+Eingabetaste wird eine neue Zeile begonnen. Gilt für alle Kanäle.'
       tab_members: Mitglieder
       tab_settings: Einstellungen
       threading: 'Threads aktivieren'
@@ -357,6 +363,8 @@ ramon-chat:
       remove_bookmark: 'Lesezeichen entfernen'
       reply: Antworten
       reply_in_thread: 'Im Thread antworten'
+      reply_jump: 'Zur ursprünglichen Nachricht'
+      reply_not_loaded: 'Diese Nachricht wurde noch nicht geladen – scrolle nach oben, um sie zu sehen.'
       replying_to: 'Antwort an {username}'
       restore: Wiederherstellen
       select: Auswählen
@@ -373,13 +381,13 @@ ramon-chat:
       unpin: 'Nachricht nicht mehr anheften'
     nav:
       chat: Chat
-      unread_channels: '{count} Kanäle mit ungelesenen Nachrichten'
-      unread_mentions: '{count} ungelesene Erwähnungen'
-      unread_messages: '{count} ungelesene Nachrichten'
+      unread_channels: '{count, plural, one {# Kanal mit ungelesenen Nachrichten} other {# Kanäle mit ungelesenen Nachrichten}}'
+      unread_mentions: '{count, plural, one {# ungelesene Erwähnung} other {# ungelesene Erwähnungen}}'
+      unread_messages: '{count, plural, one {# ungelesene Nachricht} other {# ungelesene Nachrichten}}'
     new_channel:
       cancel: Abbrechen
       category: Kategorie
-      category_help_bound: 'Der Kanal übernimmt die Berechtigungen von {category}: Nur Personen, die diese Kategorie sehen können, können auch diesen Kanal sehen.'
+      category_help_bound: 'Der Kanal übernimmt die Berechtigungen von {category}: Nur Benutzer, die diese Kategorie sehen können, können auch diesen Kanal sehen.'
       category_help_none: 'Der Kanal ist für das gesamte Forum zugänglich. Jeder, der den Chat nutzen kann, kann ihn sehen.'
       channel_wide_mentions_help: 'Ermöglicht es Mitgliedern, mit @channel und @here alle gleichzeitig zu benachrichtigen.'
       description: Beschreibung
@@ -396,20 +404,20 @@ ramon-chat:
       image_remove: 'Bild entfernen'
       image_upload: 'Bild hochladen'
       message_length: Nachrichtenlänge
-      message_length_chars: '{count} Zeichen'
+      message_length_chars: '{count, plural, one {# Zeichen} other {# Zeichen}}'
       message_length_custom: Benutzerdefiniert…
-      message_length_help_clamped: 'Außerhalb des zulässigen Bereichs – dies wird als {count} Zeichen gespeichert.'
-      message_length_help_empty: 'Lasse dieses Feld leer, um die Forum-Standardeinstellung von {count} Zeichen zu übernehmen.'
-      message_length_help_inherit: 'Nachrichten können hier bis zu {count} Zeichen lang sein, genau wie im restlichen Forum. Wenn du die Forumseinstellung änderst, wird diese Änderung auch auf diesen Kanal angewandt.'
-      message_length_help_own: 'Beiträge können hier bis zu {count} Zeichen lang sein, unabhängig davon, was im restlichen Forum zulässig ist.'
-      message_length_inherit: 'Forumstandard ({count} Zeichen)'
+      message_length_help_clamped: '{count, plural, one {Außerhalb des zulässigen Bereichs – dies wird als # Zeichen gespeichert.} other {Außerhalb des zulässigen Bereichs – dies wird als # Zeichen gespeichert.}}'
+      message_length_help_empty: '{count, plural, one {Lasse dieses Feld leer, um die Forum-Standardeinstellung von # Zeichen zu übernehmen.} other {Lasse dieses Feld leer, um die Forum-Standardeinstellung von # Zeichen zu übernehmen.}}'
+      message_length_help_inherit: '{count, plural, one {Nachrichten können hier bis zu # Zeichen lang sein, genau wie im restlichen Forum.} other {Nachrichten können hier bis zu # Zeichen lang sein, genau wie im restlichen Forum.}} Wenn du die Forumseinstellung änderst, wird diese Änderung auch auf diesen Kanal angewandt.'
+      message_length_help_own: '{count, plural, one {Beiträge können hier bis zu # Zeichen lang sein, unabhängig davon, was im restlichen Forum zulässig ist.} other {Beiträge können hier bis zu # Zeichen lang sein, unabhängig davon, was im restlichen Forum zulässig ist.}}'
+      message_length_inherit: '{count, plural, one {Forumstandard (# Zeichen)} other {Forumstandard (# Zeichen)}}'
       name: Kanalname
       name_placeholder: 'z. B. Allgemein'
       no_category: 'Keine Kategorie (gesamtes Forum)'
       post_all: 'Jeder im Kanal'
       post_all_help: 'Jedes Mitglied des Kanals kann Nachrichten senden.'
       post_moderators: 'Nur Moderatoren'
-      post_moderators_help: 'Der Kanal ist ein Schwarzes Brett – jeder kann lesen, nur Moderatoren können Nachrichten verfassen.'
+      post_moderators_help: 'Der Kanal ist ein Schwarzes Brett – jeder kann lesen, nur Moderatoren können Nachrichten senden.'
       post_permission: 'Wer kann Nachrichten senden'
       private: Privat
       private_help: 'Nur auf Einladung. Er erscheint nicht im Verzeichnis und ist nur für Mitglieder sichtbar.'
@@ -448,8 +456,8 @@ ramon-chat:
       count: '{count} ausgewählt'
       failed: 'Diese Aktion konnte nicht abgeschlossen werden.'
       move_to: 'Verschieben zu…'
-      moved: '{count} Nachrichten verschoben.'
-      omitted: '{count} Nachrichten wurden ausgelassen, da du diese nicht lesen kannst.'
+      moved: '{count, plural, one {# Nachricht verschoben.} other {# Nachrichten verschoben.}}'
+      omitted: '{count, plural, one {# Nachricht wurden ausgelassen, da du diese nicht lesen kannst.} other {# Nachrichten wurden ausgelassen, da du diese nicht lesen kannst.}}'
     settings:
       channel_wide_mentions: 'Benachrichtige mich bei @here und @all'
       email_notifications: 'Schick mir eine E-Mail bezüglich Erwähnungen im Chat'
@@ -480,7 +488,7 @@ ramon-chat:
       close: 'Thread-Panel schließen'
       no_replies: 'Noch keine Antworten. Sei der Erste.'
       no_threads: 'Du folgst keinen Threads.'
-      replies: '{count} Antworten'
+      replies: '{count, plural, one {# Antwort} other {# Antworten}}'
       set_title: 'Threadtitel festlegen'
       title: Thread
       tracking: Benachrichtigungen
@@ -490,7 +498,7 @@ ramon-chat:
       untitled: 'Thread ohne Titel'
     typing:
       one: '{username} schreibt gerade…'
-      several: '{count} Benutzer schreiben gerade…'
+      several: '{count, plural, one {# Benutzer schreibt gerade…} other {# Benutzer schreiben gerade…}}'
     user_controls:
       start_chat: 'Nachricht senden'
       start_chat_failed: 'Der Chat konnte nicht gestartet werden.'
