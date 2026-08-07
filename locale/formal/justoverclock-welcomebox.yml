@@ -9,7 +9,7 @@ flarum-ext-welcomebox:
     img: 'Bild-URL (Gastbox)'
     img-help: 'Gib hier die URL des Bildes für die Gästebox ein'
   forum:
-    SettingsLink: Einstellugnen
+    SettingsLink: Einstellungen
     discussion: '=> core.ref.discussions'
     goToProfile: Profil
     lastSeen: 'Letzter Besuch'
