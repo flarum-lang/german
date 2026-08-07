@@ -12,6 +12,7 @@ CHANGELOG
 * [`linkrobins/badge-labels`](https://github.com/linkrobins/flarum-badge-labels)
 * [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye)
 * [`linkrobins/support`](https://github.com/linkrobins/support)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado)
 * [`ramon/chat`](https://github.com/ram0ng1/chat)
 * [`ramon/verified`](https://github.com/ram0ng1/verified)
 * [`shebaoting/flarum-dependency-collector`](https://github.com/shebaoting/flarum-dependency-collector)
