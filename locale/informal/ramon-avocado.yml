@@ -34,6 +34,10 @@ ramon-avocado:
       auth_image_label: 'Bild im Anmeldefenster'
       banner_image_help: 'Lade das Bannerbild hoch, das oben im Forum angezeigt wird.'
       banner_image_label: Bannerbild
+      bookmarks_enabled_help: 'Die Schaltfläche „Merken“ auf Karten, die Seite „Gemerkt“, Notizen, Erinnerungen und Erinnerungsbenachrichtigungen. Wenn du diese Funktion deaktivierst, wird alles ausgeblendet und die API-Endpunkte werden deaktiviert; gespeicherte Daten bleiben erhalten.'
+      bookmarks_enabled_label: 'Lesezeichen-System aktivieren'
+      cakeday_enabled_help: 'Zeige am Jahrestag der Kontoanmeldung ein 🎂 neben dem Benutzernamen an (Thread-Karten, Beiträge und Benutzerkarte).'
+      cakeday_enabled_label: 'Abzeichen zum Konto-Jubiläum anzeigen'
       categories_heading_label: 'Titel für Kategorien-Abschnitt'
       colored_border_style_full: 'Umlaufender Rahmen'
       colored_border_style_help: 'Füge den Diskussionskarten einen farbigen Rand hinzu, der der Farbe des Haupt-Themas entspricht.'
@@ -42,6 +46,8 @@ ramon-avocado:
       colored_border_style_none: Keinen
       colored_enabled_help: 'Wende die Farbe für das aktive Tag oder der Diskussionen auf die wichtigsten Schaltflächen, Links und andere UI-Akzente im gesamten Forum an.'
       colored_enabled_label: 'Farbakzente aktivieren'
+      custom_auth_modal_help: 'Zeige das benutzerdefinierte Design des Seitenbereichs in den Modalen „Anmelden“, „Registrieren“ und „Passwort vergessen“ an. Deaktiviere diese Option, um das Standard-Modal von Flarum zu verwenden.'
+      custom_auth_modal_label: 'Benutzerdefiniertes Fenster für Anmeldung & Registrierung verwenden'
       custom_default_avatar_help: 'Lade ein benutzerdefiniertes Standard-Avatarbild für Benutzer hoch, die keinen Avatar haben.'
       custom_default_avatar_label: 'Benutzerdefinierter Standard-Avatar'
       custom_hero_enabled_help: 'Ersetze den Standardinhalt des Hero-Bereichs (Symbol, Titel, Beschreibung, Schaltflächen „Anmelden“/„Registrieren“) durch deinen eigenen HTML-Code. Der Rahmen des Hero-Banners, das Hintergrundbild und die Überlagerung bleiben unverändert. Wird nur Gästen angezeigt – genau wie der Standard-Hero-Bereich.'
@@ -50,6 +56,10 @@ ramon-avocado:
       custom_hero_html_label: 'Benutzerdefiniertes Hero-HTML'
       custom_loading_spinner_help: 'Ersetze die standardmäßige Lade-Animation durch einen animierten SVG-Lade-Spinner.'
       custom_loading_spinner_label: 'Benutzerdefinierte Lade-Animation'
+      disc_style_default: Standard
+      disc_style_editorial: 'Redaktionell (dünner Strich)'
+      disc_style_help: "Standardmäßig wird die aktuelle Seite angezeigt. Im redaktionellen Modus wird die Lesespalte verbreitert und die Konversation durch einen hauchdünnen Strich entlang der Avatar-Spalte verlaufend dargestellt, wobei jeder Avatar als Knotenpunkt darauf sitzt und jede Zeitlücke zu einer beschrifteten Station wird. Die Kopfzeile ist in beiden Modi identisch. Nur auf dem Desktop – auf Smartphones und Tablets bleibt in beiden Fällen die aktuelle Seite angezeigt.\n"
+      disc_style_label: 'Stil der Diskussionsseite'
       featured_tags_empty: 'Keine Tags gefunden.'
       featured_tags_help: 'Ausgewählte Kategorien werden auf der Startseite und der Kategorieseite mit einem Sternsymbol hervorgehoben.'
       featured_tags_label: 'Hervorgehobene Kategorien'
@@ -80,6 +90,13 @@ ramon-avocado:
       logo_svg_help: 'Lade ein benutzerdefiniertes SVG-Logo für dein Forum hoch.'
       logo_svg_label: SVG-Logo
       popular_heading_label: 'Titel für Beliebte Diskussionen'
+      post_badge_position_below: 'Unter dem Benutzername (eigene Zeile)'
+      post_badge_position_default: 'Flarum Standard (aus — Scheibe über dem Avatar)'
+      post_badge_position_help: "Die Position der Gruppenabzeichen eines Mitglieds in einem Beitrag. Die erste Option deaktiviert das benutzerdefinierte Abzeichen: Es wird wieder das runde Flarum-Abzeichen angezeigt, das den Avatar überlagert. Alle anderen Optionen wandeln jedes Abzeichen in eine Kapsel um, in der der Gruppenname neben dem Symbol steht. Funktioniert unabhängig davon, ob der „Fixierter Avatar“-Effekt aktiviert oder deaktiviert ist. Auf Mobilgeräten wird immer die kompakte Überlagerung angezeigt.\n"
+      post_badge_position_inline: 'Neben dem Benutzername'
+      post_badge_position_label: 'Position von Gruppenabzeichen in Beiträgen'
+      post_badge_position_side: 'Unter dem Avatar (linke Spalte)'
+      post_badge_position_side_icons: 'Unter dem Avatar — Nur Symbole, nebeneinander'
       post_cta_position_1: 'Nach Beitrag #1'
       post_cta_position_2: 'Nach Beitrag #2'
       post_cta_position_3: 'Nach Beitrag #3'
@@ -87,10 +104,15 @@ ramon-avocado:
       post_cta_position_5: 'Nach Beitrag #5'
       post_cta_position_help: 'Fügt den Aufruf zum Beitritt zwischen dieser Beitragsnummer und dem nächsten ein.'
       post_cta_position_label: 'Position des Beitrittsaufrufs (nach welcher Beitragsnummer)'
+      presence_enabled_help: 'Live-Anzeige „Wird gerade gelesen“ im Diskussions-Hero mit Avataren der Leser. Erfordert die Erweiterung „Realtime“; Nutzer, bei denen die Option „Online anzeigen“ deaktiviert ist, werden niemals aufgeführt.'
+      presence_enabled_label: 'Anzeigen, wer eine Diskussion liest'
       search_v1_help: 'Zeige das Dropdown-Menü für die Inline-Suche anstelle des V2-Modals an.'
       search_v1_label: 'Suchleistenstil „V1“ aktivieren'
       section_auth: 'Anmeldung und Registrierung'
+      section_bookmarks: Lesezeichen
+      section_cakeday: Kuchentag
       section_colored: Colored
+      section_discussion: Diskussionsseite
       section_footer: Fußzeile
       section_hero_image_tags: 'Titelbild für Diskussionen'
       section_homepage: Homepage
@@ -100,6 +122,7 @@ ramon-avocado:
       section_team: Teamseite
       section_titles_heading: Abschnitttitel
       section_titles_help: 'Überschreibe die Titel der Abschnitte auf der Startseite. Lasse ein Feld leer, um die Standardeinstellung des Sprachpakets zu verwenden.'
+      section_user_card: Benutzerkarte
       show_action_icons_help: 'Zeige Font Awesome-Symbole auf den Aktionsschaltflächen „Gefällt mir“ und „Antworten“ an.'
       show_action_icons_label: 'Symbole auf den Schaltflächen „Gefällt mir“ und „Antworten“ anzeigen'
       show_auth_buttons_help: 'Zeige für Gäste die Schaltflächen „Anmelden“ und „Registrieren“ in der sekundären Kopfzeilen-Navigation an.'
@@ -140,17 +163,36 @@ ramon-avocado:
       team_title_placeholder: 'Unser Team'
       threads_style_help: 'Zeige den Startbeitrag als Karte an und rücke die Antworten mit einem linken Rand ein, wie in der Threads-App.'
       threads_style_label: 'Diskussionslayout im Stil von Threads aktivieren'
+      user_card_enabled_help: 'Zeige ein Mini-Profil im Discourse-Stil (Biografie, Abzeichen, Statistiken, Aktionen) an, wenn der Mauszeiger über Avatare und Benutzernamen geführt wird.'
+      user_card_enabled_label: 'Die Hover-Karte für Benutzer aktivieren'
   forum:
     actions:
       share: Teilen
     back: Zurück
     bookmarks:
+      edit: 'Lesezeichen bearbeiten'
       empty: 'Du hast noch keine Diskussionen gespeichert.'
       guest_prompt: 'Melde dich an, um Diskussionen zu speichern und sie später hier wiederzufinden.'
+      modal_cancel: Abbrechen
+      modal_save: Speichern
+      modal_title: Lesezeichen
+      note_label: Notiz
+      note_placeholder: 'Warum speicherst du das? (optional)'
+      reminder_custom: 'Datum & Uhrzeit auswählen'
+      reminder_label: 'Erinnere mich'
+      reminder_later: 'Später heute (in 4 Stunden)'
+      reminder_none: 'Keine Erinnerung'
+      reminder_tomorrow: 'Morgen früh'
+      reminder_week: 'Nächste Woche'
       save: Speichern
       title: Gespeichert
       toggle_error: 'Deine gespeicherte Liste konnte nicht aktualisiert werden. Bitte versuche es erneut.'
       unsave: 'Aus den Favoriten entfernen'
+      update_error: 'Lesezeichen konnte nicht aktualisiert werden. Bitte versuche es erneut.'
+    cakeday:
+      aria: Konto-Jubiläum
+      tooltip_plural: 'Konto-Jubiläum – heute seit {years} Jahren dabei!'
+      tooltip_singular: 'Konto-Jubiläum – heute seit einem Jahr dabei!'
     discussion:
       hero_image_add: 'Bild hinzufügen'
       hero_image_remove: 'Bild entfernen'
@@ -208,6 +250,8 @@ ramon-avocado:
       log_in: Anmelden
       more: mehr
       nav_label: Navigation
+      nav_more: Mehr
+      nav_more_label: 'Weitere Navigationslinks anzeigen'
       new_discussion: 'Neue Diskussion'
       no_tags_found: 'Keine Tags gefunden'
       or: oder
@@ -246,6 +290,8 @@ ramon-avocado:
     post_cta:
       or: oder
       text: 'Gefällt dir, was du siehst? Steig in die Diskussion ein!'
+    presence:
+      reading_now: '{count} lesen gerade'
     profile:
       joined: 'Beigetreten {date}'
       member_since: 'Mitglied seit {date}'
@@ -312,3 +358,11 @@ ramon-avocado:
       mentions_empty: 'Noch keine Erwähnungen.'
       online: Online
       posts_empty: 'Noch keine Beiträge.'
+    user_card:
+      discussions: Diskussionen
+      joined_label: Beigetreten
+      last_seen: 'Zuletzt gesehen {time}'
+      message: Nachricht
+      online: Online
+      posts: Beiträge
+      view_profile: 'Profil anzeigen'

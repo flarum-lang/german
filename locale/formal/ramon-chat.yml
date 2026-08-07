@@ -105,7 +105,7 @@ ramon-chat:
     cannot_remove_self: 'Benutze „Kanal verlassen“, um dich selbst zu entfernen.'
     channel_not_found: 'Dieser Kanal existiert nicht oder du hast keinen Zugriff darauf.'
     direct_channel_self: 'Nur du'
-    direct_needs_participant: 'Wähle mindestens eine Person aus, der du eine Nachricht senden möchtest.'
+    direct_needs_participant: 'Wähle mindestens einen Benutzer aus, dem du eine Nachricht senden möchtest.'
     direct_too_many: '{max, plural, one {Ein Gruppenchat kann höchstens # Teilnehmer haben.} other {Ein Gruppenchat kann höchstens # Teilnehmer haben.}}'
     direct_unknown_user: 'Einer dieser Benutzer existiert nicht.'
     flag_detail_required: 'Beschreibe bitte, was an dieser Nachricht nicht stimmt.'
@@ -152,7 +152,7 @@ ramon-chat:
       empty: 'Es wurde niemand gefunden, oder alle passenden Benutzer sind bereits hier.'
       failed: 'Diese Benutzer konnten nicht hinzugefügt werden.'
       hint: 'Gib mindestens zwei Buchstaben ein, um jemanden zu finden.'
-      search_failed: 'Diese Benutzer konnten derzeit nicht durchsucht werden.'
+      search_failed: 'Benutzer konnten derzeit nicht durchsucht werden.'
       search_placeholder: 'Benutzer suchen'
       searching: Suchen…
       submit: Hinzufügen
@@ -418,7 +418,7 @@ ramon-chat:
       post_all_help: 'Jedes Mitglied des Kanals kann Nachrichten senden.'
       post_moderators: 'Nur Moderatoren'
       post_moderators_help: 'Der Kanal ist ein Schwarzes Brett – jeder kann lesen, nur Moderatoren können Nachrichten senden.'
-      post_permission: 'Wer kann Nachrichten senden'
+      post_permission: 'Wer darf Nachrichten senden'
       private: Privat
       private_help: 'Nur auf Einladung. Er erscheint nicht im Verzeichnis und ist nur für Mitglieder sichtbar.'
       public: Öffentlich
