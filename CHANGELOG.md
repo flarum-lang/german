@@ -5,10 +5,16 @@ CHANGELOG
 2.0.13 (XXXX-XX-XX)
 -------------------
 
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`huoxin/money-with-history`](https://github.com/huoxin233/flarum-ext-money-with-history)
+
+
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
 * [`forumfortress/flarum`](https://github.com/forum-fortress/flarum)
+* [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox)
 * [`linkrobins/badge-labels`](https://github.com/linkrobins/flarum-badge-labels)
 * [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye)
 * [`linkrobins/support`](https://github.com/linkrobins/support)
