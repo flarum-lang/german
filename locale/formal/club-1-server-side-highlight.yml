@@ -4,4 +4,9 @@
 
 club-1-server-side-highlight:
   admin:
-    light_theme_bg_color: 'Hintergrundfarbe des hellen Designs'
+    dark_theme_bg_color: 'Hintergrundfarbe dunkles Design'
+    dark_theme_highlight_theme: 'Hervorhebungsfarbe dunkles Design'
+    dark_theme_text_color: 'Textfarbe dunkles Design'
+    light_theme_bg_color: 'Hintergrundfarbe helles Design'
+    light_theme_highlight_theme: 'Hervorhebungsfarbe helles Design'
+    light_theme_text_color: 'Textfarbe helles Design'

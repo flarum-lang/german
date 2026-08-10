@@ -547,6 +547,7 @@ core:
       dismiss_a11y_label: 'Warnung schließen'
     badge:
       hidden_tooltip: Versteckt
+    connection_restored_message: 'Ihre Verbindung wurde wiederhergestellt.'
     data_segment:
       label: '{label}:'
     datetime_formats:
@@ -576,7 +577,9 @@ core:
       generic_cross_origin_message: 'Es tut uns leid! Bei einer Cross-Origin-Anfrage ist ein Problem aufgetreten. Bitte laden Sie die Seite neu und versuchen Sie es erneut.'
       generic_message: 'Es tut uns leid! Es ist ein Fehler aufgetreten. Bitte laden Sie die Seite neu und versuchen Sie es erneut.'
       missing_dependencies_message: 'Die Erweiterung {extension} kann nicht aktiviert werden, bis die folgenden abhängigen Erweiterungen aktiviert wurden: {extensions}'
+      network_message: 'Mit Ihrer Verbindung scheint etwas nicht zu stimmen. Bitte überprüfen Sie Ihre Netzwerkverbindung und versuchen Sie es erneut.'
       not_found_message: 'Leider wurde nichts gefunden.'
+      offline_message: 'Sie scheinen offline zu sein. Bitte überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.'
       payload_too_large_message: 'Die Datenmenge der Anfrage war zu groß.'
       permission_denied_message: 'Sie haben keine Berechtigung, dies zu tun.'
       rate_limit_exceeded_message: 'Bitte nicht so schnell. Versuchen Sie es in Kürze erneut.'
