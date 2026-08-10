@@ -47,7 +47,14 @@ tryhackx-homepage-blocks:
       points_costs_header: Aktionskosten
       random_buttons: 'Konfiguration der Zufalls-Schaltfläche (JSON)'
       random_buttons_help: 'JSON-Array mit den Eigenschaften „label“ und „tag“. Das Format des Platzhalters dient als Beispiel.'
+      ratelimit_block_header: 'Wenn die Punkte aufgebraucht sind → vorübergehende IP-Sperre'
       ratelimit_guest_extra: 'Extrakosten für Gäste'
+      ratelimit_refill_amount: Nachfüllmenge
+      ratelimit_refill_amount_help: 'Wie viele Punkte pro Intervall hinzugefügt werden. Standardwert: 1'
+      ratelimit_refill_seconds: 'Nachfüllintervall (Sekunden)'
+      ratelimit_refill_seconds_help: 'Wie oft werden +N Punkte wieder gutgeschrieben? Standard: 15 s'
+      ratelimit_start: 'Punkte zum Start'
+      ratelimit_start_help: 'Punkte, die jedem Besucher zu Beginn gutgeschrieben werden. Standardwert: 10'
       recaptcha_enabled: 'reCAPTCHA aktivieren'
       recaptcha_on_external_stats: 'reCAPTCHA für externe Statistiken erfordern'
       recaptcha_on_random: 'reCAPTCHA für zufällige Schaltflächen erfordern'
