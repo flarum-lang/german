@@ -8,6 +8,8 @@ CHANGELOG
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
 * [`huoxin/money-with-history`](https://github.com/huoxin233/flarum-ext-money-with-history)
+* [`lcoy/cipher`](https://github.com/Lcoy2004/Flarum-cipher)
+* [`linkrobins/flarum-chirp`](https://github.com/linkrobins/chirp)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
