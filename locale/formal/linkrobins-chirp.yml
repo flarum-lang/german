@@ -4,6 +4,30 @@
 
 linkrobins-chirp:
   admin:
+    appearance_forum: Flarum
+    appearance_label: Akzentfarben
+    channels_add: Zuweisen
+    channels_placeholder: 'Diskussionen suchen…'
+    channels_remove: Entfernen
+    keys_add: 'Einen weiteren Schlüssel hinzufügen'
     keys_placeholder: Kanalschlüssel…
     keys_status_bad: 'Nicht erkannt'
     keys_status_connected: Verbunden
+    service_url_label: Dienst-URL
+  forum:
+    connecting: Verbinden…
+    decline: Ablehnen
+    in_channel: '{count, plural, one {# ist im Kanal} other {# sind im Kanal}}'
+    join_channel: Beitreten
+    leave: Verlassen
+    listeners: '{count, plural, one {# hört zu} other {# hören zu}}'
+    mute: 'Stumm schalten'
+    on_stage: '{count, plural, one {On stage — # Sprecher} other {On stage — # Sprecher}}'
+    participants: Teilnehmer
+    policy_hand_short: 'Hand heben'
+    policy_open_short: Jeder
+    roster_gone: 'Du hast den Raum verlassen.'
+    schedule_cancel: Abbrechen
+    take_mic: Sprechen
+    unmute: 'Stummschaltung aufheben'
+    you: (du)

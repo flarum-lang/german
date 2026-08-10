@@ -36,9 +36,15 @@ ramon-avocado:
       banner_image_label: Bannerbild
       bookmarks_enabled_help: 'Die Schaltfläche „Merken“ auf Karten, die Seite „Gemerkt“, Notizen, Erinnerungen und Erinnerungsbenachrichtigungen. Wenn du diese Funktion deaktivierst, wird alles ausgeblendet und die API-Endpunkte werden deaktiviert; gespeicherte Daten bleiben erhalten.'
       bookmarks_enabled_label: 'Lesezeichen-System aktivieren'
+      bookmarks_fof_notice: '„FoF Bookmarks“ ist aktiviert, sodass Avocado sein eigenes Lesezeichensystem an diese Funktion übergibt: Das Theme zeigt einen einzigen Menüpunkt „Gespeichert“ und eine einzige Schaltfläche zum Speichern an, über die Daten an „FoF Bookmarks“ übertragen werden. Notizen und Erinnerungen sind nicht verfügbar, solange diese Funktion aktiviert ist; Deine in Avocado gespeicherten Daten bleiben erhalten und werden wiederhergestellt, wenn du die Funktion deaktivierst.'
       cakeday_enabled_help: 'Zeige am Jahrestag der Kontoanmeldung ein 🎂 neben dem Benutzernamen an (Thread-Karten, Beiträge und Benutzerkarte).'
       cakeday_enabled_label: 'Abzeichen zum Konto-Jubiläum anzeigen'
       categories_heading_label: 'Titel für Kategorien-Abschnitt'
+      clock_format_12: '12 Stunden(2:30 PM)'
+      clock_format_24: '24 Stunden(14:30)'
+      clock_format_auto: 'Automatisch (Browser des Besuchers)'
+      clock_format_help: 'Wird von Erinnerungsfunktionen verwendet: die Stundenauswahl in „Erinnere mich“ und die auf gespeicherten Karten angezeigte Uhrzeit. Die automatische Einstellung richtet sich nach dem Browser des jeweiligen Besuchers.'
+      clock_format_label: Zeitformat
       colored_border_style_full: 'Umlaufender Rahmen'
       colored_border_style_help: 'Füge den Diskussionskarten einen farbigen Rand hinzu, der der Farbe des Haupt-Themas entspricht.'
       colored_border_style_label: 'Rahmenstil für Diskussionskarten'
@@ -118,6 +124,7 @@ ramon-avocado:
       section_homepage: Homepage
       section_logo: Logo
       section_posts: Beiträge
+      section_presence: Präsenz
       section_search: Suche
       section_team: Teamseite
       section_titles_heading: Abschnitttitel
@@ -172,16 +179,25 @@ ramon-avocado:
     bookmarks:
       edit: 'Lesezeichen bearbeiten'
       empty: 'Du hast noch keine Diskussionen gespeichert.'
+      empty_posts: 'Du hast noch keine Beiträge als Lesezeichen gespeichert.'
       guest_prompt: 'Melde dich an, um Diskussionen zu speichern und sie später hier wiederzufinden.'
       modal_cancel: Abbrechen
       modal_save: Speichern
       modal_title: Lesezeichen
       note_label: Notiz
       note_placeholder: 'Warum speicherst du das? (optional)'
+      reminder_am: Vormittags
       reminder_custom: 'Datum & Uhrzeit auswählen'
+      reminder_date_label: Datum
+      reminder_hour_label: Stunde
+      reminder_invalid: 'Dieses Datum und diese Uhrzeit liegen in der Vergangenheit. Wähle einen Zeitpunkt in der Zukunft aus.'
+      reminder_invalid_date: 'Wähle ein Datum für die Erinnerung aus.'
       reminder_label: 'Erinnere mich'
       reminder_later: 'Später heute (in 4 Stunden)'
+      reminder_meridiem_label: 'Vormittags oder nachmittags'
+      reminder_minute_label: Minute
       reminder_none: 'Keine Erinnerung'
+      reminder_pm: Nachmittags
       reminder_tomorrow: 'Morgen früh'
       reminder_week: 'Nächste Woche'
       save: Speichern
@@ -283,6 +299,8 @@ ramon-avocado:
       placeholder: 'Bitte melde dich an, um den Link anzuzeigen'
     messages:
       deleted_message: 'Nachricht gelöscht'
+    notifications:
+      bookmark_reminder_text: 'Erinnerung an deine gespeicherte Diskussion'
     online_users:
       online: online
     post:
@@ -328,6 +346,8 @@ ramon-avocado:
       tip: 'Tipp: Präfix '
       tip_suffix: ' um nach Tags zu filtern'
       title: Suche
+    settings:
+      notify_bookmark_reminder_label: Lesezeichenerinnerung
     tag_picker:
       remove: 'Tag entfernen'
     tags:

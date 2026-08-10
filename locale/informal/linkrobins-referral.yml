@@ -66,7 +66,7 @@ linkrobins-referral:
     sign_up:
       invite_code_label: Einladungscode
       invite_code_label_required: 'Einladungscode *'
-      invite_code_placeholder: 'z. B. K7XM2QNP'
+      invite_code_placeholder: Einladungscode
     user_card:
       referrals_plural: '{count} Empfehlungen'
       referrals_singular: '{count} Empfehlung'

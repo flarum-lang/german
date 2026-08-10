@@ -8,7 +8,7 @@ tryhackx-homepage-blocks:
     section_general: Allgemein
     section_links: 'Benutzerdefinierte Links'
     section_random: 'Zufällige Filme'
-    section_security: 'Sicherheit (reCAPTCHA)'
+    section_security: Ratenbegrenzung
     section_stats: Tracker-Statistiken
     section_tracker: Tracker-Informationen
     settings:
@@ -36,7 +36,7 @@ tryhackx-homepage-blocks:
       custom_links_url: URL
       external_stats_enabled: 'Statistiken für externe Tracker aktivieren (OpenTracker)'
       external_stats_mode: 'Externe Statistikquelle'
-      external_stats_native_url: 'Direkte OpenTracker-URL (nativ)'
+      external_stats_native_url: 'Direkte OpenTracker-URL'
       external_stats_native_url_help: 'Direkte OpenTracker-Statistik-URL, die XML zurückgibt. Beispiel: http://IP:6969/stats?mode=everything'
       external_stats_refresh: 'Aktualisierungsintervall für externe Statistiken (Sekunden)'
       external_stats_refresh_help: 'Wie oft die Statistiken des externen Trackers aktualisiert werden sollen. Standard: 5 Sekunden.'
@@ -47,6 +47,7 @@ tryhackx-homepage-blocks:
       points_costs_header: Aktionskosten
       random_buttons: 'Konfiguration der Zufalls-Schaltfläche (JSON)'
       random_buttons_help: 'JSON-Array mit den Eigenschaften „label“ und „tag“. Das Format des Platzhalters dient als Beispiel.'
+      ratelimit_guest_extra: 'Extrakosten für Gäste'
       recaptcha_enabled: 'reCAPTCHA aktivieren'
       recaptcha_on_external_stats: 'reCAPTCHA für externe Statistiken erfordern'
       recaptcha_on_random: 'reCAPTCHA für zufällige Schaltflächen erfordern'
@@ -89,8 +90,8 @@ tryhackx-homepage-blocks:
       search_debounce_ms: 'Such-Entprellzeit (ms)'
       search_debounce_ms_help: 'Verzögerung vor dem Auslösen einer Suche während der Eingabe. Höherer Wert = weniger Anfragen. Standard: 500 ms'
       section1_collapsed: 'Abschnitt 1 standardmäßig zusammengeklappt'
-      section1_enabled: 'Abschnitt 1 aktivieren (Zufall & Statistiken)'
-      section1_title: 'Titel für Abschnitt 1 (Zufall & Statistiken)'
+      section1_enabled: 'Abschnitt 1 aktivieren (Tracker & Statistiken)'
+      section1_title: 'Titel für Abschnitt 1 (Tracker & Statistiken)'
       section2_enabled: 'Abschnitt 2 aktivieren (Diskussionslistenkopf & Filter)'
       section2_title: 'Titel für Abschnitt 2 (Diskussionsliste)'
       show_only_used_tags: 'Nur Tags anzeigen, in denen Diskussionen vorhanden sind'
