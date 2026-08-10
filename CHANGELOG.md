@@ -7,9 +7,11 @@ CHANGELOG
 
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
+* [`ernestdefoe/onair`](https://github.com/ernestdefoe/onair)
 * [`huoxin/money-with-history`](https://github.com/huoxin233/flarum-ext-money-with-history)
 * [`lcoy/cipher`](https://github.com/Lcoy2004/Flarum-cipher)
 * [`linkrobins/flarum-chirp`](https://github.com/linkrobins/chirp)
+* [`xxb5724/catch-the-fish`](https://github.com/Xiaoxiaobai5724/catch-the-fish)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
