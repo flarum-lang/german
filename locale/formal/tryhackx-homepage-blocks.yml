@@ -34,7 +34,11 @@ tryhackx-homepage-blocks:
       custom_links_title: 'Titel des Link-Abschnitts'
       custom_links_title_help: 'Optionaler Titel, der über den Links angezeigt wird (zum Beispiel: Nützliche Links). Lasse das Feld leer, um ihn auszublenden.'
       custom_links_url: URL
+      external_stats_cache_ttl: 'Lebensdauer des Statistik-Caches (Sekunden)'
+      external_stats_cache_ttl_help: 'Wie lange abgerufene Statistiken als aktuell gelten. Während dieses Zeitfensters wird der Tracker nicht aufgerufen – alle werden aus dem gemeinsamen Cache bedient. Standard: 30 Sekunden.'
       external_stats_enabled: 'Statistiken für externe Tracker aktivieren (OpenTracker)'
+      external_stats_max_time: 'Maximale Abrufzeit (Sekunden)'
+      external_stats_max_time_help: 'Zeitlimit für einen einzelnen Abruf vom Tracker. Bei einem großen Tracker kann die Berechnung der Statistiken etwa eine Minute dauern – erhöhe diesen Wert, wenn der Ladevorgang nicht abgeschlossen wird. Es wird jeweils nur von einem Worker abgerufen. Standardwert: 30 s.'
       external_stats_mode: 'Externe Statistikquelle'
       external_stats_native_url: 'Direkte OpenTracker-URL'
       external_stats_native_url_help: 'Direkte OpenTracker-Statistik-URL, die XML zurückgibt. Beispiel: http://IP:6969/stats?mode=everything'
@@ -48,7 +52,18 @@ tryhackx-homepage-blocks:
       random_buttons: 'Konfiguration der Zufalls-Schaltfläche (JSON)'
       random_buttons_help: 'JSON-Array mit den Eigenschaften „label“ und „tag“. Das Format des Platzhalters dient als Beispiel.'
       ratelimit_block_header: 'Wenn die Punkte aufgebraucht sind → vorübergehende IP-Sperre'
+      ratelimit_block_reset: 'Wenn der Block endet'
+      ratelimit_block_reset_empty: 'Starte wieder leer (von Null auffüllen)'
+      ratelimit_block_reset_full: 'Gib das gesamte Budget zurück'
+      ratelimit_block_reset_help: 'Was aus dem Budget des Besuchers wird, sobald der IP-Block abgelaufen ist. „Voll“ ist großzügiger; bei „leer“ bleibt die Drosselung bestehen (die Punkte fließen dann mit der Auffüllrate wieder nach). Während der Blockierung werden die Punkte niemals wieder aufgefüllt – der Block dauert immer die gesamte Dauer und wird nicht vorzeitig aufgehoben.'
+      ratelimit_block_seconds: 'Dauer der IP-Sperre (Sekunden)'
+      ratelimit_block_seconds_help: 'Wie lange eine IP-Adresse gesperrt bleibt, nachdem die Punkte aufgebraucht sind. Während der Sperre werden keine Punkte nachgeladen. Standard: 60 s'
+      ratelimit_cost_search: 'Kosten – Suche / Filter'
+      ratelimit_costs_header: Aktivitätskosten
+      ratelimit_enabled: 'Punktzahlbegrenzer aktivieren'
+      ratelimit_enabled_help: 'Jeder Besucher verfügt über ein Punktkontingent für die Suche, das sich mit der Zeit wieder auffüllt, sodass eine gelegentliche Nutzung reibungslos verläuft, während massives Spamming unterbunden wird. Ist das Kontingent aufgebraucht, wird die IP-Adresse vorübergehend gesperrt (Einstellungen siehe unten).'
       ratelimit_guest_extra: 'Extrakosten für Gäste'
+      ratelimit_guest_extra_help: 'Wird zu den Kosten jeder Aktion für nicht angemeldete Besucher addiert. Standardwert: +2'
       ratelimit_refill_amount: Nachfüllmenge
       ratelimit_refill_amount_help: 'Wie viele Punkte pro Intervall hinzugefügt werden. Standardwert: 1'
       ratelimit_refill_seconds: 'Nachfüllintervall (Sekunden)'
@@ -171,6 +186,7 @@ tryhackx-homepage-blocks:
     stats_error: 'Statistiken konnten nicht geladen werden.'
     stats_external_label: OpenTracker
     stats_internal_label: Forumsdaten
+    stats_leechers: Leecher
     stats_magnets: Magnets
     stats_peers: Peers
     stats_seeds: Seeds
