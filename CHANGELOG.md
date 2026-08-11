@@ -17,6 +17,7 @@ CHANGELOG
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`forumfortress/flarum`](https://github.com/forum-fortress/flarum)
 * [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox)
 * [`linkrobins/badge-labels`](https://github.com/linkrobins/flarum-badge-labels)
