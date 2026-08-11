@@ -18,11 +18,21 @@ fof-upload:
       disable-download-logging: "Deaktiviere die Protokollierung aller Downloads, die von Nutzern deines Forums getätigt werden. Wenn du es aktiviert lässt, kannst du die Anzahl der Downloads und andere Metriken in der nahen Zukunft einsehen.\n"
       disable-hotlink-protection: "Der Hotlink-Schutz verhindert das Öffnen von Downloads auf anderen Seiten. Die aktuelle Methode erfordert ein csrf-Token und eine Post-ID.\n"
       download_templates: "Downloadvorlagen sind die Art und Weise, wie Uploads in deinem Forum angezeigt werden, z.B. als Vorschaubilder oder Buttons. Derzeit verfügbar:\n"
+      local_cdn: "Optional. Wenn du <code>assets/files</code> über ein CDN bereitstellst, gibst du dessen Basis-URL ein; die Links zu den hochgeladenen Dateien verwenden diese dann.\nLasse das Feld leer, um die Dateien direkt aus deinem Forum bereitzustellen.\n"
+      mime_order: "Regeln werden von oben nach unten abgeglichen, und die erste Übereinstimmung hat Vorrang. Platziere daher spezifischere Regeln vor allgemeinen.\n"
       mime_types: "Bitte konfigurieren Sie hier Ihre Zuordnung. Jeder reguläre Ausdruck für einen MIME-Typ wird von einem bestimmten Upload-Adapter und einer bestimmten Download-Vorlage verarbeitet.\nOptional können Sie jedem Eintrag eine Berechtigungsbezeichnung (z. B. „Bilder“, „Videos“) zuweisen, um eine eigene Berechtigung im Berechtigungsraster zu erstellen.\nAuf diese Weise können Sie einschränken, welche Gruppen bestimmte Dateitypen hochladen dürfen – zusätzlich zu der grundlegenden Berechtigung „Dateien hochladen“, die immer erforderlich ist.\n"
       resize: "Wähle aus, ob du die Größe deiner Bilder ändern möchtest, bevor sie hochgeladen werden. Du kannst eine maximale Breite und Höhe in Pixeln wählen. Bei der Größenänderung wird das Seitenverhältnis der Bilder beibehalten.\n"
-      s3_acl: "Die Zugriffssteuerungsliste (ACL), die auf das hochgeladene Objekt angewendet werden soll (Standard: private). Für mögliche Werte, siehe https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n"
+      s3_acl: "Wird auf jedes hochgeladene Objekt angewendet. Lasse das Feld leer, um die Standardeinstellung des Anbieters zu verwenden (in der Regel „private“).\nVerwende <code>public-read</code>, wenn Dateien direkt aus dem Bucket gelesen werden können müssen.\n"
+      s3_acl_unsupported: "{provider} unterstützt keine ACLs. Steuere den öffentlichen Zugriff stattdessen über das Dashboard des Anbieters.\n"
       s3_compatible_storage: "Die folgenden Einstellungen sind nur erforderlich, wenn du S3 kompatiblen Speicher verwendest. Wenn du AWS verwendest, kannst du sie leer lassen.\n"
-      s3_instance_profile: "Schlüssel und Secret leer lassen, um Anmeldeinformationen im Instanzprofil zu verwenden.\n"
+      s3_endpoint: "Die S3-API-URL des Anbieters – nicht die öffentliche URL deines Buckets. Amazon S3 benötigt keine solche URL.\n"
+      s3_instance_profile: "Lasse beide Felder leer, um stattdessen eine IAM-Rolle zu verwenden – dies funktioniert nur auf EC2, ECS oder EKS.\n"
+      s3_path_style: "Fügt den Bucket anstelle des Hostnamens in den URL-Pfad ein. Wird von MinIO und Cloudflare R2 benötigt;\nwird automatisch festgelegt, wenn du einen Anbieter auswählst.\n"
+      s3_provider: "Durch die Auswahl deines Anbieters werden das Endpunktformat, die Adressierungsart und die ACL-Unterstützung wie unten beschrieben festgelegt.\nWähle „Andere S3-kompatible Anbieter“, falls dein Anbieter nicht aufgeführt ist.\n"
+      storage_configure_another: "Es sind weitere Speicherdienste installiert, aber noch nicht eingerichtet. Die Konfiguration eines solchen Dienstes\nhat keinen Einfluss darauf, wo Dateien gespeichert werden, solange du ihn keinem Dateityp zuweist.\n"
+      storage_intro: "Hier werden die Dienste angezeigt, die du konfiguriert hast oder die von einem Dateityp verwendet werden. Du kannst einen Dienst einrichten,\nbevor du einen Dateityp darauf verweisen – weise ihn auf der Registerkarte „Dateien“ zu, sobald du bereit bist.\n"
+      storage_not_installed: 'Suchst du nach Amazon S3, Cloudflare R2 oder Qiniu? Dafür ist ein zusätzliches Paket erforderlich – siehe <a>Installation von Speicheradaptern</a>.'
+      thumbnail_quality: "Kodierungsqualität von 1 bis 100, gilt für WebP- und JPEG-Miniaturansichten. Höhere Werte sorgen für ein schärferes Bild,\nerzeugen jedoch größere Dateien. GIF- und PNG-Miniaturansichten sind verlustfrei und ignorieren diese Einstellung.\nVorhandene Miniaturansichten behalten ihre aktuelle Qualität bei, bis sie mit dem Befehl „backfill“ neu generiert werden.\n"
       thumbnails: "Erstelle beim Hochladen eine verkleinerte Miniaturansicht für Bilder. Die Miniaturansicht wird inline angezeigt.\nDurch Anklicken wird die Originaldatei in voller Auflösung in einem neuen Tab geöffnet. Miniaturansichten\nreduzieren die Bandbreite und das Seitengewicht für Foren mit vielen großen Bildern erheblich.\n"
       watermark: "Wähle aus, ob Bilder beim Hochladen mit einem Wasserzeichen versehen werden sollen. Wasserzeichen werden basierend auf deinen Einstellungen unten hinzugefügt, jedoch nicht bei GIF's.\n"
     inspect-mime:
@@ -40,16 +50,18 @@ fof-upload:
     labels:
       aws-s3:
         acl: 'Zugriffssteuerungsliste (ACL)'
-        advanced_title: 'Advanced S3 Speichereinstellungen'
+        advanced_title: 'Erweiterte Optionen'
         bucket: Bucket
-        custom_url: 'Eigene S3 URL'
+        custom_url: 'Öffentliche URL'
         endpoint: Endpunkt
-        key: Schlüssel
+        key: Zugriffsschlüssel-ID
+        provider: Anbieter
         region: Region
-        secret: Geheimnis
-        title: 'AWS S3 Speichereinstellungen'
-        use_path_style_endpoint: 'Verwende "path style"-Endpunkt'
+        secret: 'Geheimer Zugriffsschlüssel'
+        title: 'S3 Speicher'
+        use_path_style_endpoint: 'Adressierung im Pfadstil verwenden'
       client_extension:
+        placeholder: 'z. B. docx, xlsx, epub'
         title: 'Benutzerdefinierte Dateierweiterungen'
       composer_buttons:
         options:
@@ -68,17 +80,47 @@ fof-upload:
         client_id: 'Imgur Client ID'
         title: 'Imgur Bilder Speichereinstellungen'
         tos: 'Es liegt in deiner Verantwortung sicherzustellen, dass deine Forenbenutzer die <a>Nutzungsbedingungen</a> von Imgur einhalten'
-      inspect-mime: 'MIME-Typ der Testdatei'
+      inspect-mime: 'MIME-Typ einer Datei testen'
       local:
         cdn_url: 'Content Delivery URL (Präfixe für Dateien)'
         title: 'Lokale Speichereinstellungen'
+      mime_presets:
+        archives: 'Archive (zip, tar, 7z)'
+        audio: Audio
+        documents: Word-Dokumente
+        images: Bilder
+        pdf: PDF-Dokumente
+        php_ini_values: 'Deine Werte in der <code>php.ini</code> lauten <code>post_max_size={post}</code> und <code>upload_max_filesize={upload}</code>. Stelle sicher, dass der hier festgelegte Wert unter diesen Grenzwerten liegt, oder passe diese entsprechend an. Wenn du <code>Nginx</code> verwendest, stelle außerdem sicher, dass <code>client_max_body_size</code> groß genug für das von dir gewählte Höchstlimit ist.'
+        spreadsheets: Tabellenkalkulationsdateien
+        title: 'Allgemeine Einstellungen'
+        video: Video
       preferences:
         max_file_size: 'Maximale Dateigröße'
         max_file_size_equivalent: 'Gespeichert als <code>{kb}</code> KB ({value}).'
-        mime_type_permission_placeholder: 'Berechtigungslabel (optional, z. B. Bilder)'
+        mime_add_custom: 'Benutzerdefiniertes Muster…'
+        mime_add_prompt: 'Dateitypen hinzufügen…'
+        mime_add_subtype: 'Dateiformat hinzufügen'
+        mime_add_subtype_placeholder: 'z. B. webp'
+        mime_advanced_pattern: 'Erweitertes Muster'
+        mime_column_display: 'Angezeigt als'
+        mime_column_display_help: 'Wie die Datei in einem Beitrag angezeigt wird – als Inline-Vorschau, mit einem Download-Button und so weiter.'
+        mime_column_pattern: Dateityp
+        mime_column_pattern_help: 'Die Dateitypen, für die diese Regel gilt, abgeglichen mit dem MIME-Typ der Datei.'
+        mime_column_permission: Berechtigungsbezeichnung
+        mime_column_permission_help: 'Optional. Wenn du hier eine Gruppe angiebst, wird eine Berechtigung erstellt, mit der du festlegen kannst, wer diese Dateien hochladen darf.'
+        mime_column_storage: 'Gespeichert in'
+        mime_column_storage_help: 'Auf welchen Speicherdienst Dateien dieses Typs hochgeladen werden.'
+        mime_edit_pattern: 'Muster bearbeiten'
+        mime_move_down: 'Nach unten verschieben (später zutreffend)'
+        mime_move_up: 'Nach oben verschieben (früher zutreffend)'
+        mime_remove_subtype: '{subtype} entfernen'
+        mime_type_add: 'Diesen Dateityp hinzufügen'
+        mime_type_permission_placeholder: 'Optional, z. B. Bilder'
         mime_type_regex_invalid: 'Ungültiger regulärer Ausdruck (z. B. leere Alternativen wie ||)'
         mime_type_regex_placeholder: 'z.B. ^image/(jpeg|png|gif)$'
-        mime_types: 'Konfiguriere deinen MIME-Typ, lade ein Adapter-Mapping hoch'
+        mime_type_remove: 'Diesen Dateityp entfernen'
+        mime_types: Dateitypen
+        mime_use_simple: 'Einfachen Editor verwenden'
         php_ini_values: 'Deine <code>php.ini</code>-Werte sind <code>post_max_size={post}</code> und <code>upload_max_filesize={upload}</code>. Stelle sicher, dass der hier eingestellte Wert unter diesen Schwellenwerten liegt, oder passe sie entsprechend an. Wenn Du <code>Nginx</code> verwendest, stelle außerdem sicher, dass <code>client_max_body_size</code> eine ausreichende Größe für Deine gewählte maximale Grenze hat.'
         title: 'Allgemeine Einstellungen'
       qiniu:
@@ -90,6 +132,9 @@ fof-upload:
         max_width: 'Maximale Bildbreite/-höhe'
         title: 'Bildgröße anpassen'
         toggle: 'Größe der Bilder ändern'
+      storage:
+        configure_another: 'Einen weiteren Speicherdienst konfigurieren ({count} verfügbar)'
+        hide_unused: 'Nicht verwendete Dienste ausblenden'
       svg-sanitizer:
         allow_animate: 'SVG-Animationen erlauben'
         allow_animate_help: 'SVG-Animationen zu erlauben kann ernsthafte Sicherheitslücken öffnen, da animierte SVGs bösartigen Code enthalten können. Aktiviere diese Einstellung auf eigene Gefahr und nur, wenn du deinen Benutzern vertraust.'
@@ -97,6 +142,7 @@ fof-upload:
         title: SVG-Reiniger
       thumbnails:
         max_width: 'Maximale Breite der Miniaturansicht (px)'
+        quality: 'Qualität der Miniaturansicht'
         title: Bildminiaturen
         toggle: 'Miniaturansichten beim Hochladen erstellen'
         webp_toggle: 'Miniaturansichten als WebP kodieren (empfohlen, ~30 % kleiner)'
@@ -127,6 +173,13 @@ fof-upload:
       no-files: 'Es sind noch keine gemeinsamen Dateien hochgeladen worden.'
       title: 'Gemeinsame Dateien'
       upload-new-button: 'Neue Datei hochladen'
+    tabs:
+      advanced: Erweitert
+      files: Dateien
+      images: Bilder
+      storage: Speicher
+      unsaved_changes: 'Diese Registerkarte hat ungespeicherte Änderungen'
+      unsaved_hint: 'Es gibt ungespeicherte Änderungen.'
     templates:
       bbcode-image: BBCode-Bildvorlage
       bbcode-image_description: "Zeigt das vollständige Bild in-line mit BBCode an. <strong>Du musst flarum/bbcode installiert und aktiviert haben, damit dies funktioniert.</strong> Keine Download-Funktionalität, es werden keine Statistiken gesammelt und der Hotlink-Schutz wird ignoriert.\n"
@@ -174,11 +227,18 @@ fof-upload:
       upload: Hochladen
       upload_shared: Gemeinsam
       user_uploads: Benutzer-Uploads
+    display_name:
+      help: 'Wird beim Download anstelle des Dateinamens angezeigt. Belasse die Einstellung unverändert, um den Dateinamen zu verwenden.'
+      insert: Einfügen
+      title: 'Name für diesen Download'
+      title_plural: 'Name für diese Downloads'
+      use_file_name: 'Dateinamen verwenden'
     media_manager: Medien-Manager
     states:
       error: Fehler
       loading: 'Lädt hoch'
-      unauthorized: 'Du darfst keine Dateien herunterladen'
+      permission_required: 'Berechtigung erforderlich'
+      unauthorized: 'Du darfst diese Dateien nicht herunterladen'
     text_preview:
       collapse: 'Vorschau minimieren'
       download: 'Datei herunterladen'

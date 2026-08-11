@@ -3,12 +3,29 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 lcoy-cipher:
+  admin:
+    settings:
+      default_password: Standardpasswort
+      default_password_help: 'Wird verwendet, wenn ein Autor das Passwort leer lässt. Stelle sicher, dass die Autoren es den Besuchern mitteilen.'
+      section_general: Allgemein
   forum:
+    confirm_insert: Bestätigen
     insert_protected: 'Geschützten inhalt einfügen'
     invalid_request: 'Ungültige Anfrageparameter.'
     locked_text: 'Dieser Inhalt ist passwortgeschützt'
     password_label: Passwort
+    password_optional_hint: 'Lasse das Feld leer, um das Standardpasswort zu verwenden'
     password_optional_label: 'Passwort (optional)'
+    password_required: 'Passwort zur Freischaltung eingeben.'
+    placeholder_content: 'Geschützten Inhalt hier eingeben'
+    quick_time_12h: 'In 12 Stunden'
+    quick_time_1d: 'In 1 Tag'
+    quick_time_1h: 'In 1 Stunde'
+    quick_time_3d: 'In 3 Tagen'
+    quick_time_6h: 'In 6 Stunden'
     submit: Freischalten
+    title_label: 'Titel (optional)'
     unlock: Freischalten
+    unlock_modal_hint: 'Gib das vom Autor festgelegte Passwort ein, um diesen Inhalt anzuzeigen.'
+    unlock_modal_title: 'Geschützten Inhalt freischalten'
     wrong_password: 'Ungültiges Passwort. Bitte versuche es erneut.'
