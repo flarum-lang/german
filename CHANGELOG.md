@@ -2,6 +2,20 @@ CHANGELOG
 =========
 
 
+2.0.14 (XXXX-XX-XX)
+-------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
+* [`lcoy/cipher`](https://github.com/Lcoy2004/Flarum-cipher)
+* [`xxb5724/catch-the-fish`](https://github.com/Xiaoxiaobai5724/catch-the-fish)
+
+
+Alle Änderungen: [2.0.13...2.0.14](https://github.com/flarum-lang/german/compare/2.0.13...2.0.14).
+
+
 2.0.13 (2026-08-12)
 -------------------
 
