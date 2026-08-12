@@ -6,7 +6,7 @@ fof-synopsis:
   admin:
     settings:
       excerpt-length:
-        help: 'Wie viele Zeichen sollen aus dem Beitrag angezeigt werden.'
+        help: 'Wie viele Zeichen aus dem Beitrag angezeigt werden sollen.'
         label: 'Zusammenfassende Auszugslänge in Zeichen'
       excerpt-type:
         help: 'Wähle, ob der erste oder der letzte Beitrag für Zusammenfassungsinhalte verwendet werden soll'
@@ -14,8 +14,8 @@ fof-synopsis:
       first-label: 'Erster Beitrag'
       last-label: 'Letzter Beitrag'
       rich-excerpts:
-        help: 'Wenn diese Option aktiviert ist, können Bilder, Einbettungen und andere Nicht-Text-Elemente in die Zusammenfassung aufgenommen werden'
-        label: 'Zeige Auszüge mit Rich Content an'
+        help: 'Wenn aktiviert, können Bilder, Einbettungen und andere Nicht-Text-Elemente in die Zusammenfassung aufgenommen werden'
+        label: 'Auszüge mit Rich Content anzeigen'
       tags-enabled: 'Du hast <code>flarum/tags</code> aktiviert. Diese Einstellungen werden zu Standardeinstellungen, es sei denn, einzelne Tags haben ihre eigene Einstellung.'
   forum:
     user:

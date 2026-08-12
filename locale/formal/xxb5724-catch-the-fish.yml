@@ -3,21 +3,51 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 xxb-catch-the-fish:
+  admin:
+    permissions:
+      list-rankings: 'Auf die Rangliste zugreifen'
+      visible: 'Fische anzeigen'
+    settings:
+      animate-flip: 'Fischbilder je nach Richtung spiegeln'
+      discussion: Diskussionen
+      general: Allgemein
+      post: Beiträge
+      tags-control:
+        down: 'Nach unten verschieben'
+        up: 'Nach oben verschieben'
+      tags-header:
+        probability: Wahrscheinlichkeit
+        tag: Tag
+      user: Benutzer
+  api:
+    default-fish-name: 'Fisch #{number}'
   forum:
     caught-fish-modal:
       name: Fischname
+      name-help: 'Du kannst den Fisch umbenennen, wenn du möchtest. Der Name muss den Forenrichtlinien entsprechen.'
       named-by: 'Benannt von'
+      submit-name: 'Namen speichern'
       title: 'Du hast einen Fisch gefangen!'
     edit-fish-modal:
       title: 'Fisch „{name}“ bearbeiten'
+    edit-fish:
+      create: 'Fisch erstellen'
+      delete: 'Fisch löschen'
+      delete-confirmation: 'Fisch „{name}“ löschen?'
+      name: Name
+      save: 'Fisch speichern'
     edit-round-modal:
       title: 'Runde „{name}“ bearbeiten'
+    edit-round:
+      name: Name
     moderate:
       add: Hinzufügen
       delete: Löschen
       edit: Bearbeiten
       fishes: Fische
       rounds: Runden
+    moving-fish:
+      login: 'Anmelden, um Fische zu fangen'
     nav:
       rankings: 'Fang-den-Fisch Rangliste'
       settings: 'Fang-den-Fisch Einstellungen'
@@ -25,3 +55,18 @@ xxb-catch-the-fish:
       title: 'Neuer Fisch'
     new-round-modal:
       title: 'Neue Runde'
+    table-fish:
+      actions: Aktionen
+      edit: Bearbeiten
+      loading: 'Wird geladen...'
+    table-ranking:
+      rank: Name
+    table-round:
+      actions: Aktionen
+      edit: Bearbeiten
+      end: Bis
+      fishes: Fische
+      name: Name
+      new: 'Neue Runde'
+      start: Von
+      title: Runden

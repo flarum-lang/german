@@ -49,6 +49,7 @@ lcoy-cipher:
     quick_time_1h: 'In 1 Stunde'
     quick_time_3d: 'In 3 Tagen'
     quick_time_6h: 'In 6 Stunden'
+    quick_time_placeholder: 'Quick time…'
     submit: Freischalten
     title_label: 'Titel (optional)'
     too_many_attempts: 'Zu viele Versuche. Bitte versuche es später erneut.'
