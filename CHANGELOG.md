@@ -2,6 +2,29 @@ CHANGELOG
 =========
 
 
+1.25.26 (2026-08-12)
+--------------------
+
+**Allgemeine Änderungen**:
+
+* Flarum-Core Übersetzungen aktualisiert.
+
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`tapao/custom-landing-page`](https://github.com/Tapao-NonSen/Custom-Landing-Page)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`club-1/flarum-ext-server-side-highlight`](https://github.com/club-1/flarum-ext-server-side-highlight)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`shebaoting/flarum-dependency-collector`](https://github.com/shebaoting/flarum-dependency-collector)
+
+
+Alle Änderungen: [1.25.25...1.25.26](https://github.com/flarum-lang/german/compare/1.25.25...1.25.26).
+
+
 1.25.25 (2026-08-05)
 --------------------
 
