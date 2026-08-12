@@ -11,7 +11,7 @@ fof-user-directory:
       disable-global-search-source: 'Benutzerverzeichnis nicht zum globalen Suchfeld von Flarum hinzufügen'
       link: 'Link auf der Homepage hinzufügen, damit Benutzer das Verzeichnis sehen können'
       link-group-mentions: 'Gruppenerwähnungen in Beiträgen mit dem Benutzerverzeichnis verlinken'
-      use-small-cards: 'Kleine Nutzer-Karten verwenden'
+      use-small-cards: 'Kleine Benutzerkarten verwenden'
   forum:
     header:
       back_to_user_directory_tooltip: 'Zurück zum Benutzerverzeichnis'
@@ -19,7 +19,7 @@ fof-user-directory:
       title: '=> fof-user-directory.forum.page.nav'
     page:
       empty_text: 'Wir konnten keinen Benutzer finden, der deiner Suche entspricht.'
-      filter_button: 'Gruppen Filtern'
+      filter_button: 'Gruppen filtern'
       load_more_button: '=> core.ref.load_more'
       nav: Benutzerverzeichnis
       refresh_tooltip: '=> core.forum.index.refresh_tooltip'
@@ -32,7 +32,7 @@ fof-user-directory:
       kinds:
         group: Gruppe
         text: 'Freier Text'
-      users_heading: 'Durchsuche alle Benutzer nach "{query}"'
+      users_heading: 'Durchsuche alle Benutzer nach „{query}“'
   lib:
     sort:
       default: Standard
@@ -43,5 +43,7 @@ fof-user-directory:
       newest: Neueste
       not_specified: 'Flarum Standard verwenden'
       oldest: Älteste
+      seen_oldest: 'Am längsten abwesend'
+      seen_recent: 'Zuletzt online'
       username_az: 'Nutzername (a-z)'
       username_za: 'Nutzername (z-a)'

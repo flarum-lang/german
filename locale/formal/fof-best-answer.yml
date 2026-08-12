@@ -95,5 +95,5 @@ fof-best-answer:
 fof-user-directory:
   lib:
     sort:
-      least_best_answers: 'Am wenigsten beste Antworten'
-      most_best_answers: 'Die besten Antworten'
+      least_best_answers: 'Wenigste beste Antworten'
+      most_best_answers: 'Meisten beste Antworten'

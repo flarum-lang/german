@@ -8,21 +8,33 @@ xxb-catch-the-fish:
       list-rankings: 'Auf die Rangliste zugreifen'
       visible: 'Fische anzeigen'
     settings:
+      alert-round: 'Auf der Startseite eine Meldung mit dem Namen und der Dauer der Runde anzeigen'
       animate-flip: 'Fischbilder je nach Richtung spiegeln'
       discussion: Diskussionen
+      discussion-age: 'Wie alt muss ein Diskussion sein, bevor ein Fisch darauf ausgesetzt wird (Tage)'
       discussion-tags: Tag-Zulassungsliste
+      discussion-tags-help: "Wenn du kein Tag auswählst, kann jede Diskussion ausgewählt werden, die den oben genannten Zeiteinstellungen entspricht. Wenn mehrere Tags ausgewählt sind, muss eine Diskussion mindestens eines der ausgewählten Tags enthalten, um in die Auswahl zu kommen. Die Wahrscheinlichkeit gibt an, wie hoch die Chance ist, ausgewählt zu werden, nachdem alle vorherigen Auswahlmöglichkeiten durchprobiert wurden. Das letzte Tag in der Liste dient immer als Ausweichoption. Stelle daher sicher, dass dieses Tag mindestens eine gültige Diskussion enthält.\n"
+      discussion-tags-unavailable: 'Diese Einstellung ist nicht verfügbar, da die „Tags“-Erweiterung deaktiviert ist.'
       general: Allgemein
       post: Beiträge
+      post-age: 'Wie alt muss ein Beitrag sein, bevor ein Fisch darauf ausgesetzt wird (Tage)'
+      post-probability: 'Wahrscheinlichkeit, dass ein Fisch eher in einem Beitrag als in der Diskussion ausgesetzt wird (%)'
       tags-control:
         add: 'Zur Zulassungsliste hinzufügen'
         choose: 'Tag auswählen'
         delete: 'Von Zulassungsliste entfernen'
         down: 'Nach unten verschieben'
         up: 'Nach oben verschieben'
+      tags-fallback:
+        last-line: Ausweichlösung
+        single-line: 'Für die Wahrscheinlichkeit sind mindestens 2 Tags erforderlich'
       tags-header:
         probability: Wahrscheinlichkeit
         tag: Tag
+      time-to-place: 'Zeit, die zum Aussetzen der Fische zur Verfügung steht, bevor diese zufällig platziert werden (Minuten)'
       user: Benutzer
+      user-age: 'Wie lange muss ein Benutzer bereits aktiv sein, damit ein Fisch darauf ausgesetzt wird (Tage)'
+      user-probability: 'Wahrscheinlichkeit, in einem Benutzerprofil ausgesetzt zu werden (%)'
   api:
     default-fish-name: 'Fisch #{number}'
   forum:
