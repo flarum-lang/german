@@ -2,6 +2,39 @@ CHANGELOG
 =========
 
 
+2.0.13 (2026-08-12)
+-------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`ernestdefoe/onair`](https://github.com/ernestdefoe/onair)
+* [`huoxin/money-with-history`](https://github.com/huoxin233/flarum-ext-money-with-history)
+* [`lcoy/cipher`](https://github.com/Lcoy2004/Flarum-cipher)
+* [`linkrobins/flarum-chirp`](https://github.com/linkrobins/chirp)
+* [`xxb5724/catch-the-fish`](https://github.com/Xiaoxiaobai5724/catch-the-fish)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`forumfortress/flarum`](https://github.com/forum-fortress/flarum)
+* [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox)
+* [`linkrobins/badge-labels`](https://github.com/linkrobins/flarum-badge-labels)
+* [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye)
+* [`linkrobins/referral`](https://github.com/linkrobins/referral)
+* [`linkrobins/support`](https://github.com/linkrobins/support)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado)
+* [`ramon/chat`](https://github.com/ram0ng1/chat)
+* [`ramon/verified`](https://github.com/ram0ng1/verified)
+* [`shebaoting/flarum-dependency-collector`](https://github.com/shebaoting/flarum-dependency-collector)
+* [`tryhackx/flarum-homepage-blocks`](https://github.com/TryHackX/flarum-homepage-blocks)
+* [`tryhackx/flarum-thumb-sliders`](https://github.com/TryHackX/flarum-thumb-sliders)
+
+
+Alle Änderungen: [2.0.12...2.0.13](https://github.com/flarum-lang/german/compare/2.0.12...2.0.13).
+
+
 2.0.12 (2026-08-05)
 -------------------
 
