@@ -8,7 +8,9 @@ CHANGELOG
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 * [`lcoy/cipher`](https://github.com/Lcoy2004/Flarum-cipher)
 * [`xxb5724/catch-the-fish`](https://github.com/Xiaoxiaobai5724/catch-the-fish)
 
