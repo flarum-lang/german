@@ -10,9 +10,13 @@ xxb-catch-the-fish:
     settings:
       animate-flip: 'Fischbilder je nach Richtung spiegeln'
       discussion: Diskussionen
+      discussion-tags: Tag-Zulassungsliste
       general: Allgemein
       post: Beiträge
       tags-control:
+        add: 'Zur Zulassungsliste hinzufügen'
+        choose: 'Tag auswählen'
+        delete: 'Von Zulassungsliste entfernen'
         down: 'Nach unten verschieben'
         up: 'Nach oben verschieben'
       tags-header:
@@ -22,12 +26,27 @@ xxb-catch-the-fish:
   api:
     default-fish-name: 'Fisch #{number}'
   forum:
+    basket:
+      drag-help: 'Ziehe den Fisch per Drag & Drop auf eine Diskussion, einen Beitrag oder ein Benutzerprofil'
+      time: 'Aussetzen bis: {time}'
+      title: Fischkorb
     caught-fish-modal:
+      congratulation: 'Herzlichen Glückwunsch, du hast einen Fisch gefangen! Du hast {catch_count} Fische gefangen.'
       name: Fischname
       name-help: 'Du kannst den Fisch umbenennen, wenn du möchtest. Der Name muss den Forenrichtlinien entsprechen.'
       named-by: 'Benannt von'
+      placed-by: 'Ausgesetzt von'
+      placement-help: 'Du kannst den Fisch an einer beliebigen Stelle im Forum verstecken, beispielsweise in den aktuellen Diskussionen oder in den Profilen aktiver Nutzer. Einen Fisch, den du selbst versteckt hast, kannst du nicht fangen.'
+      submit-continue: Weiter
       submit-name: 'Namen speichern'
+      submit-name-place-later: 'Namen speichern und Versteck auswählen'
+      submit-name-place-random: 'Namen speichern und lass den Fisch sich verstecken'
+      submit-place-later: 'Ja, ich suche mir ein Versteck'
+      submit-place-random: 'Lass den Fisch sich verstecken'
       title: 'Du hast einen Fisch gefangen!'
+    drop-area:
+      message: 'Du kannst den Fisch hier aussetzen'
+      missing-from-store: 'Der Fisch konnte im Datenspeicher nicht gefunden werden'
     edit-fish-modal:
       title: 'Fisch „{name}“ bearbeiten'
     edit-fish:
@@ -35,11 +54,24 @@ xxb-catch-the-fish:
       delete: 'Fisch löschen'
       delete-confirmation: 'Fisch „{name}“ löschen?'
       name: Name
+      name-help: 'Der aktuelle Name des Fisches. Kann von Spielern bearbeitet werden, sofern sie die Berechtigung zum Umbenennen von Fischen haben.'
       save: 'Fisch speichern'
     edit-round-modal:
       title: 'Runde „{name}“ bearbeiten'
     edit-round:
+      create: 'Runde erstellen'
+      delete: 'Runde löschen'
+      delete-confirmation: 'Runde „{name}“ löschen?'
+      ends-at: Endzeit
       name: Name
+      name-help: 'Der öffentliche Name für diese Runde wird im Banner und in der Rangliste angezeigt'
+      save: 'Runde speichern'
+      starting-pack: Startpaket
+      starting-pack-help: 'Enthält ein paar Fische, damit du im Handumdrehen loslegen kannst'
+      starts-at: Startzeit
+    fish-image:
+      alt: 'Bild des Fisches „{name}“'
+      missing: 'Fehlendes Fischbild'
     moderate:
       add: Hinzufügen
       delete: Löschen
@@ -55,17 +87,40 @@ xxb-catch-the-fish:
       title: 'Neuer Fisch'
     new-round-modal:
       title: 'Neue Runde'
+    page-ranking:
+      nothing: 'Keine aktive Runde'
+      permission: 'Du hast keine Berechtigung, die Ranglisten einzusehen'
+      title: Ranglisten
+    round-alert:
+      message: 'Runde „{name}“: Fange so viele Fische wie möglich bis {time}'
+      rankings: 'Rangliste ansehen'
     table-fish:
       actions: Aktionen
       edit: Bearbeiten
+      image: Bild
       loading: 'Wird geladen...'
+      name: Name
+      new: 'Neuer Fisch'
+      new-from-image: 'Neue Fische über den Massenimport von Bildern erstellen'
+      no-user-name: 'Nicht umbenannt'
+      no-user-place: Zufällig
+      placement: 'Aktueller Standort'
+      title: 'Fische für Runde {name}'
+      upload: 'Neues Bild hochladen'
+      user-name: 'Zuletzt benannt von'
+      user-place: 'Zuletzt ausgesetzt von'
     table-ranking:
+      count: 'Fische gefangen'
+      loading: 'Wird geladen...'
       rank: Name
+      title: 'Rangliste für Runde {name}'
+      user: Benutzer
     table-round:
       actions: Aktionen
       edit: Bearbeiten
       end: Bis
       fishes: Fische
+      loading: 'Wird geladen...'
       name: Name
       new: 'Neue Runde'
       start: Von
