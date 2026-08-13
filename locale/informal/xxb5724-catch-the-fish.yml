@@ -6,6 +6,7 @@ xxb-catch-the-fish:
   admin:
     permissions:
       list-rankings: 'Auf die Rangliste zugreifen'
+      participate: 'Nimm an den Runden teil und fange Fische'
       visible: 'Fische anzeigen'
     settings:
       alert-round: 'Auf der Startseite eine Meldung mit dem Namen und der Dauer der Runde anzeigen'
