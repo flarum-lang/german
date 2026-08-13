@@ -5,7 +5,10 @@
 xxb-catch-the-fish:
   admin:
     permissions:
+      choose-name: 'Fischnamen nach dem Fang auswählen'
+      choose-place: 'Nach dem Fang den Aussetzort für den Fisch auswählen'
       list-rankings: 'Auf die Rangliste zugreifen'
+      moderate: 'Runden und Fische moderieren'
       participate: 'Nimm an den Runden teil und fange Fische'
       visible: 'Fische anzeigen'
     settings:
@@ -38,6 +41,8 @@ xxb-catch-the-fish:
       user-probability: 'Wahrscheinlichkeit, in einem Benutzerprofil ausgesetzt zu werden (%)'
   api:
     default-fish-name: 'Fisch #{number}'
+    too-many-placement-models: 'Es ist jeweils nur eine Platzierung möglich'
+    wrong-catch-placement: 'Hier gibt es keinen Fisch. Vielleicht warst du nicht schnell genug und jemand ist dir zuvorgekommen.'
   forum:
     basket:
       drag-help: 'Ziehe den Fisch per Drag & Drop auf eine Diskussion, einen Beitrag oder ein Benutzerprofil'
