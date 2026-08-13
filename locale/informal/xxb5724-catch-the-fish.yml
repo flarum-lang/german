@@ -41,6 +41,14 @@ xxb-catch-the-fish:
       user-probability: 'Wahrscheinlichkeit, in einem Benutzerprofil ausgesetzt zu werden (%)'
   api:
     default-fish-name: 'Fisch #{number}'
+    inactive-discussion: 'Fische können nicht in einer Diskussion ausgesetzt werden, die mehr als {days} Tag inaktiv ist'
+    inactive-post: 'Fische können nicht in einem Beitrag ausgesetzt werden, der vor mehr als {days} Tagen erstellt wurde'
+    invalid-discussion-id: 'Die Diskussion scheint es nicht zu geben, vielleicht wurde sie kürzlich gelöscht'
+    invalid-post-id: 'Den Beitrag scheint es nicht zu geben, vielleicht wurde er kürzlich gelöscht'
+    invalid-user-id: 'Den Benutzer scheint es nicht zu geben, vielleicht wurde er kürzlich gelöscht'
+    model-deleted: 'Fische können nicht in einer gelöschten Diskussion oder einem gelöschten Beitrag ausgesetzt werden'
+    model-private: 'Fische können nicht in einer privaten Diskussion oder einem privaten Beitrag ausgesetzt werden'
+    tag-not-allowed: 'In diesem Tag kannst du keine Fische aussetzen'
     too-many-placement-models: 'Es ist jeweils nur eine Platzierung möglich'
     wrong-catch-placement: 'Hier gibt es keinen Fisch. Vielleicht warst du nicht schnell genug und jemand ist dir zuvorgekommen.'
   forum:
