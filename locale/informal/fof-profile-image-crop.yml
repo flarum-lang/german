@@ -5,6 +5,7 @@
 fof-profile-image-crop:
   forum:
     modal:
+      crop_too_small: 'Der ausgewählte Bereich ist zu klein – wähle für einen scharfen Avatar mindestens {size} × {size} Pixel aus.'
       error:
         failed_to_load_cropper: 'Der Bild-Editor konnte nicht geladen werden.'
         generic_resize: 'Beim Zuschneiden des Bildes ist ein Fehler aufgetreten.'
