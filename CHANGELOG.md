@@ -8,12 +8,14 @@ CHANGELOG
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
 * [`linkrobins/auto-lock`](https://github.com/linkrobins/auto-lock)
+* [`tryhackx/flarum-cover-studio`](https://github.com/TryHackX/flarum-cover-studio)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`flarum/sticky`](https://github.com/flarum/sticky)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop)
 * [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 * [`lcoy/cipher`](https://github.com/Lcoy2004/Flarum-cipher)
