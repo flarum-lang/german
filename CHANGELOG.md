@@ -5,6 +5,11 @@ CHANGELOG
 2.0.14 (XXXX-XX-XX)
 -------------------
 
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`linkrobins/auto-lock`](https://github.com/linkrobins/auto-lock)
+
+
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`flarum/sticky`](https://github.com/flarum/sticky)
