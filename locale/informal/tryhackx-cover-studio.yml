@@ -4,6 +4,7 @@
 
 tryhackx-cover-studio:
   admin:
+    avatar_focus_help: 'Beim Hochladen eines Avatars bleibt das Originalbild im Medienmanager des Nutzers erhalten, und Nutzer können den Ausschnitt jederzeit neu positionieren, ohne das Bild erneut hochladen zu müssen. Der Avatar selbst bleibt überall ein Standard-Flarum-Avatar.'
     cover_height_help: 'Höhe des Profil-Heros, wenn ein Cover festgelegt ist.'
     cover_height_label: 'Coverhöhe bei Profilen (px)'
     cover_height_mobile_label: 'Coverhöhe auf Handys (px)'
@@ -11,6 +12,8 @@ tryhackx-cover-studio:
       avatar_title: Standardavatar
       change_button: 'Bild ändern'
       cover_title: Standardcover
+      generic_error: 'Es ist ein Fehler aufgetreten. Bitte versuche es erneut.'
+      media_button: 'Aus geteilten Medien auswählen'
       not_set: 'Nicht festgelegt'
       picker_back: Zurück
       remove_button: Entfernen
@@ -18,15 +21,46 @@ tryhackx-cover-studio:
       saved: Gespeichert.
       set_button: 'Bild festlegen'
       upload_button: 'Bild hochladen'
+      zoom_label: Zoom
+      zoom_reset: 'Zoom auf 1× zurücksetzen'
+    default_avatar_help: 'Optionales Bild, das für Benutzer ohne Avatar angezeigt wird. Hochgeladene Dateien werden in deinen freigegebenen Medien gespeichert. Lasse das Feld leer, um die Standard-Avatare von Flarum zu verwenden.'
     default_avatar_label: Standardavatar
+    default_cover_help: 'Optionales Bild für Nutzer, die kein eigenes Cover haben. Hochgeladene Bilder werden in deinen freigegebenen Medien gespeichert. Lasse das Feld leer, um das klassische einfarbige Titelbild zu verwenden.'
     default_cover_label: Standardcover
     max_size_help: 'Obergrenze für Cover- und Avatar-Original-Uploads in Kilobyte. Hinweis: Es gilt auch die globale maximale Dateigröße für FoF-Uploads – es gilt der niedrigere der beiden Werte.'
     max_size_label: 'Maximale Upload-Größe (KB)'
+    media_picker_help: 'Fügt eine Schaltfläche „Aus meinen Medien auswählen“ hinzu, damit Nutzer bereits hochgeladene Bilder wiederverwenden können.'
+    media_picker_label: 'Auswahl eines Covers aus „Meine Medien“ erlauben'
     overlay_darken: 'Gleichmäßige Abdunkelung'
     overlay_gradient: 'Farbverlauf (empfohlen)'
     overlay_help: 'Eine dunkle Abblendebene wird über die Cover gelegt, damit Benutzernamen und Statistiken auf hellen Bildern gut lesbar bleiben.'
     overlay_label: 'Overlay zur besseren Lesbarkeit'
     overlay_none: Kein
+    permission:
+      set_cover: 'Eigenes Profilcover festlegen'
+    show_on_directory_help: 'Gilt, wenn die Erweiterung „FoF Benutzerverzeichnis“ aktiviert ist.'
+    show_on_directory_label: 'Cover im Benutzerverzeichnis anzeigen'
+    show_on_popover_help: 'Zeigt das Cover (leichtgewichtiges Miniaturbild) in der Karte an, die erscheint, wenn man mit der Maus über den Namen eines Posters fährt.'
     show_on_popover_label: 'Cover auf Benutzer-Hover-Karten anzeigen'
     support:
+      button: 'Unterstütze die Entwicklung'
       copy: 'Adresse kopieren'
+      title: 'Unterstütze diese Erweiterung'
+  api:
+    file_not_eligible: 'Diese Datei kann nicht als Cover verwendet werden.'
+    invalid_zoom: 'Der Zoomfaktor muss eine Zahl zwischen 0,5 und 4 sein.'
+    no_file: 'Es wurde kein Bild hochgeladen.'
+    no_original: 'Das ursprüngliche Avatar-Bild ist nicht verfügbar – lade bitte zuerst einen neuen Avatar hoch.'
+    original_unreadable: 'Das Originalbild konnte nicht gelesen werden. Lade stattdessen einen neuen Avatar hoch.'
+  forum:
+    avatar:
+      adjust_button: 'Position anpassen'
+      title: Avatarposition
+    editor:
+      generic_error: 'Es ist ein Fehler aufgetreten. Bitte versuche es erneut.'
+      remove_button: Entfernen
+      save_position_button: 'Position speichern'
+      saved: Gespeichert.
+      upload_button: 'Bild hochladen'
+      zoom_label: Zoom
+      zoom_reset: 'Zoom auf 1× zurücksetzen'
