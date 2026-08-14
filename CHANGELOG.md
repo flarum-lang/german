@@ -7,6 +7,7 @@ CHANGELOG
 
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
+* [`asyntai/flarum-chatbot`](https://github.com/asyntai/flarum-chatbot)
 * [`linkrobins/auto-lock`](https://github.com/linkrobins/auto-lock)
 * [`tryhackx/flarum-cover-studio`](https://github.com/TryHackX/flarum-cover-studio)
 
@@ -15,6 +16,7 @@ CHANGELOG
 
 * [`flarum/sticky`](https://github.com/flarum/sticky)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
 * [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop)
 * [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
