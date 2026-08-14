@@ -5,21 +5,27 @@
 tryhackx-cover-studio:
   admin:
     avatar_focus_help: 'Beim Hochladen eines Avatars bleibt das Originalbild im Medienmanager des Nutzers erhalten, und Nutzer können den Ausschnitt jederzeit neu positionieren, ohne das Bild erneut hochladen zu müssen. Der Avatar selbst bleibt überall ein Standard-Flarum-Avatar.'
+    avatar_focus_label: 'Avatar-Fokuspunkt aktivieren (Pos-Crop)'
     cover_height_help: 'Höhe des Profil-Heros, wenn ein Cover festgelegt ist.'
     cover_height_label: 'Coverhöhe bei Profilen (px)'
     cover_height_mobile_label: 'Coverhöhe auf Handys (px)'
     default:
+      avatar_empty: 'Es ist noch kein Standard-Avatar vorhanden – lade ein Bild hoch oder wähle eines aus deinen freigegebenen Medien aus.'
       avatar_title: Standardavatar
       change_button: 'Bild ändern'
+      cover_empty: 'Es ist noch kein Cover vorhanden – lade ein Bild hoch oder wähle eines aus deinen freigegebenen Medien aus.'
       cover_title: Standardcover
       generic_error: 'Es ist ein Fehler aufgetreten. Bitte versuche es erneut.'
       media_button: 'Aus geteilten Medien auswählen'
       not_set: 'Nicht festgelegt'
       picker_back: Zurück
+      picker_empty: 'Es wurden noch keine Bilder geteilt. Lade bitte zuerst ein Bild in deine geteilten Medien hoch.'
       remove_button: Entfernen
+      remove_confirm: 'Dieses Standardbild entfernen? Die Datei bleibt in deinen freigegebenen Medien erhalten.'
       save_position_button: 'Position speichern'
       saved: Gespeichert.
       set_button: 'Bild festlegen'
+      size_hint: 'Maximalgröße: {max}. Das Bild in voller Auflösung bleibt erhalten; ziehe den Mauszeiger, um den sichtbaren Bereich auszuwählen.'
       upload_button: 'Bild hochladen'
       zoom_label: Zoom
       zoom_reset: 'Zoom auf 1× zurücksetzen'
@@ -45,13 +51,20 @@ tryhackx-cover-studio:
     support:
       button: 'Unterstütze die Entwicklung'
       copy: 'Adresse kopieren'
+      description: 'Wenn du diese Erweiterung nützlich findest, würden wir uns über eine kleine Spende zur Unterstützung ihrer Weiterentwicklung freuen. Jeder Beitrag trägt dazu bei, das Projekt am Leben zu erhalten und weiterzuentwickeln.'
+      thanks: 'Vielen Dank für deine Unterstützung!'
       title: 'Unterstütze diese Erweiterung'
   api:
     file_not_eligible: 'Diese Datei kann nicht als Cover verwendet werden.'
+    invalid_focus: 'Der Brennpunkt muss eine Zahl zwischen 0 und 100 sein.'
     invalid_zoom: 'Der Zoomfaktor muss eine Zahl zwischen 0,5 und 4 sein.'
+    no_adapter: 'Das Hochladen von Bildern ist in diesem Forum nicht konfiguriert (FoF Upload MIME-Einstellungen).'
     no_file: 'Es wurde kein Bild hochgeladen.'
     no_original: 'Das ursprüngliche Avatar-Bild ist nicht verfügbar – lade bitte zuerst einen neuen Avatar hoch.'
     original_unreadable: 'Das Originalbild konnte nicht gelesen werden. Lade stattdessen einen neuen Avatar hoch.'
+    too_many_uploads: 'Du lädst die Daten zu schnell hoch. Bitte warte eine Minute und versuche es dann erneut.'
+    unsupported_type: 'Dieser Dateityp wird nicht unterstützt. Zulässige Formate: JPEG, PNG, WebP, GIF.'
+    upload_failed: 'Die Datei konnte nicht gespeichert werden. Bitte versuche es erneut.'
   forum:
     avatar:
       adjust_button: 'Position anpassen'
