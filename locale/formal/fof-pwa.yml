@@ -21,8 +21,47 @@ fof-pwa:
         background_color_text: 'Diese Farbe wird als Platzhalter für den Startbildschirm verwendet, der angezeigt wird, während deine PWA geladen wird. Sie wird nicht verwendet, wenn die App bereits geladen ist.'
         heading: Farben
         theme_color_label: Designfarbe
-        theme_color_text: 'Diese Farbe wird manchmal bei der Anzeige deiner App als die Farbe verwendet, die die Seite umgibt, z.B. im Task Switcher von Android.'
+        theme_color_text: 'Diese Farbe wird auf manchen Geräten bei der Anzeige deiner App als die Farbe verwendet, die die Seite umgibt, z.B. im Task Switcher von Android.'
+      firebase_config:
+        heading: Firebase
+        help_text: 'Um die Unterstützung für Push-Benachrichtigungen bei der Veröffentlichung deiner App im Apple App Store hinzuzufügen, musst du Firebase verwenden. Bitte erstelle deine Firebase Service Config und lade sie hier hoch.'
+        see_documentation_here: 'Weitere Dokumentation'
+        upload_file: 'Datei hochladen'
+        upload_successful: 'Deine Firebase-Konfiguration wurde erfolgreich hochgeladen'
+      heading: 'Progressive Web App-Konfiguration'
+      logo_heading: 'Logos und Symbole'
       maintenance:
         debug_label: Debug-Modus
         debug_text: 'Dadurch werden Informationen über Benachrichtigungen in „storage/logs“ protokolliert. Es sollte im Allgemeinen deaktiviert werden, um unnötiges Auffüllen von Protokollen zu vermeiden.'
         heading: Wartungsmodus
+        reset_vapid_confirm: 'Durch das Zurücksetzen von VAPID-Schlüsseln werden alle Abonnements entfernt, die die vorhandenen Schlüssel verwenden, sodass Benutzer keine Benachrichtigungen erhalten, bis sie dein Forum das nächste Mal besuchen. Dies sollte nur beim erstmaligen Einrichten von Push-Benachrichtigungen erfolgen oder wenn Push-Benachrichtigungen überhaupt nicht funktionieren und oben eine Warnung zu fehlenden VAPID-Schlüsseln angezeigt wird.'
+        reset_vapid_success: 'VAPID-Schlüssel erfolgreich zurückgesetzt. {count} Abonnements wurden zurückgesetzt. Lade die Seite neu, um einen aktualisierten Statusprüfbericht anzuzeigen.'
+        reset_vapid_text: 'Dadurch werden VAPID-Schlüssel neu generiert und alle vorhandenen Abonnements mit den aktuellen VAPID-Schlüsseln gelöscht.'
+      other:
+        force_portrait_text: 'Porträt-Orientierung erzwingen'
+        heading: Andere
+        push_notif_preference_default_to_email_label: 'Standard-Push-Präferenzen für E-Mail'
+        push_notif_preference_default_to_email_text: 'Wenn aktiviert, haben Benutzer standardmäßig Push-Benachrichtigungen aktiviert für alle Benachrichtigungsarten, bei denen auch E-Mail-Benachrichtigungen standardmäßig aktiviert sind. Wenn deaktiviert, sind Push-Benachrichtigungen standardmäßig deaktiviert.'
+        user_max_subscriptions_label: 'Maximale Push-Abonnements pro Benutzer'
+        user_max_subscriptions_text: 'Wie viele Push-Abonnements sollte jeder Benutzer gleichzeitig haben können? Wenn ein Benutzer eine Push-Benachrichtigung erhält, führt jedes Abonnement zu einem API-Aufruf. Jedes Abonnement entspricht normalerweise einem Browser, den der Benutzer verwendet hat.'
+        window_controls_overlay_label: 'Fenster-Steuerelemente-Overlay aktivieren'
+      status_check_heading: Statusprüfung
+      submit_button: 'Einstellungen speichern'
+  forum:
+    alerts:
+      optin_button: Konfigurieren
+    discussion_controls:
+      share_button: Teilen
+    post_controls:
+      share_api:
+        title: '{username}s Antwort auf {title}'''
+      share_button: Teilen
+    settings:
+      pwa_notifications:
+        no_browser_support_button: 'Mehr erfahren'
+    user_controls:
+      share_button: Teilen
+  views:
+    offline:
+      header: Netzwerkverbindungsfehler
+      text: 'Diese App erfordert eine Netzwerkverbindung. Sie kann nicht offline verwendet werden. Bitte überprüfe deine Verbindung.'

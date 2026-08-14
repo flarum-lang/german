@@ -71,7 +71,7 @@ askvortsov-pwa:
       share_button: Teilen
     post_controls:
       share_api:
-        title: '{username}''s antwort auf {title}'''
+        title: '{username}s Antwort auf {title}'''
       share_button: Teilen
     settings:
       push_header: Push
