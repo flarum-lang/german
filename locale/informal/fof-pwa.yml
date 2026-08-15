@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-pwa/de/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-gdpr:
+  lib:
+    data:
+      pushsubscriptions:
+        delete_description: 'Löscht alle Push-Benachrichtigungsabonnements und Gerätetoken, die mit dem Benutzer verknüpft sind.'
+        export_description: 'Exportiert alle Push-Benachrichtigungsabonnements und Gerätetoken, die mit dem Benutzer verknüpft sind.'
 fof-pwa:
   admin:
     nav:
@@ -30,6 +36,8 @@ fof-pwa:
         upload_successful: 'Deine Firebase-Konfiguration wurde erfolgreich hochgeladen'
       heading: 'Progressive Web App-Konfiguration'
       logo_heading: 'Logos und Symbole'
+      logo_size_text: 'Lade ein Logo hoch, das auf die Größe von {size} mal {size} Pixeln skaliert wird.'
+      logo_text: "Damit deine Progressive Web-App installierbar ist, musst du mindestens ein Logo hochladen. Bitte beachte, dass alle Logos quadratisch sein müssen; wenn sie es nicht sind, werden sie in der Größe angepasst und möglicherweise gestreckt.\n\nUnten stehen dir eine Reihe von Größenoptionen zur Verfügung. Es wird empfohlen, ein Logo in so vielen Größen wie möglich hochzuladen, um mehr Geräte zu unterstützen.\n\nBitte beachte, dass du ein großes Logo hochladen kannst, welches dann auch für alle kleineren Größen als Logo verwendet wird. Zum Beispiel kannst du ein 1000x1000 px großes Logo für ALLE untenstehenden Bildgrößen hochladen. Wenn du jedoch versuchst, ein 50x50 px Logo als 512x512 px großes Logo hochzuladen, wird es stark gestreckt werden.\n"
       maintenance:
         debug_label: Debug-Modus
         debug_text: 'Dadurch werden Informationen über Benachrichtigungen in „storage/logs“ protokolliert. Es sollte im Allgemeinen deaktiviert werden, um unnötiges Auffüllen von Protokollen zu vermeiden.'
@@ -44,11 +52,24 @@ fof-pwa:
         push_notif_preference_default_to_email_text: 'Wenn aktiviert, haben Benutzer standardmäßig Push-Benachrichtigungen aktiviert für alle Benachrichtigungsarten, bei denen auch E-Mail-Benachrichtigungen standardmäßig aktiviert sind. Wenn deaktiviert, sind Push-Benachrichtigungen standardmäßig deaktiviert.'
         user_max_subscriptions_label: 'Maximale Push-Abonnements pro Benutzer'
         user_max_subscriptions_text: 'Wie viele Push-Abonnements sollte jeder Benutzer gleichzeitig haben können? Wenn ein Benutzer eine Push-Benachrichtigung erhält, führt jedes Abonnement zu einem API-Aufruf. Jedes Abonnement entspricht normalerweise einem Browser, den der Benutzer verwendet hat.'
-        window_controls_overlay_label: 'Fenster-Steuerelemente-Overlay aktivieren'
+        window_controls_overlay_label: 'Overlay der Fenstersteuerelemente aktivieren'
+        window_controls_overlay_text: "Wenn aktiviert, können die Benutzer durch das Ausblenden der nativen Titelleiste ein noch intensiveres, App-näheres Erlebnis erhalten. Ob Overlay der Fenstersteuerelemente aktiviert sind oder nicht, hängt von den Benutzereinstellungen und der Browserkompatibilität ab. Du musst deine Titelleiste anpassen, indem du CSS/JS nach der Aktivierung hinzufügst, sonst überlagern die Steuerelemente einige Elemente der oberen Navigationsleiste deines Forums und das Fenster lässt sich fast nicht mehr verschieben, was zu einer schlechten Erfahrung führt.\n\nSiehe auch: <compatibilitylink>Die Kompatibilität von Window Controls Overlay</compatibilitylink> & <learnlink>Über Window Controls Overlay in Microsoft Learn</learnlink>\n"
+      refreshed_message: 'Die PWA-Konfiguration wurde erfolgreich aktualisiert.'
       status_check_heading: Statusprüfung
       submit_button: 'Einstellungen speichern'
+      text: 'Konfiguriere deine Flarumseite, damit sie als Progressive Web App läuft! Bitte beachte, dass dies deine Seite nicht automatisch in den App Store bringt. Stattdessen bedeutet dies, dass Nutzer für deine Website die Option „Zum Homescreen hinzufügen“ erhalten. Wir bieten einige Statusüberprüfungen an, aber der beste Weg dies zu testen ist selber eine Test-Installation durchzuführen (suche nach einer Anleitung, wie man Progressive Web Apps installiert). Bitte bedenke auch, dass „Installiere diese PWA“-Popups von Browsern gesteuert werden und nicht von Entwicklern/Admins/Programmen ausgelöst werden können. Es wird empfohlen, eine Anleitung für die Installation einer PWA in die Dokumentation deiner Seite aufzunehmen.'
+    status:
+      config_no_https: 'Die URL in deiner config.php-Datei verwendet kein HTTPS. HTTPS ist erforderlich, damit Progressive Web Apps funktionieren.'
+      key_gen_failed: 'Die Generierung der für Push-Benachrichtigungen benötigten Schlüssel ist fehlgeschlagen. Die vollständige Fehlermeldung lautete: {error}'
+      no_logo: 'Du musst mindestens ein Logo mit einer Größe von mindestens 144x144 px hochladen, damit die PWA installiert werden kann.'
+      no_name: 'Du musst einen vollständigen Namen angeben, damit deine App funktioniert.'
+      no_vapid_keys: 'Keine VAPID-Schlüssel gefunden. Diese sind für das Versenden von Push-Benachrichtigungen erforderlich. Unten kannst Du VAPID-Schlüssel zurücksetzen.'
+      possible_https_disabled: 'Möglicherweise läuft deine Seite nicht über HTTPS. Es könnte helfen, den Cache zu leeren (Admin-Dashboard => Dropdown „Werkzeuge“). Wenn sie es tut, ignoriere dies. Falls nicht, denke daran, dass HTTPS für die Funktion von Progressive Web Apps erforderlich ist.'
+      success: 'Keine Probleme gefunden!'
+      suggest_gmp: 'Die gmp-PHP-Erweiterung scheint auf deinem Server nicht aktiviert zu sein. Dies ist nicht unbedingt erforderlich, kann jedoch die Leistung verbessern und wird empfohlen. Einige gemeinsam genutzte Hosts unterstützen dies jedoch möglicherweise nicht.'
   forum:
     alerts:
+      optin: 'Push-Benachrichtigungen sind aktiviert, aber du hast dieses Gerät nicht konfiguriert.'
       optin_button: Konfigurieren
     discussion_controls:
       share_button: Teilen
@@ -57,7 +78,13 @@ fof-pwa:
         title: '{username}s Antwort auf {title}'''
       share_button: Teilen
     settings:
+      push_header: Push
       pwa_notifications:
+        access_default: 'Aufgrund von Browser-Einschränkungen musst du einwilligen, um Push-Benachrichtigungen auf diesem Gerät zu erhalten.'
+        access_default_button: Einwilligen
+        access_denied: 'Du musst deine Browsereinstellungen anpassen, um Push-Benachrichtigungen auf diesem Gerät zu erhalten.'
+        access_denied_button: 'So geht’s'
+        no_browser_support: 'Dieser Browser unterstützt keine Push-Benachrichtigungen für Progressive Web-Apps.'
         no_browser_support_button: 'Mehr erfahren'
     user_controls:
       share_button: Teilen
