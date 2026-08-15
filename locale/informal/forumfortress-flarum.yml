@@ -17,7 +17,14 @@ forumfortress-flarum:
       configured: Konfiguriert
       connected: Verbunden
       connection_test: Verbindungstest
+      contact_support: 'Kundendienst kontaktieren'
       decisions: Entscheidungen
+      deprovision_confirm: 'Dieses Forum aus „Forum Fortress“ entfernen? Dieser Vorgang kann nicht rückgängig gemacht werden. Andere Foren und kostenpflichtige Konten (keine Testkonten) bleiben erhalten.'
+      deprovision_help: 'Führe diesen Vorgang durch, bevor du das Composer-Paket über den Extension Manager entfernst. Dadurch wird dieses Forum aus Forum Fortress entfernt, lokale Anmeldedaten werden gelöscht und der automatische Bootstrap-Vorgang wird angehalten, bis die Erweiterung wieder aktiviert wird. Bezahlte Nicht-Testkonten bleiben erhalten; Konten mit anderen Foren behalten diese Foren.'
+      deprovision_pending: 'Die Fernbereinigung nach einer früheren Deinstallation steht noch aus.'
+      deprovision_site: 'Verbindung trennen und Seite entfernen'
+      deprovision_success: 'Die „Forum Fortress“-Website wurde entfernt und der automatische Bootstrap-Vorgang wurde angehalten. Aktiviere die Erweiterung erneut oder installiere sie neu, wenn du die Verbindung wiederherstellen möchten.'
+      disconnected: 'Nicht verbunden'
       dismiss: Verwerfen
       enable_attack_mode: 'Angriffsmodus aktivieren'
       end_attack_mode: 'Angriffsmodus beenden'
@@ -57,7 +64,7 @@ forumfortress-flarum:
       control_base_url_label: Kontroll-API-Basis-URL
       controls_label: Dienststeuerungen
       debug_log_label: 'Vorübergehende API-Fehler protokollieren'
-      enabled_help: 'Registrierungen, Anmeldungen, Diskussionen und Antworten mit „Forum Fortress“ gegenprüfen.'
+      enabled_help: 'Registrierungen, Diskussionen, Antworten, Beiträge und Profiländerungen mit „Forum Fortress“ gegenprüfen.'
       enabled_label: 'Schutz durch Forum Fortress aktivieren'
       fail_open_help: 'Wird für den Normalbetrieb empfohlen, damit die Benutzer bei einem Netzwerkausfall nicht ausgesperrt werden.'
       fail_open_label: 'Anfragen erlauben, auch wenn Forum Fortress nicht verfügbar ist'
