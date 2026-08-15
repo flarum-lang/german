@@ -21,9 +21,12 @@ CHANGELOG
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
 * [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop)
+* [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile)
 * [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`forumfortress/flarum`](https://github.com/forum-fortress/flarum)
 * [`lcoy/cipher`](https://github.com/Lcoy2004/Flarum-cipher)
+* [`linkrobins/badge-labels`](https://github.com/linkrobins/flarum-badge-labels)
 * [`xxb5724/catch-the-fish`](https://github.com/Xiaoxiaobai5724/catch-the-fish)
 
 
