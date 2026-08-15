@@ -9,6 +9,8 @@ CHANGELOG
 
 * [`asyntai/flarum-chatbot`](https://github.com/asyntai/flarum-chatbot)
 * [`linkrobins/auto-lock`](https://github.com/linkrobins/auto-lock)
+* [`linkrobins/link-gate`](https://github.com/linkrobins/flarum-link-gate)
+* [`linkrobins/mobile-logo`](https://github.com/linkrobins/mobile-logo)
 * [`ramon/mail-reply`](https://github.com/ram0ng1/mail-reply)
 * [`tryhackx/flarum-cover-studio`](https://github.com/TryHackX/flarum-cover-studio)
 
