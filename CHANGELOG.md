@@ -2,6 +2,38 @@ CHANGELOG
 =========
 
 
+2.0.14 (2026-08-16)
+-------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`asyntai/flarum-chatbot`](https://github.com/asyntai/flarum-chatbot)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`linkrobins/auto-lock`](https://github.com/linkrobins/auto-lock)
+* [`linkrobins/link-gate`](https://github.com/linkrobins/flarum-link-gate)
+* [`linkrobins/mobile-logo`](https://github.com/linkrobins/mobile-logo)
+* [`ramon/mail-reply`](https://github.com/ram0ng1/mail-reply)
+* [`tryhackx/flarum-cover-studio`](https://github.com/TryHackX/flarum-cover-studio)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+* [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop)
+* [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile)
+* [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`forumfortress/flarum`](https://github.com/forum-fortress/flarum)
+* [`lcoy/cipher`](https://github.com/Lcoy2004/Flarum-cipher)
+* [`linkrobins/badge-labels`](https://github.com/linkrobins/flarum-badge-labels)
+* [`xxb5724/catch-the-fish`](https://github.com/Xiaoxiaobai5724/catch-the-fish)
+
+
+Alle Änderungen: [2.0.13...2.0.14](https://github.com/flarum-lang/german/compare/2.0.13...2.0.14).
+
+
 2.0.13 (2026-08-12)
 -------------------
 
