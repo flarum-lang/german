@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.25.27 (2026-08-16)
+--------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+
+
+Alle Änderungen: [1.25.26...1.25.27](https://github.com/flarum-lang/german/compare/1.25.26...1.25.27).
+
+
 1.25.26 (2026-08-12)
 --------------------
 
