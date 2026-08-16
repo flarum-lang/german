@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+2.0.15 (XXXX-XX-XX)
+-------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`linkrobins/flarum-forage`](https://github.com/linkrobins/flarum-forage)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye)
+* [`tryhackx/flarum-cover-studio`](https://github.com/TryHackX/flarum-cover-studio)
+
+
+Alle Änderungen: [2.0.14...2.0.15](https://github.com/flarum-lang/german/compare/2.0.14...2.0.15).
+
+
 2.0.14 (2026-08-16)
 -------------------
 
