@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.25.28 (XXXX-XX-XX)
+--------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`fof/first-post-approval`](https://github.com/FriendsOfFlarum/first-post-approval)
+
+
+Alle Änderungen: [1.25.27...1.25.28](https://github.com/flarum-lang/german/compare/1.25.27...1.25.28).
+
+
 1.25.27 (2026-08-16)
 --------------------
 
