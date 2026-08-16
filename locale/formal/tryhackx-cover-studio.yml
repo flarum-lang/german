@@ -55,25 +55,40 @@ tryhackx-cover-studio:
       thanks: 'Vielen Dank für deine Unterstützung!'
       title: 'Unterstütze diese Erweiterung'
   api:
+    avatar_focus_disabled: 'Die Bearbeitung des Avatar-Fokus ist in diesem Forum deaktiviert.'
     file_not_eligible: 'Diese Datei kann nicht als Cover verwendet werden.'
     invalid_focus: 'Der Brennpunkt muss eine Zahl zwischen 0 und 100 sein.'
     invalid_zoom: 'Der Zoomfaktor muss eine Zahl zwischen 0,5 und 4 sein.'
     no_adapter: 'Das Hochladen von Bildern ist in diesem Forum nicht konfiguriert (FoF Upload MIME-Einstellungen).'
+    no_cover: 'Es gibt kein Cover, das neu positioniert werden müsste.'
+    no_default_image: 'Es gibt kein Standardbild, das neu positioniert werden könnte.'
     no_file: 'Es wurde kein Bild hochgeladen.'
     no_original: 'Das ursprüngliche Avatar-Bild ist nicht verfügbar – lade bitte zuerst einen neuen Avatar hoch.'
     original_unreadable: 'Das Originalbild konnte nicht gelesen werden. Lade stattdessen einen neuen Avatar hoch.'
     too_many_uploads: 'Du lädst die Daten zu schnell hoch. Bitte warte eine Minute und versuche es dann erneut.'
+    unknown_default_kind: 'Unbekannter Standardbildtyp.'
     unsupported_type: 'Dieser Dateityp wird nicht unterstützt. Zulässige Formate: JPEG, PNG, WebP, GIF.'
     upload_failed: 'Die Datei konnte nicht gespeichert werden. Bitte versuche es erneut.'
   forum:
     avatar:
       adjust_button: 'Position anpassen'
+      hint: 'Ziehe das Bild, um den sichtbaren Kreis auszuwählen. Der Avatar wird in voller Qualität aus dem Original neu zugeschnitten.'
+      no_original: 'Es ist noch kein Quellbild vorhanden – lade eines hoch oder wähle es aus deinen Medien aus, um deinen Avatar zu platzieren.'
       title: Avatarposition
+    controls:
+      edit_cover: 'Cover bearbeiten'
     editor:
+      drag_aria: 'Bildpositions-Editor. Verwende die Pfeiltasten, um den Fokuspunkt zu verschieben, und die Plus- und Minus-Tasten zum Zoomen.'
+      drag_hint: 'Zum Verschieben ziehen, zum Zoomen scrollen'
+      empty_hint: 'Noch kein Cover – lade ein Bild hoch oder wähle eines aus deinen Medien aus.'
       generic_error: 'Es ist ein Fehler aufgetreten. Bitte versuche es erneut.'
+      media_button: 'Aus „Meine Medien“ auswählen'
       remove_button: Entfernen
+      remove_confirm: 'Dieses Cover entfernen? Das Bild bleibt in deinem Medienmanager erhalten.'
       save_position_button: 'Position speichern'
       saved: Gespeichert.
+      size_hint: 'Maximale Größe: {max}. Das Bild in voller Auflösung bleibt erhalten; ziehe den Mauszeiger, um den sichtbaren Bereich auszuwählen.'
+      title: Profilcover
       upload_button: 'Bild hochladen'
       zoom_label: Zoom
       zoom_reset: 'Zoom auf 1× zurücksetzen'
