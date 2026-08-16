@@ -7,6 +7,7 @@ CHANGELOG
 
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
+* [`fof/first-post-approval`](https://github.com/FriendsOfFlarum/first-post-approval)
 * [`linkrobins/flarum-forage`](https://github.com/linkrobins/flarum-forage)
 
 
