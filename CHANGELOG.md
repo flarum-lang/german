@@ -8,6 +8,7 @@ CHANGELOG
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
 * [`asyntai/flarum-chatbot`](https://github.com/asyntai/flarum-chatbot)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
 * [`linkrobins/auto-lock`](https://github.com/linkrobins/auto-lock)
 * [`linkrobins/link-gate`](https://github.com/linkrobins/flarum-link-gate)
 * [`linkrobins/mobile-logo`](https://github.com/linkrobins/mobile-logo)
