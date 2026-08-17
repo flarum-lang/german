@@ -12,6 +12,8 @@ fof-discussion-views:
     permissions:
       reset_views_label: 'Diskussionsansichten festlegen'
     settings:
+      dedupe_ttl: 'Sekunden, nach denen ein Zuschauer erneut gezählt wird'
+      dedupe_ttl_help: 'Wie lange ein Besucher nach dem Aufrufen einer Diskussion im Speicher verbleibt, damit das Aktualisieren oder erneute Aufrufen nicht erneut gezählt wird. Setze den Wert auf 0, um jeden Aufruf zu zählen.'
       ignore_crawlers: 'Crawler-Besuche ignorieren'
   forum:
     discussion_controls:

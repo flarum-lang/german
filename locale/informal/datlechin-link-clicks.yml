@@ -11,10 +11,12 @@ datlechin-link-clicks:
       column_total: Klicks
       column_unique: 'Eindeutige Besucher'
       column_url: Link
+      drilldown_tooltip: 'Klicke hier, um zu sehen, wer auf diesen Link geklickt hat'
       empty: 'Keine Klicks im ausgewählten Zeitraum.'
       export_csv: 'CSV exportieren'
       external_label: Extern
       internal_label: Intern
+      scope: Geltungsbereich
       scope_all: 'Alle Links'
       scope_attachments: 'Nur Anhänge'
       scope_external: 'Nur externe'
@@ -28,6 +30,7 @@ datlechin-link-clicks:
       column_link: Link
       column_when: Wann
       empty: 'Für diesen Nutzer wurden keine gezählten Klicks erfasst.'
+      title: 'Klickverlauf von {name}'
     clickers:
       anonymized: Anonymisiert
       column_clicks: Klicks
@@ -37,6 +40,7 @@ datlechin-link-clicks:
       empty: 'Für diesen Link wurden keine Klicks gezählt.'
       guest: Gast
       title: 'Wer hat auf diesen Link geklickt'
+      view_trail_tooltip: 'Zeige an, worauf dieser Benutzer geklickt hat'
     devices:
       browsers:
         chrome: Chrome
@@ -52,6 +56,7 @@ datlechin-link-clicks:
         mobile: Handy
         tablet: Tablet
       devices_label: 'Nach Gerät'
+      title: 'Woher Klicks stammen (letzte 30 Tage)'
     domains:
       column_domain: Domäne
       column_urls: URLs
@@ -137,4 +142,6 @@ datlechin-link-clicks:
       opt_out_save_failed: 'Deine Einstellung konnte nicht gespeichert werden. Bitte versuche es erneut.'
     user_popular_links_title: 'Meistgeklickte Links'
   gdpr:
+    anonymize_description: 'Extrahiere die „user_id“ und die „ip_address“ aus jedem Link-Klick-Ereignis dieses Benutzers.'
+    delete_description: 'Lösche alle für diesen Benutzer aufgezeichneten Link-Klick-Ereignisse.'
     export_description: 'Alle registrierten Link-Klicks dieses Benutzers.'
