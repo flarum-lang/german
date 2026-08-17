@@ -117,7 +117,7 @@ core:
       custom_styles_cannot_use_less_features: 'Die Funktionen @import und data-uri sind in benutzerdefiniertem LESS nicht zulässig.'
       custom_styles_heading: 'Individueller Stil'
       custom_styles_text: 'Die Erscheinung des Forums durch eigenen Less/CSS-Code anpassen.'
-      description: 'Ändere die Farbe, das Logo und weitere Variablen des Forums.'
+      description: 'Ändere die Farben, das Logo und weitere Variablen des Forums.'
       edit_css_button: 'Individuelles CSS bearbeiten'
       edit_footer_button: '=> core.ref.custom_footer_title'
       edit_header_button: '=> core.ref.custom_header_title'
