@@ -9,7 +9,9 @@ datlechin-link-clicks:
       column_first: 'Erster Klick'
       column_last: 'Letzter Klick'
       column_total: Klicks
+      column_unique: 'Eindeutige Besucher'
       column_url: Link
+      empty: 'Keine Klicks im ausgewählten Zeitraum.'
       export_csv: 'CSV exportieren'
       external_label: Extern
       internal_label: Intern
@@ -20,17 +22,21 @@ datlechin-link-clicks:
       since: Seit
       tag: Tag
       tag_placeholder: 'tag-slug (optional)'
+      title: Klick-Analysen
       until: Bis
     click_trail:
       column_link: Link
       column_when: Wann
+      empty: 'Für diesen Nutzer wurden keine gezählten Klicks erfasst.'
     clickers:
       anonymized: Anonymisiert
       column_clicks: Klicks
       column_first: 'Erster Klick'
       column_last: 'Letzter Klick'
       column_who: Wer
+      empty: 'Für diesen Link wurden keine Klicks gezählt.'
       guest: Gast
+      title: 'Wer hat auf diesen Link geklickt'
     devices:
       browsers:
         chrome: Chrome
@@ -40,23 +46,41 @@ datlechin-link-clicks:
         other: Andere
         safari: Safari
         samsung: 'Samsung Internet'
+      browsers_label: 'Nach Browser'
       devices:
         desktop: Desktop
         mobile: Handy
         tablet: Tablet
+      devices_label: 'Nach Gerät'
+    domains:
+      column_domain: Domäne
+      column_urls: URLs
+      title: 'Top-Domänen (letzte 30 Tage)'
     heatmap:
       lead: 'Jede Zelle entspricht einer Stunde eines Tages. Je dunkler, desto mehr los.'
       title: 'Klick-Heatmap (letzte 30 Tage)'
     permissions:
       view_analytics_label: 'Link-Klick-Analysen anzeigen'
     settings:
+      attachment_prefixes_help: 'URLs auf dem Forum-Host, deren Pfad mit einem dieser Präfixe beginnt, werden auch dann nachverfolgt, wenn die Nachverfolgung interner Links deaktiviert ist. „/assets/files/“ ist für den Standard-Upload-Speicher von Flarum integriert; füge deinen eigenen Pfad hinzu, wenn du „fof/upload“ oder einen benutzerdefinierten CDN-Pfad verwendest.'
+      attachment_prefixes_label: 'Zusätzliche Präfixe für Anhangspfade'
+      bot_ua_help: 'Ein Fragment pro Zeile. Eine Anfrage, deren „User-Agent“-Feld eine dieser Teilzeichenfolgen enthält (Groß-/Kleinschreibung spielt keine Rolle), wird als Bot behandelt. Die integrierte Bot-Erkennung läuft ständig; die Einträge hier ergänzen diese.'
+      bot_ua_label: 'Zusätzliche User-Agent-Fragmente für Bots'
       bot_ua_placeholder: "Googlebot\nMJ12bot\nAhrefsBot"
+      confirm_external_help: 'Zeigt einen Bestätigungsdialog des Browsers an, wenn ein Leser auf einen externen Link klickt. Standardmäßig deaktiviert.'
+      confirm_external_label: 'Vor dem Verlassen des Forums Bestätigung einfordern'
+      dedup_window_help: 'Ein bestimmter Nutzer wird in diesem Fenster pro Link nur einmal gezählt.'
+      dedup_window_label: 'Deduplizierungsfenster (Stunden)'
+      digest_enabled_help: 'Jeden Montagmorgen wird jedem Administrator eine Zusammenfassung der Klicks der vergangenen Woche im Klartext per E-Mail zugesandt. Standardmäßig deaktiviert.'
+      digest_enabled_label: 'Wöchentliche E-Mail-Zusammenfassung an die Administratoren senden'
       domain_blocklist_help: 'Zu überspringende Hosts. Einer pro Zeile. Verwende *.beispiel.de, um alle Subdomains abzudecken. Beiträge, die auf diese Hosts verweisen, erhalten kein Abzeichen, und Klicks werden nicht erfasst.'
       domain_blocklist_label: 'Domains blockieren'
       enabled_help: 'Hauptschalter. Wenn ausgeschaltet, findet weder ein Überschreiben noch eine Aufzeichnung statt.'
       enabled_label: 'Link-Klicks erfassen'
       honor_dnt_help: 'Aufzeichnung überspringen, wenn die Anfrage DNT: 1 enthält.'
       honor_dnt_label: '„Do Not Track“ beachten'
+      min_display_help: 'Das Abzeichen unterhalb dieser Anzahl ausblenden.'
+      min_display_label: 'Mindestanzahl für die Anzeige des Abzeichens'
       open_new_window_help: 'Bei Tracking-Links wird „target=“_blank““ verwendet, sodass die Zielseite in einem neuen Tab geöffnet wird. Bei „Off“ bleibt der Klick im selben Tab.'
       open_new_window_label: 'Links in einem neuen Fenster öffnen'
       retention_help: 'Tägliche Jobs löschen alle link_click_events, die älter als dieser sind. Setze den Wert auf 0, um Ereignisse dauerhaft zu speichern.'
@@ -65,14 +89,28 @@ datlechin-link-clicks:
       skip_guests_label: 'Gäste nicht nachverfolgen'
       track_internal_help: '„Aus“ sorgt dafür, dass die Zählung auf ausgehende Ressourcen konzentriert bleibt.'
       track_internal_label: 'Links zu diesem Forum erfassen'
+      tracking_params_help: 'Ein Muster pro Zeile. Vor der Dublettenbereinigung aus den URLs entfernt, sodass Varianten mit UTM-Tags demselben Link zugeordnet werden. Das abschließende * steht für ein Präfix (z. B. utm_*). Die Standardliste umfasst bereits utm_*, fbclid, gclid, mc_cid, igshid, _ga und weitere.'
+      tracking_params_label: 'Zusätzliche Tracking-Abfrageparameter, die entfernt werden sollen'
+      tracking_params_placeholder: "ref_url\nyclid\ncustom_param"
       webhook_enabled_help: 'Leite jeden erfassten Klick als JSON-POST über die Warteschlange an eine externe URL weiter.'
       webhook_enabled_label: 'Webhook aktivieren'
+      webhook_secret_help: 'Wenn diese Option gesetzt ist, wird der Request-Body mit HMAC-SHA256 signiert und die Signatur im Header „X-LinkClicks-Signature“ in der Form „sha256=HEX_DIGEST“ gesendet. Empfänger überprüfen die Signatur, indem sie sie mit demselben geheimen Schlüssel neu berechnen.'
+      webhook_secret_label: Webhook-Secret
+      webhook_test_button: 'Test-Ping senden'
+      webhook_test_failed: 'Webhook-Test fehlgeschlagen: {detail}'
+      webhook_test_ok: 'Der Webhook hat mit dem HTTP-Status {status} geantwortet.'
+      webhook_url_help: 'Wohin die JSON-Nutzlast gesendet werden soll.'
       webhook_url_label: Webhook-URL
     tabs:
       analytics: Analytics
       settings: Einstellungen
       webhook: Webhook
+    tags:
+      disable_tracking_help: 'Beiträge in Diskussionen, die mit diesem Tag versehen sind, werden nicht mehr nachverfolgt. Bereits vorhandene Zählwerte bleiben erhalten.'
+      disable_tracking_label: 'Link-Klick-Tracking in diesem Tag deaktivieren'
     timeseries:
+      avg_per_day: 'durchschn. / Tag'
+      peak_day: Spitzentag
       title: 'Tägliche Klicks'
       total_clicks: insgesamt
   forum:

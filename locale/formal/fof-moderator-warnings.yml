@@ -55,7 +55,7 @@ fof-moderator-warnings:
       private_comment: 'Moderator-sichtbare Kommentare'
       public_comment: Verwarnung
     warning_modal:
-      confirmation_message: 'Ihre Warnung wurde hinterlegt. Möglicherweise müssen Sie die Seite aktualisieren, um sie anzuzeigen.'
+      confirmation_message: 'Ihre Warnung wurde hinterlegt.'
       heading: '<strong>{username}</strong> verwarnen'
       private_comment_heading: 'Wieso erhält <strong>{username}</strong> diese Verwarnungen? Diese Kommentare sind NUR für andere Moderatoren sichtbar.'
       public_comment_heading: 'Wieso erhält <strong>{username}</strong> diese Verwarnungen? Diese Kommentare sind für den Benutzer und andere Moderatoren sichtbar.'
