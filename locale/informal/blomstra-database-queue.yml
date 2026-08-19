@@ -5,4 +5,25 @@
 blomstra-database-queue:
   admin:
     settings:
+      backoff_help: "Anzahl der Sekunden, die gewartet werden soll, bevor ein Job, bei dem eine nicht abgefangene Ausnahme aufgetreten ist, erneut versucht wird.\n"
       backoff_label: Backoff
+      memory_help: "Die Speichergrenze in Megabyte.\n"
+      memory_label: Speicher
+      rest_help: "Die Anzahl der Sekunden, die zwischen den Jobs als Pause eingelegt werden sollen.\n"
+      rest_label: Ruhepause
+      retries_help: "Die Anzahl der Versuche, einen Job auszuführen, bevor er als fehlgeschlagen protokolliert wird.\n"
+      retries_label: Wiederholungsversuche
+      timeout_help: "Die Anzahl der Sekunden, die ein Kindprozess laufen darf.\n"
+      timeout_label: Zeitüberschreitung
+    stats:
+      auto_refresh: 'Automatische Aktualisierung'
+      data:
+        failed-jobs: 'Fehlgeschlagene Jobs'
+        pending-jobs: 'Ausstehende Jobs'
+        queue-name: Warteschlange
+        status:
+          inactive: Inaktiv
+          label: Status
+          running: 'Wird ausgeführt'
+      heading: Warteschlangenübersicht
+      refresh: Aktualisieren
