@@ -10,6 +10,11 @@ CHANGELOG
 * [`fof/first-post-approval`](https://github.com/FriendsOfFlarum/first-post-approval)
 
 
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue)
+
+
 Alle Änderungen: [1.25.27...1.25.28](https://github.com/flarum-lang/german/compare/1.25.27...1.25.28).
 
 
