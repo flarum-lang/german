@@ -72,7 +72,7 @@ core:
         retries_label: Job-Wiederholungsversuche
         section_label: Warteschlange
         sync_help: 'Für eine bessere Leistung und Benutzererfahrung solltest du die Verwendung des Datenbank-Warteschlangentreibers in Betracht ziehen. Weitere Informationen findest du in der Dokumentation.'
-        sync_info: 'Dein Forum verwendet den synchronen Warteschlangentreiber. Aufträge werden sofort im Hauptprozess-Thread verarbeitet.'
+        sync_info: 'Dein Forum verwendet den synchronen Warteschlangentreiber. Jobs werden sofort im Hauptprozess-Thread verarbeitet.'
         timeout_help: 'Maximaldauer, die ein einzelner Job ausgeführt werden kann. Der Standardwert beträgt 60 Sekunden.'
         timeout_label: 'Zeitlimit für Jobs (Sekunden)'
       search:
@@ -187,7 +187,7 @@ core:
       io_error_message: 'Es konnte nicht in das Dateisystem geschrieben werden. Überprüfe die Berechtigungen deines Dateisystems und versuche es erneut. Oder versuche es über die Kommandozeile auszuführen.'
       status:
         headers:
-          queue-driver: Queue-Treiber
+          queue-driver: Warteschlangen-Treiber
           scheduler-status: Scheduler
           session-driver: Session-Treiber
         scheduler:

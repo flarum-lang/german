@@ -17,5 +17,16 @@ linkrobins-forage:
     key_help: "Füge den Schlüssel aus deinem Linkrobins.com-Dashboard → Forage ein. Das war’s schon – Forage richtet die Verbindung zu deinem Suchserver für dich ein und beginnt mit der Indizierung deiner Beiträge. Lasse das Feld leer, um zur eigenen Suche deines Forums zurückzukehren.\n"
     key_label: Forage-Schlüssel
     provisioning: "Dein Schlüssel ist in Ordnung, und dein Suchserver wird gerade noch eingerichtet. Das dauert nach der Anmeldung ein oder zwei Minuten. Bis er bereit ist, wird die Suchfunktion deines Forums verwendet.\n"
+    related_composer_help: "Wenn ein Mitglied eine neue Diskussion startet, werden unter dem Titelfeld einige bereits vorhandene Diskussionen mit ähnlichen Titeln angezeigt. Das ist nur ein Vorschlag: Es hindert niemanden daran, einen neue Diskussion zu verfassen, und Benutzer können diese Anzeige ausblenden.\n"
+    related_composer_label: 'Ähnliche Diskussionen vorschlagen, während jemand schreibt'
+    related_discussion_help: "Fügt am Ende der Seite eine kurze Liste weiterer Diskussionen hinzu, die der gerade gelesenen ähneln. Deaktiviere diese Funktion, wenn du das Ende eines Threads lieber frei halten möchtest.\n"
+    related_discussion_label: 'Unter jedem Thread verwandte Diskussionen anzeigen'
     unconfigured: "Füge unten deinen Forage-Schlüssel ein, um die gehostete Suche zu aktivieren. Du findest ihn in deinem linkrobins.com-Dashboard unter „Forage“. Bis dahin nutzt dein Forum weiterhin die eigene Suchfunktion, sodass in der Zwischenzeit keine Probleme auftreten.\n"
     unreachable: "Deine Konfiguration ist in Ordnung, aber dein Suchserver antwortet derzeit nicht. In der Zwischenzeit wird die foreneigene Suche verwendet, sodass die Mitglieder weiterhin suchen können.\n"
+  forum:
+    composer_dismiss: 'Diese Vorschläge ausblenden'
+    composer_heading: 'Ähnliche Diskussionen'
+    related_heading: 'Ähnliche Diskussionen'
+    related_more: 'Mehr anzeigen'
+    related_none: 'Bisher sieht noch nichts diesem ähnlich.'
+    related_replies: '{count, plural, one {# Antwort} other {# Antworten}}'
