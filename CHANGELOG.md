@@ -2,6 +2,33 @@ CHANGELOG
 =========
 
 
+2.0.15 (XXXX-XX-XX)
+-------------------
+
+**Allgemeine Änderungen**:
+
+* Flarum-Core Übersetzungen aktualisiert.
+
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`fof/first-post-approval`](https://github.com/FriendsOfFlarum/first-post-approval)
+* [`linkrobins/flarum-forage`](https://github.com/linkrobins/flarum-forage)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`datlechin/flarum-link-clicks`](https://github.com/datlechin/flarum-link-clicks)
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+* [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye)
+* [`tryhackx/flarum-cover-studio`](https://github.com/TryHackX/flarum-cover-studio)
+
+
+Alle Änderungen: [2.0.14...2.0.15](https://github.com/flarum-lang/german/compare/2.0.14...2.0.15).
+
+
 2.0.14 (2026-08-16)
 -------------------
 
