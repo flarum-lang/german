@@ -19,6 +19,7 @@ CHANGELOG
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`datlechin/flarum-link-clicks`](https://github.com/datlechin/flarum-link-clicks)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
 * [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
 * [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
 * [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
