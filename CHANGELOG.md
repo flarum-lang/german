@@ -35,6 +35,7 @@ CHANGELOG
 * [`forumfortress/flarum`](https://github.com/forum-fortress/flarum)
 * [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye)
 * [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado)
 * [`tryhackx/flarum-cover-studio`](https://github.com/TryHackX/flarum-cover-studio)
 
 
