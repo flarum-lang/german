@@ -195,6 +195,9 @@ core:
         copy_success: 'Systeminformationen in Zwischenablage kopiert'
         title: Systeminformationen
       io_error_message: 'Es konnte nicht in das Dateisystem geschrieben werden. Überprüfen Sie die Berechtigungen Ihres Dateisystems und versuchen Sie es erneut. Oder versuchen Sie es über die Kommandozeile auszuführen.'
+      queue_paused_all_warning: 'Die gesamte Warteschlangenverarbeitung wurde pausiert. Die Aufträge sammeln sich an, bis die Verarbeitung wieder aufgenommen wird.'
+      queue_paused_manage: Verwalten
+      queue_paused_warning: 'Die Warteschlangenverarbeitung wurde pausiert (Warteschlange: {queues}). Die Aufträge sammeln sich an, bis die Verarbeitung wieder aufgenommen wird.'
       status:
         headers:
           queue-driver: Warteschlangen-Treiber
@@ -210,6 +213,9 @@ core:
     database-driver-mismatch-warning:
       detail: "Deine <code>config.php</code> ist für die Verwendung des Datenbanktreibers <code>{configured}</code> konfiguriert, aber Flarum hat festgestellt, dass der Datenbankserver tatsächlich <code>{actual}</code> ist.\n\nDie Verwendung des falschen Treibers kann zu subtilen, schwer zu diagnostizierenden Fehlern führen. Setze <code>‚driver‘ => ‚‘{actual}‚‘</code> im Abschnitt <code>database</code> deiner <code>config.php</code>-Datei. Weitere Informationen findest du in der <link>Flarum-Dokumentation</link>.\n"
       label: Datenbank-Treiber-Konflikt
+    database-version-warning:
+      below-recommended-detail: "Auf deinem {server} Server läuft die Version <code>{version}</code>. Diese Version wird zwar unterstützt, Flarum empfiehlt jedoch {server} <code>{recommended}</code> oder höher, um die beste Leistung zu erzielen und eine gepflegte Version zu nutzen. Weitere Informationen findest du in der <link>Flarum-Dokumentation</link>.\n"
+      below-recommended-label: 'Datenbankversion veraltet'
     debug-warning:
       detail: "Sofern der <code>Debugmodus</code> aktiv ist, wird Flarum seine <code>JavaScript</code> und <code>CSS</code> Ressourcen bei jedem Seitenabruf neu generieren und könnte zudem potenziell weitere Informationen preisgeben, etwa Datenbankgeheimnisse, Umgebungsvariablen usw.\n\nEs wird dringendst empfohlen, den <code>debug</code> in Ihrer <code>config.php</code> Datei in einem Produktionskontext zu deaktivieren. Konsultieren Sie bitte die <link>Flarum Dokumentation</link> für zusätzliche Informationen.\n"
       label: 'Debugmodus aktiv'
@@ -578,6 +584,7 @@ core:
       session_dropdown_accessible_label: 'Dropdown-Menü für Sitzungsoptionen umschalten'
       settings_button: '=> core.ref.settings'
       sign_up_link: '=> core.ref.sign_up'
+      theme_switcher_accessible_label: 'Farbschema ändern'
     index:
       all_discussions_link: '=> core.ref.all_discussions'
       cannot_start_discussion_button: 'Kann keine Diskussion beginnen'
@@ -589,12 +596,14 @@ core:
       start_discussion_button: '=> core.ref.start_a_discussion'
       toggle_sidenav_dropdown_accessible_label: 'Dropdown-Menü für die Navigation umschalten'
     index_sort:
-      latest_button: Zuletzt
+      az_button: '=> core.ref.title_az'
+      latest_button: '=> core.ref.latest'
       newest_button: '=> core.ref.newest'
       oldest_button: '=> core.ref.oldest'
       relevance_button: '=> core.ref.relevance'
       toggle_dropdown_accessible_label: 'Sortierung der Diskussionsliste ändern'
-      top_button: 'Meist diskutiert'
+      top_button: '=> core.ref.top'
+      za_button: '=> core.ref.title_za'
     log_in:
       forgot_password_link: 'Passwort vergessen?'
       invalid_login_message: '=> core.ref.invalid_login_message'
@@ -826,6 +835,14 @@ core:
         group:
           hint: 'Singular- oder Plural-Gruppennamen'
           key: gruppe
+    index_sort:
+      az_button: '=> core.ref.title_az'
+      latest_button: '=> core.ref.latest'
+      newest_button: '=> core.ref.newest'
+      oldest_button: '=> core.ref.oldest'
+      relevance_button: '=> core.ref.relevance'
+      top_button: '=> core.ref.top'
+      za_button: '=> core.ref.title_za'
     input:
       clear_button: 'Eingabe leeren'
     loading_indicator:
@@ -839,6 +856,7 @@ core:
       placeholder: 'Mehrere Optionen auswählen'
     nav:
       drawer_button: 'Navigationsleiste öffnen'
+      pin_pane_button: 'Diskussionsliste anheften'
     notices:
       bisecting: 'Ausführen eines Erweiterungs-Bisektionsprozesses, um festzustellen, welche Erweiterung ein Problem verursacht.'
       bisecting_continue: 'Bisect fortsetzen'
@@ -847,6 +865,8 @@ core:
     number_suffix:
       kilo_text: K
       mega_text: M
+    overflowing_list:
+      toggle_accessible_label: 'Weitere Elemente'
     pagination:
       back_button: 'Vorherige Seite'
       first_button: 'Zur ersten Seite'
@@ -862,6 +882,7 @@ core:
       options_heading: Suchoptionen
       placeholder: Suchen...
       preview_heading: Suchvorschau
+      search_active_button_accessible_label: 'Suche ändern: {query}'
       search_clear_button_accessible_label: 'Suchanfrage löschen'
       title: Suche
     search_source:
@@ -910,6 +931,7 @@ core:
     icon: Symbol
     icon_text: 'Geben Sie den Namen der <a>FontAwesome</a>-Symbolklasse ein, aber <em>mit</em> dem Präfix (z. B. <code>fas fa-flag</code> oder <code>fa-solid fa-flag</code>).'
     invalid_login_message: 'Deine Anmeldedaten waren falsch.'
+    latest: Neueste
     light_hc_mode_label: 'Heller Modus mit hohem Kontrast'
     light_mode_label: 'Heller Modus'
     load_more: 'Mehr laden'
@@ -942,6 +964,9 @@ core:
     sign_up: Registrieren
     some_others: '{count, plural, one {# weiterem} other {# weiteren}}'
     start_a_discussion: 'Diskussion starten'
+    title_az: 'Titel (A–Z)'
+    title_za: 'Titel (Z–A)'
+    top: 'Meist diskutiert'
     username: Benutzername
     username_or_email_placeholder: 'Benutzername oder E-Mail'
     users: Benutzer

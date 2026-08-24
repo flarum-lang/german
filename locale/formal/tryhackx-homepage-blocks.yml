@@ -136,6 +136,28 @@ tryhackx-homepage-blocks:
       description: 'Wenn dir diese Erweiterung gefällt, würde ich mich über eine kleine Spende freuen, um die Weiterentwicklung zu unterstützen. Jeder Beitrag hilft dabei, das Projekt am Leben zu erhalten und weiter zu pflegen.'
       thanks: 'Vielen Dank für deine Unterstützung!'
       title: 'Unterstütze diese Erweiterung'
+    whitelist:
+      api_key_id: API-Schlüssel-ID
+      api_key_id_help: 'Die 16-stellige Schlüssel-ID, die bei der Erstellung des API-Clients im Admin-Bereich des Trackers angezeigt wurde (Whitelist → API-Clients).'
+      api_secret: API-Secret
+      api_url: Tracker-URL
+      api_url_help: 'Basis-URL der Tracker-Webanwendung, z. B. https://tracker.example.org (nur http/https, ohne abschließenden Pfad).'
+      enabled_help: 'Jeder im Forum veröffentlichte Magnet-Link (neuer Beitrag, Bearbeitung, Freigabe) wird über die Server-zu-Server-API in der Whitelist des Trackers registriert. Erfordert tryhackx-tracker >= 1.2.0 im Whitelist-Modus und PHP ext-curl.'
+      scan_button: 'Gesamtes Forum scannen'
+      scan_cancel: Abbrechen
+      scan_done: 'Scan abgeschlossen: {processed} Beiträge, {hashes} Hashes ({added} hinzugefügt, {exists} vorhanden, {banned} gebannt).'
+      scan_error: 'Angehalten: {error}'
+      scan_progress: '{processed}/{total} Beiträge · {hashes} Hashes gefunden · übersprungen {skipped} (andere tracker) · hinzugefügt {added} · vorhanden {exists} · gebannt {banned}'
+      scan_resume: Fortsetzen
+      scan_running: 'Ein Scan wird bereits ausgeführt (in einem anderen Tab?). Versuche es in einem Moment erneut.'
+      secret_clear: Löschen
+      secret_cleared: 'Secret gelöscht.'
+      secret_error: 'Secret konnte nicht gespeichert werden (ungültiger Wert oder Anfrage fehlgeschlagen).'
+      secret_save: 'Secret speichern'
+      secret_saved: 'Secret gespeichert.'
+      test_button: 'Verbindung testen'
+      test_fail: 'Fehlgeschlagen: {error}.'
+      timeout: 'Zeitlimit (s)'
   forum:
     captcha_close: Schliessen
     captcha_description: 'Schließe die folgende Aufgabe ab, um fortzufahren.'

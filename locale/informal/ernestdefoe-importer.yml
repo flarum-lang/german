@@ -19,6 +19,26 @@ ernestdefoe-importer:
     password: Datenbank-Passwort
     port: Port
     prefix: Tabellenpräfix
+    redirects:
+      error_empty_map: 'Dieser Import verfügt über keine ID-Zuordnung mehr – sie wurde zurückgesetzt, sodass es nichts gibt, worin nachgeschlagen werden könnte.'
+      error_failed: 'Das Speichern ist fehlgeschlagen. Bitte versuche es erneut.'
+      error_no_such_run: 'Dieser Import existiert nicht mehr.'
+      error_unknown_source: 'Für diese Plattform sind keine Adressmuster bekannt.'
+      examples_intro: 'Echte Adressen aus deinem Import, sofort aufgelöst – das ist es, was Besucher erhalten:'
+      intro: "Die Adressen deines alten Forums befinden sich bei Google, in den Lesezeichen und in jedem Beitrag, der jemals auf eine Diskussion verlinkt hat. Aktiviere diese Funktion, und Flarum kümmert sich darum – jede URL eines alten Themas, Tags oder Profils leitet die Besucher dorthin weiter, wo der Inhalt nun zu finden ist, und zwar mit einer permanenten Weiterleitung, sodass Suchmaschinen das Ranking übertragen, anstatt es zu verlieren.\n"
+      loading: 'Überprüfen welche Weiterleitungen für dieses Forum eingerichtet werden sollen…'
+      no_examples: 'Die Zuordnung dieses Imports enthält keine Vorschau.'
+      no_runs: 'Es gibt noch nichts weiterzuleiten. Sobald der Import abgeschlossen ist, kannst du hier die Adressen des alten Forums auf die neuen Seiten weiterleiten.'
+      note: 'Es läuft ausschließlich auf einer Seite, die Flarum nicht selbst bedienen konnte, sodass es niemals eine Adresse übernehmen kann, die dein Forum bereits bereitstellt. Es wird nichts umgeschrieben und nichts gespeichert – alte Links werden bei ihrem Eintreffen abgeglichen.'
+      'off': 'Weiterleitungen sind aus'
+      'on': 'Weiterleitungen sind an'
+      run: 'Abbildung verwenden von'
+      run_option: 'Import #{id} — {source}, {topics} Diskussionen'
+      source: 'Die Adressen des alten Forums sahen so aus'
+      source_help: 'In der Regel die Plattform, von der du importiert hast. Ändere diese Angabe, falls die externen Links aus einer früheren Version stammen – vBulletin 3, 4 und 5 importieren zwar alle auf dieselbe Weise, verwenden jedoch völlig unterschiedliche URLs.'
+      title: 'Alte Links mit Weiterleitung weiter funktionsfähig halten'
+      unknown_source: 'Für diese Plattform sind keine Adressmuster bekannt, daher gibt es nichts, womit ein Abgleich erfolgen könnte.'
+      unresolved: 'kein Weiterleitungsziel'
     running: 'Import läuft'
     shared_note: 'Wird in kleinen Chargen direkt über deinen Browser ausgeführt – es sind weder ein Queue-Worker noch SSH erforderlich, sodass es auch auf Shared-Hosting-Servern funktioniert. Lasse diesen Tab geöffnet; sollte der Vorgang unterbrochen werden, öffne diese Seite einfach erneut, und der Vorgang wird an der Stelle fortgesetzt, an der er unterbrochen wurde.'
     source: Quellplattform

@@ -46,7 +46,7 @@ linkrobins-birdseye:
       visitors_line: 'Besucher: {count} ({change})'
   forum:
     session_menu:
-      analytics_button: Analytik
+      analytics_button: Analyse
   lib:
     dashboard:
       avg_visit: 'Durchschn. Besuche'
@@ -79,7 +79,7 @@ linkrobins-birdseye:
       signups: Registrierungen
       sources: Quellen
       tags: 'Beliebteste Tags'
-      title: Analytik
+      title: Analyse
       today: 'Bis jetzt heute'
       today_note: 'live - wird am Ende des Tages endgültig'
       top_discussions: 'Beliebteste Diskussionen'

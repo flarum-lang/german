@@ -16,6 +16,7 @@ flarum-sticky:
       enable_display_excerpt: 'Auszug aus dem ersten Beitrag anzeigen, wenn eine angeheftete Diskussion ungelesen ist'
       only_sticky_unread_discussions_help: 'Auf der Seite „Alle Diskussionen“ werden ungelesene angeheftete Diskussionen oben angepinnt, während gelesene angeheftete Diskussionen der regulären Sortierung folgen.'
       only_sticky_unread_discussions_label: 'Nur ungelesene Diskussionen anheften'
+      pin_sticky_on_all_discussions_help: 'Wenn aktiviert (Standardeinstellung), werden ungelesene, angepinnte Diskussionen oben auf der Seite „Alle Diskussionen“ angezeigt. Ist sie deaktiviert, erscheinen angepinnte Diskussionen an ihrer natürlichen Position entsprechend der letzten Aktivität. Auf Tag-Seiten werden angepinnte Diskussionen unabhängig von dieser Einstellung immer oben angezeigt.'
       pin_sticky_on_all_discussions_label: 'Angepinnte Diskussionen auf der Seite „Alle Diskussionen“ anheften'
   forum:
     badge:

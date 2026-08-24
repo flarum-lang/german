@@ -181,6 +181,21 @@ ramon-avocado:
       threads_style_label: 'Diskussionslayout im Stil von Threads aktivieren'
       user_card_enabled_help: 'Zeige ein Mini-Profil im Discourse-Stil (Biografie, Abzeichen, Statistiken, Aktionen) an, wenn der Mauszeiger über Avatare und Benutzernamen geführt wird.'
       user_card_enabled_label: 'Die Hover-Karte für Benutzer aktivieren'
+  api:
+    discussion_not_found: 'Diskussion nicht gefunden.'
+    file_not_readable: 'Die hochgeladene Datei ist nicht lesbar.'
+    file_too_large: 'Die Datei ist zu groß (max {max}).'
+    invalid_discussion_id: 'Ungültige Diskussions-ID.'
+    invalid_note: 'Ungültige Notiz.'
+    invalid_reminder_date: 'Ungültiges Erinnerungsdatum.'
+    no_file_uploaded: 'Keine Datei hochgeladen.'
+    note_too_long: 'Notiz zu lang.'
+    reminder_must_be_future: 'Erinnerung muss in der Zukunft liegen.'
+    reminder_too_far: 'Erinnerung liegt zu weit in der Zukunft.'
+    svg_forbidden_declaration: 'Die SVG-Datei enthält eine unzulässige DOCTYPE- oder ENTITY-Deklaration.'
+    svg_invalid: 'Die hochgeladene Datei muss ein gültiges SVG sein.'
+    svg_parse_failed: 'Ungültiges SVG: Das XML konnte nicht analysiert werden.'
+    unsupported_image_type: 'Nicht unterstützter Bildtyp.'
   forum:
     actions:
       share: Teilen
