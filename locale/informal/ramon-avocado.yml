@@ -60,6 +60,7 @@ ramon-avocado:
       custom_hero_enabled_label: 'Benutzerdefinierte Hero-Inhalte verwenden (HTML)'
       custom_hero_html_help: 'HTML, das in das Hero-Banner-Overlay eingefügt wird (ersetzt .AvocadoHome-heroBannerContent). Inline-Tags vom Typ „<style>“ werden unterstützt.'
       custom_hero_html_label: 'Benutzerdefiniertes Hero-HTML'
+      custom_hero_html_placeholder: "<div class=\"AvocadoHome-heroBannerContent\">\n  <h1 class=\"AvocadoHome-heroBannerTitle\">Willkommen!</h1>\n  <p class=\"AvocadoHome-heroBannerDesc\">Was immer du möchtest – Links, Bilder, Schaltflächen.</p>\n</div>"
       custom_loading_spinner_help: 'Ersetze die standardmäßige Lade-Animation durch einen animierten SVG-Lade-Spinner.'
       custom_loading_spinner_label: 'Benutzerdefinierte Lade-Animation'
       disc_style_default: Standard
@@ -158,6 +159,14 @@ ramon-avocado:
       showcase_tag_label: 'Showcase- / Portfolio-Tags'
       spinner_custom_code_help: 'Füge einen beliebigen SVG- oder HTML-Code ein, der als Lade-Spinner verwendet werden soll.'
       spinner_custom_code_label: 'Benutzerdefinierter Spinner-Code'
+      spinner_option_avocado: Avocado
+      spinner_option_b2: Drehend
+      spinner_option_css_orbital: 'Orbital (CSS)'
+      spinner_option_custom: Benutzerdefiniert
+      spinner_option_ditie: ditie.online
+      spinner_option_flarum: Flarum
+      spinner_option_orbital: Orbital
+      spinner_option_pl3: Pulsierend
       tag_picker_placeholder: 'Tags auswählen…'
       team_desc_label: Seitenbeschreibung
       team_desc_placeholder: 'Lerne die Menschen hinter der Community kennen.'
@@ -292,11 +301,14 @@ ramon-avocado:
       untitled: 'Ohne Titel'
       view: Anzeigen
       view_post: 'Beitrag anzeigen'
+      ws_update_plural: '{count} neue Diskussionen'
+      ws_update_singular: '1 neue Diskussion'
       yesterday_time: 'Gestern, {time}'
     link:
       login_to_view: 'Bitte melde dich an, um den Link anzuzeigen'
     link_cta:
       placeholder: 'Bitte melde dich an, um den Link anzuzeigen'
+    loading: 'Wird geladen…'
     messages:
       deleted_message: 'Nachricht gelöscht'
     notifications:
@@ -304,6 +316,7 @@ ramon-avocado:
     online_users:
       online: online
     post:
+      copy_code: 'Code kopieren'
       op_badge: Verfasser
     post_cta:
       or: oder
@@ -317,6 +330,7 @@ ramon-avocado:
       scroll_right: 'Nach rechts scrollen'
     search:
       clear: Löschen
+      close: 'Schließen (Esc)'
       enter_search_term: 'Gib einen Suchbegriff ein, um Benutzer zu finden.'
       esc_key: ESC
       filtered_by: 'Gefiltert nach'

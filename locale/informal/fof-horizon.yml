@@ -89,6 +89,7 @@ fof-horizon:
         poor: Schlecht
         tooltip: 'Systemgesundheitsbewertung: {score}/100'
         tooltip_heading: 'Gesundheitsstatus: {score}/100'
+      horizon_max_wait_none: Keine
       horizon_max_wait_value: '{seconds} s in {queue}'
       kv_heading: Schlüssel-Wert-Speicher
       last_refresh: 'Letzte Aktualisierung: {time}'
