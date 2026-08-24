@@ -21,6 +21,7 @@ CHANGELOG
 
 * [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup)
 * [`datlechin/flarum-link-clicks`](https://github.com/datlechin/flarum-link-clicks)
+* [`ernestdefoe/importer`](https://github.com/ernestdefoe/importer)
 * [`flarum/akismet`](https://github.com/flarum/akismet)
 * [`flarum/audit`](https://github.com/flarum/audit)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
@@ -37,6 +38,7 @@ CHANGELOG
 * [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki)
 * [`ramon/avocado`](https://github.com/ram0ng1/avocado)
 * [`tryhackx/flarum-cover-studio`](https://github.com/TryHackX/flarum-cover-studio)
+* [`tryhackx/flarum-homepage-blocks`](https://github.com/TryHackX/flarum-homepage-blocks)
 
 
 Alle Änderungen: [2.0.14...2.0.15](https://github.com/flarum-lang/german/compare/2.0.14...2.0.15).
