@@ -2,6 +2,48 @@ CHANGELOG
 =========
 
 
+2.0.15 (2026-08-24)
+-------------------
+
+**Allgemeine Änderungen**:
+
+* Flarum-Core Übersetzungen aktualisiert.
+
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`fof/first-post-approval`](https://github.com/FriendsOfFlarum/first-post-approval)
+* [`forumaker/vk-oauth`](https://github.com/forumaker/VK-Oauth)
+* [`linkrobins/flarum-forage`](https://github.com/linkrobins/flarum-forage)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup)
+* [`datlechin/flarum-link-clicks`](https://github.com/datlechin/flarum-link-clicks)
+* [`ernestdefoe/importer`](https://github.com/ernestdefoe/importer)
+* [`flarum/akismet`](https://github.com/flarum/akismet)
+* [`flarum/audit`](https://github.com/flarum/audit)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/realtime`](https://github.com/flarum/realtime)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+* [`forumaker/profile-cover`](https://github.com/forumaker/Profile-Cover)
+* [`forumfortress/flarum`](https://github.com/forum-fortress/flarum)
+* [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye)
+* [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado)
+* [`tryhackx/flarum-cover-studio`](https://github.com/TryHackX/flarum-cover-studio)
+* [`tryhackx/flarum-homepage-blocks`](https://github.com/TryHackX/flarum-homepage-blocks)
+
+
+Alle Änderungen: [2.0.14...2.0.15](https://github.com/flarum-lang/german/compare/2.0.14...2.0.15).
+
+
 2.0.14 (2026-08-16)
 -------------------
 
