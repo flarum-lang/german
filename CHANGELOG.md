@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.16 (XXXX-XX-XX)
+-------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`fof/default-group`](https://github.com/FriendsOfFlarum/default-group)
+
+
+Alle Änderungen: [2.0.15...2.0.16](https://github.com/flarum-lang/german/compare/2.0.15...2.0.16).
+
+
 2.0.15 (2026-08-24)
 -------------------
 
