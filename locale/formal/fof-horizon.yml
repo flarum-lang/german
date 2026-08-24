@@ -5,6 +5,16 @@
 fof-horizon:
   admin:
     settings:
+      email_concurrency: 'Gleichzeitig zu versendende E-Mails'
+      email_concurrency_help: "Die maximale Anzahl an E-Mails, die gleichzeitig zugestellt werden dürfen. Eine Umgebungsvariable\n(REDIS_HORIZON_EMAIL_CONCURRENCY) oder ein Wert in der Datei „config.php“ hat, sofern festgelegt, Vorrang\nvor dieser Einstellung.\n"
+      locked_by_code: 'Im Code (config.php oder extend.php) auf {value} gesetzt – ändere den Wert dort, nicht hier.'
+      locked_by_env: 'Wird über eine Umgebungsvariable auf {value} gesetzt – ändere den Wert dort, nicht hier.'
+      mail_help: "Lege fest, wie viele E-Mails gleichzeitig versendet werden sollen. Jeder Worker versendet jeweils eine\nE-Mail, daher entspricht dieser Wert der Anzahl der gleichzeitig ausgehenden Nachrichten.\nStelle diesen Wert auf das Limit für gleichzeitige Verbindungen deines E-Mail-Anbieters ein, um dieses\nnicht zu überschreiten. Lasse das Feld leer, um den Standardwert (1) beizubehalten.\n"
+      mail_title: E-Mail-Zustellung
+      memory_limit: 'Speichergrenze für Master-Prozess (MB)'
+      memory_limit_help: "Speichergrenze für den Horizon-Master-Supervisor-Prozess. Horizon erhöht\ndiesen Wert automatisch auf das größte Worker-Budget, sodass du ihn nur selten\nmanuell festlegen musst.\n"
+      supervisor_help: "Horizon führt deine Wartschlangen-Worker in abgestuften Profilen aus (Standard, Schnell,\nLang, E-Mails). Die Anzahl der Worker, der Arbeitsspeicher und die Warteschlangen werden pro\nBereitstellung über die Umgebungsvariablen REDIS_HORIZON_*, die Datei config.php (unter\ndem Schlüssel „horizon“) oder den Horizon-Extender in extend.php konfiguriert – siehe die\nREADME-Datei der Erweiterung. Starte Horizon nach einer Änderung der Worker-Konfiguration neu.\n"
+      supervisor_title: Worker-Einstellungen
       trim_completed: 'Abgeschlossene Aufträge trimmen'
       trim_completed_help: "Diese Tabelle wird verwendet, um abgeschlossene Aufträge im Horizon-Dashboard anzuzeigen.\n"
       trim_failed: 'Fehlgeschlagene Aufträge trimmen'
@@ -22,14 +32,27 @@ fof-horizon:
     stats:
       auto_refresh: 'Automatische Aktualisierung'
       data:
+        blocked-clients: 'Blockierte Clients'
+        connected-clients: 'Verbundene Clients'
+        eviction-policy: „Eviction“-Richtlinie
+        failed-jobs: 'Fehlgeschlagene Aufträge'
         failed-last-seconds: 'Kürzlich fehlgeschlagene Jobs'
         failure-rate: Fehlerquote
+        highest-throughput-queue: 'Beschäftigste Warteschlange'
         jobs-past-hour: 'Jobs der letzten Stunde'
-        jobs-per-minute: 'Jobs pro Minute'
+        jobs-per-minute: 'Aufträge pro Minute'
         max-runtime: 'Max. Laufzeit'
         max-throughput: 'Max. Durchsatz'
+        max-wait: 'Max Wartezeit'
         max-wait-queue: 'Warteschlange: {queue}'
         max-wait-time: 'Maximale Wartezeit'
+        memory-max: 'Max. Speicher'
+        memory-peak: Spitzen-Speichernutzung
+        memory-used: 'Verwendeter Speicher'
+        ops-per-sec: 'Oper. pro Sekunden'
+        pending-jobs: 'Ausstehende Aufträge'
+        processes: Worker-Prozesse
+        recent-jobs: Aufträge
         redis-blocked-clients: 'Blockierte Clients'
         redis-connected-clients: 'Verbundene Clients'
         redis-max-memory: 'Maximaler Redis-Arbeitsspeicher'
@@ -39,6 +62,7 @@ fof-horizon:
         redis-ops-per-sec: 'Ops pro Sekunde'
         redis-peak-memory: Redis-Spitzenwert-Arbeitsspeicher
         redis-used-memory: Redis-Arbeitsspeicherauslastung
+        slowest-queue: 'Langsamste Warteschlange'
         status:
           inactive: Inaktiv
           label: Status
@@ -49,13 +73,40 @@ fof-horizon:
         fetch_failed: 'Horizon-Statistiken konnten nicht abgerufen werden. Bitte überprüfen Sie Ihre Redis-Konfiguration.'
         setup_docs: 'Redis-Setup-Dokumentation aufrufen'
         title: Verbindungsfehler
+      eviction_policy_tooltip: 'Die „Eviction“-Richtlinie legt fest, nach welchen Kriterien der Store entscheidet, welche Daten entfernt werden, wenn das „maxmemory“-Limit erreicht ist. Die Standardeinstellung ist „noeviction“: Neue Werte werden nicht gespeichert, wenn das Speicherlimit erreicht wurde. Klicke hier, um die Dokumentation anzuzeigen.'
+      eviction_pressure: Speicherbelastung
+      eviction_warning: 'Die Speicherauslastung beträgt {usage} % von maxmemory, und die Löschrichtlinie lautet „{policy}“. Daher werden möglicherweise bald Schlüssel – darunter möglicherweise auch Warteschlangendaten – gelöscht. Erhöhe den Wert für maxmemory oder verschiebe die Warteschlange in eine eigene Datenbank mit mehr Spielraum.'
       full_dashboard: Horizon-Dashboard
       heading: Warteschlangenübersicht
       health:
         critical: Kritisch
         excellent: Hervorragend
+        factor:
+          memory: 'Redis-Speicherbelastung: {value}'
+          status: 'Horizon ist {value}'
+          wait: 'Lange Wartezeit in der Warteschlange: {value}'
         good: Gut
         poor: Schlecht
         tooltip: 'Systemgesundheitsbewertung: {score}/100'
+        tooltip_heading: 'Gesundheitsstatus: {score}/100'
+      horizon_max_wait_value: '{seconds} s in {queue}'
+      kv_heading: Schlüssel-Wert-Speicher
       last_refresh: 'Letzte Aktualisierung: {time}'
+      period:
+        day: 'vergangener Tag'
+        days: 'vergangene {count} Tage'
+        hour: 'vergangene Stunde'
+        hours: 'vergangene {count} Stunden'
+        minutes: 'vergangene {count} min'
+      queue_heading: Warteschlange
       refresh: Aktualisieren
+      status:
+        inactive: Inaktiv
+        paused: Pausiert
+        paused_pending: 'Pausiert · {count} warten'
+        running: 'Wird ausgeführt'
+      tile:
+        jobs_per_minute: 'Aufträge / Min'
+        max_wait: 'Max. Wartezeit'
+        processes: Worker-Prozesse
+        status: Status

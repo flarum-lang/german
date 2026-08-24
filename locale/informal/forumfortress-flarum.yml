@@ -55,9 +55,13 @@ forumfortress-flarum:
       test_success: 'Verbindungstest erfolgreich abgeschlossen.'
       unknown: Unbekannt
     settings:
+      allow_global_fallback_help: 'Wenn ein regionaler Wiederholungsversuch fehlschlägt, aktiviere das globale Netzwerk. Die Verarbeitung kann außerhalb der ausgewählten Region erfolgen.'
+      allow_global_fallback_label: 'Globales Notfall-Fallback zulassen'
       api_base_url_label: 'API-Basis-URL prüfen'
       api_key_help: 'Lasse das Feld leer, um eine anonyme Website zu erstellen und automatisch einen stabilen Schlüssel zu erhalten.'
       api_key_label: Seiten-API-Schlüssel
+      api_region_help: 'Beschränke den Datenverkehr auf eine Region oder nutze das empfohlene globale Netzwerk.'
+      api_region_label: API-Region
       block_reject_action_label: 'Moderationsaktion für BLOCK'
       block_reject_action_reject: 'Inhalt ablehnen'
       block_reject_action_spam_clean: 'Spam - Inhalte entfernen und den Verfasser sperren'
@@ -70,6 +74,10 @@ forumfortress-flarum:
       fail_open_label: 'Anfragen erlauben, auch wenn Forum Fortress nicht verfügbar ist'
       preferred_endpoint_help: 'Wird automatisch ausgefüllt, wenn Bootstrap einen regionalen Endpunkt auswählt.'
       preferred_endpoint_label: 'Bevorzugter Edge-Endpunkt'
+      region_eu: 'Nur Europäische Union'
+      region_global: 'Global - Empfohlen'
+      region_uk: 'Nur Vereinigtes Königreich'
+      region_us: 'Nur Vereinigte Staaten'
       registration_email_help: 'Für den normalen Betrieb optional. Gib hier nur die E-Mail-Adresse deines Kontos ein, wenn du den Plugin-Ablauf „Register Site“ verwendest; für die Registrierung über das Portal ist dies nicht erforderlich.'
       registration_email_label: 'Zur Registrierung der Seite verwendete E-Mail'
       send_ham_label: 'Wiederhergestellte Beiträge als Ham melden'

@@ -12,6 +12,8 @@ core:
         config_override:
           help: 'Die FontAwesome-Einstellungen sind derzeit in deiner config.php-Datei festgelegt und können hier nicht geändert werden.'
           label: Konfigurationsüberschreibung
+        forced_style_help: 'Wendet auf jedes Symbol einen bestimmten FontAwesome-Stil an, z. B. „fa-duotone fa-light“ oder „fa-regular“. Das ersetzt den von Core und Erweiterungen festgelegten Stil (Markensymbole werden dabei nie verändert). Deine Symbol-Quelle muss den Stil bereitstellen können: Die mitgelieferten Symbole stammen aus FontAwesome Free, das nur einige hundert Symbole außerhalb des „solid“-Stils umfasst. Wenn du also einen anderen Stil erzwingst, bleiben die meisten Symbole leer. Alle Stile sind über das FontAwesome Pro-CDN oder das Kit verfügbar. Lasse das Feld leer, um die Funktion zu deaktivieren.'
+        forced_style_label: 'Erzwungener Symbolstil'
         kit_url_help: 'Die URL deines FontAwesome-Kit-Skripts (von kit.fontawesome.com)'
         kit_url_label: Kit-URL
         preview:
@@ -66,6 +68,10 @@ core:
         custom_driver: 'Dein Forum verwendet den {driver} Queue-Treiber, der von einer Erweiterung bereitgestellt wird.'
         memory_help: 'Maximaler Speicher, den der Queue-Worker vor dem Neustart verwenden kann. Der Standardwert beträgt 128 MB.'
         memory_label: 'Speicherlimit (MB)'
+        pause_all_label: 'Alle Warteschlangen pausieren'
+        pause_help: 'Während der Pause nehmen Worker keine neuen Aufträge aus den betroffenen Warteschlangen mehr an – die Aufträge sammeln sich an, bis die Bearbeitung wieder aufgenommen wird. Bereits laufende Aufträge sind davon nicht betroffen.'
+        pause_label: 'Verarbeitung der Warteschlange pausieren'
+        pause_queue_label: 'Warteschlange {queue} pausieren'
         rest_help: 'Zeit, die zwischen der Verarbeitung von Jobs gewartet werden soll. Der Standardwert ist 0 Sekunden.'
         rest_label: 'Restzeit (Sekunden)'
         retries_help: 'Maximale Anzahl von Versuchen, einen Job auszuführen, bevor er als fehlgeschlagen markiert wird. Der Standardwert ist 1.'
@@ -76,6 +82,8 @@ core:
         timeout_help: 'Maximaldauer, die ein einzelner Job ausgeführt werden kann. Der Standardwert beträgt 60 Sekunden.'
         timeout_label: 'Zeitlimit für Jobs (Sekunden)'
       search:
+        cjk_mode_help: 'Aktiviere diese Option, wenn dein Forum hauptsächlich auf Chinesisch, Japanisch oder Koreanisch verwendet wird. Die wortbasierte Suche der Datenbank kann keine Teilzeichenfolgen in CJK-Texten finden, daher wird hier auf eine Teilzeichenfolgen-Suche umgeschaltet, die dies ermöglicht. Bei sehr großen Foren ist dieser Vorgang langsamer; in diesem Fall ist die Konfiguration eines CJK-fähigen Volltext-Parsers auf Datenbankebene (wie beispielsweise der ngram-Parser von MySQL/MariaDB) eine schnellere Alternative.'
+        cjk_mode_label: 'Suche für CJK-Sprachen optimieren'
         driver_heading: 'Treiber suchen: {model}'
         driver_options:
           default: Standard-Datenbanksuche
@@ -128,6 +136,8 @@ core:
       logo_dark_mode_text: 'Lade ein alternatives Logo hoch, das angezeigt werden soll, wenn der Dunkle Modus aktiviert ist.'
       logo_heading: Logo
       logo_text: 'Lade ein Logo hoch, welches anstelle des Forum-Titels angezeigt wird.'
+      show_theme_selector_help: 'Erlaube Benutzern über ein Steuerelement in der Kopfzeile zwischen den verfügbaren Farbschemata wechseln zu können.'
+      show_theme_selector_label: 'Farbschema-Auswahl anzeigen'
       title: Erscheinungsbild
     basics:
       abandoned_extensions_heading: 'Verwaiste Erweiterungen'
@@ -315,6 +325,14 @@ core:
       section_suggested_help: 'Flarum-Erweiterungen können durch das Hinzufügen weiterer Erweiterungen oder Pakete optionale Zusatzfunktionen erhalten. Diese können zusätzliche Funktionen oder Integrationen ergänzen.'
       suggested_by: 'Vorgeschlagen von {extension}'
       title: 'Status der Erweiterungen'
+    failed_jobs:
+      delete: Löschen
+      details: Details
+      meta: 'Warteschlange {queue} · fehlgeschlagen {time}'
+      none: 'Keine fehlgeschlagenen Aufträge.'
+      retry: 'Erneut versuchen'
+      retry_all: 'Alle erneut versuchen'
+      title: 'Fehlgeschlagene Aufträge'
     header:
       get_help: 'Hilfe erhalten'
       log_out_button: '=> core.ref.log_out'
@@ -399,6 +417,12 @@ core:
       members_button: '=> core.group.members'
       signup_closed_button: Geschlossen
       signup_open_button: Geöffnet
+    queue_widget:
+      failed: Fehlgeschlagen
+      pending: Ausstehend
+      refresh: Aktualisieren
+      reserved: 'In Bearbeitung'
+      title: Warteschlange
     search_source:
       general:
         heading: Allgemein

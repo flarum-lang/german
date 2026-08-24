@@ -44,6 +44,7 @@ linkrobins-wiki:
       shortcode_articles_cat: 'Eine Kategorie auflisten (nach Slug oder ID), optional auf die N neuesten Einträge beschränkt. Füge title="…" hinzu, um eine Überschrift zu erstellen.'
       shortcode_categories: 'Kategorien auflisten.'
       shortcode_heading: 'Eine Überschrift (## und ### für kleinere).'
+      shortcode_link: 'Ein Link. Auch einfache Webadressen werden zu Links.'
       shortcodes_heading: 'Verfügbare Shortcodes'
     permissions:
       comment: 'Wiki-Artikel kommentieren'

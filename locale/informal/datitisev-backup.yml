@@ -105,6 +105,10 @@ datitisev-backup:
         refresh-token:
           description: "Folge den Anweisungen @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md, um das Aktualisierungstoken für deine Google oAuth-App abzurufen.\n"
           label: 'Token aktualisieren'
+        use-display-paths:
+          description: "Google Drive unterstützt den Versionsverlauf. Bei dieser Option wird der Pfad der Datei anstelle einer zufällig generierten Kennung als Identifikator verwendet. Ist diese Option deaktiviert, können mehrere Dateien mit demselben Namen im selben Ordner vorhanden sein, ohne dass es zu Konflikten kommt. Ist sie aktiviert, wird beim Schreiben in einen bereits vorhandenen Pfad die vorhandene Datei überschrieben. <br/> <b>HINWEIS:</b> Wenn du diese Option aktivierst, stelle sicher, dass du die Ordner-ID auf den angezeigten Pfad des Ordners änderst! Andernfalls wird ein Ordner mit dem Namen der Ordner-ID erstellt.\n"
+          label: 'Anzeigepfade verwenden (Überschreiben zulassen)'
+          toggle: 'Anzeigepfade verwenden'
       local:
         target:
           description: 'Gib das lokale Verzeichnis an, in dem Backups gespeichert werden sollen.'

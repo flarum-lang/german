@@ -113,6 +113,9 @@ flarum-audit:
         restored: '{post} von {postuser} in {discussion} wiederhergestellt'
         revised: 'Hat {postuser}s {post} in {discussion} überarbeitet'
         user_changed: 'Autor von {post} von {old_user} zu {new_user} geändert'
+      queue:
+        paused: 'Verarbeitung der Warteschlange {queue} ({connection}) wurde pausiert'
+        resumed: 'Verarbeitung der Warteschlange {queue} ({connection}) wurde fortgesetzt'
       refresh: Aktualisieren
       setting_changed: 'Hat Einstellung {key} bearbeitet'
       setting_changed_with_values: 'Einstellung {key} von {old_value} zu {new_value} geändert'

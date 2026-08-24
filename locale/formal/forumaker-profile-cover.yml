@@ -28,7 +28,9 @@ forumaker-profile-cover:
       success: 'Profiltitelbild aktualisiert'
     cover: Profiltitelbild
     edit_cover: 'Profiltitelbild bearbeiten'
-    notice: 'Maximale Größe: {size}'
+    notice: 'Maximale Größe: {size}. Empfohlenes Format: 21:9 und mindestens 1600 × 400 Pixel'
+    position_label: 'Anordnung des Covers auf dem Desktop'
     removed:
       error: 'Entfernen des Profiltitelbild fehlgeschlagen. Bitte versuche es erneut.'
       success: 'Profiltitelbild entfernt'
+    save_position_button: 'Anordnung speichern'

@@ -27,7 +27,8 @@ flarum-realtime:
       discussion-list-new-activity: '{count, plural, one {# aktualisierte Diskussion anzeigen} other {# aktualisierte Diskussionen anzeigen}}'
       discussion-list-new-activity-with-auto-release: '{count, plural, one {# Diskussion hat} other {# Diskussionen haben}} aktualisierte Aktivität und wird in {releaseTimeout} Sekunden veröffentlicht. Klicke hier, um sie jetzt anzuzeigen.'
     typing-indicator:
-      anonymous-user: '[Anonym]'
+      anonymous-user: '[Verborgen]'
+      hidden-user: '{username} (verborgen)'
       no-activity: 'Niemand tippt gerade'
       people-are-typing: '{number, plural, one {# Person tippt gerade} other {# Personen tippen gerade}}'
       users-are-typing: '{count, plural, one {{users} tippt gerade} other {{users}{others, plural, =1 { & # other} =0 {} other { & # others}} tippen gerade}}'

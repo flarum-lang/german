@@ -20,6 +20,10 @@ flarum-tags:
       tags_label: '=> flarum-tags.ref.tags'
     edit_tag:
       color_label: '=> core.ref.color'
+      default_sort_label: Standardsortierung
+      default_sort_none: 'Forumstandard verwenden'
+      default_sort_text: 'Wie die Diskussionen in diesem Tag sortiert werden, wenn jemand die Seite aufruft, ohne selbst eine Sortierreihenfolge auszuwählen.'
+      default_sort_unavailable: '{sort} (nicht mehr verfügbar)'
       delete_tag_button: Entfernen
       delete_tag_confirmation: 'Soll das Tag wirklich entfernt werden? Die Diskussionen werden NICHT gelöscht.'
       description_label: Beschreibung

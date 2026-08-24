@@ -8,6 +8,7 @@ flarum-akismet:
       api_key_label: 'API Schlüssel'
       delete_blatant_spam_help: 'Wenn Akismet festgestellt hat, dass es sich bei dem Kommentar um offensichtlichen Spam handelt, löscht es den Beitrag automatisch, anstatt ihn zu markieren'
       delete_blatant_spam_label: 'Offensichtlichen Spam automatisch löschen'
+      invalid_api_key_message: 'Akismet hat diesen API-Schlüssel abgelehnt. Überprüfe ihn auf deinem Akismet-Konto und versuche es erneut.'
       title: Akismet-Einstellungen
     permissions:
       bypass_akismet: 'Akismet umgehen'
