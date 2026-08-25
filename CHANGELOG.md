@@ -8,6 +8,8 @@ CHANGELOG
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`fof/default-group`](https://github.com/FriendsOfFlarum/default-group)
+* [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye)
+* [`linkrobins/flarum-warble`](https://github.com/linkrobins/warble)
 
 
 Alle Änderungen: [2.0.15...2.0.16](https://github.com/flarum-lang/german/compare/2.0.15...2.0.16).
