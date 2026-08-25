@@ -9,4 +9,11 @@ linkrobins-warble:
     key_label: Warble-Schlüssel
     need_realtime: "Warble benötigt die Erweiterung „Realtime“. Installiere und aktiviere „flarum/realtime“ und füge anschließend deinen Warble-Schlüssel unten ein – Warble erledigt den Rest.\n"
     paste_key: 'Füge deinen Warble-Schlüssel unten ein, um die Echtzeitfunktion zu aktivieren. Du findest ihn in deinem Dashboard auf linkrobins.com unter „Warble“.'
+    poll_interval_help: "Wie oft der Browser jedes Besuchers im Polling-Modus nach Aktualisierungen fragt. Ein niedrigerer Wert sorgt für eine schnellere Reaktion und eine höhere Auslastung; ein höherer Wert schont kleine Hosting-Umgebungen. Ausgeblendete Tabs unterbinden das Polling vollständig.\n"
+    poll_interval_label: 'Abfrageintervall (Sekunden)'
+    transport_auto: Automatic
+    transport_help: "Automatic nutzt einen WebSocket-Server, sofern dieser in der Datei „config.php“ konfiguriert ist; andernfalls erfolgt eine Abfrage. Für die Abfrage ist überhaupt kein Server erforderlich und sie funktioniert auf jedem Hosting-Anbieter; dabei entsteht eine Verzögerung von einigen Sekunden. Ein WebSocket funktioniert sofort, muss jedoch selbst betrieben werden (Reverb, soketi oder ein beliebiger Pusher-kompatibler Server).\n"
+    transport_label: Echtzeit-Transport
+    transport_polling: 'Polling (Kein Server nötig)'
+    transport_socket: 'Nur Websocket'
     write_failed: "Warble konnte die Verbindung zur Datei „config.php“ deines Forums nicht speichern – diese ist für den Webserver nicht beschreibbar. Mache die Datei „config.php“ beschreibbar (oder wende dich an deinen Hosting-Anbieter) und speichere deinen Schlüssel anschließend erneut.\n"

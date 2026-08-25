@@ -11,8 +11,10 @@ linkrobins-birdseye:
       collect_label: 'Analysedaten erfassen'
       country_header_help: 'Der Proxy-Header, der den zweistelligen Ländercode jedes Besuchers enthält – „CF-IPCountry“ bei Cloudflare oder z. B. „X-Country“ von nginx-geoip. Er wird unverändert als vertrauenswürdig angesehen. Gib daher nur einen Header an, den dein Proxy tatsächlich setzt; lasse das Feld leer, wenn du keinen solchen Proxy hast und stattdessen auf das anonymisierte IP-Präfix zurückgreifst.'
       country_header_label: 'Header für „Vertrauenswürdiges Land“'
-      geo_ip_prefix_help: 'Wenn kein Proxy-Länder-Header vorhanden ist, wird ein gekürztes IP-Präfix (niemals die vollständige Adresse) im 72-Stunden-Puffer gespeichert, damit der Prozessor die Herkunftsländer der Besucher ermitteln kann. Deaktiviere diese Option, um Länderstatistiken für nicht über einen Proxy geleiteten Datenverkehr zu überspringen.'
+      geo_ip_prefix_help: 'Wenn kein Proxy-Länder-Header vorhanden ist, wird ein gekürztes IP-Präfix (niemals die vollständige Adresse) im 72-Stunden-Puffer gespeichert, damit die Herkunftsländer lokal ermittelt werden können. Deaktiviere diese Option, um Länderstatistiken für nicht über einen Proxy geleiteten Datenverkehr zu überspringen.'
       geo_ip_prefix_label: 'Ländersuche über anonymisiertes IP-Präfix'
+      geoip_db_path_help: 'Vollständiger Pfad auf diesem Server zu einer MaxMind-Länderdatenbank, beispielsweise der kostenlosen Datei „GeoLite2-Country.mmdb“ (die du unter deinem eigenen Konto von maxmind.com herunterladen kannst). Wird nur verwendet, wenn kein vertrauenswürdiger Proxy-Header das Land angibt; jede Auflösung erfolgt lokal auf diesem Server.'
+      geoip_db_path_label: 'Datei mit Länderdatenbank (optional)'
       license_key_help: 'Von deinem Birdseye-Abonnement auf linkrobins.com. Ohne Schlüssel erfasst die Erweiterung lediglich grundlegende Tageswerte, und zwar ausschließlich lokal. Durch das Speichern eines Schlüssels wird sofort eine Verbindung zu Birdseye hergestellt, sodass dein Dashboard das Forum innerhalb von Sekunden als verbunden anzeigt.'
       license_key_label: Lizenzschlüssel
       weekly_digest_help: 'Jeden Montag wird den Administratoren per E-Mail eine Zusammenfassung der vergangenen Woche zugesandt – Besucherzahlen, Seitenaufrufe, Beiträge, Neuanmeldungen, beliebteste Diskussionen und beliebteste Suchbegriffe. Der Versand erfolgt über den eigenen Mailer deines Forums; es verlassen keine Daten den Server.'
@@ -51,6 +53,8 @@ linkrobins-birdseye:
     dashboard:
       avg_visit: 'Durchschn. Besuche'
       bounce_rate: Absprungrate
+      by_month: Monate
+      by_year: Jahre
       col_label: Beschriftung
       col_members: 'Neue Mitglieder'
       col_searches: Suchbegriffe
@@ -63,6 +67,7 @@ linkrobins-birdseye:
       direct: 'Direkt / unbekannt'
       export: 'Als CSV exportieren'
       export_all: 'CSV exportieren'
+      history: Verlauf
       map_collapse: 'Vollbild verlassen'
       map_expand: Vollbild
       members_word: Mitglieder
@@ -77,6 +82,7 @@ linkrobins-birdseye:
       searches: Suchbegriffe
       searches_word: Suchbegriffe
       signups: Registrierungen
+      so_far: bisher
       sources: Quellen
       tags: 'Beliebteste Tags'
       title: Analyse
