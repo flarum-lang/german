@@ -15,13 +15,23 @@ ffans-creator-declarations:
       required_discussion_label: 'Für jede neue Diskussion eine Erklärung verlangen'
       required_reply_help: 'Antworten können erst veröffentlicht werden, wenn mindestens eine Erklärung ausgewählt wurde.'
       required_reply_label: 'Für jede Antwort eine Erklärung verlangen'
+      show_in_user_post_lists_help: 'Wenn aktiviert, werden die Urhebererklärungen zusammen mit den Beiträgen in der Beitragsliste des Benutzerprofils angezeigt.'
       show_in_user_post_lists_label: 'Urhebererklärungen in den Beitragslisten des Profils anzeigen'
   forum:
     composer:
+      choose: 'Eigenerklärung hinzufügen'
       selected: '{count} Erklärungen ausgewählt'
+    controls:
+      edit: 'Eigenerklärung bearbeiten'
     display:
       declaration_format: '<strong>Urhebererklärung:</strong> {declarations}.'
       declaration_separator: '; '
+      open_details: 'Details der Urhebererklärung anzeigen'
+      original_notice: 'Originalinhalt. Vervielfältigung ohne Genehmigung untersagt.'
+      original_summary: 'Originalinhalt. Vervielfältigung ohne Genehmigung untersagt'
+      reference_notice: 'Dieser Inhalt bezieht sich auf {source}.'
+      reference_summary: 'Inhalt wurde referenziert oder zitiert'
+      repost_notice: 'Dieser Inhalt stammt von {source}.'
     info_modal:
       heading: 'Warum wird mir dieser Hinweis angezeigt?'
       source: 'Quelle: '
@@ -34,4 +44,5 @@ ffans-creator-declarations:
       safety: 'Sicherheit und Inhaltswarnungen'
     declarations:
       ai_generated:
+        help: 'Der Inhalt wurde ganz oder zu einem wesentlichen Teil mit generativer KI erstellt oder bearbeitet.'
         label: 'KI-erstellter Inhalt'
