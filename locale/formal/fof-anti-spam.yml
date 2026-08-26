@@ -118,8 +118,8 @@ fof-anti-spam:
       hard_delete_user_label: 'Benutzer löschen'
       intro: 'Wenn ein Benutzer als Spammer markiert wird, werden mehrere Aktionen vorgenommen, abhängig von den in deinem Forum aktivierten Erweiterungen.'
       move_discussions_tag_help: 'Dadurch werden alle von diesem Benutzer gestarteten Diskussionen in das Tag verschoben, das du in den Forumeinstellungen festgelegt hast. Wenn diese Option deaktiviert ist, verbleiben Diskussionen im bisherigen Tag.'
-      move_discussions_tag_label: 'Diskussion zu Quarantäne-Tag verschieben'
-      process_button: Prozess
+      move_discussions_tag_label: 'Diskussion in Quarantäne-Tag verschieben'
+      process_button: 'Aktionen anwenden'
       report_to_sfs_help: 'Hiermit werden die grundlegenden Benutzerdaten (Benutzername, E-Mail-Adresse, IP-Adresse) an StopForumSpam übermittelt. Damit wird verhindert, dass sich der Benutzer in anderen Foren registriert, die den StopForumSpam-Dienst nutzen.'
       report_to_sfs_label: 'An StopForumSpam melden'
       title: 'Markiere {username} als Spammer'

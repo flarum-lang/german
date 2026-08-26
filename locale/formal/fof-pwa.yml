@@ -12,6 +12,7 @@ fof-pwa:
   admin:
     nav:
       pwa_button: 'Progressive Web App'
+      pwa_text: 'Konfiguriere Flarum so, dass es als Progressive Web App läuft, die auf Mobilgeräten und als Desktop-App installiert werden kann.'
     pwa:
       about:
         description_label: Beschreibung
@@ -20,32 +21,64 @@ fof-pwa:
         long_name_label: 'Langer Name'
         long_name_text: 'Der Name der Webanwendung, der dem Benutzer angezeigt wird.'
         short_name_label: Kurzname
+        short_name_text: 'Der Name der Anwendung, der dem Benutzer angezeigt wird, wenn nicht genügend Platz für den vollständigen Namen vorhanden ist.'
       colors:
         background_color_label: Hintergrundfarbe
+        background_color_text: 'Diese Farbe dient als Platzhalterfarbe für den Begrüßungsbildschirm, der während des Ladens deiner PWA angezeigt wird. Sobald die App geladen ist, wird sie nicht mehr verwendet.'
         heading: Farben
         theme_color_label: Designfarbe
+        theme_color_text: 'Diese Farbe wird manchmal von Geräten bei der Darstellung deiner App verwendet, beispielsweise im Android-Task-Umschalter als Rahmenfarbe für die App.'
       firebase_config:
         heading: Firebase
+        help_text: 'Um bei der Veröffentlichung deiner App im Apple App Store die Unterstützung für Push-Benachrichtigungen hinzuzufügen, musst du Firebase verwenden, um Push-Benachrichtigungen in deine Anwendung zu integrieren. Bitte generiere deine Firebase-Dienstkonfiguration und lade sie hier hoch. <a>Weitere Informationen findest du in der Dokumentation</a>.'
         upload_file: 'Datei hochladen'
+        upload_successful: 'Deine Firebase-Konfiguration wurde erfolgreich hochgeladen.'
       heading: 'Progressive Web App-Konfiguration'
       logo_heading: 'Logos und Symbole'
+      logo_size_text: 'Lade ein Logo hoch, das auf die Größe von {size} mal {size} Pixeln skaliert wird.'
+      logo_text: "Damit deine Progressive Web-App installierbar ist, musst du mindestens ein Logo hochladen. Bitte beachte, dass alle Logos quadratisch sein müssen; wenn sie es nicht sind, werden sie in der Größe angepasst und möglicherweise gestreckt.\n\nUnten stehen dir eine Reihe von Größenoptionen zur Verfügung. Es wird empfohlen, ein Logo in so vielen Größen wie möglich hochzuladen, um mehr Geräte zu unterstützen.\n\nBitte beachte, dass du ein großes Logo hochladen kannst, welches dann auch für alle kleineren Größen als Logo verwendet wird. Zum Beispiel kannst du ein 1000x1000 px großes Logo für ALLE untenstehenden Bildgrößen hochladen. Wenn du jedoch versuchst, ein 50x50 px Logo als 512x512 px großes Logo hochzuladen, wird es stark gestreckt werden.\n"
       maintenance:
+        debug_label: 'Debugmodus aktivieren'
         debug_text: 'Dadurch werden Informationen über Benachrichtigungen in „storage/logs“ protokolliert. Es sollte im Allgemeinen deaktiviert werden, um unnötiges Auffüllen von Protokollen zu vermeiden.'
         heading: Wartungsmodus
+        reset_vapid_button: 'VAPID-Schlüssel zurücksetzen'
         reset_vapid_confirm: 'Durch das Zurücksetzen von VAPID-Schlüsseln werden alle Abonnements entfernt, die die vorhandenen Schlüssel verwenden, sodass Benutzer keine Benachrichtigungen erhalten, bis sie dein Forum das nächste Mal besuchen. Dies sollte nur beim erstmaligen Einrichten von Push-Benachrichtigungen erfolgen oder wenn Push-Benachrichtigungen überhaupt nicht funktionieren und oben eine Warnung zu fehlenden VAPID-Schlüsseln angezeigt wird.'
         reset_vapid_success: 'VAPID-Schlüssel erfolgreich zurückgesetzt. {count} Abonnements wurden zurückgesetzt. Lade die Seite neu, um einen aktualisierten Statusprüfbericht anzuzeigen.'
+        reset_vapid_text: 'Dadurch werden die VAPID-Schlüssel neu generiert und alle bestehenden Abonnements, die die aktuellen VAPID-Schlüssel verwenden, gelöscht.'
       other:
+        force_portrait_text: 'Hochformat erzwingen'
         heading: Andere
+        push_notif_preference_default_to_email_label: 'Standard-Push-Präferenzen von E-Mail übernehmen'
+        push_notif_preference_default_to_email_text: 'Wenn aktiviert, haben Benutzer standardmäßig Push-Benachrichtigungen aktiviert für alle Benachrichtigungsarten, bei denen auch E-Mail-Benachrichtigungen standardmäßig aktiviert sind. Wenn deaktiviert, sind Push-Benachrichtigungen standardmäßig deaktiviert.'
+        user_max_subscriptions_label: 'Maximale Push-Abonnements pro Benutzer'
+        user_max_subscriptions_text: 'Wie viele Push-Abonnements sollte jeder Benutzer gleichzeitig haben können? Wenn ein Benutzer eine Push-Benachrichtigung erhält, führt jedes Abonnement zu einem API-Aufruf. Jedes Abonnement entspricht normalerweise einem Browser, den der Benutzer verwendet hat.'
+        window_controls_overlay_label: 'Overlay der Fenstersteuerelemente aktivieren'
+        window_controls_overlay_text: "Wenn aktiviert, können die Benutzer durch das Ausblenden der nativen Titelleiste ein noch intensiveres, App-näheres Erlebnis erhalten. Ob Overlay der Fenstersteuerelemente aktiviert sind oder nicht, hängt von den Benutzereinstellungen und der Browserkompatibilität ab. Du musst deine Titelleiste anpassen, indem du CSS/JS nach der Aktivierung hinzufügst, sonst überlagern die Steuerelemente einige Elemente der oberen Navigationsleiste deines Forums und das Fenster lässt sich fast nicht mehr verschieben, was zu einer schlechten Erfahrung führt.\n\nSiehe auch: <compatibilitylink>Die Kompatibilität von Window Controls Overlay</compatibilitylink> & <learnlink>Über Window Controls Overlay in Microsoft Learn</learnlink>\n"
       refreshed_message: 'Die PWA-Konfiguration wurde erfolgreich aktualisiert.'
       status_check_heading: Statusprüfung
       submit_button: 'Einstellungen speichern'
+      text: 'Konfiguriere deine Flarumseite, damit sie als Progressive Web App läuft! Bitte beachte, dass dies deine Seite nicht automatisch in den App Store bringt. Stattdessen bedeutet dies, dass Nutzer für deine Website die Option „Zum Homescreen hinzufügen“ erhalten. Wir bieten einige Statusüberprüfungen an, aber der beste Weg dies zu testen ist selber eine Test-Installation durchzuführen (suche nach einer Anleitung, wie man Progressive Web Apps installiert). Bitte bedenke auch, dass „Installiere diese PWA“-Popups von Browsern gesteuert werden und nicht von Entwicklern/Admins/Programmen ausgelöst werden können. Es wird empfohlen, eine Anleitung für die Installation einer PWA in die Dokumentation deiner Seite aufzunehmen.'
     status:
+      config_no_https: 'Die URL in deiner config.php-Datei verwendet kein HTTPS. HTTPS ist erforderlich, damit Progressive Web-Apps funktionieren.'
+      key_gen_failed: 'Die Generierung der für Push-Benachrichtigungen benötigten Schlüssel ist fehlgeschlagen. Die vollständige Fehlermeldung ist: {error}'
       no_logo: 'Du musst mindestens ein Logo mit einer Größe von mindestens 144x144 px hochladen, damit die PWA installiert werden kann.'
       no_name: 'Du musst einen vollständigen Namen angeben, damit deine App funktioniert.'
+      no_vapid_keys: 'Keine VAPID-Schlüssel gefunden. Diese sind für das Versenden von Push-Benachrichtigungen erforderlich. Unten kannst du VAPID-Schlüssel zurücksetzen.'
+      possible_https_disabled: 'Möglicherweise läuft deine Seite nicht über HTTPS. Es könnte helfen, den Cache zu leeren (Admin-Dashboard => Dropdown „Werkzeuge“). Wenn sie es tut, ignoriere dies. Falls nicht, denke daran, dass HTTPS für die Funktion von Progressive Web-Apps erforderlich ist.'
+      success: 'Keine Probleme gefunden!'
+      suggest_gmp: 'Die gmp-PHP-Erweiterung scheint auf deinem Server nicht aktiviert zu sein. Dies ist nicht unbedingt erforderlich, kann jedoch die Leistung verbessern und wird empfohlen. Einige gemeinsam genutzte Hosts unterstützen dies jedoch möglicherweise nicht.'
   forum:
+    alerts:
+      optin: 'Dieses Forum kann Push-Benachrichtigungen an dieses Gerät senden. Möchtest du diese aktivieren?'
+      optin_declined: 'Push-Benachrichtigungen wurden blockiert. Du kannst sie später in deinen Browsereinstellungen zulassen.'
+      optin_deferred: 'Push-Benachrichtigungen wurden nicht aktiviert. Du kannst sie später in deinen Benachrichtigungseinstellungen aktivieren.'
+      optin_enable_button: Aktivieren
+      optin_success: 'Auf diesem Gerät wurden Push-Benachrichtigungen aktiviert.'
     discussion_controls:
       share_button: Teilen
     post_controls:
+      share_api:
+        title: 'Antwort von {username} in {title}'
       share_button: Teilen
     settings:
       push_header: Push
