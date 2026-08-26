@@ -11,6 +11,7 @@ tryhackx-homepage-blocks:
     section_security: Ratenbegrenzung
     section_stats: Tracker-Statistiken
     section_tracker: Tracker-Informationen
+    section_whitelist: 'Synchronisierung der Tracker-Whitelist'
     settings:
       category_label: 'Benutzerdefinierte Bezeichnung für den Kategorie-Filter'
       category_label_help: 'Lasse das Feld leer, um die Standardübersetzung zu verwenden.'
@@ -140,24 +141,44 @@ tryhackx-homepage-blocks:
       api_key_id: API-Schlüssel-ID
       api_key_id_help: 'Die 16-stellige Schlüssel-ID, die bei der Erstellung des API-Clients im Admin-Bereich des Trackers angezeigt wurde (Whitelist → API-Clients).'
       api_secret: API-Secret
+      api_secret_help: 'Füge das Secret (oder das gesamte „key_id.secret“-Token) ein und klicke auf „Secret speichern“. Es wird ausschließlich serverseitig gespeichert und niemals an den Browser zurückgesendet.'
       api_url: Tracker-URL
       api_url_help: 'Basis-URL der Tracker-Webanwendung, z. B. https://tracker.example.org (nur http/https, ohne abschließenden Pfad).'
+      bare_hashes: 'Erkennt außerdem reine 40-Hex-Hashes in Beiträgen'
+      bare_hashes_help: 'Standardmäßig deaktiviert: In Sicherheitsforen sind reine 40-Hex-Zeichenfolgen in der Regel Git-Commits oder SHA-1-IOCs, keine Torrents. Magnet-Links und btih:Fragmente werden immer erkannt.'
+      enabled: 'Synchronisierung der Tracker-Whitelist aktivieren'
       enabled_help: 'Jeder im Forum veröffentlichte Magnet-Link (neuer Beitrag, Bearbeitung, Freigabe) wird über die Server-zu-Server-API in der Whitelist des Trackers registriert. Erfordert tryhackx-tracker >= 1.2.0 im Whitelist-Modus und PHP ext-curl.'
+      require_tracker: 'Nur Magnete synchronisieren, die auf unseren Tracker zeigen'
+      require_tracker_help: 'Standardmäßig deaktiviert. Wenn diese Option aktiviert ist, wird ein Hash nur gesendet, wenn sein Magnet-Link einen der unten aufgeführten Hosts im Parameter „tr=“ (announce) enthält. Reine „btih:“-Fragmente und reine 40-Hex-Hashes haben keinen Tracker und werden übersprungen.'
       scan_button: 'Gesamtes Forum scannen'
       scan_cancel: Abbrechen
+      scan_cancelled: 'Abgebrochen – Klicke auf „Fortsetzen“, um mit dem letzten Stapel fortzufahren.'
+      scan_cooldown: 'Der Tracker-Client befindet sich in der Abkühlphase nach einem Fehler – überprüfe die Verbindung und klicke anschließend auf „Fortsetzen“.'
       scan_done: 'Scan abgeschlossen: {processed} Beiträge, {hashes} Hashes ({added} hinzugefügt, {exists} vorhanden, {banned} gebannt).'
       scan_error: 'Angehalten: {error}'
+      scan_help: 'Durchläuft alle sichtbaren Beiträge in Stapeln (eine Anfrage pro Stapel, deutlich innerhalb des PHP-Zeitlimits), extrahiert Magnet-Links und übermittelt sie an den Tracker. Kann bedenkenlos erneut ausgeführt werden: Vorhandene Hashes werden als bereits registriert gemeldet. Bei einem Tracker-Fehler wird der Stapel nicht übersprungen – klicke auf „Fortsetzen“.'
       scan_progress: '{processed}/{total} Beiträge · {hashes} Hashes gefunden · übersprungen {skipped} (andere tracker) · hinzugefügt {added} · vorhanden {exists} · gebannt {banned}'
       scan_resume: Fortsetzen
       scan_running: 'Ein Scan wird bereits ausgeführt (in einem anderen Tab?). Versuche es in einem Moment erneut.'
       secret_clear: Löschen
       secret_cleared: 'Secret gelöscht.'
       secret_error: 'Secret konnte nicht gespeichert werden (ungültiger Wert oder Anfrage fehlgeschlagen).'
+      secret_is_set: 'Ein Secret ist hinterlegt.'
+      secret_not_set: 'Noch kein Secret hinterlegt — Synchronisierung ist inaktiv.'
+      secret_placeholder_empty: 'Secret einfügen oder key_id.secret'
+      secret_placeholder_set: '•••••••• (gespeichert)'
       secret_save: 'Secret speichern'
       secret_saved: 'Secret gespeichert.'
       test_button: 'Verbindung testen'
       test_fail: 'Fehlgeschlagen: {error}.'
+      test_forbidden_hint: 'Überprüfe die Schlüssel-ID bzw. das Secret; möglicherweise hat der Tracker auch die IP-Adresse dieses Servers gesperrt (Tracker-Admin → Whitelist → API-Sperren).'
+      test_help: 'Ruft den Ping-Endpunkt des Trackers mit den oben genannten Werten auf (falls eingegeben, wird das nicht gespeicherte Secret verwendet). Füge vor dem Testen die ausgehende IP-Adresse dieses Forums zur Liste „api_ban_exempt_ips“ des Trackers hinzu – standardmäßig sind nur die eigenen Adressen des Trackers davon ausgenommen; bei Eingabe einer falschen Schlüssel-ID oder eines falschen Secrets wird die IP-Adresse für 30 Tage auf dem Tracker gesperrt.'
+      test_invalid_credentials_hint: 'Es wurde nichts gesendet: Die Schlüssel-ID muss aus 16 Hexadezimalzeichen bestehen und das Secret aus 64 Hexadezimalzeichen (oder einem „key_id.secret“-Token).'
+      test_ok: 'Verbunden – Tracker-Modus {mode}, {count} Hashes auf der Whitelist, Taktabweichung {skew} s, {ms} ms.'
       timeout: 'Zeitlimit (s)'
+      timeout_help: 'Zeitlimit pro Anfrage für die Live-Synchronisierung beim Speichern von Beiträgen (1–10 s, Standardwert 3). Fehler führen niemals zu einer Blockierung des Beitrags.'
+      tracker_hosts: Tracker-Hosts
+      tracker_hosts_help: 'Hostnamen oder IP-Adressen deines Trackers, durch Kommas oder Zeilenumbrüche getrennt (Host:Port und vollständige URLs werden akzeptiert; der Abgleich erfolgt ohne Berücksichtigung der Groß-/Kleinschreibung). Lasse das Feld leer, wird nichts gesendet – dies wird in der Zeile „last-error“ gemeldet.'
   forum:
     captcha_close: Schliessen
     captcha_description: 'Schließe die folgende Aufgabe ab, um fortzufahren.'

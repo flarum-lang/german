@@ -5,8 +5,40 @@
 ernestdefoe-group-messages:
   forum:
     compose:
+      create_button: 'Gruppe erstellen'
       group_button: 'Neue Gruppennachricht'
       group_title: 'Neue Gruppennachricht'
       name_label: Gruppenname
+      name_placeholder: 'Name dieser Gruppe (optional)'
+      recipients_label: 'Mitglieder hinzufügen'
+    dialog:
+      group_fallback_title: Gruppennachricht
+      participant_count: '{count, plural, one {# Person} other {# Personen}}'
+      participants: '{count} Teilnehmer'
+      seen_by: 'Gesehen von {names}'
+      seen_by_count: 'Gesehen von {count}'
     manage:
+      add_people: 'Mitglieder hinzufügen'
+      demote_tooltip: 'Als Moderator entfernen'
+      leave_button: 'Gruppe verlassen'
+      name_label: 'Gruppenname & Symbol'
+      participants_label: 'Teilnehmer ({count})'
+      promote_tooltip: 'Zum Moderator ernennen'
+      remove_tooltip: 'Aus Gruppe entfernen'
+      role_member: Mitglied
+      role_moderator: Moderator
+      role_owner: Eigentümer
       save_button: Speichern
+      title: Gruppeneinstellungen
+    quote:
+      quote_button: Zitieren
+    reactions:
+      add_label: 'Reaktion hinzufügen'
+    reply:
+      cancel: 'Antwort abbrechen'
+      reply_button: Antworten
+      replying_to: '{username} antworten'
+  lib:
+    error:
+      generic: 'Es ist ein Fehler aufgetreten. Bitte versuche es erneut.'
+      not_group_member: 'Du bist kein Mitglied dieser Gruppe.'
