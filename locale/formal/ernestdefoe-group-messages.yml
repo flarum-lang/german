@@ -6,8 +6,10 @@ ernestdefoe-group-messages:
   forum:
     compose:
       create_button: 'Gruppe erstellen'
+      create_error: 'Die Gruppe konnte nicht erstellt werden. Bitte versuche es erneut.'
       group_button: 'Neue Gruppennachricht'
       group_title: 'Neue Gruppennachricht'
+      message_placeholder: 'Schreibe die erste Nachricht…'
       name_label: Gruppenname
       name_placeholder: 'Name dieser Gruppe (optional)'
       recipients_label: 'Mitglieder hinzufügen'
@@ -38,7 +40,10 @@ ernestdefoe-group-messages:
       cancel: 'Antwort abbrechen'
       reply_button: Antworten
       replying_to: '{username} antworten'
+      unknown: 'Antwort auf eine frühere Nachricht'
   lib:
     error:
+      cannot_manage: 'Du hast keine Berechtigung, diese Gruppe zu verwalten.'
       generic: 'Es ist ein Fehler aufgetreten. Bitte versuche es erneut.'
+      min_participants: 'Eine Gruppe benötigt mindestens zwei weiter Mitglieder.'
       not_group_member: 'Du bist kein Mitglied dieser Gruppe.'
