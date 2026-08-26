@@ -7,6 +7,7 @@ CHANGELOG
 
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
+* [`ffans/creator-declarations`](https://github.com/FFans/creator-declarations)
 * [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
 
 
