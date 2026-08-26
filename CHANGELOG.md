@@ -7,10 +7,12 @@ CHANGELOG
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`ernestdefoe/group-messages`](https://github.com/ernestdefoe/group-messages)
 * [`fof/default-group`](https://github.com/FriendsOfFlarum/default-group)
 * [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind)
 * [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye)
 * [`linkrobins/flarum-warble`](https://github.com/linkrobins/warble)
+* [`tryhackx/flarum-homepage-blocks`](https://github.com/TryHackX/flarum-homepage-blocks)
 
 
 Alle Änderungen: [2.0.15...2.0.16](https://github.com/flarum-lang/german/compare/2.0.15...2.0.16).
