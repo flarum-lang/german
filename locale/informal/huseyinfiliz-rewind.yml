@@ -56,7 +56,7 @@ huseyinfiliz-rewind:
       section_achievements: Errungenschaften
       section_content: Inhalt
       section_core: Kernmetriken
-      section_people: Leute
+      section_people: Mitglieder
       section_social: Social
       show_menu_link_label: 'Rückblick-Link im Benutzermenü anzeigen'
       slide_active_days: 'Tage aktiv'
@@ -278,7 +278,7 @@ huseyinfiliz-rewind:
       no_data: 'Zu wenig Aktivität, um einen Rückblick zu erstellen'
       not_available: 'Rückblick nicht verfügbar'
       share: Teilen
-      summary_title: 'Dein Jahr {Jahr} in Zahlen'
+      summary_title: 'Dein Jahr {year} in Zahlen'
       tap_to_start: 'Zum Starten antippen →'
       visibility_status_private: Privat
       visibility_status_public: Öffentlich
