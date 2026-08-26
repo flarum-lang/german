@@ -8,6 +8,7 @@ CHANGELOG
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`fof/default-group`](https://github.com/FriendsOfFlarum/default-group)
+* [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind)
 * [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye)
 * [`linkrobins/flarum-warble`](https://github.com/linkrobins/warble)
 
