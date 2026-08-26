@@ -13,6 +13,7 @@ CHANGELOG
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`ernestdefoe/group-messages`](https://github.com/ernestdefoe/group-messages)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`fof/default-group`](https://github.com/FriendsOfFlarum/default-group)
 * [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind)
 * [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye)
