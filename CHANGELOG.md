@@ -5,6 +5,11 @@ CHANGELOG
 2.0.16 (XXXX-XX-XX)
 -------------------
 
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
+
+
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`ernestdefoe/group-messages`](https://github.com/ernestdefoe/group-messages)
