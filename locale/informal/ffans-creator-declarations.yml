@@ -29,20 +29,73 @@ ffans-creator-declarations:
       open_details: 'Details der Urhebererklärung anzeigen'
       original_notice: 'Originalinhalt. Vervielfältigung ohne Genehmigung untersagt.'
       original_summary: 'Originalinhalt. Vervielfältigung ohne Genehmigung untersagt'
+      personal_opinion_summary: 'Persönliche Meinung, nur zur Information'
       reference_notice: 'Dieser Inhalt bezieht sich auf {source}.'
       reference_summary: 'Inhalt wurde referenziert oder zitiert'
       repost_notice: 'Dieser Inhalt stammt von {source}.'
     info_modal:
+      author_note: 'Hinweis des Verfassers: '
+      disclaimer: 'Die Aussagen wurden vom Forum weder geprüft noch bestätigt. Bitte betrachte sie im Zusammenhang mit dem Inhalt des Beitrags und bewerte nach eigenem Ermessen.'
+      explanation: 'Diese Erklärung wurde vom Verfasser hinzugefügt, der diesen Beitrag als „{declarations}“ gekennzeichnet hat.'
       heading: 'Warum wird mir dieser Hinweis angezeigt?'
+      reference: 'Referenz: '
       source: 'Quelle: '
+      title: 'Über diese Erklärung'
     modal:
+      help: 'Wähle die Erklärungen aus, die auf diesen Beitrag zutreffen. Sie dienen lediglich dazu, den Lesern das Verständnis des Inhalts zu erleichtern, und geben weder die Ansichten des Forums wieder noch stellen sie eine Überprüfung durch das Forum dar.'
       link_title_placeholder: 'Linkname (optional)'
       save_button: 'Erklärungen speichern'
       selection_count: '{selected} / {max} ausgewählt'
+      title: Eigenerklärung
   lib:
     categories:
+      authenticity: Authentizität
+      commercial: 'Offenlegung kommerzieller Interessen'
       safety: 'Sicherheit und Inhaltswarnungen'
+      source: Inhaltsherkunft
     declarations:
       ai_generated:
+        details_placeholder: 'Gib optional den Namen des KI-Tools an oder füge weitere Informationen hinzu'
         help: 'Der Inhalt wurde ganz oder zu einem wesentlichen Teil mit generativer KI erstellt oder bearbeitet.'
         label: 'KI-erstellter Inhalt'
+      fictional:
+        help: 'Der Inhalt enthält fiktive Ereignisse, Rollenspiele oder inszenierte Szenen.'
+        label: 'Fiktive oder inszenierte Inhalte'
+      original:
+        help: 'Der Inhalt wurde überwiegend vom Autor verfasst und ist kein direkter Repost. Bitte nicht ohne Genehmigung weiterveröffentlichen.'
+        label: Originalinhalt
+      personal_opinion:
+        help: 'Dieser Inhalt gibt in erster Linie die persönlichen Ansichten, Einschätzungen oder Erfahrungen des Autors wieder und stellt keine allgemeingültigen Tatsachen oder fachlichen Schlussfolgerungen dar.'
+        label: 'Persönliche Meinungen oder Sichtweisen'
+      professional:
+        details_placeholder: 'Optional Sicherheitshinweise hinzufügen'
+        help: 'Das Nachahmen dieser Tätigkeit ohne entsprechende Fachkenntnisse kann ein Sicherheitsrisiko darstellen.'
+        label: 'Gefährliches Verhalten; bitte nicht nachmachen'
+      reference:
+        details_placeholder: 'Gib die Quell-URL des Originals ein (erforderlich)'
+        help: 'Der Inhalt bezieht sich auf Material eines anderen Autors oder einer anderen Quelle bzw. zitiert dieses.'
+        label: 'Wiederveröffentlichter oder zitierter Inhalt'
+      repost:
+        details_placeholder: 'Gib die Quell-URL des Originals ein (erforderlich)'
+        help: 'Der Inhalt ist überwiegend ein Wiederveröffentlichung von einem anderen Autor oder aus einer anderen Quelle.'
+        label: 'Wiederveröffentlichter Inhalt'
+      self_promotion:
+        help: 'Der Inhalt wirbt für Produkte oder Dienstleistungen des Verfassers, seiner Organisation oder Dritter und kann mit Affiliate-Provisionen oder anderen Vergütungen verbunden sein.'
+        label: 'Enthält Marketing- oder Werbeinformationen'
+      sensitive:
+        details_placeholder: 'Beschreibe optional den Inhaltshinweis'
+        help: 'Der Inhalt kann verstörende, beängstigende oder sensible Darstellungen enthalten.'
+        label: 'Möglicherweise verstörend'
+      sponsored:
+        details_placeholder: 'Gib optional den Namen des Partners an oder beschreibe die Beziehung'
+        help: 'Ein Dritter hat Zahlungen, Geschenke oder einen anderen materiellen Vorteil gewährt.'
+        label: 'Bezahlte Partnerschaft, Sponsoring oder materielles Interesse'
+    validation:
+      details_too_long: 'Die Angaben zur Erklärung dürfen 500 Zeichen nicht überschreiten.'
+      invalid_payload: 'Die Nutzdaten der Erklärung sind ungültig.'
+      invalid_selection: 'Die Auswahl der Erklärungen ist ungültig.'
+      required: 'Mindestens eine Erklärung ist erforderlich.'
+      source_conflict: 'Die Optionen „Originalinhalt“, „wiederveröffentlicht“ und „zitiert“ können nicht gleichzeitig ausgewählt werden.'
+      source_url_required: 'Für wiederveröffentlichte oder zitierte Inhalte ist eine gültige Quell-URL erforderlich.'
+      title_too_long: 'Der Name des Links darf nicht länger als 100 Zeichen sein.'
+      too_many: 'Es wurden zu viele Erklärungen ausgewählt.'

@@ -4,30 +4,48 @@
 
 linkrobins-chirp:
   admin:
+    appearance_brand: Standard
     appearance_forum: Flarum
     appearance_label: Akzentfarben
     channels_add: Zuweisen
+    channels_label: Sprachkanäle
+    channels_none: 'Es gibt noch keine Sprachkanäle.'
     channels_placeholder: 'Diskussionen suchen…'
     channels_remove: Entfernen
     keys_add: 'Einen weiteren Schlüssel hinzufügen'
     keys_placeholder: Kanalschlüssel…
+    keys_remove: 'Diesen Schlüssel entfernen'
+    keys_save: 'Speichern & verbinden'
     keys_status_bad: 'Nicht erkannt'
     keys_status_connected: Verbunden
+    policy_hand: 'Hand heben, um zu sprechen'
+    policy_op: 'Nur der Autor'
+    policy_open: 'Jeder darf sprechen'
     service_url_label: Dienst-URL
   forum:
     connecting: Verbinden…
     decline: Ablehnen
+    delete_recording: 'Aufnahme löschen'
+    end_room: Beenden
     in_channel: '{count, plural, one {# ist im Kanal} other {# sind im Kanal}}'
     join_channel: Beitreten
+    join_listen: Zuhören
     leave: Verlassen
     listeners: '{count, plural, one {# hört zu} other {# hören zu}}'
+    live_badge: LIVE
+    live_in: 'LIVE in {time}'
     mute: 'Stumm schalten'
     on_stage: '{count, plural, one {On stage — # Sprecher} other {On stage — # Sprecher}}'
     participants: Teilnehmer
     policy_hand_short: 'Hand heben'
     policy_open_short: Jeder
+    raise_hand: 'Hand heben'
+    reconnecting: 'Neu verbinden…'
+    recorded_badge: AUFGENOMMEN
     roster_gone: 'Du hast den Raum verlassen.'
     schedule_cancel: Abbrechen
+    speaker_muted: '{name} (stummgeschaltet)'
     take_mic: Sprechen
     unmute: 'Stummschaltung aufheben'
+    voice_badge: SPRACHE
     you: (du)
