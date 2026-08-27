@@ -18,6 +18,7 @@ CHANGELOG
 * [`fof/default-group`](https://github.com/FriendsOfFlarum/default-group)
 * [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind)
 * [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye)
+* [`linkrobins/flarum-chirp`](https://github.com/linkrobins/chirp)
 * [`linkrobins/flarum-warble`](https://github.com/linkrobins/warble)
 * [`tryhackx/flarum-homepage-blocks`](https://github.com/TryHackX/flarum-homepage-blocks)
 
