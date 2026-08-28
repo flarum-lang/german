@@ -30,3 +30,16 @@ fof-analytics:
         email: 'Per E-Mail verfolgen'
         none: 'Nicht verfolgen'
         username: 'Nach Benutzernamen verfolgen'
+  forum:
+    consent:
+      cookies:
+        ga: 'Unterscheidet zwischen einzelnen Besuchen, sodass wiederholte Besuche nicht als neue Besucher gezählt werden.'
+        gat: 'Begrenzt, wie oft Daten an Google gesendet werden.'
+        gid: 'Unterscheidet Besuche, wird 24 Stunden lang gespeichert.'
+        matomo_sessid: 'Speichert deine Matomo-Sitzung, während sie aufgezeichnet wird.'
+        pk_cvar: 'Speichert benutzerdefinierte Details zum aktuellen Besuch.'
+        pk_hsr: 'Zeichnet den aktuellen Besuch für Heatmaps und Sitzungsaufzeichnungen auf.'
+        pk_id: 'Unterscheidet zwischen einzelnen Besuchen, sodass wiederholte Besuche nicht als neue Besucher gezählt werden.'
+        pk_ref: 'Erfasst, wie du auf die Website gelangt bist.'
+        pk_ses: 'Erfasst den aktuellen Besuch; wird 30 Minuten lang gespeichert.'
+        utm: 'Ältere Google-Analytics-Cookies, die aufzeichnen, wie du auf die Website gelangt bist.'

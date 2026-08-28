@@ -6,5 +6,45 @@ ernestdefoe-calendar:
   admin:
     category_name: Name
   forum:
+    add_event: 'Veranstaltung hinzufügen'
+    add_to_google: 'Zu Google Kalender hinzufügen'
+    all_day: 'Ganzen Tag'
     birthday_save: Speichern
     cancel: Abbrechen
+    delete_confirm: 'Diese Veranstaltung löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.'
+    delete_event: 'Veranstaltung löschen'
+    download_ics: '.ICS herunterladen'
+    edit_event: 'Veranstaltung bearbeiten'
+    ends: Endet
+    export: Exportieren
+    field_category: Kategorie
+    field_description: Beschreibung
+    field_location: Ort
+    field_repeat: Wiederholen
+    field_timezone: Zeitzone
+    field_title: Titel
+    field_url: 'Link (optional)'
+    link: Link
+    location: Ort
+    nav: Kalender
+    no_events: 'Keine bevorstehende Veranstaltungen.'
+    organizer: 'Organisiert von'
+    page_title: Kalender
+    repeat_daily: Täglich
+    repeat_monthly: Monatlich
+    repeat_none: 'Nicht wiederholen'
+    repeat_weekly: Wöchentlich
+    repeat_yearly: Jährlich
+    rsvp_going_count: '{count} gehen'
+    rsvp_interested_count: '{count} sind interessiert'
+    section_details: Details
+    section_when: Wann
+    starts: Beginnt
+    today: Heute
+    upcoming: 'Bevorstehende Veranstaltungen'
+    view_day: Tag
+    view_discussion: 'Diskussion öffnen'
+    view_event: 'Veranstaltung anzeigen'
+    view_list: Liste
+    view_month: Monat
+    view_week: Woche

@@ -76,6 +76,18 @@ fof-pwa:
       optin_success: 'Auf diesem Gerät wurden Push-Benachrichtigungen aktiviert.'
     discussion_controls:
       share_button: Teilen
+    notifications_help:
+      browser_notifications_title: 'So aktivierst du Browser-Benachrichtigungen'
+      chromium_instructions: 'Klicke auf das Symbol für Website-Informationen (das Vorhängeschloss- oder das Notensymbol) neben der Webadresse in deinem Browser. Wähle „Website-Einstellungen“ (oder „Berechtigungen“) aus, suche den Punkt „Benachrichtigungen“ und ändere die Einstellung auf „Zulassen“.'
+      chromium_title: 'Google Chrome, Microsoft Edge und Android'
+      description: 'Wenn du Benachrichtigungen zuvor blockiert hast, befolge die nachstehenden Anweisungen, um sie auf deinem Gerät wieder zu aktivieren.'
+      firefox_instructions: 'Klicke auf das Vorhängeschloss-Symbol neben der Webadresse. Wenn „Benachrichtigungen“ als „Blockiert“ markiert ist, klicke auf das „X“ daneben, um die Einschränkung aufzuheben. Aktualisiere die Seite und erlaube Benachrichtigungen, wenn du dazu aufgefordert wirst.'
+      firefox_title: 'Mozilla Firefox'
+      safari_ios_instructions: 'Für Push-Benachrichtigungen unter iOS muss die App installiert sein. Tippe in Safari auf das Symbol „Teilen“ und wähle „Zum Startbildschirm hinzufügen“. Öffne anschließend die neu installierte App. Falls Benachrichtigungen blockiert sind, öffne die iOS-App „Einstellungen“, gehe zu „Benachrichtigungen“, wähle diese Web-App aus der Liste aus und aktiviere „Benachrichtigungen zulassen“.'
+      safari_ios_title: 'Apple iPhone und iPad (iOS/iPadOS)'
+      safari_mac_instructions: 'Öffne das Safari-Menü am oberen Bildschirmrand und wähle „Einstellungen“ (oder „Voreinstellungen“) aus. Klicke auf den Reiter „Websites“, wähle in der linken Seitenleiste „Benachrichtigungen“ aus, suche dieses Forum in der Liste und ändere die Einstellung auf „Zulassen“.'
+      safari_mac_title: 'Apple Safari (macOS)'
+      title: 'Push-Benachrichtigungen aktivieren'
     post_controls:
       share_api:
         title: 'Antwort von {username} in {title}'

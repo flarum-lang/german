@@ -208,6 +208,7 @@ ramon-chat:
       scroll_to_latest: 'Zur neuesten Nachricht springen'
       search_in_channel: 'In diesem Kanal suchen'
       threading_enabled: 'Threads aktiviert'
+      view_all_pinned: 'Alle {count} angehefteten Beiträge anzeigen'
       view_info: Kanaldetails
     composer:
       attach: 'Eine Datei anhängen'
@@ -235,6 +236,7 @@ ramon-chat:
       upload_failed: 'Hochladen fehlgeschlagen.'
       uploading: 'Wird hochgeladen…'
     drawer:
+      channel_actions: Kanalaktionen
       close: 'Chat schließen'
       collapse: Zuklappen
       expand: Aufklappen
@@ -444,6 +446,7 @@ ramon-chat:
       title: Änderungsverlauf
       unknown_editor: Unbekannt
     search:
+      close: 'Suche schließen'
       empty: 'Keine passenden Nachrichten gefunden.'
       in_channel: 'in {channel}'
       placeholder: 'Alle Kanäle durchsuchen'
