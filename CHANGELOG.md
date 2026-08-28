@@ -13,13 +13,16 @@ CHANGELOG
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar)
 * [`ernestdefoe/group-messages`](https://github.com/ernestdefoe/group-messages)
+* [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`fof/default-group`](https://github.com/FriendsOfFlarum/default-group)
 * [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind)
 * [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye)
 * [`linkrobins/flarum-chirp`](https://github.com/linkrobins/chirp)
 * [`linkrobins/flarum-warble`](https://github.com/linkrobins/warble)
+* [`ramon/chat`](https://github.com/ram0ng1/chat)
 * [`tryhackx/flarum-homepage-blocks`](https://github.com/TryHackX/flarum-homepage-blocks)
 
 
