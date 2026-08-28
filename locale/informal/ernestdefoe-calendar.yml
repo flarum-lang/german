@@ -4,26 +4,56 @@
 
 ernestdefoe-calendar:
   admin:
+    categories: Veranstaltungskategorien
+    categories_help: 'Mithilfe farbcodierter Kategorien können Mitglieder den Kalender filtern und jedem Termin einen farblichen Akzent verleihen. Änderungen werden zeilenweise gespeichert.'
+    category_add: 'Kategorie hinzufügen'
+    category_color: Farbe
     category_name: Name
+    category_saved: 'Kategorie gespeichert.'
+    settings_title: Kalender
+    week_monday: Montag
+    week_starts_on: 'Die Woche beginnt am'
+    week_sunday: Sonntag
   forum:
     add_event: 'Veranstaltung hinzufügen'
     add_to_google: 'Zu Google Kalender hinzufügen'
     all_day: 'Ganzen Tag'
+    attendees_going: 'Wer nimmt teil'
+    attendees_interested: 'Auch interessiert'
+    badge_1kposts: Legende
+    birthday_day: Tag
+    birthday_month: Monat
     birthday_save: Speichern
     cancel: Abbrechen
+    cd_days: Tagen
+    cd_hours: Stunden
+    cd_mins: Minuten
+    cd_secs: Sekunden
+    celebrations_birthday: 'Geburtstag 🎂'
+    cover_error: 'Das Bild konnte nicht hochgeladen werden – bitte versuche es erneut oder füge eine URL ein.'
+    cover_remove: 'Titelbild entfernen'
+    cover_upload: 'Bild hochladen'
+    cover_uploading: 'Wird hochgeladen…'
     delete_confirm: 'Diese Veranstaltung löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.'
     delete_event: 'Veranstaltung löschen'
     download_ics: '.ICS herunterladen'
     edit_event: 'Veranstaltung bearbeiten'
     ends: Endet
     export: Exportieren
+    field_all_day: Ganztags-Veranstaltung
     field_category: Kategorie
+    field_cover: 'Titelbild (optional)'
     field_description: Beschreibung
+    field_end: Ende
     field_location: Ort
     field_repeat: Wiederholen
+    field_start: Start
     field_timezone: Zeitzone
     field_title: Titel
     field_url: 'Link (optional)'
+    heat_cell: '{count} am {date}'
+    heat_less: Weniger
+    heat_more: Mehr
     link: Link
     location: Ort
     nav: Kalender
@@ -35,11 +65,17 @@ ernestdefoe-calendar:
     repeat_none: 'Nicht wiederholen'
     repeat_weekly: Wöchentlich
     repeat_yearly: Jährlich
+    rsvp_going: 'Nehme teil'
     rsvp_going_count: '{count} gehen'
+    rsvp_interested: Interessiert
     rsvp_interested_count: '{count} sind interessiert'
+    save: 'Veranstaltung speichern'
+    saved: 'Veranstaltung gespeichert.'
     section_details: Details
     section_when: Wann
     starts: Beginnt
+    starts_in: 'Beginnt in'
+    subscribe: 'Abonnieren (iCal-Feed)'
     today: Heute
     upcoming: 'Bevorstehende Veranstaltungen'
     view_day: Tag
