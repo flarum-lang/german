@@ -13,6 +13,7 @@ datlechin-debugbar:
     blank: leer
     cache:
       dropped: '{count} weitere Operationen wurden nicht gespeichert.'
+      empty: 'Diese Anforderung hat nicht auf den Cache zugegriffen.'
       filter: 'Schlüssel filtern…'
       hit_rate: Trefferquote
       types:
@@ -43,8 +44,9 @@ datlechin-debugbar:
     errors:
       expired: 'Dieses Profil wird nicht mehr gespeichert. Es werden nur die letzten Anfragen aufbewahrt.'
       failed: 'Das Profil konnte nicht geladen werden.'
-      no_data: 'Für diese Anfrage wurde nichts erfasst.'
+      no_data: 'Für diese Anforderung wurde nichts erfasst.'
     events:
+      collapsed_help: 'Modell- und Datenbankereignisse werden pro Anforderung hunderte Male ausgelöst. Im Bereich „Abfragen“ wird angezeigt, welche Datenbankereignisse stattgefunden haben.'
       dropped: '{count} weitere Ereignisse wurden nicht gespeichert.'
       filter: 'Ereignisse filtern…'
     expand: 'Debugleiste anzeigen'
@@ -60,7 +62,7 @@ datlechin-debugbar:
     filter_placeholder: Filter…
     mail:
       count: E-Mails
-      empty: 'Bei dieser Anfrage wurde keine E-Mail versendet.'
+      empty: 'Bei dieser Anforderung wurde keine E-Mail versendet.'
       headers:
         bcc: Bcc
         cc: Cc
@@ -73,6 +75,7 @@ datlechin-debugbar:
         sending: 'Wird gesendet'
         sent: Gesendet
     messages:
+      empty: 'Für diese Anforderung wurde nichts protokolliert.'
       filter: 'Nachrichten filtern…'
       hide_trace: 'Verlauf ausblenden'
       levels:
@@ -88,6 +91,8 @@ datlechin-debugbar:
       connection: Verbindung
       duplicates: Dopplungen
       duration: Gesamtzeit
+      empty: 'Diese Anforderung hat keine Anfragen ausgeführt.'
+      origin: 'Aufgerufen von'
       preview: 'Mit Parametern'
     request:
       admin: Administrator
@@ -101,12 +106,14 @@ datlechin-debugbar:
         json_api: 'JSON:API'
         overview: Übersicht
         parameters: Routenparameter
+        request_headers: Anforderungs-Header
+        response_headers: Antwort-Header
       status: Status
       uri: URI
       user: Benutzer
     requests:
-      none: 'Keine Anfrage'
-      toggle: 'Wähle eine Anfrage'
+      none: 'Keine Anforderung'
+      toggle: 'Wähle eine Anforderung'
     resize: 'Größe der Debugleiste anpassen'
     settings:
       count: Einstellungen
@@ -125,13 +132,16 @@ datlechin-debugbar:
       extensions: Erweiterungen
       mail: Mail
       messages: Nachrichten
-      request: Anfragen
+      queries: Anfragen
+      request: Anforderungen
       settings: Einstellungen
       timeline: Zeitachse
     timeline:
-      empty: 'Für diese Anfrage wurde nichts gemessen.'
+      empty: 'Für diese Anforderung wurde nichts gemessen.'
       spans:
         flarum:
           boot: Boot
+          request: 'Middleware und Route'
+          route: Routenhandler
       total: Insgesamt
     'yes': Ja
