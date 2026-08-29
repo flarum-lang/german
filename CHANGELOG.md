@@ -10,7 +10,9 @@ CHANGELOG
 * [`datlechin/flarum-debugbar`](https://github.com/datlechin/flarum-debugbar)
 * [`ffans/bbcode-studio`](https://github.com/FFans/bbcode-studio)
 * [`ffans/creator-declarations`](https://github.com/FFans/creator-declarations)
+* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
 * [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
