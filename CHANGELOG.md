@@ -8,6 +8,7 @@ CHANGELOG
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
 * [`datlechin/flarum-debugbar`](https://github.com/datlechin/flarum-debugbar)
+* [`ffans/bbcode-studio`](https://github.com/FFans/bbcode-studio)
 * [`ffans/creator-declarations`](https://github.com/FFans/creator-declarations)
 * [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
 
