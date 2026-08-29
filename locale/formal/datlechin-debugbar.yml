@@ -7,8 +7,23 @@ datlechin-debugbar:
     collectors:
       help: 'Schalte alles aus, was du nicht benötigst. Ein ausgeschaltetes Paneel sammelt überhaupt nichts, nicht einmal einen Listener, und verursacht daher keine Kosten.'
       label: Paneele
+    debug_mode:
+      'off': 'Die Debug-Leiste wird nur angezeigt, wenn der Debug-Modus aktiviert ist. Setze `‚debug‘ => true` in der Datei config.php, um sie zu aktivieren.'
+      'on': 'Der Debugmodus ist aktiviert, daher wird die Debug-Leiste angezeigt. Administratoren sehen sie am unteren Rand jeder Seite.'
+    max_profiles:
+      help: 'Wie viele der letzten Anforderungen in der Leiste sichtbar bleiben sollen. Ältere werden gelöscht, sobald neue hinzukommen.'
+      label: 'Anforderungen, die behalten werden sollen'
+    open_by_default:
+      help: 'Die Leiste soll auf jeder Seite bis zum letzten Feld geöffnet sein und nicht bis zum Griff zusammengeklappt sein.'
+      label: 'Ausgeklappt starten'
     storage:
+      clear: 'Gespeicherte Anforderungen löschen'
+      cleared: '{count} gespeicherte Anforderungen gelöscht.'
+      help: 'Die Profile werden in „storage/debugbar“ gespeichert. Sie enthalten Einstellungen, SQL-Anweisungen und Anforderungs-Header; lösche diese daher, bevor du eine Entwicklungsseite freigibst.'
       label: 'Gespeicherte Anfragen'
+    trace_queries:
+      help: 'Zeigt die Zeile des Anwendungscodes an, in der die jeweilige Abfrage ausgeführt wurde. Dies ist die nützlichste Information, die das Abfragefenster anzeigt, und gleichzeitig der rechenintensivste Vorgang der Debug-Leiste.'
+      label: 'Protokollieren, woher die Abfragen stammen'
   lib:
     blank: leer
     cache:
@@ -17,11 +32,15 @@ datlechin-debugbar:
       filter: 'Schlüssel filtern…'
       hit_rate: Trefferquote
       types:
+        flush: Leeren
+        forget: Vergessen
         hit: Treffer
         miss: Fehlschlag
+        write: Schreiben
     collapse: 'Debugleiste verbergen'
     empty: 'Nichts aufgezeichnet.'
     environment:
+      empty: 'Es gibt nichts zu berichten.'
       groups:
         drivers: Treiber
         flarum: Flarum
@@ -47,11 +66,16 @@ datlechin-debugbar:
       no_data: 'Für diese Anforderung wurde nichts erfasst.'
     events:
       collapsed_help: 'Modell- und Datenbankereignisse werden pro Anforderung hunderte Male ausgelöst. Im Bereich „Abfragen“ wird angezeigt, welche Datenbankereignisse stattgefunden haben.'
+      collapsed_title: 'Gezählt, nicht aufgeführt'
+      count: Versandt
       dropped: '{count} weitere Ereignisse wurden nicht gespeichert.'
+      empty: 'Bei dieser Anforderung wurden keine Ereignisse ausgelöst.'
       filter: 'Ereignisse filtern…'
+      listed: Aufgeführt
     expand: 'Debugleiste anzeigen'
     extensions:
       columns:
+        dependencies: 'Abhängig von'
         id: Erweiterung
         title: Name
         version: Version
@@ -89,16 +113,22 @@ datlechin-debugbar:
     queries:
       bindings: Parameter
       connection: Verbindung
+      count: Abfragen
+      dropped: '{count} weitere Aussagen wurden nicht aufgezeichnet.'
       duplicates: Dopplungen
       duration: Gesamtzeit
-      empty: 'Diese Anforderung hat keine Anfragen ausgeführt.'
+      empty: 'Diese Anforderung hat keine Abfragen ausgeführt.'
+      filter: 'Aussagen filtern…'
+      occurrences: 'Genau diese Anweisung wurde während dieser Anfrage {count} Mal ausgeführt.'
       origin: 'Aufgerufen von'
       preview: 'Mit Parametern'
     request:
       admin: Administrator
+      authentication: 'Authorisiert durch'
       groups: Gruppen
       guest: Gast
       handler: Handler
+      internal: 'Interner Versand'
       method: Methode
       route: Route
       sections:
@@ -106,6 +136,7 @@ datlechin-debugbar:
         json_api: 'JSON:API'
         overview: Übersicht
         parameters: Routenparameter
+        query: Abfragezeichenfolge
         request_headers: Anforderungs-Header
         response_headers: Antwort-Header
       status: Status
@@ -120,6 +151,7 @@ datlechin-debugbar:
       empty: 'Keine Einstellungen sind gespeichert.'
       filter: 'Schlüssel filtern…'
       groups: Gruppen
+      redacted: 'Dieser Wert ist ausgeblendet, da sein Schlüssel wie eine Anmeldeinformation aussieht.'
     summary:
       duration: 'Auf dem Server verbrachte Zeit'
       memory: 'Maximal genutzter Speicher'
@@ -132,7 +164,7 @@ datlechin-debugbar:
       extensions: Erweiterungen
       mail: Mail
       messages: Nachrichten
-      queries: Anfragen
+      queries: Abfragen
       request: Anforderungen
       settings: Einstellungen
       timeline: Zeitachse
@@ -144,4 +176,5 @@ datlechin-debugbar:
           request: 'Middleware und Route'
           route: Routenhandler
       total: Insgesamt
+      unfinished: (unvollständig)
     'yes': Ja

@@ -58,7 +58,7 @@ ramon-avocado:
       custom_default_avatar_label: 'Benutzerdefinierter Standard-Avatar'
       custom_hero_enabled_help: 'Ersetze den Standardinhalt des Hero-Bereichs (Symbol, Titel, Beschreibung, Schaltflächen „Anmelden“/„Registrieren“) durch deinen eigenen HTML-Code. Der Rahmen des Hero-Banners, das Hintergrundbild und die Überlagerung bleiben unverändert. Wird nur Gästen angezeigt – genau wie der Standard-Hero-Bereich.'
       custom_hero_enabled_label: 'Benutzerdefinierte Hero-Inhalte verwenden (HTML)'
-      custom_hero_html_help: 'HTML, das in das Hero-Banner-Overlay eingefügt wird (ersetzt .AvocadoHome-heroBannerContent). Inline-Tags vom Typ „<style>“ werden unterstützt.'
+      custom_hero_html_help: 'HTML, das in das Hero-Banner-Overlay eingefügt wird (ersetzt .AvocadoHome-heroBannerContent). Inline-Style-Tags werden unterstützt.'
       custom_hero_html_label: 'Benutzerdefiniertes Hero-HTML'
       custom_hero_html_placeholder: "<div class=\"AvocadoHome-heroBannerContent\">\n  <h1 class=\"AvocadoHome-heroBannerTitle\">Willkommen!</h1>\n  <p class=\"AvocadoHome-heroBannerDesc\">Was immer du möchtest – Links, Bilder, Schaltflächen.</p>\n</div>"
       custom_loading_spinner_help: 'Ersetze die standardmäßige Lade-Animation durch einen animierten SVG-Lade-Spinner.'
