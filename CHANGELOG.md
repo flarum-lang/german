@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`datlechin/flarum-debugbar`](https://github.com/datlechin/flarum-debugbar)
 * [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts)
+* [`ernestdefoe/opensearch`](https://github.com/ernestdefoe/opensearch)
 * [`ffans/bbcode-studio`](https://github.com/FFans/bbcode-studio)
 * [`ffans/creator-declarations`](https://github.com/FFans/creator-declarations)
 * [`ffans/geetest`](https://github.com/FFans/geetest)
@@ -20,6 +21,7 @@ CHANGELOG
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`datlechin/flarum-link-clicks`](https://github.com/datlechin/flarum-link-clicks)
 * [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar)
 * [`ernestdefoe/group-messages`](https://github.com/ernestdefoe/group-messages)
 * [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
