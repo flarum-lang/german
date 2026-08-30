@@ -14,6 +14,7 @@ CHANGELOG
 * [`ffans/geetest`](https://github.com/FFans/geetest)
 * [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
 * [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
+* [`forumaker/friendship`](https://github.com/forumaker/Friendship)
 * [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
 
 
