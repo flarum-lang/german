@@ -84,6 +84,8 @@ fof-anti-spam:
         api_key_text: 'Du hast die Möglichkeit, Spammer an StopForumSpam zu melden, um die allgemeine Forengemeinschaft spamfrei zu halten.'
         block_tor_exit_nodes_help: 'Wenn aktiviert, werden Registrierungen von bekannten Tor-Ausgangsknoten automatisch blockiert. Dies kann dazu beitragen, anonyme Spam-Registrierungen zu verhindern, kann aber auch legitime Nutzer ausschließen, die Tor zum Schutz ihrer Privatsphäre nutzen.'
         block_tor_exit_nodes_label: 'Tor-Ausgangsknoten blockieren'
+        blocked_asns_help: 'Eine pro Zeile oder durch Kommas getrennt. Registrierungen aus diesen Netzwerken werden grundsätzlich abgelehnt, unabhängig davon, ob die Adresse aufgeführt ist oder nicht. StopForumSpam gibt bei jeder Abfrage die Netzwerknummer zurück, und fast niemand besucht ein Forum über einen Hosting-Anbieter. Akzeptiert 31272 oder AS31272. Lasse das Feld leer, um das Netzwerk zu erfassen, ohne Maßnahmen zu ergreifen.'
+        blocked_asns_label: 'Gesperrte Netzwerknummern (ASNs)'
         confidence_help: 'Der Konfidenzwert ist ein recht guter Indikator dafür, dass das untersuchte Feld zu unerwünschten Aktivitäten führen würde. Lege den Konfidenz-Schwellwert als Prozentwert fest. Wenn das Feld gleich oder über diesem Wert liegt, wird die Registrierung blockiert, unabhängig vom „Frequenz“-Test weiter oben.'
         confidence_label: Konfidenz
         email_hash_help: 'Es wird ein MD5-Hash der E-Mail-Adresse weiter gegeben, wenn du nicht die E-Mail-Adresse weitergeben möchtest. Diese Methode umgeht alle Tests auf Blockierlisten, Normalisierung und Verschleierungsprüfungen.'
@@ -93,11 +95,16 @@ fof-anti-spam:
         frequency_label: Schwellenwert
         introduction: "Prüft neue Benutzerregistrierungen anhand der <a>StopForumSpam</a>-Datenbank. Wenn entweder der Schwellenwert für die <code>Zuverlässigkeit</code> oder der Schwellenwert für die <code>Häufigkeit</code> erreicht ist, wird der Benutzer daran gehindert, seine Registrierung in Ihrem Forum abzuschließen.\n\nSSO-Registrierung über <code>fof/oauth</code> und <code>fof/passport</code> wird ebenfalls unterstützt. Andere SSO-Anbieter sollten funktionieren, wurden jedoch nicht getestet.\n"
         ip_label: IP-Adressen-Spam-Prüfung
+        lookup_failed: 'StopForumSpam konnte nicht erreicht werden (letzter Fehler {when}). Registrierungen werden bis zur Wiederherstellung ungeprüft zugelassen.'
+        max_listing_age_help: 'Eine Sichtung von vor Jahren sagt wenig darüber aus, wer heute eine Registrierung vornimmt. 0 behält jeden Eintrag bei, egal wie alt er ist. Auf der schwarzen Liste stehende Domains und Netzwerke werden davon unberührt stets berücksichtigt.'
+        max_listing_age_label: 'Einträge ignorieren, die älter sind (in Tagen)'
         region_closest_label: 'Am nächsten'
         region_europe_label: Europa
         region_us_label: 'Vereinigte Staaten'
         regional_endpoint_help: 'Standardmäßig leiten wir die Abfrage an den nächstgelegenen regionalen Server weiter, um die schnellste Antwort zu erhalten. Wenn du den Datenverkehr auf eine bestimmte Region beschränken möchtest, z. B. aus Gründen der Einhaltung von Datenschutzbestimmungen des Unternehmens oder des Landes, kannst du eine Verbindung zu einer bestimmten Region erzwingen.'
         regional_endpoint_label: 'Geografischer Zugang'
+        registration_throttle_help: 'Flarum begrenzt, wie oft jemand Beiträge verfassen kann, nicht jedoch, wie oft er Konten erstellen kann. Mit dem Wert 0 wird diese Funktion deaktiviert. Beachte, dass in Büros, Schulen und Mobilfunknetzen oft viele Personen dieselbe IP-Adresse nutzen.'
+        registration_throttle_label: 'Sekunden zwischen Registrierungen von derselben Adresse'
         report_blocked_registrations_help: 'Wenn eine Registrierung durch die Spam-Prüfung blockiert wird, melden wir den Versuch an StopForumSpam zurück, damit die Aktivität des Spammers besser bestätigt werden kann. Dazu muss ein StopForumSpam-API-Schlüssel festgelegt werden (siehe unten).'
         report_blocked_registrations_label: 'Melde blockierte Registrierungen'
         sfs_lookup_help: 'Wenn diese Option aktiviert ist, überprüfen wir die StopForumSpam-Datenbank, wenn sich ein neuer Benutzer in deinem Forum registriert. Wenn der Benutzer gefunden wird (Benutzername, IP-Adresse, E-Mail) und dieser Punkt aktiviert sowie die Vertrauensstufe die von dir festgelegte Stufe erreicht, wird er daran gehindert, seine Registrierung abzuschließen.'
@@ -105,6 +112,8 @@ fof-anti-spam:
         username_label: Benutzernamen-Spam-Prüfung
   forum:
     message:
+      profile:
+        blocked: 'Das sieht nach Spam aus, daher wurde es nicht gespeichert. Bitte entferne alle Links und Kontaktdaten und versuche es erneut.'
       stopforumspam:
         blocked: 'Details deiner Registrierung wurden ein einer Datenbank zur Spamvermeidung gefunden, daher haben wir deine Registrierung abgelehnt.'
     post:

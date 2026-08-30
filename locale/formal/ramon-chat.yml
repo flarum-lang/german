@@ -214,7 +214,7 @@ ramon-chat:
       attach: 'Eine Datei anhängen'
       cancel_edit: Abbrechen
       editing: 'Nachricht wird bearbeitet'
-      emoji: Emoji
+      emoji: 'Emoji einfügen'
       insert_date: 'Datum einfügen'
       mention_all: 'Jedes Mitglied benachrichtigen'
       mention_here: 'Jeden sonst benachrichtigen'

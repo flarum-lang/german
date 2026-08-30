@@ -5,10 +5,48 @@
 fof-cookie-consent:
   admin:
     settings:
+      allowedCookies: 'Diese Cookies nie löschen'
+      appearance_title: Erscheinungsbild
       backgroundColor: Hintergrund
       buttonBackgroundColor: Hintergrund
       buttonTextColor: Text
+      configuration_button_title: 'Link „Weitere Informationen“'
       configuration_title: Einstellungen
+      equalWeightButtons: 'Beiden Schaltflächen das gleiche Gewicht zuweisen'
+      equalWeightButtons_help: 'Empfohlen. Wenn die Optionen „Akzeptieren“ und „Ablehnen“ identisch dargestellt werden, wird vermieden, dass Besucher dazu verleitet werden, zuzustimmen.'
+      layout: Layout
+      layout_help: 'Steuert die Form und Gestaltung des Einwilligungsbanners.'
+      layouts:
+        bar: Leiste
+        cloud: Wolke
       learnMoreLinkUrl: Link
+      learnMoreLinkUrl_help: 'Lasse das Feld leer, um den Link auszublenden.'
+      position: Position
+      positions:
+        bottom_center: 'Unten zentriert'
+        bottom_left: 'Unten links'
+        bottom_right: 'Unten rechts'
+        middle_center: 'Mittig zentriert'
+        middle_left: 'Mittig links'
+        middle_right: 'Mittig rechts'
+        top_center: 'Oben zentriert'
+        top_left: 'Oben links'
+        top_right: 'Oben rechts'
       textColor: Text
+      text_help: "Die für Besucher angezeigten Texte sind in den Sprachdateien dieser Erweiterung gespeichert, sodass sie\nübersetzt werden können. Du kannst sie mit FoF Linguist oder einem Sprachpaket überschreiben.\n"
+      theme_dismiss_title: Button-Farben
       theme_popup_title: 'Farben für Popups'
+  forum:
+    banner:
+      accept: Akzeptieren
+      decline: Ablehnen
+      preferences: 'Einstellungen verwalten'
+    categories:
+      marketing:
+        title: Marketing
+    preferences:
+      cookie_table:
+        description: Zweck
+        name: Cookie
+      save: 'Einstellungen speichern'
+      title: Cookie-Einstellungen
