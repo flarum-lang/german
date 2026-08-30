@@ -3,6 +3,15 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 datlechin-keyboard-shortcuts:
+  admin:
+    allow_customization_help: 'Wenn deaktiviert, verwenden alle die Kürzel, die du unten festgelegt hast.'
+    allow_customization_label: 'Mitglieder erlauben, ihre Tastaturkürzel selbst zu festzulegen'
+    behaviour_heading: Verhalten
+    bindings_heading: Tastenkürzel
+    bindings_help: 'Wähle ein Tastenkürzel aus und drücke dann die Tasten, die du dafür festlegen möchtest. Drücke direkt nach der ersten Taste eine zweite Taste, um eine Tastenfolge zu erstellen, beispielsweise G und dann H.'
+    column_shortcut: Tastenkürzel
+    enabled_by_default_help: 'Mitglieder können die Kürzel in ihren Einstellungen für sich selbst deaktivieren.'
+    enabled_by_default_label: 'Tastaturkürzel aktivieren'
   lib:
     shortcuts:
       mark_all_as_read: 'Alle als gelesen markieren'
