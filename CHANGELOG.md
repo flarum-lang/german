@@ -11,6 +11,7 @@ CHANGELOG
 * [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts)
 * [`ffans/bbcode-studio`](https://github.com/FFans/bbcode-studio)
 * [`ffans/creator-declarations`](https://github.com/FFans/creator-declarations)
+* [`ffans/geetest`](https://github.com/FFans/geetest)
 * [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
 * [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
 * [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
