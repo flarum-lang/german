@@ -11,6 +11,7 @@ CHANGELOG
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 * [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
 
 
 Alle Änderungen: [2.0.16...2.0.17](https://github.com/flarum-lang/german/compare/2.0.16...2.0.17).
