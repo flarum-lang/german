@@ -170,6 +170,7 @@ datlechin-debugbar:
       timeline: Zeitachse
     timeline:
       empty: 'Für diese Anforderung wurde nichts gemessen.'
+      measures: Zeiträume
       spans:
         flarum:
           boot: Boot

@@ -3,31 +3,94 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 forumaker-friendship:
+  admin:
+    permissions:
+      add_friends: 'Freunde hinzufügen'
+      manage: 'Freundschaften verwalten'
+      moderate: 'Freundschaften moderieren'
+      view_others: 'Freunde anderer Benutzer sehen'
+    sections:
+      badges: Abzeichen
+      history: Anfrageverlauf
+    settings:
+      badge_bg_color: 'Hintergrundfarbe in Beiträgen'
+      badge_color: 'Farbe und Symbol im Profil'
+      badges_intro: 'Sofern aktiviert, können Benutzer dies in ihren eigenen Einstellungen festlegen'
+      event_retention_days: 'Anfrageverlauf aufbewahren (in Tagen)'
+      event_retention_days_help: '0 deaktiviert das Bereinigen — der Verlauf wird dauerhaft gespeichert'
+      event_retention_intro: 'Ältere Einträge im Anfrageverlauf werden einmal täglich automatisch gelöscht'
+      show_badge_on_post: 'Anzahl der Freunde neben dem Avatar in Beiträgen anzeigen'
+      show_badge_on_post_help: 'Wirde neben dem Avatar im Beitragskopf angezeigt'
+      show_badge_on_usercard: 'Anzahl der Freunde neben dem Avatar im Profil anzeigen'
+      show_badge_on_usercard_help: 'Wird neben dem Online-Status/dem Beitrittsdatum auf der Profilkarte angezeigt'
   forum:
     add_modal:
       cancel_btn: Abbrechen
       confirm_btn: 'Freund hinzufügen'
+      success: 'Freundschaftsanfrage gesendet'
+      text: '{username} eine Freundschaftsanfrage senden?'
       title: 'Freund hinzufügen'
+    cancel_request_modal:
+      cancel_btn: Beibehalten
+      confirm_btn: 'Ich möchte nicht'
+      text: 'Möchtest du deine Freundschaftsanfrage an {username} zurückziehen?'
+      title: 'Freundschaftsanfrage zurückziehen'
     dropdown:
       add_friend_btn: 'Freund hinzufügen'
       cancel_request_btn: 'Freundschaftsanfrage zurückziehen'
       remove_friend_btn: 'Freund entfernen'
+    history:
+      accepted_other: '{username} hat deine Anfrage angenommen'
+      accepted_self: 'Du hast die Anfrage von {username} angenommen'
+      cancelled_other: '{username} hat die Anfrage zurückgezogen'
+      cancelled_self: 'Du hast es dir mit {username} anders überlegt'
+      declined_other: '{username} hat deine Anfrage abgelehnt'
+      declined_self: 'Du hast die Anfrage von {username} abgelehnt'
+      removed_other: '{username} hat dich von den Freunden entfernt'
+      removed_self: 'Du hast {username} von deinen Freunden entfernt'
+      requested_other: '{username} hat dir eine Freundschaftsanfrage gesendet'
+      requested_self: 'Du hast {username} eine Freundschaftsanfrage gesendet'
     history_modal:
+      empty: 'Noch keine Protokolleinträge'
       load_more: 'Mehr laden'
+      title: Anfrageverlauf
+    notifications:
+      declined_text: '{name} hat deine Freundschaftsanfrage abgelehnt'
+      removed_text: '{name} hat dich aus der Freundesliste entfernt'
+      requested_text: '{name} möchte dich als Freund hinzufügen'
     pending_modal:
       accept_btn: 'Freund hinzufügen'
       decline_btn: Ablehnen
+      text: 'Dieser Benutzer hat dir bereits eine Freundschaftsanfrage gesendet'
     remove_modal:
+      cancel_btn: 'Nicht entfernen'
       confirm_btn: Entfernen
+      success: 'Ihr seid nicht mehr Freunde'
+      text: '{username} von Freunden entfernen?'
       title: 'Freund entfernen'
     requests_modal:
       accept_btn: Annehmen
+      accept_success: 'Ihr seid jetzt Freunde'
       cancel_btn: Abbrechen
+      cancel_success: 'Anfrage abgebrochen'
       decline_btn: Ablehnen
+      history_btn: Anfrageverlauf
+      incoming_tab: 'Eingehend — {count}'
+      no_incoming: 'Keine eingehenden Anfragen'
+      no_outgoing: 'Keine ausgehenden Anfragen'
+      outgoing_tab: 'Ausgehend — {count}'
+      search_placeholder: 'Nach Namen suchen'
+      title: Freundschaftsanfragen
     settings:
+      notify_declined_label: 'Jemand lehnt meine Freundschaftsanfrage ab'
+      notify_removed_label: 'Jemand entfernt mich aus der Freundesliste'
+      notify_requested_label: 'Jemand schickt mir eine Freundschaftsanfrage'
       section_label: Freunde
+      show_in_posts: 'Anzahl der Freunde neben dem Avatar in Beiträgen anzeigen'
+      show_on_usercard: 'Anzahl der Freunde neben dem Avatar im Profil anzeigen'
     user:
       friends_count: '{count, plural, one {# Freund} other {# Freunde}}'
+      friends_hidden: 'Freunde sind verborgen'
       friends_since: 'Freund seit {date}'
       friends_tab: Freunde
       load_more: 'Mehr laden'
