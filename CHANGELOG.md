@@ -7,9 +7,11 @@ CHANGELOG
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`forumaker/friendship`](https://github.com/forumaker/Friendship)
 * [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
 
