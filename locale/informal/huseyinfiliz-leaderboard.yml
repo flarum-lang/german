@@ -85,6 +85,7 @@ huseyinfiliz-leaderboard:
       quarterly: Vierteljährlich
       weekly: Wöchentlich
       yearly: Jährlich
+    permission_denied: 'Du hast keine Berechtigung, die Rangliste einzusehen.'
     podium:
       first: '1.'
       second: '2.'

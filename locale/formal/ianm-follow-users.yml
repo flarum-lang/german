@@ -12,7 +12,9 @@ flarum-gdpr:
 ianm-follow-users:
   admin:
     permissions:
-      be_followed_label: 'Darf Benutzern folgen'
+      be_followed_label: 'Benutzer dürfen folgen'
+      follow_label: 'Darf anderen Benutzern folgen'
+      view_followed_users_label: 'Anzeigen, welchen Benutzern ein Mitglied folgt'
     settings:
       button-on-profile-label: 'Schaltfläche „Folgen“ direkt in der Kopfzeile des Benutzerprofils anzeigen'
       stats-on-profile-label: 'Zahlen für Follower und Gefolgte Benutzer auf Nutzerprofilen anzeigen'
