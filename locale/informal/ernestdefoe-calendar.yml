@@ -10,7 +10,9 @@ ernestdefoe-calendar:
     category_color: Farbe
     category_name: Name
     category_saved: 'Kategorie gespeichert.'
+    default_view: 'Standardansicht des Kalenders'
     settings_title: Kalender
+    view_month_opt: Monatsübersicht
     week_monday: Montag
     week_starts_on: 'Die Woche beginnt am'
     week_sunday: Sonntag
@@ -24,9 +26,11 @@ ernestdefoe-calendar:
     badge_month: Unaufhaltsam
     badge_week: Wochenkämpfer
     birthday_day: Tag
+    birthday_help: 'Gib deinen Geburtstag an (nur Monat und Tag – niemals das Jahr), damit die Community ihn mit dir feiern kann. Lass das Feld leer, wenn du nicht mitmachen möchtest.'
     birthday_month: Monat
     birthday_save: Speichern
     birthday_saved: 'Geburtstag gespeichert.'
+    birthday_section: Geburtstag
     cancel: Abbrechen
     cd_days: Tagen
     cd_here: 'ist da!'
@@ -34,6 +38,7 @@ ernestdefoe-calendar:
     cd_live: 'Findet jetzt statt 🎉'
     cd_mins: Minuten
     cd_secs: Sekunden
+    celebrations_anniversary: '{years} Jahre im Forum'
     celebrations_birthday: 'Geburtstag 🎂'
     celebrations_title: 'Heutige Feierlichkeiten'
     cover_error: 'Das Bild konnte nicht hochgeladen werden – bitte versuche es erneut oder füge eine URL ein.'
@@ -69,6 +74,7 @@ ernestdefoe-calendar:
     location: Ort
     memories_replies: '{count} Antworten'
     memories_title: 'An diesem Tag'
+    memories_years_ago: 'vor {years} Jahren'
     nav: Kalender
     no_events: 'Keine bevorstehende Veranstaltungen.'
     organizer: 'Organisiert von'
@@ -100,5 +106,6 @@ ernestdefoe-calendar:
     view_list: Liste
     view_month: Monat
     view_week: Woche
+    widget_celebrations: Feierlichkeiten
     widget_memories: 'An diesem Tag'
     widget_title: 'Bevorstehende Veranstaltungen'
