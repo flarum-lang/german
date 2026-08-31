@@ -96,6 +96,7 @@ forumaker-friendship:
       load_more: 'Mehr laden'
       no_friends: 'Noch keine Freunde'
       requests_btn: Anfragen
+      requests_btn_count: '{count, plural, one {# Anfrage} other {# Anfragen}}'
   lib:
     errors:
       already_friends: 'Du bist bereits mit diesem Benutzer befreundet'

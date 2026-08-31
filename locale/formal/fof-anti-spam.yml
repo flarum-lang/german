@@ -16,13 +16,50 @@ fof-anti-spam:
       button: 'Blockierte Registrierungen'
       delete_entry: 'Eintrag löschen'
       email: E-Mail-Adresse
+      evidence:
+        badge:
+          confidence: '{value} % Konfidenz'
+          frequency: '{count, plural, one {# Mal gemeldet} other {# Mal gemeldet}}'
+          last_seen: 'zuletzt gesehen {when}'
+          normalized: 'auf den Wert {value} normalisiert'
+        blocked_by: 'Blockiert von'
+        field:
+          email: E-Mail
+          ip: IP
+          username: Benutzername
+        label: 'Warum diese blockiert wurde'
+        rule:
+          confidence: Konfidenzschwelle
+          frequency: Berichtsschwelle
+      filters:
+        apply: Anwenden
+        clear: 'Suche löschen'
+        help:
+          attemptedAt: 'Ein Datum oder ein Zeitraum, z. B. 2026-01-01..2026-02-01. Eine der beiden Seiten kann offen bleiben.'
+          email: 'Registrierungsversuche mit einer bestimmten E-Mail-Adresse.'
+          ip: 'Registrierungsversuche von einer bestimmten IP-Adresse.'
+          multiple: 'Kombiniere Filter, indem du sie durch Leerzeichen voneinander trennst.'
+          negate: 'Stelle einem Filter ein „-“ voran, um Treffer auszuschließen, z. B. -provider:github'
+          provider: 'Der Anmeldeanbieter, über den der Versuch erfolgte.'
+          reason: 'Die Regel, die den Versuch blockiert hat. Wird nur für kürzlich erfolgte Blockierungen erfasst.'
+          toggle: 'Hilfe zur Suche'
+          username: 'Registrierungsversuche mit einem bestimmten Benutzernamen.'
+        hint: 'Filter:'
+        placeholder: 'Suche, oder filtere mit key:value'
       help: "Diese Seite listet alle Registrierungen auf, die vom StopForumSpam-Dienst blockiert wurden. Du kannst die Details jeder Registrierung anschauen und, falsch gewünscht, den Eintrag aus der Datenbank löschen.\n"
       ip: IP-Adresse
       login-provider: Anmeldeanbieter
       login-provider-data: 'Daten des Loginanbieters'
       no-records: 'Keine blockierten Registrierungen gefunden.'
+      raw_data:
+        button: 'Rohdaten anzeigen'
+        copied: 'In die Zwischenablage kopiert.'
+        copy: Kopieren
+        copy_failed: 'Konnte nicht in die Zwischenablage kopiert werden.'
+        title: 'Aufgenommene Rohdaten'
       sfs-data: StopForumSpam-Daten
       title: 'Blockierte Registrierungen'
+      total: '{count, plural, one {# blockierte Registrierung} other {# blockierte Registrierungen}}'
       username: Benutzername
     permissions:
       spamblock_users_label: 'Benutzer als Spammer markieren'
@@ -56,6 +93,8 @@ fof-anti-spam:
         flag_threshold_label: 'Meldungs-Schwellwert (0-100)'
         heading: Inhaltsfilter
         introduction: 'Spam-Inhalte von neuen Benutzern automatisch erkennen und kennzeichnen. Dieses System überwacht Beiträge und Diskussionen von kürzlich registrierten Benutzern auf häufige Spam-Indikatoren wie Telefonnummern, E-Mail-Adressen und verdächtige URLs.'
+        monitor_all_users_help: "Überprüfe jeden Beitrag, nicht nur diejenigen von neuen Konten. Andernfalls wird ein Konto nie wieder überprüft, sobald es die unten genannten Grenzwerte überschreitet – was genau bei Mitgliedern der Fall ist, deren Konto gehackt wurde, oder bei solchen, die die Grenzwerte abwarten, bevor sie Spam posten. Administratoren und alle, deren Gruppe Diskussionen ausblenden kann, werden in keinem Fall überwacht. Rechne mit mehr Fehlalarmen bei etablierten Mitgliedern, überprüfe daher deine Schwellenwerte, bevor du diese Funktion aktivierst.\n"
+        monitor_all_users_label: 'Alle Benutzer überwachen'
         monitor_hours_old_help: 'Analysiere nur Inhalte von Benutzern, deren Konten jünger als diese Anzahl von Stunden sind. Setze den Wert auf 0, um die Altersprüfung zu deaktivieren.'
         monitor_hours_old_label: 'Benutzer nach Registrierungsalter überwachen'
         monitor_post_count_help: 'Es werden nur Beiträge von Nutzern analysiert, die weniger als diese Anzahl an Beiträgen verfasst haben. Setze den Wert auf 0, um die Überprüfung der Beitragsanzahl zu deaktivieren.'
@@ -110,6 +149,17 @@ fof-anti-spam:
         sfs_lookup_help: 'Wenn diese Option aktiviert ist, überprüfen wir die StopForumSpam-Datenbank, wenn sich ein neuer Benutzer in deinem Forum registriert. Wenn der Benutzer gefunden wird (Benutzername, IP-Adresse, E-Mail) und dieser Punkt aktiviert sowie die Vertrauensstufe die von dir festgelegte Stufe erreicht, wird er daran gehindert, seine Registrierung abzuschließen.'
         sfs_lookup_label: 'Registrierungen überprüfen'
         username_label: Benutzernamen-Spam-Prüfung
+    statistics:
+      failed: 'Spam-Statistiken konnten nicht geladen werden.'
+      heading: Spamabwehr
+      posts_flagged: 'Beiträge als Spam markiert'
+      registrations_blocked: 'Registrierungen blockiert'
+      this_week: '{count, plural, one {# diese Woche} other {# diese Woche}}'
+      top_reason: 'Am häufigsten: {reason} ({count, plural, one {# Block} other {# Blöcke}})'
+      total_label: Insgesamt
+      users_marked: 'Benutzer als Spammer markiert'
+      view_all: 'Blockierte Registrierungen anzeigen'
+      vs_last_week: 'Verglichen mit den vorherigen sieben Tagen'
   forum:
     message:
       profile:
