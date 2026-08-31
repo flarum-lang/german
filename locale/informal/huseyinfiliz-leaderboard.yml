@@ -11,6 +11,8 @@ huseyinfiliz-leaderboard:
       save: Speichern
       select_groups: 'Gruppen auswählen'
       select_tags: 'Tags auswählen'
+    permissions:
+      view_leaderboard: 'Rangliste anzeigen'
     settings:
       already_running: 'Eine Neuberechnung wird bereits durchgeführt. Bitte warte den Abschluss ab.'
       excluded_groups_help: 'Benutzer in ausgewählten Gruppen werden von der Rangliste ausgenommen.'
