@@ -14,6 +14,7 @@ CHANGELOG
 * [`forumaker/friendship`](https://github.com/forumaker/Friendship)
 * [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`linkrobins/support`](https://github.com/linkrobins/support)
 
 
 Alle Änderungen: [2.0.16...2.0.17](https://github.com/flarum-lang/german/compare/2.0.16...2.0.17).
