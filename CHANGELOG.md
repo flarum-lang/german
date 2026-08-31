@@ -2,6 +2,44 @@ CHANGELOG
 =========
 
 
+2.0.16 (2026-08-31)
+-------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`datlechin/flarum-debugbar`](https://github.com/datlechin/flarum-debugbar)
+* [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts)
+* [`ernestdefoe/opensearch`](https://github.com/ernestdefoe/opensearch)
+* [`ffans/bbcode-studio`](https://github.com/FFans/bbcode-studio)
+* [`ffans/creator-declarations`](https://github.com/FFans/creator-declarations)
+* [`ffans/geetest`](https://github.com/FFans/geetest)
+* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
+* [`forumaker/friendship`](https://github.com/forumaker/Friendship)
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`datlechin/flarum-link-clicks`](https://github.com/datlechin/flarum-link-clicks)
+* [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar)
+* [`ernestdefoe/group-messages`](https://github.com/ernestdefoe/group-messages)
+* [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/default-group`](https://github.com/FriendsOfFlarum/default-group)
+* [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind)
+* [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye)
+* [`linkrobins/flarum-chirp`](https://github.com/linkrobins/chirp)
+* [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
+* [`linkrobins/flarum-warble`](https://github.com/linkrobins/warble)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado)
+* [`ramon/chat`](https://github.com/ram0ng1/chat)
+* [`tryhackx/flarum-homepage-blocks`](https://github.com/TryHackX/flarum-homepage-blocks)
+
+
+Alle Änderungen: [2.0.15...2.0.16](https://github.com/flarum-lang/german/compare/2.0.15...2.0.16).
+
+
 2.0.15 (2026-08-24)
 -------------------
 
