@@ -35,6 +35,7 @@ forumaker-friendship:
       requests_btn: Anfragen
   lib:
     errors:
+      already_friends: 'Du bist bereits mit diesem Benutzer befreundet'
       not_friends: 'Du bist kein Freund dieses Benutzers'
       not_recipient: 'Du kannst auf diese Anfrage nicht antworten'
       request_not_found: 'Freundschaftsanfrage nicht gefunden'

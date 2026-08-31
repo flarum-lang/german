@@ -94,6 +94,7 @@ datlechin-link-clicks:
       skip_guests_label: 'Gäste nicht nachverfolgen'
       track_internal_help: '„Aus“ sorgt dafür, dass die Zählung auf ausgehende Ressourcen konzentriert bleibt.'
       track_internal_label: 'Links zu diesem Forum erfassen'
+      track_post_mentions_help: 'Zählt die Leser, die einem Zitat- oder Antwort-Link folgen, zurück zu dem Beitrag, aus dem er stammt.'
       track_post_mentions_label: 'Klicks auf Beitragserwähnungen zählen'
       track_tag_mentions_help: 'Ein #Hashtag ist ein Link zur Seite dieses Tags. Durch die Einbeziehung in die Zählung wird der Hashtag-Traffic in denselben Berichten erfasst wie alle anderen Daten auch.'
       track_tag_mentions_label: 'Klicks auf #hashtags zählen'
@@ -102,7 +103,10 @@ datlechin-link-clicks:
       tracking_params_help: 'Ein Muster pro Zeile. Vor der Dublettenbereinigung aus den URLs entfernt, sodass Varianten mit UTM-Tags demselben Link zugeordnet werden. Das abschließende * steht für ein Präfix (z. B. utm_*). Die Standardliste umfasst bereits utm_*, fbclid, gclid, mc_cid, igshid, _ga und weitere.'
       tracking_params_label: 'Zusätzliche Tracking-Abfrageparameter, die entfernt werden sollen'
       tracking_params_placeholder: "ref_url\nyclid\ncustom_param"
+      trending_enabled_help: 'Die Hashtags werden danach sortiert, um wie viel ihre Klickrate über ihren eigenen wöchentlichen Durchschnitt gestiegen ist, und nicht nach ihrer Gesamtzahl seit Beginn.'
       trending_enabled_label: 'Trend-Hashtags auf der Startseite anzeigen'
+      trending_min_clicks_help: 'Ein Hashtag, der am zuletzt erfassten Tag so wenige Klicks verzeichnet hat, wird niemals zum Trend, egal wie stark er auch angestiegen sein mag.'
+      trending_min_clicks_label: 'Mindestanzahl Klicks, um zum Trend zu werden'
       webhook_enabled_help: 'Leite jeden erfassten Klick als JSON-POST über die Warteschlange an eine externe URL weiter.'
       webhook_enabled_label: 'Webhook aktivieren'
       webhook_secret_help: 'Wenn diese Option gesetzt ist, wird der Request-Body mit HMAC-SHA256 signiert und die Signatur im Header „X-LinkClicks-Signature“ in der Form „sha256=HEX_DIGEST“ gesendet. Empfänger überprüfen die Signatur, indem sie sie mit demselben geheimen Schlüssel neu berechnen.'

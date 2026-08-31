@@ -6,10 +6,13 @@ fof-cookie-consent:
   admin:
     settings:
       allowedCookies: 'Diese Cookies nie löschen'
+      allowedCookies_help: "Ein Name pro Zeile. Um ein Muster anzugeben, setze es in Schrägstriche, z. B. /^app_/.\nDie von Flarum selbst gesetzten Cookies bleiben immer erhalten.\n"
       appearance_title: Erscheinungsbild
       backgroundColor: Hintergrund
       buttonBackgroundColor: Hintergrund
       buttonTextColor: Text
+      catchall_title: 'Nicht deklarierte Cookies'
+      colors_help: "Das Banner passt sich dem Design deines Forums an, einschließlich des Dunkelmodus. Lege eine Farbe fest,\num das Design zu überschreiben – lasse das Feld leer, um das Standarddesign zu übernehmen.\n"
       configuration_button_title: 'Link „Weitere Informationen“'
       configuration_title: Einstellmöglichkeiten
       equalWeightButtons: 'Beiden Schaltflächen das gleiche Gewicht zuweisen'
@@ -18,7 +21,12 @@ fof-cookie-consent:
       layout_help: 'Steuert die Form und Gestaltung des Einwilligungsbanners.'
       layouts:
         bar: Leiste
+        bar_inline: 'Leiste (inline)'
+        box: Kasten
+        box_inline: 'Kasten (inline)'
+        box_wide: 'Kasten (breit)'
         cloud: Wolke
+        cloud_inline: 'Wolke (inline)'
       learnMoreLinkUrl: Link
       learnMoreLinkUrl_help: 'Lasse das Feld leer, um den Link auszublenden.'
       position: Position
@@ -32,6 +40,8 @@ fof-cookie-consent:
         top_center: 'Oben zentriert'
         top_left: 'Oben links'
         top_right: 'Oben rechts'
+      sweepUndeclared: 'Cookies löschen, die durch keine Erweiterung deklariert wurden'
+      sweepUndeclared_help: "Wenn ein Besucher die Zustimmung verweigert, lösche auch Cookies, die keine Erweiterung\nüber den Cookie-Einwilligungs-Extender gemeldet hat. Dadurch werden Tracker von\nErweiterungen erfasst, die diesen nicht implementiert haben – allerdings werden dabei auch Cookies gelöscht, die eine\nErweiterung tatsächlich benötigt, was zu Funktionsstörungen führen kann. Nutze die untenstehende Zulassungsliste,\num für diese eine Ausnahme zu erstellen.\n"
       textColor: Text
       text_help: "Die für Besucher angezeigten Texte sind in den Sprachdateien dieser Erweiterung gespeichert, sodass sie\nübersetzt werden können. Du kannst sie mit FoF Linguist oder einem Sprachpaket überschreiben.\n"
       theme_dismiss_title: Button-Farben
@@ -40,13 +50,28 @@ fof-cookie-consent:
     banner:
       accept: Akzeptieren
       decline: Ablehnen
+      description: 'Auf dieser Website werden Cookies verwendet. Du kannst deine Einstellungen anpassen oder alle Cookies akzeptieren.'
+      learn_more: 'Weitere Informationen'
       preferences: 'Einstellungen verwalten'
     categories:
+      analytics:
+        description: 'Hilf uns zu verstehen, wie das Forum genutzt wird, damit wir es verbessern können. Nichts davon ist für den Betrieb des Forums erforderlich.'
+        title: Analytik
       marketing:
+        description: 'Wird zur Messung von Werbemaßnahmen und zur Anzeige von Werbung auf anderen Websites verwendet.'
         title: Marketing
+      necessary:
+        description: 'Diese sind für die Funktion der Website erforderlich – zum Anmelden, zum Angemeldetbleiben und zum Speichern deiner Cookie-Einstellungen. Sie können nicht deaktiviert werden.'
+        title: Essenziell
+    cookies:
+      cc_cookie: 'Speichert deine Cookie-Einstellung, damit du nicht erneut danach gefragt wirst.'
+      flarum_remember: 'Meldet dich bei deinem nächsten Besuch automatisch wieder an.'
+      flarum_session: 'Behält dich während des Surfens angemeldet.'
+      locale: 'Merkt sich die von dir gewählte Sprache.'
     preferences:
       cookie_table:
         description: Zweck
         name: Cookie
+      description: 'Cookies sind kleine Dateien, die diese Website in deinem Browser speichert. Nachfolgend erfährest du, welche Daten gespeichert werden und warum. Du kannst deine Einstellungen jederzeit ändern.'
       save: 'Einstellungen speichern'
       title: Cookie-Einstellungen
