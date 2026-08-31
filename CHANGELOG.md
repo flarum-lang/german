@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+2.0.17 (XXXX-XX-XX)
+-------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+
+
+Alle Änderungen: [2.0.16...2.0.17](https://github.com/flarum-lang/german/compare/2.0.16...2.0.17).
+
+
 2.0.16 (2026-08-31)
 -------------------
 
