@@ -15,8 +15,8 @@ fof-cookie-consent:
       colors_help: "Das Banner passt sich dem Design deines Forums an, einschließlich des Dunkelmodus. Lege eine Farbe fest,\num das Design zu überschreiben – lasse das Feld leer, um das Standarddesign zu übernehmen.\n"
       configuration_button_title: 'Link „Weitere Informationen“'
       configuration_title: Einstellungen
-      equalWeightButtons: 'Beiden Schaltflächen das gleiche Gewicht zuweisen'
-      equalWeightButtons_help: 'Empfohlen. Wenn die Optionen „Akzeptieren“ und „Ablehnen“ identisch dargestellt werden, wird vermieden, dass Besucher dazu verleitet werden, zuzustimmen.'
+      equalWeightButtons: 'Beide Schaltflächen gleiche darstellen'
+      equalWeightButtons_help: 'Empfohlen. Wenn die Optionen „Akzeptieren“ und „Ablehnen“ identisch dargestellt werden, wird vermieden, dass Besucher durch die Darstellung verleitet werden, zuzustimmen.'
       layout: Layout
       layout_help: 'Steuert die Form und Gestaltung des Einwilligungsbanners.'
       layouts:
@@ -50,9 +50,9 @@ fof-cookie-consent:
     banner:
       accept: Akzeptieren
       decline: Ablehnen
-      description: 'Auf dieser Website werden Cookies verwendet. Du kannst deine Einstellungen anpassen oder alle Cookies akzeptieren.'
+      description: 'Diese Website verwendet Cookies. Du kannst deine Einstellungen anpassen oder alle Cookies akzeptieren.'
       learn_more: 'Weitere Informationen'
-      preferences: 'Einstellungen verwalten'
+      preferences: 'Einstellungen anpassen'
     categories:
       analytics:
         description: 'Hilf uns zu verstehen, wie das Forum genutzt wird, damit wir es verbessern können. Nichts davon ist für den Betrieb des Forums erforderlich.'

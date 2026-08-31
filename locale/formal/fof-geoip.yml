@@ -5,7 +5,7 @@
 fof-default-user-preferences:
   admin:
     settings:
-      showIPCountry: 'Zeigt die Flagge des Landes, aus dem der Benutzer postet'
+      showIPCountry: 'Flagge des Landes anzeigen, aus dem der Benutzer postet'
       showIPCountry-help: 'Dies basiert auf ihrer IP-Adresse zum Zeitpunkt der Veröffentlichung. Die Landesflagge (falls aktiviert) ist für alle Benutzer sichtbar. Administratoren und Moderatoren sehen die IP-Adresse im Tooltip.'
 fof-geoip:
   admin:
