@@ -6,18 +6,33 @@ linkrobins-support:
   admin:
     categories:
       column_name: Name
+      column_slug: Slug
+      column_tickets: Tickets
+      column_type: Typ
       delete_button: Löschen
       edit_button: Bearbeiten
       empty: 'Es gibt noch keine Kategorien. Erstelle eine, um loszulegen.'
+      general_badge: Allgemein
+      heading: Support-Kategorien
+      intro: 'Erstelle und organisiere die Kategorien, aus denen Benutzer beim Erstellen eines Support-Tickets auswählen können.'
       new_button: 'Neue Kategorie'
+      this_category: 'diese Kategorie'
     category_editor:
+      field_color: Farbe
+      field_description: Beschreibung
+      field_icon: Symbol
       field_name: Name
+      field_position: Position
+      field_slug: Slug
       submit_update: 'Änderungen speichern'
+      title_edit: 'Kategorie bearbeiten'
+      title_new: 'Neue Kategorie'
     common:
       loading: Lädt…
       unknown_error: 'Es ist ein Fehler aufgetreten. Bitte versuche es erneut.'
     nav:
       categories: Kategorien
+      rate_limits: Ratenbegrenzungen
     permissions:
       force_delete_tickets: 'Support-Tickets dauerhaft löschen'
       handle_tickets: 'Support-Tickets bearbeiten'
