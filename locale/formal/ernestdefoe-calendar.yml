@@ -21,16 +21,23 @@ ernestdefoe-calendar:
     attendees_going: 'Wer nimmt teil'
     attendees_interested: 'Auch interessiert'
     badge_1kposts: Legende
+    badge_month: Unaufhaltsam
+    badge_week: Wochenkämpfer
     birthday_day: Tag
     birthday_month: Monat
     birthday_save: Speichern
+    birthday_saved: 'Geburtstag gespeichert.'
     cancel: Abbrechen
     cd_days: Tagen
+    cd_here: 'ist da!'
     cd_hours: Stunden
+    cd_live: 'Findet jetzt statt 🎉'
     cd_mins: Minuten
     cd_secs: Sekunden
     celebrations_birthday: 'Geburtstag 🎂'
+    celebrations_title: 'Heutige Feierlichkeiten'
     cover_error: 'Das Bild konnte nicht hochgeladen werden – bitte versuche es erneut oder füge eine URL ein.'
+    cover_or_url: '…oder füge eine Bild-URL ein'
     cover_remove: 'Titelbild entfernen'
     cover_upload: 'Bild hochladen'
     cover_uploading: 'Wird hochgeladen…'
@@ -51,15 +58,23 @@ ernestdefoe-calendar:
     field_timezone: Zeitzone
     field_title: Titel
     field_url: 'Link (optional)'
+    heat_active_days: 'Aktive Tage'
     heat_cell: '{count} am {date}'
+    heat_contributions: Beiträge
+    heat_current_streak: Tages-Serie
     heat_less: Weniger
+    heat_longest_streak: 'längste Serie'
     heat_more: Mehr
     link: Link
     location: Ort
+    memories_replies: '{count} Antworten'
+    memories_title: 'An diesem Tag'
     nav: Kalender
     no_events: 'Keine bevorstehende Veranstaltungen.'
     organizer: 'Organisiert von'
     page_title: Kalender
+    pulse_empty: 'Noch keine Aktivitäten.'
+    pulse_total: '{count} Beiträge (120 d)'
     repeat_daily: Täglich
     repeat_monthly: Monatlich
     repeat_none: 'Nicht wiederholen'
@@ -70,6 +85,7 @@ ernestdefoe-calendar:
     rsvp_interested: Interessiert
     rsvp_interested_count: '{count} sind interessiert'
     save: 'Veranstaltung speichern'
+    save_error: 'Die Veranstaltung konnte nicht gespeichert werden – bitte überprüfe das Formular und versuche es erneut.'
     saved: 'Veranstaltung gespeichert.'
     section_details: Details
     section_when: Wann
@@ -84,3 +100,5 @@ ernestdefoe-calendar:
     view_list: Liste
     view_month: Monat
     view_week: Woche
+    widget_memories: 'An diesem Tag'
+    widget_title: 'Bevorstehende Veranstaltungen'

@@ -143,6 +143,7 @@ datlechin-debugbar:
       uri: URI
       user: Benutzer
     requests:
+      document: 'Laden der Seite'
       none: 'Keine Anforderung'
       toggle: 'Wähle eine Anforderung'
     resize: 'Größe der Debugleiste anpassen'
