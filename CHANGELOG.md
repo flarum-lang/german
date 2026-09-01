@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 * [`forumaker/friendship`](https://github.com/forumaker/Friendship)
