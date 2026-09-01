@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.25.29 (XXXX-XX-XX)
+--------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`huseyinfiliz/language-detection`](https://github.com/huseyinfiliz/language-detection)
+
+
+Alle Änderungen: [1.25.28...1.25.29](https://github.com/flarum-lang/german/compare/1.25.28...1.25.29).
+
+
 1.25.28 (2026-08-24)
 --------------------
 
