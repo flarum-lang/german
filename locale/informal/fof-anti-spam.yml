@@ -145,7 +145,7 @@ fof-anti-spam:
         registration_throttle_help: 'Flarum begrenzt, wie oft jemand Beiträge verfassen kann, nicht jedoch, wie oft er Konten erstellen kann. Mit dem Wert 0 wird diese Funktion deaktiviert. Beachte, dass in Büros, Schulen und Mobilfunknetzen oft viele Personen dieselbe IP-Adresse nutzen.'
         registration_throttle_label: 'Sekunden zwischen Registrierungen von derselben Adresse'
         report_blocked_registrations_help: 'Wenn eine Registrierung durch die Spam-Prüfung blockiert wird, melden wir den Versuch an StopForumSpam zurück, damit die Aktivität des Spammers besser bestätigt werden kann. Dazu muss ein StopForumSpam-API-Schlüssel festgelegt werden (siehe unten).'
-        report_blocked_registrations_label: 'Melde blockierte Registrierungen'
+        report_blocked_registrations_label: 'Blockierte Registrierungen melden'
         sfs_lookup_help: 'Wenn diese Option aktiviert ist, überprüfen wir die StopForumSpam-Datenbank, wenn sich ein neuer Benutzer in deinem Forum registriert. Wenn der Benutzer gefunden wird (Benutzername, IP-Adresse, E-Mail) und dieser Punkt aktiviert sowie die Vertrauensstufe die von dir festgelegte Stufe erreicht, wird er daran gehindert, seine Registrierung abzuschließen.'
         sfs_lookup_label: 'Registrierungen überprüfen'
         username_label: Benutzernamen-Spam-Prüfung
