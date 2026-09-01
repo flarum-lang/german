@@ -2,6 +2,10 @@
 # Use https://weblate.rob006.net/projects/flarum2/ernestdefoe-calendar/de@formal/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+ernestdefoe-bespoke:
+  forum:
+    widget_celebrations: Feierlichkeiten
+    widget_events: 'Anstehende Veranstaltungen'
 ernestdefoe-calendar:
   admin:
     categories: Veranstaltungskategorien
@@ -11,7 +15,14 @@ ernestdefoe-calendar:
     category_name: Name
     category_saved: 'Kategorie gespeichert.'
     default_view: 'Standardansicht des Kalenders'
+    hide_nav_link: 'Link „Kalender“ in der Seitenleiste ausblenden'
+    hide_nav_link_help: 'Der Kalender bleibt über das Widget „Bevorstehende Veranstaltungen“ und die URL /calendar erreichbar – praktisch, wenn deine Navigation zu überladen ist.'
+    index_widget_count: 'Im Index-Widget anzuzeigende Veranstaltungen'
+    permission_create: 'Kalendereinträge erstellen'
+    permission_manage: 'Alle Kalendereinträge verwalten'
     settings_title: Kalender
+    show_celebrations_widget: 'Widget „Heutige Feierlichkeiten“ auf der Startseite des Forums anzeigen'
+    show_index_widget: 'Widget „Bevorstehende Veranstaltungen“ auf der Startseite des Forums anzeigen'
     view_month_opt: Monatsübersicht
     week_monday: Montag
     week_starts_on: 'Die Woche beginnt am'
@@ -22,9 +33,14 @@ ernestdefoe-calendar:
     all_day: 'Ganzen Tag'
     attendees_going: 'Wer nimmt teil'
     attendees_interested: 'Auch interessiert'
+    badge_100: Centurio-Serie
+    badge_100posts: Wortkünstler
     badge_1kposts: Legende
+    badge_500posts: Profi
     badge_month: Unaufhaltsam
+    badge_roll: 'In Hochform'
     badge_week: Wochenkämpfer
+    badge_year: Jahreskreis
     birthday_day: Tag
     birthday_help: 'Gib deinen Geburtstag an (nur Monat und Tag – niemals das Jahr), damit die Community ihn mit dir feiern kann. Lass das Feld leer, wenn du nicht mitmachen möchtest.'
     birthday_month: Monat
