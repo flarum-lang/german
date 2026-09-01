@@ -18,19 +18,28 @@ fof-anti-spam:
       email: E-Mail-Adresse
       evidence:
         badge:
+          asn: 'AS{asn}'
+          blacklisted: 'Auf der schwarzen Liste'
           confidence: '{value} % Konfidenz'
           frequency: '{count, plural, one {# Mal gemeldet} other {# Mal gemeldet}}'
           last_seen: 'zuletzt gesehen {when}'
           normalized: 'auf den Wert {value} normalisiert'
+          not_listed: 'Kein Treffer'
+          tor_exit: Tor-Ausgangsknoten
         blocked_by: 'Blockiert von'
         field:
           email: E-Mail
           ip: IP
           username: Benutzername
         label: 'Warum diese blockiert wurde'
+        lookup_failed: 'Die Abfrage bei StopForumSpam ist fehlgeschlagen, daher wurden für diesen Versuch keine Daten zurückgegeben.'
+        none: 'Für diesen Versuch wurden keine StopForumSpam-Daten erfasst.'
         rule:
+          blacklisted: 'Auf der schwarzen Liste'
           confidence: Konfidenzschwelle
+          deniedAsn: 'Abgelehntes Netzwerk'
           frequency: Berichtsschwelle
+          torExit: Tor-Ausgangsknoten
       filters:
         apply: Anwenden
         clear: 'Suche löschen'
@@ -45,6 +54,7 @@ fof-anti-spam:
           toggle: 'Hilfe zur Suche'
           username: 'Registrierungsversuche mit einem bestimmten Benutzernamen.'
         hint: 'Filter:'
+        no-matches: 'Es wurden keine blockierten Registrierungen gefunden, die dieser Suche entsprechen.'
         placeholder: 'Suche, oder filtere mit key:value'
       help: "Diese Seite listet alle Registrierungen auf, die vom StopForumSpam-Dienst blockiert wurden. Du kannst die Details jeder Registrierung anschauen und, falsch gewünscht, den Eintrag aus der Datenbank löschen.\n"
       ip: IP-Adresse
@@ -57,6 +67,7 @@ fof-anti-spam:
         copy: Kopieren
         copy_failed: 'Konnte nicht in die Zwischenablage kopiert werden.'
         title: 'Aufgenommene Rohdaten'
+      reasons: 'Aufgenommene Gründe für Blockierung'
       sfs-data: StopForumSpam-Daten
       title: 'Blockierte Registrierungen'
       total: '{count, plural, one {# blockierte Registrierung} other {# blockierte Registrierungen}}'
@@ -150,6 +161,7 @@ fof-anti-spam:
         sfs_lookup_label: 'Registrierungen überprüfen'
         username_label: Benutzernamen-Spam-Prüfung
     statistics:
+      awaiting_review: 'Markiert zur Überprüfung ausstehend'
       failed: 'Spam-Statistiken konnten nicht geladen werden.'
       heading: Spamabwehr
       posts_flagged: 'Beiträge als Spam markiert'
