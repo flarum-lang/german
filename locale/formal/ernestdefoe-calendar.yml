@@ -12,6 +12,7 @@ ernestdefoe-calendar:
     categories_help: 'Mithilfe farbcodierter Kategorien können Mitglieder den Kalender filtern und jedem Termin einen farblichen Akzent verleihen. Änderungen werden zeilenweise gespeichert.'
     category_add: 'Kategorie hinzufügen'
     category_color: Farbe
+    category_delete_confirm: 'Diese Kategorie löschen? Die Daten der Veranstaltungen bleiben erhalten, die farbige Kennzeichnung wird jedoch entfernt.'
     category_name: Name
     category_saved: 'Kategorie gespeichert.'
     default_view: 'Standardansicht des Kalenders'
@@ -23,6 +24,7 @@ ernestdefoe-calendar:
     settings_title: Kalender
     show_celebrations_widget: 'Widget „Heutige Feierlichkeiten“ auf der Startseite des Forums anzeigen'
     show_index_widget: 'Widget „Bevorstehende Veranstaltungen“ auf der Startseite des Forums anzeigen'
+    view_list_opt: 'Bevorstehende Veranstaltungen'
     view_month_opt: Monatsübersicht
     week_monday: Montag
     week_starts_on: 'Die Woche beginnt am'
