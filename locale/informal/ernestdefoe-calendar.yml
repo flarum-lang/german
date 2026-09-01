@@ -6,6 +6,7 @@ ernestdefoe-bespoke:
   forum:
     widget_celebrations: Feierlichkeiten
     widget_events: 'Anstehende Veranstaltungen'
+    widget_memories: 'An diesem Tag'
 ernestdefoe-calendar:
   admin:
     categories: Veranstaltungskategorien
@@ -29,6 +30,11 @@ ernestdefoe-calendar:
     week_monday: Montag
     week_starts_on: 'Die Woche beginnt am'
     week_sunday: Sonntag
+  api:
+    category_name_required: 'Der Kategoriename wird benötigt.'
+    end_before_start: 'Das Ende muss nach dem Beginn liegen.'
+    start_required: 'Ein gültiges Startdatum und -zeit wird benötigt.'
+    title_required: 'Ein Titel wird benötigt.'
   forum:
     add_event: 'Veranstaltung hinzufügen'
     add_to_google: 'Zu Google Kalender hinzufügen'
