@@ -7,6 +7,7 @@ CHANGELOG
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
 * [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
