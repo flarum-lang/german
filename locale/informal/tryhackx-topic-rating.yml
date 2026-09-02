@@ -13,6 +13,23 @@ tryhackx-topic-rating:
       allow_unactivated_label: 'Nicht aktivierten Konten das Bewerten erlauben'
       enabled_help: 'Benutzern die Möglichkeit geben, Diskussionen mit einem 5-Sterne-System zu bewerten.'
       enabled_label: 'Diskussionsbewertung aktivieren'
+      hide_empty_for_nonvoters_help: 'Wenn ein Thema in der Diskussionsliste noch keine Bewertungen hat, soll das Stern-Widget für Benutzer, die es nicht bewerten können (Gäste, Gruppen mit eingeschränkten Rechten), nicht angezeigt werden. Bei Themen, die bereits Bewertungen haben, werden diese weiterhin angezeigt. Standardmäßig deaktiviert.'
+      hide_empty_for_nonvoters_label: 'Leere Sterne für Benutzer ausblenden, die keine Bewertung abgeben können'
+      poll_interval_help: 'Wie oft eine geöffnete Diskussionsseite in Sekunden nach neuen Bewertungen sucht (5–300, Standardwert 8). Höhere Werte verringern die Serverauslastung im Hintergrund in stark frequentierten Foren; der Bewertungsdurchschnitt wird dabei nur etwas weniger zeitnah aktualisiert. Gilt für die Diskussionsseite – das Bewertungs-Popup behält seine eigene, schnellere Aktualisierungsrate bei.'
+      poll_interval_label: 'Intervall für Echtzeit-Aktualisierungen (Sekunden)'
+      rate_on_list_help: 'Benutzer können Themen direkt in der Diskussionsliste durch Anklicken der Sterne (mit Vorschau beim Darüberfahren mit der Maus) bewerten, genau wie auf der Diskussionsseite. Wenn diese Funktion deaktiviert ist, wird die Bewertung in der Liste nur zur Information angezeigt. Standardmäßig aktiviert.'
+      rate_on_list_label: 'Bewertungen aus der Diskussionsliste zulassen'
+      realtime_enabled_help: 'Wenn aktiviert, prüfen Diskussionsseiten im Hintergrund auf Aktualisierungen, sodass die Bewertungen nahezu in Echtzeit aktualisiert werden. Deaktiviere diese Option, um alle Hintergrundabfragen zu unterbinden – die Bewertungen werden dann nur noch durch eine Aktion des Benutzers oder durch das Neuladen der Seite aktualisiert (geringere Serverauslastung). Standardmäßig aktiviert.'
+      realtime_enabled_label: 'Echtzeit-Aktualisierung der Bewertungen'
+      secondary_disable_all: 'Alle deaktivieren'
+      secondary_enable_all: 'Alle aktivieren'
+      show_moderation_controls_help: 'Standardmäßig werden die Optionen „Bewertung deaktivieren“ und „Alle Bewertungen zurücksetzen“ nur dann im ⋮-Menü der Diskussion angezeigt, wenn die Bewertung für dieses Thema sichtbar ist – sie sind ausgeblendet, wenn die Tags die Bewertung dort deaktivieren (die Verwaltung einer ausgeblendeten Bewertung hat keine Auswirkungen). Aktiviere diese Option, um sie immer anzuzeigen – z. B. um Bewertungen bei Themen zu verwalten, bei denen das Widget ausgeblendet ist. Es sind weiterhin die entsprechenden Moderationsberechtigungen erforderlich. Standardmäßig deaktiviert.'
+      show_moderation_controls_label: 'Bewertungselemente im Diskussionsmenü immer anzeigen'
+      show_on_list_help: 'Die Sternebewertung in der Diskussionsliste (Startseite) anzeigen. Wenn diese Option deaktiviert ist, werden die Bewertungen weiterhin auf der Diskussionsseite angezeigt. Standardmäßig aktiviert.'
+      show_on_list_label: 'Bewertung in der Diskussionsliste anzeigen'
+      tag_expand_all: 'Alle erweitern'
+      tag_state_disabled: Deaktiviert
+      tag_state_enabled: Aktiviert
     support:
       button: 'Entwicklung unterstützen'
       copy: 'Adresse kopieren'
