@@ -7,6 +7,7 @@ ernestdefoe-bespoke:
     widget_celebrations: Feierlichkeiten
     widget_events: 'Anstehende Veranstaltungen'
     widget_memories: 'An diesem Tag'
+    widget_pulse: Forum-Pulsschlag
 ernestdefoe-calendar:
   admin:
     categories: Veranstaltungskategorien
@@ -25,6 +26,9 @@ ernestdefoe-calendar:
     settings_title: Kalender
     show_celebrations_widget: 'Widget „Heutige Feierlichkeiten“ auf der Startseite des Forums anzeigen'
     show_index_widget: 'Widget „Bevorstehende Veranstaltungen“ auf der Startseite des Forums anzeigen'
+    show_memories_widget: 'Widget „An diesem Tag“ auf der Startseite des Forums anzeigen'
+    show_pulse_widget: 'Widget „Forum-Pulsschlag“ auf der Startseite des Forums anzeigen'
+    show_pulse_widget_help: 'Eine Aktivitäts-Heatmap und eine Rangliste der aktivsten Mitglieder, die zeigen, dass die Community lebendig ist. (Ein Beitragsdiagramm wird außerdem im Profil jedes Mitglieds angezeigt.)'
     view_list_opt: 'Bevorstehende Veranstaltungen'
     view_month_opt: Monatsübersicht
     week_monday: Montag
@@ -96,6 +100,7 @@ ernestdefoe-calendar:
     heat_more: Mehr
     link: Link
     location: Ort
+    memories_empty: 'Noch keine Erinnerungen für das heutige Datum – schaffe welche!'
     memories_replies: '{count} Antworten'
     memories_title: 'An diesem Tag'
     memories_years_ago: 'vor {years} Jahren'
@@ -104,6 +109,7 @@ ernestdefoe-calendar:
     organizer: 'Organisiert von'
     page_title: Kalender
     pulse_empty: 'Noch keine Aktivitäten.'
+    pulse_title: Forum-Pulsschlag
     pulse_total: '{count} Beiträge (120 d)'
     repeat_daily: Täglich
     repeat_monthly: Monatlich
@@ -132,4 +138,5 @@ ernestdefoe-calendar:
     view_week: Woche
     widget_celebrations: Feierlichkeiten
     widget_memories: 'An diesem Tag'
+    widget_pulse: Forum-Pulsschlag
     widget_title: 'Bevorstehende Veranstaltungen'
