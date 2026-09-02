@@ -21,16 +21,25 @@ datlechin-keyboard-shortcuts:
     sequence_timeout_label: 'Zeitlimit für die Sequenz (ms)'
   forum:
     customize:
+      group_has_conflict: 'Diese Gruppe enthält Tastenkürzel, die dieselben Tasten verwenden.'
+      help: 'Drücke die Tasten, die du als Tastenkürzel verwenden möchtest. Drücke direkt nach der ersten Taste eine zweite Taste, um eine Tastenfolge zu erstellen, zum Beispiel G und dann H.'
       reset_all_button: 'Forum-Standardeinstellungen wiederherstellen'
       saved_message: 'Deine Tastenkürzel wurden gespeichert.'
+      submit_button: 'Tastenkürzel speichern'
+      title: 'Tastenkürzel anpassen'
       unsaved: '{count, plural, one {# ungespeicherte Änderung} other {# ungespeicherte Änderungen}}'
     modal:
+      customize_button: Anpassen
+      enabled_label: 'Tastenkürzel aktivieren'
+      filter_clear_label: 'Suche löschen'
       filter_placeholder: 'Tastenkürzel durchsuchen'
+      no_results: 'Kein Tastenkürzel stimmt mit „{query}“ überein.'
       title: Tastenkürzel
     settings:
       customize_button: 'Tastenkürzel anpassen'
       enabled_label: 'Tastenkürzel verwenden'
       heading: Tastenkürzel
+      help: 'Drücke {key} an einer beliebigen Stelle im Forum, um die vollständige Liste anzuzeigen.'
       view_button: 'Tastenkürzel anzeigen'
   lib:
     binding_or: oder
@@ -43,24 +52,39 @@ datlechin-keyboard-shortcuts:
       navigation: 'Gehe zu'
     recorder:
       clear_label: 'Dieses Tastenkürzel ausschalten'
+      conflict: 'Auch verwendet von {shortcuts}.'
       prompt: 'Tasten drücken…'
-      reset_label: 'Auf die Standardeinstellung zurücksetzen'
+      recording_status: 'Auf Tastendrücke warten.'
+      reset_label: 'Auf Standardeinstellung zurücksetzen'
+      start_label: 'Ein neues Tastenkürzel aufzeichnen'
+      stop_label: 'Aufzeichnung beenden'
     shortcuts:
       back: Zurück
+      first_post: 'Zum ersten Beitrag springen'
       flags: 'Markierungen umschalten'
       go_home: 'Alle Diskussionen'
       go_notifications: Benachrichtigungen
       go_profile: 'Dein Profil'
       go_settings: 'Deine Einstellungen'
       help: 'Tastenkürzel anzeigen'
+      last_post: 'Zum letzten Beitrag springen'
+      login: Anmelden
       mark_all_as_read: 'Alle als gelesen markieren'
+      minimize_composer: 'Composer minimieren'
       new_discussion: 'Eine Diskussion starten'
       next_discussion: 'Nächste Diskussion'
       next_post: 'Nächster Beitrag'
       notifications: 'Benachrichtigungen umschalten'
+      open_discussion: 'Ausgewählte Diskussion öffnen'
+      pin_nav: 'Diskussionliste an-/abheften'
       previous_discussion: 'Vorherige Diskussion'
       previous_post: 'Vorheriger Beitrag'
+      refresh: 'Liste aktualisieren'
+      rename_discussion: 'Diskussion umbenennen'
       reply: Antworten
       search: Suche
+      session: 'Benutzermenü umschalten'
       signup: Registrieren
+      toggle_full_screen: 'Vollbild umschalten'
+      toggle_theme: 'Farbschema umschalten'
     unbound: 'Nicht festgelegt'
