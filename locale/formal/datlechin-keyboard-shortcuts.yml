@@ -9,12 +9,50 @@ datlechin-keyboard-shortcuts:
     behaviour_heading: Verhalten
     bindings_heading: Tastenkürzel
     bindings_help: 'Wähle ein Tastenkürzel aus und drücke dann die Tasten, die du dafür festlegen möchtest. Drücke direkt nach der ersten Taste eine zweite Taste, um eine Tastenfolge zu erstellen, beispielsweise G und dann H.'
+    column_binding: Tasten
     column_shortcut: Tastenkürzel
     enabled_by_default_help: 'Mitglieder können die Kürzel in ihren Einstellungen für sich selbst deaktivieren.'
     enabled_by_default_label: 'Tastaturkürzel aktivieren'
+    filter_clear_label: 'Filter löschen'
+    filter_placeholder: 'Tastenkürzel filtern'
+    no_results: 'Kein Tastenkürzel stimmt mit „{query}“ überein.'
+    reset_title: 'Tastenkürzel zurücksetzen'
+    sequence_timeout_help: 'Wie lange eine mehrstufige Tastenkombination wie „G, dann H“ auf die nächste Taste wartet, bevor sie von vorne beginnt.'
+    sequence_timeout_label: 'Zeitlimit für die Sequenz (ms)'
+  forum:
+    customize:
+      reset_all_button: 'Forum-Standardeinstellungen wiederherstellen'
+      saved_message: 'Deine Tastenkürzel wurden gespeichert.'
+      unsaved: '{count, plural, one {# ungespeicherte Änderung} other {# ungespeicherte Änderungen}}'
+    modal:
+      filter_placeholder: 'Tastenkürzel durchsuchen'
+      title: Tastenkürzel
+    settings:
+      heading: Tastenkürzel
   lib:
+    binding_or: oder
+    binding_then: dann
+    groups:
+      composer: Composer
+      discussion: Diskussion
+      discussionList: Diskussionsliste
+      global: Überall
+      navigation: 'Gehe zu'
     shortcuts:
+      back: Zurück
+      flags: 'Markierungen umschalten'
+      go_home: 'Alle Diskussionen'
+      go_notifications: Benachrichtigungen
+      go_profile: 'Dein Profil'
+      go_settings: 'Deine Einstellungen'
+      help: 'Tastenkürzel anzeigen'
       mark_all_as_read: 'Alle als gelesen markieren'
+      new_discussion: 'Eine Diskussion starten'
+      next_discussion: 'Nächste Diskussion'
+      next_post: 'Nächster Beitrag'
+      notifications: 'Benachrichtigungen umschalten'
+      previous_discussion: 'Vorherige Diskussion'
+      previous_post: 'Vorheriger Beitrag'
       reply: Antworten
       search: Suche
       signup: Registrieren

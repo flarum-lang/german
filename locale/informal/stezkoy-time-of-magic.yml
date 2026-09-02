@@ -4,7 +4,39 @@
 
 stezkoy-time-of-magic:
   admin:
+    back_to_top_color_label: 'Farbe der Schaltfläche „Zurück zum Anfang“'
+    back_to_top_description: 'Zeigt eine schwebende Schaltfläche an, mit der man zurück zum Anfang scrollen kann.'
+    back_to_top_icon_label: FontAwesome-Symbolklasse
+    back_to_top_label: 'Schaltfläche „Zurück zum Anfang“'
+    back_to_top_shape_description: 'Verwendet eine quadratische Form anstelle eines Kreises.'
+    back_to_top_shape_label: 'Quadratische Form'
+    background_description: 'Dezentes Hintergrundmuster, das sowohl bei hellen als auch bei dunklen Designs gut zur Geltung kommt.'
+    background_diagonal: 'Diagonale Linien'
+    background_dots: Punkte
+    background_grid: Raster
+    background_hexagon: Hexagone
+    background_label: Hintergrundmuster
+    background_none: Keines
+    background_waves: Wellen
+    click_spark_color_label: 'Farbe des Klick-Funkens'
+    click_spark_description: 'Ein Schwarm magischer Teilchen an der Klickposition.'
+    click_spark_label: Klick-Funken-Effekt
+    color_description: 'Lasse das Feld leer, um die Farbe deines Forums zu verwenden. Beispiele: #E7672E, #00a185, red, rgb(255,0,0).'
     color_placeholder: 'z. B. #00a185'
     description: 'Verleiht deiner Flarum-Website einen Hauch von Magie.'
+    progress_bar_color_label: 'Farbe des Fortschrittsbalkens'
+    progress_bar_description: 'Zeigt beim Scrollen einen schmalen Fortschrittsbalken unterhalb der Kopfzeile an.'
     progress_bar_label: Fortschrittsbalken
+    scrollbar_color_label: 'Farbe der Bildlaufleiste'
+    scrollbar_description: 'Ersetzt die Standard-Bildlaufleiste durch eine schmale, an das Design angepasste Bildlaufleiste.'
+    scrollbar_label: 'Benutzerdefinierte Bildlaufleiste'
+    snow_density_description: 'Anzahl der Schneeflocken auf dem Bildschirm.'
+    snow_density_heavy: Stark
+    snow_density_label: Schneedichte
+    snow_density_light: Leicht
+    snow_density_medium: Mittel
+    snow_description: 'Fügt auf der gesamten Website einen festlichen Schneefall-Effekt hinzu.'
+    snow_label: 'Fallende Schneeflocken'
+    swap_layout_description: 'Verschiebt die Seitenleiste nach rechts und die Beiträge nach links.'
+    swap_layout_label: 'Seitenleiste und Inhalt vertauschen'
     title: 'Zeit für Magie'
