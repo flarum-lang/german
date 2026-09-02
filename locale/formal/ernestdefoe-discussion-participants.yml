@@ -9,7 +9,11 @@ ernestdefoe-discussion-participants:
     avatar_size_large: Groß
     avatar_size_medium: Mittel
     avatar_size_small: Klein
+    include_op_always: 'Immer zuerst anzeigen'
+    include_op_if_replied: 'Nur anzeigen, wenn sie auch geantwortet haben'
+    include_op_label: 'Die Person, die die Diskussion begonnen hat'
     include_op_never: 'Niemals im Streifen anzeigen'
+    min_participants_label: 'Mindestanzahl an Teilnehmern'
     order_first_post: 'Wer zuerst geantwortet hat'
     order_help: 'Welche Teilnehmer die sichtbaren Plätze belegen und in welcher Reihenfolge sie gestapelt werden.'
     order_label: Reihenfolge
