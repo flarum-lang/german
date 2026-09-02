@@ -11,6 +11,8 @@ tryhackx-topic-rating:
     settings:
       allow_unactivated_help: 'Wenn aktiviert, können Benutzer, die ihre E-Mail-Adresse noch nicht bestätigt haben, Diskussionen dennoch bewerten.'
       allow_unactivated_label: 'Nicht aktivierten Konten das Bewerten erlauben'
+      bypass_clear_all: Löschen
+      bypass_select_all: 'Alle auswählen'
       enabled_help: 'Benutzern die Möglichkeit geben, Diskussionen mit einem 5-Sterne-System zu bewerten.'
       enabled_label: 'Diskussionsbewertung aktivieren'
       hide_empty_for_nonvoters_help: 'Wenn ein Thema in der Diskussionsliste noch keine Bewertungen hat, soll das Stern-Widget für Benutzer, die es nicht bewerten können (Gäste, Gruppen mit eingeschränkten Rechten), nicht angezeigt werden. Bei Themen, die bereits Bewertungen haben, werden diese weiterhin angezeigt. Standardmäßig deaktiviert.'
@@ -28,8 +30,10 @@ tryhackx-topic-rating:
       show_on_list_help: 'Die Sternebewertung in der Diskussionsliste (Startseite) anzeigen. Wenn diese Option deaktiviert ist, werden die Bewertungen weiterhin auf der Diskussionsseite angezeigt. Standardmäßig aktiviert.'
       show_on_list_label: 'Bewertung in der Diskussionsliste anzeigen'
       tag_expand_all: 'Alle erweitern'
+      tag_no_groups: 'Keine auswählbaren Gruppen verfügbar.'
       tag_state_disabled: Deaktiviert
       tag_state_enabled: Aktiviert
+      tag_state_groups: 'Gruppen erlauben'
     support:
       button: 'Entwicklung unterstützen'
       copy: 'Adresse kopieren'
