@@ -2,6 +2,15 @@
 # Use https://weblate.rob006.net/projects/flarum2/tryhackx-topic-rating/de/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+tryhackx-avatars:
+  admin:
+    device_desktop: Desktop
+    device_mobile: Mobil
+    hint_show: 'Der Avatar des Verfassers wird immer angezeigt.'
+    mode_always: 'Immer durch Miniaturansicht ersetzen'
+    mode_hide: 'Avatar verbergen'
+    mode_show: 'Avatar anzeigen'
+    title: 'Avatare in der Diskussionsliste'
 tryhackx-topic-rating:
   admin:
     permissions:
@@ -13,10 +22,23 @@ tryhackx-topic-rating:
       allow_unactivated_label: 'Nicht aktivierten Konten das Bewerten erlauben'
       bypass_clear_all: Löschen
       bypass_select_all: 'Alle auswählen'
+      display_when_restricted_hidden: 'Bewertungs-Widget verbergen'
+      display_when_restricted_message: 'Eine kurze Nachricht anzeigen'
+      display_when_restricted_readonly: 'Nur-lesen Sterne (Standard)'
       enabled_help: 'Benutzern die Möglichkeit geben, Diskussionen mit einem 5-Sterne-System zu bewerten.'
       enabled_label: 'Diskussionsbewertung aktivieren'
+      hide_disabled_ratings_label: 'Bewertungen auf Diskussionen verbergen, für die sie deaktiviert sind'
       hide_empty_for_nonvoters_help: 'Wenn ein Thema in der Diskussionsliste noch keine Bewertungen hat, soll das Stern-Widget für Benutzer, die es nicht bewerten können (Gäste, Gruppen mit eingeschränkten Rechten), nicht angezeigt werden. Bei Themen, die bereits Bewertungen haben, werden diese weiterhin angezeigt. Standardmäßig deaktiviert.'
       hide_empty_for_nonvoters_label: 'Leere Sterne für Benutzer ausblenden, die keine Bewertung abgeben können'
+      list_display_heading: 'Bewertungsanzeige in der Diskussionsliste'
+      list_style_desktop_label: 'Darstellungsart — Desktop'
+      list_style_full_meta: 'Volle Sterne — selber Ort (oberhalb Aufrufe / Antworten)'
+      list_style_full_title: 'Volle Sterne — hinter dem Titel'
+      list_style_mobile_label: 'Darstellungsart — Mobil'
+      list_style_single_bucket_meta: 'Ein Stern (leer / halb / voll) + Bewertung — selber Ort'
+      list_style_single_bucket_title: 'Ein Stern (leer / halb / voll) + Bewertung — hinter dem Titel'
+      list_style_single_filled_meta: 'Ein Stern + Bewertung, z. B. ★4.6 — selber Ort'
+      list_style_single_filled_title: 'Ein Stern + Bewertung, z. B. ★4.6 — hinter dem Titel'
       poll_interval_help: 'Wie oft eine geöffnete Diskussionsseite in Sekunden nach neuen Bewertungen sucht (5–300, Standardwert 8). Höhere Werte verringern die Serverauslastung im Hintergrund in stark frequentierten Foren; der Bewertungsdurchschnitt wird dabei nur etwas weniger zeitnah aktualisiert. Gilt für die Diskussionsseite – das Bewertungs-Popup behält seine eigene, schnellere Aktualisierungsrate bei.'
       poll_interval_label: 'Intervall für Echtzeit-Aktualisierungen (Sekunden)'
       rate_on_list_help: 'Benutzer können Themen direkt in der Diskussionsliste durch Anklicken der Sterne (mit Vorschau beim Darüberfahren mit der Maus) bewerten, genau wie auf der Diskussionsseite. Wenn diese Funktion deaktiviert ist, wird die Bewertung in der Liste nur zur Information angezeigt. Standardmäßig aktiviert.'
@@ -29,6 +51,7 @@ tryhackx-topic-rating:
       show_moderation_controls_label: 'Bewertungselemente im Diskussionsmenü immer anzeigen'
       show_on_list_help: 'Die Sternebewertung in der Diskussionsliste (Startseite) anzeigen. Wenn diese Option deaktiviert ist, werden die Bewertungen weiterhin auf der Diskussionsseite angezeigt. Standardmäßig aktiviert.'
       show_on_list_label: 'Bewertung in der Diskussionsliste anzeigen'
+      single_clickable_label: 'Einzelner Stern ist klickbar'
       tag_expand_all: 'Alle erweitern'
       tag_no_groups: 'Keine auswählbaren Gruppen verfügbar.'
       tag_state_disabled: Deaktiviert
@@ -40,6 +63,9 @@ tryhackx-topic-rating:
       description: 'Wenn dir diese Erweiterung gefällt, würde ich mich über eine kleine Spende freuen, um die Weiterentwicklung zu unterstützen. Jeder Beitrag hilft dabei, das Projekt am Leben zu erhalten und weiter zu pflegen.'
       thanks: 'Vielen Dank für deine Unterstützung!'
       title: 'Diese Erweiterung unterstützen'
+  api:
+    rating_disabled: 'Bewertung wurde für diese Diskussion deaktiviert.'
+    rating_out_of_range: 'Bewertung muss zwischen 1 und 10 liegen (0.5-5.0 Sterne).'
   forum:
     controls:
       disable_rating: 'Bewerten deaktivieren'
