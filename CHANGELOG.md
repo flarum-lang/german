@@ -5,6 +5,11 @@ CHANGELOG
 2.0.17 (XXXX-XX-XX)
 -------------------
 
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`ernestdefoe/discussion-participants`](https://github.com/ernestdefoe/discussion-participants)
+
+
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar)
