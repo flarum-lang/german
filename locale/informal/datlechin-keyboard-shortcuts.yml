@@ -28,7 +28,10 @@ datlechin-keyboard-shortcuts:
       filter_placeholder: 'Tastenkürzel durchsuchen'
       title: Tastenkürzel
     settings:
+      customize_button: 'Tastenkürzel anpassen'
+      enabled_label: 'Tastenkürzel verwenden'
       heading: Tastenkürzel
+      view_button: 'Tastenkürzel anzeigen'
   lib:
     binding_or: oder
     binding_then: dann
@@ -38,6 +41,10 @@ datlechin-keyboard-shortcuts:
       discussionList: Diskussionsliste
       global: Überall
       navigation: 'Gehe zu'
+    recorder:
+      clear_label: 'Dieses Tastenkürzel ausschalten'
+      prompt: 'Tasten drücken…'
+      reset_label: 'Auf die Standardeinstellung zurücksetzen'
     shortcuts:
       back: Zurück
       flags: 'Markierungen umschalten'
@@ -56,3 +63,4 @@ datlechin-keyboard-shortcuts:
       reply: Antworten
       search: Suche
       signup: Registrieren
+    unbound: 'Nicht festgelegt'
