@@ -13,6 +13,7 @@ CHANGELOG
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts)
 * [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
