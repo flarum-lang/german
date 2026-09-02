@@ -8,6 +8,7 @@ CHANGELOG
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
 * [`ernestdefoe/discussion-participants`](https://github.com/ernestdefoe/discussion-participants)
+* [`stezkoy/flarum-time-of-magic`](https://github.com/Stezkoy/flarum-time-of-magic)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
@@ -22,6 +23,7 @@ CHANGELOG
 * [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
 * [`linkrobins/support`](https://github.com/linkrobins/support)
+* [`tryhackx/flarum-topic-rating`](https://github.com/TryHackX/flarum-topic-rating)
 
 
 Alle Änderungen: [2.0.16...2.0.17](https://github.com/flarum-lang/german/compare/2.0.16...2.0.17).
