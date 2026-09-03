@@ -8,6 +8,8 @@ CHANGELOG
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`ernestdefoe/discussion-participants`](https://github.com/ernestdefoe/discussion-participants)
+* [`ffans/geetest`](https://github.com/FFans/geetest)
+* [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind)
 * [`tryhackx/flarum-topic-rating`](https://github.com/TryHackX/flarum-topic-rating)
 
 
