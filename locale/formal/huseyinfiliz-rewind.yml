@@ -100,7 +100,7 @@ huseyinfiliz-rewind:
       total_discussions: 'Diskussionen begonnen'
       total_posts: 'Beiträge insgesamt'
       view_slideshow: 'Diashow anzeigen'
-      watch_slideshow: 'Sieh dir den Community-Rückblick für {Jahr} an'
+      watch_slideshow: 'Sieh dir den Community-Rückblick für {year} an'
       watch_slideshow_desc: 'Die Höhepunkte des Jahres im Story-Format'
     community_slideshow:
       avg_per_post: 'Durchschnitt pro Beitrag'

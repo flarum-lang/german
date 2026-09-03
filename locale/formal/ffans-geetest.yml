@@ -9,7 +9,11 @@ ffans-geetest:
         product_label: Animationsart
         title: 'Konfiguration für {context}'
       context_event_forgot_label: '=> core.forum.forgot_password.title'
+      context_event_help_text: 'Um GeeTest CAPTCHA in verschiedenen Kontexten oder Geschäftsbereichen nutzen zu können, kannst du für jeden Kontext eine eigenständige Konfiguration festlegen.'
+      context_event_label: Kontextereignis
       context_event_login_label: '=> core.ref.log_in'
       context_event_signup_label: '=> core.ref.sign_up'
+      product_service_help_text: 'Die Version von GeeTest CAPTCHA, die du verwenden möchtest.'
       product_service_label: CAPTCHA-Produkt
       product_service_v3_label: 'CAPTCHA (v3)'
+      product_service_v4_label: 'Adaptive CAPTCHA (v4)'
