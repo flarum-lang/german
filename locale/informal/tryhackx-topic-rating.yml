@@ -10,6 +10,7 @@ tryhackx-avatars:
     mode_always: 'Immer durch Miniaturansicht ersetzen'
     mode_hide: 'Avatar verbergen'
     mode_show: 'Avatar anzeigen'
+    save_error: 'Avatar-Einstellung konnte nicht gespeichert werden. Bitte versuche es erneut.'
     title: 'Avatare in der Diskussionsliste'
 tryhackx-topic-rating:
   admin:
@@ -21,8 +22,11 @@ tryhackx-topic-rating:
       allow_unactivated_help: 'Wenn aktiviert, können Benutzer, die ihre E-Mail-Adresse noch nicht bestätigt haben, Diskussionen dennoch bewerten.'
       allow_unactivated_label: 'Nicht aktivierten Konten das Bewerten erlauben'
       bypass_clear_all: Löschen
+      bypass_groups_help: 'Ausgewählte Gruppen können die Bewertungsberechtigungen je Tag umgehen. Wenn keine ausgewählt ist, können keine Gruppen (ausser Administratoren, entsprechend den obigen Einstellungen) diese umgehen.'
+      bypass_groups_label: 'Tag-Berechtigungen umgehen'
       bypass_select_all: 'Alle auswählen'
       display_when_restricted_hidden: 'Bewertungs-Widget verbergen'
+      display_when_restricted_label: 'Was soll Benutzern ohne Bewertungsgenehmigung angezeigt werden'
       display_when_restricted_message: 'Eine kurze Nachricht anzeigen'
       display_when_restricted_readonly: 'Nur-lesen Sterne (Standard)'
       enabled_help: 'Benutzern die Möglichkeit geben, Diskussionen mit einem 5-Sterne-System zu bewerten.'
@@ -52,11 +56,17 @@ tryhackx-topic-rating:
       show_on_list_help: 'Die Sternebewertung in der Diskussionsliste (Startseite) anzeigen. Wenn diese Option deaktiviert ist, werden die Bewertungen weiterhin auf der Diskussionsseite angezeigt. Standardmäßig aktiviert.'
       show_on_list_label: 'Bewertung in der Diskussionsliste anzeigen'
       single_clickable_label: 'Einzelner Stern ist klickbar'
+      tag_collapse_all: 'Alle zusammenklappen'
+      tag_config_label: 'Bewertungsberechtigungen je Tag'
       tag_expand_all: 'Alle erweitern'
       tag_no_groups: 'Keine auswählbaren Gruppen verfügbar.'
+      tag_overrides_count: '{count} Überschreibung(en)'
       tag_state_disabled: Deaktiviert
       tag_state_enabled: Aktiviert
       tag_state_groups: 'Gruppen erlauben'
+      tags_empty: 'Keine Tags gefunden. Erstelle zuerst Tags in den Tag-Einstellungen.'
+      tags_unavailable: 'Die Tag-Erweiterung muss installiert und aktiviert sein, um Bewertungsberechtigungen je Tag verwenden zu können.'
+      untagged_enabled_label: 'Bewertung von Diskussionen ohne Tags erlauben'
     support:
       button: 'Entwicklung unterstützen'
       copy: 'Adresse kopieren'
@@ -72,7 +82,7 @@ tryhackx-topic-rating:
       enable_rating: 'Bewerten aktivieren'
       reset_confirm: 'Möchtest du wirklich alle Bewertungen für diese Diskussion löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.'
       reset_ratings: 'Alle Bewertungen zurücksetzen'
-    last_rated: 'Letzte Bewertung:'
+    last_rated: 'Zuletzt bewertet:'
     rating_count: 'Bewertungen: {count}'
     ratings_modal:
       deleted_user: '[gelöscht]'

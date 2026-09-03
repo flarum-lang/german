@@ -9,6 +9,7 @@ ernestdefoe-discussion-participants:
     avatar_size_large: Groß
     avatar_size_medium: Mittel
     avatar_size_small: Klein
+    hover_cards_label: 'Profilkarte beim Darüberfahren anzeigen'
     include_op_always: 'Immer zuerst anzeigen'
     include_op_if_replied: 'Nur anzeigen, wenn sie auch geantwortet haben'
     include_op_label: 'Die Person, die die Diskussion begonnen hat'
@@ -21,8 +22,17 @@ ernestdefoe-discussion-participants:
     order_recent: 'Wer zuletzt geantwortet hat'
     placement_below: 'In eigener Zeile, unter dem Titel'
     placement_inline: 'Inline, neben der Anzahl der Antworten'
+    placement_label: 'Wo Avatare angezeigt werden'
+    rebuild_button: 'Neu berechnen'
+    rebuild_done: '{count, plural, one {Abgeschlossen — # Teilnehmereintrag.} other {Abgeschlossen — # Teilnehmereinträge.}}'
+    rebuild_label: 'Teilnehmer neu berechnen'
+    rebuild_progress: '{percent} % abgeschlossen'
+    show_overflow_label: 'Überlauf-Symbol anzeigen'
     strip_size_help: 'Wie viele Avatare in einer Diskussionszeile angezeigt werden, bevor alle weiteren als Überlauf-Symbol dargestellt werden.'
     strip_size_label: 'Anzahl der angezeigten Avatare'
+    tags_empty: 'In diesem Forum sind noch keine Tags eingerichtet.'
+    tags_help: 'Wähle Tags aus, für die ein Streifen angezeigt werden soll. Wenn keine ausgewählt sind, werden sie überall angezeigt.'
+    tags_label: 'Auf bestimmte Tags beschränken'
   forum:
     author_badge: Verfasser
     load_failed: 'Teilnehmerliste konnte nicht geladen werden.'
