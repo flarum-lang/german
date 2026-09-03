@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+2.0.18 (XXXX-XX-XX)
+-------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`ernestdefoe/discussion-participants`](https://github.com/ernestdefoe/discussion-participants)
+* [`tryhackx/flarum-topic-rating`](https://github.com/TryHackX/flarum-topic-rating)
+
+
+Alle Änderungen: [2.0.17...2.0.18](https://github.com/flarum-lang/german/compare/2.0.17...2.0.18).
+
+
 2.0.17 (2026-09-03)
 -------------------
 
