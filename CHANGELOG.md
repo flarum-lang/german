@@ -2,6 +2,35 @@ CHANGELOG
 =========
 
 
+2.0.17 (2026-09-03)
+-------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`ernestdefoe/discussion-participants`](https://github.com/ernestdefoe/discussion-participants)
+* [`ernestdefoe/scribe`](https://github.com/ernestdefoe/scribe)
+* [`stezkoy/flarum-time-of-magic`](https://github.com/Stezkoy/flarum-time-of-magic)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts)
+* [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`forumaker/friendship`](https://github.com/forumaker/Friendship)
+* [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`linkrobins/support`](https://github.com/linkrobins/support)
+* [`tryhackx/flarum-topic-rating`](https://github.com/TryHackX/flarum-topic-rating)
+
+
+Alle Änderungen: [2.0.16...2.0.17](https://github.com/flarum-lang/german/compare/2.0.16...2.0.17).
+
+
 2.0.16 (2026-08-31)
 -------------------
 
