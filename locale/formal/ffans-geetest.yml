@@ -6,7 +6,11 @@ ffans-geetest:
   admin:
     settings:
       config:
+        product_float_help_text: 'Umschalten zwischen Validierung per Schaltfläche oder Paneel.'
+        product_help_text: 'Wähle die Darstellungsart für das Verifikationspaneel.'
         product_label: Animationsart
+        standalone_help_text: 'Eigenständige Konfiguration für dieses Szenario verwenden.'
+        standalone_label: Eigenständig
         title: 'Konfiguration für {context}'
       context_event_forgot_label: '=> core.forum.forgot_password.title'
       context_event_help_text: 'Um GeeTest CAPTCHA in verschiedenen Kontexten oder Geschäftsbereichen nutzen zu können, kannst du für jeden Kontext eine eigenständige Konfiguration festlegen.'
@@ -17,3 +21,13 @@ ffans-geetest:
       product_service_label: CAPTCHA-Produkt
       product_service_v3_label: 'CAPTCHA (v3)'
       product_service_v4_label: 'Adaptive CAPTCHA (v4)'
+    test:
+      load_button: Laden
+      reload_button: 'Neu laden'
+      title: 'CAPTCHA testen'
+  lib:
+    verify:
+      error_message: 'Validierung fehlgeschlagen.'
+      error_retry_message: 'Validierung fehlgeschlagen, bitte erneut versuchen.'
+      required_message: 'Bitte löse das CAPTCHA.'
+      success_message: 'Validierung erfolgreich.'

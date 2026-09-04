@@ -50,6 +50,8 @@ fof-pwa:
         heading: Andere
         push_notif_preference_default_to_email_label: 'Standard-Push-Präferenzen von E-Mail übernehmen'
         push_notif_preference_default_to_email_text: 'Wenn aktiviert, haben Benutzer standardmäßig Push-Benachrichtigungen aktiviert für alle Benachrichtigungsarten, bei denen auch E-Mail-Benachrichtigungen standardmäßig aktiviert sind. Wenn deaktiviert, sind Push-Benachrichtigungen standardmäßig deaktiviert.'
+        share_buttons_label: 'Schaltflächen „Teilen“ hinzufügen'
+        share_buttons_text: 'Wenn aktiviert, wird Diskussionen, Beiträgen und Benutzerseiten eine „Teilen“-Schaltfläche hinzugefügt.'
         user_max_subscriptions_label: 'Maximale Push-Abonnements pro Benutzer'
         user_max_subscriptions_text: 'Wie viele Push-Abonnements sollte jeder Benutzer gleichzeitig haben können? Wenn ein Benutzer eine Push-Benachrichtigung erhält, führt jedes Abonnement zu einem API-Aufruf. Jedes Abonnement entspricht normalerweise einem Browser, den der Benutzer verwendet hat.'
         window_controls_overlay_label: 'Overlay der Fenstersteuerelemente aktivieren'
