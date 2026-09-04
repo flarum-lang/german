@@ -9,8 +9,10 @@ CHANGELOG
 
 * [`ernestdefoe/discussion-participants`](https://github.com/ernestdefoe/discussion-participants)
 * [`ffans/geetest`](https://github.com/FFans/geetest)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
 * [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
 * [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind)
+* [`stezkoy/flarum-time-of-magic`](https://github.com/Stezkoy/flarum-time-of-magic)
 * [`tryhackx/flarum-topic-rating`](https://github.com/TryHackX/flarum-topic-rating)
 
 
