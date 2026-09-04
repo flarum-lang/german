@@ -24,9 +24,23 @@ stezkoy-time-of-magic:
     color_description: 'Lasse das Feld leer, um die Farbe deines Forums zu verwenden. Beispiele: #E7672E, #00a185, red, rgb(255,0,0).'
     color_placeholder: 'z. B. #00a185'
     description: 'Verleiht deiner Flarum-Website einen Hauch von Magie.'
+    leaves_density_description: 'Anzahl der Blätter auf dem Bildschirm.'
+    leaves_density_heavy: Viel
+    leaves_density_label: Blättermenge
+    leaves_density_light: Wenig
+    leaves_density_medium: Mittel
+    leaves_description: 'Fügt der gesamten Website einen Herbsteffekt mit fallenden Blättern hinzu.'
+    leaves_label: 'Fallende Blätter'
     progress_bar_color_label: 'Farbe des Fortschrittsbalkens'
     progress_bar_description: 'Zeigt beim Scrollen einen schmalen Fortschrittsbalken unterhalb der Kopfzeile an.'
     progress_bar_label: Fortschrittsbalken
+    rain_density_description: 'Anzahl der Regentropfen auf dem Bildschirm.'
+    rain_density_heavy: Stark
+    rain_density_label: 'Stärke des Regens'
+    rain_density_light: Leicht
+    rain_density_medium: Mittel
+    rain_description: 'Fügt der gesamten Website einen Regeneffekt mit fallenden Regentropfen hinzu.'
+    rain_label: Regentropfen
     scrollbar_color_label: 'Farbe der Bildlaufleiste'
     scrollbar_description: 'Ersetzt die Standard-Bildlaufleiste durch eine schmale, an das Design angepasste Bildlaufleiste.'
     scrollbar_label: 'Benutzerdefinierte Bildlaufleiste'

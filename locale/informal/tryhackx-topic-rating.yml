@@ -6,10 +6,12 @@ tryhackx-avatars:
   admin:
     device_desktop: Desktop
     device_mobile: Mobil
+    hint_hide: 'Der Avatar wird nie angezeigt. Wenn eine Miniaturansicht verfügbar ist, wird diese verwendet. Ansonsten zeigt die Zeile einfach keinen Avatar.'
     hint_show: 'Der Avatar des Verfassers wird immer angezeigt.'
     mode_always: 'Immer durch Miniaturansicht ersetzen'
     mode_hide: 'Avatar verbergen'
     mode_show: 'Avatar anzeigen'
+    mode_with_image: 'Durch Miniaturansicht ersetzen, wenn die Diskussion ein Bild enthält'
     save_error: 'Avatar-Einstellung konnte nicht gespeichert werden. Bitte versuche es erneut.'
     title: 'Avatare in der Diskussionsliste'
 tryhackx-topic-rating:
@@ -65,7 +67,9 @@ tryhackx-topic-rating:
       tag_state_disabled: Deaktiviert
       tag_state_enabled: Aktiviert
       tag_state_groups: 'Gruppen erlauben'
+      tag_state_inherit: Geerbt
       tags_empty: 'Keine Tags gefunden. Erstelle zuerst Tags in den Tag-Einstellungen.'
+      tags_only_secondary: 'Keine Haupt-Tags gefunden. Markiere mindestens ein Tag als Haupt-Tag in Admin → Tags damit es als oberste Karte hier erscheint.'
       tags_unavailable: 'Die Tag-Erweiterung muss installiert und aktiviert sein, um Bewertungsberechtigungen je Tag verwenden zu können.'
       untagged_enabled_label: 'Bewertung von Diskussionen ohne Tags erlauben'
     support:
