@@ -59,6 +59,7 @@ tryhackx-topic-rating:
       tag_collapse_all: 'Alle zusammenklappen'
       tag_config_label: 'Bewertungsberechtigungen je Tag'
       tag_expand_all: 'Alle erweitern'
+      tag_hierarchy_hint: 'Alle tags sind eindimensional (keine Eltern-Tags eingerichtet). Damit erweiterbare Unter-Tags hier angezeigt werden, bearbeite ein Tag in Admin → Tags und lege es als „Eltern-Tag“ fest.'
       tag_no_groups: 'Keine auswählbaren Gruppen verfügbar.'
       tag_overrides_count: '{count} Überschreibung(en)'
       tag_state_disabled: Deaktiviert
