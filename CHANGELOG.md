@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`ernestdefoe/discussion-participants`](https://github.com/ernestdefoe/discussion-participants)
 * [`ffans/geetest`](https://github.com/FFans/geetest)
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
 * [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind)
 * [`tryhackx/flarum-topic-rating`](https://github.com/TryHackX/flarum-topic-rating)
 
