@@ -31,6 +31,7 @@ stezkoy-modularis:
     forum_section_help: 'Diese Stile werden auf den öffentlichen Forenbereich angewendet.'
     heading: Modularis
     import_button: Importieren
+    import_confirm_button: Importieren
     modal_title_create: 'Stil hinzufügen'
     modal_title_edit: 'Stil bearbeiten'
     name_help: 'Eine kurze Beschreibung, um deinen Stil identifizieren zu können.'
