@@ -5,6 +5,11 @@ CHANGELOG
 2.0.18 (XXXX-XX-XX)
 -------------------
 
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`stezkoy/flarum-modularis`](https://github.com/Stezkoy/flarum-modularis)
+
+
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`ernestdefoe/discussion-participants`](https://github.com/ernestdefoe/discussion-participants)
