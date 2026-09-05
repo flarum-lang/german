@@ -2,6 +2,28 @@ CHANGELOG
 =========
 
 
+2.0.18 (XXXX-XX-XX)
+-------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`stezkoy/flarum-modularis`](https://github.com/Stezkoy/flarum-modularis)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`ernestdefoe/discussion-participants`](https://github.com/ernestdefoe/discussion-participants)
+* [`ffans/geetest`](https://github.com/FFans/geetest)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
+* [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind)
+* [`stezkoy/flarum-time-of-magic`](https://github.com/Stezkoy/flarum-time-of-magic)
+* [`tryhackx/flarum-topic-rating`](https://github.com/TryHackX/flarum-topic-rating)
+
+
+Alle Änderungen: [2.0.17...2.0.18](https://github.com/flarum-lang/german/compare/2.0.17...2.0.18).
+
+
 2.0.17 (2026-09-03)
 -------------------
 
