@@ -14,6 +14,7 @@ CHANGELOG
 
 * [`ernestdefoe/discussion-participants`](https://github.com/ernestdefoe/discussion-participants)
 * [`ffans/geetest`](https://github.com/FFans/geetest)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 * [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
