@@ -34,12 +34,15 @@ fof-masquerade:
       hide-empty-fields: 'Leere Felder verbergen'
       icon: Symbol
       icon-help: "Zeigt ein Symbol vor den von den Nutzern eingegebenen Werten an. Eine Liste aller verfügbaren Symbole ist auf der <a>FontAwesome Webseite</a> zu finden. Verwende Symbolnamen mit dem „fa-“ Prefix, zum Beispiel „fas fa-info“.\n"
+      is_restricted: 'Feldsichtbarkeit einschränken'
       name: 'Name des Feldes'
       name-help: "Die öffentlich sichtbare (nicht übersetzbare) Feldbezeichnung.\n"
       on_bio: 'Inhalt dieses Feldes in der Nutzerbio anzeigen'
       option-comma-warning: 'Die Bezeichnung einer Option darf kein Komma enthalten (",").'
       option-new: 'Neue Option'
       options: Optionen
+      permissions: Feldsichtbarkeit
+      permissions-alert: 'Berechtigungseinstellungen sind nach der Erstellung des Feldes verfügbar.'
       required: 'Als Pflichtfeld festlegen'
       title: Felder
       type: Typ
@@ -71,7 +74,10 @@ fof-masquerade:
       select:
         none-optional: 'Keine Option ausgewählt (optional)'
         none-required: 'Bitte wähle eine Option (erforderlich)'
+    profile:
+      empty-text: 'Diese Benutzer hat noch keine Profilfelder ausgefüllt.'
   lib:
     gambits:
       answer:
+        hint: 'Werte in Benutzer-Profilfeldern'
         key: antwort

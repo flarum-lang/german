@@ -21,9 +21,36 @@ stezkoy-time-of-magic:
     click_spark_color_label: 'Farbe des Klick-Funkens'
     click_spark_description: 'Ein Schwarm magischer Teilchen an der Klickposition.'
     click_spark_label: Klick-Funken-Effekt
+    clovers_density_description: 'Anzahl der Kleeblätter auf dem Bildschirm.'
+    clovers_density_label: 'Dichte der Kleeblätter'
+    clovers_description: 'Drehende, vierblättrige Kleeblätter für Saint Patrick’s Day.'
+    clovers_label: 'Vierblättrige Kleeblätter'
     color_description: 'Lasse das Feld leer, um die Farbe deines Forums zu verwenden. Beispiele: #E7672E, #00a185, red, rgb(255,0,0).'
     color_placeholder: 'z. B. #00a185'
+    confetti_density_description: 'Anzahl der Konfettistücke auf dem Bildschirm.'
+    confetti_density_label: 'Dichte des Konfetti'
+    confetti_description: 'Farbige fallende Konfetti für jede Feierlichkeit.'
+    confetti_label: Konfetti
+    density_heavy: Stark
+    density_light: Leicht
+    density_medium: Mittel
     description: 'Verleiht deiner Flarum-Website einen Hauch von Magie.'
+    eggs_density_description: 'Anzahl der Eier auf dem Bildschirm.'
+    eggs_density_label: 'Dichte der Eier'
+    eggs_description: 'Ostereier, die quer über die Seite hüpfen.'
+    eggs_label: Ostereier
+    fireflies_density_description: 'Anzahl der Glühwürmchen auf dem Bildschirm.'
+    fireflies_density_label: 'Dichte der Glühwürmchen'
+    fireflies_description: 'Leuchtende Glühwürmchen, die durch die Sommernacht schwirren.'
+    fireflies_label: Glühwürmchen
+    hearts_density_description: 'Anzahl der Herzen auf dem Bildschirm.'
+    hearts_density_label: 'Dichte der Herzen'
+    hearts_description: 'Nach oben fliegende Herzen für den Valentinstag.'
+    hearts_label: 'Fliegende Herzen'
+    lanterns_density_description: 'Anzahl der Laternen auf dem Bildschirm.'
+    lanterns_density_label: 'Dichte der Laternen'
+    lanterns_description: 'Rote Laternen, Drachen und Glücksbringer für das Chinesische Neujahr.'
+    lanterns_label: 'Chinesisches Neujahr'
     leaves_density_description: 'Anzahl der Blätter auf dem Bildschirm.'
     leaves_density_heavy: Viel
     leaves_density_label: Blättermenge
@@ -31,6 +58,10 @@ stezkoy-time-of-magic:
     leaves_density_medium: Mittel
     leaves_description: 'Fügt der gesamten Website einen Herbsteffekt mit fallenden Blättern hinzu.'
     leaves_label: 'Fallende Blätter'
+    petals_density_description: 'Anzahl der Blütenblätter auf dem Bildschirm.'
+    petals_density_label: 'Dichte der Blütenblätter'
+    petals_description: 'Kirschblütenblätter des Frühlings, die über deine Seite treiben.'
+    petals_label: Kirschblüte
     progress_bar_color_label: 'Farbe des Fortschrittsbalkens'
     progress_bar_description: 'Zeigt beim Scrollen einen schmalen Fortschrittsbalken unterhalb der Kopfzeile an.'
     progress_bar_label: Fortschrittsbalken
@@ -41,9 +72,32 @@ stezkoy-time-of-magic:
     rain_density_medium: Mittel
     rain_description: 'Fügt der gesamten Website einen Regeneffekt mit fallenden Regentropfen hinzu.'
     rain_label: Regentropfen
+    scheduler_add_button: 'Zeitplan hinzufügen'
+    scheduler_cancel_button: Abbrechen
+    scheduler_delete_button: 'Zeitplan löschen'
+    scheduler_delete_confirm: 'Diesen Zeitplan löschen?'
+    scheduler_description: 'Aktiviere automatisch fallende Effekte während eines festgelegten Zeitraums. Ein Effekt wird angezeigt, wenn sein Zeitplan aktiv ist, auch wenn die manuelle Umschaltung ausgeschaltet ist.'
+    scheduler_edit_button: 'Zeitplan bearbeiten'
+    scheduler_effects_label: Effekte
+    scheduler_empty: 'Noch keine Zeitpläne vorhanden. Klicke auf „Zeitplan hinzufügen“, um einen zu erstellen.'
+    scheduler_enabled_label: Aktiviert
+    scheduler_end_label: Ende
+    scheduler_modal_add_title: 'Zeitplan hinzufügen'
+    scheduler_modal_edit_title: 'Zeitplan bearbeiten'
+    scheduler_modal_save: Speichern
+    scheduler_no_effects: 'Keine Effekte ausgewählt'
+    scheduler_start_label: Start
+    scheduler_status_active: 'Jetzt aktiv'
+    scheduler_status_inactive: Deaktiviert
+    scheduler_title_label: Titel
+    scheduler_title_placeholder: 'z. B. Neujahr'
+    scheduler_untitled: 'Unbenannter Zeitplan'
     scrollbar_color_label: 'Farbe der Bildlaufleiste'
     scrollbar_description: 'Ersetzt die Standard-Bildlaufleiste durch eine schmale, an das Design angepasste Bildlaufleiste.'
     scrollbar_label: 'Benutzerdefinierte Bildlaufleiste'
+    section_effects: Effekte
+    section_interface: Forum-Oberfläche
+    section_scheduler: Zeitplaner
     snow_density_description: 'Anzahl der Schneeflocken auf dem Bildschirm.'
     snow_density_heavy: Stark
     snow_density_label: Schneedichte
