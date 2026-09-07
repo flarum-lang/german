@@ -15,6 +15,7 @@ CHANGELOG
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
 * [`ernestdefoe/discussion-participants`](https://github.com/ernestdefoe/discussion-participants)
 * [`ffans/geetest`](https://github.com/FFans/geetest)
 * [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
