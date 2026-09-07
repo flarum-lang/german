@@ -4,5 +4,37 @@
 
 datlechin-simple-tour-guide:
   admin:
+    devices:
+      any: 'Jedes Gerät'
+      desktop: 'Nur Desktop'
+      mobile: 'Nur Mobil'
+    devices_label: Geräte
+    move_down: 'Nach unten'
+    move_up: 'Nach oben'
+    placement:
+      bottom: 'Unter dem Element'
+      left: 'Links vom Element'
+      right: 'Rechts vom Element'
+      top: 'Über dem Element'
     settings:
+      heading: Einstellungen
       show_progress_label: 'Fortschritt anzeigen'
+    start_mode:
+      auto: 'Startet von allein'
+      manual: 'Wird von Benutzer gestartet'
+    steps:
+      add_button: 'Schritt hinzufügen'
+      copy_title: '{title} (copy)'
+      duplicate_action: Duplizieren
+      heading: 'Schritte in {title}'
+    tours:
+      add_button: 'Neue Tour'
+      copy_title: '{title} (copy)'
+      disabled: Aus
+      duplicate_button: 'Duplikat der Tour erstellen'
+      edit_action: Bearbeiten
+      export_button: 'Als Datei exportieren'
+      heading: Touren
+      import_button: Importieren
+      none: 'Noch keine Tour.'
+      step_count: '{count, plural, =0 {Keine Schritte} one {# Schritt} other {# Schritte}}'

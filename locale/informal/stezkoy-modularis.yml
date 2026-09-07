@@ -13,6 +13,8 @@ stezkoy-modularis:
     clear_cache_button: 'Cache leeren'
     clear_cache_confirm: 'Flarum Cache leeren? Damit wird auch der Stil-Cache neu erstellt.'
     clear_cache_failed: 'Cache konnte nicht geleert werden.'
+    confirm_delete: 'Stil „{name}“ löschen? Dies kann nicht rückgängig gemacht werden.'
+    css_help: 'Füge gültiges CSS ein. Wird beim Speichern geprüft.'
     css_label: CSS-Inhalt
     css_placeholder: '/* Schreibe dein CSS hier */'
     delete_button: Löschen
@@ -35,10 +37,12 @@ stezkoy-modularis:
     import_confirm: 'Zu importierende Stile: {count}. Fortfahren?'
     import_confirm_button: Importieren
     import_failed: 'Import von Stilen fehlgeschlagen.'
+    import_invalid: 'Die Datei ist kein gültiger Modularis-Export.'
     import_success: 'Importierte Stile: {count}.'
     modal_title_create: 'Stil hinzufügen'
     modal_title_edit: 'Stil bearbeiten'
     name_help: 'Eine kurze Beschreibung, um deinen Stil identifizieren zu können.'
+    name_label: 'Name des Stils'
     name_placeholder: 'z. B. Mein strahlendes Design'
     save_button: Speichern
     section_counter: '{enabled} von {total} aktiviert'
