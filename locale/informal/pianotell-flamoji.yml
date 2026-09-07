@@ -26,11 +26,17 @@ pianotell-flamoji:
         add_button: 'Emoji hinzufügen'
         edit_button: 'Emoji bearbeiten'
         load_more_button: '=> core.forum.post_stream.load_more_button'
+        rename_cancel_button: Abbrechen
+        rename_save_button: Speichern
+        uncategorized: 'Ohne Kategorie'
       export_json_button: 'JSON exportieren'
       heading_title: 'Benutzerdefinierte Emojis'
       import_emojis_message: 'Dadurch werden nur die Emoji-Einstellungen importiert. Die Emoji-Bilder musst du immer noch manuell hochladen.'
       import_json_button: 'JSON importieren'
       import_legacy_shortcodes: 'Es wurden {count} Emojis importiert, deren Shortcodes nicht der empfohlenen :wort:-Konvention entsprechen: {shortcodes}. Sie wurden unverändert importiert und funktionieren weiterhin, du solltest jedoch in Erwägung ziehen, sie anzupassen.'
+      import_override_confirm: 'Ja, ich möchte alle vorhandenen Emojis ersetzen.'
+      import_override_warning: 'Achtung: Damit werden alle deine aktuellen benutzerdefinierten Emojis gelöscht!'
+      upload_json_button: 'JSON hochladen'
     settings:
       auto_hide_label: 'Automatisch ausblenden'
       auto_hide_text: 'Das Auswahlfeld ausblenden, nachdem ein Emoji ausgewählt wurde.'

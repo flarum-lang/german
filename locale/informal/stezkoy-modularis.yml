@@ -20,6 +20,10 @@ stezkoy-modularis:
     delete_button: Löschen
     edit_button: Bearbeiten
     empty: 'Noch keine Stile. Klicke „Stil hinzufügen“, um einen zu erstellen.'
+    error_closing_tag: 'Schließende HTML-Tags sind nicht zulässig.'
+    error_data_uri: 'Data-URIs sind nicht zulässig.'
+    error_import: '„@import“ und „@charset“ sind nicht zulässig.'
+    error_script: 'JavaScript-ähnliche Inhalte sind nicht zulässig.'
     export_button: Exportieren
     export_failed: 'Export der Stile fehlgeschlagen.'
     export_modal_count: '{count} ausgewählt'
@@ -39,6 +43,7 @@ stezkoy-modularis:
     import_failed: 'Import von Stilen fehlgeschlagen.'
     import_invalid: 'Die Datei ist kein gültiger Modularis-Export.'
     import_success: 'Importierte Stile: {count}.'
+    load_error: 'Stile konnten nicht geladen werden.'
     modal_title_create: 'Stil hinzufügen'
     modal_title_edit: 'Stil bearbeiten'
     name_help: 'Eine kurze Beschreibung, um deinen Stil identifizieren zu können.'
