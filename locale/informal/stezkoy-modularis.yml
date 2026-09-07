@@ -51,5 +51,6 @@ stezkoy-modularis:
     name_help: 'Eine kurze Beschreibung, um deinen Stil identifizieren zu können.'
     name_label: 'Name des Stils'
     name_placeholder: 'z. B. Mein strahlendes Design'
+    request_error: 'Der Stil konnte nicht gespeichert werden. Bitte überprüfe die Eingabe und versuche es erneut.'
     save_button: Speichern
     section_counter: '{enabled} von {total} aktiviert'

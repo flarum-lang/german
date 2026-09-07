@@ -33,6 +33,17 @@ stezkoy-time-of-magic:
     confetti_density_label: 'Dichte des Konfetti'
     confetti_description: 'Farbige fallende Konfetti für jede Feierlichkeit.'
     confetti_label: Konfetti
+    custom_count_description: 'Von 1 bis 100.'
+    custom_count_label: Anzahl
+    custom_down_description: 'Partikel, die abwärts fallen wie Schnee oder Konfetti. Ideal für saisonale und thematische Designs.'
+    custom_down_label: 'Benutzerdefinierter Effekt (Absteigend)'
+    custom_effects_description: 'Erstelle deine eigenen Effekte – aufsteigende und herabfallende Partikel. Diese stehen auch im Zeitplaner zur Verfügung.'
+    custom_effects_title: 'Benutzerdefinierter Effekt'
+    custom_emoji_link: 'Finde Emojis auf emojipedia.org'
+    custom_items_label: Emojis
+    custom_items_placeholder: 'z. B. 🎈 🎉 🌟'
+    custom_up_description: 'Partikel, die sich aufwärts bewegen wie Glühwürmchen. Perfekt für festliche oder magische Themen.'
+    custom_up_label: 'Benutzerdefinierter Effekt (Aufsteigend)'
     density_heavy: Stark
     density_light: Leicht
     density_medium: Mittel

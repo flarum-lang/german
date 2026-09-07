@@ -5,6 +5,10 @@
 datlechin-link-preview:
   admin:
     sections:
+      appearance_description: 'Wie eine Vorschau aussieht und wohin man gelangt, wenn man darauf klickt.'
+      appearance_label: Erscheinungsbild
+      behaviour_description: 'Welche Links in einem Beitrag eine Vorschau erhalten.'
+      behaviour_label: Verhalten
       external_api_description: 'Verwende einen externen Dienst, wenn das direkte Abrufen fehlschlägt (z. B. bei durch Bots geschützten Websites).'
       external_api_label: 'Externer API-Fallback'
       general_description: 'Grundlegende Anzeigeeinstellungen für Link-Vorschauen.'
@@ -21,7 +25,7 @@ datlechin-link-preview:
       cache_time_label: 'Dauer des Zwischenspeicherns'
       convert_media_urls_help: 'Wenn aktiviert, werden alle Medien-URLs in eine Linkvorschau umgewandelt.'
       convert_media_urls_label: 'Medien-URLs umwandeln'
-      enable_batch_requests_help: 'Die Leistung verbessern, indem mehrere Link-Vorschauen gleichzeitig verarbeitet werden. Wenn deaktiviert, werden Links nacheinander verarbeitet.'
+      enable_batch_requests_help: "Eine Anfrage für die gesamte Seite statt einer pro Link. Schalte dies nur aus, wenn etwas vor dem Forum es ablehnt.\n"
       enable_batch_requests_label: 'Stapelverarbeitung einschalten'
       external_api_fallback_help: 'Wenn der direkte Abruf fehlschlägt (z. B. bei botgeschützten Websites wie Reuters), verwende eine externe oEmbed-API, um die Metadaten des Links abzurufen.'
       external_api_fallback_label: 'Externer API-Fallback'
