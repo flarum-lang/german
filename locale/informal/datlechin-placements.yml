@@ -4,6 +4,18 @@
 
 datlechin-placements:
   admin:
+    advertisers:
+      campaigns_label: Kampagnen
+      contact_email: E-Mail-Kontakt
+      contact_label: Kontakt
+      copy_link: Kopieren
+      link_user: 'Konto verknüpfen'
+      name: Name
+      name_label: Name
+      notes: Notizen
+      unlink_user: 'Kontoverknüpfung aufheben'
+      user: Forums-Konto
+      view_campaigns: 'Kampagnen anzeigen'
     campaigns:
       frequency_windows:
         day: 'pro Tag'
@@ -12,11 +24,21 @@ datlechin-placements:
       statuses:
         active: Aktiv
         archived: Archiviert
+    demo:
+      open: 'Forum im Demo-Modus öffnen'
+    dimensions:
+      route:
+        names:
+          confirmEmail: E-Mail-Bestätigung
     lists:
       actions: Aktionen
+      any: Beliebig
       sort_by: 'Sortieren nach {column}'
     save: Speichern
     tabs:
+      advertisers: Werbepartner
       campaigns: Kampagnen
       reports: Berichte
+      review: Überprüfen
       settings: Einstellungen
+      slots: Plätze
