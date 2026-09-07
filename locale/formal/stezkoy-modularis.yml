@@ -5,6 +5,7 @@
 stezkoy-modularis:
   admin:
     active_switch: Aktiviert
+    active_switch_help: 'Umschalten, um diesen Stil anzuwenden oder zu pausieren.'
     add_button: 'Stil hinzufügen'
     admin_section: Admin-Stile
     admin_section_help: 'Diese Stile werden auf das Admin-Backend angewendet.'
@@ -24,6 +25,7 @@ stezkoy-modularis:
     error_data_uri: 'Data-URIs sind nicht zulässig.'
     error_import: '„@import“ und „@charset“ sind nicht zulässig.'
     error_script: 'JavaScript-ähnliche Inhalte sind nicht zulässig.'
+    error_syntax: 'Das CSS ist ungültig – unausgeglichene geschweifte Klammern, runde Klammern oder Anführungszeichen.'
     export_button: Exportieren
     export_failed: 'Export der Stile fehlgeschlagen.'
     export_modal_count: '{count} ausgewählt'

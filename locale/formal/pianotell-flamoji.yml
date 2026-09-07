@@ -35,6 +35,7 @@ pianotell-flamoji:
       import_json_button: 'JSON importieren'
       import_legacy_shortcodes: 'Es wurden {count} Emojis importiert, deren Shortcodes nicht der empfohlenen :wort:-Konvention entsprechen: {shortcodes}. Sie wurden unverändert importiert und funktionieren weiterhin, du solltest jedoch in Erwägung ziehen, sie anzupassen.'
       import_override_confirm: 'Ja, ich möchte alle vorhandenen Emojis ersetzen.'
+      import_override_mode: 'Überschreibungsmodus (Alle vorhandenen Emojis ersetzen)'
       import_override_warning: 'Achtung: Damit werden alle deine aktuellen benutzerdefinierten Emojis gelöscht!'
       upload_json_button: 'JSON hochladen'
     settings:
