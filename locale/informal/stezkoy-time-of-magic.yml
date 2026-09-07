@@ -4,6 +4,8 @@
 
 stezkoy-time-of-magic:
   admin:
+    allow_user_disable_description: 'Benutzer können über ihre Einstellungen die Effekte für sie deaktivieren.'
+    allow_user_disable_label: 'Benutzern ermöglichen, Effekte zu deaktivieren'
     back_to_top_color_label: 'Farbe der Schaltfläche „Zurück zum Anfang“'
     back_to_top_description: 'Zeigt eine schwebende Schaltfläche an, mit der man zurück zum Anfang scrollen kann.'
     back_to_top_icon_label: FontAwesome-Symbolklasse
@@ -108,3 +110,8 @@ stezkoy-time-of-magic:
     swap_layout_description: 'Verschiebt die Seitenleiste nach rechts und die Beiträge nach links.'
     swap_layout_label: 'Seitenleiste und Inhalt vertauschen'
     title: 'Zeit für Magie'
+  forum:
+    disable_effects_description: 'Zeigt die fallenden Objekte (Schnee, Blätter, Regen und Ähnliche) im Forum nicht mehr an.'
+    disable_effects_label: 'Effekte mit fallenden Objekten deaktivieren'
+    effects_section_description: 'Legt fest, wie sich visuelle Effekte in deinem Konto verhalten.'
+    effects_section_heading: Effekte

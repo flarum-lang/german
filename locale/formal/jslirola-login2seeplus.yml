@@ -8,6 +8,9 @@ jslirola-login2seeplus:
     hide: Verstecken
     image: Bilder
     link: Links
+    link_hide: 'Gesamten Link verbergen'
+    link_mask: 'Nur Zielort verbergen (Linktext bleibt erhalten)'
+    link_off: 'Nicht verbergen'
     post:
       title: 'Inhalte ausblenden, die diese Länge überschreiten (<em>-1</em> um alles anzuzeigen)'
     title: Login2SeePlus

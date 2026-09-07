@@ -34,6 +34,8 @@ stezkoy-modularis:
     import_button: Importieren
     import_confirm: 'Zu importierende Stile: {count}. Fortfahren?'
     import_confirm_button: Importieren
+    import_failed: 'Import von Stilen fehlgeschlagen.'
+    import_success: 'Importierte Stile: {count}.'
     modal_title_create: 'Stil hinzufügen'
     modal_title_edit: 'Stil bearbeiten'
     name_help: 'Eine kurze Beschreibung, um deinen Stil identifizieren zu können.'
