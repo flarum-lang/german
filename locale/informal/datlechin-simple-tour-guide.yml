@@ -22,11 +22,47 @@ datlechin-simple-tour-guide:
     start_mode:
       auto: 'Startet von allein'
       manual: 'Wird von Benutzer gestartet'
+    stats:
+      completion_rate: Abgeschlossen
+      finished: Abgeschlossen
+    step_modal:
+      create_title: 'Neuer Schritt'
+      delete_button: 'Schritt löschen'
+      delete_confirmation: 'Diesen Schritt aus der Tour löschen?'
+      description_label: Beschreibung
+      edit_title: '{title} bearbeiten'
+      placement_label: Position
+      save_button: Speichern
+      target_label: Ziel
+      target_placeholder: 'Ein CSS-Selektor, z. B. #home-link'
+      test_button: Testen
+      title_label: Titel
+      title_placeholder: 'Worum geht es in diesem Schritt'
+      translations_label: Übersetzungen
     steps:
       add_button: 'Schritt hinzufügen'
       copy_title: '{title} (copy)'
       duplicate_action: Duplizieren
+      flags:
+        desktop: 'Nur Desktop'
+        disabled: Ausgeschaltet
+        mobile: 'Nur Mobil'
       heading: 'Schritte in {title}'
+    tour_modal:
+      audience_help: 'Lasse keine Gruppe markiert, um sie allen anzuzeigen.'
+      audience_label: 'Wer sieht sie'
+      create_title: 'Neue Tour'
+      delete_button: 'Tour löschen'
+      edit_title: '{title} bearbeiten'
+      enabled_label: Angeschaltet
+      key_label: Schlüssel
+      max_age_help: 'In Tagen. Lasse das Feld leer, um die Tour unabhängig vom Alter des Kontos anzuzeigen.'
+      max_age_label: 'Nur Konten, die neuer sind als'
+      route_label: Seite
+      route_placeholder: 'Jede Seite'
+      save_button: Speichern
+      title_help: 'Als Referenz für dich. Benutzer sehen dies nicht.'
+      title_label: Name
     tours:
       add_button: 'Neue Tour'
       copy_title: '{title} (copy)'
@@ -37,4 +73,16 @@ datlechin-simple-tour-guide:
       heading: Touren
       import_button: Importieren
       none: 'Noch keine Tour.'
+      preview_button: 'Vorschau im Forum'
       step_count: '{count, plural, =0 {Keine Schritte} one {# Schritt} other {# Schritte}}'
+  forum:
+    done_button: Fertig
+    next_button: Weiter
+    picker:
+      browse: Durchsuchen
+      cancel: Abbrechen
+      matches: '{count, plural, =0 {Kein Treffer} one {# Treffer} other {# Treffer}}'
+    previous_button: Zurück
+    progress: '{current} von {total}'
+    settings:
+      heading: Touren
