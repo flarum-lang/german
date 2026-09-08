@@ -20,6 +20,7 @@ stezkoy-doorquest:
         uses: Verwendungen
       content:
         delete: 'Willst du die Frage „{question}“ wirklich löschen?'
+        invalid_column: —
         no_created_by: —
         no_group: Keine
         uses:
@@ -39,10 +40,12 @@ stezkoy-doorquest:
           help: 'Die richtige Antwort (Groß-/Kleinschreibung wird nicht beachtet).'
           label: Antwort
         group:
+          help: 'Benutzer, die korrekt geantwortet haben, werden zu dieser Gruppe hinzugefügt.'
           label: 'Gruppe zuweisen'
         max_uses:
           label: 'Max. Vewendungen'
         question:
+          help: 'Diese Frage wird neuen Benutzern während der Registrierung gestellt.'
           label: Frage
         submit_and_create_another_button: 'Erstellen und weitere hinzufügen'
         submit_button: Erstellen
