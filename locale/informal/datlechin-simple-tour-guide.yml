@@ -17,7 +17,12 @@ datlechin-simple-tour-guide:
       right: 'Rechts vom Element'
       top: 'Über dem Element'
     settings:
+      allow_close_help: 'Ermöglicht es dem Leser, eine Tour vorzeitig zu beenden – über eine Schaltfläche „Schließen“ und die Escape-Taste. Die Tour wird dennoch als abgeschlossen markiert.'
+      allow_close_label: 'Schließen erlauben'
       heading: Einstellungen
+      show_in_settings_help: 'Mitglieder können eine Tour neu starten, ohne einen Moderator darum bitten zu müssen.'
+      show_in_settings_label: 'Touren auf der Einstellungsseite des Benutzers auflisten'
+      show_progress_help: 'Zeigt den Fortschritt innerhalb einer Tour neben den Schaltflächen an.'
       show_progress_label: 'Fortschritt anzeigen'
     start_mode:
       auto: 'Startet von allein'
@@ -72,6 +77,8 @@ datlechin-simple-tour-guide:
       export_button: 'Als Datei exportieren'
       heading: Touren
       import_button: Importieren
+      import_done: 'Tour importiert. Sie ist abgeschaltet angekommen. Wird einen Blick darüber, bevor du sie anschaltest.'
+      import_invalid: 'Diese Datei enthält keine exportierte Tour.'
       none: 'Noch keine Tour.'
       preview_button: 'Vorschau im Forum'
       step_count: '{count, plural, =0 {Keine Schritte} one {# Schritt} other {# Schritte}}'
