@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.25.30 (XXXX-XX-XX)
+--------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+
+
+Alle Änderungen: [1.25.29...1.25.30](https://github.com/flarum-lang/german/compare/1.25.29...1.25.30).
+
+
 1.25.29 (2026-09-02)
 --------------------
 
