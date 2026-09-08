@@ -10,7 +10,7 @@ forumfortress-flarum:
       allowed: erlaubt
       attack_end_success: 'Angriffsmodus ist jetzt deaktiviert.'
       attack_start_success: 'Angriffsmodus ist jetzt aktiviert.'
-      automatic_selection: 'Automatische Auswahl'
+      automatic_selection: 'Automatisches GeoDNS-Routing'
       blocked: blockiert
       checking: 'Wird überprüft...'
       checks_this_month: 'Prüft diesen Monat'
@@ -37,7 +37,7 @@ forumfortress-flarum:
       portal_popup_blocked: 'Der Browser hat das Portal-Fenster blockiert. Erlaube Popups für diese Website und versuche es erneut.'
       portal_success: 'Das Portal wird in einem neuen Tab geöffnet.'
       portal_url_missing: 'Forum Fortress hat keine Portal-URL zurückgegeben.'
-      preferred_endpoint: 'Bevorzugter Endpunkt'
+      preferred_endpoint: GeoDNS-Route
       protection: Schutz
       refresh: Aktualisieren
       refresh_to_view: 'Zur Anzeige aktualisieren'

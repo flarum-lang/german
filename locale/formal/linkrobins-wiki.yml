@@ -46,11 +46,24 @@ linkrobins-wiki:
       shortcode_heading: 'Eine Überschrift (## und ### für kleinere).'
       shortcode_link: 'Ein Link. Auch einfache Webadressen werden zu Links.'
       shortcodes_heading: 'Verfügbare Shortcodes'
+    layout:
+      full_width_help: 'Wenn aktiviert, entfällt bei Wiki-Seiten die Seitenleiste des Forums und der Inhalt erstreckt sich über die gesamte Seitenbreite. Der Bereich mit dem Artikelinhalt bleibt davon unberührt. Da sich der Kategorienfilter in dieser Seitenleiste befindet, durchstöbern die Leser die Kategorien stattdessen über die Wiki-Startseite.'
+      full_width_label: 'Volle Seitenbreite ausnutzen'
+      heading: Layout
+      nav_position_below_all: 'Unterhalb von „Alle Diskussionen“'
+      nav_position_bottom: 'Am Ende der Liste'
+      nav_position_help: 'Wo der Wiki-Link in der Seitenleiste angezeigt werden soll, neben „Alle Diskussionen“ und von anderen Erweiterungen hinzugefügten Links.'
+      nav_position_label: Wiki-Link-Position
+      nav_position_top: 'Am Anfang der Liste'
     permissions:
       comment: 'Wiki-Artikel kommentieren'
       create_article: 'Wiki-Artikel erstellen'
       edit_articles: 'Alle Wiki-Artikel bearbeiten und moderieren'
       view_history: 'Versionsverlauf des Wiki-Artikels anzeigen'
+    related:
+      enabled_label: 'Verwandte Artikel anzeigen'
+      heading: 'Verwandte Artikel'
+      intro: 'Zeigt unter jedem Artikel eine kurze Liste weiterer Artikel aus derselben Kategorie an.'
     toc:
       enabled_help: 'Wenn aktiviert, wird bei jedem Artikel in einem feststehenden Seitenbalken ein Inhaltsverzeichnis angezeigt, das aus den Überschriften der Ebenen #, ## und ### zusammengestellt wird. Es bleibt sichtbar, während der Leser scrollt.'
       enabled_label: 'Inhaltsverzeichnis neben Artikeln anzeigen'
