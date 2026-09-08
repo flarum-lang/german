@@ -25,6 +25,7 @@ stezkoy-doorquest:
         uses:
           total_uses: '{totalUses} Mal verwendet'
           used_times: '{remainingUses} verbleibend'
+        warning: 'Grenzwert erreicht'
       heading: Fragen
       pagination:
         back_button: 'Vorherige Seite'
