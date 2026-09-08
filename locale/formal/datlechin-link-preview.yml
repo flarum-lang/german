@@ -11,32 +11,57 @@ datlechin-link-preview:
       behaviour_label: Verhalten
       external_api_description: 'Verwende einen externen Dienst, wenn das direkte Abrufen fehlschlägt (z. B. bei durch Bots geschützten Websites).'
       external_api_label: 'Externer API-Fallback'
+      filtering_description: "Für welche Seiten eine Vorschau erstellt werden soll. Ein Eintrag pro Zeile, getrennt durch Kommas. Ein Host schließt auch seine Subdomains ein, und * steht für einen Namensbestandteil.\n"
+      filtering_label: Filter
       general_description: 'Grundlegende Anzeigeeinstellungen für Link-Vorschauen.'
       general_label: Allgemein
-      performance_description: 'Optimiere, wie Link-Vorschauen abgerufen und zwischengespeichert werden.'
+      performance_description: 'Wie Link-Vorschauen abgerufen und wie lange sie gespeichert werden.'
       performance_label: Leistung
       url_filtering_description: 'Steuere, welche URLs Link-Vorschauen generieren.'
       url_filtering_label: URL-Filterung
     settings:
+      allowlist_help: 'Solange dieses Feld nicht leer ist, werden nur Vorschauen für dazu passende Links erstellt.'
+      allowlist_label: 'Erlaubte Seiten'
+      allowlist_placeholder: 'docs.beispiel.de, *.wikipedia.org'
       blacklist_help: 'Geben Sie eine kommagetrennte Liste von Domains oder URLs ein, die von der Linkvorschau ausgeschlossen werden sollen.'
       blacklist_label: Blacklist
       blacklist_placeholder: 'z.B. facebook.com,https://domain.com/path'
+      blocklist_help: 'Vorschau wird nie erstellt, selbst wenn die Erlaubnisliste sie durchlässt.'
+      blocklist_label: 'Blockierte Seiten'
+      blocklist_placeholder: 'beispiel.de, news.example.org/sponsored'
       cache_time_help: 'Anzahl der Minuten, die gecrawlte Links zwischengespeichert werden, bevor sie erneut aufgerufen werden. Mit dem Wert 0 wird das Link-Caching deaktiviert. Der Standardwert ist 60 Minuten, wenn er nicht gesetzt ist.'
       cache_time_label: 'Dauer des Zwischenspeicherns'
       convert_media_urls_help: 'Wenn aktiviert, werden alle Medien-URLs in eine Linkvorschau umgewandelt.'
       convert_media_urls_label: 'Medien-URLs umwandeln'
       enable_batch_requests_help: "Eine Anfrage für die gesamte Seite statt einer pro Link. Schalte dies nur aus, wenn etwas vor dem Forum es ablehnt.\n"
-      enable_batch_requests_label: 'Stapelverarbeitung einschalten'
+      enable_batch_requests_label: 'Vorschauen stapelweise abrufen'
       external_api_fallback_help: 'Wenn der direkte Abruf fehlschlägt (z. B. bei botgeschützten Websites wie Reuters), verwende eine externe oEmbed-API, um die Metadaten des Links abzurufen.'
       external_api_fallback_label: 'Externer API-Fallback'
       external_api_url_help: 'Benutzerdefinierter oEmbed-API-Endpunkt. Leer lassen, um die Standardeinstellung zu verwenden (Iframely Open API). Die URL wird als Abfrageparameter angehängt.'
       external_api_url_label: 'Externe API-URL'
+      google_favicon_fallback_help: "Wird verwendet, wenn eine Seite kein eigenes Symbol bereitstellt. Teilt mit Google, welche Seiten deine Mitglieder verlinken.\n"
+      google_favicon_fallback_label: 'Auf Google für Website-Symbole zurückgreifen'
+      max_previews_per_post_help: 'Über diese Anzahl hinausgehende Links bleiben einfache Textlinks.'
+      max_previews_per_post_label: 'Anzahl der Vorschauen pro Beitrag'
       open_links_in_new_tab_help: 'Wenn aktiviert, werden die Links in einem neuen Tab geöffnet.'
       open_links_in_new_tab_label: 'Links in einem neuen Tab öffnen'
+      preview_internal_links_help: "Ein Link auf eine Diskussion, Benutzer- oder Tag-Seite oder die Startseite hier im Forum wird zu einem lokalen Datenbankzugriff, keine zusätzliche Abfrage und niemand kann mehr sehen, als sie auch öffnen könnten.\n"
+      preview_internal_links_label: 'Vorschau auch für Links auf dieses Forum'
+      skip_media_links_help: 'Für Links, die mit einer Bild-, Audio- oder Videodatei enden. Diese werden bereits von Flarum angezeigt.'
+      skip_media_links_label: 'Links auf Mediendateien überspringen'
       use_google_favicons_help: 'Wenn aktiviert, wird ein Google-Dienst im Frontend verwendet, um das Favicon der jeweiligen Webseite abzurufen.'
       use_google_favicons_label: 'Google Favicon-API verwenden'
       whitelist_help: 'Geben Sie eine kommagetrennte Liste von Domains oder URLs ein, die eine Linkvorschau ermöglichen sollen.'
       whitelist_label: Whitelist
       whitelist_placeholder: 'z.B. facebook.com,https://domain.com/pfad'
   forum:
+    clicks: '{count, plural, one {# Klick} other {# Klicks}}'
+    loading: 'Vorschau wird geladen'
+    meta:
+      discussions: '{count, plural, one {# Diskussion} other {# Diskussionen}}'
+      posts: '{count, plural, one {# Beitrag} other {# Beiträge}}'
+      replies: '{count, plural, one {# Antwort} other {# Antworten}}'
+    settings:
+      hide_link_previews_help: 'Zeigt wieder den Textlink für alle Vorschaukarten in den Beiträgen an, die du gelesen hast.'
+      hide_link_previews_label: 'Link-Vorschauen verbergen'
     site_cannot_be_reached: 'Diese Webseite ist nicht erreichbar.'
