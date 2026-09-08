@@ -21,5 +21,4 @@ validation:
       required: 'Bitte die Turnstile-Prüfung abschließen.'
     turnstileToken:
       required: 'Bitte die Turnstile-Prüfung abschließen.'
-  required: 'Bitte die Turnstile-Prüfung abschließen.'
   turnstile: 'Wir konnten nicht überprüfen, ob du ein Roboter bist. Bitte die Seite aktualisieren und erneut versuchen.'
