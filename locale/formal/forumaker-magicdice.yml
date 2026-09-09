@@ -6,6 +6,13 @@ forumaker-magic-dice:
   admin:
     settings:
       clearOnEdit: 'Bei der Beitragsbearbeitung neue Nummern generieren'
+      icons:
+        color: Farbe
+        d10: d10
+        d20: d20
+        d6: d6
+        icon: Symbolklasse
+        preview: Vorschau
       section_main: Einstellungen
   forum:
     composer:

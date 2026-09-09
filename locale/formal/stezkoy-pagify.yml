@@ -12,6 +12,8 @@ stezkoy-pagify:
       enablePostList-Help: 'Nummerierte Seiten anstatt der „Mehr laden“-Schaltfläche in Beitragslisten auf der Benutzerseite.'
       enablePostStream: 'Beiträge innerhalb Diskussionen paginieren'
       enablePostStream-Help: 'Nummerierte Seiten innerhalb Diskussionen anstatt Endlos-Scrollen.'
+      pagerMode: Modus
+      pager_mode_mini: Mini
       paginationPosition: Pagerposition
       perPage: 'Diskussionen je Seite'
       perPage-Help: 'Wie viele Diskussionen je Seite angezeigt werden sollen. Ohne Paginierung wird dadurch die Größe jedes „Mehr laden“-Batches festgelegt.'
