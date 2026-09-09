@@ -36,6 +36,9 @@ stezkoy-doorquest:
         page_counter: 'Seite {current} von {total}'
     modals:
       create_question:
+        activates_user:
+          help: 'Benutzer ohne E-Mail-Bestätigung automatisch aktivieren.'
+          label: Auto-Aktivierung
         answer:
           help: 'Die richtige Antwort (Groß-/Kleinschreibung wird nicht beachtet).'
           label: Antwort
@@ -43,6 +46,7 @@ stezkoy-doorquest:
           help: 'Benutzer, die korrekt geantwortet haben, werden zu dieser Gruppe hinzugefügt.'
           label: 'Gruppe zuweisen'
         max_uses:
+          help: 'Maximale Anzahl der Antworten auf diese Frage. 0 = unbegrenzt.'
           label: 'Max. Vewendungen'
         question:
           help: 'Diese Frage wird neuen Benutzern während der Registrierung gestellt.'
