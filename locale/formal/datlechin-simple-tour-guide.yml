@@ -12,6 +12,7 @@ datlechin-simple-tour-guide:
     move_down: 'Nach unten'
     move_up: 'Nach oben'
     placement:
+      auto: 'Wo immer es passt'
       bottom: 'Unter dem Element'
       left: 'Links vom Element'
       right: 'Rechts vom Element'
@@ -79,8 +80,10 @@ datlechin-simple-tour-guide:
       import_button: Importieren
       import_done: 'Tour importiert. Sie ist abgeschaltet angekommen. Wird einen Blick darüber, bevor du sie anschaltest.'
       import_invalid: 'Diese Datei enthält keine exportierte Tour.'
+      no_steps_warning: 'Keine Schritte, es gibt nichts auszuführen'
       none: 'Noch keine Tour.'
       preview_button: 'Vorschau im Forum'
+      preview_navigate: 'Forum geöffnet. Gehe zu einer {route} Seite und die Vorschau startet dort.'
       step_count: '{count, plural, =0 {Keine Schritte} one {# Schritt} other {# Schritte}}'
   forum:
     done_button: Fertig

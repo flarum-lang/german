@@ -59,6 +59,7 @@ tryhackx-topic-rating:
       show_on_list_help: 'Die Sternebewertung in der Diskussionsliste (Startseite) anzeigen. Wenn diese Option deaktiviert ist, werden die Bewertungen weiterhin auf der Diskussionsseite angezeigt. Standardmäßig aktiviert.'
       show_on_list_label: 'Bewertung in der Diskussionsliste anzeigen'
       single_clickable_label: 'Einzelner Stern ist klickbar'
+      single_modal_rate_label: 'Bewertung innerhalb des Modals erlauben'
       tag_collapse_all: 'Alle zusammenklappen'
       tag_config_help: "Nur aktiv, wenn die mitgelieferte Tags-Erweiterung aktiviert ist. Wähle für jedes Haupt-Tag eine der folgenden Optionen:\n„Aktiviert“ (Standard – jeder mit der globalen Berechtigung „Bewerten“ kann bewerten),\n„Deaktiviert“ (niemand kann bewerten – es sei denn, sie verfügen über die Umgehungsberechtigung)\noder „Gruppen zulassen“ (nur die ausgewählten Gruppen können bewerten).\nWenn ein Haupt-Tag auf „Aktiviert“ oder „Gruppen zulassen“ gesetzt ist, klappe es auf, um einzelne Unter-Tags zu überschreiben\n(„Geerbt“ = Einstellung des übergeordneten Tags übernehmen).\nWenn eine Diskussion mehrere Tags hat, gilt die LIBERALSTE Einstellung – ein einzelnes „Deaktiviert“-Tag blockiert die Bewertung NICHT, wenn ein anderes Tag der Diskussion diese zulässt. Eine Diskussion ist nur dann nicht bewertbar, wenn ALLE ihre Tags auf „Deaktiviert“ gesetzt sind (Gruppen mit Umgehungsberechtigung können weiterhin bewerten).\n"
       tag_config_label: 'Bewertungsberechtigungen je Tag'

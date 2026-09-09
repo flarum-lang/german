@@ -36,7 +36,9 @@ forumaker-magicslider:
     settings:
       add_slide: 'Slide hinzufügen'
       autoplay: 'Intervall für die automatische Wiedergabe'
-      autoplay_help: '0 deaktiviert die automatische Sliderumschaltung. In Sekunden'
+      autoplay_help: '0 deaktiviert die automatische Slideumschaltung. In Sekunden'
+      clicks: 'Klicks auf diesem Slide'
+      confirm_delete: 'Dieses Slide löschen?'
       delete: Löschen
       disable_desktop: 'Slider auf Desktop deaktivieren'
       disable_desktop_help: 'Auf Bildschirmen breiter als 768 px ausblenden'
@@ -60,6 +62,6 @@ forumaker-magicslider:
       section_desktop: Desktop
       section_mobile: Mobil
       section_slides: Slides
-      upload: 'Bild hochladen'
+      upload: Datei
       upload_error: 'Bild konnte nicht hochgeladen werden'
       uploading: 'Wird hochgeladen...'

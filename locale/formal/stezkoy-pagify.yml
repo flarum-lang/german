@@ -12,7 +12,25 @@ stezkoy-pagify:
       enablePostList-Help: 'Nummerierte Seiten anstatt der „Mehr laden“-Schaltfläche in Beitragslisten auf der Benutzerseite.'
       enablePostStream: 'Beiträge innerhalb Diskussionen paginieren'
       enablePostStream-Help: 'Nummerierte Seiten innerhalb Diskussionen anstatt Endlos-Scrollen.'
+      pageOfText: 'Seite {page} von {total}'
+      pagerCounter: '„Seite X von Y“ anzeigen'
+      pagerCounter-Help: 'Zeige die aktuelle Seite und die Gesamtanzahl unter dem Pager an. Nur im Voll- und Kompaktmodus.'
+      pagerJumpFeed: 'Sprungfeld — Beitragsliste'
+      pagerJumpFeed-Help: 'Zeigt ein Eingabefeld für die Seitenzahl im Aktivitätsfeed des Profils und auf der Beitragsseite an.'
+      pagerJumpList: 'Sprungfeld — Diskussionsliste'
+      pagerJumpList-Help: 'Eingabefeld für Seitenzahl im Pager der Diskussionsliste anzeigen.'
+      pagerJumpStream: 'Sprungfeld — Beitragsstream'
+      pagerJumpStream-Help: 'Eingabefeld für Seitenzahl im Pager des Beitragsstreams anzeigen.'
       pagerMode: Modus
+      pagerMode-Help: '„Voll“ zeigt die Randseiten, die benachbarten Seitenzahlen und ein Sprungfeld an; „Kompakt“ zeigt nur die benachbarten Seitenzahlen an; „Mini“ zeigt nur Pfeile und die Position an.'
+      pagerPreview: Vorschau
+      pagerScrollOffset: 'Scroll-Offset in Pixeln'
+      pagerScrollOffset-Help: 'Wie viele Pixel Platz oberhalb der ersten Diskussion oder des ersten Beitrags beim Seitenwechsel bleiben sollen. Ein negativer Wert scrollt weiter nach unten.'
+      pagerWindow: 'Benachbarte Seiten'
+      pagerWindow-Help: 'Wie viele Seitenzahlen neben der aktuellen Seite angezeigt werden.'
+      pager_heading: Pager
+      pager_mode_compact: Kompakt
+      pager_mode_full: Voll
       pager_mode_mini: Mini
       paginationPosition: Pagerposition
       perPage: 'Diskussionen je Seite'
@@ -35,6 +53,7 @@ stezkoy-pagify:
       jump: 'Zu Seite springen'
       last: 'Letzte Seite'
       next: 'Nächste Seite'
+      pageOf: 'Seite {page} von {total}'
       previous: 'Vorherige Seite'
     post_stream:
       aria_label: Beitragsseiten
