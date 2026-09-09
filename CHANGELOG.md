@@ -9,9 +9,11 @@ CHANGELOG
 
 * [`datlechin/flarum-placements`](https://github.com/datlechin/flarum-placements)
 * [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
+* [`huseyinfiliz/discussion-ban`](https://github.com/huseyinfiliz/discussion-ban)
 * [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)
 * [`stezkoy/flarum-doorquest`](https://github.com/Stezkoy/flarum-doorquest)
 * [`stezkoy/flarum-modularis`](https://github.com/Stezkoy/flarum-modularis)
+* [`stezkoy/flarum-pagify`](https://github.com/Stezkoy/flarum-pagify)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
