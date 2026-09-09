@@ -29,8 +29,8 @@ datlechin-link-preview:
       blocklist_help: 'Vorschau wird nie erstellt, selbst wenn die Erlaubnisliste sie durchlässt.'
       blocklist_label: 'Blockierte Seiten'
       blocklist_placeholder: 'beispiel.de, news.example.org/sponsored'
-      cache_time_help: 'Anzahl der Minuten, die gecrawlte Links zwischengespeichert werden, bevor sie erneut aufgerufen werden. Mit dem Wert 0 wird das Link-Caching deaktiviert. Der Standardwert ist 60 Minuten, wenn er nicht gesetzt ist.'
-      cache_time_label: 'Dauer des Zwischenspeicherns'
+      cache_time_help: 'Legt fest, wie lange Link-Vorschauen gespeichert werden, bevor sie aktualisiert werden. Auf 0 setzen, um Caching zu deaktivieren.'
+      cache_time_label: 'Speicherdauer im Cache (Minuten)'
       convert_media_urls_help: 'Wenn aktiviert, werden alle Medien-URLs in eine Linkvorschau umgewandelt.'
       convert_media_urls_label: 'Medien-URLs umwandeln'
       enable_batch_requests_help: "Eine Anfrage für die gesamte Seite statt einer pro Link. Schalte dies nur aus, wenn etwas vor dem Forum es ablehnt.\n"
@@ -43,7 +43,7 @@ datlechin-link-preview:
       google_favicon_fallback_label: 'Auf Google für Website-Symbole zurückgreifen'
       max_previews_per_post_help: 'Über diese Anzahl hinausgehende Links bleiben einfache Textlinks.'
       max_previews_per_post_label: 'Anzahl der Vorschauen pro Beitrag'
-      open_links_in_new_tab_help: 'Wenn aktiviert, werden die Links in einem neuen Tab geöffnet.'
+      open_links_in_new_tab_help: 'Betrifft nur externe Seiten. Alle Diskussionen öffnen immer im selben Tab.'
       open_links_in_new_tab_label: 'Links in einem neuen Tab öffnen'
       preview_internal_links_help: "Ein Link auf eine Diskussion, Benutzer- oder Tag-Seite oder die Startseite hier im Forum wird zu einem lokalen Datenbankzugriff, keine zusätzliche Abfrage und niemand kann mehr sehen, als sie auch öffnen könnten.\n"
       preview_internal_links_label: 'Vorschau auch für Links auf dieses Forum'
