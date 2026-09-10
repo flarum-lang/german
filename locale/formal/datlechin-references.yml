@@ -5,37 +5,59 @@
 datlechin-references:
   admin:
     analytics:
+      by_origin_label: 'Wie sie gefunden wurden'
       export_button: 'CSV exportieren'
+      manual_label: 'Händisch hinzugefügt'
       title: Verweise
       total_label: Verweise
     broken:
+      broken_at_column: 'Fehlerhaft seit'
+      description: 'Verweise, die auf nicht mehr existierende Inhalte verweisen.'
+      empty: 'Nichts fehlerhaft.'
       source_column: 'Geschrieben in'
+      target_column: 'Zeigt auf'
+      title: 'Fehlerhafte Verweise'
+      truncated: 'Zeige {shown} von {total}.'
+      unavailable: 'Bericht konnte nicht gelesen werden.'
     origin:
+      manual: 'Händisch hinzugefügt'
+      mention: Beitragserwähnung
       url: 'Eingefügter Link'
     permissions:
+      manage_references: 'Verweise erstellen und bearbeiten'
       view_broken_report: 'Siehe fehlerhafte Verweise'
     relation:
+      answers: Antworten
+      duplicate_of: 'Duplikat von'
       references: Verweise
+      see_also: 'Siehe auch'
+      supersedes: Ersetzt
     sections:
       behaviour_description: 'Welche Links in Beiträgen als Verweise aufgenommen werden.'
       behaviour_label: Verhalten
       discovery_description: 'Das Widget, das vom Verweisgraph gefüllt wird.'
       discovery_label: Entdecken
+      display_description: 'Wo Verweise angezeigt werden und wie viele aufgelistet werden, bevor die Liste abgeschnitten wird.'
       display_label: Anzeige
       extensions_description: 'Einstellungen, die andere Erweiterungen dieser Seite hinzufügen.'
       extensions_label: 'Andere Erweiterungen'
+      maintenance_description: 'Wie lange ein Verweis auf gelöschte Inhalte aufbewahrt wird.'
       maintenance_label: Wartung
     settings:
       cache_ttl_label: 'Cache-Speicherdauer (Sekunden)'
+      enabled_help: 'Aus bedeutet, dass nichts aufgenommen wird. Vorhandene Verweise bleiben erhalten.'
       enabled_label: 'Verweise aufnehmen'
       event_post_enabled_label: 'Referenzen in Diskussionen aufführen'
+      extract_mention_references_help: 'Mentions wird benötigt. Ohne die Erweiterung wird eine Antwort in zwei Listen geführt, die nicht übereinstimmen.'
       extract_mention_references_label: 'Beitragserwähnungen aufnehmen'
       extract_short_references_help: "Das Format @\"Discussion title\"#d123, wie es bei Eingabe von # im Composer eingefügt wird.\n"
+      extract_url_references_help: 'Ein Link auf eine Diskussion oder einen Beitrag in diesem Forum wird ein Verweis.'
       extract_url_references_label: 'Eingefügte Links aufnehmen'
       graph_max_depth_label: 'Tiefe des Graphen'
       max_preview_help: 'Der Rest liegt hinter einer Schaltfläche.'
       related_discussions_enabled_label: 'Verwandte Diskussionen anzeigen'
       related_discussions_limit_help: 'In der Seitenleiste einer Diskussion.'
+      related_discussions_limit_label: 'Angezeigte verwandte Diskussionen'
     target:
       discussions: 'Diskussion #{id}'
       posts: 'Beitrag #{id}'
