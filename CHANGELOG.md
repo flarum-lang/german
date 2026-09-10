@@ -8,7 +8,9 @@ CHANGELOG
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
 * [`datlechin/flarum-placements`](https://github.com/datlechin/flarum-placements)
+* [`datlechin/flarum-references`](https://github.com/datlechin/flarum-references)
 * [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
+* [`ernestdefoe/hashtags`](https://github.com/ernestdefoe/hashtags)
 * [`huseyinfiliz/discussion-ban`](https://github.com/huseyinfiliz/discussion-ban)
 * [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)
 * [`stezkoy/flarum-doorquest`](https://github.com/Stezkoy/flarum-doorquest)
