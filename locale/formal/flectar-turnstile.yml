@@ -16,4 +16,9 @@ flectar-turnstile:
     not_loaded_error: 'Cloudflare Turnstile konnte nicht geladen werden. Bitte die Seite aktualisieren und prüfen, ob ein Adblocker aktiv ist.'
     validation_error: 'Bitte die Turnstile-Prüfung abschließen.'
 validation:
+  custom:
+    turnstile:
+      required: 'Bitte die Turnstile-Prüfung abschließen.'
+    turnstileToken:
+      required: 'Bitte die Turnstile-Prüfung abschließen.'
   turnstile: 'Wir konnten nicht überprüfen, ob du ein Roboter bist. Bitte die Seite aktualisieren und erneut versuchen.'

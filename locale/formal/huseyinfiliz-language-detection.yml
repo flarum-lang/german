@@ -19,7 +19,7 @@ huseyinfiliz-language-detection:
       card_countries_label: Länder
       card_languages_help: 'Wie viele verschiedene Sprachen von Besuchern angefragt wurden. Seitenaufrufe, bei denen keine Sprache angegeben wurde, werden hier nicht gezählt.'
       card_languages_label: 'Angefragte Sprachen'
-      card_requests_help: 'Jeder Seitenaufruf, der In diesem Zeitraum gezählt wurde.'
+      card_requests_help: 'Jeder Seitenaufruf, der in diesem Zeitraum gezählt wurde.'
       card_requests_label: Seitenaufrufe
       card_served_help: 'Seitenaufrufe, bei denen eine Sprache angefordert wurde, die in diesem Forum installiert ist.'
       card_served_label: Bedient
@@ -45,6 +45,7 @@ huseyinfiliz-language-detection:
       languages_title: 'Angeforderte Sprachen'
       languages_unnamed: 'Unbekanntes Sprach-Tag'
       languages_unserved: 'Nicht bedient'
+      languages_variants: 'Auch angefragt als {tags}'
       load_failed: 'Statistiken konnten nicht geladen werden.'
       missing_column_language: Sprache
       missing_column_package: Sprachpaket
