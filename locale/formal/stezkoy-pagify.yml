@@ -12,7 +12,29 @@ stezkoy-pagify:
       enablePostList-Help: 'Nummerierte Seiten anstatt der „Mehr laden“-Schaltfläche in Beitragslisten auf der Benutzerseite.'
       enablePostStream: 'Beiträge innerhalb Diskussionen paginieren'
       enablePostStream-Help: 'Nummerierte Seiten innerhalb Diskussionen anstatt Endlos-Scrollen.'
+      iconClose: Schließen
+      iconFirst: 'Symbol — Erste Seite'
+      iconJump: 'Symbol — Sprung-Schaltfläche'
+      iconLast: 'Symbol — Letzte Seite'
+      iconNext: 'Symbol — Nächste Seite'
+      iconPrev: 'Symbol — Vorherige Seite'
+      iconReset: Zurücksetzen
+      mobileButtonSize: 'Größe der Schaltflächen in Pixeln'
+      mobileButtonSize-Help: 'Höhe und Breite der Pager-Schaltflächen auf Handys. Standard ist 22.'
+      mobileCompact: 'Mini-Pager in Mobilansicht'
+      mobileCompact-Help: 'Auf Handys wird der Pager zum Mini-Pager – nur Pfeile und die aktuelle Position.'
+      mobileHideCounter: 'Seitenzähler verbergen'
+      mobileHideCounter-Help: '„Seite X von Y“ auf Handys nicht anzeigen.'
+      mobileHideJump: 'Sprungfeld verbergen'
+      mobileHideJump-Help: 'Eingabefeld für Seitenzahl auf Handys nicht anzeigen.'
+      mobileSmall: 'Kleinere Schaltflächen'
+      mobileSmall-Help: 'Kompakte Pager-Schaltflächen auf Handys.'
+      mobile_heading: Mobilansicht
+      pageInputText: 'Seite {input} von {total}'
       pageOfText: 'Seite {page} von {total}'
+      pagerAriaLabel: Paginierung
+      pagerButtonSize: 'Größe der Schaltflächen in Pixeln'
+      pagerButtonSize-Help: 'Höhe und Breite der Pager-Schaltflächen. Standard ist 36.'
       pagerCounter: '„Seite X von Y“ anzeigen'
       pagerCounter-Help: 'Zeige die aktuelle Seite und die Gesamtanzahl unter dem Pager an. Nur im Voll- und Kompaktmodus.'
       pagerJumpFeed: 'Sprungfeld — Beitragsliste'
@@ -21,15 +43,22 @@ stezkoy-pagify:
       pagerJumpList-Help: 'Eingabefeld für Seitenzahl im Pager der Diskussionsliste anzeigen.'
       pagerJumpStream: 'Sprungfeld — Beitragsstream'
       pagerJumpStream-Help: 'Eingabefeld für Seitenzahl im Pager des Beitragsstreams anzeigen.'
+      pagerLabelFirst: 'Erste Seite'
+      pagerLabelJump: 'Zu Seite springen'
+      pagerLabelLast: 'Letzte Seite'
+      pagerLabelNext: 'Nächste Seite'
+      pagerLabelPrev: 'Vorherige Seite'
       pagerMode: Modus
-      pagerMode-Help: '„Voll“ zeigt die Randseiten, die benachbarten Seitenzahlen und ein Sprungfeld an; „Kompakt“ zeigt nur die benachbarten Seitenzahlen an; „Mini“ zeigt nur Pfeile und die Position an.'
+      pagerMode-Help: '„Voll“ zeigt die Randseiten, die benachbarten Seitenzahlen und ein Sprungfeld an; „Kompakt“ zeigt nur die benachbarten Seitenzahlen an; „Zeile“ zeigt die Seitenzahl mit Eingabe, wie der Admin-Pager; „Mini“ zeigt nur Pfeile und die Position an.'
       pagerPreview: Vorschau
+      pagerPreview-Help: 'Klicke auf ein Symbol in der Vorschau, um es zu ändern. Ein leeres Feld oder die Schaltfläche „Zurücksetzen“ stellt das Standardsymbol wieder her.'
       pagerScrollOffset: 'Scroll-Offset in Pixeln'
       pagerScrollOffset-Help: 'Wie viele Pixel Platz oberhalb der ersten Diskussion oder des ersten Beitrags beim Seitenwechsel bleiben sollen. Ein negativer Wert scrollt weiter nach unten.'
       pagerWindow: 'Benachbarte Seiten'
       pagerWindow-Help: 'Wie viele Seitenzahlen neben der aktuellen Seite angezeigt werden.'
       pager_heading: Pager
       pager_mode_compact: Kompakt
+      pager_mode_core: Zeile
       pager_mode_full: Voll
       pager_mode_mini: Mini
       paginationPosition: Pagerposition
@@ -47,12 +76,16 @@ stezkoy-pagify:
       post_stream_heading: Beitragsstream
       postsPerPage: 'Beiträge je Seite'
       postsPerPage-Help: 'Wie viele Beiträge je Diskussionsseite angezeigt werden sollen. Hat nur einen Effekt, wenn Paginierung aktiviert ist.'
+      urlPage: 'Paginierung in der Adressleiste'
+      urlPage-Help: 'Links, die enden auf ?page=2 öffnen die richtige Seite und die Vor/Zurück-Schaltflächen des Browsers navigieren in Listen.'
   forum:
     list:
+      aria_label: Paginierung
       first: 'Erste Seite'
       jump: 'Zu Seite springen'
       last: 'Letzte Seite'
       next: 'Nächste Seite'
+      pageInput: 'Seite {input} von {total}'
       pageOf: 'Seite {page} von {total}'
       previous: 'Vorherige Seite'
     post_stream:

@@ -30,15 +30,20 @@ datlechin-simple-tour-guide:
       manual: 'Wird von Benutzer gestartet'
     stats:
       completion_rate: Abgeschlossen
+      dropoff_heading: 'Wo Teilnehmer abspringen'
       finished: Abgeschlossen
+      none: 'Niemand hat diese Tour bisher abgeschlossen.'
     step_modal:
       create_title: 'Neuer Schritt'
       delete_button: 'Schritt löschen'
       delete_confirmation: 'Diesen Schritt aus der Tour löschen?'
       description_label: Beschreibung
+      description_placeholder: 'Was die Lesenden lernen sollen'
       edit_title: '{title} bearbeiten'
       placement_label: Position
       save_button: Speichern
+      target_help: 'Das Element, auf das sich dieser Schritt bezieht. Lasse es leer, um den Schritt für sich allein mittig auf dem Bildschirm anzuzeigen.'
+      target_invalid: 'Das ist kein gültiger CSS-Selektor.'
       target_label: Ziel
       target_placeholder: 'Ein CSS-Selektor, z. B. #home-link'
       test_button: Testen
@@ -53,7 +58,9 @@ datlechin-simple-tour-guide:
         desktop: 'Nur Desktop'
         disabled: Ausgeschaltet
         mobile: 'Nur Mobil'
+        translated: 'Übersetzt in {count, plural, one {# Sprache} other {# Sprachen}}'
       heading: 'Schritte in {title}'
+      none: 'Noch keine Schritte, daher kann diese Tour nicht ausgeführt werden.'
     tour_modal:
       audience_help: 'Lasse keine Gruppe markiert, um sie allen anzuzeigen.'
       audience_label: 'Wer sieht sie'
@@ -61,6 +68,7 @@ datlechin-simple-tour-guide:
       delete_button: 'Tour löschen'
       edit_title: '{title} bearbeiten'
       enabled_label: Angeschaltet
+      key_help: 'Identifiziert die Tour in Exporten und Links. Nicht mehr ändern, wenn Mitglieder sie bereits abgeschlossen haben.'
       key_label: Schlüssel
       max_age_help: 'In Tagen. Lasse das Feld leer, um die Tour unabhängig vom Alter des Kontos anzuzeigen.'
       max_age_label: 'Nur Konten, die neuer sind als'
