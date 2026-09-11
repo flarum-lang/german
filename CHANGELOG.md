@@ -2,6 +2,28 @@ CHANGELOG
 =========
 
 
+1.25.30 (2026-09-11)
+--------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`forumfortress/flarum`](https://github.com/forum-fortress/flarum)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
+* [`huseyinfiliz/language-detection`](https://github.com/huseyinfiliz/language-detection)
+* [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye)
+* [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
+
+
+Alle Änderungen: [1.25.29...1.25.30](https://github.com/flarum-lang/german/compare/1.25.29...1.25.30).
+
+
 1.25.29 (2026-09-02)
 --------------------
 
