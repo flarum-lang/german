@@ -66,7 +66,7 @@ fof-reactions:
       load_more: 'Mehr laden'
       no_reactions: 'Noch keine Reaktionen'
       others_count: '+ {count, plural, one {# andere} other {# andere}}'
-      remove_all_reaction_type: 'Alle {Reaktion} Reaktionen entfernen'
+      remove_all_reaction_type: 'Alle {reaction} Reaktionen entfernen'
       remove_user_reaction: 'Reaktion entfernen'
       title: Reaktionen
     notification: '{username} hat auf deinen Post mit {reaction} reagiert'

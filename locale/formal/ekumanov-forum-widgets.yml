@@ -66,7 +66,7 @@ ekumanov-forum-widgets:
       overflow_users: '{count} weitere Online-Benutzer'
     online_users:
       empty: 'Keine Benutzer online.'
-      guests: '{count, plural, ein {guest} andere {guests}}'
+      guests: '{count, plural, one {Gast} other {Gäste}}'
       hidden_users: verborgen
       overflow_more: weitere
       title: Online-Benutzer

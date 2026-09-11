@@ -18,7 +18,7 @@ fof-rich-text:
       bold_tooltip: 'Fettschrift ({modifierKey}-b)'
       code_block_tooltip: 'Codeblock einfügen'
       code_tooltip: 'Inline-Code ({modifierKey}-`)'
-      header_tooltip: 'Änderung auf Überschrift {level} ({Modifikator-Taste}-Umschalt-{level})'
+      header_tooltip: 'Änderung auf Überschrift {level} ({modifierKey}-Umschalt-{level})'
       horizontal_rule_tooltip: 'Horizontale Linie einfügen'
       image_tooltip: 'Bild einfügen'
       insert_button: Einfügen

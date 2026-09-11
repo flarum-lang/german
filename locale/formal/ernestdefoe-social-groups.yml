@@ -41,7 +41,7 @@ ernestdefoe-social-groups:
       next_page: 'Nächste Seite'
       prev_page: 'Vorherige Seite'
       reply_button: Antworten
-      reply_count: '{count} Antwort|{count} Antworten'
+      reply_count: '{count, plural, one {# Antwort} other {# Antworten}}'
       reply_placeholder: 'Antworten schreiben…'
       save_edit: Speichern
       start_button: 'Starte eine Diskussion'
@@ -79,7 +79,7 @@ ernestdefoe-social-groups:
       joined: Beigetreten
       leave: Verlassen
       load_error: 'Laden der Gruppen fehlgeschlagen. Bitte versuche es erneut.'
-      members_count: '{count} Mitglied|{count} Mitglieder'
+      members_count: '{count, plural, one {# Mitglied} other {# Mitglieder}}'
       pending: Ausstehend…
       private: Privat
       request_to_join: 'Beitrittsanfrage stellen'

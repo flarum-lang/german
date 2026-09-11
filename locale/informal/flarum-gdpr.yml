@@ -86,7 +86,7 @@ flarum-gdpr:
         body: "Dies ist eine automatische, endgültige Benachrichtigung darüber, dass dein Konto gelöscht wurde.\n"
         subject: 'Kontolöschung abgeschlossen'
     export_available:
-      body: "Du hast einen Export der Kontodaten für {Benutzername} angefordert. Dieser Export wurde erfolgreich erstellt und steht nun zur Verfügung:\n\n{url}\n\nDieser Export bleibt bis {destroys_at} verfügbar.\n"
+      body: "Du hast einen Export der Kontodaten für {username} angefordert. Dieser Export wurde erfolgreich erstellt und steht nun zur Verfügung:\n\n{url}\n\nDieser Export bleibt bis {destroys_at} verfügbar.\n"
       subject: 'Datenexport verfügbar'
   forum:
     badges:
