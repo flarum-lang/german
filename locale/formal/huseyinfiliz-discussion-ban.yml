@@ -14,6 +14,7 @@ huseyinfiliz-discussion-ban:
       ban_users_label: 'Benutzer aus Diskussionen ausschließen'
     settings:
       hide_discussions_from_banned: 'Diskussionen vor ausgeschlossenen Benutzern vollständig verbergen (404-Verhalten)'
+      send_notifications: 'Benachrichtigungen versenden, wenn ein Benutzer aus einer Diskussion ausgeschlossen oder wieder zugelassen wird'
       show_in_discussion_controls: '„Aus Diskussion ausschließen“ in Diskussionsoptionen anzeigen'
       show_in_discussion_sidebar: '„Diskussionsausschluss“ in Diskussionsseitenleiste anzeigen'
       show_in_post_controls: '„Aus Diskussion ausschließen“ in Beitragsoptionen anzeigen'
@@ -44,6 +45,11 @@ huseyinfiliz-discussion-ban:
     notifications:
       discussion_banned_text: '{username} hat dich von {title} ausgeschlossen'
       discussion_unbanned_text: '{username} hat deinen Ausschluss von {title} aufgehoben'
+    post:
+      hidden_by_ban: 'Wegen Diskussionsausschluss ausgeblendet'
     post_controls:
       ban_from_discussion: 'Aus Diskussion ausschließen'
       unban_from_discussion: 'Ausschluss aus der Diskussion aufheben'
+    settings:
+      notify_discussion_banned_label: 'Jemand schliesst mich aus einer Diskussion aus'
+      notify_discussion_unbanned_label: 'Jemand hebt den Ausschluss aus einer Diskussion für mich auf'

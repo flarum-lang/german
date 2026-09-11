@@ -11,6 +11,8 @@ datlechin-simple-tour-guide:
     devices_label: Geräte
     move_down: 'Nach unten'
     move_up: 'Nach oben'
+    permissions:
+      reset_tour_guide: 'Ein Mitglied erneut durch die Touren schicken'
     placement:
       auto: 'Wo immer es passt'
       bottom: 'Unter dem Element'
@@ -30,55 +32,79 @@ datlechin-simple-tour-guide:
       manual: 'Wird von Benutzer gestartet'
     stats:
       completion_rate: Abgeschlossen
+      dismissed: Abgebrochen
       dropoff_heading: 'Wo Teilnehmer abspringen'
+      dropoff_help: 'Der Schritt, auf dem sich der Lesende befand, als sie abgebrochen haben. Es werden nur Lesende gezählt, die vorzeitig abgebrochen haben.'
       finished: Abgeschlossen
+      heading: 'Wie es ankommt'
       none: 'Niemand hat diese Tour bisher abgeschlossen.'
+      taken: Begonnen
     step_modal:
+      advance_on_click_help: 'Ersetzt in diesem Schritt die Schaltfläche „Weiter“ und leitet den Klick direkt an das Element weiter.'
+      advance_on_click_label: 'Der Lesende klickt auf dieses Element, um fortzufahren'
+      clicks_target_help: 'Verwende dies, um ein Menü zu öffnen, auf das in einem späteren Schritt verwiesen wird.'
       create_title: 'Neuer Schritt'
       delete_button: 'Schritt löschen'
       delete_confirmation: 'Diesen Schritt aus der Tour löschen?'
+      description_help: 'Die Formatierung entspricht der eines Beitrags in diesem Forum, sodass Links, Fettdruck und Bilder funktionieren, sofern die entsprechenden Erweiterungen aktiviert sind.'
       description_label: Beschreibung
       description_placeholder: 'Was die Lesenden lernen sollen'
+      devices_help: 'Ein Header-Selektor findet auf einem Smartphone oft keine Entsprechung, da der Header dort zur eingeklappten Seitenleiste wird.'
       edit_title: '{title} bearbeiten'
+      enabled_label: 'Schritt aktiviert'
+      pick_button: Auswählen
+      placement_help: 'Die Position des Popovers relativ zum Element. Es verschiebt sich, wenn nicht genügend Platz vorhanden ist.'
       placement_label: Position
       save_button: Speichern
       target_help: 'Das Element, auf das sich dieser Schritt bezieht. Lasse es leer, um den Schritt für sich allein mittig auf dem Bildschirm anzuzeigen.'
       target_invalid: 'Das ist kein gültiger CSS-Selektor.'
       target_label: Ziel
+      target_matches: '{count, plural, =0 {Keine Elemente auf der untersuchten Seite gefunden} one {# Element gefunden} other {# Elemente gefunden}}'
       target_placeholder: 'Ein CSS-Selektor, z. B. #home-link'
       test_button: Testen
       title_label: Titel
       title_placeholder: 'Worum geht es in diesem Schritt'
+      translations_help: 'Wähle eine Sprache aus, in der du den Text verfassen möchtest. Alles, was du leer lässt, wird mit dem initialen Wortlaut ausgefüllt.'
       translations_label: Übersetzungen
+      translations_pick: 'Wähle eine Sprache aus'
     steps:
       add_button: 'Schritt hinzufügen'
+      controls_label: 'Steuerung für {title}'
       copy_title: '{title} (copy)'
       duplicate_action: Duplizieren
       flags:
+        advance_on_click: 'Der Leser klickt auf dieses Element, um fortzufahren'
+        clicks_target: 'Klick auf dieses Element, um zum nächsten Schritt zu gelangen'
         desktop: 'Nur Desktop'
         disabled: Ausgeschaltet
         mobile: 'Nur Mobil'
         translated: 'Übersetzt in {count, plural, one {# Sprache} other {# Sprachen}}'
       heading: 'Schritte in {title}'
+      no_target: 'Eigenständig dargestellt, in der Mitte des Bildschirms'
       none: 'Noch keine Schritte, daher kann diese Tour nicht ausgeführt werden.'
     tour_modal:
       audience_help: 'Lasse keine Gruppe markiert, um sie allen anzuzeigen.'
       audience_label: 'Wer sieht sie'
       create_title: 'Neue Tour'
       delete_button: 'Tour löschen'
+      delete_confirmation: 'Diese Tour, ihre einzelnen Schritte und die Aufzeichnung darüber, wer sie absolviert hat, löschen?'
       edit_title: '{title} bearbeiten'
       enabled_label: Angeschaltet
       key_help: 'Identifiziert die Tour in Exporten und Links. Nicht mehr ändern, wenn Mitglieder sie bereits abgeschlossen haben.'
       key_label: Schlüssel
       max_age_help: 'In Tagen. Lasse das Feld leer, um die Tour unabhängig vom Alter des Kontos anzuzeigen.'
       max_age_label: 'Nur Konten, die neuer sind als'
+      route_help: 'Die Flarum-Route, zu der diese Tour gehört, z. B. „index“ oder „discussion“. Lasse das Feld leer, wenn die Tour an der Kopfzeile verankert sein soll und dem Mitglied folgt.'
       route_label: Seite
       route_placeholder: 'Jede Seite'
       save_button: Speichern
+      start_mode_help: 'Eine automatisch gestartete Tour, wird für jedes Mitglied, das die Kriterien erfüllt, einmal ausgeführt. Eine manuell gestartete Tour muss erst über die Einstellungsseite des jeweiligen Mitglieds gestartet werden.'
+      start_mode_label: Startet
       title_help: 'Als Referenz für dich. Benutzer sehen dies nicht.'
       title_label: Name
     tours:
       add_button: 'Neue Tour'
+      controls_label: 'Steuerung für {title}'
       copy_title: '{title} (copy)'
       disabled: Aus
       duplicate_button: 'Duplikat der Tour erstellen'
@@ -94,13 +120,27 @@ datlechin-simple-tour-guide:
       preview_navigate: 'Forum geöffnet. Gehe zu einer {route} Seite und die Vorschau startet dort.'
       step_count: '{count, plural, =0 {Keine Schritte} one {# Schritt} other {# Schritte}}'
   forum:
+    click_to_continue: 'Klicken, um fortzufahren'
+    close_button: 'Tour beenden'
     done_button: Fertig
     next_button: Weiter
     picker:
       browse: Durchsuchen
       cancel: Abbrechen
       matches: '{count, plural, =0 {Kein Treffer} one {# Treffer} other {# Treffer}}'
+      nothing_yet: 'Fahre über ein Element'
+      resume: Auswählen
+      testing: 'Zeigt die Elemente, auf die dieser Selektor zutrifft'
+    preview_notice: 'Vorschau. Nichts, was du hier tust, wird aufgezeichnet.'
     previous_button: Zurück
     progress: '{current} von {total}'
     settings:
       heading: Touren
+      none: 'Es werden noch keine Touren angeboten.'
+      nothing_here: 'Auf dieser Seite gibt es keine Inhalte zu {title}. Versuche es auf der Seite, die zu dieser Tour gehört.'
+      take: 'Mache die Tour'
+      take_again: 'Noch einmal durchgehen'
+      waiting: 'Gehe auf die Seite, um die es in {title} geht, und dort wird es losgehen.'
+    user_controls:
+      reset_tour_guide: 'Touren erneut starten'
+      reset_tour_guide_confirmation: 'Soll dieses Mitglied bei seinem nächsten Besuch wieder seine Touren sehen?'

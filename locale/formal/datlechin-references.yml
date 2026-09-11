@@ -6,6 +6,9 @@ datlechin-references:
   admin:
     analytics:
       by_origin_label: 'Wie sie gefunden wurden'
+      by_relation_label: 'Was sie sagen'
+      chart_label: 'Verweise pro Tag. {count, plural, one {# Tag} other {# Tage}} mit Aktivität, höchste Aktivität {peak}.'
+      empty: 'Noch nichts aufgezeichnet.'
       export_button: 'CSV exportieren'
       manual_label: 'Händisch hinzugefügt'
       title: Verweise
@@ -44,17 +47,23 @@ datlechin-references:
       maintenance_description: 'Wie lange ein Verweis auf gelöschte Inhalte aufbewahrt wird.'
       maintenance_label: Wartung
     settings:
+      cache_ttl_help: 'Wie lange die Liste und der Graph gespeichert bleiben, bevor sie erneut berechnet werden. Der Wert 0 deaktiviert die Zwischenspeicherung.'
       cache_ttl_label: 'Cache-Speicherdauer (Sekunden)'
       enabled_help: 'Aus bedeutet, dass nichts aufgenommen wird. Vorhandene Verweise bleiben erhalten.'
       enabled_label: 'Verweise aufnehmen'
+      event_post_enabled_help: "Fügt der verwiesenen Diskussion eine Zeile hinzu, in der angegeben wird, von wo aus darauf verwiesen wurde. Aufeinanderfolgende Zeilen werden zu einer einzigen zusammengefasst.\n"
       event_post_enabled_label: 'Referenzen in Diskussionen aufführen'
       extract_mention_references_help: 'Mentions wird benötigt. Ohne die Erweiterung wird eine Antwort in zwei Listen geführt, die nicht übereinstimmen.'
       extract_mention_references_label: 'Beitragserwähnungen aufnehmen'
       extract_short_references_help: "Das Format @\"Discussion title\"#d123, wie es bei Eingabe von # im Composer eingefügt wird.\n"
       extract_url_references_help: 'Ein Link auf eine Diskussion oder einen Beitrag in diesem Forum wird ein Verweis.'
       extract_url_references_label: 'Eingefügte Links aufnehmen'
+      graph_max_depth_help: 'Wie viele Schritte von einer Diskussion entfernt der Graph reicht.'
       graph_max_depth_label: 'Tiefe des Graphen'
+      graph_max_per_hop_label: 'Verknüpfungen pro Schritt'
       max_preview_help: 'Der Rest liegt hinter einer Schaltfläche.'
+      notify_followers_help: 'Erfordert Abonnements. Bei „Aus“ wird nur der Autor des verwiesenen Beitrags darüber informiert.'
+      notify_followers_label: 'Auch Follower benachrichtigen'
       related_discussions_enabled_label: 'Verwandte Diskussionen anzeigen'
       related_discussions_limit_help: 'In der Seitenleiste einer Diskussion.'
       related_discussions_limit_label: 'Angezeigte verwandte Diskussionen'
@@ -63,7 +72,10 @@ datlechin-references:
       posts: 'Beitrag #{id}'
   email:
     discussion_referenced:
+      body: "{username} hat auf deine Diskussion von einer anderen Diskussion verwiesen.\n\n{url}\n"
       subject: 'Ein Verweis auf deine Diskussion wurde erstellt: {title}'
+    post_referenced:
+      subject: 'Auf deinen Beitrag wurde verwiesen in {title}'
   forum:
     discussion:
       referenced_by_title: '{count, plural, one {# Verweis} other {# Verweise}}'
@@ -72,6 +84,9 @@ datlechin-references:
     event_post:
       referenced: '{username} verweist auf diese Diskussion'
     graph:
+      accessible_label: '{count, plural, one {# Diskussion} other {# Diskussionen}} und die Verknüpfungen untereinander'
+      description: 'Diskussionen, die mit dieser Diskussion und untereinander verknüpft sind.'
+      empty: 'Es gibt noch nichts darzustellen.'
       title: 'Graph der Verweise'
     manual:
       add_button: 'Verweis hinzufügen'
@@ -79,10 +94,14 @@ datlechin-references:
       note_placeholder: 'Warum diese beiden zusammen gehören'
       relation_label: Beziehung
       submit_button: Hinzufügen
+      target_label: 'Verweist auf'
       target_placeholder: Diskussions-ID
       title: 'Verweis hinzufügen'
     most_referenced:
       sort: 'Am meisten verwiesen auf'
+    notifications:
+      discussion_referenced_text: '{username} verweist auf eine Diskussion, die du begonnen hast'
+      post_referenced_text: '{username} verweist auf deinen Beitrag'
     post:
       others_text: '{count, plural, one {# anderer} other {# andere}}'
       referenced_by_text: '{discussions} {count, plural, one {verweist} other {verweisen}} hierher'
