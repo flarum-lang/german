@@ -21,13 +21,16 @@ CHANGELOG
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
+* [`ekumanov/flarum-ext-forum-widgets`](https://github.com/ekumanov/flarum-ext-forum-stats-widget)
 * [`ernestdefoe/discussion-participants`](https://github.com/ernestdefoe/discussion-participants)
+* [`ernestdefoe/social-groups`](https://github.com/ernestdefoe/social-groups)
 * [`ffans/geetest`](https://github.com/FFans/geetest)
 * [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 * [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text)
 * [`forumaker/magicdice`](https://github.com/forumaker/magicdice)
 * [`forumaker/magicslider`](https://github.com/forumaker/magicslider)
 * [`forumfortress/flarum`](https://github.com/forum-fortress/flarum)
@@ -35,7 +38,10 @@ CHANGELOG
 * [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki)
 * [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
 * [`stezkoy/flarum-time-of-magic`](https://github.com/Stezkoy/flarum-time-of-magic)
+* [`tapao/custom-landing-page`](https://github.com/Tapao-NonSen/Custom-Landing-Page)
 * [`tryhackx/flarum-topic-rating`](https://github.com/TryHackX/flarum-topic-rating)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
 
 
 Alle Änderungen: [2.0.17...2.0.18](https://github.com/flarum-lang/german/compare/2.0.17...2.0.18).
