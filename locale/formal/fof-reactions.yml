@@ -40,7 +40,7 @@ fof-reactions:
           gamification:
             downvoteHelptext: 'Gib den Bezeichner der Reaktion ein, die du automatisch in ein Downvote umwandeln möchtest'
             downvoteLabel: 'Reaktionen in Downvotes umwandeln'
-            legend: Gamifizierung
+            legend: Gamification
             upvoteHelptext: 'Gib den Bezeichner der Reaktion ein, die du automatisch in ein Upvote umwandeln möchtest'
             upvoteLabel: 'Konvertiere Reaktionen in Upvotes'
           legend: Integrationen
