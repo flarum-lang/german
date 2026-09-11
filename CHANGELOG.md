@@ -14,6 +14,7 @@ CHANGELOG
 
 * [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
 * [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
 * [`huseyinfiliz/language-detection`](https://github.com/huseyinfiliz/language-detection)
 * [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye)
