@@ -27,6 +27,7 @@ CHANGELOG
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 * [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`forumaker/magicdice`](https://github.com/forumaker/magicdice)
 * [`forumaker/magicslider`](https://github.com/forumaker/magicslider)
 * [`forumfortress/flarum`](https://github.com/forum-fortress/flarum)
