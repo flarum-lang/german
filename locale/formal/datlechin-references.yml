@@ -75,6 +75,7 @@ datlechin-references:
       body: "{username} hat auf deine Diskussion von einer anderen Diskussion verwiesen.\n\n{url}\n"
       subject: 'Ein Verweis auf deine Diskussion wurde erstellt: {title}'
     post_referenced:
+      body: "{username} hat auf deinen Beitrag verwiesen.\n\n{url}\n"
       subject: 'Auf deinen Beitrag wurde verwiesen in {title}'
   forum:
     discussion:
