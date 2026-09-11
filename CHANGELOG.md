@@ -2,6 +2,53 @@ CHANGELOG
 =========
 
 
+2.0.18 (2026-09-11)
+-------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`datlechin/flarum-placements`](https://github.com/datlechin/flarum-placements)
+* [`datlechin/flarum-references`](https://github.com/datlechin/flarum-references)
+* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
+* [`ernestdefoe/cascade`](https://github.com/ernestdefoe/cascade)
+* [`ernestdefoe/hashtags`](https://github.com/ernestdefoe/hashtags)
+* [`ernestdefoe/logo-manager`](https://github.com/ernestdefoe/logo-manager)
+* [`huseyinfiliz/discussion-ban`](https://github.com/huseyinfiliz/discussion-ban)
+* [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)
+* [`stezkoy/flarum-doorquest`](https://github.com/Stezkoy/flarum-doorquest)
+* [`stezkoy/flarum-modularis`](https://github.com/Stezkoy/flarum-modularis)
+* [`stezkoy/flarum-pagify`](https://github.com/Stezkoy/flarum-pagify)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
+* [`ekumanov/flarum-ext-forum-widgets`](https://github.com/ekumanov/flarum-ext-forum-stats-widget)
+* [`ernestdefoe/discussion-participants`](https://github.com/ernestdefoe/discussion-participants)
+* [`ernestdefoe/social-groups`](https://github.com/ernestdefoe/social-groups)
+* [`ffans/geetest`](https://github.com/FFans/geetest)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text)
+* [`forumaker/magicdice`](https://github.com/forumaker/magicdice)
+* [`forumaker/magicslider`](https://github.com/forumaker/magicslider)
+* [`forumfortress/flarum`](https://github.com/forum-fortress/flarum)
+* [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind)
+* [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki)
+* [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
+* [`stezkoy/flarum-time-of-magic`](https://github.com/Stezkoy/flarum-time-of-magic)
+* [`tapao/custom-landing-page`](https://github.com/Tapao-NonSen/Custom-Landing-Page)
+* [`tryhackx/flarum-topic-rating`](https://github.com/TryHackX/flarum-topic-rating)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+
+
+Alle Änderungen: [2.0.17...2.0.18](https://github.com/flarum-lang/german/compare/2.0.17...2.0.18).
+
+
 2.0.17 (2026-09-03)
 -------------------
 
