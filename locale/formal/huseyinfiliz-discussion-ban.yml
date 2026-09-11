@@ -15,10 +15,14 @@ huseyinfiliz-discussion-ban:
     settings:
       hide_discussions_from_banned: 'Diskussionen vor ausgeschlossenen Benutzern vollständig verbergen (404-Verhalten)'
       show_in_discussion_controls: '„Aus Diskussion ausschließen“ in Diskussionsoptionen anzeigen'
+      show_in_discussion_sidebar: '„Diskussionsausschluss“ in Diskussionsseitenleiste anzeigen'
       show_in_post_controls: '„Aus Diskussion ausschließen“ in Beitragsoptionen anzeigen'
   forum:
     discussion_controls:
+      ban_button: Diskussionsausschluss
       ban_from_discussion: 'Aus Diskussion ausschließen'
+    discussion_page:
+      ban_button: Diskussionsausschluss
     modal:
       ban_success: 'Benutzer wurde aus dieser Diskussion ausgeschlossen.'
       banned_by: 'Ausgeschlossen von {username}'
@@ -32,11 +36,14 @@ huseyinfiliz-discussion-ban:
       search_placeholder: 'Nach Benutzername oder Anzeigename suchen…'
       select_user: 'Benutzer auswählen'
       submit: 'Benutzer ausschließen'
-      tab_ban: 'Benutzer ausschließen'
+      tab_ban: 'Neuer Ausschluss'
       tab_list: 'Ausgeschlossene Benutzer ({count})'
       title: Diskussionsausschluss
       unban: 'Ausschluss aufheben'
       unban_success: 'Der Ausschluss des Nutzers wurde aufgehoben.'
+    notifications:
+      discussion_banned_text: '{username} hat dich von {title} ausgeschlossen'
+      discussion_unbanned_text: '{username} hat deinen Ausschluss von {title} aufgehoben'
     post_controls:
       ban_from_discussion: 'Aus Diskussion ausschließen'
       unban_from_discussion: 'Ausschluss aus der Diskussion aufheben'

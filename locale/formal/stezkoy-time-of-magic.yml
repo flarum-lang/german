@@ -8,6 +8,7 @@ stezkoy-time-of-magic:
     allow_user_disable_label: 'Benutzern ermöglichen, Effekte zu deaktivieren'
     back_to_top_color_label: 'Farbe der Schaltfläche „Zurück zum Anfang“'
     back_to_top_description: 'Zeigt eine schwebende Schaltfläche an, mit der man zurück zum Anfang scrollen kann.'
+    back_to_top_icon_color_label: 'Farbe des Symbols der Schaltfläche „Zurück zum Anfang“'
     back_to_top_icon_label: FontAwesome-Symbolklasse
     back_to_top_label: 'Schaltfläche „Zurück zum Anfang“'
     back_to_top_shape_description: 'Verwendet eine quadratische Form anstelle eines Kreises.'
@@ -20,6 +21,11 @@ stezkoy-time-of-magic:
     background_label: Hintergrundmuster
     background_none: Keines
     background_waves: Wellen
+    bg_parallax_description: 'Das Hintergrundmuster verschiebt sich subtil entsprechend der Zeigerbewegung. Erfordert das obige Hintergrundmuster.'
+    bg_parallax_label: 'Parallaxe Hintergrundbewegung'
+    click_burst_description: 'Dein Emoji explodiert am Klickpunkt.'
+    click_burst_items_label: 'Explosions-Partikel (Emojis, durch Leerzeichen getrennt)'
+    click_burst_label: Klickplosion
     click_spark_color_label: 'Farbe des Klick-Funkens'
     click_spark_description: 'Ein Schwarm magischer Teilchen an der Klickposition.'
     click_spark_label: Klick-Funken-Effekt
@@ -33,6 +39,13 @@ stezkoy-time-of-magic:
     confetti_density_label: 'Dichte des Konfetti'
     confetti_description: 'Farbige fallende Konfetti für jede Feierlichkeit.'
     confetti_label: Konfetti
+    cursor_dust_color_label: Zeigerstaubfarbe
+    cursor_dust_description: 'Gelegentlich erscheinen kleine, leuchtende Punkte um den Mauszeiger herum.'
+    cursor_dust_label: Zeigerstaub
+    cursor_flashlight_description: 'Eine weiche, dunkle Überlagerung mit einem hellen Fleck um den Zeiger. Am besten geeignet für dunkle Farbschemata.'
+    cursor_flashlight_label: Zeigertaschenlampe
+    cursor_trail_description: 'Verblassende Partikel folgen deinem Mauszeiger.'
+    cursor_trail_label: Zeiger-Spur
     custom_count_description: 'Von 1 bis 100.'
     custom_count_label: Anzahl
     custom_down_description: 'Partikel, die abwärts fallen wie Schnee oder Konfetti. Ideal für saisonale und thematische Designs.'
@@ -56,6 +69,8 @@ stezkoy-time-of-magic:
     fireflies_density_label: 'Dichte der Glühwürmchen'
     fireflies_description: 'Leuchtende Glühwürmchen, die durch die Sommernacht schwirren.'
     fireflies_label: Glühwürmchen
+    fog_description: 'Langsam treibende, durchscheinende Nebelschwaden.'
+    fog_label: Nebel
     hearts_density_description: 'Anzahl der Herzen auf dem Bildschirm.'
     hearts_density_label: 'Dichte der Herzen'
     hearts_description: 'Nach oben fliegende Herzen für den Valentinstag.'
@@ -87,6 +102,8 @@ stezkoy-time-of-magic:
     rain_label: Regentropfen
     scheduler_add_button: 'Zeitplan hinzufügen'
     scheduler_cancel_button: Abbrechen
+    scheduler_confirm_button: Löschen
+    scheduler_confirm_title: 'Löschen bestätigen'
     scheduler_delete_button: 'Zeitplan löschen'
     scheduler_delete_confirm: 'Diesen Zeitplan löschen?'
     scheduler_description: 'Aktiviere automatisch fallende Effekte während eines festgelegten Zeitraums. Ein Effekt wird angezeigt, wenn sein Zeitplan aktiv ist, auch wenn die manuelle Umschaltung ausgeschaltet ist.'
@@ -105,12 +122,18 @@ stezkoy-time-of-magic:
     scheduler_title_label: Titel
     scheduler_title_placeholder: 'z. B. Neujahr'
     scheduler_untitled: 'Unbenannter Zeitplan'
+    scheduler_validation_dates_required: 'Bitte sowohl Start- als auch Enddatum festlegen.'
+    scheduler_validation_effects_required: 'Wähle mindestens einen Effekt aus.'
+    scheduler_validation_end_before_start: 'Das Enddatum muss nach dem Startdatum liegen.'
     scrollbar_color_label: 'Farbe der Bildlaufleiste'
     scrollbar_description: 'Ersetzt die Standard-Bildlaufleiste durch eine schmale, an das Design angepasste Bildlaufleiste.'
     scrollbar_label: 'Benutzerdefinierte Bildlaufleiste'
     section_effects: Effekte
     section_interface: Forum-Oberfläche
     section_scheduler: Zeitplaner
+    site_tint_color_label: Farbton
+    site_tint_description: 'Halbtransparente Farbüberlagerung über die gesamte Seite. Lege den Farbton fest, um die Überlagerung zu aktivieren.'
+    site_tint_label: 'Seite einfärben'
     snow_density_description: 'Anzahl der Schneeflocken auf dem Bildschirm.'
     snow_density_heavy: Stark
     snow_density_label: Schneedichte
@@ -118,9 +141,12 @@ stezkoy-time-of-magic:
     snow_density_medium: Mittel
     snow_description: 'Fügt auf der gesamten Website einen festlichen Schneefall-Effekt hinzu.'
     snow_label: 'Fallende Schneeflocken'
+    starfield_description: 'Eine statische Schicht funkelnder Sterne.'
+    starfield_label: Sternenfeld
     swap_layout_description: 'Verschiebt die Seitenleiste nach rechts und die Beiträge nach links.'
     swap_layout_label: 'Seitenleiste und Inhalt vertauschen'
     title: 'Zeit für Magie'
+    trail_items_label: 'Spur-Partikel (Emojis/Zeichen, durch Leerzeichen getrennt)'
   forum:
     disable_effects_description: 'Zeigt die fallenden Objekte (Schnee, Blätter, Regen und Ähnliche) im Forum nicht mehr an.'
     disable_effects_label: 'Effekte mit fallenden Objekten deaktivieren'
