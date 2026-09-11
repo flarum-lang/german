@@ -7,6 +7,10 @@ ernestdefoe-logo-manager:
     align: Ausrichtung
     align_center: Mittig
     align_left: Links
+    corner_bottom-left: 'Unten links'
+    corner_bottom-right: 'Unten rechts'
+    corner_top-left: 'Oben links'
+    corner_top-right: 'Oben rechts'
     decoration_autumn-leaf: Herbstblätter
     decoration_blossom: Blüten
     decoration_candle: Kerzen
@@ -20,35 +24,77 @@ ernestdefoe-logo-manager:
     decoration_snow-cap: Schneemütze
     decoration_sparkles: Glitzer
     decoration_sun: Sonne
+    description: 'SVG-Logos, ein mitwachsender Header, Effekte und ein saisonaler Zeitplan.'
     dimensions: '{width} × {height}'
+    effect_blur: Unscharf
+    effect_brightness: Helligkeit
     effect_contrast: Kontrast
     effect_grayscale: Graustufen
+    effect_hueRotate: Farbtondrehung
     effect_invert: Invertiert
+    effect_opacity: Deckkraft
     effect_pixelate: Verpixeln
     effect_saturate: Sättigung
     effect_sepia: Sepia
     effects_heading: Effekte
+    effects_help: 'Sie werden direkt im Browser angewendet, funktionieren also sowohl bei SVG-Dateien als auch bei Fotos, und es wird nichts in die Datei eingebettet.'
+    enabled: 'Logo-Manager aktivieren'
+    enabled_help: 'Schalte alles unten an einem Ort aus, ohne deine Einstellungen zu verlieren.'
     feast_easter: Ostersonntag
     feast_fathers_day_us: 'Father''s Day (USA)'
     feast_lunar_new_year: Mond-Neujahr
     feast_mothers_day_us: 'Mother''s Day (USA)'
     feast_thanksgiving_ca: 'Thanksgiving (Kanada)'
     feast_thanksgiving_us: 'Thanksgiving (USA)'
+    header_height: 'Höhe der Kopfzeile'
+    header_height_auto: 'Zusammen mit Logo wachsen'
+    height: Logohöhe
+    height_help: 'Wie hoch das Logo gezeichnet wird. Flarums festes Maximum beträgt 30 Pixel.'
+    height_phone: 'Logohöhe auf Handys'
     hover_heading: 'Beim Darüberfahren'
     hover_none: Nichts
+    logo_dark: 'Logo für dunklen Modus'
+    logo_dark_help: 'Wird angezeigt, wenn ein Besucher ein dunkles Farbschema verwendet. Optional.'
     logo_heading: Logo-Dateien
+    logo_help: 'SVG, PNG, JPEG, WebP oder ein animiertes GIF. Flarums eigene Logo-Einstellung lehnt SVG ab und verkleinert alles andere auf 60 Pixel Höhe; dieser hier tut weder das eine noch das andere.'
     logo_light: Logo
+    no_logo: 'Noch kein Logo – stattdessen wird der Titel des Forums angezeigt.'
+    plate_color: Schildfarbe
+    plate_enabled: 'Zeichne ein Schild hinter dem Logo'
+    plate_heading: Hintergrundschild
+    plate_help: 'Nützlich, wenn ein Logo für einen weißen Hintergrund gezeichnet wurde und die Kopfzeile keinen solchen hat.'
+    plate_padding: Padding
     plate_radius: Eckenradius
     preset_mono: Monochrom
+    preview: Vorschau
+    preview_dark: Dunkel
+    preview_light: Hell
     recolor_color: Farbe
+    recolor_enabled: 'Jede Farbe durch eine Farbe ersetzen'
+    recolor_help: 'Behält die Form des Logos bei und füllt es mit einer einzigen Farbe aus. Am besten geeignet für Logos mit transparentem Hintergrund.'
     remove: Entfernen
     replace: Ersetzen
+    saved: Gespeichert.
     season_decoration: Dekoration
     season_density: Menge
     season_enabled: Aktiviert
     season_feast: Datum
     season_from: Von
     season_name: Name
+    season_preset_autumn: Herbst
+    season_preset_birthday: Forums-Geburtstag
+    season_preset_christmas: Weihnachten
+    season_preset_easter: Ostern
+    season_preset_halloween: Halloween
+    season_preset_lunar_new_year: Mond-Neujahr
+    season_preset_new_year: Neujahr
+    season_preset_pride: Pride-Monat
+    season_preset_spring: Frühling
+    season_preset_st_patricks: 'St. Patrick''s Day'
+    season_preset_summer: Sommer
+    season_preset_thanksgiving: Thanksgiving
+    season_preset_valentines: Valentinstag
+    season_preset_winter: Winter
     season_to: Bis
     season_weather: Wetter
     season_when: Wann
@@ -66,5 +112,16 @@ ernestdefoe-logo-manager:
     tab_seasons: Jahreszeiten
     tab_size: 'Größe & Position'
     title: Logo-Manager
+    upload: 'Wähle eine Datei'
     uploading: 'Wird hochgeladen…'
+    weather_bubbles: Luftblasen
+    weather_confetti: Konfetti
+    weather_embers: Glut
+    weather_leaves: 'Fallende Blätter'
+    weather_petals: Blütenblätter
+    weather_rain: Regen
     weather_snow: Schnee
+    weather_sparkles: Glitzer
+  lib:
+    errors:
+      too_large_raster: 'Dieses Bild ist größer als 8 MB.'

@@ -43,6 +43,7 @@ datlechin-simple-tour-guide:
       advance_on_click_help: 'Ersetzt in diesem Schritt die Schaltfläche „Weiter“ und leitet den Klick direkt an das Element weiter.'
       advance_on_click_label: 'Der Lesende klickt auf dieses Element, um fortzufahren'
       clicks_target_help: 'Verwende dies, um ein Menü zu öffnen, auf das in einem späteren Schritt verwiesen wird.'
+      clicks_target_label: 'Klicke auf dieses Element, um zum nächsten Schritt zu gelangen'
       create_title: 'Neuer Schritt'
       delete_button: 'Schritt löschen'
       delete_confirmation: 'Diesen Schritt aus der Tour löschen?'
