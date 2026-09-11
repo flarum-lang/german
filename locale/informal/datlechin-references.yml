@@ -113,6 +113,10 @@ datlechin-references:
     relation:
       answers: beantwortet
       duplicate_of: 'Duplikat von'
+  gdpr:
+    anonymize_description: 'Dein Name wird von den von dir hinzugefügten Verweisen entfernt. Der Verweis bleibt erhalten.'
+    delete_description: 'Dein Name wird von den von dir hinzugefügten Verweisen entfernt. Die Verweis selbst sind Annahmen über andere Beiträge und bleiben daher erhalten.'
+    export_description: 'Verweise, die du händisch als Moderator hinzugefügt hast.'
   lib:
     gambits:
       has_references:
@@ -123,3 +127,4 @@ datlechin-references:
         key: verwiesen-von
       references:
         hint: „12“
+        key: verweise
