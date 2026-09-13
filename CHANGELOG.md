@@ -7,6 +7,7 @@ CHANGELOG
 
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
+* [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries)
 * [`ernestdefoe/ridge`](https://github.com/ernestdefoe/ridge)
 * [`ernestdefoe/since`](https://github.com/ernestdefoe/since)
 
