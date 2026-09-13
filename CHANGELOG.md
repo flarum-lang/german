@@ -8,8 +8,13 @@ CHANGELOG
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
 * [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries)
+* [`ernestdefoe/marginalia`](https://github.com/ernestdefoe/marginalia)
 * [`ernestdefoe/ridge`](https://github.com/ernestdefoe/ridge)
 * [`ernestdefoe/since`](https://github.com/ernestdefoe/since)
+* [`ernestdefoe/steward`](https://github.com/ernestdefoe/steward)
+* [`ernestdefoe/verbatim`](https://github.com/ernestdefoe/verbatim)
+* [`ernestdefoe/wardrobe`](https://github.com/ernestdefoe/wardrobe)
+* [`ernestdefoe/warren`](https://github.com/ernestdefoe/warren)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
