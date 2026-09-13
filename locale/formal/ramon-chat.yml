@@ -114,6 +114,7 @@ ramon-chat:
     invalid_reaction: 'Dies ist keine gültige Emoji-Reaktion.'
     invalid_reply_target: 'Du kannst nicht auf eine Nachricht aus einem anderen Kanal antworten.'
     invalid_thread_target: 'Dieser Thread gehört nicht zu diesem Kanal.'
+    invite_not_found: 'Es liegt hier keine ausstehende Einladung zur Beantwortung vor.'
     members_empty: 'Wähle mindestens einen Benutzer aus, den du hinzufügen möchtest.'
     members_too_many: '{max, plural, one {Du kannst höchstens # Benutzer auf einmal hinzufügen.} other {Du kannst höchstens # Benutzer auf einmal hinzufügen.}}'
     message_empty: 'Du kannst keine leere Nachricht senden.'
@@ -147,7 +148,7 @@ ramon-chat:
       unknown_author: Jemand
   forum:
     add_members:
-      added: '{count, plural, one {# wurde dem Kanal hinzugefügt.} other {# wurden dem Kanal hinzugefügt.}}'
+      added: '{count, plural, one {Einladung gesendet an {names}.} other {# Einladungen gesendet: {names}.}}'
       deselect: '{username} aus der Auswahl entfernen'
       empty: 'Es wurde niemand gefunden, oder alle passenden Benutzer sind bereits hier.'
       failed: 'Diese Benutzer konnten nicht hinzugefügt werden.'
@@ -193,7 +194,7 @@ ramon-chat:
       edit: 'Kanal bearbeiten'
       join: 'Kanal beitreten'
       join_failed: 'Du konntest dem Kanal nicht beitreten.'
-      join_hidden: 'Beitreten, ohne gesehen zu werden'
+      join_hidden: 'Kanal einsehen'
       join_to_post: 'Tritt diesem Kanal bei, um Nachrichten zu senden.'
       joined_hidden: 'Du bist beigetreten, ohne in der Mitgliederliste aufgeführt zu werden.'
       leave: 'Kanal verlassen'
@@ -208,6 +209,7 @@ ramon-chat:
       scroll_to_latest: 'Zur neuesten Nachricht springen'
       search_in_channel: 'In diesem Kanal suchen'
       threading_enabled: 'Threads aktiviert'
+      threads: 'Threads in diesem Kanal'
       view_all_pinned: 'Alle {count} angehefteten Beiträge anzeigen'
       view_info: Kanaldetails
     composer:
@@ -511,6 +513,7 @@ ramon-chat:
       delete_description: 'Deine Chat-Nachrichten und Anhänge werden gelöscht, ebenso wie deine Reaktionen, Entwürfe und Kanalmitgliedschaften.'
       export_description: 'Deine Chat-Nachrichten, die Details zu deren Anhängen und die Kanäle, denen du angehörst.'
   notifications:
-    chat_channel_invite: '{username} hat dich zu {channel} hinzugefügt'
+    chat_channel_invite: '{username} hat dich zu {channel} eingeladen'
+    chat_channel_invite_declined: '{username} hat deine Einladung zu {channel} abgelehnt'
     chat_mention: '{username} hat dich in {channel} erwähnt'
     chat_message: '{username} hat in {channel} eine Nachricht gesendet'

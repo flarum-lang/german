@@ -5,6 +5,14 @@
 ernestdefoe-cascade:
   admin:
     settings:
+      allow_user_preset_help: 'Fügt auf der Einstellungsseite jedes Mitglieds eine Auswahl für die Voreinstellung hinzu. Die getroffene Auswahl gilt nur für das jeweilige Mitglied; wer keine Auswahl trifft, behält die oben angegebene Standard-Einstellung des Forums bei. Deaktiviere diese Option, um im gesamten Forum ein einheitliches Erscheinungsbild beizubehalten.'
+      allow_user_preset_label: 'Lässt die Mitglieder selbst entscheiden'
+      engagement_bar_auto: Auto
+      engagement_bar_label: Engagement-Leiste
+      engagement_bar_off: Verbergen
+      engagement_bar_on: 'Immer anzeigen'
+      preset_help: 'So sieht die Ansicht für jedes Mitglied aus, sofern es nicht unten eine eigene Option auswählt. Im „Facebook-Stil“ wird jede Diskussion auf einer eigenen Karte vor grauem Hintergrund mit einer breiten, beschrifteten Interaktionsleiste dargestellt. Im „X-Stil“ werden sie als durch feine Linien getrennte Zeilen in einer einzigen Spalte angezeigt. Der „Bluesky-Stil“ behält die einzelne Spalte bei, fügt jedoch Trennlinien in den Text ein, lockert den Abstand und zeigt die Aktionen als Hover-Elemente an. Alle drei Stile haben das gleiche Layout und die gleichen Einstellungen; die Umstellung wird beim nächsten Laden der Seite wirksam.'
+      preset_label: Voreinstellung
       title: Cascade
   forum:
     composer:
@@ -16,7 +24,14 @@ ernestdefoe-cascade:
       replies_title: '{count, plural, one {# Antwort} other {# Antworten}}'
       reply_button: 'Schreibe eine Antwort'
       title: '{username}s Beitrag'
+    preset:
+      follow_forum: 'Forumstandard verwenden'
+      heading: Feed-Stil
+      help: 'So werden Diskussionen für dich dargestellt. Für alle anderen ändert sich dadurch nichts.'
+      save_failed: 'Dein Feed-Stil konnte nicht gespeichert werden. Bitte versuche es erneut.'
     rail:
+      hashtags_count: '{count, plural, one {# Beitrag} other {# Beiträge}}'
+      hashtags_title: Hashtags
       trending_all: Meistdiskutiert
       trending_count: '{count, plural, one {# Diskussion} other {# Diskussionen}}'
       trending_month: 'Trends in diesem Monat'
@@ -42,3 +57,8 @@ ernestdefoe-cascade:
       share_button: Teilen
       share_copied: 'Link kopiert'
       view_replies: '{count, plural, one {# weitere Antwort anzeigen} other {Alle # Antworten anzeigen}}'
+  lib:
+    preset:
+      stream: 'Bluesky-Stil — eingelassene Reihen'
+      timeline: 'X-Stil — Reihen'
+      wall: 'Facebook-Stil — Karten'
