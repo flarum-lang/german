@@ -5,9 +5,18 @@ CHANGELOG
 2.0.19 (XXXX-XX-XX)
 -------------------
 
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`ernestdefoe/ridge`](https://github.com/ernestdefoe/ridge)
+* [`ernestdefoe/since`](https://github.com/ernestdefoe/since)
+
+
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
+* [`ernestdefoe/cascade`](https://github.com/ernestdefoe/cascade)
+* [`forumfortress/flarum`](https://github.com/forum-fortress/flarum)
+* [`ramon/chat`](https://github.com/ram0ng1/chat)
 
 
 Alle Änderungen: [2.0.18...2.0.19](https://github.com/flarum-lang/german/compare/2.0.18...2.0.19).
