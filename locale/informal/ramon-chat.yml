@@ -12,7 +12,7 @@ ramon-chat:
       upload_failed: 'Das Bild konnte nicht hochgeladen werden.'
       use_bot: 'Stattdessen den Bot verwenden'
       user_active: 'Ankündigungen werden unter dem Namen dieses Mitglieds gesendet.'
-      user_help: 'Wähle ein Konto aus, und die Ankündigungen werden zu normalen Nachrichten dieses Mitglieds – ohne Bot-Namen, ohne Bild und ohne „BOT“-Kennzeichnung.'
+      user_help: 'Wähle ein Konto aus, und die Ankündigungen werden zu normalen Nachrichten dieses Mitglieds: keine Bot-Name, kein Bild und ohne „BOT“-Kennzeichnung.'
       user_label: 'Stattdessen als Mitglied senden'
       user_search: 'Benutzer durchsuchen'
     permissions:
@@ -20,7 +20,7 @@ ramon-chat:
       bypass_slow_mode: 'Langsam-Modus überspringen'
       create_channel: 'Kanäle erstellen'
       create_thread: 'Threads von einer Antwort erstellen'
-      edit_channel: 'Kanäle bearbeiten'
+      edit_channel: 'Alle Kanäle bearbeiten'
       flag_message: 'Nachrichten melden'
       mention_channel_wide: 'Verwende @here und @all'
       moderate: 'Chat moderieren'
@@ -97,7 +97,7 @@ ramon-chat:
       rotate: 'Schlüssel rotieren'
       rotate_confirm: 'Durch das Rotieren des Schlüssels werden alle Anwendungen unterbrochen, die die alte URL verwenden. Möchtest du fortfahren?'
       title: 'Eingehende Webhooks'
-      url_once: 'Kopiere diese URL jetzt – sie wird nicht noch einmal angezeigt.'
+      url_once: 'Kopiere diese URL jetzt. Sie wird nicht noch einmal angezeigt.'
   api:
     archive_discussion_not_found: 'Diese Diskussion existiert nicht oder du hast keinen Zugriff darauf.'
     archive_empty: 'Dieser Kanal wurde ohne Nachrichten archiviert.'
@@ -151,14 +151,21 @@ ramon-chat:
       added: '{count, plural, one {Einladung gesendet an {names}.} other {# Einladungen gesendet: {names}.}}'
       deselect: '{username} aus der Auswahl entfernen'
       empty: 'Es wurde niemand gefunden, oder alle passenden Benutzer sind bereits hier.'
-      failed: 'Diese Benutzer konnten nicht hinzugefügt werden.'
+      failed: 'Diese Benutzer konnten nicht eingeladen werden.'
       hint: 'Gib mindestens zwei Buchstaben ein, um jemanden zu finden.'
+      intro: 'Jede von dir ausgewählte Person erhält eine Benachrichtigung und entscheidet selbst, ob sie {channel} beitreten möchte.'
+      invited_badge: Eingeladen
+      member_badge: Mitglied
+      no_results: 'Keine Treffer für „{query}“.'
       search_failed: 'Benutzer konnten derzeit nicht durchsucht werden.'
-      search_placeholder: 'Benutzer suchen'
+      search_placeholder: 'Nach Namen suchen'
       searching: Suchen…
-      submit: Hinzufügen
-      submit_count: '{count} hinzufügen'
-      title: 'Mitglieder hinzufügen'
+      selected_count: '{count, plural, one {# Person ausgewählt} other {# Personen ausgewählt}}'
+      submit: Einladen
+      submit_count: '{count} einladen'
+      suggested: 'Kürzlich aktiv'
+      title: 'Mitglieder einladen'
+      you_badge: Du
     bookmarks:
       empty: 'Du hast noch keine Nachrichten gespeichert.'
       no_text: '(nur Anhänge)'
@@ -176,6 +183,7 @@ ramon-chat:
       filter_closed: Geschlossen
       filter_mine: 'Meine Kanäle'
       filter_open: Offen
+      invited: Eingeladen
       joined: Beigetreten
       load_failed: 'Die Kanalliste konnte nicht geladen werden.'
       messages: '{count, plural, one {# Nachricht} other {# Nachrichten}}'
@@ -187,16 +195,24 @@ ramon-chat:
       subtitle_join_only: 'Finde einen Kanal, dem du beitreten kannst.'
       title: 'Kanäle durchsuchen'
     channel:
+      accept_invite: 'Einladung annehmen'
       archived: 'Dieser Kanal wurde archiviert.'
       archived_link: 'Die archivierte Mitschrift anzeigen'
       close_pinned: 'Angeheftete Nachrichten schließen'
       closed: 'Dieser Kanal ist geschlossen. Es können keine neuen Nachrichten gesendet werden.'
+      decline_invite: Ablehnen
+      decline_invite_confirm: 'Diese Einladung ablehnen? Wer auch immer dich eingeladen hat wird davon erfahren.'
       edit: 'Kanal bearbeiten'
+      invite_accepted: 'Du bist dem Kanal beigetreten.'
+      invite_declined: 'Du hast die Einladung abgelehnt.'
+      invite_failed: 'Diese Einladung konnte nicht beantwortet werden.'
+      invited: 'Du wurdest in diesen Kanal eingeladen.'
+      invited_by: '{username} hat dich in diesen Kanal eingeladen.'
       join: 'Kanal beitreten'
       join_failed: 'Du konntest dem Kanal nicht beitreten.'
       join_hidden: 'Kanal einsehen'
       join_to_post: 'Tritt diesem Kanal bei, um Nachrichten zu senden.'
-      joined_hidden: 'Du bist beigetreten, ohne in der Mitgliederliste aufgeführt zu werden.'
+      joined_hidden: 'Du spähst in diesen Kanal. Du wirst nicht als Mitglied aufgeführt, und weder deine Ankunft noch dein Weiterziehen werden angekündigt.'
       leave: 'Kanal verlassen'
       leave_confirm: 'Diesen Kanal verlassen? Du kannst später wieder beitreten, und dein Verlauf bleibt erhalten.'
       leave_failed: 'Der Kanal konnte nicht verlassen werden.'
@@ -223,6 +239,7 @@ ramon-chat:
       placeholder: 'Nachricht an {channel}'
       placeholder_closed: 'Dieser Kanal ist geschlossen'
       placeholder_thread: 'Im Thread antworten'
+      remove_upload: 'Anhang entfernen'
       send: Senden
       send_ctrl_enter: 'Senden (Strg+Eingabetaste)'
       send_enter: 'Senden (Eingabetaste)'
@@ -301,12 +318,17 @@ ramon-chat:
       auto_join_on_reply: 'Benutzer hinzufügen, die in dieser Kategorie antworten'
       auto_join_on_reply_help_bound: 'Ein Nutzer wird beim ersten Mal als Mitglied hinzugefügt, wenn er auf eine Diskussion in {category} antwortet, und wird nicht erneut hinzugefügt, wenn er die Gruppe später verlässt.'
       auto_join_on_reply_help_none: 'Wird nur dann ausgeführt, wenn der Kanal einer Kategorie zugeordnet ist.'
+      cancel_invite: 'Einladung für {username} zurücknehmen'
+      cancel_invite_confirm: 'Einladung für {username} zurücknehmen? Die Benachrichtigung wird ebenfalls entfernt.'
       category: Kategorie
       close_channel: 'Kanal schließen'
       composer: Composer
       delete_channel: 'Kanal löschen'
       delete_confirm: 'Das Löschen eines Kanals kann nicht rückgängig gemacht werden. Möchtest du ihn trotzdem löschen?'
       description: Beschreibung
+      invite_cancelled: 'Die Einladung für {username} wurde zurückgenommen.'
+      invited_badge: Eingeladen
+      invited_heading: '{count, plural, one {# ausstehende Einladung} other {# ausstehende Einladungen}}'
       level_always: 'Jede Nachricht'
       level_always_help: 'Jede Nachricht hier löst eine Benachrichtigung aus.'
       level_mentions: 'Nur Erwähnungen'
@@ -315,11 +337,15 @@ ramon-chat:
       level_never_help: 'Dieser Kanal sendet keine Benachrichtigungen. Ungelesene Nachrichten werden weiterhin in der Seitenleiste angezeigt.'
       member_removed: '{username} wurde aus dem Kanal entfernt.'
       member_search: 'Mitglieder filtern'
+      moderator_badge: Moderator
+      moderator_demoted: '{username} ist nicht mehr Moderator in diesem Kanal.'
+      moderator_promoted: '{username} ist jetzt Moderator in diesem Kanal.'
       mute: 'Diesen Kanal stummschalten'
       mute_help: 'Bei stummgeschalteten Kanälen werden keine Zähler für ungelesene Beiträge angezeigt.'
       no_members: 'Es wurden keine Mitglieder gefunden.'
       notification_level: 'Benachrichtige mich über'
       notifications: Benachrichtigungen
+      owner_badge: Besitzer
       post_discussions: 'Neue Diskussionen aus dieser Kategorie ankündigen'
       post_discussions_help_bound: 'Jede neue Diskussion, die in {category} gestartet wird, wird im Kanal angekündigt.'
       remove_member: '{username} entfernen'
@@ -378,6 +404,7 @@ ramon-chat:
         channel_closed: 'Dieser Kanal wurde geschlossen.'
         channel_reopened: 'Dieser Kanal wurde wieder geöffnet.'
         discussion_started: '{username} hat eine Diskussion begonnen: {title}'
+        user_accepted_invite: '{username} ist dem Kanal auf Einladung von {actor} beigetreten.'
         user_added: '{username} wurde von {actor} hinzugefügt.'
         user_joined: '{username} ist dem Kanal beigetreten.'
         user_left: '{username} hat den Kanal verlassen.'
@@ -439,7 +466,7 @@ ramon-chat:
       threading_help: 'Antworten können in einen eigenen Thread verzweigen, anstatt den Hauptkanal zu unterbrechen.'
       visibility: 'Wer diesen Kanal sehen kann'
     notifications:
-      channel_invite: '{username} hat dich zu {channel} hinzugefügt'
+      channel_invite: '{username} hat dich in {channel} eingeladen'
       message_flagged: '{username} hat eine Nachricht in {channel} gemeldet'
       someone: Jemand
     revisions:
@@ -467,7 +494,7 @@ ramon-chat:
       channel_wide_mentions: 'Benachrichtige mich bei @here und @all'
       email_notifications: 'Schick mir eine E-Mail bezüglich Erwähnungen im Chat'
       enabled: 'Chat für mein Konto aktivieren'
-      notify_channel_invite: 'Jemand fügt mich zu einem Chat-Kanal hinzu'
+      notify_channel_invite: 'Jemand lädt mich in einen Chat-Kanal ein'
       notify_message_flagged: 'Jemand meldet eine Chat-Nachricht'
       open_in_drawer: 'Chat in einer Leiste statt im Vollbildmodus öffnen'
       sound: Benachrichtigungston
