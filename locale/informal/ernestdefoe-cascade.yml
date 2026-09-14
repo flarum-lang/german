@@ -8,12 +8,26 @@ ernestdefoe-cascade:
       allow_user_preset_help: 'Fügt auf der Einstellungsseite jedes Mitglieds eine Auswahl für die Voreinstellung hinzu. Die getroffene Auswahl gilt nur für das jeweilige Mitglied; wer keine Auswahl trifft, behält die oben angegebene Standard-Einstellung des Forums bei. Deaktiviere diese Option, um im gesamten Forum ein einheitliches Erscheinungsbild beizubehalten.'
       allow_user_preset_label: 'Lässt die Mitglieder selbst entscheiden'
       engagement_bar_auto: Auto
+      engagement_bar_help: '„Auto“ zeigt „Reply and Share“ in jeder Zeile an, und auf der Diskussionsseite wird ein Reaktionsfeld hinzugefügt, wenn „flarum/likes“ oder „fof/reactions“ aktiviert ist. „Cascade“ liefert keine eigenen Reaktionen mit, sodass bei fehlender Installation beider Module kein Reaktionsfeld angezeigt wird.'
       engagement_bar_label: Engagement-Leiste
       engagement_bar_off: Verbergen
       engagement_bar_on: 'Immer anzeigen'
+      excerpt_length_help: 'Zwischen 40 und 600. Längere Auszüge bedeuten, dass ohne Scrollen weniger Diskussionen sichtbar sind und jede Seite der Liste etwas mehr Inhalt enthält.'
+      excerpt_length_label: 'Länge des Auszugs (in Zeichen)'
+      feed_density_excerpt: 'Nur Auszug'
+      feed_density_excerpt_media: 'Auszug und Bild'
+      feed_density_help: 'Auszug und Bild sorgen dafür, dass sich die Liste wie ein Feed liest. Der Titel allein verwandelt Cascade wieder in eine herkömmliche Diskussionsliste und lässt die Abfrage nach dem Auszug komplett aus.'
+      feed_density_label: 'Was in jeder Zeile angezeigt wird'
+      feed_density_title: 'Nur Titel'
+      hashtag_count_help: 'Zwischen 6 und 60. Je mehr Einträge vorhanden sind, desto dichter wird die Wolke und desto schwieriger ist es, die kleinsten Einträge zu erkennen.'
+      hashtag_count_label: 'Hashtags in der Wolke'
       preset_help: 'So sieht die Ansicht für jedes Mitglied aus, sofern es nicht unten eine eigene Option auswählt. Im „Facebook-Stil“ wird jede Diskussion auf einer eigenen Karte vor grauem Hintergrund mit einer breiten, beschrifteten Interaktionsleiste dargestellt. Im „X-Stil“ werden sie als durch feine Linien getrennte Zeilen in einer einzigen Spalte angezeigt. Der „Bluesky-Stil“ behält die einzelne Spalte bei, fügt jedoch Trennlinien in den Text ein, lockert den Abstand und zeigt die Aktionen als Hover-Elemente an. Alle drei Stile haben das gleiche Layout und die gleichen Einstellungen; die Umstellung wird beim nächsten Laden der Seite wirksam.'
       preset_label: Voreinstellung
       title: Cascade
+      widget_hashtags_help: 'Eine gewichtete Wolke der am häufigsten verwendeten Hashtags in der rechten Spalte, deren Größe sich nach dem Rang und nicht nach der reinen Anzahl richtet, damit sie auch bei sehr ungleichmäßigen Zahlen gut lesbar bleibt. Wird nur angezeigt, wenn die Erweiterung „Hashtags“ aktiviert ist; ohne diese Erweiterung hat die Einstellung keine Wirkung.'
+      widget_hashtags_label: Hashtag-Wolken-Widget
+      widget_trending_help: 'Ordnet Tags danach, wie viele Diskussionen sie in den letzten sieben Tagen tatsächlich erhalten haben; die Berechnung erfolgt stündlich. Erfordert „flarum/tags“; ohne dieses Modul wird das Widget ausgeblendet.'
+      widget_trending_label: '"Im Trend"-Widget anzeigen'
   forum:
     composer:
       cannot_start: 'Sie sind nicht berechtigt, eine Diskussion zu starten'

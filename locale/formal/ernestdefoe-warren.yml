@@ -5,7 +5,12 @@
 ernestdefoe-warren:
   admin:
     settings:
+      allow_self_votes_help: 'Standardmäßig aktiviert, passt zu „fof/gamification“. Deaktiviere diese Funktion, wenn du eine Selbstbewertung als Punkteschwindel betrachten.'
+      allow_self_votes_label: 'Benutzern erlauben, über ihre eigenen Beiträge abstimmen können'
+      default_sort_help: 'Was auf der Startseite angezeigt wird, bevor jemand eine Sortierreihenfolge auswählt.'
+      default_sort_hot: 'Heiß — Bewertung und Alter kombiniert'
       default_sort_label: Standardansicht
+      default_sort_latest: 'Neueste — zuletzt Antwort erhalten'
       density_card: 'Ausladend — großzügige Abstände und abgerundete Ecken'
       density_compact: 'Kompakt — die klassische, kompakte Liste'
       density_help: 'Wie viel Platz jeder Beitrag im Feed einnimmt.'
@@ -14,6 +19,9 @@ ernestdefoe-warren:
       hashtag_count_label: 'Hahstags als Wolke'
       show_about_help: 'Die Box auf der rechten Seite mit der Beschreibung des Forums, den Zahlenangaben und einer Schaltfläche zum Starten einer Diskussion. Wenn du es ausblendest, wird der Platz wieder vom Feed eingenommen.'
       show_about_label: 'Infobox anzeigen'
+      thread_depth_help: 'Wie weit eine Antwort nach rechts eingerückt wird. Weiter untergeordnete Antworten befinden sich weiterhin unter ihrer übergeordneten Antwort, werden jedoch nicht mehr eingerückt – wodurch verhindert wird, dass ein langer Austausch über den Rand der Spalte hinausragt.'
+      thread_depth_label: 'Maximale Einrückung bei Antworten'
+      vote_permission_label: 'Abstimmung auf Beiträgen'
   forum:
     rail:
       about: 'Über diese Community'
