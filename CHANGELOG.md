@@ -12,6 +12,7 @@ CHANGELOG
 * [`ernestdefoe/ridge`](https://github.com/ernestdefoe/ridge)
 * [`ernestdefoe/since`](https://github.com/ernestdefoe/since)
 * [`ernestdefoe/steward`](https://github.com/ernestdefoe/steward)
+* [`ernestdefoe/tributary`](https://github.com/ernestdefoe/tributary)
 * [`ernestdefoe/verbatim`](https://github.com/ernestdefoe/verbatim)
 * [`ernestdefoe/wardrobe`](https://github.com/ernestdefoe/wardrobe)
 * [`ernestdefoe/warren`](https://github.com/ernestdefoe/warren)
