@@ -4,7 +4,9 @@
 
 ernestdefoe-tributary:
   forum:
+    answering: 'Antwort auf {username}'
     answering_cancel: 'Stattdessen in der Diskussion antworten'
+    branch_empty: 'Hier ist nichts mehr.'
     in_reply_to: 'Antwort auf {username}'
     load_more: 'Mehr Antworten anzeigen'
     reply_count: '{count, plural, one {# Antwort} other {# Antworten}}'

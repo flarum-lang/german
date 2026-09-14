@@ -5,10 +5,18 @@
 ernestdefoe-wardrobe:
   admin:
     settings:
+      allow_user_choice_help: "Deaktiviere diese Option, um für das gesamte Forum die Standardeinstellung beizubehalten. Die von den Mitgliedern bereits getroffenen Auswahlen werden sofort außer Kraft gesetzt.\n"
+      allow_user_choice_label: 'Die Mitglieder sollen ihr Design selbst wählen können'
+      default_help: 'Was Gäste sehen und was Mitglieder sehen, bis sie sich selbst entscheiden.'
       default_label: Standarddesign
+      no_themes: "Es sind noch keine Designs installiert und aktiviert. Installiere ein zweites Design, dann wird es hier angezeigt.\n"
+      themes_help: "Jede aktivierte Erweiterung, die sich selbst als Design deklariert. Setze ein Häkchen bei den in diesem Forum angebotenen – jede erhält ein eigenes Stylesheet, sodass es nie zu Überschneidungen kommt.\n"
+      themes_label: 'Designs, aus denen Mitglieder auswählen können'
   forum:
     switcher:
       label: Design
     theme:
       follow_forum: 'Forumdesign verwenden'
       heading: Design
+      help: 'Wie das Forum für dich aussieht. Niemand sonst sieht deine Auswahl.'
+      save_failed: 'Dein Design konnte nicht gespeichert werden. Bitte versuche es erneut.'
