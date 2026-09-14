@@ -16,6 +16,7 @@ CHANGELOG
 * [`ernestdefoe/verbatim`](https://github.com/ernestdefoe/verbatim)
 * [`ernestdefoe/wardrobe`](https://github.com/ernestdefoe/wardrobe)
 * [`ernestdefoe/warren`](https://github.com/ernestdefoe/warren)
+* [`stezkoy/flarum-feed2forum`](https://github.com/Stezkoy/flarum-feed2forum)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
