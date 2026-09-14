@@ -19,6 +19,8 @@ stezkoy-feed2forum:
       fetch_interval_label: 'Überprüfungshäufigkeit (Minuten)'
       general_heading: 'Allgemeine Einstellungen'
       general_help: 'Globale Einstellungen, die auf alle Feeds angewendet werden.'
+      log_clear: 'Protokoll leeren'
+      log_clear_confirmation: 'Alle Protokolleinträge löschen?'
       log_count: '{count} Einträge'
       log_empty: 'Noch keine Einträge.'
       log_level_error: Fehler
@@ -31,7 +33,9 @@ stezkoy-feed2forum:
       preview_tooltip: Vorschau
       publish_mode_auto: Sofort
       publish_mode_queue: Manuell
+      queue_clear: 'Warteschlange leeren'
       queue_count: '{count} Artikel warten auf Freigabe'
+      queue_delete_error: 'Artikel konnte nicht gelöscht werden.'
       queue_delete_tooltip: 'Artikel überspringen'
       queue_heading: Genehmigungswarteschlange
       queue_heading_actions: Aktionen
@@ -39,6 +43,9 @@ stezkoy-feed2forum:
       queue_heading_published: Veröffentlicht
       queue_heading_title: Titel
       queue_publish: Veröffentlichen
+      queue_publish_error: 'Artikel konnte nicht veröffentlicht werden.'
+      queue_published: 'Diskussion erstellt. Der Eintrag wurde aus der Warteschlange entfernt.'
+      queue_queued: 'Der Beitrag wurde in die Veröffentlichungswarteschlange aufgenommen. Die Diskussion wird angezeigt, sobald der Warteschlangen-Mitarbeiter den Beitrag bearbeitet hat.'
       show_source_link_help: 'Wenn aktiviert, wird am Anfang jeder Diskussion ein Link zum Originalartikel eingefügt.'
       show_source_link_label: 'Links zu den Originalartikeln hinzufügen'
       tag_none: 'Kein Tag'
