@@ -10,42 +10,75 @@ stezkoy-feed2forum:
       author_label: Autor
       author_select_button: 'Autor auswählen'
       author_select_title: 'Autor auswählen'
+      author_unbind_tooltip: 'Autorenverknüpfung entfernen'
+      check_all: 'Alle Feeds jetzt prüfen'
+      check_all_success: 'Abruf-Jobs wurden in die Warteschlange eingereiht.'
+      feed_delete_error: 'Feed konnte nicht gelöscht werden.'
+      feed_update_error: 'Feed konnte nicht gespeichert werden.'
+      feeds_delete_confirmation: 'Diesen Feed löschen? Importierte Einträge bleiben erhalten, der Feed selbst und seine ausstehenden Einträge werden jedoch entfernt.'
+      feeds_delete_tooltip: 'Feed löschen'
+      feeds_heading: Feeds
       feeds_heading_actions: Aktionen
+      feeds_heading_limit: Veröffentlichungslimit
+      feeds_heading_mode: Veröffentlichung
       feeds_heading_status: Status
       feeds_heading_tag: Tag
       feeds_heading_title: Titel
       feeds_heading_url: URL
+      feeds_hint: 'Jede Zeile kann bearbeitet werden und wird beim Verlassen der Zeile gespeichert. Angehaltene Feeds werden beim Abrufen übersprungen.'
+      fetch_error: 'Feed-Abruf konnte nicht ausgelöst werden.'
       fetch_interval_help: 'Feeds alle N Minuten überprüfen (Standard: 60).'
       fetch_interval_label: 'Überprüfungshäufigkeit (Minuten)'
+      fetch_tooltip: 'Diesen Feed jetzt abrufen'
       general_heading: 'Allgemeine Einstellungen'
       general_help: 'Globale Einstellungen, die auf alle Feeds angewendet werden.'
+      load_error: 'Feeds konnten nicht geladen werden.'
       log_clear: 'Protokoll leeren'
       log_clear_confirmation: 'Alle Protokolleinträge löschen?'
+      log_clear_error: 'Protokoll konnte nicht geleert werden.'
+      log_clear_success: 'Das Protokoll wurde geleert.'
       log_count: '{count} Einträge'
       log_empty: 'Noch keine Einträge.'
+      log_heading: Arbeitsprotokoll
+      log_hint: 'letzte 100 Einträge, maximal 500 werden aufbewahrt'
       log_level_error: Fehler
       log_level_info: Info
+      log_load_error: 'Protokoll konnte nicht geladen werden.'
+      log_more: '100 weitere laden'
       log_refresh: Aktualisieren
       new_feed_add: 'Feed hinzufügen'
+      new_feed_error: 'Feed konnte nicht hinzugefügt werden.'
+      new_feed_title: 'Titel des neuen Feeds'
+      new_feed_url: 'https://beispiel.de/feed.xml'
+      new_feed_url_invalid: 'Die URL muss entweder mit http:// oder https:// beginnen.'
       preview_close: Schließen
       preview_empty: 'Der Feed hat noch keine Artikel.'
+      preview_error: 'Feedvorschau konnte nicht geladen werden.'
       preview_title: '{title} — Vorschau'
       preview_tooltip: Vorschau
       publish_mode_auto: Sofort
       publish_mode_queue: Manuell
       queue_clear: 'Warteschlange leeren'
+      queue_clear_confirmation: 'Alle ausstehenden Einträge überspringen? Sie werden nie wieder in der Warteschlange erscheinen und nicht erneut aus den Feeds importiert.'
+      queue_clear_error: 'Warteschlange konnte nicht geleert werden.'
+      queue_clear_success: 'Die Genehmigungswarteschlange wurde geleert.'
       queue_count: '{count} Artikel warten auf Freigabe'
+      queue_delete_confirmation: 'Diesen Eintrag überspringen, ohne ihn zu veröffentlichen? Er wird nie wieder in der Warteschlange erscheinen und nicht erneut aus dem Feed importiert.'
       queue_delete_error: 'Artikel konnte nicht gelöscht werden.'
       queue_delete_tooltip: 'Artikel überspringen'
+      queue_empty: 'Keine Einträge warten auf Genehmigung.'
       queue_heading: Genehmigungswarteschlange
       queue_heading_actions: Aktionen
       queue_heading_feed: Feed
       queue_heading_published: Veröffentlicht
       queue_heading_title: Titel
+      queue_hint: 'Klicke auf „Veröffentlichen“, um aus dem Beitrag eine Diskussion zu erstellen. Nur die neuesten Beiträge innerhalb des Veröffentlichungslimits des jeweiligen Feeds landen in dieser Warteschlange.'
+      queue_load_error: 'Genehmigungswarteschlange konnte nicht geladen werden.'
       queue_publish: Veröffentlichen
       queue_publish_error: 'Artikel konnte nicht veröffentlicht werden.'
       queue_published: 'Diskussion erstellt. Der Eintrag wurde aus der Warteschlange entfernt.'
       queue_queued: 'Der Beitrag wurde in die Veröffentlichungswarteschlange aufgenommen. Die Diskussion wird angezeigt, sobald der Warteschlangen-Mitarbeiter den Beitrag bearbeitet hat.'
+      queue_restored_badge: 'Früher gelöscht'
       show_source_link_help: 'Wenn aktiviert, wird am Anfang jeder Diskussion ein Link zum Originalartikel eingefügt.'
       show_source_link_label: 'Links zu den Originalartikeln hinzufügen'
       tag_none: 'Kein Tag'
