@@ -2,6 +2,36 @@ CHANGELOG
 =========
 
 
+2.0.19 (2026-09-15)
+-------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries)
+* [`ernestdefoe/marginalia`](https://github.com/ernestdefoe/marginalia)
+* [`ernestdefoe/ridge`](https://github.com/ernestdefoe/ridge)
+* [`ernestdefoe/since`](https://github.com/ernestdefoe/since)
+* [`ernestdefoe/steward`](https://github.com/ernestdefoe/steward)
+* [`ernestdefoe/tributary`](https://github.com/ernestdefoe/tributary)
+* [`ernestdefoe/verbatim`](https://github.com/ernestdefoe/verbatim)
+* [`ernestdefoe/wardrobe`](https://github.com/ernestdefoe/wardrobe)
+* [`ernestdefoe/warren`](https://github.com/ernestdefoe/warren)
+* [`ffans/threadmarks`](https://github.com/FFans/threadmarks)
+* [`stezkoy/flarum-feed2forum`](https://github.com/Stezkoy/flarum-feed2forum)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
+* [`ernestdefoe/cascade`](https://github.com/ernestdefoe/cascade)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`forumfortress/flarum`](https://github.com/forum-fortress/flarum)
+* [`ramon/chat`](https://github.com/ram0ng1/chat)
+
+
+Alle Änderungen: [2.0.18...2.0.19](https://github.com/flarum-lang/german/compare/2.0.18...2.0.19).
+
+
 2.0.18 (2026-09-11)
 -------------------
 
