@@ -9,6 +9,8 @@ CHANGELOG
 
 * [`ffans/threadmarks`](https://github.com/FFans/threadmarks)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
+* [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind)
 * [`stezkoy/flarum-feed2forum`](https://github.com/Stezkoy/flarum-feed2forum)
 
 
