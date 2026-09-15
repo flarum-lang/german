@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`ffans/threadmarks`](https://github.com/FFans/threadmarks)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`stezkoy/flarum-feed2forum`](https://github.com/Stezkoy/flarum-feed2forum)
 
 
 Alle Änderungen: [2.0.19...2.0.20](https://github.com/flarum-lang/german/compare/2.0.19...2.0.20).
