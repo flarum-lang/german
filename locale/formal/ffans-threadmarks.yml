@@ -55,6 +55,7 @@ ffans-threadmarks:
       note_placeholder: Optional
       personal_tab: Persönlich
       save_button: '=> ffans-threadmarks.ref.save'
+      scope_a11y_label: 'Diskussionsmarkierung Bereich'
       title: 'Diskussionsmarkierung · #{number}'
       type_label: '=> ffans-threadmarks.ref.type'
       type_placeholder: 'Wähle einen Typ'
@@ -81,6 +82,10 @@ ffans-threadmarks:
       progress: Fortschritt
       update: Aktualisierung
   lib:
+    gdpr:
+      anonymize_description: 'Löscht deine persönlichen Diskussionsmarkierungen und entfernt deine Ersteller-/Bearbeiter-IDs von den öffentlichen Diskussionsmarkierungen.'
+      delete_description: 'Löscht deine persönlichen Diskussionsmarkierungen und entfernt deine Ersteller-/Bearbeiter-IDs von den öffentlichen Diskussionsmarkierungen.'
+      export_description: 'Exportiert alle deine persönlichen und öffentlichen Diskussionsmarkierungen, die du erstellt oder zuletzt bearbeitet haben, ohne den Inhalt der Beiträge.'
     type_form:
       color_label: '=> core.ref.color'
       icon_label: '=> core.ref.icon'
@@ -88,7 +93,13 @@ ffans-threadmarks:
       key_label: '=> ffans-threadmarks.ref.key'
       name_label: Name
     validation:
+      disabled_type: 'Dieser Markierungstyp ist deaktiviert. Wähle einen anderen Typ aus.'
+      duplicate_discussion: 'Dieser Beitrag hat bereits eine öffentliche Diskussionsmarkierung. Bearbeite stattdessen die vorhandene Markierung.'
+      duplicate_personal: 'Du hast bereits eine persönliche Diskussionsmarkierung für diesen Beitrag gesetzt. Bearbeite stattdessen die bereits vorhandene.'
       first_post: 'Diskussionsmarkierungen können nicht dem ersten Beitrag hinzugefügt werden.'
+      invalid_discussion_post: 'Diskussionsmarkierungen können nur auf einen Kommentarbeitrag angewendet werden.'
+      invalid_personal_post: 'Persönliche Diskussionsmarkierungen können nur auf einen Kommentarbeitrag angewendet werden.'
+      type_in_use: 'Dieser Markierungstyp wird verwendet und kann daher nicht gelöscht werden.'
   ref:
     discussion: Diskussion
     key: Schlüssel
