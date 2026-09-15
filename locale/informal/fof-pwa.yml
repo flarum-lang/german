@@ -50,6 +50,8 @@ fof-pwa:
         heading: Andere
         push_notif_preference_default_to_email_label: 'Standard-Push-Präferenzen von E-Mail übernehmen'
         push_notif_preference_default_to_email_text: 'Wenn aktiviert, haben Benutzer standardmäßig Push-Benachrichtigungen aktiviert für alle Benachrichtigungsarten, bei denen auch E-Mail-Benachrichtigungen standardmäßig aktiviert sind. Wenn deaktiviert, sind Push-Benachrichtigungen standardmäßig deaktiviert.'
+        push_notification_ttl_label: 'TTL für Push-Benachrichtigung'
+        push_notification_ttl_text: 'Wie lange nicht zugestellte Push-Benachrichtigungen in der Warteschlange des Push-Dienstes verbleiben sollen, bevor sie verfallen (in Sekunden).'
         share_buttons_label: 'Schaltflächen „Teilen“ hinzufügen'
         share_buttons_text: 'Wenn aktiviert, wird Diskussionen, Beiträgen und Benutzerseiten eine „Teilen“-Schaltfläche hinzugefügt.'
         user_max_subscriptions_label: 'Maximale Push-Abonnements pro Benutzer'
@@ -69,6 +71,9 @@ fof-pwa:
       possible_https_disabled: 'Möglicherweise läuft deine Seite nicht über HTTPS. Es könnte helfen, den Cache zu leeren (Admin-Dashboard => Dropdown „Werkzeuge“). Wenn sie es tut, ignoriere dies. Falls nicht, denke daran, dass HTTPS für die Funktion von Progressive Web-Apps erforderlich ist.'
       success: 'Keine Probleme gefunden!'
       suggest_gmp: 'Die gmp-PHP-Erweiterung scheint auf deinem Server nicht aktiviert zu sein. Dies ist nicht unbedingt erforderlich, kann jedoch die Leistung verbessern und wird empfohlen. Einige gemeinsam genutzte Hosts unterstützen dies jedoch möglicherweise nicht.'
+  api:
+    endpoint_host_not_allowed: 'Push-Benachrichtigungen konnten nicht aktiviert werden, da der von deinem Browser verwendete Push-Dienst-Host „{host}“ nicht zugelassen ist. Bitte wende dich an den Forum-Administrator.'
+    endpoint_https_required: 'Push-Benachrichtigungen konnten nicht aktiviert werden, da dein Browser eine ungültige Push-Dienst-URL „{url}“ angegeben hat. Es ist eine gültige HTTPS-URL erforderlich.'
   forum:
     alerts:
       optin: 'Dieses Forum kann Push-Benachrichtigungen an dieses Gerät senden. Möchtest du diese aktivieren?'

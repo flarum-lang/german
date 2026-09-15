@@ -78,10 +78,28 @@ huseyinfiliz-rewind:
       slides_community: Community-Rückblick
       slides_help: 'Wähle aus, welche Folien in der „Rückblick“-Diashow angezeigt werden sollen. Es werden immer alle Daten erfasst – ausgeblendete Folien werden lediglich nicht angezeigt.'
       slides_user: Benutzer-Rückblick
+      templates_title: Vorlagen
     tabs:
       advanced: Erweitert
       general: Allgemein
       slides: Folien
+      templates: Vorlagen
+    templates:
+      back_to_list: 'Zurück zu Vorlagen'
+      create_button: 'Benutzerdefinierte Vorlage erstellen'
+      create_modal_title: 'Benutzerdefinierte Vorlage erstellen'
+      create_submit: 'Vorlage erstellen'
+      created_success: 'Vorlage erfolgreich erstellt.'
+      delete: Löschen
+      edit: Bearbeiten
+      save_changes: 'Änderungen speichern'
+      saved_success: 'Vorlage erfolgreich gespeichert.'
+      title: Vorlagen
+      type_community: 'Community-Rückblick (community.blade.php)'
+      type_error: 'Fehlerseite (error.blade.php)'
+      type_label: Vorlagenart
+      type_user: 'Benutzer-Rückblick (user.blade.php)'
+      unsaved_changes: 'Ungespeicherte Änderungen'
   forum:
     community:
       coming_soon: 'Community-Rückblick wurde noch nicht erstellt. Bleib dran!'
