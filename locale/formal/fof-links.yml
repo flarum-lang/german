@@ -12,30 +12,65 @@ fof-links:
       icon_text: '=> core.ref.icon_text'
       internal_link: 'Ist dies ein interner Link?'
       open_newtab: 'Link in neuem Tab öffnen'
+      options_label: Optionen
       submit_button: '=> core.ref.save_changes'
       title: '=> fof-links.ref.create_link'
+      title_child: 'Neuer Link unter {parent}'
       title_label: '=> fof-links.ref.title'
       title_placeholder: '=> fof-links.ref.title'
+      type:
+        external:
+          help: 'Öffnet eine Seite außerhalb dieses Forums.'
+          label: 'Ruft eine andere Seite auf'
+        heading: 'Was dieser Link tut'
+        internal:
+          help: 'Wird geöffnet, ohne dass die Seite neu geladen wird.'
+          label: 'Ruft eine Seite in diesem Forum auf'
+        label:
+          help: 'Wird als Bezeichner angezeigt. Verwende diese, um eine Gruppe von Links zu benennen.'
+          label: 'Ohne Zielseite'
       url_description: 'Zum Anzeigen als Label leer lassen.'
+      url_help:
+        external: 'Die vollständige Adresse, beginnend mit <code>https://</code>.'
+        internal: 'Der Teil der Adresse nach {baseUrl}, der mit einem Schrägstrich beginnt.'
       url_label: '=> fof-links.ref.url'
       url_placeholder: '=> fof-links.ref.url'
-      use_rel_me: 'Fügt den Attribut <code>rel="me"</code> zur Überprüfung der Identität auf anderen Websites hinzu'
+      url_placeholder.external: 'https://beispiel.de'
+      url_placeholder.internal: /tags
+      use_rel_me: 'Fügt das Attribut <code>rel="me"</code> hinzu'
+      use_rel_me_help: 'So kann die Website, auf die du verlinkst, überprüfen, dass dieses Forum dir gehört.'
       visibility:
         guest-only:
-          help: 'Nur {guest} können diesen Link sehen. Die Berechtigung oberhalb sollte auf ''{everyone}'' gesetzt sein.'
-          label: 'Nur {guest}?'
-        help: 'Links sind standardmässig nur für <code>{admin}</code>-Nutzer sichtbar. Passe die Berechtigungen an, um festzulegen, wer diesen Link sehen kann.'
+          help: 'Nur angemeldete Benutzer können diesen Link sehen. Die Berechtigung oberhalb sollte auf {everyone} gesetzt sein.'
+          label: 'Nur für {guest} anzeigen'
+        help: 'Links sind standardmässig nur für {admin}-Benutzer sichtbar. Passe die Berechtigungen an, um festzulegen, wer diesen Link sehen kann.'
         help-disabled: 'Speichere den Link, um die Sichtbarkeit anpassen zu können.'
-        label: 'Sichtbarkeit des Links'
+        label: 'Wer den Link sehen kann'
     links:
+      add_child_accessible_label: 'Link unterhalb von {title} einfügen'
+      audience_everyone: 'Für jeden sichtbar'
       create_button: '=> fof-links.ref.create_link'
+      description: 'Diese werden in der Navigation deines Forums in der Reihenfolge angezeigt, in der sie hier aufgeführt sind.'
+      edit_accessible_label: '{title} bearbeiten'
+      flag:
+        guest_only: 'Nur Gäste'
+        new_tab: 'Neuer Tab'
+        rel_me: 'rel="me"'
       links: '=> fof-links.ref.links'
-      preconfigured: 'Links in diesem Forum sind vordefiniert und können daher hier nicht bearbeitet werden.'
+      moved: '{title} in Position {position} von {total} verschoben.'
+      moved_under: '{title} unterhalb von {parent} verschoben, Position {position} von {total}.'
+      no_url: 'Kein Link, wird als Bezeichner angezeigt'
+      preconfigured: 'Links in diesem Forum sind per Code vordefiniert und können daher hier nicht bearbeitet werden.'
+      reorder_accessible_label: '{title} neu anordnen. Verwende die Pfeiltasten, um ihn nach oben, nach unten, in den obigen Link hinein oder wieder heraus zu verschieben.'
+      reorder_help: 'Ziehe einen Link am Griff, um ihn neu anzuordnen, oder lege ihn auf einen anderen Link ab, um ihn darunter einzufügen. Wenn der Fokus auf einem Griff liegt, haben die Pfeiltasten dieselbe Funktion.'
+      reorder_loading: 'List wird für Neuanordnung vorbereitet…'
     settings:
+      heading: Einstellungen
       show_icons_only_on_tablet: 'Icons nur auf Tablet-Bildschirmen anzeigen'
+      show_icons_only_on_tablet_help: 'Blendet Link-Titel bei einer Breite zwischen 768px und 991px aus, da die Navigation in diesem Bereich am wenigsten Platz bietet. Die Titel werden von Bildschirmleseprogrammen weiterhin vorgelesen.'
   forum:
     header:
-      toggle_dropdown_accessible_label: 'Dropdown-Menü für den Link umschalten'
+      toggle_dropdown_accessible_label: 'Links unterhalb {title} anzeigen'
   ref:
     create_link: 'Link erstellen'
     links: Links
