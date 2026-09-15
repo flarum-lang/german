@@ -2,6 +2,26 @@ CHANGELOG
 =========
 
 
+2.0.20 (XXXX-XX-XX)
+-------------------
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`huseyinfiliz/language-detection`](https://github.com/huseyinfiliz/language-detection)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`ffans/threadmarks`](https://github.com/FFans/threadmarks)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
+* [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind)
+* [`stezkoy/flarum-feed2forum`](https://github.com/Stezkoy/flarum-feed2forum)
+
+
+Alle Änderungen: [2.0.19...2.0.20](https://github.com/flarum-lang/german/compare/2.0.19...2.0.20).
+
+
 2.0.19 (2026-09-15)
 -------------------
 
