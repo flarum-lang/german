@@ -34,16 +34,21 @@ ffans-threadmarks:
   forum:
     directory:
       all_filter: Alle
+      close_a11y_label: 'Verzeichnis der Diskussionsmarkierungen schließen'
       discussion_filter: '=> ffans-threadmarks.ref.discussion'
       hide_button: Diskussionsmarkierungen
       personal_filter: '=> ffans-threadmarks.ref.mine'
+      scope_a11y_label: 'Diskussionsmarkierungen nach Bereich filtern'
       show_button: Diskussionsmarkierungen
       title: '=> ffans-threadmarks.ref.threadmarks'
     discussion_controls:
       show_all_button: 'Alle Beiträge anzeigen'
+      show_threadmarks_button: 'Nur Diskussionsmarkierungen'
     manage_modal:
       add_button: Hinzufügen
       delete_button: '=> core.ref.delete'
+      delete_discussion_confirmation: 'Diese öffentliche Diskussionsmarkierung löschen?'
+      delete_personal_confirmation: 'Diese persönliche Diskussionsmarkierung löschen?'
       discussion_tab: '=> ffans-threadmarks.ref.discussion'
       loading_text: '=> core.ref.loading'
       note_label: Notiz
@@ -53,13 +58,21 @@ ffans-threadmarks:
       title: 'Diskussionsmarkierung · #{number}'
       type_label: '=> ffans-threadmarks.ref.type'
       type_placeholder: 'Wähle einen Typ'
+      unavailable_text: 'Keine Diskussionsmarkierungen zur Verwaltung verfügbar.'
     post_controls:
       manage_button: 'Diskussionsmarkierung verwalten'
+    scrubber:
+      cluster_a11y_label: '{count, plural, one {# Diskussionsmarkierung} other {# Diskussionsmarkierungen}}'
+      open_directory_a11y_label: 'Vollständiges Verzeichnis der Diskussionsmarkierungen öffnen'
+      threadmark_a11y_label: 'Diskussionsmarkierung an Beitrag #{number}'
     threadmark:
       deleted_text: 'Dieser Inhalt wurde gelöscht.'
+      edit_discussion_a11y_label: 'Öffentliche Diskussionsmarkierung an Beitrag #{number} bearbeiten'
       edit_discussion_tooltip: 'Öffentliche Diskussionsmarkierung bearbeiten'
+      edit_personal_a11y_label: 'Persönliche Diskussionsmarkierung an Beitrag #{number} bearbeiten'
       edit_personal_tooltip: 'Persönliche Diskussionsmarkierung bearbeiten'
       mine_badge: '=> ffans-threadmarks.ref.mine'
+      personal_tooltip: 'Persönliche Diskussionsmarkierung, nur für dich sichtbar'
     type_labels:
       chapter: Kapitel
       default: Diskussionsmarkierung
