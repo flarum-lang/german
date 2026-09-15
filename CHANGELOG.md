@@ -5,6 +5,11 @@ CHANGELOG
 2.0.20 (XXXX-XX-XX)
 -------------------
 
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`huseyinfiliz/language-detection`](https://github.com/huseyinfiliz/language-detection)
+
+
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`ffans/threadmarks`](https://github.com/FFans/threadmarks)
