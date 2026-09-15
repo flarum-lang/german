@@ -87,6 +87,8 @@ ffans-threadmarks:
       icon_placeholder: 'fa-solid fa-book'
       key_label: '=> ffans-threadmarks.ref.key'
       name_label: Name
+    validation:
+      first_post: 'Diskussionsmarkierungen können nicht dem ersten Beitrag hinzugefügt werden.'
   ref:
     discussion: Diskussion
     key: Schlüssel
