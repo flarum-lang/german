@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.20 (XXXX-XX-XX)
+-------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`ffans/threadmarks`](https://github.com/FFans/threadmarks)
+
+
+Alle Änderungen: [2.0.19...2.0.20](https://github.com/flarum-lang/german/compare/2.0.19...2.0.20).
+
+
 2.0.19 (2026-09-15)
 -------------------
 
