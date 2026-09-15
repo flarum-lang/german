@@ -66,7 +66,7 @@ fof-links:
       reorder_loading: 'List wird für Neuanordnung vorbereitet…'
     settings:
       heading: Einstellungen
-      show_icons_only_on_tablet: 'Icons nur auf Tablet-Bildschirmen anzeigen'
+      show_icons_only_on_tablet: 'Nur Symbole auf Tablet-Bildschirmen anzeigen'
       show_icons_only_on_tablet_help: 'Blendet Link-Titel bei einer Breite zwischen 768px und 991px aus, da die Navigation in diesem Bereich am wenigsten Platz bietet. Die Titel werden von Bildschirmleseprogrammen weiterhin vorgelesen.'
   forum:
     header:
