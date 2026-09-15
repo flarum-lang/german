@@ -24,6 +24,7 @@ CHANGELOG
 
 * [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
 * [`ernestdefoe/cascade`](https://github.com/ernestdefoe/cascade)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
 * [`forumfortress/flarum`](https://github.com/forum-fortress/flarum)
 * [`ramon/chat`](https://github.com/ram0ng1/chat)
 
