@@ -102,6 +102,8 @@ huseyinfiliz-rewind:
       created_success: 'Vorlage erfolgreich erstellt.'
       delete: Löschen
       edit: Bearbeiten
+      help: 'Verwalte und passe deine Blade-Zusammenfassungsvorlagen direkt über das Admin-Panel an. Benutzerdefinierte Vorlagen im Verzeichnis „storage/rewind/views/“ überschreiben die integrierten Standardvorlagen.'
+      no_templates_found: 'Keine benutzerdefinierte Vorlage gefunden. Derzeit wird die Standardvorlage verwendet.'
       save_changes: 'Änderungen speichern'
       saved_success: 'Vorlage erfolgreich gespeichert.'
       title: Vorlagen
