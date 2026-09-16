@@ -53,6 +53,8 @@ huseyinfiliz-rewind:
       generate_users_help: 'Erstelle „Rückblick“-Snapshots für alle Benutzer, die noch keinen haben. Wähle ein Jahr aus und filtere optional nach Gruppe.'
       generate_users_title: 'Fehlende Benutzer-Rückblicke erstellen'
       invalid_active_year: 'Das aktive Jahr muss eine ganze Zahl zwischen 2000 und 2100 sein.'
+      render_mode_blade: 'Benutzerdefinierte Blade-Vorlage (storage/rewind/views/)'
+      render_mode_slideshow: 'Interaktive Story-Diashow (Mithril & Anime.js)'
       section_achievements: Errungenschaften
       section_content: Inhalt
       section_core: Kernmetriken
@@ -78,7 +80,15 @@ huseyinfiliz-rewind:
       slides_community: Community-Rückblick
       slides_help: 'Wähle aus, welche Folien in der „Rückblick“-Diashow angezeigt werden sollen. Es werden immer alle Daten erfasst – ausgeblendete Folien werden lediglich nicht angezeigt.'
       slides_user: Benutzer-Rückblick
+      templates_examples_title: Beispiel-Codeausschnitte
+      templates_help: 'Du kannst den Jahresrückblick ganz nach deinen Vorstellungen gestalten, indem du Blade-Vorlagendateien im Speicherverzeichnis deines Forums ablegst. Benutzerdefinierte Vorlagen im Verzeichnis „storage/“ werden durch Composer-Updates niemals überschrieben.'
+      templates_storage_help: 'Um eine Vorlage zu überschreiben, erstelle eine .blade.php-Datei im Verzeichnis „storage/rewind/views/“ in deinem Flarum-Stammverzeichnis:'
+      templates_storage_locations: Speicher-Standorte
       templates_title: Vorlagen
+      templates_variables_help: 'Alle berechneten Kennzahlen werden direkt als Variablen an deine Blade-Vorlagen übergeben. Klicke auf einen beliebigen Codeausschnitt, um ihn zu kopieren.'
+      templates_variables_title: 'Verfügbare Blade-Variablen & Cheatsheet'
+      year_presentation_modes_help: 'Lege fest, ob für jedes Jahr die integrierte interaktive animierte Diashow oder eine benutzerdefinierte Blade-Vorlage angezeigt werden soll.'
+      year_presentation_modes_title: 'Präsentationsformat je Jahr'
     tabs:
       advanced: Erweitert
       general: Allgemein
