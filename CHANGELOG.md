@@ -12,6 +12,8 @@ CHANGELOG
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`ernestdefoe/logo-manager`](https://github.com/ernestdefoe/logo-manager)
+* [`ernestdefoe/scribe`](https://github.com/ernestdefoe/scribe)
 * [`ffans/threadmarks`](https://github.com/FFans/threadmarks)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
 * [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
