@@ -17,6 +17,7 @@ CHANGELOG
 * [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
 * [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind)
 * [`ramon/chat`](https://github.com/ram0ng1/chat)
+* [`ramon/point-system`](https://github.com/ram0ng1/point-system)
 * [`stezkoy/flarum-feed2forum`](https://github.com/Stezkoy/flarum-feed2forum)
 
 
