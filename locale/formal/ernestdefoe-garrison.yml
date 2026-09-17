@@ -3,6 +3,32 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ernestdefoe-garrison:
+  admin:
+    fetch: Abrufen
+    field_join_address: Adresse
+    field_join_password: Kennwort
+    field_name: Name
+    identities: 'Verknüpfte Konten'
+    machinery:
+      last: 'Zuletzt bestätigt {when}'
+    provision:
+      install: Installieren
+      load: 'Neuen Server installieren'
+    schedules:
+      day:
+        fri: Fre
+        mon: Mon
+        sat: Sam
+        sun: Son
+        thu: Don
+        tue: Die
+        wed: Mit
+      summary: '{what}, {when} um {time} ({zone})'
+      when:
+        every_day: 'jeden Tag'
+        weekdays: Wochentage
+    servers: Server
+    title: Garrison
   api:
     errors:
       bad_scheme: 'Nur HTTP- und HTTPS-Adressen können abgerufen werden.'
@@ -16,15 +42,33 @@ ernestdefoe-garrison:
         recovered: '{name} ist wieder da'
         unready: '{name} akzeptiert keine Spieler mehr'
   forum:
+    back_to_all: 'Alle Server'
+    backups:
+      cancel: Abbrechen
+      delete: Löschen
     config:
+      load: 'Einstellungen laden'
       save: Speichern
+      title: Servereinstellungen
     duration:
       both: '{hours} h {minutes} m'
       hours: '{count, plural, one {# Stunde} other {# Stunden}}'
+      minutes: '{count, plural, one {# Minute} other {# Minuten}}'
+    fact:
+      game: Spiel
+      memory: Speicher
+      players: Spieler
+    join_address: Adresse
+    join_password: Kennwort
+    link:
+      confirm: 'Das bin ich'
+      name_placeholder: 'Dein Name im Spiel'
+      start_over: 'Verwende einen anderen Namen'
     notification:
       down: '{name} ist down'
       recovered: '{name} ist wieder da'
     playing:
+      nobody: 'Niemand spielt gerade.'
       title: '{count, plural, one {# Spieler} other {# Spieler}} im Spiel'
     see_all: 'Alle Server'
     state:
