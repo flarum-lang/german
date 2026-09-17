@@ -21,7 +21,12 @@ ramon-chat:
       create_channel: 'Kanäle erstellen'
       create_thread: 'Threads von einer Antwort erstellen'
       edit_channel: 'Alle Kanäle bearbeiten'
+      edit_own_channels: 'Eigene Kanäle: Einstellungen bearbeiten'
       flag_message: 'Nachrichten melden'
+      global_heading: 'Chat: global'
+      global_heading_help: 'Gilt für den gesamten Chat, in jedem Kanal, unabhängig von den Einstellungen zur Kanalverwaltung.'
+      manage_own_channels: 'Eigene Kanäle: verwalten (Mitglieder, Moderatoren, Schliessen, Archivierung, Löschen, entfernen von Nachrichten)'
+      members_heading: 'Chat: von Mitgliedern verwaltete Kanäle'
       members_heading_help: 'Gilt nur, solange „Wer erstellt und verwaltet Kanäle“ auf „Mitglieder“ eingestellt ist. Innerhalb der Kanäle, die Mitglieder erstellen und verwalten, gelten diese Zeilen. An allen anderen Stellen gilt der oben stehende globale Block.'
       mention_channel_wide: 'Verwende @here und @all'
       moderate: 'Chat moderieren'
@@ -32,8 +37,13 @@ ramon-chat:
       upload: 'Dateien im Chat hochladen'
       use: 'Chat verwenden'
     sections:
+      announcer_help: 'Von welchem Benutzer Ankündigungen im Chat veröffentlicht werden, beispielsweise eine neue Diskussion in einer zugeordneten Kategorie.'
+      announcer_title: Ankündiger
+      appearance_help: 'Wie der Chat in der Kopfzeile und in der Seitenleiste benannt und gekennzeichnet wird.'
       appearance_title: Erscheinungsbild
       channels_help: 'Wer Kanäle erstellt & verwaltet und womit ein neuer Kanal loslegt.'
+      channels_title: Kanäle
+      messages_help: 'Längen-, Tempo- und Bearbeitungsbeschränkungen für jede gesendete Nachricht.'
       messages_title: Nachrichten
       other_help: 'Einstellungen, die von anderen Erweiterungen für den Chat beigetragen wurden.'
       other_title: 'Weitere Einstellungen'
@@ -43,6 +53,7 @@ ramon-chat:
       retention_title: Vorhaltedauer
       uploads_help: 'Ob Nachrichten Dateien im Anhang enthalten dürfen und wie groß diese sein dürfen.'
       uploads_title: 'Hochgeladene Anhänge'
+      webhooks_help: 'Slack-kompatible Endpunkte, über die ein externer Dienst Beiträge in einem Kanal veröffentlichen kann. Die URL wird einmalig angezeigt, und zwar bei ihrer Erstellung oder bei einer Rotation.'
       webhooks_title: 'Eingehende Webhooks'
     settings:
       allow_archiving_channels: 'Kanalarchivierung erlauben'
@@ -56,6 +67,7 @@ ramon-chat:
       bot_name_label: Botname
       channel_ownership: 'Wer Kanäle erstellt und verwaltet'
       channel_ownership_admin: 'Nur Administratoren'
+      channel_ownership_help: 'Wenn Mitglieder die Verantwortung tragen, gliedert sich die untenstehende Berechtigungsübersicht in zwei Blöcke. „Chat: global“ gilt für den gesamten Chat in allen Kanälen. „Chat: von Mitgliedern verwaltete Kanäle“ gilt nur innerhalb der Kanäle, die Mitglieder erstellen und betreiben: das Erstellen, Verwalten und Bearbeiten dieser Kanäle sowie die Inhalte, die Mitglieder darin senden dürfen. Der Eigentümer eines Kanals kann Mitglieder zu Moderatoren dieses Kanals ernennen; Eigentümer und Kanalmoderatoren sind vom „Slow Mode“ ausgenommen. Administratoren und Chat-Moderatoren behalten die Kontrolle über alle Kanäle.'
       channel_ownership_members: 'Mitglieder erstellen und verwalten ihre eigenen Kanäle'
       channel_retention_days: 'Kanalaufbewahrung (Tage)'
       channel_retention_help: 'Anzahl der Tage, für die Nachrichten in Kategoriekanälen aufbewahrt werden sollen. Bei 0 werden sie dauerhaft gespeichert.'
@@ -105,6 +117,7 @@ ramon-chat:
       webhook_url: URL
       webhook_username: 'Senden als'
       webhooks_enabled: 'Eingehende Webhooks akzeptieren'
+      webhooks_enabled_help: 'Deaktiviert: Jede Webhook-URL wird abgelehnt, unabhängig davon, ob der Webhook selbst aktiv ist oder nicht. Wird zusammen mit dem Rest der Seite gespeichert.'
       webhooks_help: 'Slack-kompatible Endpunkte, die Nachrichten in einen Kanal senden.'
       webhooks_title: 'Eingehende Webhooks'
     webhooks:
@@ -113,6 +126,7 @@ ramon-chat:
       delete: Löschen
       delete_confirm: 'Diesen Webhook löschen? Alle Dienste, die dessen URL verwenden, funktionieren dann nicht mehr.'
       deliveries: '{count, plural, one {# Zustellung} other {# Zustellungen}}'
+      disabled: 'Eingehende Webhooks sind deaktiviert. Schalte den Schalter oben ein und speichere die Einstellung, um sie zu verwalten.'
       empty: 'Noch keine Webhooks.'
       failed: 'Diese Änderung konnte nicht gespeichert werden.'
       help: 'Ein externer Dienst kann über eine geheime URL eine Nachricht per POST an einen Kanal senden. Die URL wird einmalig angezeigt, und zwar bei ihrer Erstellung oder bei einer Rotation.'

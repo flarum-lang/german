@@ -15,13 +15,75 @@ ramon-point-system:
       field_name: Name
     rules:
       save: 'Änderungen speichern'
+      section_currency_title: Währung
+      section_general_title: Allgemein
+      title: Einstellungen
     save: Speichern
+    tabs:
+      users: Benutzer
     users:
+      apply: Anwenden
+      col_groups: Gruppen
       col_user: Benutzer
+      filter_all: 'Alle Benutzer'
+      page_x_of_y: 'Seite {x} von {y}'
+      title: 'Benutzer & Punkte'
   forum:
+    award_modal:
+      add: Hinzufügen
+      amount_label: Menge
+      current_balance: 'Aktuelles Guthaben'
+      current_lifetime: Gesamtbilanz
+      reason_label: 'Grund (optional)'
+      reason_placeholder: 'z. B. hilfreicher Beitrag'
+      remove: Entfernen
+      title: 'Punkte für {name} verwalten'
     confirm:
       cancel: Abbrechen
+    nav:
+      my_decorations: 'Meine Dekorationen'
+      shop: Belohnungen
+    notifications:
+      admin_fallback: 'Ein Administrator'
+      earned_other: 'Du hast {amount} Punkte verdient'
+      points_added: '{admin} hat dir {amount} Punkte zugewiesen'
+      points_removed: '{admin} hat {amount} Punkte von dir entfernt'
+      tier_claimed: 'Du bist der Gruppe {name} beigetreten!'
+      trade_requested: '{name} möchte mit dir handeln'
+    session_dropdown:
+      my_decorations: 'Meine Dekorationen'
+      trades: Handeln
+    shop:
+      by_creator: 'von {name}'
+      equipped_label: AUSGERÜSTET
+      login_to_claim: Anmelden
+      my_decorations: 'Meine Dekorationen'
+      not_enough: 'Zu wenig Punkte'
+      subtitle: 'Gib deine Punkte für Belohnungen und Extras aus.'
+      tab_tiers: Gruppen
+      tab_title: 'Benutzerdefinierte Titel'
+      tier_claim: 'Gruppe beitreten'
+      tiers_title: Gruppen
+      your_balance: 'Dein Punktekonto'
     submit:
+      color_label: 'Akzentfarbe (optional)'
+      description_label: 'Beschreibung (optional)'
+      image_file_label: Bilddatei
       name_label: Name
+      source_file: 'Datei hochladen'
+      source_label: Bildquelle
+      source_url: 'Bild-URL verwenden'
+      title_text_placeholder: 'z. B. „Veteran“'
+    trade:
+      accept: Annehmen
+      cancel: 'Handel abbrechen'
+      close_final: Schließen
+      remove_item: Entfernen
+      their_offer: 'Angebot von {name}'
+      your_offer: 'Dein Angebot'
     trades_page:
+      pending_heading: 'Offene Handelsanfragen'
       start_cancel: Abbrechen
+      title: Handeln
+    user_controls:
+      award_points: 'Punkte verwalten'
