@@ -35,6 +35,8 @@ ramon-chat:
       appearance_title: Erscheinungsbild
       channels_help: 'Wer Kanäle erstellt & verwaltet und womit ein neuer Kanal loslegt.'
       messages_title: Nachrichten
+      other_help: 'Einstellungen, die von anderen Erweiterungen für den Chat beigetragen wurden.'
+      other_title: 'Weitere Einstellungen'
       realtime_help: 'Wie Live-Updates übermittelt werden und wie eine neue Nachricht klingt.'
       realtime_title: 'Echtzeit und Klänge'
       retention_help: 'Wie lange Nachrichten aufbewahrt werden. Ältere Nachrichten werden im Rahmen der nächtlichen Bereinigung gelöscht.'
