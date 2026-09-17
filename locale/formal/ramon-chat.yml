@@ -25,6 +25,7 @@ ramon-chat:
       flag_message: 'Nachrichten melden'
       global_heading: 'Chat: global'
       global_heading_help: 'Gilt für den gesamten Chat, in jedem Kanal, unabhängig von den Einstellungen zur Kanalverwaltung.'
+      inspect_channels: 'Unbemerkt in Kanäle hereinspähen: verdeckte Mitgliedschaft, keine Ankündigung, keine Benachrichtigung'
       manage_own_channels: 'Eigene Kanäle: verwalten (Mitglieder, Moderatoren, Schliessen, Archivierung, Löschen, entfernen von Nachrichten)'
       members_heading: 'Chat: von Mitgliedern verwaltete Kanäle'
       members_heading_help: 'Gilt nur, solange „Wer erstellt und verwaltet Kanäle“ auf „Mitglieder“ eingestellt ist. Innerhalb der Kanäle, die Mitglieder erstellen und verwalten, gelten diese Zeilen. An allen anderen Stellen gilt der oben stehende globale Block.'
@@ -221,6 +222,7 @@ ramon-chat:
       filter_closed: Geschlossen
       filter_mine: 'Meine Kanäle'
       filter_open: Offen
+      inspecting: Hereinspähen
       invited: Eingeladen
       joined: Beigetreten
       load_failed: 'Die Kanalliste konnte nicht geladen werden.'
@@ -558,6 +560,7 @@ ramon-chat:
       no_channels: 'Du bist noch keinem Kanal beigetreten.'
       search: Suche
     stream:
+      date_format: LL
       jump_to_latest: 'Zur neuesten springen'
       new_messages: 'Neue Nachrichten'
       today: Heute

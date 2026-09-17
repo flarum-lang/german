@@ -14,28 +14,50 @@ ernestdefoe-scribe:
     composer:
       apply: Anwenden
       clear_colour: Löschen
+      clear_highlight: Löschen
       image_placeholder: Bildadresse…
+      info_title_placeholder: Titel…
       link_placeholder: 'Link einfügen oder eingeben…'
       remove_link: 'Link entfernen'
+      spoiler_title_placeholder: Spoilertitel…
       toolbar_label: Formatierung
+    reply_gate:
+      locked: 'Du musst auf diese Diskussion antworten, bevor du dies ansehen kannst.'
   lib:
     buttons:
+      add_column: 'Spalte hinzufügen'
+      add_row: 'Zeile hinzufügen'
+      align: Ausrichtung
+      align_center: Mittig
+      align_justify: Blocksatz
+      align_left: Linksbündig
+      align_right: Rechtsbündig
       bold: Fett
       bullet_list: Aufzählung
       code: Inline-Code
       code_block: Codeblock
+      delete_column: 'Spalte löschen'
+      delete_row: 'Zeile löschen'
       heading: Überschrift
+      heading1: Titel
+      heading4: Unterüberschrift
       highlight: Hervorheben
       horizontal_rule: Trennlinie
       image: Bild
+      info_box: Infokasten
       italic: Kursiv
       link: Link
       ordered_list: Nummerierung
       quote: Zitat
       redo: Wiederherstellen
+      reply_gate: 'Antworten, um anzuzeigen'
+      spoiler: Spoiler
       strike: Durchgestrichen
       subheading: Untertitel
+      subscript: Tiefgestellt
+      superscript: Hochgestellt
       table: Tabelle
       text_color: Schriftfarbe
+      toggle_header_cell: 'Kopfzeile umschalten'
       underline: Unterstrichen
       undo: Rückgängig

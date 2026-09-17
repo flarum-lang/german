@@ -5,7 +5,8 @@
 ernestdefoe-logo-manager:
   admin:
     align: Ausrichtung
-    align_center: Mittig
+    align_center: Zentriert
+    align_help: 'Durch die Zentrierung wird die Navigation links vom Logo und die Kontoeinstellungen rechts davon angezeigt.'
     align_left: Links
     corner_bottom-left: 'Unten links'
     corner_bottom-right: 'Unten rechts'
@@ -34,6 +35,7 @@ ernestdefoe-logo-manager:
     effect_invert: Invertiert
     effect_opacity: Deckkraft
     effect_pixelate: Verpixeln
+    effect_pixelate_help: 'Blockgröße in Pixeln.'
     effect_saturate: Sättigung
     effect_sepia: Sepia
     effects_heading: Effekte
@@ -48,11 +50,19 @@ ernestdefoe-logo-manager:
     feast_thanksgiving_us: 'Thanksgiving (USA)'
     header_height: 'Höhe der Kopfzeile'
     header_height_auto: 'Zusammen mit Logo wachsen'
+    header_height_help: 'Die Einstellung „Automatisch“ behält den Flarum-eigenen Abstand um das Logo bei und geht niemals unter die Standardgröße von 52 Pixeln.'
+    header_height_manual: 'Selbst festlegen'
     height: Logohöhe
     height_help: 'Wie hoch das Logo gezeichnet wird. Flarums festes Maximum beträgt 30 Pixel.'
     height_phone: 'Logohöhe auf Handys'
+    height_phone_help: 'Gilt innerhalb der ausziehbaren Seitenleiste, wo die Kopfzeile auf Mobilgeräten angezeigt wird.'
+    hover_glow: Leuchten
+    hover_grow: Wachsen
     hover_heading: 'Beim Darüberfahren'
+    hover_lift: Anheben
     hover_none: Nichts
+    hover_spin: Drehen
+    hover_wobble: Wackeln
     logo_dark: 'Logo für dunklen Modus'
     logo_dark_help: 'Wird angezeigt, wenn ein Besucher ein dunkles Farbschema verwendet. Optional.'
     logo_heading: Logo-Dateien
@@ -65,17 +75,31 @@ ernestdefoe-logo-manager:
     plate_help: 'Nützlich, wenn ein Logo für einen weißen Hintergrund gezeichnet wurde und die Kopfzeile keinen solchen hat.'
     plate_padding: Padding
     plate_radius: Eckenradius
+    preset_glow: Neonleuchten
     preset_mono: Monochrom
+    preset_none: Einfach
+    preset_pixel: Retropixel
+    preset_soft: 'Weiche Schatten'
+    preset_vintage: Vintage
+    presets: Voreinstellungen
     preview: Vorschau
     preview_dark: Dunkel
     preview_light: Hell
     recolor_color: Farbe
     recolor_enabled: 'Jede Farbe durch eine Farbe ersetzen'
+    recolor_heading: 'Einfarbige Neufärbung'
     recolor_help: 'Behält die Form des Logos bei und füllt es mit einer einzigen Farbe aus. Am besten geeignet für Logos mit transparentem Hintergrund.'
     remove: Entfernen
     replace: Ersetzen
+    reset: 'Effekte zurücksetzen'
     saved: Gespeichert.
+    season_active_now: 'Jetzt aktiv'
+    season_add: 'Jahreszeit hinzufügen'
+    season_after: 'Tage nach'
+    season_before: 'Tage vor'
+    season_corner: Ecke
     season_decoration: Dekoration
+    season_delete: 'Diese Jahreszeit löschen'
     season_density: Menge
     season_enabled: Aktiviert
     season_feast: Datum
@@ -95,13 +119,17 @@ ernestdefoe-logo-manager:
     season_preset_thanksgiving: Thanksgiving
     season_preset_valentines: Valentinstag
     season_preset_winter: Winter
+    season_scale: 'Größe der Verzierung'
     season_to: Bis
     season_weather: Wetter
     season_when: Wann
+    season_when_feast: 'Um ein bewegliches Datum'
+    season_when_range: 'Zwischen zwei Daten'
     seasons_timezone: Zeitzone
+    seasons_timezone_default: Serverstandard
     shadow_blur: Verschwommen
     shadow_color: Schattenfarbe
-    shadow_enabled: 'Wirf einen Schatten hinter das Logo'
+    shadow_enabled: 'Einen Schatten hinter dem Logo werfen'
     shadow_heading: Schatten
     shadow_x: 'Horizontaler Versatz'
     shadow_y: 'Vertikaler Versatz'
@@ -125,3 +153,4 @@ ernestdefoe-logo-manager:
   lib:
     errors:
       too_large_raster: 'Dieses Bild ist größer als 8 MB.'
+      too_many_pixels: 'Dieses Bild enthält zu viele Pixel, um es sicher zu verarbeiten.'
