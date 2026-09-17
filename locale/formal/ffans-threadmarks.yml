@@ -36,14 +36,17 @@ ffans-threadmarks:
       all_filter: Alle
       close_a11y_label: 'Verzeichnis der Diskussionsmarkierungen schließen'
       discussion_filter: '=> ffans-threadmarks.ref.discussion'
-      hide_button: Diskussionsmarkierungen
+      hide_button: '=> ffans-threadmarks.ref.threadmarks'
       personal_filter: '=> ffans-threadmarks.ref.mine'
       scope_a11y_label: 'Diskussionsmarkierungen nach Bereich filtern'
-      show_button: Diskussionsmarkierungen
+      show_button: '=> ffans-threadmarks.ref.threadmarks'
+      show_button_a11y_label: 'Verzeichnis der Diskussionsmarkierungen öffnen'
       title: '=> ffans-threadmarks.ref.threadmarks'
     discussion_controls:
-      show_all_button: 'Alle Beiträge anzeigen'
-      show_threadmarks_button: 'Nur Diskussionsmarkierungen'
+      show_all_button: 'Alle Beiträge'
+      show_all_button_a11y_label: 'Alle Beiträge anzeigen'
+      show_threadmarks_button: '=> ffans-threadmarks.ref.threadmarks'
+      show_threadmarks_button_a11y_label: 'Nur Beiträge mit Diskussionsmarkierungen anzeigen'
     manage_modal:
       add_button: Hinzufügen
       delete_button: '=> core.ref.delete'
@@ -89,7 +92,7 @@ ffans-threadmarks:
     type_form:
       color_label: '=> core.ref.color'
       icon_label: '=> core.ref.icon'
-      icon_placeholder: 'fa-solid fa-book'
+      icon_placeholder: 'fas fa-bookmark'
       key_label: '=> ffans-threadmarks.ref.key'
       name_label: Name
     validation:

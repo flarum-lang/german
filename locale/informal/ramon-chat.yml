@@ -22,6 +22,7 @@ ramon-chat:
       create_thread: 'Threads von einer Antwort erstellen'
       edit_channel: 'Alle Kanäle bearbeiten'
       flag_message: 'Nachrichten melden'
+      members_heading_help: 'Gilt nur, solange „Wer erstellt und verwaltet Kanäle“ auf „Mitglieder“ eingestellt ist. Innerhalb der Kanäle, die Mitglieder erstellen und verwalten, gelten diese Zeilen. An allen anderen Stellen gilt der oben stehende globale Block.'
       mention_channel_wide: 'Verwende @here und @all'
       moderate: 'Chat moderieren'
       pin_message: 'Nachrichten anheften und Anheftung entfernen'
@@ -30,14 +31,30 @@ ramon-chat:
       start_direct: 'Direktnachrichten starten'
       upload: 'Dateien im Chat hochladen'
       use: 'Chat verwenden'
+    sections:
+      appearance_title: Erscheinungsbild
+      channels_help: 'Wer Kanäle erstellt & verwaltet und womit ein neuer Kanal loslegt.'
+      messages_title: Nachrichten
+      realtime_help: 'Wie Live-Updates übermittelt werden und wie eine neue Nachricht klingt.'
+      realtime_title: 'Echtzeit und Klänge'
+      retention_help: 'Wie lange Nachrichten aufbewahrt werden. Ältere Nachrichten werden im Rahmen der nächtlichen Bereinigung gelöscht.'
+      retention_title: Vorhaltedauer
+      uploads_help: 'Ob Nachrichten Dateien im Anhang enthalten dürfen und wie groß diese sein dürfen.'
+      uploads_title: 'Hochgeladene Anhänge'
+      webhooks_title: 'Eingehende Webhooks'
     settings:
       allow_archiving_channels: 'Kanalarchivierung erlauben'
+      allow_archiving_channels_help: 'Ein geschlossener Kanal kann in einer Diskussion archiviert werden, in der das Protokoll erhalten bleibt.'
       allow_uploads: 'Hochladen von Dateien im Chat erlauben'
+      allow_uploads_help: 'Anhänge in Nachrichten. Welche Gruppen Anhänge hinzufügen dürfen, ist weiter unten unter „Berechtigungen“ geregelt.'
       behaviour_title: Verhalten
       bot_avatar_help: 'Eine URL zum Bild des Bots. Wird das Feld leer gelassen, wird stattdessen dessen Initial angezeigt.'
       bot_avatar_label: Bot-Avatar
       bot_name_help: 'Der Autor wird bei Nachrichten angezeigt, die der Chat selbst sendet, wie beispielsweise Ankündigungen zu neuen Diskussionen.'
       bot_name_label: Botname
+      channel_ownership: 'Wer Kanäle erstellt und verwaltet'
+      channel_ownership_admin: 'Nur Administratoren'
+      channel_ownership_members: 'Mitglieder erstellen und verwalten ihre eigenen Kanäle'
       channel_retention_days: 'Kanalaufbewahrung (Tage)'
       channel_retention_help: 'Anzahl der Tage, für die Nachrichten in Kategoriekanälen aufbewahrt werden sollen. Bei 0 werden sie dauerhaft gespeichert.'
       dm_retention_days: 'Aufbewahrung für Direktnachrichten (Tage)'
@@ -46,8 +63,11 @@ ramon-chat:
       icon_label: Chatsymbol
       limits_title: 'Einschränkungen und Sicherheit'
       max_message_length: 'Maximallänge für Nachrichten'
+      max_message_length_help: 'Eine forumweite Begrenzung. Ein Kanal kann eine eigene, kürzere Begrenzung festlegen.'
       max_messages_per_second: 'Maximale Anzahl von Nachrichten pro Sekunde und Benutzer'
+      max_messages_per_second_help: 'Sendungen, die diesen Wert überschreiten, werden abgelehnt. Mit „0“ wird die Begrenzung deaktiviert.'
       max_upload_size: 'Maximale Dateigröße beim Hochladen (Bytes)'
+      max_upload_size_help: '10485760 entsprechen 10 MB.'
       message_edit_window_help: 'Wie lange ein Autor seine Nachricht bearbeiten darf. 0 bedeutet: keine Begrenzung.'
       message_edit_window_minutes: 'Bearbeitungsfenster (in Minuten)'
       min_message_length: 'Mindestlänge für Nachrichten'
@@ -66,6 +86,7 @@ ramon-chat:
       sound_help: 'Wird abgespielt, wenn eine Nachricht in einem Kanal eintrifft, den du gerade nicht im Blick hast.'
       sound_none: Aus
       threading_default: 'Threads in neuen Kanälen standardmäßig aktivieren'
+      threading_default_help: 'Neue Kanäle beginnen mit aktivierten Threads. Jeder Kanal kann diese Einstellung jederzeit ändern.'
       title: Chat
       title_help: 'Wird auf der Schaltfläche in der Kopfzeile und in der Leiste angezeigt. Lasse das Feld leer, um „Chat“ zu verwenden.'
       title_label: Chatname
@@ -81,6 +102,7 @@ ramon-chat:
       webhook_regenerate: 'Schlüssel neu erstellen'
       webhook_url: URL
       webhook_username: 'Senden als'
+      webhooks_enabled: 'Eingehende Webhooks akzeptieren'
       webhooks_help: 'Slack-kompatible Endpunkte, die Nachrichten in einen Kanal senden.'
       webhooks_title: 'Eingehende Webhooks'
     webhooks:
@@ -325,6 +347,7 @@ ramon-chat:
       composer: Composer
       delete_channel: 'Kanal löschen'
       delete_confirm: 'Das Löschen eines Kanals kann nicht rückgängig gemacht werden. Möchtest du ihn trotzdem löschen?'
+      demote_moderator: '{username} als Moderator dieses Kanals entfernen'
       description: Beschreibung
       invite_cancelled: 'Die Einladung für {username} wurde zurückgenommen.'
       invited_badge: Eingeladen
@@ -339,6 +362,7 @@ ramon-chat:
       member_search: 'Mitglieder filtern'
       moderator_badge: Moderator
       moderator_demoted: '{username} ist nicht mehr Moderator in diesem Kanal.'
+      moderator_help: 'Kanalmoderatoren können hier Mitglieder hinzufügen und entfernen, Nachrichten löschen, Themen verwalten und den „Slow Mode“ dieses Kanals deaktivieren. Nur du kannst sie befördern oder herabstufen.'
       moderator_promoted: '{username} ist jetzt Moderator in diesem Kanal.'
       mute: 'Diesen Kanal stummschalten'
       mute_help: 'Bei stummgeschalteten Kanälen werden keine Zähler für ungelesene Beiträge angezeigt.'
@@ -348,6 +372,7 @@ ramon-chat:
       owner_badge: Besitzer
       post_discussions: 'Neue Diskussionen aus dieser Kategorie ankündigen'
       post_discussions_help_bound: 'Jede neue Diskussion, die in {category} gestartet wird, wird im Kanal angekündigt.'
+      promote_moderator: '{username} zum Moderator dieses Kanals befördern'
       remove_member: '{username} entfernen'
       remove_member_confirm: '{username} aus diesem Kanal entfernen?'
       reopen_channel: 'Kanal wieder öffnen'
@@ -467,6 +492,9 @@ ramon-chat:
       visibility: 'Wer diesen Kanal sehen kann'
     notifications:
       channel_invite: '{username} hat dich in {channel} eingeladen'
+      channel_invite_declined: '{username} hat deine Einladung in {channel} abgelehnt'
+      invite_accept: Annehmen
+      invite_decline: Ablehnen
       message_flagged: '{username} hat eine Nachricht in {channel} gemeldet'
       someone: Jemand
     revisions:
@@ -475,6 +503,7 @@ ramon-chat:
       title: Änderungsverlauf
       unknown_editor: Unbekannt
     search:
+      clear: 'Suche leeren'
       close: 'Suche schließen'
       empty: 'Keine passenden Nachrichten gefunden.'
       in_channel: 'in {channel}'
@@ -495,6 +524,7 @@ ramon-chat:
       email_notifications: 'Schick mir eine E-Mail bezüglich Erwähnungen im Chat'
       enabled: 'Chat für mein Konto aktivieren'
       notify_channel_invite: 'Jemand lädt mich in einen Chat-Kanal ein'
+      notify_channel_invite_declined: 'Jemand lehnt meine Einladung in einen Chat-Kanal ab'
       notify_message_flagged: 'Jemand meldet eine Chat-Nachricht'
       open_in_drawer: 'Chat in einer Leiste statt im Vollbildmodus öffnen'
       sound: Benachrichtigungston
@@ -520,6 +550,7 @@ ramon-chat:
       close: 'Thread-Panel schließen'
       no_replies: 'Noch keine Antworten. Sei der Erste.'
       no_threads: 'Du folgst keinen Threads.'
+      no_threads_in_channel: 'In diesem Kanal gibt es noch keine Threads. Antworte auf eine Nachricht als Thread, um einen neuen zu starten.'
       replies: '{count, plural, one {# Antwort} other {# Antworten}}'
       set_title: 'Threadtitel festlegen'
       title: Thread

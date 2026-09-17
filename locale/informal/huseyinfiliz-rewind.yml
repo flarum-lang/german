@@ -95,23 +95,37 @@ huseyinfiliz-rewind:
       slides: Folien
       templates: Vorlagen
     templates:
+      already_exists: 'Eine benutzerdefinierte Vorlage mit diesem Dateinamen existiert bereits im Verzeichnis „storage/rewind/views/“.'
       back_to_list: 'Zurück zu Vorlagen'
       create_button: 'Benutzerdefinierte Vorlage erstellen'
+      create_help: 'Die integrierte Standardvorlage wird an diesen Speicherort im Verzeichnis „storage/“ kopiert, damit du sie anpassen kannst.'
       create_modal_title: 'Benutzerdefinierte Vorlage erstellen'
       create_submit: 'Vorlage erstellen'
       created_success: 'Vorlage erfolgreich erstellt.'
       delete: Löschen
+      delete_confirm: 'Möchtest du {filename} wirklich löschen? Rewind wechselt dann automatisch zur integrierten Standardvorlage zurück.'
+      deleted_success: 'Benutzerdefinierte Vorlage gelöscht. Standardvorlage wiederhergestellt.'
       edit: Bearbeiten
+      editor_tip: 'Tipp: Drücke Strg+S / Cmd+S, um zu speichern. Drücke die Tabulatortaste, um einzurücken (4 Leerzeichen).'
+      empty_help: 'Du kannst eine benutzerdefinierte Vorlage für Benutzerrückblicke, Community-Highlights oder die Fehlerseite erstellen. Die integrierte Vorlage wird zur Bearbeitung in deinen Speicherordner kopiert.'
       help: 'Verwalte und passe deine Blade-Zusammenfassungsvorlagen direkt über das Admin-Panel an. Benutzerdefinierte Vorlagen im Verzeichnis „storage/rewind/views/“ überschreiben die integrierten Standardvorlagen.'
       no_templates_found: 'Keine benutzerdefinierte Vorlage gefunden. Derzeit wird die Standardvorlage verwendet.'
       save_changes: 'Änderungen speichern'
       saved_success: 'Vorlage erfolgreich gespeichert.'
+      scope_default: 'Gilt für jedes Jahr, für das keine jahresspezifische Vorlage (z. B. user.blade.php) vorhanden ist'
+      scope_default_title: Standard-Fallback-Vorlage
+      scope_label: 'Geltungsbereich der Vorlage'
+      scope_year: 'Gilt nur für ein bestimmtes Rückblickjahr (z. B. user_2026.blade.php)'
+      scope_year_title: 'Jahresspezifische Vorlage'
+      target_file: 'Pfad der Zieldatei'
       title: Vorlagen
       type_community: 'Community-Rückblick (community.blade.php)'
       type_error: 'Fehlerseite (error.blade.php)'
       type_label: Vorlagenart
       type_user: 'Benutzer-Rückblick (user.blade.php)'
       unsaved_changes: 'Ungespeicherte Änderungen'
+      view_variables: 'Verfügbare Blade-Variablen & Cheatsheet'
+      year_label: Zieljahr
   forum:
     community:
       coming_soon: 'Community-Rückblick wurde noch nicht erstellt. Bleib dran!'
