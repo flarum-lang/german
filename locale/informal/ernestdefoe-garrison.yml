@@ -16,11 +16,25 @@ ernestdefoe-garrison:
         recovered: '{name} ist wieder da'
         unready: '{name} akzeptiert keine Spieler mehr'
   forum:
+    config:
+      save: Speichern
+    duration:
+      both: '{hours} h {minutes} m'
+      hours: '{count, plural, one {# Stunde} other {# Stunden}}'
     notification:
       down: '{name} ist down'
       recovered: '{name} ist wieder da'
+    playing:
+      title: '{count, plural, one {# Spieler} other {# Spieler}} im Spiel'
+    see_all: 'Alle Server'
     state:
+      crashed: Abgestürzt
+      running: 'Wird ausgeführt'
       starting: 'Wird gestartet'
+      stopped: Gestoppt
+      stopping: 'Wird gestoppt'
+      unknown: Unbekannt
+    title: Spieleserver
   webhook:
     down: '🔴 **{name}** wurde gestoppt. {url}'
     recovered: '✅ **{name}** ist wieder da. {url}'
