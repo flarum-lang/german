@@ -104,6 +104,8 @@ ernestdefoe-logo-manager:
     season_enabled: Aktiviert
     season_feast: Datum
     season_from: Von
+    season_logo: Jahreszeitenlogo
+    season_logo_help: 'Optional. Wird während der gesamten Jahreszeit anstelle des üblichen Logos angezeigt, ohne dass dein dauerhaftes Logo geändert wird.'
     season_name: Name
     season_preset_autumn: Herbst
     season_preset_birthday: Forums-Geburtstag
@@ -119,14 +121,19 @@ ernestdefoe-logo-manager:
     season_preset_thanksgiving: Thanksgiving
     season_preset_valentines: Valentinstag
     season_preset_winter: Winter
+    season_presets: 'Oder lege mit einer dieser Vorlagen los'
     season_scale: 'Größe der Verzierung'
     season_to: Bis
     season_weather: Wetter
     season_when: Wann
     season_when_feast: 'Um ein bewegliches Datum'
     season_when_range: 'Zwischen zwei Daten'
+    seasons_enabled: 'Jahreszeitenplan ausführen'
+    seasons_heading: Jahreszeitenplan
+    seasons_help: 'Verleihe dem Logo für einen Teil des Jahres ein anderes Aussehen. Es gilt die erste Regel, deren Daten übereinstimmen; lege daher einen einzelnen Tag über den Monat, in dem sie liegt.'
     seasons_timezone: Zeitzone
     seasons_timezone_default: Serverstandard
+    seasons_timezone_help: 'Welche Zeitzone bestimmt, wann eine Jahreszeit beginnt und endet.'
     shadow_blur: Verschwommen
     shadow_color: Schattenfarbe
     shadow_enabled: 'Einen Schatten hinter dem Logo werfen'
