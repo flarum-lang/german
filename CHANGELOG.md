@@ -7,11 +7,13 @@ CHANGELOG
 
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
+* [`ernestdefoe/garrison`](https://github.com/ernestdefoe/garrison)
 * [`huseyinfiliz/language-detection`](https://github.com/huseyinfiliz/language-detection)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
 * [`ernestdefoe/logo-manager`](https://github.com/ernestdefoe/logo-manager)
 * [`ernestdefoe/scribe`](https://github.com/ernestdefoe/scribe)
 * [`ffans/threadmarks`](https://github.com/FFans/threadmarks)
