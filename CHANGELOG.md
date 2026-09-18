@@ -5,6 +5,11 @@ CHANGELOG
 2.0.20 (XXXX-XX-XX)
 -------------------
 
+**Allgemeine Änderungen**:
+
+* Flarum-Core Übersetzungen aktualisiert.
+
+
 **Unterstützung für neue Erweiterungen hinzugefügt**:
 
 * [`ernestdefoe/garrison`](https://github.com/ernestdefoe/garrison)
@@ -19,8 +24,10 @@ CHANGELOG
 * [`ernestdefoe/scribe`](https://github.com/ernestdefoe/scribe)
 * [`ffans/threadmarks`](https://github.com/FFans/threadmarks)
 * [`flarum/messages`](https://github.com/flarum/messages)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/mailing`](https://github.com/FriendsOfFlarum/mailing)
 * [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
