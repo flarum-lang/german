@@ -27,15 +27,15 @@ ianm-follow-users:
       subject: '{user_display_name} hat eine Diskussion gestartet'
     new_follower:
       html:
-        body: '{follower_display_name} folgt dir jetzt und wird benachrichtigt, wenn du eine neue Diskussion startest.'
+        body: '{follower_display_name} folgt Ihnen jetzt und wird benachrichtigt, wenn Sie eine neue Diskussion starten.'
       plain:
-        body: "{follower_display_name} folgt dir jetzt und wird benachrichtigt, wenn du eine neue Diskussion startest.\n\n{profile_url}\n"
+        body: "{follower_display_name} folgt Ihnen jetzt und wird benachrichtigt, wenn Sie eine neue Diskussion starten.\n\n{profile_url}\n"
       subject: '{follower_display_name} folgt dir'
     new_post:
       html:
         body: '{user_display_name} hat einen Beitrag in [{discussion_title}] erstellt ({post_url}).'
       plain:
-        body: "{user_display_name} hat einen Beitrag in {discussion_title} erstellt.\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nDu erhältst keine weiteren Benachrichtigungen zu dieser Diskussion, bis du auf dem neuesten Stand bist.\n"
+        body: "{user_display_name} hat einen Beitrag in {discussion_title} erstellt.\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nSie erhalten keine weiteren Benachrichtigungen zu dieser Diskussion, bis Sie auf dem neuesten Stand sind.\n"
       subject: '{user_display_name} hat einen Beitrag in {discussion_title} erstellt'
   forum:
     badge:
@@ -53,7 +53,7 @@ ianm-follow-users:
     modals:
       select_follow_level:
         cancel_btn: Abbrechen
-        description: 'Wähle , wie Du <em>{username}</em> folgen möchtest.'
+        description: 'Wählen Sie, wie Sie <em>{username}</em> folgen möchtest.'
         follow_levels_heading: 'Ebenen folgen'
         follow_select_label: Folgetyp
         no_user_attr_provided_err: 'Uh oh, beim Öffnen dieses Modal ist etwas schief gelaufen.'
@@ -67,8 +67,8 @@ ianm-follow-users:
       new_unfollower_text: '{username} folgt dir nicht mehr'
     profile_link: '=> ianm-follow-users.lib.following_link'
     profile_page:
-      no_followers: 'Es sieht so aus, als hättest du noch keine Follower.'
-      no_following: 'Anscheinend folgst du niemandem.'
+      no_followers: 'Es sieht so aus, als hätten Sie noch keine Follower.'
+      no_following: 'Anscheinend folgen Sie niemandem.'
     settings:
       block_follow: 'Verhindern, dass Benutzer mir folgen'
       notify_new_discussion_label: 'Jemand, dem ich folge, beginnt eine Diskussion'

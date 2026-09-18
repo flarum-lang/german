@@ -53,7 +53,7 @@ ianm-follow-users:
     modals:
       select_follow_level:
         cancel_btn: Abbrechen
-        description: 'Wähle , wie Du <em>{username}</em> folgen möchtest.'
+        description: 'Wähle, wie Du <em>{username}</em> folgen möchtest.'
         follow_levels_heading: 'Ebenen folgen'
         follow_select_label: Folgetyp
         no_user_attr_provided_err: 'Uh oh, beim Öffnen dieses Modal ist etwas schief gelaufen.'

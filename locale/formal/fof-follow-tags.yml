@@ -38,9 +38,9 @@ fof-follow-tags:
       subject: '[Tag | Neue Diskussion] {title}'
     newDiscussionTag:
       html:
-        body: "{actor_display_name} hat gerade das Tag einer Diskussion von {author_display_name} in ein Tag geändert, dem du folgst: [{discussion_title}]({discussion_url})\n"
+        body: "{actor_display_name} hat gerade das Tag einer Diskussion von {author_display_name} in ein Tag geändert, dem Sie folgen: [{discussion_title}]({discussion_url})\n"
       plain:
-        body: "{actor_display_name} hat gerade das Tag einer Diskussion von {author_display_name} in ein Tag geändert, dem du folgst: {discussion_title}\n\nUm die Diskussion anzuzeigen, klicke auf den folgenden Link:\n{discussion_url}\n\n---\n\n{content}\n"
+        body: "{actor_display_name} hat gerade das Tag einer Diskussion von {author_display_name} in ein Tag geändert, dem Sie folgen: {discussion_title}\n\nUm die Diskussion anzuzeigen, klicken Sie auf den folgenden Link:\n{discussion_url}\n\n---\n\n{content}\n"
       subject: '[Tag | Geändertes Tag] {title}'
     newPostInTag:
       html:
