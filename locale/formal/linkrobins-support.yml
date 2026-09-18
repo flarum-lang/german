@@ -4,7 +4,16 @@
 
 linkrobins-support:
   admin:
+    appeal_bans:
+      banned_empty: 'Es gibt keine Benutzer, die keine Einsprüche gegen Sperren einlegen dürfen.'
+      banned_heading: 'Benutzer, die keine Einsprüche gegen Sperren einlegen dürfen'
+      column_email: E-Mail
+      column_username: Benutzername
+      intro: 'Lege fest, welche Benutzer keine Einsprüche gegen Sperren einlegen dürfen.'
+      load_more: 'Mehr laden'
+      view_banned_button: 'Benutzer anzeigen, die keine Einsprüche gegen Sperren einlegen dürfen'
     categories:
+      appeal_badge: Einspruch
       assignee_all_staff: 'Alle Mitarbeiter'
       column_assignee: 'Zugewiesen an'
       column_name: Name
@@ -12,6 +21,8 @@ linkrobins-support:
       column_tickets: Tickets
       column_type: Typ
       delete_button: Löschen
+      delete_confirm_named: 'Die Kategorie „{name}“ löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.'
+      delete_confirm_with_tickets: 'In dieser Kategorie befinden sich noch {count} Tickets. Durch das Löschen dieser Kategorie werden auch diese Tickets gelöscht. Möchtest du fortfahren?'
       edit_button: Bearbeiten
       empty: 'Es gibt noch keine Kategorien. Erstelle eine, um loszulegen.'
       general_badge: Allgemein
@@ -20,12 +31,29 @@ linkrobins-support:
       new_button: 'Neue Kategorie'
       this_category: 'diese Kategorie'
     category_editor:
+      error_delete: 'Kategorie konnte nicht gelöscht werden.'
+      error_load: 'Diese Kategorie konnte nicht geladen werden.'
+      error_save: 'Die Kategorie konnte nicht gespeichert werden. Bitte überprüfe die Felder und versuche es erneut.'
       field_color: Farbe
+      field_color_help: 'Hex-Farbe (z. B. #3b82f6) für das Kategorieabzeichen.'
+      field_default_assignee: 'Neue Tickets zuweisen an'
+      field_default_assignee_error: 'Die Liste der Mitarbeiter konnte nicht geladen werden. Die aktuelle Einstellung bleibt unverändert.'
+      field_default_assignee_help: 'Neue Tickets dieser Kategorie werden dieser Person zugewiesen, und nur sie wird darüber benachrichtigt. Belasse die Einstellung auf „Niemand“, um stattdessen alle Mitarbeiter zu benachrichtigen, und lasse denjenigen, der zuerst antwortet, das Ticket übernehmen.'
+      field_default_assignee_loading: 'Liste der Mitarbeiter wird geladen...'
+      field_default_assignee_none: 'Niemand -- alle Mitarbeiter benachrichtigen'
+      field_default_assignee_unavailable: '{name} (kein Support-Mitarbeiter mehr)'
       field_description: Beschreibung
       field_icon: Symbol
+      field_icon_help: 'Eine FontAwesome-Klasse, z. B. fas fa-life-ring.'
+      field_is_appeal: Einspruch-Kategorie
+      field_is_appeal_help: 'In dieser Kategorie eröffnete Tickets werden als Einsprüche gegen Sperren behandelt.'
       field_name: Name
       field_position: Position
+      field_position_help: 'Die Kategorien werden nach diesem Wert sortiert, beginnend mit dem niedrigsten Wert.'
       field_slug: Slug
+      field_slug_help: 'Wird in der Kategorie-URL verwendet. Lasse das Feld leer, um die URL anhand des Namens zu generieren.'
+      field_slug_placeholder: 'z. B. Abrechnung'
+      submit_create: 'Kategorie erstellen'
       submit_update: 'Änderungen speichern'
       title_edit: 'Kategorie bearbeiten'
       title_new: 'Neue Kategorie'
@@ -33,21 +61,138 @@ linkrobins-support:
       loading: Lädt…
       unknown_error: 'Es ist ein Fehler aufgetreten. Bitte versuche es erneut.'
     nav:
+      appeal_bans: 'Einsprüche gegen Sperren'
       categories: Kategorien
       rate_limits: Ratenbegrenzungen
+    navigation:
+      forum_nav: 'Forennavigation auf Supportseiten anzeigen'
+      forum_nav_help: 'Wenn aktiviert, werden auf den Supportseiten oberhalb der Ticketfilter auch „Alle Diskussionen“, „Du folgst“ und „Tags“ angezeigt. Standardmäßig ist diese Option deaktiviert, sodass auf den Supportseiten nur die Tickets angezeigt werden.'
+      heading: Navigation
+      in_account_menu: 'Link „Support“ im Benutzermenü anzeigen'
+      in_account_menu_help: 'Das Menü unter deinem Avatar, neben dem Profillink und den Einstellungen.'
+      in_sidebar: 'Link „Support“ in der Seitenleiste anzeigen'
+      in_sidebar_help: 'Der Link, der sich neben „Alle Diskussionen“ und „Tags“ befindet. In beiden Fällen nur für Mitglieder: Gäste können kein Ticket eröffnen.'
+      intro: 'Wo der Link „Support“ angezeigt wird und was in der Seitenleiste auf den Support-Seiten zu sehen ist.'
     permissions:
       force_delete_tickets: 'Support-Tickets dauerhaft löschen'
       handle_tickets: 'Support-Tickets bearbeiten'
+    rate_limits:
+      heading: Ratenbegrenzungen
+      intro: 'Begrenze, wie oft Nutzer Support-Tickets erstellen können, und sperre Einsprüche.'
+      max_general_per_window: 'Maximale allgemeine Tickets pro Fenster'
     settings:
       description: 'Konfiguriere Support-Kategorien und Ratenbegrenzungen für das Ticket-System.'
       title: Support
+  api:
+    cannot_reply: 'Du kannst nicht auf dieses Ticket antworten.'
+    category_required: 'Eine Kategorie ist erforderlich.'
+    login_required: 'Du musst angemeldet sein.'
+    ticket_not_found: 'Ticket nicht gefunden.'
+  email:
+    assigned_body: '{name} hat dir dieses Support-Ticket zugewiesen.'
+    assigned_subject: 'Dir zugewiesen: {subject}'
+    from_a_user: 'ein Benutzer'
+    new_appeal_subject: '[Support / Einspruch] Neues Ticket: {subject}'
+    new_reply_body: '{name} hat auf dein Support-Ticket geantwortet:'
+    new_reply_subject: '[Support] Neue Antwort auf: {subject}'
+    new_ticket_body: 'Ein neues {type} wurde gerade eröffnet von {name}:'
+    new_ticket_subject: '[Support] Neues Ticket: {subject}'
+    open_ticket: 'Ticket öffnen'
+    status_changed_subject: '[{subject}] markiert {status}'
+    view_ticket: 'Ticket anzeigen'
   forum:
     action:
+      attach_files: 'Dateien anhängen'
+      back: Zurück
       cancel: Abbrechen
+      claim: Beanspruchen
+      delete: Löschen
+      delete_forever: 'Dauerhaft löschen'
+      edit: Bearbeiten
+      edit_reply: 'Antwort bearbeiten'
+      load_more_replies: 'Mehr Antworten laden'
+      loading_more: 'Wird geladen…'
+      reopen: 'Ticket wieder öffnen'
+      restore: Wiederherstellen
       save_changes: 'Änderungen speichern'
+      saving: 'Wird gespeichert…'
+      unassign: 'Zuordnung aufheben'
+    common:
+      loading: 'Wird geladen…'
+    compose:
+      back_to_categories: 'Zurück zu Kategorien'
+      body_placeholder: 'Beschreibe das Problem ausführlich. Markdown wird unterstützt.'
+      choose_category: 'Wähle eine Kategorie aus, um loszulegen.'
+      choose_category_appeal: 'Wähle eine Einspruchskategorie aus, um loszulegen.'
+      discard_confirm: 'Du hast ein noch nicht übermitteltes Ticket. Möchtest du es verwerfen?'
+      message_label: Nachricht
+      message_placeholder_click: 'Klicke hier, um deine Nachricht zu verfassen…'
+      subject_first: 'Bitte gib einen Betreff für dein Ticket ein.'
+      subject_label: Betreff
+      subject_placeholder: 'Kurze Zusammenfassung deines Problems'
+      submit: 'Ticket einreichen'
+      submitting: 'Wird eingereicht…'
+      title: 'Neues Support-Ticket'
+      title_appeal: 'Einspruch einlegen'
+    decision:
+      accepted: Akzeptiert
+      pending: Ausstehend
+      rejected: Abgelehnt
+    errors:
+      load_tickets: 'Tickets konnten nicht geladen werden.'
+      unknown: 'Unbekannter Fehler.'
+    index:
+      deleted_badge: Gelöscht
+      empty: 'Es sind keine Tickets vorhanden.'
+      empty_own: 'Noch keine Tickets. Klicke auf „Neues Ticket“, um eines zu erstellen.'
+      filter_all: Alle
+      my_tickets: 'Meine Tickets'
+      new_ticket: 'Neues Ticket'
+      new_ticket_tooltip: 'Ein neues Support-Ticket öffnen'
+      untitled: 'Ohne Titel'
     nav: Support
     new_ticket: 'Neues Ticket'
+    notifications:
+      new_appeal: '{name} hat einen neuen Einspruch eingelegt'
+      new_ticket: '{name} hat ein neues Support-Ticket eröffnet'
+      reply_from: '{name} hat auf dein Ticket geantwortet'
+      reply_generic: 'Support hat auf dein Ticket geantwortet'
+      someone: 'Ein Benutzer'
+      status_changed: 'Dein Ticket wurde als {status} markiert'
+    reply:
+      deleted_notice: 'Diese Antwort wurde gelöscht.'
+      discard_confirm: 'Du hast ungespeicherte Änderungen. Möchtest du diese verwerfen?'
+      edited_at: 'Bearbeitet am {date}'
+      edited_by: 'Bearbeitet von {name} am {date}'
+      edited_marker: (bearbeitet)
+      internal_note: 'Interne Anmerkung'
+      internal_placeholder: 'Interne Anmerkung (nur für Mitarbeiter sichtbar)…'
+      mod_actions: Moderationsaktionen
+      placeholder: 'Schreibe eine Antwort…'
+      post_reply: 'Antwort schreiben'
+      posting: 'Wird gesendet…'
     settings:
       notify_new_reply_label: 'Jemand antwortet auf mein Support-Ticket'
       notify_new_ticket_label: 'Ein neues Support-Ticket wird erstellt (Mitarbeiter)'
+    show:
+      assigned_to: 'Zugewiesen an'
+      cannot_reply: 'Du kannst auf dieses Ticket nicht antworten.'
+      closed_badge: 'Geschlossenes Ticket'
+      closed_notice: 'Dieses Ticket wurde geschlossen und dort kann nicht mehr geantwortet werden.'
+      decision: 'Entscheidung:'
+      deleted_badge: Gelöscht
+      opened_by: 'Eröffnet von'
+      title: Ticket
+      unassigned: 'Nicht zugewiesen'
+    staff:
+      set_decision: 'Berufung einlegen:'
+      set_status: 'Status festlegen:'
+    status:
+      awaiting_response: 'Warte auf Antwort'
+      closed: Geschlossen
+      in_progress: 'In Bearbeitung'
+      open: Offen
     submit_ticket: 'Ticket erstellen'
+    ticket:
+      delete: 'Ticket löschen'
+      restore: 'Ticket wiederherstellen'
