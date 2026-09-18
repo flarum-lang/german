@@ -13,7 +13,7 @@ fof-socialprofile:
       favicon_provider_label: 'Externer Favicon-Anbieter'
   forum:
     edit:
-      add: 'Füge Schaltflächen zu deinen sozialen Medien hinzu'
+      add: 'Füge Schaltflächen zu Ihren Social-Media-Konten hinzu'
       delete: Löschen
       deletetitle: 'Button löschen'
       edit: 'Ihre Social-Media-Buttons bearbeiten'

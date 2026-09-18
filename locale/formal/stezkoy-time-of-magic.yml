@@ -23,7 +23,7 @@ stezkoy-time-of-magic:
     background_waves: Wellen
     bg_parallax_description: 'Das Hintergrundmuster verschiebt sich subtil entsprechend der Zeigerbewegung. Erfordert das obige Hintergrundmuster.'
     bg_parallax_label: 'Parallaxe Hintergrundbewegung'
-    click_burst_description: 'Dein Emoji explodiert am Klickpunkt.'
+    click_burst_description: 'Ihr Emoji explodiert am Klickpunkt.'
     click_burst_items_label: 'Explosions-Partikel (Emojis, durch Leerzeichen getrennt)'
     click_burst_label: Klickplosion
     click_spark_color_label: 'Farbe des Klick-Funkens'
@@ -33,7 +33,7 @@ stezkoy-time-of-magic:
     clovers_density_label: 'Dichte der Kleeblätter'
     clovers_description: 'Drehende, vierblättrige Kleeblätter für Saint Patrick’s Day.'
     clovers_label: 'Vierblättrige Kleeblätter'
-    color_description: 'Lasse das Feld leer, um die Farbe deines Forums zu verwenden. Beispiele: #E7672E, #00a185, red, rgb(255,0,0).'
+    color_description: 'Lassen Sie das Feld leer, um die Farbe Ihres Forums zu verwenden. Beispiele: #E7672E, #00a185, red, rgb(255,0,0).'
     color_placeholder: 'z. B. #00a185'
     confetti_density_description: 'Anzahl der Konfettistücke auf dem Bildschirm.'
     confetti_density_label: 'Dichte des Konfetti'
@@ -44,13 +44,13 @@ stezkoy-time-of-magic:
     cursor_dust_label: Zeigerstaub
     cursor_flashlight_description: 'Eine weiche, dunkle Überlagerung mit einem hellen Fleck um den Zeiger. Am besten geeignet für dunkle Farbschemata.'
     cursor_flashlight_label: Zeigertaschenlampe
-    cursor_trail_description: 'Verblassende Partikel folgen deinem Mauszeiger.'
+    cursor_trail_description: 'Verblassende Partikel folgen Ihrem Mauszeiger.'
     cursor_trail_label: Zeiger-Spur
     custom_count_description: 'Von 1 bis 100.'
     custom_count_label: Anzahl
     custom_down_description: 'Partikel, die abwärts fallen wie Schnee oder Konfetti. Ideal für saisonale und thematische Designs.'
     custom_down_label: 'Benutzerdefinierter Effekt (Absteigend)'
-    custom_effects_description: 'Erstelle deine eigenen Effekte – aufsteigende und herabfallende Partikel. Diese stehen auch im Zeitplaner zur Verfügung.'
+    custom_effects_description: 'Erstellen Sie Ihre eigenen Effekte – aufsteigende und herabfallende Partikel. Diese stehen auch im Zeitplaner zur Verfügung.'
     custom_effects_title: 'Benutzerdefinierter Effekt'
     custom_emoji_link: 'Finde Emojis auf emojipedia.org'
     custom_items_label: Emojis
@@ -60,7 +60,7 @@ stezkoy-time-of-magic:
     density_heavy: Stark
     density_light: Leicht
     density_medium: Mittel
-    description: 'Verleiht deiner Flarum-Website einen Hauch von Magie.'
+    description: 'Verleiht Ihrer Flarum-Website einen Hauch von Magie.'
     eggs_density_description: 'Anzahl der Eier auf dem Bildschirm.'
     eggs_density_label: 'Dichte der Eier'
     eggs_description: 'Ostereier, die quer über die Seite hüpfen.'
@@ -88,7 +88,7 @@ stezkoy-time-of-magic:
     leaves_label: 'Fallende Blätter'
     petals_density_description: 'Anzahl der Blütenblätter auf dem Bildschirm.'
     petals_density_label: 'Dichte der Blütenblätter'
-    petals_description: 'Kirschblütenblätter des Frühlings, die über deine Seite treiben.'
+    petals_description: 'Kirschblütenblätter des Frühlings, die über Ihre Seite treiben.'
     petals_label: Kirschblüte
     progress_bar_color_label: 'Farbe des Fortschrittsbalkens'
     progress_bar_description: 'Zeigt beim Scrollen einen schmalen Fortschrittsbalken unterhalb der Kopfzeile an.'
@@ -150,5 +150,5 @@ stezkoy-time-of-magic:
   forum:
     disable_effects_description: 'Zeigt die fallenden Objekte (Schnee, Blätter, Regen und Ähnliche) im Forum nicht mehr an.'
     disable_effects_label: 'Effekte mit fallenden Objekten deaktivieren'
-    effects_section_description: 'Legt fest, wie sich visuelle Effekte in deinem Konto verhalten.'
+    effects_section_description: 'Legt fest, wie sich visuelle Effekte in Ihrem Konto verhalten.'
     effects_section_heading: Effekte
