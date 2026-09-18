@@ -34,6 +34,7 @@ CHANGELOG
 * [`fof/signature`](https://github.com/FriendsOfFlarum/signature)
 * [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile)
 * [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
 * [`ramon/chat`](https://github.com/ram0ng1/chat)
 * [`ramon/point-system`](https://github.com/ram0ng1/point-system)
 * [`stezkoy/flarum-feed2forum`](https://github.com/Stezkoy/flarum-feed2forum)
