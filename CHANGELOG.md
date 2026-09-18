@@ -38,6 +38,7 @@ CHANGELOG
 * [`ramon/chat`](https://github.com/ram0ng1/chat)
 * [`ramon/point-system`](https://github.com/ram0ng1/point-system)
 * [`stezkoy/flarum-feed2forum`](https://github.com/Stezkoy/flarum-feed2forum)
+* [`stezkoy/flarum-time-of-magic`](https://github.com/Stezkoy/flarum-time-of-magic)
 
 
 Alle Änderungen: [2.0.19...2.0.20](https://github.com/flarum-lang/german/compare/2.0.19...2.0.20).
