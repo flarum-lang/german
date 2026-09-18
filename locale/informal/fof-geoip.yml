@@ -15,6 +15,13 @@ fof-geoip:
       access_key_label: Zugangsschlüssel
       allow_custom_flag_help: 'Wenn aktiviert, können Benutzer in ihren Profileinstellungen ein Land auswählen, das neben ihren Beiträgen angezeigt werden soll. Die vom Benutzer ausgewählte Flagge wird allen angezeigt und hat Vorrang vor der IP-basierten Flagge. Dazu muss die Option „Länderflagge für jeden Beitrag anzeigen“ aktiviert sein.'
       allow_custom_flag_label: 'Benutzern erlauben, das Land selber auszuwählen'
+      database_asn_label: ASN-Datenbank
+      database_built: 'erstellt {time}'
+      database_city_label: Städtedatenbank
+      database_country_label: Länderdatenbank
+      database_not_configured: 'Nicht eingerichtet'
+      database_stale: 'veraltet, Aktualisierung empfohlen'
+      databases_heading: Datenbank-Dateien
       error_code_prefix: 'Code:'
       error_prefix: 'Fehler:'
       general:
@@ -41,6 +48,8 @@ fof-geoip:
       service_ipsevenex_description: 'Verwende <b>https://7x.ax</b>, um einen kostenlosen API-Schlüssel für bis zu 20 Anfragen pro Minute zu erhalten. Es sind auch kostenpflichtige Tarife für höhere Nutzungslimits verfügbar.'
       service_ipsevenex_label: '7x Geolocation API'
       service_label: Dienstanbieter
+      service_maxmind_description: 'Suche Adressen in lokalen Datenbanken im MaxMind-Format (.mmdb), anstatt eine Remote-API aufzurufen. Funktioniert mit den Lite-Editionen von MaxMinds GeoLite2/GeoIP2 und DB-IP. Die Abfragen erfolgen sofort, sind unbegrenzt und verlassen deinen Server zu keinem Zeitpunkt; Du musst die Datenbankdateien jedoch selbst installieren und aktualisieren. Beispiele findest du unter <b>https://github.com/FriendsOfFlarum/geoip</b>.'
+      service_maxmind_label: 'Offline-Datenbanken (MaxMind / DB-IP)'
       show_flag_help: 'Ohne die IP-Adresse preiszugeben, wird die Landesflagge der IP-Adresse des Verfassers des Beitrags angezeigt, wenn der Benutzer dies in seinen Einstellungen aktiviert hat.'
       show_flag_label: 'Länderflagge für jeden Beitrag anzeigen'
       status_error: '✗ Fehler'
@@ -54,6 +63,7 @@ fof-geoip:
       test_error_details_label: 'Fehlerdetails:'
       test_http_status_code_label: 'HTTP-Statuscode:'
       test_ip_required: 'Bitte gib eine IP-Adresse zum Testen ein.'
+      test_notice_label: 'Hinweis:'
       test_processed_service_response_label: 'Verarbeitete Serviceantwort:'
       test_response_time_label: 'Antwortzeit:'
       test_result_title: Testergebnis
@@ -96,13 +106,17 @@ fof-geoip:
     map_button_label: IP-Informationen
     map_modal:
       as: ASN
+      city: Stadt
+      country: Land
       country_code: Ländercode
+      dbip_attribution: 'IP-Lokalisierung durch <a>DB-IP</a>'
       error: Fehler
       ip_address: IP-Adresse
       isp: Internetanbieter
       mobile: Mobilfunknetz
       not_enough_data: 'Es liegen nicht genügend Daten vor, um eine Karte zu erstellen'
       organization: Organisation
+      region: Region
       threat_level: Bedrohungsstufe
       threat_types: 'Arten von Bedrohungen'
       title: IP-Informationen
