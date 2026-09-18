@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`ernestdefoe/garrison`](https://github.com/ernestdefoe/garrison)
 * [`huseyinfiliz/language-detection`](https://github.com/huseyinfiliz/language-detection)
+* [`linkrobins/flarum-swoop`](https://github.com/linkrobins/flarum-swoop)
 
 
 **Übersetzungen für Erweiterungen aktualisiert**:
@@ -17,9 +18,14 @@ CHANGELOG
 * [`ernestdefoe/logo-manager`](https://github.com/ernestdefoe/logo-manager)
 * [`ernestdefoe/scribe`](https://github.com/ernestdefoe/scribe)
 * [`ffans/threadmarks`](https://github.com/FFans/threadmarks)
+* [`flarum/messages`](https://github.com/flarum/messages)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
 * [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
+* [`fof/signature`](https://github.com/FriendsOfFlarum/signature)
+* [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile)
 * [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind)
 * [`ramon/chat`](https://github.com/ram0ng1/chat)
 * [`ramon/point-system`](https://github.com/ram0ng1/point-system)
