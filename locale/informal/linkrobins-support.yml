@@ -5,6 +5,8 @@
 linkrobins-support:
   admin:
     categories:
+      assignee_all_staff: 'Alle Mitarbeiter'
+      column_assignee: 'Zugewiesen an'
       column_name: Name
       column_slug: Slug
       column_tickets: Tickets
