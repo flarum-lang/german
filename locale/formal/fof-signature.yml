@@ -29,13 +29,13 @@ fof-signature:
       save: 'Signatur speichern'
       signature: Signatur
     editor:
-      placeholder: 'Bearbeite deine Signatur hier'
+      placeholder: 'Bearbeiten Sie Ihre Signatur hier'
     errors:
       max_char_limit_exceed: 'Die maximale Zeichenanzahl wurde überschritten.'
       max_image_count_exceed: 'Die maximale Anzahl an Bildern wurde überschritten.'
       remote_images_not_allowed: 'Bilder von externen Quellen sind in Signaturen nicht erlaubt.'
       save_failed: 'Beim Speichern deiner Signatur ist ein Fehler aufgetreten.'
     profile:
-      click: 'Klicke hier, um deine Signatur einzutragen'
+      click: 'Klicken Sie hier, um Ihre Signatur einzutragen'
     settings:
       heading: Signatur

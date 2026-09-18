@@ -16,7 +16,7 @@ fof-socialprofile:
       add: 'Füge Schaltflächen zu deinen sozialen Medien hinzu'
       delete: Löschen
       deletetitle: 'Button löschen'
-      edit: 'Bearbeite deine Social-Media-Buttons'
+      edit: 'Ihre Social-Media-Buttons bearbeiten'
       favicon: Favicon
       grey_favicon: 'Graues Favicon'
       headtitle: 'Buttons bearbeiten'
