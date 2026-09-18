@@ -13,11 +13,11 @@ fof-follow-tags:
     basics:
       following_label: '=> flarum-subscriptions.forum.index.following_link'
     settings:
-      all_discussions_on_following_page_for_guests_label: 'Alle Diskussionen auf der „Du folgst“-Seite für Gäste anzeigen'
+      all_discussions_on_following_page_for_guests_label: 'Alle Diskussionen auf der „Sie folgen“-Seite für Gäste anzeigen'
       following_none_label: '=> fof-follow-tags.ref.filtering_options.none'
-      following_page_default_label: 'Standardfilterung der "Du folgst"-Seiten'
+      following_page_default_label: 'Standardfilterung der "Sie folgen"-Seiten'
       following_tags_label: '=> fof-follow-tags.ref.filtering_options.tags'
-      prompt_button_on_following_page_label: 'Schaltfläche „Wähle Tags aus, denen Du folgen möchtest“ auf der „Du folgst“ anzeigen'
+      prompt_button_on_following_page_label: 'Schaltfläche „Wähle Tags aus, denen Sie folgen möchten“ auf der „Sie folgen“ anzeigen'
       prompt_new_users_help: "Nutzern, die ihre Auswahl noch nicht bestätigt haben, wird ein Modalfenster angezeigt, in dem sie aufgefordert werden, Tags zu folgen. Das Modalfenster wird bei jedem Besuch erneut angezeigt, bis sie auf „Weiter zum Forum“ klicken.\n"
       prompt_new_users_label: 'Neue Nutzer dazu auffordern, Tags auszuwählen, denen sie folgen möchten'
       prompt_tag_ids_label: 'Zur Auswahl stehende Tags'
@@ -32,9 +32,9 @@ fof-follow-tags:
   email:
     newDiscussionInTag:
       html:
-        body: "{actor_display_name} hat eine Diskussion in einem Tag gestartet, dem du folgst: [{discussion_title}]({discussion_url})\n"
+        body: "{actor_display_name} hat eine Diskussion in einem Tag gestartet, dem Sie folgen: [{discussion_title}]({discussion_url})\n"
       plain:
-        body: "{actor_display_name} hat eine Diskussion in einem Tag gestartet, dem du folgst: {discussion_title}\n\nUm die neue Diskussion anzuzeigen, klicke auf den folgenden Link:\n{discussion_url}\n\n---\n\n{content}\n"
+        body: "{actor_display_name} hat eine Diskussion in einem Tag gestartet, dem Sie folgen: {discussion_title}\n\nUm die neue Diskussion anzuzeigen, klicken Sie auf den folgenden Link:\n{discussion_url}\n\n---\n\n{content}\n"
       subject: '[Tag | Neue Diskussion] {title}'
     newDiscussionTag:
       html:
@@ -44,9 +44,9 @@ fof-follow-tags:
       subject: '[Tag | Geändertes Tag] {title}'
     newPostInTag:
       html:
-        body: "{actor_display_name} hat in einer Diskussion zu einem Tag, dem du folgst, einen Beitrag gepostet: [{discussion_title}]({post_url})\n"
+        body: "{actor_display_name} hat in einer Diskussion zu einem Tag, dem Sie folgen, einen Beitrag gepostet: [{discussion_title}]({post_url})\n"
       plain:
-        body: "{actor_display_name} hat in einer Diskussion zu einem Tag, dem du folgst, einen Beitrag gepostet: {discussion_title}\n\nUm die neue Aktivität anzuzeigen, klicke auf den folgenden Link:\n{post_url}\n\n---\n\n{content}\n"
+        body: "{actor_display_name} hat in einer Diskussion zu einem Tag, dem Sie folgen, einen Beitrag gepostet: {discussion_title}\n\nUm die neue Aktivität anzuzeigen, klicken Sie auf den folgenden Link:\n{post_url}\n\n---\n\n{content}\n"
       subject: '[Tag | Neuer Beitrag] {title}'
   forum:
     badge:
@@ -65,10 +65,10 @@ fof-follow-tags:
       new_discussion_text: '{username} gestartet'
       new_post_text: '{username} gepostet'
     prompt:
-      choose_button: 'Wähle Tags aus, denen Du folgen möchtest'
+      choose_button: 'Wählen Sie Tags aus, denen Sie folgen möchten'
       continue_button: 'Weiter zum Forum'
       later_button: 'Später erinnern'
-      modal_title: 'Wähle Tags aus, denen Du folgen möchtest'
+      modal_title: 'Wählen Sie Tags aus, denen Sie folgen möchten'
     settings:
       notify_new_discussion_label: 'Jemand erstellt eine Diskussion in einem Tag, dem ich folge'
       notify_new_discussion_tag_label: 'Jemand markiert eine Diskussion erneut mit einem Tag, dem ich folge'
@@ -77,7 +77,7 @@ fof-follow-tags:
       follow_button: '=> fof-follow-tags.ref.follow'
       following_button: '=> fof-follow-tags.ref.following'
       following_text: 'Über alle neuen Diskussionen benachricht werden.'
-      header: 'Dein Abo von „{tagName}“'
+      header: 'Ihr Abo von „{tagName}“'
       hiding_button: '=> fof-follow-tags.ref.hiding'
       hiding_text: 'Ausblenden von Diskussionen auf der Seite Alle Diskussionen.'
       ignoring_button: '=> fof-follow-tags.ref.ignoring'
@@ -89,11 +89,11 @@ fof-follow-tags:
       notify_alert_tooltip: 'Erhalte eine Forenbenachrichtigung, wenn neue Diskussionen oder Beiträge erstellt werden'
       notify_email_tooltip: 'Erhalte eine E-Mail, wenn neue Diskussionen oder Beiträge erstellt werden'
       submit_button: 'Abo bestätigen'
-      subscription_label: 'Wähle die Art aus, wie du „{tagName}“ abonnierst'
+      subscription_label: 'Wählen Sie die Art aus, wie Sie „{tagName}“ abonnieren'
     user:
       settings:
-        filter_label: 'Was standardmäßig auf der "Du folgst"-Seite angezeigt werden soll'
-        heading: 'Darstellung der „Du folgst“-Seite'
+        filter_label: 'Was standardmäßig auf der "Sie folgen"-Seite angezeigt werden soll'
+        heading: 'Darstellung der „Sie folgen“-Seite'
   ref:
     filtering_options:
       none: 'Gefolgte Diskussionen'

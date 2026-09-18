@@ -12,7 +12,7 @@ core:
         config_override:
           help: 'Die FontAwesome-Einstellungen sind derzeit in deiner config.php-Datei festgelegt und können hier nicht geändert werden.'
           label: Konfigurationsüberschreibung
-        forced_style_help: 'Wendet auf jedes Symbol einen bestimmten FontAwesome-Stil an, z. B. „fa-duotone fa-light“ oder „fa-regular“. Das ersetzt den von Core und Erweiterungen festgelegten Stil (Markensymbole werden dabei nie verändert). Deine Symbol-Quelle muss den Stil bereitstellen können: Die mitgelieferten Symbole stammen aus FontAwesome Free, das nur einige hundert Symbole außerhalb des „solid“-Stils umfasst. Wenn du also einen anderen Stil erzwingst, bleiben die meisten Symbole leer. Alle Stile sind über das FontAwesome Pro-CDN oder das Kit verfügbar. Lasse das Feld leer, um die Funktion zu deaktivieren.'
+        forced_style_help: 'Wendet auf jedes Symbol einen bestimmten FontAwesome-Stil an, z. B. „fa-duotone fa-light“ oder „fa-regular“. Das ersetzt den von Core und Erweiterungen festgelegten Stil (Markensymbole werden dabei nie verändert). Ihre Symbol-Quelle muss den Stil bereitstellen können: Die mitgelieferten Symbole stammen aus FontAwesome Free, das nur einige hundert Symbole außerhalb des „solid“-Stils umfasst. Wenn Sie also einen anderen Stil erzwingen, bleiben die meisten Symbole leer. Alle Stile sind über das FontAwesome Pro-CDN oder das Kit verfügbar. Lassen Sie das Feld leer, um die Funktion zu deaktivieren.'
         forced_style_label: 'Erzwungener Symbolstil'
         kit_url_help: 'Die URL deines FontAwesome-Kit-Skripts (von kit.fontawesome.com)'
         kit_url_label: Kit-URL
@@ -20,7 +20,7 @@ core:
           button: Symbolvorschau
           fa5_fa6_label: FA5/FA6-Aliasse
           fa7_label: FA7-Klassen
-          help: 'Überprüfe deine FontAwesome-Konfiguration. Ein gerendertes Symbol bedeutet, dass diese Stufe verfügbar ist; ein durchgestrichenes Kästchen bedeutet, dass sie nicht geladen wurde.'
+          help: 'Überprüfen Sie Ihre FontAwesome-Konfiguration. Ein gerendertes Symbol bedeutet, dass diese Stufe verfügbar ist; ein durchgestrichenes Kästchen bedeutet, dass sie nicht geladen wurde.'
           label: Symbolvorschau
           pro_label: 'Nur Pro'
         section_label: FontAwesome-Symbole
@@ -50,7 +50,7 @@ core:
           yes_button: Ja
         config_override:
           help: 'Du kannst diese Einstellungen hier weiterhin ändern, sie werden jedoch erst wirksam, wenn du in deiner Datei <code>config.php</code> den Wert <code>offline</code> auf <code>0</code> setzst.'
-          label: 'Deine Datei <code>config.php</code> überschreibt diese Einstellungen.'
+          label: 'Ihre Datei <code>config.php</code> überschreibt diese Einstellungen.'
         help: 'Versetzen Sie Ihr Forum in den Wartungsmodus, um zu verhindern, dass Benutzer darauf zugreifen können.'
         options:
           high: 'Intensiver Wartungsmodus. Niemand kann auf das Forum zugreifen (kann nur über config.php aktiviert werden)'
@@ -82,7 +82,7 @@ core:
         timeout_help: 'Maximaldauer, die ein einzelner Job ausgeführt werden kann. Der Standardwert beträgt 60 Sekunden.'
         timeout_label: 'Zeitlimit für Jobs (Sekunden)'
       search:
-        cjk_mode_help: 'Aktiviere diese Option, wenn dein Forum hauptsächlich auf Chinesisch, Japanisch oder Koreanisch verwendet wird. Die wortbasierte Suche der Datenbank kann keine Teilzeichenfolgen in CJK-Texten finden, daher wird hier auf eine Teilzeichenfolgen-Suche umgeschaltet, die dies ermöglicht. Bei sehr großen Foren ist dieser Vorgang langsamer; in diesem Fall ist die Konfiguration eines CJK-fähigen Volltext-Parsers auf Datenbankebene (wie beispielsweise der ngram-Parser von MySQL/MariaDB) eine schnellere Alternative.'
+        cjk_mode_help: 'Aktivieren Sie diese Option, wenn Ihr Forum hauptsächlich auf Chinesisch, Japanisch oder Koreanisch verwendet wird. Die wortbasierte Suche der Datenbank kann keine Teilzeichenfolgen in CJK-Texten finden, daher wird hier auf eine Teilzeichenfolgen-Suche umgeschaltet, die dies ermöglicht. Bei sehr großen Foren ist dieser Vorgang langsamer; in diesem Fall ist die Konfiguration eines CJK-fähigen Volltext-Parsers auf Datenbankebene (wie beispielsweise der ngram-Parser von MySQL/MariaDB) eine schnellere Alternative.'
         cjk_mode_label: 'Suche für CJK-Sprachen optimieren'
         driver_heading: 'Treiber suchen: {model}'
         driver_options:
@@ -211,7 +211,7 @@ core:
       toggle_advanced_page_button: 'Erweiterte Seite umschalten'
       tools_button: Werkzeuge
     database-driver-mismatch-warning:
-      detail: "Deine <code>config.php</code> ist für die Verwendung des Datenbanktreibers <code>{configured}</code> konfiguriert, aber Flarum hat festgestellt, dass der Datenbankserver tatsächlich <code>{actual}</code> ist.\n\nDie Verwendung des falschen Treibers kann zu subtilen, schwer zu diagnostizierenden Fehlern führen. Setze <code>‚driver‘ => ‚‘{actual}‚‘</code> im Abschnitt <code>database</code> deiner <code>config.php</code>-Datei. Weitere Informationen findest du in der <link>Flarum-Dokumentation</link>.\n"
+      detail: "Ihre <code>config.php</code> ist für die Verwendung des Datenbanktreibers <code>{configured}</code> konfiguriert, aber Flarum hat festgestellt, dass der Datenbankserver tatsächlich <code>{actual}</code> ist.\n\nDie Verwendung des falschen Treibers kann zu subtilen, schwer zu diagnostizierenden Fehlern führen. Setzen Sie <code>‚driver‘ => ‚‘{actual}‚‘</code> im Abschnitt <code>database</code> Ihrer <code>config.php</code>-Datei. Weitere Informationen finden Sie in der <link>Flarum-Dokumentation</link>.\n"
       label: Datenbank-Treiber-Konflikt
     database-version-warning:
       below-recommended-detail: "Auf deinem {server} Server läuft die Version <code>{version}</code>. Diese Version wird zwar unterstützt, Flarum empfiehlt jedoch {server} <code>{recommended}</code> oder höher, um die beste Leistung zu erzielen und eine gepflegte Version zu nutzen. Weitere Informationen findest du in der <link>Flarum-Dokumentation</link>.\n"
@@ -321,7 +321,7 @@ core:
       abandoned_with_replacement: 'Ersetzt durch {replacement}'
       all_healthy: 'Alle Erweiterungen sind in Ordnung.'
       section_abandoned_empty: 'Es wurden keine Probleme festgestellt.'
-      section_abandoned_heading: 'Erfordern deine Aufmerksamkeit'
+      section_abandoned_heading: 'Erfordern Ihre Aufmerksamkeit'
       section_abandoned_help: 'Diese Erweiterungen werden nicht mehr gepflegt oder weisen möglicherweise Kompatibilitätsprobleme auf. Du solltest erwägen, sie zu aktualisieren, zu ersetzen oder zu entfernen.'
       section_disabled_empty: 'Alle Erweiterungen sind aktiviert.'
       section_disabled_heading: Deaktiviert
@@ -498,8 +498,8 @@ core:
       footer:
         main_text: 'Diese E-Mail wurde an {email} gesendet, da du Benachrichtigungen vom Typ „{type}” auf [{forumTitle}]({forumUrl}) abonniert hast.'
         main_text_plain: 'Diese E-Mail wurde an {email} gesendet, da du Benachrichtigungen vom Typ „{type}” auf {forumTitle} abonniert hast.'
-        settings_text: 'Verwalte deine Benachrichtigungseinstellungen [hier]({settingsLink}).'
-        settings_text_plain: 'Verwalte deine Benachrichtigungseinstellungen hier: {settingsLink}'
+        settings_text: 'Verwalten Sie Ihre Benachrichtigungseinstellungen [hier]({settingsLink}).'
+        settings_text_plain: 'Verwalten Sie Ihre Benachrichtigungseinstellungen hier: {settingsLink}'
         unsubscribe_text: 'Wenn du diese Art von Benachrichtigungen nicht mehr erhalten möchtest, [melde dich hier ab]({unsubscribeLink}).'
         unsubscribe_text_plain: 'Wenn du diese Art von Benachrichtigungen nicht mehr erhalten möchtest, kannst du dich hier abmelden: {unsubscribeLink}'
     reset_password:
@@ -930,7 +930,7 @@ core:
     generic_confirmation_message: 'Sind Sie sicher, dass Sie fortfahren möchten? Diese Aktion kann nicht rückgängig gemacht werden.'
     icon: Symbol
     icon_text: 'Geben Sie den Namen der <a>FontAwesome</a>-Symbolklasse ein, aber <em>mit</em> dem Präfix (z. B. <code>fas fa-flag</code> oder <code>fa-solid fa-flag</code>).'
-    invalid_login_message: 'Deine Anmeldedaten waren falsch.'
+    invalid_login_message: 'Ihre Anmeldedaten waren falsch.'
     latest: Neueste
     light_hc_mode_label: 'Heller Modus mit hohem Kontrast'
     light_mode_label: 'Heller Modus'
@@ -1036,7 +1036,7 @@ core:
       confirm_button: Bestätigen
       confirm_message: 'Du hast darum gebeten, sich von den E-Mail-Benachrichtigungen „{type}” von {forumTitle} abzumelden.'
       immediate_helptext: 'Sobald du bestätigest, wirst du sofort abgemeldet.'
-      invalid_message: 'Dieser Abmeldelink ist ungültig oder wurde bereits verwendet. Für Änderungen an deinen E-Mail-Benachrichtigungen von {forumTitle} überprüfe bitte deine Einstellungen ({settingsLink}).'
+      invalid_message: 'Dieser Abmeldelink ist ungültig oder wurde bereits verwendet. Für Änderungen an Ihren E-Mail-Benachrichtigungen von {forumTitle} überprüfen Sie bitte Ihre Einstellungen ({settingsLink}).'
       return_to_forum: 'Zurück zu {forumTitle}'
-      success_message: 'Du hast dich erfolgreich von den Benachrichtigungen zu „{type}“ aus {forumTitle} abgemeldet. Wenn du diese wieder erhalten möchtest, aktualisiere bitte deine Einstellungen ({settingsLink}).'
+      success_message: 'Sie haben sich erfolgreich von den Benachrichtigungen zu „{type}“ aus {forumTitle} abgemeldet. Wenn Sie diese wieder erhalten möchtest, aktualisieren Sie bitte Ihre Einstellungen ({settingsLink}).'
       title: 'Bestätigung der Abmeldung'

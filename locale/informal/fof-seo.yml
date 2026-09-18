@@ -95,7 +95,7 @@ fof-seo:
         confirm_button: 'Ich habe das gelesen'
         google_heading: 'Füge deine Website zu den Google-Suchergebnissen hinzu'
         google_sitemap: 'Nachdem du die Registrierung in der Google Search Console abgeschlossen hast, rufe die Seite <b>Sitemaps</b> auf. Übermittele deine <b>sitemap.xml</b> an Google. Stelle sicher, dass Google deine Sitemap crawlen kann und dies auch weiterhin tun wird.'
-        google_visit: 'Wenn dein deine Website in die Google-Suchergebnisse aufnehmen möchtest, besuche {link}. Du musst deine Website hinzufügen und bestätigen, dass du der Inhaber der zugehörigen Domain bist.'
+        google_visit: 'Wenn du deine Website in die Google-Suchergebnisse aufnehmen möchtest, besuche {link}. Du musst deine Website hinzufügen und bestätigen, dass du der Inhaber der zugehörigen Domain bist.'
         google_www: 'Wenn du deine Domain eingibst, musst du dir folgende Frage stellen: Möchtest du die Subdomain „www“ in den Suchergebnissen verwenden? Du kannst dies später <strong>nicht</strong> ändern. Eine mehrfache Registrierung deiner Domain in der Google Search Console führt nicht zu einem besseren Ranking.'
         heading: 'Deine Website bei Suchmaschinen einreichen'
         intro: 'Es empfiehlt sich, Suchmaschinen darüber zu informieren, dass deine Website existiert. Auf dieser Seite erfährst du, wie du dies erfolgreich umsetzen kannst.'
