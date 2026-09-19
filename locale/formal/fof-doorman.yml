@@ -27,9 +27,9 @@ fof-doorman:
         warning: 'Dieser Einladungscode wurde bereits die maximal erlaubt Anzahl verwendet.'
       pagination:
         back_button: '=> core.admin.users.pagination.back_button'
-        first_page_button: '=> core.admin.users.pagination.first_page_button'
+        first_page_button: '=> core.admin.users.pagination.first_button'
         go_to_page_textbox_a11y_label: '=> core.admin.users.pagination.go_to_page_textbox_a11y_label'
-        last_page_button: '=> core.admin.users.pagination.last_page_button'
+        last_page_button: '=> core.admin.users.pagination.last_button'
         next_button: '=> core.admin.users.pagination.next_button'
         page_counter: '=> core.admin.users.pagination.page_counter'
     modal:

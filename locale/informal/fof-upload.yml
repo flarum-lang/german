@@ -171,7 +171,7 @@ fof-upload:
       empty: 'Es sind keine Dateien zum Anzeigen vorhanden.'
       hide_file:
         btn_a11y_label: '"{fileName}" im Medienmanager ausblenden'
-        hide_confirmation: 'Bist du sicher, dass du ''{fileName}'' wirklich ausblenden willst? Wenn Du eine Datei ausblendest, wird sie nur aus Deinem Medienmanager entfernt und wirkt sich nicht auf bestehende Beiträge aus.'
+        hide_confirmation: 'Bist du sicher, dass du „{fileName}“ wirklich ausblenden willst? Wenn Du eine Datei ausblendest, wird sie nur aus Deinem Medienmanager entfernt und wirkt sich nicht auf bestehende Beiträge aus.'
         hide_fail: 'Datei "{fileName}" konnte nicht ausgeblendet werden'
         hide_success: 'Datei versteckt'
         loading: 'Datei ausblenden...'

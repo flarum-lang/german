@@ -19,22 +19,22 @@ fof-username-request:
   forum:
     nickname_modals:
       action:
-        approval_label: '=> fof-username-request.ref.action.approval_label'
-        decision_title: '=> fof-username-request.ref.action.decision_title'
+        approval_label: Akzeptieren
+        decision_title: Entscheidung
         help_text: 'Bitte achte darauf, dass die gewünschte Änderung deines Spitznamens den Forenrichtlinien entspricht.'
         name: '{name} hat die Änderung des Spitznamens zu "{requestedName}" angefordert'
-        reason_title: '=> fof-username-request.ref.action.reason_title'
-        rejected_label: '=> fof-username-request.ref.action.rejected_label'
-        submit_button: '=> fof-username-request.ref.action.submit_button'
-        success: '=> fof-username-request.ref.action.success'
+        reason_title: 'Grund für die Ablehnung'
+        rejected_label: Ablehnen
+        submit_button: Absenden
+        success: 'Entscheidung abgeschickt.'
         title: '=> fof-username-request.ref.nickname_change_request'
       request:
-        confirmation_message: '=> fof-username-request.ref.request.confirmation_message'
+        confirmation_message: 'Dein Änderungswunsch wurde eingereicht und muss noch genehmigt werden.'
         current_request: 'Du hast bereits eine offene Anfrage deinen Spitznamen zu "{name}" zu ändern. Du kannst deine Anfrage entweder aktualisieren oder löschen.'
-        delete_button: '=> fof-username-request.ref.request.delete_button'
-        deleted: '=> fof-username-request.ref.request.deleted'
+        delete_button: 'Anfrage löschen'
+        deleted: 'Deine Anfrage wurde gelöscht.'
         dismiss_button: '=> core.ref.okay'
-        submit_button: '=> fof-username-request.ref.request.submit_button'
+        submit_button: 'Anfrage absenden'
         title: '=> fof-username-request.ref.nickname_change_request'
       results:
         approved: 'Deine gewünschte Änderung des Spitznamens wurde genehmigt'
@@ -42,7 +42,7 @@ fof-username-request:
         new_name: 'Dein Spitzname wurde erfolgreich geändert zu: {name}'
         reason: 'Grund für die Ablehnung: <i>„{reason}“</i>.'
         rejected: 'Die gewünschte Änderung des Spitznamens wurde abgelehnt'
-        resubmit: '=> fof-username-request.ref.results.resubmit'
+        resubmit: 'Du kannst nun weitere Anfragen über deine Account-Einstellungen stellen.'
         title: 'Antrag auf Namensänderung'
     pending_requests:
       empty_text: 'Aktuell gibt es keine offenen Anfragen, Namen zu ändern.'
@@ -59,22 +59,22 @@ fof-username-request:
       name_history_link: 'Alte Namen'
     username_modals:
       action:
-        approval_label: '=> fof-username-request.ref.action.approval_label'
-        decision_title: '=> fof-username-request.ref.action.decision_title'
+        approval_label: Akzeptieren
+        decision_title: Entscheidung
         help_text: 'Bitte achte darauf, dass die gewünschte Benutzername-Änderung den Forenrichtlinien entspricht.'
         name: '{name} hat die Änderung des Benutzernamens zu "{requestedName}" angefordert'
-        reason_title: '=> fof-username-request.ref.action.reason_title'
-        rejected_label: '=> fof-username-request.ref.action.rejected_label'
-        submit_button: '=> fof-username-request.ref.action.submit_button'
-        success: '=> fof-username-request.ref.action.success'
+        reason_title: 'Grund für die Ablehnung'
+        rejected_label: Ablehnen
+        submit_button: Absenden
+        success: 'Entscheidung abgeschickt.'
         title: '=> fof-username-request.ref.username_change_request'
       request:
-        confirmation_message: '=> fof-username-request.ref.request.confirmation_message'
+        confirmation_message: 'Dein Änderungswunsch wurde eingereicht und muss noch genehmigt werden.'
         current_request: 'Du hast bereits eine offene Anfrage deinen Benutzernamen zu "{name}" zu ändern. Du kannst deine Anfrage entweder aktualisieren oder löschen.'
-        delete_button: '=> fof-username-request.ref.request.delete_button'
-        deleted: '=> fof-username-request.ref.request.deleted'
+        delete_button: 'Anfrage löschen'
+        deleted: 'Deine Anfrage wurde gelöscht.'
         dismiss_button: '=> core.ref.okay'
-        submit_button: '=> fof-username-request.ref.request.submit_button'
+        submit_button: 'Anfrage absenden'
         title: '=> fof-username-request.ref.username_change_request'
       results:
         approved: 'Deine gewünschte Änderung des Benutzernamens wurde genehmigt'
@@ -82,7 +82,7 @@ fof-username-request:
         new_name: 'Dein Benutzername wurde erfolgreich geändert zu: {name}'
         reason: 'Grund für die Ablehnung: <i>„{reason}“</i>.'
         rejected: 'Deine gewünschte Änderung des Benutzernamens wurde abgelehnt'
-        resubmit: '=> fof-username-request.ref.results.resubmit'
+        resubmit: 'Du kannst nun weitere Anfragen über deine Account-Einstellungen stellen.'
         title: 'Antrag auf Änderung des Benutzernamens'
   ref:
     action:
