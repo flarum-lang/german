@@ -2,6 +2,50 @@ CHANGELOG
 =========
 
 
+2.0.20 (2026-09-19)
+-------------------
+
+**Allgemeine Änderungen**:
+
+* Flarum-Core Übersetzungen aktualisiert.
+
+
+**Unterstützung für neue Erweiterungen hinzugefügt**:
+
+* [`ernestdefoe/garrison`](https://github.com/ernestdefoe/garrison)
+* [`huseyinfiliz/language-detection`](https://github.com/huseyinfiliz/language-detection)
+* [`linkrobins/flarum-swoop`](https://github.com/linkrobins/flarum-swoop)
+
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`ernestdefoe/logo-manager`](https://github.com/ernestdefoe/logo-manager)
+* [`ernestdefoe/scribe`](https://github.com/ernestdefoe/scribe)
+* [`ffans/threadmarks`](https://github.com/FFans/threadmarks)
+* [`flarum/messages`](https://github.com/flarum/messages)
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/mailing`](https://github.com/FriendsOfFlarum/mailing)
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
+* [`fof/signature`](https://github.com/FriendsOfFlarum/signature)
+* [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile)
+* [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`linkrobins/support`](https://github.com/linkrobins/support)
+* [`ramon/chat`](https://github.com/ram0ng1/chat)
+* [`ramon/point-system`](https://github.com/ram0ng1/point-system)
+* [`stezkoy/flarum-feed2forum`](https://github.com/Stezkoy/flarum-feed2forum)
+* [`stezkoy/flarum-time-of-magic`](https://github.com/Stezkoy/flarum-time-of-magic)
+
+
+Alle Änderungen: [2.0.19...2.0.20](https://github.com/flarum-lang/german/compare/2.0.19...2.0.20).
+
+
 2.0.19 (2026-09-15)
 -------------------
 
