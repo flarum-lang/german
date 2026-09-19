@@ -31,21 +31,40 @@ ramon-point-system:
   forum:
     award_modal:
       add: Hinzufügen
+      added: 'Hat {amount} Punkte an {name} gegeben.'
       amount_label: Menge
       current_balance: 'Aktuelles Guthaben'
       current_lifetime: Gesamtbilanz
       reason_label: 'Grund (optional)'
       reason_placeholder: 'z. B. hilfreicher Beitrag'
       remove: Entfernen
+      removed: 'Hat {amount} Punkte von {name} entfernt.'
       title: 'Punkte für {name} verwalten'
     confirm:
+      after_purchase: 'Nach dem Kauf'
       cancel: Abbrechen
+      current_balance: 'Aktuelles Guthaben'
+      price: Preis
+    how_to_earn:
+      close: Verstanden
+      rule_daily_login: 'Erste Anmeldung des Tages'
+      rule_discussion: 'Starte eine Diskussion'
+      rule_like_received: 'Erhalte ein Like auf deinem Beitrag'
+      rule_post: 'Antworte in einer Diskussion'
+      rule_registration: 'Erstelle dein Konto'
     nav:
       my_decorations: 'Meine Dekorationen'
       shop: Belohnungen
     notifications:
       admin_fallback: 'Ein Administrator'
+      earned_discussion: 'Du hast {amount} Punkte dafür erhalten, dass du eine Diskussion gestartet hast'
+      earned_like_given: 'Du hast {amount} Punkte dafür erhalten, dass du einen Beitrag geliked hast'
+      earned_like_received: 'Du hast {amount} Punkte erhalten — Jemand hat deinen Beitrag geliked'
       earned_other: 'Du hast {amount} Punkte verdient'
+      earned_post: 'Du hast {amount} Punkte dafür erhalten, dass du geantwortet hast'
+      item_family_avatar: Avatarrahmen
+      item_family_post_highlight: Beitragshervorhebung
+      item_family_title: 'Benutzerdefinierter Titel'
       points_added: '{admin} hat dir {amount} Punkte zugewiesen'
       points_removed: '{admin} hat {amount} Punkte von dir entfernt'
       tier_claimed: 'Du bist der Gruppe {name} beigetreten!'
@@ -60,10 +79,14 @@ ramon-point-system:
       my_decorations: 'Meine Dekorationen'
       not_enough: 'Zu wenig Punkte'
       subtitle: 'Gib deine Punkte für Belohnungen und Extras aus.'
+      tab_avatar: Avatardekoration
+      tab_cover: Profilhintergründe
+      tab_post_hl: Beitragshervorhebungen
       tab_tiers: Gruppen
       tab_title: 'Benutzerdefinierte Titel'
       tier_claim: 'Gruppe beitreten'
       tiers_title: Gruppen
+      title: Belohnungen
       your_balance: 'Dein Punktekonto'
     submit:
       color_label: 'Akzentfarbe (optional)'
@@ -82,8 +105,21 @@ ramon-point-system:
       their_offer: 'Angebot von {name}'
       your_offer: 'Dein Angebot'
     trades_page:
+      history_heading: 'Vergangene Handelsanfragen'
+      items_short: '{count, plural, one {# Gegenstand} other {# Gegenstände}}'
+      open: Offen
       pending_heading: 'Offene Handelsanfragen'
+      retry: 'Erneut versuchen'
       start_cancel: Abbrechen
+      start_clear: 'Suche leeren'
+      start_submit: 'Handelsfenster öffnen'
+      start_username_label: Benutzername
+      start_username_placeholder: 'z. B. ramon'
+      status_cancelled: Abgebrochen
+      status_completed: Abgeschlossen
+      status_pending: Offen
+      their_side: 'Ihr Angebot'
       title: Handeln
+      your_side: 'Dein Angebot'
     user_controls:
       award_points: 'Punkte verwalten'
