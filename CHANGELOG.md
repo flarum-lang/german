@@ -24,6 +24,7 @@ CHANGELOG
 * [`ernestdefoe/scribe`](https://github.com/ernestdefoe/scribe)
 * [`ffans/threadmarks`](https://github.com/FFans/threadmarks)
 * [`flarum/messages`](https://github.com/flarum/messages)
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
