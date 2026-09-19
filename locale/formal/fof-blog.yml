@@ -15,7 +15,7 @@ fof-blog:
   admin:
     blog: Blog
     permissions:
-      approve_posts: 'Kann Blog genehmigen'
+      approve_posts: 'Darf Blogartikel genehmigen'
       auto_approve_posts: 'Artikel ohne Genehmigung veröffentlichen'
       write_articles: 'Blogeinträge schreiben und bearbeiten'
     settings:
@@ -42,7 +42,7 @@ fof-blog:
       hide_tags_in_taglist_label: 'Tags in der Tagliste ausblenden'
       hide_tags_in_taglist_text: 'Wenn diese Erweiterung aktiviert ist, werden die Blog-Tags auf der Homepage ausgeblendet.'
       no_categories_selected: 'Keine Kategorien ausgewählt'
-      redirects_heading: Umleitungen
+      redirects_heading: Weiterleitungen
       redirects_options:
         both: 'Artikel und Tags weiterleiten'
         discussions_only: 'Nur Artikel weiterleiten'
@@ -71,7 +71,7 @@ fof-blog:
         summary:
           helper_text: 'Diese Zusammenfassung wird auf der Blog-Übersichtsseite sichtbar sein und für SEO-Zwecke verwendet werden.'
           placeholder: 'Bitte gib eine Zusammenfassung ein'
-          title: 'Artikel Zusammenfassung'
+          title: Artikel-Zusammenfassung
       title: 'Einstellungen für Blogbeiträge'
     blog: Blog
     categories: Kategorien
@@ -94,7 +94,7 @@ fof-blog:
       update_settings: 'Blog-Einstellungen aktualisieren'
       view: Ansehen
       write: Schreiben
-    forum_nav: 'Forum Navigation'
+    forum_nav: Forumnavigation
     hidden: Versteckt
     no_more_posts: 'Keine Blogeinträge mehr.'
     read_more: 'Mehr lesen'
@@ -107,18 +107,18 @@ fof-blog:
       pending_review_title: 'Überprüfung ausstehend'
     tools:
       approve_article: 'Artikel genehmigen'
-      article_settings: 'Artikel Einstellungen'
+      article_settings: Artikel-Einstellungen
       delete_forever: 'Für immer löschen'
       disable_comments: 'Kommentare deaktivieren'
       edit_article: 'Artikel bearbeiten'
       enable_comments: 'Kommentare aktivieren'
-      hide_article: 'Artikel verstecken'
+      hide_article: 'Artikel verbergen'
       recover_article: 'Artikel wiederherstellen'
       rename_article: 'Artikel umbenennen'
       update_category: 'Kategorien aktualisieren'
     utils:
       redirect:
-        link: '<a>Klicke hier</a> wenn die Seite dich nicht weiterleitet'
+        link: '<a>Klicke hier</a>, wenn die Seite dich nicht weiterleitet'
         title: 'Weiterleitung zum Blogeintrag…'
     validation:
       missing_id: 'Fehlende ID'
