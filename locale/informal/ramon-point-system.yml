@@ -8,38 +8,76 @@ ramon-point-system:
       field_name: Name
     cancel: Abbrechen
     cover:
+      edit_title: 'Hintergrund bearbeiten — {name}'
+      existing: 'Vorhandene Hintergründe'
+      field_description: Beschreibung
+      field_image: Bild
+      field_image_help: 'Bis zu 6MB. Animatierte Formate: GIF, APNG, WebP.'
       field_name: Name
+      field_price: 'Preis (Punkte)'
+      none: 'Noch keine Hintergründe.'
+      replace_image: 'Bild ersetzen'
+      title: Profilhintergründe
+      upload: Hochladen
+      upload_title: 'Neuen Hintergrund hinzufügen'
+      uploaded: 'Hintergrund hochgeladen'
+    delete: Löschen
+    disable: Deaktivieren
+    edit: Bearbeiten
+    enable: Aktivieren
     name:
       field_name: Name
     post_hl:
       field_name: Name
     rules:
+      currency_icon: 'Symbolklasse der Währung'
+      currency_name: 'Name der Währung'
+      help: 'Konfiguriere das Punktesystem, die Dekorationsoptionen, die Währung und die Belohnungen pro Aktion.'
       save: 'Änderungen speichern'
       section_currency_title: Währung
       section_general_title: Allgemein
       title: Einstellungen
+      unsaved: '{count} ungespeicherte Änderungen'
     save: Speichern
     tabs:
+      all_trades: 'Alle Handelsanfragen'
+      avatar: Avatardekorationen
+      cover: Profilhintergründe
+      name: Namensstile
+      post_hl: Beitragshervorhebungen
+      rules: 'Punkte & Regeln'
+      title: 'Benutzerdefinierte Titel'
       users: Benutzer
     users:
       apply: Anwenden
+      col_balance: Guthaben
       col_groups: Gruppen
       col_user: Benutzer
       filter_all: 'Alle Benutzer'
+      filter_positive: 'Mit Guthaben'
+      filter_zero: 'Ohne Guthaben'
+      next: Nächste
       page_x_of_y: 'Seite {x} von {y}'
+      prev: Vorherige
+      search_placeholder: 'Nach Benutzername oder E-Mail suchen'
+      sort_balance: 'Nach Guthaben sortieren'
+      sort_username: 'Nach Benutzernamen sortieren'
       title: 'Benutzer & Punkte'
   forum:
     award_modal:
       add: Hinzufügen
       added: 'Hat {amount} Punkte an {name} gegeben.'
+      amount_help: 'Guthaben hinzufügen + Gesamtpunkte; entfernt wird nur vom Guthaben (Gesamtpunkte bleiben erhalten).'
       amount_label: Menge
       current_balance: 'Aktuelles Guthaben'
-      current_lifetime: Gesamtbilanz
+      current_lifetime: Gesamtpunkte
       reason_label: 'Grund (optional)'
       reason_placeholder: 'z. B. hilfreicher Beitrag'
       remove: Entfernen
       removed: 'Hat {amount} Punkte von {name} entfernt.'
       title: 'Punkte für {name} verwalten'
+    badge:
+      tooltip: '{balance} {currency} (Gesamtpunkte: {lifetime})'
     confirm:
       after_purchase: 'Nach dem Kauf'
       cancel: Abbrechen
@@ -52,57 +90,101 @@ ramon-point-system:
       rule_like_received: 'Erhalte ein Like auf deinem Beitrag'
       rule_post: 'Antworte in einer Diskussion'
       rule_registration: 'Erstelle dein Konto'
+    my_decorations:
+      avatar: Avatardekorationen
+      back_to_shop: 'Zurück zum Shop'
+      cover: Profilhintergründe
+      custom_title: 'Benutzerdefinierte Titel'
+      name: Namensstile
+      post_hl: Beitragshervorhebungen
+      preview: Live-Vorschau
+      tab_all: Alle
     nav:
       my_decorations: 'Meine Dekorationen'
       shop: Belohnungen
     notifications:
       admin_fallback: 'Ein Administrator'
+      earned_daily_login: 'Du hast {amount} Punkte als täglichen Anmeldebonus erhalten'
       earned_discussion: 'Du hast {amount} Punkte dafür erhalten, dass du eine Diskussion gestartet hast'
       earned_like_given: 'Du hast {amount} Punkte dafür erhalten, dass du einen Beitrag geliked hast'
       earned_like_received: 'Du hast {amount} Punkte erhalten — Jemand hat deinen Beitrag geliked'
       earned_other: 'Du hast {amount} Punkte verdient'
       earned_post: 'Du hast {amount} Punkte dafür erhalten, dass du geantwortet hast'
+      earned_registered: 'Du hast {amount} Punkte für deinen Beitritt zum Forum erhalten'
       item_family_avatar: Avatarrahmen
+      item_family_cover: Profilhintergrund
+      item_family_name: Namensstil
       item_family_post_highlight: Beitragshervorhebung
       item_family_title: 'Benutzerdefinierter Titel'
+      item_granted: '{admin} hat dir {family} „{item}“ gesendet'
       points_added: '{admin} hat dir {amount} Punkte zugewiesen'
       points_removed: '{admin} hat {amount} Punkte von dir entfernt'
       tier_claimed: 'Du bist der Gruppe {name} beigetreten!'
+      tier_excerpt: 'Schwellenwert: {points} Gesamtpunkte'
+      trade_completed: 'Handel mit {name} abgeschlossen'
       trade_requested: '{name} möchte mit dir handeln'
     session_dropdown:
       my_decorations: 'Meine Dekorationen'
       trades: Handeln
     shop:
+      badge_ends_in_days: '{count, plural, one {Endet in # Tag} other {Endet in # Tagen}}'
+      badge_ends_in_hours: '{count, plural, one {Endet in # Stunden} other {Endet in # Stunden}}'
+      badge_remaining: '{count, plural, one {# übrig} other {# übrig}}'
       by_creator: 'von {name}'
+      claimed: '{name} erhalten!'
+      equipped_alert: '{name} ausgerüstet'
       equipped_label: AUSGERÜSTET
+      lifetime: Gesamtpunkte
       login_to_claim: Anmelden
+      must_login: 'Anmelden, um Gegenstände zu erhalten'
       my_decorations: 'Meine Dekorationen'
       not_enough: 'Zu wenig Punkte'
+      not_found: 'Seite nicht gefunden.'
       subtitle: 'Gib deine Punkte für Belohnungen und Extras aus.'
       tab_avatar: Avatardekoration
       tab_cover: Profilhintergründe
       tab_post_hl: Beitragshervorhebungen
       tab_tiers: Gruppen
       tab_title: 'Benutzerdefinierte Titel'
+      tier_buy: 'Zugang erwerben'
       tier_claim: 'Gruppe beitreten'
+      tier_claimed: Beigetreten
+      tier_not_enough: 'Nicht genügend Punkte'
       tiers_title: Gruppen
       title: Belohnungen
       your_balance: 'Dein Punktekonto'
     submit:
       color_label: 'Akzentfarbe (optional)'
+      custom_css_label: 'Benutzerdefiniertes CSS (optional)'
       description_label: 'Beschreibung (optional)'
+      family_avatar: Avatardekoration
+      family_cover: Profilhintergrund
+      family_name: Namensstil
+      family_post_hl: Beitragshervorhebung
+      family_title: 'Benutzerdefinierter Titel'
       image_file_label: Bilddatei
+      image_url_help: 'Direkte https://-URL auf ein PNG / GIF / WebP / APNG.'
+      image_url_label: Bild-URL
       name_label: Name
+      name_placeholder: 'z. B. „Sonnenuntergang“'
       source_file: 'Datei hochladen'
       source_label: Bildquelle
       source_url: 'Bild-URL verwenden'
       title_text_placeholder: 'z. B. „Veteran“'
     trade:
       accept: Annehmen
+      add_item: 'Gegenstand hinzufügen'
+      balance: 'Dein Guthaben'
       cancel: 'Handel abbrechen'
       close_final: Schließen
+      completed_alert: 'Handel abgeschlossen.'
+      confirm_cancel: 'Diesen Handel abbrechen?'
+      error_no_target: 'Kein Benutzer ausgewählt.'
       remove_item: Entfernen
+      status_cancelled: 'Handel wurde abgebrochen.'
+      status_completed: 'Handel abgeschlossen!'
       their_offer: 'Angebot von {name}'
+      title_with: 'Handel mit {name}'
       your_offer: 'Dein Angebot'
     trades_page:
       history_heading: 'Vergangene Handelsanfragen'
@@ -112,7 +194,9 @@ ramon-point-system:
       retry: 'Erneut versuchen'
       start_cancel: Abbrechen
       start_clear: 'Suche leeren'
+      start_new: 'Handel beginnen'
       start_submit: 'Handelsfenster öffnen'
+      start_title: 'Neuen Handel beginnen'
       start_username_label: Benutzername
       start_username_placeholder: 'z. B. ramon'
       status_cancelled: Abgebrochen
@@ -123,3 +207,6 @@ ramon-point-system:
       your_side: 'Dein Angebot'
     user_controls:
       award_points: 'Punkte verwalten'
+      trade: Handel
+    user_profile:
+      trades_link: Handelsverlauf
