@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+2.0.21 (XXXX-XX-XX)
+-------------------
+
+**Übersetzungen für Erweiterungen aktualisiert**:
+
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`linkrobins/support`](https://github.com/linkrobins/support)
+
+
+Alle Änderungen: [2.0.20...2.0.21](https://github.com/flarum-lang/german/compare/2.0.20...2.0.21).
+
+
 2.0.20 (2026-09-19)
 -------------------
 
