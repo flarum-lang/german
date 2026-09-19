@@ -139,8 +139,13 @@ linkrobins-support:
       pending: Ausstehend
       rejected: Abgelehnt
     errors:
+      delete_reply: 'Antwort konnte nicht gelöscht werden.'
+      delete_ticket: 'Ticket konnte nicht gelöscht werden.'
       load_tickets: 'Tickets konnten nicht geladen werden.'
+      restore_ticket: 'Ticket konnte nicht wiederhergestellt werden.'
+      save_edit: 'Bearbeitung konnte nicht gespeichert werden.'
       unknown: 'Unbekannter Fehler.'
+      update_status: 'Status konnte nicht aktualisiert werden.'
     index:
       deleted_badge: Gelöscht
       empty: 'Es sind keine Tickets vorhanden.'
