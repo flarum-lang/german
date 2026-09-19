@@ -10,6 +10,7 @@ CHANGELOG
 * [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`linkrobins/support`](https://github.com/linkrobins/support)
+* [`ramon/point-system`](https://github.com/ram0ng1/point-system)
 
 
 Alle Änderungen: [2.0.20...2.0.21](https://github.com/flarum-lang/german/compare/2.0.20...2.0.21).
