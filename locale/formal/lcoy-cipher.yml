@@ -8,9 +8,10 @@ lcoy-cipher:
       allow_guest_unlock: 'Gästen ermöglichen, geschützte Inhalte freizuschalten'
       allow_guest_unlock_help: 'Wenn deaktiviert, können nur angemeldete Benutzer geschützte Inhalte mit einem Passwort entsperren.'
       default_password: Standardpasswort
-      default_password_help: 'Wird verwendet, wenn ein Autor das Passwort leer lässt. Stelle sicher, dass die Autoren es den Besuchern mitteilen.'
+      default_password_help: 'Wird verwendet, wenn ein Autor das Passwort leer lässt. Es wird allen Benutzern im Einfügedialog angezeigt, sodass ein Block, der darauf basiert, praktisch erst durch einen Klick sichtbar wird – lege ein eigenes Passwort für Inhalte fest, die privat bleiben sollen. Eine Änderung wird sofort für alle geschützten Blöcke wirksam, die kein eigenes Passwort haben.'
       section_general: Allgemein
   forum:
+    card_default_password_label: 'Standardpasswort:'
     condition_follow: 'Dem Verfasser muss gefolgt werden'
     condition_follow_discussion: 'Der Diskussion muss gefolgt werden'
     condition_like: 'Beitrag muss geliked sein'
@@ -35,13 +36,18 @@ lcoy-cipher:
     need_minlikes: 'Dieser Beitrag benötigt {count} Likes, um freigeschaltet zu werden'
     need_reply: 'Antworten, um freizuschalten'
     need_time: 'Inhalt wird nach {time} sichtbar sein'
+    password_default_hint: 'Standardpasswort: {password} (wird verwendet, wenn das Feld leer gelassen wird)'
+    password_invalid_hash: 'Das Passwort darf nicht mit „$2y$“ oder „$argon2“ beginnen (reserviertes Hash-Format – es könnte niemals entsperrt werden)'
     password_invalid_quote: 'Das Passwort darf keine doppelten Anführungszeichen enthalten'
     password_keep_hint: 'Passwort bereits festgelegt – leer lassen, um es beizubehalten'
     password_label: Passwort
     password_optional_hint: 'Lasse das Feld leer, um das Standardpasswort zu verwenden'
     password_optional_label: 'Passwort (optional)'
     password_required: 'Passwort zur Freischaltung eingeben.'
-    password_unlock_hint: 'Gib das Passwort ein (Standardpasswort, wenn das Feld leer bleibt)'
+    password_stored_hint: 'Dieser Block verfügt über ein eigenes Passwort, das nicht angezeigt werden kann. Gib ein neues Passwort ein, um es zu ersetzen, oder verwende das unten angegebene Standardpasswort.'
+    password_unlock_hint: 'Gib das Passwort ein'
+    password_use_default: 'Verwende das Standardpasswort (löscht das gespeicherte Passwort)'
+    password_using_default_hint: 'Standardpasswort wird verwendet'
     placeholder_content: 'Geschützten Inhalt hier eingeben'
     post_not_found: 'Der Beitrag wurde nicht gefunden oder du hast keine Berechtigung, ihn anzuzeigen.'
     quick_time_12h: 'In 12 Stunden'
@@ -54,6 +60,7 @@ lcoy-cipher:
     title_label: 'Titel (optional)'
     too_many_attempts: 'Zu viele Versuche. Bitte versuche es später erneut.'
     unlock: Freischalten
+    unlock_default_filled: 'Das Standardpasswort ist bereits eingegeben – bestätige es einfach, um die Sperre aufzuheben'
     unlock_disabled: 'Dieser Inhalt ist für dich derzeit gesperrt.'
     unlock_error: 'Freischaltung fehlgeschlagen, bitte versuche es später erneut.'
     unlock_follow: 'Bitte folge dem Verfasser dieses Beitrags und gib anschließend das Passwort ein, um ihn freizuschalten.'

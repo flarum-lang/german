@@ -45,7 +45,7 @@ ffans-threadmarks:
     discussion_controls:
       show_all_button: 'Alle Beiträge'
       show_all_button_a11y_label: 'Alle Beiträge anzeigen'
-      show_threadmarks_button: '=> ffans-threadmarks.ref.threadmarks'
+      show_threadmarks_button: Markierungen
       show_threadmarks_button_a11y_label: 'Nur Beiträge mit Diskussionsmarkierungen anzeigen'
     manage_modal:
       add_button: Hinzufügen

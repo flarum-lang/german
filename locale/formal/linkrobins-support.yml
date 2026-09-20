@@ -38,9 +38,9 @@ linkrobins-support:
       field_color_help: 'Hex-Farbe (z. B. #3b82f6) für das Kategorieabzeichen.'
       field_default_assignee: 'Neue Tickets zuweisen an'
       field_default_assignee_error: 'Die Liste der Mitarbeiter konnte nicht geladen werden. Die aktuelle Einstellung bleibt unverändert.'
-      field_default_assignee_help: 'Neue Tickets dieser Kategorie werden dieser Person zugewiesen, und nur sie wird darüber benachrichtigt. Belasse die Einstellung auf „Niemand“, um stattdessen alle Mitarbeiter zu benachrichtigen, und lasse denjenigen, der zuerst antwortet, das Ticket übernehmen.'
+      field_default_assignee_help: 'Neue Tickets dieser Kategorie werden dieser Person zugewiesen, und nur sie wird darüber benachrichtigt. Belasse die Einstellung auf „Niemandem“, um stattdessen alle Mitarbeiter zu benachrichtigen, und lasse denjenigen, der zuerst antwortet, das Ticket übernehmen.'
       field_default_assignee_loading: 'Liste der Mitarbeiter wird geladen...'
-      field_default_assignee_none: 'Niemand -- alle Mitarbeiter benachrichtigen'
+      field_default_assignee_none: 'Niemandem -- alle Mitarbeiter benachrichtigen'
       field_default_assignee_unavailable: '{name} (kein Support-Mitarbeiter mehr)'
       field_description: Beschreibung
       field_icon: Symbol
@@ -77,9 +77,12 @@ linkrobins-support:
       force_delete_tickets: 'Support-Tickets dauerhaft löschen'
       handle_tickets: 'Support-Tickets bearbeiten'
     rate_limits:
+      general_window_hours: 'Allgemeines Fenster (in Stunden)'
+      general_window_hours_help: 'Das gleitende Zeitfenster (in Stunden) für das allgemeine Ticketlimit.'
       heading: Ratenbegrenzungen
       intro: 'Begrenze, wie oft Nutzer Support-Tickets erstellen können, und sperre Einsprüche.'
       max_general_per_window: 'Maximale allgemeine Tickets pro Fenster'
+      max_general_per_window_help: 'Wie viele allgemeine Support-Tickets ein Benutzer innerhalb des unten angegebenen Zeitraums eröffnen darf.'
     settings:
       description: 'Konfiguriere Support-Kategorien und Ratenbegrenzungen für das Ticket-System.'
       title: Support
@@ -118,7 +121,10 @@ linkrobins-support:
       saving: 'Wird gespeichert…'
       unassign: 'Zuordnung aufheben'
     common:
+      date_at_time: '{date} um {time}'
       loading: 'Wird geladen…'
+      uploading_many: '{count} Dateien werden hochgeladen…'
+      uploading_one: '1 Datei wird hochgeladen…'
     compose:
       back_to_categories: 'Zurück zu Kategorien'
       body_placeholder: 'Beschreibe das Problem ausführlich. Markdown wird unterstützt.'
@@ -127,6 +133,7 @@ linkrobins-support:
       discard_confirm: 'Du hast ein noch nicht übermitteltes Ticket. Möchtest du es verwerfen?'
       message_label: Nachricht
       message_placeholder_click: 'Klicke hier, um deine Nachricht zu verfassen…'
+      no_categories: 'Es wurden noch keine Support-Kategorien eingerichtet. Bitte wende dich an einen Administrator.'
       subject_first: 'Bitte gib einen Betreff für dein Ticket ein.'
       subject_label: Betreff
       subject_placeholder: 'Kurze Zusammenfassung deines Problems'
@@ -140,8 +147,12 @@ linkrobins-support:
       rejected: Abgelehnt
     errors:
       delete_reply: 'Antwort konnte nicht gelöscht werden.'
+      delete_reply_forever: 'Die Antwort konnte nicht endgültig gelöscht werden.'
       delete_ticket: 'Ticket konnte nicht gelöscht werden.'
+      delete_ticket_forever: 'Das Ticket konnte nicht endgültig gelöscht werden.'
+      empty_body: 'Bitte gib deine Nachricht ein, bevor du das Formular absendest.'
       load_tickets: 'Tickets konnten nicht geladen werden.'
+      post_reply: 'Antwort konnte nicht veröffentlicht werden.'
       restore_ticket: 'Ticket konnte nicht wiederhergestellt werden.'
       save_edit: 'Bearbeitung konnte nicht gespeichert werden.'
       unknown: 'Unbekannter Fehler.'
@@ -158,12 +169,16 @@ linkrobins-support:
     nav: Support
     new_ticket: 'Neues Ticket'
     notifications:
+      assigned: '{name} hat dir ein Ticket zugewiesen'
+      assigned_generic: 'Ein Ticket wurde dir zugewiesen'
       new_appeal: '{name} hat einen neuen Einspruch eingelegt'
       new_ticket: '{name} hat ein neues Support-Ticket eröffnet'
+      reopened_by_owner: '{name} haben ihr Ticket wieder geöffnet'
       reply_from: '{name} hat auf dein Ticket geantwortet'
       reply_generic: 'Support hat auf dein Ticket geantwortet'
       someone: 'Ein Benutzer'
       status_changed: 'Dein Ticket wurde als {status} markiert'
+      status_changed_generic: 'Ein Ticket wurde als {status} markiert'
     reply:
       deleted_notice: 'Diese Antwort wurde gelöscht.'
       discard_confirm: 'Du hast ungespeicherte Änderungen. Möchtest du diese verwerfen?'
@@ -177,8 +192,10 @@ linkrobins-support:
       post_reply: 'Antwort schreiben'
       posting: 'Wird gesendet…'
     settings:
+      notify_assigned_label: 'Ein Ticket wird mir zugewiesen'
       notify_new_reply_label: 'Jemand antwortet auf mein Support-Ticket'
       notify_new_ticket_label: 'Ein neues Support-Ticket wird erstellt (Mitarbeiter)'
+      notify_status_changed_label: 'Der Status eines Tickets wird geändert'
     show:
       assigned_to: 'Zugewiesen an'
       cannot_reply: 'Du kannst auf dieses Ticket nicht antworten.'

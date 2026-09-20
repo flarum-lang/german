@@ -27,13 +27,20 @@ acpl-mobile-tab:
       toggle_label: 'Sichtbarkeit beim Scrollen umschalten'
     variants:
       create: 'Variante erstellen'
+      delete: 'Variante löschen'
+      delete_confirmation: 'Möchtest du diese Variante löschen? Diese Aktion kann nicht rückgängig gemacht werden.'
+      empty_help: 'Ziehe Elemente hierher, um sie dieser Variante hinzuzufügen.'
       enabled: Aktiviert
+      heading: 'Varianten der mobilen Reiterkarten'
+      help: 'Varianten werden von oben nach unten geprüft. Den Benutzern wird die erste aktivierte Variante angezeigt, für deren Anzeige sie die Berechtigung haben. Setze spezifischere Rollen an den Anfang, zum Beispiel: #1 Administratoren, #2 Moderatoren, #3 Mitglieder, #4 alle.'
       number: '#{number}'
+      reorder: 'Variante neu anordnen'
       visible_to: 'Sichtbar für'
   lib:
     item:
       all_discussions: Diskussionen
       categories: Kategorien
+      flags: Meldungen
       fof-byobu: Privat
       home: Start
       log_in: Anmelden
