@@ -9,5 +9,6 @@ ernestdefoe-tributary:
     branch_empty: 'Hier ist nichts mehr.'
     in_reply_to: 'Antwort auf {username}'
     load_more: 'Mehr Antworten anzeigen'
+    reply_context: 'Ebene {depth}, als Antwort auf {username}.'
     reply_count: '{count, plural, one {# Antwort} other {# Antworten}}'
     reply_to: 'Im Thread antworten'

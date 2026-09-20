@@ -6,7 +6,8 @@ acpl-mobile-tab:
   admin:
     active_items: 'Aktive Elemente'
     available_items: 'Verfügbare Elemente'
-    create_new_item_button: 'Neues Element erstellen'
+    available_items_help: 'Ziehe Elemente aus dieser Liste in eine beliebige Variante, um sie der Registerkarte „Mobil“ hinzuzufügen.'
+    create_new_item_button: 'Element erstellen'
     edit_item:
       delete_button: Löschen
       delete_item_confirmation: 'Möchtest du diesen Artikel wirklich löschen?'
@@ -24,6 +25,11 @@ acpl-mobile-tab:
       threshold_help: 'Entfernung, die von der aktuellen Position aus gescrollt werden muss, um die Sichtbarkeit umzuschalten.'
       threshold_label: 'Bildlaufschwelle (px)'
       toggle_label: 'Sichtbarkeit beim Scrollen umschalten'
+    variants:
+      create: 'Variante erstellen'
+      enabled: Aktiviert
+      number: '#{number}'
+      visible_to: 'Sichtbar für'
   lib:
     item:
       all_discussions: Diskussionen
