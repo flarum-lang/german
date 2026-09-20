@@ -49,7 +49,7 @@ CHANGELOG
 * [`flarum/sticky`](https://github.com/flarum/sticky) (12 changed)
 * [`flarum/subscriptions`](https://github.com/flarum/subscriptions) (2 changed)
 * [`flarum/tags`](https://github.com/flarum/tags) (57 changed)
-* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (12 changed)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (14 changed)
 * [`fof/badges`](https://github.com/FriendsOfFlarum/badges) (13 changed)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (12 changed)
 * [`fof/blog`](https://github.com/FriendsOfFlarum/blog) (20 changed)
