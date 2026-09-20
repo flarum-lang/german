@@ -8,9 +8,13 @@ CHANGELOG
 **Übersetzungen für Erweiterungen aktualisiert**:
 
 * [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`ernestdefoe/logo-manager`](https://github.com/ernestdefoe/logo-manager)
 * [`ernestdefoe/tributary`](https://github.com/ernestdefoe/tributary)
+* [`ffans/threadmarks`](https://github.com/FFans/threadmarks)
 * [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
+* [`lcoy/cipher`](https://github.com/Lcoy2004/Flarum-cipher)
 * [`linkrobins/support`](https://github.com/linkrobins/support)
 * [`ramon/point-system`](https://github.com/ram0ng1/point-system)
 * [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
