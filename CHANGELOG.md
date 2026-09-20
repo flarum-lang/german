@@ -5,22 +5,22 @@ CHANGELOG
 2.0.21 (XXXX-XX-XX)
 -------------------
 
-**Übersetzungen für Erweiterungen aktualisiert**:
+**Updated translations for extensions**:
 
-* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
-* [`ernestdefoe/logo-manager`](https://github.com/ernestdefoe/logo-manager)
-* [`ernestdefoe/tributary`](https://github.com/ernestdefoe/tributary)
-* [`ffans/threadmarks`](https://github.com/FFans/threadmarks)
-* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
-* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
-* [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
-* [`lcoy/cipher`](https://github.com/Lcoy2004/Flarum-cipher)
-* [`linkrobins/support`](https://github.com/linkrobins/support)
-* [`ramon/point-system`](https://github.com/ram0ng1/point-system)
-* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) (24 added, 2 changed)
+* [`ernestdefoe/logo-manager`](https://github.com/ernestdefoe/logo-manager) (30 added)
+* [`ernestdefoe/tributary`](https://github.com/ernestdefoe/tributary) (2 added)
+* [`ffans/threadmarks`](https://github.com/FFans/threadmarks) (2 changed)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions) (2 changed)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags) (2 changed)
+* [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist) (6 changed)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request) (14 changed)
+* [`lcoy/cipher`](https://github.com/Lcoy2004/Flarum-cipher) (14 added, 4 changed)
+* [`linkrobins/support`](https://github.com/linkrobins/support) (44 added, 4 changed)
+* [`ramon/point-system`](https://github.com/ram0ng1/point-system) (238 added, 2 changed)
 
 
-Alle Änderungen: [2.0.20...2.0.21](https://github.com/flarum-lang/german/compare/2.0.20...2.0.21).
+All changes: [2.0.20...2.0.21](https://github.com/flarum-lang/german/compare/2.0.20...2.0.21).
 
 
 2.0.20 (2026-09-19)
