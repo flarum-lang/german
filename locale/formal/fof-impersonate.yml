@@ -26,7 +26,7 @@ fof-impersonate:
     modal:
       impersonate_username: 'Als {username} anmelden'
       label: 'Mit großer Macht kommt große Verantwortung. Wenn du fortfährst, wirst du zu {username} bis du wieder zurückwechselst.'
-      placeholder_optional: '(Optional) Gib einen Grund für den Wechsel zu diesem Benutzer an'
+      placeholder_optional: '(Optional) Geben Sie einen Grund für den Wechsel zu diesem Benutzer an.'
       placeholder_required: 'Du musst einen Grund für den Wechsel zu diesem Benutzer angeben, bevor du fortfahren kannst'
       title: 'Als anderer Benutzer anmelden'
     user_controls:

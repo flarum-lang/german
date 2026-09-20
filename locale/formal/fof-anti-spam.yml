@@ -6,9 +6,9 @@ flarum-audit:
   lib:
     browser:
       registration:
-        blocked: 'Registrierung für {username} ({email}) von {ip} gesperrt'
+        blocked: 'Hat Registrierungen für {username} ({email}) von {ip} blockiert'
       user:
-        marked_as_spammer: '{username} als Spammer markiert'
+        marked_as_spammer: 'Hat {username} als Spammer markiert'
 fof-anti-spam:
   admin:
     blocked_registrations:

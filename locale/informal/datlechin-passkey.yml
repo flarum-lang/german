@@ -52,7 +52,7 @@ datlechin-passkey:
       security_error: 'Die Herkunft der Website stimmt nicht mit der konfigurierten vertrauenden Partei überein. Bitte einen Administrator, die Passkey-Einstellungen zu überprüfen.'
       sign_in_with_passkey: 'Mit Passkey anmelden'
       throttled: 'Zu viele Anmeldeversuche mit dem Passkey. Bitte warte eine Minute und versuche es erneut.'
-      unsupported: 'Dieses Gerät unterstützt den von der Website geforderten Passkeytyp nicht.'
+      unsupported: 'Dieses Gerät unterstützt den von der Website geforderten Passkey-Typ nicht.'
       verifying: 'Passkey wird überprüft...'
     required:
       body: 'In deiner Rolle musst du zunächst einen Passkey registrieren, bevor du fortfahren kannst.'
@@ -62,16 +62,16 @@ datlechin-passkey:
       add_modal:
         cancel_button: Abbrechen
         device_name_label: 'Name dieses Passkeys'
-        device_name_placeholder: 'z. B. iPhone, Macbook, YubiKey'
+        device_name_placeholder: 'z. B. iPhone, MacBook, YubiKey'
         register_button: Registrieren
-        title: 'Passkey hinzufügen'
+        title: 'Einen Passkey hinzufügen'
       alerts:
         bulk_revoke_succeeded: 'Alle Passkeys widerrufen.'
         registration_already_exists: 'Dieses Gerät verfügt bereits über einen Passkey für dein Konto. Widerrufe zunächst den vorhandenen Passkey oder verwende ein anderes Gerät.'
         registration_failed: 'Dein Passkey konnte nicht registriert werden. Bitte versuche es erneut.'
         registration_security_error: 'Die Herkunft der Website stimmt nicht mit der konfigurierten vertrauenden Partei überein. Bitte einen Administrator, die Passkey-Einstellungen zu überprüfen.'
         registration_succeeded: 'Passkey hinzugefügt.'
-        registration_unsupported: 'Dieses Gerät unterstützt den von der Website geforderten Passkeytyp nicht.'
+        registration_unsupported: 'Dieses Gerät unterstützt den von der Website geforderten Passkey-Typ nicht.'
         rename_succeeded: 'Passkey umbenannt.'
         revoke_succeeded: 'Passkey widerrufen.'
       bulk_revoke_button: 'Alle widerrufen'
