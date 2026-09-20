@@ -16,7 +16,7 @@ fof-anti-spam:
       button: 'Blockierte Registrierungen'
       delete_entry: 'Eintrag löschen'
       email: E-Mail-Adresse
-      help: "Diese Seite listet alle Registrierungen auf, die vom StopForumSpam-Dienst blockiert wurden. Du kannst die Details jeder Registrierung anschauen und, falsch gewünscht, den Eintrag aus der Datenbank löschen.\n"
+      help: "Diese Seite listet alle Registrierungen auf, die vom StopForumSpam-Dienst blockiert wurden. Du kannst die Details jeder Registrierung anschauen und, falls gewünscht, den Eintrag aus der Datenbank löschen.\n"
       ip: IP-Adresse
       login-provider: Anmeldeanbieter
       login-provider-data: 'Daten des Loginanbieters'
