@@ -5,16 +5,16 @@ CHANGELOG
 1.25.31 (XXXX-XX-XX)
 --------------------
 
-**Übersetzungen für Erweiterungen aktualisiert**:
+**Updated translations for extensions**:
 
-* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
-* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
-* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
-* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
-* [`tapao/custom-landing-page`](https://github.com/Tapao-NonSen/Custom-Landing-Page)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman) (4 changed)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter) (4 changed)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload) (2 changed)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request) (36 changed)
+* [`tapao/custom-landing-page`](https://github.com/Tapao-NonSen/Custom-Landing-Page) (4 changed)
 
 
-Alle Änderungen: [1.25.30...1.25.31](https://github.com/flarum-lang/german/compare/1.25.30...1.25.31).
+All changes: [1.25.30...1.25.31](https://github.com/flarum-lang/german/compare/1.25.30...1.25.31).
 
 
 1.25.30 (2026-09-11)
