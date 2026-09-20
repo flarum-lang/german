@@ -25,7 +25,7 @@ fof-mailing:
       submit_button: Senden
       title_text: 'E-Mail verfassen'
     modal_sent:
-      on_its_way: 'High Five! Deine E-Mail ist auf dem Weg zu {recipientsCount} Empfängern!'
+      on_its_way: 'High Five! Ihre E-Mail ist auf dem Weg zu {recipientsCount} Empfängern!'
       title_text: 'E-Mail gesendet!'
     recipient_kinds:
       email: E-Mail

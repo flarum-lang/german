@@ -37,8 +37,8 @@ fof-anti-spam:
         delete_user_label: 'Benutzer löschen'
         heading: Standard-Moderationsmaßnahmen
         introduction: 'Wenn ein Benutzer als Spammer markiert wird, können Moderatoren aus verschiedenen Aktionen auswählen, wie sie mit dem jeweiligen Anwendungsfall umgehen möchten. Mit diesen Einstellungen kannst du die Aktionen, die du normalerweise durchführst, vorab festlegen, um den Prozess zu beschleunigen, aber auch Variationen nach Bedarf zulassen.'
-        move_discussions_to_tags_help: 'Dadurch werden alle Diskussionen, die von diesem Benutzer begonnen wurden, in die von dir angegebenen Themen verschoben. Lösche die Themen-Auswahl, um Diskussionen in ihren ursprünglichen Themen zu belassen. Hat keinen Effekt, wenn die Option „Diskussionen löschen“ aktiviert ist.'
-        move_discussions_to_tags_label: 'Diskussionen in Themen verschieben'
+        move_discussions_to_tags_help: 'Dadurch werden alle Diskussionen, die von diesem Benutzer begonnen wurden, in die von dir angegebenen Tags verschoben. Lösche die Tag-Auswahl, um Diskussionen in ihren ursprünglichen Tags zu belassen. Hat keinen Effekt, wenn die Option „Diskussionen löschen“ aktiviert ist.'
+        move_discussions_to_tags_label: 'Diskussionen in Tags verschieben'
       stopforumspam:
         api_key_instructions_text: '<register>Registriere dich auf StopForumSpam</register>. Danach musst du deinen <key>API-Schlüssel anfordern</key>.'
         api_key_label: API-Schlüssel
@@ -59,7 +59,7 @@ fof-anti-spam:
         regional_endpoint_help: 'Standardmäßig leiten wir die Abfrage an den nächstgelegenen regionalen Server weiter, um die schnellste Antwort zu erhalten. Wenn du den Datenverkehr auf eine bestimmte Region beschränken möchtest, z. B. aus Gründen der Einhaltung von Datenschutzbestimmungen des Unternehmens oder des Landes, kannst du eine Verbindung zu einer bestimmten Region erzwingen.'
         regional_endpoint_label: 'Geografischer Zugang'
         report_blocked_registrations_help: 'Wenn eine Registrierung durch die Spam-Prüfung blockiert wird, melden wir den Versuch an StopForumSpam zurück, damit die Aktivität des Spammers besser bestätigt werden kann. Dazu muss ein StopForumSpam-API-Schlüssel festgelegt werden (siehe unten).'
-        report_blocked_registrations_label: 'Melde blockierte Registrierungen'
+        report_blocked_registrations_label: 'Blockierte Registrierungen melden'
         sfs_lookup_help: 'Wenn diese Option aktiviert ist, überprüfen wir die StopForumSpam-Datenbank, wenn sich ein neuer Benutzer in deinem Forum registriert. Wenn der Benutzer gefunden wird (Benutzername, IP-Adresse, E-Mail) und dieser Punkt aktiviert sowie die Vertrauensstufe die von dir festgelegte Stufe erreicht, wird er daran gehindert, seine Registrierung abzuschließen.'
         sfs_lookup_label: 'Registrierungen überprüfen'
         username_label: Benutzernamen-Spam-Prüfung
@@ -75,9 +75,9 @@ fof-anti-spam:
       hard_delete_user_help: 'Dadurch wird dieser Benutzer dauerhaft gelöscht. Wenn diese Option deaktiviert ist, wird der Benutzer stattdessen nur eingeschränkt.'
       hard_delete_user_label: 'Benutzer löschen'
       intro: 'Wenn ein Benutzer als Spammer markiert wird, werden mehrere Aktionen vorgenommen, abhängig von den in deinem Forum aktivierten Erweiterungen.'
-      move_discussions_tag_help: 'Dadurch werden alle von diesem Benutzer gestarteten Diskussionen in das Thema verschoben, das du in den Forumeinstellungen festgelegt hast. Wenn diese Option deaktiviert ist, verbleiben Diskussionen im bisherigen Thema.'
-      move_discussions_tag_label: 'Diskussion zu Quarantäne-Tag verschieben'
-      process_button: Prozess
+      move_discussions_tag_help: 'Dadurch werden alle von diesem Benutzer gestarteten Diskussionen in das Tag verschoben, das du in den Forumeinstellungen festgelegt hast. Wenn diese Option deaktiviert ist, verbleiben Diskussionen im bisherigen Tag.'
+      move_discussions_tag_label: 'Diskussion in Quarantäne-Tag verschieben'
+      process_button: 'Aktionen anwenden'
       report_to_sfs_help: 'Hiermit werden die grundlegenden Benutzerdaten (Benutzername, E-Mail-Adresse, IP-Adresse) an StopForumSpam übermittelt. Damit wird verhindert, dass sich der Benutzer in anderen Foren registriert, die den StopForumSpam-Dienst nutzen.'
       report_to_sfs_label: 'An StopForumSpam melden'
       title: 'Markiere {username} als Spammer'

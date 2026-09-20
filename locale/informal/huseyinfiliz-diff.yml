@@ -30,7 +30,7 @@ huseyinfiliz-diff:
       title: Diff-Einstellungen
       useCrons: 'Verwende Cron-Jobs, um alte Versionen zu archivieren'
       useCronsHelp: 'Du musst einen Cron-Eintrag auf deinem Server hinzufügen, damit diese Option funktioniert. Sie wird wöchentlich sonntags um 02:00 Uhr ausgeführt. Wenn du diese Option deaktivierst und die oben genannte aktivierst, werden alle Überarbeitungen des Beitrags auf Archivierungsbedarf überprüft, sobald der betreffende Beitrag überarbeitet wird.'
-      usePoint: 'Verwenden Sie <strong>Punkt</strong> als Dezimaltrennzeichen für Fließkommawerte.'
+      usePoint: 'Verwende <strong>Punkt</strong> als Dezimaltrennzeichen für Fließkommawerte.'
       wordLevel: Wort-Ebene
   forum:
     confirmDelete: 'Möchtest du den Inhalt dieser Bearbeitung wirklich aus dem Verlauf löschen?'

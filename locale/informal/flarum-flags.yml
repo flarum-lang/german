@@ -6,10 +6,10 @@ flarum-flags:
   admin:
     permissions:
       flag_posts_label: 'Beiträge melden'
-      view_flags_label: 'Zeige gemeldete Beiträge'
+      view_flags_label: 'Gemeldete Beiträge anzeigen'
     settings:
-      flag_own_posts_label: 'Erlaube Benutzern eigene Beiträge zu melden'
-      guidelines_url_label: 'Community-Richtlinien URL'
+      flag_own_posts_label: 'Erlaube Benutzern, eigene Beiträge zu melden'
+      guidelines_url_label: Community-Richtlinien-URL
       title: Flags-Einstellungen
   forum:
     flag_post:
@@ -18,7 +18,7 @@ flarum-flags:
       reason_details_placeholder: 'Zusätzliche Informationen (optional)'
       reason_inappropriate_label: Unangebracht
       reason_inappropriate_text: 'Dieser Beitrag ist anstößig, beleidigend oder verstößt gegen unsere <a>Community-Richtlinien</a>.'
-      reason_missing_message: 'Bitte gebe einen Grund an.'
+      reason_missing_message: 'Bitte gib einen Grund an.'
       reason_off_topic_label: 'Nicht zur Diskussion passend'
       reason_off_topic_text: 'Dieser Beitrag hat keinen Bezug zu der Diskussion und sollte in eine andere Diskussion verschoben werden.'
       reason_other_label: Sonstiges

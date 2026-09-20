@@ -76,7 +76,7 @@ fof-upload:
         client_id: 'Imgur Client ID'
         title: 'Imgur Bilder Speichereinstellungen'
         tos: 'Es liegt in deiner Verantwortung sicherzustellen, dass deine Forenbenutzer die <a>Nutzungsbedingungen</a> von Imgur einhalten'
-      inspect-mime: 'MIME-Typ der Testdatei'
+      inspect-mime: 'MIME-Typ einer Datei testen'
       local:
         cdn_url: 'Content Delivery URL (Präfixe für Dateien)'
         title: 'Lokale Speichereinstellungen'
@@ -160,7 +160,7 @@ fof-upload:
   forum:
     buttons:
       attach: Anhängen
-      cancel: Abbruch
+      cancel: Abbrechen
       media: 'Meine Medien'
       shared_media: 'Geteilte Medien'
       upload: Hochladen

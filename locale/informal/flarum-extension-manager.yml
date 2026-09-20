@@ -23,7 +23,7 @@ flarum-extension-manager:
       remove_button_label: 'Authentifizierungsmethode entfernen'
       title: Authentifizierungsmethoden
       types:
-        bearer: 'HTTP Bearer'
+        bearer: HTTP-Bearer
         github-oauth: 'GitHub OAuth'
         gitlab-oauth: 'GitLab OAuth'
         gitlab-token: 'GitLab Token'
@@ -122,12 +122,12 @@ flarum-extension-manager:
         task_just_started: 'Aufgabe hat gerade begonnen'
         title: Warteschlange
     settings:
-      access_warning: 'Bitte sei vorsichtig, wem du Zugang zum Admin-Bereich gibst, der Erweiterungs-Manager könnte von bösartigen Akteuren missbraucht werden, um Pakete zu installieren, die zu Sicherheitslücken führen können.'
+      access_warning: 'Bitte sei vorsichtig, wem du Zugang zum Admin-Bereich gibst. Der Erweiterungs-Manager könnte von bösartigen Akteuren missbraucht werden, um Pakete zu installieren, die zu Sicherheitslücken führen können.'
       debug_mode_warning: 'Du bist im Debug-Modus, der Erweiterungs-Manager kann lokale Entwicklungs-Pakete nicht richtig installieren und aktualisieren. Bitte benutze für solche Zwecke stattdessen die Kommandozeile.'
-      queue_jobs: 'Operationen im Hintergrund ausführen'
+      queue_jobs: 'Operationen in der Hintergrundwarteschlange ausführen'
       queue_jobs_help: "Du kannst dich über eine <a href='{basic_impl_link}'>einfache Warteschlangen-Implementierung</a> oder eine <a href='{adv_impl_link}'>fortgeschrittenere</a> informieren. Stelle sicher, dass die für die Warteschlange verwendete PHP-Version {php_version} ist. Stelle außerdem sicher, dass die <a href='{folder_perms_link}'>Ordnerberechtigungen</a> richtig konfiguriert sind.\n"
       task_retention_days: 'Aufbewahrungstage für Aufgaben'
-      task_retention_days_help: "Die Anzahl der Tage, die abgeschlossene Aufgaben in der Datenbank aufbewahrt werden. Aufgaben, die älter als diese sind, werden gelöscht. Setze auf 0, um alle Aufgaben zu behalten.\n"
+      task_retention_days_help: "Die Anzahl der Tage, die abgeschlossene Aufgaben in der Datenbank aufbewahrt werden. Ältere Aufgaben werden gelöscht. Setze auf 0, um alle zu behalten.\n"
       title: '=> core.ref.settings'
     update_successful: 'Flarum erfolgreich aktualisiert.'
     updater:
@@ -138,7 +138,7 @@ flarum-extension-manager:
       run_global_update: 'Globale Aktualisierung starten'
       up_to_date: 'Alles ist aktuell!'
       updater_help: 'Führt eine Überprüfung auf neue Erweiterungen und Flarum-Updates durch.'
-      updater_title: Updates
+      updater_title: Aktualisierungen
     why_not_modal:
       title: 'Warum wird es nicht aktualisiert'
   validation:

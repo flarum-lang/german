@@ -5,7 +5,7 @@
 flarum-sticky:
   admin:
     permissions:
-      sticky_discussions_label: 'Diskussion anpinnen'
+      sticky_discussions_label: 'Diskussion anheften'
     settings:
       enable_display_excerpt: 'Zeige einen Auszug des ersten Beitrags, wenn eine markierte Diskussion ungelesen ist'
       only_sticky_unread_discussions_help: 'Auf der "Alle Diskussionen" Seite werden ungelesene angeheftete Diskussionen oben angezeigt, während gelesene angeheftete Diskussionen der normalen Reihenfolge folgen.'
@@ -14,17 +14,17 @@ flarum-sticky:
       pin_sticky_on_all_discussions_label: 'Angepinnte Diskussionen auf der Seite „Alle Diskussionen“ anheften'
   forum:
     badge:
-      sticky_tooltip: Angepinnt
+      sticky_tooltip: Angeheftet
     discussion_controls:
       sticky_button: '=> flarum-sticky.ref.sticky'
-      unsticky_button: 'Anpinnen zurücknehmen'
+      unsticky_button: 'Anheften zurücknehmen'
     post_stream:
-      discussion_stickied_text: '{username} hat die Diskussion angepinnt ({time}).'
-      discussion_unstickied_text: '{username} hat die Diskussion gelöst ({time}).'
+      discussion_stickied_text: '{username} hat die Diskussion angeheftet ({time}).'
+      discussion_unstickied_text: '{username} hat die Diskussion abgelöst ({time}).'
   lib:
     gambits:
       discussions:
         sticky:
           key: angeheftet
   ref:
-    sticky: Anpinnen
+    sticky: Anheften

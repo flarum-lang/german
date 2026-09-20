@@ -53,9 +53,9 @@ core:
       description: 'Legen Sie den Forentitel, die Sprache und weitere Grundeinstellungen fest.'
       display_name_heading: Anzeigename
       display_name_text: 'Wählen Sie den Treiber, der verwendet wird, um den Anzeigenamen der Benutzer zu bestimmen. Standardmäßig wird der Benutzername angezeigt.'
-      forum_description_heading: 'Beschreibung des Forums'
+      forum_description_heading: Forumbeschreibung
       forum_description_text: 'Kurze Beschreibung des Forums. Diese erscheint in den Meta-Tags für Suchmaschinen.'
-      forum_title_heading: 'Titel des Forums'
+      forum_title_heading: Forumtitel
       home_page_heading: Startseite
       home_page_text: 'Wählen Sie die Seite aus, die Benutzer beim Besuch des Forums zuerst sehen.'
       show_language_selector_label: 'Sprachauswahlmenü zeigen'
@@ -63,7 +63,7 @@ core:
       slug_driver_text: 'Wählen Sie den Treiber, welcher die Foren-URLs mit einem "Slug" ausstattet.'
       title: Grundeinstellungen
       welcome_banner_heading: Willkommensnachricht
-      welcome_banner_text: 'Legen Sie den Text fest, der auf der Seite "Alle Diskussionen" erscheint, um Besucher zu begrüßen.'
+      welcome_banner_text: 'Legen Sie den Text fest, der auf der Seite „Alle Diskussionen“ erscheint, um Besucher zu begrüßen.'
     create_user:
       email_confirmed_label: 'Benutzer muss diese E-Mail bestätigen'
       email_placeholder: '=> core.ref.email'
@@ -85,7 +85,7 @@ core:
       io_error_message: 'Es konnte nicht in das Dateisystem geschrieben werden. Überprüfen Sie die Berechtigungen Ihres Dateisystems und versuchen Sie es erneut. Oder versuchen Sie es über die Kommandozeile auszuführen.'
       status:
         headers:
-          queue-driver: Queue-Treiber
+          queue-driver: Warteschlangen-Treiber
           scheduler-status: Scheduler
           session-driver: Session-Treiber
         scheduler:
@@ -597,7 +597,7 @@ core:
       kilo_text: K
       mega_text: M
     series:
-      glue_text: ', '
+      glue_text: '، '
       three_text: '{first}, {second}, und {third}'
       two_text: '{first} und {second}'
     username:
@@ -617,7 +617,7 @@ core:
     delete: Löschen
     delete_forever: 'Endgültig löschen'
     discussions: Diskussionen
-    edit: Ändern
+    edit: Bearbeiten
     edit_user: 'Benutzer bearbeiten'
     email: E-Mail
     extensions: Erweiterungen

@@ -6,7 +6,7 @@ fof-byobu:
   admin:
     permission:
       add_more_than_two_user_recipients: 'Mehr als 2 Benutzer-Empfänger zu einer privaten Diskussion hinzufügen'
-      create_private_discussions_with_blocking_users: 'Erstelle private Diskussionen mit Nutzern, die du blockierst'
+      create_private_discussions_with_blocking_users: 'Erstelle private Diskussionen mit Nutzern, die dies blockieren'
       create_private_discussions_with_groups: 'Private Diskussionen mit Gruppen erstellen'
       create_private_discussions_with_users: 'Private Diskussionen mit Nutzern erstellen'
       edit_group_recipients: 'Gruppen bearbeiten, die an privaten Diskussionen teilnehmen'
@@ -14,11 +14,11 @@ fof-byobu:
       make_private_into_public: 'Eine private Diskussion in eine öffentliche Diskussion umwandeln'
       view_private_discussions-when-flagged: 'Private Diskussionen anderer Nutzer anzeigen, wenn diese gemeldet sind'
     settings:
-      badge-icon: 'Byobu Diskussions Abzeichen'
+      badge-icon: Byobu-Diskussionmarkierung
       delete_on_last_recipient_left: 'PDs löschen, wenn der letzte Nutzer geht'
       delete_on_last_recipient_left_help: 'Wenn diese Option aktiviert ist, werden die PDs dauerhaft aus der Datenbank gelöscht, wenn der letzte Nutzer sie verlässt. Andernfalls wird die PD sanft gelöscht/versteckt.'
       enable-make-public-option: '„Öffentlich machen“ Funktion aktivieren'
-      enable-make-public-option-help: 'Fügt die Möglichkeit für diejenigen hinzu, die die Berechtigung haben, alle Empfänger zu entfernen, ein neues Thema zuzuweisen und die Diskussion öffentlich sichtbar zu machen (gemäß den Sichtbarkeitseinstellungen des ausgewählten Themas).'
+      enable-make-public-option-help: 'Fügt die Möglichkeit für diejenigen hinzu, die die Berechtigung haben, alle Empfänger zu entfernen, ein neues Tag zuzuweisen und die Diskussion öffentlich sichtbar zu machen (gemäß den Sichtbarkeitseinstellungen des ausgewählten Tags).'
       general:
         heading: 'Allgemeine Einstellungen'
         help: 'Diese Einstellungen betreffen die Grundfunktionen von byobu.'
@@ -27,7 +27,7 @@ fof-byobu:
       icon:
         heading: Symboleinstellungen
         help: 'Diese Einstellungen betreffen die Symbole, die von byobu im Forum verwendet werden.'
-      post-event-icon: 'Byobu Post Ereignisse'
+      post-event-icon: 'Byobu Post-Ereignisse'
   email:
     body:
       private_discussion_added: "Hallo {recipient_display_name},\n\n{actor_display_name} hat dich zu einer bestehenden privaten Diskussion hinzugefügt, mit dem Titel \\\"{discussion_title}\\\".\n\nBetrachte sie hier:\n{discussion_url}\n\nDu musst dich eventuell erst einloggen, bevor du auf diesen Link zugreifen kannst.\n"

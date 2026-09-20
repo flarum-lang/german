@@ -7,7 +7,7 @@ ianm-syndication:
     settings:
       entries-count: 'Wie viele Einträge pro Feed?'
       forum-icons:
-        help: 'Symbole in Alle Diskussionen, Themen und Diskussionen für einfachen Zugriff auf die Feeds anzeigen.'
+        help: 'Symbole in Alle Diskussionen, Tags und Diskussionen für einfachen Zugriff auf die Feeds anzeigen.'
         label: 'Atom / RSS Feed-Links im Forum anzeigen'
       forum-link-format:
         help: 'Wähle aus, welches Format (Atom oder RSS) für die im Forum angezeigten Links verwendet werden soll.'
@@ -23,8 +23,8 @@ ianm-syndication:
       discussion_last_posts: 'Diese Diskussion'
       forum_activity: Forenaktivität
       forum_new_discussions: 'Neue Diskussionen im Forum'
-      tag_activity: 'Aktivität für das Thema {tag}'
-      tag_new_discussions: 'Diskussionen im Thema {tag}'
+      tag_activity: 'Aktivität für das Tag {tag}'
+      tag_new_discussions: 'Diskussionen im Tag {tag}'
       user_last_posts: 'Beiträge & Kommentare dieses Benutzers'
     discussion:
       feed_link: Feed
@@ -39,9 +39,9 @@ ianm-syndication:
         main_d_title: 'Neue Diskussionen in {forum_name}'
         main_subtitle: 'Neueste Beiträge im Forum'
         main_title: '{forum_name}'
-        tag_d_subtitle: 'Die neuesten Diskussionen im Thema {tag}'
-        tag_d_title: 'Neue Diskussionen im Thema {tag}'
-        tag_subtitle: 'Neueste Beiträge im Thema {tag}'
-        tag_title: 'Aktivität im Thema {tag}'
+        tag_d_subtitle: 'Die neuesten Diskussionen im Tag {tag}'
+        tag_d_title: 'Neue Diskussionen im Tag {tag}'
+        tag_subtitle: 'Neueste Beiträge im Tag {tag}'
+        tag_title: 'Aktivität im Tag {tag}'
         user_subtitle: 'Neueste Beiträge & Kommentare dieses Benutzers.'
         user_title: '{username}'

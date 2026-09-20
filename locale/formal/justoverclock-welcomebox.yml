@@ -7,9 +7,9 @@ flarum-ext-welcomebox:
     UseWidget: 'Widget-Version verwenden'
     enablepostbox: 'Aktiviere Willkommensbox für Gäste'
     img: 'Bild-URL (Gastbox)'
-    img-help: 'Gebe hier die URL des Bildes für die Gästebox ein'
+    img-help: 'Gib hier die URL des Bildes für die Gästebox ein'
   forum:
-    SettingsLink: Einstellugnen
+    SettingsLink: Einstellungen
     discussion: '=> core.ref.discussions'
     goToProfile: Profil
     lastSeen: 'Letzter Besuch'

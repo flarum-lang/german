@@ -13,7 +13,7 @@ fof-sitemap:
       column_pruning: 'Spaltenbeschneidung aktivieren'
       column_pruning_help: 'Ruft nur die Spalten ab, die zur Generierung von URLs benötigt werden (z. B. id, slug, username, dates), anstatt SELECT *. Reduziert den Speicherbedarf pro Modell in großen Foren erheblich. Standardmäßig aktiviert – nur deaktivieren, wenn ein benutzerdefinierter Slug-Treiber oder Sichtbarkeitsbereich Spalten erfordert, die nicht in der Standardauswahl enthalten sind.'
       exclude_tags: 'Alle Themenseiten von Sitemap ausschließen'
-      exclude_tags_help: 'Standardmäßig werden alle Themen, die für Gäste sichtbar ist, indiziert'
+      exclude_tags_help: 'Standardmäßig werden alle Tags, die für Gäste sichtbar ist, indiziert'
       exclude_users: 'Nutzerprofile von Sitemap ausschließen'
       exclude_users_help: 'Standardmäßig wird jeder Nutzer, der für Gäste sichtbar ist, indiziert'
       frequency:
@@ -29,7 +29,7 @@ fof-sitemap:
       mode_help: 'Die Wahl des richtigen Modus für die Größe deines Forums ist von entscheidender Bedeutung.'
       mode_help_cache_disk: 'Am besten geeignet für kleine oder mittelgroße Foren, am ehesten auf Hosting-Umgebungen, die Cronjobs zulassen und den Flarum-Scheduler aktivieren (siehe unten), und mit Diskussionen, Benutzern, Tags und Seiten, die in Summe weniger als 50.000 Einträge umfassen.'
       mode_help_cache_disk_label: Cache-Modus/Disk-Modus
-      mode_help_large: '50.000 ist das technische Limit für Sitemap-Dateien. Wenn du mehr Einträge zu speichern hast, nutze die folgende Option!'
+      mode_help_large: '50.000 ist das technische Limit für Sitemap-Dateien. Wenn Sie mehr Einträge zu speichern haben, nutzen Sie die folgende Option!'
       mode_help_multi: 'Am besten für größere Foren ab 10.000 Elementen. Mehrteilige, komprimierte Sitemap-Dateien werden generiert und im /public Ordner gespeichert'
       mode_help_multi_label: Mehrdateien-Modus
       mode_help_runtime: 'Für kleine Foren, meist auf Shared-Hosting-Umgebungen, mit Diskussionen, Benutzern, Tags und Seiten, die in der Summe weniger als 10.000 Einträge haben. Die Sitemap wird bei jeder Anfrage in Echtzeit generiert.'
@@ -49,8 +49,8 @@ fof-sitemap:
         help: 'Wenn ein Modell keinen oder nur wenig relevanten Inhalt hat, können Google und andere Crawler diese als "weiche 404"-Seiten kennzeichnen. Um dies zu vermeiden, legst du hier eine Mindestanzahl von Datenobjekten fest, die für jedes qualifizierte Datenobjekt erforderlich sind.'
         tags:
           discussion:
-            minimum_item_threshold_help: 'Die Mindestanzahl an Diskussionen, über die ein Thema verfügen muss, damit es in die Sitemap aufgenommen wird.'
-            minimum_item_threshold_label: 'Thema: Mindestanzahl an Diskussionen'
+            minimum_item_threshold_help: 'Die Mindestanzahl an Diskussionen, über die ein Tag verfügen muss, damit es in die Sitemap aufgenommen wird.'
+            minimum_item_threshold_label: 'Tag: Mindestanzahl an Diskussionen'
         user:
           comments:
             minimum_item_threshold_help: 'Die Mindestanzahl an Kommentaren / Beiträgen, über die ein Nutzer verfügen muss, damit sein Profil in die Sitemap aufgenommen wird.'

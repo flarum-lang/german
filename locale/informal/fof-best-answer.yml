@@ -27,7 +27,7 @@ fof-best-answer:
       documentation: Dokumentation
       enable_all_tags_button: 'Alle Tags für beste Antworten aktivieren'
       enable_all_tags_reminder_button: 'Alle Tags für Erinnerungen für die beste Antwort aktivieren'
-      enabled_tags_help: 'Wählen Sie aus, für welche Tags (sofern vorhanden) die Option „Beste Antworten“ aktiviert werden soll. Diese Tags werden zu Tags im „Fragen und Antworten“-Format und können die Option „Beste Antworten“ festlegen.'
+      enabled_tags_help: 'Wähle aus, für welche Tags (sofern vorhanden) die Option „Beste Antworten“ aktiviert werden soll. Diese Tags werden zu Tags im „Fragen und Antworten“-Format und können die Option „Beste Antworten“ festlegen.'
       enabled_tags_label: 'Aktivierte Tags'
       introduction: "Aktiviere in <code><a>flarum/tags</a></code>, welche Tags Beste Antworten unterstützen sollen, und optional welche Tags Erinnerungen unterstützen sollen. Wenn für ein Tag Beste Antwort aktiviert ist, weise jeder Benutzergruppe, die Antworten festlegen kann (eigene Diskussion, beliebige Diskussion), Berechtigungen zu. Berechtigungen können global (für alle Best-Antwort-anabled-Tags) oder pro Tag zugewiesen werden.\n"
       label:
@@ -38,7 +38,7 @@ fof-best-answer:
         search: Durchsuchen
         tags: 'Tags für beste Antworten'
       remind_tag_ids: 'Um Erinnerungen auf bestimmte Themen zu beschränken, gebe die ID''s der Themen hier ein (kommagetrennt)'
-      remind_tags_help: 'Wählen Sie aus, für welche Tags (sofern vorhanden) Erinnerungen gesendet werden sollen. Erinnerungen werden nur für Diskussionen mit diesen Tags gesendet.'
+      remind_tags_help: 'Wähle aus, für welche Tags (sofern vorhanden) Erinnerungen gesendet werden sollen. Erinnerungen werden nur für Diskussionen mit diesen Tags gesendet.'
       remind_tags_label: Erinnerungs-Tags
       remove_solutions_from_main_search: 'Lösungen aus der Hauptsuche entfernen'
       remove_solutions_from_main_search_help: 'Diskussionen mit den besten Antworten aus den Hauptsuchergebnissen von ‚Alle Diskussionen‘ entfernen'
@@ -57,7 +57,7 @@ fof-best-answer:
       show_max_lines_label: 'Maximal anzuzeigende Zeilen in der Postvorschau'
       solution_search: Lösungssuche
       solution_search_help: 'Aktivieren Sie die Möglichkeit, nach Diskussionen mit den besten Antworten zu suchen'
-      tags_info: "Wenn ein Tag „Beste Antwort“ aktiviert ist, weisen Sie jeder Benutzergruppe, die Antworten festlegen darf (eigene Diskussion, beliebige Diskussion), Berechtigungen zu. Berechtigungen können global (für jeden Tag mit aktivierter „Beste Antwort“) oder pro Tag zugewiesen werden.\n"
+      tags_info: "Wenn ein Tag „Beste Antwort“ aktiviert ist, weise jeder Benutzergruppe, die Antworten festlegen darf (eigene Diskussion, beliebige Diskussion), Berechtigungen zu. Berechtigungen können global (für jeden Tag mit aktivierter „Beste Antwort“) oder pro Tag zugewiesen werden.\n"
       use_alt_ui: 'Alternatives Layout verwenden'
       use_alt_ui_help: 'Beste Antwortsteuerelemente in der Fußzeile des Beitrags'
   email:
@@ -68,7 +68,7 @@ fof-best-answer:
     subject:
       awarded: 'Dein Beitrag wurde von {display_name} als beste Antwort ausgewählt'
       ba-set: '{display_name} hat eine beste Antwort gewählt'
-      select: 'Konnten Sie eine Antwort auf Ihre Frage erhalten?'
+      select: 'Konntest du eine Antwort auf deine Frage erhalten?'
   forum:
     answered_badge: Beantwortet
     best_answer_button: 'Beste Antwort'
@@ -107,5 +107,5 @@ fof-best-answer:
 fof-user-directory:
   lib:
     sort:
-      least_best_answers: 'Am wenigsten beste Antworten'
-      most_best_answers: 'Die besten Antworten'
+      least_best_answers: 'Wenigste beste Antworten'
+      most_best_answers: 'Meisten beste Antworten'

@@ -10,13 +10,13 @@ huseyinfiliz-leaderboard:
       none_selected: 'Keine ausgewählt'
       save: Speichern
       select_groups: 'Gruppen auswählen'
-      select_tags: 'Themen auswählen'
+      select_tags: 'Tags auswählen'
     settings:
       already_running: 'Eine Neuberechnung wird bereits durchgeführt. Bitte warte den Abschluss ab.'
       excluded_groups_help: 'Benutzer in ausgewählten Gruppen werden von der Rangliste ausgenommen.'
       excluded_groups_label: 'Ausgenommene Gruppen'
-      excluded_tags_help: 'Diskussionen in den ausgewählten Themen bringen keine Punkte.'
-      excluded_tags_label: 'Ausgeschlossene Themen'
+      excluded_tags_help: 'Diskussionen in den ausgewählten Tags bringen keine Punkte.'
+      excluded_tags_label: 'Ausgeschlossene Tags'
       extension_not_enabled: 'Diese Erweiterung ist nicht aktiviert.'
       leaderboard_name_label: 'Name der Rangliste'
       points_badge_earned_label: 'Punkte für das Verdienen eines Abzeichens'
@@ -35,7 +35,7 @@ huseyinfiliz-leaderboard:
       recalculate_points_button: 'Alle Aktivitäten neu berechnen'
       recalculate_points_confirm: 'Dadurch werden alle Quelldaten erneut gescannt und die Punktdatensätze von Grund auf neu erstellt. Bei großen Foren kann dies eine Weile dauern.'
       recalculate_points_failed: 'Neuberechnung fehlgeschlagen. Bitte versuche es erneut.'
-      recalculate_points_help: 'Alle Quelldaten (Diskussionen, Beiträge, Likes usw.) werden erneut gescannt, verwaiste Datensätze entfernt, fehlende hinzugefügt und alle Summen neu berechnet. Verwende diese Funktion, nachdem Sie Themen-Ausschlüsse geändert haben oder wenn die Daten nicht synchron zu sein scheinen.'
+      recalculate_points_help: 'Alle Quelldaten (Diskussionen, Beiträge, Likes usw.) werden erneut gescannt, verwaiste Datensätze entfernt, fehlende hinzugefügt und alle Summen neu berechnet. Verwende diese Funktion, nachdem du Tags-Ausschlüsse geändert hast oder wenn die Daten nicht synchron zu sein scheinen.'
       recalculate_points_retry: 'Erneut versuchen'
       recalculate_points_success: 'Alle Aktivitäten wurden erfolgreich neu berechnet.'
       recalculate_points_title: 'Neuberechnung aller Aktivitäten'
@@ -60,7 +60,7 @@ huseyinfiliz-leaderboard:
       sync_step_reaction_received: 'Erhaltene Reaktionen werden gescannt...'
       sync_step_rebuild_totals: 'Summen werden neu berechnet...'
       sync_step_vote_received: 'Votes werden gescannt...'
-      tags_changed_notice: 'Ausgeschlossene Themen wurden geändert. Berechne alle Aktivitäten neu, um die historischen Daten zu aktualisieren.'
+      tags_changed_notice: 'Ausgeschlossene Tags wurden geändert. Berechne alle Aktivitäten neu, um die historischen Daten zu aktualisieren.'
     tabs:
       exclusions: Ausnahmen
       general: Allgemein

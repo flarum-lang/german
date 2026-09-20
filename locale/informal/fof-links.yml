@@ -34,7 +34,7 @@ fof-links:
       links: '=> fof-links.ref.links'
       preconfigured: 'Links in diesem Forum sind vordefiniert und können daher hier nicht bearbeitet werden.'
     settings:
-      show_icons_only_on_tablet: 'Icons nur auf Tablet-Bildschirmen anzeigen'
+      show_icons_only_on_tablet: 'Nur Symbole auf Tablet-Bildschirmen anzeigen'
   ref:
     create_link: 'Link erstellen'
     links: Links

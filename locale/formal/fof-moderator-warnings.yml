@@ -10,15 +10,15 @@ fof-moderator-warnings:
       view_warnings: 'Moderatorwarnungen anzeigen'
   emails:
     post_warned:
-      body: "Hallo {warnee_display_name}!\n\n{warner_display_name} hat Dich mit {strikes, plural, one {# Strike} other {# Strikes}} in {discussion_title} gewarnt\n\nEs wurde folgender Grund angegeben:\n\n---\n\n{public_comment}\n"
+      body: "Hallo {warnee_display_name}!\n\n{warner_display_name} hat Sie mit {strikes, plural, one {# Strike} other {# Strikes}} in {discussion_title} gewarnt\n\nEs wurde folgender Grund angegeben:\n\n---\n\n{public_comment}\n"
       subject: '{warner_display_name} hat Sie mit {strikes, plural, one {# Strike} other {# Strikes}} in {discussion_title} gewarnt'
     user_warned:
-      body: "Hallo {warnee_display_name}!\n\n{warner_display_name} hat Dich mit {strikes, plural, one {# Strike} other {# Strikes}} gewarnt\n\nEs wurde folgender Grund angegeben wurde angegeben:\n\n---\n\n{public_comment}\n"
-      subject: '{warner_display_name} hat Dich mit {strikes, plural, one {# Strike} other {# Strikes}} gewarnt'
+      body: "Hallo {warnee_display_name}!\n\n{warner_display_name} hat Sie mit {strikes, plural, one {# Strike} other {# Strikes}} gewarnt\n\nEs wurde folgender Grund angegeben wurde angegeben:\n\n---\n\n{public_comment}\n"
+      subject: '{warner_display_name} hat Sie mit {strikes, plural, one {# Strike} other {# Strikes}} gewarnt'
   forum:
     notifications:
-      warning_no_strikes_text: 'Du wurdest von {mod_username} gewarnt (keine Strikes)'
-      warning_text: '{strikes, plural, one {Du wurdest mit # strike von {mod_username} verwarnt} other {Du wurdest mit # strikes von {mod_username} verwarnt}}'
+      warning_no_strikes_text: 'Sie wurden von {mod_username} gewarnt (keine Strikes)'
+      warning_text: '{strikes, plural, one {Sie wurden mit # strike von {mod_username} verwarnt} other {Sie wurden mit # strikes von {mod_username} verwarnt}}'
     post:
       warning: '{strikes, plural, one {Verwarnt mit # Strike by {mod_username}} other {Verwarnt mit # Strikes by {mod_username}}}'
       warning_no_strikes: 'Ohne Strikes von {mod_username} gewarnt'
@@ -30,16 +30,16 @@ fof-moderator-warnings:
       warnings: 'Moderator Warnungen'
     validation:
       invalid_strike_count: 'Die Anzahl der Strikes muss eine ganze Zahl zwischen 0 und 5 sein.'
-      public_comment_required: 'Du gibst meistens einen öffentlichen Kommentar ab.'
+      public_comment_required: 'Sie müssen eine öffentliche Begründung abgeben.'
     warning_controls:
       delete_button: Entfernen
-      delete_forever_button: 'Entgültig löschen'
+      delete_forever_button: 'Endgültig löschen'
       restore_button: Wiederherstellen
     warning_list:
       add_button: 'Neue Verwarnung'
       no_warnings: 'Anscheindend befinden sich hier keine Verwarnungen.'
-      warnings: '{strikes, plural, one {Moderator Verwarnungen: # Strike erhalten} other {Moderator Verwarnugen: # Strikes erhalten}}'
-      warnings_no_strikes: 'Moderator Warnungen: Keine Strikes erhalten'
+      warnings: '{strikes, plural, one {Moderator-Verwarnungen: # Strike erhalten} other {Moderator-Verwarnugen: # Strikes erhalten}}'
+      warnings_no_strikes: 'Moderator-Verwarnungen: Keine Strikes erhalten'
     warning_list_item:
       linked_post: 'Verlinkter Beitrag'
       list_item_heading: '{strikes, plural, one {<strong>#</strong> Strike, {time}} other {<strong>#</strong> Strikes, {time}}}'
@@ -49,7 +49,7 @@ fof-moderator-warnings:
     warning_modal:
       confirmation_message: 'Deine Warnung wurde hinterlegt. Möglicherweise musst Du die Seite aktualisieren, um sie anzuzeigen.'
       heading: '<strong>{username}</strong> verwarnen'
-      private_comment_heading: 'Wieso erhält <strong>{username}</strong> diese Warnungen? Diese Kommentare sind NUR für andere Moderatoren sichtbar.'
-      public_comment_heading: 'Wieso erhält <strong>{username}</strong> diese Warnungen? Diese Kommentare sind für den Benutzer und andere Moderatoren sichtbar.'
+      private_comment_heading: 'Wieso erhält <strong>{username}</strong> diese Verwarnungen? Diese Kommentare sind NUR für andere Moderatoren sichtbar.'
+      public_comment_heading: 'Wieso erhält <strong>{username}</strong> diese Verwarnungen? Diese Kommentare sind für den Benutzer und andere Moderatoren sichtbar.'
       strikes_heading: 'Wie viele Strikes sollen angewendet werden?'
-      submit_button: 'Warnung sichern'
+      submit_button: 'Verwarnung speichern'

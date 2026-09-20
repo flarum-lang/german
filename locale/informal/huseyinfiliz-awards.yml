@@ -12,13 +12,13 @@ huseyinfiliz-awards:
       edit_title: 'Auszeichnung bearbeiten'
       empty: 'Noch keine Auszeichnungen erstellt.'
       ends_at: Abstimmungsende
-      image_url: Titelbild-URL
+      image_url: 'URL des Titelbildes'
       image_url_help: 'Titelbild, das im Hero-Bereich angezeigt wird. Hochladen oder URL einfügen.'
       name: Auszeichnungsname
       publish: 'Ergebnisse veröffentlichen'
       publish_confirm: 'Möchtest du die Ergebnisse wirklich veröffentlichen? Alle Abstimmenden werden darüber informiert.'
-      show_live_votes: 'Stimmenanzahl live anzeigen'
-      show_live_votes_help: 'Stimmenanzahl während der Abstimmung live anzeigen'
+      show_live_votes: 'Live-Abstimmungsergebnisse anzeigen'
+      show_live_votes_help: 'Anzahl der Stimmen anzeigen, während die Abstimmung läuft'
       starts_at: Abstimmungsbeginn
       status: Status
       status_active: Aktiv
@@ -48,11 +48,11 @@ huseyinfiliz-awards:
       adjustment_help: 'Gib eine positive oder negative Zahl ein, um die angezeigte Stimmenzahl anzupassen.'
       create: 'Nominierten erstellen'
       create_title: 'Neuen Nominierten erstellen'
-      delete_confirm: 'Möchtest du diesen Vorschlag wirklich löschen?'
+      delete_confirm: 'Möchtest du diesen Kandidaten wirklich löschen?'
       description_help: 'Kurzbeschreibung unter dem Namen (optional)'
       displayed_votes: 'Angezeigte Stimmen'
       edit_title: 'Nominierten bearbeiten'
-      empty: 'Keine Vorschläge gefunden.'
+      empty: 'Keine Kandidaten gefunden.'
       image: Bild
       image_url: Bild-URL
       image_url_help: 'URL zum Bild des Vorschlags (z. B. Spielcover, Porträtfoto)'
@@ -70,7 +70,7 @@ huseyinfiliz-awards:
       vote: 'Für die Auszeichnungen abstimmen'
     settings:
       nav_icon: Navigationssymbol
-      nav_icon_help: 'FontAwesome-Symbol-Klasse (z. B. fas fa-trophy, fas fa-award, fas fa-star)'
+      nav_icon_help: 'FontAwesome-Symbolklasse (z. B. fas fa-trophy, fas fa-award, fas fa-star)'
       nav_title: Navigationstitel
       nav_title_help: 'Text in der Navigations-Seitenleiste'
       title: Einstellungen
@@ -78,7 +78,7 @@ huseyinfiliz-awards:
       votes_per_category_help: '0 für unbegrenzte Stimmen, 1 für eine Stimme (ersetzen), >1 für mehrere Stimmen.'
     suggestions:
       approve: Genehmigen
-      approve_confirm: 'Neuen Kandidaten erstellen? Der Benutzer wird automatisch dafür stimmen.'
+      approve_confirm: 'Als neuen Kandidaten vorschlagen? Der Benutzer wird automatisch dafür stimmen.'
       category: Kategorie
       date: Datum
       empty: 'Keine ausstehenden Vorschläge'
@@ -88,7 +88,7 @@ huseyinfiliz-awards:
       name: 'Vorgeschlagener Name'
       no_nominees: 'In dieser Kategorie sind keine Kandidaten vorhanden, die zusammengeführt werden könnten.'
       reject: Ablehnen
-      reject_confirm: 'Vorschlag ablehnen?'
+      reject_confirm: 'Diesen Vorschlag ablehnen?'
       select_nominee_label: 'Kandidaten auswählen'
       select_nominee_placeholder: '-- Wähle einen Kandidaten aus --'
       title: 'Ausstehende Vorschläge'
@@ -102,7 +102,7 @@ huseyinfiliz-awards:
     title: Auszeichnungs-Verwaltung
   forum:
     category:
-      nominees_count: '{count} Nominierte'
+      nominees_count: '{count} Kandidaten'
       votes_unlimited: '{count} Stimmen'
       votes_used: '{used}/{limit} Stimmen'
     empty:
@@ -154,22 +154,22 @@ huseyinfiliz-awards:
       pending_count: '{count} ausstehende Vorschläge'
       placeholder: 'Namen des Nominierten eingeben...'
       remaining: '{count} verbleibende Vorschläge'
-      status_approved: Genehmigt
+      status_approved: Angenommen
       status_merged: Zusammengeführt
       status_pending: Ausstehend
       status_rejected: Abgelehnt
-      submit: 'Vorschlag einreichen'
+      submit: 'Kandidaten vorschlagen'
       success: 'Vorschlag eingereicht! Er wird von den Moderatoren geprüft.'
       suggest: 'Andere vorschlagen'
     page:
       previous_awards: 'Auszeichnungen des Vorjahres'
       results_published: 'Ergebnisse veröffentlicht'
       select_award: 'Auszeichnung auswählen'
-      voting_ended: 'Abstimmung beendet {time}'
-      voting_ends: 'Abstimmung endet {time}'
-      voting_starts: 'Abstimmung beginnt {time}'
+      voting_ended: 'Abstimmung endete um {time}'
+      voting_ends: 'Abstimmung endet um {time}'
+      voting_starts: 'Abstimmung beginnt um {time}'
     prediction:
-      correct: 'Richtig:'
+      correct: 'Korrekt:'
       score: '{correct}/{total} richtige Vorhersagen!'
       title: 'Dein Vorhersage-Ergebnis'
       wrong: 'Falsch:'
@@ -179,12 +179,12 @@ huseyinfiliz-awards:
       complete: Abgeschlossen!
       next: Weiter
       prev: Zurück
-      voted: 'In {count}/{total} Kategorien abgestimmt'
+      voted: '{count}/{total} Kategorien abgestimmt'
     results:
-      full_results: 'Vollständige Ergebnisse'
+      full_results: 'Alle Ergebnisse'
       percentage: '{percent} %'
-      runner_up: Zweitplatzierter
-      view_all: 'Alle Ergebnisse ansehen'
+      runner_up: Zweiter
+      view_all: 'Alle Ergebnisse anzeigen'
       votes: '{count} Stimmen'
       winner: Gewinner
     tabs:
@@ -193,15 +193,15 @@ huseyinfiliz-awards:
       results: Ergebnisse
     voting:
       change_vote: 'Stimme ändern'
-      ended: 'Abstimmung ist beendet'
+      ended: 'Abstimmung wurde beendet'
       ends_in_days: 'Abstimmung endet in {days} Tagen'
       ends_in_hours: 'Abstimmung endet in {hours} Stunden'
       ends_soon: 'Abstimmung endet bald'
       select: Auswählen
       vote_removed: 'Deine Stimme wurde entfernt.'
-      vote_saved: 'Deine Stimme wurde erfasst!'
+      vote_saved: 'Deine Stimme wurde gewertet!'
       voted: Abgestimmt
-      voting_closed: 'Abstimmung wurde geschlossen'
+      voting_closed: 'Abstimmung ist beendet'
   lib:
     actions: Aktionen
     description: Beschreibung

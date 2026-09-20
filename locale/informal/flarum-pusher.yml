@@ -6,8 +6,8 @@ flarum-pusher:
   admin:
     pusher_settings:
       app_cluster_label: Cluster
-      app_id_label: 'App ID'
-      app_key_label: 'App Key'
+      app_id_label: App-ID
+      app_key_label: App-Schlüssel
       app_secret_label: 'App Secret'
       title: Pusher-Einstellungen
   forum:

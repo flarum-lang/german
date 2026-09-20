@@ -13,7 +13,7 @@ fof-sitemap:
       column_pruning: 'Spaltenbeschneidung aktivieren'
       column_pruning_help: 'Ruft nur die Spalten ab, die zur Generierung von URLs benötigt werden (z. B. id, slug, username, dates), anstatt SELECT *. Reduziert den Speicherbedarf pro Modell in großen Foren erheblich. Standardmäßig aktiviert – nur deaktivieren, wenn ein benutzerdefinierter Slug-Treiber oder Sichtbarkeitsbereich Spalten erfordert, die nicht in der Standardauswahl enthalten sind.'
       exclude_tags: 'Alle Themenseiten von Sitemap ausschließen'
-      exclude_tags_help: 'Standardmäßig werden alle Themen, die für Gäste sichtbar ist, indiziert'
+      exclude_tags_help: 'Standardmäßig werden alle Tags, die für Gäste sichtbar ist, indiziert'
       exclude_users: 'Nutzerprofile von Sitemap ausschließen'
       exclude_users_help: 'Standardmäßig wird jeder Nutzer, der für Gäste sichtbar ist, indiziert'
       frequency:
@@ -49,8 +49,8 @@ fof-sitemap:
         help: 'Wenn ein Modell keinen oder nur wenig relevanten Inhalt hat, können Google und andere Crawler diese als "weiche 404"-Seiten kennzeichnen. Um dies zu vermeiden, legst du hier eine Mindestanzahl von Datenobjekten fest, die für jedes qualifizierte Datenobjekt erforderlich sind.'
         tags:
           discussion:
-            minimum_item_threshold_help: 'Die Mindestanzahl an Diskussionen, über die ein Thema verfügen muss, damit es in die Sitemap aufgenommen wird.'
-            minimum_item_threshold_label: 'Thema: Mindestanzahl an Diskussionen'
+            minimum_item_threshold_help: 'Die Mindestanzahl an Diskussionen, über die ein Tag verfügen muss, damit es in die Sitemap aufgenommen wird.'
+            minimum_item_threshold_label: 'Tag: Mindestanzahl an Diskussionen'
         user:
           comments:
             minimum_item_threshold_help: 'Die Mindestanzahl an Kommentaren / Beiträgen, über die ein Nutzer verfügen muss, damit sein Profil in die Sitemap aufgenommen wird.'

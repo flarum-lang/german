@@ -35,7 +35,7 @@ flarum-subscriptions:
       following_text: 'Benachrichtigung bei allen Antworten.'
       ignoring_button: '=> flarum-subscriptions.ref.ignoring'
       ignoring_text: 'Niemals benachrichtigen und in der Liste verstecken.'
-      not_following_button: 'Nicht folgen'
+      not_following_button: Folgen
       not_following_text: 'Benachrichtigung nur bei @Erwähnungen.'
       notify_alert_tooltip: 'Benachrichtigung im Forum bei neuen Beiträgen'
       notify_email_tooltip: 'Benachrichtigung per E-Mail bei neuen Beiträgen'

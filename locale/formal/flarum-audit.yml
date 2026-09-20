@@ -50,7 +50,7 @@ flarum-audit:
         discussion: 'Diskussion #{id}'
         group: 'Gruppe #{id}'
         post: 'Beitrag #{id}'
-        tag: 'Thema #{id}'
+        tag: 'Tag #{id}'
         user: 'Benutzer #{id}'
       discussion:
         create_date_changed: 'Das Startdatum von {discussion} wurde von {old_date} auf {new_date} geändert'

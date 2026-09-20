@@ -6,7 +6,7 @@ fof-blog:
   admin:
     blog: Blog
     permissions:
-      approve_posts: 'Kann Blog genehmigen'
+      approve_posts: 'Darf Blogartikel genehmigen'
       auto_approve_posts: 'Artikel ohne Genehmigung veröffentlichen'
       write_articles: 'Blogeinträge schreiben und bearbeiten'
     settings:
@@ -31,13 +31,13 @@ fof-blog:
       redirect_articles_text: 'Wenn aktiviert, leite die ursprüngliche Diskussions-URLs auf ihre Blog-URL um.'
       redirect_tags_label: 'Blog-Tags umleiten'
       redirect_tags_text: 'Wenn aktiviert, leite die ursprüngliche Blog-Tag-URLs auf ihre Blog-Kategorie-URL um.'
-      redirects_heading: Umleitungen
+      redirects_heading: Weiterleitungen
       require_review_label: 'Blogeinträge erfordern Überprüfung'
       require_review_text: 'Neue Blogeinträge sind nicht direkt sichtbar und erfordern eine Überprüfung durch einen Moderator.'
       select_categories_button: 'Blog-Kategorien auswählen'
       selected_category_count: '{count, plural, one {Du hast # Kategorie ausgewählt} other {Du hast # Kategorien ausgewählt}}'
       show_tag_hierarchy_label: 'Tag-Hierarchie anzeigen'
-      show_tag_hierarchy_text: 'Füge Abstände zu den Unterkategorien hinzu und gebe der Kategorieliste eine Hierarchie.'
+      show_tag_hierarchy_text: 'Füge Abstände zu den Unterkategorien hinzu und gib der Kategorieliste eine Hierarchie.'
   forum:
     article:
       slug: Slug
@@ -50,11 +50,11 @@ fof-blog:
           title: 'Hervorgehobener Beitrag'
         image:
           helper_text: 'Beste Bildauflösung für soziale Medien: 1200x630'
-          title: 'Artikel Bild'
+          title: Artikelbild
         summary:
           helper_text: 'Diese Zusammenfassung wird auf der Blog-Übersichtsseite sichtbar sein und für SEO-Zwecke verwendet werden.'
           placeholder: 'Bitte gib eine Zusammenfassung ein'
-          title: 'Artikel Zusammenfassung'
+          title: Artikel-Zusammenfassung
       title: 'Einstellungen für Blogbeiträge'
     blog: Blog
     categories: Kategorien
@@ -67,7 +67,7 @@ fof-blog:
     composer:
       comment_section: 'Der Kommentarbereich ist beim Verfassen eines Artikels nicht verfügbar.'
       edit_categories: 'Kategorien bearbeiten'
-      enter_message_here: 'Gebe deine Nachricht hier ein'
+      enter_message_here: 'Gib deine Nachricht hier ein'
       no_blog_tags_selected: 'Keiner der ausgewählten Tags ist ein Blog-Tag. Bitte wähle mindestens einen aus.'
       no_title: 'Kein Titel'
       nothing_to_preview: 'Keine Vorschau'
@@ -77,7 +77,7 @@ fof-blog:
       update_settings: 'Blog-Einstellungen aktualisieren'
       view: Ansehen
       write: Schreiben
-    forum_nav: 'Forum Navigation'
+    forum_nav: Forumnavigation
     hidden: Versteckt
     no_more_posts: 'Keine Blogeinträge mehr.'
     read_more: 'Mehr lesen'
@@ -90,18 +90,18 @@ fof-blog:
       pending_review_title: 'Überprüfung ausstehend'
     tools:
       approve_article: 'Artikel genehmigen'
-      article_settings: 'Artikel Einstellungen'
+      article_settings: Artikel-Einstellungen
       delete_forever: 'Für immer löschen'
       disable_comments: 'Kommentare deaktivieren'
       edit_article: 'Artikel bearbeiten'
       enable_comments: 'Kommentare aktivieren'
-      hide_article: 'Artikel verstecken'
+      hide_article: 'Artikel verbergen'
       recover_article: 'Artikel wiederherstellen'
       rename_article: 'Artikel umbenennen'
       update_category: 'Kategorien aktualisieren'
     utils:
       redirect:
-        link: '<a>Klicke hier</a> wenn die Seite dich nicht weiterleitet'
+        link: '<a>Klicke hier</a>, wenn die Seite dich nicht weiterleitet'
         title: 'Weiterleitung zum Blogeintrag…'
     validation:
       missing_id: 'Fehlende ID'

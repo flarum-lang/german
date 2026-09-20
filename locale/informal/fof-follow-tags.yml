@@ -74,7 +74,7 @@ fof-follow-tags:
       ignoring_text: 'Niemals benachrichtigt werden.'
       lurking_button: '=> fof-follow-tags.ref.lurking'
       lurking_text: 'Über alle neuen Diskussionen und Antworten benachrichtigen lassen.'
-      not_following_button: 'Nicht folgend'
+      not_following_button: Folgen
       not_following_text: 'Werde nur benachrichtigt, wenn @erwähnt.'
       notify_alert_tooltip: 'Erhalte eine Forenbenachrichtigung, wenn neue Diskussionen oder Beiträge erstellt werden'
       notify_email_tooltip: 'Erhalte eine E-Mail, wenn neue Diskussionen oder Beiträge erstellt werden'

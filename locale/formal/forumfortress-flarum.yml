@@ -33,7 +33,7 @@ forumfortress-flarum:
       not_available: 'Nicht verfügbar'
       not_checked: 'Noch nicht geprüft'
       plan: Plan
-      portal_login: Portal-Anmeldung
+      portal_login: 'Forum Fortress öffnen'
       portal_popup_blocked: 'Der Browser hat das Portal-Fenster blockiert. Erlaube Popups für diese Website und versuche es erneut.'
       portal_success: 'Das Portal wird in einem neuen Tab geöffnet.'
       portal_url_missing: 'Forum Fortress hat keine Portal-URL zurückgegeben.'

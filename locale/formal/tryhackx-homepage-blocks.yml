@@ -12,6 +12,9 @@ tryhackx-homepage-blocks:
     section_stats: Tracker-Statistiken
     section_tracker: Tracker-Informationen
     settings:
+      category_label: 'Benutzerdefinierte Bezeichnung für den Kategorie-Filter'
+      category_label_help: 'Lasse das Feld leer, um die Standardübersetzung zu verwenden.'
+      content_length_enabled: 'Anpassung der Inhaltslänge aktivieren'
       content_length_help: 'Die Inhaltsspalte ist vom Typ „mediumtext“ (bis zu 16 Millionen Zeichen). Setze den Wert auf 0, um leere Beiträge zuzulassen.'
       content_max_length: 'Maximallänge des Inhalts'
       content_min_length: 'Mindestlänge des Inhalts'
@@ -46,16 +49,22 @@ tryhackx-homepage-blocks:
       recaptcha_v3_threshold: 'reCAPTCHA v3 Schwellwert'
       recaptcha_v3_threshold_help: 'Mindestwert (0.0–1.0), der für v3 akzeptiert wird. Je niedriger der Wert, desto weniger streng die Anforderungen. Standardwert: 0,5'
       recaptcha_version: reCAPTCHA-Version
+      resolution_label: 'Benutzerdefinierte Beschriftung für Auflösungsfilter'
+      resolution_label_help: 'Lasse das Feld leer, um die Standardübersetzung zu verwenden.'
       restore_defaults: Standardwerte
+      search_debounce_ms: 'Such-Entprellzeit (ms)'
+      search_debounce_ms_help: 'Verzögerung vor dem Auslösen einer Suche während der Eingabe. Höherer Wert = weniger Anfragen. Standard: 500 ms'
       section1_collapsed: 'Abschnitt 1 standardmäßig zusammengeklappt'
       section1_enabled: 'Abschnitt 1 aktivieren (Zufall & Statistiken)'
       section1_title: 'Titel für Abschnitt 1 (Zufall & Statistiken)'
       section2_enabled: 'Abschnitt 2 aktivieren (Diskussionslistenkopf & Filter)'
       section2_title: 'Titel für Abschnitt 2 (Diskussionsliste)'
-      show_only_used_tags: 'Nur Themen anzeigen, in denen Diskussionen vorhanden sind'
-      show_tag_count: 'Anzahl der Beiträge neben den Themen-Namen anzeigen'
+      show_only_used_tags: 'Nur Tags anzeigen, in denen Diskussionen vorhanden sind'
+      show_tag_count: 'Anzahl der Beiträge neben den Tag-Namen anzeigen'
       stats_enabled: 'Interne Statistiken (aus Datenbank) aktivieren'
       stats_title: 'Titel des Statistikabschnitts'
+      theme_mode: Themenmodus
+      theme_mode_help: 'Erkennt automatisch die Einstellungen für den Dunkelmodus des Betriebssystems bzw. Browsers.'
       title_length_enabled: 'Änderung der Titellänge aktivieren'
       title_length_help: 'Die Spalte „Titel“ ist vom Typ varchar(200). Der Mindestwert muss mindestens 1 betragen, der Höchstwert höchstens 200.'
       title_max_length: 'Maximallänge des Titels'
@@ -67,6 +76,7 @@ tryhackx-homepage-blocks:
     support:
       button: 'Unterstütze die Entwicklung'
       copy: 'Adresse kopieren'
+      description: 'Wenn dir diese Erweiterung gefällt, würde ich mich über eine kleine Spende freuen, um die Weiterentwicklung zu unterstützen. Jeder Beitrag hilft dabei, das Projekt am Leben zu erhalten und weiter zu pflegen.'
       thanks: 'Vielen Dank für deine Unterstützung!'
       title: 'Unterstütze diese Erweiterung'
   forum:
@@ -83,6 +93,8 @@ tryhackx-homepage-blocks:
     filter_category: Kategorie
     filter_date_interval: Erstellungsintervall
     filter_direction: Sortieren
+    filter_rating_interval: Bewertungsintervall
+    filter_resolution: Auflösung
     filter_sort_by: 'Sortieren nach'
     filter_title: Titel
     filter_title_placeholder: 'Titel suchen…'
@@ -98,6 +110,13 @@ tryhackx-homepage-blocks:
     interval_all: Alle
     interval_today: Heute
     random_not_found: 'In dieser Kategorie wurden keine Diskussionen gefunden.'
+    sort_asc: Aufsteigend
+    sort_avg_rating: 'Durchschnittliche Bewertung'
+    sort_created: Erstellungsdatum
+    sort_desc: Absteigend
+    sort_rating_count: 'Anzahl der Bewertungen'
+    sort_recently_clicked: 'Kürzlich geklickt'
+    sort_recently_rated: 'Kürzlich bewertet'
     sort_steamdb: 'Steam DB-Bewertung'
     sort_views: Aufrufe
     stats_avg_rating: 'Durchschn. Bewertung'
@@ -106,8 +125,10 @@ tryhackx-homepage-blocks:
     stats_error: 'Statistiken konnten nicht geladen werden.'
     stats_external_label: OpenTracker
     stats_internal_label: Forumsdaten
+    stats_magnets: Magnets
     stats_peers: Peers
     stats_seeds: Seeds
     stats_torrents: Torrents
+    stats_uptime: Verfügbarkeit
     stats_users: Benutzer
     stats_views: Aufrufe

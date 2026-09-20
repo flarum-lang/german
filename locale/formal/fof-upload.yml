@@ -21,18 +21,18 @@ fof-upload:
     buttons:
       save: 'Einstellungen speichern'
     help_texts:
-      client_extension: "Standardmäßig wählt Upload eine sichere Dateierweiterung basierend auf dem MIME-Typ.\nBei einigen Dateitypen, die auf ZIP- oder Binärdaten basieren, kann dies dazu führen, dass generische Erweiterungen statt der erwarteten verwendet werden.\nHier kannst du eine kommagetrennte Liste von Dateierweiterungen eingeben, die genau beibehalten werden sollen.\n"
-      composer_buttons: "Standardmäßig sind sowohl die Medienmanager-Schaltfläche als auch die Upload-Schaltfläche sichtbar. Du kannst auch festlegen, dass nur eine Schaltfläche angezeigt wird.\n"
+      client_extension: "Standardmäßig wählt Upload eine sichere Dateierweiterung basierend auf dem MIME-Typ.\nBei einigen Dateitypen, die auf ZIP- oder Binärdaten basieren, kann dies dazu führen, dass generische Erweiterungen statt der erwarteten verwendet werden.\nHier können Sie eine kommagetrennte Liste von Dateierweiterungen eingeben, die genau beibehalten werden sollen.\n"
+      composer_buttons: "Standardmäßig sind sowohl die Medienmanager-Schaltfläche als auch die Upload-Schaltfläche sichtbar. Sie können auch festlegen, dass nur eine Schaltfläche angezeigt wird.\n"
       custom_s3_url: "Verwende diese Einstellung, wenn du einen S3-kompatiblen Dienst nutzt, der ein bestimmtes URL-Format erfordert (z. B. Backblaze B2) oder wenn du Probleme mit dem Standard-URL-Format hast. In der Regel ist diese Einstellung für die meisten Dienste nicht erforderlich. Achte darauf, dass die URL das Protokoll (https://) enthält und korrekt formatiert ist. Beispiel: https://your-bucket.s3.your-region.backblazeb2.com\n"
-      disable-download-logging: "Deaktiviere die Protokollierung aller Downloads, die von Nutzern deines Forums getätigt werden. Wenn du es aktiviert lässt, kannst du die Anzahl der Downloads und andere Metriken in der nahen Zukunft einsehen.\n"
+      disable-download-logging: "Deaktiviere die Protokollierung aller Downloads, die von Nutzern deines Forums getätigt werden. Wenn Sie es aktiviert lassen, können Sie die Anzahl der Downloads und andere Metriken in der nahen Zukunft einsehen.\n"
       disable-hotlink-protection: "Der Hotlink-Schutz verhindert das Öffnen von Downloads auf anderen Seiten. Die aktuelle Methode erfordert ein csrf-Token und eine Post-ID.\n"
       download_templates: "Downloadvorlagen sind die Art und Weise, wie Uploads in deinem Forum angezeigt werden, z.B. als Vorschaubilder oder Buttons. Derzeit verfügbar:\n"
       mime_types: "Bitte konfiguriere deine Zuweisungen hier. Jeder reguläre Ausdruck des Mime-Typs wird von einem bestimmten Upload-Adapter und deren Downloadvorlage behandelt.\n"
-      resize: "Wähle aus, ob du die Größe deiner Bilder ändern möchtest, bevor sie hochgeladen werden. Du kannst eine maximale Breite und Höhe in Pixeln wählen. Bei der Größenänderung wird das Seitenverhältnis der Bilder beibehalten.\n"
+      resize: "Wählen Sie aus, ob Sie die Größe Ihrer Bilder ändern möchten, bevor sie hochgeladen werden. Sie können eine maximale Breite und Höhe in Pixeln wählen. Bei der Größenänderung wird das Seitenverhältnis der Bilder beibehalten.\n"
       s3_acl: "Die Zugriffssteuerungsliste (ACL), die auf das hochgeladene Objekt angewendet werden soll (Standard: private). Für mögliche Werte, siehe https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n"
       s3_compatible_storage: "Die folgenden Einstellungen sind nur erforderlich, wenn du S3 kompatiblen Speicher verwendest. Wenn du AWS verwendest, kannst du sie leer lassen.\n"
       s3_instance_profile: "Schlüssel und Secret leer lassen, um Anmeldeinformationen im Instanzprofil zu verwenden.\n"
-      watermark: "Wähle aus, ob Bilder beim Hochladen mit einem Wasserzeichen versehen werden sollen. Wasserzeichen werden basierend auf deinen Einstellungen unten hinzugefügt, jedoch nicht bei GIF's.\n"
+      watermark: "Wählen Sie aus, ob Bilder beim Hochladen mit einem Wasserzeichen versehen werden sollen. Wasserzeichen werden basierend auf deinen Einstellungen unten hinzugefügt, jedoch nicht bei GIF's.\n"
     inspect-mime:
       description: "FoF Upload verwendet den <a>PHP Mime Detector</a> eine Bibliothek für gängige MIME-Typen und PHP Fileinfo als Fallback.\nDer von Fileinfo zurückgegebene MIME-Wert kann von Server zu Server unterschiedlich sein!\n"
       guessed-extension: 'Standard-Dateierweiterung (wenn das Original nicht auf der Whitelist steht)'
@@ -76,7 +76,7 @@ fof-upload:
         client_id: 'Imgur Client ID'
         title: 'Imgur Bilder Speichereinstellungen'
         tos: 'Es liegt in deiner Verantwortung sicherzustellen, dass deine Forenbenutzer die <a>Nutzungsbedingungen</a> von Imgur einhalten'
-      inspect-mime: 'MIME-Typ der Testdatei'
+      inspect-mime: 'MIME-Typ einer Datei testen'
       local:
         cdn_url: 'Content Delivery URL (Präfixe für Dateien)'
         title: 'Lokale Speichereinstellungen'
@@ -160,7 +160,7 @@ fof-upload:
   forum:
     buttons:
       attach: Anhängen
-      cancel: Abbruch
+      cancel: Abbrechen
       media: 'Meine Medien'
       shared_media: 'Geteilte Medien'
       upload: Hochladen

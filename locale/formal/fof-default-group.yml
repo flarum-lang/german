@@ -5,4 +5,4 @@
 fof-default-group:
   admin:
     settings:
-      info: 'Unten Kannst Du die Gruppe auswählen, die einem Benutzer zugewiesen werden soll, wenn sein Konto aktiviert wird.'
+      info: 'Wähle die Gruppe aus, die einem Benutzer zugewiesen werden soll, wenn dessen Konto aktiviert wird.'

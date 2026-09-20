@@ -39,7 +39,7 @@ fof-gamification:
       ranks:
         help:
           color: '#ffffff'
-          help: 'Gebe die gewünschte Anzahl an Upvotes, den Namen des Ranges und die Hex-Farbe des Ranges ein'
+          help: 'Gib die gewünschte Anzahl an Upvotes, den Namen des Ranges und die Hex-Farbe des Ranges ein'
           name: Name
           points: Punkte
         number_title: 'Wie viele Rangabzeichen sollen angezeigt werden?'
@@ -54,7 +54,7 @@ fof-gamification:
         color_holder: '#ffffff'
         discussion_page: 'Gesamtzahl der Stimmen des ursprünglichen Beitrags in der Diskussionsliste anzeigen'
         first_post_only: 'Stimmen nach oben/unten nur im ersten Beitrag einer Diskussion zulassen'
-        icon_help: 'Gebe ein beliebiges Font-Awesome-Icon mit den Endungen -up und -down ein. Beispiele: arrow, thumbs, chevron'
+        icon_help: 'Gib ein beliebiges Font-Awesome-Symbol mit den Endungen -up und -down ein. Beispiele: arrow, thumbs, chevron'
         icon_name: 'Upvote/Downvote Symbol'
         points_placeholder: 'Punkte: '
         points_title: 'Punkte Platzhalter'
@@ -78,21 +78,21 @@ fof-gamification:
     mod_item: 'Wähler anzeigen'
     modal:
       downvotes_label: 'Downvoter:'
-      title: Wähler
+      title: Abstimmende
       upvotes_label: 'Upvoter:'
     nav:
       name: Ranglisten
     notification:
-      downvote: '{username} hat deinen Beitrag Downgevoted'
+      downvote: '{username} hat deinen Beitrag downgevoted'
       prefrences:
         vote: 'Wenn einer meiner Beiträge mit Up/Down bewertet wird'
-      upvote: '{username} hat deinen Beitrag Upgevoted'
+      upvote: '{username} hat deinen Beitrag upgevoted'
     post:
       downvote_button: 'Beitrag negativ bewerten'
       upvote_button: 'Beitrag positiv bewerten'
     ranking:
       amount: Punkte
-      name: Nutzer
+      name: Benutzer
       rank: Platz
     user:
       card:
@@ -102,7 +102,7 @@ fof-gamification:
       votes_link: Abstimmungen
     vote_title: 'Zeigen, wer gewählt hat'
     voters:
-      label: 'Noch keine Wähler'
-      label_none: 'Keine Wähler'
-      none: 'Noch keine Wähler'
+      label: Abstimmende
+      label_none: 'Keine Abstimmenden'
+      none: 'Noch keine Abstimmenden'
     votes: Abstimmungen

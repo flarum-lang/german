@@ -12,7 +12,7 @@ flarum-gdpr:
 ianm-follow-users:
   admin:
     permissions:
-      be_followed_label: 'Darf Benutzern folgen'
+      be_followed_label: 'Benutzer dürfen folgen'
     settings:
       button-on-profile-label: 'Schaltfläche „Folgen“ direkt in der Kopfzeile des Benutzerprofils anzeigen'
       stats-on-profile-label: 'Zahlen für Follower und Gefolgte Benutzer auf Nutzerprofilen anzeigen'
@@ -39,7 +39,7 @@ ianm-follow-users:
     modals:
       select_follow_level:
         cancel_btn: Abbrechen
-        description: 'Wähle , wie Du <em>{username}</em> folgen möchtest.'
+        description: 'Wählen Sie, wie Sie <em>{username}</em> folgen möchtest.'
         follow_levels_heading: 'Ebenen folgen'
         follow_select_label: Folgetyp
         no_user_attr_provided_err: 'Uh oh, beim Öffnen dieses Modal ist etwas schief gelaufen.'
@@ -53,8 +53,8 @@ ianm-follow-users:
       new_unfollower_text: '{username} folgt dir nicht mehr'
     profile_link: '=> ianm-follow-users.lib.following_link'
     profile_page:
-      no_followers: 'Es sieht so aus, als hättest du noch keine Follower.'
-      no_following: 'Anscheinend folgst du niemandem.'
+      no_followers: 'Es sieht so aus, als hätten Sie noch keine Follower.'
+      no_following: 'Anscheinend folgen Sie niemandem.'
     settings:
       block_follow: 'Verhindern, dass Benutzer mir folgen'
       notify_new_discussion_label: 'Jemand, dem ich folge, beginnt eine Diskussion'
