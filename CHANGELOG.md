@@ -8,6 +8,7 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) (24 added, 2 changed)
+* [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup) (10 removed)
 * [`ernestdefoe/logo-manager`](https://github.com/ernestdefoe/logo-manager) (30 added)
 * [`ernestdefoe/tributary`](https://github.com/ernestdefoe/tributary) (2 added)
 * [`ffans/threadmarks`](https://github.com/FFans/threadmarks) (2 changed)
