@@ -7,6 +7,8 @@ CHANGELOG
 
 **Übersetzungen für Erweiterungen aktualisiert**:
 
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`ernestdefoe/tributary`](https://github.com/ernestdefoe/tributary)
 * [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`linkrobins/support`](https://github.com/linkrobins/support)
