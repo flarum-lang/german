@@ -56,7 +56,7 @@ fof-anti-spam:
         hint: 'Filter:'
         no-matches: 'Es wurden keine blockierten Registrierungen gefunden, die dieser Suche entsprechen.'
         placeholder: 'Suche, oder filtere mit key:value'
-      help: "Diese Seite listet alle Registrierungen auf, die vom StopForumSpam-Dienst blockiert wurden. Du kannst die Details jeder Registrierung anschauen und, falsch gewünscht, den Eintrag aus der Datenbank löschen.\n"
+      help: "Diese Seite listet alle Registrierungen auf, die vom StopForumSpam-Dienst blockiert wurden. Du kannst die Details jeder Registrierung anschauen und, falls gewünscht, den Eintrag aus der Datenbank löschen.\n"
       ip: IP-Adresse
       login-provider: Anmeldeanbieter
       login-provider-data: 'Daten des Loginanbieters'
