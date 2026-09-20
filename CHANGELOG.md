@@ -10,6 +10,7 @@ CHANGELOG
 * [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) (24 added, 2 changed)
 * [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content) (3 changed)
 * [`datlechin/flarum-passkey`](https://github.com/datlechin/flarum-passkey) (8 changed)
+* [`datlechin/flarum-references`](https://github.com/datlechin/flarum-references) (18 added)
 * [`ernestdefoe/logo-manager`](https://github.com/ernestdefoe/logo-manager) (30 added)
 * [`ernestdefoe/tributary`](https://github.com/ernestdefoe/tributary) (2 added)
 * [`ffans/threadmarks`](https://github.com/FFans/threadmarks) (2 changed)
