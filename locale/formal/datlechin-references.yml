@@ -5,6 +5,7 @@
 datlechin-references:
   admin:
     analytics:
+      broken_label: Fehlerhaft
       by_origin_label: 'Wie sie gefunden wurden'
       by_relation_label: 'Was sie sagen'
       chart_label: 'Verweise pro Tag. {count, plural, one {# Tag} other {# Tage}} mit Aktivität, höchste Aktivität {peak}.'
@@ -47,6 +48,8 @@ datlechin-references:
       maintenance_description: 'Wie lange ein Verweis auf gelöschte Inhalte aufbewahrt wird.'
       maintenance_label: Wartung
     settings:
+      broken_retention_days_help: 'Ein Verweis auf etwas Gelöschtes bleibt so lange im Bericht erhalten. Bei 0 bleiben sie für immer erhalten.'
+      broken_retention_days_label: 'Unterbrochene Verweise beibehalten (in Tagen)'
       cache_ttl_help: 'Wie lange die Liste und der Graph gespeichert bleiben, bevor sie erneut berechnet werden. Der Wert 0 deaktiviert die Zwischenspeicherung.'
       cache_ttl_label: 'Cache-Speicherdauer (Sekunden)'
       enabled_help: 'Aus bedeutet, dass nichts aufgenommen wird. Vorhandene Verweise bleiben erhalten.'
@@ -64,9 +67,12 @@ datlechin-references:
       max_preview_help: 'Der Rest liegt hinter einer Schaltfläche.'
       notify_followers_help: 'Erfordert Abonnements. Bei „Aus“ wird nur der Autor des verwiesenen Beitrags darüber informiert.'
       notify_followers_label: 'Auch Follower benachrichtigen'
+      related_discussions_enabled_help: 'Wurde dadurch ermittelt, welche Diskussionen gemeinsam zitiert werden – nicht anhand von Tags oder Titeln.'
       related_discussions_enabled_label: 'Verwandte Diskussionen anzeigen'
       related_discussions_limit_help: 'In der Seitenleiste einer Diskussion.'
       related_discussions_limit_label: 'Angezeigte verwandte Diskussionen'
+      related_max_candidates_help: 'Eine Obergrenze – daher kann eine viel zitierte Diskussion dies nicht teuer machen.'
+      related_max_candidates_label: 'Diskussionen durchgesehen, um sie zu finden'
     target:
       discussions: 'Diskussion #{id}'
       posts: 'Beitrag #{id}'
@@ -113,6 +119,9 @@ datlechin-references:
     relation:
       answers: beantwortet
       duplicate_of: 'Duplikat von'
+      references: Verweise
+      see_also: ersetzt
+      supersedes: ersetzt
   gdpr:
     anonymize_description: 'Dein Name wird von den von dir hinzugefügten Verweisen entfernt. Der Verweis bleibt erhalten.'
     delete_description: 'Dein Name wird von den von dir hinzugefügten Verweisen entfernt. Die Verweis selbst sind Annahmen über andere Beiträge und bleiben daher erhalten.'
