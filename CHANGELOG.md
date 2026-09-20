@@ -15,7 +15,7 @@ CHANGELOG
 * [`ernestdefoe/tributary`](https://github.com/ernestdefoe/tributary) (2 added)
 * [`ffans/threadmarks`](https://github.com/FFans/threadmarks) (2 changed)
 * [`flarum/subscriptions`](https://github.com/flarum/subscriptions) (2 changed)
-* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (4 changed)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (6 changed)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (2 changed)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags) (2 changed)
 * [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate) (1 changed)
