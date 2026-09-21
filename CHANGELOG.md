@@ -7,7 +7,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
-* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) (24 added, 2 changed)
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) (40 added, 2 changed)
 * [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content) (3 changed)
 * [`datlechin/flarum-passkey`](https://github.com/datlechin/flarum-passkey) (8 changed)
 * [`datlechin/flarum-references`](https://github.com/datlechin/flarum-references) (18 added)
@@ -26,7 +26,7 @@ CHANGELOG
 * [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye) (4 changed)
 * [`linkrobins/support`](https://github.com/linkrobins/support) (44 added, 4 changed)
 * [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha) (3 changed)
-* [`ramon/point-system`](https://github.com/ram0ng1/point-system) (238 added, 2 changed)
+* [`ramon/point-system`](https://github.com/ram0ng1/point-system) (474 added, 2 changed)
 * [`resofire/digest-mail`](https://github.com/ResofireV2/digest-mail) (14 changed)
 * [`tapao/custom-landing-page`](https://github.com/Tapao-NonSen/Custom-Landing-Page) (6 changed)
 
