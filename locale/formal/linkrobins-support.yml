@@ -77,6 +77,7 @@ linkrobins-support:
       force_delete_tickets: 'Support-Tickets dauerhaft löschen'
       handle_tickets: 'Support-Tickets bearbeiten'
     rate_limits:
+      error_save: 'Die Ratenbegrenzungen konnten nicht gespeichert werden.'
       general_window_hours: 'Allgemeines Fenster (in Stunden)'
       general_window_hours_help: 'Das gleitende Zeitfenster (in Stunden) für das allgemeine Ticketlimit.'
       heading: Ratenbegrenzungen
@@ -151,12 +152,18 @@ linkrobins-support:
       delete_ticket: 'Ticket konnte nicht gelöscht werden.'
       delete_ticket_forever: 'Das Ticket konnte nicht endgültig gelöscht werden.'
       empty_body: 'Bitte gib deine Nachricht ein, bevor du das Formular absendest.'
+      load_more_replies: 'Mehr Antworten konnten nicht geladen werden.'
       load_tickets: 'Tickets konnten nicht geladen werden.'
       post_reply: 'Antwort konnte nicht veröffentlicht werden.'
+      restore_reply: 'Antwort konnte nicht wiederhergestellt werden.'
       restore_ticket: 'Ticket konnte nicht wiederhergestellt werden.'
       save_edit: 'Bearbeitung konnte nicht gespeichert werden.'
+      submit: 'Die Übermittlung ist fehlgeschlagen.'
+      submit_ticket: 'Die Übermittlung des Tickets ist fehlgeschlagen.'
       unknown: 'Unbekannter Fehler.'
+      update_assignment: 'Zuweisung konnte nicht aktualisiert werden.'
       update_status: 'Status konnte nicht aktualisiert werden.'
+      upload: 'Datei konnte nicht hochgeladen werden.'
     index:
       deleted_badge: Gelöscht
       empty: 'Es sind keine Tickets vorhanden.'
@@ -214,6 +221,7 @@ linkrobins-support:
       closed: Geschlossen
       in_progress: 'In Bearbeitung'
       open: Offen
+      resolved: Abgeschlossen
     submit_ticket: 'Ticket erstellen'
     ticket:
       delete: 'Ticket löschen'

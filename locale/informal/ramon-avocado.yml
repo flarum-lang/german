@@ -4,6 +4,23 @@
 
 ramon-avocado:
   admin:
+    edit_tag:
+      svg_current: SVG-Symbolsatz
+      svg_drop_hint: 'oder nutze die Schaltfläche · bis zu {max} KB'
+      svg_drop_title: 'Zieh eine .svg-Datei hierhin'
+      svg_invalid: 'Das ist keine SVG-Datei. Bitte sende eine gültige .svg-Datei.'
+      svg_label: SVG-Symbol
+      svg_mono_help: 'Das Symbol mit der aktuellen Farbe ausmalen, ähnlich wie bei einem Font Awesome-Symbol. Deaktivieren, um die Farben im SVG beizubehalten.'
+      svg_mono_title: 'An die Textfarbe anpassen'
+      svg_remove_button: 'SVG entfernen'
+      svg_replace_button: Ersetzen
+      svg_replace_hint: 'Zieh eine andere .svg-Datei per Drag & Drop darauf, um sie zu ersetzen.'
+      svg_size_help: 'Vergrößere es, wenn die Zeichnung neben anderen Symbolen klein wirkt – viele SVGs weisen um sich herum einen Leerraum auf. Nur die Zeichnung wird größer; der Platz, den das Symbol einnimmt, bleibt gleich.'
+      svg_size_reset: Zurücksetzen
+      svg_size_title: Symbolgröße
+      svg_text: 'Sende eine .svg-Datei. Wenn aktiviert, ersetzt sie das oben angezeigte Font Awesome-Symbol und verhält sich überall dort gleich, wo das Tag-Symbol angezeigt wird.'
+      svg_too_large: 'Die SVG-Datei ist zu groß (maximal {max} KB).'
+      svg_upload_button: 'Datei auswählen'
     footer_settings:
       footer_company: Unternehmensinformationen
       footer_company_description: Unternehmensbeschreibung
@@ -40,6 +57,15 @@ ramon-avocado:
       cakeday_enabled_help: 'Zeige am Jahrestag der Kontoanmeldung ein 🎂 neben dem Benutzernamen an (Thread-Karten, Beiträge und Benutzerkarte).'
       cakeday_enabled_label: 'Abzeichen zum Konto-Jubiläum anzeigen'
       categories_heading_label: 'Titel für Kategorien-Abschnitt'
+      changelog_description_label: Seitenbeschreibung
+      changelog_description_placeholder: 'Was ist neu, was wurde behoben und was wurde entfernt – Version für Version.'
+      changelog_enabled_help: 'Zeigt eine /changelog-Seite an, auf der Tags zu Produkten und deren Diskussionen zu Releases umgewandelt werden. Erfordert die Erweiterung „Tags“.'
+      changelog_enabled_label: 'Seite „Änderungsprotokoll“ aktivieren'
+      changelog_tags_help: 'Jedes hier ausgewählte Tag ist ein eigenes Changelog (Alega, Avocado, eine weitere Erweiterung …). Jede Diskussion darin entspricht einer Veröffentlichung, und die Untertags dieses Tags sind die Änderungsarten – Hinzugefügt, Behoben, Entfernt, Sicherheit … –, die je nach Tag farblich und mit einem Symbol gekennzeichnet sind. Wer Beiträge veröffentlichen darf, wird durch die Tag-Berechtigungen festgelegt. Wenn du hier ein Produkt auswählst, wirst du im Editor außerdem aufgefordert, ein Titelbild hinzuzufügen.'
+      changelog_tags_label: Produkte
+      changelog_title_label: Seitentitel
+      changelog_title_placeholder: Änderungsprotokoll
+      changelog_version_help: 'Jede Veröffentlichung verfügt im Composer neben dem Titelbild über ein Feld „Version“ – gib dort die gewünschte Bezeichnung ein, zum Beispiel „v2.4.0“. Als Titelbild dient entweder ein hochgeladenes Bild oder ein Banner in der Farbe des Tags. Veröffentlichungen ohne Versionsangabe werden ausschließlich nach Datum sortiert aufgelistet.'
       clock_format_12: '12 Stunden(2:30 PM)'
       clock_format_24: '24 Stunden(14:30)'
       clock_format_auto: 'Automatisch (Browser des Besuchers)'
@@ -73,6 +99,12 @@ ramon-avocado:
       fixed_avatar_effect_help: 'Avatar des Beitragsautors beim Scrollen bei längeren Beiträgen auf Desktop am oberen Rand fixieren.'
       fixed_avatar_effect_label: 'Fixierte Avatare aktivieren'
       following_heading_label: 'Titel für Gefolgte Diskussionen'
+      group_access: Zugang
+      group_appearance: Erscheinungsbild
+      group_community: Community
+      group_discussions: Diskussionen
+      group_home: Homepage
+      groups_aria: Einstellungsgruppen
       hero_deco_divider_help: 'Zeige ein Symbol in der Lücke zwischen den beiden Dekorationssymbolen an (z. B. ein „vs“-Symbol für Sportseiten).'
       hero_deco_divider_icon_help: 'Font Awesome-Klasse für das Trennsymbol, z. B. „fas fa-times“ oder „fas fa-circle“.'
       hero_deco_divider_icon_label: 'Symbolklasse des Trennsymbols'
@@ -113,20 +145,31 @@ ramon-avocado:
       post_cta_position_label: 'Position des Beitrittsaufrufs (nach welcher Beitragsnummer)'
       presence_enabled_help: 'Live-Anzeige „Wird gerade gelesen“ im Diskussions-Hero mit Avataren der Leser. Erfordert die Erweiterung „Realtime“; Nutzer, bei denen die Option „Online anzeigen“ deaktiviert ist, werden niemals aufgeführt.'
       presence_enabled_label: 'Anzeigen, wer eine Diskussion liest'
+      search_clear: 'Suche leeren'
+      search_empty: 'Keine Einstellungen gefunden.'
+      search_placeholder: 'Einstellungen suchen …'
       search_v1_help: 'Zeige das Dropdown-Menü für die Inline-Suche anstelle des V2-Modals an.'
       search_v1_label: 'Suchleistenstil „V1“ aktivieren'
       section_auth: 'Anmeldung und Registrierung'
       section_bookmarks: Lesezeichen
       section_cakeday: Kuchentag
+      section_changelog: Änderungsprotokoll
       section_colored: Colored
+      section_disc_hero_icon: Diskussions-Kopfzeilensymbol
       section_discussion: Diskussionsseite
       section_footer: Fußzeile
+      section_guests: Gäste
       section_hero_image_tags: 'Titelbild für Diskussionen'
+      section_home_banner: Banner
+      section_home_categories: 'Hervorgehobene Kategorien'
       section_homepage: Homepage
       section_logo: Logo
+      section_online: Online-Benutzer
       section_posts: Beiträge
       section_presence: Präsenz
       section_search: Suche
+      section_showcase: 'Showcase / Portfolio'
+      section_tag_icon_svg: 'Tag-Symbole (SVG)'
       section_team: Teamseite
       section_titles_heading: Abschnitttitel
       section_titles_help: 'Überschreibe die Titel der Abschnitte auf der Startseite. Lasse ein Feld leer, um die Standardeinstellung des Sprachpakets zu verwenden.'
@@ -167,6 +210,10 @@ ramon-avocado:
       spinner_option_flarum: Flarum
       spinner_option_orbital: Orbital
       spinner_option_pl3: Pulsierend
+      tag_icon_svg_help: 'Fügt dem Modal „Tag bearbeiten“ ein SVG-Feld hinzu. Ein SVG ersetzt das Font-Awesome-Symbol überall dort, wo das Tag-Symbol angezeigt wird – einschließlich der Changelog-Typen. SVGs werden beim Speichern bereinigt. Lade den Admin-Bereich neu, nachdem du die Funktion aktiviert hast.'
+      tag_icon_svg_label: 'SVG als Tag-Symbol erlauben'
+      tag_icon_svg_standalone_notice: 'Die eigenständige SVG-Erweiterung „Tag-Symbol“ ist aktiviert, sodass sie weiterhin SVG-Symbole verarbeitet und dieser Schalter keine Wirkung hat. Deaktiviere diese Erweiterung, damit das Theme die Steuerung übernimmt – die bereits gespeicherten Symbole bleiben erhalten.'
+      tag_icon_svg_tags_notice: 'Dafür wird die Erweiterung „Tags“ benötigt, die nicht aktiviert ist.'
       tag_picker_placeholder: 'Tags auswählen…'
       team_desc_label: Seitenbeschreibung
       team_desc_placeholder: 'Lerne die Menschen hinter der Community kennen.'
@@ -233,6 +280,33 @@ ramon-avocado:
       aria: Konto-Jubiläum
       tooltip_plural: 'Konto-Jubiläum – heute seit {years} Jahren dabei!'
       tooltip_singular: 'Konto-Jubiläum – heute seit einem Jahr dabei!'
+    changelog:
+      all_products: 'Alle Produkte'
+      all_types: 'Alle Arten'
+      composer_submit: 'Version veröffentlichen'
+      composer_title: 'Neue Version'
+      composer_title_placeholder: Versionstitel…
+      cover_auto: Automatisch
+      cover_preset_ember: Glut
+      cover_preset_forest: Wald
+      cover_preset_ocean: Ozean
+      cover_preset_slate: Schiefer
+      cover_preset_sunset: Sonnenuntergang
+      cover_preset_violet: Violett
+      cover_presets: Vorlagen
+      cover_tags_count: '{count, plural, one {# Tag-Farbe} other {# Tag-Farben}}'
+      edit_release: 'Version bearbeiten'
+      empty: 'Noch keine Versionen veröffentlicht.'
+      latest: Neueste
+      load_more: 'Mehr laden'
+      new_release: 'Neue Version'
+      products_label: Produkte
+      replies: '{count, plural, one {# Antwort} other {# Antworten}}'
+      retry: 'Erneut versuchen'
+      title: Änderungsprotokoll
+      types_label: 'Nach Art filtern'
+      version_label: Version
+      version_placeholder: 'Version (z. B. v2.4.0)'
     discussion:
       hero_image_add: 'Bild hinzufügen'
       hero_image_remove: 'Bild entfernen'

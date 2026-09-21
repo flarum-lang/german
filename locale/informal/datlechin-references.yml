@@ -14,6 +14,7 @@ datlechin-references:
       manual_label: 'Händisch hinzugefügt'
       title: Verweise
       total_label: Verweise
+      unavailable: 'Metriken konnte nicht eingelesen werden.'
     broken:
       broken_at_column: 'Fehlerhaft seit'
       description: 'Verweise, die auf nicht mehr existierende Inhalte verweisen.'
@@ -26,9 +27,11 @@ datlechin-references:
     origin:
       manual: 'Händisch hinzugefügt'
       mention: Beitragserwähnung
+      shortref: 'Eingegebener Verweis'
       url: 'Eingefügter Link'
     permissions:
       manage_references: 'Verweise erstellen und bearbeiten'
+      view_analytics: 'Verweis-Analyse anzeigen'
       view_broken_report: 'Siehe fehlerhafte Verweise'
     relation:
       answers: Antworten
@@ -59,12 +62,15 @@ datlechin-references:
       extract_mention_references_help: 'Mentions wird benötigt. Ohne die Erweiterung wird eine Antwort in zwei Listen geführt, die nicht übereinstimmen.'
       extract_mention_references_label: 'Beitragserwähnungen aufnehmen'
       extract_short_references_help: "Das Format @\"Discussion title\"#d123, wie es bei Eingabe von # im Composer eingefügt wird.\n"
+      extract_short_references_label: 'Eingegebene Verweise erfassen'
       extract_url_references_help: 'Ein Link auf eine Diskussion oder einen Beitrag in diesem Forum wird ein Verweis.'
       extract_url_references_label: 'Eingefügte Links aufnehmen'
       graph_max_depth_help: 'Wie viele Schritte von einer Diskussion entfernt der Graph reicht.'
       graph_max_depth_label: 'Tiefe des Graphen'
+      graph_max_per_hop_help: 'Über diese hinaus werden nur die Neuesten angezeigt und auch so im Graph kommuniziert.'
       graph_max_per_hop_label: 'Verknüpfungen pro Schritt'
       max_preview_help: 'Der Rest liegt hinter einer Schaltfläche.'
+      max_preview_label: 'Anzahl der Verweise, die gleichzeitig angezeigt werden'
       notify_followers_help: 'Erfordert Abonnements. Bei „Aus“ wird nur der Autor des verwiesenen Beitrags darüber informiert.'
       notify_followers_label: 'Auch Follower benachrichtigen'
       related_discussions_enabled_help: 'Wurde dadurch ermittelt, welche Diskussionen gemeinsam zitiert werden – nicht anhand von Tags oder Titeln.'
