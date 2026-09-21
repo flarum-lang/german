@@ -11,6 +11,7 @@ acpl-mobile-tab:
     edit_item:
       delete_button: Löschen
       delete_item_confirmation: 'Möchtest du diesen Artikel wirklich löschen?'
+      help: 'Du benötigest mehr als nur einen Link? Informationen zu benutzerdefinierten Elementen und Verhaltensweisen findest du in der <a>Entwicklerdokumentation</a>.'
       icon: Symbol
       icon_help: 'Gib den Namen einer beliebigen <a>FontAwesome</a>-Symbolklasse ein, einschließlich des Präfixes <code>fas fa-</code>.'
       is_internal_checkbox: 'Ist das ein interner Link?'
@@ -20,7 +21,18 @@ acpl-mobile-tab:
       open_new_tab_checkbox: 'Link in neuem Tab öffnen'
       path: Pfad
       submit_button: Speichern
+      type:
+        external:
+          help: 'Öffnet eine Seite außerhalb dieses Forums.'
+          label: 'Ruft eine andere Seite auf'
+        heading: 'Was dieser Link bewirkt'
+        internal:
+          help: 'Wird ohne ein neues Laden der Seite geöffnet.'
+          label: 'Ruft eine Seite im Forum auf'
       url: URL
+      url_help:
+        external: 'Die vollständige Adresse, inklusive <code>https://</code>.'
+        internal: 'Der Teil der Adresse nach {baseUrl}, der mit einem Schrägstrich beginnt.'
     scroll_settings:
       threshold_help: 'Entfernung, die von der aktuellen Position aus gescrollt werden muss, um die Sichtbarkeit umzuschalten.'
       threshold_label: 'Bildlaufschwelle (px)'
@@ -32,7 +44,7 @@ acpl-mobile-tab:
       empty_help: 'Ziehe Elemente hierher, um sie dieser Variante hinzuzufügen.'
       enabled: Aktiviert
       heading: 'Varianten der mobilen Reiterkarten'
-      help: 'Varianten werden von oben nach unten geprüft. Den Benutzern wird die erste aktivierte Variante angezeigt, für deren Anzeige sie die Berechtigung haben. Setze spezifischere Rollen an den Anfang, zum Beispiel: #1 Administratoren, #2 Moderatoren, #3 Mitglieder, #4 alle.'
+      help: 'Varianten werden von oben nach unten geprüft. Den Benutzern wird die erste aktivierte Variante angezeigt, für deren Anzeige sie die Berechtigung haben. Setze spezifischere Rollen an den Anfang, zum Beispiel: #1 Administratoren, #2 Moderatoren, #3 Mitglieder, #4 alle. Lasse ein Feld leer, um die Registerkarte für die ausgewählten Gruppen vollständig auszublenden.'
       number: '#{number}'
       reorder: 'Variante neu anordnen'
       visible_to: 'Sichtbar für'

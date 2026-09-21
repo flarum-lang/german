@@ -4,8 +4,34 @@
 
 ramon-point-system:
   admin:
+    all_trades:
+      col_offer: Angebote
+      col_recipient: Empfänger
+      col_status: Status
+      col_updated: Aktualisiert
+      items_short: '{count, plural, one {# Gegenstand} other {# Gegenstände}}'
+      next: Nächste
+      page_x_of_y: 'Seite {x} von {y}'
+      prev: Vorherige
+      recipient_offer: 'Von Empfänger'
+      status_cancelled: Abgebrochen
+      status_completed: Abgeschlossen
+      status_pending: Ausstehend
+    availability:
+      available_from: 'Verfügbar von'
+      available_until: 'Verfügbar bis'
+      groups_loading: 'Gruppen werden geladen…'
+      legend: 'Verfügbarkeit & Zugriff'
+      max_claims_placeholder: Unbegrenzt
     avatar:
+      edit_title: 'Avatardekoration bearbeiten — {name}'
+      field_description: Beschreibung
       field_name: Name
+      field_price: Preis
+      source_file: 'Datei hochladen'
+      source_label: Bildquelle
+      source_url: 'Bild-URL verwenden'
+      upload_title: 'Neue Avatardekoration hochladen'
     cancel: Abbrechen
     cover:
       edit_title: 'Hintergrund bearbeiten — {name}'
@@ -25,20 +51,80 @@ ramon-point-system:
     disable: Deaktivieren
     edit: Bearbeiten
     enable: Aktivieren
+    grant:
+      username_help: 'Exakten Benutzer- oder Anzeigenamen eingeben.'
+      username_label: Benutzername
+      username_placeholder: 'z. B. Ramon'
+    manual:
+      balance: Guthaben
+      bulk_confirm_no: Abbrechen
+      bulk_errors: Fehler
+      field_amount: Menge
+      field_reason: 'Grund (optional)'
+      field_username: Benutzername
+      result: 'Neues Guthaben'
+      submit: AAnwenden
+      user_not_found: 'Benutzer nicht gefunden.'
     name:
+      create: 'Dekoration erstellen'
+      create_title: 'Neue Dekoration erstellen'
+      created: 'Dekoration erstellt.'
+      existing: 'Vorhandene Dekorationen'
+      field_css: 'Benutzerdefiniertes CSS (optional)'
+      field_description: Beschreibung
       field_name: Name
+      field_preset: Vorlage
+      field_price: Preis
+      none: 'Noch keine Dekorationen erstellt.'
+      preset: Vorlage
+      preset_blur: '🌫 Unscharf'
+      preset_breath: '🌸 Atem'
+      preset_custom: '🛠 Benutzerdefiniert (CSS)'
+      preset_fire: '🔥 Feuer'
+      preset_galaxy: '🌌 Galaxie'
+      preset_glass: '🪟 Glas'
+      preset_gold: '🥇 Gold'
+      preset_hearts: '💖 Herzen'
+      preset_ice: '❄️ Eis'
+      preset_lightning: '⚡ Blitz'
+      preset_matrix: '🟢 Matrix'
+      preset_neon: '💡 Neon'
+      preset_rainbow: '🌈 Regenbogen'
+      preset_royal: '👑 Königlich'
+      preset_sparkle: '✦ Glitzern'
+      preset_stamp: '🔖 Stempel'
+      preset_toxic: '☣ Giftig'
+      preset_typer: '⌨️ Schreibmaschine'
+      preset_underline: '〰 Unterstreichen'
+      preset_vhs: '📼 VHS'
+      preset_wave: '🌊 Welle'
+      preview: Live-Vorschau
     post_hl:
       field_name: Name
     rules:
       currency_icon: 'Symbolklasse der Währung'
       currency_name: 'Name der Währung'
+      currency_name_help: 'Pluralform der Punkte (z. B. „Münzen“, „Edelsteine“).'
+      daily_login_bonus: 'Täglicher Anmeldebonus'
       help: 'Konfiguriere das Punktesystem, die Dekorationsoptionen, die Währung und die Belohnungen pro Aktion.'
+      points_per_post: 'Punkte pro Antwort'
+      points_short: 'Einheitsbeschriftung der Punkte'
+      points_short_help: 'Neben den Zahlen angezeigte Kurzbezeichnung (z. B. „Pkt“, „点“, „코인“). Standardmäßig ist „pts“ eingestellt.'
       save: 'Änderungen speichern'
+      section_currency_help: 'Wie der Name und das Symbol der Punkte im gesamten Forum angezeigt werden.'
       section_currency_title: Währung
+      section_general_help: 'Globale Ein-/Aus-Schalter für das Punktesystem und wichtige Unterfunktionen.'
       section_general_title: Allgemein
       title: Einstellungen
       unsaved: '{count} ungespeicherte Änderungen'
     save: Speichern
+    submissions:
+      approve: Genehmigen
+      approved_alert: '„{name}“ genehmigt.'
+      image_url: 'Bild-URL öffnen'
+      refresh: Aktualisieren
+      reject: Ablehnen
+      rejected_alert: '„{name}“ abgelehnt.'
     tabs:
       all_trades: 'Alle Handelsanfragen'
       avatar: Avatardekorationen
@@ -48,6 +134,27 @@ ramon-point-system:
       rules: 'Punkte & Regeln'
       title: 'Benutzerdefinierte Titel'
       users: Benutzer
+    title:
+      create: 'Titel erstellen'
+      create_title: 'Neuen Titel erstellen'
+      created: 'Titel erstellt.'
+      help: 'Kurzer Abzeichen-Text, der neben dem Benutzernamen angezeigt wird (z. B. „Veteran“, „Patron“). Jeder Titel kann eine eigene Farbe und optional benutzerdefiniertes CSS haben.'
+      title: 'Benutzerdefinierte Titel'
+    trade_detail:
+      cancelled_at: Abgebrochen
+      close: Schließen
+      completed_at: Abgeschlossen
+      family_avatar: Avatardekoration
+      family_cover: Profilhintergrund
+      family_name: Namensstil
+      family_post_hl: Beitragshervorhebung
+      family_title: 'Benutzerdefinierter Titel'
+      no_items: 'Keine Gegenstände angeboten'
+      recipient: Empfänger
+      status_cancelled: Abgebrochen
+      status_completed: Abgeschlossen
+      status_pending: Aussstehend
+      updated_at: Aktualisiert
     users:
       apply: Anwenden
       col_balance: Guthaben
@@ -81,15 +188,25 @@ ramon-point-system:
     confirm:
       after_purchase: 'Nach dem Kauf'
       cancel: Abbrechen
+      confirm: Bestätigen
       current_balance: 'Aktuelles Guthaben'
       price: Preis
+      title: 'Kauf bestätigen'
+      title_cover: 'Kauf bestätigen'
+      title_purchase: 'Zugang zu dieser Gruppe erwerben?'
+      title_tier: 'Dieser Gruppe beitreten?'
     how_to_earn:
       close: Verstanden
+      intro: 'Jede der folgenden Aktionen führt automatisch zu einer Gutschrift auf deinem Konto.'
+      no_rules: 'Automatische Belohnungen sind derzeit deaktiviert. Punkte werden von Mitarbeitern vergeben.'
+      open: 'Wie kann ich Punkte erhalten?'
       rule_daily_login: 'Erste Anmeldung des Tages'
       rule_discussion: 'Starte eine Diskussion'
+      rule_like_given: 'Einem Beitrag ein Like geben'
       rule_like_received: 'Erhalte ein Like auf deinem Beitrag'
       rule_post: 'Antworte in einer Diskussion'
       rule_registration: 'Erstelle dein Konto'
+      title: 'Wie erhält man Punkte'
     my_decorations:
       avatar: Avatardekorationen
       back_to_shop: 'Zurück zum Shop'
@@ -110,6 +227,7 @@ ramon-point-system:
       earned_like_received: 'Du hast {amount} Punkte erhalten — Jemand hat deinen Beitrag geliked'
       earned_other: 'Du hast {amount} Punkte verdient'
       earned_post: 'Du hast {amount} Punkte dafür erhalten, dass du geantwortet hast'
+      earned_preference_label: 'Jemand hat meinem Konto Punkte zugewiesen'
       earned_registered: 'Du hast {amount} Punkte für deinen Beitritt zum Forum erhalten'
       item_family_avatar: Avatarrahmen
       item_family_cover: Profilhintergrund
@@ -121,6 +239,7 @@ ramon-point-system:
       points_removed: '{admin} hat {amount} Punkte von dir entfernt'
       tier_claimed: 'Du bist der Gruppe {name} beigetreten!'
       tier_excerpt: 'Schwellenwert: {points} Gesamtpunkte'
+      trade_accepted: '{name} hat den Handel angenommen — akzeptiere du auch um abzuschliessen'
       trade_completed: 'Handel mit {name} abgeschlossen'
       trade_requested: '{name} möchte mit dir handeln'
     session_dropdown:
@@ -187,14 +306,19 @@ ramon-point-system:
       title_with: 'Handel mit {name}'
       your_offer: 'Dein Angebot'
     trades_page:
+      history_empty: 'Keine abgeschlossenen oder abgebrochene Handel.'
       history_heading: 'Vergangene Handelsanfragen'
       items_short: '{count, plural, one {# Gegenstand} other {# Gegenstände}}'
+      no_permission: 'Deine Gruppe hat keine Berechtigung, um Handel zu starten. Wende dich an einen Administrator, um das zu ändern.'
       open: Offen
+      pending_empty: 'Derzeit gibt es keine offenen Handelsanfragen.'
       pending_heading: 'Offene Handelsanfragen'
       retry: 'Erneut versuchen'
       start_cancel: Abbrechen
       start_clear: 'Suche leeren'
+      start_help: 'Gib den Benutzernamen (oder den Anzeigenamen) des Benutzers ein, mit dem du handeln möchtest.'
       start_new: 'Handel beginnen'
+      start_not_found: 'Es gibt keinen Benutzer mit diesem Namen.'
       start_submit: 'Handelsfenster öffnen'
       start_title: 'Neuen Handel beginnen'
       start_username_label: Benutzername
@@ -202,6 +326,7 @@ ramon-point-system:
       status_cancelled: Abgebrochen
       status_completed: Abgeschlossen
       status_pending: Offen
+      subtitle: 'Dekorationen und Punkte mit anderen Benutzern handeln. Beide Seiten müssen den Handel annehmen, um ihn abzuschliessen.'
       their_side: 'Ihr Angebot'
       title: Handeln
       your_side: 'Dein Angebot'
