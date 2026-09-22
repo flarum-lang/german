@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.25.32 (XXXX-XX-XX)
+--------------------
+
+**Updated translations for extensions**:
+
+* [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate) (1 changed)
+
+
+All changes: [1.25.31...1.25.32](https://github.com/flarum-lang/german/compare/1.25.31...1.25.32).
+
+
 1.25.31 (2026-09-22)
 --------------------
 
