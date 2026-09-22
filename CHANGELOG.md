@@ -2,6 +2,39 @@ CHANGELOG
 =========
 
 
+2.0.21 (2026-09-22)
+-------------------
+
+**Updated translations for extensions**:
+
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) (40 added, 2 changed)
+* [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content) (3 changed)
+* [`datlechin/flarum-passkey`](https://github.com/datlechin/flarum-passkey) (8 changed)
+* [`datlechin/flarum-references`](https://github.com/datlechin/flarum-references) (30 added)
+* [`ernestdefoe/logo-manager`](https://github.com/ernestdefoe/logo-manager) (30 added)
+* [`ernestdefoe/tributary`](https://github.com/ernestdefoe/tributary) (2 added)
+* [`ffans/threadmarks`](https://github.com/FFans/threadmarks) (2 changed)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions) (2 changed)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (6 changed)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (2 changed)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags) (2 changed)
+* [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate) (1 changed)
+* [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist) (6 changed)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request) (21 changed)
+* [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff) (18 changed)
+* [`lcoy/cipher`](https://github.com/Lcoy2004/Flarum-cipher) (14 added, 4 changed)
+* [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye) (4 changed)
+* [`linkrobins/support`](https://github.com/linkrobins/support) (60 added, 4 changed)
+* [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha) (3 changed)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado) (144 added)
+* [`ramon/point-system`](https://github.com/ram0ng1/point-system) (474 added, 2 changed)
+* [`resofire/digest-mail`](https://github.com/ResofireV2/digest-mail) (14 changed)
+* [`tapao/custom-landing-page`](https://github.com/Tapao-NonSen/Custom-Landing-Page) (6 changed)
+
+
+All changes: [2.0.20...2.0.21](https://github.com/flarum-lang/german/compare/2.0.20...2.0.21).
+
+
 2.0.20 (2026-09-19)
 -------------------
 
