@@ -242,6 +242,8 @@ ramon-avocado:
     svg_forbidden_declaration: 'Die SVG-Datei enthält eine unzulässige DOCTYPE- oder ENTITY-Deklaration.'
     svg_invalid: 'Die hochgeladene Datei muss ein gültiges SVG sein.'
     svg_parse_failed: 'Ungültiges SVG: Das XML konnte nicht analysiert werden.'
+    tag_icon_svg_invalid: 'Das SVG-Symbol konnte nicht gelesen werden. Stelle sicher, dass es sich um gültigen SVG-Code handelt.'
+    tag_icon_svg_too_large: 'Das SVG-Symbol ist zu groß (maximal {max} KB).'
     unsupported_image_type: 'Nicht unterstützter Bildtyp.'
   forum:
     actions:
@@ -283,10 +285,16 @@ ramon-avocado:
     changelog:
       all_products: 'Alle Produkte'
       all_types: 'Alle Arten'
+      composer_body_placeholder: 'Schreibe die Versionshinweise…'
       composer_submit: 'Version veröffentlichen'
       composer_title: 'Neue Version'
       composer_title_placeholder: Versionstitel…
       cover_auto: Automatisch
+      cover_auto_help: 'Von der Produktfarbe bis zur ersten Änderungsart.'
+      cover_change: Kopfzeilenfarbe
+      cover_color: 'Tag-Farbe für Kopfzeile'
+      cover_from_tags: 'Von Tags (eine oder mehrere auswählen)'
+      cover_off: 'Keine Kopfzeile (Tagstandard)'
       cover_preset_ember: Glut
       cover_preset_forest: Wald
       cover_preset_ocean: Ozean
@@ -295,12 +303,21 @@ ramon-avocado:
       cover_preset_violet: Violett
       cover_presets: Vorlagen
       cover_tags_count: '{count, plural, one {# Tag-Farbe} other {# Tag-Farben}}'
+      cover_title: Kopfzeilenfarbe
+      description: 'Was ist neu, was wurde behoben und was wurde entfernt – Version für Version.'
       edit_release: 'Version bearbeiten'
       empty: 'Noch keine Versionen veröffentlicht.'
+      empty_filtered: 'Noch keine Versionen dieser Art.'
+      error: 'Versionshinweise konnten nicht geladen werden.'
+      hide_notes: 'Hinweise verbergen'
       latest: Neueste
       load_more: 'Mehr laden'
       new_release: 'Neue Version'
+      not_found: 'Produkt nicht gefunden.'
+      notes_failed: 'Hinweise konnten nicht geladen werden.'
+      notes_loading: 'Hinweise werden geladen…'
       products_label: Produkte
+      read_notes: 'Hinweise lesen'
       replies: '{count, plural, one {# Antwort} other {# Antworten}}'
       retry: 'Erneut versuchen'
       title: Änderungsprotokoll

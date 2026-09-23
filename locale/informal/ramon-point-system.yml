@@ -319,6 +319,7 @@ ramon-point-system:
       start_help: 'Gib den Benutzernamen (oder den Anzeigenamen) des Benutzers ein, mit dem du handeln möchtest.'
       start_new: 'Handel beginnen'
       start_not_found: 'Es gibt keinen Benutzer mit diesem Namen.'
+      start_search_failed: 'Die Suche nach Benutzern war nicht möglich. Überprüfe deine Verbindung und versuche es erneut.'
       start_submit: 'Handelsfenster öffnen'
       start_title: 'Neuen Handel beginnen'
       start_username_label: Benutzername
