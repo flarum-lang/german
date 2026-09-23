@@ -197,6 +197,7 @@ ramon-point-system:
       title_tier: 'Dieser Gruppe beitreten?'
     how_to_earn:
       close: Verstanden
+      footer: 'Die Guthabensalden werden aktualisiert, sobald die Aktion erfasst wurde. Mitarbeiter können {unit} auch manuell zuweisen.'
       intro: 'Jede der folgenden Aktionen führt automatisch zu einer Gutschrift auf deinem Konto.'
       no_rules: 'Automatische Belohnungen sind derzeit deaktiviert. Punkte werden von Mitarbeitern vergeben.'
       open: 'Wie kann ich Punkte erhalten?'
@@ -206,6 +207,7 @@ ramon-point-system:
       rule_like_received: 'Erhalte ein Like auf deinem Beitrag'
       rule_post: 'Antworte in einer Diskussion'
       rule_registration: 'Erstelle dein Konto'
+      system_off: 'Das Forum vergibt derzeit keine Punkte. Dein Guthaben ist sicher, und du kannst es weiterhin im Shop ausgeben.'
       title: 'Wie erhält man Punkte'
     my_decorations:
       avatar: Avatardekorationen
@@ -250,9 +252,12 @@ ramon-point-system:
       badge_ends_in_hours: '{count, plural, one {Endet in # Stunden} other {Endet in # Stunden}}'
       badge_remaining: '{count, plural, one {# übrig} other {# übrig}}'
       by_creator: 'von {name}'
+      claim: Beanspruchen
       claimed: '{name} erhalten!'
+      equip: Ausstatten
+      equipped: Ausgestattet
       equipped_alert: '{name} ausgerüstet'
-      equipped_label: AUSGERÜSTET
+      equipped_label: AUSGESTATTET
       lifetime: Gesamtpunkte
       login_to_claim: Anmelden
       must_login: 'Anmelden, um Gegenstände zu erhalten'
@@ -262,6 +267,7 @@ ramon-point-system:
       subtitle: 'Gib deine Punkte für Belohnungen und Extras aus.'
       tab_avatar: Avatardekoration
       tab_cover: Profilhintergründe
+      tab_name: Namensstile
       tab_post_hl: Beitragshervorhebungen
       tab_tiers: Gruppen
       tab_title: 'Benutzerdefinierte Titel'
@@ -269,6 +275,7 @@ ramon-point-system:
       tier_claim: 'Gruppe beitreten'
       tier_claimed: Beigetreten
       tier_not_enough: 'Nicht genügend Punkte'
+      tiers_empty: 'Noch keine Gruppen verfügbar.'
       tiers_title: Gruppen
       title: Belohnungen
       your_balance: 'Dein Punktekonto'
