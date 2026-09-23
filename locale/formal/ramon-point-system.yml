@@ -28,9 +28,11 @@ ramon-point-system:
       field_description: Beschreibung
       field_name: Name
       field_price: Preis
+      help: 'Lade PNG-, GIF-, WebP- oder APNG-Frames hoch, die über dem Avatar des Benutzers schweben (im Discord-Stil).'
       source_file: 'Datei hochladen'
       source_label: Bildquelle
       source_url: 'Bild-URL verwenden'
+      title: Avatardekorationen
       upload_title: 'Neue Avatardekoration hochladen'
     cancel: Abbrechen
     cover:
@@ -102,20 +104,30 @@ ramon-point-system:
     post_hl:
       field_name: Name
     rules:
+      avatar_deco_enabled: 'Avatardekorationen aktivieren'
+      avatar_deco_in_lists: 'Avatardekorationen in Diskussionslisten'
+      cover_deco_enabled: 'Profilhintergründe aktivieren'
       currency_icon: 'Symbolklasse der Währung'
+      currency_icon_help: 'FontAwesome-Klasse — z. B. fas fa-coins.'
       currency_name: 'Name der Währung'
       currency_name_help: 'Pluralform der Punkte (z. B. „Münzen“, „Edelsteine“).'
       daily_login_bonus: 'Täglicher Anmeldebonus'
+      deco_in_lists: 'Dekorationen in Diskussionslisten'
       help: 'Konfiguriere das Punktesystem, die Dekorationsoptionen, die Währung und die Belohnungen pro Aktion.'
+      points_per_like_given_help: 'Erfordert flarum/likes. Fördert das Engagement.'
+      points_per_like_received_help: 'Erfordert flarum/likes.'
       points_per_post: 'Punkte pro Antwort'
+      points_per_registration: Registrierungsbonus
       points_short: 'Einheitsbeschriftung der Punkte'
       points_short_help: 'Neben den Zahlen angezeigte Kurzbezeichnung (z. B. „Pkt“, „点“, „코인“). Standardmäßig ist „pts“ eingestellt.'
+      post_hl_deco_enabled: 'Beitragshervorhebungen aktivieren'
       save: 'Änderungen speichern'
       section_currency_help: 'Wie der Name und das Symbol der Punkte im gesamten Forum angezeigt werden.'
       section_currency_title: Währung
       section_general_help: 'Globale Ein-/Aus-Schalter für das Punktesystem und wichtige Unterfunktionen.'
       section_general_title: Allgemein
       title: Einstellungen
+      title_deco_enabled: 'Benutzerdefinierte Titel aktivieren'
       unsaved: '{count} ungespeicherte Änderungen'
     save: Speichern
     submissions:
@@ -253,8 +265,11 @@ ramon-point-system:
       badge_remaining: '{count, plural, one {# übrig} other {# übrig}}'
       by_creator: 'von {name}'
       claim: Beanspruchen
+      claim_failed: 'Gegenstand konnte nicht beansprucht werden.'
       claimed: '{name} erhalten!'
+      creator_tooltip: 'Designed von {name}'
       equip: Ausstatten
+      equip_failed: 'Gegenstand konnte nicht ausgestattet werden.'
       equipped: Ausgestattet
       equipped_alert: '{name} ausgerüstet'
       equipped_label: AUSGESTATTET
@@ -273,11 +288,15 @@ ramon-point-system:
       tab_title: 'Benutzerdefinierte Titel'
       tier_buy: 'Zugang erwerben'
       tier_claim: 'Gruppe beitreten'
+      tier_claim_failed: 'Gruppe konnte nicht beansprucht werden.'
       tier_claimed: Beigetreten
+      tier_claimed_alert: '{name} beigetreten!'
+      tier_locked: Gesperrt
       tier_not_enough: 'Nicht genügend Punkte'
       tiers_empty: 'Noch keine Gruppen verfügbar.'
       tiers_title: Gruppen
       title: Belohnungen
+      truncated: 'Die ersten {count} Gegenstände werden angezeigt. Kürze den Katalog im Admin-Bereich oder wechsele zu einem anderen Tab, um den Rest anzuzeigen.'
       your_balance: 'Dein Punktekonto'
     submit:
       color_label: 'Akzentfarbe (optional)'
@@ -291,12 +310,14 @@ ramon-point-system:
       image_file_label: Bilddatei
       image_url_help: 'Direkte https://-URL auf ein PNG / GIF / WebP / APNG.'
       image_url_label: Bild-URL
+      intro: 'Entwerfe deine eigene Dekoration. Nach dem Einreichen wird es von einem Administrator geprüft und entweder genehmigt (es erscheint dann im Shop) oder abgelehnt.'
       name_label: Name
       name_placeholder: 'z. B. „Sonnenuntergang“'
       source_file: 'Datei hochladen'
       source_label: Bildquelle
       source_url: 'Bild-URL verwenden'
       title_text_placeholder: 'z. B. „Veteran“'
+      title_with: 'Neuen {family} einreichen'
     trade:
       accept: Annehmen
       add_item: 'Gegenstand hinzufügen'
