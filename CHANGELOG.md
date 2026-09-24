@@ -5,6 +5,11 @@ CHANGELOG
 2.0.22 (XXXX-XX-XX)
 -------------------
 
+**General changes**:
+
+* Updated Flarum core translations (3 changed).
+
+
 **Updated translations for extensions**:
 
 * [`ramon/avocado`](https://github.com/ram0ng1/avocado) (42 added)
