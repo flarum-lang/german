@@ -468,6 +468,11 @@ ramon-avocado:
       title: Suche
     settings:
       notify_bookmark_reminder_label: Lesezeichenerinnerung
+    support:
+      category_label: Ticket-Kategorie
+      category_placeholder: 'Wähle eine Kategorie'
+      new_ticket_heading: 'Neues Ticket'
+      status_changed: 'hat das Ticket markiert als'
     tag_picker:
       remove: 'Tag entfernen'
     tags:

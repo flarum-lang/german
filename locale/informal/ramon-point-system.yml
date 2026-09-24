@@ -263,11 +263,13 @@ ramon-point-system:
       badge_ends_in_days: '{count, plural, one {Endet in # Tag} other {Endet in # Tagen}}'
       badge_ends_in_hours: '{count, plural, one {Endet in # Stunden} other {Endet in # Stunden}}'
       badge_remaining: '{count, plural, one {# übrig} other {# übrig}}'
+      badge_starts_on: 'Verfügbar {date}'
       by_creator: 'von {name}'
       claim: Beanspruchen
       claim_failed: 'Gegenstand konnte nicht beansprucht werden.'
       claimed: '{name} erhalten!'
       creator_tooltip: 'Designed von {name}'
+      empty: 'Derzeit sind keine Gegenstände verfügbar.'
       equip: Ausstatten
       equip_failed: 'Gegenstand konnte nicht ausgestattet werden.'
       equipped: Ausgestattet
@@ -291,6 +293,7 @@ ramon-point-system:
       tier_claim_failed: 'Gruppe konnte nicht beansprucht werden.'
       tier_claimed: Beigetreten
       tier_claimed_alert: '{name} beigetreten!'
+      tier_cost: 'Punkte zum Beitritt'
       tier_locked: Gesperrt
       tier_not_enough: 'Nicht genügend Punkte'
       tiers_empty: 'Noch keine Gruppen verfügbar.'
