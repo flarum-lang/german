@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+2.0.22 (XXXX-XX-XX)
+-------------------
+
+**General changes**:
+
+* Updated Flarum core translations (3 changed).
+
+
+**Updated translations for extensions**:
+
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado) (42 added)
+* [`ramon/point-system`](https://github.com/ram0ng1/point-system) (64 added, 2 changed)
+
+
+All changes: [2.0.21...2.0.22](https://github.com/flarum-lang/german/compare/2.0.21...2.0.22).
+
+
 2.0.21 (2026-09-22)
 -------------------
 
