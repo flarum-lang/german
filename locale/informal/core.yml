@@ -551,7 +551,7 @@ core:
       delete_button: '=> core.ref.delete'
       delete_confirmation: 'Möchtest du die Diskussion wirklich löschen?'
       delete_forever_button: '=> core.ref.delete_forever'
-      log_in_to_reply_button: '=> core.ref.reply'
+      log_in_to_reply_button: 'Anmelden zum Antworten'
       rename_button: '=> core.ref.rename'
       reply_button: '=> core.ref.reply'
       restore_button: '=> core.ref.restore'
@@ -563,7 +563,7 @@ core:
       skip_discussion_list_pane: 'Diskussionslistenabschnitt überspringen'
       started_text: '{username} {ago}'
       total_replies_a11y_label: '{count, plural, one {# Antwort} other {# Antworten}}'
-      unread_replies_a11y_label: '{count, plural, one {# ungelesene Antwort} other {# ungelesene Antworten}}. Markiere ungelesene {count, plural, one {Antwort} other {Antworten}} als gelesen.'
+      unread_replies_a11y_label: '{count, plural, one {# ungelesene Antwort} other {# ungelesene Antworten}}. Ungelesene {count, plural, one {Antwort} other {Antworten}} als gelesen markieren.'
     forgot_password:
       dismiss_button: '=> core.ref.okay'
       email_placeholder: '=> core.ref.email'
