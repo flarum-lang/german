@@ -12,8 +12,8 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
-* [`ramon/avocado`](https://github.com/ram0ng1/avocado) (42 added)
-* [`ramon/point-system`](https://github.com/ram0ng1/point-system) (64 added, 2 changed)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado) (42 added, 100% complete)
+* [`ramon/point-system`](https://github.com/ram0ng1/point-system) (64 added, 2 changed, 57% complete)
 
 
 All changes: [2.0.21...2.0.22](https://github.com/flarum-lang/german/compare/2.0.21...2.0.22).
