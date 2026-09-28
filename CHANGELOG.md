@@ -10,10 +10,17 @@ CHANGELOG
 * Updated Flarum core translations (3 changed).
 
 
+**Added support for new extensions**:
+
+* [`ffans/link-guard`](https://github.com/FFans/link-guard) (100% complete)
+
+
 **Updated translations for extensions**:
 
+* [`linkrobins/countdown-widget`](https://github.com/linkrobins/countdown-widget) (6 added, 100% complete)
 * [`ramon/avocado`](https://github.com/ram0ng1/avocado) (42 added, 100% complete)
 * [`ramon/point-system`](https://github.com/ram0ng1/point-system) (64 added, 2 changed, 57% complete)
+* [`stezkoy/flarum-feed2forum`](https://github.com/Stezkoy/flarum-feed2forum) (2 added, 2 changed, 100% complete)
 
 
 All changes: [2.0.21...2.0.22](https://github.com/flarum-lang/german/compare/2.0.21...2.0.22).
