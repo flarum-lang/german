@@ -8,6 +8,7 @@ stezkoy-feed2forum:
       author_change_tooltip: 'Autor wechseln'
       author_help: 'Diskussionen, die aus Feed-Beiträgen entstehen, werden von diesem Benutzer verfasst.'
       author_label: Autor
+      author_loading_tooltip: 'Autor wird geladen…'
       author_select_button: 'Autor auswählen'
       author_select_title: 'Autor auswählen'
       author_unbind_tooltip: 'Autorenverknüpfung entfernen'
@@ -44,7 +45,7 @@ stezkoy-feed2forum:
       log_level_error: Fehler
       log_level_info: Info
       log_load_error: 'Protokoll konnte nicht geladen werden.'
-      log_more: '100 weitere laden'
+      log_more: 'Mehr laden'
       log_refresh: Aktualisieren
       new_feed_add: 'Feed hinzufügen'
       new_feed_error: 'Feed konnte nicht hinzugefügt werden.'

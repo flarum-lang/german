@@ -5,6 +5,9 @@
 linkrobins-countdown-widget:
   admin:
     settings:
+      description_help: 'Optional. Kleiner Text unterhalb des Titels. Verwende ihn für einen Zeitraum, einen Veranstaltungsort oder sonstige zusätzliche Angaben.'
+      description_label: Beschreibung
+      description_placeholder: 'Los geht es um 9:00 Uhr'
       done_message_help: 'Was soll angezeigt werden, wenn der Countdown bei Null angelangt ist? Wenn das Feld leer bleibt, wird standardmäßig ein Party-Emoji angezeigt.'
       done_message_label: 'Nachricht nach Ablauf'
       done_message_placeholder: '🎉 Wir sind live!'
