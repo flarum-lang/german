@@ -21,6 +21,7 @@ stezkoy-pagify:
       iconReset: Zurücksetzen
       mobileButtonSize: 'Größe der Schaltflächen in Pixeln'
       mobileButtonSize-Help: 'Höhe und Breite der Pager-Schaltflächen auf Handys. Standard ist 22.'
+      mobileButtonSize-Placeholder: 'Standard: 22'
       mobileCompact: 'Mini-Pager in Mobilansicht'
       mobileCompact-Help: 'Auf Handys wird der Pager zum Mini-Pager – nur Pfeile und die aktuelle Position.'
       mobileHideCounter: 'Seitenzähler verbergen'
@@ -35,6 +36,7 @@ stezkoy-pagify:
       pagerAriaLabel: Paginierung
       pagerButtonSize: 'Größe der Schaltflächen in Pixeln'
       pagerButtonSize-Help: 'Höhe und Breite der Pager-Schaltflächen. Standard ist 36.'
+      pagerButtonSize-Placeholder: 'Standard: 36'
       pagerCounter: '„Seite X von Y“ anzeigen'
       pagerCounter-Help: 'Zeige die aktuelle Seite und die Gesamtanzahl unter dem Pager an. Nur im Voll- und Kompaktmodus.'
       pagerJumpFeed: 'Sprungfeld — Beitragsliste'
@@ -54,8 +56,10 @@ stezkoy-pagify:
       pagerPreview-Help: 'Klicke auf ein Symbol in der Vorschau, um es zu ändern. Ein leeres Feld oder die Schaltfläche „Zurücksetzen“ stellt das Standardsymbol wieder her.'
       pagerScrollOffset: 'Scroll-Offset in Pixeln'
       pagerScrollOffset-Help: 'Wie viele Pixel Platz oberhalb der ersten Diskussion oder des ersten Beitrags beim Seitenwechsel bleiben sollen. Ein negativer Wert scrollt weiter nach unten.'
+      pagerScrollOffset-Placeholder: 'Standard: 80'
       pagerWindow: 'Benachbarte Seiten'
       pagerWindow-Help: 'Wie viele Seitenzahlen neben der aktuellen Seite angezeigt werden.'
+      pagerWindow-Placeholder: 'Standard: 3'
       pager_heading: Pager
       pager_mode_compact: Kompakt
       pager_mode_core: Zeile
@@ -64,18 +68,21 @@ stezkoy-pagify:
       paginationPosition: Pagerposition
       perPage: 'Diskussionen je Seite'
       perPage-Help: 'Wie viele Diskussionen je Seite angezeigt werden sollen. Ohne Paginierung wird dadurch die Größe jedes „Mehr laden“-Batches festgelegt.'
+      perPage-Placeholder: 'Standard: 20'
       position:
         above: Oberhalb
         both: 'Beide (Oberhalb und unterhalb)'
         under: Unterhalb
       postListPerPage: 'Beiträge je Seite'
       postListPerPage-Help: 'Wie viele Beiträge je Seite angezeigt werden sollen. Ohne Paginierung wird dadurch die Größe jedes „Mehr laden“-Batches festgelegt.'
+      postListPerPage-Placeholder: 'Standard: 20'
       postListPosition: Pagerposition
       postStreamPosition: Beitrags-Pagerposition
       post_list_heading: 'Beitragsliste auf Benutzerseite'
       post_stream_heading: Beitragsstream
       postsPerPage: 'Beiträge je Seite'
       postsPerPage-Help: 'Wie viele Beiträge je Diskussionsseite angezeigt werden sollen. Hat nur einen Effekt, wenn Paginierung aktiviert ist.'
+      postsPerPage-Placeholder: 'Standard: 20'
       urlPage: 'Paginierung in der Adressleiste'
       urlPage-Help: 'Links, die enden auf ?page=2 öffnen die richtige Seite und die Vor/Zurück-Schaltflächen des Browsers navigieren in Listen.'
   forum:
