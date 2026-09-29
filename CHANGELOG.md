@@ -17,7 +17,9 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye) (4 added, 100% complete)
 * [`linkrobins/countdown-widget`](https://github.com/linkrobins/countdown-widget) (6 added, 100% complete)
+* [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget) (4 added, 2 changed, 100% complete)
 * [`ramon/avocado`](https://github.com/ram0ng1/avocado) (42 added, 100% complete)
 * [`ramon/point-system`](https://github.com/ram0ng1/point-system) (64 added, 2 changed, 57% complete)
 * [`stezkoy/flarum-feed2forum`](https://github.com/Stezkoy/flarum-feed2forum) (2 added, 2 changed, 100% complete)
