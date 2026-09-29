@@ -5,9 +5,11 @@
 linkrobins-html-widget:
   admin:
     settings:
+      allowed_iframe_hosts_help: 'Optional, ein Host pro Zeile. iFrames im Body-Bereich werden nur beibehalten, wenn ihr „src“-Attribut in dieser Liste enthalten ist, z. B. www.youtube.com oder *.vimeo.com für alle Subdomains. Lasse das Feld leer, um alle iFrames zu entfernen. Es sind ausschließlich http- und https-Einbettungen zulässig, was vom Browser durchgesetzt wird. Betrachte diese Einstellung daher eher als Schutz vor Fehlern und nicht als Sicherheitsgrenze.'
+      allowed_iframe_hosts_label: 'Erlaubte Hosts für iFrames'
       background_help: 'Optional. Die Hintergrundfarbe des Widgets. Lasse das Feld leer, um die Farbe deines Designs zu übernehmen.'
       background_label: Hintergrundfarbe
-      body_help: 'Roh-HTML, das vor der Anzeige bereinigt wird – Skript-Tags, Attribute für Ereignisbehandler, „javascript:“-URLs und unsichere Elemente wie iFrames werden entfernt.'
+      body_help: 'Roh-HTML, das vor der Anzeige bereinigt wird – Skript-Tags, Attribute für Ereignisbehandler und „javascript:“-URLs werden entfernt. iFrames werden ebenfalls entfernt, es sei denn, du gibst unten den entsprechenden Host als Ausnahme an.'
       body_label: HTML-Body
       icon_help: 'Die FontAwesome-Klasse, die neben dem Titel angezeigt wird (z. B. fas fa-bullhorn). Für kein Symbol bitte leer lassen.'
       icon_label: Symbolklasse

@@ -63,6 +63,8 @@ linkrobins-birdseye:
       col_views: Aufrufe
       col_visitors: Besucher
       countries: Länder
+      country_lookup_note: 'nicht konfiguriert'
+      country_lookup_unconfigured: 'Es werden keine Besucherländer erfasst, daher bleibt diese Karte leer. Birdseye liest das Land eines Besuchers aus einem vertrauenswürdigen Proxy-Header wie „CF-IPCountry“ aus oder, falls dies nicht möglich ist, aus einer lokalen MaxMind-Länderdatenbank. In diesem Forum ist keines von beiden konfiguriert. Lege die Länderdatenbankdatei in den untenstehenden Einstellungen fest oder verweise den vertrauenswürdigen Länder-Header auf den Wert, den dein Proxy übermittelt. Die Länder werden ab dem nächsten verarbeiteten Tag angezeigt; bereits zusammengefasste Tage können nicht nachträglich ergänzt werden.'
       devices: Geräte
       direct: 'Direkt / unbekannt'
       export: 'Als CSV exportieren'
