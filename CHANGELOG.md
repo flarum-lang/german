@@ -8,6 +8,7 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate) (1 changed, 100% complete)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (6 added, 2 changed, 100% complete)
 
 
 All changes: [1.25.31...1.25.32](https://github.com/flarum-lang/german/compare/1.25.31...1.25.32).
