@@ -4,6 +4,7 @@
 
 stezkoy-feed2forum:
   admin:
+    author_missing: 'Es ist kein Veröffentlichungsbenutzer konfiguriert. Wähle in den allgemeinen Einstellungen einen Autor aus.'
     settings:
       author_change_tooltip: 'Autor wechseln'
       author_help: 'Diskussionen, die aus Feed-Beiträgen entstehen, werden von diesem Benutzer verfasst.'
@@ -14,6 +15,15 @@ stezkoy-feed2forum:
       author_unbind_tooltip: 'Autorenverknüpfung entfernen'
       check_all: 'Alle Feeds jetzt prüfen'
       check_all_success: 'Abruf-Jobs wurden in die Warteschlange eingereiht.'
+      edit_content_help: 'Dies ist der Text, der in der Diskussion veröffentlicht wird – Du kannst ihn nach Belieben bearbeiten. Der Link zum Originalartikel oben wird automatisch hinzugefügt, wenn die Einstellung „Links zu Originalartikeln hinzufügen“ aktiviert ist; er ist ein normaler Bestandteil des Beitrags, sodass du ihn entfernen oder umformulieren kannst. Mit „Auf Original zurücksetzen“ werden deine Änderungen verworfen und die Feed-Version unverändert veröffentlicht.'
+      edit_content_label: Artikelinhalt
+      edit_error: 'Bearbeitungen konnten nicht gespeichert werden.'
+      edit_heading: 'Artikel in der Warteschlange bearbeiten'
+      edit_load_error: 'Eintrag konnte nicht geladen werden.'
+      edit_reset: 'Auf Original zurücksetzen'
+      edit_save: Speichern
+      edit_saved: 'Bearbeitungen gespeichert.'
+      edit_title_label: Titel
       feed_delete_error: 'Feed konnte nicht gelöscht werden.'
       feed_update_error: 'Feed konnte nicht gespeichert werden.'
       feeds_delete_confirmation: 'Diesen Feed löschen? Importierte Einträge bleiben erhalten, der Feed selbst und seine ausstehenden Einträge werden jedoch entfernt.'
@@ -30,6 +40,7 @@ stezkoy-feed2forum:
       fetch_error: 'Feed-Abruf konnte nicht ausgelöst werden.'
       fetch_interval_help: 'Feeds alle N Minuten überprüfen (Standard: 60).'
       fetch_interval_label: 'Überprüfungshäufigkeit (Minuten)'
+      fetch_success: 'Für diesen Feed wurde ein Abrufauftrag in die Warteschlange eingereiht.'
       fetch_tooltip: 'Diesen Feed jetzt abrufen'
       general_heading: 'Allgemeine Einstellungen'
       general_help: 'Globale Einstellungen, die auf alle Feeds angewendet werden.'
@@ -55,6 +66,7 @@ stezkoy-feed2forum:
       preview_close: Schließen
       preview_empty: 'Der Feed hat noch keine Artikel.'
       preview_error: 'Feedvorschau konnte nicht geladen werden.'
+      preview_fetch_failed: 'Der Feed konnte nicht gelesen werden. Überprüfe die URL und versuche es erneut; Einzelheiten findest du im Systemprotokoll.'
       preview_title: '{title} — Vorschau'
       preview_tooltip: Vorschau
       publish_mode_auto: Sofort
@@ -67,6 +79,8 @@ stezkoy-feed2forum:
       queue_delete_confirmation: 'Diesen Eintrag überspringen, ohne ihn zu veröffentlichen? Er wird nie wieder in der Warteschlange erscheinen und nicht erneut aus dem Feed importiert.'
       queue_delete_error: 'Artikel konnte nicht gelöscht werden.'
       queue_delete_tooltip: 'Artikel überspringen'
+      queue_edit_tooltip: 'Vor der Veröffentlichung bearbeiten'
+      queue_edited_badge: Bearbeitet
       queue_empty: 'Keine Einträge warten auf Genehmigung.'
       queue_heading: Genehmigungswarteschlange
       queue_heading_actions: Aktionen
@@ -81,8 +95,10 @@ stezkoy-feed2forum:
       queue_queued: 'Der Beitrag wurde in die Veröffentlichungswarteschlange aufgenommen. Die Diskussion wird angezeigt, sobald der Warteschlangen-Mitarbeiter den Beitrag bearbeitet hat.'
       queue_restored_badge: 'Früher gelöscht'
       show_source_link_help: 'Wenn aktiviert, wird am Anfang jeder Diskussion ein Link zum Originalartikel eingefügt.'
-      show_source_link_label: 'Links zu den Originalartikeln hinzufügen'
+      show_source_link_label: 'Links zu Originalartikeln hinzufügen'
       tag_none: 'Kein Tag'
       tag_select_title: 'Tag wählen'
+      use_article_date_help: 'Wenn aktiviert, werden importierte Diskussionen mit dem Veröffentlichungsdatum des Artikels aus dem Feed datiert. Ist es deaktiviert, werden sie mit dem Zeitpunkt ihrer Freigabe oder Veröffentlichung datiert – neu veröffentlichte Diskussionen erscheinen dann ganz oben im Forum.'
+      use_article_date_label: 'Verwende das RSS-Datum des Artikels'
   forum:
     original_article_link: Originalartikel

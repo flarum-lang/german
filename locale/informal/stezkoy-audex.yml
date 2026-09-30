@@ -9,12 +9,14 @@ stezkoy-audex:
     delete_button: Löschen
     edit_button: Bearbeiten
     empty: 'Es sind noch keine Skriptblöcke vorhanden. Klicke auf „Block hinzufügen“, um einen zu erstellen.'
+    enabled_switch: Aktiviert
     heading: Audex
     help_block: 'Mit Audex kannst du Skriptblöcke verwalten – Werbung, Analyse-Skripte, Widgets, beliebige HTML-/JS-Inhalte. Jeder Block wird auf dem Server in die Seite eingefügt und für ausgeschlossene Nutzer und Gruppenmitglieder vollständig weggelassen, sodass der Code in deren Browser gar nicht erst geladen wird.'
     modal_title_create: 'Skriptblock hinzufügen'
     modal_title_edit: 'Skriptblock bearbeiten'
     move_down: 'Nach unten'
     move_up: 'Nach oben'
+    name_help: 'Eine kurze interne Beschreibung. Spitzenklammern und Doppelstriche sind nicht zulässig.'
     name_label: Blockname
     name_placeholder: 'z. B. AdSense-Header'
     save_button: Speichern
