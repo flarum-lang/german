@@ -5,11 +5,22 @@
 stezkoy-audex:
   admin:
     add_button: 'Block hinzufügen'
+    badge_body_help: 'Der Code wird serverseitig vor dem schließenden „body“-Tag eingefügt.'
+    badge_head_help: 'Der Code wird serverseitig in den Kopfbereich der Seite eingefügt.'
+    badge_widget_off: 'widget — aus'
+    badge_widget_off_help: '„forum-widgets-core“ ist deaktiviert – dieser Block wird nirgendwo angezeigt, bis es wieder aktiviert wird.'
     cancel_button: Abbrechen
+    code_label: Skriptcode
     delete_button: Löschen
     edit_button: Bearbeiten
     empty: 'Es sind noch keine Skriptblöcke vorhanden. Klicke auf „Block hinzufügen“, um einen zu erstellen.'
     enabled_switch: Aktiviert
+    enabled_switch_help: 'Schalte diesen Block ein oder aus.'
+    exclusions_section: Ausnahmen
+    exclusions_section_help: 'Die hier aufgeführten Benutzer und die Mitglieder der ausgewählten Gruppen erhalten überhaupt keine Skripte. Ausnahmen gelten niemals für Gäste.'
+    groups_empty: 'Keine Gruppen verfügbar.'
+    groups_help: 'Mitglieder dieser Gruppen erhalten keine Skripte.'
+    groups_label: 'Ausgenommene Gruppen'
     heading: Audex
     help_block: 'Mit Audex kannst du Skriptblöcke verwalten – Werbung, Analyse-Skripte, Widgets, beliebige HTML-/JS-Inhalte. Jeder Block wird auf dem Server in die Seite eingefügt und für ausgeschlossene Nutzer und Gruppenmitglieder vollständig weggelassen, sodass der Code in deren Browser gar nicht erst geladen wird.'
     modal_title_create: 'Skriptblock hinzufügen'
@@ -19,7 +30,17 @@ stezkoy-audex:
     name_help: 'Eine kurze interne Beschreibung. Spitzenklammern und Doppelstriche sind nicht zulässig.'
     name_label: Blockname
     name_placeholder: 'z. B. AdSense-Header'
+    position_foot: 'Ende des Hauptteils'
+    position_head: Seitenkopf
+    position_help: 'Kopf – innerhalb des Kopfbereichs der Seite. Ende – vor dem schließenden Body-Tag. widget – wird vom Widget „forum-widgets-core“ gerendert; dessen Zone wird im Widget-Editor konfiguriert.'
+    position_label: Platzierung
+    position_widget: 'Widget (forum-widgets-core)'
     save_button: Speichern
+    saved: 'Einstellungen gespeichert.'
     scripts_section: Scriptblöcke
     scripts_section_help: 'Füge den gesamten Codeausschnitt genau so ein, wie er angegeben ist, einschließlich der Skript-Tags. Mit „head“ gekennzeichnete Blöcke werden im Kopfbereich der Seite platziert; mit „foot“ gekennzeichnete Blöcke werden vor dem schließenden Body-Tag platziert.'
     section_counter: '{enabled} von {total} aktiviert'
+    users_add_button: 'Benutzer hinzufügen'
+    users_empty: 'Keine ausgenommenen Benutzer.'
+    users_label: 'Ausgenommene Benutzer'
+    users_selected: 'Ausgewählt: {count}'
