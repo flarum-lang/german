@@ -19,6 +19,7 @@ ffans-community-notes:
       detail_separator: '; '
     list:
       hidden_heading_a11y_label: 'Verborgene Anmerkungen'
+      latest_heading_a11y_label: 'Beiträge ohne veröffentlichte kollektive Anmerkungen'
       load_more_button: 'Mehr laden'
       moderation_permission_denied: '=> ffans-community-notes.ref.moderation_permission_denied'
       other_notes: '{count, plural, one {# weitere Anmerkung} other {# weitere Anmerkungen}}'
@@ -34,10 +35,12 @@ ffans-community-notes:
       retry_button: '=> ffans-community-notes.ref.retry'
       title: '=> ffans-community-notes.ref.moderate_note'
     navigation:
+      description: 'Füge Quellen und Hintergrundinformationen hinzu, damit die Community entscheiden kann, welche Informationen hilfreich sind.'
       helpful_button: '=> ffans-community-notes.ref.helpful'
       hidden_button: '=> ffans-community-notes.ref.hidden'
       latest_button: Neu
       list_a11y_label: 'Liste der Anmerkungen'
+      refresh_a11y_label: 'Liste der Anmerkungen aktualisieren'
       title: '=> ffans-community-notes.ref.community_notes'
     note:
       drafted_by: 'Geschrieben von {author}'
