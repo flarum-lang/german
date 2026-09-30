@@ -13,7 +13,7 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`ffans/link-guard`](https://github.com/FFans/link-guard) (100% complete)
-* [`stezkoy/flarum-audex`](https://github.com/Stezkoy/flarum-audex) (32% complete)
+* [`stezkoy/flarum-audex`](https://github.com/Stezkoy/flarum-audex) (67% complete)
 
 
 **Updated translations for extensions**:
