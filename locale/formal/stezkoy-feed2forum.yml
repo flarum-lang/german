@@ -95,7 +95,7 @@ stezkoy-feed2forum:
       queue_queued: 'Der Beitrag wurde in die Veröffentlichungswarteschlange aufgenommen. Die Diskussion wird angezeigt, sobald der Warteschlangen-Mitarbeiter den Beitrag bearbeitet hat.'
       queue_restored_badge: 'Früher gelöscht'
       show_source_link_help: 'Wenn aktiviert, wird am Anfang jeder Diskussion ein Link zum Originalartikel eingefügt.'
-      show_source_link_label: 'Links zu den Originalartikeln hinzufügen'
+      show_source_link_label: 'Links zu Originalartikeln hinzufügen'
       tag_none: 'Kein Tag'
       tag_select_title: 'Tag wählen'
       use_article_date_help: 'Wenn aktiviert, werden importierte Diskussionen mit dem Veröffentlichungsdatum des Artikels aus dem Feed datiert. Ist es deaktiviert, werden sie mit dem Zeitpunkt ihrer Freigabe oder Veröffentlichung datiert – neu veröffentlichte Diskussionen erscheinen dann ganz oben im Forum.'

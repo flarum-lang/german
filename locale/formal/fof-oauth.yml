@@ -56,7 +56,7 @@ fof-oauth:
           api_key_label: API-Schlüssel
           api_secret_label: API-Secret
           description: 'Erstelle eine Applikation unter {link}. Du musst eine Nutzungsbedingungen-, sowie eine Datenschutzrichtlinien-URL festlegen. Weise dann die "E-Mail anfordern" Berechtigung deiner Applikation zu.'
-      update_email_from_provider_help: 'Wenn diese Option aktiviert ist, wird die E-Mail-Adresse des Nutzers bei jeder Anmeldung im Forum aktualisiert, damit sie mit der vom OAuth-Anbieter angegebenen Adresse übereinstimmt. Nicht alle Anbieter stellen die aktualisierte E-Mail-Adresse zur Verfügung. In diesem Fall hat diese Einstellung bei diesen Anbietern keine Auswirkungen.'
+      update_email_from_provider_help: 'Wenn aktiviert, wird bei der Anmeldung über einen OAuth-Anbieter, dessen verifizierte E-Mail-Adresse von der im Forum hinterlegten E-Mail-Adresse des Benutzers abweicht, ein Bestätigungslink an die neue Adresse gesendet und eine Benachrichtigung an die aktuelle Adresse. Die E-Mail-Adresse wird erst geändert sich, sobald der Link angeklickt wird. Anbieter, die die Verifizierung der Adresse nicht bestätigen können – darunter auch Drittanbieter, die noch nicht entsprechend aktualisiert wurden –, ändern die E-Mail-Adresse nicht.'
       update_email_from_provider_label: 'E-Mail Adresse vom Anbieter aktualisieren'
     settings_accessibility_label: '{name}-Einstellungen'
   email:
