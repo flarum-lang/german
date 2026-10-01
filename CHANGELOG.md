@@ -19,8 +19,11 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`acpl/my-tags`](https://github.com/android-com-pl/my-tags) (3 changed, 100% complete)
+* [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links) (1 changed, 100% complete)
 * [`flarum/pusher`](https://github.com/flarum/pusher) (1 changed, 100% complete)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (6 added, 4 changed, 100% complete)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request) (8 changed, 100% complete)
 * [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye) (4 added, 100% complete)
 * [`linkrobins/countdown-widget`](https://github.com/linkrobins/countdown-widget) (6 added, 100% complete)
 * [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget) (4 added, 2 changed, 100% complete)
