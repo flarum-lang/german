@@ -25,7 +25,7 @@ CHANGELOG
 * [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget) (4 added, 2 changed, 100% complete)
 * [`ramon/avocado`](https://github.com/ram0ng1/avocado) (42 added, 100% complete)
 * [`ramon/point-system`](https://github.com/ram0ng1/point-system) (64 added, 2 changed, 57% complete)
-* [`stezkoy/flarum-feed2forum`](https://github.com/Stezkoy/flarum-feed2forum) (34 added, 4 changed, 100% complete)
+* [`stezkoy/flarum-feed2forum`](https://github.com/Stezkoy/flarum-feed2forum) (34 added, 4 changed, 90% complete)
 * [`stezkoy/flarum-pagify`](https://github.com/Stezkoy/flarum-pagify) (14 added, 100% complete)
 
 
