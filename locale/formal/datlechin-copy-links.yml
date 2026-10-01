@@ -5,4 +5,4 @@
 datlechin-copy-links:
   forum:
     copy_link_button: 'Link kopieren'
-    link_copied_message: 'Link in der Zwischenablage gespeichert!'
+    link_copied_message: 'Link in Zwischenablage gespeichert!'
