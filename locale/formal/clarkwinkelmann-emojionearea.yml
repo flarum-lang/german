@@ -8,7 +8,7 @@ clarkwinkelmann-emojionearea:
       closeOnPick: 'Feld nach Emoji-Auswahl schließen'
       enableRecent: 'Kürzlich verwendete aktivieren'
       enableSearch: 'Suche aktivieren'
-      enableTones: 'Farbtöne aktivieren'
+      enableTones: 'Hauttöne aktivieren'
       filtersPosition: 'Kategorien nach unten verschieben'
       hideFlarumButton: 'Flarums Emoji-Auswahltaste ausblenden'
       searchPosition: 'Suche und Farbtöne nach unten verschieben'

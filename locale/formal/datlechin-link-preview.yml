@@ -6,20 +6,20 @@ datlechin-link-preview:
   admin:
     settings:
       blacklist_help: 'Geben Sie eine kommagetrennte Liste von Domains oder URLs ein, die von der Linkvorschau ausgeschlossen werden sollen.'
-      blacklist_label: Blacklist
+      blacklist_label: 'Sperrliste für Domains'
       blacklist_placeholder: 'z.B. facebook.com,https://domain.com/path'
       cache_time_help: 'Anzahl der Minuten, die gecrawlte Links zwischengespeichert werden, bevor sie erneut aufgerufen werden. Mit dem Wert 0 wird das Link-Caching deaktiviert. Der Standardwert ist 60 Minuten, wenn er nicht gesetzt ist.'
-      cache_time_label: 'Dauer des Zwischenspeicherns'
-      convert_media_urls_help: 'Wenn aktiviert, werden alle Medien-URLs in eine Linkvorschau umgewandelt.'
-      convert_media_urls_label: 'Medien-URLs umwandeln'
+      cache_time_label: 'Speicherdauer im Cache (Minuten)'
+      convert_media_urls_help: 'Vorschauen für URLs erzeugen, die auf Mediendateien (Bilder, Videos usw.) verweisen.'
+      convert_media_urls_label: 'URLs für Medienvorschauen'
       enable_batch_requests_help: 'Die Leistung verbessern, indem mehrere Link-Vorschauen gleichzeitig verarbeitet werden. Wenn deaktiviert, werden Links nacheinander verarbeitet.'
       enable_batch_requests_label: 'Stapelverarbeitung einschalten'
-      open_links_in_new_tab_help: 'Wenn aktiviert, werden die Links in einem neuen Tab geöffnet.'
-      open_links_in_new_tab_label: 'Links in einem neuen Tab öffnen'
-      use_google_favicons_help: 'Wenn aktiviert, wird ein Google-Dienst im Frontend verwendet, um das Favicon der jeweiligen Webseite abzurufen.'
-      use_google_favicons_label: 'Google Favicon-API verwenden'
-      whitelist_help: 'Geben Sie eine kommagetrennte Liste von Domains oder URLs ein, die eine Linkvorschau ermöglichen sollen.'
-      whitelist_label: Whitelist
+      open_links_in_new_tab_help: 'Alle Vorschau-Links standardmäßig in einem neuen Tab öffnen.'
+      open_links_in_new_tab_label: 'Links in einem neuen Browser-Tab öffnen'
+      use_google_favicons_help: 'Website-Favicons über den Google-Favicon-Dienst anzeigen, um die visuelle Erkennung zu verbessern.'
+      use_google_favicons_label: 'Icons der Websites anzeigen'
+      whitelist_help: 'Vorschauen nur für die angegebenen Domains oder URLs erstellen. Feld leer lassen, um alle Domains, die nicht auf der Sperrliste stehen, zuzulassen.'
+      whitelist_label: 'Freigabeliste für Domains'
       whitelist_placeholder: 'z.B. facebook.com,https://domain.com/pfad'
   forum:
     site_cannot_be_reached: 'Diese Webseite ist nicht erreichbar.'
