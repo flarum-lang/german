@@ -12,7 +12,7 @@ CHANGELOG
 
 **Added support for new extensions**:
 
-* [`ffans/community-notes`](https://github.com/FFans/community-notes) (33% complete)
+* [`ffans/community-notes`](https://github.com/FFans/community-notes) (41% complete)
 * [`ffans/link-guard`](https://github.com/FFans/link-guard) (100% complete)
 * [`stezkoy/flarum-audex`](https://github.com/Stezkoy/flarum-audex) (67% complete)
 
