@@ -13,7 +13,7 @@ fof-oauth:
         log-oauth-errors-help: 'Sofern aktiviert, werden OAuth-Fehler im Flarum log erfasst. Dies kann beim Debuggen von OAuth-Problemen hilfreich sein, beinhaltet aber möglicherweise sensible Informationen.'
         log-oauth-errors-label: 'OAuth-Fehler protokollieren'
       disable_avatars_help: "Sofern aktiviert, werden Nutzer-Avatare bei der Anmeldung nicht mit den Avataren dieses Anbieter aktualisiert. Dies betrifft nur zukünftige Anmeldungen und wird nicht die Avatare von vorhandenen Nutzern ändern.\n"
-      disable_avatars_label: 'Avatare dieses Anbieters deaktivieren'
+      disable_avatars_label: 'Avatarübernahme vom Anbieter deaktivieren'
       fullscreen_popup_help: 'Sofern aktiviert, wird das OAuth-Anmeldefenster im Vollbild geöffnet. Wenn es aktiviert ist, werden die Einstellungen für Breite und Höhe ignoriert.'
       fullscreen_popup_label: 'OAuth-Popup im Vollbild öffnen'
       only_icons_label: 'Nur die Symbole ohne Text auf den Einloggen-Buttons (alternatives Layout) anzeigen'
