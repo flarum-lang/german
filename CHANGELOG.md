@@ -19,7 +19,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
-* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (6 added, 2 changed, 100% complete)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (6 added, 4 changed, 100% complete)
 * [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye) (4 added, 100% complete)
 * [`linkrobins/countdown-widget`](https://github.com/linkrobins/countdown-widget) (6 added, 100% complete)
 * [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget) (4 added, 2 changed, 100% complete)
