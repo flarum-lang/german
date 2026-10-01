@@ -7,7 +7,7 @@ CHANGELOG
 
 **General changes**:
 
-* Updated Flarum core translations (3 changed).
+* Updated Flarum core translations (4 changed).
 
 
 **Added support for new extensions**:
@@ -19,10 +19,12 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`flarum/pusher`](https://github.com/flarum/pusher) (1 changed, 100% complete)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (6 added, 4 changed, 100% complete)
 * [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye) (4 added, 100% complete)
 * [`linkrobins/countdown-widget`](https://github.com/linkrobins/countdown-widget) (6 added, 100% complete)
 * [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget) (4 added, 2 changed, 100% complete)
+* [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha) (2 changed, 100% complete)
 * [`ramon/avocado`](https://github.com/ram0ng1/avocado) (42 added, 100% complete)
 * [`ramon/point-system`](https://github.com/ram0ng1/point-system) (64 added, 2 changed, 57% complete)
 * [`stezkoy/flarum-feed2forum`](https://github.com/Stezkoy/flarum-feed2forum) (54 added, 4 changed, 100% complete)
