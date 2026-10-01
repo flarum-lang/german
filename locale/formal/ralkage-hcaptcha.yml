@@ -7,8 +7,8 @@ ralkage-hcaptcha:
     permissions:
       post_without_hcaptcha: 'Beiträge und Diskussionen ohne hCaptcha erstellen'
     settings:
-      dark_mode_help: 'Verwende das dunkle Design für das hCaptcha-Widget. Aktiviere diese Option, wenn dein Forum ein dunkles Design verwendet.'
-      dark_mode_label: 'Dunkler Modus'
+      dark_mode_help: 'Verwende das dunkle Design für das hCaptcha-Widget. Aktivieren Sie diese Option, wenn Ihr Forum ein dunkles Design verwendet.'
+      dark_mode_label: 'Dunkles Design'
       enable_login_help: 'Bei der Anmeldung der Benutzer hCaptcha anfordern. Dies trägt zum Schutz vor Brute-Force-Angriffen bei.'
       enable_login_label: 'Bei der Anmeldung erforderlich'
       help_text: 'Erhalte Deine hCaptcha-Anmeldeinformationen <a>hier</a>.'
