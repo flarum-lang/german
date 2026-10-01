@@ -9,7 +9,12 @@ ffans-community-notes:
       moderate: '=> ffans-community-notes.ref.moderate_note'
       rate: '=> ffans-community-notes.ref.rate_note'
     settings:
+      helpful_threshold_help: 'Eine Notiz wird als „hilfreich“ bewertet, wenn ihre Bewertung diesen Prozentsatz erreicht. Sie muss über dem Schwellenwert für „nicht hilfreich“ liegen.'
+      helpful_threshold_label: 'Schwellenwert für hilfreiche Anmerkungen (%)'
+      min_ratings_help: 'Eine Anmerkung muss so viele Bewertungen erhalten haben, bevor sie als „hilfreich“ oder „nicht hilfreich“ bewertet werden kann. Gib einen Wert zwischen 1 und 100 ein.'
       min_ratings_label: 'Mindestanzahl an Bewertungen'
+      not_helpful_threshold_help: 'Eine Notiz wird als „nicht hilfreich“ bewertet, wenn ihre Bewertung bei diesem Prozentsatz oder darunter liegt. Sie muss unter dem Schwellenwert für „hilfreich“ liegen.'
+      not_helpful_threshold_label: 'Schwellenwert für nicht hilfreiche Anmerkungen (%)'
   forum:
     editor:
       create_title: '=> ffans-community-notes.ref.add_note'
@@ -19,6 +24,8 @@ ffans-community-notes:
       detail_separator: '; '
     list:
       helpful_a11y_label: 'Beiträge mit hilfreichen Anmerkungen'
+      helpful_description: 'Die Anmerkungen zu diesen Beiträgen wurden als hilfreich bewertet und bieten den Lesern zusätzliche Hintergrundinformationen.'
+      helpful_empty: 'Bisher wurde noch keine Anmerkung als hilfreich bewertet.'
       helpful_heading_a11y_label: 'Anmerkungen, die die Community als hilfreich bewertet hat'
       hidden_heading_a11y_label: 'Verborgene Anmerkungen'
       latest_a11y_label: 'Beiträge mit den neuesten Anmerkungen'
@@ -85,5 +92,14 @@ ffans-community-notes:
       not_helpful: '=> ffans-community-notes.ref.not_helpful'
       unknown: Unbekannt
   ref:
+    add_note: 'Kollektive Anmerkung hinzufügen'
     cancel: Abbrechen
+    community_notes: 'Kollektive Anmerkungen'
+    helpful: Hilfreich
+    hidden: Verborgen
     manage_notes: '=> ffans-community-notes.ref.moderate_note'
+    moderate_note: 'Kollektive Anmerkungen verwalten'
+    not_helpful: 'Nicht hilfreich'
+    rate_note: 'Kollektive Anmerkungen bewerten'
+    retry: 'Erneut versuchen'
+    view_all_notes: 'Alle Anmerkungen für diesen Beitrag anzeigen'
