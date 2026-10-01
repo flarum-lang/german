@@ -64,6 +64,8 @@ huseyinfiliz-awards:
       select_category: 'Kategorie auswählen'
       title: 'Nominierte verwalten'
       vote_adjustment_title: Stimmenanpassung
+      website_url: 'Website- / Link-URL'
+      website_url_help: 'Externe URL für diesen Nominierten (muss mit http:// oder https:// beginnen)'
     permissions:
       manage: 'Auszeichnungen verwalten'
       view: 'Auszeichnungen ansehen'
@@ -112,6 +114,7 @@ huseyinfiliz-awards:
       no_categories: 'In dieser Auszeichnung gibt es noch keine Kategorien.'
       no_nominees: 'In dieser Kategorie gibt es noch keine Kandidaten.'
     error:
+      already_voted: 'Du hast bereits für diesen Nominierten gestimmt.'
       cannot_delete_processed_suggestion: 'Es können nur ausstehende Vorschläge storniert werden.'
       not_available: 'Diese Auszeichnung ist noch nicht verfügbar.'
       other_not_allowed: 'In dieser Kategorie werden keine Vorschläge angenommen.'
@@ -142,6 +145,8 @@ huseyinfiliz-awards:
       all_categories: 'Alle Kategorien'
       categories: Kategorien
       title: Auszeichnungen
+    nominee:
+      open_link: 'Link in neuem Tab öffnen'
     notification:
       results_published: 'Die Ergebnisse für {awardName} wurden veröffentlicht!'
     other:

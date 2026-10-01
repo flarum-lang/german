@@ -27,6 +27,9 @@ ffans-community-notes:
       helpful_description: 'Die Anmerkungen zu diesen Beiträgen wurden als hilfreich bewertet und bieten den Lesern zusätzliche Hintergrundinformationen.'
       helpful_empty: 'Bisher wurde noch keine Anmerkung als hilfreich bewertet.'
       helpful_heading_a11y_label: 'Anmerkungen, die die Community als hilfreich bewertet hat'
+      hidden_a11y_label: 'Liste der ausgeblendeten Anmerkungen'
+      hidden_description: 'Diese Anmerkungen sind ausgeblendet und werden nicht öffentlich angezeigt. Du kannst sie im Bereich „Informationen zur Anmerkung“ wiederherstellen oder endgültig löschen.'
+      hidden_empty: 'Es gibt gerade keine ausgeblendeten Anmerkungen.'
       hidden_heading_a11y_label: 'Verborgene Anmerkungen'
       latest_a11y_label: 'Beiträge mit den neuesten Anmerkungen'
       latest_description: 'Anmerkungen zu diesen Beiträgen werden noch nicht öffentlich angezeigt, wobei die neuesten Anmerkungen an erster Stelle stehen. Bewerte sie, um der Community dabei zu helfen, zu entscheiden, welche Informationen nützlich sind.'
@@ -35,6 +38,7 @@ ffans-community-notes:
       load_more_button: 'Mehr laden'
       moderation_permission_denied: '=> ffans-community-notes.ref.moderation_permission_denied'
       other_notes: '{count, plural, one {# weitere Anmerkung} other {# weitere Anmerkungen}}'
+      rating_permission_denied: 'Du hast keine Berechtigung, kollektive Anmerkungen zu bewerten.'
       retry_button: '=> ffans-community-notes.ref.retry'
       view_all_button: '=> ffans-community-notes.ref.view_all_notes'
     moderation:
@@ -55,20 +59,33 @@ ffans-community-notes:
       refresh_a11y_label: 'Liste der Anmerkungen aktualisieren'
       title: '=> ffans-community-notes.ref.community_notes'
     note:
+      a11y_label: 'Details zur kollektiven Anmerkunge'
+      deleted_user: 'Gelöschter Benutzer'
       drafted_by: 'Geschrieben von {author}'
       hidden: '=> ffans-community-notes.ref.hidden'
       manage_a11y_label: '=> ffans-community-notes.ref.manage_notes'
+      not_public: 'Wird nicht öffentlich angezeigt'
+      public: 'Wird öffentlich mit dem Originalbeitrag angezeigt'
+      rated_as: 'Aktuell bewertet <status></status>'
       reason: 'Begründung: {reason}'
     post:
+      back_a11y_label: 'Zurück zur Liste der kollektiven Anmerkungen'
+      description: 'Entscheide anhand des Originalbeitrags und der Quellen, ob diese zusätzlichen Informationen hilfreich sind.'
+      load_more_button: 'Mehr Anmerkungen laden'
       modal_title: '=> ffans-community-notes.ref.view_all_notes'
+      notes_a11y_label: 'Alle Anmerkungen für diesen Beitrag'
+      notes_title: 'Kollektive Anmerkungen für diesen Beitrag'
       page_title: '=> ffans-community-notes.ref.rate_note'
       retry_button: '=> ffans-community-notes.ref.retry'
+      title: Anmerkungsdetails
     post_controls:
       add_button: '=> ffans-community-notes.ref.add_note'
       manage_button: '=> ffans-community-notes.ref.manage_notes'
       view_mine_button: 'Meine kollektive Anmerkung anzeigen'
     post_link:
+      a11y_label: 'Originalbeitrag anzeigen: {title}'
       number: '#{number}'
+      with_number_a11y_label: 'Originalbeitrag anzeigen: {title}, Beitrag #{number}'
     public_note:
       a11y_label: '=> ffans-community-notes.ref.community_notes'
     rating:
@@ -87,8 +104,10 @@ ffans-community-notes:
         somewhat_helpful: 'Etwas hilfreich'
     sources:
       a11y_label: Quellen
+      open_in_new_window_a11y_label: '(wird in einem neuen Fenster geöffnet)'
     status:
       helpful: '=> ffans-community-notes.ref.helpful'
+      needs_more_ratings: 'Benötigt weitere Bewertungen'
       not_helpful: '=> ffans-community-notes.ref.not_helpful'
       unknown: Unbekannt
   ref:
