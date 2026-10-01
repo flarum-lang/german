@@ -18,7 +18,11 @@ ffans-community-notes:
   forum:
     editor:
       create_title: '=> ffans-community-notes.ref.add_note'
+      create_unavailable: 'Du kannst momentan keine kollektive Anmerkung hinzufügen.'
       delete_button: 'Anmerkung löschen'
+      edit_title: 'Meine kollektive Anmerkung'
+      edit_unavailable: 'Du kannst momentan keine Anmerkung bearbeiten oder entfernen.'
+      help: 'Füge nachprüfbare Hintergründe und Quellen hinzu und vermeide dabei Antworten oder Auseinandersetzungen. Nach dem Absenden wird deine Anmerkung von der Community bewertet.'
       save_button: 'Änderungen speichern'
     errors:
       detail_separator: '; '
@@ -88,6 +92,7 @@ ffans-community-notes:
       with_number_a11y_label: 'Originalbeitrag anzeigen: {title}, Beitrag #{number}'
     public_note:
       a11y_label: '=> ffans-community-notes.ref.community_notes'
+      title: 'Die Community fand diese Anmerkung hilfreich'
     rating:
       button: 'Findest du das hilfreich?'
       cancel_button: '=> ffans-community-notes.ref.cancel'
