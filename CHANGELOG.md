@@ -12,7 +12,7 @@ CHANGELOG
 
 **Added support for new extensions**:
 
-* [`ffans/community-notes`](https://github.com/FFans/community-notes) (41% complete)
+* [`ffans/community-notes`](https://github.com/FFans/community-notes) (51% complete)
 * [`ffans/link-guard`](https://github.com/FFans/link-guard) (100% complete)
 * [`stezkoy/flarum-audex`](https://github.com/Stezkoy/flarum-audex) (67% complete)
 
@@ -24,6 +24,7 @@ CHANGELOG
 * [`flarum/pusher`](https://github.com/flarum/pusher) (1 changed, 100% complete)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (6 added, 4 changed, 100% complete)
 * [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request) (8 changed, 100% complete)
+* [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards) (8 added, 100% complete)
 * [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye) (4 added, 100% complete)
 * [`linkrobins/countdown-widget`](https://github.com/linkrobins/countdown-widget) (6 added, 100% complete)
 * [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget) (4 added, 2 changed, 100% complete)
