@@ -18,7 +18,12 @@ ffans-community-notes:
     errors:
       detail_separator: '; '
     list:
+      helpful_a11y_label: 'Beiträge mit hilfreichen Anmerkungen'
+      helpful_heading_a11y_label: 'Anmerkungen, die die Community als hilfreich bewertet hat'
       hidden_heading_a11y_label: 'Verborgene Anmerkungen'
+      latest_a11y_label: 'Beiträge mit den neuesten Anmerkungen'
+      latest_description: 'Anmerkungen zu diesen Beiträgen werden noch nicht öffentlich angezeigt, wobei die neuesten Anmerkungen an erster Stelle stehen. Bewerte sie, um der Community dabei zu helfen, zu entscheiden, welche Informationen nützlich sind.'
+      latest_empty: 'Es gibt noch keine Beiträge mit Anmerkungen, die ihrer öffentlichen Freigabe harren.'
       latest_heading_a11y_label: 'Beiträge ohne veröffentlichte kollektive Anmerkungen'
       load_more_button: 'Mehr laden'
       moderation_permission_denied: '=> ffans-community-notes.ref.moderation_permission_denied'
@@ -60,12 +65,19 @@ ffans-community-notes:
     public_note:
       a11y_label: '=> ffans-community-notes.ref.community_notes'
     rating:
+      button: 'Findest du das hilfreich?'
       cancel_button: '=> ffans-community-notes.ref.cancel'
+      question: 'Ist diese Anmerkung hilfreich?'
       retry_button: '=> ffans-community-notes.ref.retry'
+      summaries:
+        helpful: 'Du hast diese Anmerkung als <b>hilfreich</b> bewertet'
+        not_helpful: 'Du hast diese Anmerkung als <b>nicht hilfreich</b> bewertet'
+        somewhat_helpful: 'Du hast diese Anmerkung als <b>etwas hilfreich</b> bewertet'
       title: '=> ffans-community-notes.ref.rate_note'
       values:
         helpful: '=> ffans-community-notes.ref.helpful'
         not_helpful: '=> ffans-community-notes.ref.not_helpful'
+        somewhat_helpful: 'Etwas hilfreich'
     sources:
       a11y_label: Quellen
     status:
