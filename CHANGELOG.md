@@ -2,6 +2,42 @@ CHANGELOG
 =========
 
 
+2.0.22 (2026-10-02)
+-------------------
+
+**General changes**:
+
+* Updated Flarum core translations (4 changed).
+
+
+**Added support for new extensions**:
+
+* [`ffans/community-notes`](https://github.com/FFans/community-notes) (53% complete)
+* [`ffans/link-guard`](https://github.com/FFans/link-guard) (100% complete)
+* [`stezkoy/flarum-audex`](https://github.com/Stezkoy/flarum-audex) (67% complete)
+
+
+**Updated translations for extensions**:
+
+* [`acpl/my-tags`](https://github.com/android-com-pl/my-tags) (3 changed, 100% complete)
+* [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links) (1 changed, 100% complete)
+* [`flarum/pusher`](https://github.com/flarum/pusher) (1 changed, 100% complete)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (6 added, 4 changed, 100% complete)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request) (8 changed, 100% complete)
+* [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards) (8 added, 100% complete)
+* [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye) (4 added, 100% complete)
+* [`linkrobins/countdown-widget`](https://github.com/linkrobins/countdown-widget) (6 added, 100% complete)
+* [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget) (4 added, 2 changed, 100% complete)
+* [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha) (2 changed, 100% complete)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado) (42 added, 100% complete)
+* [`ramon/point-system`](https://github.com/ram0ng1/point-system) (64 added, 2 changed, 57% complete)
+* [`stezkoy/flarum-feed2forum`](https://github.com/Stezkoy/flarum-feed2forum) (54 added, 4 changed, 100% complete)
+* [`stezkoy/flarum-pagify`](https://github.com/Stezkoy/flarum-pagify) (14 added, 100% complete)
+
+
+All changes: [2.0.21...2.0.22](https://github.com/flarum-lang/german/compare/2.0.21...2.0.22).
+
+
 2.0.21 (2026-09-22)
 -------------------
 
