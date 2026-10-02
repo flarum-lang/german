@@ -8,6 +8,7 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`ffans/community-notes`](https://github.com/FFans/community-notes) (16 added, 58% complete)
+* [`flarum/likes`](https://github.com/flarum/likes) (1 changed, 100% complete)
 * [`stezkoy/flarum-audex`](https://github.com/Stezkoy/flarum-audex) (38 added, 100% complete)
 * [`tryhackx/flarum-topic-rating`](https://github.com/TryHackX/flarum-topic-rating) (30 added, 100% complete)
 
