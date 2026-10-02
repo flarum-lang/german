@@ -7,7 +7,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
-* [`ffans/community-notes`](https://github.com/FFans/community-notes) (16 added, 58% complete)
+* [`ffans/community-notes`](https://github.com/FFans/community-notes) (116 added, 83% complete)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr) (1 changed, 100% complete)
 * [`flarum/likes`](https://github.com/flarum/likes) (1 changed, 100% complete)
 * [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings) (1 changed, 100% complete)
