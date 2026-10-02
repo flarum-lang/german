@@ -200,11 +200,14 @@ ffans-community-notes:
     hidden: Verborgen
     manage_notes: '=> ffans-community-notes.ref.moderate_note'
     moderate_note: 'Kollektive Anmerkungen verwalten'
+    moderation_permission_denied: 'Du hast keine Berechtigung, kollektive Anmerkungen zu verwalten.'
     not_helpful: 'Nicht hilfreich'
     rate_note: 'Kollektive Anmerkungen bewerten'
     retry: 'Erneut versuchen'
     view_all_notes: 'Alle Anmerkungen für diesen Beitrag anzeigen'
   validation:
+    data_invalid: 'Bitte gib gültige Daten für kollektive Anmerkungen ein. Es können nur der Grund, der Inhalt und die Quellen geändert werden.'
+    hide_reason_required: 'Bitte gib einen Grund an, warum du diese kollektive Anmerkung ausblenden möchtest.'
     note:
       content_invalid: 'Der Inhalt der Anmerkung muss aus Klartext bestehen und 30 bis 1000 Unicode-Zeichen umfassen.'
       reason_invalid: 'Bitte wähle einen gültigen Grund für die Anmerkung aus.'
@@ -212,3 +215,15 @@ ffans-community-notes:
       source_invalid: 'Quellen müssen gültige HTTP- oder HTTPS-Links sein.'
       source_url_invalid: 'Quellen müssen HTTP- oder HTTPS-URLs mit einem Hostnamen und maximal 2048 Zeichen sein.'
       sources_count: 'Gib bitte 1 bis 5 Quellenlinks an.'
+    post_invalid: 'Bitte wähle einen gültigen Originalbeitrag aus.'
+    rating:
+      reason_duplicate: 'Ein Bewertungsgrund kann nicht mehr als einmal ausgewählt werden.'
+      reason_mismatch: 'Die Begründungen müssen mit der ausgewählten Bewertung übereinstimmen.'
+      reasons_count: 'Bitte wähle 1 bis 3 Gründe für deine Bewertung aus.'
+      value_invalid: 'Bitte wähle eine gültige Bewertung.'
+    relationships_invalid: 'Die Beziehungen dieser Anmerkung können nicht geändert werden.'
+    settings:
+      helpful_threshold_invalid: 'Der relevante Schwellenwert muss eine ganze Zahl zwischen 0 und 100 sein.'
+      min_ratings_invalid: 'Die Mindestanzahl der Bewertungen muss eine ganze Zahl zwischen 1 und 100 sein.'
+      not_helpful_threshold_invalid: 'Der Schwellenwert für „nicht hilfreich“ muss eine ganze Zahl zwischen 0 und 100 sein.'
+      thresholds_invalid: 'Der Schwellenwert für „nicht hilfreich“ muss niedriger sein als der Schwellenwert für „hilfreich“.'
