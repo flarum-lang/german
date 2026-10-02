@@ -17,13 +17,19 @@ ffans-community-notes:
       not_helpful_threshold_label: 'Schwellenwert für nicht hilfreiche Anmerkungen (%)'
   forum:
     editor:
+      add_source_button: 'Quelle hinzufügen'
+      character_count: '{count} / 1000 Zeichen, mindestens 30'
       create_title: '=> ffans-community-notes.ref.add_note'
       create_unavailable: 'Du kannst momentan keine kollektive Anmerkung hinzufügen.'
       delete_button: 'Anmerkung löschen'
       edit_title: 'Meine kollektive Anmerkung'
       edit_unavailable: 'Du kannst momentan keine Anmerkung bearbeiten oder entfernen.'
       help: 'Füge nachprüfbare Hintergründe und Quellen hinzu und vermeide dabei Antworten oder Auseinandersetzungen. Nach dem Absenden wird deine Anmerkung von der Community bewertet.'
+      reason_placeholder: 'Wähle einen Grund'
+      remove_source_a11y_label: 'Quelle {number} entfernen'
+      remove_source_button: 'Quelle entfernen'
       save_button: 'Änderungen speichern'
+      sources_label: 'Quellen (1–5)'
     errors:
       detail_separator: '; '
     list:
@@ -75,6 +81,7 @@ ffans-community-notes:
     post:
       back_a11y_label: 'Zurück zur Liste der kollektiven Anmerkungen'
       description: 'Entscheide anhand des Originalbeitrags und der Quellen, ob diese zusätzlichen Informationen hilfreich sind.'
+      empty: 'Zu diesem Beitrag sind keine Anmerkungen vorhanden, oder du hast keine Berechtigung, darauf zuzugreifen.'
       load_more_button: 'Mehr Anmerkungen laden'
       modal_title: '=> ffans-community-notes.ref.view_all_notes'
       notes_a11y_label: 'Alle Anmerkungen für diesen Beitrag'
