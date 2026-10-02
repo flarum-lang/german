@@ -33,7 +33,7 @@ fof-moderator-warnings:
       public_comment_required: 'Du musst eine öffentliche Begründung abgeben.'
     warning_controls:
       delete_button: Entfernen
-      delete_forever_button: 'Entgültig löschen'
+      delete_forever_button: 'Endgültig löschen'
       restore_button: Wiederherstellen
     warning_list:
       add_button: 'Neue Verwarnung'
