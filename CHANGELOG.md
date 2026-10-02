@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+2.0.23 (XXXX-XX-XX)
+-------------------
+
+**Updated translations for extensions**:
+
+* [`ffans/community-notes`](https://github.com/FFans/community-notes) (2 added, 54% complete)
+* [`stezkoy/flarum-audex`](https://github.com/Stezkoy/flarum-audex) (38 added, 100% complete)
+* [`tryhackx/flarum-topic-rating`](https://github.com/TryHackX/flarum-topic-rating) (30 added, 100% complete)
+
+
+All changes: [2.0.22...2.0.23](https://github.com/flarum-lang/german/compare/2.0.22...2.0.23).
+
+
 2.0.22 (2026-10-02)
 -------------------
 
