@@ -6,13 +6,18 @@ tryhackx-avatars:
   admin:
     device_desktop: Desktop
     device_mobile: Mobil
+    help: 'Lege fest, wie sich der Autoren-Avatar in der Diskussionsliste verhält – separat für Desktop- und Mobilgeräte. Dies ist eine gemeinsame Einstellung – wenn du sie hier änderst, wird sie auch in „Thumb Sliders“ bzw. „Topic Rating“ aktualisiert, je nachdem, welche der beiden Erweiterungen du installiert hast.'
+    hint_always: 'Das Vorschaubild (oder das konfigurierte Ausweichbild) ersetzt immer den Avatar; bei Themen, für die überhaupt kein Vorschaubild vorhanden ist, bleibt der Avatar erhalten.'
     hint_hide: 'Der Avatar wird nie angezeigt. Wenn eine Miniaturansicht verfügbar ist, wird diese verwendet. Ansonsten zeigt die Zeile einfach keinen Avatar.'
+    hint_replace_no_thumbs: '„Thumb Sliders“ ist deaktiviert, daher wird der Avatar wie gewohnt angezeigt. Installiere bzw. aktiviere „Thumb Sliders“, um ihn durch eine Miniaturansicht zu ersetzen, oder wähle „Avatar ausblenden“.'
     hint_show: 'Der Avatar des Verfassers wird immer angezeigt.'
+    hint_with_image: 'Das Vorschaubild ersetzt den Avatar nur, wenn das Thema ein echtes Bild enthält; andernfalls wird der Avatar angezeigt.'
     mode_always: 'Immer durch Miniaturansicht ersetzen'
     mode_hide: 'Avatar verbergen'
     mode_show: 'Avatar anzeigen'
     mode_with_image: 'Durch Miniaturansicht ersetzen, wenn die Diskussion ein Bild enthält'
     save_error: 'Avatar-Einstellung konnte nicht gespeichert werden. Bitte versuche es erneut.'
+    thumbs_inactive: '„Thumb Sliders“ ist nicht aktiviert, daher gibt es kein Vorschaubild, durch das der Avatar ersetzt werden könnte. Die unten stehenden „Ersetzen“-Optionen verhalten sich wie „Avatar anzeigen“ – verwende „Avatar ausblenden“, um Avatare zu entfernen (z. B. für eine übersichtlichere Liste auf Mobilgeräten).'
     title: 'Avatare in der Diskussionsliste'
 tryhackx-topic-rating:
   admin:
@@ -34,6 +39,7 @@ tryhackx-topic-rating:
       display_when_restricted_readonly: 'Nur-lesen-Sterne (Standard)'
       enabled_help: 'Benutzern die Möglichkeit geben, Diskussionen mit einem 5-Sterne-System zu bewerten.'
       enabled_label: 'Diskussionsbewertung aktivieren'
+      hide_disabled_ratings_help: 'Wenn ein Thema nicht mehr bewertet werden kann, weil alle seine Tags deaktiviert sind (z. B. weil ein Tag nach der Bewertung auf „deaktiviert“ umgestellt wurde), wird das Bewertungs-Widget – einschließlich aller vorhandenen Bewertungen – für Benutzer, die nicht bewerten können, vollständig ausgeblendet. Dies verhindert den Missbrauch durch „Bewertung und anschließende Festschreibung der Punktzahl“. Wenn diese Option deaktiviert ist, gelten für solche Themen die oben genannten Anzeigeoptionen. Standardmäßig aktiviert. Nutzer, die bewerten DÜRFEN (z. B. Gruppen mit Ausnahmegenehmigung), sehen es weiterhin.'
       hide_disabled_ratings_label: 'Bewertungen auf Diskussionen verbergen, für die sie deaktiviert sind'
       hide_empty_for_nonvoters_help: 'Wenn ein Thema in der Diskussionsliste noch keine Bewertungen hat, soll das Stern-Widget für Benutzer, die es nicht bewerten können (Gäste, Gruppen mit eingeschränkten Rechten), nicht angezeigt werden. Bei Themen, die bereits Bewertungen haben, werden diese weiterhin angezeigt. Standardmäßig deaktiviert.'
       hide_empty_for_nonvoters_label: 'Leere Sterne für Benutzer ausblenden, die keine Bewertung abgeben können'
@@ -41,6 +47,7 @@ tryhackx-topic-rating:
       list_style_desktop_label: 'Darstellungsart — Desktop'
       list_style_full_meta: 'Volle Sterne — selber Ort (oberhalb Aufrufe / Antworten)'
       list_style_full_title: 'Volle Sterne — hinter dem Titel'
+      list_style_help: 'So wird die Bewertung in der Diskussionsliste (Startseite) angezeigt; die Auswahl erfolgt separat für jedes Gerät. Die Darstellungsarten „Kompakt“ und „Nach dem Titel“ dienen nur der Anzeige – sie ermöglichen es den Nutzern nicht, direkt aus der Liste heraus zu bewerten.'
       list_style_mobile_label: 'Darstellungsart — Mobil'
       list_style_single_bucket_meta: 'Ein Stern (leer / halb / voll) + Bewertung — selber Ort'
       list_style_single_bucket_title: 'Ein Stern (leer / halb / voll) + Bewertung — hinter dem Titel'
@@ -54,12 +61,17 @@ tryhackx-topic-rating:
       realtime_enabled_label: 'Echtzeit-Aktualisierung der Bewertungen'
       secondary_disable_all: 'Alle deaktivieren'
       secondary_enable_all: 'Alle aktivieren'
+      secondary_solo_help: "Steuert Diskussionen, die NUR mit einem sekundären Tag und keinem primären Tag versehen sind\n(z. B. Ankündigungen, bei denen die Beschränkung der Tag-Anzahl umgangen wurde).\nEine Diskussion kann bewertet werden, wenn mindestens eines ihrer sekundären Tags hier auf „Aktiviert“ gesetzt ist.\nDies ist unabhängig von den oben genannten Überschreibungen für primäre Unter-Tags. Standard: Deaktiviert – aktiviere nur die sekundären Tags, die du für sich allein bewertbar machen möchtest.\n"
+      secondary_solo_title: 'Sekundäre Tags, die für sich allein verwendet werden (ohne primäres Tag)'
       show_moderation_controls_help: 'Standardmäßig werden die Optionen „Bewertung deaktivieren“ und „Alle Bewertungen zurücksetzen“ nur dann im ⋮-Menü der Diskussion angezeigt, wenn die Bewertung für dieses Thema sichtbar ist – sie sind ausgeblendet, wenn die Tags die Bewertung dort deaktivieren (die Verwaltung einer ausgeblendeten Bewertung hat keine Auswirkungen). Aktiviere diese Option, um sie immer anzuzeigen – z. B. um Bewertungen bei Themen zu verwalten, bei denen das Widget ausgeblendet ist. Es sind weiterhin die entsprechenden Moderationsberechtigungen erforderlich. Standardmäßig deaktiviert.'
       show_moderation_controls_label: 'Bewertungselemente im Diskussionsmenü immer anzeigen'
       show_on_list_help: 'Die Sternebewertung in der Diskussionsliste (Startseite) anzeigen. Wenn diese Option deaktiviert ist, werden die Bewertungen weiterhin auf der Diskussionsseite angezeigt. Standardmäßig aktiviert.'
       show_on_list_label: 'Bewertung in der Diskussionsliste anzeigen'
+      single_clickable_help: 'Wenn aktiviert, wird durch Klicken auf den einzelnen Stern (und die dazugehörige Zahl) die Bewertungsliste in einem Modalfenster geöffnet. Ist diese Option deaktiviert, dient der Stern lediglich zur Anzeige – und bei Themen, die noch keine Bewertung haben, wird gar nichts angezeigt.'
       single_clickable_label: 'Einzelner Stern ist klickbar'
+      single_modal_rate_help: 'Zeigt oben im Bewertungs-Modalfenster ein interaktives Bewertungsfeld an, damit Nutzer eine Bewertung abgeben (oder ihre Bewertung ändern) können, ohne die Liste zu verlassen.'
       single_modal_rate_label: 'Bewertung innerhalb des Modals erlauben'
+      tag_admin_note: "Flarum gewährt Administratoren standardmäßig ALLE Berechtigungen (einschließlich „Bypass“) – diese Option lässt sich in der unten stehenden Berechtigungsübersicht nicht deaktivieren. Um dies für diese Erweiterung zu steuern, verwende den unten stehenden Gruppenauswähler „Tag-Einschränkungen umgehen“. Der Admin-Bypass ist nur aktiv, wenn die Gruppe „Admin“ ausgewählt ist.\n"
       tag_collapse_all: 'Alle zusammenklappen'
       tag_config_help: "Nur aktiv, wenn die mitgelieferte Tags-Erweiterung aktiviert ist. Wähle für jedes Haupt-Tag eine der folgenden Optionen:\n„Aktiviert“ (Standard – jeder mit der globalen Berechtigung „Bewerten“ kann bewerten),\n„Deaktiviert“ (niemand kann bewerten – es sei denn, sie verfügen über die Umgehungsberechtigung)\noder „Gruppen zulassen“ (nur die ausgewählten Gruppen können bewerten).\nWenn ein Haupt-Tag auf „Aktiviert“ oder „Gruppen zulassen“ gesetzt ist, klappe es auf, um einzelne Unter-Tags zu überschreiben\n(„Geerbt“ = Einstellung des übergeordneten Tags übernehmen).\nWenn eine Diskussion mehrere Tags hat, gilt die LIBERALSTE Einstellung – ein einzelnes „Deaktiviert“-Tag blockiert die Bewertung NICHT, wenn ein anderes Tag der Diskussion diese zulässt. Eine Diskussion ist nur dann nicht bewertbar, wenn ALLE ihre Tags auf „Deaktiviert“ gesetzt sind (Gruppen mit Umgehungsberechtigung können weiterhin bewerten).\n"
       tag_config_label: 'Bewertungsberechtigungen je Tag'
@@ -74,6 +86,7 @@ tryhackx-topic-rating:
       tags_empty: 'Keine Tags gefunden. Erstelle zuerst Tags in den Tag-Einstellungen.'
       tags_only_secondary: 'Keine Haupt-Tags gefunden. Markiere mindestens ein Tag als Haupt-Tag in Admin → Tags damit es als oberste Karte hier erscheint.'
       tags_unavailable: 'Die Tag-Erweiterung muss installiert und aktiviert sein, um Bewertungsberechtigungen je Tag verwenden zu können.'
+      untagged_enabled_help: 'Wenn deaktiviert, wird bei Diskussionen, die überhaupt keine Tags enthalten, kein Bewertungs-Widget angezeigt, und sie können nicht bewertet werden. Dies ist nützlich, wenn du möchtest, dass nur bestimmte Tags bewertet werden können. Standardmäßig aktiviert.'
       untagged_enabled_label: 'Bewertung von Diskussionen ohne Tags erlauben'
     support:
       button: 'Entwicklung unterstützen'
@@ -92,6 +105,7 @@ tryhackx-topic-rating:
       reset_ratings: 'Alle Bewertungen zurücksetzen'
     last_rated: 'Zuletzt bewertet:'
     rating_count: 'Bewertungen: {count}'
+    rating_restricted_message: 'Bewertungen sind für deine Gruppe nicht verfügbar.'
     ratings_modal:
       deleted_user: '[gelöscht]'
       empty: 'Noch keine Bewertungen.'
@@ -107,4 +121,5 @@ tryhackx-topic-rating:
       login_required: 'Du musst angemeldet sein, um eine Bewertung abzugeben.'
       rate_first: 'Sei der Erste, der eine Bewertung abgibt!'
       rate_this: 'Diese Diskussion bewerten'
+      restricted: 'Bewertungen zu diesem Thema liegen für deine Gruppe nicht vor.'
       your_rating: 'Deine Bewertung:'

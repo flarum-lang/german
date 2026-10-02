@@ -7,15 +7,33 @@ stezkoy-audex:
     add_button: 'Block hinzufügen'
     badge_body_help: 'Der Code wird serverseitig vor dem schließenden „body“-Tag eingefügt.'
     badge_head_help: 'Der Code wird serverseitig in den Kopfbereich der Seite eingefügt.'
+    badge_widget_help: 'Der Code wird vom Audex-Widget (forum-widgets-core) dargestellt; dessen Bereich wird im Widget-Editor konfiguriert.'
     badge_widget_off: 'widget — aus'
     badge_widget_off_help: '„forum-widgets-core“ ist deaktiviert – dieser Block wird nirgendwo angezeigt, bis es wieder aktiviert wird.'
     cancel_button: Abbrechen
+    code_help: 'Wird direkt in die Seite eingefügt. Wenn der Code kein „script“-Tag enthält, wird er als reines JavaScript behandelt und automatisch in ein solches Tag eingeschlossen. Innerhalb von JavaScript-Zeichenketten muss das schließende „script“-Tag durch einen Backslash vor dem Schrägstrich maskiert werden.'
     code_label: Skriptcode
+    confirm_delete: 'Block „{name}“ löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.'
     delete_button: Löschen
     edit_button: Bearbeiten
     empty: 'Es sind noch keine Skriptblöcke vorhanden. Klicke auf „Block hinzufügen“, um einen zu erstellen.'
     enabled_switch: Aktiviert
     enabled_switch_help: 'Schalte diesen Block ein oder aus.'
+    error_block_json: 'Der Block {block} ist fehlerhaft.'
+    error_code_empty: 'Block {block}: Der Code darf nicht leer sein.'
+    error_code_too_long: 'Block {block}: Der Code überschreitet die Grenze von {max} Bytes.'
+    error_enabled: 'Block {block}: „enabled“ muss „true“ oder „false“ sein.'
+    error_json: 'Der Einstellwert ist kein gültiges JSON.'
+    error_name: 'Block {block}: Der Name muss eine Zeichenfolge mit maximal 100 Zeichen sein.'
+    error_name_html: 'Block {block}: Der Name darf keine spitzen Klammern oder doppelte Bindestriche enthalten.'
+    error_position: 'Block {block}: Die Platzierung muss „head“ oder „foot“ lauten.'
+    error_too_many: 'Zu viele Skriptblöcke – das Limit liegt bei {count}.'
+    excluded_groups:
+      error_invalid: 'Ungültiger Eintrag in der Liste der ausgeschlossenen Gruppen (Position {index}).'
+      error_too_many: 'Zu viele ausgeschlossene Gruppen – das Limit liegt bei 1000.'
+    excluded_users:
+      error_invalid: 'Ungültiger Eintrag in der Liste der ausgeschlossenen Benutzer (Position {index}).'
+      error_too_many: 'Zu viele ausgeschlossene Benutzer – das Limit liegt bei 1000.'
     exclusions_section: Ausnahmen
     exclusions_section_help: 'Die hier aufgeführten Benutzer und die Mitglieder der ausgewählten Gruppen erhalten überhaupt keine Skripte. Ausnahmen gelten niemals für Gäste.'
     groups_empty: 'Keine Gruppen verfügbar.'
@@ -35,6 +53,7 @@ stezkoy-audex:
     position_help: 'Kopf – innerhalb des Kopfbereichs der Seite. Ende – vor dem schließenden Body-Tag. widget – wird vom Widget „forum-widgets-core“ gerendert; dessen Zone wird im Widget-Editor konfiguriert.'
     position_label: Platzierung
     position_widget: 'Widget (forum-widgets-core)'
+    request_error: 'Die Einstellungen konnten nicht gespeichert werden. Bitte überprüfe die Eingabe und versuche es erneut.'
     save_button: Speichern
     saved: 'Einstellungen gespeichert.'
     scripts_section: Scriptblöcke
@@ -42,5 +61,7 @@ stezkoy-audex:
     section_counter: '{enabled} von {total} aktiviert'
     users_add_button: 'Benutzer hinzufügen'
     users_empty: 'Keine ausgenommenen Benutzer.'
+    users_help: 'Diese bestimmten Benutzer erhalten unabhängig von ihrer Gruppenzugehörigkeit keine Skripte.'
     users_label: 'Ausgenommene Benutzer'
+    users_search_placeholder: 'Benutzer suchen…'
     users_selected: 'Ausgewählt: {count}'

@@ -80,6 +80,7 @@ ffans-community-notes:
       notes_a11y_label: 'Alle Anmerkungen für diesen Beitrag'
       notes_title: 'Kollektive Anmerkungen für diesen Beitrag'
       page_title: '=> ffans-community-notes.ref.rate_note'
+      permission_denied: 'Du hast keine Berechtigung, die Seite mit den Bewertungen der kollektiven Anmerkungen anzuzeigen.'
       retry_button: '=> ffans-community-notes.ref.retry'
       title: Anmerkungsdetails
     post_controls:
