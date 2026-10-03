@@ -5,9 +5,15 @@ CHANGELOG
 1.25.33 (XXXX-XX-XX)
 --------------------
 
+**General changes**:
+
+* Updated Flarum core translations (2 changed).
+
+
 **Updated translations for extensions**:
 
 * [`acpl/my-tags`](https://github.com/android-com-pl/my-tags) (3 changed, 100% complete)
+* [`blomstra/fontawesome`](https://github.com/blomstra/flarum-ext-fontawesome) (1 changed, 100% complete)
 * [`clarkwinkelmann/flarum-ext-emojionearea`](https://github.com/clarkwinkelmann/flarum-ext-emojionearea) (1 changed, 100% complete)
 * [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links) (1 changed, 100% complete)
 * [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview) (11 changed, 100% complete)
