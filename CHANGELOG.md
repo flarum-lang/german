@@ -19,6 +19,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`ernestdefoe/steward`](https://github.com/ernestdefoe/steward) (20 added, 34% complete)
 * [`ffans/community-notes`](https://github.com/FFans/community-notes) (178 added, 100% complete)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr) (1 changed, 100% complete)
 * [`flarum/likes`](https://github.com/flarum/likes) (1 changed, 100% complete)
