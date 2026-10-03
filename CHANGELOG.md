@@ -5,6 +5,11 @@ CHANGELOG
 2.0.23 (XXXX-XX-XX)
 -------------------
 
+**General changes**:
+
+* Updated Flarum core translations (1 changed).
+
+
 **Added support for new extensions**:
 
 * [`ernestdefoe/ladder`](https://github.com/ernestdefoe/ladder) (37% complete)
