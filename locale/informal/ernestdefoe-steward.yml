@@ -4,14 +4,28 @@
 
 ernestdefoe-steward:
   admin:
+    permissions:
+      review_label: 'Steward Moderationswarteschlange anzeigen'
     settings:
+      moderation_label: 'Neue Beiträge filtern'
       relay_url_label: Dienst-URL
       site_key_label: Seitenschlüssel
+      trusted_posts_help: 'Etablierte Mitglieder werden niemals überprüft.'
     usage:
       answers: 'Fragen beantwortet'
+      chart_label: 'Tägliche Nutzung über die letzten {n} Tage hinweg'
       left: '{n} von {total} verbleibend'
       resets: 'Wird zurückgesetzt {date}'
       screenings: 'Beiträge überwacht'
       title: 'Deine Nutzung in diesem Monat'
       unmetered: 'Keine Begrenzung'
       unmeteredUsed: '{n} verwendet · Keine Begrenzung'
+  forum:
+    ask:
+      ask: Fragen
+      nav: Fragen
+      sources: 'Beantwortet durch'
+      title: 'Dieses Forum fragen'
+    queue:
+      nav: Moderationswarteschlange
+      title: Moderationswarteschlange
