@@ -31,14 +31,14 @@ core:
       custom_styles_heading: 'Individueller Stil'
       custom_styles_text: 'Die Erscheinung des Forums durch eigenen Less/CSS-Code anpassen.'
       dark_mode_label: 'Dunkles Design'
-      description: 'Verändern Sie die Farbe, das Logo und weitere Variablen des Forums.'
+      description: 'Ändern Sie die Farbe, das Logo und weitere Variablen des Forums.'
       edit_css_button: 'Individuelles CSS bearbeiten'
       edit_footer_button: '=> core.ref.custom_footer_title'
       edit_header_button: '=> core.ref.custom_header_title'
       enter_hex_message: 'Geben Sie eine Farbe im Hexadezimalformat ein.'
       favicon_heading: Favicon
       favicon_text: 'Laden Sie ein Bild hoch, welches als Favicon für das Forum verwendet wird.'
-      logo_heading: Firmenzeichen
+      logo_heading: Logo
       logo_text: 'Laden Sie ein Logo hoch, welches anstelle des Forum-Titels angezeigt wird.'
       title: Erscheinungsbild
     basics:
