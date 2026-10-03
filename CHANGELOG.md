@@ -5,13 +5,18 @@ CHANGELOG
 2.0.23 (XXXX-XX-XX)
 -------------------
 
+**Added support for new extensions**:
+
+* [`fof/mark-unread`](https://github.com/FriendsOfFlarum/mark-unread) (100% complete)
+
+
 **Updated translations for extensions**:
 
 * [`ffans/community-notes`](https://github.com/FFans/community-notes) (178 added, 100% complete)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr) (1 changed, 100% complete)
 * [`flarum/likes`](https://github.com/flarum/likes) (1 changed, 100% complete)
 * [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings) (1 changed, 100% complete)
-* [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki) (24 added, 2 changed, 79% complete)
+* [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki) (104 added, 2 changed, 100% complete)
 * [`stezkoy/flarum-audex`](https://github.com/Stezkoy/flarum-audex) (38 added, 100% complete)
 * [`tryhackx/flarum-topic-rating`](https://github.com/TryHackX/flarum-topic-rating) (30 added, 100% complete)
 
