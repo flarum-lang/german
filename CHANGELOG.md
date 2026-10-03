@@ -2,6 +2,37 @@ CHANGELOG
 =========
 
 
+2.0.23 (XXXX-XX-XX)
+-------------------
+
+**General changes**:
+
+* Updated Flarum core translations (1 changed).
+
+
+**Added support for new extensions**:
+
+* [`ernestdefoe/ladder`](https://github.com/ernestdefoe/ladder) (37% complete)
+* [`fof/discord-autolink`](https://github.com/FriendsOfFlarum/discord-autolink) (100% complete)
+* [`fof/mark-unread`](https://github.com/FriendsOfFlarum/mark-unread) (100% complete)
+
+
+**Updated translations for extensions**:
+
+* [`ernestdefoe/steward`](https://github.com/ernestdefoe/steward) (20 added, 34% complete)
+* [`ffans/community-notes`](https://github.com/FFans/community-notes) (178 added, 100% complete)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr) (1 changed, 100% complete)
+* [`flarum/likes`](https://github.com/flarum/likes) (1 changed, 100% complete)
+* [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts) (2 added, 2 changed, 100% complete)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings) (1 changed, 100% complete)
+* [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki) (104 added, 2 changed, 100% complete)
+* [`stezkoy/flarum-audex`](https://github.com/Stezkoy/flarum-audex) (38 added, 100% complete)
+* [`tryhackx/flarum-topic-rating`](https://github.com/TryHackX/flarum-topic-rating) (30 added, 100% complete)
+
+
+All changes: [2.0.22...2.0.23](https://github.com/flarum-lang/german/compare/2.0.22...2.0.23).
+
+
 2.0.22 (2026-10-02)
 -------------------
 
