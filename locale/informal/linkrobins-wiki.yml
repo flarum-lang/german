@@ -57,6 +57,7 @@ linkrobins-wiki:
       nav_position_help: 'Der Wiki-Link erscheint in der Seitenleiste neben „Alle Diskussionen“ und den Links, die von anderen Erweiterungen hinzugefügt werden. Wenn du „Nicht anzeigen“ auswählst, wird der Link aus der Seitenleiste und dem mobilen Menü entfernt; das Wiki selbst bleibt unter /wiki weiterhin zugänglich.'
       nav_position_hidden: 'Nicht anzeigen'
       nav_position_label: Wiki-Link-Position
+      nav_position_sections: 'Bei den Abschnittslinks (Standard)'
       nav_position_top: 'Am Anfang der Liste'
     permissions:
       comment: 'Wiki-Artikel kommentieren'
@@ -64,9 +65,12 @@ linkrobins-wiki:
       edit_articles: 'Alle Wiki-Artikel bearbeiten und moderieren'
       view_history: 'Versionsverlauf des Wiki-Artikels anzeigen'
     related:
+      enabled_help: 'Wenn diese Funktion aktiviert ist, werden unter einem Artikel mit einer Kategorie einige seiner „Geschwisterartikel“ aufgelistet. Bei Artikeln ohne Kategorie wird nichts angezeigt.'
       enabled_label: 'Verwandte Artikel anzeigen'
       heading: 'Verwandte Artikel'
       intro: 'Zeigt unter jedem Artikel eine kurze Liste weiterer Artikel aus derselben Kategorie an.'
+      limit_help: 'Höchstens so viele verwandte Artikel, zwischen 1 und 20.'
+      limit_label: 'Wie viele angezeigt werden sollen'
     reports:
       article_gone: 'Artikel gelöscht'
       deleted_user: 'Gelöschtes Konto'
@@ -74,6 +78,11 @@ linkrobins-wiki:
       heading: Berichte
       hide_resolved: 'Gelöste ausblenden'
       intro: 'Artikel, die Leser zur Überprüfung durch einen Redakteur gemeldet haben. Wird ein Artikel als gelöst markiert, bleibt er hier als Verlauf erhalten und wird nicht gelöscht.'
+      reason_duplicate: Duplikat
+      reason_inaccurate: Ungenau
+      reason_off_topic: 'Passt hier nicht hin'
+      reason_other: 'Etwas anderes'
+      reason_outdated: Veraltet
       reopen: 'Erneut öffnen'
       resolve: 'Als gelöst markieren'
       show_resolved: 'Gelöste anzeigen'
@@ -92,6 +101,7 @@ linkrobins-wiki:
     comment_soft_delete_first: 'Ein Kommentar muss erst gelöscht werden, bevor er endgültig entfernt werden kann.'
     content_required: 'Artikelinhalt ist erforderlich.'
     faq_too_many: 'Ein Artikel kann maximal {max} FAQ-Einträge enthalten.'
+    report_already_open: 'Du hast diesen Artikel bereits gemeldet. Ein Redakteur wird sich darum kümmern.'
     slug_invalid: 'Dieser URL-Slug ist reserviert. Bitte wähle einen, der nicht nur aus einer Zahl besteht.'
     slug_taken: 'Ein anderer Artikel verwendet bereits diesen URL-Slug.'
     title_required: 'Ein Titel für den Artikel ist erforderlich.'
@@ -101,6 +111,7 @@ linkrobins-wiki:
       delete: Löschen
       delete_forever: 'Für immer löschen'
       edit: Bearbeiten
+      report: Melden
       restore: Wiederherstellen
       save_changes: 'Änderungen speichern'
     comments:
@@ -126,6 +137,8 @@ linkrobins-wiki:
       body_placeholder_edit: 'Klicke hier, um mit der Bearbeitung fortzufahren…'
       category_label: Kategorie
       discard_confirm: 'Du hast einen nicht gespeicherten Artikel. Möchtest du ihn verwerfen?'
+      draft_help: 'Ein Entwurf ist nur für dich und die Wiki-Redakteure sichtbar, bis du ihn veröffentlichst.'
+      draft_label: 'Als Entwurf speichern'
       faq_add: 'Frage hinzufügen'
       faq_answer_placeholder: 'Antwort. Markdown wird unterstützt.'
       faq_heading: FAQ
@@ -133,6 +146,9 @@ linkrobins-wiki:
       faq_question_placeholder: Frage
       faq_remove: 'Frage entfernen'
       no_category: 'Keine Kategorie'
+      position_help: 'Sortiert diesen Artikel innerhalb seiner Kategorie nach dem niedrigsten Wert zuerst. Wenn das Feld leer bleibt, wird er hinter den sortierten Artikeln angezeigt, wobei die neuesten Artikel zuerst erscheinen.'
+      position_label: Position
+      position_placeholder: 'z. B. 1'
       slug_help: 'Wird in der URL des Artikels verwendet. Lasse das Feld leer, um die URL aus dem Titel zu generieren.'
       slug_label: URL-Slug
       slug_placeholder: 'z. B. los-gehts'
@@ -159,6 +175,7 @@ linkrobins-wiki:
       upload_no_files: 'Beim Hochladen wurden keine Dateien gefunden. Bitte versuche es erneut.'
     index:
       deleted_badge: Gelöscht
+      draft_badge: Entwurf
       empty: 'Es wurden keine Artikel gefunden.'
       empty_own: 'Es gibt noch keine Artikel. Klicke auf „Neuer Artikel“, um einen zu verfassen.'
       index_label: Index
@@ -167,17 +184,42 @@ linkrobins-wiki:
       no_categories: 'Noch keine Kategorien.'
       untitled: 'Ohne Titel'
     nav: Wiki
+    report:
+      detail_label: 'Möchtest du noch etwas hinzufügen? (optional)'
+      failed: 'Konnte nicht gesendet werden. Bitte erneut versuchen.'
+      intro: 'Redakteure sehen dies zusammen mit dem Artikel.'
+      reason_duplicate: 'Duplikat eines anderen Artikels'
+      reason_inaccurate: 'Ist ungenau'
+      reason_label: 'Was stimmt daran nicht?'
+      reason_off_topic: 'Gehört nicht hierher'
+      reason_other: 'Etwas anderes'
+      reason_outdated: 'Ist veraltet'
+      sent: 'Vielen Dank. Ein Redakteur wird sich das ansehen.'
+      submit: 'Meldung einreichen'
+      title: 'Diesen Artikel melden'
+    search:
+      all_button: 'Wiki durchsuchen nach „{query}“'
+      button: Suchen
+      clear: Löschen
+      empty: 'Keine Artikel zu „{query}“ gefunden.'
+      heading: Wiki
+      placeholder: 'Wiki durchsuchen'
+      results_heading: 'Ergebnisse für „{query}“'
     show:
       by: 'von '
+      created_tooltip: 'Geschrieben am {date}'
       deleted_notice: 'Dieser Artikel wurde gelöscht. Nur Bearbeiter können ihn sehen.'
       diff_from_previous: 'Änderungen gegenüber der Vorgängerversion'
       diff_initial: 'Erste Fassung'
       diff_none: 'Keine inhaltlichen Änderungen.'
       diff_title: Titel
+      draft_notice: 'Dieser Artikel ist ein Entwurf. Nur du und Wiki-Redakteure können ihn sehen.'
       faq_heading: 'Häufig gestellte Fragen'
       history: 'Änderungsverlauf ({count})'
       initial_version: Erstellt
       last_edited: 'zuletzt bearbeitet von '
+      last_edited_tooltip: 'Zuletzt bearbeitet von {name} am {date}'
       load_more_history: 'Ältere Überarbeitungen laden'
       no_history: 'Noch keine Überarbeitungen.'
+      related_heading: 'Verwandte Artikel'
       toc_heading: Inhalte
