@@ -59,10 +59,11 @@ fof-drafts:
       unschedule_warning: 'Bist du sicher, dass du die Planung dieses Entwurfes aufheben willst?'
     user:
       settings:
-        draft_autosave_enable: 'Automatisches Speichern von Entwürfen aktivieren?'
+        draft_autosave_enable: 'Automatisches Speichern von Entwürfen aktivieren'
         draft_autosave_interval_button: Update-Intervall
         draft_autosave_interval_invalid: 'Das Intervall muss eine Zahl größer als 4 sein.'
         draft_autosave_interval_label: 'Autospeicher-Intervall (Sekunden)'
+        draft_autosave_interval_saved_message: 'Autospeicher-Intervall aktualisiert.'
         drafts_heading: Entwürfe
   ref:
     schedule_draft: 'Entwurf planen'
