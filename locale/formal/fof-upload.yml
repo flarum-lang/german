@@ -78,6 +78,7 @@ fof-upload:
         toggle: Deaktivieren
       imgur:
         client_id: 'Imgur Client ID'
+        deprecated: 'Imgur vergibt keine API-Client-IDs mehr, daher ist dieser Adapter veraltet und wird in einer zukünftigen Version entfernt. Verschiebe diese Dateitypen auf einen anderen Speicheradapter.'
         title: 'Imgur Bilder Speichereinstellungen'
         tos: 'Es liegt in deiner Verantwortung sicherzustellen, dass deine Forenbenutzer die <a>Nutzungsbedingungen</a> von Imgur einhalten'
       inspect-mime: 'MIME-Typ einer Datei testen'
@@ -274,6 +275,7 @@ fof-upload:
         show_confirmation: 'Bist du sicher, dass du „{fileName}“ öffentlich erstellen möchtest? Wenn du eine Datei öffentlich erstellst, ist sie für jeden mit einer öffentlichen URL zugänglich und jeder kann sie über den Medienmanager teilen.'
         show_fail: 'Die Datei „{fileName}“ kann nicht öffentlich gemacht werden'
         show_success: 'Datei öffentlich gemacht'
+      load_error: 'Dateien konnten nicht geladen werden. Bitte versuche es erneut.'
       load_more_files_btn: 'Weitere Dateien laden'
       loading: 'Dateien laden...'
       modal_empty_desktop: 'Deine Dateiliste ist leer. Klicke auf die Schaltfläche oder ziehe eine Datei hierher, um sie hochzuladen.'

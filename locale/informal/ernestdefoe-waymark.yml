@@ -4,11 +4,19 @@
 
 ernestdefoe-waymark:
   admin:
+    home_help: 'Wie der erste Crumb heißt, der immer auf die Startseite deines Forums verweist.'
     home_home: Start
+    home_label: 'Erster Breadcrumb'
+    home_target_help: 'Wenn deine Startseite eine Landingpage ist, die Besucher nur einmal sehen, richte den ersten Breadcrumb auf die Tag-Seite aus, damit sie stattdessen zurück ins Forum gelangen.'
     home_target_home: 'Deine Startseite'
+    home_target_label: 'Der erste Breadcrumb verlinkt nach'
     home_target_tags: 'Die Tag-Seite'
+    home_text_help: 'Lasse das Feld leer, um die oben ausgewählte Option zu verwenden. Trage einen beliebigen Namen ein, z. B. „Forum“.'
+    home_text_label: 'Benutzerdefinierter Name für den ersten Breadcrumb'
     home_title: 'Dein Forumname'
     pages_heading: 'Pfad anzeigen auf'
+    position_above: 'Oberhalb der Kopfzeile (Hero)'
+    position_below: 'Unterhalb der Kopfzeile (Hero)'
     position_help: 'Wo der Pfad auf der Seite angezeigt werden soll.'
     position_label: Position
     show_discussions: Diskussionen
@@ -16,7 +24,10 @@ ernestdefoe-waymark:
     show_other: 'Jede andere Seite'
     show_tags: 'Tags und Tag-Seiten'
     show_users: Profile
+    style_help: 'Wie der Pfad aussehen soll. Beide verwenden die Farben deines Designs.'
     style_label: Stil
+    style_plain: 'Einfach — Links getrennt durch ›'
+    style_tabs: 'Tabs — jedes Element auf einer eigenen schrägen Registerkarte'
     tags_text_label: 'Name der Tag-Seite'
   forum:
     all_discussions: '=> core.ref.all_discussions'
