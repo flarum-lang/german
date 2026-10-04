@@ -12,7 +12,7 @@ CHANGELOG
 
 **Added support for new extensions**:
 
-* [`ernestdefoe/ladder`](https://github.com/ernestdefoe/ladder) (37% complete)
+* [`ernestdefoe/ladder`](https://github.com/ernestdefoe/ladder) (29% complete)
 * [`fof/discord-autolink`](https://github.com/FriendsOfFlarum/discord-autolink) (100% complete)
 * [`fof/mark-unread`](https://github.com/FriendsOfFlarum/mark-unread) (100% complete)
 
