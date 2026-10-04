@@ -14,7 +14,12 @@ linkrobins-support:
       load_more: 'Mehr laden'
       view_banned_button: 'Benutzer anzeigen, die keine Einsprüche gegen Sperren einlegen dürfen'
     auto_close:
+      days: 'Gelöste Tickets nach so vielen Tagen schließen'
+      days_help: 'Die Zählung beginnt ab dem Zeitpunkt, an dem das Ticket abgeschlossen oder zuletzt beantwortet wurde – je nachdem, welcher Zeitpunkt später liegt. Setze den Wert auf 0, um diese Funktion zu deaktivieren. Die Funktion wird einmal pro Stunde ausgeführt und erfordert, dass der Flarum-Scheduler (php flarum schedule:run) in Cron eingerichtet ist.'
       heading: 'Erinnerungen und automatisches Schließen'
+      intro: 'Schließe Tickets, die den Status „Gelöst“ haben und bei denen keine weiteren Aktivitäten mehr stattgefunden haben. Eine Antwort von einer der beiden Seiten führt zur erneuten Eröffnung eines gelösten Tickets; daher werden hiermit nur Tickets geschlossen, auf die niemand mehr zurückgekommen ist. Es erfolgt keine Benachrichtigung; im Ticketverlauf wird angezeigt, dass das Ticket automatisch geschlossen wurde, und der Inhaber kann es weiterhin wieder öffnen.'
+      reminder_days: 'Erinnerung zum Inhaber nach so vielen Tagen schicken'
+      reminder_days_help: 'Wenn ein Ticket bereits so lange ohne Aktivität auf seinen Inhaber wartet („Wartet auf Antwort“), erhält dieser eine Erinnerung per Benachrichtigung und E-Mail. Einmal pro Wartezeit. Setze den Wert auf 0, um diese Funktion zu deaktivieren.'
     categories:
       appeal_badge: Einspruch
       assignee_all_staff: 'Alle Mitarbeiter'
@@ -88,7 +93,9 @@ linkrobins-support:
       general_window_hours_help: 'Das gleitende Zeitfenster (in Stunden) für das allgemeine Ticketlimit.'
       heading: Ratenbegrenzungen
       intro: 'Begrenze, wie oft Nutzer Support-Tickets erstellen können, und sperre Einsprüche.'
+      max_appeals_per_window: 'Maximale Anzahl an Einsprüchen je Zeitfenster'
       max_appeals_per_window_help: 'Wie viele Einsprüche gegen Sperren ein Nutzer innerhalb des Einspruchszeitraums einlegen darf.'
+      max_concurrent_appeals: 'Maximale Anzahl gleichzeitig offener Einsprüche'
       max_concurrent_appeals_help: 'Wie viele Einsprüche ein Benutzer gleichzeitig offen haben darf.'
       max_general_per_window: 'Maximale allgemeine Tickets pro Fenster'
       max_general_per_window_help: 'Wie viele allgemeine Support-Tickets ein Benutzer innerhalb des unten angegebenen Zeitraums eröffnen darf.'
@@ -101,6 +108,7 @@ linkrobins-support:
       field_content: Text
       field_content_help: 'Wird genau so in die Antwort eingefügt, wie es geschrieben wurde. Markdown und BBCode funktionieren wie in jeder anderen Antwort auch.'
       field_position: Position
+      field_position_help: 'Optional. Kleinere Zahlen kommen zuerst; die übrigen folgen in alphabetischer Reihenfolge.'
       field_title: Titel
       field_title_help: 'Was die Mitarbeiter aus der Liste auswählen, zum Beispiel „Forum-URL wird benötigt“.'
       heading: Antwortvorlagen
@@ -228,6 +236,7 @@ linkrobins-support:
       empty_status:
         awaiting_response: 'Keine Tickets warten auf Rückmeldung.'
         closed: 'Keine geschlossenen Tickets.'
+        in_progress: 'Keine Tickets in Bearbeitung.'
         open: 'Keine offenen Tickets.'
         resolved: 'Keine gelösten Tickets.'
       empty_unassigned: 'Alle offenen Tickets wurden zugewiesen.'
@@ -237,6 +246,7 @@ linkrobins-support:
       my_tickets: 'Meine Tickets'
       new_ticket: 'Neues Ticket'
       new_ticket_tooltip: 'Ein neues Support-Ticket öffnen'
+      no_results: 'Es wurden keine Tickets gefunden, die deiner Suche entsprechen.'
       search_placeholder: 'Tickets durchsuchen'
       unassigned: 'Nicht zugewiesen'
       unread: 'Neue Antworten'
@@ -246,6 +256,8 @@ linkrobins-support:
     notifications:
       assigned: '{name} hat dir ein Ticket zugewiesen'
       assigned_generic: 'Ein Ticket wurde dir zugewiesen'
+      awaiting_reminder: 'Support wartet auf deine Antwort'
+      confirmed_solved_by_owner: '{name} hat bestätigt, dass das Ticket gelöst wurde'
       new_appeal: '{name} hat einen neuen Einspruch eingelegt'
       new_ticket: '{name} hat ein neues Support-Ticket eröffnet'
       reopened_by_owner: '{name} haben ihr Ticket wieder geöffnet'
@@ -272,6 +284,7 @@ linkrobins-support:
       saved_replies: Antwortvorlagen
     settings:
       notify_assigned_label: 'Ein Ticket wird mir zugewiesen'
+      notify_awaiting_reminder_label: 'Support hat bereits einige Tage auf meine Antwort gewartet'
       notify_new_reply_label: 'Jemand antwortet auf mein Support-Ticket'
       notify_new_ticket_label: 'Ein neues Support-Ticket wird erstellt (Mitarbeiter)'
       notify_status_changed_label: 'Der Status eines Tickets wird geändert'
@@ -296,10 +309,15 @@ linkrobins-support:
       set_status: 'Status festlegen:'
     stats:
       auto: 'Automatisch geschlossen'
+      backlog: 'Derzeitiger Ticketbestand'
       by_staff: 'Vom Mitarbeiter geschlossen'
       closed: 'Tickets geschlossen'
+      col_first: 'Zuerst geantwortet'
+      col_first_time: 'Häufigste erste Antwort'
+      col_period: Zeitraum
       col_replies: Antworten
       col_tickets: Tickets
+      confirmed: 'Durch Inhaber bestätigt'
       days: '{count} Tage'
       hours: '{count} h'
       legend_closed: Geschlossen

@@ -5,30 +5,71 @@
 ernestdefoe-ladder:
   admin:
     ladder:
-      add: 'Eine Stufe hinzufügen'
+      add: 'Einen Rang hinzufügen'
       edit: Bearbeiten
-      empty: 'Es gibt noch keine Stufen. Füge die erste hinzu – in der Regel eine Stufe, die bei 0 Beiträgen beginnt, damit jedes Mitglied vom Tag seines Beitritts an eine hat.'
+      empty: 'Es gibt noch keine Ränge. Füge den ersten hinzu – in der Regel einen Rang, der bei 0 Beiträgen beginnt, damit jedes Mitglied vom Tag seines Beitritts an einen hat.'
       existing_group: 'Vorhandene Gruppe'
-      heading: 'Die Leiter'
-      help: 'Jede Stufe entspricht einer Gruppe mit einer bestimmten Beitragsschwelle. Mitglieder gehören genau einer Stufe an, nämlich der höchsten, die ihre Beitragszahl freischaltet, und ihre anderen Gruppen bleiben davon unberührt.'
-      hidden_group: 'Ausgeblendete Gruppe. Mitglieder sehen diese Stufe nicht.'
+      has_image: 'Hat ein Bild auf dem Banner'
+      heading: 'Die Rangliste'
+      help: 'Jeder Rang entspricht einer Gruppe mit einer bestimmten Beitragsschwelle. Mitglieder gehören genau einem Rang an, nämlich dem höchsten, den ihre Beitragszahl freischaltet, und ihre anderen Gruppen bleiben davon unberührt.'
+      hidden_group: 'Ausgeblendete Gruppe. Mitglieder sehen diesen Rang nicht.'
       members: '{count, plural, one {# Mitglied} other {# Mitglieder}}'
+      preview: Bannervorschau
+      preview_help: 'Diese Information wird aus der obigen Rangliste übernommen und oben auf der Seite „Ränge“ angezeigt. Weise einem Rang ein Bild zu, um es anstelle des Symbols zu verwenden.'
       range: '{min}–{max} Beiträge'
       range_open: '{min}+ Beiträge'
     modal:
       color_label: Farbe
-      create_title: 'Stufe hinzufügen'
-      delete: 'Sprosse entfernen'
-      description_help: 'Wird auf der öffentlichen Stufenseite angezeigt. Optional.'
+      create_title: 'Rang hinzufügen'
+      delete: 'Rang entfernen'
+      description_help: 'Wird auf der öffentlichen Rangseite angezeigt. Optional.'
       description_label: Beschreibung
-      edit_title: 'Stufe bearbeiten'
+      edit_title: 'Rang bearbeiten'
       existing_label: 'Vorhandene Gruppe'
       existing_placeholder: 'Wähle eine Gruppe…'
       icon_label: Symbol
+      image_choose: 'Wähle ein Bild'
+      image_label: Bannerbild
+      image_remove: 'Bild entfernen'
+      image_replace: 'Bild ersetzen'
+      min_posts_label: 'Nötige Beiträge'
+      name_label: Rangname
+      plural_label: Pluralname
       preview_label: Vorschau
       save: 'Sprosse speichern'
+      source_existing: 'Verwende eine bereits vorhandene Gruppe'
       source_label: Gruppe
+      source_new: 'Neue Gruppe für diesen Rang erstellen'
     rerank:
       button: 'Alle jetzt neu einstufen'
-      finished: 'Abgeschlossen. {changed, plural, =0 {Alle waren bereits auf der richtigen Stufe.} one {# Mitglied hat seine Stufe geändert.} other {# Mitglieder haben ihre Stufe geändert.}}'
+      finished: 'Abgeschlossen. {changed, plural, =0 {Alle waren bereits auf dem richtigen Rang.} one {# Mitglied hat seinen Rang geändert.} other {# Mitglieder haben ihre Ränge geändert.}}'
       running: 'Neueinstufung… {done} von {total} Mitgliedern'
+    settings:
+      banner_on_index_label: 'Banner auch auf der Startseite anzeigen'
+      banner_tagline_help: 'Eine kurze Zeile unter dem Titel, z. B. das Motto deines Forums. Optional.'
+      banner_tagline_label: Banner-Slogan
+      banner_title_label: Bannertitel
+      exempt_label: 'Gruppe, die nie einen Rang erhalten'
+      inherit_label: 'Höhere Ränge behalten die Berechtigungen von niedrigeren'
+      show_nav_label: 'Rangliste in der Seitenleiste des Forums anzeigen'
+  forum:
+    nav: Ränge
+    notifications:
+      promoted: 'Du hast den Rang {rank} erreicht!'
+    ranks:
+      members: '{count, plural, one {# Mitglied} other {# Mitglieder}}'
+      next: '{count, plural, one {# Beitrag mehr} other {# Beiträge mehr}} um {rank} zu erreichen.'
+      range: '{min}–{max} Beiträge'
+      range_open: '{min}+ Beiträge'
+      title: Ränge
+      top: 'Du hast den höchsten Rang erreicht.'
+      unranked: '{count, plural, one {# Beitrag mehr} other {# Beiträge mehr}} um den ersten Rang zu erreichen: {rank}.'
+      you_are_here: 'Du bist hier'
+    settings:
+      notify_promoted_label: 'Ich habe einen neuen Rang'
+  lib:
+    banner:
+      range: '{min}–{max}'
+      range_open: '{min}+'
+    errors:
+      image_too_large: 'Das Bild ist größer als 8 MB.'
