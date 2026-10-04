@@ -12,7 +12,9 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`ernestdefoe/kindred`](https://github.com/ernestdefoe/kindred) (72% complete)
 * [`ernestdefoe/ladder`](https://github.com/ernestdefoe/ladder) (67% complete)
+* [`ernestdefoe/waymark`](https://github.com/ernestdefoe/waymark) (41% complete)
 * [`fof/discord-autolink`](https://github.com/FriendsOfFlarum/discord-autolink) (100% complete)
 * [`fof/mark-unread`](https://github.com/FriendsOfFlarum/mark-unread) (100% complete)
 
