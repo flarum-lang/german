@@ -9,9 +9,12 @@ linkrobins-support:
       banned_heading: 'Benutzer, die keine Einsprüche gegen Sperren einlegen dürfen'
       column_email: E-Mail
       column_username: Benutzername
+      heading_alt: Einspruch-Sperren
       intro: 'Lege fest, welche Benutzer keine Einsprüche gegen Sperren einlegen dürfen.'
       load_more: 'Mehr laden'
       view_banned_button: 'Benutzer anzeigen, die keine Einsprüche gegen Sperren einlegen dürfen'
+    auto_close:
+      heading: 'Erinnerungen und automatisches Schließen'
     categories:
       appeal_badge: Einspruch
       assignee_all_staff: 'Alle Mitarbeiter'
@@ -76,14 +79,37 @@ linkrobins-support:
     permissions:
       force_delete_tickets: 'Support-Tickets dauerhaft löschen'
       handle_tickets: 'Support-Tickets bearbeiten'
+      manage_appeal_bans: 'Einspruch-Sperren verwalten'
     rate_limits:
+      appeal_window_days: 'Einspruch-Zeitfenster (Tage)'
+      appeal_window_days_help: 'Das gleitende Zeitfenster in Tagen für die Einspruchsfrist.'
       error_save: 'Die Ratenbegrenzungen konnten nicht gespeichert werden.'
       general_window_hours: 'Allgemeines Fenster (in Stunden)'
       general_window_hours_help: 'Das gleitende Zeitfenster (in Stunden) für das allgemeine Ticketlimit.'
       heading: Ratenbegrenzungen
       intro: 'Begrenze, wie oft Nutzer Support-Tickets erstellen können, und sperre Einsprüche.'
+      max_appeals_per_window_help: 'Wie viele Einsprüche gegen Sperren ein Nutzer innerhalb des Einspruchszeitraums einlegen darf.'
+      max_concurrent_appeals_help: 'Wie viele Einsprüche ein Benutzer gleichzeitig offen haben darf.'
       max_general_per_window: 'Maximale allgemeine Tickets pro Fenster'
       max_general_per_window_help: 'Wie viele allgemeine Support-Tickets ein Benutzer innerhalb des unten angegebenen Zeitraums eröffnen darf.'
+    saved_replies:
+      delete_button: Löschen
+      delete_confirm: 'Antwortvorlage „{name}“ löschen?'
+      edit_button: Bearbeiten
+      empty: 'Noch keine Antwortvorlagen.'
+      error_save: 'Antwortvorlage konnte nicht gespeichert werden.'
+      field_content: Text
+      field_content_help: 'Wird genau so in die Antwort eingefügt, wie es geschrieben wurde. Markdown und BBCode funktionieren wie in jeder anderen Antwort auch.'
+      field_position: Position
+      field_title: Titel
+      field_title_help: 'Was die Mitarbeiter aus der Liste auswählen, zum Beispiel „Forum-URL wird benötigt“.'
+      heading: Antwortvorlagen
+      intro: 'Häufig verwendete Antworten, die Mitarbeiter beim Verfassen einer Ticket-Antwort einfügen und vor dem Absenden bearbeiten können. Diese sind nur für Mitarbeiter sichtbar.'
+      new_button: 'Neue Antwortvorlage'
+      submit_create: Erstellen
+      submit_update: 'Änderungen speichern'
+      title_edit: 'Antwortvorlage bearbeiten'
+      title_new: 'Neue Antwortvorlage'
     settings:
       description: 'Konfiguriere Support-Kategorien und Ratenbegrenzungen für das Ticket-System.'
       title: Support
@@ -91,18 +117,35 @@ linkrobins-support:
     cannot_reply: 'Du kannst nicht auf dieses Ticket antworten.'
     category_required: 'Eine Kategorie ist erforderlich.'
     login_required: 'Du musst angemeldet sein.'
+    login_required_edit: 'Du musst angemeldet sein, um eine Antwort zu bearbeiten.'
+    login_required_reply: 'Du musst angemeldet sein, um antworten zu können.'
+    rate_limit:
+      appeal_has_open: 'Du hast bereits einen Einspruch offen. Bitte warte die Entscheidung ab, bevor du einen weiteren eröffnest.'
+      appeal_quota: 'Du hast bereits {count} Einsprüche in den vergangenen {days} Tagen eingereicht (Limit: {limit}). Bitte versuche es später erneut.'
+    reply_content_required: 'Antwortinhalt ist erforderlich.'
+    subject_required: 'Ein Betreff ist erforderlich.'
     ticket_not_found: 'Ticket nicht gefunden.'
+    ticket_required: 'Ein Ticket ist erforderlich.'
   email:
     assigned_body: '{name} hat dir dieses Support-Ticket zugewiesen.'
     assigned_subject: 'Dir zugewiesen: {subject}'
+    awaiting_reminder_subject: '[{subject}] Wartet auf deine Antwort'
+    confirmed_solved_body: '{name} hat bestätigt, dass das Ticket gelöst wurde, und es geschlossen.'
+    fallback_ticket: 'dein Suppport-Ticket'
     from_a_user: 'ein Benutzer'
+    from_support: Support
     new_appeal_subject: '[Support / Einspruch] Neues Ticket: {subject}'
     new_reply_body: '{name} hat auf dein Support-Ticket geantwortet:'
     new_reply_subject: '[Support] Neue Antwort auf: {subject}'
     new_ticket_body: 'Ein neues {type} wurde gerade eröffnet von {name}:'
     new_ticket_subject: '[Support] Neues Ticket: {subject}'
     open_ticket: 'Ticket öffnen'
+    reopened_by_owner_body: '{name} haben ihr Ticket wieder geöffnet.'
+    status_changed_body: 'Dein Support-Ticket wurde markiert mit {status}.'
+    status_changed_body_generic: 'Ein Support-Ticket wurde markiert mit {status}.'
     status_changed_subject: '[{subject}] markiert {status}'
+    ticket_type_appeal: Einspruch-Ticket
+    ticket_type_general: Support-Ticket
     view_ticket: 'Ticket anzeigen'
   forum:
     action:
@@ -121,6 +164,11 @@ linkrobins-support:
       save_changes: 'Änderungen speichern'
       saving: 'Wird gespeichert…'
       unassign: 'Zuordnung aufheben'
+    assign:
+      load_failed: 'Support-Team konnte nicht geladen werden.'
+      title: 'Ticket zuweisen'
+      unassign: 'Zuweisung aufheben'
+      you: (du)
     common:
       date_at_time: '{date} um {time}'
       loading: 'Wird geladen…'
@@ -134,6 +182,7 @@ linkrobins-support:
       discard_confirm: 'Du hast ein noch nicht übermitteltes Ticket. Möchtest du es verwerfen?'
       message_label: Nachricht
       message_placeholder_click: 'Klicke hier, um deine Nachricht zu verfassen…'
+      no_appeal_categories: 'Einspruchkategorien sind aktuell nicht verfügbar.'
       no_categories: 'Es wurden noch keine Support-Kategorien eingerichtet. Bitte wende dich an einen Administrator.'
       subject_first: 'Bitte gib einen Betreff für dein Ticket ein.'
       subject_label: Betreff
@@ -162,16 +211,35 @@ linkrobins-support:
       submit_ticket: 'Die Übermittlung des Tickets ist fehlgeschlagen.'
       unknown: 'Unbekannter Fehler.'
       update_assignment: 'Zuweisung konnte nicht aktualisiert werden.'
+      update_decision: 'Einspruchentscheidung konnte nicht aktualisiert werden.'
       update_status: 'Status konnte nicht aktualisiert werden.'
       upload: 'Datei konnte nicht hochgeladen werden.'
+    event:
+      assigned: '{name} hat das Ticket an {assignee} zugewiesen'
+      assigned_no_actor: 'Zugewiesen an {assignee}'
+      unassigned: '{name} hat Zuweisung von {assignee} entfernt'
+      unassigned_no_actor: '{assignee} wurde zugewiesen'
     index:
+      assigned_to: 'Zugewiesen an {name}'
       deleted_badge: Gelöscht
       empty: 'Es sind keine Tickets vorhanden.'
+      empty_assigned_to_me: 'Keine offenen Tickets sind dir zugewiesen.'
       empty_own: 'Noch keine Tickets. Klicke auf „Neues Ticket“, um eines zu erstellen.'
+      empty_status:
+        awaiting_response: 'Keine Tickets warten auf Rückmeldung.'
+        closed: 'Keine geschlossenen Tickets.'
+        open: 'Keine offenen Tickets.'
+        resolved: 'Keine gelösten Tickets.'
+      empty_unassigned: 'Alle offenen Tickets wurden zugewiesen.'
       filter_all: Alle
+      filter_assigned_to_me: 'Mir zugewiesen'
+      filter_unassigned: 'Nicht zugewiesen'
       my_tickets: 'Meine Tickets'
       new_ticket: 'Neues Ticket'
       new_ticket_tooltip: 'Ein neues Support-Ticket öffnen'
+      search_placeholder: 'Tickets durchsuchen'
+      unassigned: 'Nicht zugewiesen'
+      unread: 'Neue Antworten'
       untitled: 'Ohne Titel'
     nav: Support
     new_ticket: 'Neues Ticket'
@@ -186,6 +254,9 @@ linkrobins-support:
       someone: 'Ein Benutzer'
       status_changed: 'Dein Ticket wurde als {status} markiert'
       status_changed_generic: 'Ein Ticket wurde als {status} markiert'
+    priority:
+      low: 'Niedrige Priorität'
+      urgent: Dringend
     reply:
       deleted_notice: 'Diese Antwort wurde gelöscht.'
       discard_confirm: 'Du hast ungespeicherte Änderungen. Möchtest du diese verwerfen?'
@@ -198,6 +269,7 @@ linkrobins-support:
       placeholder: 'Schreibe eine Antwort…'
       post_reply: 'Antwort schreiben'
       posting: 'Wird gesendet…'
+      saved_replies: Antwortvorlagen
     settings:
       notify_assigned_label: 'Ein Ticket wird mir zugewiesen'
       notify_new_reply_label: 'Jemand antwortet auf mein Support-Ticket'
@@ -205,17 +277,47 @@ linkrobins-support:
       notify_status_changed_label: 'Der Status eines Tickets wird geändert'
     show:
       assigned_to: 'Zugewiesen an'
+      assigned_to_name: 'Zugewiesen an {name}'
       cannot_reply: 'Du kannst auf dieses Ticket nicht antworten.'
       closed_badge: 'Geschlossenes Ticket'
       closed_notice: 'Dieses Ticket wurde geschlossen und dort kann nicht mehr geantwortet werden.'
+      confirm_solved_no: 'Nein, ich brauche immer noch Hilfe'
+      confirm_solved_prompt: 'Das Ticket wurde als gelöst markiert. Ist dein Problem behoben?'
+      confirm_solved_yes: 'Ja, bitte schließen'
       decision: 'Entscheidung:'
       deleted_badge: Gelöscht
       opened_by: 'Eröffnet von'
       title: Ticket
       unassigned: 'Nicht zugewiesen'
     staff:
+      change_decision: 'Einspruchentscheidung ändern'
+      change_status: 'Status ändern'
       set_decision: 'Berufung einlegen:'
       set_status: 'Status festlegen:'
+    stats:
+      auto: 'Automatisch geschlossen'
+      by_staff: 'Vom Mitarbeiter geschlossen'
+      closed: 'Tickets geschlossen'
+      col_replies: Antworten
+      col_tickets: Tickets
+      days: '{count} Tage'
+      hours: '{count} h'
+      legend_closed: Geschlossen
+      legend_opened: Geöffnet
+      load_failed: 'Statistiken konnten nicht geladen werden.'
+      minutes: '{count} min'
+      n_days: '{count} Tage'
+      older_3: 'Mehr als 3 Tage'
+      older_7: 'Mehr als 7 Tage'
+      opened: 'Tickets geöffnet'
+      period_summary: '{period}: {opened} geöffnet, {closed} geschlossen'
+      range: Zeitraum
+      show_table: 'Als Tabelle anzeigen'
+      speed: Antwortzeiten
+      title: Support-Statistiken
+      unassigned: 'Nicht zugewiesen'
+      volume: 'Geöffnet und geschlossen'
+      week_of: 'Woche vom {date}'
     status:
       awaiting_response: 'Warte auf Antwort'
       closed: Geschlossen
@@ -224,5 +326,11 @@ linkrobins-support:
       resolved: Abgeschlossen
     submit_ticket: 'Ticket erstellen'
     ticket:
+      assign: Zuweisen…
       delete: 'Ticket löschen'
+      priority_low: 'Als niedrige Priorität markieren'
+      priority_normal: 'Normale Priorität'
+      priority_urgent: 'Als dringend markieren'
       restore: 'Ticket wiederherstellen'
+    user_controls:
+      toggle_failed: 'Status der Einspruch-Sperre konnte nicht aktualisiert werden.'

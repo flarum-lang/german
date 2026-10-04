@@ -13,6 +13,10 @@ ernestdefoe-hero-builder:
       c1: 'Farbverlauf Farbe 1'
       c2: 'Farbverlauf Farbe 2'
       context: 'Kopfzeile bearbeiten für'
+      effects: Hintergrundeffekte
+      effects_animated: 'Animiertes Leuchten'
+      effects_off: Aus
+      effects_still: 'Unbewegtes Leuchten'
       height: 'Höhe (px)'
       height_help: 'Optional. Höhe des Banners in Pixeln (Standardwert: 150).'
       home: Startseite
