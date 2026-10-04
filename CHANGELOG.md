@@ -19,12 +19,14 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`ernestdefoe/hero-builder`](https://github.com/ernestdefoe/hero-builder) (8 added, 100% complete)
 * [`ernestdefoe/steward`](https://github.com/ernestdefoe/steward) (20 added, 34% complete)
 * [`ffans/community-notes`](https://github.com/FFans/community-notes) (178 added, 100% complete)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr) (1 changed, 100% complete)
 * [`flarum/likes`](https://github.com/flarum/likes) (1 changed, 100% complete)
 * [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts) (2 added, 2 changed, 100% complete)
 * [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings) (1 changed, 100% complete)
+* [`linkrobins/support`](https://github.com/linkrobins/support) (198 added, 82% complete)
 * [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki) (104 added, 2 changed, 100% complete)
 * [`stezkoy/flarum-audex`](https://github.com/Stezkoy/flarum-audex) (38 added, 100% complete)
 * [`tryhackx/flarum-topic-rating`](https://github.com/TryHackX/flarum-topic-rating) (30 added, 100% complete)
