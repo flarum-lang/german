@@ -8,7 +8,14 @@ ernestdefoe-waymark:
     home_target_home: 'Deine Startseite'
     home_target_tags: 'Die Tag-Seite'
     home_title: 'Dein Forumname'
+    pages_heading: 'Pfad anzeigen auf'
+    position_help: 'Wo der Pfad auf der Seite angezeigt werden soll.'
     position_label: Position
+    show_discussions: Diskussionen
+    show_messages: Nachrichten
+    show_other: 'Jede andere Seite'
+    show_tags: 'Tags und Tag-Seiten'
+    show_users: Profile
     style_label: Stil
     tags_text_label: 'Name der Tag-Seite'
   forum:
@@ -22,4 +29,5 @@ ernestdefoe-waymark:
     search: 'Suche: „{query}“'
     security: '=> core.ref.security'
     settings: '=> core.ref.settings'
+    show_all: 'Ganzen Pfad anzeigen'
     tags: '=> flarum-tags.ref.tags'
