@@ -127,11 +127,17 @@ ramon-avocado:
       hero_image_tags_label: 'Tags, die ein Hero-Bild erfordern'
       hide_links_for_guests_help: 'Verhindert, dass Gäste Links in Beiträgen anklicken können. Beim Anklicken eines Links wird stattdessen eine Aufforderung zum Anmelden oder Registrieren angezeigt.'
       hide_links_for_guests_label: 'Links für Gäste verbergen'
+      home_feed_sort_label: Sortierung
       loading_spinner_style_label: Spinner-Stil
       logo_enabled_help: 'Das benutzerdefinierte Logo in der Kopfzeile anzeigen.'
       logo_enabled_label: 'Benutzerdefiniertes Logo aktivieren'
       logo_svg_help: 'Lade ein benutzerdefiniertes SVG-Logo für dein Forum hoch.'
       logo_svg_label: SVG-Logo
+      new_discussion_composer_default: 'Standard — öffnet am Standort des Feldes, ohne Effekt'
+      new_discussion_composer_floating: 'Freischwebend — das Feld schwebt vom unteren Rand des Bildschirms ein (in der Größe anpassbar, lässt sich in eine Sprechblase ziehen)'
+      new_discussion_composer_help: 'So öffnet der Composer vom Feld „Erzähl allen, …“ auf der Startseite und unter /discussions.'
+      new_discussion_composer_inline: 'An Ort und Stelle, mit Effekt – das Feld verwandelt sich in den Composer'
+      new_discussion_composer_label: 'Composer für neue Diskussionen'
       popular_heading_label: 'Titel für Beliebte Diskussionen'
       post_badge_position_below: 'Unter dem Benutzername (eigene Zeile)'
       post_badge_position_default: 'Flarum Standard (aus — Scheibe über dem Avatar)'
@@ -149,6 +155,8 @@ ramon-avocado:
       post_cta_position_label: 'Position des Beitrittsaufrufs (nach welcher Beitragsnummer)'
       presence_enabled_help: 'Live-Anzeige „Wird gerade gelesen“ im Diskussions-Hero mit Avataren der Leser. Erfordert die Erweiterung „Realtime“; Nutzer, bei denen die Option „Online anzeigen“ deaktiviert ist, werden niemals aufgeführt.'
       presence_enabled_label: 'Anzeigen, wer eine Diskussion liest'
+      reply_dock_help: 'Zeigt während der gesamten Diskussion am unteren Bildschirmrand eine Sprechblase mit der Aufschrift „Antwort schreiben…“ an, die an den Beiträgen ausgerichtet ist. Gäste sehen eine Aufforderung, sich anzumelden. Ist diese Funktion deaktiviert, nehmen der Texteditor und das Antwortfeld am Ende der Diskussion wieder das Standarddesign von Flarum an.'
+      reply_dock_label: 'Schwebende Antwortblase'
       reply_to_header_help: 'Ein Beitrag, der mit einer Erwähnung eines anderen Beitrags beginnt, zeigt unter dem Namen die Angabe „Als Antwort auf“ sowie den Avatar des Autors an, und die Erwähnung bleibt am Anfang des Textes stehen. Beim Darüberfahren mit der Maus wird der ursprüngliche Beitrag hervorgehoben; durch Anklicken gelangt man zu ihm. Erwähnungen an anderen Stellen im Text, Benutzererwähnungen und Zitate bleiben unverändert.'
       reply_to_header_label: 'Bei Antworten „Als Antwort auf“ anzeigen'
       search_clear: 'Suche leeren'
@@ -168,6 +176,8 @@ ramon-avocado:
       section_hero_image_tags: 'Titelbild für Diskussionen'
       section_home_banner: Banner
       section_home_categories: 'Hervorgehobene Kategorien'
+      section_home_composer: 'Neue Diskussion'
+      section_home_feed: Diskussionsliste
       section_homepage: Homepage
       section_logo: Logo
       section_online: Online-Benutzer
