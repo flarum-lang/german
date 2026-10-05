@@ -12,13 +12,16 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (100% complete)
 * [`ernestdefoe/chronicle`](https://github.com/ernestdefoe/chronicle) (14% complete)
+* [`ernestdefoe/folio`](https://github.com/ernestdefoe/folio) (100% complete)
 * [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (47% complete)
 * [`ernestdefoe/greeter`](https://github.com/ernestdefoe/greeter) (100% complete)
 * [`ernestdefoe/header-nav`](https://github.com/ernestdefoe/header-nav) (100% complete)
 * [`ernestdefoe/kindred`](https://github.com/ernestdefoe/kindred) (100% complete)
-* [`ernestdefoe/ladder`](https://github.com/ernestdefoe/ladder) (57% complete)
+* [`ernestdefoe/ladder`](https://github.com/ernestdefoe/ladder) (100% complete)
 * [`ernestdefoe/reel`](https://github.com/ernestdefoe/reel) (100% complete)
+* [`ernestdefoe/rubric`](https://github.com/ernestdefoe/rubric) (77% complete)
 * [`ernestdefoe/sheaf`](https://github.com/ernestdefoe/sheaf) (100% complete)
 * [`ernestdefoe/waymark`](https://github.com/ernestdefoe/waymark) (100% complete)
 * [`fof/discord-autolink`](https://github.com/FriendsOfFlarum/discord-autolink) (100% complete)
@@ -27,6 +30,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`datlechin/flarum-references`](https://github.com/datlechin/flarum-references) (8 changed, 62% complete)
 * [`ernestdefoe/hero-builder`](https://github.com/ernestdefoe/hero-builder) (8 added, 100% complete)
 * [`ernestdefoe/scribe`](https://github.com/ernestdefoe/scribe) (32 added, 100% complete)
 * [`ernestdefoe/steward`](https://github.com/ernestdefoe/steward) (20 added, 34% complete)
