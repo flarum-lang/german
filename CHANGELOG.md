@@ -14,8 +14,9 @@ CHANGELOG
 
 * [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (100% complete)
 * [`ernestdefoe/chronicle`](https://github.com/ernestdefoe/chronicle) (100% complete)
+* [`ernestdefoe/connect`](https://github.com/ernestdefoe/connect) (32% complete)
 * [`ernestdefoe/folio`](https://github.com/ernestdefoe/folio) (100% complete)
-* [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (93% complete)
+* [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (100% complete)
 * [`ernestdefoe/greeter`](https://github.com/ernestdefoe/greeter) (100% complete)
 * [`ernestdefoe/header-nav`](https://github.com/ernestdefoe/header-nav) (100% complete)
 * [`ernestdefoe/kindred`](https://github.com/ernestdefoe/kindred) (100% complete)
