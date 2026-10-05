@@ -24,6 +24,9 @@ ernestdefoe-ladder:
       range_points: '{min}–{max} Punkte'
     metric:
       label: 'Mitglieder einstufen mittels'
+      points: Ranglisten-Punkten
+      posts: Beiträgen
+      votes: Gamification-Punkten
     modal:
       color_label: Farbe
       create_title: 'Rang hinzufügen'
