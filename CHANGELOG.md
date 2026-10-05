@@ -15,9 +15,9 @@ CHANGELOG
 * [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (20% complete)
 * [`ernestdefoe/greeter`](https://github.com/ernestdefoe/greeter) (100% complete)
 * [`ernestdefoe/kindred`](https://github.com/ernestdefoe/kindred) (100% complete)
-* [`ernestdefoe/ladder`](https://github.com/ernestdefoe/ladder) (46% complete)
+* [`ernestdefoe/ladder`](https://github.com/ernestdefoe/ladder) (50% complete)
 * [`ernestdefoe/reel`](https://github.com/ernestdefoe/reel) (40% complete)
-* [`ernestdefoe/waymark`](https://github.com/ernestdefoe/waymark) (86% complete)
+* [`ernestdefoe/waymark`](https://github.com/ernestdefoe/waymark) (100% complete)
 * [`fof/discord-autolink`](https://github.com/FriendsOfFlarum/discord-autolink) (100% complete)
 * [`fof/mark-unread`](https://github.com/FriendsOfFlarum/mark-unread) (100% complete)
 
@@ -33,7 +33,7 @@ CHANGELOG
 * [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings) (1 changed, 100% complete)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload) (4 added, 100% complete)
 * [`linkrobins/support`](https://github.com/linkrobins/support) (234 added, 87% complete)
-* [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki) (104 added, 2 changed, 99% complete)
+* [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki) (106 added, 2 changed, 100% complete)
 * [`stezkoy/flarum-audex`](https://github.com/Stezkoy/flarum-audex) (38 added, 100% complete)
 * [`tryhackx/flarum-topic-rating`](https://github.com/TryHackX/flarum-topic-rating) (30 added, 100% complete)
 
