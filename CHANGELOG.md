@@ -18,6 +18,7 @@ CHANGELOG
 * [`ernestdefoe/kindred`](https://github.com/ernestdefoe/kindred) (100% complete)
 * [`ernestdefoe/ladder`](https://github.com/ernestdefoe/ladder) (53% complete)
 * [`ernestdefoe/reel`](https://github.com/ernestdefoe/reel) (100% complete)
+* [`ernestdefoe/sheaf`](https://github.com/ernestdefoe/sheaf) (100% complete)
 * [`ernestdefoe/waymark`](https://github.com/ernestdefoe/waymark) (100% complete)
 * [`fof/discord-autolink`](https://github.com/FriendsOfFlarum/discord-autolink) (100% complete)
 * [`fof/mark-unread`](https://github.com/FriendsOfFlarum/mark-unread) (100% complete)
@@ -26,6 +27,7 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`ernestdefoe/hero-builder`](https://github.com/ernestdefoe/hero-builder) (8 added, 100% complete)
+* [`ernestdefoe/scribe`](https://github.com/ernestdefoe/scribe) (32 added, 100% complete)
 * [`ernestdefoe/steward`](https://github.com/ernestdefoe/steward) (20 added, 34% complete)
 * [`ffans/community-notes`](https://github.com/FFans/community-notes) (178 added, 100% complete)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr) (1 changed, 100% complete)
