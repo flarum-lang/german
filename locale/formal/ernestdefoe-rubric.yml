@@ -26,6 +26,8 @@ ernestdefoe-rubric:
     prefixes_help: 'Ein kurzes farbiges Etikett vor dem Titel einer Diskussion, das bei deren Eröffnung ausgewählt wird. Durch Ziehen lässt sich die Reihenfolge ändern, in der sie angezeigt werden.'
     preview: Vorschau
     preview_title: 'So sieht es vor einem Diskussionstitel aus'
+    required_heading: 'Präfix erfordern'
+    required_help: 'Um eine Diskussion in einem dieser Tags zu starten, ist ein Präfix erforderlich. (Nur wenn das Mitglied ein Präfix verwenden darf, das hier eingerichtet ist.)'
     save_button: Speichern
     save_required_button: Speichern
     saved: Gespeichert.
@@ -34,8 +36,19 @@ ernestdefoe-rubric:
     staff_only_badge: 'Nur Mitarbeiter'
     staff_only_help: 'Nur Mitglieder mit der Berechtigung „Präfixe nur für Mitarbeiter verwenden“ können diese anwenden — für Präfixe wie „Offiziell“.'
     staff_only_label: 'Nur Mitarbeiter'
+    tag_search_none: 'Es wurden keine Tags gefunden.'
+    tag_search_placeholder: 'Gib etwas ein, um ein Tag zu finden…'
     tags_help: 'Keines auswählen, um es überall anzubieten.'
     tags_label: 'Tags, in denen es verwendet werden kann'
+  api:
+    invalid_color: 'Wähle eine Farbe als Hex-Code aus, z. B. #2563eb.'
+    invalid_icon: 'Ein Symbol ist eine Font-Awesome-Klasse, z. B. fas fa-bullhorn.'
+    invalid_name: 'Gib dem Präfix einen Namen mit maximal 60 Zeichen.'
+    invalid_slug: 'Gib dem Präfix einen Linknamen aus Buchstaben, Zahlen und Bindestrichen.'
+    not_allowed_here: 'Das Präfix {prefix} darf in den Tags dieser Diskussion nicht verwendet werden.'
+    not_found: 'Dieses Präfix existiert nicht mehr.'
+    required: 'Wähle ein Präfix für eine Diskussion in diesem Tag aus.'
+    slug_taken: 'Ein anderes Präfix verwendet diesen Linknamen bereits.'
   forum:
     change_button: 'Präfix ändern'
     change_title: 'Präfix ändern'

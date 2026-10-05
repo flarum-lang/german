@@ -4,9 +4,17 @@
 
 ernestdefoe-chronicle:
   forum:
+    day_format: 'dddd, D MMMM YYYY'
     filters:
       all: Alle
+      badge: Abzeichen
+      best_answer: 'Beste Antworten'
       discussion: Diskussionen
+      label: Anzeigen
       like: Likes
       reply: Antworten
+    load_more: 'Mehr laden'
     nav: Aktivität
+    retry: 'Erneut versuchen'
+    today: Heute
+    yesterday: Gestern
