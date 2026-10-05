@@ -36,18 +36,27 @@ ernestdefoe-ladder:
       color_label: Farbe
       create_title: 'Rang hinzufügen'
       delete: 'Rang entfernen'
+      delete_confirm_existing: 'Diesen Rang entfernen? Die Gruppe selbst bleibt bestehen, einschließlich ihrer Mitglieder. Ladder wird sie lediglich nicht mehr verwalten.'
+      delete_confirm_owned: 'Diesen Rang entfernen? Da die zugehörige Gruppe von Ladder erstellt wurde, wird auch die Gruppe gelöscht, und ihre Mitglieder werden auf den darunterliegenden Rang verschoben.'
       description_help: 'Wird auf der öffentlichen Rangseite angezeigt. Optional.'
       description_label: Beschreibung
       edit_title: 'Rang bearbeiten'
+      existing_help: 'Die Mitglieder der Gruppe bleiben darin. „Ladder“ fügt Mitglieder nur hinzu oder entfernt sie, wenn sie aufsteigen.'
       existing_label: 'Vorhandene Gruppe'
       existing_placeholder: 'Wähle eine Gruppe…'
+      icon_help: 'Eine Font Awesome-Klasse, z. B. fas fa-tv. Wird im Rangabzeichen angezeigt.'
       icon_label: Symbol
       image_choose: 'Wähle ein Bild'
+      image_help: 'Wird auf der Karte dieses Rangs im Banner anstelle des Symbols angezeigt. Am besten eignen sich Bilder im Porträtformat mit einer Breite von etwa 3 und einer Höhe von etwa 5. PNG, JPEG, WebP oder GIF, bis zu 8 MB.'
       image_label: Bannerbild
       image_remove: 'Bild entfernen'
       image_replace: 'Bild ersetzen'
+      min_posts_help: 'Ein Mitglied erreicht diesen Rang, sobald es diese Anzahl an Beiträgen verfasst hat, und verbleibt dort, bis es den nächsten Rang erreicht.'
+      min_posts_help_points: 'Ein Mitglied erreicht diesen Rang bei dieser Punktzahl und verbleibt dort, bis es den nächsten Rang erreicht.'
       min_posts_label: 'Nötige Beiträge'
+      min_posts_label_points: 'Nötige Punkte'
       name_label: Rangname
+      plural_help: 'Wird dort verwendet, wo Flarum die Mitglieder der Gruppe auflistet. Lasse das Feld leer, um den Rangnamen zu verwenden.'
       plural_label: Pluralname
       preview_label: Vorschau
       save: 'Sprosse speichern'
@@ -58,28 +67,64 @@ ernestdefoe-ladder:
       button: 'Alle jetzt neu einstufen'
       failed: 'Neueinstufung wurde auf halbem Weg abgebrochen, so dass einige Mitglieder möglicherweise einen falschen Rang haben. Führe sie erneut aus, um korrekt abzuschließen.'
       finished: 'Abgeschlossen. {changed, plural, =0 {Alle waren bereits auf dem richtigen Rang.} one {# Mitglied hat seinen Rang geändert.} other {# Mitglieder haben ihre Ränge geändert.}}'
+      help: 'Ordnet jedes Mitglied auf dem Rang ein, den es sich durch seine Beitragszahl verdient hat. Wird automatisch ausgeführt, nachdem du die Rangliste geändert hast; verwende diese Funktion, nachdem du die folgenden Einstellungen geändert hast.'
+      help_points: 'Ordnet jedes Mitglied auf dem Rang ein, den es sich durch seine Punkte verdient hat. Läuft automatisch, nachdem du die Rangliste geändert hast; verwende es auch, nachdem die Rangliste ihre Gesamtwerte neu berechnet hat.'
       running: 'Neueinstufung… {done} von {total} Mitgliedern'
     settings:
+      banner_on_index_help: 'Platziert das Ranglisten-Banner über der Diskussionsliste, sodass jeder Besucher auf einen Blick sieht, welche Ränge es zu erklimmen gilt.'
       banner_on_index_label: 'Banner auch auf der Startseite anzeigen'
       banner_tagline_help: 'Eine kurze Zeile unter dem Titel, z. B. das Motto deines Forums. Optional.'
       banner_tagline_label: Banner-Slogan
+      banner_title_help: 'Die Überschrift oben auf dem Ranglisten-Banner. Lasse das Feld leer, um den Namen deines Forums zu verwenden.'
       banner_title_label: Bannertitel
+      demote_help: 'Standardmäßig deaktiviert, sodass ein einmal erreichter Rang auch dann erhalten bleibt, wenn Beiträge später gelöscht oder Punkte abgezogen werden. Aktiviere diese Option für eine strenge Rangliste.'
+      demote_label: 'Mitglieder nach unten verschieben, wenn sie unter ihren Rang fallen'
+      exempt_help: 'Mitglieder dieser Gruppen werden vollständig von der Rangliste ausgeschlossen. Nützlich für Bots und Mitarbeiterkonten.'
       exempt_label: 'Gruppe, die nie einen Rang erhalten'
+      inherit_help: 'Ranggruppen benötigen in der Regel keine Berechtigungen, da jedes Mitglied bereits über die Berechtigungen der Gruppe „Mitglieder“ verfügt. Um eine Berechtigung auf einem bestimmten Rang freizuschalten, erteile sie einmal dem niedrigsten Rang, der sie haben soll – alle darüber liegenden Ränge erben diese Berechtigung dann automatisch. Die Mitglieder tragen weiterhin ein Rangabzeichen.'
       inherit_label: 'Höhere Ränge behalten die Berechtigungen von niedrigeren'
+      show_nav_help: 'Auf der Seite „Ränge“ sind alle Ränge aufgelistet und angemeldeten Mitgliedern wird angezeigt, wie weit sie noch vom nächsten Rang entfernt sind. Sie ist immer unter /ranks zu finden.'
       show_nav_label: 'Rangliste in der Seitenleiste des Forums anzeigen'
   forum:
+    members:
+      empty: 'Bislang hat noch niemand diesen Rang inne.'
+      more: 'Mehr anzeigen ({shown} von {total})'
+      score: '{count, plural, one {# Beitrag} other {# Beiträge}}'
+      score_points: '{count, plural, one {# Punkt} other {# Punkte}}'
     nav: Ränge
     notifications:
       promoted: 'Du hast den Rang {rank} erreicht!'
+    profile:
+      heading: Rang
+      next: '{count, plural, one {# weiteren Beitrag} other {# mehr Beiträge}} bis {name} den Rang {rank} erreicht.'
+      next_own: '{count, plural, one {# weiteren Beitrag} other {# mehr Beiträge}} um den Rang {rank} zu erreichen.'
+      next_own_points: '{count, plural, one {# weiteren Punkt} other {# mehr Punkte}} um den Rang {rank} zu erreichen.'
+      next_points: '{count, plural, one {# weiteren Punkt} other {# mehr Punkte}} bis {name} den Rang {rank} erreicht.'
+      score: '{count, plural, one {# Beitrag} other {# Beiträge}}'
+      score_points: '{count, plural, one {# Punkt} other {# Punkte}}'
+      top: '{name} hat den Spitzenrang erreicht.'
+      top_own: 'Du hast den Spitzenrang erreicht.'
+      unranked: 'Noch kein Rang'
     ranks:
+      empty: 'Es sind noch keine Ränge in diesem Forum eingerichtet.'
+      exempt: 'Deine Gruppe wird nicht in der Rangliste geführt, daher hast du keinen Rang.'
+      guest: 'Melde dich an und fange an, Beiträge zu verfassen, um die Rangliste zu erklimmen.'
+      intro: 'Mit jedem Beitrag, den du verfasst, steigst du in der Rangliste auf. Hier findest du alle Ränge und die Voraussetzungen, um sie zu erreichen.'
+      intro_points: 'Alles, wofür du Punkte sammelst, bringt dich in der Rangliste nach oben. Hier findest du alle Ränge und die Voraussetzungen, um sie zu erreichen.'
       members: '{count, plural, one {# Mitglied} other {# Mitglieder}}'
       next: '{count, plural, one {# Beitrag mehr} other {# Beiträge mehr}} um {rank} zu erreichen.'
+      next_points: '{count, plural, one {# weiteren Punkt} other {# mehr Punkte}} um {rank} zu erreichen.'
       range: '{min}–{max} Beiträge'
       range_open: '{min}+ Beiträge'
+      range_open_points: '{min}+ Punkte'
+      range_points: '{min}–{max} Punkte'
       title: Ränge
       top: 'Du hast den höchsten Rang erreicht.'
       unranked: '{count, plural, one {# Beitrag mehr} other {# Beiträge mehr}} um den ersten Rang zu erreichen: {rank}.'
+      unranked_points: '{count, plural, one {# weiteren Punkt} other {# mehr Punkte}} um deinen ersten Rang zu erreichen, {rank}.'
       you_are_here: 'Du bist hier'
+      your_rank: 'Du bist {rank}, mit {count, plural, one {# Beitrag} other {# Beiträgen}}.'
+      your_rank_points: 'Du bist {rank}, mit {count, plural, one {# Punkt} other {# Punkten}}.'
     settings:
       notify_promoted_label: 'Ich habe einen neuen Rang'
   lib:
@@ -87,4 +132,14 @@ ernestdefoe-ladder:
       range: '{min}–{max}'
       range_open: '{min}+'
     errors:
+      color_invalid: 'Die Farbe muss als Hexadezimalwert angegeben werden, z. B. #7c3aed.'
+      group_invalid: 'Diese Gruppe kann nicht als Rang verwendet werden.'
+      group_taken: 'Diese Gruppe ist bereits in Rang in der Liste.'
+      image_missing: 'Bild zum Hochladen auswählen.'
       image_too_large: 'Das Bild ist größer als 8 MB.'
+      image_type: 'Diese Datei ist kein PNG, JPEG, WebP oder GIF Bild.'
+      min_points_invalid: 'Die erforderliche Punktzahl muss eine ganze Zahl sein, die größer oder gleich 0 ist.'
+      min_points_taken: 'Ein anderer Rang beginnt bereits bei {count} Punkten. Jeder Rang benötigt einen eigenen Schwellenwert.'
+      min_posts_invalid: 'Die Anzahl der benötigten Beiträge muss eine ganze Zahl sein, 0 oder mehr.'
+      min_posts_taken: 'Ein anderer Rang beginnt bereits bei {count} Beiträgen. Jeder Rang benötigt einen eigenen Schwellenwert.'
+      name_invalid: 'Gib dem Rang einen Namen mit maximal 100 Zeichen.'
