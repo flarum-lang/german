@@ -13,7 +13,7 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (100% complete)
-* [`ernestdefoe/chronicle`](https://github.com/ernestdefoe/chronicle) (14% complete)
+* [`ernestdefoe/chronicle`](https://github.com/ernestdefoe/chronicle) (37% complete)
 * [`ernestdefoe/folio`](https://github.com/ernestdefoe/folio) (100% complete)
 * [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (47% complete)
 * [`ernestdefoe/greeter`](https://github.com/ernestdefoe/greeter) (100% complete)
@@ -21,7 +21,7 @@ CHANGELOG
 * [`ernestdefoe/kindred`](https://github.com/ernestdefoe/kindred) (100% complete)
 * [`ernestdefoe/ladder`](https://github.com/ernestdefoe/ladder) (100% complete)
 * [`ernestdefoe/reel`](https://github.com/ernestdefoe/reel) (100% complete)
-* [`ernestdefoe/rubric`](https://github.com/ernestdefoe/rubric) (77% complete)
+* [`ernestdefoe/rubric`](https://github.com/ernestdefoe/rubric) (100% complete)
 * [`ernestdefoe/sheaf`](https://github.com/ernestdefoe/sheaf) (100% complete)
 * [`ernestdefoe/waymark`](https://github.com/ernestdefoe/waymark) (100% complete)
 * [`fof/discord-autolink`](https://github.com/FriendsOfFlarum/discord-autolink) (100% complete)
