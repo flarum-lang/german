@@ -24,9 +24,13 @@ ernestdefoe-ladder:
       range_points: '{min}–{max} Punkte'
     metric:
       help: 'Die Anzahl der Beiträge umfasst jede Antwort und jede Diskussion, die ein Mitglied verfasst.'
+      help_points: 'Ranglistenpunkte greifen auf die Gesamtpunkte der Leaderboard-Erweiterung zu, so dass Likes, Reaktionen, Beste Antworten und Ähnliches in die Summe einbezogen wird.'
+      help_votes: 'Gamification-Punkte sind die Upvotes und Downvotes, die Beiträge des Benutzers erhalten haben und kommen von der FoF Gamification-Erweiterung. Der Rang wird in dem Moment angepasst, in dem ein Vote abgegeben wird.'
       label: 'Mitglieder einstufen mittels'
       points: Ranglisten-Punkten
+      points_note: 'Der Rang eines Mitglieds wird bei jeder Nutzung des Forums – höchstens alle zwei Minuten – anhand seiner Punkte überprüft, sodass auch Punkte berücksichtigt werden, die es während seiner Abwesenheit sammelt, wie beispielsweise Likes für Beiträge.'
       posts: Beiträgen
+      switched: 'Die Rangliste wird nun nach {metric} ermittelt, und alle wurden neu eingestuft. Überprüfe, ob die unten aufgeführten Schwellenwerte dafür noch sinnvoll sind.'
       votes: Gamification-Punkten
     modal:
       color_label: Farbe
@@ -52,6 +56,7 @@ ernestdefoe-ladder:
       source_new: 'Neue Gruppe für diesen Rang erstellen'
     rerank:
       button: 'Alle jetzt neu einstufen'
+      failed: 'Neueinstufung wurde auf halbem Weg abgebrochen, so dass einige Mitglieder möglicherweise einen falschen Rang haben. Führe sie erneut aus, um korrekt abzuschließen.'
       finished: 'Abgeschlossen. {changed, plural, =0 {Alle waren bereits auf dem richtigen Rang.} one {# Mitglied hat seinen Rang geändert.} other {# Mitglieder haben ihre Ränge geändert.}}'
       running: 'Neueinstufung… {done} von {total} Mitgliedern'
     settings:
