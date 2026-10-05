@@ -15,6 +15,7 @@ ernestdefoe-connect:
     key_created: 'API-Schlüssel erstellt.'
     key_error: 'Schlüssel konnte nicht erstellt werden.'
     keys_heading: API-Schlüssel
+    label_placeholder: 'Wofür ist dieser Schlüssel gedacht? (z. B. Zapier)'
     new_key: 'Einen Schlüssel erstellen'
     op_contains: enthält
     op_equals: ist
@@ -28,6 +29,8 @@ ernestdefoe-connect:
     rule_name: Name
     rule_saved: 'Regel gespeichert.'
     rule_value: Wert
+    scope_read: 'Lesen (Auslöser)'
+    scope_write: 'Schreiben (Aktionen)'
     triggers_heading: 'Verfügbare Auslöser'
     zapier_client_id_placeholder: 'z. B. abc123...'
     zapier_settings_btn: Einstellungen
