@@ -33,6 +33,9 @@ ernestdefoe-gatehouse:
     rules_heading: Regeln
     usernames_heading: Benutzernamen
   email:
+    admin_new:
+      body: "{applicant} ({email}) hat sich angemeldet und wartet auf die Freigabe.\n\nHier kannst du den Antrag freigeben oder ablehnen:\n\n{url}\n"
+      subject: '{applicant} wartet auf den Beitritt zu {forum}'
     approved:
       body: "Dein {forum}-Konto wurde freigeschaltet. Du kannst dich jetzt anmelden:\n\n{url}\n"
       subject: 'Willkommen bei {forum}: Dein Konto wurde freigegeben'
@@ -40,6 +43,7 @@ ernestdefoe-gatehouse:
       body: "Dein {forum}-Konto wurde freigeschaltet. Bestätige deine E-Mail-Adresse über diesen Link, und schon kannst du loslegen:\n\n{url}\n"
       subject: 'Willkommen bei {forum}: Dein Konto wurde freigegeben'
     declined:
+      body: "Vielen Dank für dein Interesse an {forum}. Dein Konto wurde nicht freigeschaltet, daher kannst du dich damit nicht anmelden.\n\n{message}\n"
       subject: 'Dein {forum}-Konto'
     held:
       body: "Vielen Dank für deine Anmeldung bei {forum}. Neue Konten werden hier manuell freigeschaltet, daher wird ein Administrator dein Konto in Kürze prüfen. Sobald dies geschehen ist, erhältst du eine weitere E-Mail.\n\n{message}\n"
