@@ -63,6 +63,7 @@ linkrobins-wiki:
       comment: 'Wiki-Artikel kommentieren'
       create_article: 'Wiki-Artikel erstellen'
       edit_articles: 'Alle Wiki-Artikel bearbeiten und moderieren'
+      report_article: 'Wiki-Artikel melden'
       view_history: 'Versionsverlauf des Wiki-Artikels anzeigen'
     related:
       enabled_help: 'Wenn diese Funktion aktiviert ist, werden unter einem Artikel mit einer Kategorie einige seiner „Geschwisterartikel“ aufgelistet. Bei Artikeln ohne Kategorie wird nichts angezeigt.'

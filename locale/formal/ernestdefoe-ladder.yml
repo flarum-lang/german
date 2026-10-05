@@ -8,16 +8,22 @@ ernestdefoe-ladder:
       add: 'Einen Rang hinzufügen'
       edit: Bearbeiten
       empty: 'Es gibt noch keine Ränge. Füge den ersten hinzu – in der Regel einen Rang, der bei 0 Beiträgen beginnt, damit jedes Mitglied vom Tag seines Beitritts an einen hat.'
+      empty_points: 'Noch keine Ränge. Füge den ersten hinzu – in der Regel einen Rang, der bei 0 Punkten beginnt, sodass jedes Mitglied vom Tag seines Beitritts an einen hat.'
       existing_group: 'Vorhandene Gruppe'
       has_image: 'Hat ein Bild auf dem Banner'
       heading: 'Die Rangliste'
       help: 'Jeder Rang entspricht einer Gruppe mit einer bestimmten Beitragsschwelle. Mitglieder gehören genau einem Rang an, nämlich dem höchsten, den ihre Beitragszahl freischaltet, und ihre anderen Gruppen bleiben davon unberührt.'
+      help_points: 'Jeder Rang entspricht einer Gruppe mit einer bestimmten Punkteschwelle. Die Mitglieder gehören genau einem Rang an, nämlich der höchsten, die sie mit ihren Punkten erreicht haben, und ihre anderen Gruppen bleiben davon unberührt.'
       hidden_group: 'Ausgeblendete Gruppe. Mitglieder sehen diesen Rang nicht.'
       members: '{count, plural, one {# Mitglied} other {# Mitglieder}}'
       preview: Bannervorschau
       preview_help: 'Diese Information wird aus der obigen Rangliste übernommen und oben auf der Seite „Ränge“ angezeigt. Weise einem Rang ein Bild zu, um es anstelle des Symbols zu verwenden.'
       range: '{min}–{max} Beiträge'
       range_open: '{min}+ Beiträge'
+      range_open_points: '{min}+ Punkte'
+      range_points: '{min}–{max} Punkte'
+    metric:
+      label: 'Mitglieder einstufen mittels'
     modal:
       color_label: Farbe
       create_title: 'Rang hinzufügen'
