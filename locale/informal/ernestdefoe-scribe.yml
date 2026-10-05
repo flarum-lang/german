@@ -10,6 +10,12 @@ ernestdefoe-scribe:
     toolbar_empty: 'Ziehe eine Funktion hierher, um die Symbolleiste anzupassen.'
     toolbar_help: "Ziehe ein Element aus der untenstehenden Palette in die Symbolleiste und verschiebe es innerhalb der Symbolleiste, um die Reihenfolge zu ändern. Tastatur: Drücke die Eingabetaste auf einem Element, um es hinzuzufügen, die Pfeiltasten, um es zu verschieben, und die Entf-Taste, um es zu entfernen.\n"
     toolbar_label: Composer-Symbolleiste
+    video:
+      enabled: 'Videos einbetten (Klicken zum Laden)'
+      heading: Videoeinbettungen
+      help: "Füge einen Link zu einem unterstützten Video in einer eigenen Zeile ein, und er wird zu einer Einbettung. Die Leser sehen eine Vorschau; es wird nichts von der Videoseite geladen, bis sie auf „Abspielen“ klicken. Wenn du einen Anbieter deaktivierst, bleiben neue Links zu diesem Anbieter weiterhin als Links erhalten, und bestehende Einbettungen öffnen dann die Seite des Videos selbst, anstatt das Video im Beitrag abzuspielen.\n"
+      not_supported: "Nicht unterstützt, daher bleiben es Links: fb.watch, vm.tiktok.com und facebook.com/share (es handelt sich um Weiterleitungen), Rumble, Kick und X/Twitter.\n"
+      providers: Anbieter
   forum:
     composer:
       apply: Anwenden
@@ -23,6 +29,17 @@ ernestdefoe-scribe:
       toolbar_label: Formatierung
     reply_gate:
       locked: 'Du musst auf diese Diskussion antworten, bevor du dies ansehen kannst.'
+    video:
+      caption_label: Bildunterschrift
+      caption_placeholder: 'Bildunterschrift hinzufügen (optional)'
+      placeholder: 'Videolink einfügen (YouTube, Vimeo, TikTok…)'
+      play: '{provider}-Video abspielen'
+      player_title: '{provider}-Videoplayer'
+      provider_off: 'Das Einbetten von {provider}-Videos ist in diesem Forum deaktiviert.'
+      remove: 'Video entfernen'
+      replace: 'Video ersetzen'
+      unsupported: 'Dieser Link ist kein Video, das Scribe einbetten kann. Verwende die Schaltfläche „Link“, um ihn als Link hinzuzufügen.'
+      watch_on: 'Auf {provider} ansehen'
   lib:
     buttons:
       add_column: 'Spalte hinzufügen'
@@ -61,3 +78,4 @@ ernestdefoe-scribe:
       toggle_header_cell: 'Kopfzeile umschalten'
       underline: Unterstrichen
       undo: Rückgängig
+      video: Video
