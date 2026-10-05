@@ -12,9 +12,9 @@ CHANGELOG
 
 **Added support for new extensions**:
 
-* [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (20% complete)
+* [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (47% complete)
 * [`ernestdefoe/greeter`](https://github.com/ernestdefoe/greeter) (100% complete)
-* [`ernestdefoe/header-nav`](https://github.com/ernestdefoe/header-nav) (50% complete)
+* [`ernestdefoe/header-nav`](https://github.com/ernestdefoe/header-nav) (100% complete)
 * [`ernestdefoe/kindred`](https://github.com/ernestdefoe/kindred) (100% complete)
 * [`ernestdefoe/ladder`](https://github.com/ernestdefoe/ladder) (53% complete)
 * [`ernestdefoe/reel`](https://github.com/ernestdefoe/reel) (100% complete)
