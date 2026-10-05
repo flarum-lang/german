@@ -8,17 +8,35 @@ ernestdefoe-header-nav:
     open_editor: 'Navigationseditor öffnen'
   forum:
     editor:
+      add_link: 'Link hinzufügen'
       denied: 'Nur Administratoren können die Navigation bearbeiten.'
+      direct_help: 'Wie viele Links in der Kopfzeile werden angezeigt, bevor die restlichen hinter dem Menü „Mehr“ verborgen werden? Bei einem schmalen Fenster werden weniger angezeigt.'
+      direct_label: 'Links in der Kopfzeile'
       drag: 'Zum Neuanordnen ziehen'
       icon: 'Symbol (Font Awesome-Klasse)'
+      intro: 'Hier werden alle Menüpunkte deines Forums aufgelistet. Ziehe eine Zeile, um die Reihenfolge zu ändern, benenne sie um, weise ihr ein anderes Symbol zu und lege fest, wo sie angezeigt werden soll. Die Reihenfolge gilt sowohl für die Kopfzeile als auch für das Menü.'
       label: Name
+      logo_help: 'Optional. Lasse das Feld leer, um die Logo-Größe deines Designs beizubehalten. Ein kleineres Logo lässt mehr Platz für Links in der Kopfzeile; auf einem Smartphone wird die Größe auf 40 Pixel begrenzt.'
+      logo_label: 'Logo-Höhe (Pixel)'
+      logo_placeholder: Designstandard
+      missing: 'Diese Funktion wird derzeit in diesem Forum nicht angeboten – die entsprechende Erweiterung ist möglicherweise deaktiviert. Sie wird wieder verfügbar sein, sobald die Erweiterung wieder aktiviert ist.'
+      new_tab: 'In neuem Tab öffnen'
+      not_a_link: 'Dies ist eine Schaltfläche und kein Link, daher kann sie im Menü verbleiben oder ausgeblendet werden, kann aber nicht in die Kopfzeile verschoben werden.'
       place_header: Kopfzeile
       place_header_help: '— ein Link in der Kopfzeile, und aus dem Menü entfernt.'
       place_hidden: Ausgeblendet
       place_hidden_help: '— nirgendwo angezeigt.'
       place_menu: Menü
+      place_menu_help: '— bleibt im Menü des Forums (in der Seitenleiste oder in den Pillen bzw. Kacheln deines Designs).'
       placement: 'Wohin der Link zeigt'
+      remove: 'Diesen Link entfernen'
+      reset: 'Neu starten'
+      reset_confirm: 'Zurück zur ursprünglichen Navigation? Deine Änderungen hier werden erst gespeichert, wenn du auf „Navigation speichern“ klickst.'
+      save: 'Navigation speichern'
+      save_failed: 'Die Navigation konnte nicht gespeichert werden.'
+      saved: 'Navigation gespeichert.'
       title: Navigation
+      unsaved: 'Ungespeicherte Änderungen'
       url: Adresse
       url_invalid: 'Verwende einen Pfad in diesem Forum (der mit „/“ beginnt), eine HTTP(S)-Adresse oder „mailto“.'
       url_placeholder: '/p/datenschutz oder https://beispiel.de'

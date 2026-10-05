@@ -4,13 +4,26 @@
 
 ernestdefoe-gatehouse:
   admin:
+    enabled: 'Neue Anmeldungen bis zur Freigabe zurückhalten'
+    enabled_help: 'Bestehende Mitglieder sind davon in keiner Weise betroffen. Administratoren, die Mitglieder manuell hinzufügen, werden in keiner Weise eingeschränkt.'
     messages_heading: E-Mails
     queue:
       approve: Genehmigen
       approved_by: 'Genehmigt von {name}'
       decline: Ablehnen
       declined_by: 'Abgelehnt von {name}'
+      empty_approved: 'Niemand wurde bisher durch Gatehouse freigegeben.'
+      empty_declined: 'Niemand wurde abgelehnt.'
+      empty_pending: 'Niemand wartet gerade.'
+      signed_up: Angemeldet
       tab_approved: Genehmigt
       tab_declined: Abgelehnt
+      tab_pending: Wartet
+    queue_heading: 'Wartet auf Freigabe'
+    reserved_usernames: 'Reservierte Benutzernamen'
     rules_heading: Regeln
     usernames_heading: Benutzernamen
+  forum:
+    notice_declined: 'Dein Konto wurde nicht freigeschaltet, daher kann es in diesem Forum nicht genutzt werden.'
+    notice_pending: 'Vielen Dank für deine Anmeldung! Bevor du Beiträge verfassen kannst, muss ein Administrator dein Konto freischalten. Sobald dies geschehen ist, erhältst du eine E-Mail von uns.'
+    notification: '{name} hat sich angemeldet und wartet auf deine Freigabe'
