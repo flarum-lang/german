@@ -3,8 +3,22 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ernestdefoe-chronicle:
+  admin:
+    permission_view: 'Mitgliedsaktivität ansehen'
+    show_badge: 'Abzeichen, die sie sich verdient haben'
+    show_best_answer: 'Ihre besten Antworten'
+    show_discussion: 'Diskussionen, die sie begonnen haben'
+    show_joined: 'Wann sie beigetreten sind'
+    show_like: 'Beiträge, die sie geliked haben'
+    show_like_help: 'Mitglieder können ihre eigenen Likes weiterhin unter „Einstellungen“ → „Datenschutz“ ausblenden.'
+    show_reply: 'Ihre Antworten'
+    types_heading: 'Was in meiner Mitgliedsaktivität angezeigt wird'
+    types_help: 'Likes, beste Antworten und Abzeichen werden angezeigt, wenn Flarum Likes, FoF Best Answer und FoF Badges installiert sind.'
   forum:
     day_format: 'dddd, D MMMM YYYY'
+    empty: 'Hier gibt es noch nichts.'
+    empty_filtered: 'Noch nichts dieser Aktivität.'
+    failed: 'Die Aktivität konnte nicht geladen werden.'
     filters:
       all: Alle
       badge: Abzeichen
@@ -13,8 +27,19 @@ ernestdefoe-chronicle:
       label: Anzeigen
       like: Likes
       reply: Antworten
+    item:
+      badge: 'Hat sich das Abzeichen {badge} verdient'
+      best_answer: 'Beste Antwort in {title} beigetragen'
+      discussion: '{title} begonnen'
+      joined: 'Ist dem Forum beigetreten'
+      like: 'Hat Beitrag von {author} in {title} geliked'
+      like_no_author: 'Hat einen Beitrag in {title} geliked'
+      reply: 'Geantwortet in {title}'
+      untitled: 'eine Diskussion'
     load_more: 'Mehr laden'
     nav: Aktivität
     retry: 'Erneut versuchen'
+    settings:
+      show_likes: 'Likes in meiner Aktivität anzeigen'
     today: Heute
     yesterday: Gestern

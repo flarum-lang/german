@@ -4,8 +4,16 @@
 
 ernestdefoe-gatehouse:
   admin:
+    allow: 'Diese automatisch freigeben'
+    allow_help: 'Je eines pro Zeile. Eine Domain (uni-freiburg.de, einschließlich ihrer Subdomains), eine exakte Domain (@staff.example.org), eine Endung (.edu), ein Platzhalter (*@example.com) oder ein regulärer Ausdruck zwischen Schrägstrichen. Alle anderen warten. Lasse das Feld leer, um jedes neue Mitglied manuell zu genehmigen.'
+    declined_message: 'Zusatztext für abgelehnte Bewerber'
+    declined_message_help: 'Wird der E-Mail hinzugefügt, die versendet wird, wenn du jemanden ablehnst. Lasse das Feld leer, um den Standardtext zu verwenden.'
+    deny: 'Diese direkt ablehnen'
+    deny_help: 'Gleiche Muster sind erlaubt. Mit diesen Adressen ist eine Registrierung überhaupt nicht möglich, und das wird im Formular auch so angegeben.'
     enabled: 'Neue Anmeldungen bis zur Freigabe zurückhalten'
     enabled_help: 'Bestehende Mitglieder sind davon in keiner Weise betroffen. Administratoren, die Mitglieder manuell hinzufügen, werden in keiner Weise eingeschränkt.'
+    held_message: 'Zusatztext für Bewerber, die noch auf eine Antwort warten'
+    held_message_help: 'Wird der E-Mail „Wir haben deine Bewerbung erhalten“ hinzugefügt. Gib an, was du von ihnen benötigst, zum Beispiel: „Bitte antworte mit deiner Matrikelnummer“.'
     messages_heading: E-Mails
     queue:
       approve: Genehmigen
@@ -21,9 +29,27 @@ ernestdefoe-gatehouse:
       tab_pending: Wartet
     queue_heading: 'Wartet auf Freigabe'
     reserved_usernames: 'Reservierte Benutzernamen'
+    reserved_usernames_help: 'Je eine pro Zeile. Nur Administratoren können sich mit diesen Bezeichnungen registrieren oder ihren Namen später entsprechend ändern. Die Groß-/Kleinschreibung spielt keine Rolle. Verwende * als Platzhalter (admin*, *moderator*) oder einen regulären Ausdruck zwischen Schrägstrichen. Funktioniert unabhängig davon, ob Registrierungen zur Freigabe zurückgestellt werden oder nicht.'
     rules_heading: Regeln
     usernames_heading: Benutzernamen
+  email:
+    approved:
+      body: "Dein {forum}-Konto wurde freigeschaltet. Du kannst dich jetzt anmelden:\n\n{url}\n"
+      subject: 'Willkommen bei {forum}: Dein Konto wurde freigegeben'
+    approved_activate:
+      body: "Dein {forum}-Konto wurde freigeschaltet. Bestätige deine E-Mail-Adresse über diesen Link, und schon kannst du loslegen:\n\n{url}\n"
+      subject: 'Willkommen bei {forum}: Dein Konto wurde freigegeben'
+    declined:
+      subject: 'Dein {forum}-Konto'
+    held:
+      body: "Vielen Dank für deine Anmeldung bei {forum}. Neue Konten werden hier manuell freigeschaltet, daher wird ein Administrator dein Konto in Kürze prüfen. Sobald dies geschehen ist, erhältst du eine weitere E-Mail.\n\n{message}\n"
+      subject: 'Dein Konto bei {forum} wartet auf Freigabe'
   forum:
     notice_declined: 'Dein Konto wurde nicht freigeschaltet, daher kann es in diesem Forum nicht genutzt werden.'
     notice_pending: 'Vielen Dank für deine Anmeldung! Bevor du Beiträge verfassen kannst, muss ein Administrator dein Konto freischalten. Sobald dies geschehen ist, erhältst du eine E-Mail von uns.'
     notification: '{name} hat sich angemeldet und wartet auf deine Freigabe'
+  lib:
+    refused: 'Anmeldungen über diese E-Mail-Adresse werden in diesem Forum nicht akzeptiert.'
+    signin_declined: 'Dieses Konto wurde nicht freigeschaltet und kann daher in diesem Forum nicht verwendet werden.'
+    signin_pending: 'Dein Konto wartet darauf, von einem Administrator freigeschaltet zu werden. Wir benachrichtigen dich per E-Mail, sobald es bereit ist.'
+    username_reserved: 'Dieser Benutzername ist bereits vergeben. Bitte wähle einen anderen aus.'
