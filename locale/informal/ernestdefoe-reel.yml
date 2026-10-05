@@ -5,13 +5,30 @@
 ernestdefoe-reel:
   admin:
     giphy_key: 'GIPHY API-Schlüssel'
+    giphy_key_help: 'Erstelle eine App (wähle „API“, nicht „SDK“) und kopiere deren Schlüssel von'
     klipy_key: 'KLIPY API-Schlüssel'
+    klipy_key_help: 'Registriere dich, erstelle eine App und kopiere deren Schlüssel von'
     permission: 'Nach GIFs suchen'
     provider: GIF-Anbieter
+    provider_help: 'Woher die GIFs stammen. Für jeden Anbieter ist unten ein eigener kostenloser API-Schlüssel erforderlich.'
+    rating: Inhaltsfreigabe
+    rating_g: 'G, für alle geeignet'
+    rating_help: 'Inhalte bis zu welcher jugendfreien Einstufung in Suchanfragen angezeigt werden können.'
+    rating_pg: PG
+    rating_pg13: PG-13
+    rating_r: 'R, nur für Erwachsene'
   forum:
     button: 'GIF hinzufügen'
+    failed: 'GIFs können nicht geladen werden. Bitte versuche es erneut.'
     no_results: 'Keine GIFs gefunden. Versuche es mit einem anderen Wort.'
+    powered_by: 'Unterstützt von {provider}'
     results_for: 'Ergebnisse für „{query}“'
     search_placeholder: 'GIFs durchsuchen'
+    slow_down: 'Du suchst sehr schnell. Warte einen Moment und versuche es noch einmal.'
     title: 'GIF hinzufügen'
+    trending: Angesagt
     untitled: GIF
+  lib:
+    errors:
+      not_configured: 'GIF-Suche ist auf diesem Forum noch nicht eingerichtet.'
+      unavailable: 'Der GIF-Dienst hat nicht geantwortet. Bitte versuche es in Kürze erneut.'

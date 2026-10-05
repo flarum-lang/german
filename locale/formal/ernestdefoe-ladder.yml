@@ -23,6 +23,7 @@ ernestdefoe-ladder:
       range_open_points: '{min}+ Punkte'
       range_points: '{min}–{max} Punkte'
     metric:
+      help: 'Die Anzahl der Beiträge umfasst jede Antwort und jede Diskussion, die ein Mitglied verfasst.'
       label: 'Mitglieder einstufen mittels'
       points: Ranglisten-Punkten
       posts: Beiträgen
