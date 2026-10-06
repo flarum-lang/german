@@ -24,7 +24,7 @@ CHANGELOG
 * [`ernestdefoe/reel`](https://github.com/ernestdefoe/reel) (100% complete)
 * [`ernestdefoe/rubric`](https://github.com/ernestdefoe/rubric) (100% complete)
 * [`ernestdefoe/sheaf`](https://github.com/ernestdefoe/sheaf) (100% complete)
-* [`ernestdefoe/waymark`](https://github.com/ernestdefoe/waymark) (100% complete)
+* [`ernestdefoe/waymark`](https://github.com/ernestdefoe/waymark) (97% complete)
 * [`fof/discord-autolink`](https://github.com/FriendsOfFlarum/discord-autolink) (100% complete)
 * [`fof/mark-unread`](https://github.com/FriendsOfFlarum/mark-unread) (100% complete)
 
@@ -42,7 +42,7 @@ CHANGELOG
 * [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings) (1 changed, 100% complete)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload) (4 added, 4 changed, 100% complete)
 * [`linkrobins/support`](https://github.com/linkrobins/support) (234 added, 87% complete)
-* [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki) (106 added, 2 changed, 100% complete)
+* [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki) (106 added, 2 changed, 98% complete)
 * [`ramon/avocado`](https://github.com/ram0ng1/avocado) (32 added, 96% complete)
 * [`stezkoy/flarum-audex`](https://github.com/Stezkoy/flarum-audex) (38 added, 100% complete)
 * [`tryhackx/flarum-topic-rating`](https://github.com/TryHackX/flarum-topic-rating) (30 added, 100% complete)
