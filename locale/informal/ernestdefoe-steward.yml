@@ -40,5 +40,14 @@ ernestdefoe-steward:
       thinking: 'Stöbere gerade im Forum…'
       title: 'Dieses Forum fragen'
     queue:
+      by_steward: Steward
       nav: Moderationswarteschlange
+      resolve_ignored: 'Kein Problem'
+      resolve_kept: Behalten
+      resolve_removed: 'Habe ich entfernt'
+      someone: Jemand
+      tab_resolved: Fertig
       title: Moderationswarteschlange
+      was_ignored: Verworfen
+      was_kept: Behalten
+      was_removed: Entfernt
