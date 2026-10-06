@@ -2,6 +2,58 @@ CHANGELOG
 =========
 
 
+2.0.23 (2026-10-06)
+-------------------
+
+**General changes**:
+
+* Updated Flarum core translations (1 changed).
+
+
+**Added support for new extensions**:
+
+* [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (100% complete)
+* [`ernestdefoe/chronicle`](https://github.com/ernestdefoe/chronicle) (100% complete)
+* [`ernestdefoe/connect`](https://github.com/ernestdefoe/connect) (36% complete)
+* [`ernestdefoe/folio`](https://github.com/ernestdefoe/folio) (100% complete)
+* [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (100% complete)
+* [`ernestdefoe/greeter`](https://github.com/ernestdefoe/greeter) (100% complete)
+* [`ernestdefoe/header-nav`](https://github.com/ernestdefoe/header-nav) (100% complete)
+* [`ernestdefoe/kindred`](https://github.com/ernestdefoe/kindred) (100% complete)
+* [`ernestdefoe/ladder`](https://github.com/ernestdefoe/ladder) (100% complete)
+* [`ernestdefoe/reel`](https://github.com/ernestdefoe/reel) (100% complete)
+* [`ernestdefoe/rubric`](https://github.com/ernestdefoe/rubric) (100% complete)
+* [`ernestdefoe/sheaf`](https://github.com/ernestdefoe/sheaf) (100% complete)
+* [`ernestdefoe/waymark`](https://github.com/ernestdefoe/waymark) (100% complete)
+* [`fof/discord-autolink`](https://github.com/FriendsOfFlarum/discord-autolink) (100% complete)
+* [`fof/mark-unread`](https://github.com/FriendsOfFlarum/mark-unread) (100% complete)
+
+
+**Updated translations for extensions**:
+
+* [`datlechin/flarum-references`](https://github.com/datlechin/flarum-references) (8 changed, 62% complete)
+* [`ernestdefoe/hero-builder`](https://github.com/ernestdefoe/hero-builder) (8 added, 100% complete)
+* [`ernestdefoe/scribe`](https://github.com/ernestdefoe/scribe) (32 added, 100% complete)
+* [`ernestdefoe/steward`](https://github.com/ernestdefoe/steward) (46 added, 58% complete)
+* [`ffans/community-notes`](https://github.com/FFans/community-notes) (178 added, 100% complete)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr) (1 changed, 100% complete)
+* [`flarum/likes`](https://github.com/flarum/likes) (1 changed, 100% complete)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (2 added, 100% complete)
+* [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts) (2 added, 2 changed, 100% complete)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings) (1 changed, 100% complete)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload) (4 added, 4 changed, 100% complete)
+* [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye) (20 added, 6 changed, 100% complete)
+* [`linkrobins/support`](https://github.com/linkrobins/support) (318 added, 100% complete)
+* [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki) (114 added, 4 changed, 100% complete)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado) (70 added, 100% complete)
+* [`ramon/chat`](https://github.com/ram0ng1/chat) (126 added, 8 changed, 91% complete)
+* [`stezkoy/flarum-audex`](https://github.com/Stezkoy/flarum-audex) (38 added, 100% complete)
+* [`tryhackx/flarum-topic-rating`](https://github.com/TryHackX/flarum-topic-rating) (30 added, 100% complete)
+
+
+All changes: [2.0.22...2.0.23](https://github.com/flarum-lang/german/compare/2.0.22...2.0.23).
+
+
 2.0.22 (2026-10-02)
 -------------------
 
