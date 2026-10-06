@@ -2,6 +2,31 @@ CHANGELOG
 =========
 
 
+1.25.33 (2026-10-06)
+--------------------
+
+**General changes**:
+
+* Updated Flarum core translations (2 changed).
+
+
+**Updated translations for extensions**:
+
+* [`acpl/my-tags`](https://github.com/android-com-pl/my-tags) (3 changed, 100% complete)
+* [`blomstra/fontawesome`](https://github.com/blomstra/flarum-ext-fontawesome) (1 changed, 100% complete)
+* [`clarkwinkelmann/flarum-ext-emojionearea`](https://github.com/clarkwinkelmann/flarum-ext-emojionearea) (1 changed, 100% complete)
+* [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links) (1 changed, 100% complete)
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview) (11 changed, 100% complete)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr) (1 changed, 100% complete)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings) (1 changed, 100% complete)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (2 changed, 100% complete)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request) (8 changed, 100% complete)
+* [`tryhackx/flarum-homepage-blocks`](https://github.com/TryHackX/flarum-homepage-blocks) (1 changed, 92% complete)
+
+
+All changes: [1.25.32...1.25.33](https://github.com/flarum-lang/german/compare/1.25.32...1.25.33).
+
+
 1.25.32 (2026-10-01)
 --------------------
 
