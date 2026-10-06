@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.25.34 (2026-10-06)
+--------------------
+
+**Updated translations for extensions**:
+
+* [`fof/upgrade-advisor`](https://github.com/FriendsOfFlarum/upgrade-advisor) (118 added, 100% complete)
+
+
+All changes: [1.25.33...1.25.34](https://github.com/flarum-lang/german/compare/1.25.33...1.25.34).
+
+
 1.25.33 (2026-10-06)
 --------------------
 
