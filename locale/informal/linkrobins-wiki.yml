@@ -37,8 +37,10 @@ linkrobins-wiki:
     index_layout:
       heading: Wiki-Startseite
       help: 'Jeder Shortcode steht in einer eigenen Zeile. Zeilen, die keine Shortcodes sind, werden als Text angezeigt; Zeilen, die mit #, ## oder ### beginnen, werden zu Überschriften.'
-      intro: 'Gestalte den Inhalt der /wiki-Startseite mithilfe von Shortcodes. Lasse das Feld leer, um einfach alle Artikel aufzulisten.'
+      intro: 'Gestalte den Inhalt der /wiki-Startseite mithilfe von Shortcodes. Lasse das Feld leer, um einfach alle Kategorien mit Artikeln aufzulisten.'
       label: 'Layout der Startseite'
+      per_category_help: 'Wenn das Layout leer ist, listet die Wiki-Startseite alle Kategorien mit dieser Anzahl ihrer Artikel auf, wobei sortierte Artikel zuerst angezeigt werden. Bei einer größeren Anzahl wird ein Link „Alle anzeigen“ angezeigt. Zwischen 1 und 50.'
+      per_category_label: 'Artikel pro Kategorie'
       shortcode_article: 'Einen einzelnen Artikel anhand seiner ID verlinken.'
       shortcode_articles: 'Alle Artikel auflisten.'
       shortcode_articles_cat: 'Eine Kategorie auflisten (nach Slug oder ID), optional auf die N neuesten Einträge beschränkt. Füge title="…" hinzu, um eine Überschrift zu erstellen.'
@@ -183,6 +185,8 @@ linkrobins-wiki:
       new_article: 'Neuer Artikel'
       new_article_tooltip: 'Einen neuen Artikel verfassen'
       no_categories: 'Noch keine Kategorien.'
+      see_all_lead: 'Alle anzeigen in'
+      uncategorised: Andere
       untitled: 'Ohne Titel'
     nav: Wiki
     report:

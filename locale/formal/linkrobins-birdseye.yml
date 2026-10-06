@@ -9,11 +9,11 @@ linkrobins-birdseye:
     settings:
       collect_help: 'Die Erfassung vorübergehend anhalten, ohne die Erweiterung zu deaktivieren. Bereits vorhandene Statistiken werden weiterhin angezeigt.'
       collect_label: 'Analysedaten erfassen'
-      country_header_help: 'Der Proxy-Header, der den zweistelligen Ländercode jedes Besuchers enthält – „CF-IPCountry“ bei Cloudflare oder z. B. „X-Country“ von nginx-geoip. Er wird unverändert als vertrauenswürdig angesehen. Gib daher nur einen Header an, den dein Proxy tatsächlich setzt; lasse das Feld leer, wenn du keinen solchen Proxy hast und stattdessen auf das anonymisierte IP-Präfix zurückgreifst.'
+      country_header_help: 'Der Proxy-Header, der den zweistelligen Ländercode jedes Besuchers enthält: „CF-IPCountry“ bei Cloudflare oder z. B. „X-Country“ von nginx-geoip. Er wird unverändert als vertrauenswürdig angesehen. Gib daher nur einen Header an, den dein Proxy tatsächlich setzt; lasse das Feld leer, wenn du keinen solchen Proxy hast und stattdessen auf das anonymisierte IP-Präfix zurückgreifst.'
       country_header_label: 'Header für „Vertrauenswürdiges Land“'
       geo_ip_prefix_help: 'Wenn kein Proxy-Länder-Header vorhanden ist, wird ein gekürztes IP-Präfix (niemals die vollständige Adresse) im 72-Stunden-Puffer gespeichert, damit die Herkunftsländer lokal ermittelt werden können. Deaktiviere diese Option, um Länderstatistiken für nicht über einen Proxy geleiteten Datenverkehr zu überspringen.'
       geo_ip_prefix_label: 'Ländersuche über anonymisiertes IP-Präfix'
-      geoip_db_path_help: 'Vollständiger Pfad auf diesem Server zu einer MaxMind-Länderdatenbank, wie etwa der kostenlosen GeoLite2-Country.mmdb (Download über dein eigenes Konto bei maxmind.com). Wird nur verwendet, wenn kein vertrauenswürdiger Proxy-Header das Land liefert; jede Abfrage erfolgt auf diesem Server.'
+      geoip_db_path_help: 'Vollständiger Pfad auf diesem Server zu einer MaxMind-Länderdatenbank, wie etwa der kostenlosen GeoLite2-Country.mmdb (Download über dein eigenes Konto bei maxmind.com und extrahiere dann die .mmdb-Datei aus der .tar.gz-Datei). Beispiel: /home/you/geoip/GeoLite2-Country.mmdb. Speichere die Datei außerhalb deines öffentlichen Webordners (also nicht public_html oder ähnlich), damit sie nicht von deiner Website heruntergeladen werden kann, und stelle sicher, dass PHP darauf zugreifen kann. Wird nur verwendet, wenn kein vertrauenswürdiger Proxy-Header das Land angibt; jede Abfrage erfolgt auf diesem Server.'
       geoip_db_path_label: 'Datei für Länderdatenbank (optional)'
       license_key_help: 'Von deinem Birdseye-Abonnement auf linkrobins.com. Ohne Schlüssel erfasst die Erweiterung lediglich grundlegende Tageswerte, und zwar ausschließlich lokal. Durch das Speichern eines Schlüssels wird sofort eine Verbindung zu Birdseye hergestellt, sodass dein Dashboard das Forum innerhalb von Sekunden als verbunden anzeigt.'
       license_key_label: Lizenzschlüssel
@@ -63,8 +63,18 @@ linkrobins-birdseye:
       col_views: Aufrufe
       col_visitors: Besucher
       countries: Länder
+      country_lookup_after: 'Länder werden ab dem nächsten verarbeiteten Tag angezeigt; bereits zusammengefasste Tage können nachträglich nicht mehr ergänzt werden.'
+      country_lookup_compressed: 'Die Länderdatenbankdatei kann nicht verwendet werden: Sie ist noch komprimiert. Der Download von MaxMind ist ein .tar.gz-Archiv. Entpacke es und verweise in der Einstellung auf die darin enthaltene Datei „GeoLite2-Country.mmdb“.'
+      country_lookup_folder: 'Die Länderdatenbankdatei kann nicht verwendet werden: Die Einstellung verweist auf einen Ordner. Füge den Dateinamen am Ende des Pfads hinzu, z. B. /home/you/geoip/GeoLite2-Country.mmdb.'
+      country_lookup_invalid: 'Die Länderdatenbankdatei kann nicht verwendet werden: Die Datei unter diesem Pfad ist keine MaxMind-Datenbank. Verweise die Einstellung auf eine „GeoLite2-Country.mmdb“-Datei.'
+      country_lookup_missing: 'Die Länderdatenbankdatei kann nicht verwendet werden: Unter dem in den Einstellungen angegebenen Pfad ist keine Datei vorhanden. Überprüfe den Pfad auf Tippfehler und stelle sicher, dass er mit dem Dateinamen endet. Wenn der Pfad korrekt ist, erlaubt dein Host möglicherweise nicht, dass PHP Dateien in diesem Ordner öffnet; versuche es mit einem Ordner in deinem Home-Verzeichnis.'
       country_lookup_note: 'nicht konfiguriert'
-      country_lookup_unconfigured: 'Es werden keine Besucherländer erfasst, daher bleibt diese Karte leer. Birdseye liest das Land eines Besuchers aus einem vertrauenswürdigen Proxy-Header wie „CF-IPCountry“ aus oder, falls dies nicht möglich ist, aus einer lokalen MaxMind-Länderdatenbank. In diesem Forum ist keines von beiden konfiguriert. Lege die Länderdatenbankdatei in den untenstehenden Einstellungen fest oder verweise den vertrauenswürdigen Länder-Header auf den Wert, den dein Proxy übermittelt. Die Länder werden ab dem nächsten verarbeiteten Tag angezeigt; bereits zusammengefasste Tage können nicht nachträglich ergänzt werden.'
+      country_lookup_note_broken: 'Datenbankdatei ist nicht verwendbar'
+      country_lookup_note_off: 'Ländersuche abgeschaltet'
+      country_lookup_prefix_off: 'Es werden keine Besucherländer erfasst, daher bleibt diese Karte leer. Die Länderdatenbank ist eingerichtet, aber die Option „Ländersuche über anonymisiertes IP-Präfix“ ist deaktiviert, sodass sie nie verwendet wird. Aktiviere diese Einstellung oder lege einen Header für vertrauenswürdige Länder fest, falls dein Proxy einen solchen sendet.'
+      country_lookup_relative: 'Die Länderdatenbankdatei kann nicht verwendet werden: In den Einstellungen muss der vollständige Pfad auf diesem Server angegeben werden, beginnend mit einem Schrägstrich, z. B. /home/you/geoip/GeoLite2-Country.mmdb. Ein relativer Pfad oder eine Webadresse funktionieren nicht.'
+      country_lookup_unconfigured: 'Es werden keine Besucherländer erfasst, daher bleibt diese Karte leer. Birdseye liest das Land eines Besuchers aus einem vertrauenswürdigen Proxy-Header wie „CF-IPCountry“ aus oder, falls dies nicht möglich ist, aus einer lokalen MaxMind-Länderdatenbank. In diesem Forum ist keines von beiden konfiguriert. Lege die Länderdatenbankdatei in den Einstellungen fest oder verweise den vertrauenswürdigen Länder-Header auf den Wert, den dein Proxy übermittelt.'
+      country_lookup_unreadable: 'Die Länderdatenbankdatei kann nicht verwendet werden: Die Datei ist zwar vorhanden, PHP hat jedoch keine Lesezugriffsrechte darauf. Mache die Datei für den Benutzer lesbar, unter dem dein Forum läuft (die Berechtigungen 644 funktionieren in der Regel).'
       devices: Geräte
       direct: 'Direkt / unbekannt'
       export: 'Als CSV exportieren'

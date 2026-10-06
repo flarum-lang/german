@@ -193,6 +193,7 @@ fof-anti-spam:
       process_button: 'Aktionen anwenden'
       report_to_sfs_help: 'Hiermit werden die grundlegenden Benutzerdaten (Benutzername, E-Mail-Adresse, IP-Adresse) an StopForumSpam übermittelt. Damit wird verhindert, dass sich der Benutzer in anderen Foren registriert, die den StopForumSpam-Dienst nutzen.'
       report_to_sfs_label: 'An StopForumSpam melden'
+      success: '{username} wurde als Spammer markiert.'
       title: 'Markiere {username} als Spammer'
     user_controls:
       spammer_button: Spammer

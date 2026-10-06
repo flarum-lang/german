@@ -49,6 +49,8 @@ ernestdefoe-folio:
     deleted_user: '[gelöscht]'
     edited: bearbeitet
     errors:
+      export_running: 'Dein vorheriger Export wird noch durchgeführt. Warte, bis er abgeschlossen ist, und versuche es dann erneut.'
+      exports_busy: 'Das Forum führt gerade andere Exporte durch. Versuche es in einem Moment erneut.'
       needs_mpdf: 'Diese Diskussion enthält chinesische, japanische, koreanische, arabische, hebräische oder andere Schriftzeichen, die der PDF-Export dieses Forums nicht korrekt darstellen kann. Exportiere sie stattdessen als Word-Datei: Word zeigt alle Sprachen korrekt an.'
       unknown_format: 'Das Exportformat ist nicht verfügbar.'
     exported_on: 'Exportiert am {date}'

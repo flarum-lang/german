@@ -7,7 +7,8 @@ ernestdefoe-waymark:
     home_help: 'Wie der erste Crumb heißt, der immer auf die Startseite deines Forums verweist.'
     home_home: Start
     home_label: 'Erster Breadcrumb'
-    home_target_help: 'Wenn deine Startseite eine Landingpage ist, die Besucher nur einmal sehen, richte den ersten Breadcrumb auf die Tag-Seite aus, damit sie stattdessen zurück ins Forum gelangen.'
+    home_target_all: 'Die Diskussionsliste'
+    home_target_help: 'Wenn deine Startseite eine Landingpage oder ein Blog ist, richte den ersten Breadcrumb auf die Diskussionsliste oder die Tag-Seite aus, damit Besucher stattdessen zurück ins Forum gelangen.'
     home_target_home: 'Deine Startseite'
     home_target_label: 'Der erste Breadcrumb verlinkt nach'
     home_target_tags: 'Die Tag-Seite'
