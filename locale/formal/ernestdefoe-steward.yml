@@ -7,14 +7,22 @@ ernestdefoe-steward:
     permissions:
       review_label: 'Steward Moderationswarteschlange anzeigen'
     settings:
+      answers_help: 'Mitglieder können Fragen stellen und erhalten eine Antwort, die sich aus deinen eigenen Diskussionen ableitet. Wenn es in deinem Forum keine Antwort auf die Frage gibt, wird dies auch so angegeben, anstatt zu spekulieren.'
+      answers_label: 'Fragen aus deinem Forum beantworten'
+      moderation_help: 'Die meisten Beiträge werden sofort und kostenlos gelöscht. Nur wirklich zweideutige Beiträge werden genauer geprüft, und es wird niemals etwas automatisch entfernt – alles, was fragwürdig ist, wird für dich in die Warteschlange gestellt.'
       moderation_label: 'Neue Beiträge filtern'
       relay_url_label: Dienst-URL
+      site_key_help: 'Aus deinem Kundenbereich. Er ist an diese Domain gebunden – derselbe Schlüssel funktioniert auf einer anderen Website nicht.'
       site_key_label: Seitenschlüssel
+      threshold_help: 'Unter dieser Schwelle sagt Steward, dass er es nicht weiß, anstatt auf eine schwache Übereinstimmung zu antworten. 0.62 passt für die meisten Foren.'
+      threshold_label: 'Vertrauensschwelle für die Antwort'
       trusted_posts_help: 'Etablierte Mitglieder werden niemals überprüft.'
+      trusted_posts_label: 'Mitglieder nach dieser Anzahl von Beiträgen vertrauen'
     usage:
       answers: 'Fragen beantwortet'
       chart_label: 'Tägliche Nutzung über die letzten {n} Tage hinweg'
       left: '{n} von {total} verbleibend'
+      not_connected: 'Noch nicht verbunden. Füge deinen Website-Schlüssel oben ein, dann wird deine Nutzung hier angezeigt.'
       resets: 'Wird zurückgesetzt {date}'
       screenings: 'Beiträge überwacht'
       title: 'Deine Nutzung in diesem Monat'
@@ -23,8 +31,13 @@ ernestdefoe-steward:
   forum:
     ask:
       ask: Fragen
+      caveat: 'Die Informationen stammen aus Beiträgen in diesem Forum; bitte überprüfe die Quellen, falls dies von Bedeutung ist.'
+      miss_not_found: 'In diesem Forum scheint es noch keine Antwort darauf zu geben. Es könnte sich lohnen, eine Diskussion darüber anzustoßen.'
       nav: Fragen
+      placeholder: 'Was versuchst du zu tun?'
       sources: 'Beantwortet durch'
+      subtitle: 'Die Antwort basiert auf Diskussionen und Dokumentationen, die bereits auf dieser Website zu finden sind – nicht aus dem Internet im weiteren Sinne.'
+      thinking: 'Stöbere gerade im Forum…'
       title: 'Dieses Forum fragen'
     queue:
       nav: Moderationswarteschlange

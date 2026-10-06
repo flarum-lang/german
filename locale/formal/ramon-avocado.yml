@@ -127,7 +127,14 @@ ramon-avocado:
       hero_image_tags_label: 'Tags, die ein Hero-Bild erfordern'
       hide_links_for_guests_help: 'Verhindert, dass Gäste Links in Beiträgen anklicken können. Beim Anklicken eines Links wird stattdessen eine Aufforderung zum Anmelden oder Registrieren angezeigt.'
       hide_links_for_guests_label: 'Links für Gäste verbergen'
+      home_feed_count_help: 'Wie viele Diskussionen auf der Homepage-Liste angezeigt werden. Gilt auch für die Seite „Folgen“.'
+      home_feed_count_label: 'Anzahl der Diskussionen'
+      home_feed_sort_help: 'Beliebte Beiträge werden nach Antworten, Likes, Aufrufen und aktuellen Aktivitäten sortiert. Die neuesten Aktivitäten folgen auf die aktuellste Antwort, genau wie in der Standard-Diskussionsliste. Angeheftete Diskussionen bleiben in beiden Listen ganz oben.'
       home_feed_sort_label: Sortierung
+      home_feed_sort_latest: 'Neueste Aktivität'
+      home_feed_sort_popular: 'Beliebte Diskussionen'
+      link_icon_svg_help: 'Ersetzt das Favicon in Links zu anderen Diskussionen des Forums (#123). Es wird in der Linkfarbe dargestellt, passt sich also den farblichen Akzenten an – es wird lediglich die Form der SVG-Datei verwendet.'
+      link_icon_svg_label: 'Symbol für interne Links (SVG)'
       loading_spinner_style_label: Spinner-Stil
       logo_enabled_help: 'Das benutzerdefinierte Logo in der Kopfzeile anzeigen.'
       logo_enabled_label: 'Benutzerdefiniertes Logo aktivieren'
@@ -340,6 +347,11 @@ ramon-avocado:
       types_label: 'Nach Art filtern'
       version_label: Version
       version_placeholder: 'Version (z. B. v2.4.0)'
+    composer:
+      guest_pill: 'Anmelden, um zu antworten'
+      hide_preview: 'Vorschau ausblenden'
+      remove_reply: 'Antwort entfernen'
+      resize_handle: 'Zum Ändern der Größe ziehen · zum Minimieren nach unten ziehen'
     discussion:
       hero_image_add: 'Bild hinzufügen'
       hero_image_remove: 'Bild entfernen'
@@ -391,6 +403,7 @@ ramon-avocado:
       discussions: Diskussionen
       filter_tags: 'Tags filtern'
       following_heading: Folgend
+      latest_heading: 'Neueste Diskussionen'
       like: Like
       like_count_plural: '{count} Likes'
       like_count_singular: '1 Like'
@@ -439,6 +452,10 @@ ramon-avocado:
       online: online
     post:
       copy_code: 'Code kopieren'
+      gallery_count: '{count} Fotos'
+      gallery_next: 'Nächste Fotos'
+      gallery_prev: 'Vorherige Fotos'
+      in_reply_to: 'Antwort auf'
       op_badge: Verfasser
     post_cta:
       or: oder
@@ -502,6 +519,10 @@ ramon-avocado:
       not_found: 'Tag nicht gefunden.'
       other_tags_label: 'Andere Tags'
       title: Kategorien
+    tags_modal:
+      cancel: Abbrechen
+      save: Speichern
+      title: 'Tags bearbeiten'
     team:
       disabled: 'Diese Seite ist nicht verfügbar.'
       discussions: Diskussionen
