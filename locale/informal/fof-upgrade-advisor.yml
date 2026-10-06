@@ -23,6 +23,7 @@ fof-upgrade-advisor:
         title: Erweiterungskompatibilität
         warning: '{current} aktivierte Erweiterungen konnten nicht überprüft werden – möglicherweise handelt es sich um Premium-Erweiterungen oder um Erweiterungen aus privaten Repositories. Füge den Zugriff auf der Registerkarte „Repositories“ hinzu.'
       php-version:
+        chip: 'PHP {current}'
         fail: 'PHP {current} ist installiert, es wird jedoch {required} oder eine neuere Version benötigt.'
         pass: 'PHP {current} wird eingesetzt.'
         title: PHP-Version
@@ -48,10 +49,66 @@ fof-upgrade-advisor:
       superseded_replaced: 'Vor dem Upgrade entfernen und nach Abschluss des Upgrades {replacement} installieren'
       superseded_self: 'Entferne diesen Advisor als letzten Schritt des Upgrades'
       unknown: 'Nicht gefunden – Premium oder privat? Konfiguriere den Repository-Zugriff'
+    hints:
+      no_path: 'Es gibt noch keine Version für 2.0 (die aktuellste Version ist {version}). Erkundige dich beim Autor nach deren Plänen oder überlege, es zu entfernen.'
+      no_path_abandoned: 'Aufgegeben, ohne Ersatz. Plane die Entfernung oder finde eine Alternative.'
+      no_path_replacement_not_ready: 'Aufgegeben. Der Ersatz {replacement} ist noch nicht bereit für 2.0.'
+      no_path_unversioned: 'Noch nicht 2.0-kompatibel. Erkundige dich beim Autor nach deren Plänen oder überlege, es zu entfernen.'
+      none: 'Bereit: {version} unterstützt Flarum 2.0.'
+      none_unversioned: 'Bereit: Auf Discuss als kompatibel mit 2.0 gekennzeichnet.'
+      remove: 'Vor dem Upgrade entfernen. Eingebaut in Flarum 2.0, daher kein Ersatz nötig.'
+      remove_last: 'Entferne diesen Advisor als letzten Schritt des Upgrades.'
+      swap_after_upgrade: 'Vor dem Upgrade entfernen und nach dem Upgrade {replacement} installieren.'
+      switch_replacement: 'Aufgegeben. Vor dem Upgrade entfernen und nach dem Upgrade {replacement} (2.0-kompatibel) installieren.'
+      switch_replacement_unverified: 'Aufgegeben. Vor dem Upgrade entfernen und nach dem Upgrade {replacement} installieren. Zuerst prüfen, ob es 2.0 unterstützt.'
+      unknown: 'Nicht auf Packagist oder in einem der konfigurierten Repositorys gefunden. Falls es sich um ein Premium- oder privates Repository handelt, füge den Zugriff auf das Repository hinzu.'
+    list:
+      after: 'Nach der Aktualisierung'
+      before: 'Vor der Aktualisierung'
+      configure: 'Repository-Zugriff konfigurieren'
+      copied: Kopiert
+      copy: Kopieren
+      details:
+        abandoned: 'Aufgegeben, kein Ersatz'
+        latest: 'Neueste {version} ist nur für 1.x'
+        no_release: 'Keine 2.0-Version'
+        none: '{version}'
+        none_unversioned: 'Auf Discuss als „bereit für 2.0“ gekennzeichnet'
+        remove: 'In den Flarum-Kern integriert'
+        remove_last: 'Im letzten Schritt entfernen'
+        replacement: '→ {replacement}'
+        replacement_not_ready: 'Aufgegeben → {replacement} (nicht bereit für 2.0)'
+        replacement_unverified: '→ {replacement} (Unterstützung in 2.0 prüfen)'
+        unknown: 'Nicht gefunden'
+      final_step: 'Letzter Schritt: entferne {title} nach dem Upgrade.'
+      groups:
+        decision:
+          description: 'Es gibt noch keine 2.0-kompatible Version: Frage den Autor nach seinen Plänen oder überlege, darauf zu verzichten.'
+          title: 'Entscheidung erforderlich'
+        environment:
+          description: 'Behebe diese vor dem Upgrade.'
+          title: Serverumgebung
+        ready:
+          description: 'Diese verfügen über eine 2.0-kompatible Version.'
+          title: Bereit
+        replace:
+          description: 'Entferne diese vor dem Upgrade; installiere etwaige Ersatz-Erweiterungen, sobald das Upgrade abgeschlossen ist.'
+          title: 'Entfernen oder ersetzen'
+        unknown:
+          description: 'In der Regel Premium- oder private Erweiterungen. Füge den Zugriff auf das Repository hinzu, damit der Advisor diese überprüfen kann.'
+          title: 'Konnte nicht geprüft werden'
     overall:
+      blocked: 'Blockiert: {reasons}'
       fail: 'Dein Forum ist noch nicht für Flarum {version} bereit'
       pass: 'Dein Forum scheint für Flarum {version} bereit zu sein'
+      ready: 'Bereit für Flarum {version}'
+      reasons:
+        check: '{title} muss korrigiert werden'
+        no_path: '{count, plural, one {# Erweiterung hat} other {# Erweiterungen haben}} keine 2.0-Version'
+        unchecked: '{count, plural, one {# Erweiterung konnte} other {# Erweiterung konnten}} nicht geprüft werden'
       subtitle: 'Bereitschaft für ein Upgrade auf Flarum {version}.'
+      tasks: 'Bereit, sobald {count, plural, one {# Aufgabe abgeschlossen ist} other {# Aufgaben abgeschlossen sind}}'
+      unchecked_only: 'Fast bereit: {count, plural, one {# Erweiterung} other {# Erweiterungen}} konnten nicht geprüft werden'
       warning: 'Dein Forum ist fast bereit für Flarum {version}'
     repositories:
       add_composer: 'Repository hinzufügen'
@@ -69,6 +126,19 @@ fof-upgrade-advisor:
       type_floxum: Floxum
       url: Repository-URL
       username: Benutzername
+    summary:
+      blocked: '{count} blockiert'
+      checked: 'Geprüft {time}'
+      data_as_of: 'Paketdaten von {time}'
+      data_as_of_help: 'Paketabfragen werden bis zu 6 Stunden lang zwischengespeichert. Aktualisiere die Seite, um die neuesten Daten abzurufen.'
+      export: 'CSV exportieren'
+      progress: '{percent} % der Erweiterungen sind bereit'
+      ready: '{count} sind bereit'
+      recommended: '{version} empfohlen'
+      refresh: Aktualisieren
+      refresh_cooldown: 'Aktualisieren ({seconds} s)'
+      tasks: '{count} Eingriff erforderlich'
+      unknown: '{count} konnten nicht überprüft werden'
     tabs:
       report: Bereitschaftsbericht
       repositories: Repositorien
