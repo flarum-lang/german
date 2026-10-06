@@ -122,21 +122,31 @@ linkrobins-support:
       description: 'Konfiguriere Support-Kategorien und Ratenbegrenzungen für das Ticket-System.'
       title: Support
   api:
+    assign_staff_only: 'Tickets können ausschließlich Support-Mitarbeitern zugewiesen werden.'
     cannot_reply: 'Du kannst nicht auf dieses Ticket antworten.'
     category_required: 'Eine Kategorie ist erforderlich.'
+    default_assignee_staff_only: 'Eine Kategorie kann nur durch Support-Mitarbeiter zugewiesen werden.'
     login_required: 'Du musst angemeldet sein.'
     login_required_edit: 'Du musst angemeldet sein, um eine Antwort zu bearbeiten.'
     login_required_reply: 'Du musst angemeldet sein, um antworten zu können.'
+    no_permission_delete: 'Du hast keine Berechtigung, Antworten zu löschen.'
+    no_permission_edit: 'Du hast keine Berechtigung, Antworten zu bearbeiten.'
     rate_limit:
+      appeal_banned: 'Du hast keine Berechtigung, Einsprüche einzulegen.'
       appeal_has_open: 'Du hast bereits einen Einspruch offen. Bitte warte die Entscheidung ab, bevor du einen weiteren eröffnest.'
       appeal_quota: 'Du hast bereits {count} Einsprüche in den vergangenen {days} Tagen eingereicht (Limit: {limit}). Bitte versuche es später erneut.'
+      general_quota: 'Du hast in den letzten {hours} Stunden {count} Tickets eingereicht (Limit: {limit}). Bitte warte, bevor du ein weiteres Ticket einreichst.'
+      generic: 'Derzeit kann kein Ticket erstellt werden.'
     reply_content_required: 'Antwortinhalt ist erforderlich.'
+    reply_soft_delete_first: 'Eine Antwort muss zunächst vorläufig gelöscht werden, bevor sie endgültig entfernt werden kann.'
     subject_required: 'Ein Betreff ist erforderlich.'
     ticket_not_found: 'Ticket nicht gefunden.'
     ticket_required: 'Ein Ticket ist erforderlich.'
+    ticket_soft_delete_first: 'Ein Ticket muss zunächst vorläufig gelöscht werden, bevor es endgültig entfernt werden kann.'
   email:
     assigned_body: '{name} hat dir dieses Support-Ticket zugewiesen.'
     assigned_subject: 'Dir zugewiesen: {subject}'
+    awaiting_reminder_body: 'Unser Support-Team wartet auf deine Antwort zu diesem Ticket. Antworte, sobald du Zeit hast, dann werden wir uns umgehend weiter darum kümmern.'
     awaiting_reminder_subject: '[{subject}] Wartet auf deine Antwort'
     confirmed_solved_body: '{name} hat bestätigt, dass das Ticket gelöst wurde, und es geschlossen.'
     fallback_ticket: 'dein Suppport-Ticket'
@@ -183,6 +193,7 @@ linkrobins-support:
       uploading_many: '{count} Dateien werden hochgeladen…'
       uploading_one: '1 Datei wird hochgeladen…'
     compose:
+      appeal_banned: 'Du hasst keine Berechtigung, Einspruch einzulegen. Bitte wende dich an den Seiteninhaber über einen anderen Kanal.'
       back_to_categories: 'Zurück zu Kategorien'
       body_placeholder: 'Beschreibe das Problem ausführlich. Markdown wird unterstützt.'
       choose_category: 'Wähle eine Kategorie aus, um loszulegen.'
@@ -199,6 +210,12 @@ linkrobins-support:
       submitting: 'Wird eingereicht…'
       title: 'Neues Support-Ticket'
       title_appeal: 'Einspruch einlegen'
+    confirm:
+      close_ticket: 'Dieses Ticket schließen? Es kann erst beantwortet werden, wenn es wieder geöffnet wurde.'
+      delete_reply_forever: 'Diese Antwort endgültig löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.'
+      delete_ticket_forever: 'Dieses Ticket und alle Antworten darauf endgültig löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.'
+      soft_delete_reply: 'Diese Antwort vorläufig löschen? Mitarbeiter können sie später wiederherstellen.'
+      soft_delete_ticket: 'Dieses Ticket vorläufig löschen? Es wird aus dem Index und für den Ticketinhaber ausgeblendet; Mitarbeiter können es wiederherstellen.'
     decision:
       accepted: Akzeptiert
       pending: Ausstehend
@@ -210,6 +227,8 @@ linkrobins-support:
       delete_ticket_forever: 'Das Ticket konnte nicht endgültig gelöscht werden.'
       empty_body: 'Bitte gib deine Nachricht ein, bevor du das Formular absendest.'
       load_more_replies: 'Mehr Antworten konnten nicht geladen werden.'
+      load_more_tickets: 'Weitere Tickets konnten nicht geladen werden.'
+      load_ticket: 'Dieses Ticket konnte nicht geladen werden. Entweder wurde es gelöscht oder du hast keine Berechtigung, es anzuzeigen.'
       load_tickets: 'Tickets konnten nicht geladen werden.'
       post_reply: 'Antwort konnte nicht veröffentlicht werden.'
       restore_reply: 'Antwort konnte nicht wiederhergestellt werden.'
@@ -220,11 +239,20 @@ linkrobins-support:
       unknown: 'Unbekannter Fehler.'
       update_assignment: 'Zuweisung konnte nicht aktualisiert werden.'
       update_decision: 'Einspruchentscheidung konnte nicht aktualisiert werden.'
+      update_priority: 'Priorität konnte nicht aktualisiert werden.'
       update_status: 'Status konnte nicht aktualisiert werden.'
       upload: 'Datei konnte nicht hochgeladen werden.'
+      upload_no_files: 'Upload hat keine Dateien zurückgeliefert. Bitte versuche es erneut.'
     event:
       assigned: '{name} hat das Ticket an {assignee} zugewiesen'
       assigned_no_actor: 'Zugewiesen an {assignee}'
+      auto_closed: 'Nach Inaktivität automatisch geschlossen'
+      claimed: '{name} hat dieses Ticket beansprucht'
+      deleted_user: 'ein gelöschter Benutzer'
+      reassigned: '{name} hat dieses Ticket von {from} zu {to} neu zugewiesen'
+      reassigned_no_actor: 'Neu zugewiesen von {from} zu {to}'
+      status_changed: '{name} hat den Status von {from} zu {to} geändert'
+      status_changed_no_actor: 'Status geändert von {from} zu {to}'
       unassigned: '{name} hat Zuweisung von {assignee} entfernt'
       unassigned_no_actor: '{assignee} wurde zugewiesen'
     index:
@@ -319,22 +347,34 @@ linkrobins-support:
       col_tickets: Tickets
       confirmed: 'Durch Inhaber bestätigt'
       days: '{count} Tage'
+      endings: 'Wie gelöste Tickets geschlossen wurden'
+      first_response: 'Erste Antwort'
+      first_response_slow: 'Langsamste erste Antwort'
+      footnote: 'Ab dieser Version wird der Statusverlauf protokolliert, sodass die Bearbeitungszeit und die Art des Ticketabschlusses automatisch erfasst werden, sobald neue Tickets bearbeitet werden.'
       hours: '{count} h'
       legend_closed: Geschlossen
       legend_opened: Geöffnet
       load_failed: 'Statistiken konnten nicht geladen werden.'
+      median_note: 'typisch (median) und langsamstes Zehntel'
       minutes: '{count} min'
       n_days: '{count} Tage'
+      no_endings: 'In diesem Zeitraum nicht geschlossen.'
+      no_people: 'Keine Antworten von Mitarbeitern in diesem Zeitraum.'
       older_3: 'Mehr als 3 Tage'
       older_7: 'Mehr als 7 Tage'
       opened: 'Tickets geöffnet'
+      people: 'Von einem Mitarbeiter'
       period_summary: '{period}: {opened} geöffnet, {closed} geschlossen'
       range: Zeitraum
+      resolve_slow: 'Langsamste Lösung'
       show_table: 'Als Tabelle anzeigen'
       speed: Antwortzeiten
+      still_waiting: 'Wartet noch immer auf Antwort'
+      time_to_resolve: 'Zeit bis Lösung'
       title: Support-Statistiken
       unassigned: 'Nicht zugewiesen'
       volume: 'Geöffnet und geschlossen'
+      waiting: Wartet
       week_of: 'Woche vom {date}'
     status:
       awaiting_response: 'Warte auf Antwort'
@@ -346,9 +386,12 @@ linkrobins-support:
     ticket:
       assign: Zuweisen…
       delete: 'Ticket löschen'
+      mod_actions: 'Aktionen zur Ticketmoderation'
       priority_low: 'Als niedrige Priorität markieren'
       priority_normal: 'Normale Priorität'
       priority_urgent: 'Als dringend markieren'
       restore: 'Ticket wiederherstellen'
     user_controls:
+      allow_appeals: 'Support-Einsprüche erlauben'
+      disallow_appeals: 'Support-Einsprüche nicht erlauben'
       toggle_failed: 'Status der Einspruch-Sperre konnte nicht aktualisiert werden.'

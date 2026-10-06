@@ -15,6 +15,21 @@ ramon-chat:
       user_help: 'Wähle ein Konto aus, und die Ankündigungen werden zu normalen Nachrichten dieses Mitglieds: keine Bot-Name, kein Bild und ohne „BOT“-Kennzeichnung.'
       user_label: 'Stattdessen als Mitglied senden'
       user_search: 'Benutzer durchsuchen'
+    layout:
+      group_delivery: 'Zustellung und Daten'
+      group_general: Allgemein
+      group_integrations: Integrationen
+      group_messages: 'Nachrichten und Dateien'
+      groups_aria: Einstellungs-Gruppen
+      preview_bot_tag: Bot
+      preview_drawer: Chat-Reiter
+      preview_header: 'Schaltfläche in der Kopfzeile'
+      preview_label: Vorschau
+      saved: 'Alle Änderungen gespeichert'
+      search_clear: 'Suche löschen'
+      search_empty: 'Keine Einstellung entspricht dieser Suche.'
+      search_placeholder: Sucheinstellungen
+      unsaved: '{count, plural, one {# ungespeicherte Änderung} other {# ungespeicherte Änderungen}}'
     permissions:
       access_private_channels: 'Private Kanäle sehen und beitreten'
       bypass_slow_mode: 'Langsam-Modus überspringen'
@@ -52,7 +67,7 @@ ramon-chat:
       realtime_title: 'Echtzeit und Klänge'
       retention_help: 'Wie lange Nachrichten aufbewahrt werden. Ältere Nachrichten werden im Rahmen der nächtlichen Bereinigung gelöscht.'
       retention_title: Vorhaltedauer
-      uploads_help: 'Ob Nachrichten Dateien im Anhang enthalten dürfen und wie groß diese sein dürfen.'
+      uploads_help: 'Ob Nachrichten Dateien im Anhang enthalten dürfen, wie groß diese sein dürfen und wo sie gespeichert werden.'
       uploads_title: 'Hochgeladene Anhänge'
       webhooks_help: 'Slack-kompatible Endpunkte, über die ein externer Dienst Beiträge in einem Kanal veröffentlichen kann. Die URL wird einmalig angezeigt, und zwar bei ihrer Erstellung oder bei einer Rotation.'
       webhooks_title: 'Eingehende Webhooks'
@@ -74,6 +89,7 @@ ramon-chat:
       channel_retention_help: 'Anzahl der Tage, für die Nachrichten in Kategoriekanälen aufbewahrt werden sollen. Bei 0 werden sie dauerhaft gespeichert.'
       dm_retention_days: 'Aufbewahrung für Direktnachrichten (Tage)'
       dm_retention_help: 'Anzahl der Tage, für die Direkt- und Gruppen-Nachrichten aufbewahrt werden sollen. Bei 0 werden sie dauerhaft gespeichert.'
+      fof_upload_adapter: 'FoF Upload-Adapter'
       icon_help: 'Eine Font Awesome-Klasse, z. B. fas fa-comments.'
       icon_label: Chatsymbol
       limits_title: 'Einschränkungen und Sicherheit'
@@ -140,13 +156,20 @@ ramon-chat:
   api:
     archive_discussion_not_found: 'Diese Diskussion existiert nicht oder du hast keinen Zugriff darauf.'
     archive_empty: 'Dieser Kanal wurde ohne Nachrichten archiviert.'
+    archive_private_channel: 'Nur ein Administrator kann einen privaten Kanal in eine Diskussion archivieren.'
     archive_title_required: 'Ein Archiv benötigt einen Diskussionstitel.'
+    archive_too_large: 'Dieser Kanal hat mehr als {max} Nachrichten. Bitte einen Administrator, ihn zu archivieren.'
+    bookmark_name_too_long: 'Namen von Lesezeichen dürfen nicht mehr als {max} Zeichen enthalten.'
     cannot_remove_self: 'Benutze „Kanal verlassen“, um dich selbst zu entfernen.'
+    channel_archived_status: 'Diese Kanal wurde archiviert. Mache die Archivierung erst rückgängig.'
+    channel_flag_not_allowed: 'Nur Chat-Moderatoren dürfen diese Einstellung ändern.'
     channel_not_found: 'Dieser Kanal existiert nicht oder du hast keinen Zugriff darauf.'
+    channel_tag_not_found: 'Diese Kategorie existiert nicht oder du darfst nicht darauf zugreifen.'
     direct_channel_self: 'Nur du'
     direct_needs_participant: 'Wähle mindestens einen Benutzer aus, dem du eine Nachricht senden möchtest.'
     direct_too_many: '{max, plural, one {Ein Gruppenchat kann höchstens # Teilnehmer haben.} other {Ein Gruppenchat kann höchstens # Teilnehmer haben.}}'
     direct_unknown_user: 'Einer dieser Benutzer existiert nicht.'
+    draft_too_long: 'Dieser Entwurf ist zu lang, um ihn zu speichern. Entwürfe dürfen nicht länger als {max} Zeichen sein.'
     flag_detail_required: 'Beschreibe bitte, was an dieser Nachricht nicht stimmt.'
     flag_reason_invalid: 'Das ist kein Grund, aus dem eine Nachricht gemeldet werden kann.'
     invalid_channel_status: 'Ein Kanal kann nur auf „offen“ oder „geschlossen“ eingestellt werden.'
@@ -164,6 +187,7 @@ ramon-chat:
     move_too_many: '{max, plural, one {Du kannst höchstens # Nachrichten auf einmal verschieben.} other {Du kannst höchstens # Nachrichten auf einmal verschieben.}}'
     not_a_member: 'Dieser Benutzer ist nicht in diesem Kanal.'
     rate_limited: 'Du sendest zu schnell Nachrichten. Bitte mach etwas langsamer.'
+    reaction_limit: 'Diese Nachricht kann keine weiteren Reaktionen annehmen.'
     slow_mode_wait: 'In diesem Kanal ist der Langsam-Modus aktiviert. Du kannst in {seconds} Sekunden erneut eine Nachricht senden.'
     stickers_not_allowed: 'Du darfst keine Sticker verschicken.'
     threading_disabled: 'Threads sind in diesem Kanal nicht aktiviert.'
@@ -306,10 +330,10 @@ ramon-chat:
       minutes: '{count} m'
       seconds: '{count} s'
     edit_channel:
-      archive_confirm: 'Diesen Kanal archivieren? Der Verlauf wird in eine Diskussion kopiert und der Kanal wird dauerhaft gesperrt.'
+      archive_confirm: 'Diesen Kanal archivieren? Der Verlauf wird in eine Diskussion kopiert und der Kanal wird bis zur Aufhebung der Archivierung gesperrt.'
       failed: 'Diese Änderungen konnten nicht gespeichert werden.'
       lifecycle: Kanalstatus
-      lifecycle_help: 'Durch das Schließen werden keine neuen Nachrichten mehr zugelassen, der Kanal bleibt jedoch weiterhin lesbar. Durch das Archivieren wird der Verlauf in eine Diskussion kopiert und der Kanal endgültig gesperrt.'
+      lifecycle_help: 'Durch das Schließen werden keine neuen Nachrichten mehr zugelassen, der Kanal bleibt jedoch weiterhin lesbar. Durch das Archivieren wird der Verlauf in eine Diskussion kopiert und der Kanal bis zur Aufhebung der Archivierung gesperrt.'
       saved: 'Kanal aktualisiert.'
       submit: 'Änderungen speichern'
       subtitle: 'Die Änderungen gelten für alle Teilnehmer des Kanals, sobald du sie speicherst.'
@@ -403,6 +427,15 @@ ramon-chat:
       tab_members: Mitglieder
       tab_settings: Einstellungen
       threading: 'Threads aktivieren'
+      transfer_accepted: 'Du bist jetzt Besitzer dieses Kanals.'
+      transfer_cancel: 'Übertragung abbrechen'
+      transfer_cancelled: 'Die Übertragung wurde abgebrochen.'
+      transfer_code_label: Bestätigungscode
+      transfer_declined: 'Du hast die Übertragung abgelehnt.'
+      transfer_enter_code: 'Code eingeben'
+      transfer_failed: 'Übertragung konnte nicht abgeschlossen werden.'
+      transfer_intro: 'Gib den 6-stelligen Code ein, den wir dir per E-Mail gesendet haben, um diesen Kanal für {username} freizuschalten.'
+      transfer_submit: Bestätigen
     lightbox:
       close: Schließen
       next: 'Nächstes Bild'
@@ -514,7 +547,38 @@ ramon-chat:
       invite_accept: Annehmen
       invite_decline: Ablehnen
       message_flagged: '{username} hat eine Nachricht in {channel} gemeldet'
+      ownership_inherited: '{username} hat {channel} verlassen, also bist du jetzt Besitzer'
       someone: Jemand
+    ranks:
+      assign: 'Ränge von {username}'
+      builtin_tag: Eingebaut
+      cancel: Abbrechen
+      color: Farbe
+      color_invalid: 'Wähle eine Farbe im Format #RRGGBB.'
+      color_theme: 'Farbe deines Designs verwenden'
+      delete: '{name} löschen'
+      deleted: 'Rang gelöscht.'
+      edit: '{name} bearbeiten'
+      edit_title: 'Rang bearbeiten'
+      holders: '{count, plural, =0 {Kein Mitglied} one {# Mitglied} other {# Mitglieder}}'
+      icon: Symbol
+      intro: 'In diesem Kanal werden die Ränge vor dem Namen eines Mitglieds angezeigt. Wer mehrere Ränge hat, sieht den höchsten Rang in dieser Liste.'
+      limit: 'Du kannst bis zu {max} Ränge erstellen.'
+      moderator_default: Moderator
+      move_down: '{name} nach unten'
+      move_up: '{name} nach oben'
+      name: Name
+      name_color: Namensfarbe
+      name_required: 'Gib dem Rang einen Namen.'
+      new: 'Neuer Rang'
+      owner_default: Besitzer
+      reset_confirm: '{name} auf den Standardnamen und -farbe zurücksetzen?'
+      reset_done: 'Rang auf Standard zurückgesetzt.'
+      save: Speichern
+      save_failed: 'Rang konnte nicht gespeichert werden.'
+      saved: 'Rang gespeichert.'
+      show_badge: 'Als Tag anzeigen'
+      tab: Ränge
     revisions:
       current: 'Aktuelle Version'
       failed: 'Der Änderungsverlauf konnte nicht geladen werden.'
@@ -544,6 +608,7 @@ ramon-chat:
       notify_channel_invite: 'Jemand lädt mich in einen Chat-Kanal ein'
       notify_channel_invite_declined: 'Jemand lehnt meine Einladung in einen Chat-Kanal ab'
       notify_message_flagged: 'Jemand meldet eine Chat-Nachricht'
+      notify_ownership_inherited: 'Ich Besitzer eines Chatkanals geworden bin, nachdem der Vorbesitzer ihn verlassen hat'
       open_in_drawer: 'Chat in einer Leiste statt im Vollbildmodus öffnen'
       sound: Benachrichtigungston
       sound_none: Keiner
@@ -588,7 +653,7 @@ ramon-chat:
     gdpr:
       anonymize_description: 'Deine Chat-Nachrichten bleiben erhalten, sodass die Unterhaltungen weiterhin lesbar sind, werden jedoch nicht mehr dir zugeordnet. Anhänge, Reaktionen, Entwürfe und Kanalmitgliedschaften werden gelöscht.'
       delete_description: 'Deine Chat-Nachrichten und Anhänge werden gelöscht, ebenso wie deine Reaktionen, Entwürfe und Kanalmitgliedschaften.'
-      export_description: 'Deine Chat-Nachrichten, die Details zu deren Anhängen und die Kanäle, denen du angehörst.'
+      export_description: 'Deine Chat-Nachrichten, Details zu deren Anhängenm, Kanäle, denen du angehörst und Ränge, die du in ihnen erreicht hast.'
   notifications:
     chat_channel_invite: '{username} hat dich zu {channel} eingeladen'
     chat_channel_invite_declined: '{username} hat deine Einladung zu {channel} abgelehnt'
