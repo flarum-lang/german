@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.24 (XXXX-XX-XX)
+-------------------
+
+**Updated translations for extensions**:
+
+* [`ernestdefoe/steward`](https://github.com/ernestdefoe/steward) (18 added, 74% complete)
+
+
+All changes: [2.0.23...2.0.24](https://github.com/flarum-lang/german/compare/2.0.23...2.0.24).
+
+
 2.0.23 (2026-10-06)
 -------------------
 
