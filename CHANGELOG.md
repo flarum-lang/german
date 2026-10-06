@@ -43,9 +43,10 @@ CHANGELOG
 * [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings) (1 changed, 100% complete)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload) (4 added, 4 changed, 100% complete)
 * [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye) (20 added, 6 changed, 100% complete)
-* [`linkrobins/support`](https://github.com/linkrobins/support) (234 added, 87% complete)
+* [`linkrobins/support`](https://github.com/linkrobins/support) (318 added, 100% complete)
 * [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki) (114 added, 4 changed, 100% complete)
 * [`ramon/avocado`](https://github.com/ram0ng1/avocado) (70 added, 100% complete)
+* [`ramon/chat`](https://github.com/ram0ng1/chat) (126 added, 8 changed, 91% complete)
 * [`stezkoy/flarum-audex`](https://github.com/Stezkoy/flarum-audex) (38 added, 100% complete)
 * [`tryhackx/flarum-topic-rating`](https://github.com/TryHackX/flarum-topic-rating) (30 added, 100% complete)
 
