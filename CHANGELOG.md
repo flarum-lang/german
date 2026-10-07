@@ -8,7 +8,7 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`ernestdefoe/steward`](https://github.com/ernestdefoe/steward) (18 added, 74% complete)
-* [`ernestdefoe/waymark`](https://github.com/ernestdefoe/waymark) (10 added, 100% complete)
+* [`ernestdefoe/waymark`](https://github.com/ernestdefoe/waymark) (10 added, 90% complete)
 * [`ramon/avocado`](https://github.com/ram0ng1/avocado) (10 added, 100% complete)
 
 
