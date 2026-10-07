@@ -41,11 +41,14 @@ ernestdefoe-waymark:
     tags_crumb_tags: 'Auf Tag-Seiten (Startseite › Tags › Kategorie)'
     tags_text_help: 'Was der Pfad als „Tags“-Seite bezeichnet. Bei „Tags“ leer lassen; in vielen Foren werden eher Bezeichnungen wie „Foren“ oder „Kategorien“ bevorzugt.'
     tags_text_label: 'Name der Tag-Seite'
+    users_crumb_help: 'Der vollständige Pfad enthält alle Registerkarten, einschließlich „Beiträge“. Der Link „Mitglieder“ führt zum Mitgliederverzeichnis, sofern FoF User Directory installiert ist.'
+    users_crumb_label: Profilpfad
   forum:
     all_discussions: '=> core.ref.all_discussions'
     discussions: '=> core.ref.discussions'
     home: Start
     label: Navigationspfad
+    members: Mitglieder
     messages: Nachrichten
     notifications: '=> core.ref.notifications'
     posts: '=> core.ref.posts'
