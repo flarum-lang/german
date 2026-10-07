@@ -43,6 +43,7 @@ ernestdefoe-waymark:
     tags_text_label: 'Name der Tag-Seite'
     users_crumb_help: 'Der vollständige Pfad enthält alle Registerkarten, einschließlich „Beiträge“. Der Link „Mitglieder“ führt zum Mitgliederverzeichnis, sofern FoF User Directory installiert ist.'
     users_crumb_label: Profilpfad
+    users_crumb_short: 'Kurz (Start › Name › Tab)'
   forum:
     all_discussions: '=> core.ref.all_discussions'
     discussions: '=> core.ref.discussions'
