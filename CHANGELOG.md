@@ -8,6 +8,7 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`ernestdefoe/steward`](https://github.com/ernestdefoe/steward) (18 added, 74% complete)
+* [`ernestdefoe/waymark`](https://github.com/ernestdefoe/waymark) (2 added, 91% complete)
 
 
 All changes: [2.0.23...2.0.24](https://github.com/flarum-lang/german/compare/2.0.23...2.0.24).
