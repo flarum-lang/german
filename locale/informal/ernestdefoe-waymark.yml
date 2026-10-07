@@ -34,7 +34,11 @@ ernestdefoe-waymark:
     style_label: Stil
     style_plain: 'Einfach — Links getrennt durch ›'
     style_tabs: 'Tabs — jedes Element auf einer eigenen schrägen Registerkarte'
+    tags_crumb_always: 'Überall, auch Diskussionen (Startseite › Tags › Kategorie › Diskussion)'
+    tags_crumb_help: 'Foren, die an ein klassisches Layout mit Kategorien und Unterkategorien gewöhnt sind, sollten diese Option möglicherweise weglassen. Die Tags-Seite behält stets ihre eigene Navigation bei.'
     tags_crumb_label: 'Die Seite „Tags“ im Pfad'
+    tags_crumb_never: 'Weglassen (Startseite › Kategorie › Unterkategorie)'
+    tags_crumb_tags: 'Auf Tag-Seiten (Startseite › Tags › Kategorie)'
     tags_text_help: 'Was der Pfad als „Tags“-Seite bezeichnet. Bei „Tags“ leer lassen; in vielen Foren werden eher Bezeichnungen wie „Foren“ oder „Kategorien“ bevorzugt.'
     tags_text_label: 'Name der Tag-Seite'
   forum:

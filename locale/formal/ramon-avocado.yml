@@ -548,3 +548,9 @@ ramon-avocado:
       online: Online
       posts: Beiträge
       view_profile: 'Profil anzeigen'
+    wiki:
+      style_default: Standard
+      style_default_help: 'Inhaltsverzeichnis auf der rechten Seite, das Wiki-eigene Layout.'
+      style_label: Design
+      style_manual: Manuell
+      style_manual_help: 'Inhaltsverzeichnis auf der linken Seite, großer Titel und Einleitungstext.'
