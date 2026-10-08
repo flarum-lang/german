@@ -3,6 +3,11 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ernestdefoe-giveaways:
+  api:
+    category_name_required: 'Kategoriename ist erforderlich.'
+    prize_required: 'Preis ist erforderlich.'
+    title_required: 'Titel ist erforderlich.'
   forum:
+    active_heading: 'Jetzt aktiv'
     form:
       cancel: Abbrechen
