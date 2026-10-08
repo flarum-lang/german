@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`ernestdefoe/steward`](https://github.com/ernestdefoe/steward) (18 added, 74% complete)
 * [`ernestdefoe/waymark`](https://github.com/ernestdefoe/waymark) (20 added, 100% complete)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry) (16 changed, 100% complete)
 * [`ramon/avocado`](https://github.com/ram0ng1/avocado) (10 added, 100% complete)
 
 
