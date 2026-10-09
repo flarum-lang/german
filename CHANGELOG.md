@@ -5,6 +5,11 @@ CHANGELOG
 2.0.24 (XXXX-XX-XX)
 -------------------
 
+**Added support for new extensions**:
+
+* [`ernestdefoe/roleplay`](https://github.com/ernestdefoe/roleplay) (67% complete)
+
+
 **Updated translations for extensions**:
 
 * [`ernestdefoe/giveaways`](https://github.com/ernestdefoe/giveaways) (8 added, 3% complete)
