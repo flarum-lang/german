@@ -7,13 +7,13 @@ CHANGELOG
 
 **General changes**:
 
-* Updated Flarum core translations (34 added).
+* Updated Flarum core translations (34 added, 2 changed).
 
 
 **Added support for new extensions**:
 
 * [`ernestdefoe/roleplay`](https://github.com/ernestdefoe/roleplay) (67% complete)
-* [`flarum/deck`](https://github.com/flarum/deck) (49% complete)
+* [`flarum/deck`](https://github.com/flarum/deck) (62% complete)
 
 
 **Updated translations for extensions**:
