@@ -11,7 +11,7 @@ fof-links:
       icon_label: '=> core.ref.icon'
       icon_text: '=> core.ref.icon_text'
       internal_link: 'Ist dies ein interner Link?'
-      open_newtab: 'Link in neuem Tab öffnen'
+      open_newtab: 'In neuem Tab öffnen'
       options_label: Optionen
       submit_button: '=> core.ref.save_changes'
       title: '=> fof-links.ref.create_link'

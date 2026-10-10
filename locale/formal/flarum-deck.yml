@@ -46,6 +46,7 @@ flarum-deck:
       refresh_button: Aktualisieren
       remove_button: 'Spalte entfernen'
       reset_width_button: 'Breite zurücksetzen'
+      resize_label: 'Größe von {title} anpassen'
     column_types:
       all: 'Alle Diskussionen'
       author: 'Diskussionen eines Mitglieds'
@@ -58,5 +59,20 @@ flarum-deck:
       unread: Ungelesen
     index:
       deck_link: Deck
+    page:
+      add_column_button: 'Spalte hinzufügen'
+      exit_fullscreen_button: 'Vollbild verlassen'
+      fullscreen_button: Vollbild
+      hero:
+        hide_label: 'Diese Einführung ausblenden'
+      navigator_label: Spalten
+      options_label: Deck-Optionen
+      reset_button: 'Spalten zurücksetzen'
+      scroll_left_label: 'Nach links scrollen'
+      scroll_right_label: 'Nach rechts scrollen'
+      title: Deck
     typing:
+      replying_text: '{name} antwortet in {discussion}'
       someone: Jemand
+      starting_in_text: '{name} eröffnet eine Diskussion in {tags}'
+      starting_text: '{name} eröffnet eine Diskussion'
