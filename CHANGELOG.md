@@ -7,7 +7,7 @@ CHANGELOG
 
 **General changes**:
 
-* Updated Flarum core translations (2 added).
+* Updated Flarum core translations (28 added).
 
 
 **Added support for new extensions**:
