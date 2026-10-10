@@ -5,6 +5,11 @@ CHANGELOG
 2.0.24 (XXXX-XX-XX)
 -------------------
 
+**General changes**:
+
+* Updated Flarum core translations (2 added).
+
+
 **Added support for new extensions**:
 
 * [`ernestdefoe/roleplay`](https://github.com/ernestdefoe/roleplay) (67% complete)
@@ -15,6 +20,7 @@ CHANGELOG
 * [`ernestdefoe/giveaways`](https://github.com/ernestdefoe/giveaways) (8 added, 3% complete)
 * [`ernestdefoe/steward`](https://github.com/ernestdefoe/steward) (18 added, 74% complete)
 * [`ernestdefoe/waymark`](https://github.com/ernestdefoe/waymark) (20 added, 100% complete)
+* [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon) (2 changed, 100% complete)
 * [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry) (16 changed, 100% complete)
 * [`ramon/avocado`](https://github.com/ram0ng1/avocado) (10 added, 100% complete)
 
