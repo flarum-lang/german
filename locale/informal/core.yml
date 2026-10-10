@@ -130,6 +130,7 @@ core:
       edit_footer_button: '=> core.ref.custom_footer_title'
       edit_header_button: '=> core.ref.custom_header_title'
       email_logo_heading: E-Mail-Logo
+      email_logo_text: 'Lade ein Bild hoch, das am Anfang von E-Mails angezeigt werden soll. Es wird in einem Format gespeichert, das jeder E-Mail-Client anzeigen kann. Wenn du kein Bild hochlädst, wird in den E-Mails eine Kopie deines Logos verwendet. Falls in deinen E-Mails statt deines Logos der Forumtitel angezeigt wird, lade dein Logo erneut hoch.'
       enter_hex_message: 'Gib eine Farbe im Hexadezimalformat ein.'
       favicon_heading: Favicon
       favicon_text: 'Lade ein Bild hoch, welches als Favicon für das Forum verwendet wird.'
@@ -188,6 +189,19 @@ core:
       username_placeholder: '=> core.ref.username'
     dashboard:
       clear_cache_button: 'Cache leeren'
+      clear_cache_modal:
+        chunks: 'Die aufgeteilten Blöcke für {frontend} wurden neu erstellt ({count} geändert)'
+        cleared: '{name} geleert'
+        cleared_files: '{name} geleert ({count} Dateien)'
+        empty: '{bundle} muss nicht kompiliert werden'
+        failed: '{step} konnte nicht neu erstellt werden: {message}'
+        rebuilt: '{bundle} neu erstellt'
+        reload_button: 'Neu laden'
+        rewritten: '{bundle} neu geschrieben'
+        title: 'Cache wird geleert'
+        took: '{time} ms'
+        unchanged: '{bundle} war bereits aktuell'
+        working: 'Die kompilierten Assets werden neu erstellt. Bei größeren Foren kann dies eine Weile dauern.'
       description: 'Dein Forum auf einen Blick.'
       info_button: Systeminformationen
       info_modal:
