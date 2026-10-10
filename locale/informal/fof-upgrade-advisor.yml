@@ -28,10 +28,13 @@ fof-upgrade-advisor:
         source: Quellcode
     hints:
       no_path_abandoned: 'Aufgegeben, ohne Ersatz. Plane die Entfernung oder finde eine Alternative.'
+      none: 'Bereit: {version} unterstützt Flarum {target}.'
+      none_unversioned: 'Bereit: Auf Discuss als {target}-kompatibel markiert.'
       swap_after_upgrade: 'Vor dem Upgrade entfernen und nach dem Upgrade {replacement} installieren.'
       unknown: 'Nicht auf Packagist oder in einem der konfigurierten Repositorys gefunden. Falls es sich um ein Premium- oder privates Repository handelt, füge den Zugriff auf das Repository hinzu.'
     latest:
       description: "Dein Forum erfüllt die Anforderungen aller Flarum-Versionen, die dem „Upgrade Advisor“ bekannt sind. Wenn eine Version mit neuen Anforderungen angekündigt wird, überprüft ein Update des „Upgrade Advisor“, ob dein Forum dafür bereit ist.\n"
+      title: 'Es gibt keine anstehende Flarum-Version, die überprüft werden muss'
     list:
       after: 'Nach der Aktualisierung'
       before: 'Vor der Aktualisierung'
@@ -40,9 +43,14 @@ fof-upgrade-advisor:
       copy: Kopieren
       details:
         abandoned: 'Aufgegeben, kein Ersatz'
+        latest: 'Neueste {version} unterstützt nicht {target}'
+        no_release: 'Keine Version für {target}'
         none: '{version}'
+        none_unversioned: 'Als „Bereit für {target}“ auf Discuss markiert'
         remove: 'In den Flarum-Kern integriert'
         replacement: '→ {replacement}'
+        replacement_not_ready: 'Aufgegeben → {replacement} (nicht bereit für {target})'
+        replacement_unverified: '→ {replacement} (Support für {target} prüfen)'
         unknown: 'Nicht gefunden'
       groups:
         decision:

@@ -18,6 +18,7 @@ fof-oauth:
       fullscreen_popup_label: 'OAuth-Popup im Vollbild öffnen'
       oauth_only_help: "Wenn aktiviert, können sich Mitglieder nicht mehr mit einem Passwort anmelden, registrieren oder ihr Passwort zurücksetzen; stattdessen nutzen sie die aktivierten Anbieter. Administratoren behalten die Passwort-Anmeldung über den Link „Administrator-Anmeldung“ im Anmeldefenster bei. Bestehende Mitglieder ohne verknüpften Anbieter werden bei ihrer ersten Anmeldung über einen Anbieter verknüpft, sofern der Anbieter dieselbe E-Mail-Adresse bestätigt; alle anderen benötigen die Hilfe eines Administrators. Hat keine Auswirkung, solange kein Anbieter aktiviert ist. Lasse „Registrierung“ in den Berechtigungen auf „Offen“ eingestellt, da sich neue Mitglieder sonst auch nicht über einen Anbieter registrieren können.\n"
       oauth_only_label: 'Nur die Anmeldung und Registrierung über OAuth-Anbieter zulassen'
+      oauth_only_sign_up_closed_warning: 'Die Registrierung ist in den <a>Berechtigungen</a> auf „Geschlossen“ gesetzt. Flarum wendet diese Einstellung auch auf Registrierungen über Anbieter an, sodass sich niemand anmelden kann, solange sie geschlossen ist.'
       only_icons_label: 'Nur die Symbole ohne Text auf den Einloggen-Buttons (alternatives Layout) anzeigen'
       popup_height_help: 'Legt die Höhe des OAuth-Popupfensters fest. Diese Einstellung wird ignoriert, wenn "OAuth-Popup im Vollbild öffnen" aktiviert ist.'
       popup_height_label: 'Höhe des OAuth-Popupfensters'
@@ -75,7 +76,9 @@ fof-oauth:
       bad_verification_code: 'Ungültiges oder abgelaufenes Verifizierungs-Token. Bitte versuche es erneut.'
       invalid_state: 'Ungültiger Zustand. Bitte versuche es erneut.'
     log_in:
+      admin_log_in_link: Administratorenzugang
       unverified_email_in_use: '{provider} hat diese E-Mail-Adresse noch nicht bestätigt, daher können wir sie nicht für deine Anmeldung verwenden. Wenn du bereits ein Konto hast, melde dich unten an und verknüpfe {provider} anschließend in deinen Kontoeinstellungen.'
+      unverified_email_in_use_oauth_only: '{provider} hat diese E-Mail-Adresse noch nicht bestätigt, daher können wir sie nicht für deine Anmeldung verwenden. Bestätige die Adresse bei {provider} und versuche es erneut, oder bitte einen Administrator um Hilfe.'
       with_button: 'Mit {provider} anmelden'
       with_discord_button: '=> fof-oauth.forum.log_in.with_button'
       with_facebook_button: '=> fof-oauth.forum.log_in.with_button'
