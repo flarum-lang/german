@@ -12,7 +12,7 @@ fof-horizon:
       mail_help: "Lege fest, wie viele E-Mails gleichzeitig versendet werden sollen. Jeder Worker versendet jeweils eine\nE-Mail, daher entspricht dieser Wert der Anzahl der gleichzeitig ausgehenden Nachrichten.\nStelle diesen Wert auf das Limit für gleichzeitige Verbindungen deines E-Mail-Anbieters ein, um dieses\nnicht zu überschreiten. Lasse das Feld leer, um den Standardwert (1) beizubehalten.\n"
       mail_title: E-Mail-Zustellung
       memory_limit: 'Speichergrenze für Master-Prozess (MB)'
-      memory_limit_help: "Speichergrenze für den Horizon-Master-Supervisor-Prozess. Horizon erhöht\ndiesen Wert automatisch auf das größte Worker-Budget, sodass du ihn nur selten\nmanuell festlegen musst.\n"
+      memory_limit_help: "Speichergrenze für den Horizon-Master-Supervisor-Prozess: Wird diese überschritten,\nstartet sich der Master neu. Der Speicher jedes Workers wird von dessen jeweiligen Supervisor festgelegt.\n"
       supervisor_help: "Horizon führt deine Wartschlangen-Worker in abgestuften Profilen aus (Standard, Schnell,\nLang, E-Mails). Die Anzahl der Worker, der Arbeitsspeicher und die Warteschlangen werden pro\nBereitstellung über die Umgebungsvariablen REDIS_HORIZON_*, die Datei config.php (unter\ndem Schlüssel „horizon“) oder den Horizon-Extender in extend.php konfiguriert – siehe die\nREADME-Datei der Erweiterung. Starte Horizon nach einer Änderung der Worker-Konfiguration neu.\n"
       supervisor_title: Worker-Einstellungen
       trim_completed: 'Abgeschlossene Aufträge trimmen'
