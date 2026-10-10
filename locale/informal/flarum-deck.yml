@@ -27,8 +27,13 @@ flarum-deck:
       in_deck_badge: 'Im Deck'
       in_deck_count_badge: '{count}× im Deck'
       invalid_value_message: 'Gib einen gültigen Wert für {field} ein.'
+      pick_a_result_message: 'Wähle aus den Vorschlägen für {field} aus.'
       submit_button: 'Spalte hinzufügen'
+      title: 'Eine Spalte hinzufügen'
+      use_filters_button: 'Diese Filter verwenden'
     column:
+      controls_label: '{title} Spaltenoptionen'
+      drag_handle_label: 'Zum Verschieben {title} ziehen'
       move_left_button: 'Nach links'
       move_right_button: 'Nach rechts'
       move_to_bottom_row_button: 'In die untere Zeile'
@@ -46,6 +51,12 @@ flarum-deck:
       author: 'Diskussionen eines Mitglieds'
       author_posts: 'Beiträge eines Mitglieds'
       author_posts_title: 'Beiträge von {username}'
+      discussion: 'Eine Diskussion'
+      filter: 'Eigener Filter'
+      group_posts: 'Beiträge einer Gruppe'
+      group_posts_title: 'Beiträge von {group}'
       unread: Ungelesen
     index:
       deck_link: Deck
+    typing:
+      someone: Jemand

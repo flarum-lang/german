@@ -573,7 +573,7 @@ core:
       restore_button: '=> core.ref.restore'
       toggle_dropdown_accessible_label: 'Dropdown-Menü für Diskussionsaktionen umschalten'
     discussion_list:
-      empty_text: 'Es gibt noch keine Diskussionen in diesem Forum.'
+      empty_text: 'Es gibt noch keine Diskussionen hier.'
       load_more_button: '=> core.ref.load_more'
       replied_text: '{username} {ago}'
       skip_discussion_list_pane: 'Diskussionslistenabschnitt überspringen'
