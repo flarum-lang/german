@@ -14,7 +14,7 @@ CHANGELOG
 
 * [`ernestdefoe/roleplay`](https://github.com/ernestdefoe/roleplay) (67% complete)
 * [`flarum/deck`](https://github.com/flarum/deck) (80% complete)
-* [`fof/upgrade-advisor`](https://github.com/FriendsOfFlarum/upgrade-advisor) (92% complete)
+* [`fof/upgrade-advisor`](https://github.com/FriendsOfFlarum/upgrade-advisor) (100% complete)
 * [`xxb5724/clipboardjs`](https://github.com/Xiaoxiaobai5724/clipboardjs) (68% complete)
 
 
@@ -24,7 +24,7 @@ CHANGELOG
 * [`ernestdefoe/group-messages`](https://github.com/ernestdefoe/group-messages) (4 added, 100% complete)
 * [`ernestdefoe/steward`](https://github.com/ernestdefoe/steward) (18 added, 74% complete)
 * [`ernestdefoe/waymark`](https://github.com/ernestdefoe/waymark) (20 added, 100% complete)
-* [`flarum/messages`](https://github.com/flarum/messages) (10 added, 79% complete)
+* [`flarum/messages`](https://github.com/flarum/messages) (22 added, 4 changed, 89% complete)
 * [`flarum/realtime`](https://github.com/flarum/realtime) (4 added, 100% complete)
 * [`flarum/tags`](https://github.com/flarum/tags) (6 added, 100% complete)
 * [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon) (2 changed, 100% complete)
@@ -33,6 +33,7 @@ CHANGELOG
 * [`fof/online-users-widget`](https://github.com/FriendsOfFlarum/online-users-widget) (2 added, 100% complete)
 * [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry) (16 changed, 100% complete)
 * [`fof/top-posters-widget`](https://github.com/FriendsOfFlarum/top-posters-widget) (2 added, 100% complete)
+* [`linkrobins/support`](https://github.com/linkrobins/support) (2 added, 100% complete)
 * [`ramon/avocado`](https://github.com/ram0ng1/avocado) (10 added, 100% complete)
 
 
