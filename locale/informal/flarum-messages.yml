@@ -2,18 +2,24 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-messages/de/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-gdpr:
+  lib:
+    data:
+      messages:
+        export_description: 'Deine privaten Nachrichten, wann sie gesendet wurden und von welcher Adresse.'
 flarum-messages:
   admin:
     permissions:
       delete_own_messages_label: 'Eigene Nachrichten löschen'
+      message_users_without_permission_label: 'Nachrichten an Empfänger ohne Nachrichtenberechtigung senden'
       send_messages_label: 'Private Nachrichten senden'
       view_ips_label: 'IP-Adressen von Nachrichten anzeigen'
   email:
     message_received:
       html:
-        body: '{user_display_name} hat dir eine [neue Nachricht]({url}) gesendet.'
+        body: "{user_display_name} hat dir eine [neue Nachricht]({url}) gesendet.\n\nDu erhältst keine weiteren E-Mails zu dieser Unterhaltung, bis du diese gelesen hast.\n"
       plain:
-        body: "{user_display_name} hat dir eine Nachricht gesendet.\n\n{url}\n\n---\n\n{content}\n"
+        body: "{user_display_name} hat dir eine Nachricht gesendet.\n\n{url}\n\n---\n\n{content}\n\n---\n\nDu erhältst keine weiteren E-Mails zu dieser Unterhaltung, bis du diese gelesen hast.\n"
       subject: '{user_display_name} hat dir eine Nachricht gesendet'
   forum:
     composer:
@@ -68,6 +74,7 @@ flarum-messages:
     notifications:
       message_received_text: 'Benachrichtigung über dein Erhalt einer Nachricht von {user}'
     recipient_selection_modal:
+      cannot_reply_text: 'Kann nicht auf Nachrichten antworten'
       title: 'Wähle die Empfänger für diese Nachricht'
     search_source:
       conversation_with: 'Unterhaltung mit {username}'
@@ -80,3 +87,6 @@ flarum-messages:
   lib:
     dialog:
       title: 'Unterhaltung {username}'
+    no_other_members_message: 'Sonst ist niemand in dieser Unterhaltung.'
+    recipient_cannot_reply_message: '{username} kann nicht auf Nachrichten antworten.'
+    recipient_unavailable_message: '{username} kann keine Nachrichten empfangen.'

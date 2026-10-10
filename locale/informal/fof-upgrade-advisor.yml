@@ -27,10 +27,16 @@ fof-upgrade-advisor:
         issues: Issues
         source: Quellcode
     hints:
+      no_path: 'Es gibt noch keine Version für {target} (die aktuellste Version ist {version}). Erkundige dich beim Autor nach deren Plänen oder überlege, es zu entfernen.'
       no_path_abandoned: 'Aufgegeben, ohne Ersatz. Plane die Entfernung oder finde eine Alternative.'
+      no_path_replacement_not_ready: 'Aufgegeben. Der Ersatz {replacement} ist noch nicht bereit für {target}.'
+      no_path_unversioned: 'Noch nicht {target}-kompatibel. Erkundige dich beim Autor nach deren Plänen oder überlege, es zu entfernen.'
       none: 'Bereit: {version} unterstützt Flarum {target}.'
       none_unversioned: 'Bereit: Auf Discuss als {target}-kompatibel markiert.'
+      remove: 'Vor dem Upgrade entfernen. Eingebaut in Flarum {target}, daher kein Ersatz nötig.'
       swap_after_upgrade: 'Vor dem Upgrade entfernen und nach dem Upgrade {replacement} installieren.'
+      switch_replacement: 'Aufgegeben. Vor dem Upgrade entfernen und nach dem Upgrade {replacement} ({target}-kompatibel) installieren.'
+      switch_replacement_unverified: 'Aufgegeben. Vor dem Upgrade entfernen und nach dem Upgrade {replacement} installieren. Prüfe zuerst, ob es {target} unterstützt.'
       unknown: 'Nicht auf Packagist oder in einem der konfigurierten Repositorys gefunden. Falls es sich um ein Premium- oder privates Repository handelt, füge den Zugriff auf das Repository hinzu.'
     latest:
       description: "Dein Forum erfüllt die Anforderungen aller Flarum-Versionen, die dem „Upgrade Advisor“ bekannt sind. Wenn eine Version mit neuen Anforderungen angekündigt wird, überprüft ein Update des „Upgrade Advisor“, ob dein Forum dafür bereit ist.\n"
@@ -54,6 +60,7 @@ fof-upgrade-advisor:
         unknown: 'Nicht gefunden'
       groups:
         decision:
+          description: 'Es gibt noch keine {target}-kompatible Version: Frage den Autor nach seinen Plänen oder überlege, darauf zu verzichten.'
           title: 'Entscheidung erforderlich'
         environment:
           description: 'Behebe diese vor dem Upgrade.'
