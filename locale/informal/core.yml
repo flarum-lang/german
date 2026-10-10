@@ -405,6 +405,7 @@ core:
       delete_posts_forever_label: 'Beiträge endgültig löschen'
       delete_posts_label: 'Beiträge löschen'
       description: 'Konfiguriere, wer was machen und sehen darf.'
+      edit_own_avatar_label: 'Eigenen Avatar bearbeiten'
       edit_posts_label: 'Beiträge bearbeiten'
       edit_users_credentials_label: 'Zugangsdaten der Benutzer bearbeiten'
       edit_users_groups_label: 'Gruppen von Benutzern bearbeiten'
@@ -728,6 +729,7 @@ core:
       notify_discussion_renamed_label: 'Wenn jemand eine Diskussion ändert, die du gestartet hast'
       privacy_disclose_online_label: 'Meinen Online-Status anzeigen'
       privacy_heading: Privatsphäre
+      reset_notifications_button: 'Auf Standardwerte zurücksetzen'
       title: '=> core.ref.settings'
     sign_up:
       dismiss_button: '=> core.ref.okay'
@@ -850,6 +852,8 @@ core:
         group:
           hint: 'Singular- oder Plural-Gruppennamen'
           key: gruppe
+    group_selector:
+      placeholder: 'Gruppe wählen'
     index_sort:
       az_button: '=> core.ref.title_az'
       latest_button: '=> core.ref.latest'

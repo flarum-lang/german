@@ -5,6 +5,7 @@
 ernestdefoe-group-messages:
   forum:
     compose:
+      cannot_reply_text: 'Kann nicht auf Nachrichten antworten'
       create_button: 'Gruppe erstellen'
       create_error: 'Die Gruppe konnte nicht erstellt werden. Bitte versuche es erneut.'
       group_button: 'Neue Gruppennachricht'
@@ -19,6 +20,7 @@ ernestdefoe-group-messages:
       participants: '{count} Teilnehmer'
       seen_by: 'Gesehen von {names}'
       seen_by_count: 'Gesehen von {count}'
+      unread_count_text: '{count} ungelesen'
     manage:
       add_people: 'Mitglieder hinzufügen'
       demote_tooltip: 'Als Moderator entfernen'
