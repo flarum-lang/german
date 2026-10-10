@@ -16,6 +16,8 @@ fof-oauth:
       disable_avatars_label: 'Avatarübernahme vom Anbieter deaktivieren'
       fullscreen_popup_help: 'Sofern aktiviert, wird das OAuth-Anmeldefenster im Vollbild geöffnet. Wenn es aktiviert ist, werden die Einstellungen für Breite und Höhe ignoriert.'
       fullscreen_popup_label: 'OAuth-Popup im Vollbild öffnen'
+      oauth_only_help: "Wenn aktiviert, können sich Mitglieder nicht mehr mit einem Passwort anmelden, registrieren oder ihr Passwort zurücksetzen; stattdessen nutzen sie die aktivierten Anbieter. Administratoren behalten die Passwort-Anmeldung über den Link „Administrator-Anmeldung“ im Anmeldefenster bei. Bestehende Mitglieder ohne verknüpften Anbieter werden bei ihrer ersten Anmeldung über einen Anbieter verknüpft, sofern der Anbieter dieselbe E-Mail-Adresse bestätigt; alle anderen benötigen die Hilfe eines Administrators. Hat keine Auswirkung, solange kein Anbieter aktiviert ist. Lasse „Registrierung“ in den Berechtigungen auf „Offen“ eingestellt, da sich neue Mitglieder sonst auch nicht über einen Anbieter registrieren können.\n"
+      oauth_only_label: 'Nur die Anmeldung und Registrierung über OAuth-Anbieter zulassen'
       only_icons_label: 'Nur die Symbole ohne Text auf den Einloggen-Buttons (alternatives Layout) anzeigen'
       popup_height_help: 'Legt die Höhe des OAuth-Popupfensters fest. Diese Einstellung wird ignoriert, wenn "OAuth-Popup im Vollbild öffnen" aktiviert ist.'
       popup_height_label: 'Höhe des OAuth-Popupfensters'

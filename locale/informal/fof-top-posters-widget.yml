@@ -8,6 +8,7 @@ fof-top-posters-widget:
       info: 'Benutzer der ausgewählten Gruppen werden aus den Widget-Ergebnissen ausgeschlossen.'
   forum:
     widget:
+      load_error: 'Aktivste Benutzer konnten nicht geladen werden.'
       title: 'Aktivste Benutzer dieses Monats'
   lib:
     gambits:
