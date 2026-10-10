@@ -29,8 +29,10 @@ CHANGELOG
 * [`flarum/tags`](https://github.com/flarum/tags) (6 added, 100% complete)
 * [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon) (2 changed, 100% complete)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links) (1 changed, 100% complete)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (4 added, 96% complete)
 * [`fof/online-users-widget`](https://github.com/FriendsOfFlarum/online-users-widget) (2 added, 100% complete)
 * [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry) (16 changed, 100% complete)
+* [`fof/top-posters-widget`](https://github.com/FriendsOfFlarum/top-posters-widget) (2 added, 100% complete)
 * [`ramon/avocado`](https://github.com/ram0ng1/avocado) (10 added, 100% complete)
 
 
