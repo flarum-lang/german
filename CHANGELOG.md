@@ -14,6 +14,7 @@ CHANGELOG
 
 * [`ernestdefoe/roleplay`](https://github.com/ernestdefoe/roleplay) (67% complete)
 * [`flarum/deck`](https://github.com/flarum/deck) (62% complete)
+* [`fof/upgrade-advisor`](https://github.com/FriendsOfFlarum/upgrade-advisor) (77% complete)
 
 
 **Updated translations for extensions**:
