@@ -46,8 +46,20 @@ fof-pwa:
         reset_vapid_success: 'VAPID-Schlüssel erfolgreich zurückgesetzt. {count} Abonnements wurden zurückgesetzt. Lade die Seite neu, um einen aktualisierten Statusprüfbericht anzuzeigen.'
         reset_vapid_text: 'Dadurch werden die VAPID-Schlüssel neu generiert und alle bestehenden Abonnements, die die aktuellen VAPID-Schlüssel verwenden, gelöscht.'
       other:
+        display_label: Darstellungsmodus
+        display_options:
+          browser: Browser
+          fullscreen: Bildschirmfüllend
+          minimal_ui: 'Minimale Oberfläche'
+          standalone: Eigenständig
         force_portrait_text: 'Hochformat erzwingen'
         heading: Andere
+        orientation_label: Ausrichtung
+        orientation_options:
+          any: Jede
+          landscape: Querformat
+          natural: Natürlich
+          portrait: Hochformat
         push_notif_preference_default_to_email_label: 'Standard-Push-Präferenzen von E-Mail übernehmen'
         push_notif_preference_default_to_email_text: 'Wenn aktiviert, haben Benutzer standardmäßig Push-Benachrichtigungen aktiviert für alle Benachrichtigungsarten, bei denen auch E-Mail-Benachrichtigungen standardmäßig aktiviert sind. Wenn deaktiviert, sind Push-Benachrichtigungen standardmäßig deaktiviert.'
         push_notification_ttl_label: 'TTL für Push-Benachrichtigung'
