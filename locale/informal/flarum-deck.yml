@@ -52,27 +52,43 @@ flarum-deck:
       author: 'Diskussionen eines Mitglieds'
       author_posts: 'Beiträge eines Mitglieds'
       author_posts_title: 'Beiträge von {username}'
+      author_title: 'Begonnen von {username}'
       discussion: 'Eine Diskussion'
       filter: 'Eigener Filter'
       group_posts: 'Beiträge einer Gruppe'
       group_posts_title: 'Beiträge von {group}'
+      typing: '„Tippt gerade“-Anzeige'
       unread: Ungelesen
+    discussion_controls:
+      add_to_deck_button: 'Zum Deck hinzufügen'
+      added_message: 'Diese Diskussion ist jetzt eine Spalte in deinem Deck.'
     index:
       deck_link: Deck
     page:
       add_column_button: 'Spalte hinzufügen'
+      column_limit_reached_text: 'Du hast die maximale Anzahl an Spalten erreicht.'
+      drop_row_hint: 'Füge hier eine Spalte ein, um eine zweite Zeile zu beginnen'
+      empty_text: 'Dein Deck ist leer. Füge eine Spalte hinzu, um Unterhaltungen live zu verfolgen.'
       exit_fullscreen_button: 'Vollbild verlassen'
       fullscreen_button: Vollbild
       hero:
         hide_label: 'Diese Einführung ausblenden'
+        subtitle: 'Verfolge alle Unterhaltungen, die dir wichtig sind, nebeneinander und in Echtzeit. Füge Spalten hinzu, ziehe sie an die gewünschte Stelle und ordne sie in bis zu zwei Reihen an.'
       navigator_label: Spalten
       options_label: Deck-Optionen
       reset_button: 'Spalten zurücksetzen'
+      reset_confirmation: 'Möchtest du deine Spalten durch die Standardeinstellungen ersetzen? Dieser Vorgang kann nicht rückgängig gemacht werden.'
+      resize_rows_label: 'Größe der Zeilen anpassen'
       scroll_left_label: 'Nach links scrollen'
       scroll_right_label: 'Nach rechts scrollen'
       title: Deck
     typing:
+      empty_text: 'Im Moment tippt niemand.'
+      offline_text: 'Für die „Tippt gerade“-Funktion ist eine aktive Verbindung zum Echtzeit-Server erforderlich.'
       replying_text: '{name} antwortet in {discussion}'
       someone: Jemand
       starting_in_text: '{name} eröffnet eine Diskussion in {tags}'
       starting_text: '{name} eröffnet eine Diskussion'
+      was_replying_text: '{name} hat in {discussion} geantwortet'
+      was_starting_in_text: '{name} hat eine Diskussion in {tags} eröffnet'
+      was_starting_text: '{name} hat eine Diskussion eröffnet'

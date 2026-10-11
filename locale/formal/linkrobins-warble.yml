@@ -4,7 +4,11 @@
 
 linkrobins-warble:
   admin:
+    check:
+      realtime: 'Die Realtime-Erweiterung ist aktiviert.'
     connected: "✓ Verbunden — Echtzeitfunktion ist in deinem Forum eingerichtet. Die Aktivierung kann bis zu einer Minute dauern. Sollten neue Antworten also nicht sofort in Echtzeit angezeigt werden, warte bitte einen Moment. Tipp: Öffne die Einstellungen der „Realtime“-Erweiterung, um die Eingabeanzeigen, Aktualisierungen der Diskussionsliste und Benachrichtigungs-Toasts für dein Forum anzupassen.\n"
+    health_recheck: 'Erneut prüfen'
+    health_title: Realtime-Status
     key_help: "Füge den Schlüssel aus deinem linkrobins.com-Dashboard → Warble ein. Das war’s schon – Warble richtet die Verbindung zur Realtime-Erweiterung automatisch für dich ein. Nach dem Speichern kann es bis zu einer Minute dauern, bis Realtime aktiviert ist. Lasse das Feld leer, um die Verbindung zu trennen.\n"
     key_label: Warble-Schlüssel
     need_realtime: "Warble benötigt die Erweiterung „Realtime“. Installiere und aktiviere „flarum/realtime“ und füge anschließend deinen Warble-Schlüssel unten ein – Warble erledigt den Rest.\n"

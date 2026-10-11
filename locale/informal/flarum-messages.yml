@@ -2,10 +2,18 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-messages/de/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      dialog:
+        posted: 'Hat eine private Nachricht an {username} gesendet'
+        started: 'Hat eine private Unterhaltung mit {username} begonnen'
 flarum-gdpr:
   lib:
     data:
       messages:
+        anonymize_description: 'Die Adressen, von denen deine privaten Nachrichten gesendet wurden, werden entfernt. Die Nachrichten bleiben erhalten.'
+        delete_description: 'Deine privaten Nachrichten werden gelöscht.'
         export_description: 'Deine privaten Nachrichten, wann sie gesendet wurden und von welcher Adresse.'
 flarum-messages:
   admin:
@@ -13,6 +21,7 @@ flarum-messages:
       delete_own_messages_label: 'Eigene Nachrichten löschen'
       message_users_without_permission_label: 'Nachrichten an Empfänger ohne Nachrichtenberechtigung senden'
       send_messages_label: 'Private Nachrichten senden'
+      send_without_throttle_label: 'Nachrichten ohne Drosselung senden'
       view_ips_label: 'IP-Adressen von Nachrichten anzeigen'
   email:
     message_received:
@@ -90,3 +99,8 @@ flarum-messages:
     no_other_members_message: 'Sonst ist niemand in dieser Unterhaltung.'
     recipient_cannot_reply_message: '{username} kann nicht auf Nachrichten antworten.'
     recipient_unavailable_message: '{username} kann keine Nachrichten empfangen.'
+flarum-statistics:
+  admin:
+    statistics:
+      dialog_replies_heading: 'PN Antworten'
+      dialogs_heading: 'PN begonnen'

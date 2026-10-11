@@ -5,16 +5,21 @@
 ffans-clipboardjs:
   admin:
     settings:
+      codeLang_label: 'Code-Sprache anzeigen'
       copy_enable_label: 'Code kopieren aktivieren'
       themes:
         cnblog: cnBlogs
         csdn: CSDN
+        default: Clipboardjs-Standard
         github: GitHub
         jianshu: 'Jian Shu'
         lingcoder: LingCoder
         segmentfault: SegmentFault
+      themes_label: 'Aussehen der „Kopieren“-Schaltfläche'
   forum:
     action_copy: Kopieren
     action_cut: Ausschneiden
     error_btn: Fehler
+    msg: 'Drücke {actionKey} für {action}'
+    no_support: 'Wird nicht unterstützt'
     ok_btn: Kopiert
