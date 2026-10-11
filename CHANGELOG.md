@@ -8,7 +8,8 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (26 added, 42 changed, 100% complete)
-* [`linkrobins/discussion-banners`](https://github.com/linkrobins/flarum-discussion-banners) (6 added, 2 changed, 98% complete)
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa) (20 added, 93% complete)
+* [`linkrobins/discussion-banners`](https://github.com/linkrobins/flarum-discussion-banners) (8 added, 2 changed, 100% complete)
 
 
 All changes: [2.0.24...2.0.25](https://github.com/flarum-lang/german/compare/2.0.24...2.0.25).
