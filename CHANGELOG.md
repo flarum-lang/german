@@ -2,6 +2,46 @@ CHANGELOG
 =========
 
 
+2.0.24 (2026-10-11)
+-------------------
+
+**General changes**:
+
+* Updated Flarum core translations (34 added, 2 changed).
+
+
+**Added support for new extensions**:
+
+* [`ernestdefoe/roleplay`](https://github.com/ernestdefoe/roleplay) (67% complete)
+* [`flarum/deck`](https://github.com/flarum/deck) (100% complete)
+* [`fof/upgrade-advisor`](https://github.com/FriendsOfFlarum/upgrade-advisor) (100% complete)
+* [`xxb5724/clipboardjs`](https://github.com/Xiaoxiaobai5724/clipboardjs) (100% complete)
+
+
+**Updated translations for extensions**:
+
+* [`ernestdefoe/giveaways`](https://github.com/ernestdefoe/giveaways) (8 added, 3% complete)
+* [`ernestdefoe/group-messages`](https://github.com/ernestdefoe/group-messages) (4 added, 100% complete)
+* [`ernestdefoe/steward`](https://github.com/ernestdefoe/steward) (18 added, 74% complete)
+* [`ernestdefoe/waymark`](https://github.com/ernestdefoe/waymark) (20 added, 100% complete)
+* [`flarum/messages`](https://github.com/flarum/messages) (36 added, 4 changed, 100% complete)
+* [`flarum/realtime`](https://github.com/flarum/realtime) (4 added, 100% complete)
+* [`flarum/tags`](https://github.com/flarum/tags) (6 added, 100% complete)
+* [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon) (2 changed, 100% complete)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links) (1 changed, 100% complete)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (10 added, 100% complete)
+* [`fof/online-users-widget`](https://github.com/FriendsOfFlarum/online-users-widget) (2 added, 100% complete)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry) (16 changed, 100% complete)
+* [`fof/top-posters-widget`](https://github.com/FriendsOfFlarum/top-posters-widget) (2 added, 100% complete)
+* [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye) (12 added, 6 changed, 100% complete)
+* [`linkrobins/support`](https://github.com/linkrobins/support) (2 added, 100% complete)
+* [`linkrobins/flarum-warble`](https://github.com/linkrobins/warble) (6 added, 15% complete)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado) (10 added, 100% complete)
+
+
+All changes: [2.0.23...2.0.24](https://github.com/flarum-lang/german/compare/2.0.23...2.0.24).
+
+
 2.0.23 (2026-10-06)
 -------------------
 
