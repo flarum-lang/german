@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+2.0.25 (XXXX-XX-XX)
+-------------------
+
+**Updated translations for extensions**:
+
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (26 added, 42 changed, 100% complete)
+* [`linkrobins/discussion-banners`](https://github.com/linkrobins/flarum-discussion-banners) (4 added, 96% complete)
+
+
+All changes: [2.0.24...2.0.25](https://github.com/flarum-lang/german/compare/2.0.24...2.0.25).
+
+
 2.0.24 (2026-10-11)
 -------------------
 
