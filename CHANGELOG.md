@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.25.35 (2026-10-11)
+--------------------
+
+**Added support for new extensions**:
+
+* [`fof/mark-unread`](https://github.com/FriendsOfFlarum/mark-unread) (100% complete)
+
+
+All changes: [1.25.34...1.25.35](https://github.com/flarum-lang/german/compare/1.25.34...1.25.35).
+
+
 1.25.34 (2026-10-06)
 --------------------
 
