@@ -16,6 +16,8 @@ linkrobins-discussion-banners:
       content_help: 'Der Inhalt des Banners. HTML ist zulässig und wird vor der Anzeige bereinigt.'
       content_label: 'Bannerinhalt (HTML)'
       delete: 'Banner löschen'
+      first_heading: 'Nach dem ersten Beitrag'
+      first_short: 'Nach erstem Beitrag'
       icon_emoji: Emoji
       icon_emoji_placeholder: 'Eingeben oder einfügen'
       icon_help: 'Ein optionales Symbol neben dem Bannertext: Lade ein kleines Bild hoch oder wähle ein Emoji aus.'
