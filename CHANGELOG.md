@@ -8,14 +8,18 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`clarkwinkelmann/flarum-ext-prominent-post-numbers`](https://github.com/clarkwinkelmann/flarum-ext-prominent-post-numbers) (100% complete)
-* [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed) (80% complete)
+* [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed) (100% complete)
+* [`huoxin/filter-rule-manager`](https://github.com/huoxin233/flarum-ext-filter-rule-manager) (10% complete)
 
 
 **Updated translations for extensions**:
 
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (26 added, 42 changed, 100% complete)
-* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa) (20 added, 93% complete)
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa) (34 added, 2 changed, 100% complete)
+* [`forumfortress/flarum`](https://github.com/forum-fortress/flarum) (2 changed, 100% complete)
+* [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye) (4 added, 100% complete)
 * [`linkrobins/discussion-banners`](https://github.com/linkrobins/flarum-discussion-banners) (8 added, 2 changed, 100% complete)
+* [`linkrobins/support`](https://github.com/linkrobins/support) (14 added, 4 changed, 98% complete)
 
 
 All changes: [2.0.24...2.0.25](https://github.com/flarum-lang/german/compare/2.0.24...2.0.25).
