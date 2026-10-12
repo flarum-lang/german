@@ -52,14 +52,20 @@ fof-pwa:
           fullscreen: Bildschirmfüllend
           minimal_ui: 'Minimale Oberfläche'
           standalone: Eigenständig
+        display_text: "So wird die App geöffnet, wenn sie über ihr Symbol gestartet wird:\n\nEigenständig: Ein separates App-Fenster ohne Adressleiste des Browsers.\nMinimale Benutzeroberfläche: Wie „Eigenständig“, jedoch mit grundlegenden Navigationsfunktionen wie „Zurück“ und „Neu laden“.\nBildschirmfüllend: Nutzt den gesamten Bildschirm ohne Browser-Steuerelemente.\nBrowser: Wird in einem normalen Browser-Tab oder -Fenster geöffnet.\n\nBrowser verwenden möglicherweise einen Fallback, wenn der ausgewählte Modus nicht unterstützt wird.\n"
         force_portrait_text: 'Hochformat erzwingen'
         heading: Andere
         orientation_label: Ausrichtung
         orientation_options:
-          any: Jede
+          any: Beliebig
           landscape: Querformat
+          landscape_primary: 'Querformat (primär)'
+          landscape_secondary: 'Querformat (sekundär)'
           natural: Natürlich
           portrait: Hochformat
+          portrait_primary: 'Hochformat (primär)'
+          portrait_secondary: 'Hochformat (sekundär)'
+        orientation_text: "Beliebig: Die App dreht sich mit dem Gerät mit.\nNatürlich: Es wird die übliche Ausrichtung des Geräts verwendet, in der Regel Hochformat bei Smartphones und Querformat bei Monitoren.\nHochformat: Die App bleibt immer vertikal ausgerichtet.\nQuerformat: Die App bleibt immer horizontal ausgerichtet.\n\nSowohl Hochformat als auch Querformat erlauben jeweils zwei Positionen, die um 180 Grad voneinander abweichen. Wähle eine primäre oder sekundäre Option aus, um nur eine davon zu verwenden. Auf einem Smartphone bedeutet „Hochformat (primär)“ in der Regel aufrecht und „Hochformat (sekundär)“ auf dem Kopf stehend. Bei Querformat hängt die primäre Ausrichtung vom jeweiligen Gerät ab.\n\nEinige Browser und Geräte ignorieren möglicherweise die ausgewählte Ausrichtung.\n"
         push_notif_preference_default_to_email_label: 'Standard-Push-Präferenzen von E-Mail übernehmen'
         push_notif_preference_default_to_email_text: 'Wenn aktiviert, haben Benutzer standardmäßig Push-Benachrichtigungen aktiviert für alle Benachrichtigungsarten, bei denen auch E-Mail-Benachrichtigungen standardmäßig aktiviert sind. Wenn deaktiviert, sind Push-Benachrichtigungen standardmäßig deaktiviert.'
         push_notification_ttl_label: 'TTL für Push-Benachrichtigung'
@@ -69,7 +75,7 @@ fof-pwa:
         user_max_subscriptions_label: 'Maximale Push-Abonnements pro Benutzer'
         user_max_subscriptions_text: 'Wie viele Push-Abonnements sollte jeder Benutzer gleichzeitig haben können? Wenn ein Benutzer eine Push-Benachrichtigung erhält, führt jedes Abonnement zu einem API-Aufruf. Jedes Abonnement entspricht normalerweise einem Browser, den der Benutzer verwendet hat.'
         window_controls_overlay_label: 'Overlay der Fenstersteuerelemente aktivieren'
-        window_controls_overlay_text: "Wenn aktiviert, können die Benutzer durch das Ausblenden der nativen Titelleiste ein noch intensiveres, App-näheres Erlebnis erhalten. Ob Overlay der Fenstersteuerelemente aktiviert sind oder nicht, hängt von den Benutzereinstellungen und der Browserkompatibilität ab. Du musst deine Titelleiste anpassen, indem du CSS/JS nach der Aktivierung hinzufügst, sonst überlagern die Steuerelemente einige Elemente der oberen Navigationsleiste deines Forums und das Fenster lässt sich fast nicht mehr verschieben, was zu einer schlechten Erfahrung führt.\n\nSiehe auch: <compatibilitylink>Die Kompatibilität von Window Controls Overlay</compatibilitylink> & <learnlink>Über Window Controls Overlay in Microsoft Learn</learnlink>\n"
+        window_controls_overlay_text: "Bei Verwendung in einem unterstützten Desktop-Browser hat „Overlay der Fenstersteuerelemente“ Vorrang vor dem ausgewählten Anzeigemodus.\n\nWenn aktiviert, können die Benutzer durch das Ausblenden der nativen Titelleiste ein noch intensiveres, App-näheres Erlebnis erhalten. Ob Overlay der Fenstersteuerelemente aktiviert sind oder nicht, hängt von den Benutzereinstellungen und der Browserkompatibilität ab. Du musst deine Titelleiste anpassen, indem du CSS/JS nach der Aktivierung hinzufügst, sonst überlagern die Steuerelemente einige Elemente der oberen Navigationsleiste deines Forums und das Fenster lässt sich fast nicht mehr verschieben, was zu einer schlechten Erfahrung führt.\n\nSiehe auch: <compatibilitylink>Die Kompatibilität von Window Controls Overlay</compatibilitylink> & <learnlink>Über Window Controls Overlay in Microsoft Learn</learnlink>\n"
       refreshed_message: 'Die PWA-Konfiguration wurde erfolgreich aktualisiert.'
       status_check_heading: Statusprüfung
       submit_button: 'Einstellungen speichern'
@@ -86,6 +92,7 @@ fof-pwa:
   api:
     endpoint_host_not_allowed: 'Push-Benachrichtigungen konnten nicht aktiviert werden, da der von deinem Browser verwendete Push-Dienst-Host „{host}“ nicht zugelassen ist. Bitte wende dich an den Forum-Administrator.'
     endpoint_https_required: 'Push-Benachrichtigungen konnten nicht aktiviert werden, da dein Browser eine ungültige Push-Dienst-URL „{url}“ angegeben hat. Es ist eine gültige HTTPS-URL erforderlich.'
+    keys_invalid: 'Push-Benachrichtigungen konnten nicht aktiviert werden, da dein Browser ungültige Verschlüsselungsschlüssel bereitgestellt hat. Bitte versuche erneut, Benachrichtigungen zu aktivieren.'
   forum:
     alerts:
       optin: 'Dieses Forum kann Push-Benachrichtigungen an dieses Gerät senden. Möchtest du diese aktivieren?'

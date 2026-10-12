@@ -42,6 +42,8 @@ linkrobins-support:
       error_delete: 'Kategorie konnte nicht gelöscht werden.'
       error_load: 'Diese Kategorie konnte nicht geladen werden.'
       error_save: 'Die Kategorie konnte nicht gespeichert werden. Bitte überprüfe die Felder und versuche es erneut.'
+      field_allowed_groups: 'Erlaubte Benutzergruppen'
+      field_allowed_groups_help: 'Lasse das Feld leer, damit alle registrierten Benutzer, die gemäß der Ticketart berechtigt sind, Tickets erstellen können. Wähle bestimmte Gruppen aus, um einzuschränken, wer Tickets in dieser Kategorie erstellen darf.'
       field_color: Farbe
       field_color_help: 'Hex-Farbe (z. B. #3b82f6) für das Kategorieabzeichen.'
       field_default_assignee: 'Neue Tickets zuweisen an'
@@ -61,6 +63,8 @@ linkrobins-support:
       field_slug: Slug
       field_slug_help: 'Wird in der Kategorie-URL verwendet. Lasse das Feld leer, um die URL anhand des Namens zu generieren.'
       field_slug_placeholder: 'z. B. Abrechnung'
+      field_ticket_type: Ticketart
+      field_ticket_type_help: 'Legt den Arbeitsablauf, die Entscheidungsoptionen und die Ratenbegrenzungen für Tickets dieser Kategorie fest.'
       submit_create: 'Kategorie erstellen'
       submit_update: 'Änderungen speichern'
       title_edit: 'Kategorie bearbeiten'
@@ -124,7 +128,9 @@ linkrobins-support:
   api:
     assign_staff_only: 'Tickets können ausschließlich Support-Mitarbeitern zugewiesen werden.'
     cannot_reply: 'Du kannst nicht auf dieses Ticket antworten.'
+    category_not_permitted: 'Dein Konto ist nicht berechtigt, Tickets in dieser Kategorie zu erstellen.'
     category_required: 'Eine Kategorie ist erforderlich.'
+    decision_not_allowed: 'Bei Tickets dieser Kategorie spielt diese Entscheidung keine Rolle.'
     default_assignee_staff_only: 'Eine Kategorie kann nur durch Support-Mitarbeiter zugewiesen werden.'
     login_required: 'Du musst angemeldet sein.'
     login_required_edit: 'Du musst angemeldet sein, um eine Antwort zu bearbeiten.'
@@ -143,6 +149,7 @@ linkrobins-support:
     ticket_not_found: 'Ticket nicht gefunden.'
     ticket_required: 'Ein Ticket ist erforderlich.'
     ticket_soft_delete_first: 'Ein Ticket muss zunächst vorläufig gelöscht werden, bevor es endgültig entfernt werden kann.'
+    unknown_ticket_type: 'Diese Ticketart ist nicht verfügbar. Wähle bitte eine aus der Liste aus.'
   email:
     assigned_body: '{name} hat dir dieses Support-Ticket zugewiesen.'
     assigned_subject: 'Dir zugewiesen: {subject}'
@@ -238,7 +245,7 @@ linkrobins-support:
       submit_ticket: 'Die Übermittlung des Tickets ist fehlgeschlagen.'
       unknown: 'Unbekannter Fehler.'
       update_assignment: 'Zuweisung konnte nicht aktualisiert werden.'
-      update_decision: 'Einspruchentscheidung konnte nicht aktualisiert werden.'
+      update_decision: 'Entscheidung konnte nicht aktualisiert werden.'
       update_priority: 'Priorität konnte nicht aktualisiert werden.'
       update_status: 'Status konnte nicht aktualisiert werden.'
       upload: 'Datei konnte nicht hochgeladen werden.'
@@ -332,7 +339,7 @@ linkrobins-support:
       title: Ticket
       unassigned: 'Nicht zugewiesen'
     staff:
-      change_decision: 'Einspruchentscheidung ändern'
+      change_decision: 'Entscheidung ändern'
       change_status: 'Status ändern'
       set_decision: 'Berufung einlegen:'
       set_status: 'Status festlegen:'

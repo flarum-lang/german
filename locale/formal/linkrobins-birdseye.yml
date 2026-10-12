@@ -102,6 +102,8 @@ linkrobins-birdseye:
       signups: Registrierungen
       so_far: bisher
       sources: Quellen
+      sync_behind_failing: 'Statistiken wurden seit dem {date} nicht mehr aktualisiert, aber der Flarum-Scheduler läuft. Überprüfe den Speicher und die Protokolle auf einen Birdseye-Fehler.'
+      sync_behind_no_scheduler: 'Statistiken wurden seit dem {date} nicht mehr aktualisiert: Der Flarum-Scheduler läuft nicht. <a>Scheduler einrichten</a>'
       tags: 'Beliebteste Tags'
       title: Analyse
       today: 'Bis jetzt heute'
