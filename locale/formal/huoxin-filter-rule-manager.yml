@@ -9,6 +9,8 @@ huoxin-filter-rule-manager:
     cancel: Abbrechen
     delete: Löschen
     delete_success: 'Regelsatz gelöscht.'
+    displays:
+      sidebar: Seitenleiste
     edit: Bearbeiten
     edit_ruleset: 'Regelsatz bearbeiten'
     export: Exportieren
@@ -29,6 +31,12 @@ huoxin-filter-rule-manager:
       all: 'Alle Beiträge'
     registry_tabs:
       modes: Darstellungsmodi
+    rule_builder:
+      add_rule: 'Regel hinzufügen'
+      and: AND
+      delete_rule: 'Regel löschen'
+      not: NOT
+      or: OR
     save: Speichern
     save_success: 'Regelsatz gespeichert.'
     scope_filters:
