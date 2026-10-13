@@ -2,6 +2,32 @@ CHANGELOG
 =========
 
 
+1.25.36 (XXXX-XX-XX)
+--------------------
+
+**General changes**:
+
+* Updated Flarum core translations (5 changed).
+
+
+**Added support for new extensions**:
+
+* [`ffans/link-guard`](https://github.com/FFans/link-guard) (100% complete)
+* [`huoxin/filter-rule-manager`](https://github.com/huoxin233/flarum-ext-filter-rule-manager) (12% complete)
+
+
+**Updated translations for extensions**:
+
+* [`flarum/pusher`](https://github.com/flarum/pusher) (1 changed, 100% complete)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (42 changed, 100% complete)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry) (4 changed, 100% complete)
+* [`forumfortress/flarum`](https://github.com/forum-fortress/flarum) (6 added, 2 changed, 100% complete)
+* [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha) (1 changed, 100% complete)
+
+
+All changes: [1.25.35...1.25.36](https://github.com/flarum-lang/german/compare/1.25.35...1.25.36).
+
+
 1.25.35 (2026-10-11)
 --------------------
 
