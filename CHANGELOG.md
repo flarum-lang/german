@@ -16,7 +16,7 @@ CHANGELOG
 
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (26 added, 42 changed, 100% complete)
 * [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa) (34 added, 2 changed, 100% complete)
-* [`forumfortress/flarum`](https://github.com/forum-fortress/flarum) (2 changed, 100% complete)
+* [`forumfortress/flarum`](https://github.com/forum-fortress/flarum) (2 changed, 96% complete)
 * [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye) (4 added, 100% complete)
 * [`linkrobins/discussion-banners`](https://github.com/linkrobins/flarum-discussion-banners) (8 added, 2 changed, 100% complete)
 * [`linkrobins/support`](https://github.com/linkrobins/support) (14 added, 4 changed, 98% complete)
