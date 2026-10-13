@@ -14,6 +14,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`ernestdefoe/roleplay`](https://github.com/ernestdefoe/roleplay) (48 added, 100% complete)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (26 added, 42 changed, 100% complete)
 * [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa) (34 added, 2 changed, 100% complete)
 * [`forumfortress/flarum`](https://github.com/forum-fortress/flarum) (6 added, 2 changed, 100% complete)
