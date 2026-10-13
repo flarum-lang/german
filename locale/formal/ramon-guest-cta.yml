@@ -5,6 +5,9 @@
 ramon-guest-cta:
   admin:
     settings:
+      cta_text_help: 'Ersetzt die Standardmeldung für jede Sprache. Nur Klartext; Zeilenumbrüche bleiben erhalten. Lasse das Feld leer, um die übersetzte Standardmeldung zu verwenden.'
+      cta_text_label: 'Text der Aufforderung zum Beitritt'
+      cta_text_placeholder: '=> ramon-guest-cta.forum.post_cta.text'
       hide_links_help: 'Verhindert, dass Gäste Links in Beiträgen anklicken können. Beim Anklicken eines Links wird stattdessen eine Aufforderung zum Anmelden oder Registrieren angezeigt.'
       hide_links_label: 'Links für Gäste ausblenden'
       position_1: 'Nach Beitrag #1'
@@ -12,6 +15,7 @@ ramon-guest-cta:
       position_3: 'Nach Beitrag #3'
       position_4: 'Nach Beitrag #4'
       position_5: 'Nach Beitrag #5'
+      position_end: 'Am Ende der Diskussion'
       position_help: 'Füge das Beitrittsbanner zwischen dieser Beitragsnummer und dem nächsten ein.'
       position_label: 'Position der Beitrittsaufforderung (nach dem wievielten Beitrag)'
       show_post_cta_help: 'Zeige zwischen den Beiträgen einer Diskussion eine Karte mit den Optionen „Anmelden“ und „Registrieren“ an, die nur für Gäste sichtbar ist. Wähle über die Positionseinstellung aus, nach wie vielen Beiträgen sie angezeigt werden soll.'

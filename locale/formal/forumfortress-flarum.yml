@@ -80,5 +80,8 @@ forumfortress-flarum:
       region_us: 'Nur Vereinigte Staaten'
       registration_email_help: 'Für den normalen Betrieb optional. Gib hier nur die E-Mail-Adresse deines Kontos ein, wenn du den Plugin-Ablauf „Register Site“ verwendest; für die Registrierung über das Portal ist dies nicht erforderlich.'
       registration_email_label: 'Zur Registrierung der Seite verwendete E-Mail'
+      repeat_offender_help: 'Standardmäßig deaktiviert. Nach zwei eindeutig bestätigten Spam-Blockierungen mit ursprünglichen Werten über 80 innerhalb von 24 Stunden wird ein neues Mitglied mit geringer Aktivität für sieben Tage gesperrt. Erfordert den Flarum-Scheduler. Mitarbeiter, benutzerdefinierte Gruppen und etablierte Mitglieder sind davon ausgenommen. Die Sperre kann über die nativen Sperrfunktionen aufgehoben werden; die automatische Sperrung wird höchstens einmal pro Mitglied angewendet.'
+      repeat_offender_label: 'Wiederholte Spammer für sieben Tage sperren'
+      repeat_offender_unavailable: 'Nicht verfügbar: Installiere und aktiviere die kompatible Flarum-Erweiterung „Suspend“. Es wird keine Kontoaktion ersetzt. Der Flarum-Scheduler muss jede Minute ausgeführt werden.'
       send_ham_label: 'Wiederhergestellte Beiträge als Ham melden'
       timeout_label: 'Zeitlimit für die Anfrage in Sekunden'

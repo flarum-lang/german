@@ -125,6 +125,11 @@ linkrobins-support:
     settings:
       description: 'Konfiguriere Support-Kategorien und Ratenbegrenzungen für das Ticket-System.'
       title: Support
+    ticket_types:
+      appeal: 'Einspruch gegen Sperrung'
+      appeal_help: 'In dieser Kategorie eröffnete Tickets werden als Einsprüche gegen Sperren behandelt, für die Obergrenzen für die Einspruchsquote gelten.'
+      standard: 'Standard Support'
+      standard_help: 'Reguläre Support-Tickets für allgemeine Anfragen, Fehlermeldungen und Hilfe zum Konto.'
   api:
     assign_staff_only: 'Tickets können ausschließlich Support-Mitarbeitern zugewiesen werden.'
     cannot_reply: 'Du kannst nicht auf dieses Ticket antworten.'
