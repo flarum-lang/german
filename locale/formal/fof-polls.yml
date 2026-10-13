@@ -24,7 +24,7 @@ fof-polls:
       enable_global_polls: 'Globale Umfragen aktivieren'
       enable_global_polls_help: 'Globale Umfragen sind nicht an einen bestimmten Beitrag gebunden und können über eine spezielle Umfragen-Seite aufgerufen werden.'
       enabled_poll_groups: 'Umfragegruppen aktivieren'
-      enabled_poll_groups_help: 'Umfragegruppen ermöglichen es Ihnen, globale Umfragen zu gruppieren und auf einer speziellen Seite anzuzeigen.'
+      enabled_poll_groups_help: 'Umfragegruppen ermöglichen es dir, globale Umfragen zu gruppieren und auf einer speziellen Seite anzuzeigen.'
       general:
         heading: 'Allgemeine Einstellungen'
         help: 'Diese Einstellungen beeinflussen die Grundfunktionen dieser Umfragen-Erweiterung.'
@@ -110,7 +110,7 @@ fof-polls:
     page:
       nav: Umfragen
       nav-all: 'Alle globalen Umfragen'
-      nav-groups: Umfrage-Gruppen
+      nav-groups: Umfragegruppen
     poll:
       cannot_change_vote: 'Du kannst deine Stimme nach dem Abstimmen nicht mehr ändern.'
       cannot_start_poll_button: 'Umfrage kann nicht gestartet werden'
@@ -143,34 +143,34 @@ fof-polls:
       error: 'Beim Speichern der Umfrage ist ein Fehler aufgetreten, bitte kontaktiere einen Administrator.'
     poll_groups:
       composer:
-        add_title: 'Umfrage-Gruppe hinzufügen'
-        delete: 'Umfrage-Gruppe löschen'
-        edit_title: 'Umfrage-Gruppe bearbeiten'
-        groups_manager: Umfrage-Gruppen-Manager
-        save_changes: 'Änderungen speichern'
-        success: 'Umfrage-Gruppe erfolgreich gespeichert.'
-        view_group: 'Umfrage-Gruppe anzeigen'
+        add_title: 'Umfragegruppe hinzufügen'
+        delete: 'Umfragegruppe löschen'
+        edit_title: 'Umfragegruppe bearbeiten'
+        groups_manager: Umfragegruppen-Manager
+        save_changes: '=> core.ref.save_changes'
+        success: 'Umfragegruppe erfolgreich gespeichert.'
+        view_group: 'Umfragegruppe anzeigen'
       controls:
         add_poll_label: 'Umfrage hinzufügen'
-        delete_confirmation: 'Möchtest du diese Umfrage-Gruppe wirklich löschen?'
+        delete_confirmation: 'Möchtest du diese Umfragegruppe wirklich löschen?'
         delete_error_message: 'Beim Löschen der Umfragegruppe ist etwas schiefgelaufen.'
-        delete_label: Löschen
-        delete_success_message: 'Umfrage-Gruppe erfolgreich gelöscht.'
-        edit_label: Bearbeiten
-        view_label: 'Umfrage-Gruppe anzeigen'
+        delete_label: '=> core.ref.delete'
+        delete_success_message: 'Umfragegruppe erfolgreich gelöscht.'
+        edit_label: '=> core.ref.edit'
+        view_label: 'Umfragegruppe anzeigen'
       list_page:
         add_poll_button: 'Umfrage zur Gruppe hinzufügen'
-        cannot_start_poll_group_button: 'Kann keine Umfrage-Gruppe starten'
-        empty_text: 'Es scheint, als gäbe es hier noch keine Umfrage-Gruppen.'
-        load_more_button: 'Mehr laden'
+        cannot_start_poll_group_button: 'Kann keine Umfragegruppe starten'
+        empty_text: 'Es scheint, als gäbe es hier noch keine Umfragegruppen.'
+        load_more_button: '=> core.ref.load_more'
         no_polls: 'In dieser Gruppe gibt es keine Umfragen.'
-        start_poll_group_button: 'Eine Umfrage-Gruppe starten'
-        title: Umfrage-Gruppen
+        start_poll_group_button: 'Eine Umfragegruppe starten'
+        title: Umfragegruppen
     poll_never_ends: 'Umfrage endet nie'
     polls_count: '{count, plural, one { {count} Stimme} other { {count} Stimmen}}'
     polls_list:
       empty_text: 'Es sieht so aus, als gäbe es hier keine gemeinschaftsweiten Umfragen.'
-      load_more_button: 'Mehr laden'
+      load_more_button: '=> core.ref.load_more'
       sort_dropdown:
         least_voted: 'Wenigste Stimmen'
         most_voted: 'Meiste Stimmen'
@@ -197,4 +197,4 @@ fof-polls:
       remove_button: 'Bild löschen'
       upload_button: 'Bild hochladen'
     votes_modal:
-      title: '=> fof-polls.forum.public_poll'
+      title: Abstimmende
