@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ernestdefoe-roleplay:
+  admin:
+    tags_help: 'Durch Kommas getrennte Tag-Slugs, bei denen Rollenspiel aktiviert ist – die Charakterauswahl, das Deck und Kampfbegegnungen werden nur in Diskussionen mit einem dieser Tags angezeigt. Lasse das Feld leer, um Rollenspiel in jeder Diskussion zuzulassen.'
+    tags_label: Rollenspiel-Tags
   forum:
     accent: Akzentfarbe
     add_combatant: 'Kämpfer hinzufügen'
@@ -11,19 +14,34 @@ ernestdefoe-roleplay:
     attack_label: Angriffswert
     bio_placeholder: 'Kurzbiografie (optional)'
     cancel: Abbrechen
+    card_desc_placeholder: 'Was kann diese Karte? (optional)'
     card_name_placeholder: Kartenname
+    characters_intro: 'Erstelle die Charaktere, in deren Rolle du spielst. Du kannst überall dort Beiträge aus der Perspektive deines Charakters verfassen, wo Rollenspiele erlaubt sind.'
+    combatant_name: 'Name des Kämpfers'
+    confirm_archive: '{name} archivieren? Deine Beiträge aus dessen Perspektive behalten ihre Identität bei.'
+    confirm_delete_card: 'Die Karte „{name}“ löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.'
+    confirm_end_encounter: 'Diese Begegnung für alle beenden?'
     cost_label: Kosten
     create: 'Charakter erstellen'
     create_card: 'Karte erstellen'
     crit: KRIT!
+    crit_toast: 'Kritische Treffer mit {card}!'
     damage_label: Schadenswert
+    deck_intro: 'Erstelle die Karten, die deine Charaktere in taktischen Begegnungen einsetzen – Fähigkeiten, Gegenstände, Zaubersprüche und Gegner, jeweils mit Würfelformeln, die die Spiel-Engine auswertet.'
     defense_label: Verteidigung
     delete: Löschen
+    down: Ausgeschaltet
     edit: Bearbeiten
     edit_card: 'Karte bearbeiten'
     edit_character: 'Charakter bearbeiten'
+    encounter: Begegnung
+    end_encounter: 'Begegnung beenden'
     hp_label: HP
+    icon_label: 'Symbol (Font Awesome-Klasse)'
     icon_preview: Vorschau
+    join_as: 'Beitreten als…'
+    join_fray: 'Ins Getümmel stürzen'
+    miss: Fehlschlag
     my_characters: 'Meine Charaktere'
     my_deck: 'Mein Deck'
     name_placeholder: Charaktername
@@ -31,21 +49,28 @@ ernestdefoe-roleplay:
     new_character: 'Neuer Charakter'
     next_turn: 'Nächster Zug'
     no_cards: 'Du hast noch keine Karten erstellt.'
+    no_characters: 'Du hast noch keine Charaktere erstellt.'
     no_target: 'Kein Ziel'
     outcome_defeat: Niederlage…
     outcome_victory: Sieg!
     pick_card: 'Wähle eine Karte…'
     play_card: 'Karte spielen'
     played_by: 'Gespielt von {user}'
+    post_count: '{count, plural, =0{Keine Beiträge} one{# Beitrag} other{# Beiträge}} aus der Perspektive des Charakters'
     posting_as: 'Als Charakter senden'
     round_n: 'Runde {n}'
     save: Speichern
     scope_private: 'Mein Deck'
     scope_shared: Geteilt
+    share_card: 'Füge diese Karte dem Deck aller Spieler hinzu'
     shared: Geteilt
     shared_cards: 'Geteilte Karten'
+    spawn_foe_card: 'Gegner von Karte erscheinen lassen…'
+    start_combat: 'Initiativwurf & Start'
+    start_encounter: 'Begegnung auslösen'
     status_active: Aktiv
     status_ended: Beendet
+    status_setup: Einrichtung
     team_foe: Feind
     team_party: Gruppe
     type_ability: Fähigkeit
