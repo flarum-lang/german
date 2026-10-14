@@ -30,6 +30,7 @@ CHANGELOG
 * [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye) (4 added, 100% complete)
 * [`linkrobins/discussion-banners`](https://github.com/linkrobins/flarum-discussion-banners) (8 added, 2 changed, 100% complete)
 * [`linkrobins/support`](https://github.com/linkrobins/support) (22 added, 4 changed, 100% complete)
+* [`linkrobins/flarum-warble`](https://github.com/linkrobins/warble) (12 added, 45% complete)
 * [`ramon/guest-cta`](https://github.com/ram0ng1/guest-cta) (8 added, 100% complete)
 
 
