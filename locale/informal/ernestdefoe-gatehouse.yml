@@ -20,6 +20,7 @@ ernestdefoe-gatehouse:
     question_help: 'Dies wird im Registrierungsformular angezeigt, und du findest die Antwort oben in der Warteschlange, in deiner Benachrichtigung und in deiner E-Mail. Frage nach allem, was dir bei der Entscheidung hilft: warum die Person beitreten möchte, ihre Matrikelnummer, wer sie eingeladen hat. Lass das Feld leer, wenn du nichts fragen möchtest.'
     question_placeholder: 'Warum möchtest du beitreten?'
     question_required: 'Bewerber müssen dies beantworten'
+    question_required_help: 'Nur Adressen, die auf eine Genehmigung warten, müssen diese Frage beantworten. Vertrauenswürdige Adressen erhalten direkten Zugang und können das Feld leer lassen.'
     queue:
       answer: 'Deren Antwort'
       approve: Genehmigen
@@ -40,6 +41,7 @@ ernestdefoe-gatehouse:
     usernames_heading: Benutzernamen
   email:
     admin_new:
+      answer: 'Ihre Antwort:'
       answer_to: 'Ihre Antwort auf „{question}“:'
       body: '{applicant} ({email}) hat sich registriert und wartet auf die Freigabe.'
       button: 'Genehmigen oder ablehnen'
