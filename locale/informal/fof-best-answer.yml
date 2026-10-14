@@ -27,17 +27,18 @@ fof-best-answer:
         advanced: Erweitert
         general: Allgemein
         reminders: Erinnerungen
-        reminders_notice: 'Damit Erinnerungen funktionieren, musst du den Flarum-Planer richtig eingerichtet haben.'
+        reminders_notice: 'Erinnerungen fordern den Verfasser einer Diskussion auf, eine beste Antwort auszuwählen. Sie werden von einer stündlich ausgeführten Aufgabe versendet, daher muss der Flarum-Scheduler eingerichtet sein.'
         tags: 'Tags für beste Antworten'
-      remind_tags_help: 'Wähle aus, für welche Tags (sofern vorhanden) Erinnerungen gesendet werden sollen. Erinnerungen werden nur für Diskussionen mit diesen Tags gesendet.'
+      remind_tags_help: 'Es werden nur für Diskussionen unter diesen Tags Erinnerungen gesendet. Eine Diskussion muss außerdem unter einem der aktivierten Tags stehen.'
       remind_tags_label: Erinnerungs-Tags
-      schedule_log_output: 'Scheduler-Output an den Log anhängen'
+      schedule_log_output: 'Erinnerungsversand an den Log anhängen'
+      schedule_log_output_help: 'Fügt die Ausgabe jedes Durchlaufs an die Datei „storage/logs/fof-best-answer.log“ an.'
       schedule_on_one_server: 'Direktive ''onOneServer()'' für den Taskplaner verwenden'
       schedule_on_one_server_help: 'Erfordert Redis/Memcache'
-      schedule_stop_overnight: 'Verhindern, dass Erinnerungsbenachrichtigungen während unsozialer Zeiten gesendet werden'
-      schedule_stop_overnight_help: '21:00 - 08:00 Uhr Serverzeit'
-      select_best_answer_reminder_days: Erinnerungshäufigkeit
-      select_best_answer_reminder_days_help: 'Sende nach der konfigurierbaren Anzahl von Tagen eine Erinnerung an den Diskussionsstarter, um eine beste Antwort auszuwählen, 0 = Erinnerungen deaktivieren.'
+      schedule_stop_overnight: 'Keine Erinnerungen über Nacht versenden'
+      schedule_stop_overnight_help: 'Erinnerungen werden nur zwischen 08:00 und 21:00 Uhr UTC versendet.'
+      select_best_answer_reminder_days: 'Tage vor der Erinnerung'
+      select_best_answer_reminder_days_help: 'Erinnere Autoren daran, eine beste Antwort auszuwählen, wenn seit Beginn einer Diskussion diese Anzahl an Tagen vergangen ist. Für jede Diskussion wird einmal eine Erinnerung gesendet, jedoch nur, wenn der Autor berechtigt ist, eine der Antworten auszuwählen. Diskussionen, die vor mehr als 7 Tagen gestartet wurden, werden übersprungen. Der Wert 0 deaktiviert die Erinnerungen.'
       select_best_answer_tags_help: 'Wähle aus, ob und welche Tags zu Diskussionen hinzugefügt werden sollen, wenn eine Beste Antwort festgelegt wird. Es sind nur sekundäre Tags erlaubt. Diese Tags werden entfernt, wenn die Beste Antwort entfernt wird.'
       select_best_answer_tags_label: 'Tags für Diskussionen mit Besten Antworten'
       show_filter_help: 'Wähle für Tags, bei denen die besten Antworten aktiviert sind, die Filteroption gelöst/ungelöst in der Diskussionsliste anzeigen'
@@ -49,9 +50,9 @@ fof-best-answer:
       use_alt_ui_help: 'Beste Antwortsteuerelemente in der Fußzeile des Beitrags'
   email:
     body:
-      awarded: "Hallo {recipient_display_name},\n\nGute Arbeit, {actor_display_name} hat soeben deinen Beitrag als die beste Antwort in der Diskussion „{discussion_title}“ ausgewählt. Danke fürs Mithelfen.\n\nSchau es dir an: {discussion_url}\n"
-      ba-set: "Hallo {recipient_display_name},\n\n{actor_display_name} hat soeben eine beste Antwort in der Diskussion „{discussion_title}“ gewählt, an der du teilgenommen hast.\n\nSchau es dir an: {discussion_url}\n"
-      select: "Hallo {recipient_display_name},\n\nNur um sicherzugehen; mittlerweile solltest du jede Menge Antworten auf deine Frage „{discussion_title}“ erhalten haben. Hoffentlich hat dir eine davon geholfen, dein Problem zu lösen.\n\nWenn das so ist, wäre es sehr hilfreich für zukünftige Mitglieder, wenn du eine beste Antwort auf deine Frage auswählen könntest. Es wird Leuten mit dem gleichen Problem helfen, die Antwort zu finden, die sie brauchen, und es ist auch ein großes Dankeschön an die Mitglieder, die dir ausgeholfen haben. Sie geben ihre Zeit freiwillig, also ist es schön sie wissen zu lassen, dass sie hilfreich sind.\n\nÖffne die Diskussion: {discussion_url}, und wähle den passendsten Beitrag als beste Antwort.\n\nVielen Dank!\n"
+      awarded: "Gute Arbeit, {actor_display_name} hat soeben deinen Beitrag als die beste Antwort in der Diskussion „{discussion_title}“ ausgewählt. Danke fürs Mithelfen.\n\nSchau es dir an: {discussion_url}\n"
+      ba-set: "{actor_display_name} hat soeben eine beste Antwort in der Diskussion „{discussion_title}“ gewählt, an der du teilgenommen hast.\n\nSchau es dir an: {discussion_url}\n"
+      select: "Nur um sicherzugehen; mittlerweile solltest du jede Menge Antworten auf deine Frage „{discussion_title}“ erhalten haben. Hoffentlich hat dir eine davon geholfen, dein Problem zu lösen.\n\nWenn das so ist, wäre es sehr hilfreich für zukünftige Mitglieder, wenn du eine beste Antwort auf deine Frage auswählen könntest. Es wird Leuten mit dem gleichen Problem helfen, die Antwort zu finden, die sie brauchen, und es ist auch ein großes Dankeschön an die Mitglieder, die dir ausgeholfen haben. Sie geben ihre Zeit freiwillig, also ist es schön sie wissen zu lassen, dass sie hilfreich sind.\n\nÖffne die Diskussion: {discussion_url}, und wähle den passendsten Beitrag als beste Antwort.\n\nVielen Dank!\n"
     subject:
       awarded: 'Dein Beitrag wurde von {display_name} als beste Antwort ausgewählt'
       ba-set: '{display_name} hat eine beste Antwort gewählt'
@@ -62,6 +63,9 @@ fof-best-answer:
     best_answer_label: 'gewählt von <a>{username}</a> {time_set}'
     composer:
       titlePlaceholder: 'Titel der Frage'
+    deck:
+      best_answers: 'Beste Antworten'
+      unsolved_questions: 'Ungelöste Fragen'
     discussion:
       jump_to_best_answer_button: 'Beste Antwort anzeigen'
     errors:
@@ -90,6 +94,10 @@ fof-best-answer:
       best-answer-count: '{count, plural, one { {count} beste Antwort} other {{count} beste Antworten}}'
   lib:
     gambits:
+      qna:
+        key: frage
+      solution:
+        key: lösung
       solved-discussions:
         key: gelöst
 fof-user-directory:

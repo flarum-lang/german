@@ -37,8 +37,11 @@ ianm-html-head:
       location_label: 'Einbinden in'
       meta:
         content_label: Inhalt
+        name_help: 'Elemente mit den Namen „description“, „viewport“ oder „theme-color“ ersetzen das von Flarum bereits ausgegebene Tag, anstatt ein zweites hinzuzufügen.'
         name_label: 'name=""'
+        name_placeholder: 'Wähle einen Namen aus oder gib einen Namen ein'
         property_label: 'property="" (OpenGraph)'
+        property_placeholder: 'Wähle eine Property aus oder gib eine Property ein'
         variant_label: Variante
       pages:
         admin: Admin-Panel
