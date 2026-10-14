@@ -9,8 +9,9 @@ CHANGELOG
 
 * [`clarkwinkelmann/flarum-ext-prominent-post-numbers`](https://github.com/clarkwinkelmann/flarum-ext-prominent-post-numbers) (100% complete)
 * [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed) (100% complete)
-* [`ernestdefoe/menu-control`](https://github.com/ernestdefoe/menu-control) (5% complete)
+* [`ernestdefoe/menu-control`](https://github.com/ernestdefoe/menu-control) (100% complete)
 * [`huoxin/filter-rule-manager`](https://github.com/huoxin233/flarum-ext-filter-rule-manager) (12% complete)
+* [`prm/analytics`](https://github.com/smmpanelscripts1/prm-analytics) (25% complete)
 
 
 **Updated translations for extensions**:
