@@ -4,5 +4,37 @@
 
 ernestdefoe-menu-control:
   admin:
+    add_link: 'Benutzerdefinierten Link hinzufügen'
+    badge_groups: '{count, plural, one {# Gruppe} other {# Gruppen}}'
+    badge_invalid_url: 'Wird nicht angezeigt: verwende eine Web-Adresse, mailto:, tel: oder /path'
+    badge_link: 'Benutzerdefinierter Link'
+    badge_missing: 'Derzeit nicht in der Seitenleiste'
+    delete_link: 'Link löschen'
+    drag_label: 'Zur Neuanordnung {name} ziehen (oder markieren und Alt + Pfeiltasten drücken)'
+    edit: Bearbeiten
+    flip_help: 'Platziert die Tag-Liste oben in der Seitenleiste, darunter folgen „Alle Diskussionen“, „Du folgst“ und die übrigen Elemente.'
+    flip_label: 'Tags oberhalb der Menüelemente anzeigen'
+    groups_help: 'Setze Häkchen bei Gruppen, um diesen Eintrag nur diesen Gruppen anzuzeigen. Wenn kein Häkchen gesetzt ist, sehen ihn alle.'
+    groups_label: 'Sichtbar für'
+    hide: 'Element ausblenden'
+    highlight: 'Element hervorheben'
+    highlight_color_help: 'Die Farbe der hervorgehobenen Elemente. Lasse das Feld leer, um die Hauptfarbe deines Forums zu verwenden.'
+    highlight_color_label: Hervorhebungsfarbe
+    icon_help: 'Eine beliebige Font Awesome-Klasse, z. B. „fas fa-fire“. Für die Standardeinstellung leer lassen.'
+    icon_label: Symbol
+    items_help: 'Ziehe Elemente, um die Reihenfolge zu ändern. Das Augen-Symbol blendet ein Element aus, der Stern hebt es hervor und der Bleistift benennt es um, ändert sein Symbol oder beschränkt es auf bestimmte Gruppen. Von anderen Erweiterungen hinzugefügte Elemente werden hier separat angezeigt. Klicke anschließend auf „Änderungen speichern“.'
     items_label: 'Elemente in der Seitenleiste'
+    link_label: Bezeichnung
+    new_link: 'Neuer Link'
+    new_tab_label: 'In einem neuen Tab öffnen'
+    rename_help: 'Lasse das Feld leer, um den ursprünglichen Namen beizubehalten.'
+    rename_label: Bezeichnung
+    scan_failed: 'Die Seitenleiste deines Forums konnte nicht gelesen werden, daher fehlen in dieser Liste möglicherweise Elemente aus anderen Erweiterungen. Lade die Seite neu, um es erneut zu versuchen.'
     scanning: 'Seitenleiste deines Forums wird eingelesen…'
+    show: 'Element anzeigen'
+    sticky_help: 'Die Seitenleiste, einschließlich der Schaltfläche „Diskussion starten“, bleibt auf dem Bildschirm sichtbar, während Besucher scrollen. Nur auf dem Desktop.'
+    sticky_label: 'Seitenleiste beim Scrollen oben fixiert behalten'
+    unhighlight: 'Hervorhebung entfernen'
+    url_help: 'Eine Webadresse (beispiel.de/seite oder https://…), eine „mailto:“- oder „tel:“-Adresse oder ein Pfad in diesem Forum, wie beispielsweise /tags.'
+    url_label: Adresse
+    url_normalized: '{url} wird geöffnet'
