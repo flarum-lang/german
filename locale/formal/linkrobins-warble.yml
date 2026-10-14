@@ -5,7 +5,13 @@
 linkrobins-warble:
   admin:
     check:
+      endpoint_fail: 'Browser können in diesem Forum nicht auf /api/warble/poll zugreifen. Möglicherweise wird der Zugriff durch eine Firewall, ein Sicherheits-Plugin oder eine Host-Regel blockiert, und ohne diesen Zugriff werden keine Live-Aktualisierungen vorgenommen.'
+      endpoint_ok: 'Browser können die Abfrageadresse in diesem Forum aufrufen.'
+      queue_sync: 'Die Warteschlange ist auf sync eingestellt, sodass Aktualisierungen sofort nach ihrem Eintreten übertragen werden.'
       realtime: 'Die Realtime-Erweiterung ist aktiviert.'
+      realtime_missing: 'Die Realtime-Erweiterung ist nicht aktiviert. Warble überträgt nur die Aktualisierungen von Realtime, daher musst du zunächst „flarum/realtime“ aktivieren.'
+      updates_quiet: 'Keine Aktualisierungen wurden in den letzten {minutes} Minuten gesendet. Sende eine Antwort in einem anderen Tab und prüfe erneut.'
+      updates_seen: 'Die letzte Aktualisierung wurde um {at} gesendet.'
     connected: "✓ Verbunden — Echtzeitfunktion ist in deinem Forum eingerichtet. Die Aktivierung kann bis zu einer Minute dauern. Sollten neue Antworten also nicht sofort in Echtzeit angezeigt werden, warte bitte einen Moment. Tipp: Öffne die Einstellungen der „Realtime“-Erweiterung, um die Eingabeanzeigen, Aktualisierungen der Diskussionsliste und Benachrichtigungs-Toasts für dein Forum anzupassen.\n"
     health_recheck: 'Erneut prüfen'
     health_title: Realtime-Status
