@@ -15,7 +15,13 @@ ernestdefoe-gatehouse:
     held_message: 'Zusatztext für Bewerber, die noch auf eine Antwort warten'
     held_message_help: 'Wird der E-Mail „Wir haben deine Bewerbung erhalten“ hinzugefügt. Gib an, was du von ihnen benötigst, zum Beispiel: „Bitte antworte mit deiner Matrikelnummer“.'
     messages_heading: E-Mails
+    question: 'Neu-Registrierenden eine Frage stellen'
+    question_heading: 'Frage während der Registrierung'
+    question_help: 'Dies wird im Registrierungsformular angezeigt, und du findest die Antwort oben in der Warteschlange, in deiner Benachrichtigung und in deiner E-Mail. Frage nach allem, was dir bei der Entscheidung hilft: warum die Person beitreten möchte, ihre Matrikelnummer, wer sie eingeladen hat. Lass das Feld leer, wenn du nichts fragen möchtest.'
+    question_placeholder: 'Warum möchtest du beitreten?'
+    question_required: 'Bewerber müssen dies beantworten'
     queue:
+      answer: 'Deren Antwort'
       approve: Genehmigen
       approved_by: 'Genehmigt von {name}'
       decline: Ablehnen
@@ -34,7 +40,9 @@ ernestdefoe-gatehouse:
     usernames_heading: Benutzernamen
   email:
     admin_new:
-      body: "{applicant} ({email}) hat sich angemeldet und wartet auf die Freigabe.\n\nHier kannst du den Antrag freigeben oder ablehnen:\n\n{url}\n"
+      answer_to: 'Ihre Antwort auf „{question}“:'
+      body: '{applicant} ({email}) hat sich registriert und wartet auf die Freigabe.'
+      button: 'Genehmigen oder ablehnen'
       subject: '{applicant} wartet auf den Beitritt zu {forum}'
     approved:
       body: "Dein {forum}-Konto wurde freigeschaltet. Du kannst dich jetzt anmelden:\n\n{url}\n"
@@ -52,7 +60,10 @@ ernestdefoe-gatehouse:
     notice_declined: 'Dein Konto wurde nicht freigeschaltet, daher kann es in diesem Forum nicht genutzt werden.'
     notice_pending: 'Vielen Dank für deine Anmeldung! Bevor du Beiträge verfassen kannst, muss ein Administrator dein Konto freischalten. Sobald dies geschehen ist, erhältst du eine E-Mail von uns.'
     notification: '{name} hat sich angemeldet und wartet auf deine Freigabe'
+    notify_applicant_label: 'Jemand registriert sich und wartet auf meine Genehmigung'
+    optional: optional
   lib:
+    reason_required: 'Bitte beantworte diese Frage, damit ein Administrator dein Konto freischalten kann.'
     refused: 'Anmeldungen über diese E-Mail-Adresse werden in diesem Forum nicht akzeptiert.'
     signin_declined: 'Dieses Konto wurde nicht freigeschaltet und kann daher in diesem Forum nicht verwendet werden.'
     signin_pending: 'Dein Konto wartet darauf, von einem Administrator freigeschaltet zu werden. Wir benachrichtigen dich per E-Mail, sobald es bereit ist.'

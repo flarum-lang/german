@@ -159,3 +159,8 @@ flarum-gdpr:
       request_button: 'Archiv anfordern'
       text: "Ein ZIP-Archiv wird für dich vorbereitet. Du erhältst eine Benachrichtigung, mit einem Downloadlink, sobald die Datei fertiggestellt ist. Der Link bleibt für einen Tag gültig.\n"
       title: 'Daten für {username} anfordern'
+  views:
+    confirm_erasure:
+      submit_button: 'Löschung bestätigen'
+      text: 'Bestätige, dass du dein Konto und die darin enthaltenen Daten löschen möchten. Bis deine Anfrage bearbeitet wurde, kannst du diese noch in deinen Einstellungen widerrufen.'
+      title: 'Kontolöschung bestätigen'
