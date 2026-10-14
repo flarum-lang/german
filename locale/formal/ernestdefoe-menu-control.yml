@@ -22,11 +22,22 @@ ernestdefoe-menu-control:
     highlight_color_label: Hervorhebungsfarbe
     icon_help: 'Eine beliebige Font Awesome-Klasse, z. B. „fas fa-fire“. Für die Standardeinstellung leer lassen.'
     icon_label: Symbol
-    items_help: 'Ziehe Elemente, um die Reihenfolge zu ändern. Das Augen-Symbol blendet ein Element aus, der Stern hebt es hervor und der Bleistift benennt es um, ändert sein Symbol oder beschränkt es auf bestimmte Gruppen. Von anderen Erweiterungen hinzugefügte Elemente werden hier separat angezeigt. Klicke anschließend auf „Änderungen speichern“.'
+    items_help: 'Ziehe Elemente, um die Reihenfolge zu ändern. Das Augen-Symbol blendet ein Element aus, der Stern hebt es hervor und der Bleistift benennt es um, ändert sein Symbol oder beschränkt es auf bestimmte Gruppen. Von anderen Erweiterungen hinzugefügte Elemente werden hier separat angezeigt. Die Vorschau zeigt dir vor dem Speichern das Ergebnis für den ine beliebige Gruppe. Klicke anschließend auf „Änderungen speichern“.'
     items_label: 'Elemente in der Seitenleiste'
     link_label: Bezeichnung
     new_link: 'Neuer Link'
     new_tab_label: 'In einem neuen Tab öffnen'
+    picker_brands: Marken
+    picker_count: '{count, plural, one {# Symbol} other {# Symbole}}'
+    picker_open: 'Wähle ein Symbol'
+    picker_regular: Normal
+    picker_search: 'Symbole durchsuchen…'
+    picker_solid: Ausgefüllt
+    preview_guests: Gäste
+    preview_members: Mitglieder
+    preview_start: '=> core.ref.start_a_discussion'
+    preview_title: Vorschau
+    preview_view_as: 'Anzeigen als'
     rename_help: 'Lasse das Feld leer, um den ursprünglichen Namen beizubehalten.'
     rename_label: Bezeichnung
     scan_failed: 'Die Seitenleiste deines Forums konnte nicht gelesen werden, daher fehlen in dieser Liste möglicherweise Elemente aus anderen Erweiterungen. Lade die Seite neu, um es erneut zu versuchen.'
