@@ -4,16 +4,42 @@
 
 prm-analytics:
   admin:
+    charts:
+      activity: Aktivitäts-Mix
+      growth: Wachstum
+      moderation: Moderationsbelastung
+      reports_reason: 'Meldungen nach Grund'
+      reports_status: 'Meldungen nach Status'
+      tickets_category: 'Tickets nach Kategorie'
+      tickets_status: 'Tickets nach Status'
+      top_tags: 'Beliebteste Tags'
+    empty: 'Keine Daten in diesem Zeitraum'
     error: 'Analysedten konnten nicht geladen werden.'
     kpis:
       discussions: Diskussionen
       likes: Likes
+      now: jetzt
+      open_tickets: 'Offene Tickets'
       posts: Beiträge
+      reports: Meldungen
+      tickets: Tickets
       users: Mitglieder
+      vs_prev: 'vs vorher'
+      warnings: Warnungen
     loading: 'Analysedaten werden geladen…'
     range:
       30d: '30 Tage'
       7d: '7 Tage'
       90d: '90 Tage'
+      label: Zeitraum
     refresh: Aktualisieren
+    series:
+      discussions: 'Neue Diskussionen'
+      likes: Likes
+      posts: 'Neue Beiträge'
+      reports: Meldungen
+      tickets: 'Tickets eröffnet'
+      trade: Feedback
+      users: 'Neue Mitglieder'
+      warnings: Warnungen
     subtitle: 'Echtzeit-Forumanalyse zu Gesundheit, Wachstum und Arbeitsbelastung des Teams'

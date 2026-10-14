@@ -8,3 +8,4 @@ fof-forum-widgets-core:
     settings:
       prefer_data_with_initial_load: 'Vorzugsweise alle Widget-Daten mit der ersten Seitenantwort laden.'
       prefer_data_with_initial_load_help: 'Anstatt die Widget-Daten nach dem ersten Laden der Seite durch API-Anfragen nachzuladen, werden die Daten (sofern möglich) bereits beim initialen Laden der Seite geladen.'
+    widget_tooltip: '{widget} — {extension}'
