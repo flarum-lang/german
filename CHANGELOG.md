@@ -16,9 +16,11 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (22 added, 2 changed, 96% complete)
 * [`ernestdefoe/roleplay`](https://github.com/ernestdefoe/roleplay) (48 added, 100% complete)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr) (6 added, 100% complete)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (10 added, 20 changed, 100% complete)
-* [`fof/categories`](https://github.com/FriendsOfFlarum/categories) (16 changed, 100% complete)
+* [`fof/categories`](https://github.com/FriendsOfFlarum/categories) (20 changed, 100% complete)
 * [`fof/forum-widgets-core`](https://github.com/FriendsOfFlarum/forum-widgets-core) (2 added, 100% complete)
 * [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users) (4 added, 100% complete)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (26 added, 42 changed, 100% complete)
