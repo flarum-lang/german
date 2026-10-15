@@ -7,10 +7,15 @@ ernestdefoe-depot:
     card:
       last_30_days: '30 Tage'
       locked: '{count, plural, one {# Datei} other {# Dateien}} für {group}'
+      no_ratings: 'Noch keine Bewertungen'
+      pending: 'Genehmigung ausstehend'
       updated: 'aktualisiert {time}'
       updated_badge: Aktualisiert
     empty:
       none_body: 'Die erste mit der Schaltfläche in der Seitenleiste hochladen.'
+      none_title: 'Noch keine Dateien hier'
+      reset: 'Filter löschen'
+      title: 'Keine Treffer'
     file:
       all_versions: 'Alle Versionen'
       approve: Genehmigen
@@ -34,9 +39,12 @@ ernestdefoe-depot:
       edit_reply: 'Deine Antwort ändern'
       edit_review: 'Deine Bewertung ändern'
       external: 'Externer Link'
+      feature: Hervorheben
+      featured: Hervorgehoben
       first_released: Erstveröffentlichung
       github_sync: 'Neue Versionen werden hier automatisch angezeigt'
       helpful: 'Hilfreich ({count})'
+      install: Installieren
       install_with_composer: 'Mit Composer installieren'
       last_30: '{count} in 30 Tagen'
       latest: Neueste
@@ -44,6 +52,7 @@ ernestdefoe-depot:
       login_to_download: 'Anmelden, um herunterzuladen'
       login_to_review: 'Anmelden, um zu bewerten'
       missing_back: 'Zurück zu Downloads'
+      missing_title: 'Diese Datei ist nicht mehr hier'
       new_version: 'Eine Version hinzufügen'
       no_download_permission: 'Du kannst hier keine Dateien herunterladen'
       older_versions: 'Ältere Versionen'
@@ -56,6 +65,7 @@ ernestdefoe-depot:
       reply_placeholder: 'Antwort schreiben…'
       reply_save: Antworten
       required: Erforderlich
+      requires: 'Du benötigst ausserdem'
       reviewed_version: 'v{version} bewertet'
       screenshot: 'Screenshot {n}'
       tab_discussion: Diskussion
@@ -66,6 +76,7 @@ ernestdefoe-depot:
       thread_meta: '{count, plural, one {# Antwort} other {# Antworten}}'
       total_downloads: Downloads
       total_installs: Installationen
+      unfeature: 'Nicht mehr hervorheben'
       updated: 'aktualisiert {time}'
       verified: 'Prüfsumme veröffentlicht'
       version_downloads: '{count} Downloads'
@@ -91,6 +102,8 @@ ernestdefoe-depot:
       pending: '{count, plural, one {# Datei wartet} other {# Dateien warten}} auf Genehmigung'
       review: Bewertung
     rating_label: 'Bewertet mit {rating} von 5'
+    source:
+      github_tooltip: 'Neue Versionen auf github.com/{repo} erscheinen automatisch hier'
     spotlight:
       details: 'Details anzeigen'
       download: 'v{version} herunterladen'
