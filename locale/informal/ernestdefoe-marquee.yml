@@ -8,6 +8,8 @@ ernestdefoe-marquee:
     igdb_client_secret: 'Client Secret'
     igdb_help: 'Die Spiele stammen von IGDB, das von Twitch betrieben wird. <a>Registriere eine Anwendung in der Twitch-Entwicklerkonsole</a> (Client-Typ „Vertraulich“), erstelle einen Client-Schlüssel und füge beides hier ein. Der Schlüssel verbleibt auf dem Server. IGDB ist für nichtkommerzielle Foren kostenlos; ein kommerzielles Forum benötigt eine Partnerschaft mit IGDB.'
     igdb_label: 'Twitch-Anwendungs-Zugangsdaten für IGDB'
+    language_help: 'Die Sprache, in der TMDB Titel und Inhaltsangaben ausgibt, wird als Sprach- und Regionscode angegeben, z. B. en-US, de-CH oder pt-BR.'
+    language_label: 'Sprache der Daten'
     source_game: 'Spiele (IGDB)'
     source_movie: 'Filme (TMDB)'
     source_music: 'Musikalben (Deezer, kein Schlüssel nötig)'
@@ -16,8 +18,10 @@ ernestdefoe-marquee:
     tags_help: 'Wenn jemand eine Diskussion unter einem dieser Tags startet, durchsucht das Titelfeld diese Quelle, und die Diskussion zeigt die Titelkarte in ihrer Kopfzeile an. Bei allen anderen Tags bleibt der normale Editor erhalten.'
     tags_label: 'Welche Tags welche Quelle verwenden'
     tmdb_token_help: 'Filme und Fernsehserien stammen aus The Movie Database. <a>Rufe in deinen TMDB-API-Einstellungen</a> ein Token ab und füge das lange API-Lesezugriffstoken hier ein. Es verbleibt auf dem Server.'
+    tmdb_token_label: 'TMDB API-Token für Lesezugriff'
   api:
     link_invalid: 'Dieser Titel konnte nicht verknüpft werden. Wähle ihn erneut aus der Liste.'
+    link_unavailable: 'Die Quelle des Titels konnte nicht aufgerufen werden, daher wurde der Titel nicht verknüpft. Bitte versuche es in Kürze erneut.'
   forum:
     composer:
       linked: 'Verknüpft mit {title} · {source}'
