@@ -9,6 +9,8 @@ CHANGELOG
 
 * [`clarkwinkelmann/flarum-ext-prominent-post-numbers`](https://github.com/clarkwinkelmann/flarum-ext-prominent-post-numbers) (100% complete)
 * [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed) (100% complete)
+* [`ernestdefoe/backdrop`](https://github.com/ernestdefoe/backdrop) (100% complete)
+* [`ernestdefoe/marquee`](https://github.com/ernestdefoe/marquee) (42% complete)
 * [`ernestdefoe/menu-control`](https://github.com/ernestdefoe/menu-control) (100% complete)
 * [`huoxin/filter-rule-manager`](https://github.com/huoxin233/flarum-ext-filter-rule-manager) (12% complete)
 * [`prm/analytics`](https://github.com/smmpanelscripts1/prm-analytics) (79% complete)
@@ -18,7 +20,7 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (2 changed, 100% complete)
-* [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) (26 added, 97% complete)
+* [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) (32 added, 100% complete)
 * [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (26 added, 2 changed, 100% complete)
 * [`ernestdefoe/roleplay`](https://github.com/ernestdefoe/roleplay) (48 added, 100% complete)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr) (6 added, 100% complete)
