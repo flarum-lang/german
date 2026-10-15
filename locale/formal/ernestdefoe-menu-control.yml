@@ -29,11 +29,17 @@ ernestdefoe-menu-control:
     new_tab_label: 'In einem neuen Tab öffnen'
     picker_brands: Marken
     picker_count: '{count, plural, one {# Symbol} other {# Symbole}}'
+    picker_label: Symbolauswahl
+    picker_more: 'Es werden {shown} von {count} angezeigt – Suche, um die Auswahl einzugrenzen'
+    picker_none: 'Keine passenden Symbole gefunden. Du kannst dennoch eine beliebige Font Awesome-Klasse in das Feld eingeben.'
     picker_open: 'Wähle ein Symbol'
     picker_regular: Normal
     picker_search: 'Symbole durchsuchen…'
     picker_solid: Ausgefüllt
+    preview_empty: 'Es gibt nichts für diese Gruppe anzuzeigen.'
+    preview_failed: 'Die Seitenleiste dieser Gruppe konnte nicht gelesen werden, daher sind hier möglicherweise auch Einträge aufgeführt, die von anderen Erweiterungen stammen und nur für bestimmte Personen sichtbar sind.'
     preview_guests: Gäste
+    preview_loading: 'Seitenleiste als {group} darstellen…'
     preview_members: Mitglieder
     preview_start: '=> core.ref.start_a_discussion'
     preview_title: Vorschau

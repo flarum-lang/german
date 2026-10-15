@@ -6,7 +6,7 @@ acpl-lscache:
   admin:
     cache_enabled_help: 'Auf der <a>Informationsseite</a> erfährst du, wie du den Cache testen kannst. HINWEIS: Wenn du den Cache deaktivierst, werden alle zwischengespeicherten Einträge für diese Seite gelöscht.'
     cache_enabled_label: 'LSCache einschalten'
-    cache_exclude_help: 'Pfade, die diese Zeichenfolgen enthalten, werden nicht zwischengespeichert. Für <code>/mypath/mypage?aa=bb</code> können Sie <code>mypage?aa=</code> verwenden. Um den Anfang abzugleichen, füge am Anfang <code>^</code> hinzu. Für eine exakte Übereinstimmung füge am Ende der URL <code>$</code> hinzu. Eine pro Zeile.'
+    cache_exclude_help: 'Ein Pfadmuster pro Zeile: <code>/private</code> passt teilweise, <code>^/private$</code> passt exakt. Abfragezeichenfolgen werden ignoriert. Änderungen führen nicht zum Leeren des bestehenden Caches; optional können bestimmte URLs über die Befehlszeile oder der gesamte LSCache über das Admin-Cache-Menü geleert werden.'
     cache_exclude_label: 'Pfade nicht zwischenspeichern'
     clearing_cache_listener_label: 'LSCache löschen, wenn der Flarum-Cache geleert ist'
     drop_qs_help: "Verwenden Sie diese Funktion, um bestimmte Abfrageparameter wie <code>fbclid</code> oder <code>utm*</code> beim Caching zu entfernen. Dadurch wird das redundante Caching von Seiten mit „unnötigen” Abfragezeichenfolgen wie UTM-Codes verhindert, die zwar für die Nachverfolgung verwendet werden, aber keinen Einfluss auf den Seiteninhalt haben. Hierfür ist LSWS v5.2.3 oder neuer erforderlich. Listen Sie die zu entfernenden Abfragezeichenfolgen auf, eine pro Zeile. <a>Erfahren Sie mehr über das Entfernen von Abfragezeichenfolgen</a>.<br></br>\n⚠️ Diese Einstellung ändert die Datei .htaccess.\n"
