@@ -27,6 +27,7 @@ CHANGELOG
 * [`ernestdefoe/cross-references`](https://github.com/ernestdefoe/cross-references) (6 added, 100% complete)
 * [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (28 added, 2 changed, 100% complete)
 * [`ernestdefoe/google-fonts`](https://github.com/ernestdefoe/google-fonts) (34 added, 100% complete)
+* [`ernestdefoe/mobile-tab`](https://github.com/ernestdefoe/mobiletab) (46 added, 100% complete)
 * [`ernestdefoe/roleplay`](https://github.com/ernestdefoe/roleplay) (74 added, 94% complete)
 * [`ernestdefoe/scribe`](https://github.com/ernestdefoe/scribe) (4 added, 100% complete)
 * [`ernestdefoe/tributary`](https://github.com/ernestdefoe/tributary) (8 added, 100% complete)
