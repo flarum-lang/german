@@ -16,38 +16,71 @@ ernestdefoe-marquee:
     tags_help: 'Wenn jemand eine Diskussion unter einem dieser Tags startet, durchsucht das Titelfeld diese Quelle, und die Diskussion zeigt die Titelkarte in ihrer Kopfzeile an. Bei allen anderen Tags bleibt der normale Editor erhalten.'
     tags_label: 'Welche Tags welche Quelle verwenden'
     tmdb_token_help: 'Filme und Fernsehserien stammen aus The Movie Database. <a>Rufe in deinen TMDB-API-Einstellungen</a> ein Token ab und füge das lange API-Lesezugriffstoken hier ein. Es verbleibt auf dem Server.'
+  api:
+    link_invalid: 'Dieser Titel konnte nicht verknüpft werden. Wähle ihn erneut aus der Liste.'
   forum:
+    composer:
+      linked: 'Verknüpft mit {title} · {source}'
+      remove_link: 'Verknüpfung aufheben'
     credits:
       artist: Künstler
+      based_on: 'Basierend auf'
+      creator: Urheber
       developer: Entwickler
       directed_by: Regie
       director: Regisseur
       label: Label
+      network: Sender
       publisher: Publisher
+      series: Serie
       status: Status
+      writer: Drehbuch
       written_by: Drehbuch
     hero:
-      cast: Darsteller
+      attribution_deezer: 'Albumdaten und Coverbilder von Deezer'
+      attribution_igdb: 'Spieldaten von IGDB.com'
+      attribution_tmdb: 'Daten und Bilder stammen von TMDB. Nicht von TMDB empfohlen oder zertifiziert.'
+      cast: Besetzung
+      discuss_show: 'Gesamte Serie diskutieren'
+      episode_details: 'Details zur Folge'
       episode_score: TMDB-Folgenwertung
+      fans: '{count} Fans auf Deezer'
+      guest_stars: Gastdarsteller
       hours: '{count, plural, one {# Stunde} other {# Stunden}}'
+      listen_on: 'Anhören auf {source}'
+      member_rating: IGDB-Benutzerwertung
+      screenshots: Screenshots
+      season_failed: 'Diese Staffel konnte gerade nicht geladen werden.'
       season_score: TMDB-Staffelwertung
       seasons: Staffeln
+      tracklist: Trackliste
       trailer: Trailer
+      ttb_hastily: Hauptgeschichte
+      ttb_normally: 'Hauptgeschichte + Extras'
       user_score: TMDB-Nutzerwertung
+      view_on: 'Anzeigen auf {source}'
     kind:
       game: Spiel
       movie: Film
       music: Album
       tv: Serie
     link:
+      add: 'Titel verknüpfen'
+      change: 'Verknüpften Titel ändern'
+      none: 'Diese Diskussion ist nicht mit einem Titel verknüpft.'
       remove: Entfernen
+      rename: 'Diese Diskussion in {title} umbenennen'
       save: Speichern
+      saved: 'Der verknüpfte Titel wurde aktualisiert.'
+      search_label: 'Anderen Titel finden'
+      title: 'Verknüpfter Titel'
     list:
       episode: 'S{season}F{episode}'
       season: 'Staffel {number}'
     meta:
       episodes_count: '{count, plural, one {# Folge} other {# Folgen}}'
       record_album: Album
+      record_compile: Compilation
       record_ep: EP
       record_single: Single
       runtime_hours: '{hours} h {minutes} m'
@@ -63,6 +96,12 @@ ernestdefoe-marquee:
       previous: Vorherige
       score: '{score} % auf TMDB'
       title: 'S{season} · F{episode}  {name}'
+    picker:
+      placeholder_game: 'Spiel nach Titel suchen'
+      placeholder_movie: 'Film nach Titel suchen'
+      placeholder_music: 'Album oder Künstler suchen'
+      placeholder_tv: 'Serie nach Titel suchen'
+      results_from: 'Ergebnisse von {source}'
     scope:
       episode_label: Folge
       episode_option: 'F{number} · {title}'
