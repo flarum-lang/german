@@ -28,6 +28,13 @@ tryhackx-topic-rating:
     settings:
       allow_unactivated_help: 'Wenn aktiviert, können Benutzer, die ihre E-Mail-Adresse noch nicht bestätigt haben, Diskussionen dennoch bewerten.'
       allow_unactivated_label: 'Nicht aktivierten Konten das Bewerten erlauben'
+      author_mode_default: 'Autorbewertungen wie von jedem (Standard)'
+      author_mode_exclude: 'Autoren dürfen eigene Diskussionen nicht bewerten'
+      author_mode_heading: 'Bewertung des Autors selbst'
+      author_mode_label: 'Wie die Bewertung einer eigenen Diskussion durch den Autor behandelt wird'
+      author_mode_separate: 'Autorenbewertung separat anzeigen'
+      author_mode_tags_none: 'Kein Tag ausgewählt - Wird auf jede Diskussion angewendet.'
+      author_mode_tags_some: 'Gilt für Diskussionen, die mindestens eines der {count} ausgewählten Tags enthalten.'
       bypass_clear_all: Löschen
       bypass_groups_help: 'Ausgewählte Gruppen können die Bewertungsberechtigungen je Tag umgehen. Wenn keine ausgewählt ist, können keine Gruppen (ausser Administratoren, entsprechend den obigen Einstellungen) diese umgehen.'
       bypass_groups_label: 'Tag-Berechtigungen umgehen'

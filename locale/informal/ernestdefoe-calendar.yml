@@ -111,6 +111,7 @@ ernestdefoe-calendar:
     heat_more: Mehr
     link: Link
     location: Ort
+    location_placeholder: 'Hauptstrasse 23, Neustadt'
     memories_empty: 'Noch keine Erinnerungen für das heutige Datum – schaffe welche!'
     memories_replies: '{count} Antworten'
     memories_title: 'An diesem Tag'
@@ -148,6 +149,11 @@ ernestdefoe-calendar:
     view_list: Liste
     view_month: Monat
     view_week: Woche
+    wf_category: 'Kategorie-Slug (optional)'
+    wf_how_many: 'Wie viele'
+    wf_leaderboard_size: 'Länge der Rangliste'
+    wf_title: Titel
+    wf_weeks: 'Wochen an Aktivität'
     widget_celebrations: Feierlichkeiten
     widget_memories: 'An diesem Tag'
     widget_pulse: Forum-Pulsschlag

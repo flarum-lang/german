@@ -6,6 +6,19 @@ ernestdefoe-roleplay:
   admin:
     tags_help: 'Durch Kommas getrennte Tag-Slugs, bei denen Rollenspiel aktiviert ist – die Charakterauswahl, das Deck und Kampfbegegnungen werden nur in Diskussionen mit einem dieser Tags angezeigt. Lasse das Feld leer, um Rollenspiel in jeder Diskussion zuzulassen.'
     tags_label: Rollenspiel-Tags
+    tags_placeholder: 'Rollenspiel, aus der Perspektive des Charakters'
+  api:
+    bad_dice: 'Ungültiger Würfelausdruck (z. B. „2d6+1“).'
+    card_name_required: 'Kartenname erforderlich.'
+    character_name_required: 'Charaktername erforderlich.'
+    not_active: 'Begegnung ist nicht aktiv.'
+    summary:
+      defeated: 'Besiegt: {names}'
+      ended: '⚔️ {title} ist vorbei.'
+      ended_after: '⚔️ {title} ist nach {rounds, plural, one {einer Runde} other {# Runden}} zu Ende gegangen.'
+      hp: '{name} ({hp}/{max} TP)'
+      untitled: 'Die Begegnung'
+    unknown_action: 'Unbekannte Begegnungsaktion.'
   forum:
     accent: Akzentfarbe
     add_combatant: 'Kämpfer hinzufügen'
@@ -37,6 +50,7 @@ ernestdefoe-roleplay:
     encounter: Begegnung
     end_encounter: 'Begegnung beenden'
     hp_label: HP
+    hp_value: '{hp}/{max} TP'
     icon_label: 'Symbol (Font Awesome-Klasse)'
     icon_preview: Vorschau
     join_as: 'Beitreten als…'
@@ -58,6 +72,7 @@ ernestdefoe-roleplay:
     played_by: 'Gespielt von {user}'
     post_count: '{count, plural, =0{Keine Beiträge} one{# Beitrag} other{# Beiträge}} aus der Perspektive des Charakters'
     posting_as: 'Als Charakter senden'
+    request_failed: 'Anfrage fehlgeschlagen ({status})'
     round_n: 'Runde {n}'
     save: Speichern
     scope_private: 'Mein Deck'

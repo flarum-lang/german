@@ -21,9 +21,11 @@ ernestdefoe-scribe:
       apply: Anwenden
       clear_colour: Löschen
       clear_highlight: Löschen
+      emoji_label: Emoji
       image_placeholder: Bildadresse…
       info_title_placeholder: Titel…
       link_placeholder: 'Link einfügen oder eingeben…'
+      pick_colour: 'Farbe wählen'
       remove_link: 'Link entfernen'
       spoiler_title_placeholder: Spoilertitel…
       toolbar_label: Formatierung

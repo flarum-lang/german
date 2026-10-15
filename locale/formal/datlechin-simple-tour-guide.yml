@@ -20,12 +20,12 @@ datlechin-simple-tour-guide:
       right: 'Rechts vom Element'
       top: 'Über dem Element'
     settings:
-      allow_close_help: 'Ermöglicht es dem Leser, eine Tour vorzeitig zu beenden – über eine Schaltfläche „Schließen“ und die Escape-Taste. Die Tour wird dennoch als abgeschlossen markiert.'
+      allow_close_help: 'Ermöglicht es dem Leser, eine Tour vorzeitig zu beenden – über eine Schaltfläche „Schließen“ und die Escape-Taste. Eine Tour, die vorzeitig beendet wurde – sei es durch Schließen oder durch Wechseln zu einer anderen Seite –, wird weiterhin als abgeschlossen markiert.'
       allow_close_label: 'Schließen erlauben'
       heading: Einstellungen
       show_in_settings_help: 'Mitglieder können eine Tour neu starten, ohne einen Moderator darum bitten zu müssen.'
       show_in_settings_label: 'Touren auf der Einstellungsseite des Benutzers auflisten'
-      show_progress_help: 'Zeigt den Fortschritt innerhalb einer Tour neben den Schaltflächen an.'
+      show_progress_help: 'Zeigt den Fortschritt innerhalb einer Tour neben den Schaltflächen an. Die Gesamtsumme zählt jeden Schritt, der für dein Gerät vorgesehen ist, sodass die Zahl bei einem Schritt, bei dem ein Element fehlt, direkt weiter springt.'
       show_progress_label: 'Fortschritt anzeigen'
     start_mode:
       auto: 'Startet von allein'
@@ -84,7 +84,7 @@ datlechin-simple-tour-guide:
       no_target: 'Eigenständig dargestellt, in der Mitte des Bildschirms'
       none: 'Noch keine Schritte, daher kann diese Tour nicht ausgeführt werden.'
     tour_modal:
-      audience_help: 'Lasse keine Gruppe markiert, um sie allen anzuzeigen.'
+      audience_help: 'Leer lassen, um die Tour allen anzuzeigen.'
       audience_label: 'Wer sieht sie'
       create_title: 'Neue Tour'
       delete_button: 'Tour löschen'
@@ -101,7 +101,7 @@ datlechin-simple-tour-guide:
       save_button: Speichern
       start_mode_help: 'Eine automatisch gestartete Tour, wird für jedes Mitglied, das die Kriterien erfüllt, einmal ausgeführt. Eine manuell gestartete Tour muss erst über die Einstellungsseite des jeweiligen Mitglieds gestartet werden.'
       start_mode_label: Startet
-      title_help: 'Als Referenz für dich. Benutzer sehen dies nicht.'
+      title_help: 'Mitglieder sehen dies, wenn Touren auf ihrer Einstellungsseite aufgeführt sind.'
       title_label: Name
     tours:
       add_button: 'Neue Tour'

@@ -9,6 +9,10 @@ ernestdefoe-cross-references:
       create_backlinks_label: 'Backlink-Beiträge zu Veranstaltungen in den entsprechenden Diskussionen erstellen'
       notify_author_help: 'Sende eine Benachrichtigung innerhalb der App an den Verfasser der genannten Diskussion. Der Verfasser wird nicht über eigene Beiträge benachrichtigt.'
       notify_author_label: 'Den Verfasser der betreffenden Diskussion benachrichtigen'
+  api:
+    invalid_discussion_id: 'Ungültige Diskussions-ID'
+    not_found: 'Nicht gefunden'
+    unexpected_error: 'Ein unerwarteter Fehler ist aufgetreten.'
   forum:
     event_post:
       post_specific: ' (bestimmter Beitrag)'

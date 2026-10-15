@@ -23,3 +23,21 @@ ernestdefoe-google-fonts:
     upload_error: 'Hochladen fehlgeschlagen. Bitte versuche es erneut.'
     upload_hint: "Hoste die Schriftart selbst in deinem Forum, damit sie überall geladen wird – auch in Regionen, in denen Google Fonts blockiert ist (z. B. Festlandchina). Lade für jede gewünschte Schriftstärke eine eigene .woff2-Datei hoch; eine variable .woff2-Datei deckt alle Schriftstärken in einer einzigen Datei ab.\n"
     uploading: 'Wird hochgeladen…'
+    weight_100: Dünn
+    weight_200: Extraleicht
+    weight_300: Leicht
+    weight_400: Normal
+    weight_500: Mittel
+    weight_600: Halbfett
+    weight_700: Fett
+    weight_800: Extrafett
+    weight_900: Schwarz
+  api:
+    delete_failed: 'Löschen fehlgeschlagen.'
+    invalid_slot: 'Ungültiger Schriftart-Slot.'
+    invalid_weight: 'Ungültige Schriftstärke.'
+    no_file: 'Keine Datei hochgeladen.'
+    not_woff2: 'Datei ist keine gültige WOFF2-Schriftart.'
+    size: 'Schriftart muss zwischen 1 Byte und {max} Bytes liegen.'
+    upload_failed: 'Hochladen fehlgeschlagen.'
+    woff2_only: 'Nur .woff2 Schriftart-Dateien sind erlaubt.'

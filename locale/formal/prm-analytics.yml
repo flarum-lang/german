@@ -6,6 +6,7 @@ prm-analytics:
   admin:
     charts:
       activity: Aktivitäts-Mix
+      engagement: Engagement
       growth: Wachstum
       moderation: Moderationsbelastung
       reports_reason: 'Meldungen nach Grund'
@@ -13,6 +14,8 @@ prm-analytics:
       tickets_category: 'Tickets nach Kategorie'
       tickets_status: 'Tickets nach Status'
       top_tags: 'Beliebteste Tags'
+      trade: 'Umfang des Handelsfeedbacks'
+      trade_mix: 'Mix der Handelsratings'
     empty: 'Keine Daten in diesem Zeitraum'
     error: 'Analysedten konnten nicht geladen werden.'
     kpis:
@@ -20,9 +23,11 @@ prm-analytics:
       likes: Likes
       now: jetzt
       open_tickets: 'Offene Tickets'
+      pending_reports: Ausstehend
       posts: Beiträge
       reports: Meldungen
       tickets: Tickets
+      trade: Handel
       users: Mitglieder
       vs_prev: 'vs vorher'
       warnings: Warnungen
@@ -42,4 +47,9 @@ prm-analytics:
       trade: Feedback
       users: 'Neue Mitglieder'
       warnings: Warnungen
+    soft:
+      likes_off: 'Likes-Tabelle nicht gefunden.'
+      moderation_off: 'Moderationserweiterung nicht erkannt – Mitarbeiterdiagramme ausgeblendet.'
+      trade_off: 'Erweiterung „Trade Feedback“ nicht erkannt – Handelsdiagramme ausgeblendet.'
     subtitle: 'Echtzeit-Forumanalyse zu Gesundheit, Wachstum und Arbeitsbelastung des Teams'
+    title: Analyse

@@ -37,6 +37,7 @@ ernestdefoe-gatehouse:
     queue_heading: 'Wartet auf Freigabe'
     reserved_usernames: 'Reservierte Benutzernamen'
     reserved_usernames_help: 'Je eine pro Zeile. Nur Administratoren können sich mit diesen Bezeichnungen registrieren oder ihren Namen später entsprechend ändern. Die Groß-/Kleinschreibung spielt keine Rolle. Verwende * als Platzhalter (admin*, *moderator*) oder einen regulären Ausdruck zwischen Schrägstrichen. Funktioniert unabhängig davon, ob Registrierungen zur Freigabe zurückgestellt werden oder nicht.'
+    reserved_usernames_placeholder: "admin*\nmoderator\nsupport\n*official*"
     rules_heading: Regeln
     usernames_heading: Benutzernamen
   email:

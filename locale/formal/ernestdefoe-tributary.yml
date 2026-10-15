@@ -3,6 +3,11 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ernestdefoe-tributary:
+  api:
+    parent_gone: 'Dieser Beitrag ist nicht mehr hier.'
+    parent_not_post: 'Das ist kein Beitrag.'
+    parent_other_discussion: 'Eine Antwort kann sich nur auf einen Beitrag in derselben Diskussion beziehen.'
+    parent_unavailable: 'Dieser Beitrag ist nicht verfügbar.'
   forum:
     answering: 'Antwort auf {username}'
     answering_cancel: 'Stattdessen in der Diskussion antworten'
