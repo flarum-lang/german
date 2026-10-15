@@ -10,19 +10,26 @@ CHANGELOG
 * [`clarkwinkelmann/flarum-ext-prominent-post-numbers`](https://github.com/clarkwinkelmann/flarum-ext-prominent-post-numbers) (100% complete)
 * [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed) (100% complete)
 * [`ernestdefoe/backdrop`](https://github.com/ernestdefoe/backdrop) (100% complete)
-* [`ernestdefoe/marquee`](https://github.com/ernestdefoe/marquee) (89% complete)
+* [`ernestdefoe/depot`](https://github.com/ernestdefoe/depot) (31% complete)
+* [`ernestdefoe/marquee`](https://github.com/ernestdefoe/marquee) (100% complete)
 * [`ernestdefoe/menu-control`](https://github.com/ernestdefoe/menu-control) (100% complete)
+* [`fof/brevo-mail`](https://github.com/FriendsOfFlarum/brevo-mail) (100% complete)
 * [`huoxin/filter-rule-manager`](https://github.com/huoxin233/flarum-ext-filter-rule-manager) (12% complete)
-* [`prm/analytics`](https://github.com/smmpanelscripts1/prm-analytics) (79% complete)
+* [`prm/analytics`](https://github.com/smmpanelscripts1/prm-analytics) (100% complete)
 * [`prm/moderation`](https://github.com/smmpanelscripts1/prm-moderation) (4% complete)
 
 
 **Updated translations for extensions**:
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (2 changed, 100% complete)
-* [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) (32 added, 96% complete)
-* [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (26 added, 2 changed, 98% complete)
-* [`ernestdefoe/roleplay`](https://github.com/ernestdefoe/roleplay) (48 added, 80% complete)
+* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide) (8 changed, 93% complete)
+* [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) (44 added, 100% complete)
+* [`ernestdefoe/cross-references`](https://github.com/ernestdefoe/cross-references) (6 added, 100% complete)
+* [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (28 added, 2 changed, 100% complete)
+* [`ernestdefoe/google-fonts`](https://github.com/ernestdefoe/google-fonts) (34 added, 100% complete)
+* [`ernestdefoe/roleplay`](https://github.com/ernestdefoe/roleplay) (74 added, 94% complete)
+* [`ernestdefoe/scribe`](https://github.com/ernestdefoe/scribe) (4 added, 100% complete)
+* [`ernestdefoe/tributary`](https://github.com/ernestdefoe/tributary) (8 added, 100% complete)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr) (6 added, 100% complete)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (10 added, 20 changed, 100% complete)
 * [`fof/categories`](https://github.com/FriendsOfFlarum/categories) (20 changed, 100% complete)
@@ -37,6 +44,7 @@ CHANGELOG
 * [`linkrobins/support`](https://github.com/linkrobins/support) (22 added, 4 changed, 100% complete)
 * [`linkrobins/flarum-warble`](https://github.com/linkrobins/warble) (12 added, 45% complete)
 * [`ramon/guest-cta`](https://github.com/ram0ng1/guest-cta) (8 added, 100% complete)
+* [`tryhackx/flarum-topic-rating`](https://github.com/TryHackX/flarum-topic-rating) (14 added, 87% complete)
 
 
 All changes: [2.0.24...2.0.25](https://github.com/flarum-lang/german/compare/2.0.24...2.0.25).
