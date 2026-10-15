@@ -11,12 +11,17 @@ ernestdefoe-roleplay:
     bad_dice: 'Ungültiger Würfelausdruck (z. B. „2d6+1“).'
     card_name_required: 'Kartenname erforderlich.'
     character_name_required: 'Charaktername erforderlich.'
+    combatant_name_required: 'Ein Kämpfername ist erforderlich.'
+    downed: 'Ein ausgeschalteter Kämpfer kann keine Aktionen ausführen.'
+    join_too_late: 'Du kannst nur vor Beginn der Begegnung beitreten.'
+    no_combatants: 'Füge vor dem Start mindestens einen Kämpfer hinzu.'
     not_active: 'Begegnung ist nicht aktiv.'
     summary:
       defeated: 'Besiegt: {names}'
       ended: '⚔️ {title} ist vorbei.'
       ended_after: '⚔️ {title} ist nach {rounds, plural, one {einer Runde} other {# Runden}} zu Ende gegangen.'
       hp: '{name} ({hp}/{max} TP)'
+      standing: 'Noch dabei: {names}'
       untitled: 'Die Begegnung'
     unknown_action: 'Unbekannte Begegnungsaktion.'
   forum:

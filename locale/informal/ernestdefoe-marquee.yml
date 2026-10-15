@@ -8,11 +8,12 @@ ernestdefoe-marquee:
     igdb_client_secret: 'Client Secret'
     igdb_help: 'Die Spiele stammen von IGDB, das von Twitch betrieben wird. <a>Registriere eine Anwendung in der Twitch-Entwicklerkonsole</a> (Client-Typ „Vertraulich“), erstelle einen Client-Schlüssel und füge beides hier ein. Der Schlüssel verbleibt auf dem Server. IGDB ist für nichtkommerzielle Foren kostenlos; ein kommerzielles Forum benötigt eine Partnerschaft mit IGDB.'
     igdb_label: 'Twitch-Anwendungs-Zugangsdaten für IGDB'
-    language_help: 'Die Sprachen der Film- und Fernsehtitel, Inhaltsangaben und Genres werden als Code wie z. B. „fr“, „de-DE“ oder „pt-BR“ angegeben. Lasse das Feld leer, um die Standardsprache des Forums zu verwenden. Die Spieldaten bei IGDB sind auf Englisch (es gibt lediglich japanische und koreanische Namen), und die Albumdaten stammen von den Künstlern selbst. Bei bereits verlinkten Titeln wechselt die Sprache bei der nächsten Aktualisierung.'
+    language_help: 'Die Sprachen der Film- und Fernsehtitel, Inhaltsangaben und Genres werden als Code wie z. B. „fr“, „de-DE“ oder „pt-BR“ angegeben. Lasse das Feld leer, um die Standardsprache des Forums zu verwenden. Die Spieldaten bei IGDB sind auf Englisch (es gibt lediglich japanische und koreanische Namen), Albumdaten sind direkt von den Künstlern selbst und Buchtitel, Umschlagbilder und Herausgeber folgen den Informationen von Open Library zur entsprechenden Auflage (Buchbeschreibungen liegen vornehmlich in Englisch vor. Bei bereits verlinkten Titeln wechselt die Sprache bei der nächsten Aktualisierung.'
     language_label: 'Sprache der Daten'
     language_placeholder: 'Die Forumsprache'
     list_posters_help: 'Ein kleines Poster neben jeder verlinkten Diskussion. Deaktiviere diese Funktion, wenn eine andere Erweiterung, wie beispielsweise „FoF Discussion Thumbnail“, dort bereits Miniaturansichten anzeigt.'
     list_posters_label: 'Poster in der Diskussionsliste anzeigen'
+    source_book: 'Bücher (Open Library, kein Schlüssel nötig)'
     source_game: 'Spiele (IGDB)'
     source_movie: 'Filme (TMDB)'
     source_music: 'Musikalben (Deezer, kein Schlüssel nötig)'
@@ -31,13 +32,16 @@ ernestdefoe-marquee:
       remove_link: 'Verknüpfung aufheben'
     credits:
       artist: Künstler
+      author: Autor
       based_on: 'Basierend auf'
       creator: Urheber
       developer: Entwickler
       directed_by: Regie
       director: Regisseur
+      isbn: ISBN
       label: Label
       network: Sender
+      original_title: Originaltitel
       publisher: Publisher
       series: Serie
       status: Status
@@ -46,7 +50,10 @@ ernestdefoe-marquee:
     hero:
       attribution_deezer: 'Albumdaten und Coverbilder von Deezer'
       attribution_igdb: 'Spieldaten von IGDB.com'
+      attribution_open_library: 'Buchdaten und Umschlagbilder von Open Library'
       attribution_tmdb: 'Daten und Bilder stammen von TMDB. Nicht von TMDB empfohlen oder zertifiziert.'
+      authors: Autoren
+      book_rating: '{rating} · {count} Open Library Bewertungen'
       cast: Besetzung
       critic_rating: Kritikerbewertung
       discuss_show: 'Gesamte Serie diskutieren'
@@ -62,6 +69,7 @@ ernestdefoe-marquee:
       season_failed: 'Diese Staffel konnte gerade nicht geladen werden.'
       season_score: TMDB-Staffelwertung
       seasons: Staffeln
+      this_discussion: 'Diese Diskussion'
       time_to_beat: 'Wie lange dauert es, das Spiel zu meistern'
       tracklist: Trackliste
       trailer: Trailer
@@ -70,7 +78,9 @@ ernestdefoe-marquee:
       ttb_normally: 'Hauptgeschichte + Extras'
       user_score: TMDB-Nutzerwertung
       view_on: 'Anzeigen auf {source}'
+      want_to_read: '{count} möchten es lesen'
     kind:
+      book: Buch
       game: Spiel
       movie: Film
       music: Album
@@ -89,10 +99,13 @@ ernestdefoe-marquee:
       episode: 'S{season}F{episode}'
       season: 'Staffel {number}'
     meta:
+      editions_count: '{count, plural, one {# Auflage} other {# Auflagen}}'
       episode_code: 'F{episode}'
       episode_label: 'F{episode} · {name}'
       episodes_count: '{count, plural, one {# Folge} other {# Folgen}}'
+      first_published: 'Erstveröffentlichung {year}'
       full_episode_label: 'S{season}F{episode} · {name}'
+      pages_count: '{count, plural, one {# Seite} other {# Seiten}}'
       record_album: Album
       record_compile: Compilation
       record_ep: EP
@@ -112,6 +125,7 @@ ernestdefoe-marquee:
       title: 'S{season} · F{episode}  {name}'
     picker:
       escape_hint: '„Esc“ behält einen einfachen Titel bei'
+      placeholder_book: 'Buch nach Titel, Autor oder ISBN suchen'
       placeholder_game: 'Spiel nach Titel suchen'
       placeholder_movie: 'Film nach Titel suchen'
       placeholder_music: 'Album oder Künstler suchen'
