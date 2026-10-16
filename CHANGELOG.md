@@ -10,7 +10,7 @@ CHANGELOG
 * [`clarkwinkelmann/flarum-ext-prominent-post-numbers`](https://github.com/clarkwinkelmann/flarum-ext-prominent-post-numbers) (100% complete)
 * [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed) (100% complete)
 * [`ernestdefoe/backdrop`](https://github.com/ernestdefoe/backdrop) (100% complete)
-* [`ernestdefoe/depot`](https://github.com/ernestdefoe/depot) (41% complete)
+* [`ernestdefoe/depot`](https://github.com/ernestdefoe/depot) (64% complete)
 * [`ernestdefoe/marquee`](https://github.com/ernestdefoe/marquee) (100% complete)
 * [`ernestdefoe/menu-control`](https://github.com/ernestdefoe/menu-control) (100% complete)
 * [`fof/brevo-mail`](https://github.com/FriendsOfFlarum/brevo-mail) (100% complete)
@@ -25,7 +25,7 @@ CHANGELOG
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (2 changed, 100% complete)
 * [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide) (18 added, 14 changed, 100% complete)
-* [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) (44 added, 2 changed, 100% complete)
+* [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) (66 added, 2 changed, 100% complete)
 * [`ernestdefoe/cross-references`](https://github.com/ernestdefoe/cross-references) (6 added, 100% complete)
 * [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (28 added, 2 changed, 100% complete)
 * [`ernestdefoe/google-fonts`](https://github.com/ernestdefoe/google-fonts) (34 added, 100% complete)
