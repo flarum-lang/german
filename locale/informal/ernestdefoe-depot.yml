@@ -3,6 +3,11 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ernestdefoe-depot:
+  api:
+    no_file: 'Datei hinzufügen.'
+  email:
+    new_version:
+      subject: '{title} {version} wurde veröffentlicht'
   forum:
     card:
       last_30_days: '30 Tage'
@@ -11,6 +16,8 @@ ernestdefoe-depot:
       pending: 'Genehmigung ausstehend'
       updated: 'aktualisiert {time}'
       updated_badge: Aktualisiert
+    edit:
+      save: 'Änderungen speichern'
     empty:
       none_body: 'Die erste mit der Schaltfläche in der Seitenleiste hochladen.'
       none_title: 'Noch keine Dateien hier'
@@ -89,6 +96,7 @@ ernestdefoe-depot:
     hero:
       all_desc: 'Dateien von und für diese Community.'
       count: '{count, plural, one {# Datei} other {# Dateien}}'
+      watching_desc: 'Dateien, für die du eine Benachrichtigung erhältst, sobald eine neue Version erscheint.'
     nav:
       all: 'Alle Dateien'
       everything_in: 'Alle in {name}'
@@ -101,6 +109,8 @@ ernestdefoe-depot:
     notice:
       pending: '{count, plural, one {# Datei wartet} other {# Dateien warten}} auf Genehmigung'
       review: Bewertung
+    notifications:
+      new_version: 'Neue Version: {version}'
     rating_label: 'Bewertet mit {rating} von 5'
     source:
       github_tooltip: 'Neue Versionen auf github.com/{repo} erscheinen automatisch hier'
@@ -109,6 +119,8 @@ ernestdefoe-depot:
       download: 'v{version} herunterladen'
       downloads: Downloads
       featured: Hervorgehoben
+      get_it: 'Hol es dir'
+      install: Installationsanleitung
       installs: Installationen
       label: 'Hervorgehobene Dateien'
     tiles:
@@ -129,3 +141,23 @@ ernestdefoe-depot:
       view: Layout
       view_grid: 'Als Karten anzeigen'
       view_list: 'Als Liste anzeigen'
+    upload:
+      add_shots: 'Screenshots hinzufügen'
+      back: Zurück
+      category_label: Kategorie
+      compat_label: 'Funktioniert mit'
+      description_label: Beschreibung
+      licence_label: Lizenz
+      name_label: Name
+      next: Fortfahren
+      remove: Entfernen
+      replace: Ersetzen
+      source_github: GitHub
+      source_github_help: 'Versionen synchronisieren'
+      source_link: Link
+      source_upload_help: 'Von deinem Computer'
+      step_details: Details
+      step_review: Bewertung
+      step_source: Datei
+      title: 'Datei hochladen'
+      version_label: Version

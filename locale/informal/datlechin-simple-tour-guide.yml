@@ -57,11 +57,12 @@ datlechin-simple-tour-guide:
       placement_help: 'Die Position des Popovers relativ zum Element. Es verschiebt sich, wenn nicht genügend Platz vorhanden ist.'
       placement_label: Position
       save_button: Speichern
-      target_help: 'Das Element, auf das sich dieser Schritt bezieht. Lasse es leer, um den Schritt für sich allein mittig auf dem Bildschirm anzuzeigen.'
+      target_help: 'Das Element, auf das dieser Schritt auf der Tour-Seite verweist. Ein Schritt, dessen Element zum Zeitpunkt des Aufrufs nicht vorhanden ist, wird übersprungen. Lasse das Feld leer, um den Schritt allein in der Mitte des Bildschirms anzuzeigen.'
       target_invalid: 'Das ist kein gültiger CSS-Selektor.'
       target_label: Ziel
       target_matches: '{count, plural, =0 {Keine Elemente auf der untersuchten Seite gefunden} one {# Element gefunden} other {# Elemente gefunden}}'
       target_placeholder: 'Ein CSS-Selektor, z. B. #home-link'
+      target_route_mismatch: 'Ausgewählt auf {picked}, aber diese Tour verläuft auf der {route}. Der Schritt wird übersprungen, es sei denn, diese Seite enthält das Element ebenfalls.'
       test_button: Testen
       title_label: Titel
       title_placeholder: 'Worum geht es in diesem Schritt'
@@ -95,11 +96,11 @@ datlechin-simple-tour-guide:
       key_label: Schlüssel
       max_age_help: 'In Tagen. Lasse das Feld leer, um die Tour unabhängig vom Alter des Kontos anzuzeigen.'
       max_age_label: 'Nur Konten, die neuer sind als'
-      route_help: 'Die Flarum-Route, zu der diese Tour gehört, z. B. „index“ oder „discussion“. Lasse das Feld leer, wenn die Tour an der Kopfzeile verankert sein soll und dem Mitglied folgt.'
+      route_help: 'Die Flarum-Route, auf der diese Tour verläuft, z. B. „index“, „discussion“ oder „user“. Eine Route umfasst ihre Unterseiten, sodass „user“ auch „user.posts“ umfasst. Eine Tour gehört zu einer bestimmten Seite und endet, wenn das Mitglied diese verlässt; Schritte für eine andere Seite benötigen daher eine eigene Tour. Lasse das Feld leer, damit die Tour auf der Seite ausgeführt wird, auf der sich das Mitglied gerade befindet.'
       route_label: Seite
       route_placeholder: 'Jede Seite'
       save_button: Speichern
-      start_mode_help: 'Eine automatisch gestartete Tour, wird für jedes Mitglied, das die Kriterien erfüllt, einmal ausgeführt. Eine manuell gestartete Tour muss erst über die Einstellungsseite des jeweiligen Mitglieds gestartet werden.'
+      start_mode_help: 'Eine automatisch gestartete Tour, wird für jedes Mitglied, das die Kriterien erfüllt, einmal ausgeführt. Ein manueller Start ist nur über die Einstellungsseite des Mitglieds möglich, daher müssen dort die Touren aufgeführt sein.'
       start_mode_label: Startet
       title_help: 'Mitglieder sehen dies, wenn Touren auf ihrer Einstellungsseite aufgeführt sind.'
       title_label: Name
@@ -120,19 +121,26 @@ datlechin-simple-tour-guide:
       preview_button: 'Vorschau im Forum'
       preview_navigate: 'Forum geöffnet. Gehe zu einer {route} Seite und die Vorschau startet dort.'
       step_count: '{count, plural, =0 {Keine Schritte} one {# Schritt} other {# Schritte}}'
+  api:
+    step_not_in_tour: 'Dieser Schritt ist nicht Teil der Tour.'
   forum:
     click_to_continue: 'Klicken, um fortzufahren'
     close_button: 'Tour beenden'
     done_button: Fertig
+    go_to_page: 'Gehe zu der Seite, um die es in {title} geht, und dort geht es los.'
     next_button: Weiter
+    nothing_here: 'Nichts auf dieser Seite für {title}.'
     picker:
       browse: Durchsuchen
       cancel: Abbrechen
+      go_to_page: 'Öffne eine {route}-Seite und klicke dann erneut auf die Schaltfläche.'
       matches: '{count, plural, =0 {Kein Treffer} one {# Treffer} other {# Treffer}}'
       nothing_yet: 'Fahre über ein Element'
       picking: 'Klicke das Element, auf das sich dieser Schritt bezieht'
       resume: Auswählen
+      show: Anzeigen
       testing: 'Zeigt die Elemente, auf die dieser Selektor zutrifft'
+    preview_go_to: 'Öffne eine {route}-Seite, und die Vorschau wird dort angezeigt.'
     preview_notice: 'Vorschau. Nichts, was du hier tust, wird aufgezeichnet.'
     previous_button: Zurück
     progress: '{current} von {total}'
@@ -143,6 +151,8 @@ datlechin-simple-tour-guide:
       take: 'Mache die Tour'
       take_again: 'Noch einmal durchgehen'
       waiting: 'Gehe auf die Seite, um die es in {title} geht, und dort wird es losgehen.'
+    unknown_page: 'Dieses Forum hat keine Seite {route}.'
     user_controls:
       reset_tour_guide: 'Touren erneut starten'
       reset_tour_guide_confirmation: 'Soll dieses Mitglied bei seinem nächsten Besuch wieder seine Touren sehen?'
+      reset_tour_guide_done: 'Ihre Touren werden wieder angeboten.'
