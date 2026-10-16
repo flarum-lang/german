@@ -36,7 +36,7 @@ CHANGELOG
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (10 added, 20 changed, 100% complete)
 * [`fof/categories`](https://github.com/FriendsOfFlarum/categories) (20 changed, 100% complete)
 * [`fof/forum-widgets-core`](https://github.com/FriendsOfFlarum/forum-widgets-core) (2 added, 100% complete)
-* [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors) (8 added, 6 changed, 36% complete)
+* [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors) (56 added, 6 changed, 100% complete)
 * [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users) (4 added, 100% complete)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (26 added, 42 changed, 100% complete)
 * [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa) (34 added, 2 changed, 100% complete)
