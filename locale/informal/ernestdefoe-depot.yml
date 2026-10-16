@@ -213,18 +213,24 @@ ernestdefoe-depot:
       back: Zurück
       category_label: Kategorie
       compat_label: 'Funktioniert mit'
+      cover: Titelbild
       description_label: Beschreibung
       drop_help: 'Bis zu {mb} MB. Die SHA-256-Prüfsumme wird unmittelbar nach dem Eintreffen berechnet.'
       game_label: 'Gemacht für'
       hashing: 'Prüfsumme wird ermittelt…'
+      install_label: Installationsschritte
       licence_label: Lizenz
+      lines_help: 'Ein Schritt pro Zeile.'
       link_help: 'Depot zählt die Klicks und leitet die Nutzer an diese Adresse weiter.'
       link_label: Downloadlink
       name_label: Name
       next: Fortfahren
+      no_tagline: 'Noch keine Zusammenfassung'
       remove: Entfernen
       replace: Ersetzen
+      requires_label: 'Was sonst noch gebraucht wird'
       sending: 'Wird gesendet… {percent} %'
+      shots_help: 'Das erste ist das Titelbild. Bis zu 8.'
       source_github: GitHub
       source_github_help: 'Versionen synchronisieren'
       source_link: Link
@@ -238,6 +244,10 @@ ernestdefoe-depot:
       step_support: Support
       submit: Absenden
       tagline_label: Einzeiler-Zusammenfassung
+      thread_linked: 'Verknüpft mit der Datei'
+      thread_opening: Eröffnungsbeitrag
+      thread_title: '{title}: Support und Kommentare'
+      thread_toggle: 'Support-Diskussion beginnen'
       title: 'Datei hochladen'
       version_label: Version
     version:
