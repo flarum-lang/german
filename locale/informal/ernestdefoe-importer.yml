@@ -6,6 +6,12 @@ ernestdefoe-importer:
   admin:
     complete: 'Import abgeschlossen'
     confirm_start: 'Jetzt mit dem Import starten? Dadurch werden Diskussionen, Beiträge und Mitglieder in dieses Forum übernommen. Für optimale Ergebnisse solltest du den Import in ein neues Forum durchführen.'
+    count:
+      categories: Kategorien
+      posts: Beiträge
+      skipped: Übersprungen
+      topics: Diskussionen
+      users: Benutzer
     database: Datenbank-Name
     database_redis: 'Redis Datenbank-Nummer'
     dump_file: Datenbank-Dump
@@ -52,3 +58,26 @@ ernestdefoe-importer:
     upload: 'Hochladen & prüfen'
     upload_failed: 'Hochladen ist fehlgeschlagen – die Datei ist möglicherweise zu groß für das Upload-Limit dieses Servers.'
     username: Datenbank-Benutzername
+  api:
+    complete: 'Import abgeschlossen.'
+    failed: 'Import fehlgeschlagen: {error}'
+    missing_run_id: 'Fehlende Ausführungs-ID.'
+    phase:
+      boards: 'Bereiche werden importiert…'
+      categories: 'Kategorien werden importiert…'
+      channels: 'Kanäle werden importiert…'
+      comments: 'Kommentare werden importiert…'
+      discussions: 'Diskussionen werden importiert…'
+      forums: 'Foren werden importiert…'
+      member_counts: 'Mitgliederanzahl wird aktualisiert…'
+      members: 'Mitglieder werden importiert…'
+      posts: 'Beiträge werden importiert…'
+      topics: 'Diskussionen werden importiert…'
+    run_not_found: 'Import-Ausführung nicht gefunden.'
+    starting: 'Wird gestartet…'
+    summary: '{topics} Diskussionen, {posts} Beiträge, {users} Mitglieder importiert.'
+    summary_with_tags: '{topics} Diskussionen, {posts} Beiträge, {users} Mitglieder, {categories} Tags importiert.'
+    unknown_source: 'Unbekannte Importquelle.'
+    upload:
+      empty: 'Die Datei ist leer.'
+    working: 'Wird bearbeitet…'

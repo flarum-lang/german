@@ -2,6 +2,23 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-open-collective/de@formal/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      fof_open_collective:
+        backing_ended: '{username} ist kein Unterstützer von Open Collective mehr. Gruppen: {old_groups} → {new_groups}'
+        groups_changed: 'Open Collective-Synchronisierung hat die Gruppen von {username} von {old_groups} in {new_groups} geändert'
+        membership_adopted: 'Open Collective-Synchronisierung hat die Mitgliedschaft von {username} in {new_groups} übernommen'
+        onetime_started: '{username} ist einmaliger Unterstützer bei Open Collective geworden. Gruppen: {old_groups} → {new_groups}'
+        recurring_started: '{username} ist nun regelmäßiger Unterstützer bei Open Collective. Gruppen: {old_groups} → {new_groups}'
+        recurring_stopped: 'Die regelmäßige Unterstützung von {username} auf Open Collective wurde eingestellt. Gruppen: {old_groups} → {new_groups}'
+flarum-gdpr:
+  lib:
+    data:
+      opencollectivebacker:
+        anonymize_description: '=> flarum-gdpr.lib.data.opencollectivebacker.delete_description'
+        delete_description: 'Löscht den Backer-Eintrag des Mitglieds bei Open Collective, sodass die Synchronisierung das Mitglied ausblendet, ohne das Ende seiner Unterstützung anzukündigen.'
+        export_description: 'Exportiert den Status des Mitglieds als Unterstützer bei Open Collective, den Zeitpunkt der letzten Änderung sowie die Gruppen, die die Synchronisierung für das Mitglied verwaltet.'
 fof-open-collective:
   admin:
     settings:
@@ -11,10 +28,30 @@ fof-open-collective:
       group_label: 'Wiederkehrende Unterstützergruppe'
       onetime_group_help: 'Wähle aus, zu welcher Flarum-Benutzergruppe einmalige Unterstützer hinzugefügt werden sollen. Wenn diese Option nicht festgelegt ist, werden einmalige Unterstützer nicht verwaltet. Wenn ein wiederkehrender Unterstützer sein Abonnement kündigt, wird er in diese Gruppe verschoben.'
       onetime_group_label: 'Einmalige Unterstützergruppe (optional)'
-      personal_token_help: 'Erstelle einen persönlichen Token unter <a>https://opencollective.com/applications</a>. Dieser Token wird verwendet, um deine Unterstützerinformationen von Open Collective abzurufen.'
+      personal_token_help: 'Erstelle einen persönlichen Token unter <a>https://opencollective.com/applications</a> mit den Bereichen „orders“ und „email“ mit einem Konto, das Admin des Kollektivs ist. Dieser Token wird verwendet, um deine Unterstützerinformationen von Open Collective abzurufen.'
       personal_token_label: 'Persönlicher Token'
       slug_help: 'Gib deinen Open Collective-Kollektiv-Slug ein (den Teil nach opencollective.com/ in deiner Kollektiv-URL).'
       slug_label: 'Kollektiver Slug'
       title: 'FriendsOfFlarum Open Collective'
       use_legacy_api_key_help: "Wenn du einen alten API-Schlüssel hast, kannst du diesen weiterhin verwenden, es wird jedoch empfohlen, auf einen persönlichen Token umzusteigen. Derzeit scheinen persönliche Token im API-Schlüssel-Modus (d. h. „API-Key”-Header) zu funktionieren, dies ist jedoch nicht dokumentiert.\n"
       use_legacy_api_key_label: 'API-Schlüssel für Legacy-Anwendung verwenden'
+    status:
+      heading: Synchronisierungsstatus
+      last_failure: 'Letzte Synchronisierung {time} fehlgeschlagen: {reason}'
+      last_success: 'Letzte Synchronisierung {time}: {backers} Unterstützer, {changes} Änderungen.'
+      never_run: 'Die Synchronisierung wurde noch nicht ausgeführt. Sie wird stündlich über den Flarum-Scheduler ausgeführt. Überprüfe daher, ob der Scheduler eingerichtet ist.'
+      reasons:
+        configuration: 'Das Token, der Sammel-Slug oder die Gruppeneinstellungen sind unvollständig.'
+        emails_hidden: 'Das Token kann die E-Mail-Adressen der Unterstützer nicht auslesen. Es benötigt den Geltungsbereich „email“.'
+        forbidden: 'Dem Token fehlt ein erforderlicher Geltungsbereich. Es benötigt die Geltungsbereiche „orders“ und „email“.'
+        network: 'Open Collective konnte nicht erreicht werden.'
+        no_backers: 'Open Collective hat keine Unterstützer zurückgegeben, daher wurde nichts geändert. Führe die Synchronisierung mit dem Parameter „--force“ durch, wenn dies korrekt ist.'
+        not_found: 'Kollektiv nicht gefunden. Überprüfe den Kollektiv-Slug.'
+        other: 'Open Collective hat eine unerwartete Antwort zurückgegeben.'
+        rate_limited: 'Das Ratenlimit von Open Collective wurde erreicht. Bei der nächsten Synchronisierung wird ein erneuter Versuch unternommen.'
+        unauthorized: 'Open Collective hat den Token abgelehnt. Möglicherweise ist er abgelaufen oder wurde widerrufen.'
+      request_failed: 'Der Verbindungstest konnte nicht ausgeführt werden.'
+      stale: 'Die letzte Synchronisierung liegt mehr als zwei Stunden zurück. Überprüfe, ob der Flarum-Scheduler läuft.'
+      test_button: 'Verbindung testen'
+      test_success: 'Mit {collective} als {account} verbunden. {orders} Beiträge gefunden, und die E-Mail-Adressen der Unterstützer sind lesbar.'
+      test_success_no_orders: 'Mit {collective} als {account} verbunden. Es gibt noch keine Beiträge, und die E-Mail-Adressen konnten daher noch nicht geprüft werden.'
