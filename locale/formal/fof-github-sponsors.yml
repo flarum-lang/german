@@ -2,6 +2,23 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-github-sponsors/de@formal/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      fof_github_sponsors:
+        groups_changed: 'GitHub-Sponsoren synchronisiert und die Gruppen für {username} wurden von {old_groups} nach {new_groups} geändert'
+        membership_adopted: 'Durch die GitHub-Sponsors-Synchronisierung wurde die Mitgliedschaft von {username} in {new_groups} übernommen'
+        onetime_started: '{username} ist einmaliger Sponsor auf GitHub geworden. Gruppen: {old_groups} → {new_groups}'
+        recurring_started: '{username} ist nun monatlicher Sponsor auf GitHub. Gruppen: {old_groups} → {new_groups}'
+        recurring_stopped: 'Das monatliche GitHub-Sponsoring von {username} wurde eingestellt. Gruppen: {old_groups} → {new_groups}'
+        sponsorship_ended: '{username} ist kein GitHub-Sponsor mehr. Gruppen: {old_groups} → {new_groups}'
+flarum-gdpr:
+  lib:
+    data:
+      githubsponsor:
+        anonymize_description: '=> flarum-gdpr.lib.data.githubsponsor.delete_description'
+        delete_description: 'Löscht den GitHub-Sponsoren-Eintrag des Mitglieds, sodass die Synchronisierung das Mitglied ausblendet, ohne das Ende des Sponsorings anzukündigen.'
+        export_description: 'Exportiert den GitHub-Sponsor-Status des Mitglieds, den Zeitpunkt der letzten Änderung sowie die Gruppen, die die Synchronisierung für dieses Mitglied verwaltet.'
 fof-github-sponsors:
   admin:
     account_types:
@@ -16,8 +33,24 @@ fof-github-sponsors:
       group_label: 'Monatliche Sponsoren-Gruppe'
       login_help: 'Gib deinen GitHub-Benutzernamen (für Benutzerkonten) oder den Namen den Organisationsnamen (für Organisationen) ein. Dies ist das Konto, dessen Sponsoren synchronisiert werden.'
       login_label: Einloggen
+      onetime_group_help: 'Wähle aus, welcher Flarum-Benutzergruppe einmalige Sponsoren und ehemalige monatliche Sponsoren hinzugefügt werden sollen. Wenn keine Auswahl getroffen wird, werden sie nicht verwaltet.'
       onetime_group_label: 'Gruppe einmaliger und vergangener Sponsoren (optional)'
+      onetime_group_none: Keine
     status:
+      heading: Synchronisierungsstatus
+      last_failure: 'Letzte Synchronisierung {time} fehlgeschlagen: {reason}'
+      last_success: 'Letzte Synchronisierung {time}: {sponsors} Sponsoren, {changes} Änderungen.'
+      never_run: 'Die Synchronisierung wurde noch nicht ausgeführt. Sie wird stündlich über den Flarum-Scheduler ausgeführt. Überprüfe daher, ob der Scheduler eingerichtet ist.'
+      reasons:
+        configuration: 'Die Einstellungen für das Token, den Kontotyp, die Anmeldung oder die Gruppe sind unvollständig.'
+        forbidden: 'Dem Token fehlt ein erforderlicher Bereich. Benötigt werden „read:user“, „user:email“ und „read:org“.'
+        network: 'GitHub konnte nicht erreicht werden.'
+        no_sponsors: 'GitHub hat keine Sponsoren zurückgegeben, daher wurde nichts geändert. Führe die Synchronisierung mit --force durch, wenn dies korrekt ist.'
+        not_found: 'Der GitHub-Benutzer oder die GitHub-Organisation wurde nicht gefunden. Überprüfe den Kontotyp und melde dich erneut an.'
+        other: 'GitHub hat eine unerwartete Antwort zurückgegeben.'
+        rate_limited: 'Die Ratenbegrenzung von GitHub wurde erreicht. Bei der nächsten Synchronisierung wird ein erneuter Versuch unternommen.'
+        unauthorized: 'GitHub hat das Token abgelehnt. Möglicherweise ist es abgelaufen oder wurde widerrufen.'
       request_failed: 'Der Verbindungstest konnte nicht durchgeführt werden.'
+      stale: 'Die letzte Synchronisierung liegt mehr als zwei Stunden zurück. Überprüfe, ob der Flarum-Scheduler läuft.'
       test_button: 'Verbindung testen'
       test_success: 'Mit {maintainer} als {account} verbunden. {sponsorships} öffentliche Sponsoren gefunden.'
