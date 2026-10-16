@@ -17,6 +17,7 @@ CHANGELOG
 * [`huoxin/filter-rule-manager`](https://github.com/huoxin233/flarum-ext-filter-rule-manager) (12% complete)
 * [`jslirola/flarum-registration-policy`](https://github.com/jslirola/flarum-registration-policy) (100% complete)
 * [`prm/analytics`](https://github.com/smmpanelscripts1/prm-analytics) (100% complete)
+* [`prm/forum-activity`](https://github.com/smmpanelscripts1/prm-forum-activity) (100% complete)
 * [`prm/moderation`](https://github.com/smmpanelscripts1/prm-moderation) (4% complete)
 
 
@@ -24,7 +25,7 @@ CHANGELOG
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (2 changed, 100% complete)
 * [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide) (18 added, 14 changed, 100% complete)
-* [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) (44 added, 100% complete)
+* [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) (44 added, 2 changed, 100% complete)
 * [`ernestdefoe/cross-references`](https://github.com/ernestdefoe/cross-references) (6 added, 100% complete)
 * [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (28 added, 2 changed, 100% complete)
 * [`ernestdefoe/google-fonts`](https://github.com/ernestdefoe/google-fonts) (34 added, 100% complete)
@@ -47,10 +48,10 @@ CHANGELOG
 * [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye) (4 added, 100% complete)
 * [`linkrobins/discussion-banners`](https://github.com/linkrobins/flarum-discussion-banners) (8 added, 2 changed, 100% complete)
 * [`linkrobins/support`](https://github.com/linkrobins/support) (22 added, 4 changed, 100% complete)
-* [`linkrobins/flarum-warble`](https://github.com/linkrobins/warble) (12 added, 45% complete)
+* [`linkrobins/flarum-warble`](https://github.com/linkrobins/warble) (34 added, 100% complete)
 * [`ramon/guest-cta`](https://github.com/ram0ng1/guest-cta) (8 added, 100% complete)
 * [`tryhackx/flarum-thumb-sliders`](https://github.com/TryHackX/flarum-thumb-sliders) (26 added, 100% complete)
-* [`tryhackx/flarum-topic-rating`](https://github.com/TryHackX/flarum-topic-rating) (14 added, 87% complete)
+* [`tryhackx/flarum-topic-rating`](https://github.com/TryHackX/flarum-topic-rating) (48 added, 100% complete)
 
 
 All changes: [2.0.24...2.0.25](https://github.com/flarum-lang/german/compare/2.0.24...2.0.25).
