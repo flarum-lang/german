@@ -10,7 +10,7 @@ CHANGELOG
 * [`clarkwinkelmann/flarum-ext-prominent-post-numbers`](https://github.com/clarkwinkelmann/flarum-ext-prominent-post-numbers) (100% complete)
 * [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed) (100% complete)
 * [`ernestdefoe/backdrop`](https://github.com/ernestdefoe/backdrop) (100% complete)
-* [`ernestdefoe/depot`](https://github.com/ernestdefoe/depot) (34% complete)
+* [`ernestdefoe/depot`](https://github.com/ernestdefoe/depot) (41% complete)
 * [`ernestdefoe/marquee`](https://github.com/ernestdefoe/marquee) (100% complete)
 * [`ernestdefoe/menu-control`](https://github.com/ernestdefoe/menu-control) (100% complete)
 * [`fof/brevo-mail`](https://github.com/FriendsOfFlarum/brevo-mail) (100% complete)
@@ -23,7 +23,7 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (2 changed, 100% complete)
-* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide) (8 changed, 93% complete)
+* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide) (18 added, 14 changed, 100% complete)
 * [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) (44 added, 100% complete)
 * [`ernestdefoe/cross-references`](https://github.com/ernestdefoe/cross-references) (6 added, 100% complete)
 * [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (28 added, 2 changed, 100% complete)
@@ -36,6 +36,7 @@ CHANGELOG
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (10 added, 20 changed, 100% complete)
 * [`fof/categories`](https://github.com/FriendsOfFlarum/categories) (20 changed, 100% complete)
 * [`fof/forum-widgets-core`](https://github.com/FriendsOfFlarum/forum-widgets-core) (2 added, 100% complete)
+* [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors) (4 changed, 26% complete)
 * [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users) (4 added, 100% complete)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (26 added, 42 changed, 100% complete)
 * [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa) (34 added, 2 changed, 100% complete)
@@ -46,6 +47,7 @@ CHANGELOG
 * [`linkrobins/support`](https://github.com/linkrobins/support) (22 added, 4 changed, 100% complete)
 * [`linkrobins/flarum-warble`](https://github.com/linkrobins/warble) (12 added, 45% complete)
 * [`ramon/guest-cta`](https://github.com/ram0ng1/guest-cta) (8 added, 100% complete)
+* [`tryhackx/flarum-thumb-sliders`](https://github.com/TryHackX/flarum-thumb-sliders) (26 added, 100% complete)
 * [`tryhackx/flarum-topic-rating`](https://github.com/TryHackX/flarum-topic-rating) (14 added, 87% complete)
 
 
