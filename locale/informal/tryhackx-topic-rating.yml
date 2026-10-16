@@ -28,11 +28,19 @@ tryhackx-topic-rating:
     settings:
       allow_unactivated_help: 'Wenn aktiviert, können Benutzer, die ihre E-Mail-Adresse noch nicht bestätigt haben, Diskussionen dennoch bewerten.'
       allow_unactivated_label: 'Nicht aktivierten Konten das Bewerten erlauben'
+      author_mode_author_only: 'Nur der Autor darf bewerten (Rezensionsbewertung)'
       author_mode_default: 'Autorbewertungen wie von jedem (Standard)'
       author_mode_exclude: 'Autoren dürfen eigene Diskussionen nicht bewerten'
       author_mode_heading: 'Bewertung des Autors selbst'
+      author_mode_help: 'Nützlich, wenn es sich bei den Themen um Rezensionen handelt (der Autor bewertet das rezensierte Objekt) oder um zu verhindern, dass Autoren ihre eigenen Themen aufwerten. Durch eine Änderung dieser Einstellung werden Bewertungen nicht gelöscht – es wird lediglich festgelegt, wer von nun an bewerten darf und welche Bewertungen in die angezeigte (und sortierte) Punktzahl einfließen. Wenn du die Einstellung zurücksetzt, werden die vorherigen Punktzahlen wiederhergestellt. Standardmäßig deaktiviert.'
+      author_mode_hint_author_only: 'Die Bewertung des Themas entspricht der vom Autor selbst vergebenen Bewertung: Nur der Autor kann das Thema bewerten, alle anderen können die Bewertung lediglich einsehen (einschließlich Administratoren und Gruppen mit Umgehungsrechten). Zuvor abgegebene Bewertungen von Mitgliedern bleiben erhalten, werden jedoch nicht berücksichtigt.'
+      author_mode_hint_default: 'Jeder, der über die Berechtigung „Bewerten“ verfügt – einschließlich des Autors des Themas –, bewertet das Thema, und jede Bewertung fließt in einen Durchschnittswert ein.'
+      author_mode_hint_exclude: 'Der Verfasser eines Themas kann es nicht bewerten; alle anderen können dies weiterhin tun. Eine Bewertung, die der Verfasser vor der Aktivierung dieser Funktion abgegeben hat, wird bei der Gesamtbewertung nicht berücksichtigt.'
+      author_mode_hint_separate: 'Jeder kann weiterhin Bewertungen abgeben, aber die Bewertung des Autors wird separat angezeigt („Autor ★ 4,5“) und fließt nicht in den Community-Durchschnitt ein – Mitglieder können die Bewertung des Autors nicht beeinflussen und der Autor kann die Bewertung der Community nicht beeinflussen.'
       author_mode_label: 'Wie die Bewertung einer eigenen Diskussion durch den Autor behandelt wird'
       author_mode_separate: 'Autorenbewertung separat anzeigen'
+      author_mode_tags_help: 'Optional – wähle z. B. deine Bewertungs-Tags aus. Bei Diskussionen, die keines der ausgewählten Tags enthalten, bleibt das Standardverhalten erhalten.'
+      author_mode_tags_label: 'Nur auf Diskussionen mit diesen Tags anwenden'
       author_mode_tags_none: 'Kein Tag ausgewählt - Wird auf jede Diskussion angewendet.'
       author_mode_tags_some: 'Gilt für Diskussionen, die mindestens eines der {count} ausgewählten Tags enthalten.'
       bypass_clear_all: Löschen
@@ -105,6 +113,10 @@ tryhackx-topic-rating:
     rating_disabled: 'Bewertung wurde für diese Diskussion deaktiviert.'
     rating_out_of_range: 'Bewertung muss zwischen 1 und 10 liegen (0.5-5.0 Sterne).'
   forum:
+    author_badge:
+      label: Autor
+      score_label: 'Bewertung des Autors'
+      title: 'Bewertung des Autors: {score} / 5'
     controls:
       disable_rating: 'Bewerten deaktivieren'
       enable_rating: 'Bewerten aktivieren'
@@ -114,6 +126,7 @@ tryhackx-topic-rating:
     rating_count: 'Bewertungen: {count}'
     rating_restricted_message: 'Bewertungen sind für deine Gruppe nicht verfügbar.'
     ratings_modal:
+      author_tag: Autor
       deleted_user: '[gelöscht]'
       empty: 'Noch keine Bewertungen.'
       title: 'Bewertungen ({count})'
@@ -125,8 +138,13 @@ tryhackx-topic-rating:
       title: 'Alle Bewertungen zurücksetzen'
     tooltip:
       activation_required: 'Dein Konto muss aktiviert sein, um eine Bewertung abzugeben.'
+      author_only: 'Bewertet durch den Autor.'
+      author_only_unrated: 'Nur der Verfasser der Diskussion kann es bewerten – noch nicht bewertet.'
       login_required: 'Du musst angemeldet sein, um eine Bewertung abzugeben.'
+      own_topic: 'Du kannst deine eigene Diskussion nicht bewerten.'
+      rate_as_author: 'Bewerte deine Diskussion – wird als Bewertung des Autors angezeigt'
       rate_first: 'Sei der Erste, der eine Bewertung abgibt!'
       rate_this: 'Diese Diskussion bewerten'
       restricted: 'Bewertungen zu diesem Thema liegen für deine Gruppe nicht vor.'
       your_rating: 'Deine Bewertung:'
+      your_rating_as_author: 'Deine Bewertung (wird als Bewertung des Autors angezeigt):'

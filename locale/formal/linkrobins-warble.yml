@@ -7,12 +7,23 @@ linkrobins-warble:
     check:
       endpoint_fail: 'Browser können in diesem Forum nicht auf /api/warble/poll zugreifen. Möglicherweise wird der Zugriff durch eine Firewall, ein Sicherheits-Plugin oder eine Host-Regel blockiert, und ohne diesen Zugriff werden keine Live-Aktualisierungen vorgenommen.'
       endpoint_ok: 'Browser können die Abfrageadresse in diesem Forum aufrufen.'
+      interval_auto: 'Die Browser der Besucher prüfen alle {seconds} Sekunden nach Aktualisierungen, wobei der Wert automatisch festgelegt wird. In den letzten Minuten hat die Abfrage etwa {load} % eines Serverprozesses ausgelastet ({polls} Abfragen pro Minute, jeweils {ms} ms). Warble drosselt seine Geschwindigkeit automatisch, wenn dein Host ausgelastet ist. Für sofortige Updates solltest du statt Warble „Realtime“ mit einem eigenen WebSocket-Server verwenden.'
+      interval_waiting: 'Die Browser der Besucher prüfen alle {seconds} Sekunden auf Aktualisierungen. Warble passt diesen Wert automatisch an, sobald die Besucher auf der Seite surfen, je nachdem, wie viel die Abfragen deinen Host kosten.'
+      polling_quiet: 'Kein Browser von Besuchern hat in den letzten {minutes} Minuten auf Aktualisierungen geprüft. Öffne das Forum in einem anderen Tab und versuche es erneut.'
+      polling_seen: 'Der Browser eines Besuchers hat zuletzt {at} auf Aktualisierungen geprüft.'
+      queue_async: 'Der Queue-Treiber ist {driver}. Realtime stellt jede Aktualisierung zunächst in diese Warteschlange, sodass Besucher sie erst sehen, wenn die Warteschlange abgearbeitet wurde. Wenn Aktualisierungen mit einigen Minuten Verspätung eintreffen, liegt dies daran.'
       queue_sync: 'Die Warteschlange ist auf sync eingestellt, sodass Aktualisierungen sofort nach ihrem Eintreten übertragen werden.'
       realtime: 'Die Realtime-Erweiterung ist aktiviert.'
       realtime_missing: 'Die Realtime-Erweiterung ist nicht aktiviert. Warble überträgt nur die Aktualisierungen von Realtime, daher musst du zunächst „flarum/realtime“ aktivieren.'
+      scheduler_active: 'Der Scheduler (cron) läuft; er wurde zuletzt {at} ausgeführt.'
+      scheduler_never: 'Der Scheduler (cron) wurde noch nie ausgeführt. Wenn keine andere Komponente deine Warteschlange verarbeitet, werden keine Aktualisierungen gesendet.'
+      scheduler_not_needed: 'Warble benötigt keinen Scheduler (cron) mit einer Synchronisierungswarteschlange.'
+      scheduler_stale: 'Der Scheduler (cron) wurde zuletzt um {at} ausgeführt. Wenn er deine Warteschlange verarbeitet, werden Aktualisierungen zurückgestellt, bis er erneut ausgeführt wird.'
       updates_quiet: 'Keine Aktualisierungen wurden in den letzten {minutes} Minuten gesendet. Sende eine Antwort in einem anderen Tab und prüfe erneut.'
       updates_seen: 'Die letzte Aktualisierung wurde um {at} gesendet.'
+      websocket_leftover: 'Die Datei „config.php“ enthält noch einen WebSocket-Abschnitt, der wahrscheinlich aus dem inzwischen eingestellten gehosteten Warble-Dienst stammt. Warble ignoriert diesen Abschnitt. Du kannst ihn entfernen.'
     connected: "✓ Verbunden — Echtzeitfunktion ist in deinem Forum eingerichtet. Die Aktivierung kann bis zu einer Minute dauern. Sollten neue Antworten also nicht sofort in Echtzeit angezeigt werden, warte bitte einen Moment. Tipp: Öffne die Einstellungen der „Realtime“-Erweiterung, um die Eingabeanzeigen, Aktualisierungen der Diskussionsliste und Benachrichtigungs-Toasts für dein Forum anzupassen.\n"
+    health_failed: 'Die Systemprüfung konnte nicht geladen werden. Lade die Seite neu und versuche es erneut.'
     health_recheck: 'Erneut prüfen'
     health_title: Realtime-Status
     key_help: "Füge den Schlüssel aus deinem linkrobins.com-Dashboard → Warble ein. Das war’s schon – Warble richtet die Verbindung zur Realtime-Erweiterung automatisch für dich ein. Nach dem Speichern kann es bis zu einer Minute dauern, bis Realtime aktiviert ist. Lasse das Feld leer, um die Verbindung zu trennen.\n"

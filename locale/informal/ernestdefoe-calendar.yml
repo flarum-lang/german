@@ -50,7 +50,7 @@ ernestdefoe-calendar:
   forum:
     add_event: 'Veranstaltung hinzufügen'
     add_to_google: 'Zu Google Kalender hinzufügen'
-    all_day: 'Ganzen Tag'
+    all_day: Ganztägig
     attendees_going: 'Wer nimmt teil'
     attendees_interested: 'Auch interessiert'
     badge_100: Centurio-Serie
@@ -161,6 +161,6 @@ ernestdefoe-calendar:
   lib:
     widgets:
       calendarCelebrations: 'Heutige Feierlichkeiten'
-      calendarMemories: 'Am heutigen Tag'
+      calendarMemories: 'An diesem Tag'
       calendarPulse: Forumaktivität
       calendarUpcoming: 'Anstehende Veranstaltungen'

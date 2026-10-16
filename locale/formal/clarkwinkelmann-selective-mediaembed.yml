@@ -7,5 +7,5 @@ clarkwinkelmann-selective-mediaembed:
     clearCache: 'Cache jetzt leeren'
     mustClearCache: 'Du musst den Cache nach dem Speichern der Änderungen leeren!'
     searchIndexTreeSites: Webseiten
-    selectAll: 'Alles auswählen'
+    selectAll: 'Alle auswählen'
     unselectAll: 'Alle abwählen'
