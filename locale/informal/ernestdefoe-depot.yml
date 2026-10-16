@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ernestdefoe-depot:
+  admin:
+    categories:
+      save: Speichern
   api:
     no_file: 'Datei hinzufügen.'
   email:
@@ -14,13 +17,35 @@ ernestdefoe-depot:
       locked: '{count, plural, one {# Datei} other {# Dateien}} für {group}'
       no_ratings: 'Noch keine Bewertungen'
       pending: 'Genehmigung ausstehend'
+      see_category: 'Schau dir an, was drin ist'
       updated: 'aktualisiert {time}'
       updated_badge: Aktualisiert
+    download:
+      copy: Kopieren
+      expect: 'Erwartetes Ergebnis:'
+      leaving: 'Weiterleitung zu {host}'
+      link_note: 'Diese Datei wird an anderer Stelle gehostet. Sie wird in einem neuen Tab geöffnet.'
+      os_linux: Linux
+      os_mac: macOS
+      os_windows: Windows
+      retry: 'Nichts passiert?'
+      retry_link: 'Direkt herunterladen.'
+      started: 'Dein Download hat begonnen'
+      verify_body: 'Führe diesen Befehl in einem Terminal aus. Das Ergebnis sollte mit der vom Autor veröffentlichten Prüfsumme übereinstimmen.'
+      verify_title: 'Überprüfe, ob es die richtige Datei ist'
+      watch: Verfolgen
+      watch_body: '{count, plural, one {# Person erhält} other {# Personen erhalten}} eine Benachrichtigung, wenn diese Datei aktualisiert wird.'
+      watch_title: 'Nächste Version erhalten'
+      watching: Verfolgt
     edit:
+      fields_label: 'Zusätzliche Details'
       save: 'Änderungen speichern'
+      title: 'Details bearbeiten'
     empty:
+      mine: 'Hier werden die von dir hochgeladenen Dateien angezeigt, einschließlich derjenigen, die noch auf Freigabe warten.'
       none_body: 'Die erste mit der Schaltfläche in der Seitenleiste hochladen.'
       none_title: 'Noch keine Dateien hier'
+      queue: 'Es gibt nichts mehr zu tun. Alles wurde bereits geprüft.'
       reset: 'Filter löschen'
       title: 'Keine Treffer'
     file:
@@ -29,12 +54,15 @@ ernestdefoe-depot:
       at_a_glance: 'Auf einen Blick'
       author: Autor
       author_stats: '{files, plural, one {# Datei} other {# Dateien}} · {downloads} Downloads'
+      buy: Kaufen
       cancel: Abbrechen
       change_added: Hinzugefügt
       change_changed: Geändert
+      change_fixed: Behoben
       controls: Dateisteuerung
       counted_by_packagist: 'Installationen gezählt von Packagist'
       delete: Löschen
+      delete_confirm: '{title} zusammen mit jeder Version, jedem Screenshot und jeder Rezension löschen? Die zugehörige Support-Diskussion bleibt bestehen.'
       delete_review: Löschen
       delete_review_confirm: 'Diese Bewertung löschen?'
       delete_version: 'Diese Version löschen'
@@ -49,6 +77,7 @@ ernestdefoe-depot:
       feature: Hervorheben
       featured: Hervorgehoben
       first_released: Erstveröffentlichung
+      get_it: 'Hol es dir'
       github_sync: 'Neue Versionen werden hier automatisch angezeigt'
       helpful: 'Hilfreich ({count})'
       install: Installieren
@@ -58,12 +87,20 @@ ernestdefoe-depot:
       licence: Lizenz
       login_to_download: 'Anmelden, um herunterzuladen'
       login_to_review: 'Anmelden, um zu bewerten'
+      manage_licence: 'Deine Lizenz verwalten'
       missing_back: 'Zurück zu Downloads'
       missing_title: 'Diese Datei ist nicht mehr hier'
+      more_like_this: Ähnliches
       new_version: 'Eine Version hinzufügen'
+      no_changelog: 'Keine Versionshinweise für diese Version.'
       no_download_permission: 'Du kannst hier keine Dateien herunterladen'
+      no_reviews: 'Noch keine Rezensionen.'
+      no_reviews_filtered: 'Keine Rezensionen mit dieser Bewertung.'
+      no_thread: 'Diese Datei hat keine Support-Diskussion.'
       older_versions: 'Ältere Versionen'
       optional: Optional
+      owned: 'Du hast die Lizenz dafür'
+      pending: 'Diese Datei wartet auf einen Moderator. Nur du und die Moderatoren können sie einsehen.'
       ratings: '{count, plural, one {# Bewertung} other {# Bewertungen}}'
       release_notes: Versionshinweise
       released: 'Veröffentlicht {time}'
@@ -80,23 +117,34 @@ ernestdefoe-depot:
       tab_reviews: Bewertungen
       tab_versions: Versionen
       this_version: 'Diese Version'
+      thread_after_approval: 'Die Support-Diskussion wird eröffnet, sobald die Datei freigegeben wurde.'
       thread_meta: '{count, plural, one {# Antwort} other {# Antworten}}'
+      thread_open: 'Im Forum öffnen'
       total_downloads: Downloads
       total_installs: Installationen
       unfeature: 'Nicht mehr hervorheben'
       updated: 'aktualisiert {time}'
       verified: 'Prüfsumme veröffentlicht'
+      verified_tooltip: 'Vergleiche diesen SHA-256-Hash mit dem deiner heruntergeladenen Datei, um sicherzustellen, dass es sich um die vom Autor veröffentlichte Datei handelt'
       version_downloads: '{count} Downloads'
       versions: Versionen
       view_on_github: 'Auf GitHub anzeigen'
       view_profile: Profil
+      watch: 'Aktualisierungen verfolgen'
+      watchers: '{count} verfolgen dies'
+      watching: Verfolgt
       whats_new: 'Was ist neu in v{version}'
       works_with: 'Funktioniert mit'
       write_review: 'Eine Bewertung schreiben'
     hero:
       all_desc: 'Dateien von und für diese Community.'
       count: '{count, plural, one {# Datei} other {# Dateien}}'
+      mine_desc: 'Alles, was du hochgeladen hast, einschließlich der Dateien, die noch auf ihre Freigabe warten.'
+      queue_desc: 'Dateien, die Mitglieder hochgeladen haben und die erst von einem Moderator freigegeben werden müssen, bevor sie angezeigt werden.'
       watching_desc: 'Dateien, für die du eine Benachrichtigung erhältst, sobald eine neue Version erscheint.'
+    lightbox:
+      next: 'Nächster Screenshot'
+      previous: 'Vorheriger Screenshot'
     nav:
       all: 'Alle Dateien'
       everything_in: 'Alle in {name}'
@@ -106,14 +154,33 @@ ernestdefoe-depot:
       subcategories: Unterkategorien
       toggle: 'Kategorie auswählen'
       upload: 'Datei hochladen'
+      watching: Verfolgt
     notice:
       pending: '{count, plural, one {# Datei wartet} other {# Dateien warten}} auf Genehmigung'
       review: Bewertung
     notifications:
       new_version: 'Neue Version: {version}'
+    price:
+      from: 'Ab {price}'
+      per_day: '{price} pro Tag'
+      per_month: '{price} pro Monat'
+      per_week: '{price} pro Woche'
+      per_year: '{price} pro Jahr'
     rating_label: 'Bewertet mit {rating} von 5'
+    review:
+      body_label: 'Was andere wissen sollten? (optional)'
+      label_2: 'Hat Probleme'
+      label_4: Gut
+      label_5: Hervorragend
+      pick: 'Bewertung wählen'
+      rating: 'Deine Bewertung'
+      stars: '{count, plural, one {# Stern} other {# Sterne}}'
+      submit: 'Rezension veröffentlichen'
+      title: '{title} rezensieren'
+      update: 'Rezension aktualisieren'
     source:
       github_tooltip: 'Neue Versionen auf github.com/{repo} erscheinen automatisch hier'
+      link_tooltip: 'Gehostet auf {host}. Depot zählt die Klicks.'
     spotlight:
       details: 'Details anzeigen'
       download: 'v{version} herunterladen'
@@ -147,17 +214,35 @@ ernestdefoe-depot:
       category_label: Kategorie
       compat_label: 'Funktioniert mit'
       description_label: Beschreibung
+      drop_help: 'Bis zu {mb} MB. Die SHA-256-Prüfsumme wird unmittelbar nach dem Eintreffen berechnet.'
+      game_label: 'Gemacht für'
+      hashing: 'Prüfsumme wird ermittelt…'
       licence_label: Lizenz
+      link_help: 'Depot zählt die Klicks und leitet die Nutzer an diese Adresse weiter.'
+      link_label: Downloadlink
       name_label: Name
       next: Fortfahren
       remove: Entfernen
       replace: Ersetzen
+      sending: 'Wird gesendet… {percent} %'
       source_github: GitHub
       source_github_help: 'Versionen synchronisieren'
       source_link: Link
+      source_link_help: 'Andernorts gehostet'
+      source_upload: Hochladen
       source_upload_help: 'Von deinem Computer'
       step_details: Details
+      step_media: Screenshots
       step_review: Bewertung
       step_source: Datei
+      step_support: Support
+      submit: Absenden
+      tagline_label: Einzeiler-Zusammenfassung
       title: 'Datei hochladen'
       version_label: Version
+    version:
+      after: 'Nach {version}'
+      lines: 'Eine pro Zeile'
+      number: Version
+      save: 'Diese Version veröffentlichen'
+      title: 'Neue Version von {title}'

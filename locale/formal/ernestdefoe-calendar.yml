@@ -17,7 +17,16 @@ ernestdefoe-calendar:
     category_delete_confirm: 'Diese Kategorie löschen? Die Daten der Veranstaltungen bleiben erhalten, die farbige Kennzeichnung wird jedoch entfernt.'
     category_name: Name
     category_saved: 'Kategorie gespeichert.'
+    date_order: Datumsformat
+    date_order_auto: Automatisch
+    date_order_dmy: 'Tag zuerst (31 Dezember 2026)'
+    date_order_help: 'Die Reihenfolge in der Daten im Kalender und in dessen Widgets angezeigt werden. „Automatisch“ richtet sich nach der Sprache deines Forums.'
+    date_order_mdy: 'Monat zuerst (Dezember 31, 2026)'
     default_view: 'Standardansicht des Kalenders'
+    event_discussion_tags: 'Veranstaltungsdiskussionen mit diesem Tag versehen'
+    event_discussion_tags_help: 'Wähle mindestens eines aus – jede neue Diskussion in einem Forum mit Tags benötigt ein Tag. Der Organisator muss die Berechtigung haben, darin Diskussionen zu starten.'
+    event_discussions: 'Jeder neuen Veranstaltung eine eigene Diskussion zuweisen'
+    event_discussions_help: 'Antworten, Likes, Erwähnungen und Benachrichtigungen funktionieren dann genau wie in jeder anderen Diskussion. Bei Veranstaltungen, die bereits vor dieser Änderung erstellt wurden, wird dem Veranstalter die Schaltfläche „Diskussion starten“ angezeigt.'
     hide_nav_link: 'Link „Kalender“ in der Seitenleiste ausblenden'
     hide_nav_link_help: 'Der Kalender bleibt über das Widget „Bevorstehende Veranstaltungen“ und die URL /calendar erreichbar – praktisch, wenn deine Navigation zu überladen ist.'
     index_widget_count: 'Im Index-Widget anzuzeigende Veranstaltungen'
@@ -44,6 +53,7 @@ ernestdefoe-calendar:
     week_sunday: Sonntag
   api:
     category_name_required: 'Der Kategoriename wird benötigt.'
+    discussion_needs_tag: 'Veranstaltungsdiskussionen benötigen ein Tag. Ein Administrator kann in den Kalendereinstellungen eines auswählen.'
     end_before_start: 'Das Ende muss nach dem Beginn liegen.'
     start_required: 'Ein gültiges Startdatum und -zeit wird benötigt.'
     title_required: 'Ein Titel wird benötigt.'
@@ -138,6 +148,7 @@ ernestdefoe-calendar:
     saved: 'Veranstaltung gespeichert.'
     section_details: Details
     section_when: Wann
+    start_discussion: 'Eine Diskussion beginnen'
     starts: Beginnt
     starts_in: 'Beginnt in'
     subscribe: 'Abonnieren (iCal-Feed)'
