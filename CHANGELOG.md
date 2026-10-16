@@ -10,7 +10,7 @@ CHANGELOG
 * [`clarkwinkelmann/flarum-ext-prominent-post-numbers`](https://github.com/clarkwinkelmann/flarum-ext-prominent-post-numbers) (100% complete)
 * [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed) (100% complete)
 * [`ernestdefoe/backdrop`](https://github.com/ernestdefoe/backdrop) (100% complete)
-* [`ernestdefoe/depot`](https://github.com/ernestdefoe/depot) (64% complete)
+* [`ernestdefoe/depot`](https://github.com/ernestdefoe/depot) (66% complete)
 * [`ernestdefoe/marquee`](https://github.com/ernestdefoe/marquee) (100% complete)
 * [`ernestdefoe/menu-control`](https://github.com/ernestdefoe/menu-control) (100% complete)
 * [`fof/brevo-mail`](https://github.com/FriendsOfFlarum/brevo-mail) (100% complete)
