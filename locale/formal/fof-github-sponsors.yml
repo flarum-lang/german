@@ -12,7 +12,12 @@ fof-github-sponsors:
       account_type_label: 'Konto Typ'
       api_token_help: 'Erstelle unter <a>https://github.com/settings/tokens/new</a> einen persönlichen Zugriffstoken mit den Bereichen <code>read:user</code>, <code>user:email</code> und <code>read:org</code>. Dieser Token wird verwendet, um deine Sponsorinformationen von GitHub abzurufen.'
       api_token_label: API-Token
-      group_help: 'Wähle aus, zu welcher Flarum-Benutzergruppe Sponsoren hinzugefügt werden sollen. Benutzer werden automatisch hinzugefügt, wenn sie Sponsoren werden, und entfernt, wenn sie ihr Sponsoring beenden.'
+      group_help: 'Wähle aus, zu welcher Flarum-Benutzergruppe aktive monatliche Sponsoren hinzugefügt werden sollen. Benutzer werden automatisch hinzugefügt, wenn sie Sponsoren werden und in die Gruppe einmaliger Sponsoren (sofern eingerichtet) verschoben, sobald ihr monatliches Sponsoring endet.'
       group_label: 'Monatliche Sponsoren-Gruppe'
       login_help: 'Gib deinen GitHub-Benutzernamen (für Benutzerkonten) oder den Namen den Organisationsnamen (für Organisationen) ein. Dies ist das Konto, dessen Sponsoren synchronisiert werden.'
       login_label: Einloggen
+      onetime_group_label: 'Gruppe einmaliger und vergangener Sponsoren (optional)'
+    status:
+      request_failed: 'Der Verbindungstest konnte nicht durchgeführt werden.'
+      test_button: 'Verbindung testen'
+      test_success: 'Mit {maintainer} als {account} verbunden. {sponsorships} öffentliche Sponsoren gefunden.'
