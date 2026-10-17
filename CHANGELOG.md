@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.26 (XXXX-XX-XX)
+-------------------
+
+**Updated translations for extensions**:
+
+* [`fof/split`](https://github.com/FriendsOfFlarum/split) (4 added, 100% complete)
+
+
+All changes: [2.0.25...2.0.26](https://github.com/flarum-lang/german/compare/2.0.25...2.0.26).
+
+
 2.0.25 (2026-10-17)
 -------------------
 
