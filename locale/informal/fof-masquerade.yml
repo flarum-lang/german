@@ -8,6 +8,8 @@ flarum-audit:
       masquerade:
         field_created: 'Profilfeld „{name}“ angelegt'
         field_deleted: 'Profilfeld „{name}“ gelöscht'
+        field_permanently_deleted: 'Profilfeld „{name}“ endgültig gelöscht'
+        field_restored: 'Profilfeld „{name}“ wiederhergestellt'
         field_updated: 'Profilfeld „{name}“ aktualisiert'
         profile_updated: 'Profilfeld von {username} aktualisiert'
 flarum-gdpr:
@@ -21,17 +23,20 @@ fof-masquerade:
   admin:
     buttons:
       add-field: 'Feld anlegen'
-      delete-field: 'Feld löschen'
+      delete-field: 'In den Papierkorb verschieben'
+      delete-field-permanently: 'Feld „{field}“ endgültig löschen'
       edit-field: 'Änderungen speichern'
+      restore-field: 'Feld „{field}“ wiederherstellen'
     fields:
       add: 'Feld {field} hinzufügen'
       create: 'Feld erstellen'
-      delete-confirmation: 'Möchtest du das Feld {field} wirklich löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.'
+      delete-confirmation: 'Das Feld „{field}“ in den Papierkorb verschieben?'
+      delete-permanently-confirmation: 'Das Feld „{field}“ und alle darin gespeicherten Antworten endgültig löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.'
       description: Feld-Beschreibung
       description-help: "Eine optionale Beschreibung, um die Verwendung/Notwendigkeit dieses Feldes zu erklären.\n"
       edit: 'Feld „{field}“ bearbeiten'
       force-user-to-completion: 'Ausfüllen des Profils verpflichtend machen'
-      hide-empty-fields: 'Leere Felder verbergen'
+      hide-empty-fields: 'Leere Felder ausblenden'
       icon: Symbol
       icon-help: "Zeigt ein Symbol vor den von den Nutzern eingegebenen Werten an. Eine Liste aller verfügbaren Symbole ist auf der <a>FontAwesome Webseite</a> zu finden. Verwende Symbolnamen mit dem „fa-“ Prefix, zum Beispiel „fas fa-info“.\n"
       is_restricted: 'Feldsichtbarkeit einschränken'
@@ -45,6 +50,7 @@ fof-masquerade:
       permissions-alert: 'Berechtigungseinstellungen sind nach der Erstellung des Feldes verfügbar.'
       required: 'Als Pflichtfeld festlegen'
       title: Felder
+      trash: Papierkorb
       type: Typ
       validation: Validierung
       validation-help: "Wende die unterstützten <a>Laravel-Validierungsregeln</a> an. Z. B.: „string|min:5“ oder „url“.\n"

@@ -73,8 +73,8 @@ fof-linguist:
       locale: Sprache
       locale-all: 'Pseudo-Gebietsschema „Alle“'
       override-existing: 'Meine vorhandenen benutzerdefinierten Übersetzungen überschreiben'
-      results: "Der Import ist abgeschlossen. {imported} Strings wurden importiert und {identical} identische Strings wurden übersprungen. Die Seite wird nun aktualisiert, um die neuen Übersetzungen anzuzeigen.\n"
-      results-with-ignore: "Der Import ist abgeschlossen. {imported} Strings wurden importiert, {ignored} vorhandene Strings wurden ignoriert und {identical} identische Strings wurden übersprungen. Die Seite wird nun aktualisiert, um die neuen Übersetzungen anzuzeigen.\n"
+      results: "Der Import ist abgeschlossen. {imported} Strings wurden importiert sowie {identical} identische und {empty} leere Strings wurden übersprungen. Die Seite wird nun aktualisiert, um die neuen Übersetzungen anzuzeigen.\n"
+      results-with-ignore: "Der Import ist abgeschlossen. {imported} Strings wurden importiert, {ignored} vorhandene Strings wurden ignoriert sowie {identical} identische und {empty} leere Strings wurden übersprungen. Die Seite wird nun aktualisiert, um die neuen Übersetzungen anzuzeigen.\n"
       submit: Importieren
       title: Importieren
     known-frontend:
@@ -99,3 +99,6 @@ fof-linguist:
       export: Exportieren
       import: Importieren
       strings: Übersetzungen
+  api:
+    cannot_change_key_or_locale: 'Der Schlüssel und die Sprachumgebung einer gespeicherten Übersetzung können nicht geändert werden.'
+    invalid_icu_syntax: 'Die Übersetzung entspricht nicht der gültigen ICU-Nachrichtensyntax, beispielsweise weil eine geschweifte Klammer nicht geschlossen wurde.'

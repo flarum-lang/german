@@ -3,6 +3,16 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ernestdefoe-club:
+  admin:
+    permission_create: 'Buch- oder Filmclub gründen'
+    permission_join: 'Buch- und Filmclubs beitreten'
+    permission_moderate: 'Club verwalten (Auswahl bearbeiten, löschen, ändern)'
+  api:
+    already_a_pick: 'Diese Diskussion ist bereits eine Club-Auswahl.'
+    bad_section: 'Der Abschnitt ist nicht Teil dieser Club-Auswahl.'
+    not_linked: 'Eine Club-Auswahl muss eine Diskussion mit einem per Marquee verlinkten Titel sein.'
+    section_due: 'Das Fälligkeitsdatum muss ein Datum sein.'
+    section_label: 'Jeder Abschnitt benötigt einen Namen mit bis zu 100 Zeichen.'
   forum:
     club:
       delete: Löschen

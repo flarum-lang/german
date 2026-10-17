@@ -36,13 +36,17 @@ ernestdefoe-recipes:
       edit_title: 'Rezept bearbeiten'
       empty: 'Füge einen Titel, eine Zutat oder einen Schritt hinzu.'
       image: Foto-URL
+      image_help: 'Optional. Wird oben auf der Karte angezeigt und Suchmaschinen zur Verfügung gestellt.'
       ingredients: Zutaten
+      ingredients_help: 'Je eine Angabe pro Zeile. Beginne mit einer Menge (1 1/2 Tassen, 200 g, ½ TL), die sich entsprechend der Anzahl der Portionen skaliert. Eine Zeile, die mit einem Doppelpunkt endet, leitet eine Gruppe ein.'
       insert: 'Rezept einfügen'
+      invalid_image: 'Die Foto-Adresse muss mit http:// oder https:// beginnen'
       name: Titel
       name_placeholder: 'Fluffige Pfannkuchen'
       prep: Vorbereitungszeit
       servings: Portionen
       steps: Schritte
+      steps_help: 'Je eine pro Zeile. Gib eine Zeit in eckigen Klammern an, zum Beispiel [25m] oder [1h 30m], und schon wird daraus ein Timer, den du mit einem Klick starten kannst.'
       time_placeholder: 'z. B. 25m oder 1h 30m'
       title: 'Rezept einfügen'
       update: 'Rezept speichern'
