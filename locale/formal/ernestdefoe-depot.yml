@@ -12,21 +12,35 @@ ernestdefoe-depot:
       edit: Bearbeiten
       edit_title: '{name} bearbeiten'
       files: '{count, plural, one {# Datei} other {# Dateien}}'
+      help: 'Zum Neuanordnen ziehen. Ziehe eine Kategorie auf eine übergeordnete Kategorie, um sie darin unterzubringen.'
       icon: Symbol
+      locked_to: 'nur {groups}'
       name: Name
       save: Speichern
       slug: Adresse
       title: Kategorien
+    permissions:
+      download: 'Dateien im Downloadbereich herunterladen'
+      upload: 'Dateien in den Downloadbereich hochladen'
+      view: 'Downloadbereich anzeigen'
     settings:
+      count_window: 'Download einmal zählen je'
+      count_window_help: 'Wiederholte Downloads durch dasselbe Mitglied oder von derselben Adresse innerhalb dieses Zeitraums werden nicht gezählt.'
       github_token: 'GitHub-Token (optional)'
+      support_thread: 'Support-Diskussion für neue Dateien beginnen'
       window_1: '1 Stunde'
       window_168: '7 Tage'
       window_24: '24 Stunden'
   api:
+    bad_link: 'Der Link muss eine vollständige https://-Adresse sein.'
+    bad_rating: 'Wähle zwischen einem und fünf Sternen.'
+    cannot_review: 'Du kannst keine Rezension für diese Datei abgeben.'
     duplicate_version: 'Version {version} ist bereits vorhanden.'
     no_file: 'Datei hinzufügen.'
     thread_title: '{title}: Support und Kommentare'
   email:
+    approved:
+      subject: '{title} wurde veröffentlicht'
     new_version:
       subject: '{title} {version} wurde veröffentlicht'
   forum:
@@ -56,18 +70,22 @@ ernestdefoe-depot:
       watch_title: 'Nächste Version erhalten'
       watching: Verfolgt
     edit:
+      fields_help: 'Je eine Angabe pro Zeile, im Format „Bezeichnung: Wert“. Beispiel: Auflösung: 32×32.'
       fields_label: 'Zusätzliche Details'
       save: 'Änderungen speichern'
       title: 'Details bearbeiten'
     empty:
+      body: 'Versuche eine andere Version oder einen kürzeren Suchbegriff.'
       mine: 'Hier werden die von dir hochgeladenen Dateien angezeigt, einschließlich derjenigen, die noch auf Freigabe warten.'
       none_body: 'Die erste mit der Schaltfläche in der Seitenleiste hochladen.'
       none_title: 'Noch keine Dateien hier'
       queue: 'Es gibt nichts mehr zu tun. Alles wurde bereits geprüft.'
       reset: 'Filter löschen'
       title: 'Keine Treffer'
+      watching: 'Verfolge eine Datei von ihrer Seite und sie wird hier angezeigt.'
     file:
       all_versions: 'Alle Versionen'
+      api_help: 'Mods und Launcher können die neueste Version abrufen, ohne die Seite zu laden.'
       approve: Genehmigen
       at_a_glance: 'Auf einen Blick'
       author: Autor
@@ -76,6 +94,7 @@ ernestdefoe-depot:
       cancel: Abbrechen
       change_added: Hinzugefügt
       change_changed: Geändert
+      change_discussion: 'Ändere eine Support-Diskussion'
       change_fixed: Behoben
       controls: Dateisteuerung
       counted_by_packagist: 'Installationen gezählt von Packagist'
@@ -103,6 +122,7 @@ ernestdefoe-depot:
       last_30: '{count} in 30 Tagen'
       latest: Neueste
       licence: Lizenz
+      link_discussion: 'Verknüpfe eine Support-Diskussion'
       login_to_download: 'Anmelden, um herunterzuladen'
       login_to_review: 'Anmelden, um zu bewerten'
       manage_licence: 'Deine Lizenz verwalten'
@@ -163,6 +183,13 @@ ernestdefoe-depot:
     lightbox:
       next: 'Nächster Screenshot'
       previous: 'Vorheriger Screenshot'
+    link:
+      help: 'Wer diese Datei öffnet, sieht die neuesten Beiträge der Diskussion und kann direkt dorthin springen. Es kann nur eine Diskussion verlinkt werden, die du selbst sehen kannst.'
+      label: Diskussion
+      placeholder: 'Link zur Diskussion einfügen oder dessen Nummer'
+      save: 'Diese Diskussion verknüpfen'
+      title: Support-Diskussion
+      unlink: 'Verknüpfung zu dieser Diskussion aufheben'
     nav:
       all: 'Alle Dateien'
       everything_in: 'Alle in {name}'
@@ -187,7 +214,10 @@ ernestdefoe-depot:
     rating_label: 'Bewertet mit {rating} von 5'
     review:
       body_label: 'Was andere wissen sollten? (optional)'
+      body_placeholder: 'Wie die Verwendung war und welche Version du ausprobiert hast.'
+      label_1: 'Funktioniert bei mir nicht'
       label_2: 'Hat Probleme'
+      label_3: Einwandfrei
       label_4: Gut
       label_5: Hervorragend
       pick: 'Bewertung wählen'
@@ -228,13 +258,17 @@ ernestdefoe-depot:
       view_list: 'Als Liste anzeigen'
     upload:
       add_shots: 'Screenshots hinzufügen'
+      approval: 'Dateien werden von einem Moderator geprüft, bevor sie in {category} erscheinen, es sei denn, du darfst diesen Schritt überspringen. Du erhältst eine Benachrichtigung, sobald sie freigegeben wurde.'
       back: Zurück
       category_label: Kategorie
+      compat_help: 'Unterstützte Versionen, durch Kommas getrennt. Neueste an erster Stelle.'
       compat_label: 'Funktioniert mit'
       cover: Titelbild
       description_label: Beschreibung
+      drop: 'Lege die Datei hier ab oder klicke, um eine auszuwählen'
       drop_help: 'Bis zu {mb} MB. Die SHA-256-Prüfsumme wird unmittelbar nach dem Eintreffen berechnet.'
       game_label: 'Gemacht für'
+      game_placeholder: 'Java Edition, Excel…'
       hashing: 'Prüfsumme wird ermittelt…'
       install_label: Installationsschritte
       licence_label: Lizenz
@@ -244,9 +278,17 @@ ernestdefoe-depot:
       name_label: Name
       next: Fortfahren
       no_tagline: 'Noch keine Zusammenfassung'
+      published: '„{title}“ ist jetzt veröffentlicht.'
       remove: Entfernen
       replace: Ersetzen
+      repo_help: 'Jeder neue GitHub-Release wird hier als Version geführt, wobei die Release-Hinweise als Versionshinweise dienen. Handelt es sich bei dem Repository um ein Composer-Paket auf Packagist, werden auf der Seite die Installationsanweisungen angezeigt und die Anzahl der Installationen gezählt.'
+      repo_label: Repository
+      repo_placeholder: inhaber/repository
+      requires_help: 'Je eine Zeile, als „Name“ – wofür sie gedacht ist. Füge „(optional)“ hinzu, wenn sie nicht erforderlich ist.'
       requires_label: 'Was sonst noch gebraucht wird'
+      requires_placeholder: 'OptiFine — für VR-Unterstützung (optional)'
+      review_thread: 'Eine Support-Diskussion wird in {tag} begonnen, sobald die Datei veröffentlicht wird.'
+      review_thread_untagged: 'Eine Support-Diskussion wird begonnen, sobald die Datei veröffentlicht wird.'
       sending: 'Wird gesendet… {percent} %'
       shots_help: 'Das erste ist das Titelbild. Bis zu 8.'
       source_github: GitHub
@@ -261,15 +303,22 @@ ernestdefoe-depot:
       step_source: Datei
       step_support: Support
       submit: Absenden
+      submitted: '„{title}“ wurde zur Freigabe eingereicht.'
+      tagline_help: 'Wird auf Karten und in der Suche angezeigt. {left} Zeichen verbleiben.'
       tagline_label: Einzeiler-Zusammenfassung
+      tagline_placeholder: 'Was es ist, in einem Satz'
       thread_linked: 'Verknüpft mit der Datei'
+      thread_off: 'Kommentare werden für diese Datei deaktiviert.'
       thread_opening: Eröffnungsbeitrag
       thread_title: '{title}: Support und Kommentare'
       thread_toggle: 'Support-Diskussion beginnen'
+      thread_toggle_help: 'Nutzer können dort Fragen stellen und Probleme melden, und du erhältst eine Benachrichtigung bei jeder Antwort.'
       title: 'Datei hochladen'
+      too_large: 'Das ist größer als die {mb} MB, die dieses Forum zulässt.'
       version_label: Version
     version:
       after: 'Nach {version}'
+      github: 'Neue Releases auf github.com/{repo} werden etwa einmal pro Stunde automatisch hinzugefügt. Veröffentliche einen Release dort und er wird hier erscheinen.'
       lines: 'Eine pro Zeile'
       number: Version
       save: 'Diese Version veröffentlichen'

@@ -14,7 +14,11 @@ ernestdefoe-shelf:
     too_many_lists: 'Du kannst bis zu {count} Listen führen.'
   forum:
     add:
+      added: 'Zu {list} hinzugefügt.'
       create: Erstellen
+      new_list: 'Oder eine neue Liste erstellen'
+      new_list_placeholder: 'z. B. Das Beste vom Besten'
+      title: '{title} zu einer Liste hinzufügen'
     card:
       add_to_shelf: 'Ins Regal stellen'
       average_title: 'Durchschnitt der Mitglieder aus {count, plural, one {einer Bewertung} other {# Bewertungen}}'
@@ -37,22 +41,56 @@ ernestdefoe-shelf:
       tv_plural: TV
     lists:
       delete_button: Löschen
+      delete_confirm: 'Die Liste {name} löschen? Die Titel bleiben in den Regalen aller Nutzer erhalten.'
       description_label: 'Beschreibung (optional)'
+      drag_hint: 'Titel ziehen, um die Reihenfolge zu ändern.'
       edit_button: Bearbeiten
+      edit_title: 'Liste bearbeiten'
+      empty: 'Diese Liste enthält noch keine Titel. Füge einen von jeder Titelkarte hinzu.'
       items: '{count, plural, one {# Titel} other {# Titel}}'
+      missing: 'Diese Liste existiert nicht oder wurde gelöscht.'
       name_label: Name
       new_button: 'Neue Liste'
       new_title: 'Neue Liste'
+      remove_title: '{title} von dieser Liste entfernen'
       save: Speichern
     log:
       date_label: Datum
       save: Speichern
+      title_listen: 'Wann hast du {title} angehört?'
+      title_play: 'Wann hast du {title} zu Ende gespielt?'
+      title_read: 'Wann hast du {title} zu Ende gelesen?'
+      title_watch: 'Wann hast du {title} angeschaut?'
+    menu:
+      add_to_list: 'Zu einer Liste hinzufügen…'
+      collection: 'In meiner Sammlung'
+      done_on_listen: 'Angehört {date} (ändern)'
+      done_on_play: 'Gespielt {date} (ändern)'
+      done_on_read: 'Gelesen {date} (ändern)'
+      done_on_watch: 'Angeschaut {date} (ändern)'
+      log_listen: 'Als angehört erfassen…'
+      log_play: 'Als gespielt erfassen…'
+      log_read: 'Als gelesen erfassen…'
+      log_watch: 'Als angesehen erfassen…'
+      remove: 'Aus meinem Regal entfernen'
+      want_listen: 'Möchte ich anhören'
+      want_play: 'Möchte ich spielen'
+      want_read: 'Möchte ich lesen'
+      want_watch: 'Möchte ich anschauen'
     profile:
+      empty: 'Noch nichts in diesem Regal.'
+      empty_own: 'Dein Regal ist leer. Bewerte oder erfasse einen Titel von dessen Karte in jeder verknüpften Diskussion.'
       filter_all: Alle
+      filter_done: Erfasst
       filter_owned: Sammlung
       filter_rated: Bewertet
+      filter_want: 'Möchte ich'
       lists_heading: Listen
       load_more: 'Mehr laden'
+      nav: Regal
+      no_lists: 'Noch keine Listen.'
+      no_lists_own: 'Du hast noch keine Listen. Erstelle hier eine oder über die Karte eines beliebigen Titels.'
+      shelf_heading: Regal
     status:
       done_listen: Angehört
       done_play: Gespielt
@@ -64,9 +102,23 @@ ernestdefoe-shelf:
       want_read: 'Möchte ich lesen'
       want_watch: 'Möchte ich anschauen'
     top:
+      empty_all: 'Noch nichts hat genügend Bewertungen erhalten.'
+      empty_month: 'In diesem Monat hat noch nichts genügend Bewertungen erhalten.'
+      empty_year: 'In diesem Jahr hat noch nichts genügend Bewertungen erhalten.'
+      failed: 'Die Liste der Bestbewerteten konnte nicht geladen werden.'
+      heading_all: 'Die Bestbewerteten aller Zeiten'
+      heading_month: 'Die Bestbewerteten dieses Monats'
+      heading_year: 'Die Bestbewerteten dieses Jahres'
       kind_all: Alles
+      kind_label: Art
+      nav: Bestbewertet
+      period_all: Allzeit
+      period_label: Zeitraum
       period_month: 'Diesen Monat'
       period_year: 'Dieses Jahr'
+      title: Bestbewertet
     widget:
       field_limit: 'Wie viele Titel'
       field_period: Zeitraum
+      field_title: 'Titel (leer lassen für Standard)'
+      label: 'Regal – bestbewertet'
