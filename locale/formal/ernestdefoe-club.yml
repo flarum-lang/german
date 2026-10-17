@@ -17,14 +17,24 @@ ernestdefoe-club:
     club:
       delete: Löschen
       edit: Bearbeiten
+      edit_title: 'Club bearbeiten'
+      how_to_pick: 'Um einen Titel als Auswahl festzulegen, öffne eine Diskussion zu einem Titel und wähle in den Steuerelementen die Option „Als Club-Auswahl festlegen“.'
+      join: 'Club beitreten'
       leave: Verlassen
       name_label: Name
+      new_title: 'Einen Club gründen'
       no_picks: 'Noch keine Auswahl. Schau bald wieder vorbei.'
       no_picks_host: 'Noch keine Auswahl.'
       open_discussion: 'Diskussion öffnen'
       save: Speichern
     clubs:
       members: '{count, plural, one {# Mitglied} other {# Mitglieder}}'
+      nav: Clubs
+      none: 'Noch keine Clubs.'
+      role_host: 'Du bist Gastgeber'
+      role_member: 'Du bist dabei'
+      start: 'Einen Club gründen'
+      title: Clubs
     composer:
       about: Über
     panel:
