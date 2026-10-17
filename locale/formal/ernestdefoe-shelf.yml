@@ -3,11 +3,27 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ernestdefoe-shelf:
+  admin:
+    min_ratings_help: 'Ein Titel mit weniger Bewertungen als dieser in diesem Zeitraum wird nicht in die Liste der am besten bewerteten Titel aufgenommen, sodass die fünf Sterne eines einzelnen Mitglieds nicht ausreichen, um ihn an die Spitze zu bringen. Die Liste wird alle zehn Minuten aktualisiert.'
+    min_ratings_label: 'Bewertungen, die ein Titel benötigt, um in der Liste der bestbewerteten aufgeführt zu werden'
+    permission_moderate: 'Regallisten von allen löschen'
+    permission_use: 'Titel bewerten und in Regal aufnehmen und auflisten'
+  api:
+    empty_entry: 'Gib eine Bewertung ab, vergebe einen Status oder füge es zu deiner Sammlung hinzu.'
+    list_full: 'Eine Liste kann bis zu {count} Titel enthalten.'
+    too_many_lists: 'Du kannst bis zu {count} Listen führen.'
   forum:
     add:
       create: Erstellen
     card:
+      add_to_shelf: 'Ins Regal stellen'
+      average_title: 'Durchschnitt der Mitglieder aus {count, plural, one {einer Bewertung} other {# Bewertungen}}'
+      done_on_listen: 'Angehört {date}'
+      done_on_play: 'Gespielt {date}'
+      done_on_read: 'Gelesen {date}'
+      done_on_watch: 'Angeschaut {date}'
       rate_label: 'Deine Bewertung'
+      ratings: '{count, plural, one {{formatted} Bewertung} other {{formatted} Bewertungen}}'
     kind:
       book: Buch
       book_plural: Bücher
