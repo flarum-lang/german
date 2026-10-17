@@ -7,7 +7,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
-* [`ernestdefoe/club`](https://github.com/ernestdefoe/club) (14 added, 50% complete)
+* [`ernestdefoe/club`](https://github.com/ernestdefoe/club) (34 added, 64% complete)
 * [`ernestdefoe/marquee`](https://github.com/ernestdefoe/marquee) (2 added, 4 changed, 100% complete)
 * [`ernestdefoe/recipes`](https://github.com/ernestdefoe/recipes) (36 added, 100% complete)
 * [`fof/split`](https://github.com/FriendsOfFlarum/split) (4 added, 100% complete)
