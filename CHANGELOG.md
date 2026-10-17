@@ -15,7 +15,7 @@ CHANGELOG
 * [`ernestdefoe/marquee`](https://github.com/ernestdefoe/marquee) (100% complete)
 * [`ernestdefoe/menu-control`](https://github.com/ernestdefoe/menu-control) (100% complete)
 * [`ernestdefoe/recipes`](https://github.com/ernestdefoe/recipes) (100% complete)
-* [`ernestdefoe/shelf`](https://github.com/ernestdefoe/shelf) (38% complete)
+* [`ernestdefoe/shelf`](https://github.com/ernestdefoe/shelf) (51% complete)
 * [`fof/brevo-mail`](https://github.com/FriendsOfFlarum/brevo-mail) (100% complete)
 * [`fof/mailtrap-mail`](https://github.com/FriendsOfFlarum/mailtrap-mail) (100% complete)
 * [`huoxin/filter-rule-manager`](https://github.com/huoxin233/flarum-ext-filter-rule-manager) (12% complete)
