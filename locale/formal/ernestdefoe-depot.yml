@@ -5,9 +5,27 @@
 ernestdefoe-depot:
   admin:
     categories:
+      add: 'Kategorie hinzufügen'
+      color: Farbe
+      delete: Löschen
+      description: Beschreibung
+      edit: Bearbeiten
+      edit_title: '{name} bearbeiten'
+      files: '{count, plural, one {# Datei} other {# Dateien}}'
+      icon: Symbol
+      name: Name
       save: Speichern
+      slug: Adresse
+      title: Kategorien
+    settings:
+      github_token: 'GitHub-Token (optional)'
+      window_1: '1 Stunde'
+      window_168: '7 Tage'
+      window_24: '24 Stunden'
   api:
+    duplicate_version: 'Version {version} ist bereits vorhanden.'
     no_file: 'Datei hinzufügen.'
+    thread_title: '{title}: Support und Kommentare'
   email:
     new_version:
       subject: '{title} {version} wurde veröffentlicht'
