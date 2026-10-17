@@ -12,6 +12,10 @@ fof-split:
   admin:
     permissions:
       split_discussion_label: 'Beiträge von Diskussionen aufteilen'
+  api:
+    errors:
+      end_before_start: 'Die Aufteilung muss an dem Beitrag enden, an dem sie beginnt, oder danach.'
+      first_post: 'Der Eröffnungsbeitrag einer Diskussion kann nicht abgetrennt werden.'
   forum:
     modal:
       new_discussion_label: 'Lege den Titel für die neue Diskussion fest'
