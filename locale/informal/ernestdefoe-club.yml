@@ -19,21 +19,29 @@ ernestdefoe-club:
       edit: Bearbeiten
       leave: Verlassen
       name_label: Name
+      no_picks: 'Noch keine Auswahl. Schau bald wieder vorbei.'
+      no_picks_host: 'Noch keine Auswahl.'
       open_discussion: 'Diskussion öffnen'
       save: Speichern
+    clubs:
+      members: '{count, plural, one {# Mitglied} other {# Mitglieder}}'
     composer:
       about: Über
     panel:
       done_of: '{done} von {count}'
       due: 'bis {date}'
       members: '{count, plural, one {# Mitglied} other {# Mitglieder}}'
+      pick_for: 'Club-Auswahl für {month}'
       your_progress: 'Dein Fortschritt'
     pick:
       add_section: 'Abschnitt hinzufügen'
+      club_label: Club
       default_part: 'Teil {number}'
       default_week: 'Woche {number}'
+      due_label: 'Abschnitt {number} fällig'
       edit_title: 'Zeitplan für {title}'
       month_label: Monat
+      remove_section: 'Abschnitt {number} entfernen'
       schedule_label: Zeitplan
       section_label: 'Abschnitt {number}'
       section_placeholder: 'z. B. Kapitel 1–5'

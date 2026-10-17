@@ -4,18 +4,35 @@
 
 ernestdefoe-recipes:
   forum:
+    based_on: 'Basierend auf einem anderen Rezept'
     card:
+      based_on: 'Basierend auf {title} von {name}'
       fewer: 'Weniger Portionen'
       more: 'Mehr Portionen'
       print: Drucken
       print_label: 'Dieses Rezept drucken'
+      remix: Remix
+      remix_discussion: 'Als eine neue Diskussion'
+      remix_label: 'Kreiere deine eigene Variante dieses Rezepts'
+      remix_reply: 'Als Antwort hier'
       reset: 'Zurück zu ursprünglichen Mengenangaben'
       timer_done: 'Zeit vorbei'
       timer_pause: 'Timer anhalten'
       timer_reset: 'Timer zurücksetzen'
       timer_resume: 'Timer fortsetzen'
       timer_start: 'Timer für {time} starten'
+      variants: Varianten
     cook: Kochzeit
+    directory:
+      all_tags: 'Alle Tags'
+      by: 'von {name}'
+      empty: 'Noch keine Rezepte.'
+      load_more: 'Mehr laden'
+      nav: Rezepte
+      no_results: 'Keine passenden Rezepte.'
+      search_placeholder: 'Rezepte durchsuchen'
+      title: Rezepte
+      variant: Variante
     duration:
       hours: '{count} h'
       minutes: '{count} min'
@@ -44,6 +61,8 @@ ernestdefoe-recipes:
       name: Titel
       name_placeholder: 'Fluffige Pfannkuchen'
       prep: Vorbereitungszeit
+      remix_insert: 'Im Composer öffnen'
+      remix_title: 'Dieses Rezept remixen'
       servings: Portionen
       steps: Schritte
       steps_help: 'Je eine pro Zeile. Gib eine Zeit in eckigen Klammern an, zum Beispiel [25m] oder [1h 30m], und schon wird daraus ein Timer, den du mit einem Klick starten kannst.'

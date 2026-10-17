@@ -4,13 +4,13 @@
 
 ernestdefoe-marquee:
   admin:
-    deepl_help: 'Spieldaten aus der IGDB und die meisten Buchbeschreibungen aus Open Library liegen auf Englisch vor. Mit einem DeepL-Schlüssel übersetzt Marquee Spiel- und Buchbeschreibungen, Genres und Themen einmal pro Titel in die Datensprache und speichert die Übersetzung. <a>Hole dir einen kostenlosen DeepL-API-Schlüssel</a>: Der kostenlose Tarif umfasst 500.000 Zeichen pro Monat – genug für Tausende von Titeln. Der Schlüssel verbleibt auf dem Server.'
+    deepl_help: 'Spielbeschreibungen aus Wikipedia werden in der jeweiligen Datensprache geliefert, sofern ein Eintrag zu dem Spiel vorhanden ist. Die übrigen Spieldaten aus der IGDB und die meisten Buchbeschreibungen aus Open Library liegen auf Englisch vor. Mit einem DeepL-Schlüssel übersetzt Marquee Spiel- und Buchbeschreibungen, Genres und Themen einmal pro Titel in die Datensprache und speichert die Übersetzung. <a>Hole dir einen kostenlosen DeepL-API-Schlüssel</a>: Der kostenlose Tarif umfasst 500.000 Zeichen pro Monat – genug für Tausende von Titeln. Der Schlüssel verbleibt auf dem Server.'
     deepl_label: 'DeepL-API-Schlüssel (optional)'
     igdb_client_id: Client-ID
     igdb_client_secret: 'Client Secret'
     igdb_help: 'Die Spiele stammen von IGDB, das von Twitch betrieben wird. <a>Registriere eine Anwendung in der Twitch-Entwicklerkonsole</a> (Client-Typ „Vertraulich“), erstelle einen Client-Schlüssel und füge beides hier ein. Der Schlüssel verbleibt auf dem Server. IGDB ist für nichtkommerzielle Foren kostenlos; ein kommerzielles Forum benötigt eine Partnerschaft mit IGDB.'
     igdb_label: 'Twitch-Anwendungs-Zugangsdaten für IGDB'
-    language_help: 'Die Sprachen der Film- und Fernsehtitel, Inhaltsangaben und Genres werden als Code wie z. B. „fr“, „de-DE“ oder „pt-BR“ angegeben. Lasse das Feld leer, um die Standardsprache des Forums zu verwenden. Die Spieldaten bei IGDB sind auf Englisch (es gibt lediglich japanische und koreanische Namen) es sei denn, du fügst einen DeepL-Schlüssel hinzu. Albumdaten sind direkt von den Künstlern selbst und Buchtitel, Umschlagbilder und Herausgeber folgen den Informationen von Open Library zur entsprechenden Auflage (Buchbeschreibungen liegen vornehmlich in Englisch vor. Bei bereits verlinkten Titeln wechselt die Sprache bei der nächsten Aktualisierung.'
+    language_help: 'Die Sprachen der Film- und Fernsehtitel, Inhaltsangaben und Genres werden als Code wie z. B. „fr“, „de-DE“ oder „pt-BR“ angegeben. Lasse das Feld leer, um die Standardsprache des Forums zu verwenden. Die Spieldaten der IGDB sind auf Englisch (es gibt lediglich japanische und koreanische Namen), daher stammen die Spielbeschreibungen aus der entsprechenden Sprachversion von Wikipedia, sofern das Spiel dort aufgeführt ist, und der Rest wird übersetzt, wenn du einen DeepL-Schlüssel hinzufügst. Albumdaten sind direkt von den Künstlern selbst und Buchtitel, Umschlagbilder und Herausgeber folgen den Informationen von Open Library zur entsprechenden Auflage (Buchbeschreibungen liegen vornehmlich in Englisch vor. Bei bereits verlinkten Titeln wechselt die Sprache bei der nächsten Aktualisierung.'
     language_label: 'Sprache der Daten'
     language_placeholder: 'Die Forumsprache'
     list_posters_help: 'Ein kleines Poster neben jeder verlinkten Diskussion. Deaktiviere diese Funktion, wenn eine andere Erweiterung, wie beispielsweise „FoF Discussion Thumbnail“, dort bereits Miniaturansichten anzeigt.'
@@ -63,6 +63,7 @@ ernestdefoe-marquee:
       episode_score: TMDB-Folgenwertung
       explicit: Explizit
       fans: '{count} Fans auf Deezer'
+      from_wikipedia: 'Beschreibung von <a>Wikipedia</a> (<license>CC BY-SA</license>)'
       guest_stars: Gastdarsteller
       hours: '{count, plural, one {# Stunde} other {# Stunden}}'
       listen_on: 'Anhören auf {source}'
