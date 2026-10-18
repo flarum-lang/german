@@ -9,7 +9,7 @@ CHANGELOG
 
 * [`ernestdefoe/club`](https://github.com/ernestdefoe/club) (46 added, 73% complete)
 * [`ernestdefoe/marquee`](https://github.com/ernestdefoe/marquee) (2 added, 4 changed, 100% complete)
-* [`ernestdefoe/recipes`](https://github.com/ernestdefoe/recipes) (36 added, 100% complete)
+* [`ernestdefoe/recipes`](https://github.com/ernestdefoe/recipes) (36 added, 61% complete)
 * [`fof/split`](https://github.com/FriendsOfFlarum/split) (4 added, 100% complete)
 
 
