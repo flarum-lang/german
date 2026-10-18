@@ -28,6 +28,7 @@ ernestdefoe-club:
       no_picks: 'Noch keine Auswahl. Schau bald wieder vorbei.'
       no_picks_host: 'Noch keine Auswahl.'
       open_discussion: 'Diskussion öffnen'
+      past: 'Vergangene Auswahl'
       save: Speichern
     clubs:
       members: '{count, plural, one {# Mitglied} other {# Mitglieder}}'
@@ -39,6 +40,9 @@ ernestdefoe-club:
       title: Clubs
     composer:
       about: Über
+    controls:
+      edit_pick: 'Club-Zeitplan bearbeiten'
+      make_pick: 'Als Club-Auswahl hinzufügen'
     panel:
       done_of: '{done} von {count}'
       due: 'bis {date}'
@@ -57,6 +61,7 @@ ernestdefoe-club:
       schedule_label: Zeitplan
       section_label: 'Abschnitt {number}'
       section_placeholder: 'z. B. Kapitel 1–5'
+      title: '{title} als Club-Auswahl hinzufügen'
     section:
       number: 'Abschnitt {number}'
     spoiler:
