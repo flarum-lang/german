@@ -5,6 +5,11 @@ CHANGELOG
 2.0.26 (XXXX-XX-XX)
 -------------------
 
+**Added support for new extensions**:
+
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (59% complete)
+
+
 **Updated translations for extensions**:
 
 * [`ernestdefoe/club`](https://github.com/ernestdefoe/club) (46 added, 73% complete)
