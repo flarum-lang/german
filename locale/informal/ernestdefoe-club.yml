@@ -16,11 +16,13 @@ ernestdefoe-club:
   forum:
     club:
       delete: Löschen
+      description_label: 'Worum es geht (optional)'
       edit: Bearbeiten
       edit_title: 'Club bearbeiten'
       how_to_pick: 'Um einen Titel als Auswahl festzulegen, öffne eine Diskussion zu einem Titel und wähle in den Steuerelementen die Option „Als Club-Auswahl festlegen“.'
       join: 'Club beitreten'
       leave: Verlassen
+      missing: 'Dieser Club existiert nicht oder wurde gelöscht.'
       name_label: Name
       new_title: 'Einen Club gründen'
       no_picks: 'Noch keine Auswahl. Schau bald wieder vorbei.'
