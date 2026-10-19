@@ -13,6 +13,7 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) (100% complete)
+* [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (29% complete)
 * [`ernestdefoe/earshot`](https://github.com/ernestdefoe/earshot) (24% complete)
 * [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (100% complete)
 * [`fof/mason`](https://github.com/FriendsOfFlarum/mason) (65% complete)
@@ -21,13 +22,14 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
-* [`ernestdefoe/club`](https://github.com/ernestdefoe/club) (46 added, 73% complete)
+* [`ernestdefoe/club`](https://github.com/ernestdefoe/club) (48 added, 74% complete)
 * [`ernestdefoe/marquee`](https://github.com/ernestdefoe/marquee) (2 added, 4 changed, 100% complete)
-* [`ernestdefoe/recipes`](https://github.com/ernestdefoe/recipes) (84 added, 86% complete)
-* [`ernestdefoe/wardrobe`](https://github.com/ernestdefoe/wardrobe) (4 added, 87% complete)
-* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (38 added, 6 changed, 91% complete)
+* [`ernestdefoe/recipes`](https://github.com/ernestdefoe/recipes) (110 added, 100% complete)
+* [`ernestdefoe/wardrobe`](https://github.com/ernestdefoe/wardrobe) (8 added, 100% complete)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (72 added, 6 changed, 100% complete)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions) (14 added, 100% complete)
 * [`fof/split`](https://github.com/FriendsOfFlarum/split) (4 added, 100% complete)
+* [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin) (18 added, 87% complete)
 
 
 All changes: [2.0.25...2.0.26](https://github.com/flarum-lang/german/compare/2.0.25...2.0.26).
