@@ -16,7 +16,7 @@ CHANGELOG
 * [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (47% complete)
 * [`ernestdefoe/earshot`](https://github.com/ernestdefoe/earshot) (24% complete)
 * [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (100% complete)
-* [`fof/mason`](https://github.com/FriendsOfFlarum/mason) (65% complete)
+* [`fof/mason`](https://github.com/FriendsOfFlarum/mason) (92% complete)
 * [`ianm/gravatar`](https://github.com/imorland/gravatar) (100% complete)
 
 
@@ -30,7 +30,7 @@ CHANGELOG
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (72 added, 6 changed, 100% complete)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions) (14 added, 100% complete)
 * [`fof/split`](https://github.com/FriendsOfFlarum/split) (4 added, 100% complete)
-* [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin) (20 added, 88% complete)
+* [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin) (40 added, 100% complete)
 
 
 All changes: [2.0.25...2.0.26](https://github.com/flarum-lang/german/compare/2.0.25...2.0.26).
