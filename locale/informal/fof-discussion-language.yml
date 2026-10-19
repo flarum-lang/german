@@ -6,13 +6,19 @@ fof-discussion-language:
   admin:
     permissions:
       allow_change_language_label: 'Sprachbearbeitung erlauben'
+      change_language_label: 'Diskussionssprache ändern'
     settings:
       composer_default_label: 'Aktuelle Sprache im Diskussions-Verfasser vorauswählen'
       config:
+        add_button: 'Sprache hinzufügen'
+        choose_country: 'Wähle ein Land…'
+        choose_language: 'Wähle eine Sprache…'
         country_label: 'Land (für Display-Flagge)'
         language_label: Sprache
+        remove_button: '{language} entfernen'
       errors:
         missing_assets: 'Die von dieser Erweiterung benötigten Assets konnten nicht geladen werden. Versuche, <code>php flarum assets:publish</code> auszuführen und prüfe, ob das Problem damit behoben ist.'
+      languages_heading: Sprachen
       locale_sort_label: 'Erkannte Sprache als Standard-Diskussionsfilter verwenden'
       native_label: 'Sprachnamen in Muttersprache anzeigen'
       show_any_lang_opt_label: 'Zeige die Option an, um ''Beliebige Sprache'' auszuwählen'
@@ -32,6 +38,12 @@ fof-discussion-language:
       change_language_button: 'Sprache einstellen'
     index_language:
       any: 'Beliebige Sprache'
+    language_dropdown:
+      toggle_label: 'Wähle eine Diskussionssprache'
     sub_controls:
       subscription_language_help: 'Wenn du hier eine Sprache auswählst, wirst du nur bei neuen Aktivitäten in dieser Sprache benachrichtigt.'
       subscription_language_label: 'Sprache für Diskussionen'
+  lib:
+    gambits:
+      language:
+        key: sprache

@@ -172,6 +172,12 @@ fof-anti-spam:
       users_marked: 'Benutzer als Spammer markiert'
       view_all: 'Blockierte Registrierungen anzeigen'
       vs_last_week: 'Verglichen mit den vorherigen sieben Tagen'
+    tabs:
+      content_filter: Inhaltsfilter
+      sign_ups: Registrierungen
+      spammer_actions: Spammer-Aktivitäten
+      stopforumspam: StopForumSpam
+    unsaved_changes: 'Auf diesem Tab sind noch nicht gespeicherte Änderungen vorhanden. Möchtest du diesen Tab verlassen, ohne sie zu speichern?'
   forum:
     message:
       profile:

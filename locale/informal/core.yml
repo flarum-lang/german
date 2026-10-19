@@ -628,6 +628,7 @@ core:
       sign_up_text: 'Noch keinen Account? <a>Registrieren</a>'
       submit_button: '=> core.ref.log_in'
       title: '=> core.ref.log_in'
+      too_many_attempts_message: '=> core.ref.too_many_login_attempts_message'
       username_or_email_placeholder: '=> core.ref.username_or_email_placeholder'
     notifications:
       delete_all_confirm: 'Möchtest du wirklich alle Benachrichtigungen löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.'
@@ -985,6 +986,7 @@ core:
     start_a_discussion: 'Diskussion starten'
     title_az: 'Titel (A–Z)'
     title_za: 'Titel (Z–A)'
+    too_many_login_attempts_message: 'Zu viele fehlgeschlagene Anmeldeversuche. Bitte warte einige Minuten und versuche es dann erneut.'
     top: 'Meist diskutiert'
     username: Benutzername
     username_or_email_placeholder: 'Benutzername oder E-Mail'
@@ -1041,6 +1043,7 @@ core:
       remember_me_label: '=> core.ref.remember_me_label'
       submit_button: '=> core.ref.log_in'
       title: '=> core.ref.log_in'
+      too_many_attempts_message: '=> core.ref.too_many_login_attempts_message'
       username_or_email_placeholder: '=> core.ref.username_or_email_placeholder'
     log_out:
       log_out_button: '=> core.ref.log_out'

@@ -2,6 +2,17 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-reactions/de/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      fof-reactions:
+        post_reaction_removed: 'Reaktion {reaction} von {username} vom Beitrag {post} des Nutzers {postuser} in {discussion} entfernt'
+        post_reactions_removed: '{count, plural, one {Eine {reaction} Reaktion} other {# {reaction} Reaktionen}} vom Beitrag {post} von {postuser} in {discussion} entfernt'
+        reaction_created: 'Reaktion {reaction} erstellen'
+        reaction_deleted: 'Reaktion {reaction} gelöscht'
+        reaction_disabled: 'Reaktion {reaction} deaktiviert'
+        reaction_enabled: 'Reaktion {reaction} aktiviert'
+        reaction_updated: '{key} der Reaktion {reaction} von {old_value} zu {new_value} geändert'
 fof-reactions:
   admin:
     page:
