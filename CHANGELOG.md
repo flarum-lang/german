@@ -13,7 +13,8 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) (100% complete)
-* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (84% complete)
+* [`ernestdefoe/earshot`](https://github.com/ernestdefoe/earshot) (24% complete)
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (100% complete)
 * [`fof/mason`](https://github.com/FriendsOfFlarum/mason) (65% complete)
 * [`ianm/gravatar`](https://github.com/imorland/gravatar) (100% complete)
 
@@ -22,8 +23,9 @@ CHANGELOG
 
 * [`ernestdefoe/club`](https://github.com/ernestdefoe/club) (46 added, 73% complete)
 * [`ernestdefoe/marquee`](https://github.com/ernestdefoe/marquee) (2 added, 4 changed, 100% complete)
-* [`ernestdefoe/recipes`](https://github.com/ernestdefoe/recipes) (36 added, 61% complete)
-* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (10 added, 84% complete)
+* [`ernestdefoe/recipes`](https://github.com/ernestdefoe/recipes) (84 added, 86% complete)
+* [`ernestdefoe/wardrobe`](https://github.com/ernestdefoe/wardrobe) (4 added, 87% complete)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (38 added, 6 changed, 91% complete)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions) (14 added, 100% complete)
 * [`fof/split`](https://github.com/FriendsOfFlarum/split) (4 added, 100% complete)
 
