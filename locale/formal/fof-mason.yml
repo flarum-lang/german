@@ -7,6 +7,8 @@ flarum-audit:
     browser:
       mason_field:
         created: 'Benutzerdefiniertes Feld {name} erstellt'
+        deleted: 'Benutzerdefiniertes Feld {name} gelöscht'
+        updated: 'Benutzerdefiniertes Feld {name} aktualisiert ({keys})'
 flarum-gdpr:
   lib:
     data:
