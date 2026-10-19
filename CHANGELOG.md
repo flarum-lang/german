@@ -5,9 +5,14 @@ CHANGELOG
 2.0.26 (XXXX-XX-XX)
 -------------------
 
+**General changes**:
+
+* Updated Flarum core translations (6 added).
+
+
 **Added support for new extensions**:
 
-* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (59% complete)
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (84% complete)
 
 
 **Updated translations for extensions**:
@@ -15,6 +20,8 @@ CHANGELOG
 * [`ernestdefoe/club`](https://github.com/ernestdefoe/club) (46 added, 73% complete)
 * [`ernestdefoe/marquee`](https://github.com/ernestdefoe/marquee) (2 added, 4 changed, 100% complete)
 * [`ernestdefoe/recipes`](https://github.com/ernestdefoe/recipes) (36 added, 61% complete)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (10 added, 84% complete)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions) (14 added, 100% complete)
 * [`fof/split`](https://github.com/FriendsOfFlarum/split) (4 added, 100% complete)
 
 
