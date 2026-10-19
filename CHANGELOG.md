@@ -14,9 +14,9 @@ CHANGELOG
 
 * [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) (100% complete)
 * [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (47% complete)
-* [`ernestdefoe/earshot`](https://github.com/ernestdefoe/earshot) (24% complete)
+* [`ernestdefoe/earshot`](https://github.com/ernestdefoe/earshot) (27% complete)
 * [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (100% complete)
-* [`fof/mason`](https://github.com/FriendsOfFlarum/mason) (94% complete)
+* [`fof/mason`](https://github.com/FriendsOfFlarum/mason) (100% complete)
 * [`ianm/gravatar`](https://github.com/imorland/gravatar) (100% complete)
 
 
