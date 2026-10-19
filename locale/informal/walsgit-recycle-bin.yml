@@ -67,6 +67,7 @@ walsgit-recycle-bin:
       text_end: ' ausgewählte Beiträge?'
       text_start: 'Möchtest du diese wirklich wiederherstellen '
       title: 'Die ausgewählten Beiträge wiederherstellen'
+    no_search_results: 'Für diese Suche wurden keine Ergebnisse gefunden.'
     pagination:
       back_button: 'Zurück zur vorherigen Seite'
       first_page_button: 'Zur Startseite'

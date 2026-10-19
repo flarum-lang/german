@@ -17,6 +17,7 @@ ernestdefoe-club:
   forum:
     club:
       delete: Löschen
+      delete_confirm: 'Den Club {name} löschen? Die Diskussionen bleiben erhalten; die Termine und die Fortschritte aller Mitglieder gehen verloren.'
       description_label: 'Worum es geht (optional)'
       edit: Bearbeiten
       edit_title: 'Club bearbeiten'
@@ -41,29 +42,46 @@ ernestdefoe-club:
       title: Clubs
     composer:
       about: Über
+      general: 'Alles bisher (keine Spoiler)'
     controls:
       edit_pick: 'Club-Zeitplan bearbeiten'
       make_pick: 'Als Club-Auswahl hinzufügen'
     panel:
       done_of: '{done} von {count}'
       due: 'bis {date}'
+      join: 'Tritt {club} bei, um auf dem Laufenden zu bleiben'
+      mark: 'Ich habe {label} abgeschlossen'
+      member_progress: 'Fortschritt von {name}'
       members: '{count, plural, one {# Mitglied} other {# Mitglieder}}'
+      members_only: 'Mitglieder des Clubs verfolgen hier ihren Fortschritt.'
       pick_for: 'Club-Auswahl für {month}'
+      unmark: 'Ich habe {label} doch noch nicht abgeschlossen'
       your_progress: 'Dein Fortschritt'
     pick:
       add_section: 'Abschnitt hinzufügen'
       club_label: Club
+      create: 'Zur Auswahl machen'
       default_part: 'Teil {number}'
       default_week: 'Woche {number}'
       due_label: 'Abschnitt {number} fällig'
       edit_title: 'Zeitplan für {title}'
       month_label: Monat
+      no_clubs: 'Du leitest noch keinen Club. Gründe zunächst einen auf der Seite „Clubs“.'
+      parts_label: 'Anzahl der Abschnitte'
       remove_section: 'Abschnitt {number} entfernen'
+      save: 'Zeitplan speichern'
+      schedule_help: 'Teile es in Abschnitte auf, zum Beispiel Kapitel 1–5 bis zum 10. oder Folgen 1–3 in dieser Woche. In den Antworten ist der jeweilige Abschnitt anzugeben, auf den sie sich beziehen, und sie bleiben für Mitglieder verborgen, die diesen Abschnitt noch nicht abgeschlossen haben.'
       schedule_label: Zeitplan
       section_label: 'Abschnitt {number}'
       section_placeholder: 'z. B. Kapitel 1–5'
+      split_button: 'Abschnitte gleichmäßig über den Monat verteilen'
+      split_into: 'Aufteilen in'
       title: '{title} als Club-Auswahl hinzufügen'
     section:
+      name: '{number}. {label}'
       number: 'Abschnitt {number}'
     spoiler:
+      body: 'Mitglieder, die diesen Abschnitt abgeschlossen haben, können ihn lesen.'
+      body_member: 'Du hast diesen Abschnitt noch nicht als abgeschlossen markiert, daher ist er ausgeblendet, damit dir die Überraschung nicht vorweggenommen wird.'
+      finished: 'Ich habe {section} abgeschlossen'
       title: 'Spoiler für {section}'

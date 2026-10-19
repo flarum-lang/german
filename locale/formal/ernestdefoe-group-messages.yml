@@ -43,6 +43,18 @@ ernestdefoe-group-messages:
       reply_button: Antworten
       replying_to: '{username} antworten'
       unknown: 'Antwort auf eine frühere Nachricht'
+    search:
+      all_label: 'Alle Unterhaltungen durchsuchen'
+      conversations: Unterhaltungen
+      empty: 'Keine passenden Nachrichten gefunden.'
+      empty_all: 'Keine passenden Unterhaltungen oder Nachrichten gefunden.'
+      in: 'In {title}'
+      label: 'Nachrichten durchsuchen'
+      messages: Nachrichten
+      more: 'Mehr laden'
+      placeholder: 'Benutzer und Nachrichten durchsuchen'
+      placeholder_in: '{title} suchen'
+      this_conversation: 'Diese Unterhaltung durchsuchen'
   lib:
     error:
       cannot_manage: 'Du hast keine Berechtigung, diese Gruppe zu verwalten.'

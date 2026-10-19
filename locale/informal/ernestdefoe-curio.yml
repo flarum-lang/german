@@ -11,10 +11,20 @@ ernestdefoe-curio:
       max_upload_help: 'Fotos werden als WebP neu kodiert und in der Größe angepasst, sodass die gespeicherten Dateien deutlich kleiner sind als diese.'
       max_upload_label: 'Maximale Fotogröße (KB)'
       upc_link: 'Schlüssel holen'
+    shape:
+      landscape: Querformat
+      portrait: Hochformat
+      square: Quadratisch
+    source:
+      books: 'Bücher (Open Library)'
+      none: 'Keine (per Barcode oder händisch hinzufügen)'
     types:
       add: 'Typ hinzufügen'
+      add_field: 'Detail hinzufügen'
       color: Farbe
       drag: 'Zum Neuanordnen ziehen'
+      field_choices: Auswahlmöglichkeiten
+      field_kind: Art
       field_label: 'Beschriftung ({language})'
       fields: Details
       heading: 'Typen von Sammlungen'
@@ -22,19 +32,33 @@ ernestdefoe-curio:
       icon: Symbol
       labels_in: 'Beschriftungen in'
       name: Name
+      remove_choice: 'Auswahlmöglichkeit entfernen'
+      remove_field: 'Detail entfernen'
   forum:
     browse:
       title: Sammlungen
+    condition:
+      fair: Ordentlich
+      good: Gut
+      mint: Neuwertig
+      poor: Schlecht
+      sealed: Versiegelt
+      very_good: 'Sehr gut'
+    count:
+      trade: '{count} zum Tausch verfügbar'
     edit:
       create: 'Sammlung erstellen'
       delete: 'Sammlung löschen'
       description: Beschreibung
+      name: Name
       name_placeholder: 'Das Nintendo-Regal'
       save: Speichern
       title_new: 'Neue Sammlung'
+      type: 'Was sammelst du?'
     filter:
       all: Alle
       owned: 'Im Besitz'
+      trade: 'Zum Tausch verfügbar'
       wishlist: 'Wünsche ich mir'
     item:
       cancel: Abbrechen
@@ -47,21 +71,33 @@ ernestdefoe-curio:
       translated_deepl: 'Übersetzt mit DeepL'
       'yes': Ja
     item_edit:
+      acquired: 'Erworben am'
       add: 'Zur Sammlung hinzufügen'
+      add_photos: 'Eigene Fotos hinzufügen'
       barcode_found: 'Barcode {code} erkannt.'
       by_hand: 'Händisch hinzufügen'
       condition: Zustand
+      condition_none: 'Nicht festgelegt'
+      notes: Notizen
+      remove_photo: 'Foto entfernen'
       save: Speichern
+      scan: Scannen
       status: Status
       tab_details: 'Details & Fotos'
       title: Titel
+      title_new: 'Zu {name} hinzufügen'
       year: Jahr
     marquee:
       add: 'Zur Sammlung hinzufügen'
     page:
+      arrange: Anordnen
+      empty: 'Hier ist noch nichts.'
+      filter_label: Anzeigen
       settings: Einstellungen
       since: 'Seit {date}'
+      trade: 'Zum Tausch'
       view_grid: Raster
+      view_label: Darstellung
       view_list: Liste
     profile:
       collections: Sammlungen
@@ -74,6 +110,7 @@ ernestdefoe-curio:
       year: 'Neueste zuerst'
     status:
       owned: 'Im Besitz'
+      trade: 'Zum Tausch verfügbar'
       wishlist: 'Wünsche ich mir'
     table:
       status: Status
