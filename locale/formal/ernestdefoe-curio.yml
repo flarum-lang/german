@@ -10,14 +10,17 @@ ernestdefoe-curio:
       deepl_link: 'Schlüssel holen'
       max_upload_help: 'Fotos werden als WebP neu kodiert und in der Größe angepasst, sodass die gespeicherten Dateien deutlich kleiner sind als diese.'
       max_upload_label: 'Maximale Fotogröße (KB)'
+      upc_link: 'Schlüssel holen'
     types:
       add: 'Typ hinzufügen'
       color: Farbe
       drag: 'Zum Neuanordnen ziehen'
+      field_label: 'Beschriftung ({language})'
       fields: Details
       heading: 'Typen von Sammlungen'
       help: 'Die Mitglieder wählen für jede Sammlung einen Typ aus. Ein Typ legt die Form des Deckblatts, die abgefragten Angaben und die Quelle der Abfragen fest. Ziehe die Elemente, um die Reihenfolge zu ändern.'
       icon: Symbol
+      labels_in: 'Beschriftungen in'
       name: Name
   forum:
     browse:
@@ -37,8 +40,11 @@ ernestdefoe-curio:
       cancel: Abbrechen
       condition: Zustand
       edit: Bearbeiten
+      from_wikidata: 'Beschreibung von Wikidata'
+      from_wikipedia: 'Beschreibung von Wikipedia'
       languages: '{count, plural, one {# Sprache} other {# Sprachen}}'
       'no': Nein
+      translated_deepl: 'Übersetzt mit DeepL'
       'yes': Ja
     item_edit:
       add: 'Zur Sammlung hinzufügen'
