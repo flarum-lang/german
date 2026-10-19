@@ -48,6 +48,7 @@ ernestdefoe-curio:
       sealed: Versiegelt
       very_good: 'Sehr gut'
     count:
+      collections: '{count, plural, one {# Sammlung} other {# Sammlungen}}'
       trade: '{count} zum Tausch verfügbar'
     edit:
       create: 'Sammlung erstellen'
@@ -109,6 +110,8 @@ ernestdefoe-curio:
       nav: Sammlungen
       new: 'Neue Sammlung'
     sort:
+      position: 'Sortierung des Besitzers'
+      recent: 'Kürzlich hinzugefügt'
       title: Titel
       year: 'Neueste zuerst'
     status:

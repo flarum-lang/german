@@ -30,6 +30,13 @@ ernestdefoe-calendar:
     hide_nav_link: 'Link „Kalender“ in der Seitenleiste ausblenden'
     hide_nav_link_help: 'Der Kalender bleibt über das Widget „Bevorstehende Veranstaltungen“ und die URL /calendar erreichbar – praktisch, wenn deine Navigation zu überladen ist.'
     index_widget_count: 'Im Index-Widget anzuzeigende Veranstaltungen'
+    location_apple: 'Link auf Apple Maps'
+    location_google: 'Link auf Google Maps'
+    location_mode: Veranstaltungsort
+    location_mode_help: 'Ein Ort, bei dem es sich um eine Webadresse handelt, wie beispielsweise eine Discord-Einladung oder ein Stream, führt immer direkt dorthin. Alle anderen Angaben verweisen auf die Karte, die du hier auswählst. Ist diese Option deaktiviert, verschwindet das Feld aus dem Veranstaltungsformular und wird überall ausgeblendet, einschließlich des .ics-Feeds; bereits gespeicherte Orte werden wieder angezeigt, wenn du die Option erneut aktivierst.'
+    location_off: 'Aus: Kein Feld für Ort'
+    location_osm: 'Link auf OpenStreetMap'
+    location_text: 'Einfacher Text, kein Kartenlink'
     onthisday_exclude_tags: 'Diskussionen mit diesen Tags niemals in „An diesem Tag“ anzeigen'
     onthisday_exclude_tags_help: 'Nützlich für schreibgeschützte Tags, bei denen Mitglieder nicht auf den Speicher antworten konnten.'
     permission_create: 'Kalendereinträge erstellen'
@@ -105,7 +112,7 @@ ernestdefoe-calendar:
     field_cover: 'Titelbild (optional)'
     field_description: Beschreibung
     field_end: Ende
-    field_location: Ort
+    field_location: 'Ort (optional)'
     field_repeat: Wiederholen
     field_start: Start
     field_timezone: Zeitzone

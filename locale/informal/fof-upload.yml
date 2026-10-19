@@ -162,11 +162,12 @@ fof-upload:
       title: Hochladen
     permissions:
       access_shared_label: 'Zugriff auf freigegebene Dateien in Media Manager'
-      delete_uploads_of_others_label: 'Benutzer-Uploads löschen'
+      delete_own_uploads_label: 'Eigene Uploads löschen'
+      delete_uploads_of_others_label: 'Uploads anderer Benutzer ausblenden und löschen'
       download_label: 'Dateien herunterladen'
       upload_label: 'Dateien hochladen (Basisberechtigung, erforderlich für alle Uploads)'
       upload_mime_label: '{label} hochladen'
-      upload_shared_label: 'Gemeinsame Dateien hochladen'
+      upload_shared_label: 'Gemeinsame Dateien hochladen, ausblenden und löschen'
       view_user_uploads_label: 'Benutzer-Uploads anzeigen'
     shared-uploads:
       description: 'Dateien hochladen, die von allen Benutzern des Forums verwendet werden können.'
