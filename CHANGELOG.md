@@ -16,7 +16,7 @@ CHANGELOG
 * [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (47% complete)
 * [`ernestdefoe/earshot`](https://github.com/ernestdefoe/earshot) (24% complete)
 * [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (100% complete)
-* [`fof/mason`](https://github.com/FriendsOfFlarum/mason) (92% complete)
+* [`fof/mason`](https://github.com/FriendsOfFlarum/mason) (94% complete)
 * [`ianm/gravatar`](https://github.com/imorland/gravatar) (100% complete)
 
 
