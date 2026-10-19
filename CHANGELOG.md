@@ -12,7 +12,10 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) (100% complete)
 * [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (84% complete)
+* [`fof/mason`](https://github.com/FriendsOfFlarum/mason) (65% complete)
+* [`ianm/gravatar`](https://github.com/imorland/gravatar) (100% complete)
 
 
 **Updated translations for extensions**:
