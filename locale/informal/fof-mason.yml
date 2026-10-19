@@ -2,15 +2,39 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-mason/de/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      mason_field:
+        created: 'Benutzerdefiniertes Feld {name} erstellt'
+flarum-gdpr:
+  lib:
+    data:
+      masonanswers:
+        anonymize_description: 'Deine benutzererstellten Antworten bleiben bei deinen Diskussionen.'
+        delete_description: 'Antworten in benutzererstellten Feldern werden aus den von dir gestarteten Diskussionen entfernt, und von deinen eingegebene Antworten, die in keiner anderen Diskussion verwendet werden, werden sie gelöscht.'
+        export_description: 'Die benutzererstellten Feldantworten auf von dir gestarteten Diskussionen.'
 fof-mason:
   admin:
+    answers:
+      help: "Vorgeschlagene Antworten werden in einer Dropdown-Liste in dieser Reihenfolge angezeigt. Wenn eine Antwort bearbeitet wird, ändert sich diese in jeder Diskussion, in der sie verwendet wird.\n"
+      suggest: Vorschlagen
+      unsuggest: 'Vorschlagmodus verlassen'
     buttons:
       add-answer: 'Antwort hinzufügen'
       add-field: 'Feld hinzufügen'
       delete-answer: 'Antwort löschen'
       delete-field: 'Feld löschen'
+      edit-answer: 'Antwort bearbeiten'
+      edit-answer-prompt: 'Ändert die Antwort überall, wo sie verwendet wird'
+      edit-field: Bearbeiten
       new-field: 'Neues Feld'
       save-field: 'Feldänderungen speichern'
+      show-user-answers: '{count, plural, one {# Antwort von Benutzern eingegeben} other {# Antworten von Benutzern eingegeben}}'
+    field-list:
+      dropdown: '{count, plural, =0 {Dropdown, noch keine Antworten} one {Dropdown · # Antwort} other {Dropdown · # Antworten}}'
+      empty: 'Noch keine Felder vorhanden. Füge eines hinzu, um strukturierte Angaben zu neuen Diskussionen zu erfassen.'
+      free-text: Freitext
     fields:
       description: Feldbeschreibung
       description-help: "Eine optionale Beschreibung, um die Verwendung/Notwendigkeit dieses Feldes zu erläutern.\n"
@@ -41,13 +65,17 @@ fof-mason:
       update-own-fields: 'Felder in eigenen Diskussionen aktualisieren'
     settings:
       column-count: 'Anzahl der Spalten bei der Anzeige der Felder'
+      fields-in-hero: 'Felder im Diskussionsbanner anzeigen statt unter dem ersten Beitrag'
       fields-section-title: 'Titel des Abschnitts „Benutzerdefinierte Felder“'
       fields-section-title-help: "Benutzer sehen diesen Text über den benutzerdefinierten Feldern im Editor und in der Diskussion.\n"
       fields-section-title-placeholder: 'Standardmäßig wird kein Titel angezeigt'
       hide-empty-fields-section: 'Titel und Steuerelemente ausblenden, wenn alle Felder leer und ausgeblendet sind'
+      hide-empty-fields-section-help: "Standardmäßig wird der Abschnitt immer angezeigt, wenn der Benutzer Felder bearbeiten kann oder ein Titel festgelegt wurde, selbst wenn alle Felder ausgeblendet sind. Ist diese Option aktiviert, wird der Abschnitt ausgeblendet, und die Schaltfläche „Felder bearbeiten“ ist im Diskussionsmenü nur dann verfügbar, wenn alle Felder leer sind.\n"
       labels-as-placeholders: 'Labels als Platzhalter im Formular anzeigen'
       labels-as-placeholders-help: "Felder benötigen weniger vertikalen Platz und Symbole werden nicht mehr angezeigt. Beachte, dass dies Auswirkungen auf die Benutzerfreundlichkeit haben kann, insbesondere beim Bearbeiten bestehender Felder.\n"
+      n-columns: '{count, plural, one {# Spalte} other {# Spalten}}'
       tags-as-field: 'Themen-Auswahl als Feld anzeigen'
+      tags-as-field-help: "Fügt dem Formular mit den Diskussionsdetails ein Dropdown-Menü für Tags hinzu. Dies funktioniert nur, wenn du maximal ein primäres und ein sekundäres Tag zugelassen hast!\n"
       tags-field-name: 'Bezeichnung des Themen-Feldes'
       tags-field-name-placeholder: '=> fof-mason.forum.tags.tags-label'
     titles:
@@ -56,11 +84,15 @@ fof-mason:
       settings: Einstellungen
   forum:
     answers-modal:
+      compose-title: Diskussionsdetails
       edit-title: 'Felder bearbeiten für {title}'
       save: 'Felder speichern'
     answers:
       choose-option: 'Eine Option auswählen'
       no-option-selected: 'Keine option ausgewählt'
+      required: 'Dieses Feld ist erforderlich.'
+    composer:
+      add-details: 'Details hinzufügen'
     discussion-controls:
       edit-answers: 'Felder bearbeiten'
     post-answers:
