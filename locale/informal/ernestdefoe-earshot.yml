@@ -5,11 +5,13 @@
 ernestdefoe-earshot:
   forum:
     hero:
+      around: 'jeweils ~{time}'
       chapters: Kapitel
       download: Herunterladen
       edit_episode: 'Episode bearbeiten'
       episodes: '{count, plural, one {Eine Episode} other {# Episoden}}'
       episodes_label: Episoden
+      explicit: Explizit
       on_this_episode: 'In dieser Episode'
       play_episode: 'Episode abspielen'
       podcast: Podcast
@@ -17,7 +19,9 @@ ernestdefoe-earshot:
       reply: Antworten
       season: 'Staffel {season}'
     index:
+      empty: 'Noch keine Shows.'
       latest: 'Neueste {date}'
+      new_show: 'Neue Show'
       title: Podcasts
     links:
       apple: 'Apple Podcasts'

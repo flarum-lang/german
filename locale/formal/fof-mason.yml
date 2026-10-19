@@ -5,6 +5,12 @@
 flarum-audit:
   lib:
     browser:
+      discussion:
+        mason_answers_changed: '{keys} in {discussion} von {old_value} zu {new_value} geändert'
+      mason_answer:
+        created: 'Antwort {name} zu benutzerdefiniertem Feld {key} hinzugefügt'
+        deleted: 'Antwort {name} von benutzerdefiniertem Feld {key} gelöscht'
+        updated: 'Antwort aktualisiert von {old_name} zu {new_name} in benutzerdefiniertem Feld {key} ({keys})'
       mason_field:
         created: 'Benutzerdefiniertes Feld {name} erstellt'
         deleted: 'Benutzerdefiniertes Feld {name} gelöscht'
