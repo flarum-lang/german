@@ -85,6 +85,7 @@ ernestdefoe-depot:
       watching: 'Verfolge eine Datei von ihrer Seite und sie wird hier angezeigt.'
     file:
       all_versions: 'Alle Versionen'
+      api: 'API zur Aktualisierungsprüfung'
       api_help: 'Mods und Launcher können die neueste Version abrufen, ohne die Seite zu laden.'
       approve: Genehmigen
       at_a_glance: 'Auf einen Blick'

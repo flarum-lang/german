@@ -3,6 +3,12 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ernestdefoe-earshot:
+  admin:
+    permissions:
+      manage: 'Shows starten und verwalten'
+      view: 'Podcasts anhören'
+    settings:
+      nav: '„Podcasts“ in der Seitenleiste anzeigen'
   forum:
     hero:
       around: 'jeweils ~{time}'
@@ -22,6 +28,7 @@ ernestdefoe-earshot:
       empty: 'Noch keine Shows.'
       latest: 'Neueste {date}'
       new_show: 'Neue Show'
+      subtitle: 'Shows aus dieser Community. Jede Episode erhält eine eigene Diskussion.'
       title: Podcasts
     links:
       apple: 'Apple Podcasts'
@@ -31,11 +38,21 @@ ernestdefoe-earshot:
       spotify: Spotify
       youtube: YouTube
     modal:
+      audio: Audio
+      category: Kategorie
+      category_placeholder: 'z. B. Technologie'
       color: Farbe
       cover: Titelbild
       description: Beschreibung
       edit_episode: 'Episode bearbeiten'
+      edit_show: 'Show bearbeiten'
+      explicit: 'Expliziter Inhalt'
       language: Sprache
+      new_episode: 'Neue Episode von {show}'
+      new_show: 'Neue Show'
+      number: Episodennummer
+      season: Staffel
+      tagline: Untertitel
       title: Titel
     nav:
       link: Podcasts
@@ -49,3 +66,5 @@ ernestdefoe-earshot:
     time:
       hours_minutes: '{hours} Std. {minutes} Min.'
       minutes: '{minutes} Min.'
+    widget:
+      all: 'Alle Podcasts'
