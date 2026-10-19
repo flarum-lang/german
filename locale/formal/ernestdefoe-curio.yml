@@ -17,7 +17,10 @@ ernestdefoe-curio:
       square: Quadratisch
     source:
       books: 'Bücher (Open Library)'
+      movies: 'Filme (mittels Marquee)'
+      music: 'Alben (Deezer, MusicBrainz)'
       none: 'Keine (per Barcode oder händisch hinzufügen)'
+      tv: 'Fernsehserien (mittels Marquee)'
     types:
       add: 'Typ hinzufügen'
       add_field: 'Detail hinzufügen'
