@@ -14,7 +14,7 @@ CHANGELOG
 
 * [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) (100% complete)
 * [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (47% complete)
-* [`ernestdefoe/earshot`](https://github.com/ernestdefoe/earshot) (27% complete)
+* [`ernestdefoe/earshot`](https://github.com/ernestdefoe/earshot) (38% complete)
 * [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (100% complete)
 * [`fof/mason`](https://github.com/FriendsOfFlarum/mason) (100% complete)
 * [`ianm/gravatar`](https://github.com/imorland/gravatar) (100% complete)
@@ -23,6 +23,7 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`ernestdefoe/club`](https://github.com/ernestdefoe/club) (84 added, 100% complete)
+* [`ernestdefoe/depot`](https://github.com/ernestdefoe/depot) (2 added, 84% complete)
 * [`ernestdefoe/group-messages`](https://github.com/ernestdefoe/group-messages) (22 added, 100% complete)
 * [`ernestdefoe/marquee`](https://github.com/ernestdefoe/marquee) (2 added, 4 changed, 100% complete)
 * [`ernestdefoe/recipes`](https://github.com/ernestdefoe/recipes) (110 added, 100% complete)
