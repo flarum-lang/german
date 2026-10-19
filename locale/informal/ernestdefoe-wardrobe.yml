@@ -11,6 +11,7 @@ ernestdefoe-wardrobe:
       default_label: Standarddesign
       flarum_title: 'Flarum (ohne Design)'
       no_themes: "Es sind noch keine Designs installiert und aktiviert. Installiere ein zweites Design, dann wird es hier angezeigt.\n"
+      offer_flarum_help: "Fügt das Standard-Flarum zu den Auswahlmöglichkeiten hinzu, wobei alle Designs ausgeblendet werden, sodass Mitglieder das Forum wieder in seiner ursprünglichen Form nutzen können. Es kann auch als Standard festgelegt werden.\n"
       offer_flarum_label: 'Flarums Standarddesign zur Auswahl anbieten'
       themes_help: "Jede aktivierte Erweiterung, die sich selbst als Design deklariert. Setze ein Häkchen bei den in diesem Forum angebotenen – jede erhält ein eigenes Stylesheet, sodass es nie zu Überschneidungen kommt.\n"
       themes_label: 'Designs, aus denen Mitglieder auswählen können'
@@ -18,6 +19,7 @@ ernestdefoe-wardrobe:
     switcher:
       label: Design
     theme:
+      flarum: 'Flarum (ohne Design)'
       follow_forum: 'Forumdesign verwenden'
       heading: Design
       help: 'Wie das Forum für dich aussieht. Niemand sonst sieht deine Auswahl.'

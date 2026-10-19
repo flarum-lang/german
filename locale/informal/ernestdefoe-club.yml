@@ -10,6 +10,7 @@ ernestdefoe-club:
   api:
     already_a_pick: 'Diese Diskussion ist bereits eine Club-Auswahl.'
     bad_section: 'Der Abschnitt ist nicht Teil dieser Club-Auswahl.'
+    last_host: 'Du bist einziger Gastgeber dieses Clubs. Lösche stattdessen den Club oder wende dich an einen Moderator.'
     not_linked: 'Eine Club-Auswahl muss eine Diskussion mit einem per Marquee verlinkten Titel sein.'
     section_due: 'Das Fälligkeitsdatum muss ein Datum sein.'
     section_label: 'Jeder Abschnitt benötigt einen Namen mit bis zu 100 Zeichen.'

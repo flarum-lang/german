@@ -7,8 +7,10 @@ walsgit-recycle-bin:
     actions: Aktionen
     author: Autor
     bulk_actions: 'Aktionen für ausgewählte Diskussionen: '
+    bulk_delete_all_label: 'Alle Diskussionen löschen'
     bulk_delete_label: 'Ausgewählte Diskussionen löschen'
     bulk_post_actions: 'Aktionen für ausgewählte Beiträge: '
+    bulk_post_delete_all_label: 'Alle Beiträge löschen'
     bulk_post_delete_label: 'Ausgewählte Beiträge löschen'
     bulk_post_restore_label: 'Ausgewählte Beiträge wiederherstellen'
     bulk_restore_label: 'Ausgewählte Diskussionen wiederherstellen'
@@ -18,6 +20,7 @@ walsgit-recycle-bin:
       delete_button: 'Diese Diskussion endgültig löschen'
       success: 'Die Diskussion wurde erfolgreich gelöscht'
       title: 'Endgültig löschen'
+    delete_discussion_tooltip: 'Diskussion #{discussionId} löschen'
     delete_post:
       confirmation: 'Möchtest du diesen Beitrag wirklich <u>endgültig löschen</u> (nicht rückgängig zu machen):'
       delete_button: 'Diesen Beitrag endgültig löschen'
@@ -29,11 +32,15 @@ walsgit-recycle-bin:
     discussion_link_tooltip: 'Diskussion anzeigen'
     discussion_title: Diskussionstitel
     discussions_bin: Diskussions-Papierkorb
+    empty_discussions_list: 'Keine Diskussionen im Papierkorb.'
     empty_list: 'Keine Diskussionen im Papierkorb.'
+    empty_posts_list: 'Keine Beiträge im Papierkorb.'
     grid:
       invalid_column_content: 'Ungültiger Inhalt!'
     hidden_at: 'Verborgen am'
     hidden_discussions: 'Verborgene Diskussionen'
+    mass_delete_all_modal:
+      title: 'Alle ausgeblendeten Diskussionen endgültig löschen'
     mass_delete_modal:
       submit_button: 'Diese Diskussionen endgültig löschen'
       success: 'Die ausgewählten Diskussionen wurden erfolgreich gelöscht'
@@ -47,6 +54,7 @@ walsgit-recycle-bin:
       text_start: 'Möchtest du diese wirklich <u>endgültig löschen</u> '
       title: 'Diese Beiträge endgültig löschen'
     mass_help_text: 'Bitte warte, bis die Seite neu geladen wird, nachdem du die Massenwiederherstellung oder das Massenlöschen bestätigt hast'
+    mass_progress: '{processed} von {total} verarbeitet…'
     mass_restore_modal:
       submit_button: 'Diese Diskussionen wiederherstellen'
       success: 'Die ausgewählten Diskussionen wurden erfolgreich wiederhergestellt'
@@ -76,6 +84,7 @@ walsgit-recycle-bin:
       restore_button: 'Diese Diskussion wiederherstellen'
       success: 'Die Diskussion wurde erfolgreich wiederhergestellt'
       title: 'Diskussion wiederherstellen'
+    restore_discussion_tooltip: 'Diskussion #{discussionId} wiederherstellen'
     restore_post:
       confirmation: 'Möchtest du diesen Beitrag aus der Diskussion wirklich wiederherstellen '
       restore_button: 'Diesen Beitrag wiederherstellen'
@@ -87,6 +96,7 @@ walsgit-recycle-bin:
     search_placeholder: 'Suche nach einer Diskussion'
     search_post_help_text: 'Sucht nach Wörtern in verborgenen Beiträgen'
     search_post_placeholder: 'Suche nach einem Beitrag'
+    select_all: 'Alle Einträge auf dieser Seite auswählen'
     total_hidden_discussions: 'Verborgene Diskussionen insgesamt'
     total_hidden_posts: 'Verborgene Beiträge insgesamt'
     unknown_date: 'Unbekanntes Datum'

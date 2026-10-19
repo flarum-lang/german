@@ -38,7 +38,11 @@ fof-anti-spam:
           blacklisted: 'Auf der schwarzen Liste'
           confidence: Konfidenzschwelle
           deniedAsn: 'Abgelehntes Netzwerk'
+          formToken: 'Manipuliertes oder wiederverwendetes Registrierungsformular'
           frequency: Berichtsschwelle
+          honeypot: 'Hat verborgenes Formularfeld ausgefüllt'
+          noForm: 'Nicht von Registrierungsformular gesendet'
+          tooFast: 'Schneller eingereicht, als es ein Mensch könnte'
           torExit: Tor-Ausgangsknoten
       filters:
         apply: Anwenden
@@ -101,7 +105,13 @@ fof-anti-spam:
         enabled_help: 'Wenn aktiviert, werden Beiträge und Diskussionen neuer Benutzer auf Spam-Indikatoren analysiert.'
         enabled_label: 'Inhaltsfilter aktivieren'
         flag_account_choose_button: Wähle…
+        flag_account_default: 'Standard: erster Administrator'
         flag_account_default_button: 'Standard verwenden'
+        flag_account_help: 'Wird in der Moderationswarteschlange als Urheber der automatischen Spammeldungen angezeigt. Bei Beibehaltung der Standardeinstellung werden diese vom ersten Administrator gesetzt.'
+        flag_account_in_code: 'Wird in „extend.php“ mit „assignFlagsToModerator()“ festgelegt, daher kann es hier nicht geändert werden.'
+        flag_account_label: 'Konto, das Spammeldungen einreicht'
+        flag_account_missing: 'Das ausgewählte Konto existiert nicht mehr, daher reicht der erste Administrator Spammeldungen ein, bis du ein anderes auswählst.'
+        flag_account_modal_title: 'Wähle das Konto, das Spammeldungen einreicht'
         flag_threshold_help: 'Inhalte mit einer Spam-Bewertung, die diesem Wert entspricht oder darüber liegt, werden zur Moderation markiert (erfordert die Erweiterung „flarum/flags“).'
         flag_threshold_label: 'Meldungs-Schwellwert (0-100)'
         heading: Inhaltsfilter
@@ -144,6 +154,7 @@ fof-anti-spam:
         registration_throttle_label: 'Sekunden zwischen Registrierungen von einer Adresse'
         throttle_heading: Ratenbegrenzung
       stopforumspam:
+        also_block_heading: 'Auch blockieren'
         api_key_instructions_text: '<register>Registriere dich auf StopForumSpam</register>. Danach musst du deinen <key>API-Schlüssel anfordern</key>.'
         api_key_label: API-Schlüssel
         api_key_text: 'Du hast die Möglichkeit, Spammer an StopForumSpam zu melden, um die allgemeine Forengemeinschaft spamfrei zu halten.'
@@ -151,6 +162,7 @@ fof-anti-spam:
         block_tor_exit_nodes_label: 'Tor-Ausgangsknoten blockieren'
         blocked_asns_help: 'Eine pro Zeile oder durch Kommas getrennt. Registrierungen aus diesen Netzwerken werden grundsätzlich abgelehnt, unabhängig davon, ob die Adresse aufgeführt ist oder nicht. StopForumSpam gibt bei jeder Abfrage die Netzwerknummer zurück, und fast niemand besucht ein Forum über einen Hosting-Anbieter. Akzeptiert 31272 oder AS31272. Lasse das Feld leer, um das Netzwerk zu erfassen, ohne Maßnahmen zu ergreifen.'
         blocked_asns_label: 'Gesperrte Netzwerknummern (ASNs)'
+        checks_heading: 'Was geprüft wird'
         confidence_help: 'Der Konfidenzwert ist ein recht guter Indikator dafür, dass das untersuchte Feld zu unerwünschten Aktivitäten führen würde. Lege den Konfidenz-Schwellwert als Prozentwert fest. Wenn das Feld gleich oder über diesem Wert liegt, wird die Registrierung blockiert, unabhängig vom „Frequenz“-Test weiter oben.'
         confidence_label: Konfidenz
         email_hash_help: 'Es wird ein MD5-Hash der E-Mail-Adresse weiter gegeben, wenn du nicht die E-Mail-Adresse weitergeben möchtest. Diese Methode umgeht alle Tests auf Blockierlisten, Normalisierung und Verschleierungsprüfungen.'
@@ -172,8 +184,10 @@ fof-anti-spam:
         registration_throttle_label: 'Sekunden zwischen Registrierungen von derselben Adresse'
         report_blocked_registrations_help: 'Wenn die eigenen Daten von StopForumSpam eine Registrierung blockieren, wird der Versuch gemeldet, damit die Aktivität des Spammers bestätigt werden kann. Blockierungen durch Tor oder ein gesperrtes Netzwerk werden niemals gemeldet, da es sich dabei um die Richtlinien dieses Forums handelt und nicht um Beweise. Erfordert einen StopForumSpam-API-Schlüssel (siehe oben).'
         report_blocked_registrations_label: 'Blockierte Registrierungen melden'
+        reporting_heading: 'Meldung erstatten'
         sfs_lookup_help: 'Wenn diese Option aktiviert ist, überprüfen wir die StopForumSpam-Datenbank, wenn sich ein neuer Benutzer in deinem Forum registriert. Wenn der Benutzer gefunden wird (Benutzername, IP-Adresse, E-Mail) und dieser Punkt aktiviert sowie die Vertrauensstufe die von dir festgelegte Stufe erreicht, wird er daran gehindert, seine Registrierung abzuschließen.'
         sfs_lookup_label: 'Registrierungen überprüfen'
+        thresholds_heading: 'Wann blockiert wird'
         username_label: Benutzernamen-Spam-Prüfung
     statistics:
       awaiting_review: 'Markiert zur Überprüfung ausstehend'
@@ -195,12 +209,17 @@ fof-anti-spam:
     unsaved_changes: 'Auf diesem Tab sind noch nicht gespeicherte Änderungen vorhanden. Möchtest du diesen Tab verlassen, ohne sie zu speichern?'
   forum:
     message:
+      honeypot:
+        refused: 'Deine Registrierung konnte nicht abgeschlossen werden.'
+        reload: 'Beim Anmeldeformular ist ein Fehler aufgetreten. Bitte lade die Seite neu und versuche es erneut.'
       profile:
         blocked: 'Das sieht nach Spam aus, daher wurde es nicht gespeichert. Bitte entferne alle Links und Kontaktdaten und versuche es erneut.'
       stopforumspam:
         blocked: 'Details deiner Registrierung wurden ein einer Datenbank zur Spamvermeidung gefunden, daher haben wir deine Registrierung abgelehnt.'
     post:
       flagged_as_spam_text: 'Automatische Spam-Erkennung – Bewertung {score}'
+    sign_up:
+      trap_label: 'Dieses Feld leer lassen'
     spammer_modal:
       hard_delete_discussions_help: 'Dadurch werden alle von diesem Benutzer gestarteten Diskussionen dauerhaft gelöscht. Wenn diese Option deaktiviert ist, werden Diskussionen stattdessen nur verborgen.'
       hard_delete_discussions_label: 'Diskussionen löschen'

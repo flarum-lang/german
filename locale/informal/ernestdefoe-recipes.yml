@@ -6,21 +6,34 @@ ernestdefoe-recipes:
   admin:
     fields:
       add: 'Feld hinzufügen'
+      drag: 'Zum Neuanordnen ziehen'
+      duplicate: 'Ein anderes Feld verwendet bereits diesen Schlüssel.'
       empty: 'Noch keine Felder.'
+      help: 'Zusätzliche Angaben, die deine Community zu jedem Rezept erfasst, wie beispielsweise Kalorien, Eiweiß oder Phe. Die Autoren tragen diese Angaben in das Rezeptformular ein, und die Leser sehen sie auf der Karte. Ein Wert pro Portion bleibt unverändert, wenn ein Leser die Anzahl der Portionen ändert; der Wert für das gesamte Rezept passt sich entsprechend an. Zum Neuanordnen ziehen.'
       key: Schlüssel
+      key_help: 'Der Schlüssel jedes Feldes wird im Rezepttext im Format „Schlüssel: Wert“ angegeben: Kleinbuchstaben, Zahlen und Bindestriche, beginnend mit einem Buchstaben.'
+      key_invalid: 'Ein Schlüssel beginnt mit einem Buchstaben und besteht ausschließlich aus Kleinbuchstaben, Ziffern und Bindestrichen.'
+      key_required: 'Diesem Feld einen Schlüssel zuweisen.'
       label: Beschriftung
-      label_placeholder: Protein
+      label_placeholder: Eiweiß
+      max: 'Ein Forum kann bis zu 20 Felder haben.'
       remove: 'Dieses Feld entfernen'
+      reserved: 'Dieser Schlüssel wird bereits von jedem Rezept verwendet.'
       schema: Suchmaschinen
-      schema_none: 'Nur Karte'
+      schema_none: 'Nur auf der Karte'
       schema_options:
         calories: Kalorien
+        carbohydrate: Kohlenhydrate
+        cholesterol: Cholesterin
         fat: Fett
         fiber: Ballaststoffe
-        protein: Protein
+        protein: Eiweiß
         saturatedFat: 'Gesättigte Fettsäuren'
         sodium: Natrium
         sugar: Zucker
+        transFat: Transfette
+        unsaturatedFat: 'Ungesättigte Fettsäuren'
+      scope: 'Wert ist'
       scope_recipe: 'Gesamtes Rezept'
       scope_serving: 'Pro Portion'
       title: Rezeptfelder
