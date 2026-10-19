@@ -9,7 +9,9 @@ ernestdefoe-wardrobe:
       allow_user_choice_label: 'Die Mitglieder sollen ihr Design selbst wählen können'
       default_help: 'Was Gäste sehen und was Mitglieder sehen, bis sie sich selbst entscheiden.'
       default_label: Standarddesign
+      flarum_title: 'Flarum (ohne Design)'
       no_themes: "Es sind noch keine Designs installiert und aktiviert. Installiere ein zweites Design, dann wird es hier angezeigt.\n"
+      offer_flarum_label: 'Flarums Standarddesign zur Auswahl anbieten'
       themes_help: "Jede aktivierte Erweiterung, die sich selbst als Design deklariert. Setze ein Häkchen bei den in diesem Forum angebotenen – jede erhält ein eigenes Stylesheet, sodass es nie zu Überschneidungen kommt.\n"
       themes_label: 'Designs, aus denen Mitglieder auswählen können'
   forum:

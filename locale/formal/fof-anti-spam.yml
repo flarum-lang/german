@@ -56,7 +56,7 @@ fof-anti-spam:
         hint: 'Filter:'
         no-matches: 'Es wurden keine blockierten Registrierungen gefunden, die dieser Suche entsprechen.'
         placeholder: 'Suche, oder filtere mit key:value'
-      help: "Diese Seite listet alle Registrierungen auf, die vom StopForumSpam-Dienst blockiert wurden. Du kannst die Details jeder Registrierung anschauen und, falls gewünscht, den Eintrag aus der Datenbank löschen.\n"
+      help: "Diese Seite listet alle Registrierungen auf, die vom StopForumSpam-Dienst oder dem Registrierungs-Honeypot blockiert wurden. Du kannst die Details jeder Registrierung anschauen und, falls gewünscht, den Eintrag aus der Datenbank löschen.\n"
       ip: IP-Adresse
       login-provider: Anmeldeanbieter
       login-provider-data: 'Daten des Loginanbieters'
@@ -100,6 +100,8 @@ fof-anti-spam:
         detectors_heading: Detektionsmethoden
         enabled_help: 'Wenn aktiviert, werden Beiträge und Diskussionen neuer Benutzer auf Spam-Indikatoren analysiert.'
         enabled_label: 'Inhaltsfilter aktivieren'
+        flag_account_choose_button: Wähle…
+        flag_account_default_button: 'Standard verwenden'
         flag_threshold_help: 'Inhalte mit einer Spam-Bewertung, die diesem Wert entspricht oder darüber liegt, werden zur Moderation markiert (erfordert die Erweiterung „flarum/flags“).'
         flag_threshold_label: 'Meldungs-Schwellwert (0-100)'
         heading: Inhaltsfilter
@@ -128,6 +130,19 @@ fof-anti-spam:
         introduction: 'Wenn ein Benutzer als Spammer markiert wird, können Moderatoren aus verschiedenen Aktionen auswählen, wie sie mit dem jeweiligen Anwendungsfall umgehen möchten. Mit diesen Einstellungen kannst du die Aktionen, die du normalerweise durchführst, vorab festlegen, um den Prozess zu beschleunigen, aber auch Variationen nach Bedarf zulassen.'
         move_discussions_to_tags_help: 'Dadurch werden alle Diskussionen, die von diesem Benutzer begonnen wurden, in die von dir angegebenen Tags verschoben. Lösche die Tag-Auswahl, um Diskussionen in ihren ursprünglichen Tags zu belassen. Hat keinen Effekt, wenn die Option „Diskussionen löschen“ aktiviert ist.'
         move_discussions_to_tags_label: 'Diskussionen in Tags verschieben'
+      sign_ups:
+        heading: Registrierungschecks
+        honeypot_heading: Honeypot
+        honeypot_help: 'Fügt dem Anmeldeformular ein Feld hinzu, das für Nutzer unsichtbar ist, und lehnt Anmeldungen ab, bei denen dieses Feld ausgefüllt wird oder die schneller erfolgen, als es ein Mensch könnte. Das System erkennt Bots, die StopForumSpam noch nicht kennt, sendet keine Daten an externe Server und verlangt von echten Nutzern keinerlei Eingaben.'
+        honeypot_label: 'Bots, die Formularfelder ausfüllen, abfangen'
+        honeypot_min_seconds_help: 'Gerechnet ab dem Zeitpunkt, zu dem die Seite ausgeliefert wurde. Eine Person, die das Formular liest, benötigt dafür länger; ein Skript hingegen nicht.'
+        honeypot_min_seconds_label: 'Mindestanzahl an Sekunden vor der Registrierung'
+        honeypot_strict_help: 'Lehnt außerdem Gastanregistrierungen ab, die ohne das Formular gesendet werden, wie dies bei Skripten der Fall ist, die Daten direkt an die API übermitteln. Lasse diese Option deaktiviert, wenn eine App, eine SSO-Brücke oder ein anderes Tool Konten über die API erstellt.'
+        honeypot_strict_label: 'Registrierungen ablehnen, die das Formular überspringen'
+        introduction: 'Diese Überprüfungen führt das Forum bei jeder Registrierung selbst durch, ohne dass Daten an einen externen Dienst übermittelt werden. Abfragen bei StopForumSpam haben einen eigenen Reiter.'
+        registration_throttle_help: 'Flarum schränkt ein, wie oft jemand Beiträge verfassen darf, nicht jedoch, wie oft er Konten erstellen darf. Mit dem Wert 0 wird diese Einschränkung deaktiviert. Beachte, dass in Büros, Schulen und Mobilfunknetzen oft viele Personen dieselbe IP-Adresse gemeinsam nutzen.'
+        registration_throttle_label: 'Sekunden zwischen Registrierungen von einer Adresse'
+        throttle_heading: Ratenbegrenzung
       stopforumspam:
         api_key_instructions_text: '<register>Registriere dich auf StopForumSpam</register>. Danach musst du deinen <key>API-Schlüssel anfordern</key>.'
         api_key_label: API-Schlüssel
@@ -145,7 +160,7 @@ fof-anti-spam:
         frequency_label: Schwellenwert
         introduction: "Prüft neue Benutzerregistrierungen anhand der <a>StopForumSpam</a>-Datenbank. Wenn entweder der Schwellenwert für die <code>Zuverlässigkeit</code> oder der Schwellenwert für die <code>Häufigkeit</code> erreicht ist, wird der Benutzer daran gehindert, seine Registrierung in Ihrem Forum abzuschließen.\n\nSSO-Registrierung über <code>fof/oauth</code> und <code>fof/passport</code> wird ebenfalls unterstützt. Andere SSO-Anbieter sollten funktionieren, wurden jedoch nicht getestet.\n"
         ip_label: IP-Adressen-Spam-Prüfung
-        lookup_failed: 'StopForumSpam konnte nicht erreicht werden (letzter Fehler {when}). Registrierungen werden bis zur Wiederherstellung ungeprüft zugelassen.'
+        lookup_failed: 'StopForumSpam konnte nicht erreicht werden (erster Fehler {when}). Registrierungen werden bis zur Wiederherstellung ungeprüft zugelassen.'
         max_listing_age_help: 'Eine Sichtung von vor Jahren sagt wenig darüber aus, wer heute eine Registrierung vornimmt. 0 behält jeden Eintrag bei, egal wie alt er ist. Auf der schwarzen Liste stehende Domains und Netzwerke werden davon unberührt stets berücksichtigt.'
         max_listing_age_label: 'Einträge ignorieren, die älter sind (in Tagen)'
         region_closest_label: 'Am nächsten'
@@ -155,7 +170,7 @@ fof-anti-spam:
         regional_endpoint_label: 'Geografischer Zugang'
         registration_throttle_help: 'Flarum begrenzt, wie oft jemand Beiträge verfassen kann, nicht jedoch, wie oft er Konten erstellen kann. Mit dem Wert 0 wird diese Funktion deaktiviert. Beachte, dass in Büros, Schulen und Mobilfunknetzen oft viele Personen dieselbe IP-Adresse nutzen.'
         registration_throttle_label: 'Sekunden zwischen Registrierungen von derselben Adresse'
-        report_blocked_registrations_help: 'Wenn eine Registrierung durch die Spam-Prüfung blockiert wird, melden wir den Versuch an StopForumSpam zurück, damit die Aktivität des Spammers besser bestätigt werden kann. Dazu muss ein StopForumSpam-API-Schlüssel festgelegt werden (siehe unten).'
+        report_blocked_registrations_help: 'Wenn die eigenen Daten von StopForumSpam eine Registrierung blockieren, wird der Versuch gemeldet, damit die Aktivität des Spammers bestätigt werden kann. Blockierungen durch Tor oder ein gesperrtes Netzwerk werden niemals gemeldet, da es sich dabei um die Richtlinien dieses Forums handelt und nicht um Beweise. Erfordert einen StopForumSpam-API-Schlüssel (siehe oben).'
         report_blocked_registrations_label: 'Blockierte Registrierungen melden'
         sfs_lookup_help: 'Wenn diese Option aktiviert ist, überprüfen wir die StopForumSpam-Datenbank, wenn sich ein neuer Benutzer in deinem Forum registriert. Wenn der Benutzer gefunden wird (Benutzername, IP-Adresse, E-Mail) und dieser Punkt aktiviert sowie die Vertrauensstufe die von dir festgelegte Stufe erreicht, wird er daran gehindert, seine Registrierung abzuschließen.'
         sfs_lookup_label: 'Registrierungen überprüfen'

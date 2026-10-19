@@ -2,12 +2,19 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-discussion-language/de/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-gdpr:
+  lib:
+    data:
+      subscriptionlanguages:
+        anonymize_description: 'Entfernt die Diskussionssprache, die der Nutzer für jedes Tag ausgewählt hat, dem er folgt.'
+        export_description: 'Wird mit jedem Tag-Abonnement exportiert, so wie fof/follow-tags sie exportiert.'
 fof-discussion-language:
   admin:
     permissions:
       allow_change_language_label: 'Sprachbearbeitung erlauben'
       change_language_label: 'Diskussionssprache ändern'
     settings:
+      attribution: 'Diese Erweiterung verwendet Inhalte aus dem Wikipedia-Artikel <article>Liste der ISO-639-2-Codes</article>, der unter der <license>Creative Commons Namensnennung – Weitergabe unter gleichen Bedingungen 3.0</license> veröffentlicht wurde.'
       composer_default_label: 'Aktuelle Sprache im Diskussions-Verfasser vorauswählen'
       config:
         add_button: 'Sprache hinzufügen'
@@ -19,6 +26,7 @@ fof-discussion-language:
       errors:
         missing_assets: 'Die von dieser Erweiterung benötigten Assets konnten nicht geladen werden. Versuche, <code>php flarum assets:publish</code> auszuführen und prüfe, ob das Problem damit behoben ist.'
       languages_heading: Sprachen
+      languages_help: 'Die Sprachen, in denen eine Diskussion geführt werden kann. Das jeweilige Land bestimmt, welche Flagge dabei angezeigt wird.'
       locale_sort_label: 'Erkannte Sprache als Standard-Diskussionsfilter verwenden'
       native_label: 'Sprachnamen in Muttersprache anzeigen'
       show_any_lang_opt_label: 'Zeige die Option an, um ''Beliebige Sprache'' auszuwählen'
@@ -46,4 +54,5 @@ fof-discussion-language:
   lib:
     gambits:
       language:
+        hint: 'Sprachcode oder durch Kommas getrennte Liste von Sprachcodes'
         key: sprache
