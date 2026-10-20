@@ -2,6 +2,20 @@ CHANGELOG
 =========
 
 
+2.0.27 (XXXX-XX-XX)
+-------------------
+
+**Updated translations for extensions**:
+
+* [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (42 added, 43% complete)
+* [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget) (6 added, 100% complete)
+* [`linkrobins/markdown-widget`](https://github.com/linkrobins/markdown-widget) (6 added, 100% complete)
+* [`tryhackx/flarum-cover-studio`](https://github.com/TryHackX/flarum-cover-studio) (2 added, 100% complete)
+
+
+All changes: [2.0.26...2.0.27](https://github.com/flarum-lang/german/compare/2.0.26...2.0.27).
+
+
 2.0.26 (2026-10-20)
 -------------------
 
