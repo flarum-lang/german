@@ -2,6 +2,43 @@ CHANGELOG
 =========
 
 
+2.0.26 (2026-10-20)
+-------------------
+
+**General changes**:
+
+* Updated Flarum core translations (6 added).
+
+
+**Added support for new extensions**:
+
+* [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) (100% complete)
+* [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (36% complete)
+* [`ernestdefoe/earshot`](https://github.com/ernestdefoe/earshot) (38% complete)
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (100% complete)
+* [`fof/mason`](https://github.com/FriendsOfFlarum/mason) (100% complete)
+* [`ianm/gravatar`](https://github.com/imorland/gravatar) (100% complete)
+
+
+**Updated translations for extensions**:
+
+* [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) (14 added, 2 changed, 100% complete)
+* [`ernestdefoe/club`](https://github.com/ernestdefoe/club) (84 added, 100% complete)
+* [`ernestdefoe/depot`](https://github.com/ernestdefoe/depot) (2 added, 84% complete)
+* [`ernestdefoe/group-messages`](https://github.com/ernestdefoe/group-messages) (22 added, 100% complete)
+* [`ernestdefoe/marquee`](https://github.com/ernestdefoe/marquee) (2 added, 4 changed, 100% complete)
+* [`ernestdefoe/recipes`](https://github.com/ernestdefoe/recipes) (110 added, 100% complete)
+* [`ernestdefoe/wardrobe`](https://github.com/ernestdefoe/wardrobe) (8 added, 100% complete)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (72 added, 6 changed, 100% complete)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions) (14 added, 100% complete)
+* [`fof/split`](https://github.com/FriendsOfFlarum/split) (4 added, 100% complete)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload) (2 added, 4 changed, 100% complete)
+* [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin) (40 added, 100% complete)
+
+
+All changes: [2.0.25...2.0.26](https://github.com/flarum-lang/german/compare/2.0.25...2.0.26).
+
+
 2.0.25 (2026-10-17)
 -------------------
 
