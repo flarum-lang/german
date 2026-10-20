@@ -5,9 +5,15 @@
 ernestdefoe-curio:
   admin:
     kind:
+      bool: 'Ja / Nein'
+      date: Datum
       number: Zahl
       select: Auswahl
       text: Text
+    permissions:
+      create: 'Sammlungen erstellen, Artikel und Fotos hinzufügen'
+      moderate: 'Sammlungen von jedem entfernen und hervorheben'
+      view: 'Sammlungen anzeigen'
     settings:
       deepl_help: 'Wenn es in einer Sprache keine Beschreibung auf Wikipedia gibt, übersetzt DeepL die englische Version. Kostenlose Schlüssel enden auf „:fx“.'
       deepl_label: 'DeepL-Schlüssel (optional)'
@@ -28,6 +34,7 @@ ernestdefoe-curio:
       shortcut_menu: 'Nur Benutzermenü'
       shortcut_none: 'Nirgends (Profil → Sammlungen funktioniert weiterhin)'
       shortcut_sidebar: 'Nur Seitenleiste'
+      upc_help: 'Barcodes für Spiele, Filme und andere Produkte werden in der UPCitemdb nachgeschlagen, die täglich 100 Abfragen ohne Schlüssel zulässt. Jeder vom Forum identifizierte Barcode wird gespeichert, sodass die meisten Foren nie mehr benötigen. Mit einem kostenpflichtigen Schlüssel lässt sich das Limit erhöhen.'
       upc_label: 'UPCitemdb-Schlüssel (optional)'
       upc_link: 'Schlüssel holen'
       widget_help: 'Standardmäßig deaktiviert. Wenn aktiviert, kann das Widget mit „FoF Forum Widgets“ oder „Bespoke“ platziert werden (es erscheint zunächst in der rechten Spalte von FoF; Du kannst es im Layout-Editor von FoF verschieben oder entfernen).'
@@ -39,7 +46,7 @@ ernestdefoe-curio:
       square: Quadratisch
     source:
       books: 'Bücher (Open Library)'
-      games: 'Spiele (IGDB oder via Marquee)'
+      games: 'Spiele (IGDB oder mittels Marquee)'
       movies: 'Filme (mittels Marquee)'
       music: 'Alben (Deezer, MusicBrainz)'
       none: 'Keine (per Barcode oder händisch hinzufügen)'
@@ -85,6 +92,21 @@ ernestdefoe-curio:
       shape: 'Form des Deckblatts'
       source: Nachschlagewerke
       translation_note: 'Titel und Beschreibungen aus den Nachschlagewerken werden automatisch in jeder installierten Sprache angezeigt (Wikidata und Wikipedia). Nur die Bezeichnungen, die du hier eingibst, müssen übersetzt werden.'
+  api:
+    collection_full: 'Eine Sammlung darf bis zu {count} Artikel beinhalten.'
+    too_many_collections: 'Du kannst bis zu {count} Sammlungen haben.'
+    too_many_photos: 'Ein Artikel kann bis zu {count} Fotos haben.'
+    type_disabled: 'Dieser Sammlungstyp ist ausgeschaltet.'
+    type_in_use: 'Dieser Typ hat Sammlungen und kann daher nicht gelöscht werden.'
+  email:
+    match:
+      body: 'Hallo {recipient_display_name}, {owner} hat gerade {title} zum Tausch angeboten. Es ist auf deiner Wunschliste.'
+      link: 'Angebot ansehen'
+      subject: '{title} wird zum Tausch angeboten'
+    new_items:
+      body: 'Hallo {recipient_display_name}, {owner} hat neue Artikel zu {name} hinzugefügt, einer Sammlung, der du folgst.'
+      link: 'Sammlung ansehen'
+      subject: 'Neu in {name}'
   forum:
     browse:
       add: 'Artikel hinzufügen'
