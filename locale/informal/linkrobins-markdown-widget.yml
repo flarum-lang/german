@@ -9,6 +9,9 @@ linkrobins-markdown-widget:
       background_label: Hintergrundfarbe
       body_help: 'Standard-Markdown (GitHub-Variante). Überschriften, Listen, Links, Code und Tabellen werden unterstützt. Inline-HTML ist zulässig, wird jedoch bereinigt – Skript-Tags, Ereignisbehandler und andere unsichere Markups werden vor der Anzeige entfernt.'
       body_label: Markdown-Body
+      description_help: 'Optional. Kleiner Text unter dem Titel, z. B. als kurzer Untertitel oder zur Ergänzung weiterer Details.'
+      description_label: Beschreibung
+      description_placeholder: 'Bitte lies dies, bevor du etwas postest'
       icon_help: 'Die FontAwesome-Klasse, die neben dem Titel angezeigt wird (z. B. fas fa-bullhorn). Für kein Symbol bitte leer lassen.'
       icon_label: Symbolklasse
       title_help: 'Optional. Wird oberhalb des Texts angezeigt. Für keine Kopfzeile leer lassen.'

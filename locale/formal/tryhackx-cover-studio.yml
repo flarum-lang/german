@@ -65,6 +65,7 @@ tryhackx-cover-studio:
     no_file: 'Es wurde kein Bild hochgeladen.'
     no_original: 'Das ursprüngliche Avatar-Bild ist nicht verfügbar – lade bitte zuerst einen neuen Avatar hoch.'
     original_unreadable: 'Das Originalbild konnte nicht gelesen werden. Lade stattdessen einen neuen Avatar hoch.'
+    too_many_changes: 'Du wechselst deinen Avatar zu schnell. Bitte warte eine Minute und versuche es dann erneut.'
     too_many_uploads: 'Du lädst die Daten zu schnell hoch. Bitte warte eine Minute und versuche es dann erneut.'
     unknown_default_kind: 'Unbekannter Standardbildtyp.'
     unsupported_type: 'Dieser Dateityp wird nicht unterstützt. Zulässige Formate: JPEG, PNG, WebP, GIF.'

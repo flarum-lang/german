@@ -11,6 +11,9 @@ linkrobins-html-widget:
       background_label: Hintergrundfarbe
       body_help: 'Roh-HTML, das vor der Anzeige bereinigt wird – Skript-Tags, Attribute für Ereignisbehandler und „javascript:“-URLs werden entfernt. iFrames werden ebenfalls entfernt, es sei denn, du gibst unten den entsprechenden Host als Ausnahme an.'
       body_label: HTML-Body
+      description_help: 'Optional. Kleiner Text unter dem Titel, z. B. als kurzer Untertitel oder zur Ergänzung weiterer Details.'
+      description_label: Beschreibung
+      description_placeholder: 'Bitte lies dies, bevor du etwas postest'
       icon_help: 'Die FontAwesome-Klasse, die neben dem Titel angezeigt wird (z. B. fas fa-bullhorn). Für kein Symbol bitte leer lassen.'
       icon_label: Symbolklasse
       title_help: 'Optional. Wird oberhalb des Texts angezeigt. Für keine Kopfzeile leer lassen.'

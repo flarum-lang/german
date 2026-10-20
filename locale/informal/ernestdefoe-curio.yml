@@ -64,6 +64,29 @@ ernestdefoe-curio:
       owned: 'Im Besitz'
       trade: 'Zum Tausch verfügbar'
       wishlist: 'Wünsche ich mir'
+    genre:
+      adventure: Adventure
+      arcade: Arcade
+      card_board_game: 'Karten- & Brettspiel'
+      hack_and_slash_beat_em_up: 'Hack and slash / Beat ''em up'
+      indie: Indie
+      moba: MOBA
+      music: Musik
+      pinball: Pinball
+      platform: Plattformer
+      puzzle: Puzzle
+      quiz_trivia: 'Quiz / Trivia'
+      racing: Rennspiel
+      real_time_strategy_rts: Echtzeit-Strategie
+      role_playing_rpg: 'Rollenspiel (RPG)'
+      simulator: Simulation
+      sport: Sport
+      strategy: Strategie
+      tactical: Taktik
+      turn_based_strategy_tbs: 'Rundenbasierte Strategie'
+      visual_novel: 'Visual novel'
+    hero:
+      members: '{count, plural, one {# Mitglied hat es} other {# Mitglieder haben es}}'
     item:
       cancel: Abbrechen
       condition: Zustand
