@@ -31,3 +31,24 @@ ernestdefoe-cadence:
     nothing: Nichts
     nothing_on: 'Nichts am {date}'
     spark_label: '{count, plural, one {# Ereignis in den vergangenen 26 Wochen} other {# Ereignisse in den vergangenen 26 Wochen}}'
+    streak:
+      badge_label: '{count}-Tages Flamme · {tier}'
+      best_short: 'beste {count}'
+      birthday: Geburtstagsflamme
+      day_flame: '{count}-Tages Flamme'
+      days_count: '{count, plural, one {# Tag} other {# Tage}}'
+      days_unit: '{count, plural, one {Tag} other {Tage}}'
+      flame_out_short: 'Flamme erloschen'
+      leaderboard: Rangliste
+      longest: 'Längste Serie'
+      no_flame: 'Noch keine Flamme'
+      page_title: Serien
+      profile_tab: Serie
+      rank: 'Rang #{rank}'
+      started: 'Angefangen {date}'
+      their_flame: '{name}s Flamme'
+      time_left: '{hours} h {minutes} m verbleiben'
+      total_days: 'Tage insgesamt'
+      your_daily_streak: 'Deine Tagesserie'
+      your_flame: 'Deine Flamme'
+      your_streak_page: 'Deine Serienseite'
