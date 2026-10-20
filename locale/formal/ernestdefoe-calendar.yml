@@ -42,9 +42,9 @@ ernestdefoe-calendar:
     permission_create: 'Kalendereinträge erstellen'
     permission_manage: 'Alle Kalendereinträge verwalten'
     pulse_exclude_groups: 'Diese Gruppen aus der Forumaktivität ausschliessen'
-    pulse_exclude_groups_help: 'Bei automatisierten Konten würde ein Bot, der jeden Tag Beiträge veröffentlicht, stets die Rangliste anführen. Auch im Aktivitätsdiagramm werden deren Beiträge nicht berücksichtigt.'
+    pulse_exclude_groups_help: 'Markiere so viele, wie du möchtest. Bei automatisierten Konten würde ein Bot, der jeden Tag Beiträge veröffentlicht, stets die Rangliste anführen. Auch im Aktivitätsdiagramm werden deren Beiträge nicht berücksichtigt.'
     pulse_exclude_users: 'Diese Mitglieder aus der Forumaktivität ausschliessen'
-    pulse_exclude_users_help: 'Nutzernamen, durch Kommas getrennt.'
+    pulse_exclude_users_help: 'Nutzernamen, durch Kommas getrennt — so viele, wie du möchtest.'
     settings_title: Kalender
     show_celebrations_widget: 'Widget „Heutige Feierlichkeiten“ auf der Startseite des Forums anzeigen'
     show_index_widget: 'Widget „Bevorstehende Veranstaltungen“ auf der Startseite des Forums anzeigen'

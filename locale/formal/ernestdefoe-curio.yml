@@ -10,6 +10,7 @@ ernestdefoe-curio:
       deepl_link: 'Schlüssel holen'
       max_upload_help: 'Fotos werden als WebP neu kodiert und in der Größe angepasst, sodass die gespeicherten Dateien deutlich kleiner sind als diese.'
       max_upload_label: 'Maximale Fotogröße (KB)'
+      upc_label: 'UPCitemdb-Schlüssel (optional)'
       upc_link: 'Schlüssel holen'
     shape:
       landscape: Querformat
@@ -39,6 +40,9 @@ ernestdefoe-curio:
       remove_field: 'Detail entfernen'
   forum:
     browse:
+      add: 'Artikel hinzufügen'
+      largest: 'Größte Sammlungen'
+      none: 'Hier gibt es noch keine Sammlungen.'
       title: Sammlungen
     condition:
       fair: Ordentlich
@@ -49,36 +53,46 @@ ernestdefoe-curio:
       very_good: 'Sehr gut'
     count:
       collections: '{count, plural, one {# Sammlung} other {# Sammlungen}}'
-      trade: '{count} zum Tausch verfügbar'
+      items: '{count, plural, one {# Artikel} other {# Artikel}}'
+      trade: '{count} zum Tausch'
+      wanted: '{count} auf Wunschliste'
     edit:
       create: 'Sammlung erstellen'
       delete: 'Sammlung löschen'
+      delete_confirm: '{name} und den gesamten Inhalt löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.'
       description: Beschreibung
+      featured: 'Auf der Sammlungs-Seite hervorheben'
       name: Name
       name_placeholder: 'Das Nintendo-Regal'
       save: Speichern
+      title_edit: Sammlungs-Einstellungen
       title_new: 'Neue Sammlung'
       type: 'Was sammelst du?'
+      visibility: 'Wer diese Sammlung sehen kann'
+      wishlist_public: 'Meine Wunschliste anderen anzeigen'
     filter:
       all: Alle
       owned: 'Im Besitz'
-      trade: 'Zum Tausch verfügbar'
-      wishlist: 'Wünsche ich mir'
+      trade: 'Zum Tausch'
+      wishlist: Wunschliste
     genre:
       adventure: Adventure
       arcade: Arcade
       card_board_game: 'Karten- & Brettspiel'
+      fighting: Kampfsport
       hack_and_slash_beat_em_up: 'Hack and slash / Beat ''em up'
       indie: Indie
       moba: MOBA
       music: Musik
       pinball: Pinball
       platform: Plattformer
+      point_and_click: Point-and-click
       puzzle: Puzzle
       quiz_trivia: 'Quiz / Trivia'
       racing: Rennspiel
       real_time_strategy_rts: Echtzeit-Strategie
       role_playing_rpg: 'Rollenspiel (RPG)'
+      shooter: Shooter
       simulator: Simulation
       sport: Sport
       strategy: Strategie
@@ -86,62 +100,122 @@ ernestdefoe-curio:
       turn_based_strategy_tbs: 'Rundenbasierte Strategie'
       visual_novel: 'Visual novel'
     hero:
+      from: 'Von {name}'
+      in_my_collection: 'In meiner Sammlung ansehen'
       members: '{count, plural, one {# Mitglied hat es} other {# Mitglieder haben es}}'
     item:
+      about: Übersicht
       cancel: Abbrechen
+      choose_collection: 'Welche Sammlung?'
       condition: Zustand
+      developer: Entwickler
       edit: Bearbeiten
+      favourite: Favorit
       from_wikidata: 'Beschreibung von Wikidata'
       from_wikipedia: 'Beschreibung von Wikipedia'
+      genres: Genres
       languages: '{count, plural, one {# Sprache} other {# Sprachen}}'
+      less: 'Weniger anzeigen'
+      more: 'Weiter lesen'
       'no': Nein
+      photo_n: 'Foto {n}'
+      platforms: Plattformen
+      price: 'Bezahlter Preis'
+      publisher: Publisher
+      released: Veröffentlicht
       translated_deepl: 'Übersetzt mit DeepL'
+      want_it: 'Zu meiner Wunschliste hinzufügen'
       'yes': Ja
     item_edit:
       acquired: 'Erworben am'
       add: 'Zur Sammlung hinzufügen'
       add_photos: 'Eigene Fotos hinzufügen'
       barcode_found: 'Barcode {code} erkannt.'
+      barcode_placeholder: 'Barcode oder ISBN scannen oder eingeben'
+      barcode_unknown: 'Der Barcode {code} ist noch niemandem bekannt. Füge ihn manuell hinzu, dann erhält die nächste Person, die ihn scannt, deinen Eintrag.'
       by_hand: 'Händisch hinzufügen'
+      camera_error: 'Die Kamera konnte nicht gestartet werden. Du kannst den Barcode stattdessen eingeben.'
+      choose: Wählen…
       condition: Zustand
       condition_none: 'Nicht festgelegt'
+      cover_looked_up: 'Nachgeschlagenes Titelbild'
+      delete: 'Artikel löschen'
+      delete_confirm: '{title} löschen? Das kann nicht rückgängig gemacht werden.'
+      favourite: Favorit
+      find_hint: 'Wenn du ein Ergebnis auswählst, werden das Titelbild und die Details ausgefüllt, und der Titel sowie die Beschreibung werden in allen Sprachen angezeigt, die in diesem Forum gesprochen werden.'
+      lookup_failed: 'Der Titel konnte aktuell nicht nachgeschlagen werden. Erneut versuchen oder händisch hinzufügen.'
+      no_results: 'Kein Treffer. Versuche es mit weniger Wörtern oder gib den Begriff manuell ein.'
       notes: Notizen
+      price: 'Bezahlter Preis'
+      price_private: 'Nur du kannst ihn sehen'
+      rating: 'Deine Bewertung'
+      rating_value: '{stars} von 5'
       remove_photo: 'Foto entfernen'
       save: Speichern
       scan: Scannen
+      search_placeholder: 'Titel, Barcode oder ISBN scannen oder eingeben'
       status: Status
+      subtitle: 'Entwickler, Künstler oder Autor'
       tab_details: 'Details & Fotos'
+      tab_find: Nachschlagen
       title: Titel
+      title_edit: 'Artikel bearbeiten'
       title_new: 'Zu {name} hinzufügen'
+      translated_hint: 'Leser sehen es in ihrer eigenen Sprache ({count} verfügbar).'
       year: Jahr
     marquee:
       add: 'Zur Sammlung hinzufügen'
+    nav:
+      mine: 'Meine Sammlungen'
     page:
+      add_item: 'Artikel hinzufügen'
       arrange: Anordnen
+      arrange_done: Fertig
       empty: 'Hier ist noch nichts.'
       filter_label: Anzeigen
+      follow: Folgen
+      followers: '{count, plural, one {# folgt} other {# folgen}}'
+      following: 'Du folgst'
+      load_more: 'Mehr anzeigen'
+      missing: 'Diese Sammlung ist nicht vorhanden oder du darfst sie nicht ansehen.'
+      owned: 'Im Besitz'
+      search: '{count} Artikel durchsuchen…'
       settings: Einstellungen
       since: 'Seit {date}'
       trade: 'Zum Tausch'
       view_grid: Raster
       view_label: Darstellung
       view_list: Liste
+      wanted: Wunschliste
     profile:
       collections: Sammlungen
       collections_heading: Sammlungen
       empty: 'Noch keine Sammlungen.'
+      items: Artikel
       nav: Sammlungen
       new: 'Neue Sammlung'
+      since: 'Sammelt seit'
+      wanted: Wunschliste
+      wishlist_heading: Wunschliste
+    progress:
+      completed: Abgeschlossen
+      in_progress: 'In Bearbeitung'
+      label: Fortschritt
+      none: 'Nicht festgelegt'
+      pending: 'Nicht begonnen'
     sort:
       position: 'Sortierung des Besitzers'
+      rating: Höchstbewertet
       recent: 'Kürzlich hinzugefügt'
       title: Titel
       year: 'Neueste zuerst'
     status:
       owned: 'Im Besitz'
-      trade: 'Zum Tausch verfügbar'
-      wishlist: 'Wünsche ich mir'
+      trade: 'Zum Tausch'
+      wishlist: Wunschliste
     table:
+      progress: Fortschritt
+      rating: Bewertung
       status: Status
       title: Titel
     transfer:
@@ -150,6 +224,7 @@ ernestdefoe-curio:
       format_discogs: Discogs
       format_goodreads: Goodreads
       format_storygraph: StoryGraph
+      heading: 'Import und Export'
       import: 'CSV-Datei importieren'
     visibility:
       members: Mitglieder

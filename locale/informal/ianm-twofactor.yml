@@ -2,6 +2,17 @@
 # Use https://weblate.rob006.net/projects/flarum2/ianm-twofactor/de/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      group:
+        two_factor_not_required: 'Zwei-Faktor-Authentifizierung für Gruppe {name} nicht mehr erforderlich'
+        two_factor_required: 'Zwei-Faktor-Authentifizierung für Gruppe {name} erforderlich'
+      user:
+        two_factor_backup_code_used: 'Zwei-Faktor-Sicherungscode für {username} verwendet ({remaining} verbleibend)'
+        two_factor_device_changed: 'Gerät zur Zwei-Faktor-Authentifizierung für {username} geändert'
+        two_factor_disabled: 'Zwei-Faktor-Authentifizierung für {username} deaktiviert'
+        two_factor_enabled: 'Zwei-Faktor-Authentifizierung für {username} aktiviert'
 flarum-gdpr:
   lib:
     data:
@@ -47,6 +58,7 @@ ianm-twofactor:
       status_changed: 'Zwei-Faktor-Authentifizierung für dein Konto {type}'
   forum:
     log_in:
+      two_factor_incorrect_message: 'Der 2FA-Token ist falsch. Bitte versuche es erneut.'
       two_factor_placeholder: '2FA-Sicherheitsschlüssel, z.B. 123456'
       two_factor_required_message: 'Ein gültiger 2FA Sicherheitsschlüssel wird benötigt um fortzufahren.'
     security:
@@ -94,6 +106,10 @@ ianm-twofactor:
     user_2fa:
       alert_message: 'Du musst die Zwei-Faktor-Authentifizierung aktivieren, um weiterhin auf dein Konto zugreifen zu können.'
   views:
+    log_in:
+      two_factor_incorrect_message: 'Der 2FA-Token ist falsch. Bitte versuche es erneut.'
+      two_factor_required_message: 'Für dieses Konto ist die Zwei-Faktor-Authentifizierung aktiviert. Gib das Token aus deiner Authentifizierungs-App oder einen Sicherungscode ein.'
+      two_factor_token_placeholder: '2FA-Token (wenn für dein Konto aktiviert)'
     reset_password:
       two_factor_token_label: '2FA Sicherheitsschlüssel'
     two_factor_token:
