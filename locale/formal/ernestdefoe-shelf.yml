@@ -63,7 +63,7 @@ ernestdefoe-shelf:
       title_watch: 'Wann hast du {title} angeschaut?'
     menu:
       add_to_list: 'Zu einer Liste hinzufügen…'
-      collection: 'In meiner Sammlung'
+      collection: 'In meine Sammlung aufnehmen'
       done_on_listen: 'Angehört {date} (ändern)'
       done_on_play: 'Gespielt {date} (ändern)'
       done_on_read: 'Gelesen {date} (ändern)'
