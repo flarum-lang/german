@@ -8,8 +8,15 @@ ernestdefoe-curio:
       deepl_help: 'Wenn es in einer Sprache keine Beschreibung auf Wikipedia gibt, übersetzt DeepL die englische Version. Kostenlose Schlüssel enden auf „:fx“.'
       deepl_label: 'DeepL-Schlüssel (optional)'
       deepl_link: 'Schlüssel holen'
+      layout_help: 'Wie jeder Typ auf der Sammlungsseite angezeigt wird.'
+      layout_label: 'Seitenlayout der Sammlungen'
+      layout_tags: 'Wie die Tags-Seite (Flarum Standard)'
       max_upload_help: 'Fotos werden als WebP neu kodiert und in der Größe angepasst, sodass die gespeicherten Dateien deutlich kleiner sind als diese.'
       max_upload_label: 'Maximale Fotogröße (KB)'
+      shortcut_both: 'Seitenleiste und Benutzermenü'
+      shortcut_help: 'Wo Mitglieder einen Link zu ihren eigenen Sammlungen finden.'
+      shortcut_label: '„Meine Sammlungen“-Verknüpfung'
+      shortcut_sidebar: 'Nur Seitenleiste'
       upc_label: 'UPCitemdb-Schlüssel (optional)'
       upc_link: 'Schlüssel holen'
     shape:
@@ -34,6 +41,7 @@ ernestdefoe-curio:
       drag: 'Zum Neuanordnen ziehen'
       duplicate: 'Kopie erstellen'
       export: Exportieren
+      export_all: 'Alle exportieren'
       field_choices: Auswahlmöglichkeiten
       field_kind: Art
       field_label: 'Beschriftung ({language})'
@@ -42,6 +50,8 @@ ernestdefoe-curio:
       heading: 'Typen von Sammlungen'
       help: 'Die Mitglieder wählen für jede Sammlung einen Typ aus. Ein Typ legt die Form des Deckblatts, die abgefragten Angaben und die Quelle der Abfragen fest. Ziehe die Elemente, um die Reihenfolge zu ändern.'
       icon: Symbol
+      import: Importieren
+      import_failed: 'Diese Datei ist kein Curio-Export.'
       in_use: 'Ein Typ mit Sammlungen kann nicht gelöscht werden.'
       labels_in: 'Beschriftungen in'
       name: Name
@@ -59,8 +69,10 @@ ernestdefoe-curio:
       featured: 'Hervorgehobene Sammlungen'
       largest: 'Größte Sammlungen'
       lead: '{items, plural, one {# Artikel} other {# Artikel}} in Sammlungen von {members, plural, one {# Mitglied} other {# Mitgliedern}}.'
+      no_results: 'Keine Treffer.'
       none: 'Hier gibt es noch keine Sammlungen.'
       recent: 'Kürzlich hinzugefügt'
+      results: 'Ergebnisse für „{q}“'
       search: 'Alle Sammlungen durchsuchen…'
       title: Sammlungen
     condition:
@@ -91,6 +103,7 @@ ernestdefoe-curio:
       wishlist_public: 'Meine Wunschliste anderen anzeigen'
     filter:
       all: Alle
+      any: 'Jedes {field}'
       owned: 'Im Besitz'
       trade: 'Zum Tausch'
       wishlist: Wunschliste
@@ -120,8 +133,11 @@ ernestdefoe-curio:
       visual_novel: 'Visual novel'
     hero:
       from: 'Von {name}'
+      here: 'In diesem Forum'
       in_my_collection: 'In meiner Sammlung ansehen'
       members: '{count, plural, one {# Mitglied hat es} other {# Mitglieder haben es}}'
+      open_item: 'Artikel öffnen'
+      view_in: 'In der Sammlung von {name} ansehen'
     item:
       about: Übersicht
       acquired: Erworben
@@ -141,11 +157,13 @@ ernestdefoe-curio:
       missing: 'Dieser Artikel existiert nicht oder ist für dich nicht sichtbar.'
       more: 'Weiter lesen'
       'no': Nein
+      offers: '{count, plural, one {# Mitglied bietet dies zum Tausch} other {# Mitglieder bieten dies zum Tausch}}'
       photo_n: 'Foto {n}'
       platforms: Plattformen
       price: 'Bezahlter Preis'
       publisher: Publisher
       released: Veröffentlicht
+      show_off: 'Zeig es allen'
       translated_deepl: 'Übersetzt mit DeepL'
       want_it: 'Zu meiner Wunschliste hinzufügen'
       'yes': Ja
@@ -170,6 +188,7 @@ ernestdefoe-curio:
       no_results: 'Kein Treffer. Versuche es mit weniger Wörtern oder gib den Begriff manuell ein.'
       notes: Notizen
       notes_placeholder: 'Wo du es gefunden hast, was in der Verpackung ist, alles, was erwähnenswert ist…'
+      photos_hint: 'Ablegen, einfügen oder auswählen · bis zu {count} weitere'
       price: 'Bezahlter Preis'
       price_private: 'Nur du kannst ihn sehen'
       rating: 'Deine Bewertung'
@@ -178,6 +197,7 @@ ernestdefoe-curio:
       remove_photo: 'Foto entfernen'
       save: Speichern
       scan: Scannen
+      scan_stop: Stoppen
       search_placeholder: 'Titel, Barcode oder ISBN scannen oder eingeben'
       status: Status
       subtitle: 'Entwickler, Künstler oder Autor'
@@ -192,6 +212,11 @@ ernestdefoe-curio:
       add: 'Zur Sammlung hinzufügen'
     nav:
       mine: 'Meine Sammlungen'
+    notifications:
+      match: '{username} bietet {title} zum Tausch an. Es ist auf deiner Wunschliste.'
+      match_setting: 'Jemand bietet etwas von deiner Wunschliste zum Tausch an'
+      new_items: '{username} hat zu {name} hinzugefügt'
+      new_items_setting: 'Eine Sammlung, der ich folge, hat neue Artikel'
     page:
       add_item: 'Artikel hinzufügen'
       arrange: Anordnen
@@ -231,6 +256,10 @@ ernestdefoe-curio:
       label: Fortschritt
       none: 'Nicht festgelegt'
       pending: 'Nicht begonnen'
+    showoff:
+      composer: '{title} zur Schau gestellt'
+      remove: 'Diesen Artikel nicht verknüpfen'
+      title: 'Mein {title}'
     sort:
       position: 'Sortierung des Besitzers'
       rating: Höchstbewertet
@@ -264,5 +293,7 @@ ernestdefoe-curio:
       public: Jeder
       public_help: 'Alle, die Sammlungen in diesem Forum ansehen können.'
     widget:
+      empty: 'Noch nichts hinzugefügt.'
       field_limit: 'Wie viele'
       field_title: Titel
+      label: 'Kürzlich zu Sammlungen hinzugefügt'
