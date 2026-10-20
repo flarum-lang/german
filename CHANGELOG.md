@@ -8,6 +8,7 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (42 added, 43% complete)
+* [`ernestdefoe/shelf`](https://github.com/ernestdefoe/shelf) (2 changed, 100% complete)
 * [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget) (6 added, 100% complete)
 * [`linkrobins/markdown-widget`](https://github.com/linkrobins/markdown-widget) (6 added, 100% complete)
 * [`tryhackx/flarum-cover-studio`](https://github.com/TryHackX/flarum-cover-studio) (2 added, 100% complete)
