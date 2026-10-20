@@ -4,11 +4,16 @@
 
 ernestdefoe-curio:
   admin:
+    kind:
+      number: Zahl
+      select: Auswahl
+      text: Text
     settings:
       deepl_help: 'Wenn es in einer Sprache keine Beschreibung auf Wikipedia gibt, übersetzt DeepL die englische Version. Kostenlose Schlüssel enden auf „:fx“.'
       deepl_label: 'DeepL-Schlüssel (optional)'
       deepl_link: 'Schlüssel holen'
       igdb_docs: '(Anleitung von IGDB)'
+      igdb_help: 'Mit einer kostenlosen Twitch-Entwickler-Anwendung werden bei der Spielsuche die IGDB-Daten abgefragt: Titelbild, Entwickler, Publisher, Erscheinungsdatum, Plattformen und Genres. Registriere eine Anwendung (beliebiger Name; OAuth-Weiterleitungs-URL http://localhost; Kategorie „ Application Integration“), kopiere anschließend deren Client-ID und erstelle einen neuen geheimen Schlüssel. Ohne diesen werden Spiele über Marquee abgefragt, sofern diese App installiert ist.'
       igdb_id_label: 'IGDB Client-ID (optional)'
       igdb_link: 'Twitch-Anwendung erstellen'
       igdb_secret_label: 'IGDB Client-Secret'
@@ -25,13 +30,16 @@ ernestdefoe-curio:
       shortcut_sidebar: 'Nur Seitenleiste'
       upc_label: 'UPCitemdb-Schlüssel (optional)'
       upc_link: 'Schlüssel holen'
+      widget_help: 'Standardmäßig deaktiviert. Wenn aktiviert, kann das Widget mit „FoF Forum Widgets“ oder „Bespoke“ platziert werden (es erscheint zunächst in der rechten Spalte von FoF; Du kannst es im Layout-Editor von FoF verschieben oder entfernen).'
       widget_label: '„Kürzlich hinzugefügt“ Widget anbieten'
+      widget_title: 'Kürzlich zu Sammlungen hinzugefügt'
     shape:
       landscape: Querformat
       portrait: Hochformat
       square: Quadratisch
     source:
       books: 'Bücher (Open Library)'
+      games: 'Spiele (IGDB oder via Marquee)'
       movies: 'Filme (mittels Marquee)'
       music: 'Alben (Deezer, MusicBrainz)'
       none: 'Keine (per Barcode oder händisch hinzufügen)'
@@ -47,6 +55,8 @@ ernestdefoe-curio:
       delete_confirm: 'Typ {name} löschen?'
       drag: 'Zum Neuanordnen ziehen'
       duplicate: 'Kopie erstellen'
+      enabled: Angeschaltet
+      enabled_help: 'Wenn ausgeschaltet, sehen Mitglieder diesen Typ nicht und können keine Sammlung davon anlegen. Bereits damit erstellte Sammlungen bleiben bestehen und sind nur für ihre Besitzer und Moderatoren sichtbar. Administratoren können die Funktion weiterhin ausprobieren.'
       export: Exportieren
       export_all: 'Alle exportieren'
       field_choices: Auswahlmöglichkeiten
@@ -58,17 +68,22 @@ ernestdefoe-curio:
       help: 'Die Mitglieder wählen für jede Sammlung einen Typ aus. Ein Typ legt die Form des Deckblatts, die abgefragten Angaben und die Quelle der Abfragen fest. Ziehe die Elemente, um die Reihenfolge zu ändern.'
       icon: Symbol
       import: Importieren
+      import_done: '{count, plural, one {# Typ importiert} other {# Typen importiert}}'
       import_failed: 'Diese Datei ist kein Curio-Export.'
+      import_help: 'Typen ziehen in JSON-Dateien um, mit ihren Details und Beschriftungen in jeder Sprache. Import fügt sie als neuen Typ hinzu.'
       in_use: 'Ein Typ mit Sammlungen kann nicht gelöscht werden.'
       labels_in: 'Beschriftungen in'
       name: Name
       needs_marquee: 'Die Film- und TV-Suche erfolgt über Marquee, die Spielesuche über IGDB (in den obigen Einstellungen eingerichtet) oder Marquee. Solange die Installation noch nicht abgeschlossen ist, können Mitglieder dieses Typs weiterhin Barcodes scannen oder Artikel manuell hinzufügen.'
       'off': Aus
       progress: 'Fortschritt verfolgen'
+      progress_help: 'Jeder Artikel kann als „Noch nicht begonnen“, „In Bearbeitung“ oder „Abgeschlossen“ markiert werden: ein Symbol auf dem Artikel und ein Filter auf der Sammlungsseite. Praktisch für eine Liste mit noch zu spielenden Spielen, noch zu lesenden Büchern oder noch anzusehenden Filmen.'
       remove_choice: 'Auswahlmöglichkeit entfernen'
       remove_field: 'Detail entfernen'
       save: 'Typ speichern'
+      save_failed: 'Der Typ konnte nicht gespeichert werden.'
       shape: 'Form des Deckblatts'
+      source: Nachschlagewerke
       translation_note: 'Titel und Beschreibungen aus den Nachschlagewerken werden automatisch in jeder installierten Sprache angezeigt (Wikidata und Wikipedia). Nur die Bezeichnungen, die du hier eingibst, müssen übersetzt werden.'
   forum:
     browse:
