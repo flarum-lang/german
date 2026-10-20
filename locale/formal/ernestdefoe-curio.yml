@@ -8,6 +8,10 @@ ernestdefoe-curio:
       deepl_help: 'Wenn es in einer Sprache keine Beschreibung auf Wikipedia gibt, übersetzt DeepL die englische Version. Kostenlose Schlüssel enden auf „:fx“.'
       deepl_label: 'DeepL-Schlüssel (optional)'
       deepl_link: 'Schlüssel holen'
+      igdb_docs: '(Anleitung von IGDB)'
+      igdb_id_label: 'IGDB Client-ID (optional)'
+      igdb_link: 'Twitch-Anwendung erstellen'
+      igdb_secret_label: 'IGDB Client-Secret'
       layout_help: 'Wie jeder Typ auf der Sammlungsseite angezeigt wird.'
       layout_label: 'Seitenlayout der Sammlungen'
       layout_tags: 'Wie die Tags-Seite (Flarum Standard)'
@@ -16,9 +20,12 @@ ernestdefoe-curio:
       shortcut_both: 'Seitenleiste und Benutzermenü'
       shortcut_help: 'Wo Mitglieder einen Link zu ihren eigenen Sammlungen finden.'
       shortcut_label: '„Meine Sammlungen“-Verknüpfung'
+      shortcut_menu: 'Nur Benutzermenü'
+      shortcut_none: 'Nirgends (Profil → Sammlungen funktioniert weiterhin)'
       shortcut_sidebar: 'Nur Seitenleiste'
       upc_label: 'UPCitemdb-Schlüssel (optional)'
       upc_link: 'Schlüssel holen'
+      widget_label: '„Kürzlich hinzugefügt“ Widget anbieten'
     shape:
       landscape: Querformat
       portrait: Hochformat
