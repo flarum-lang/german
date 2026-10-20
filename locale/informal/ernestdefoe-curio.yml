@@ -24,25 +24,44 @@ ernestdefoe-curio:
       tv: 'Fernsehserien (mittels Marquee)'
     types:
       add: 'Typ hinzufügen'
+      add_choice: 'Auswahl hinzufügen, Enter zum Einfügen'
       add_field: 'Detail hinzufügen'
       color: Farbe
+      color_help: 'Ein Hex-Code wie beispielsweise #5b3fd1. Lasse das Feld leer, um die Farbe des Forums zu verwenden.'
+      create: 'Typ erstellen'
+      delete: 'Typ löschen'
+      delete_confirm: 'Typ {name} löschen?'
       drag: 'Zum Neuanordnen ziehen'
+      duplicate: 'Kopie erstellen'
+      export: Exportieren
       field_choices: Auswahlmöglichkeiten
       field_kind: Art
       field_label: 'Beschriftung ({language})'
       fields: Details
+      fields_help: 'Welche Angaben die Mitglieder zu den einzelnen Punkten machen. Das Feld „Erste Wahl“ dient der Aufschlüsselung und Filterung auf den Sammlungsseiten (Plattform, Format …).'
       heading: 'Typen von Sammlungen'
       help: 'Die Mitglieder wählen für jede Sammlung einen Typ aus. Ein Typ legt die Form des Deckblatts, die abgefragten Angaben und die Quelle der Abfragen fest. Ziehe die Elemente, um die Reihenfolge zu ändern.'
       icon: Symbol
+      in_use: 'Ein Typ mit Sammlungen kann nicht gelöscht werden.'
       labels_in: 'Beschriftungen in'
       name: Name
+      needs_marquee: 'Die Film- und TV-Suche erfolgt über Marquee, die Spielesuche über IGDB (in den obigen Einstellungen eingerichtet) oder Marquee. Solange die Installation noch nicht abgeschlossen ist, können Mitglieder dieses Typs weiterhin Barcodes scannen oder Artikel manuell hinzufügen.'
+      'off': Aus
+      progress: 'Fortschritt verfolgen'
       remove_choice: 'Auswahlmöglichkeit entfernen'
       remove_field: 'Detail entfernen'
+      save: 'Typ speichern'
+      shape: 'Form des Deckblatts'
+      translation_note: 'Titel und Beschreibungen aus den Nachschlagewerken werden automatisch in jeder installierten Sprache angezeigt (Wikidata und Wikipedia). Nur die Bezeichnungen, die du hier eingibst, müssen übersetzt werden.'
   forum:
     browse:
       add: 'Artikel hinzufügen'
+      featured: 'Hervorgehobene Sammlungen'
       largest: 'Größte Sammlungen'
+      lead: '{items, plural, one {# Artikel} other {# Artikel}} in Sammlungen von {members, plural, one {# Mitglied} other {# Mitgliedern}}.'
       none: 'Hier gibt es noch keine Sammlungen.'
+      recent: 'Kürzlich hinzugefügt'
+      search: 'Alle Sammlungen durchsuchen…'
       title: Sammlungen
     condition:
       fair: Ordentlich
@@ -105,17 +124,21 @@ ernestdefoe-curio:
       members: '{count, plural, one {# Mitglied hat es} other {# Mitglieder haben es}}'
     item:
       about: Übersicht
+      acquired: Erworben
       cancel: Abbrechen
       choose_collection: 'Welche Sammlung?'
       condition: Zustand
       developer: Entwickler
+      discussed: 'Hier diskutiert'
       edit: Bearbeiten
       favourite: Favorit
       from_wikidata: 'Beschreibung von Wikidata'
       from_wikipedia: 'Beschreibung von Wikipedia'
       genres: Genres
+      have_too: 'Das habe ich auch'
       languages: '{count, plural, one {# Sprache} other {# Sprachen}}'
       less: 'Weniger anzeigen'
+      missing: 'Dieser Artikel existiert nicht oder ist für dich nicht sichtbar.'
       more: 'Weiter lesen'
       'no': Nein
       photo_n: 'Foto {n}'
@@ -146,9 +169,11 @@ ernestdefoe-curio:
       lookup_failed: 'Der Titel konnte aktuell nicht nachgeschlagen werden. Erneut versuchen oder händisch hinzufügen.'
       no_results: 'Kein Treffer. Versuche es mit weniger Wörtern oder gib den Begriff manuell ein.'
       notes: Notizen
+      notes_placeholder: 'Wo du es gefunden hast, was in der Verpackung ist, alles, was erwähnenswert ist…'
       price: 'Bezahlter Preis'
       price_private: 'Nur du kannst ihn sehen'
       rating: 'Deine Bewertung'
+      rating_none: 'Noch nicht bewertet. Tippe auf einen Stern; tippe erneut darauf, um die Auswahl aufzuheben.'
       rating_value: '{stars} von 5'
       remove_photo: 'Foto entfernen'
       save: Speichern
@@ -191,13 +216,16 @@ ernestdefoe-curio:
       collections: Sammlungen
       collections_heading: Sammlungen
       empty: 'Noch keine Sammlungen.'
+      empty_own: 'Starte deine erste Sammlung und zeig, was du hast.'
       items: Artikel
       nav: Sammlungen
       new: 'Neue Sammlung'
       since: 'Sammelt seit'
+      trade: 'Zum Tausch'
       wanted: Wunschliste
       wishlist_heading: Wunschliste
     progress:
+      any: 'Jeder Fortschritt'
       completed: Abgeschlossen
       in_progress: 'In Bearbeitung'
       label: Fortschritt
@@ -219,12 +247,14 @@ ernestdefoe-curio:
       status: Status
       title: Titel
     transfer:
+      done: '{count, plural, one {# Artikel} other {# Artikel}} importiert aus {format} Datei ({skipped} übersprungen).'
       export: 'Als CSV herunterladen'
       format_curio: Curio
       format_discogs: Discogs
       format_goodreads: Goodreads
       format_storygraph: StoryGraph
       heading: 'Import und Export'
+      help: 'Importiere eine Tabelle: einen Curio-Export, einen Discogs-Sammlungsexport oder einen Goodreads- bzw. StoryGraph-Bibliotheksexport. Auch Bewertungen werden übernommen. Titelbilder und Beschreibungen werden im Hintergrund innerhalb der nächsten paar Minuten ermittelt.'
       import: 'CSV-Datei importieren'
     visibility:
       members: Mitglieder
