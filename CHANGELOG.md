@@ -8,7 +8,7 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) (4 changed, 100% complete)
-* [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (188 added, 10 changed, 66% complete)
+* [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (248 added, 10 changed, 76% complete)
 * [`ernestdefoe/shelf`](https://github.com/ernestdefoe/shelf) (2 changed, 100% complete)
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor) (20 added, 100% complete)
 * [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget) (6 added, 100% complete)
