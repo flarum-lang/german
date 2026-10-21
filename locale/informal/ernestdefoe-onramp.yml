@@ -11,6 +11,9 @@ ernestdefoe-onramp:
       reward_points: Punkte
     tabs:
       settings: Einstellungen
+  email:
+    reminder:
+      body: "Du bist fast da. Als Nächstes: {next}.\n\nMach dort weiter, wo du aufgehört hast: {url}\n"
   forum:
     launcher:
       next: 'Als Nächstes'
@@ -27,6 +30,8 @@ ernestdefoe-onramp:
         button: 'Ein Foto hinzufügen'
         description: 'Füge ein Profilbild hinzu, damit man dich im Forum wiedererkennt.'
         title: 'Verbinde deinen Namen mit einem Gesicht'
+      bio:
+        title: 'Erzähle etwas über dich'
       discussion:
         button: 'Beginne eine Diskussion'
         title: '{count, plural, one {Beginne deine erste Diskussion} other {Beginne # Diskussionen}}'
@@ -38,6 +43,8 @@ ernestdefoe-onramp:
         title: '{count, plural, one {Like einen Beitrag} other {Like # Beiträge}}'
       mention:
         button: 'Finde eine Diskussion'
+      nickname:
+        button: 'Anzeigenamen festlegen'
       read:
         button: 'Diskussionen durchsuchen'
         title: '{count, plural, one {Lies eine Diskussion} other {Lies # Diskussionen}}'
