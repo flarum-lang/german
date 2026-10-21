@@ -43,13 +43,13 @@ walsgit-recycle-bin:
       submit_button: 'Alle Diskussionen endgültig löschen'
       success: 'Alle Diskussionen erfolgreich gelöscht'
       text_end: ' Diskussionen im Papierkorb <u>endgültig löschen</u>?'
-      text_start: 'Möchtest du wirklich ALLE '
+      text_start: 'Möchten Sie wirklich ALLE '
       title: 'Alle ausgeblendeten Diskussionen endgültig löschen'
     mass_delete_all_post_modal:
       submit_button: 'Alle Beiträge endgültig löschen'
       success: 'Alle Beiträge erfolgreich gelöscht'
       text_end: ' Beiträge im Papierkorb <u>endgültig löschen</u>?'
-      text_start: 'Möchtest du wirklich ALLE '
+      text_start: 'Möchten Sie wirklich ALLE '
       title: 'Alle Beiträge endgültig löschen'
     mass_delete_modal:
       submit_button: 'Diese Diskussionen endgültig löschen'

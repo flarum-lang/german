@@ -6,6 +6,7 @@ ernestdefoe-brainstorm:
   api:
     accepted_count: 'Frage {number} benötigt {min} bis {max} akzeptierte Antworten.'
     dates: 'Das Enddatum muss nach dem Startdatum liegen.'
+    no_questions: 'Dieses Quiz hat noch keine Fragen.'
     option_count: 'Frage {number} benötigt {min} bis {max} Antworten.'
     option_length: 'Eine Antwort in Frage {number} ist länger als 300 Zeichen.'
     publish_empty: 'Füge mindestens eine Frage hinzu, bevor du es veröffentlichst.'
@@ -20,6 +21,28 @@ ernestdefoe-brainstorm:
       meta: '{count, plural, one {# Frage} other {# Fragen}}'
       none: 'Keine Quiz gefunden.'
     draft: Entwurf
+    editor:
+      add_answer: 'Eine Antwort hinzufügen'
+      answer: 'Antwort {number}'
+      correct_answer: 'Die richtige Antwort'
+      description: Einführung
+      explanation: Erklärung
+      image: Bildadresse
+      image_placeholder: 'Bildadresse (optional)'
+      leaderboard: Rangliste
+      mark_correct: 'Richtige Antwort'
+      max_attempts: Versuche
+      points: Punkte
+      question: Frage
+      questions: '{count, plural, one {# Frage} other {# Fragen}}'
+      remove_answer: Entfernen
+      settings: Einstellungen
+      title: Titel
+      types:
+        boolean: 'Wahr oder falsch'
+        multiple: 'Mehrere Antworten'
+        single: 'Eine Antwort'
+        text: 'Eingegebene Antwort'
     facts:
       attempts: '{count, plural, one {# Versuch} other {# Versuche}}'
       attempts_left: '{count} von {max} Versuchen verbleiben'

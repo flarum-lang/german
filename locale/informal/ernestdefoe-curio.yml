@@ -53,7 +53,7 @@ ernestdefoe-curio:
       tv: 'Fernsehserien (mittels Marquee)'
     types:
       add: 'Typ hinzufügen'
-      add_choice: 'Auswahl hinzufügen, Enter zum Einfügen'
+      add_choice: 'Auswahl hinzufügen…'
       add_field: 'Detail hinzufügen'
       color: Farbe
       color_help: 'Ein Hex-Code wie beispielsweise #5b3fd1. Lasse das Feld leer, um die Farbe des Forums zu verwenden.'
