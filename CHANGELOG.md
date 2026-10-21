@@ -7,9 +7,9 @@ CHANGELOG
 
 **Added support for new extensions**:
 
-* [`ernestdefoe/brainstorm`](https://github.com/ernestdefoe/brainstorm) (30% complete)
-* [`ernestdefoe/cuecard`](https://github.com/ernestdefoe/cuecard) (70% complete)
-* [`ernestdefoe/docket`](https://github.com/ernestdefoe/docket) (16% complete)
+* [`ernestdefoe/brainstorm`](https://github.com/ernestdefoe/brainstorm) (50% complete)
+* [`ernestdefoe/cuecard`](https://github.com/ernestdefoe/cuecard) (100% complete)
+* [`ernestdefoe/docket`](https://github.com/ernestdefoe/docket) (12% complete)
 * [`ernestdefoe/onramp`](https://github.com/ernestdefoe/onramp) (44% complete)
 * [`ernestdefoe/resurface`](https://github.com/ernestdefoe/resurface) (40% complete)
 * [`ernestdefoe/velvet-rope`](https://github.com/ernestdefoe/velvet-rope) (10% complete)
