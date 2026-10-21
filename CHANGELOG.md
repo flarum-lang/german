@@ -7,9 +7,10 @@ CHANGELOG
 
 **Added support for new extensions**:
 
-* [`ernestdefoe/brainstorm`](https://github.com/ernestdefoe/brainstorm) (20% complete)
+* [`ernestdefoe/brainstorm`](https://github.com/ernestdefoe/brainstorm) (30% complete)
 * [`ernestdefoe/cuecard`](https://github.com/ernestdefoe/cuecard) (70% complete)
 * [`ernestdefoe/docket`](https://github.com/ernestdefoe/docket) (16% complete)
+* [`ernestdefoe/onramp`](https://github.com/ernestdefoe/onramp) (10% complete)
 
 
 **Updated translations for extensions**:
@@ -17,6 +18,8 @@ CHANGELOG
 * [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (40 added, 21% complete)
 * [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) (4 changed, 100% complete)
 * [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (382 added, 10 changed, 93% complete)
+* [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (32 added, 8 changed, 100% complete)
+* [`ernestdefoe/roleplay`](https://github.com/ernestdefoe/roleplay) (1 changed, 100% complete)
 * [`ernestdefoe/shelf`](https://github.com/ernestdefoe/shelf) (2 changed, 100% complete)
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor) (20 added, 100% complete)
 * [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget) (6 added, 100% complete)
@@ -24,6 +27,7 @@ CHANGELOG
 * [`tryhackx/flarum-cover-studio`](https://github.com/TryHackX/flarum-cover-studio) (2 added, 100% complete)
 * [`tryhackx/flarum-topic-rating`](https://github.com/TryHackX/flarum-topic-rating) (2 added, 100% complete)
 * [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards) (2 added, 100% complete)
+* [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin) (2 changed, 100% complete)
 
 
 All changes: [2.0.26...2.0.27](https://github.com/flarum-lang/german/compare/2.0.26...2.0.27).
