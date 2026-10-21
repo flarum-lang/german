@@ -5,6 +5,13 @@ CHANGELOG
 2.0.27 (XXXX-XX-XX)
 -------------------
 
+**Added support for new extensions**:
+
+* [`ernestdefoe/brainstorm`](https://github.com/ernestdefoe/brainstorm) (20% complete)
+* [`ernestdefoe/cuecard`](https://github.com/ernestdefoe/cuecard) (70% complete)
+* [`ernestdefoe/docket`](https://github.com/ernestdefoe/docket) (16% complete)
+
+
 **Updated translations for extensions**:
 
 * [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (40 added, 21% complete)
@@ -15,6 +22,8 @@ CHANGELOG
 * [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget) (6 added, 100% complete)
 * [`linkrobins/markdown-widget`](https://github.com/linkrobins/markdown-widget) (6 added, 100% complete)
 * [`tryhackx/flarum-cover-studio`](https://github.com/TryHackX/flarum-cover-studio) (2 added, 100% complete)
+* [`tryhackx/flarum-topic-rating`](https://github.com/TryHackX/flarum-topic-rating) (2 added, 100% complete)
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards) (2 added, 100% complete)
 
 
 All changes: [2.0.26...2.0.27](https://github.com/flarum-lang/german/compare/2.0.26...2.0.27).
