@@ -24,18 +24,25 @@ ernestdefoe-cuecard:
       failed_lock: 'Diskussion sperren'
       failed_separator: ', '
       failed_tags: 'Tags ändern'
+      remove_action: 'Tu das nicht'
     editor:
+      actions_help: 'Beides geschieht nur dort, wo der Verfasser dazu berechtigt ist; andernfalls wird er darauf hingewiesen.'
       actions_label: 'Wenn es als Antwort verwendet wird'
+      best_answer_label: 'Antwort als Beste Antwort markieren'
       content_label: Text
       edit_title: 'Makro bearbeiten'
       groups_help: 'Mitglieder beinhaltet alle, die Makros einfügen dürfen.'
       groups_label: 'Diesen Gruppen anbieten'
+      lock_label: 'Diskussion sperren'
       new_title: 'Neues Makro'
       placeholders_label: 'Platzhalter, die du benutzen kannst'
+      replace_tags_label: 'Tags ersetzen, anstatt sie hinzuzufügen'
       save_button: 'Makro speichern'
       scope_global: 'Geteilt mit Team und den Gruppen unten'
       scope_label: 'Wer kann es verwenden'
       scope_personal: 'Nur ich'
+      tags_label: 'Diskussion taggen'
+      tags_search_placeholder: 'Tags filtern'
       title_label: Titel
     picker:
       delete_button: Löschen
@@ -50,3 +57,14 @@ ernestdefoe-cuecard:
       save_reply_button: 'Diesen Text als Makro speichern'
       search_placeholder: 'Makros durchsuchen'
       title: Makros
+    placeholders:
+      date: 'heutiges Datum'
+      discussion_title: 'der Diskussionstitel'
+      discussion_url: 'der Diskussionslink'
+      display_name: 'der Anzeigename des Diskussionsstarters'
+      forum_name: 'der Forenname'
+      forum_url: 'der Forenlink'
+      mention: 'eine Erwähnung des Diskussionsstarters'
+      my_display_name: 'dein Anzeigename'
+      my_username: 'dein Benutzername'
+      username: 'der Benutzername des Diskussionsstarters'

@@ -6,20 +6,37 @@ ernestdefoe-brainstorm:
   api:
     accepted_count: 'Frage {number} benötigt {min} bis {max} akzeptierte Antworten.'
     dates: 'Das Enddatum muss nach dem Startdatum liegen.'
+    image_url: 'Das Bild für Frage {number} muss eine Webadresse beginnend mit http:// oder https:// oder ein Pfad auf diesem Forum sein.'
+    no_attempts_left: 'Du hast alle deine Versuche für dieses Quiz aufgebraucht.'
+    no_correct: 'Markiere mindestens eine richtige Antwort in Frage {number}.'
     no_questions: 'Dieses Quiz hat noch keine Fragen.'
     option_count: 'Frage {number} benötigt {min} bis {max} Antworten.'
     option_length: 'Eine Antwort in Frage {number} ist länger als 300 Zeichen.'
     publish_empty: 'Füge mindestens eine Frage hinzu, bevor du es veröffentlichst.'
     question_body: 'Frage {number} benötigt eine Fragt mit bis zu 5000 Zeichen.'
     question_type: 'Frage {number} ist von einem Typ, den dieses Forum nicht kennt.'
+    reward_locked: 'Da es bei diesem Quiz um Punkte oder ein Abzeichen geht, können die Antworten, Punkte und die Mindestpunktzahl nur von Mitarbeitern geändert werden, die Belohnungen vergeben dürfen. Den Wortlaut des Quiz kannst du jedoch weiterhin bearbeiten.'
+    slow_down: 'Das ist ziemlich viel in so kurzer Zeit. Warte ein paar Minuten und versuche es dann erneut.'
     title: 'Gib dem Quiz einen Titel mit bis zu 200 Zeichen.'
     too_many_questions: 'Ein Quiz darf bis zu {max} Fragen beinhalten.'
   forum:
+    card:
+      again: 'Erneut versuchen'
+      best: 'Dein bestes Ergebnis: {score}'
+      cannot_take: 'Du kannst hier kein Quiz einstellen.'
+      closed: 'Nimmt keine Versuche an'
+      log_in: 'Anmelden, um mitzuspielen'
+      no_attempts: 'Keine Versuche übrig'
+      preview: 'Probiere es aus'
+      resume: Fortsetzen
+      start: 'Quiz starten'
     composer:
       add: Quiz
       create: 'Neues Quiz schreiben'
       meta: '{count, plural, one {# Frage} other {# Fragen}}'
       none: 'Keine Quiz gefunden.'
+      search: 'Quiz durchsuchen'
+      title: 'Füge ein Quiz zu deinem Beitrag hinzu'
     draft: Entwurf
     editor:
       add_answer: 'Eine Antwort hinzufügen'
@@ -47,37 +64,66 @@ ernestdefoe-brainstorm:
       attempts: '{count, plural, one {# Versuch} other {# Versuche}}'
       attempts_left: '{count} von {max} Versuchen verbleiben'
       badge: 'Abzeichen: {name}'
+      pass_mark: 'Bestanden: {mark} %'
       points: '{count, plural, one {# Punkt} other {# Punkte}}'
       questions: '{count, plural, one {# Frage} other {# Fragen}}'
     index:
       empty: 'Noch keine Quiz.'
       more: 'Mehr laden'
       new: 'Neues Quiz'
+      no_results: 'Kein Quiz entspricht der Suche.'
       search: 'Quiz durchsuchen'
+      tabs:
+        mine: Meine
+        new: Neueste
+        popular: Meistgespielt
       title: Quiz
     leaderboard:
       back: 'Alle Quiz'
       'off': 'Dieses Quiz hat keine Rangliste.'
+      overall: Top-Quizzer
       title: Rangliste
     nav: Quiz
     player:
+      answered: '{count} von {total} beantwortet'
+      back: 'Zurück zu den Fragen'
+      close: Schließen
       'false': Falsch
       jump: Fragen
       next: Nächster
+      points: '{count, plural, one {# Punkt wert} other {# Punkte wert}}'
+      practice: Üben
       previous: Vorheriger
       question_of: 'Frage {number} von {total}'
+      submit: Einreichen
+      time_left: 'Zeit übrig'
       'true': Wahr
+      type_answer: 'Gib deine Antwort ein'
     quiz:
+      all: 'Alle Quiz'
+      closed: 'Für neue Versuche geschlossen.'
+      closes: 'Schließt {time}'
+      copy_link: 'Link zu einem Beitrag kopieren'
       delete: Löschen
       edit: Bearbeiten
+      link_copied: 'Link wurde kopiert. Füge ihn in einer eigenen Zeile in einen Beitrag ein, dann wird das Quiz dort angezeigt.'
+      missing: 'Dieses Quiz existiert nicht oder du darfst nicht darauf zugreifen.'
+      opens: 'Öffnet {time}'
+      stats: '{taken, plural, one {# Versuch} other {# Versuche}} · {passed} bestanden'
       tabs:
         board: Rangliste
         results: Ergebnisse
     result:
       again: 'Erneut versuchen'
+      close: Schließen
       no_answer: '(Keine Antwort)'
+      passed: Bestanden!
       right: Richtig
+      score: '{score} von {max} Punkten ({percent}), Mindestbewertung {mark} %'
+      time: 'Zeit {time}'
       your_answer: 'Deine Antwort'
+    settings:
+      private: 'Zeige mich nicht auf Quiz-Ranglisten an'
   lib:
     units:
       hours: '{count, plural, one {# Stunde} other {# Stunden}}'
