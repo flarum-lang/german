@@ -15,18 +15,22 @@ ernestdefoe-curio:
       moderate: 'Sammlungen von jedem entfernen und hervorheben'
       view: 'Sammlungen anzeigen'
     settings:
+      cover_fit_blur: 'Ganzes Bild auf unscharfem Hintergrund anzeigen'
       cover_fit_crop: 'Füllend auf den Rahmen zuschneiden'
       cover_fit_help: 'Jeder Typ verfügt über eine bestimmte Profilbildform, sodass das Raster einer Sammlung übersichtlich bleibt. Ein Profilbild mit einer anderen Form (eine Spieleschachtel im Format 3:4 in einem 2:3-Rahmen) kann entweder vollständig auf einer unscharfen Kopie seiner selbst, vollständig auf einem einfarbigen Hintergrund oder beschnitten so dargestellt werden, dass es den Rahmen ausfüllt. Ein Typ, dessen Form mit den Profilbildern übereinstimmt (Hochformat 3:4 für Spieleschachteln), benötigt nichts davon.'
       cover_fit_label: 'Titelbilder, die nicht in den Rahmen passen'
+      cover_fit_plain: 'Ganzes Bild auf einfarbigem Hintergrund anzeigen'
       deepl_help: 'Wenn es in einer Sprache keine Beschreibung auf Wikipedia gibt, übersetzt DeepL die englische Version. Kostenlose Schlüssel enden auf „:fx“.'
       deepl_label: 'DeepL-Schlüssel (optional)'
       deepl_link: 'Schlüssel holen'
+      hide_empty_help: 'Standardmäßig deaktiviert, sodass auf der Seite „Sammlungen“ alle aktivierten Typen angezeigt werden, ebenso wie auf der Seite „Tags“ alle Tags; eine leere Seite lädt dazu ein, eine erste Sammlung anzulegen. Ist die Option aktiviert, werden nur Typen angezeigt, die bereits Einträge enthalten (alle, solange das Forum noch keine Einträge enthält).'
       hide_empty_label: 'Feldtypen verbergen, wenn sie leer sind'
       igdb_docs: '(Anleitung von IGDB)'
       igdb_help: 'Mit einer kostenlosen Twitch-Entwickler-Anwendung werden bei der Spielsuche die IGDB-Daten abgefragt: Titelbild, Entwickler, Publisher, Erscheinungsdatum, Plattformen und Genres. Registriere eine Anwendung (beliebiger Name; OAuth-Weiterleitungs-URL http://localhost; Kategorie „ Application Integration“), kopiere anschließend deren Client-ID und erstelle einen neuen geheimen Schlüssel. Ohne diesen werden Spiele über Marquee abgefragt, sofern diese App installiert ist.'
       igdb_id_label: 'IGDB Client-ID (optional)'
       igdb_link: 'Twitch-Anwendung erstellen'
       igdb_secret_label: 'IGDB Client-Secret'
+      layout_covers: Titelbildkacheln
       layout_help: 'Wie jeder Typ auf der Sammlungsseite angezeigt wird.'
       layout_label: 'Seitenlayout der Sammlungen'
       layout_tags: 'Wie die Tags-Seite (Flarum Standard)'
@@ -45,6 +49,7 @@ ernestdefoe-curio:
       widget_label: '„Kürzlich hinzugefügt“ Widget anbieten'
       widget_title: 'Kürzlich zu Sammlungen hinzugefügt'
     shape:
+      box: 'Hochformat 3:4 (Spielschachteln)'
       landscape: 'Querformat 4:3'
       portrait: 'Hochformat 2:3 (Bücher, Filme)'
       square: 'Quadratisch (Musikalben)'
@@ -87,6 +92,7 @@ ernestdefoe-curio:
       name: Name
       needs_marquee: 'Die Film- und TV-Suche erfolgt über Marquee, die Spielesuche über IGDB (in den obigen Einstellungen eingerichtet) oder Marquee. Solange die Installation noch nicht abgeschlossen ist, können Mitglieder dieses Typs weiterhin Barcodes scannen oder Artikel manuell hinzufügen.'
       'off': Aus
+      'on': An
       progress: 'Fortschritt verfolgen'
       progress_help: 'Jeder Artikel kann als „Noch nicht begonnen“, „In Bearbeitung“ oder „Abgeschlossen“ markiert werden: ein Symbol auf dem Artikel und ein Filter auf der Sammlungsseite. Praktisch für eine Liste mit noch zu spielenden Spielen, noch zu lesenden Büchern oder noch anzusehenden Filmen.'
       remove_choice: 'Auswahlmöglichkeit entfernen'
@@ -98,6 +104,11 @@ ernestdefoe-curio:
       translation_note: 'Titel und Beschreibungen aus den Nachschlagewerken werden automatisch in jeder installierten Sprache angezeigt (Wikidata und Wikipedia). Nur die Bezeichnungen, die du hier eingibst, müssen übersetzt werden.'
   api:
     collection_full: 'Eine Sammlung darf bis zu {count} Artikel beinhalten.'
+    import_missing: 'Wähle eine CSV-Datei zum Import.'
+    import_too_big: 'Die Datei ist zu groß (maximal {size}).'
+    import_too_often: 'Du hast mehrere Dateien in der vergangenen Stunde importiert. Bitte versuch es später erneut.'
+    import_unknown_format: 'Diese Datei kann Curio nicht lesen. Exportiere sie aus Curio, Discogs, Goodreads oder StoryGraph.'
+    not_your_item: 'Es können nur deine eigenen Artikel, die dir gehören oder zum Tausch angeboten werden, präsentiert werden.'
     too_many_collections: 'Du kannst bis zu {count} Sammlungen haben.'
     too_many_photos: 'Ein Artikel kann bis zu {count} Fotos haben.'
     type_disabled: 'Dieser Sammlungstyp ist ausgeschaltet.'
