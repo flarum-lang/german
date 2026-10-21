@@ -4,26 +4,77 @@
 
 ernestdefoe-onramp:
   admin:
+    export: Exportieren
+    import: Importieren
+    presets:
+      community: 'Community — sieben Schritte'
+      full: 'Vollständig — zwölf Schritte'
+      starter: 'Einsteiger — vier Schritte'
     settings:
       launcher_help: 'Ein Ring, der neben den Benachrichtigungen den Fortschritt des Mitglieds anzeigt, wobei der nächste Schritt nur einen Fingertipp entfernt ist. Drücke J, um ihn zu öffnen.'
       no_group: 'Keine Gruppe'
       reward_badge: Abzeichen
       reward_points: Punkte
+    steps:
+      add: 'Schritt hinzufügen'
+      any_tag: 'Jeder Tag'
+      badge: Abzeichen
+      count: 'Wie oft'
+      delete: 'Schritt löschen'
+      description: Beschreibung
+      drag: 'Zum Neuanordnen ziehen'
+      edit: 'Schritt bearbeiten'
+      from_extension: 'Gezählt durch {extension}.'
+      has_badge: Abzeichen
+      icon: Symbol
+      no_badge: 'Kein Abzeichen'
+      'off': Aus
+      path: Seite
+      points: Punkte
+      points_short: '{count} Pkt.'
+      required: Erforderlich
+      required_short: Erforderlich
+      save: 'Schritt speichern'
+      title: Titel
+      unavailable: 'Erweiterung aus'
     tabs:
+      funnel: Trichter
       settings: Einstellungen
+      steps: Fortschritt
+    types:
+      avatar: 'Füge ein Profilbild hinzu'
   email:
     reminder:
       body: "Du bist fast da. Als Nächstes: {next}.\n\nMach dort weiter, wo du aufgehört hast: {url}\n"
   forum:
     launcher:
+      label: 'Dein Fortschritt: {done} von {total} abgeschlossen'
       next: 'Als Nächstes'
+      sub: '{count, plural, =0 {Alles fertig} one {Noch ein Schritt} other {Noch # Schritte}}'
+      title: 'Dein Fortschritt'
     member:
+      finished: abgeschlossen
+      reset: 'Von vorne beginnen'
+      reset_confirm: 'Den Weg dieses Mitglieds von vorne beginnen? Bereits ausgezahlte Prämien werden nicht erneut ausgezahlt.'
+      started: Begonnen
+      status_graduated: 'Einarbeitung abgeschlossen'
+      status_open: 'Auf dem Weg'
       tab: Onramp
+      tick: 'Als fertig markieren'
+    page:
+      graduated_title: 'Du hast es geschafft'
+      title: 'Dein Fortschritt'
     step:
       points: '{count, plural, one {# Punkt} other {# Punkte}}'
       progress: '{done} von {total}'
+      required: Erforderlich
+      skip: Überspringen
+      skipped: Übersprungen
     toast:
       points: '{count, plural, one {+# Punkt} other {+# Punkte}}'
+      step: 'Schritt abgeschlossen: {title}'
+    widget:
+      title: 'Dein Fortschritt'
   lib:
     types:
       avatar:
@@ -31,6 +82,7 @@ ernestdefoe-onramp:
         description: 'Füge ein Profilbild hinzu, damit man dich im Forum wiedererkennt.'
         title: 'Verbinde deinen Namen mit einem Gesicht'
       bio:
+        button: 'Schreibe deine Biografie'
         title: 'Erzähle etwas über dich'
       discussion:
         button: 'Beginne eine Diskussion'
@@ -43,13 +95,20 @@ ernestdefoe-onramp:
         title: '{count, plural, one {Like einen Beitrag} other {Like # Beiträge}}'
       mention:
         button: 'Finde eine Diskussion'
+      message:
+        button: 'Öffne Nachrichten'
+        title: '{count, plural, one {Sende eine Privatnachricht} other {Sende # Privatnachrichten}}'
       nickname:
         button: 'Anzeigenamen festlegen'
+        description: 'Wähle den Namen aus, der neben deinen Beiträgen angezeigt werden soll.'
+        title: 'Wähle einen Anzeigenamen'
       read:
         button: 'Diskussionen durchsuchen'
         title: '{count, plural, one {Lies eine Diskussion} other {Lies # Diskussionen}}'
       reply:
         button: 'Finde eine Diskussion'
         title: '{count, plural, one {Antworte in einer Diskussion} other {Antworte # Mal}}'
+      upload:
+        button: 'Finde eine Diskussion'
       visit:
         title: 'Besuche eine Seite'
