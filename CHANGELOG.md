@@ -11,6 +11,7 @@ CHANGELOG
 * [`ernestdefoe/cuecard`](https://github.com/ernestdefoe/cuecard) (70% complete)
 * [`ernestdefoe/docket`](https://github.com/ernestdefoe/docket) (16% complete)
 * [`ernestdefoe/onramp`](https://github.com/ernestdefoe/onramp) (44% complete)
+* [`ernestdefoe/resurface`](https://github.com/ernestdefoe/resurface) (40% complete)
 * [`ernestdefoe/velvet-rope`](https://github.com/ernestdefoe/velvet-rope) (10% complete)
 
 
@@ -18,7 +19,7 @@ CHANGELOG
 
 * [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (40 added, 21% complete)
 * [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) (4 changed, 100% complete)
-* [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (404 added, 18 changed, 96% complete)
+* [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (426 added, 18 changed, 100% complete)
 * [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (32 added, 8 changed, 100% complete)
 * [`ernestdefoe/roleplay`](https://github.com/ernestdefoe/roleplay) (1 changed, 100% complete)
 * [`ernestdefoe/shelf`](https://github.com/ernestdefoe/shelf) (2 changed, 100% complete)
