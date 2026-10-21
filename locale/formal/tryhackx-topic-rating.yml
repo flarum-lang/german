@@ -99,6 +99,7 @@ tryhackx-topic-rating:
       tag_state_groups: 'Gruppen erlauben'
       tag_state_inherit: Geerbt
       tags_empty: 'Keine Tags gefunden. Erstelle zuerst Tags in den Tag-Einstellungen.'
+      tags_load_error: 'Die Tags konnten nicht geladen werden – weitere Informationen findest du in der Browserkonsole.'
       tags_only_secondary: 'Keine Haupt-Tags gefunden. Markiere mindestens ein Tag als Haupt-Tag in Admin → Tags damit es als oberste Karte hier erscheint.'
       tags_unavailable: 'Die Tag-Erweiterung muss installiert und aktiviert sein, um Bewertungsberechtigungen je Tag verwenden zu können.'
       untagged_enabled_help: 'Wenn deaktiviert, wird bei Diskussionen, die überhaupt keine Tags enthalten, kein Bewertungs-Widget angezeigt, und sie können nicht bewertet werden. Dies ist nützlich, wenn du möchtest, dass nur bestimmte Tags bewertet werden können. Standardmäßig aktiviert.'

@@ -63,6 +63,7 @@ walsgit_discussion_cards:
       tagImageUnsupportedMethod: 'Nicht unterstützte Methode ({method})'
       tagSettingsNoTagId: 'Es wurde keine tag-ID angegeben!'
       useListCards: 'Wert muss null, 0 oder 1 sein'
+      webpNotSupported: 'Die PHP-GD-Erweiterung deines Servers kann keine WebP-Bilder erstellen (imagewebp() fehlt). Aktiviere GD mit WebP-Unterstützung oder bitte deinen Hosting-Anbieter, dies zu tun.'
     settings:
       general:
         allowRepostLinks_help: 'Wenn Option aktiviert (zusammen mit der „repost“-Erweiterung), wird bei Karten für Diskussionen, deren Titel mit einer URL beginnt, diese URL geöffnet, sobald man auf den Titel der Karte klickt; wird hingegen auf einen anderen Teil der Karte geklickt, wird die Diskussion wie gewohnt geöffnet.'
