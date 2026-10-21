@@ -15,9 +15,13 @@ ernestdefoe-curio:
       moderate: 'Sammlungen von jedem entfernen und hervorheben'
       view: 'Sammlungen anzeigen'
     settings:
+      cover_fit_crop: 'Füllend auf den Rahmen zuschneiden'
+      cover_fit_help: 'Jeder Typ verfügt über eine bestimmte Profilbildform, sodass das Raster einer Sammlung übersichtlich bleibt. Ein Profilbild mit einer anderen Form (eine Spieleschachtel im Format 3:4 in einem 2:3-Rahmen) kann entweder vollständig auf einer unscharfen Kopie seiner selbst, vollständig auf einem einfarbigen Hintergrund oder beschnitten so dargestellt werden, dass es den Rahmen ausfüllt. Ein Typ, dessen Form mit den Profilbildern übereinstimmt (Hochformat 3:4 für Spieleschachteln), benötigt nichts davon.'
+      cover_fit_label: 'Titelbilder, die nicht in den Rahmen passen'
       deepl_help: 'Wenn es in einer Sprache keine Beschreibung auf Wikipedia gibt, übersetzt DeepL die englische Version. Kostenlose Schlüssel enden auf „:fx“.'
       deepl_label: 'DeepL-Schlüssel (optional)'
       deepl_link: 'Schlüssel holen'
+      hide_empty_label: 'Feldtypen verbergen, wenn sie leer sind'
       igdb_docs: '(Anleitung von IGDB)'
       igdb_help: 'Mit einer kostenlosen Twitch-Entwickler-Anwendung werden bei der Spielsuche die IGDB-Daten abgefragt: Titelbild, Entwickler, Publisher, Erscheinungsdatum, Plattformen und Genres. Registriere eine Anwendung (beliebiger Name; OAuth-Weiterleitungs-URL http://localhost; Kategorie „ Application Integration“), kopiere anschließend deren Client-ID und erstelle einen neuen geheimen Schlüssel. Ohne diesen werden Spiele über Marquee abgefragt, sofern diese App installiert ist.'
       igdb_id_label: 'IGDB Client-ID (optional)'
@@ -41,9 +45,9 @@ ernestdefoe-curio:
       widget_label: '„Kürzlich hinzugefügt“ Widget anbieten'
       widget_title: 'Kürzlich zu Sammlungen hinzugefügt'
     shape:
-      landscape: Querformat
-      portrait: Hochformat
-      square: Quadratisch
+      landscape: 'Querformat 4:3'
+      portrait: 'Hochformat 2:3 (Bücher, Filme)'
+      square: 'Quadratisch (Musikalben)'
     source:
       books: 'Bücher (Open Library)'
       games: 'Spiele (IGDB oder mittels Marquee)'
@@ -143,10 +147,13 @@ ernestdefoe-curio:
       title_edit: Sammlungs-Einstellungen
       title_new: 'Neue Sammlung'
       type: 'Was sammelst du?'
+      type_change_help: 'Artikel behalten ihre Details bei. Die Aufschlüsselung und die Filter richten sich nach den Feldern des neuen Feldtyps.'
+      type_off_group: 'Ausgeschaltet — Nur Administratoren sehen diese'
+      type_pick: 'Typ wählen'
       visibility: 'Wer diese Sammlung sehen kann'
       wishlist_public: 'Meine Wunschliste anderen anzeigen'
     filter:
-      all: Alle
+      all: 'Alle Artikel'
       any: 'Jedes {field}'
       owned: 'Im Besitz'
       trade: 'Zum Tausch'
@@ -196,11 +203,13 @@ ernestdefoe-curio:
       from_wikipedia: 'Beschreibung von Wikipedia'
       genres: Genres
       have_too: 'Das habe ich auch'
+      hide_other: 'Beschreibung in {language} ausblenden'
       languages: '{count, plural, one {# Sprache} other {# Sprachen}}'
       less: 'Weniger anzeigen'
       missing: 'Dieser Artikel existiert nicht oder ist für dich nicht sichtbar.'
       more: 'Weiter lesen'
       'no': Nein
+      no_description: 'Keine Beschreibung verfügbar.'
       offers: '{count, plural, one {# Mitglied bietet dies zum Tausch} other {# Mitglieder bieten dies zum Tausch}}'
       photo_n: 'Foto {n}'
       platforms: Plattformen
@@ -208,6 +217,7 @@ ernestdefoe-curio:
       publisher: Publisher
       released: Veröffentlicht
       show_off: 'Zeig es allen'
+      show_other: 'Beschreibung in {language} anzeigen'
       translated_deepl: 'Übersetzt mit DeepL'
       want_it: 'Zu meiner Wunschliste hinzufügen'
       'yes': Ja
@@ -276,6 +286,7 @@ ernestdefoe-curio:
       search: '{count} Artikel durchsuchen…'
       settings: Einstellungen
       since: 'Seit {date}'
+      sort_label: Reihenfolge
       trade: 'Zum Tausch'
       view_grid: Raster
       view_label: Darstellung

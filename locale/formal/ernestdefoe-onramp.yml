@@ -5,16 +5,31 @@
 ernestdefoe-onramp:
   admin:
     export: Exportieren
+    funnel:
+      days: '{count, plural, one {# Tag} other {# Tage}}'
+      graduated: Abgeschlossen
+      hours: '{count, plural, one {# Stunde} other {# Stunden}}'
+      minutes: '{count, plural, one {# Minute} other {# Minuten}}'
+      open: 'Auf dem Weg'
+      started: Begonnen
+      step: Schritt
+      week: 'Woche vom'
+      weeks: '{count, plural, other {Letzte # Wochen}}'
     import: Importieren
     presets:
       community: 'Community — sieben Schritte'
       full: 'Vollständig — zwölf Schritte'
       starter: 'Einsteiger — vier Schritte'
     settings:
+      enabled: 'Onramp ist angeschaltet'
       launcher_help: 'Ein Ring, der neben den Benachrichtigungen den Fortschritt des Mitglieds anzeigt, wobei der nächste Schritt nur einen Fingertipp entfernt ist. Drücke J, um ihn zu öffnen.'
       no_group: 'Keine Gruppe'
+      reminders: 'Erinnerungen senden'
       reward_badge: Abzeichen
+      reward_group: 'Zu Gruppe hinzufügen'
       reward_points: Punkte
+    start:
+      heading: 'Mitglieder, die vor der Aktivierung von Onramp beigetreten sind'
     steps:
       add: 'Schritt hinzufügen'
       any_tag: 'Jeder Tag'
@@ -43,6 +58,14 @@ ernestdefoe-onramp:
       steps: Fortschritt
     types:
       avatar: 'Füge ein Profilbild hinzu'
+      discussion: 'Diskussionen starten'
+      follow_discussion: 'Diskussionen folgen (Subscriptions)'
+      like_given: 'Beiträge liken (Likes)'
+      like_received: 'Likes empfangen (Likes)'
+      mention: 'Jemanden erwähnen (Mentions)'
+      read: 'Diskussionen lesen'
+      reply: 'In Diskussionen antworten'
+      visit: 'Eine Seite besuchen'
   email:
     reminder:
       body: "Du bist fast da. Als Nächstes: {next}.\n\nMach dort weiter, wo du aufgehört hast: {url}\n"
