@@ -10,7 +10,7 @@ fof-sitemap:
       build_button_help: 'Löst eine sofortige Neuerstellung aller Sitemaps-Dateien aus. Der Auftrag wird in die Warteschlange eingereiht, sofern diese konfiguriert ist, andernfalls wird er sofort ausgeführt.'
       build_error: 'Neuerstellung der Sitemap konnte nicht in die Warteschlange eingereiht werden. Überprüfe die Logs und Konfiguration der Warteschlange.'
       build_success: 'Neuerstellung der Sitemap wurde erfolgreich in die Warteschlange eingereiht. Du kannst den Fortschritt in den Logs verfolgen.'
-      exclude_tags: 'Alle Themenseiten von Sitemap ausschließen'
+      exclude_tags: 'Alle Tag-Seiten von der Sitemap ausschließen'
       exclude_tags_help: 'Standardmäßig werden alle Tags, die für Gäste sichtbar ist, indiziert'
       exclude_users: 'Nutzerprofile von Sitemap ausschließen'
       exclude_users_help: 'Standardmäßig wird jeder Nutzer, der für Gäste sichtbar ist, indiziert'
