@@ -8,7 +8,7 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`edgeinfinity/diy-homepage`](https://github.com/edgeinfinity1/flarum-diy-homepage) (13% complete)
-* [`ernestdefoe/brainstorm`](https://github.com/ernestdefoe/brainstorm) (50% complete)
+* [`ernestdefoe/brainstorm`](https://github.com/ernestdefoe/brainstorm) (49% complete)
 * [`ernestdefoe/cuecard`](https://github.com/ernestdefoe/cuecard) (100% complete)
 * [`ernestdefoe/docket`](https://github.com/ernestdefoe/docket) (12% complete)
 * [`ernestdefoe/onramp`](https://github.com/ernestdefoe/onramp) (44% complete)
@@ -18,12 +18,12 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
-* [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (40 added, 21% complete)
+* [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (40 added, 20% complete)
 * [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) (4 changed, 100% complete)
-* [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (426 added, 18 changed, 100% complete)
+* [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (426 added, 18 changed, 89% complete)
 * [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (32 added, 8 changed, 100% complete)
 * [`ernestdefoe/roleplay`](https://github.com/ernestdefoe/roleplay) (1 changed, 100% complete)
-* [`ernestdefoe/shelf`](https://github.com/ernestdefoe/shelf) (2 changed, 100% complete)
+* [`ernestdefoe/shelf`](https://github.com/ernestdefoe/shelf) (2 changed, 99% complete)
 * [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap) (2 changed, 100% complete)
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor) (20 added, 100% complete)
 * [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget) (6 added, 100% complete)
