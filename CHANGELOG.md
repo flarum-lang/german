@@ -7,6 +7,7 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`edgeinfinity/diy-homepage`](https://github.com/edgeinfinity1/flarum-diy-homepage) (13% complete)
 * [`ernestdefoe/brainstorm`](https://github.com/ernestdefoe/brainstorm) (50% complete)
 * [`ernestdefoe/cuecard`](https://github.com/ernestdefoe/cuecard) (100% complete)
 * [`ernestdefoe/docket`](https://github.com/ernestdefoe/docket) (12% complete)
@@ -23,6 +24,7 @@ CHANGELOG
 * [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (32 added, 8 changed, 100% complete)
 * [`ernestdefoe/roleplay`](https://github.com/ernestdefoe/roleplay) (1 changed, 100% complete)
 * [`ernestdefoe/shelf`](https://github.com/ernestdefoe/shelf) (2 changed, 100% complete)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap) (2 changed, 100% complete)
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor) (20 added, 100% complete)
 * [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget) (6 added, 100% complete)
 * [`linkrobins/markdown-widget`](https://github.com/linkrobins/markdown-widget) (6 added, 100% complete)
