@@ -11,7 +11,7 @@ CHANGELOG
 * [`ernestdefoe/brainstorm`](https://github.com/ernestdefoe/brainstorm) (49% complete)
 * [`ernestdefoe/cuecard`](https://github.com/ernestdefoe/cuecard) (100% complete)
 * [`ernestdefoe/docket`](https://github.com/ernestdefoe/docket) (12% complete)
-* [`ernestdefoe/onramp`](https://github.com/ernestdefoe/onramp) (44% complete)
+* [`ernestdefoe/onramp`](https://github.com/ernestdefoe/onramp) (43% complete)
 * [`ernestdefoe/pigeonhole`](https://github.com/ernestdefoe/pigeonhole) (100% complete)
 * [`ernestdefoe/resurface`](https://github.com/ernestdefoe/resurface) (40% complete)
 * [`ernestdefoe/velvet-rope`](https://github.com/ernestdefoe/velvet-rope) (10% complete)
