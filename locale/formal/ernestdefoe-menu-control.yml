@@ -51,6 +51,10 @@ ernestdefoe-menu-control:
     show: 'Element anzeigen'
     sticky_help: 'Die Seitenleiste, einschließlich der Schaltfläche „Diskussion starten“, bleibt auf dem Bildschirm sichtbar, während Besucher scrollen. Nur auf dem Desktop.'
     sticky_label: 'Seitenleiste beim Scrollen oben fixiert behalten'
+    sticky_long_help: 'Beim Scrollen innerhalb der Seite bleibt der obere Rand der Seitenleiste an Ort und Stelle, während die Liste darin eigenständig scrollt. Folgt man der Seite, scrollt die Seitenleiste mit der Seite mit, bis ihr Ende sichtbar wird, und bleibt dann an dieser Stelle stehen; scrollt man wieder nach oben, wird ihr oberer Rand wieder sichtbar.'
+    sticky_long_label: 'Wenn die sichtbare Seitenleiste höher als die Fensterhöhe ist'
+    sticky_long_page: 'Mit der Seite scrollen, dann im Sichtfeld bleiben'
+    sticky_long_scroll: 'Innerhalb der Seitenleiste scrollen'
     unhighlight: 'Hervorhebung entfernen'
     url_help: 'Eine Webadresse (beispiel.de/seite oder https://…), eine „mailto:“- oder „tel:“-Adresse oder ein Pfad in diesem Forum, wie beispielsweise /tags.'
     url_label: Adresse

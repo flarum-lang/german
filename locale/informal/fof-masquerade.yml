@@ -23,8 +23,10 @@ fof-masquerade:
   admin:
     buttons:
       add-field: 'Feld anlegen'
+      add-option: 'Auswahl hinzufügen'
       delete-field: 'In den Papierkorb verschieben'
       delete-field-permanently: 'Feld „{field}“ endgültig löschen'
+      delete-option: 'Auswahl entfernen'
       edit-field: 'Änderungen speichern'
       restore-field: 'Feld „{field}“ wiederherstellen'
     fields:

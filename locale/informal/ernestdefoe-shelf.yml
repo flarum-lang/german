@@ -8,6 +8,7 @@ ernestdefoe-shelf:
     min_ratings_label: 'Bewertungen, die ein Titel benötigt, um in der Liste der bestbewerteten aufgeführt zu werden'
     permission_moderate: 'Regallisten von allen löschen'
     permission_use: 'Titel bewerten und in Regal aufnehmen und auflisten'
+    widget_top_rated: 'Bestbewertet diesen Monat'
   api:
     empty_entry: 'Gib eine Bewertung ab, vergebe einen Status oder füge es zu deiner Sammlung hinzu.'
     list_full: 'Eine Liste kann bis zu {count} Titel enthalten.'
