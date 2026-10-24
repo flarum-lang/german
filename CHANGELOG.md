@@ -20,11 +20,11 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (40 added, 20% complete)
-* [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) (4 changed, 100% complete)
-* [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (426 added, 18 changed, 86% complete)
+* [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) (4 changed, 98% complete)
+* [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (426 added, 18 changed, 84% complete)
 * [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (32 added, 8 changed, 100% complete)
 * [`ernestdefoe/menu-control`](https://github.com/ernestdefoe/menu-control) (8 added, 100% complete)
-* [`ernestdefoe/roleplay`](https://github.com/ernestdefoe/roleplay) (1 changed, 100% complete)
+* [`ernestdefoe/roleplay`](https://github.com/ernestdefoe/roleplay) (1 changed, 98% complete)
 * [`ernestdefoe/shelf`](https://github.com/ernestdefoe/shelf) (2 added, 2 changed, 100% complete)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade) (4 added, 100% complete)
 * [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap) (2 changed, 100% complete)
