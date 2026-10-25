@@ -15,6 +15,7 @@ CHANGELOG
 * [`ernestdefoe/pigeonhole`](https://github.com/ernestdefoe/pigeonhole) (100% complete)
 * [`ernestdefoe/resurface`](https://github.com/ernestdefoe/resurface) (40% complete)
 * [`ernestdefoe/velvet-rope`](https://github.com/ernestdefoe/velvet-rope) (10% complete)
+* [`huoxin/auto-follow-discussion`](https://github.com/huoxin233/flarum-ext-auto-follow-discussion) (100% complete)
 
 
 **Updated translations for extensions**:
