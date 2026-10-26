@@ -21,7 +21,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
-* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (12 added, 6 changed, 84% complete)
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (22 added, 8 changed, 100% complete)
 * [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview) (2 changed, 100% complete)
 * [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (56 added, 23% complete)
 * [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) (6 added, 4 changed, 100% complete)
