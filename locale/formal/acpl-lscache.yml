@@ -19,12 +19,16 @@ acpl-lscache:
     purge_all: '=> acpl-lscache.ref.purge_cache'
     purge_modal:
       all_label: 'Alle zwischengespeicherten Seiten'
+      empty_list_error: 'Gib mindestens ein Element an.'
       paths_help: 'Eine URL oder Pfad pro Zeile, zum Beispiel <code>{url}/t/allgemein</code> oder <code>/t/allgemein</code>.'
       paths_label: URL
+      submit_button: Löschen
+      tags_help: 'Gib ein LSCache Tag pro Zeile ein, zum Beispiel <code>discussion_123</code> oder <code>discussions</code>.'
+      tags_label: Cache-Tag
       title: '=> acpl-lscache.ref.purge_cache'
       type_label: 'Löschen am'
     purge_on_discussion_update_help: 'Gib die URLs oder Cache-Tags ein, die du löschen möchten, wenn eine Diskussion aktualisiert wird, jeweils eine pro Zeile. Die URL sollte mit <code>/</code> beginnen, z. B. <code>/rankings</code>, und das Cache-Tag sollte mit <code>tag=</code> beginnen, z. B. <code>tag=rankings</code>. Bei mehreren Routen ist es schneller, eine Regel in .htaccess mit einem regulären Ausdruck hinzuzufügen, der Routen markiert, und hier nur dieses Tag einzugeben. <a>Weitere Informationen</a>. Standardmäßig wird der Cache für die Startseite und aktualisierte Diskussionen gelöscht.'
-    purge_on_discussion_update_label: 'URLs/Tags löschen, wenn Diskussion/en oder ein Beitrag/Beiträge aktualisiert werden'
+    purge_on_discussion_update_label: 'URLs/Tags löschen, wenn Diskussionen oder Beiträge aktualisiert werden'
     serve_stale_help: 'Wenn zwischengespeicherte Inhalte geleert werden, soll LiteSpeed die zuvor zwischengespeicherte Version bereitstellen, während eine neue Kopie erstellt wird. Dies verringert die Serverauslastung, allerdings werden den Besuchern möglicherweise vorübergehend veraltete Inhalte angezeigt. Ist diese Option deaktiviert, müssen Besucher auf eine neu geladene Seite warten.'
     serve_stale_label: 'Veraltete Inhalte bereitstellen'
     status_codes_cache_help: 'Gib einen HTTP-Statuscode und die Anzahl der Sekunden an, für die diese Seite zwischengespeichert werden soll. Verwende ein Leerzeichen als Trennzeichen. Ein Eintrag pro Zeile.'
@@ -38,3 +42,8 @@ acpl-lscache:
     purge_success: 'LiteSpeed-Server wurde benachrichtigt, um LSCache-Einträge zu löschen.'
   ref:
     purge_cache: 'LSCache löschen'
+flarum-audit:
+  lib:
+    browser:
+      acpl-lscache:
+        cache_purged: 'LiteSpeed-Cache gelöscht'
