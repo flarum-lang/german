@@ -21,12 +21,14 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview) (2 changed, 100% complete)
 * [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (56 added, 23% complete)
-* [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) (4 changed, 98% complete)
+* [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) (6 added, 4 changed, 100% complete)
 * [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (426 added, 18 changed, 78% complete)
 * [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (32 added, 8 changed, 100% complete)
 * [`ernestdefoe/menu-control`](https://github.com/ernestdefoe/menu-control) (8 added, 2 changed, 100% complete)
-* [`ernestdefoe/roleplay`](https://github.com/ernestdefoe/roleplay) (1 changed, 98% complete)
+* [`ernestdefoe/recipes`](https://github.com/ernestdefoe/recipes) (4 added, 2 changed, 88% complete)
+* [`ernestdefoe/roleplay`](https://github.com/ernestdefoe/roleplay) (2 added, 1 changed, 100% complete)
 * [`ernestdefoe/shelf`](https://github.com/ernestdefoe/shelf) (2 added, 2 changed, 100% complete)
 * [`fof/badges`](https://github.com/FriendsOfFlarum/badges) (52 added, 100% complete)
 * [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences) (4 added, 100% complete)
@@ -39,6 +41,7 @@ CHANGELOG
 * [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget) (6 added, 100% complete)
 * [`linkrobins/markdown-widget`](https://github.com/linkrobins/markdown-widget) (6 added, 100% complete)
 * [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki) (2 added, 100% complete)
+* [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum) (2 added, 100% complete)
 * [`tryhackx/flarum-cover-studio`](https://github.com/TryHackX/flarum-cover-studio) (2 added, 100% complete)
 * [`tryhackx/flarum-topic-rating`](https://github.com/TryHackX/flarum-topic-rating) (2 added, 100% complete)
 * [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards) (2 added, 100% complete)
