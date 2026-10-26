@@ -6,17 +6,23 @@ acpl-lscache:
   admin:
     cache_enabled_help: 'Auf der <a>Informationsseite</a> erfährst du, wie du den Cache testen kannst. HINWEIS: Wenn du den Cache deaktivierst, werden alle zwischengespeicherten Einträge für diese Seite gelöscht.'
     cache_enabled_label: 'LSCache einschalten'
-    cache_exclude_help: 'Ein Pfadmuster pro Zeile: <code>/private</code> passt teilweise, <code>^/private$</code> passt exakt. Abfragezeichenfolgen werden ignoriert. Änderungen führen nicht zum Leeren des bestehenden Caches; optional können bestimmte URLs über die Befehlszeile oder der gesamte LSCache über das Admin-Cache-Menü geleert werden.'
+    cache_exclude_help: 'Ein regulärer Ausdruck pro Zeile: <code>/private</code> trifft auf Pfade die /private irgendwo enthalten, <code>^/private$</code> trifft nur auf exakt /private zu. Abfrageparameter werden ignoriert. Bereits zwischengespeicherte Seiten bleiben verfügbar, bis sie ablaufen oder Sie sie löschen. Um Ausschlüsse sofort anzuwenden, löschen Sie die betroffenen URLs über die Befehlszeilenschnittstelle (CLI) oder löschen Sie alle LSCache-Einträge über das Admin-Cache-Menü.'
     cache_exclude_label: 'Pfade nicht zwischenspeichern'
     clearing_cache_listener_help: 'Wenn deaktiviert, wird der Seitencache nach geringfügigen Änderungen an Assets nicht neu aufgebaut. Zwischengespeicherte Seiten können neu erstellte Assets über dieselben URLs laden, während ein CDN wie Cloudflare möglicherweise weiterhin ältere Versionen aus seinem Cache bereitstellt. Auch Seiteneinstellungen und Erweiterungsdaten bleiben möglicherweise veraltet. Wenn deaktiviert, solltest du den LSCache nach größeren Updates oder Änderungen an Erweiterungen manuell leeren.'
     clearing_cache_listener_label: 'LSCache löschen, wenn der Flarum-Cache geleert ist'
-    drop_qs_help: "Verwenden Sie diese Funktion, um bestimmte Abfrageparameter wie <code>fbclid</code> oder <code>utm*</code> beim Caching zu entfernen. Dadurch wird das redundante Caching von Seiten mit „unnötigen” Abfragezeichenfolgen wie UTM-Codes verhindert, die zwar für die Nachverfolgung verwendet werden, aber keinen Einfluss auf den Seiteninhalt haben. Hierfür ist LSWS v5.2.3 oder neuer erforderlich. Listen Sie die zu entfernenden Abfragezeichenfolgen auf, eine pro Zeile. <a>Erfahren Sie mehr über das Entfernen von Abfragezeichenfolgen</a>.<br></br>\n⚠️ Diese Einstellung ändert die Datei .htaccess.\n"
+    drop_qs_help: "Gib die Namen der Abfrageparameter ein, die beim Zwischenspeichern ignoriert werden sollen, jeweils einen pro Zeile, zum Beispiel <code>fbclid</code> oder <code>utm*</code>. URLs, die sich nur in diesen Parametern unterscheiden, teilen sich dieselbe zwischengespeicherte Seite. Ignoriere nur Parameter, die den Seiteninhalt nicht verändern. Erfordert LSWS v5.2.3 oder neuer. <a>Erfahre mehr über das Weglassen von Abfragezeichenfolgen</a>.<br></br>\n⚠️ Diese Einstellung führt zu Änderungen an der .htaccess-Datei.\n"
     drop_qs_label: 'Abfragezeichenfolgen löschen'
     permissions:
       purge: '=> acpl-lscache.ref.purge_cache'
     public_cache_ttl_help: 'Gib an, wie lange (in Sekunden) öffentliche Seiten zwischengespeichert werden. Standard sind 604800 Sekunden (eine Woche).'
     public_cache_ttl_label: 'Öffentliche Standard-Cache-TTL'
     purge_all: '=> acpl-lscache.ref.purge_cache'
+    purge_modal:
+      all_label: 'Alle zwischengespeicherten Seiten'
+      paths_help: 'Eine URL oder Pfad pro Zeile, zum Beispiel <code>{url}/t/allgemein</code> oder <code>/t/allgemein</code>.'
+      paths_label: URL
+      title: '=> acpl-lscache.ref.purge_cache'
+      type_label: 'Löschen am'
     purge_on_discussion_update_help: 'Gib die URLs oder Cache-Tags ein, die du löschen möchten, wenn eine Diskussion aktualisiert wird, jeweils eine pro Zeile. Die URL sollte mit <code>/</code> beginnen, z. B. <code>/rankings</code>, und das Cache-Tag sollte mit <code>tag=</code> beginnen, z. B. <code>tag=rankings</code>. Bei mehreren Routen ist es schneller, eine Regel in .htaccess mit einem regulären Ausdruck hinzuzufügen, der Routen markiert, und hier nur dieses Tag einzugeben. <a>Weitere Informationen</a>. Standardmäßig wird der Cache für die Startseite und aktualisierte Diskussionen gelöscht.'
     purge_on_discussion_update_label: 'URLs/Tags löschen, wenn Diskussion/en oder ein Beitrag/Beiträge aktualisiert werden'
     serve_stale_help: 'Wenn zwischengespeicherte Inhalte geleert werden, soll LiteSpeed die zuvor zwischengespeicherte Version bereitstellen, während eine neue Kopie erstellt wird. Dies verringert die Serverauslastung, allerdings werden den Besuchern möglicherweise vorübergehend veraltete Inhalte angezeigt. Ist diese Option deaktiviert, müssen Besucher auf eine neu geladene Seite warten.'

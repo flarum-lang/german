@@ -39,7 +39,13 @@ ernestdefoe-recipes:
       title: Rezeptfelder
       unit: Einheit
       unit_placeholder: g
+    permissions:
+      upload_photos: 'Rezeptfotos hochladen'
+    settings:
+      image_urls_help: 'Wenn deaktiviert, können Rezeptfotos nur über das Rezeptformular hochgeladen werden, und ein Rezept, das auf ein Bild einer anderen Website verweist, wird beim Speichern abgelehnt. Bereits veröffentlichte Rezepte behalten ihre Bilder.'
+      image_urls_label: 'Bilder von Webadressen erlauben'
   api:
+    image_urls_off: 'Dieses Forum erlaubt nur das Hochladen von Rezeptfotos über das Rezeptformular, nicht aber Bilder von Webadressen.'
     photo_unavailable: 'Das Rezeptbild ist nicht verfügbar. Bitte erneut hochladen.'
   forum:
     based_on: 'Basierend auf einem anderen Rezept'
