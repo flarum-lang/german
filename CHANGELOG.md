@@ -23,7 +23,7 @@ CHANGELOG
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (22 added, 8 changed, 100% complete)
 * [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview) (2 changed, 100% complete)
-* [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (56 added, 23% complete)
+* [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (100 added, 33% complete)
 * [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) (6 added, 4 changed, 100% complete)
 * [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (426 added, 18 changed, 78% complete)
 * [`ernestdefoe/depot`](https://github.com/ernestdefoe/depot) (38 added, 90% complete)
