@@ -22,7 +22,7 @@ CHANGELOG
 
 * [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (56 added, 23% complete)
 * [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) (4 changed, 98% complete)
-* [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (426 added, 18 changed, 80% complete)
+* [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (426 added, 18 changed, 78% complete)
 * [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (32 added, 8 changed, 100% complete)
 * [`ernestdefoe/menu-control`](https://github.com/ernestdefoe/menu-control) (8 added, 100% complete)
 * [`ernestdefoe/roleplay`](https://github.com/ernestdefoe/roleplay) (1 changed, 98% complete)
