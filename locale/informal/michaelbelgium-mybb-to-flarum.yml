@@ -28,6 +28,7 @@ michaelbelgium-mybb-to-flarum:
           debug_mode_label: 'Protokollierung aktivieren'
           migrate_attachments_label: 'Anhänge migrieren'
           migrate_avatars_label: 'Avatare migrieren'
+          migrate_private_messages_label: 'Privatnachrichten migrieren (erfordert flarum/messages)'
           migrate_soft_posts_label: 'Leicht gelöschte Beiträge migrieren'
           migrate_soft_threads_label: 'Leicht gelöschte Threads migrieren'
           title: 'Andere Optionen'

@@ -14,8 +14,11 @@ ernestdefoe-calendar:
     categories_help: 'Mithilfe farbcodierter Kategorien können Mitglieder den Kalender filtern und jedem Termin einen farblichen Akzent verleihen. Änderungen werden zeilenweise gespeichert.'
     category_add: 'Kategorie hinzufügen'
     category_color: Farbe
+    category_delete: 'Kategorie löschen'
     category_delete_confirm: 'Diese Kategorie löschen? Die Daten der Veranstaltungen bleiben erhalten, die farbige Kennzeichnung wird jedoch entfernt.'
     category_name: Name
+    category_preset: 'Farbe {color} verwenden'
+    category_save: 'Kategorie speichern'
     category_saved: 'Kategorie gespeichert.'
     date_order: Datumsformat
     date_order_auto: Automatisch

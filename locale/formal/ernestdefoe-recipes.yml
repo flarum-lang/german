@@ -57,6 +57,8 @@ ernestdefoe-recipes:
       timer_reset: 'Timer zurücksetzen'
       timer_resume: 'Timer fortsetzen'
       timer_start: 'Timer für {time} starten'
+      untick: 'Häkchen entfernen'
+      untick_label: 'Häkchen von jeder Zutat und jedem Schritt entfernen'
       variants: Varianten
     cook: Kochzeit
     directory:
@@ -91,7 +93,7 @@ ernestdefoe-recipes:
       empty: 'Füge einen Titel, eine Zutat oder einen Schritt hinzu.'
       field_recipe: 'Gesamtes Rezept'
       field_serving: 'Pro Portion'
-      image: Foto-URL
+      image: Foto
       image_help: 'Optional. Wird oben auf der Karte angezeigt und Suchmaschinen zur Verfügung gestellt.'
       ingredients: Zutaten
       ingredients_help: 'Je eine Angabe pro Zeile. Beginne mit einer Menge (1 1/2 Tassen, 200 g, ½ TL), die sich entsprechend der Anzahl der Portionen skaliert. Eine Zeile, die mit einem Doppelpunkt endet, leitet eine Gruppe ein.'

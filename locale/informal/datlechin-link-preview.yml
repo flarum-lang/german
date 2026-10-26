@@ -45,7 +45,7 @@ datlechin-link-preview:
       max_previews_per_post_label: 'Anzahl der Vorschauen pro Beitrag'
       open_links_in_new_tab_help: 'Betrifft nur externe Seiten. Alle Diskussionen öffnen immer im selben Tab.'
       open_links_in_new_tab_label: 'Links in einem neuen Browser-Tab öffnen'
-      preview_internal_links_help: "Ein Link auf eine Diskussion, Benutzer- oder Tag-Seite oder die Startseite hier im Forum wird zu einem lokalen Datenbankzugriff, keine zusätzliche Abfrage und niemand kann mehr sehen, als sie auch öffnen könnten.\n"
+      preview_internal_links_help: "Ein Link auf eine Seite hier, wie auf eine Diskussion, Benutzer-, Tag-, Index-Seite oder die Seite einer anderen erweiterung wird zu einem lokalen Datenbankzugriff. Keine zusätzliche Abfrage wird ausgeführt und niemand kann mehr sehen, als sie auch öffnen könnten.\n"
       preview_internal_links_label: 'Vorschau auch für Links auf dieses Forum'
       skip_media_links_help: 'Für Links, die mit einer Bild-, Audio- oder Videodatei enden. Diese werden bereits von Flarum angezeigt.'
       skip_media_links_label: 'Links auf Mediendateien überspringen'

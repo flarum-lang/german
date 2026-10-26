@@ -16,6 +16,7 @@ ernestdefoe-roleplay:
     join_too_late: 'Du kannst nur vor Beginn der Begegnung beitreten.'
     no_combatants: 'Füge vor dem Start mindestens einen Kämpfer hinzu.'
     not_active: 'Begegnung ist nicht aktiv.'
+    not_rp_discussion: 'Rollenspiel ist für die Tags dieser Diskussion nicht aktiviert.'
     summary:
       defeated: 'Besiegt: {names}'
       ended: '⚔️ {title} ist vorbei.'
