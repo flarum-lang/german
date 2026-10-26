@@ -46,19 +46,50 @@ ernestdefoe-cadence:
         previous: 'Vorheriger Monat'
       day_flame: '{count}-Tages Flamme'
       days_count: '{count, plural, one {# Tag} other {# Tage}}'
+      days_to_tier: '{count, plural, one {# Tag bis {tier}} other {# Tage bis {tier}}}'
       days_unit: '{count, plural, one {Tag} other {Tage}}'
       flame_out_short: 'Flamme erloschen'
+      how:
+        embers: 'Eine Flamme die {count}+ Tage brannte und erlosch wird {hours} Stunden Glut hinterlassen. Schreibe etwas, um {share} davon zu retten.'
+        grace: 'Verpasse {count, plural, one {# Tag} other {# Tag}} hintereinander und deine Flamme vergibt dir.'
+        timezone: 'Tage folgen deiner Zeitzone und nicht der des Servers.'
       leaderboard: Rangliste
       legend_fed: Genährt
       longest: 'Längste Serie'
       no_flame: 'Noch keine Flamme'
+      page_intro_contribute: 'Jeder Tag, an dem du etwas postest, antwortest, likest oder reagierst, hält deine Flamme am Leben. Wenn du zu viele Tage auslässt, erlischt sie. Halte sie am Leben.'
+      page_intro_visit: 'Jeder Tag an dem du vorbeischaust, hält deine Flamme am Leben. Wenn du zu viele Tage auslässt, erlischt sie. Halte sie am Leben.'
       page_title: Serien
       profile_tab: Serie
       rank: 'Rang #{rank}'
+      rival_ahead: '{member} liegt {count, plural, one {# Tag} other {# Tage}} vor dir.'
+      settings:
+        celebrate_all: 'Jeden Tag'
+        celebrate_never: Nie
+        title: Serien
+      side:
+        from_days: 'von {count, plural, one {# Tag} other {# Tagen}}'
       started: 'Angefangen {date}'
       their_flame: '{name}s Flamme'
       time_left: '{hours} h {minutes} m verbleiben'
+      toast:
+        milestone: 'Meilenstein erreicht: {count, plural, one {# Tag} other {# Tage}} durchgehendes Feuer.'
+        record: 'Neue persönliche Bestleistung: {count, plural, one {# Tag} other {# Tage}}.'
+        revived: 'Deine Flamme brennt wieder: {count, plural, one {# Tag} other {# Tage}}.'
       total_days: 'Tage insgesamt'
+      widgets:
+        my_flame: 'Meine Flamme'
+        top_flames: 'Beste Flammen'
       your_daily_streak: 'Deine Tagesserie'
       your_flame: 'Deine Flamme'
       your_streak_page: 'Deine Serienseite'
+  lib:
+    streak:
+      journal:
+        milestone: '{count, plural, one {# Tag} other {# Tage}} erreicht'
+      tiers:
+        blaze: Feuerball
+        eternal: 'Ewige Flamme'
+        inferno: Inferno
+        kindled: Entzündet
+        spark: Funke
