@@ -21,13 +21,14 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (2 added, 2 changed, 69% complete)
 * [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview) (2 changed, 100% complete)
 * [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (56 added, 23% complete)
 * [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) (6 added, 4 changed, 100% complete)
 * [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (426 added, 18 changed, 78% complete)
 * [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (32 added, 8 changed, 100% complete)
 * [`ernestdefoe/menu-control`](https://github.com/ernestdefoe/menu-control) (8 added, 2 changed, 100% complete)
-* [`ernestdefoe/recipes`](https://github.com/ernestdefoe/recipes) (4 added, 2 changed, 88% complete)
+* [`ernestdefoe/recipes`](https://github.com/ernestdefoe/recipes) (22 added, 2 changed, 96% complete)
 * [`ernestdefoe/roleplay`](https://github.com/ernestdefoe/roleplay) (2 added, 1 changed, 100% complete)
 * [`ernestdefoe/shelf`](https://github.com/ernestdefoe/shelf) (2 added, 2 changed, 100% complete)
 * [`fof/badges`](https://github.com/FriendsOfFlarum/badges) (52 added, 100% complete)
