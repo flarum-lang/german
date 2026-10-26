@@ -7,6 +7,8 @@ fof-default-user-preferences:
     settings:
       discloseOnline: 'Onlinestatus veröffentlichen'
       discloseOnline-help: 'Wenn diese Option aktiviert ist, können andere Nutzer den Onlinestatus neuer Benutzer sehen. Administratoren und andere Benutzer mit Berechtigung können weiterhin den Onlinestatus unabhängig von dieser Einstellung sehen.'
+      followAfterCreate: 'Folgen nach Erstellung'
+      followAfterCreate-help: 'Wenn aktiviert, folgen neue Nutzer automatisch den von ihnen erstellten Diskussionen.'
       followAfterReply: 'Nach Antwort folgen'
       followAfterReply-help: 'Wenn aktiviert, folgen neue Benutzer automatisch Diskussionen, auf die sie antworten oder die sie kommentieren.'
       groupMentioned: 'E-Mail bei Gruppenerwähnung'

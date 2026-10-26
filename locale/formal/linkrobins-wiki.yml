@@ -188,6 +188,8 @@ linkrobins-wiki:
       see_all_lead: 'Alle anzeigen in'
       uncategorised: Andere
       untitled: 'Ohne Titel'
+    link_preview:
+      articles: '{count, plural, one {# Artikel} other {# Artikel}}'
     nav: Wiki
     report:
       detail_label: 'Möchtest du noch etwas hinzufügen? (optional)'

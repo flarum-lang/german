@@ -49,7 +49,7 @@ ernestdefoe-menu-control:
     scan_failed: 'Die Seitenleiste deines Forums konnte nicht gelesen werden, daher fehlen in dieser Liste möglicherweise Elemente aus anderen Erweiterungen. Lade die Seite neu, um es erneut zu versuchen.'
     scanning: 'Seitenleiste deines Forums wird eingelesen…'
     show: 'Element anzeigen'
-    sticky_help: 'Die Seitenleiste, einschließlich der Schaltfläche „Diskussion starten“, bleibt auf dem Bildschirm sichtbar, während Besucher scrollen. Nur auf dem Desktop.'
+    sticky_help: 'Die Seitenleiste, einschließlich der Schaltfläche „Diskussion starten“ und allem, was andere Erweiterungen daneben einfügen (wie etwa Widgets), bleibt auf dem Bildschirm sichtbar, während Besucher scrollen. Nur auf dem Desktop.'
     sticky_label: 'Seitenleiste beim Scrollen oben fixiert behalten'
     sticky_long_help: 'Beim Scrollen innerhalb der Seite bleibt der obere Rand der Seitenleiste an Ort und Stelle, während die Liste darin eigenständig scrollt. Folgt man der Seite, scrollt die Seitenleiste mit der Seite mit, bis ihr Ende sichtbar wird, und bleibt dann an dieser Stelle stehen; scrollt man wieder nach oben, wird ihr oberer Rand wieder sichtbar.'
     sticky_long_label: 'Wenn die sichtbare Seitenleiste höher als die Fensterhöhe ist'

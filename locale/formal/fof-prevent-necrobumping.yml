@@ -18,7 +18,9 @@ fof-prevent-necrobumping:
       error: 'Diese Diskussion ist zu alt, um darauf zu antworten.'
       inactive_discussion_alert:
         confirmation: 'Ich weiß, dass diese Diskussion nicht mehr aktiv ist, aber meine Antwort ist relevant.'
+        confirmed: 'Du antwortest auf eine inaktive Diskussion.'
         cta: 'Eröffnen Sie doch eine neue Diskussion, wenn Sie eine neue Frage oder einen neuen Standpunkt haben.'
         cta_button: '=> core.ref.start_a_discussion'
         description: 'Überlegen Sie, ob Ihre Antwort einen Mehrwert bietet oder ob das Thema bereits geklärt ist.'
         title: 'Die letzte Antwort in dieser Diskussion stammt von {time}.'
+        undo: Rückgängig

@@ -9,7 +9,7 @@ fof-oauth:
         vk:
           client_id_label: Client-ID
           client_secret_label: 'Sicherer Schlüssel'
-          description: 'Erstelle eine App unter https://id.vk.ru/about/business/go/accounts'
+          description: 'Erstelle eine App unter https://id.vk.ru/about/business/'
   forum:
     log_in:
       with_vk_button: 'Mit VK anmelden'
