@@ -65,6 +65,7 @@ ernestdefoe-cadence:
       rival_ahead: '{member} liegt {count, plural, one {# Tag} other {# Tage}} vor dir.'
       settings:
         celebrate_all: 'Jeden Tag'
+        celebrate_important: 'Nur wichtige Momente'
         celebrate_never: Nie
         title: Serien
       side:
