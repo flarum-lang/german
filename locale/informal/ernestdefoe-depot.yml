@@ -34,12 +34,18 @@ ernestdefoe-depot:
   api:
     bad_link: 'Der Link muss eine vollständige https://-Adresse sein.'
     bad_rating: 'Wähle zwischen einem und fünf Sternen.'
+    bad_repo: 'Dies ist kein GitHub-Repository. Verwende owner/name, also wie bei flarum/framework.'
+    bad_source: 'Wähle aus, woher die Datei kommen soll.'
+    bad_tag: 'Du darfst keine Diskussion in diesem Tag beginnen. Wähle ein anderes.'
+    bad_title: 'Gib der Datei einen Namen mit bis zu 120 Zeichen.'
     cannot_review: 'Du kannst keine Rezension für diese Datei abgeben.'
     duplicate_version: 'Version {version} ist bereits vorhanden.'
     image_too_big: 'Dieses Bild ist zu groß. Screenshots dürfen maximal {max} Megapixel groß sein.'
     no_file: 'Datei hinzufügen.'
     not_an_image: 'Dieses Bild kann von Depot nicht gelesen werden. Verwende JPEG, PNG, WebP oder GIF.'
+    pick_subcategory: 'Diese Kategorie hat Unterkategorien. Wähle deine davon.'
     thread_title: '{title}: Support und Kommentare'
+    too_large: 'Diese Datei ist größer als die {mb} MB, die in diesem Forum zulässig sind.'
     too_large_server: 'Diese Datei ist größer, als dieser Server zulässt.'
   email:
     approved:
