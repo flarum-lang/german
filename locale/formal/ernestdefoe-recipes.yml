@@ -39,6 +39,8 @@ ernestdefoe-recipes:
       title: Rezeptfelder
       unit: Einheit
       unit_placeholder: g
+  api:
+    photo_unavailable: 'Das Rezeptbild ist nicht verfügbar. Bitte erneut hochladen.'
   forum:
     based_on: 'Basierend auf einem anderen Rezept'
     card:
@@ -94,7 +96,15 @@ ernestdefoe-recipes:
       field_recipe: 'Gesamtes Rezept'
       field_serving: 'Pro Portion'
       image: Foto
+      image_choose: 'wähle eines aus'
+      image_drop: 'Ziehe ein Foto hierher, oder'
       image_help: 'Optional. Wird oben auf der Karte angezeigt und Suchmaschinen zur Verfügung gestellt.'
+      image_kept: 'Dieses Forum erlaubt kein Bilder von Internetadressen. Dieses Bild bleibt erhalten, bis du es entfernst.'
+      image_remove: 'Foto entfernen'
+      image_too_big: 'Dieses Foto ist größer als 10 MB.'
+      image_type: 'Wähle ein Bild im JPEG, PNG oder WebP-Format.'
+      image_uploading: 'Wird hochgeladen…'
+      image_url_placeholder: 'Oder füge die Bildadresse ein'
       ingredients: Zutaten
       ingredients_help: 'Je eine Angabe pro Zeile. Beginne mit einer Menge (1 1/2 Tassen, 200 g, ½ TL), die sich entsprechend der Anzahl der Portionen skaliert. Eine Zeile, die mit einem Doppelpunkt endet, leitet eine Gruppe ein.'
       insert: 'Rezept einfügen'
