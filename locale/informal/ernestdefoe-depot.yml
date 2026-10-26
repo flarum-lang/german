@@ -36,8 +36,11 @@ ernestdefoe-depot:
     bad_rating: 'Wähle zwischen einem und fünf Sternen.'
     cannot_review: 'Du kannst keine Rezension für diese Datei abgeben.'
     duplicate_version: 'Version {version} ist bereits vorhanden.'
+    image_too_big: 'Dieses Bild ist zu groß. Screenshots dürfen maximal {max} Megapixel groß sein.'
     no_file: 'Datei hinzufügen.'
+    not_an_image: 'Dieses Bild kann von Depot nicht gelesen werden. Verwende JPEG, PNG, WebP oder GIF.'
     thread_title: '{title}: Support und Kommentare'
+    too_large_server: 'Diese Datei ist größer, als dieser Server zulässt.'
   email:
     approved:
       subject: '{title} wurde veröffentlicht'
@@ -161,6 +164,7 @@ ernestdefoe-depot:
       thread_open: 'Im Forum öffnen'
       total_downloads: Downloads
       total_installs: Installationen
+      total_sites: 'Seiten, die es verwenden'
       unfeature: 'Nicht mehr hervorheben'
       updated: 'aktualisiert {time}'
       verified: 'Prüfsumme veröffentlicht'
@@ -205,6 +209,7 @@ ernestdefoe-depot:
       pending: '{count, plural, one {# Datei wartet} other {# Dateien warten}} auf Genehmigung'
       review: Bewertung
     notifications:
+      approved: 'Deine Datei wurde freigegeben und ist jetzt veröffentlicht'
       new_version: 'Neue Version: {version}'
     price:
       from: 'Ab {price}'
@@ -227,6 +232,9 @@ ernestdefoe-depot:
       submit: 'Rezension veröffentlichen'
       title: '{title} rezensieren'
       update: 'Rezension aktualisieren'
+    settings:
+      notify_approved: 'Eine Datei, die ich hochgeladen habe, wurde freigeschaltet'
+      notify_new_version: 'Eine Datei, der ich folge, hat eine neue Version'
     source:
       github_tooltip: 'Neue Versionen auf github.com/{repo} erscheinen automatisch hier'
       link_tooltip: 'Gehostet auf {host}. Depot zählt die Klicks.'
@@ -239,6 +247,7 @@ ernestdefoe-depot:
       install: Installationsanleitung
       installs: Installationen
       label: 'Hervorgehobene Dateien'
+      sites: 'Seiten, die es verwenden'
     tiles:
       count: '{count, plural, one {# Datei} other {# Dateien}}'
       locked: 'Für {group}'
@@ -309,8 +318,13 @@ ernestdefoe-depot:
       tagline_label: Einzeiler-Zusammenfassung
       tagline_placeholder: 'Was es ist, in einem Satz'
       thread_linked: 'Verknüpft mit der Datei'
+      thread_no_tags: 'Es gibt keine Tags, unter denen du Beiträge veröffentlichen kannst, daher landet der Beitrag in der Hauptdiskussionsliste.'
       thread_off: 'Kommentare werden für diese Datei deaktiviert.'
       thread_opening: Eröffnungsbeitrag
+      thread_opening_help: 'Ein Link zu der Datei und die Installationsschritte werden hinzugefügt.'
+      thread_opening_placeholder: 'Alles, das man wissen sollte, bevor man eine Frage stellt, zum Beispiel bekannte Probleme.'
+      thread_preview: 'Wie es in der Diskussionsliste aussehen wird'
+      thread_tag: 'Nachricht in'
       thread_title: '{title}: Support und Kommentare'
       thread_toggle: 'Support-Diskussion beginnen'
       thread_toggle_help: 'Nutzer können dort Fragen stellen und Probleme melden, und du erhältst eine Benachrichtigung bei jeder Antwort.'

@@ -270,6 +270,7 @@ linkrobins-support:
       unassigned_no_actor: '{assignee} wurde zugewiesen'
     index:
       assigned_to: 'Zugewiesen an {name}'
+      back_to_desk: 'Zurück zur Supportseite'
       deleted_badge: Gelöscht
       empty: 'Es sind keine Tickets vorhanden.'
       empty_assigned_to_me: 'Keine offenen Tickets sind dir zugewiesen.'
@@ -288,7 +289,14 @@ linkrobins-support:
       new_ticket: 'Neues Ticket'
       new_ticket_tooltip: 'Ein neues Support-Ticket öffnen'
       no_results: 'Es wurden keine Tickets gefunden, die deiner Suche entsprechen.'
+      reset_search: 'Suche löschen'
+      search_all_tickets: 'Alle Tickets anzeigen, die mit „{query}“ übereinstimmen'
       search_placeholder: 'Tickets durchsuchen'
+      search_results_title: 'Suchergebnisse für „{query}“'
+      search_tickets_title: 'Tickets durchsuchen'
+      tickets: Tickets
+      tickets_found: '{count} Ticket gefunden'
+      tickets_found_plural: '{count} Tickets gefunden'
       unassigned: 'Nicht zugewiesen'
       unread: 'Neue Antworten'
       untitled: 'Ohne Titel'
@@ -408,3 +416,46 @@ linkrobins-support:
       allow_appeals: 'Support-Einsprüche erlauben'
       disallow_appeals: 'Support-Einsprüche nicht erlauben'
       toggle_failed: 'Status der Einspruch-Sperre konnte nicht aktualisiert werden.'
+  lib:
+    gambits:
+      tickets:
+        assigned:
+          hint: 'mir oder niemandem'
+          key: zugewiesen
+          options:
+            me: 'Mir zugewiesen'
+            none: 'Nicht zugewiesene Tickets'
+        author:
+          hint: benutzername
+          key: autor
+        category:
+          hint: slug
+          key: kategorie
+        mine:
+          hint: 'Von mir eingereichte Tickets'
+          key: meine
+        priority:
+          hint: 'wichtig, normal oder niedrig'
+          key: priorität
+          levels:
+            low: 'Niedrige Priorität'
+            normal: 'Normale Priorität'
+            urgent: 'Dringende Priorität'
+        status:
+          hint: 'offen, in-bearbeitung, warte-auf-antwort, gelöst oder geschlossen'
+          key: status
+          statuses:
+            awaiting_response: 'Warte auf Antwort'
+            closed: Geschlossen
+            in_progress: 'In Bearbeitung'
+            open: 'Offene Tickets'
+            resolved: Gelöst
+        type:
+          hint: 'standard oder einspruch'
+          key: typ
+          types:
+            appeal: Einspruchtickets
+            standard: Standard-Supportickets
+        unassigned:
+          hint: 'Nicht zugewiesene Tickets'
+          key: 'nicht zugewiesen'
