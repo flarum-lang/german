@@ -8,6 +8,9 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (4 added, 34% complete)
+* [`ernestdefoe/mobile-tab`](https://github.com/ernestdefoe/mobiletab) (4 added, 100% complete)
+* [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind) (8 added, 97% complete)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) (2 added, 100% complete)
 
 
 All changes: [2.0.27...2.0.28](https://github.com/flarum-lang/german/compare/2.0.27...2.0.28).
