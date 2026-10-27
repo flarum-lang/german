@@ -57,6 +57,7 @@ ernestdefoe-cadence:
       legend_fed: Genährt
       longest: 'Längste Serie'
       no_flame: 'Noch keine Flamme'
+      notify_moments: 'Meine Serien-Meilensteine, Stufen und Aufzeichnungen'
       page_intro_contribute: 'Jeder Tag, an dem du etwas postest, antwortest, likest oder reagierst, hält deine Flamme am Leben. Wenn du zu viele Tage auslässt, erlischt sie. Halte sie am Leben.'
       page_intro_visit: 'Jeder Tag an dem du vorbeischaust, hält deine Flamme am Leben. Wenn du zu viele Tage auslässt, erlischt sie. Halte sie am Leben.'
       page_title: Serien
@@ -78,6 +79,8 @@ ernestdefoe-cadence:
         record: 'Neue persönliche Bestleistung: {count, plural, one {# Tag} other {# Tage}}.'
         revived: 'Deine Flamme brennt wieder: {count, plural, one {# Tag} other {# Tage}}.'
       total_days: 'Tage insgesamt'
+      warning:
+        embers: 'Deine {count}-tägige Flamme ist bis auf etwas Glut heruntergebrannt. Schreibe etwas, um sie wieder zu entfachen.'
       widgets:
         my_flame: 'Meine Flamme'
         top_flames: 'Beste Flammen'
