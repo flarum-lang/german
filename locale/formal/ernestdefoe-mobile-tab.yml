@@ -14,6 +14,7 @@ ernestdefoe-mobile-tab:
     field_url: URL
     field_visibility: 'Angezeigt für'
     label_placeholder: optional
+    label_placeholder_profile: 'Profil oder ''{username}'', um den Benutzernamen anzuzeigen'
     preview_caption: 'Live-Vorschau (Handy) – Reihenfolge mit den Pfeilen verschieben'
     raised: 'Erhöht (mittig)'
     remove: 'Registerkarte entfernen'
@@ -42,5 +43,6 @@ ernestdefoe-mobile-tab:
       login: Anmelden
       new: Neu
       notifications: Benachrichtigungen
+      profile: Profil
       search: Suche
       tags: Tags

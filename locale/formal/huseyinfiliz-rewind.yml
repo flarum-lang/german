@@ -42,6 +42,8 @@ huseyinfiliz-rewind:
       community_slide_top_tag: 'Beliebtestes Tag'
       community_slide_total_words: 'Wörter geschrieben'
       community_slide_year-overview: 'Das Jahr in Zahlen'
+      default_public_help: 'Lege die anfängliche Sichtbarkeit neuer persönlicher Rückblicke fest, einschließlich derer, die von Administratoren erstellt wurden. Benutzer können die Sichtbarkeit ihrer eigenen Rückblicke ändern. Die bestehenden Sichtbarkeitseinstellungen bleiben bei der Neuerstellung erhalten.'
+      default_public_label: 'Neue persönliche Rückblenden standardmäßig öffentlich machen'
       delete_rewinds_button: 'Rückblicke löschen'
       delete_rewinds_help: 'Benutzer-Rückblick-Snapshots nach Jahr und optional nach Gruppe löschen.'
       delete_rewinds_title: 'Benutzer-Rückblicke löschen'
@@ -53,6 +55,8 @@ huseyinfiliz-rewind:
       generate_users_help: 'Erstelle „Rückblick“-Snapshots für alle Benutzer, die noch keinen haben. Wähle ein Jahr aus und filtere optional nach Gruppe.'
       generate_users_title: 'Fehlende Benutzer-Rückblicke erstellen'
       invalid_active_year: 'Das aktive Jahr muss eine ganze Zahl zwischen 2000 und 2100 sein.'
+      public_content_only_help: 'Nur Inhalte einbeziehen, die für Gäste sichtbar sind. Deaktiviere diese Option für Foren, die nur für Mitglieder zugänglich sind, um stattdessen Inhalte einzubeziehen, die für Standardmitglieder sichtbar sind. Inhalte, die nur für Mitarbeiter zugänglich sind, private Inhalte und gelöschte Inhalte werden in beiden Modi ausgeschlossen. Die Änderungen werden wirksam, sobald die Rückblicke erneut generiert werden.'
+      public_content_only_label: 'Nur öffentlich erreichbare Inhalte einbeziehen'
       render_mode_blade: 'Benutzerdefinierte Blade-Vorlage (storage/rewind/views/)'
       render_mode_slideshow: 'Interaktive Story-Diashow (Mithril & Anime.js)'
       section_achievements: Errungenschaften

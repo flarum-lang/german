@@ -11,6 +11,7 @@ michaelbelgium-discussion-views:
   admin:
     permissions:
       reset_views_label: 'Diskussionsaufrufzähler zurücksetzen'
+      view_list_label: 'Aufrufliste für Diskussionen anzeigen (Seitenleiste + Fußzeile)'
       view_number_label: 'Diskussionsaufrufzähler anzeigen'
     settings:
       abbr_numbers_label: 'Aufrufzahlen abkürzen'
