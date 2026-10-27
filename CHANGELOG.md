@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.28 (XXXX-XX-XX)
+-------------------
+
+**Updated translations for extensions**:
+
+* [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (4 added, 34% complete)
+
+
+All changes: [2.0.27...2.0.28](https://github.com/flarum-lang/german/compare/2.0.27...2.0.28).
+
+
 2.0.27 (2026-10-26)
 -------------------
 
