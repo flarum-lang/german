@@ -5,11 +5,17 @@ CHANGELOG
 2.0.28 (XXXX-XX-XX)
 -------------------
 
+**Added support for new extensions**:
+
+* [`floxum/payments`](https://gitlab.com/floxum/extensions/flarum-ext-payments) (19% complete)
+
+
 **Updated translations for extensions**:
 
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview) (4 changed, 100% complete)
 * [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (4 added, 34% complete)
 * [`ernestdefoe/mobile-tab`](https://github.com/ernestdefoe/mobiletab) (4 added, 100% complete)
-* [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind) (10 added, 97% complete)
+* [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind) (24 added, 2 changed, 100% complete)
 * [`linkrobins/support`](https://github.com/linkrobins/support) (10 added, 100% complete)
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) (2 added, 100% complete)
 
