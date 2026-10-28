@@ -268,6 +268,12 @@ linkrobins-support:
       status_changed_no_actor: 'Status geändert von {from} zu {to}'
       unassigned: '{name} hat Zuweisung von {assignee} entfernt'
       unassigned_no_actor: '{assignee} wurde zugewiesen'
+    guest:
+      compose_message: 'Anmelden, um ein Support-Ticket einzureichen.'
+      log_in: Anmelden
+      message: 'Anmelden, um deine Tickets zu sehen.'
+      sign_up: Registrieren
+      ticket_message: 'Anmelden, um dieses Ticket anzusehen.'
     index:
       assigned_to: 'Zugewiesen an {name}'
       back_to_desk: 'Zurück zur Supportseite'
