@@ -27,8 +27,11 @@ huseyinfiliz-rewind:
       view_forum: 'Rückblick-Seite anzeigen'
     settings:
       active_year_label: 'Aktives Jahr'
+      automatic_community_help: 'Bereite den aktiven, vollständigen Jahresrückblick mithilfe des Flarum-Planers vor oder in kleinen Schritten, sobald das erste bestätigte Mitglied „Rückblick“ öffnet. Besucher sehen einen Vorbereitungsbildschirm, bis der Rückblick fertiggestellt ist. Bestehende Rückblicke werden niemals automatisch überschrieben. Konfiguriere bei großen Foren den Flarum-Cron-Befehl „schedule:run“, um den Rückblick im Voraus vorzubereiten.'
+      automatic_community_label: 'Community-Rückblick automatisch erstellen'
+      automatic_year_help: 'Verwende das UTC-Datum des Servers, um das zuletzt abgeschlossene Jahr auszuwählen (derzeit {year}). Am 1. Januar 2027 wechselt „Rewind“ beispielsweise zu 2026. Deaktiviere diese Option, um die manuelle Einstellung für das aktive Jahr zu verwenden. Aktiviere „Rewind“ separat, um es für Mitglieder verfügbar zu machen.'
       automatic_year_label: 'Automatisch das vorherige Jahr auswählen'
-      community_comparison_help: 'Wenn aktiviert, wird in Benutzer-Rückblicken angezeigt, wie die Kennzahlen im Vergleich zu den Durchschnittswerten der Community ausfallen. Der Community-Rückblick muss zuvor erstellt werden.'
+      community_comparison_help: 'Vergleiche deine persönlichen Kennzahlen mit den Durchschnittswerten pro aktivem Mitglied (Mitglieder, die in diesem Jahr sichtbare Beiträge verfasst haben). Erstelle oder aktualisiere zunächst die Community-Zusammenfassung und aktualisiere anschließend die persönlichen Zusammenfassungen.'
       community_comparison_label: 'Community-Vergleich in Benutzer-Rückblick aktivieren'
       community_slide_badge_leaderboard: Abzeichen-Rangliste
       community_slide_best_answers_leaderboard: 'Rangliste für Beste Antworten'
@@ -58,6 +61,9 @@ huseyinfiliz-rewind:
       invalid_active_year: 'Das aktive Jahr muss eine ganze Zahl zwischen 2000 und 2100 sein.'
       public_content_only_help: 'Nur Inhalte einbeziehen, die für Gäste sichtbar sind. Deaktiviere diese Option für Foren, die nur für Mitglieder zugänglich sind, um stattdessen Inhalte einzubeziehen, die für Standardmitglieder sichtbar sind. Inhalte, die nur für Mitarbeiter zugänglich sind, private Inhalte und gelöschte Inhalte werden in beiden Modi ausgeschlossen. Die Änderungen werden wirksam, sobald die Rückblicke erneut generiert werden.'
       public_content_only_label: 'Nur öffentlich erreichbare Inhalte einbeziehen'
+      regenerate_users_button: 'Vorhandene Rückblicke aktualisieren'
+      regenerate_users_help: 'Berechne vorhandene Momentaufnahmen für ein ausgewähltes Jahr und eine ausgewählte Gruppe unter Verwendung der aktuellen Inhaltsfilter neu. Die Einstellung „öffentlich/privat“ jedes Nutzers bleibt dabei erhalten. Erstelle zunächst die Community-Zusammenfassung, falls Vergleiche aktiviert sind.'
+      regenerate_users_title: 'Vorhandene Benutzer-Rückblicke aktualisieren'
       render_mode_blade: 'Benutzerdefinierte Blade-Vorlage (storage/rewind/views/)'
       render_mode_slideshow: 'Interaktive Story-Diashow (Mithril & Anime.js)'
       section_achievements: Errungenschaften
@@ -140,6 +146,7 @@ huseyinfiliz-rewind:
       no_activity: 'Für dieses Jahr gibt es nicht genug Aktivitäten'
       not_generated: 'Community-Rückblick wurde noch nicht erstellt.'
       post_count_label: '{count} Beiträge'
+      preparing: 'Vorbereitung des Community-Rückblicks. Beim ersten Besuch kann dies eine Weile dauern.'
       regenerate: 'Community-Rückblick neu erstellen'
       regenerate_confirm: 'Dadurch werden die vorhandenen Community-Rückblick-Daten für dieses Jahr überschrieben. Möchtest du fortfahren?'
       regenerate_short: 'Neu erstellen'

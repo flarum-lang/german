@@ -5,9 +5,9 @@
 datlechin-link-preview:
   admin:
     sections:
-      appearance_description: 'Wie eine Vorschau aussieht und wohin man gelangt, wenn man darauf klickt.'
+      appearance_description: 'Wie eine Vorschau aussieht und wo deren Links geöffnet werden.'
       appearance_label: Erscheinungsbild
-      behaviour_description: 'Welche Links in einem Beitrag eine Vorschau erhalten.'
+      behaviour_description: 'Wähle aus, welche Links in einem Beitrag eine Vorschau erhalten.'
       behaviour_label: Verhalten
       external_api_description: 'Verwende einen externen Dienst, wenn das direkte Abrufen fehlschlägt (z. B. bei durch Bots geschützten Websites).'
       external_api_label: 'Externer API-Fallback'
