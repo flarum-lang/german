@@ -27,6 +27,7 @@ huseyinfiliz-rewind:
       view_forum: 'Rückblick-Seite anzeigen'
     settings:
       active_year_label: 'Aktives Jahr'
+      automatic_year_label: 'Automatisch das vorherige Jahr auswählen'
       community_comparison_help: 'Wenn aktiviert, wird in Benutzer-Rückblicken angezeigt, wie die Kennzahlen im Vergleich zu den Durchschnittswerten der Community ausfallen. Der Community-Rückblick muss zuvor erstellt werden.'
       community_comparison_label: 'Community-Vergleich in Benutzer-Rückblick aktivieren'
       community_slide_badge_leaderboard: Abzeichen-Rangliste
