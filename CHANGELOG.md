@@ -9,7 +9,7 @@ CHANGELOG
 
 * [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (4 added, 34% complete)
 * [`ernestdefoe/mobile-tab`](https://github.com/ernestdefoe/mobiletab) (4 added, 100% complete)
-* [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind) (8 added, 97% complete)
+* [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind) (10 added, 97% complete)
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) (2 added, 100% complete)
 
 
