@@ -13,6 +13,7 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`floxum/payments`](https://gitlab.com/floxum/extensions/flarum-ext-payments) (19% complete)
+* [`fof/translate`](https://github.com/FriendsOfFlarum/translate) (9% complete)
 
 
 **Updated translations for extensions**:
