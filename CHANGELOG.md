@@ -2,6 +2,35 @@ CHANGELOG
 =========
 
 
+2.0.28 (2026-10-29)
+-------------------
+
+**General changes**:
+
+* Updated Flarum core translations (2 changed).
+
+
+**Added support for new extensions**:
+
+* [`floxum/payments`](https://gitlab.com/floxum/extensions/flarum-ext-payments) (19% complete)
+* [`fof/translate`](https://github.com/FriendsOfFlarum/translate) (9% complete)
+
+
+**Updated translations for extensions**:
+
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview) (24 changed, 100% complete)
+* [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (4 added, 34% complete)
+* [`ernestdefoe/depot`](https://github.com/ernestdefoe/depot) (18 added, 92% complete)
+* [`ernestdefoe/digest-mail`](https://github.com/ernestdefoe/digest-mail) (300 added, 27% complete)
+* [`ernestdefoe/mobile-tab`](https://github.com/ernestdefoe/mobiletab) (4 added, 100% complete)
+* [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind) (24 added, 2 changed, 100% complete)
+* [`linkrobins/support`](https://github.com/linkrobins/support) (10 added, 100% complete)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) (2 added, 100% complete)
+
+
+All changes: [2.0.27...2.0.28](https://github.com/flarum-lang/german/compare/2.0.27...2.0.28).
+
+
 2.0.27 (2026-10-26)
 -------------------
 
