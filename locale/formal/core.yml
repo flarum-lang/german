@@ -951,7 +951,7 @@ core:
     icon: Symbol
     icon_text: 'Geben Sie den Namen der <a>FontAwesome</a>-Symbolklasse ein, aber <em>mit</em> dem Präfix (z. B. <code>fas fa-flag</code> oder <code>fa-solid fa-flag</code>).'
     invalid_login_message: 'Ihre Anmeldedaten waren falsch.'
-    latest: Neueste
+    latest: Aktuellste
     light_hc_mode_label: 'Heller Modus mit hohem Kontrast'
     light_mode_label: 'Heller Modus'
     load_more: 'Mehr laden'
