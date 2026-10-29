@@ -20,7 +20,7 @@ datlechin-link-preview:
       url_filtering_description: 'Steuere, welche URLs Link-Vorschauen generieren.'
       url_filtering_label: URL-Filterung
     settings:
-      allowlist_help: 'Solange dieses Feld nicht leer ist, werden nur Vorschauen für dazu passende Links erstellt.'
+      allowlist_help: 'Wenn diese Option aktiviert ist, wird nur für diese Websites eine Vorschau angezeigt.'
       allowlist_label: 'Erlaubte Seiten'
       allowlist_placeholder: 'docs.beispiel.de, *.wikipedia.org'
       blacklist_help: 'Geben Sie eine kommagetrennte Liste von Domains oder URLs ein, die von der Linkvorschau ausgeschlossen werden sollen.'
@@ -39,15 +39,15 @@ datlechin-link-preview:
       external_api_fallback_label: 'Externer API-Fallback'
       external_api_url_help: 'Benutzerdefinierter oEmbed-API-Endpunkt. Leer lassen, um die Standardeinstellung zu verwenden (Iframely Open API). Die URL wird als Abfrageparameter angehängt.'
       external_api_url_label: 'Externe API-URL'
-      google_favicon_fallback_help: "Wird verwendet, wenn eine Seite kein eigenes Symbol bereitstellt. Teilt mit Google, welche Seiten deine Mitglieder verlinken.\n"
+      google_favicon_fallback_help: "Wird verwendet, wenn eine Seite kein eigenes Symbol hat. Teilt mit Google, welche Seiten deine Mitglieder verlinken.\n"
       google_favicon_fallback_label: 'Auf Google für Website-Symbole zurückgreifen'
       max_previews_per_post_help: 'Über diese Anzahl hinausgehende Links bleiben einfache Textlinks.'
       max_previews_per_post_label: 'Anzahl der Vorschauen pro Beitrag'
-      open_links_in_new_tab_help: 'Betrifft nur externe Seiten. Alle Diskussionen öffnen immer im selben Tab.'
+      open_links_in_new_tab_help: 'Betrifft nur externe Seiten. Alle Links innerhalb dieses Forums öffnen immer im selben Tab.'
       open_links_in_new_tab_label: 'Links in einem neuen Tab öffnen'
       preview_internal_links_help: "Ein Link auf eine Seite hier, wie auf eine Diskussion, Benutzer-, Tag-, Index-Seite oder die Seite einer anderen erweiterung wird zu einem lokalen Datenbankzugriff. Keine zusätzliche Abfrage wird ausgeführt und niemand kann mehr sehen, als sie auch öffnen könnten.\n"
       preview_internal_links_label: 'Vorschau auch für Links auf dieses Forum'
-      skip_media_links_help: 'Für Links, die mit einer Bild-, Audio- oder Videodatei enden. Diese werden bereits von Flarum angezeigt.'
+      skip_media_links_help: 'Keine Vorschau für Links auf Bild-, Audio- oder Videodateien.'
       skip_media_links_label: 'Links auf Mediendateien überspringen'
       use_google_favicons_help: 'Wenn aktiviert, wird ein Google-Dienst im Frontend verwendet, um das Favicon der jeweiligen Webseite abzurufen.'
       use_google_favicons_label: 'Google Favicon-API verwenden'

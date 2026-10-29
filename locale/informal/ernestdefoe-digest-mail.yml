@@ -3,6 +3,179 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ernestdefoe-digest-mail:
+  admin:
+    frequency:
+      daily: Täglich
+      monthly: Monatlich
+      weekly: Wöchentlich
+    integrations:
+      always_shown: 'Immer angezeigt'
+      ext_installed: '{ext} ist installiert und aktiviert'
+      ext_not_installed: '{ext} ist nicht installiert oder deaktiviert'
+      extension_active: 'Erweiterung aktiviert'
+      favorites_status_disabled: 'flarum/likes ist deaktiviert — Abschnitt wird nicht in der Zusammenfassung angezeigt'
+      favorites_status_likes: 'flarum/likes ist aktiv — Anzahl der Likes werden angezeigt'
+      not_installed_or_disabled: 'Nicht installiert oder deaktiviert'
+      section_awards: Auszeichnungen
+      section_badges: Abzeichen
+      section_discussions: Diskussionen
+      section_favorites: Beliebt
+      section_gamepedia: Gamepedia
+      section_leaderboard: Rangliste
+      section_members: 'Neue Mitglieder'
+      section_pickem: 'Pick''em'
+      section_picks: 'CFB Picks'
+      section_resofire_gamepedia: 'Resofire Gamepedia'
+      section_stats: Community-Statistiken
+      status_active: Aktiv
+      status_inactive: Inaktiv
+    order:
+      move_down: 'Nach unten'
+      move_up: 'Nach oben'
+      order_saved: 'Reihenfolge gespeichert'
+      saving: 'Wird gespeichert…'
+    schedule:
+      midnight: (Mitternacht)
+      noon: (mittags)
+      timezones:
+        anchorage: Alaska
+        auckland: Auckland
+        azores: Azoren
+        bangkok: 'Bangkok / Jakarta'
+        chicago: 'Central Time (USA & Kanada)'
+        denver: 'Mountain Time (USA & Kanada)'
+        dubai: Dubai
+        halifax: 'Atlantic Time (Kanada)'
+        helsinki: 'Helsinki / Kyjiw'
+        honolulu: Hawaii
+        karachi: Karatschi
+        kolkata: 'Mumbai / Neu-Delhi'
+        london: London
+        los_angeles: 'Pacific Time (USA & Kanada)'
+        moscow: Moskau
+        new_york: 'Eastern Time (USA & Kanada)'
+        paris: 'Paris / Berlin / Rom'
+        sao_paulo: Brasilia
+        shanghai: 'Beijing / Singapur'
+        sydney: Sydney
+        tokyo: 'Tokio / Seoul'
+    sections:
+      digest_section_order: 'Reihenfolge der Abschnitte'
+    server:
+      horizon_step3_seesuccess_2: ' mit Status '
+      horizon_step4_notice_1b: ' und '
+      horizon_step5_1c: ' und '
+      horizon_step5_1e: ' und '
+      queue_name_label: 'Name der Warteschlange'
+      tbl_head_forum_size: Forumgröße
+    settings:
+      enable_awards_help: 'Aktuelle und bevorstehende Auszeichnungen in der Zusammenfassung anzeigen. Erfordert huseyinfiliz/awards.'
+      enable_awards_label: Auszeichnungen
+      limit_badges_help: 'Maximale Anzahl der Nutzer, die kürzlich Abzeichen erhalten haben und in der Zusammenfassung aufgeführt werden sollen (Standardwert 5, Mindestwert 3). Erfordert fof/badges.'
+      limit_badges_label: 'Abzeichen — max. Anzahl kürzlicher Freischaltungen'
+      limit_hot_help: 'Maximale Anzahl aktiver (trendender) Diskussionen in jeder Zusammenfassung.'
+      limit_hot_label: 'Aktive Diskussionen — max. Anzahl'
+      limit_leaderboard_help: 'Anzahl der Einträge aus der Rangliste, die in der Zusammenfassung angezeigt werden sollen (Standardwert 10, Mindestwert 3). Erfordert huseyinfiliz/leaderboard.'
+      limit_leaderboard_label: Ranglisteneinträge
+      limit_members_label: 'Neue Mitglieder — max. Anzahl'
+      limit_new_help: 'Maximale Anzahl neuer Diskussionen in jeder Zusammenfassung.'
+      limit_new_label: 'Neue Diskussionen — max. Anzahl'
+      limit_unread_help: 'Maximale Anzahl ungelesener Diskussionen in jeder Zusammenfassung.'
+      limit_unread_label: 'Ungelesene Diskussionen — max. Anzahl'
+      monthly_day_help: 'Tag des Monats, an dem die monatlichen Zusammenfassungen versendet werden. Die Obergrenze liegt bei 28, sodass der Februar immer in Frage kommt.'
+      picks_leaderboard_scope_alltime: Allzeit
+      picks_leaderboard_scope_season: 'Aktuelle Saison'
+      picks_leaderboard_scope_week: 'Letzte Woche'
+      queue_name_label: 'Name der Warteschlange'
+      send_hour_label: 'Uhrzeit des Versands'
+    stats:
+      col_datetime: 'Datum & Zeit'
+      col_frequency: Häufigkeit
+      col_sent: Gesendet
+      col_skipped: Übersprungen
+      hide: Ausblenden
+      last_sent_prefix: 'Zuletzt versendet: '
+      loading: 'Wird geladen…'
+      never: Nie
+      page_of: 'Seite {page} von {total} — {count} insgesamt'
+      pct_of_subscribers: '{pct} % der Abonnenten'
+      subscribers: Abonnenten
+      user_count: '{count, plural, one{# Benutzer} other{# Benutzer}}'
+      view: Anzeigen
+    tabs:
+      order: Reihenfolge
+      server: Server-Einstellungen
+      settings: Einstellungen
+      stats: Statistiken
+    token_checker:
+      check_button: 'Token prüfen'
+      created_label: 'Erstellt: '
+      expires_label: 'Läuft ab: '
+      heading: Token-Überprüfung
+      user_label: 'Benutzer: '
+      valid_token: 'Gültiger Token'
   email:
+    badges:
+      intro: 'Mitglieder, die in diesem {period} Abzeichen verdient haben.'
     featured:
       cta: 'Diskutiere mit'
+    giveaways:
+      ends: 'Endet {when}'
+    leaderboard:
+      change_down: '{n} runter'
+      change_held: Gehalten
+      change_new: Neu
+      change_up: '{n} hoch'
+      col_member: Mitglieder
+      col_rank: '#'
+      new_badge: NEU
+      points: '{points} Pkt.'
+      points_this_period: '+{points} diese {period}'
+      pts_this_period: '+{points} Pkt. diese {period}'
+    pickem:
+      col_accuracy: Genauigkeit
+      col_player: Spieler
+      col_pts: Pkt
+      col_rank: '#'
+      correct: '{correct}/{total} richtig'
+      match_time: '{time} UTC'
+      results_heading: 'Letzte Ergebnisse'
+      vs: vs
+      winner: Sieger
+    picks:
+      col_accuracy: Gen.
+      col_player: Spieler
+      col_pts: Pkt
+      col_rank: '#'
+      move_down: '{n} runter'
+      move_held: —
+      move_new: Neu
+      move_up: '{n} hoch'
+      winner: Sieger
+    resofire_gamepedia:
+      newly_added: 'Neu hinzugefügt'
+    sections:
+      active_discussions: 'Aktive Diskussionen'
+      badges: Abzeichen
+      leaderboard: Rangliste
+      new_discussions: 'Neue Diskussionen'
+      new_members: 'Neue Mitglieder'
+    stats:
+      active_users: 'Aktive Benutzer'
+      discussions: Diskussionen
+      new_members: 'Neue Mitglieder'
+      posts: Beiträge
+  forum:
+    onboarding:
+      modal_body: 'Erhalte regelmäßig eine Zusammenfassung der besten Diskussionen, neuer Mitglieder und der aktuellen Ereignisse im Forum – direkt in deinen Posteingang.'
+      modal_dismiss: 'Nein, danke'
+      modal_title: 'Bleib auf dem Laufenden'
+    settings:
+      digest_help: 'Erhalte regelmäßig eine Übersicht über neue Diskussionen, aktive Threads und neue Mitglieder.'
+      digest_label: E-Mail-Zusammenfassung
+      frequency_daily: Täglich
+      frequency_monthly: Monatlich
+      frequency_off: 'Aus — sende mir keine Zusammenfassungen'
+      frequency_weekly: Wöchentlich
+      save_error: 'Einstellungen konnten nicht gespeichert werden. Bitte versuche es erneut.'
+      saved: Gespeichert
