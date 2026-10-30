@@ -112,16 +112,30 @@ fof-translate:
           'off': Aus
       openai:
         api_key_label: 'OpenAI API-Schlüssel'
+        intro: 'Verwendet die GPT-Modelle von OpenAI. Erstelle einen API-Schlüssel auf der <a>OpenAI-Plattform</a>.'
+        max_tokens_help: 'Obergrenze für die Länge jeder Übersetzung.'
+        max_tokens_label: 'Maximale Tokenanzahl'
+        model_help: 'Das für die Übersetzung verwendete OpenAI-Modell.'
         model_label: Modell
       portuguese_options:
         pt-BR: 'Portugiesisch (Brasilien)'
         pt-PT: 'Portugiesisch (Portugal)'
+      short_content_length_help: 'Inhalte, die kürzer als diese Zeichenanzahl sind, sind zu kurz, um die Sprache zuverlässig zu erkennen. Es wird davon ausgegangen, dass sie in der Sprache verfasst sind, in der der Autor das Forum nutzt, d. h. in der von ihm gewählten Ländereinstellung oder der Standard-Ländereinstellung des Forums.'
+      short_content_length_label: 'Mindestlänge für die Sprachenerkennung'
+      throttle_per_minute_help: 'Wie viele Übersetzungen jeder Benutzer (oder jede Gast-IP-Adresse) pro Minute anfordern darf.'
       throttle_per_minute_label: 'Übersetzungen pro Minute'
+      timeout_help: 'Wie lange man in Sekunden auf die Antwort des Dienstes warten muss.'
+      timeout_label: Zeitüberschreitung
+      translate_all_enabled_help: 'Jeder, der übersetzen möchte, darf eine beliebige Forensprache auswählen, nicht nur seine eigene.'
+      translate_all_enabled_label: 'Übersetzung in jede beliebige Sprache zulassen'
+      use_native_locale_names_help: 'Sprachnamen als Endonym - in ihrer jeweiligen Sprache (فارسی, 日本語) anzeigen, anstatt in der Sprache des Lesers.'
+      use_native_locale_names_label: 'Namen in der jeweiligen Landessprache verwenden'
     test:
       button: 'Übersetzung testen'
       detected_text: 'Erkannte Ausgangssprache: {language}'
       failed_text: 'Test fehlgeschlagen: {error}'
       failed_unknown_text: 'Test fehlgeschlagen.'
+      help: 'Übersetzt einen kurzen Text aus einer anderen Sprache unter Verwendung der oben genannten Werte – unabhängig davon, ob diese gespeichert sind oder nicht – in deine Administrationssprache. Dazu wird eine einzige Anfrage an den Anbieter gesendet.'
       source_label: Beispiel
       success_text: 'Übersetzt von {source} in {target} innerhalb von {seconds} s'
       translation_label: Übersetzung
