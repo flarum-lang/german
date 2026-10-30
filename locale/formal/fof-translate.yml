@@ -48,17 +48,76 @@ fof-translate:
         model_label: Modell
       deepl:
         api_key_label: 'DeepL API-Schlüssel'
+        en_choice_help: 'DeepL benötigt bei der Übersetzung ins Englische eine regionale Variante.'
         en_choice_label: 'Englische Sprachvarietät'
+        formality_help: 'Ob Übersetzungen eher formell oder informell gehalten sein sollten – sofern dies in den jeweiligen Sprachen möglich ist.'
+        formality_label: Formalität
+        formality_options:
+          default: Standard
+          prefer_less: 'Informell bevorzugen'
+          prefer_more: 'Formell bevorzugen'
+        glossaries_empty: 'In deinem DeepL-Konto wurden keine Glossare gefunden.'
+        glossaries_failed: 'Die Glossare konnten nicht aus DeepL geladen werden.'
         glossaries_heading: DeepL-Glossare
         glossaries_help: 'Wähle für jedes Sprachpaar, das darin enthalten ist, ein Glossar aus deinem DeepL-Konto aus.'
         glossaries_reload_button: 'Neu laden'
         glossaries_retry_button: 'Erneut versuchen'
         glossary_none_option: 'Kein Glossar'
         glossary_pair_label: '{source} → {target}'
+        intro: 'Verwendet die maschinelle Übersetzung von DeepL. Sowohl der kostenlose als auch der Pro-API-Tarif funktionieren: <a>DeepL-API-Schlüssel abrufen</a>.'
+        model_type_help: 'Schnellere Antworten oder das qualitativ hochwertigere Modell, sofern DeepL ein solches anbietet.'
+        model_type_label: Modellart
         model_type_options:
           latency_optimized: Schneller
+          prefer_quality_optimized: 'Höhere Qualität'
+        pt_choice_help: 'DeepL benötigt bei der Übersetzung ins Portugiesische eine regionale Variante.'
         pt_choice_label: 'Portugiesische Sprachvarietät'
+      disabled_notice: 'Die Übersetzung ist deaktiviert, bis du unten einen Übersetzungstreiber auswählst und konfigurierst.'
+      driver_help: 'Der Dienst, der Inhalte übersetzt. Es wird nichts übersetzt, bis ein Treiber ausgewählt und konfiguriert wurde.'
+      driver_label: Übersetzungstreiber
       driver_none_option: Keine
+      driver_not_configured: 'Bei diesem Treiber fehlen erforderliche Einstellungen. Gib diese ein und speichere die Einstellungen, um mit der Übersetzung zu beginnen.'
+      driver_recommended_option: '{driver} (empfohlen)'
+      driver_section_heading: '{driver}-Einstellungen'
+      driver_self_hosted_option: '{driver} (selbst gehostet)'
+      driver_unofficial_option: '{driver} (kostenlos, inoffiziell)'
+      english_options:
+        en-GB: 'Britisches Englisch'
+        en-US: 'Amerikanisches Englisch'
+      env_override: 'Dieser Wert wird über eine Umgebungsvariable auf dem Server festgelegt.'
+      glossary:
+        add_button: 'Begriff hinzufügen'
+        empty_text: 'Noch keine Begriffe.'
+        label: Glossar
+        placeholder: 'Begriff hinzufügen…'
+        remove_button: '{term} entfernen'
+      ollama:
+        api_key_label: API-Token
+        base_url_label: Server-URL
+        model_label: Modell
+      openai:
+        api_key_label: 'OpenAI API-Schlüssel'
+        model_label: Modell
+      portuguese_options:
+        pt-BR: 'Portugiesisch (Brasilien)'
+        pt-PT: 'Portugiesisch (Portugal)'
+      throttle_per_minute_label: 'Übersetzungen pro Minute'
+    test:
+      button: 'Übersetzung testen'
+      detected_text: 'Erkannte Ausgangssprache: {language}'
+      failed_text: 'Test fehlgeschlagen: {error}'
+      failed_unknown_text: 'Test fehlgeschlagen.'
+      source_label: Beispiel
+      success_text: 'Übersetzt von {source} in {target} innerhalb von {seconds} s'
+      translation_label: Übersetzung
   forum:
+    poll:
+      show_original_button: 'Original anzeigen'
     translate_button:
       dropdown_accessible_label: 'Wähle eine Sprache aus, in die übersetzt werden soll'
+      label: Übersetzen
+      label_from: 'Übersetzen von {from}'
+      target_tooltip: 'Übersetzen in {to}'
+    translation:
+      close_button: 'Übersetzung schließen'
+      header_from: 'Übersetzt von {from} in {to}'
