@@ -56,8 +56,20 @@ ramon-stickers:
       network_error: Netzwerkfehler
       select_button: Auswählen
       sticker_list:
+        add_button: 'Sticker hinzufügen'
+        all_tab: Alle
+        anim_lib: 'Animierte Vorschauen, gerendert über <strong>lottie-web</strong> <detail>(Canvas-Renderer)</detail>'
         load_more_button: '=> core.forum.post_stream.load_more_button'
         move_category_error: 'Die Reihenfolge der Kategorien konnte nicht gespeichert werden. Bitte versuche es erneut.'
+        move_down: 'Nach unten'
+        move_up: 'Nach oben'
+        rename_button: 'Kategorie umbenennen'
+        rename_cancel_button: Abbrechen
+        rename_code_placeholder: category_code
+        rename_empty_error: 'Kategoriecode darf nicht leer sein.'
+        rename_error: 'Umbenennen fehlgeschlagen.'
+        rename_name_placeholder: Anzeigename
+        rename_save_button: Speichern
     upload:
       failed: 'Hochladen fehlgeschlagen'
       failed_with_error: 'Hochladen fehlgeschlagen: {error}'

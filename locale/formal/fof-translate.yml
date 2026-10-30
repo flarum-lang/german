@@ -85,16 +85,31 @@ fof-translate:
         en-GB: 'Britisches Englisch'
         en-US: 'Amerikanisches Englisch'
       env_override: 'Dieser Wert wird über eine Umgebungsvariable auf dem Server festgelegt.'
+      env_override_named: 'Dieser Wert wird durch die Umgebungsvariable {env} auf dem Server festgelegt.'
       glossary:
         add_button: 'Begriff hinzufügen'
         empty_text: 'Noch keine Begriffe.'
+        help: 'Wörter und Namen, die niemals übersetzt werden, wie beispielsweise der Name deines Forums oder deines Produkts.'
         label: Glossar
         placeholder: 'Begriff hinzufügen…'
         remove_button: '{term} entfernen'
+      google:
+        intro: 'Nutzt den kostenlosen Web-Endpunkt von Google Translate, sodass kein Konto und kein API-Schlüssel erforderlich sind. Es handelt sich um eine inoffizielle Lösung, die nach bestem Wissen und Gewissen bereitgestellt wird: Google kann stark ausgelastete Server drosseln oder sperren, und die Qualität liegt unter der der KI-basierten Übersetzer. Die Formatierung wird nach jeder Übersetzung überprüft, und eine Übersetzung, die nicht verifiziert werden kann, wird nicht gespeichert. Empfohlen zum Ausprobieren der Erweiterung oder für kleine Foren.'
       ollama:
+        api_key_help: 'Optionales Bearer-Token für einen Ollama-Server hinter einem authentifizierenden Reverse-Proxy. Kann auch über die Umgebungsvariable {env} festgelegt werden.'
         api_key_label: API-Token
+        base_url_help: 'Adresse deines Ollama-Servers, zum Beispiel http://localhost:11434.'
         base_url_label: Server-URL
+        intro: 'Die Modelle werden auf deinem eigenen Server ausgeführt, sodass die Inhalte diesen niemals verlassen und kein API-Schlüssel erforderlich ist. <a>Installiere Ollama</a> und lade zunächst ein Modell herunter.'
+        model_help: 'Name eines installierten Ollama-Modells, zum Beispiel llama3.1.'
         model_label: Modell
+        think_help: 'Für Modelle mit logischem Denken wie gpt-oss oder qwen3. Die Einstellung „Gering“ ist bei Übersetzungen deutlich schneller; die Einstellung „Aus“ wird von einigen Modellen (gpt-oss) ignoriert, die stets Schlussfolgerungen ziehen.'
+        think_label: 'Aufwand für logisches Denken'
+        think_options:
+          high: Hoch
+          low: Gering
+          medium: Mittel
+          'off': Aus
       openai:
         api_key_label: 'OpenAI API-Schlüssel'
         model_label: Modell
