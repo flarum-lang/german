@@ -12,8 +12,8 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
-* [`fof/translate`](https://github.com/FriendsOfFlarum/translate) (164 added, 61% complete)
-* [`ramon/stickers`](https://github.com/ram0ng1/stickers) (18 added, 4 changed, 81% complete)
+* [`fof/translate`](https://github.com/FriendsOfFlarum/translate) (190 added, 69% complete)
+* [`ramon/stickers`](https://github.com/ram0ng1/stickers) (42 added, 4 changed, 100% complete)
 
 
 All changes: [2.0.28...2.0.29](https://github.com/flarum-lang/german/compare/2.0.28...2.0.29).
