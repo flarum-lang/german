@@ -6,22 +6,59 @@ fof-translate:
   admin:
     detection:
       cancel_button: Abbrechen
+      counts_failed_text: 'Der Erkennungsstatus konnte nicht geladen werden.'
+      detect_missing_button: 'Fehlende Sprachen erkennen'
+      discussions_status_text: '{total, plural, one {# Diskussion} other {# Diskussionen}}: {detected} erkannt, {undetermined} unbestimmt, {pending} konnten nicht geprüft werden.'
       heading: Sprachenerkennung
+      help: 'Die Schaltfläche „Übersetzen“ wird bei Inhalten ausgeblendet, die bereits in der Sprache des Lesers vorliegen; hierfür muss die Sprache des Inhalts bekannt sein. Neue Beiträge und Diskussionen werden beim Speichern automatisch erkannt, Umfragen werden in Echtzeit erkannt. Verwende diese Funktion, um Inhalte zu erkennen, die vor der Installation der Erweiterung verfasst wurden. Die Erkennung erfolgt lokal auf deinem Server: Es werden keine Anfragen an den Übersetzungsanbieter gestellt, und es entstehen keine Kosten. Dasselbe lässt sich über die Befehlszeile mit {command} ausführen.'
+      posts_status_text: '{total, plural, one {# Beitrag} other {# Beiträge}}: {detected} erkannt, {undetermined} unbestimmt, {pending} konnten nicht geprüft werden.'
+      progress_discussions_text: 'Diskussionen werden erkannt… {processed} von {expected}'
+      progress_posts_text: 'Beiträge werden erkannt… {processed} von {expected}'
+      redetect_all_button: 'Alles erneut erkennen'
+      redetect_all_confirm: 'Soll die Sprache jedes Beitrags und jeder Diskussion erneut ermittelt werden, auch bei denen, die bereits ermittelt wurden? Bei einem großen Forum kann das eine Weile dauern.'
       refresh_button: Aktualisieren
+      summary_cancelled_text: 'Angehalten. Bisher {posts, plural, one {# Beitrag} other {# Beiträge}} und {discussions, plural, one {# Diskussion} other {# Diskussionen}} überprüft: {detected} erkannt, {undetermined} unbestimmt.'
+      summary_done_text: 'Abgeschlossen. {posts, plural, one {# Beitrag} other {# Beiträge}} und {discussions, plural, one {# Diskussion} other {# Diskussionen}} überprüft: {detected} erkannt, {undetermined} unbestimmt.'
+      summary_failed_text: 'Die Erkennung wurde aufgrund eines Fehlers nach der Überprüfung von {posts, plural, one {# Beitrag} other {# Beiträge}} und {discussions, plural, one {# Diskussion} other {# Diskussionen}} abgebrochen.'
+      undetermined_help: 'Der Inhalt wurde überprüft, aber der Detektor konnte die Sprache nicht erkennen, was bei Platzhaltern oder Testtexten häufig vorkommt. Es wird immer die Schaltfläche „Übersetzen“ angezeigt.'
     permissions:
+      refresh_label: 'Gespeicherte Übersetzungen aktualisieren'
+      translate_any_language_label: 'In jede Forums-Sprache übersetzen'
       translate_label: 'Inhalt übersetzen'
     settings:
       ai:
+        de_variant_help: 'Welche Art von Deutsch die KI-Autoren verwenden, wenn sie ins Deutsche übersetzen.'
         de_variant_label: 'Deutsche Sprachvarietät'
+        de_variant_options:
+          casual: 'Umgangsdeutsch (du)'
+          swiss: 'Schweizer Standarddeutsch'
+        en_variant_help: 'Welche Schreibweise die KI-Autoren bei der Übersetzung ins Englische verwenden.'
         en_variant_label: 'Englische Sprachvarietät'
+      api_key_help: 'Kann auch über die Umgebungsvariable {env} festgelegt werden, die Vorrang vor diesem Feld hat.'
       claude:
+        api_key_label: 'Anthropic API-Schlüssel'
+        effort_help: 'Wie lange das Modell nachdenkt, bevor es antwortet. Da Übersetzen eine einfache Aufgabe ist, reicht in der Regel eine kurze Überlegungszeit aus, die zudem am kostengünstigsten ist.'
+        effort_label: Aufwand
+        effort_options:
+          high: Hoch
+          low: Gering
+          medium: Mittel
+        intro: 'Verwendet die Claude-Modelle von Anthropic. Erstelle einen API-Schlüssel in der <a>Claude-Konsole</a>.'
+        model_help: 'Opus liefert die besten Übersetzungen, Haiku ist am günstigsten. Sonnet liegt dazwischen.'
         model_label: Modell
       deepl:
         api_key_label: 'DeepL API-Schlüssel'
         en_choice_label: 'Englische Sprachvarietät'
+        glossaries_heading: DeepL-Glossare
+        glossaries_help: 'Wähle für jedes Sprachpaar, das darin enthalten ist, ein Glossar aus deinem DeepL-Konto aus.'
         glossaries_reload_button: 'Neu laden'
         glossaries_retry_button: 'Erneut versuchen'
         glossary_none_option: 'Kein Glossar'
         glossary_pair_label: '{source} → {target}'
+        model_type_options:
+          latency_optimized: Schneller
         pt_choice_label: 'Portugiesische Sprachvarietät'
       driver_none_option: Keine
+  forum:
+    translate_button:
+      dropdown_accessible_label: 'Wähle eine Sprache aus, in die übersetzt werden soll'
