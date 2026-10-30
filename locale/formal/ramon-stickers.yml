@@ -12,21 +12,25 @@ ramon-stickers:
     sticker_section:
       bulk_upload_button: 'Mehrere hochladen'
       bulk_upload_category_prompt: 'Kategoriename für diese Sticker:'
+      bulk_upload_default_category: Sticker
       bulk_upload_done: 'Abgeschlossen: {uploaded} hochgeladen, {errors} fehlgeschlagen.'
       bulk_upload_progress: 'Wird hochgeladen {current}/{total}...'
       cancel_select_button: Abbrechen
       delete_selected_button: 'Löschen ({count})'
       delete_selected_confirm: '{count} Sticker löschen? Dies kann nicht rückgängig gemacht werden.'
-      delete_selected_error: 'Einige Sticker konnten nicht gelöscht werden. Bitte versuche es erneut.'
+      delete_selected_error: 'Die ausgewählten Sticker konnten nicht gelöscht werden. Bitte versuche es erneut.'
       edit_sticker:
         category_help: 'Nur Kleinbuchstaben, Zahlen und Unterstriche. Sonderzeichen werden automatisch bereinigt.'
         category_name_label: Kategoriename
         delete_sticker_button: 'Sticker löschen'
         delete_sticker_confirmation: 'Möchtest du diesen Sticker wirklich löschen?'
+        deleted_message: 'Sticker gelöscht.'
+        edit_button: 'Sticker bearbeiten'
         external_anim_notice_body: 'Animierte Sticker (.json / .tgs) müssen auf der Domain dieses Forums gehostet werden, damit sie angezeigt werden können. Dateien, die von einer externen URL geladen werden, werden für Besucher nicht animiert – lade die Datei hoch oder verwende stattdessen einen Pfad derselben Herkunft.'
         external_anim_notice_title: 'Animierter Sticker unter einer externen URL'
         modal_title: 'Sticker hinzufügen'
         path_or_url_label: 'Pfad oder URL'
+        preview_alt: Vorschau
         save_error: 'Das Speichern des Stickers ist fehlgeschlagen. Bitte überprüfe deine Eingabe und versuche es erneut.'
         saved_message: '=> core.admin.settings.saved_message'
         sticker_category_label: Kategorie-Code
@@ -43,11 +47,13 @@ ramon-stickers:
       heading_title: Sticker
       import_button: Importieren
       import_error_message: 'Import fehlgeschlagen: {error}'
+      import_invalid_json: 'Ungültige JSON-Datei: {error}'
       import_result: 'Abgeschlossen: {imported} importiert, {skipped} übersprungen (bereits vorhanden oder ungültig).'
       import_stickers_message: 'Dadurch werden die Metadaten der Sticker aus einer JSON-Datei importiert. Die Sticker-Dateien sind NICHT enthalten – diese müssen bereits hochgeladen worden sein. Möchtest du fortfahren?'
       import_unreadable_response: 'Der Server hat eine unlesbare Antwort zurückgegeben (Status {status}): {snippet}'
       import_zip_message: 'Dadurch werden Sticker aus einer ZIP-Datei (die mit dieser Erweiterung exportiert wurde) importiert. Die Sticker-Dateien werden in den Ordner /assets/stickers/ kopiert, wobei vorhandene Einträge NICHT überschrieben werden. Möchtest du fortfahren?'
       importing_message: 'Wird importiert, bitte warten...'
+      network_error: Netzwerkfehler
       select_button: Auswählen
       sticker_list:
         load_more_button: '=> core.forum.post_stream.load_more_button'
