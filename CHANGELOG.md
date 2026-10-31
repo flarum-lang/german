@@ -12,7 +12,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
-* [`fof/translate`](https://github.com/FriendsOfFlarum/translate) (230 added, 80% complete)
+* [`fof/translate`](https://github.com/FriendsOfFlarum/translate) (230 added, 82% complete)
 * [`ramon/stickers`](https://github.com/ram0ng1/stickers) (42 added, 4 changed, 100% complete)
 
 
