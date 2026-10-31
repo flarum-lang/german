@@ -136,6 +136,7 @@ fof-translate:
       failed_text: 'Test fehlgeschlagen: {error}'
       failed_unknown_text: 'Test fehlgeschlagen.'
       help: 'Übersetzt einen kurzen Text aus einer anderen Sprache unter Verwendung der oben genannten Werte – unabhängig davon, ob diese gespeichert sind oder nicht – in deine Administrationssprache. Dazu wird eine einzige Anfrage an den Anbieter gesendet.'
+      markup_warning: 'Die Formatierung wurde nicht vollständig beibehalten.'
       source_label: Beispiel
       success_text: 'Übersetzt von {source} in {target} innerhalb von {seconds} s'
       translation_label: Übersetzung
@@ -150,3 +151,8 @@ fof-translate:
     translation:
       close_button: 'Übersetzung schließen'
       header_from: 'Übersetzt von {from} in {to}'
+      header_to: 'Übersetzt in {to}'
+      loading_text: 'Wird übersetzt in {to}…'
+      meta: '{provider} · {time}'
+      refresh_button: 'Übersetzung aktualisieren'
+      show_original_button: 'Original anzeigen'
