@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+2.0.29 (XXXX-XX-XX)
+-------------------
+
+**Added support for new extensions**:
+
+* [`rysstad/blocked-usernames`](https://github.com/Pawlemann/flarum-blocked-usernames) (100% complete)
+
+
+**Updated translations for extensions**:
+
+* [`fof/translate`](https://github.com/FriendsOfFlarum/translate) (230 added, 82% complete)
+* [`ramon/stickers`](https://github.com/ram0ng1/stickers) (42 added, 4 changed, 100% complete)
+
+
+All changes: [2.0.28...2.0.29](https://github.com/flarum-lang/german/compare/2.0.28...2.0.29).
+
+
 2.0.28 (2026-10-29)
 -------------------
 
