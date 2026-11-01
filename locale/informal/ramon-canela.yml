@@ -2,6 +2,49 @@
 # Use https://weblate.rob006.net/projects/flarum2/ramon-canela/de/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+forumaker-profile-cover:
+  forum:
+    added:
+      error: 'Bild konnte nicht hochgeladen werden'
+      success: 'Profil-Titelbild aktualisiert'
+    cover: 'Cover bearbeiten'
+    edit_cover: 'Cover bearbeiten'
+    notice: 'Maximale Größe: {size}. Empfohlenes Format: 21:9, mindestens 1600×400 Pixel.'
+    position_label: 'Cover Position'
+    removed:
+      error: 'Cover konnte nicht entfernt werden, bitte erneut versuchen'
+      success: 'Profil-Titelbild entfernt'
+    save_position_button: 'Speichern Position'
+linkrobins-wiki:
+  forum:
+    common:
+      date_at_time: '{date} um {time}'
+    compose:
+      slug_label: 'URL slug'
+      slug_placeholder: 'z. B. erste Schritte'
+      title: 'Neuer Artikel'
+      title_edit: 'Artikel bearbeiten'
+      title_label: Überschrift
+      title_placeholder: Artikelüberschrift
+    index:
+      deleted_badge: Gelöscht
+      draft_badge: Entwurf
+      empty: 'Keine Artikel vorhanden.'
+      empty_own: 'Noch keine Artikel vorhanden. Klicke auf „Neuer Artikel“, um einen zu verfassen.'
+      index_label: Verzeichnis
+      new_article: 'Neuer Artikel'
+      new_article_tooltip: 'Verfasse einen neuen Artikel'
+      no_categories: 'Noch keine Kategorien.'
+      see_all_lead: 'Alles anzeigen in'
+      uncategorised: Andere
+      untitled: 'Ohne Titel'
+    nav: Wiki
+    search:
+      all_button: 'Durchsuche das Wiki für "{query}"'
+      empty: 'Keine Artikel gefunden "{query}"'
+      heading: Wiki
+      placeholder: 'Wiki durchsuchen'
+      results_heading: 'Ergebnisse für "{query}"'
 ramon-canela:
   admin:
     backgrounds:

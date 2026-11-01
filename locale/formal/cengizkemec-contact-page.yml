@@ -16,14 +16,60 @@ cengizkemec-contact-page:
       security: Sicherheit
       turnstile: 'Cloudflare Turnstile'
     settings:
+      access_mode_help: 'Dies wird auf dem Server durchgesetzt. Die folgenden zusätzlichen Optionen können den Zugriff weiter einschränken.'
+      access_mode_label: 'Wer kann das Kontaktformular nutzen?'
+      allow_guest_submissions_help: 'Die Gäste müssen weiterhin alle aktivierten Sicherheitskontrollen durchlaufen.'
+      allow_guest_submissions_label: 'Nachrichten von Gästen zulassen'
+      allow_registered_submissions_help: 'Wenn diese Funktion deaktiviert ist, können angemeldete Benutzer das Formular nicht absenden.'
+      allow_registered_submissions_label: 'Nachrichten von registrierten Benutzern zulassen'
+      categories_help: 'Eine Kategorie pro Zeile. Das Kategoriefeld wird ausgeblendet, wenn diese Liste leer ist.'
+      categories_label: Kontaktkategorien
+      default_language_help: 'Wird als Ausweichlösung verwendet, wenn die aktuelle Forums-Sprache weder Englisch noch Türkisch ist. Die aktuelle Sprache hat immer Vorrang, sofern sie verfügbar ist.'
+      default_language_label: Standardsprache
       enabled_help: 'Wenn diese Option deaktiviert ist, sind die Kontaktseite und der entsprechende Navigationspunkt nicht verfügbar. Die Einstellungen bleiben erhalten.'
       enabled_label: 'Kontaktseite aktivieren'
+      field_category_enabled_label: 'Kategoriefeld aktivieren'
+      field_category_label_label: 'Beschriftung für Kategorie'
+      field_category_placeholder_label: 'Platzhalter für Kategorie'
+      field_category_required_label: 'Kategorie erforderlich'
+      field_email_enabled_label: 'E-Mail-Feld aktivieren'
+      field_email_label_label: 'Beschriftung für E-Mail'
+      field_email_placeholder_label: E-Mail-Platzhalter
+      field_email_required_label: 'E-Mail-Adresse erforderlich'
+      field_message_enabled_label: 'Nachrichtenfeld aktivieren'
+      field_message_label_label: 'Beschriftung für Nachricht'
+      field_message_placeholder_label: 'Platzhalter für eine Nachricht'
+      field_message_required_label: 'Nachricht erforderlich'
+      field_name_enabled_label: 'Feld „Vollständiger Name“ aktivieren'
+      field_name_label_label: 'Beschriftung für den vollständigen Namen'
+      field_name_placeholder_label: 'Platzhalter für den vollständigen Namen'
+      field_name_required_label: 'Vollständiger Name erforderlich'
+      field_phone_enabled_label: 'Feld „Telefonnummer“ aktivieren'
+      field_phone_label_label: 'Beschriftung für Telefonnummer'
+      field_phone_placeholder_label: 'Platzhalter für Telefonnummer'
+      field_phone_required_label: 'Telefonnummer erforderlich'
+      field_privacy_enabled_label: 'Akzeptanz der Datenschutzerklärung aktivieren'
+      field_privacy_label_label: 'Beschriftung für die Datenschutzerklärung'
+      field_privacy_required_label: 'Akzeptanz der Datenschutzerklärung erforderlich'
+      field_subject_enabled_label: 'Betreff-Feld aktivieren'
+      field_subject_label_label: 'Beschriftung für Betreff'
+      field_subject_placeholder_label: 'Platzhalter für den Betreff'
+      field_subject_required_label: 'Betreff erforderlich'
       nav_label_help: 'Lassen Sie das Feld leer, um die übersetzte Standardbezeichnung zu verwenden (Kontakt).'
       nav_label_label: Navigationsbezeichnung
+      page_description_help: 'Wird unterhalb des Seitentitels angezeigt. Nur einfacher Text.'
+      page_description_label: Seitenbeschreibung
       page_title_help: 'Lassen Sie das Feld leer, um die übersetzte Standardangabe zu verwenden.'
       page_title_label: Seitentitel
+      prefill_authenticated_help: 'Die Felder „Name“ und „E-Mail“ werden mit den Daten des aktuellen Kontos vorab ausgefüllt. Die Nutzer können diese Angaben weiterhin bearbeiten.'
+      prefill_authenticated_label: 'Name und E-Mail-Adresse für angemeldete Benutzer vorab ausfüllen'
+      privacy_url_label: 'URL zur Datenschutzerklärung'
+      require_email_verification_help: 'Registrierte Nutzer mit einer nicht verifizierten E-Mail-Adresse werden abgelehnt. Gäste sind davon nicht betroffen.'
+      require_email_verification_label: 'Für registrierte Nutzer ist eine verifizierte E-Mail-Adresse erforderlich'
       show_in_navigation_help: 'Fügt einen Kontakt-Link in die linke Seitenleiste des Forums ein.'
       show_in_navigation_label: 'In der Seitenleiste anzeigen'
+      success_message_help: 'Wird angezeigt, nachdem eine Nachricht erfolgreich gesendet wurde. Lassen Sie das Feld leer, um den übersetzten standardmäßigen Text zu verwenden.'
+      success_message_label: Erfolgsmeldung
   forum:
     access:
       disabled: 'Das Kontaktformular ist derzeit deaktiviert.'
