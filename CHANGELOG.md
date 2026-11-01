@@ -16,7 +16,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
-* [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (4 changed, 67% complete)
+* [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (64 added, 6 changed, 74% complete)
 * [`fof/translate`](https://github.com/FriendsOfFlarum/translate) (286 added, 100% complete)
 * [`ramon/stickers`](https://github.com/ram0ng1/stickers) (42 added, 4 changed, 100% complete)
 
