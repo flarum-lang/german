@@ -7,14 +7,15 @@ CHANGELOG
 
 **Added support for new extensions**:
 
-* [`cengizkemec/flarum-contact-page`](https://github.com/cengizkemec/flarum-contact-page) (60% complete)
-* [`ramon/canela`](https://github.com/ram0ng1/canela) (96% complete)
+* [`cengizkemec/flarum-contact-page`](https://github.com/cengizkemec/flarum-contact-page) (100% complete)
+* [`ernestdefoe/vantage`](https://github.com/ernestdefoe/vantage) (21% complete)
+* [`ramon/canela`](https://github.com/ram0ng1/canela) (98% complete)
 * [`rysstad/blocked-usernames`](https://github.com/Pawlemann/flarum-blocked-usernames) (100% complete)
 
 
 **Updated translations for extensions**:
 
-* [`fof/translate`](https://github.com/FriendsOfFlarum/translate) (266 added, 93% complete)
+* [`fof/translate`](https://github.com/FriendsOfFlarum/translate) (286 added, 100% complete)
 * [`ramon/stickers`](https://github.com/ram0ng1/stickers) (42 added, 4 changed, 100% complete)
 
 
