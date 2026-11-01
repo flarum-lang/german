@@ -156,3 +156,4 @@ fof-translate:
       meta: '{provider} · {time}'
       refresh_button: 'Übersetzung aktualisieren'
       show_original_button: 'Original anzeigen'
+      stale_text: 'Das Original wurde seit der Erstellung dieser Übersetzung überarbeitet.'
