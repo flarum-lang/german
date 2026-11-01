@@ -126,7 +126,7 @@ ernestdefoe-curio:
     browse:
       add: 'Artikel hinzufügen'
       featured: 'Hervorgehobene Sammlungen'
-      largest: 'Größte Sammlungen'
+      largest: Top-Sammlungen
       lead: '{items, plural, one {# Artikel} other {# Artikel}} in Sammlungen von {members, plural, one {# Mitglied} other {# Mitgliedern}}.'
       no_results: 'Keine Treffer.'
       none: 'Hier gibt es noch keine Sammlungen.'
@@ -331,7 +331,7 @@ ernestdefoe-curio:
       rating: Höchstbewertet
       recent: 'Kürzlich hinzugefügt'
       title: Titel
-      year: 'Neueste zuerst'
+      year: Veröffentlichungsdatum
     status:
       owned: 'Im Besitz'
       trade: 'Zum Tausch'
