@@ -4,6 +4,9 @@
 
 cengizkemec-contact-page:
   admin:
+    permissions:
+      bypass_rate_limit_help: 'Mitglieder von Gruppen mit dieser Berechtigung unterliegen weder der Wartezeit für Kontaktformulare noch den Beschränkungen pro IP-Adresse.'
+      bypass_rate_limit_label: 'Beschränkungen für das Kontaktformular umgehen'
     sections:
       abuse: 'Begrenzung von Anfragen und Schutz vor Missbrauch'
       access: Zugriffsberechtigungen
@@ -16,16 +19,26 @@ cengizkemec-contact-page:
       security: Sicherheit
       turnstile: 'Cloudflare Turnstile'
     settings:
+      access_mode_disabled: Deaktiviert
+      access_mode_everyone: Alle
+      access_mode_guests: 'Nur Gäste'
       access_mode_help: 'Dies wird auf dem Server durchgesetzt. Die folgenden zusätzlichen Optionen können den Zugriff weiter einschränken.'
       access_mode_label: 'Wer kann das Kontaktformular nutzen?'
+      access_mode_registered: 'Nur registrierte Nutzer'
       allow_guest_submissions_help: 'Die Gäste müssen weiterhin alle aktivierten Sicherheitskontrollen durchlaufen.'
       allow_guest_submissions_label: 'Nachrichten von Gästen zulassen'
       allow_registered_submissions_help: 'Wenn diese Funktion deaktiviert ist, können angemeldete Benutzer das Formular nicht absenden.'
       allow_registered_submissions_label: 'Nachrichten von registrierten Benutzern zulassen'
       categories_help: 'Eine Kategorie pro Zeile. Das Kategoriefeld wird ausgeblendet, wenn diese Liste leer ist.'
       categories_label: Kontaktkategorien
+      cooldown_seconds_help: 'Mindestzeit zwischen zwei Übermittlungen von derselben IP-Adresse. Auf 0 setzen, um die Funktion zu deaktivieren.'
+      cooldown_seconds_label: 'Wartezeit zwischen Anfragen (Sekunden)'
+      default_language_auto: 'Aktuelle Forums-Sprache verwenden'
       default_language_help: 'Wird als Ausweichlösung verwendet, wenn die aktuelle Forums-Sprache weder Englisch noch Türkisch ist. Die aktuelle Sprache hat immer Vorrang, sofern sie verfügbar ist.'
       default_language_label: Standardsprache
+      duplicate_window_seconds_help: 'Identische Einsendungen von derselben IP-Adresse werden während dieses Zeitraums abgelehnt. Setzen Sie den Wert auf 0, um diese Funktion zu deaktivieren.'
+      duplicate_window_seconds_label: 'Zeitfenster für die Duplikaterkennung (Sekunden)'
+      email_subject_prefix_help: 'Wird vor dem Betreff des Besuchers hinzugefügt.'
       email_subject_prefix_label: 'Präfix für E-Mail-Betreffzeilen'
       enabled_help: 'Wenn diese Option deaktiviert ist, sind die Kontaktseite und der entsprechende Navigationspunkt nicht verfügbar. Die Einstellungen bleiben erhalten.'
       enabled_label: 'Kontaktseite aktivieren'
@@ -60,6 +73,12 @@ cengizkemec-contact-page:
       field_subject_label_label: 'Beschriftung für Betreff'
       field_subject_placeholder_label: 'Platzhalter für den Betreff'
       field_subject_required_label: 'Betreff erforderlich'
+      honeypot_enabled_help: 'Fügt ein verstecktes Feld hinzu, das von Menschen nicht ausgefüllt wird. Erkannte Bots erhalten eine gefälschte Erfolgsmeldung.'
+      honeypot_enabled_label: 'Honeypot aktivieren'
+      language_en: Englisch
+      language_tr: Türkisch
+      max_request_bytes_help: 'Anfragen, die diesen Wert überschreiten, werden vor der Validierung abgelehnt. Der Standardwert beträgt 65536 Byte (64 KB).'
+      max_request_bytes_label: 'Maximale Anforderungsgröße (Bytes)'
       message_max_help: 'Maximale Zeichenanzahl für die Nachricht.'
       message_max_length_label: 'Maximale Nachrichtenlänge'
       message_min_help: 'Mindestanzahl an Zeichen für die Nachricht.'
@@ -74,16 +93,88 @@ cengizkemec-contact-page:
       prefill_authenticated_label: 'Name und E-Mail-Adresse für angemeldete Benutzer vorab ausfüllen'
       privacy_url_help: 'Optionaler Link zu Ihrer Datenschutzerklärung. Es werden nur HTTP- und HTTPS-URLs akzeptiert.'
       privacy_url_label: 'URL zur Datenschutzerklärung'
+      rate_limit_enabled_help: 'Begrenzt die Anzahl der Übermittlungen pro gehashtem IP-Adresse. Unverarbeitete IP-Adressen werden niemals gespeichert.'
+      rate_limit_enabled_label: 'Ratenbegrenzung aktivieren'
+      rate_limit_max_help: 'Anzahl der zulässigen Nachrichten pro IP-Adresse innerhalb des Zeitfensters.'
+      rate_limit_max_label: 'Maximale Anzahl von Anfragen pro Zeitfenster'
+      rate_limit_window_help: 'Das Zeitfenster für die Einstellung der maximalen Anzahl an Anfragen.'
+      rate_limit_window_label: 'Zeitfenster für die Ratenbegrenzung (Sekunden)'
       recipient_email_help: 'Wohin Kontaktbenachrichtigungen gesendet werden. Erforderlich, wenn die Kontaktseite aktiviert ist.'
       recipient_email_label: 'E-Mail-Adresse des Empfängers'
+      reply_to_enabled_help: 'Wird nur angewendet, wenn eine gültige E-Mail-Adresse angegeben wurde. Eine Antwortadresse wird niemals anhand einer nicht validierten Eingabe festgelegt.'
+      reply_to_enabled_label: 'E-Mail-Adresse des Besuchers als Antwortadresse verwenden'
       require_email_verification_help: 'Registrierte Nutzer mit einer nicht verifizierten E-Mail-Adresse werden abgelehnt. Gäste sind davon nicht betroffen.'
       require_email_verification_label: 'Für registrierte Nutzer ist eine verifizierte E-Mail-Adresse erforderlich'
+      sender_name_help: 'Ansprechname, der in der Benachrichtigung für den Absender verwendet wird. Die Adresse stammt aus der E-Mail-Konfiguration von Flarum.'
+      sender_name_label: Absendername
       show_in_navigation_help: 'Fügt einen Kontakt-Link in die linke Seitenleiste des Forums ein.'
       show_in_navigation_label: 'In der Seitenleiste anzeigen'
       subject_max_help: 'Maximale Zeichenanzahl für den Betreff.'
       subject_max_length_label: 'Maximale Länge des Betreffs'
       success_message_help: 'Wird angezeigt, nachdem eine Nachricht erfolgreich gesendet wurde. Lassen Sie das Feld leer, um den übersetzten standardmäßigen Text zu verwenden.'
       success_message_label: Erfolgsmeldung
+      time_trap_enabled_help: 'Lehnt Formulare ab, die schneller übermittelt werden, als Menschen dies normalerweise können. Verwendet einen verborgenen Wert für die verstrichene Zeit.'
+      time_trap_enabled_label: 'Zeitfalle aktivieren'
+      time_trap_seconds_help: 'Formulare, die schneller als dies übermittelt werden, werden als Bots behandelt.'
+      time_trap_seconds_label: 'Mindestdauer zum Ausfüllen des Formulars (Sekunden)'
+      turnstile_appearance_always: 'Immer sichtbar'
+      turnstile_appearance_help: '„Always“ zeigt das Widget immer an; „Interaction-only“ zeigt es nur an, wenn eine Aufgabe zu lösen ist.'
+      turnstile_appearance_interaction_only: 'Nur Interaktion'
+      turnstile_appearance_label: 'Turnstile Erscheinungsbild'
+      turnstile_enabled_help: 'Empfohlen für öffentliche Gastformulare. Der geheime Schlüssel wird auf dem Server überprüft.'
+      turnstile_enabled_label: 'Cloudflare Turnstile aktivieren'
+      turnstile_expected_hostname_help: 'Optional. Standardmäßig ist der Host der aktuellen Anfrage eingestellt. Legen Sie diesen Wert fest, wenn Ihr Forum über einen Proxy mit einem anderen internen Host bereitgestellt wird.'
+      turnstile_expected_hostname_label: 'Erwarteter Hostname'
+      turnstile_secret_key_help: 'Privater Schlüssel. Dieser wird niemals an das Frontend des Forums gesendet oder in Protokolle geschrieben.'
+      turnstile_secret_key_label: 'Turnstile geheimer Schlüssel'
+      turnstile_site_key_help: 'Öffentlicher Schlüssel aus dem Cloudflare Turnstile-Dashboard.'
+      turnstile_site_key_label: Turnstile-Website-Schlüssel
+      turnstile_theme_auto: Auto
+      turnstile_theme_dark: Dunkel
+      turnstile_theme_help: 'Design des Turnstile-Widgets. Die Farbe passt sich automatisch dem Farbschema des Besuchers an.'
+      turnstile_theme_label: 'Turnstile Design'
+      turnstile_theme_light: Hell
+      turnstile_timeout_help: 'Wartezeit für die Siteverify-API von Cloudflare. Eine fehlgeschlagene Verifizierung blockiert die E-Mail.'
+      turnstile_timeout_label: 'HTTP-Timeout für Turnstile (Sekunden)'
+    validation:
+      boolean: '{field} muss entweder aktiviert oder deaktiviert sein.'
+      categories_empty: 'Fügen Sie mindestens eine Kategorie hinzu, bevor Sie das Kategoriefeld aktivieren.'
+      categories_limit: 'Es sind höchstens 50 Kategorien zulässig.'
+      category_too_long: 'Jede Kategorie darf nicht länger als 100 Zeichen sein.'
+      email: '{field} muss eine gültige E-Mail-Adresse sein.'
+      enum: '{field} enthält einen nicht unterstützten Wert.'
+      hostname: '{field} muss ein gültiger Hostname sein, optional mit einem Port.'
+      integer: '{field} muss eine ganze Zahl sein.'
+      message_range: 'Die Mindestlänge einer Nachricht darf nicht größer sein als die maximale Länge einer Nachricht.'
+      no_content_field: 'Aktivieren Sie mindestens das E-Mail-Feld oder das Nachrichtenfeld, wenn die Kontaktseite aktiviert ist.'
+      range: '{field} muss zwischen {min} und {max} liegen.'
+      required: '{field} ist ein Pflichtfeld.'
+      too_long: '{field} darf nicht länger als {max} Zeichen sein.'
+      turnstile_keys: 'Wenn Turnstile aktiviert ist, werden sowohl der Turnstile-Site-Schlüssel als auch der geheime Schlüssel benötigt.'
+      url: '{field} muss eine gültige HTTP- oder HTTPS-URL sein.'
+      whitespace: '{field} darf keine Leerzeichen oder Zeilenumbrüche enthalten.'
+  email:
+    category_label: Kategorie
+    email_label: E-Mail-Adresse
+    footer: 'Gesendet von {forumTitle}.'
+    guest: Gast
+    heading: 'Neue Kontaktnachricht'
+    intro: 'Über das Kontaktformular wurde eine neue Nachricht gesendet.'
+    message_label: Nachricht
+    name_label: 'Voller Name'
+    'no': Nein
+    no_category: 'Nicht angegeben'
+    no_message: 'Keine Nachricht'
+    no_subject: 'Kein Betreff'
+    not_provided: 'Keine Angabe'
+    phone_label: Telefonnummer
+    privacy_label: 'Datenschutzerklärung akzeptiert'
+    registered_user: 'Registrierter Benutzer'
+    subject_label: Betreff
+    submitted_at_label: 'Übermittelt am'
+    submitter_type_label: Absender
+    unknown_sender: 'Unbekannter Absender'
+    'yes': Ja
   forum:
     access:
       disabled: 'Das Kontaktformular ist derzeit deaktiviert.'

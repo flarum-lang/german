@@ -17,11 +17,43 @@ forumaker-profile-cover:
     save_position_button: 'Speichern Position'
 linkrobins-wiki:
   forum:
+    action:
+      cancel: Abbrechen
+      delete: Löschen
+      delete_forever: 'Endgültig löschen'
+      edit: Bearbeiten
+      report: Bericht
+      restore: Wiederherstellen
+      save_changes: 'Änderungen speichern'
+    comments:
+      empty: 'Noch keine Kommentare.'
+      heading: 'Kommentare ({count})'
     common:
       date_at_time: '{date} um {time}'
     compose:
+      body_label: Inhalt
+      body_placeholder: 'Schreibe den Artikel. Markdown wird unterstützt.'
+      body_placeholder_click: 'Klicken, um den Artikel zu verfassen…'
+      body_placeholder_edit: 'Zum Fortsetzen der Bearbeitung klicken…'
+      category_label: Kategorie
+      discard_confirm: 'Du hast einen ungespeicherten Artikel. Verwerfen?'
+      draft_help: 'Ein Entwurf ist nur für dich und für Wiki-Bearbeiter sichtbar, bis du ihn veröffentlichst.'
+      draft_label: 'Als Entwurf speichern'
+      faq_add: 'Frage hinzufügen'
+      faq_answer_placeholder: 'Antwort. Markdown wird unterstützt.'
+      faq_heading: FAQ
+      faq_help: 'Unter dem Artikel werden optionale Fragen und Antworten angezeigt. In den Antworten wird Markdown unterstützt.'
+      faq_question_placeholder: Frage
+      faq_remove: 'Frage entfernen'
+      no_category: 'Keine Kategorie'
+      position_help: 'Sortiert diesen Artikel innerhalb seiner Kategorie – beginnend mit dem niedrigsten Wert. Bleibt das Feld leer, wird der Artikel nach den bereits sortierten Elementen eingeordnet, wobei die neuesten zuerst erscheinen.'
+      position_label: Position
+      position_placeholder: 'z. B. 1'
+      slug_help: 'Wird in der Artikel-URL verwendet. Lasse das Feld leer, um ihn aus dem Titel zu generieren.'
       slug_label: 'URL slug'
       slug_placeholder: 'z. B. erste Schritte'
+      submit_create: 'Artikel veröffentlichen'
+      submit_update: 'Änderungen speichern'
       title: 'Neuer Artikel'
       title_edit: 'Artikel bearbeiten'
       title_label: Überschrift
@@ -39,12 +71,43 @@ linkrobins-wiki:
       uncategorised: Andere
       untitled: 'Ohne Titel'
     nav: Wiki
+    report:
+      detail_label: 'Gibt es noch etwas hinzuzufügen? (optional)'
+      failed: 'Das konnte nicht gesendet werden. Bitte versuchen Sie es erneut.'
+      intro: 'Redakteure werden dies zusammen mit dem Artikel sehen.'
+      reason_duplicate: 'Es dupliziert einen anderen Artikel'
+      reason_inaccurate: 'Es ist Unangemessen'
+      reason_label: 'Was ist daran falsch?'
+      reason_off_topic: 'Es gehört nicht hierher'
+      reason_other: 'Etwas anderes'
+      reason_outdated: 'Es ist veraltet'
+      sent: 'Dankeschön. Ein Redakteur wird sich das ansehen.'
+      submit: 'Bericht senden'
+      title: 'Artikel melden'
     search:
       all_button: 'Durchsuche das Wiki für "{query}"'
       empty: 'Keine Artikel gefunden "{query}"'
       heading: Wiki
       placeholder: 'Wiki durchsuchen'
       results_heading: 'Ergebnisse für "{query}"'
+    show:
+      by: 'von '
+      created_tooltip: 'Geschrieben {date}'
+      deleted_notice: 'Dieser Artikel wurde gelöscht. Nur Redakteure können ihn sehen.'
+      diff_from_previous: 'Änderungen gegenüber der vorherigen Version'
+      diff_initial: 'Erste Version'
+      diff_none: 'Keine inhaltlichen Änderungen.'
+      diff_title: Titel
+      draft_notice: 'Dieser Artikel ist ein Entwurf. Nur du und Wiki-Redakteure können ihn sehen.'
+      faq_heading: 'Häufig gestellte Fragen'
+      history: 'Änderungsverlauf ({count})'
+      initial_version: erstellt
+      last_edited: 'zuletzt bearbeitet durch '
+      last_edited_tooltip: 'Zuletzt bearbeitet durch {name} am {date}'
+      load_more_history: 'Ältere Versionen laden'
+      no_history: 'Noch keine Überarbeitungen.'
+      related_heading: 'Verwandte Artikel'
+      toc_heading: Inhalte
 ramon-canela:
   admin:
     backgrounds:

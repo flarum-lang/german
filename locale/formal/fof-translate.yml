@@ -2,10 +2,23 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-translate/de@formal/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      fof_translate:
+        discussion_translation_refreshed: 'Die Übersetzung des Titels von {discussion} wurde für {locale} aktualisiert'
+        driver_tested: 'Übersetzungs-Treiber {driver} getestet: {ok, select, true {es hat funktioniert} other {es hat nicht funktioniert}}'
+        language_detection_run: 'Sprache von {rows, plural, one {# Zeile} other {# Zeilen}} von {type} {force, select, true {erneut erkannt} other {erkannt}}'
+        poll_translation_refreshed: 'Die Übersetzung der Umfrage #{poll_id} wurde für {locale} aktualisiert'
+        post_translation_refreshed: 'Die Übersetzung von {postuser}s {post} in {discussion} wurde für {locale} aktualisiert'
+        translations_pruned: '{same_language} gleichsprachige Übersetzungen, {orphaned_polls} verwaiste Übersetzungen und {orphaned_poll_options} verwaiste Übersetzungen von Umfrageoptionen wurden entfernt'
+        translations_repaired: '{rows, plural, one {# fehlerhafte Übersetzung eines Beitrags} other {# fehlerhafte Übersetzungen von Beiträgen}} zur Neuübersetzung markiert'
 flarum-gdpr:
   lib:
     data:
       translationdata:
+        anonymize_description: 'Keine Aktion. Die Inhalte des Benutzers bleiben erhalten, daher bleiben auch deren Übersetzungen erhalten.'
+        delete_description: 'Löscht die Übersetzungen der Beiträge, Diskussionen und Umfragen, die zusammen mit den Inhalten des Nutzers entfernt wurden.'
         export_description: 'Exportiert die Übersetzungen der Beiträge und Diskussionstitel des Benutzers, wobei für jeden Beitrag die jeweilige Sprache ermittelt wird.'
 fof-translate:
   admin:
@@ -148,6 +161,7 @@ fof-translate:
   api:
     already_in_language: 'Dieser Inhalt ist bereits in der ausgewählten Sprache verfügbar.'
     glossaries_failed: 'Die DeepL-Glossare konnten nicht geladen werden. Bitte überprüfe den API-Schlüssel.'
+    invalid_detection_cursor: 'Ungültige Erkennungsposition.'
     invalid_detection_type: 'Unbekannter Inhaltstyp für die Spracherkennung.'
     no_driver: 'In diesem Forum ist die Übersetzungsfunktion nicht konfiguriert.'
     not_translatable: 'Dieser Beitrag kann nicht übersetzt werden.'
