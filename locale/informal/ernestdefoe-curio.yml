@@ -44,7 +44,7 @@ ernestdefoe-curio:
       shortcut_sidebar: 'Nur Seitenleiste'
       upc_help: 'Barcodes für Spiele, Filme und andere Produkte werden in der UPCitemdb nachgeschlagen, die täglich 100 Abfragen ohne Schlüssel zulässt. Jeder vom Forum identifizierte Barcode wird gespeichert, sodass die meisten Foren nie mehr benötigen. Mit einem kostenpflichtigen Schlüssel lässt sich das Limit erhöhen.'
       upc_label: 'UPCitemdb-Schlüssel (optional)'
-      upc_link: 'Schlüssel holen'
+      upc_link: UPCitemdb-Abonnements
       widget_help: 'Standardmäßig deaktiviert. Wenn aktiviert, kann das Widget mit „FoF Forum Widgets“ oder „Bespoke“ platziert werden (es erscheint zunächst in der rechten Spalte von FoF; Du kannst es im Layout-Editor von FoF verschieben oder entfernen).'
       widget_label: '„Kürzlich hinzugefügt“ Widget anbieten'
       widget_title: 'Kürzlich zu Sammlungen hinzugefügt'
@@ -125,15 +125,29 @@ ernestdefoe-curio:
   forum:
     browse:
       add: 'Artikel hinzufügen'
+      collector: Mitglied
+      collector_collections: Sammlungen
+      collector_wishlist: Wunschliste
+      collectors: Top-Sammler
       featured: 'Hervorgehobene Sammlungen'
       largest: Top-Sammlungen
       lead: '{items, plural, one {# Artikel} other {# Artikel}} in Sammlungen von {members, plural, one {# Mitglied} other {# Mitgliedern}}.'
+      most_owned_owners: Mitglieder
+      most_owned_title: Titel
       no_results: 'Keine Treffer.'
       none: 'Hier gibt es noch keine Sammlungen.'
+      owned_by: '{count, plural, one {# Mitglied} other {# Mitglieder}}'
       recent: 'Kürzlich hinzugefügt'
       results: 'Ergebnisse für „{q}“'
       search: 'Alle Sammlungen durchsuchen…'
+      tab_collectors: Top-Sammler
+      tab_wishlist: Wunschliste
       title: Sammlungen
+    card_condition:
+      damaged: 'Beschädigt (DMG)'
+      light_played: 'Leicht bespielt (LP)'
+      mint: 'Neuwertig (M)'
+      near_mint: 'Nahezu neuwertig (NM)'
     condition:
       fair: Ordentlich
       good: Gut
@@ -205,10 +219,12 @@ ernestdefoe-curio:
       acquired: Erworben
       cancel: Abbrechen
       choose_collection: 'Welche Sammlung?'
+      choose_new: 'Neue Sammlung…'
       condition: Zustand
       developer: Entwickler
       discussed: 'Hier diskutiert'
       edit: Bearbeiten
+      edit_this: 'Diesen Artikel bearbeiten'
       favourite: Favorit
       from_wikidata: 'Beschreibung von Wikidata'
       from_wikipedia: 'Beschreibung von Wikipedia'
@@ -219,9 +235,13 @@ ernestdefoe-curio:
       less: 'Weniger anzeigen'
       missing: 'Dieser Artikel existiert nicht oder ist für dich nicht sichtbar.'
       more: 'Weiter lesen'
+      move: Verschieben
+      move_to: 'In welche Sammlung verschieben?'
+      moved: 'In {collection} verschoben.'
       'no': Nein
       no_description: 'Keine Beschreibung verfügbar.'
       offers: '{count, plural, one {# Mitglied bietet dies zum Tausch} other {# Mitglieder bieten dies zum Tausch}}'
+      owners_title: 'Wer besitzt {title}'
       photo_n: 'Foto {n}'
       platforms: Plattformen
       price: 'Bezahlter Preis'
@@ -237,10 +257,14 @@ ernestdefoe-curio:
       add: 'Zur Sammlung hinzufügen'
       add_photos: 'Eigene Fotos hinzufügen'
       barcode_found: 'Barcode {code} erkannt.'
+      barcode_found_named: 'Barcode {code}: „{title}“.'
+      barcode_miss: 'Kein Produkt gefunden für {code}.'
       barcode_placeholder: 'Barcode oder ISBN scannen oder eingeben'
       barcode_unknown: 'Der Barcode {code} ist noch niemandem bekannt. Füge ihn manuell hinzu, dann erhält die nächste Person, die ihn scannt, deinen Eintrag.'
       by_hand: 'Händisch hinzufügen'
+      by_title: 'Stattdessen nach Titel suchen'
       camera_error: 'Die Kamera konnte nicht gestartet werden. Du kannst den Barcode stattdessen eingeben.'
+      card_language: 'Sprache der Karte'
       choose: Wählen…
       condition: Zustand
       condition_none: 'Nicht festgelegt'
@@ -250,15 +274,18 @@ ernestdefoe-curio:
       favourite: Favorit
       find_hint: 'Wenn du ein Ergebnis auswählst, werden das Titelbild und die Details ausgefüllt, und der Titel sowie die Beschreibung werden in allen Sprachen angezeigt, die in diesem Forum gesprochen werden.'
       lookup_failed: 'Der Titel konnte aktuell nicht nachgeschlagen werden. Erneut versuchen oder händisch hinzufügen.'
+      more_results: 'Weitere Ergebnisse'
       no_results: 'Kein Treffer. Versuche es mit weniger Wörtern oder gib den Begriff manuell ein.'
       notes: Notizen
       notes_placeholder: 'Wo du es gefunden hast, was in der Verpackung ist, alles, was erwähnenswert ist…'
+      other_choice: Sonstiges…
       photos_hint: 'Ablegen, einfügen oder auswählen · bis zu {count} weitere'
       price: 'Bezahlter Preis'
       price_private: 'Nur du kannst ihn sehen'
       rating: 'Deine Bewertung'
       rating_none: 'Noch nicht bewertet. Tippe auf einen Stern; tippe erneut darauf, um die Auswahl aufzuheben.'
       rating_value: '{stars} von 5'
+      rating_zero: 'Keine Sterne (0 von 5)'
       remove_photo: 'Foto entfernen'
       save: Speichern
       scan: Scannen
@@ -271,6 +298,7 @@ ernestdefoe-curio:
       title: Titel
       title_edit: 'Artikel bearbeiten'
       title_new: 'Zu {name} hinzufügen'
+      title_placeholder: 'Nach Titel suchen'
       translated_hint: 'Leser sehen es in ihrer eigenen Sprache ({count} verfügbar).'
       year: Jahr
     marquee:
@@ -303,6 +331,12 @@ ernestdefoe-curio:
       view_label: Darstellung
       view_list: Liste
       wanted: Wunschliste
+    printing:
+      1st-edition: 'Erste Auflage'
+      holo: Holo
+      metal: Metall
+      normal: Normal
+      reverse: 'Reverse holo'
     profile:
       collections: Sammlungen
       collections_heading: Sammlungen
