@@ -26,6 +26,7 @@ cengizkemec-contact-page:
       categories_label: Kontaktkategorien
       default_language_help: 'Wird als Ausweichlösung verwendet, wenn die aktuelle Forums-Sprache weder Englisch noch Türkisch ist. Die aktuelle Sprache hat immer Vorrang, sofern sie verfügbar ist.'
       default_language_label: Standardsprache
+      email_subject_prefix_label: 'Präfix für E-Mail-Betreffzeilen'
       enabled_help: 'Wenn diese Option deaktiviert ist, sind die Kontaktseite und der entsprechende Navigationspunkt nicht verfügbar. Die Einstellungen bleiben erhalten.'
       enabled_label: 'Kontaktseite aktivieren'
       field_category_enabled_label: 'Kategoriefeld aktivieren'
@@ -36,6 +37,8 @@ cengizkemec-contact-page:
       field_email_label_label: 'Beschriftung für E-Mail'
       field_email_placeholder_label: E-Mail-Platzhalter
       field_email_required_label: 'E-Mail-Adresse erforderlich'
+      field_enabled_help: 'Dieses Feld im Kontaktformular anzeigen.'
+      field_label_help: 'Lassen Sie das Feld leer, um den übersetzten Standardtext zu verwenden.'
       field_message_enabled_label: 'Nachrichtenfeld aktivieren'
       field_message_label_label: 'Beschriftung für Nachricht'
       field_message_placeholder_label: 'Platzhalter für eine Nachricht'
@@ -48,13 +51,19 @@ cengizkemec-contact-page:
       field_phone_label_label: 'Beschriftung für Telefonnummer'
       field_phone_placeholder_label: 'Platzhalter für Telefonnummer'
       field_phone_required_label: 'Telefonnummer erforderlich'
+      field_placeholder_help: 'Lassen Sie das Feld leer, um den übersetzte Standardtext zu verwenden.'
       field_privacy_enabled_label: 'Akzeptanz der Datenschutzerklärung aktivieren'
       field_privacy_label_label: 'Beschriftung für die Datenschutzerklärung'
       field_privacy_required_label: 'Akzeptanz der Datenschutzerklärung erforderlich'
+      field_required_help: 'Ohne die Angabe dieses Feldes kann das Formular nicht abgeschickt werden.'
       field_subject_enabled_label: 'Betreff-Feld aktivieren'
       field_subject_label_label: 'Beschriftung für Betreff'
       field_subject_placeholder_label: 'Platzhalter für den Betreff'
       field_subject_required_label: 'Betreff erforderlich'
+      message_max_help: 'Maximale Zeichenanzahl für die Nachricht.'
+      message_max_length_label: 'Maximale Nachrichtenlänge'
+      message_min_help: 'Mindestanzahl an Zeichen für die Nachricht.'
+      message_min_length_label: 'Mindestlänge der Nachricht'
       nav_label_help: 'Lassen Sie das Feld leer, um die übersetzte Standardbezeichnung zu verwenden (Kontakt).'
       nav_label_label: Navigationsbezeichnung
       page_description_help: 'Wird unterhalb des Seitentitels angezeigt. Nur einfacher Text.'
@@ -63,11 +72,16 @@ cengizkemec-contact-page:
       page_title_label: Seitentitel
       prefill_authenticated_help: 'Die Felder „Name“ und „E-Mail“ werden mit den Daten des aktuellen Kontos vorab ausgefüllt. Die Nutzer können diese Angaben weiterhin bearbeiten.'
       prefill_authenticated_label: 'Name und E-Mail-Adresse für angemeldete Benutzer vorab ausfüllen'
+      privacy_url_help: 'Optionaler Link zu Ihrer Datenschutzerklärung. Es werden nur HTTP- und HTTPS-URLs akzeptiert.'
       privacy_url_label: 'URL zur Datenschutzerklärung'
+      recipient_email_help: 'Wohin Kontaktbenachrichtigungen gesendet werden. Erforderlich, wenn die Kontaktseite aktiviert ist.'
+      recipient_email_label: 'E-Mail-Adresse des Empfängers'
       require_email_verification_help: 'Registrierte Nutzer mit einer nicht verifizierten E-Mail-Adresse werden abgelehnt. Gäste sind davon nicht betroffen.'
       require_email_verification_label: 'Für registrierte Nutzer ist eine verifizierte E-Mail-Adresse erforderlich'
       show_in_navigation_help: 'Fügt einen Kontakt-Link in die linke Seitenleiste des Forums ein.'
       show_in_navigation_label: 'In der Seitenleiste anzeigen'
+      subject_max_help: 'Maximale Zeichenanzahl für den Betreff.'
+      subject_max_length_label: 'Maximale Länge des Betreffs'
       success_message_help: 'Wird angezeigt, nachdem eine Nachricht erfolgreich gesendet wurde. Lassen Sie das Feld leer, um den übersetzten standardmäßigen Text zu verwenden.'
       success_message_label: Erfolgsmeldung
   forum:

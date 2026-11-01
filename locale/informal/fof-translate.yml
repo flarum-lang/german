@@ -2,6 +2,11 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-translate/de/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-gdpr:
+  lib:
+    data:
+      translationdata:
+        export_description: 'Exportiert die Übersetzungen der Beiträge und Diskussionstitel des Benutzers, wobei für jeden Beitrag die jeweilige Sprache ermittelt wird.'
 fof-translate:
   admin:
     detection:
@@ -143,6 +148,12 @@ fof-translate:
   api:
     already_in_language: 'Dieser Inhalt ist bereits in der ausgewählten Sprache verfügbar.'
     glossaries_failed: 'Die DeepL-Glossare konnten nicht geladen werden. Bitte überprüfe den API-Schlüssel.'
+    invalid_detection_type: 'Unbekannter Inhaltstyp für die Spracherkennung.'
+    no_driver: 'In diesem Forum ist die Übersetzungsfunktion nicht konfiguriert.'
+    not_translatable: 'Dieser Beitrag kann nicht übersetzt werden.'
+    too_long: 'Dieser Text ist zu lang, um ihn zu übersetzen.'
+    translation_failed: 'Die Übersetzung ist fehlgeschlagen. Bitte versuche es später erneut.'
+    unsupported_locale: 'Diese Sprache steht nicht zur Übersetzung zur Verfügung.'
   forum:
     poll:
       show_original_button: 'Original anzeigen'
@@ -160,5 +171,13 @@ fof-translate:
       refresh_button: 'Übersetzung aktualisieren'
       show_original_button: 'Original anzeigen'
       stale_text: 'Das Original wurde seit der Erstellung dieser Übersetzung überarbeitet.'
+      status_from: 'Übersetzt aus {from}'
       status_text: Übersetzt
       thread_failed_text: '{count, plural, one {# Beitrag konnte} other {# Beiträge konnten}} nicht übersetzt werden. Bitte erneut versuchen.'
+  lib:
+    drivers:
+      claude: Claude
+      deepl: DeepL
+      google: 'Google Translate'
+      ollama: Ollama
+      openai: OpenAI
