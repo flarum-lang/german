@@ -26,8 +26,19 @@ linkrobins-wiki:
       restore: Wiederherstellen
       save_changes: 'Änderungen speichern'
     comments:
+      confirm_delete: 'Diesen Kommentar löschen?'
+      confirm_delete_forever: 'Diesen Kommentar dauerhaft löschen? Dies kann nicht rückgängig gemacht werden.'
+      deleted: 'Dieser Kommentar wurde gelöscht.'
+      discard_confirm: 'Du hast einen Kommentar, der noch nicht abgeschickt wurde. Verwerfen?'
       empty: 'Noch keine Kommentare.'
+      empty_error: 'Bitte schreibe zuerst etwas.'
+      error_delete: 'Der Kommentar konnte nicht gelöscht werden.'
+      error_edit: 'Der Kommentar konnte nicht gespeichert werden.'
+      error_post: 'Der Kommentar konnte nicht veröffentlicht werden.'
       heading: 'Kommentare ({count})'
+      load_more: 'Weitere Kommentare laden'
+      placeholder: 'Schreibe einen Kommentar…'
+      post: 'Kommentar veröffentlichen'
     common:
       date_at_time: '{date} um {time}'
     compose:
@@ -58,6 +69,11 @@ linkrobins-wiki:
       title_edit: 'Artikel bearbeiten'
       title_label: Überschrift
       title_placeholder: Artikelüberschrift
+    confirm:
+      delete_forever: 'Diesen Artikel und dessen Verlauf dauerhaft löschen? Dies kann nicht rückgängig gemacht werden.'
+      soft_delete: 'Diesen Artikel löschen? Redakteure können ihn später wiederherstellen.'
+    errors:
+      load_articles: 'Artikel konnten nicht geladen werden.'
     index:
       deleted_badge: Gelöscht
       draft_badge: Entwurf
