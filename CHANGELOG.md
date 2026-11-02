@@ -5,6 +5,11 @@ CHANGELOG
 2.0.30 (XXXX-XX-XX)
 -------------------
 
+**Added support for new extensions**:
+
+* [`cengizkemec/passkeys`](https://github.com/cengizkemec/flarum-passkeys) (100% complete)
+
+
 **Updated translations for extensions**:
 
 * [`ramon/canela`](https://github.com/ram0ng1/canela) (28 added, 99% complete)
