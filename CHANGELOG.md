@@ -8,7 +8,8 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`cengizkemec/passkeys`](https://github.com/cengizkemec/flarum-passkeys) (100% complete)
-* [`huseyinfiliz/private-profile`](https://github.com/huseyinfiliz/private-profile) (3% complete)
+* [`ernestdefoe/masthead`](https://github.com/ernestdefoe/masthead) (100% complete)
+* [`huseyinfiliz/private-profile`](https://github.com/huseyinfiliz/private-profile) (100% complete)
 
 
 **Updated translations for extensions**:
