@@ -3,8 +3,68 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 huseyinfiliz-private-profile:
+  admin:
+    permissions:
+      bypass_profile_visibility: 'Einschränkungen der Sichtbarkeit von Profilen umgehen'
+    settings:
+      admin_mode_help: 'Ihre Auswahl bezüglich der Sichtbarkeit gilt für alle Mitglieder, unabhängig von deren persönlichen Datenschutzeinstellungen. Der Datenschutzschalter ist in diesem Modus in den Mitgliedereinstellungen ausgeblendet.'
+      api_request: 'Möchten Sie API-Schutz für eine andere Erweiterung? Fordern Sie Unterstützung an, indem Sie einen Kommentar in der Diskussion „<a>Privates Profil</a>“ hinterlassen. Bitte geben Sie dabei den Namen der Erweiterung und einen Link zu deren Seite an.'
+      api_supported_help: 'Diese Profilseiten und die damit verbundenen API-Abfragen werden durch die Sichtbarkeitseinstellungen für Profile geschützt. Wählen Sie die Seiten aus, die Sie schützen möchten.'
+      api_unsupported_help: 'Diese Seiten können in Profilen ausgeblendet werden, ein API-Schutz wird jedoch noch nicht unterstützt. Auf ihre Daten kann möglicherweise weiterhin über die APIs der Erweiterungen zugegriffen werden.'
+      audience_members: 'Angemeldete Mitglieder'
+      audience_private: 'Nur für den Profilinhaber und autorisierte Mitarbeiter'
+      default_visibility_label: 'Sichtbarkeit des Administratorprofils'
+      discovering_tabs: 'Profil-Registerkarten im Forum entdecken…'
+      discovery_complete: 'Die Registerkarten im Profil sind auf dem neuesten Stand.'
+      discovery_failed: 'Die Profil-Registerkarten konnten nicht aktualisiert werden. Bitte versuche es erneut.'
+      forced_visibility_help: 'Gilt für alle Mitglieder. Mitglieder können diese Sichtbarkeit in ihren Kontoeinstellungen nicht ändern.'
+      forced_visibility_label: 'Sichtbarkeit der Profile für alle Mitglieder'
+      hidden_tabs_help: 'Wählen Sie aus, welche Registerkarten den Sichtbarkeitseinstellungen des Profils unterliegen. Nicht ausgewählte Registerkarten, Avatare und die Profilüberschrift bleiben sichtbar. Beiträge und Diskussionen sind standardmäßig ausgewählt.'
+      hidden_tabs_label: 'Profil-Registerkarten zum Schutz'
+      member_mode_help: 'Mitglieder können die Option „Mein Profil privat machen“ in ihren Kontoeinstellungen aktivieren oder deaktivieren. Wenn sie diese Option aktivieren, entscheiden Sie selbst, wer die ausgewählten Profilseiten weiterhin einsehen kann.'
+      member_scope_help: 'Wählen Sie „Angemeldete Mitglieder“, um private Profile nur vor Gästen zu verbergen, oder „Nur Profilinhaber und autorisierte Mitarbeiter“, um sie vor Gästen und anderen Mitgliedern zu verbergen. Inhaber, Administratoren und Benutzer mit Umgehungsberechtigung behalten weiterhin Zugriff.'
+      mode_admin: 'Der Administrator entscheidet'
+      mode_label: 'Wer bestimmt die Sichtbarkeit des Profils?'
+      mode_member: 'Die Mitglieder entscheiden'
+      no_tabs: 'In dieser Gruppe wurden keine Profilseiten gefunden.'
+      option_everyone: Alle
+      option_members: 'Nur für Mitglieder'
+      option_private: Privat
+      page_only_group: 'Nur Profilseite'
+      page_sections: 'Bereiche des privaten Profils'
+      preferences_preserved: 'Durch das Wechseln des Modus werden die Datenschutzeinstellungen der Mitglieder nicht gelöscht. Die gespeicherten Einstellungen gelten wieder, sobald Sie zu „Mitglieder entscheiden“ zurückkehren.'
+      private_audience_help: 'Dies legt den Geltungsbereich des Datenschutzschalters des Mitglieds fest. Wenn der Schalter ausgeschaltet ist, sind die ausgewählten Profilseiten öffentlich zugänglich.'
+      private_audience_label: 'Wenn ein Mitglied sein Profil auf privat stellt, wer kann es dann noch einsehen?'
+      refresh_tabs: 'Profilregisterkarten aktualisieren'
+      settings_group: Einstellungen
+      supported_group: 'Vollständig unterstützt'
+      visibility_everyone: 'Gäste und angemeldete Mitglieder können die ausgewählten Profilseiten einsehen.'
+      visibility_members: 'Nur angemeldete Mitglieder können die ausgewählten Profilseiten aufrufen. Gäste sehen eine Meldung, in der sie aufgefordert werden, sich anzumelden.'
+      visibility_private: 'Nur der Profilinhaber, Administratoren und Benutzer mit der Berechtigung „Profil-Sichtbarkeit umgehen“ können die ausgewählten Profilseiten anzeigen.'
+      visibility_scope: 'Die Sichtbarkeitseinstellungen gelten nur für die Profilseiten, die auf den beiden anderen Registerkarten ausgewählt wurden. Avatare und Profilkopfzeilen bleiben sichtbar.'
+    tabs:
+      badges: Abzeichen
+      discussions: Diskussionen
+      feedbacks: 'Feedback von Händlern'
+      likes: 'Gefällt mir'
+      mentions: Erwähnungen
+      posts: Beiträge
+      privateDiscussions: 'Private Gespräche'
+      rewind: Rückblick
+      uploads: 'Hochgeladen (Uploads)'
+      votes: 'Votes (Stimmen)'
   forum:
     profile_is_private: 'Dieses Profil ist privat.'
+    profile_members_only: 'Dieses Profil ist nur für Mitglieder sichtbar. Bitte melden Sie sich an, um es anzusehen.'
     user:
       settings:
+        option_default: 'Forum-Standard ({level})'
+        option_everyone: Alle
+        option_members: 'Nur Mitglieder'
+        option_private: Privat
         private_profile_description: 'Mache mein Profil privat'
+        private_profile_heading: 'Sichtbarkeit des Profils'
+        private_profile_help: 'Wählen Sie aus, wer die vom Administrator ausgewählten Profilregisterkarten einsehen darf. Ihr Avatar und Ihre Profilüberschrift bleiben sichtbar. Sie und Benutzer mit einer Umgehungsberechtigung behalten weiterhin Zugriff.'
+        private_profile_help_members: 'Wenn diese Option aktiviert ist, können nur angemeldete Mitglieder die vom Administrator ausgewählten Profilseiten einsehen. Gäste werden aufgefordert, sich anzumelden.'
+        private_profile_help_private: 'Wenn diese Option aktiviert ist, können nur Sie, Administratoren und Benutzer mit einer Umgehungsberechtigung die vom Administrator ausgewählten Profilseiten einsehen.'
+        private_profile_help_public: 'Wenn diese Option deaktiviert ist, sind diese Profilseiten öffentlich einsehbar. Dein Avatar und deine Profilüberschrift bleiben in jedem Fall sichtbar.'
