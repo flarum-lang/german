@@ -10,6 +10,7 @@ cengizkemec-contact-page:
     sections:
       abuse: 'Begrenzung von Anfragen und Schutz vor Missbrauch'
       access: Zugriffsberechtigungen
+      appearance: 'Optik (Aussehen)'
       email: E-Mail
       fields: Formularfelder
       form: Formularkonfiguration
@@ -33,6 +34,8 @@ cengizkemec-contact-page:
       categories_label: Kontaktkategorien
       cooldown_seconds_help: 'Mindestzeit zwischen zwei Übermittlungen von derselben IP-Adresse. Auf 0 setzen, um die Funktion zu deaktivieren.'
       cooldown_seconds_label: 'Wartezeit zwischen Anfragen (Sekunden)'
+      custom_css_help: 'Optionales CSS, das nur angewendet wird, solange die Kontaktseite geöffnet ist. Fügen Sie den Selektoren das Präfix .ContactPage hinzu, um zu vermeiden, dass andere Seiten davon betroffen sind. Maximal 50.000 Zeichen.'
+      custom_css_label: 'Benutzerdefiniertes CSS'
       default_language_auto: 'Aktuelle Forums-Sprache verwenden'
       default_language_help: 'Wird als Ausweichlösung verwendet, wenn die aktuelle Forums-Sprache weder Englisch noch Türkisch ist. Die aktuelle Sprache hat immer Vorrang, sofern sie verfügbar ist.'
       default_language_label: Standardsprache
@@ -218,6 +221,7 @@ cengizkemec-contact-page:
     page_title: Kontakt
     privacy_link: Datenschutzerklärung
     required_field: Erforderlich
+    required_note: 'Mit * gekennzeichnete Felder sind Pflichtfelder.'
     select_category: 'Wählen Sie eine Kategorie aus'
     send_another: 'Eine weitere Nachricht senden'
     sending: 'Wird gesendet...'
