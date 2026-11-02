@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.30 (XXXX-XX-XX)
+-------------------
+
+**Updated translations for extensions**:
+
+* [`ramon/canela`](https://github.com/ram0ng1/canela) (28 added, 99% complete)
+
+
+All changes: [2.0.29...2.0.30](https://github.com/flarum-lang/german/compare/2.0.29...2.0.30).
+
+
 2.0.29 (2026-11-02)
 -------------------
 
