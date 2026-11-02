@@ -6,6 +6,7 @@ ernestdefoe-vantage:
   forum:
     best_times:
       less: Weniger
+      more: Mehr
     chart:
       day_value: '{date}: {value}'
     export: Export
@@ -32,4 +33,7 @@ ernestdefoe-vantage:
       replies: Antworten
     session_item: 'Deine Statistiken'
     tiles:
+      impressions: Aufrufe
+      profile_visits: Profilbesuche
+    types:
       impressions: Aufrufe
