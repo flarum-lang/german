@@ -14,6 +14,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`cengizkemec/flarum-contact-page`](https://github.com/cengizkemec/flarum-contact-page) (8 added, 100% complete)
 * [`ramon/canela`](https://github.com/ram0ng1/canela) (28 added, 99% complete)
 
 
