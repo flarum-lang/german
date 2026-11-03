@@ -8,7 +8,7 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`cengizkemec/passkeys`](https://github.com/cengizkemec/flarum-passkeys) (100% complete)
-* [`ernestdefoe/flarumverse`](https://github.com/ernestdefoe/flarumverse) (12% complete)
+* [`ernestdefoe/flarumverse`](https://github.com/ernestdefoe/flarumverse) (33% complete)
 * [`ernestdefoe/masthead`](https://github.com/ernestdefoe/masthead) (100% complete)
 * [`ernestdefoe/seamless-refresh`](https://github.com/ernestdefoe/seamless-refresh) (100% complete)
 * [`huseyinfiliz/author-moderation`](https://github.com/huseyinfiliz/author-moderation) (100% complete)
