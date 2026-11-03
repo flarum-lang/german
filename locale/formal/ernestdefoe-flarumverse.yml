@@ -15,8 +15,10 @@ ernestdefoe-flarumverse:
     pair:
       button: 'Anfrage senden'
       heading: 'Mit einem Forum verbinden'
+      label: Forumadresse
       placeholder: forum.beispiel.de
     partner:
+      approve: Annehmen
       asked: 'Angefragt {ago}'
       cancel: 'Anfrage abbrechen'
       decline: Ablehnen
@@ -25,6 +27,7 @@ ernestdefoe-flarumverse:
       threads: '{count, plural, one {# Diskussion} other {# Diskussionen}} auf deiner Flarumverse-Seite'
     suggestions:
       heading: Vorgeschlagen
+    your_address: 'Die Adresse deines Forums:'
   forum:
     directory:
       active: 'Vor {ago} aktiv'
