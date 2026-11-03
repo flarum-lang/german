@@ -19,8 +19,11 @@ CHANGELOG
 
 * [`cengizkemec/flarum-contact-page`](https://github.com/cengizkemec/flarum-contact-page) (8 added, 100% complete)
 * [`ernestdefoe/cross-references`](https://github.com/ernestdefoe/cross-references) (2 added, 100% complete)
+* [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (2 added, 74% complete)
 * [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (2 added, 100% complete)
+* [`ernestdefoe/ladder`](https://github.com/ernestdefoe/ladder) (8 added, 91% complete)
 * [`ernestdefoe/roleplay`](https://github.com/ernestdefoe/roleplay) (2 changed, 100% complete)
+* [`ernestdefoe/vantage`](https://github.com/ernestdefoe/vantage) (2 added, 24% complete)
 * [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (4 added, 100% complete)
 * [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions) (6 added, 100% complete)
 * [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki) (6 added, 100% complete)
