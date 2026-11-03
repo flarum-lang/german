@@ -3,20 +3,49 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ernestdefoe-flarumverse:
+  admin:
+    copied: Kopiert
+    copy: Kopieren
+    directory:
+      language: Sprache
+      save: Speichern
+      saved: Gespeichert.
+      several_languages: 'Mehrere Sprachen'
+      topic: Thema
+    pair:
+      button: 'Anfrage senden'
+      heading: 'Mit einem Forum verbinden'
+      placeholder: forum.beispiel.de
+    partner:
+      asked: 'Angefragt {ago}'
+      cancel: 'Anfrage abbrechen'
+      decline: Ablehnen
+      paired_since: 'Verbunden {ago}'
+      remove: Entfernen
+      threads: '{count, plural, one {# Diskussion} other {# Diskussionen}} auf deiner Flarumverse-Seite'
+    suggestions:
+      heading: Vorgeschlagen
   forum:
     directory:
+      active: 'Vor {ago} aktiv'
       all_languages: 'Alle Sprachen'
       all_topics: 'Alle Themen'
+      discussions: '{count, plural, one {# Diskussion} other {# Diskussionen}}'
+      intro: 'Unabhängige Communities, die auf Flarum basieren. Jede davon wird von ihren eigenen Betreibern verwaltet. Klicke auf eine davon, um sie zu besuchen und beizutreten.'
+      latest: 'Kürzliche Diskussionen'
+      load_more: 'Mehr laden'
       members: '{count, plural, one {# Mitglied} other {# Mitglieder}}'
       nav: 'Finde ein Forum'
       search: 'Foren durchsuchen'
       several_languages: 'Mehrere Sprachen'
       title: 'Finde ein Forum'
+      visit: 'Forum besuchen'
     nav: Flarumverse
     page:
       all_forums: 'Alle Foren'
       empty: 'Noch keine Diskussionen von verbundenen Foren.'
       filter: 'Diskussionen anzeigen von'
+      intro: 'Neue Diskussionen aus Foren, die mit {forum} verknüpft sind. Jeder Beitrag wird in dem Forum geöffnet, in dem er gepostet wurde.'
       load_more: 'Mehr laden'
       open_on: 'Wird geöffnet auf {forum}'
       replies: '{count, plural, one {# Antwort} other {# Antworten}}'
