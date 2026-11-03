@@ -8,6 +8,7 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`cengizkemec/passkeys`](https://github.com/cengizkemec/flarum-passkeys) (100% complete)
+* [`ernestdefoe/flarumverse`](https://github.com/ernestdefoe/flarumverse) (12% complete)
 * [`ernestdefoe/masthead`](https://github.com/ernestdefoe/masthead) (100% complete)
 * [`ernestdefoe/seamless-refresh`](https://github.com/ernestdefoe/seamless-refresh) (100% complete)
 * [`huseyinfiliz/author-moderation`](https://github.com/huseyinfiliz/author-moderation) (100% complete)
@@ -20,8 +21,9 @@ CHANGELOG
 * [`ernestdefoe/cross-references`](https://github.com/ernestdefoe/cross-references) (2 added, 100% complete)
 * [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (2 added, 100% complete)
 * [`ernestdefoe/roleplay`](https://github.com/ernestdefoe/roleplay) (2 changed, 100% complete)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (4 added, 100% complete)
 * [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions) (6 added, 100% complete)
-* [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki) (4 added, 99% complete)
+* [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki) (6 added, 100% complete)
 * [`ramon/canela`](https://github.com/ram0ng1/canela) (28 added, 99% complete)
 
 
