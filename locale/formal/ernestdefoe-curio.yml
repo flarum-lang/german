@@ -23,6 +23,7 @@ ernestdefoe-curio:
       deepl_help: 'Wenn es in einer Sprache keine Beschreibung auf Wikipedia gibt, übersetzt DeepL die englische Version. Kostenlose Schlüssel enden auf „:fx“.'
       deepl_label: 'DeepL-Schlüssel (optional)'
       deepl_link: 'Schlüssel holen'
+      eansearch_label: 'EAN-Search.org API-Token (optional, kostenpflichtig)'
       hide_empty_help: 'Standardmäßig deaktiviert, sodass auf der Seite „Sammlungen“ alle aktivierten Typen angezeigt werden, ebenso wie auf der Seite „Tags“ alle Tags; eine leere Seite lädt dazu ein, eine erste Sammlung anzulegen. Ist die Option aktiviert, werden nur Typen angezeigt, die bereits Einträge enthalten (alle, solange das Forum noch keine Einträge enthält).'
       hide_empty_label: 'Feldtypen verbergen, wenn sie leer sind'
       igdb_docs: '(Anleitung von IGDB)'

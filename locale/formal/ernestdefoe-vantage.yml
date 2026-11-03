@@ -15,6 +15,7 @@ ernestdefoe-vantage:
     loading: 'Deine Statistiken werden geladen…'
     nav: Statistiken
     new_value: Neu
+    no_change: 'Keine Veränderung'
     page_title: 'Statistiken für {username}'
     post_views: '{count, plural, one {# Aufruf} other {# Aufrufe}}'
     range_label: Zeitraum

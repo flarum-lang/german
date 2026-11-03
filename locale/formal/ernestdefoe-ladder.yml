@@ -27,6 +27,7 @@ ernestdefoe-ladder:
       help_points: 'Ranglistenpunkte greifen auf die Gesamtpunkte der Leaderboard-Erweiterung zu, so dass Likes, Reaktionen, Beste Antworten und Ähnliches in die Summe einbezogen wird.'
       help_votes: 'Gamification-Punkte sind die Upvotes und Downvotes, die Beiträge des Benutzers erhalten haben und kommen von der FoF Gamification-Erweiterung. Der Rang wird in dem Moment angepasst, in dem ein Vote abgegeben wird.'
       label: 'Mitglieder einstufen mittels'
+      money: Money
       points: Ranglisten-Punkten
       points_note: 'Der Rang eines Mitglieds wird bei jeder Nutzung des Forums – höchstens alle zwei Minuten – anhand seiner Punkte überprüft, sodass auch Punkte berücksichtigt werden, die es während seiner Abwesenheit sammelt, wie beispielsweise Likes für Beiträge.'
       posts: Beiträgen
@@ -54,6 +55,7 @@ ernestdefoe-ladder:
       min_posts_help: 'Ein Mitglied erreicht diesen Rang, sobald es diese Anzahl an Beiträgen verfasst hat, und verbleibt dort, bis es den nächsten Rang erreicht.'
       min_posts_help_points: 'Ein Mitglied erreicht diesen Rang bei dieser Punktzahl und verbleibt dort, bis es den nächsten Rang erreicht.'
       min_posts_label: 'Nötige Beiträge'
+      min_posts_label_money: 'Money erforderlich'
       min_posts_label_points: 'Nötige Punkte'
       name_label: Rangname
       plural_help: 'Wird dort verwendet, wo Flarum die Mitglieder der Gruppe auflistet. Lasse das Feld leer, um den Rangnamen zu verwenden.'
@@ -90,6 +92,7 @@ ernestdefoe-ladder:
       empty: 'Bislang hat noch niemand diesen Rang inne.'
       more: 'Mehr anzeigen ({shown} von {total})'
       score: '{count, plural, one {# Beitrag} other {# Beiträge}}'
+      score_money: '{amount}'
       score_points: '{count, plural, one {# Punkt} other {# Punkte}}'
     nav: Ränge
     notifications:
@@ -97,10 +100,13 @@ ernestdefoe-ladder:
     profile:
       heading: Rang
       next: '{count, plural, one {# weiteren Beitrag} other {# mehr Beiträge}} bis {name} den Rang {rank} erreicht.'
+      next_money: '{amount} mehr, bis {name} {rank} erreicht.'
       next_own: '{count, plural, one {# weiteren Beitrag} other {# mehr Beiträge}} um den Rang {rank} zu erreichen.'
+      next_own_money: '{amount} mehr, um {rank} zu erreichen.'
       next_own_points: '{count, plural, one {# weiteren Punkt} other {# mehr Punkte}} um den Rang {rank} zu erreichen.'
       next_points: '{count, plural, one {# weiteren Punkt} other {# mehr Punkte}} bis {name} den Rang {rank} erreicht.'
       score: '{count, plural, one {# Beitrag} other {# Beiträge}}'
+      score_money: '{amount}'
       score_points: '{count, plural, one {# Punkt} other {# Punkte}}'
       top: '{name} hat den Spitzenrang erreicht.'
       top_own: 'Du hast den Spitzenrang erreicht.'
@@ -113,6 +119,7 @@ ernestdefoe-ladder:
       intro_points: 'Alles, wofür du Punkte sammelst, bringt dich in der Rangliste nach oben. Hier findest du alle Ränge und die Voraussetzungen, um sie zu erreichen.'
       members: '{count, plural, one {# Mitglied} other {# Mitglieder}}'
       next: '{count, plural, one {# Beitrag mehr} other {# Beiträge mehr}} um {rank} zu erreichen.'
+      next_money: '{amount} mehr, um {rank} zu erreichen.'
       next_points: '{count, plural, one {# weiteren Punkt} other {# mehr Punkte}} um {rank} zu erreichen.'
       range: '{min}–{max} Beiträge'
       range_open: '{min}+ Beiträge'
@@ -124,6 +131,7 @@ ernestdefoe-ladder:
       unranked_points: '{count, plural, one {# weiteren Punkt} other {# mehr Punkte}} um deinen ersten Rang zu erreichen, {rank}.'
       you_are_here: 'Du bist hier'
       your_rank: 'Du bist {rank}, mit {count, plural, one {# Beitrag} other {# Beiträgen}}.'
+      your_rank_money: 'Du bist {rank} mit {amount}.'
       your_rank_points: 'Du bist {rank}, mit {count, plural, one {# Punkt} other {# Punkten}}.'
     settings:
       notify_promoted_label: 'Ich habe einen neuen Rang'
