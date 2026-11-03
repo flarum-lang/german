@@ -14,7 +14,9 @@ flectar-turnstile:
   forum:
     error: 'Es ist ein Fehler aufgetreten während der Prüfung, ob du ein Mensch bist. Bitte erneut versuchen.'
     not_loaded_error: 'Cloudflare Turnstile konnte nicht geladen werden. Bitte die Seite aktualisieren und prüfen, ob ein Adblocker aktiv ist.'
+    slow_error: 'Die „Turnstile“-Herausforderung dauert länger als gewöhnlich. Bitte versuche es in einem Moment erneut.'
     validation_error: 'Bitte die Turnstile-Prüfung abschließen.'
+    verifying: 'Überprüfung, ob du ein Mensch bist...'
 validation:
   custom:
     turnstile:

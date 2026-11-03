@@ -169,6 +169,7 @@ linkrobins-wiki:
     errors:
       delete_article: 'Artikel konnte nicht gelöscht werden.'
       delete_article_forever: 'Artikel konnte nicht dauerhaft gelöscht werden.'
+      download_denied: 'Du hast keine Berechtigung, diese Datei herunterzuladen.'
       empty_body: 'Bitte verfasse den Artikeltext, bevor du ihn einreichst.'
       load_article: 'Dieser Artikel konnte nicht geladen werden. Möglicherweise wurde er gelöscht, oder du verfügst nicht über die Berechtigung, ihn anzuzeigen.'
       load_articles: 'Artikel konnten nicht geladen werden.'
