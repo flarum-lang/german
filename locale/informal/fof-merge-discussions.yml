@@ -20,7 +20,9 @@ fof-merge-discussions:
       deleting_failed: 'Leere Diskussionen konnten nicht gelöscht werden.'
       fixing_posts_number_failed: 'Beitragsnummern konnten nicht korrigiert werden.'
       fixing_posts_number_meta_failed: 'Beitragsnummern konnten nicht korrigiert werden.'
+      into_itself: 'Eine Diskussion kann nicht mit sich selbst zusammengeführt werden.'
       merging_failed: 'Zusammenführen der Diskussionen fehlgeschlagen.'
+      redirecting_failed: 'Weiterleitung für zusammengeführte Diskussionen konnte nicht eingerichtet werden.'
       updating_failed: 'Aktualisierung der Diskussionsdetails fehlgeschlagen.'
   email:
     merged:
@@ -36,6 +38,7 @@ fof-merge-discussions:
       ordering_heading: 'Sortierung beim Zusammenführen'
       ordering_suffix_help: 'Beiträge, die in die bestehende Diskussion eingebunden werden, werden am Ende der Diskussion angehängt'
       ordering_suffix_label: 'Zusammengeführte Beiträge am Ende der Diskussion hinzufügen'
+      preview_truncated: 'Beiträge {from} bis {to} von {total} werden angezeigt.'
       search_discussions_placeholder: 'Diskussionen suchen...'
       submit_button: '=> fof-merge-discussions.ref.merge'
       title: 'Diskussionen zusammenführen'

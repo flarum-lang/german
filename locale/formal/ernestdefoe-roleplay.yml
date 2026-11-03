@@ -75,7 +75,7 @@ ernestdefoe-roleplay:
     outcome_victory: Sieg!
     pick_card: 'Wähle eine Karte…'
     play_card: 'Karte spielen'
-    played_by: 'Gespielt von {user}'
+    played_by: 'Gespielt von {username}'
     post_count: '{count, plural, =0{Keine Beiträge} one{# Beitrag} other{# Beiträge}} aus der Perspektive des Charakters'
     posting_as: 'Als Charakter senden'
     request_failed: 'Anfrage fehlgeschlagen ({status})'

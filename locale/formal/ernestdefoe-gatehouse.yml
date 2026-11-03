@@ -80,6 +80,7 @@ ernestdefoe-gatehouse:
       empty_approved: 'Niemand wurde mittels Gatehouse freigeschaltet.'
       empty_declined: 'Niemand wurde abgelehnt.'
       empty_pending: 'Niemand wartet.'
+      load_more: 'Mehr laden'
       signed_up: Registriert
       tab_approved: Freigeschaltet
       tab_declined: Abgelehnt

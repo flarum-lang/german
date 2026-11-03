@@ -134,6 +134,7 @@ linkrobins-wiki:
     common:
       date_at_time: '{date} um {time}'
     compose:
+      attach: 'Dateien anhängen'
       body_label: Inhalt
       body_placeholder: 'Schreibe den Artikel. Markdown wird unterstützt.'
       body_placeholder_click: 'Klicke hier, um den Artikel zu schreiben…'
@@ -161,6 +162,7 @@ linkrobins-wiki:
       title_edit: 'Artikel bearbeiten'
       title_label: Titel
       title_placeholder: Artikel-Titel
+      uploading: 'Wird hochgeladen…'
     confirm:
       delete_forever: 'Diesen Artikel und seinen Versionsverlauf endgültig löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.'
       soft_delete: 'Diesen Artikel löschen? Bearbeiter können ihn später wiederherstellen.'

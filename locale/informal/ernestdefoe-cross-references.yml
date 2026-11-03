@@ -28,3 +28,4 @@ ernestdefoe-cross-references:
       capped_notice: 'Die letzten 50 anzeigen.'
       heading: 'Referenziert von {count, plural, one {einer Diskussion} other {# Diskussionen}}'
       load_error: 'Referenzen konnten nicht geladen werden.'
+      mentions: '{count, plural, one {# Erwähnung} other {# Erwähnungen}}'
