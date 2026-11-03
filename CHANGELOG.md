@@ -9,12 +9,19 @@ CHANGELOG
 
 * [`cengizkemec/passkeys`](https://github.com/cengizkemec/flarum-passkeys) (100% complete)
 * [`ernestdefoe/masthead`](https://github.com/ernestdefoe/masthead) (100% complete)
+* [`ernestdefoe/seamless-refresh`](https://github.com/ernestdefoe/seamless-refresh) (100% complete)
+* [`huseyinfiliz/author-moderation`](https://github.com/huseyinfiliz/author-moderation) (100% complete)
 * [`huseyinfiliz/private-profile`](https://github.com/huseyinfiliz/private-profile) (100% complete)
 
 
 **Updated translations for extensions**:
 
 * [`cengizkemec/flarum-contact-page`](https://github.com/cengizkemec/flarum-contact-page) (8 added, 100% complete)
+* [`ernestdefoe/cross-references`](https://github.com/ernestdefoe/cross-references) (2 added, 100% complete)
+* [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (2 added, 100% complete)
+* [`ernestdefoe/roleplay`](https://github.com/ernestdefoe/roleplay) (2 changed, 100% complete)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions) (6 added, 100% complete)
+* [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki) (4 added, 99% complete)
 * [`ramon/canela`](https://github.com/ram0ng1/canela) (28 added, 99% complete)
 
 
