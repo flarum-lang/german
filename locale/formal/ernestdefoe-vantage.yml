@@ -34,7 +34,10 @@ ernestdefoe-vantage:
       replies: Antworten
     session_item: 'Deine Statistiken'
     tiles:
+      engagements_help: 'Antworten, Likes, Reaktionen, Lesezeichen, Wie Der Veröffentlichungen ins Teilen'
+      followers: Follower
       impressions: Aufrufe
+      impressions_help: 'Wie häufig Mitglieder und Gäste deine Beiträge lesen'
       profile_visits: Profilbesuche
     types:
       impressions: Aufrufe
