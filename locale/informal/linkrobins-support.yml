@@ -222,6 +222,7 @@ linkrobins-support:
       submitting: 'Wird eingereicht…'
       title: 'Neues Support-Ticket'
       title_appeal: 'Einspruch einlegen'
+      validation_failed: 'Validierung fehlgeschlagen. Bitte überprüfe deine Eingabe.'
     confirm:
       close_ticket: 'Dieses Ticket schließen? Es kann erst beantwortet werden, wenn es wieder geöffnet wurde.'
       delete_reply_forever: 'Diese Antwort endgültig löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.'

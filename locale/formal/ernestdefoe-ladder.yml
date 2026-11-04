@@ -8,11 +8,13 @@ ernestdefoe-ladder:
       add: 'Einen Rang hinzufügen'
       edit: Bearbeiten
       empty: 'Es gibt noch keine Ränge. Füge den ersten hinzu – in der Regel einen Rang, der bei 0 Beiträgen beginnt, damit jedes Mitglied vom Tag seines Beitritts an einen hat.'
+      empty_money: 'Noch keine Ränge. Füge den ersten hinzu, beispielsweise ein VIP-Rang bei 1000 Money.'
       empty_points: 'Noch keine Ränge. Füge den ersten hinzu – in der Regel einen Rang, der bei 0 Punkten beginnt, sodass jedes Mitglied vom Tag seines Beitritts an einen hat.'
       existing_group: 'Vorhandene Gruppe'
       has_image: 'Hat ein Bild auf dem Banner'
       heading: 'Die Rangliste'
       help: 'Jeder Rang entspricht einer Gruppe mit einer bestimmten Beitragsschwelle. Mitglieder gehören genau einem Rang an, nämlich dem höchsten, den ihre Beitragszahl freischaltet, und ihre anderen Gruppen bleiben davon unberührt.'
+      help_money: 'Jeder Rang entspricht einer Gruppe mit einem Money-Schwellenwert. Die Mitglieder gehören genau einem Rang an, nämlich der höchsten, die ihr Kontostand jemals erreicht hat, und ihre anderen Gruppen bleiben davon unberührt.'
       help_points: 'Jeder Rang entspricht einer Gruppe mit einer bestimmten Punkteschwelle. Die Mitglieder gehören genau einem Rang an, nämlich der höchsten, die sie mit ihren Punkten erreicht haben, und ihre anderen Gruppen bleiben davon unberührt.'
       hidden_group: 'Ausgeblendete Gruppe. Mitglieder sehen diesen Rang nicht.'
       members: '{count, plural, one {# Mitglied} other {# Mitglieder}}'

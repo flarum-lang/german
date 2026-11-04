@@ -8,11 +8,13 @@ ernestdefoe-ladder:
       add: 'Einen Rang hinzufügen'
       edit: Bearbeiten
       empty: 'Es gibt noch keine Ränge. Füge den ersten hinzu – in der Regel einen Rang, der bei 0 Beiträgen beginnt, damit jedes Mitglied vom Tag seines Beitritts an einen hat.'
+      empty_money: 'Noch keine Ränge. Füge den ersten hinzu, beispielsweise ein VIP-Rang bei 1000 Money.'
       empty_points: 'Noch keine Ränge. Füge den ersten hinzu – in der Regel einen Rang, der bei 0 Punkten beginnt, sodass jedes Mitglied vom Tag seines Beitritts an einen hat.'
       existing_group: 'Vorhandene Gruppe'
       has_image: 'Hat ein Bild auf dem Banner'
       heading: 'Die Rangliste'
       help: 'Jeder Rang entspricht einer Gruppe mit einer bestimmten Beitragsschwelle. Mitglieder gehören genau einem Rang an, nämlich dem höchsten, den ihre Beitragszahl freischaltet, und ihre anderen Gruppen bleiben davon unberührt.'
+      help_money: 'Jeder Rang entspricht einer Gruppe mit einem Money-Schwellenwert. Die Mitglieder gehören genau einem Rang an, nämlich der höchsten, die ihr Kontostand jemals erreicht hat, und ihre anderen Gruppen bleiben davon unberührt.'
       help_points: 'Jeder Rang entspricht einer Gruppe mit einer bestimmten Punkteschwelle. Die Mitglieder gehören genau einem Rang an, nämlich der höchsten, die sie mit ihren Punkten erreicht haben, und ihre anderen Gruppen bleiben davon unberührt.'
       hidden_group: 'Ausgeblendete Gruppe. Mitglieder sehen diesen Rang nicht.'
       members: '{count, plural, one {# Mitglied} other {# Mitglieder}}'
@@ -27,6 +29,7 @@ ernestdefoe-ladder:
       help_points: 'Ranglistenpunkte greifen auf die Gesamtpunkte der Leaderboard-Erweiterung zu, so dass Likes, Reaktionen, Beste Antworten und Ähnliches in die Summe einbezogen wird.'
       help_votes: 'Gamification-Punkte sind die Upvotes und Downvotes, die Beiträge des Benutzers erhalten haben und kommen von der FoF Gamification-Erweiterung. Der Rang wird in dem Moment angepasst, in dem ein Vote abgegeben wird.'
       label: 'Mitglieder einstufen mittels'
+      money: Money
       points: Ranglisten-Punkten
       points_note: 'Der Rang eines Mitglieds wird bei jeder Nutzung des Forums – höchstens alle zwei Minuten – anhand seiner Punkte überprüft, sodass auch Punkte berücksichtigt werden, die es während seiner Abwesenheit sammelt, wie beispielsweise Likes für Beiträge.'
       posts: Beiträgen
