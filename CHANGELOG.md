@@ -13,6 +13,7 @@ CHANGELOG
 * [`ernestdefoe/masthead`](https://github.com/ernestdefoe/masthead) (96% complete)
 * [`ernestdefoe/quickdraw`](https://github.com/ernestdefoe/quickdraw) (100% complete)
 * [`ernestdefoe/seamless-refresh`](https://github.com/ernestdefoe/seamless-refresh) (100% complete)
+* [`ernestdefoe/sonic`](https://github.com/ernestdefoe/sonic) (100% complete)
 * [`huseyinfiliz/author-moderation`](https://github.com/huseyinfiliz/author-moderation) (100% complete)
 * [`huseyinfiliz/private-profile`](https://github.com/huseyinfiliz/private-profile) (100% complete)
 
@@ -20,6 +21,7 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`cengizkemec/flarum-contact-page`](https://github.com/cengizkemec/flarum-contact-page) (8 added, 100% complete)
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays) (14 added, 2 changed, 29% complete)
 * [`ernestdefoe/cross-references`](https://github.com/ernestdefoe/cross-references) (2 added, 100% complete)
 * [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (2 added, 74% complete)
 * [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (2 added, 100% complete)
