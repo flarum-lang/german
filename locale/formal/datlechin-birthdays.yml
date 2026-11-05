@@ -11,16 +11,26 @@ datlechin-birthdays:
       date_format_help: 'Das <a>dayjs</a>-Datumsforma verwenden. Lassen Sie dieses Feld leer, um das Standardformat zu verwenden.'
       date_format_label: Datumsformat
       date_none_year_label: 'Datumsformat ohne Jahr'
-      min_age_help: 'Mindestalter für die Registrierung'
+      min_age_help: 'Mitglieder müssen mindestens dieses Alter haben. Gilt immer dann, wenn ein Geburtstag gespeichert wird. Setzen Sie den Wert auf 0, um nur zukünftige Daten auszuschließen.'
       min_age_label: Mindestalter
       required_help: 'Sie müssen die Option Bei Registrierung festlegen aktivieren, damit diese Einstellung funktioniert'
       required_label: 'Erforderliche Eingabe von Geburtstagen'
       set_on_registration_label: 'Geburtsdatum bei der Registrierung angeben'
+      sign_up_help: 'Ob im Anmeldeformular nach dem Geburtstag gefragt wird.'
+      sign_up_label: 'Geburtstag bei der Anmeldung'
+      sign_up_options:
+        'off': 'Nicht fragen'
+        optional: 'Frage, optional'
+        required: 'Anfragen, erforderlich'
+    users:
+      no_birthday: 'Nicht festgelegt'
   api:
     birthday_required_message: 'Das Geburtsdatum ist erforderlich.'
     invalid_age_message: 'Ihr Alter muss mindestens {minAge} Jahre betragen.'
     invalid_dob_message: 'Ungültiges Geburtsdatum'
   forum:
+    badge:
+      birthday_tooltip: 'Geburtstag heute'
     change_dob:
       date_of_birth_text: '=> datlechin-birthdays.ref.date_of_birth'
       submit_button: '=> core.ref.save_changes'
