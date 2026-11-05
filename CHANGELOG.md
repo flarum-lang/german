@@ -15,6 +15,7 @@ CHANGELOG
 * [`ernestdefoe/seamless-refresh`](https://github.com/ernestdefoe/seamless-refresh) (100% complete)
 * [`ernestdefoe/sonic`](https://github.com/ernestdefoe/sonic) (100% complete)
 * [`huseyinfiliz/author-moderation`](https://github.com/huseyinfiliz/author-moderation) (100% complete)
+* [`huseyinfiliz/pickem`](https://github.com/huseyinfiliz/pickem) (62% complete)
 * [`huseyinfiliz/private-profile`](https://github.com/huseyinfiliz/private-profile) (100% complete)
 
 
