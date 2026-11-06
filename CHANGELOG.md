@@ -27,6 +27,7 @@ CHANGELOG
 * [`ernestdefoe/cross-references`](https://github.com/ernestdefoe/cross-references) (2 added, 100% complete)
 * [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (2 added, 74% complete)
 * [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (2 added, 100% complete)
+* [`ernestdefoe/hero-builder`](https://github.com/ernestdefoe/hero-builder) (2 added, 100% complete)
 * [`ernestdefoe/ladder`](https://github.com/ernestdefoe/ladder) (13 added, 93% complete)
 * [`ernestdefoe/roleplay`](https://github.com/ernestdefoe/roleplay) (2 changed, 100% complete)
 * [`ernestdefoe/vantage`](https://github.com/ernestdefoe/vantage) (8 added, 27% complete)
