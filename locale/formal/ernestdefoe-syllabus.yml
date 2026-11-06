@@ -22,7 +22,17 @@ ernestdefoe-syllabus:
       no_tag: 'Ohne Tag'
     widgets:
       courses: Kurse
+  email:
+    new_lesson:
+      subject: 'Neue Lerneinheit in {course}'
   forum:
+    assignment:
+      attach: 'Dateien anhängen'
+      feedback_from: 'Feedback von {name}'
+      status:
+        passed: Bestanden
+      submit: Einreichen
+      text_label: 'Deine Antwort'
     catalogue:
       all_categories: 'Alle Kategorien'
       all_levels: 'Alle Stufen'
@@ -42,6 +52,23 @@ ernestdefoe-syllabus:
     difficulty:
       advanced: Fortgeschritten
       beginner: Anfänger
+    editor:
+      category: Kategorie
+      cover: Titelbild
+      cover_remove: 'Titelbild entfernen'
+      cover_upload: 'Bild hochladen'
+      description: Beschreibung
+      difficulty: Stufe
+      edit_title: 'Kurs bearbeiten'
+      minutes: 'Geschätzte Zeit in Minuten'
+      new_title: 'Neuer Kurs'
+      no_category: 'Keine Kategorie'
+      no_level: 'Jede Stufe'
+      summary: Zusammenfassung
+      title: Titel
+      view: Anzeigen
+    lesson:
+      open_discussion: 'Diskussion öffnen'
     nav: Kurse
     progress:
       label: '{percent} %'
