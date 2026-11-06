@@ -46,6 +46,7 @@ ernestdefoe-hero-builder:
       stats_custom: Metriken
       stats_custom_help: 'Optional – lasse das Feld leer, um LIVE-Metriken automatisch anzuzeigen (der „Home“-Hero zeigt die Gesamtzahlen des Forums an: Diskussionen, Beiträge, Mitglieder; ein „Tag“-Hero zeigt die Anzahl der Diskussionen an). Füge hier nur dann Zeilen hinzu, wenn du diese durch eigene überschreiben möchtest. Jede Zeile besteht aus einem Wert, einem Font Awesome-Symbol und einer Beschriftung.'
       subtitle: Untertitel
+      subtitle_help: 'Klartext oder einfaches HTML für Absätze, Zeilenumbrüche, Fettdruck, Kursivschrift und https-Links. Alle anderen HTML-Elemente werden entfernt.'
       title: Titel
       width: 'Maximale Breite (px)'
       width_ph: 'Volle Breite'
