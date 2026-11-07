@@ -9,7 +9,7 @@ CHANGELOG
 
 * [`cengizkemec/passkeys`](https://github.com/cengizkemec/flarum-passkeys) (100% complete)
 * [`el-choco/admin-console`](https://github.com/el-choco/flarum-admin-console) (100% complete)
-* [`ernestdefoe/festoon`](https://github.com/ernestdefoe/festoon) (43% complete)
+* [`ernestdefoe/festoon`](https://github.com/ernestdefoe/festoon) (51% complete)
 * [`ernestdefoe/flarumverse`](https://github.com/ernestdefoe/flarumverse) (37% complete)
 * [`ernestdefoe/masthead`](https://github.com/ernestdefoe/masthead) (96% complete)
 * [`ernestdefoe/quickdraw`](https://github.com/ernestdefoe/quickdraw) (100% complete)
