@@ -42,14 +42,18 @@ ernestdefoe-festoon:
     options:
       bat: Fledermäuse
       blossom: Blüten
+      confetti: Konfetti
       diyas: Diya-Lampen
       eggs: Eier
       fanous: Laternen
+      fireworks: Feuerwerk
       hearts: Herzen
       lanterns: 'Rote Laternen'
       leaves: Blätter
       lights: 'Funkelnde Lichter'
+      petals: Blütenblätter
       shamrocks: Kleeblätter
+      snow: Schnee
       snowflakes: Schneeflocken
       sparkles: Funken
       sun: Sonnen
@@ -60,19 +64,29 @@ ernestdefoe-festoon:
       hats: Hüte
       heading: 'Was dekoriert wird'
       ornaments: Ornamente
+      trims: Verzierungen
     timezone_label: Zeitzone
     today: 'Heute: {name}'
+  forum:
+    settings:
+      decorations_label: 'Feiertagsdekorationen anzeigen'
+      heading: Feiertagsdekorationen
   lib:
     looks:
+      artday: Weltkunsttag
+      chess: 'Internationaler Schachtag'
       christmas: Weihnachten
       diwali: Diwali
       easter: Ostern
+      education: 'Internationaler Tag der Bildung'
       fall: Herbst
       halloween: Halloween
       hanukkah: Hanukkah
       july4: 'Amerikanischer Unabhängigkeitstag'
       lunar: Mond-Neujahr
       newyear: Neujahr
+      nowruz: Nouruz
+      piday: Pi-Tag
       spring: Frühling
       summer: Sommer
       thanksgiving: Thanksgiving
