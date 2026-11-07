@@ -18,6 +18,8 @@ linkrobins-discussion-banners:
       delete: 'Banner löschen'
       first_heading: 'Nach dem ersten Beitrag'
       first_short: 'Nach erstem Beitrag'
+      groups_loading: 'Gruppen werden geladen…'
+      groups_unavailable: 'Gruppen konnten nicht geladen werden.'
       icon_emoji: Emoji
       icon_emoji_placeholder: 'Eingeben oder einfügen'
       icon_help: 'Ein optionales Symbol neben dem Bannertext: Lade ein kleines Bild hoch oder wähle ein Emoji aus.'

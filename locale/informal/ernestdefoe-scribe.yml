@@ -34,13 +34,16 @@ ernestdefoe-scribe:
     video:
       caption_label: Bildunterschrift
       caption_placeholder: 'Bildunterschrift hinzufügen (optional)'
+      model_viewer_title: '{provider} 3D-Modell-Vorschau'
       placeholder: 'Videolink einfügen (YouTube, Vimeo, TikTok…)'
       play: '{provider}-Video abspielen'
+      play_model: '{provider} 3D-Modell anzeigen'
       player_title: '{provider}-Videoplayer'
       provider_off: 'Das Einbetten von {provider}-Videos ist in diesem Forum deaktiviert.'
       remove: 'Video entfernen'
       replace: 'Video ersetzen'
       unsupported: 'Dieser Link ist kein Video, das Scribe einbetten kann. Verwende die Schaltfläche „Link“, um ihn als Link hinzuzufügen.'
+      view_on: 'Bei {provider} anzeigen'
       watch_on: 'Auf {provider} ansehen'
   lib:
     buttons:
