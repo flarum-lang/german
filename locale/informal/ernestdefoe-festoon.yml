@@ -3,6 +3,65 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ernestdefoe-festoon:
+  admin:
+    edit:
+      after_label: 'Tage danach'
+      before_label: 'Tage vor'
+      corner_label: Ornament
+      effect_label: Effekt
+      from_label: Beginnt
+      hat_label: Hut
+      name_label: Name
+      on_label: Angeschaltet
+      ornament_label: 'Um den Forennamen'
+      primary_label: Hauptfarbe
+      priority_label: Priorität
+      save: Speichern
+      secondary_label: Akzentfarbe
+      title: '{name} bearbeiten'
+      title_new: 'Feiertag hinzufügen'
+      to_label: Endet
+      trim_snow: Schnee
+      trim_stripe: 'Streifen in diesen Farben'
+    enabled_label: 'Festoon anschalten'
+    groups:
+      custom: 'Deine eigenen'
+      days: 'Internationale Tage'
+      holidays: Feiertage
+      seasons: Jahreszeiten
+      seasons_help: 'Jahreszeiten überbrücken die Zeit zwischen Feiertagen.'
+      world: 'Auf der ganzen Welt'
+    look:
+      add: 'Feiertag hinzufügen'
+      delete: Löschen
+      edit: Bearbeiten
+      next: '{start} bis {end}'
+      next_none: 'Kein Datum gefunden'
+      on_now: 'Jetzt aktiv'
+      preview: Vorschau
+    options:
+      bat: Fledermäuse
+      blossom: Blüten
+      diyas: Diya-Lampen
+      eggs: Eier
+      fanous: Laternen
+      hearts: Herzen
+      lanterns: 'Rote Laternen'
+      leaves: Blätter
+      lights: 'Funkelnde Lichter'
+      shamrocks: Kleeblätter
+      snowflakes: Schneeflocken
+      sparkles: Funken
+      sun: Sonnen
+      tulips: 'Tulpen und Hyazinthen'
+    parts:
+      colors: Farben
+      effects: Effekte
+      hats: Hüte
+      heading: 'Was dekoriert wird'
+      ornaments: Ornamente
+    timezone_label: Zeitzone
+    today: 'Heute: {name}'
   lib:
     looks:
       christmas: Weihnachten
