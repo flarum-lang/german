@@ -8,29 +8,48 @@ ernestdefoe-festoon:
       after_label: 'Tage danach'
       before_label: 'Tage vor'
       corner_label: Ornament
+      dates_help: 'Monat und Tag. Ein Zeitraum kann sich über das Neujahrsfest erstrecken, beispielsweise vom 21. Dezember bis zum 19. März.'
+      day_help: 'Der Tag selbst, jedes Jahr. Passe das Datum an, falls dieser Feiertag in deinem Land an einem anderen Tag begangen wird, so wie Weihnachten am 24. Dezember. Die Tage davor und danach werden ab diesem Tag gezählt.'
+      day_label: Tag
       effect_label: Effekt
+      emoji_help: 'Wird an der Stelle verwendet, an der du oben „Dein Emoji“ ausgewählt hast. Füge ein Emoji wie 📷 oder ein Symbol wie π ein – maximal einige Zeichen.'
+      emoji_label: 'Dein Emoji oder Symbol'
       from_label: Beginnt
+      garland_label: 'Girlande in der Kopfzeile'
       hat_label: Hut
       name_label: Name
+      name_required: 'Gib dem Feiertag einen Namen.'
       on_label: Angeschaltet
       ornament_label: 'Um den Forennamen'
       primary_label: Hauptfarbe
+      priority_help: 'Wenn zwei Looks dasselbe Datum haben, gewinnt die höhere Zahl. Feiertage zählen 20, Jahreszeiten 10 und selbst erstellte 30.'
       priority_label: Priorität
       save: Speichern
       secondary_label: Akzentfarbe
+      size_help: 'In Pixeln, von 16 bis 64. Gilt für dein Emoji oder dein SVG-Bild.'
+      size_label: 'Größe neben dem Namen des Forums'
+      svg_help: 'Füge den Code einer SVG-Datei (maximal 20 KB) ein. Er wird als Bild dargestellt, sodass darin enthaltene Skripte und Links niemals ausgeführt werden und alles außer Formen, Text und Farbverläufen entfernt wird. Verwende „currentColor“ für alle Elemente, die die Hauptfarbe dieses Designs annehmen sollen.'
+      svg_label: 'Dein SVG-Bild'
       title: '{name} bearbeiten'
       title_new: 'Feiertag hinzufügen'
       to_label: Endet
+      trim_label: Zierleiste
+      trim_none: Keine
       trim_snow: Schnee
       trim_stripe: 'Streifen in diesen Farben'
+      window_help: 'Wie viele Tage im Voraus die Anzeige geschaltet wird und wie lange sie nach dem eigentlichen Tag noch online bleibt.'
     enabled_label: 'Festoon anschalten'
     groups:
       custom: 'Deine eigenen'
+      custom_help: 'Feiertage, die man selbst festlegt. An diesen Tagen haben sie Vorrang vor allem anderen.'
       days: 'Internationale Tage'
+      days_help: 'Tagesbezogene Designs für Feiertage auf der ganzen Welt. Diese sind deaktiviert, bis du sie aktivierst. Um einen eigenen Feiertag hinzuzufügen, klicke unten auf „Feiertag hinzufügen“ und wähle ein Emoji dafür aus.'
       holidays: Feiertage
       seasons: Jahreszeiten
       seasons_help: 'Jahreszeiten überbrücken die Zeit zwischen Feiertagen.'
       world: 'Auf der ganzen Welt'
+      world_help: 'Diese sind ausgeschaltet, bis du sie einschaltest.'
+    intro: 'Festoon schmückt das Forum passend zur Zeit des Jahres. Jeden Tag wählt es den Look aus, dessen Daten den heutigen Tag einschließen, wobei ein Feiertag Vorrang vor einer Jahreszeit hat, wenn beide gleichzeitig zutreffen.'
     look:
       add: 'Feiertag hinzufügen'
       delete: Löschen
@@ -39,36 +58,85 @@ ernestdefoe-festoon:
       next_none: 'Kein Datum gefunden'
       on_now: 'Jetzt aktiv'
       preview: Vorschau
+      reset: 'Zurück zum Original'
+    no_intl: 'Auf deinem Server fehlt die PHP-Erweiterung „intl“, sodass das Mond-Neujahr, Chanukka und der Ramadan nicht datiert werden können. Bitte deinen Hosting-Anbieter, die Erweiterung „intl“ zu aktivieren.'
     options:
+      apple: 'Äpfel und Bücher'
+      atom: Atom
       bat: Fledermäuse
+      beads: 'Blaue und silberne Lichter'
+      beanie: Wintermütze
       blossom: Blüten
+      bunny: Hasenohren
+      bunting-halloween: 'Orange- und violette Wimpelkette'
+      bunting-usa: 'Rot-weiß-blaue Wimpelkette'
+      camera: Kamera
+      cap: Absolventenkappe
+      chess: Schachspringer
+      code: Code-Klammern
       confetti: Konfetti
+      crescent: Halbmond
+      diya: 'Diya (Öllampe)'
       diyas: Diya-Lampen
+      dreidel: Dreidel
+      egg: Ei
       eggs: Eier
+      embers: Glut
+      emoji: 'Dein Emoji'
       fanous: Laternen
       fireworks: Feuerwerk
+      flake: Schneeflocke
       hearts: Herzen
+      holly: Holly
+      hyacinth: 'Hyazinthe und bemaltes Ei'
+      lantern: Laterne
       lanterns: 'Rote Laternen'
       leaves: Blätter
+      leprechaun: Koboldmütze
       lights: 'Funkelnde Lichter'
+      menorah: Menora
+      none: Keine
+      palette: Farbpalette
+      party: Partyhut
       petals: Blütenblätter
+      pi: Pi
+      sabzeh: 'Sabseh (gekeimtes Weizengras)'
+      santa: Weihnachtsmannmütze
+      shamrock: Kleeblatt
       shamrocks: Kleeblätter
       snow: Schnee
       snowflakes: Schneeflocken
       sparkles: Funken
+      stars: Sterne
       sun: Sonnen
+      svg: 'Dein SVG'
+      tophat: 'Zylinder mit Sternen und Streifen'
       tulips: 'Tulpen und Hyazinthen'
+      unlock: 'Offenes Vorhängeschloss'
+      web: Spinnennetz
+      witch: Hexenhut
     parts:
       colors: Farben
+      colors_help: 'Die Haupt- und Akzentfarben der einzelnen Designs im gesamten Forum, im hellen und dunklen Modus.'
       effects: Effekte
+      effects_help: 'Fallender Schnee, Blätter, Blütenblätter, Herzen und Glut sowie ein Feuerwerk über dem Willkommensbanner.'
       hats: Hüte
+      hats_help: 'Stattet jeden Avatar neben den Beiträgen mit einer Feiertagsmütze aus.'
+      header: Kopfzeilendesign
+      header_help: 'Die Girlande am unteren Rand der Kopfzeile und das Ornament neben dem Namen des Forums.'
       heading: 'Was dekoriert wird'
       ornaments: Ornamente
+      ornaments_help: 'Kleine Elemente auf dem Begrüßungsbanner, auf Widgets, im ersten Beitrag und zwischen den Beiträgen.'
       trims: Verzierungen
+      trims_help: 'Ein Schneebelag oder ein gestreifter Rand entlang der Oberkante von Schaltflächen und Widgets.'
+    timezone_help: 'In dieser Zeitzone ändert sich das Aussehen um Mitternacht.'
     timezone_label: Zeitzone
     today: 'Heute: {name}'
+    today_none: 'Heute erstrahlt das Forum in seinen eigenen Farben. Keine Ausschmückung für dieses Datum aktiviert.'
   forum:
+    preview: 'Du siehst die Vorschau von {name}. Dies ist nur für Administratoren sichtbar, und zwar ausschließlich auf dieser Seite.'
     settings:
+      decorations_help: 'Girlanden, Hüte, fallender Schnee und Feuerwerk. Die Feiertagsfarben des Forums bleiben so oder so erhalten.'
       decorations_label: 'Feiertagsdekorationen anzeigen'
       heading: Feiertagsdekorationen
   lib:
@@ -86,9 +154,16 @@ ernestdefoe-festoon:
       lunar: Mond-Neujahr
       newyear: Neujahr
       nowruz: Nouruz
+      photography: 'Tag der Fotografie'
       piday: Pi-Tag
+      programmers: 'Tag des Programmierers'
+      ramadan: 'Ramadan und Fest des Fastenbrechens'
+      science: 'Welttag der Wissenschaft'
+      softwarefreedom: 'Tag der Software-Freiheit'
       spring: Frühling
+      stpatricks: 'Saint Patrick’s Day'
       summer: Sommer
+      teachers: Weltlehrertag
       thanksgiving: Thanksgiving
       valentines: Valentinstag
       winter: Winter

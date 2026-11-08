@@ -32,7 +32,9 @@ ernestdefoe-masthead:
       hex: 'Hex-Farbcode, z. B. #0e2340'
     footer:
       add: 'Link hinzufügen'
-      help: 'Links, die in der Fußzeile jeder Seite angezeigt werden. Als Adresse sind ein Pfad in diesem Forum (/p/1-rules), eine Webadresse, ein mailto-Link oder # als Platzhalter ohne Ziel möglich (#name springt zum entsprechenden Abschnitt der Seite). Zum Umsortieren ziehen.'
+      help: 'Links, die in der Fußzeile jeder Seite angezeigt werden. Als Adresse sind ein Pfad in diesem Forum (/p/1-rules), eine Webadresse, ein „mailto“-Link oder ein „#“ als Platzhalterlink ohne Ziel möglich („#name“ scrollt zu diesem Teil der Seite). Links zu Facebook, X, Instagram, YouTube, Discord, TikTok, Bluesky und anderen sozialen Netzwerken erhalten automatisch das entsprechende Marken-Symbol; für jedes andere Symbol gib eine Font-Awesome-Klasse ein, z. B. „fas fa-envelope“. Lasse das Feld „Name“ leer, um nur das Symbol anzuzeigen. Durch Ziehen kannst du die Reihenfolge ändern.'
+      icon: Symbol
+      icon_placeholder: 'Symbol (optional)'
       label: 'Links in der Fußzeile'
       name: Name
       powered_by_label: '„Unterstützt durch Flarum“ anzeigen'
@@ -112,6 +114,9 @@ ernestdefoe-masthead:
       label: 'Farbe der Informationsleiste'
       reset: 'Aus der Kopfzeilenfarbe ableiten'
       using_default: 'Wird aus der Kopfzeilenfarbe abgeleitet.'
+    topic:
+      scrubber_help: 'Eine schmale Leiste rechts neben den Beiträgen einer Diskussion über Computer und Tablets, über die man zum Originalbeitrag, zum neuesten Beitrag, zu den ungelesenen Beiträgen oder zur besten Antwort springen kann. Auf Smartphones befindet sich diese Leiste immer in der oberen Leiste.'
+      scrubber_label: 'Beitrags-Scrubber nehmen Beiträgen anzeigen'
   forum:
     browse:
       all: 'Alle Bereiche'
@@ -171,6 +176,8 @@ ernestdefoe-masthead:
       more_in: 'Mehr in {tag}'
       participants: '{count, plural, one {# Teilnehmer} other {# Teilnehmer}}'
       participants_label: Teilnehmer
+      rail_best: 'Beste Antwort'
+      rail_label: 'Beiträge in dieser Diskussion'
       read_time: '{count} Min. Lesezeit'
       replies: Antworten
       reply: Antworten

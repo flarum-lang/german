@@ -28,6 +28,8 @@ walsgit-recycle-bin:
       title: 'Endgültig löschen'
     delete_post_tooltip: 'Beitrag #{postId} löschen'
     delete_tooltip: 'Diskussion #{discussionId} löschen'
+    deletion_log_help: 'Jedes Mal, wenn Elemente endgültig aus dem Papierkorb gelöscht werden, wird eine Eintrag geschrieben: wer, was und wann. Bei Massenaktionen wird eine zusammenfassende Zeile erstellt. Die Dateien werden unter „storage/logs/recycle-bin/“ gespeichert (eine Datei pro Tag mit Aktivitäten, wobei nur die 15 neuesten Dateien aufbewahrt werden).'
+    deletion_log_label: 'Dauerhafte Löschungen protokollieren'
     discussion_id: ID
     discussion_link_tooltip: 'Diskussion anzeigen'
     discussion_title: Diskussionstitel
@@ -39,6 +41,8 @@ walsgit-recycle-bin:
       invalid_column_content: 'Ungültiger Inhalt!'
     hidden_at: 'Verborgen am'
     hidden_discussions: 'Verborgene Diskussionen'
+    load_error: 'Liste konnte nicht geladen werden.'
+    load_error_retry: 'Erneut versuchen'
     mass_delete_all_modal:
       submit_button: 'Alle Diskussionen endgültig löschen'
       success: 'Alle Diskussionen erfolgreich gelöscht'
@@ -64,6 +68,8 @@ walsgit-recycle-bin:
       text_start: 'Möchtest du diese wirklich <u>endgültig löschen</u> '
       title: 'Diese Beiträge endgültig löschen'
     mass_help_text: 'Bitte warte, bis die Seite neu geladen wird, nachdem du die Massenwiederherstellung oder das Massenlöschen bestätigt hast'
+    mass_nothing_to_process: 'Es gibt nichts zu verarbeiten: Diese Einträge wurden bereits wiederhergestellt oder gelöscht.'
+    mass_partial_failure: '{processed, plural, one {Ein Eintrage wurde} other {# Einträge wurden}} verarbeitet bevor ein Fehler auftrat. Die Liste wurde aktualisiert.'
     mass_progress: '{processed} von {total} verarbeitet…'
     mass_restore_modal:
       submit_button: 'Diese Diskussionen wiederherstellen'
@@ -109,8 +115,13 @@ walsgit-recycle-bin:
     search_post_help_text: 'Sucht nach Wörtern in verborgenen Beiträgen'
     search_post_placeholder: 'Suche nach einem Beitrag'
     select_all: 'Alle Einträge auf dieser Seite auswählen'
+    select_discussion: 'Diskussion #{discussionId} auswählen'
+    select_post: 'Beitrag #{postId} auswählen'
+    settings_tab: Einstellungen
+    settings_title: 'Einstellungen für den Papierkorb'
     total_hidden_discussions: 'Verborgene Diskussionen insgesamt'
     total_hidden_posts: 'Verborgene Beiträge insgesamt'
     unknown_date: 'Unbekanntes Datum'
+    unknown_discussion: 'Unbekannte Diskussion'
     unknown_user: 'Unbekannter Benutzer'
     unknownn_user: 'Unbekannter Benutzer'
