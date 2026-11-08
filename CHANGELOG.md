@@ -32,7 +32,7 @@ CHANGELOG
 * [`ernestdefoe/hero-builder`](https://github.com/ernestdefoe/hero-builder) (2 added, 100% complete)
 * [`ernestdefoe/ladder`](https://github.com/ernestdefoe/ladder) (13 added, 93% complete)
 * [`ernestdefoe/roleplay`](https://github.com/ernestdefoe/roleplay) (2 changed, 100% complete)
-* [`ernestdefoe/scribe`](https://github.com/ernestdefoe/scribe) (6 added, 100% complete)
+* [`ernestdefoe/scribe`](https://github.com/ernestdefoe/scribe) (6 added, 82% complete)
 * [`ernestdefoe/vantage`](https://github.com/ernestdefoe/vantage) (8 added, 27% complete)
 * [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (4 added, 100% complete)
 * [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions) (6 added, 100% complete)
