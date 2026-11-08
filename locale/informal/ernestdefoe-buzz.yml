@@ -6,6 +6,10 @@ ernestdefoe-buzz:
   admin:
     offset_x_label: 'Abstand zur Seite (px)'
     offset_y_label: 'Abstand von der Unterseite (px)'
+    pages:
+      all: 'Jeder Seite'
+      home: 'Nur der Diskussionsliste'
+    pages_label: 'Anzeigen auf'
     profile_link_label: 'Benutzernamen mit Profil verlinken'
     sections:
       delivery: Zustellung
