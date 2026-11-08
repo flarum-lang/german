@@ -9,11 +9,13 @@ CHANGELOG
 
 * [`cengizkemec/passkeys`](https://github.com/cengizkemec/flarum-passkeys) (100% complete)
 * [`el-choco/admin-console`](https://github.com/el-choco/flarum-admin-console) (100% complete)
+* [`ernestdefoe/anthology`](https://github.com/ernestdefoe/anthology) (63% complete)
 * [`ernestdefoe/buzz`](https://github.com/ernestdefoe/buzz) (45% complete)
 * [`ernestdefoe/festoon`](https://github.com/ernestdefoe/festoon) (100% complete)
 * [`ernestdefoe/flarumverse`](https://github.com/ernestdefoe/flarumverse) (37% complete)
 * [`ernestdefoe/lectern`](https://github.com/ernestdefoe/lectern) (100% complete)
 * [`ernestdefoe/masthead`](https://github.com/ernestdefoe/masthead) (100% complete)
+* [`ernestdefoe/moments`](https://github.com/ernestdefoe/moments) (9% complete)
 * [`ernestdefoe/quickdraw`](https://github.com/ernestdefoe/quickdraw) (100% complete)
 * [`ernestdefoe/seamless-refresh`](https://github.com/ernestdefoe/seamless-refresh) (100% complete)
 * [`ernestdefoe/sonic`](https://github.com/ernestdefoe/sonic) (100% complete)
