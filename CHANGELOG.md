@@ -12,6 +12,7 @@ CHANGELOG
 * [`ernestdefoe/buzz`](https://github.com/ernestdefoe/buzz) (45% complete)
 * [`ernestdefoe/festoon`](https://github.com/ernestdefoe/festoon) (100% complete)
 * [`ernestdefoe/flarumverse`](https://github.com/ernestdefoe/flarumverse) (37% complete)
+* [`ernestdefoe/lectern`](https://github.com/ernestdefoe/lectern) (100% complete)
 * [`ernestdefoe/masthead`](https://github.com/ernestdefoe/masthead) (100% complete)
 * [`ernestdefoe/quickdraw`](https://github.com/ernestdefoe/quickdraw) (100% complete)
 * [`ernestdefoe/seamless-refresh`](https://github.com/ernestdefoe/seamless-refresh) (100% complete)
