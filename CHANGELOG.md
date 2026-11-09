@@ -2,6 +2,60 @@ CHANGELOG
 =========
 
 
+2.0.30 (2026-11-09)
+-------------------
+
+**Added support for new extensions**:
+
+* [`cengizkemec/passkeys`](https://github.com/cengizkemec/flarum-passkeys) (100% complete)
+* [`el-choco/admin-console`](https://github.com/el-choco/flarum-admin-console) (100% complete)
+* [`ernestdefoe/anthology`](https://github.com/ernestdefoe/anthology) (75% complete)
+* [`ernestdefoe/buzz`](https://github.com/ernestdefoe/buzz) (45% complete)
+* [`ernestdefoe/concourse`](https://github.com/ernestdefoe/concourse) (66% complete)
+* [`ernestdefoe/festoon`](https://github.com/ernestdefoe/festoon) (100% complete)
+* [`ernestdefoe/flarumverse`](https://github.com/ernestdefoe/flarumverse) (37% complete)
+* [`ernestdefoe/lectern`](https://github.com/ernestdefoe/lectern) (100% complete)
+* [`ernestdefoe/masthead`](https://github.com/ernestdefoe/masthead) (100% complete)
+* [`ernestdefoe/moments`](https://github.com/ernestdefoe/moments) (9% complete)
+* [`ernestdefoe/quickdraw`](https://github.com/ernestdefoe/quickdraw) (100% complete)
+* [`ernestdefoe/seamless-refresh`](https://github.com/ernestdefoe/seamless-refresh) (100% complete)
+* [`ernestdefoe/segue`](https://github.com/ernestdefoe/segue) (100% complete)
+* [`ernestdefoe/shutter`](https://github.com/ernestdefoe/shutter) (2% complete)
+* [`ernestdefoe/sonic`](https://github.com/ernestdefoe/sonic) (100% complete)
+* [`ernestdefoe/syllabus`](https://github.com/ernestdefoe/syllabus) (19% complete)
+* [`huseyinfiliz/author-moderation`](https://github.com/huseyinfiliz/author-moderation) (100% complete)
+* [`huseyinfiliz/bump`](https://github.com/huseyinfiliz/bump) (19% complete)
+* [`huseyinfiliz/custom-profile-page`](https://github.com/huseyinfiliz/custom-profile-page) (100% complete)
+* [`huseyinfiliz/pickem`](https://github.com/huseyinfiliz/pickem) (62% complete)
+* [`huseyinfiliz/private-profile`](https://github.com/huseyinfiliz/private-profile) (100% complete)
+
+
+**Updated translations for extensions**:
+
+* [`cengizkemec/flarum-contact-page`](https://github.com/cengizkemec/flarum-contact-page) (8 added, 100% complete)
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays) (14 added, 2 changed, 29% complete)
+* [`ernestdefoe/cross-references`](https://github.com/ernestdefoe/cross-references) (2 added, 100% complete)
+* [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (2 added, 74% complete)
+* [`ernestdefoe/docket`](https://github.com/ernestdefoe/docket) (10 added, 12% complete)
+* [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (2 added, 100% complete)
+* [`ernestdefoe/hero-builder`](https://github.com/ernestdefoe/hero-builder) (2 added, 100% complete)
+* [`ernestdefoe/ladder`](https://github.com/ernestdefoe/ladder) (13 added, 93% complete)
+* [`ernestdefoe/ridge`](https://github.com/ernestdefoe/ridge) (12 added, 100% complete)
+* [`ernestdefoe/roleplay`](https://github.com/ernestdefoe/roleplay) (2 changed, 100% complete)
+* [`ernestdefoe/scribe`](https://github.com/ernestdefoe/scribe) (6 added, 82% complete)
+* [`ernestdefoe/vantage`](https://github.com/ernestdefoe/vantage) (8 added, 27% complete)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (4 added, 100% complete)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions) (6 added, 100% complete)
+* [`linkrobins/discussion-banners`](https://github.com/linkrobins/flarum-discussion-banners) (14 added, 2 changed, 100% complete)
+* [`linkrobins/support`](https://github.com/linkrobins/support) (2 added, 100% complete)
+* [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki) (6 added, 100% complete)
+* [`ramon/canela`](https://github.com/ram0ng1/canela) (28 added, 96% complete)
+* [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin) (22 added, 100% complete)
+
+
+All changes: [2.0.29...2.0.30](https://github.com/flarum-lang/german/compare/2.0.29...2.0.30).
+
+
 2.0.29 (2026-11-02)
 -------------------
 
