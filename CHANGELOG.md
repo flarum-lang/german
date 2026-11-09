@@ -43,7 +43,7 @@ CHANGELOG
 * [`linkrobins/discussion-banners`](https://github.com/linkrobins/flarum-discussion-banners) (14 added, 2 changed, 100% complete)
 * [`linkrobins/support`](https://github.com/linkrobins/support) (2 added, 100% complete)
 * [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki) (6 added, 100% complete)
-* [`ramon/canela`](https://github.com/ram0ng1/canela) (28 added, 99% complete)
+* [`ramon/canela`](https://github.com/ram0ng1/canela) (28 added, 96% complete)
 * [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin) (22 added, 100% complete)
 
 
