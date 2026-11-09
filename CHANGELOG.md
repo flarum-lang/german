@@ -18,6 +18,7 @@ CHANGELOG
 * [`ernestdefoe/moments`](https://github.com/ernestdefoe/moments) (9% complete)
 * [`ernestdefoe/quickdraw`](https://github.com/ernestdefoe/quickdraw) (100% complete)
 * [`ernestdefoe/seamless-refresh`](https://github.com/ernestdefoe/seamless-refresh) (100% complete)
+* [`ernestdefoe/segue`](https://github.com/ernestdefoe/segue) (100% complete)
 * [`ernestdefoe/sonic`](https://github.com/ernestdefoe/sonic) (100% complete)
 * [`ernestdefoe/syllabus`](https://github.com/ernestdefoe/syllabus) (19% complete)
 * [`huseyinfiliz/author-moderation`](https://github.com/huseyinfiliz/author-moderation) (100% complete)
