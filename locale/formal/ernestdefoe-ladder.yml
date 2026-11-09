@@ -130,6 +130,7 @@ ernestdefoe-ladder:
       title: Ränge
       top: 'Du hast den höchsten Rang erreicht.'
       unranked: '{count, plural, one {# Beitrag mehr} other {# Beiträge mehr}} um den ersten Rang zu erreichen: {rank}.'
+      unranked_money: '{amount} mehr, um deinen ersten Rang {rank} zu erreichen.'
       unranked_points: '{count, plural, one {# weiteren Punkt} other {# mehr Punkte}} um deinen ersten Rang zu erreichen, {rank}.'
       you_are_here: 'Du bist hier'
       your_rank: 'Du bist {rank}, mit {count, plural, one {# Beitrag} other {# Beiträgen}}.'
