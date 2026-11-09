@@ -4,5 +4,12 @@
 
 ernestdefoe-ridge:
   admin:
+    big_number_help: "Gestaltet den Scrubber neu mit einem breiten Balken, der sich beim Lesen füllt, und einer groß angezeigten Nummer des aktuellen Beitrags.\n"
+    big_number_label: 'Großer Beitragszähler'
     min_posts_help: "Ridge annotiert nur Diskussionen, die mindestens diese Anzahl an Beiträgen enthalten. Ein kurzer Thread hat keine Form, die es wert wäre, dargestellt zu werden, und der Leser kann bereits den gesamten Inhalt überblicken.\n"
     min_posts_label: 'Minimale Anzahl Beiträge'
+    post_marks_help: "Zeigt für jeden Beitrag eine dünne Markierung auf dem Scrubber an. Wenn du auf den Scrubber zeigst, öffnet sich eine Liste der Beiträge an dieser Stelle, mit Angaben dazu, wer den jeweiligen Beitrag wann verfasst hat. Durch Anklicken eines Beitrags gelangst du direkt dorthin. Auf Smartphones tippst du auf den Scrubber, um die Liste zu öffnen.\n"
+    post_marks_label: 'Jeden Beitrag auf dem Scrubber markieren'
+  forum:
+    event_row: Diskussions-Aktualisierung
+    lens_label: 'Beiträge in der Nähe dieses Punktes'

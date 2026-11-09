@@ -4,10 +4,16 @@
 
 ernestdefoe-docket:
   api:
+    assign_others: 'Sie haben keine Berechtigung, Meldungen anderen Moderatoren zuzuweisen.'
     closed: 'Diese Meldung zuerst wiedereröffnen.'
   email:
+    assigned:
+      link: 'Meldung öffnen'
+      subject: 'Meldung #{id} wurde dir zugewiesen'
+      title: 'Meldung #{id} gehört dir'
     outcome:
       link: 'Deine Meldungen anzeigen'
+      subject: 'Deine Meldung wurde geprüft'
   forum:
     list:
       by: 'Beitrag von {name}'

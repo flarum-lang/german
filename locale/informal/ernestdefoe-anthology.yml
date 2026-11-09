@@ -28,6 +28,7 @@ ernestdefoe-anthology:
     card:
       by: 'von {author}'
       chapters: '{count, plural, one {# Kapitel} other {# Kapitel}}'
+      followers: '{count, plural, one {# Follower} other {# Follower}}'
     chapter_bar:
       contents: 'Alle Kapitel'
       label: 'Kapitel {number} von {count}'
@@ -39,8 +40,12 @@ ernestdefoe-anthology:
     directory:
       all: Alle
       all_tags: 'Alle Tags'
+      empty: '{noun, select, novel {Noch keine Romane.} story {Noch keine Geschichten.} book {Noch keine Bücher.} other {Noch keine Serien.}} Erstelle zunächst eines und füge dann deine Diskussionen als Kapitel hinzu.'
+      empty_guest: '{noun, select, novel {Noch keine Romane.} story {Noch keine Geschichten.} book {Noch keine Bücher.} other {Noch keine Serien.}}'
+      forum: 'Zum Hauptforum gehen'
       more: 'Mehr laden'
       new: '{noun, select, novel {Neuer Roman} story {Neue Geschichte} book {Neues Buch} other {Neue Serie}}'
+      no_results: 'Keine Ergebnisse entsprechen deiner Suche.'
       search: 'Nach Titel suchen'
       sort:
         latest: 'Neuestes Kapitel'
@@ -66,19 +71,26 @@ ernestdefoe-anthology:
       nav: '{noun, select, novel {Romane} story {Geschichten} book {Bücher} other {Serien}}'
     series:
       again: 'Von vorne lesen'
+      back: '{noun, select, novel {Alle Romane} story {Alle Geschichten} book {Alle Bücher} other {Alle Serien}}'
       chapter_meta: '{date} · {count, plural, one {# Antwort} other {# Antworten}}'
       contents: Kapitel
       continue: Weiterlesen
       delete: Löschen
+      delete_confirm: '{title} löschen? Die Diskussionen bleiben im Forum erhalten; lediglich die Gruppierung, das Titelbild und die Follower werden entfernt.'
       edit: Bearbeiten
       empty: 'Noch keine Kapitel.'
+      empty_owner: 'Noch keine Kapitel. Öffne eine von dir gestartete Diskussion und wähle im Menü die Option „Zu {a_noun} hinzufügen“ aus.'
       follow: Folgen
       follow_help: 'Erhalte eine Benachrichtigung, sobald ein neues Kapitel hinzugefügt wurde.'
       following: Gefolgt
+      missing: 'Diese Seite existiert nicht oder du hast keine Berechtigung, sie aufzurufen.'
       move_down: 'Nach unten'
       move_up: 'Nach oben'
       progress: '{done} von {total} Kapiteln gelesen'
       read: Lesen
       remove: 'Aus {the_noun} entfernen'
+      start: 'Mit dem Lesen beginnen'
     status:
       complete: Abgeschlossen
+      ongoing: Fortlaufend
+    the_noun: '{noun, select, novel {dieser Roman} story {diese Geschichte} book {dieses Buch} other {diese Serien}}'

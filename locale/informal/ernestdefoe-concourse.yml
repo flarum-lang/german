@@ -5,13 +5,44 @@
 ernestdefoe-concourse:
   admin:
     settings:
+      contributors_count_help: 'Zwischen 1 und 10.'
+      footer_links_label: 'Links in der Fußzeile der Seitenleiste'
       period_day: Heute
       period_month: 'Diesen Monat'
       period_week: 'Diese Woche'
       period_year: 'Dieses Jahr'
+      show_contributors_help: 'Wer im ausgewählten Zeitraum die meisten Likes erhalten (oder – ohne die „Likes“-Erweiterung – die meisten Kommentare verfasst) hat. Es zählen nur öffentliche Diskussionen.'
+      show_contributors_label: 'Top-Mitwirkende anzeigen'
       show_profile_label: 'Auf der Profilkarte anzeigen'
   forum:
+    contributors:
+      likes: '{count, plural, one {{formatted} Like} other {{formatted} Likes}}'
+      period:
+        day: Heute
+        month: Monatlich
+        week: Wöchentlich
+        year: Jährlich
+      period_label: Zeitraum
+      posts: '{count, plural, one {{formatted} Kommentar} other {{formatted} Kommentare}}'
+      title: Top-Mitwirkende
+    head:
+      search: 'Ergebnisse für „{q}“'
+    panel:
+      label: 'Über diese Diskussion'
+      replies: '{count, plural, one {Antwort} other {Antworten}}'
+      views: '{count, plural, one {Aufruf} other {Aufrufe}}'
+    phone:
+      messages: Nachrichten
+      more: Mehr
+    profile:
+      edit: 'Profil bearbeiten'
+      label: 'Dein Profil'
+      welcome: 'Willkommen bei {forum}'
     sidebar:
+      admin: Admin
       all_tags: 'Alle Tags'
       home: Start
+      label: Forennavigation
+      more: Mehr
       tags: Tags
+      unread: 'Neue Aktivität'
