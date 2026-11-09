@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+2.0.31 (XXXX-XX-XX)
+-------------------
+
+**Added support for new extensions**:
+
+* [`ernestdefoe/rotation`](https://github.com/ernestdefoe/rotation) (57% complete)
+
+
+**Updated translations for extensions**:
+
+* [`ernestdefoe/ladder`](https://github.com/ernestdefoe/ladder) (9 added, 96% complete)
+
+
+All changes: [2.0.30...2.0.31](https://github.com/flarum-lang/german/compare/2.0.30...2.0.31).
+
+
 2.0.30 (2026-11-09)
 -------------------
 
