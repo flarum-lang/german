@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.25.37 (2026-11-09)
+--------------------
+
+**Added support for new extensions**:
+
+* [`el-choco/admin-console`](https://github.com/el-choco/flarum-admin-console) (100% complete)
+
+
+All changes: [1.25.36...1.25.37](https://github.com/flarum-lang/german/compare/1.25.36...1.25.37).
+
+
 1.25.36 (2026-10-15)
 --------------------
 
