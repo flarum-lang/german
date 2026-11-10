@@ -13,6 +13,7 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`ernestdefoe/ladder`](https://github.com/ernestdefoe/ladder) (9 added, 96% complete)
+* [`ernestdefoe/lectern`](https://github.com/ernestdefoe/lectern) (2 added, 100% complete)
 
 
 All changes: [2.0.30...2.0.31](https://github.com/flarum-lang/german/compare/2.0.30...2.0.31).
