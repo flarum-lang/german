@@ -15,6 +15,8 @@ ernestdefoe-curio:
       moderate: 'Sammlungen von jedem entfernen und hervorheben'
       view: 'Sammlungen anzeigen'
     settings:
+      barcodelookup_label: 'barcodelookup.com API-Schlüssel (optional, kostenpflichtig)'
+      barcodelookup_link: 'barcodelookup.com Abonnements und API-Schlüssel'
       cover_fit_blur: 'Ganzes Bild auf unscharfem Hintergrund anzeigen'
       cover_fit_crop: 'Füllend auf den Rahmen zuschneiden'
       cover_fit_help: 'Jeder Typ verfügt über eine bestimmte Profilbildform, sodass das Raster einer Sammlung übersichtlich bleibt. Ein Profilbild mit einer anderen Form (eine Spieleschachtel im Format 3:4 in einem 2:3-Rahmen) kann entweder vollständig auf einer unscharfen Kopie seiner selbst, vollständig auf einem einfarbigen Hintergrund oder beschnitten so dargestellt werden, dass es den Rahmen ausfüllt. Ein Typ, dessen Form mit den Profilbildern übereinstimmt (Hochformat 3:4 für Spieleschachteln), benötigt nichts davon.'
@@ -24,6 +26,9 @@ ernestdefoe-curio:
       deepl_label: 'DeepL-Schlüssel (optional)'
       deepl_link: 'Schlüssel holen'
       eansearch_label: 'EAN-Search.org API-Token (optional, kostenpflichtig)'
+      eansearch_link: 'EAN-Search Abonnements und Registrierung'
+      ebay_app_label: 'eBay App-ID (Client-ID) (optional)'
+      ebay_cert_label: 'eBay Cert-ID (Client Secret)'
       hide_empty_help: 'Standardmäßig deaktiviert, sodass auf der Seite „Sammlungen“ alle aktivierten Typen angezeigt werden, ebenso wie auf der Seite „Tags“ alle Tags; eine leere Seite lädt dazu ein, eine erste Sammlung anzulegen. Ist die Option aktiviert, werden nur Typen angezeigt, die bereits Einträge enthalten (alle, solange das Forum noch keine Einträge enthält).'
       hide_empty_label: 'Feldtypen verbergen, wenn sie leer sind'
       igdb_docs: '(Anleitung von IGDB)'
@@ -37,6 +42,7 @@ ernestdefoe-curio:
       layout_tags: 'Wie die Tags-Seite (Flarum Standard)'
       max_upload_help: 'Fotos werden als WebP neu kodiert und in der Größe angepasst, sodass die gespeicherten Dateien deutlich kleiner sind als diese.'
       max_upload_label: 'Maximale Fotogröße (KB)'
+      ranking_both: Beides
       shortcut_both: 'Seitenleiste und Benutzermenü'
       shortcut_help: 'Wo Mitglieder einen Link zu ihren eigenen Sammlungen finden.'
       shortcut_label: '„Meine Sammlungen“-Verknüpfung'
@@ -126,6 +132,8 @@ ernestdefoe-curio:
   forum:
     browse:
       add: 'Artikel hinzufügen'
+      change_progress: '{name} hat {title} markiert als'
+      change_rating: '{name} hat {title} bewertet'
       collector: Mitglied
       collector_collections: Sammlungen
       collector_wishlist: Wunschliste
@@ -133,6 +141,7 @@ ernestdefoe-curio:
       featured: 'Hervorgehobene Sammlungen'
       largest: Top-Sammlungen
       lead: '{items, plural, one {# Artikel} other {# Artikel}} in Sammlungen von {members, plural, one {# Mitglied} other {# Mitgliedern}}.'
+      more: Mehr
       most_owned_owners: Mitglieder
       most_owned_title: Titel
       no_results: 'Keine Treffer.'
@@ -304,6 +313,9 @@ ernestdefoe-curio:
       year: Jahr
     marquee:
       add: 'Zur Sammlung hinzufügen'
+      edit: 'In der Sammlung bearbeiten'
+      on_wishlist: 'Auf deiner Wunschliste'
+      wish: 'Zu meiner Wunschliste hinzufügen'
     nav:
       mine: 'Meine Sammlungen'
     notifications:
@@ -311,6 +323,8 @@ ernestdefoe-curio:
       match_setting: 'Jemand bietet etwas von deiner Wunschliste zum Tausch an'
       new_items: '{username} hat zu {name} hinzugefügt'
       new_items_setting: 'Eine Sammlung, der ich folge, hat neue Artikel'
+      rating_changed: '{username} hat etwas in {name} bewertet'
+      wishlist_added: '{username} Zur Wunschliste von {name} hinzugefügt'
     page:
       add_item: 'Artikel hinzufügen'
       arrange: Anordnen
