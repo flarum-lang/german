@@ -7,11 +7,13 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`ernestdefoe/member-map`](https://github.com/ernestdefoe/member-map) (12% complete)
 * [`ernestdefoe/rotation`](https://github.com/ernestdefoe/rotation) (57% complete)
 
 
 **Updated translations for extensions**:
 
+* [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) (34 added, 4 changed, 100% complete)
 * [`ernestdefoe/ladder`](https://github.com/ernestdefoe/ladder) (9 added, 96% complete)
 * [`ernestdefoe/lectern`](https://github.com/ernestdefoe/lectern) (2 added, 100% complete)
 
