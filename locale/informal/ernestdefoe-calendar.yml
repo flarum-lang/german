@@ -11,13 +11,17 @@ ernestdefoe-bespoke:
 ernestdefoe-calendar:
   admin:
     categories: Veranstaltungskategorien
-    categories_help: 'Mithilfe farbcodierter Kategorien können Mitglieder den Kalender filtern und jedem Termin einen farblichen Akzent verleihen. Änderungen werden zeilenweise gespeichert.'
+    categories_help: 'Mithilfe farbkodierter Kategorien können Mitglieder den Kalender filtern und jedem Termin einen farblichen Akzent verleihen. Pro Kategorie kannst du die RSVP-Schaltflächen umbenennen oder deaktivieren (beispielsweise für Veröffentlichungstermine). Änderungen werden zeilenweise gespeichert.'
     category_add: 'Kategorie hinzufügen'
     category_color: Farbe
     category_delete: 'Kategorie löschen'
     category_delete_confirm: 'Diese Kategorie löschen? Die Daten der Veranstaltungen bleiben erhalten, die farbige Kennzeichnung wird jedoch entfernt.'
+    category_going_label: 'Nimmt teil'
+    category_interested_label: Interessiert
+    category_label_aria: 'Text für die Schaltfläche „{label}“'
     category_name: Name
     category_preset: 'Farbe {color} verwenden'
+    category_rsvp: RSVP-Schaltflächen
     category_save: 'Kategorie speichern'
     category_saved: 'Kategorie gespeichert.'
     date_order: Datumsformat
@@ -26,8 +30,11 @@ ernestdefoe-calendar:
     date_order_help: 'Die Reihenfolge in der Daten im Kalender und in dessen Widgets angezeigt werden. „Automatisch“ richtet sich nach der Sprache deines Forums.'
     date_order_mdy: 'Monat zuerst (Dezember 31, 2026)'
     default_view: 'Standardansicht des Kalenders'
+    event_discussion_author: 'Veranstaltungsdiskussionen veröffentlichen als'
+    event_discussion_author_help: 'Ein Benutzername oder eine Benutzer-ID, beispielsweise ein Bot-Konto. Dieses Konto muss in den untenstehenden Tags die Berechtigung „Diskussionen starten“ haben (die Berechtigung „Diskussionen ohne Genehmigung starten“ allein reicht nicht aus), und im Beitrag muss der Veranstalter der Veranstaltung namentlich genannt werden. Lasse das Feld leer, um als das Mitglied zu posten, das die Veranstaltung erstellt hat.'
+    event_discussion_author_placeholder: 'Das Mitglied, das die Veranstaltung organisiert hat'
     event_discussion_tags: 'Veranstaltungsdiskussionen mit diesem Tag versehen'
-    event_discussion_tags_help: 'Wähle mindestens eines aus – jede neue Diskussion in einem Forum mit Tags benötigt ein Tag. Der Organisator muss die Berechtigung haben, darin Diskussionen zu starten.'
+    event_discussion_tags_help: 'Wähle mindestens eines aus – jede neue Diskussion in einem Forum mit Tags benötigt ein Tag. Das Konto, von dem die Beiträge veröffentlicht werden, muss berechtigt sein, darin Diskussionen zu starten.'
     event_discussions: 'Jeder neuen Veranstaltung eine eigene Diskussion zuweisen'
     event_discussions_help: 'Antworten, Likes, Erwähnungen und Benachrichtigungen funktionieren dann genau wie in jeder anderen Diskussion. Bei Veranstaltungen, die bereits vor dieser Änderung erstellt wurden, wird dem Veranstalter die Schaltfläche „Diskussion starten“ angezeigt.'
     hide_nav_link: 'Link „Kalender“ in der Seitenleiste ausblenden'
@@ -63,6 +70,9 @@ ernestdefoe-calendar:
     week_sunday: Sonntag
   api:
     category_name_required: 'Der Kategoriename wird benötigt.'
+    discussion_author_cannot_start: '{account} darf keine Diskussionen starten. Weise einer seiner Gruppen unter „Admin“ → „Berechtigungen“ die Berechtigung „Diskussionen starten“ zu.'
+    discussion_author_cannot_start_in_tags: '{account} darf keine Diskussionen unter {tags} starten. Weise einer seiner Gruppen unter „Admin → Berechtigungen“ die Berechtigungen „Diskussionen anzeigen“ und „Diskussionen starten“ für dieses Tag zu. Die Berechtigung „Diskussionen ohne Genehmigung starten“ sorgt lediglich dafür, dass die Diskussionen dieses Kontos die Genehmigungswarteschlange umgehen; sie ermöglicht es dem Konto jedoch nicht, diese Diskussionen zu starten.'
+    discussion_author_not_found: 'Es gibt kein Konto mit dem Benutzernamen oder der Benutzer-ID „{name}“.'
     discussion_needs_tag: 'Veranstaltungsdiskussionen benötigen ein Tag. Ein Administrator kann in den Kalendereinstellungen eines auswählen.'
     end_before_start: 'Das Ende muss nach dem Beginn liegen.'
     start_required: 'Ein gültiges Startdatum und -zeit wird benötigt.'
@@ -98,6 +108,11 @@ ernestdefoe-calendar:
     celebrations_birthday: 'Geburtstag 🎂'
     celebrations_title: 'Heutige Feierlichkeiten'
     coming_up: Bald
+    cover_browse: 'Aus meinen Uploads wählen'
+    cover_browse_close: 'Meine Uploads schließen'
+    cover_browse_empty: 'Du hast noch keine Bilder hochgeladen.'
+    cover_browse_error: 'Deine Uploads konnten nicht geladen werden.'
+    cover_browse_more: 'Mehr laden'
     cover_error: 'Das Bild konnte nicht hochgeladen werden – bitte versuche es erneut oder füge eine URL ein.'
     cover_or_url: '…oder füge eine Bild-URL ein'
     cover_remove: 'Titelbild entfernen'
@@ -170,6 +185,8 @@ ernestdefoe-calendar:
     view_list: Liste
     view_month: Monat
     view_week: Woche
+    week_number: 'W{number}'
+    week_number_title: 'Woche {number}'
     wf_category: 'Kategorie-Slug (optional)'
     wf_how_many: 'Wie viele'
     wf_leaderboard_size: 'Länge der Rangliste'
