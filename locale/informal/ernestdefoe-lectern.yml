@@ -23,6 +23,7 @@ ernestdefoe-lectern:
     types_label: Dateiformate
   forum:
     close: Schließen
+    close_file: 'Schließen {name}'
     document: '{name}, PDF-Dokument'
     download: Herunterladen
     error_browser: 'Ihr Browser kann hier keine PDF-Dateien anzeigen. Laden Sie die Datei stattdessen herunter.'
