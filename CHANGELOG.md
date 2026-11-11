@@ -10,10 +10,12 @@ CHANGELOG
 * [`ernestdefoe/bingo`](https://github.com/ernestdefoe/bingo) (8% complete)
 * [`ernestdefoe/community-goals`](https://github.com/ernestdefoe/community-goals) (31% complete)
 * [`ernestdefoe/fanfare`](https://github.com/ernestdefoe/fanfare) (47% complete)
+* [`ernestdefoe/forum-pet`](https://github.com/ernestdefoe/forum-pet) (22% complete)
 * [`ernestdefoe/kudos`](https://github.com/ernestdefoe/kudos) (7% complete)
 * [`ernestdefoe/member-map`](https://github.com/ernestdefoe/member-map) (12% complete)
 * [`ernestdefoe/rotation`](https://github.com/ernestdefoe/rotation) (57% complete)
 * [`ernestdefoe/secret-santa`](https://github.com/ernestdefoe/secret-santa) (22% complete)
+* [`ernestdefoe/slow-mail`](https://github.com/ernestdefoe/slow-mail) (17% complete)
 
 
 **Updated translations for extensions**:
