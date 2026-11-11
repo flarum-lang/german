@@ -10,6 +10,11 @@ ernestdefoe-bespoke:
     widget_pulse: Forum-Pulsschlag
 ernestdefoe-calendar:
   admin:
+    badges:
+      category: Kalenderkategorie
+      category_any: 'Jede Kategorie'
+      events_attended: 'An Kalenderveranstaltungen teilgenommen'
+      events_organized: 'Kalenderveranstaltungen organisiert'
     categories: Veranstaltungskategorien
     categories_help: 'Mithilfe farbkodierter Kategorien können Mitglieder den Kalender filtern und jedem Termin einen farblichen Akzent verleihen. Pro Kategorie kannst du die RSVP-Schaltflächen umbenennen oder deaktivieren (beispielsweise für Veröffentlichungstermine). Änderungen werden zeilenweise gespeichert.'
     category_add: 'Kategorie hinzufügen'

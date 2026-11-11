@@ -7,6 +7,7 @@ ernestdefoe-curio:
     kind:
       bool: 'Ja / Nein'
       date: Datum
+      link: Link
       number: Zahl
       select: Auswahl
       text: Text
@@ -36,6 +37,7 @@ ernestdefoe-curio:
       igdb_id_label: 'IGDB Client-ID (optional)'
       igdb_link: 'Twitch-Anwendung erstellen'
       igdb_secret_label: 'IGDB Client-Secret'
+      latest_label: '„Neueste Änderungen“ anzeigen'
       layout_covers: Titelbildkacheln
       layout_help: 'Wie jeder Typ auf der Sammlungsseite angezeigt wird.'
       layout_label: 'Seitenlayout der Sammlungen'
@@ -43,12 +45,15 @@ ernestdefoe-curio:
       max_upload_help: 'Fotos werden als WebP neu kodiert und in der Größe angepasst, sodass die gespeicherten Dateien deutlich kleiner sind als diese.'
       max_upload_label: 'Maximale Fotogröße (KB)'
       ranking_both: Beides
+      ranking_collections: Top-Sammlungen
+      ranking_collectors: Top-Sammler
       shortcut_both: 'Seitenleiste und Benutzermenü'
       shortcut_help: 'Wo Mitglieder einen Link zu ihren eigenen Sammlungen finden.'
       shortcut_label: '„Meine Sammlungen“-Verknüpfung'
       shortcut_menu: 'Nur Benutzermenü'
       shortcut_none: 'Nirgends (Profil → Sammlungen funktioniert weiterhin)'
       shortcut_sidebar: 'Nur Seitenleiste'
+      type_color_text: 'Nur auf Symbol und Namen'
       upc_help: 'Barcodes für Spiele, Filme und andere Produkte werden in der UPCitemdb nachgeschlagen, die täglich 100 Abfragen ohne Schlüssel zulässt. Jeder vom Forum identifizierte Barcode wird gespeichert, sodass die meisten Foren nie mehr benötigen. Mit einem kostenpflichtigen Schlüssel lässt sich das Limit erhöhen.'
       upc_label: 'UPCitemdb-Schlüssel (optional)'
       upc_link: UPCitemdb-Abonnements
@@ -62,17 +67,22 @@ ernestdefoe-curio:
       square: 'Quadratisch (Musikalben)'
     source:
       books: 'Bücher (Open Library)'
+      cards: 'Alle drei Kartenspiele (Pokémon, Magic, Yu-Gi-Oh!)'
       games: 'Spiele (IGDB oder mittels Marquee)'
+      magic: 'Magickarten (Scryfall)'
       movies: 'Filme (mittels Marquee)'
       music: 'Alben (Deezer, MusicBrainz)'
       none: 'Keine (per Barcode oder händisch hinzufügen)'
+      pokemon: 'Pokémonkarten (TCGdex)'
       tv: 'Fernsehserien (mittels Marquee)'
+      yugioh: 'Yu-Gi-Oh!-Karten (YGOPRODeck)'
     types:
       add: 'Typ hinzufügen'
       add_choice: 'Auswahl hinzufügen…'
       add_field: 'Detail hinzufügen'
       color: Farbe
       color_help: 'Ein Hex-Code wie beispielsweise #5b3fd1. Lasse das Feld leer, um die Farbe des Forums zu verwenden.'
+      conditions: Zustandsskala
       create: 'Typ erstellen'
       delete: 'Typ löschen'
       delete_confirm: 'Typ {name} löschen?'
@@ -110,6 +120,7 @@ ernestdefoe-curio:
       source: Nachschlagewerke
       translation_note: 'Titel und Beschreibungen aus den Nachschlagewerken werden automatisch in jeder installierten Sprache angezeigt (Wikidata und Wikipedia). Nur die Bezeichnungen, die du hier eingibst, müssen übersetzt werden.'
   api:
+    bad_link: 'Ein Link muss eine Web-Adresse beginnend mit http:// oder https:// sein.'
     collection_full: 'Eine Sammlung darf bis zu {count} Artikel beinhalten.'
     import_missing: 'Wähle eine CSV-Datei zum Import.'
     import_too_big: 'Die Datei ist zu groß (maximal {size}).'
@@ -121,6 +132,7 @@ ernestdefoe-curio:
     type_disabled: 'Dieser Sammlungstyp ist ausgeschaltet.'
     type_in_use: 'Dieser Typ hat Sammlungen und kann daher nicht gelöscht werden.'
   email:
+    followed_link: 'Sammlung ansehen'
     match:
       body: 'Hallo {recipient_display_name}, {owner} hat gerade {title} zum Tausch angeboten. Es ist auf deiner Wunschliste.'
       link: 'Angebot ansehen'
@@ -129,6 +141,12 @@ ernestdefoe-curio:
       body: 'Hallo {recipient_display_name}, {owner} hat neue Artikel zu {name} hinzugefügt, einer Sammlung, der du folgst.'
       link: 'Sammlung ansehen'
       subject: 'Neu in {name}'
+    progress_changed:
+      subject: 'Fortschritt in {name}'
+    rating_changed:
+      subject: 'Neue Bewertungen in {name}'
+    wishlist_added:
+      subject: 'Neu auf der Wunschliste von {name}'
   forum:
     browse:
       add: 'Artikel hinzufügen'
