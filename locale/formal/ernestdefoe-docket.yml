@@ -43,6 +43,7 @@ ernestdefoe-docket:
       frame_30d: 'Letzte 30 Tage'
       frame_90d: 'Letzte 90 Tage'
       frame_all: Allzeit
+      line: '{count, plural, one {# Meldung} other {# Meldungen}} · {resolved} % gelöst · {rejected} % zurückgewiesen'
       open: Offen
       reason: 'Grund:'
       rejected: Zurückgewiesen
