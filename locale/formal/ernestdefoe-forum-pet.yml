@@ -3,10 +3,52 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ernestdefoe-forum-pet:
+  admin:
+    permissions:
+      care: 'Das Forum-Haustier füttern und mit ihm spielen'
+      view: 'Forum-Haustier anzeigen'
+    settings:
+      art: 'Deine eigenen Zeichnungen'
+      art_remove: Entfernen
+      art_replace: Ersetzen
+      art_upload: Hochladen
+      name: 'Name des Haustiers'
+      name_help: 'Bis zu 40 Zeichen.'
+      reset_done: 'Ein neues Ei liegt im Nest.'
+      skin: Hautton
+      species: Tierart
+    skins:
+      autumn: Herbst
+      cocoa: Kakao
+      ember: Glut
+      meadow: Weide
+      mint: Minze
+      peach: Pfirsich
+      sky: Himmel
+      snow: Schnee
+      violet: Violett
+    species:
+      comet: Komet
+      dumpling: Dumpling
+      sprout: Sprosse
+    states:
+      celebrating: 'In Feierlaune'
+      eating: 'Isst gerade'
+      excited: Aufgeregt
+      happy: Fröhlich
+      idle: 'Gut gelaunt'
+      sleepy: Schläfrig
   forum:
+    art_label: '{pet}, das Forum-Haustier: {stage}, {mood}'
+    banner:
+      dismiss: Verwerfen
+      visit: '{pet} besuchen'
     care:
       feed: Füttern
       play: Spielen
+    corner:
+      close: Schließen
+      open: 'Öffne {pet}, das Forum-Haustier'
     did:
       feed: 'Heute gefüttert'
       play: 'Heute gespielt'
@@ -15,10 +57,21 @@ ernestdefoe-forum-pet:
       play: 'Heute gespielt'
     meter:
       energy: Energie
-      fullness: Sattgegessen
+      energy_low: 'Das Forum ist ruhig'
+      energy_mid: 'Ein normaler Tag'
+      fed: '{count, plural, =0 {Heute noch nicht gefüttert} one {Heute einmal gefüttert} other {Heute # Mal gefüttert}}'
+      fullness: Sättigungsgefühl
       fun: Spass
     mood:
       celebrating: '{pet} feiert!'
+      eating: '{pet} geniesst einen Snack.'
+      evolved_adult: '{pet} ist heute gewachsen dank allen von euch.'
+      evolved_baby: '{pet} ist heute geschlüpft! Sag Hallo.'
+      evolved_special: '{pet} hat heute seine Spezialform erreicht!'
+      excited: 'Im Forum herrscht reges Treiben und {pet} kann gar nicht stillsitzen!'
+      happy: '{pet} wurde heute gefüttert und mit ihm wurde gespielt, worüber es sich sehr freut.'
+      idle: '{pet} treibt sich hier herum und behält das Forum im Auge.'
+      milestone: 'Das Forum hat gerade die Marke von {count} Beiträgen überschritten und {pet} jubelt!'
     mood_name:
       celebrating: 'in Feierlaune'
       eating: 'isst gerade'
@@ -27,16 +80,25 @@ ernestdefoe-forum-pet:
       idle: 'gut gelaunt'
       sleepy: schläfrig
     page:
+      all_done: 'Du hast dich heute um {pet} gekümmert. Bis morgen!'
       and_more: '{count, plural, one {und # weiterer} other {und # weitere}}'
       born: 'Geboren {time}'
       care_count: '{count, plural, one {# Mal} other {# Mal}}'
+      come_back: 'Jeder von uns kann {pet} einmal am Tag füttern und mit ihm spielen.'
       description: 'Lerne {pet} kennen, das Haustier, um das sich die ganze Community kümmert. Füttere es, spiele mit ihm und beobachte, wie es wächst.'
       devoted: 'Die hingebungsvollsten Betreuer'
       devoted_none: 'Bisher hat sich noch niemand um {pet} gekümmert. Sei der Erste!'
       everyone: '{count, plural, one {# Mitglied hat} other {# Mitglieder haben}} sich darum gekümmert, {total, plural, one {# Mal} other {# Mal}} insgesamt.'
+      guest: 'Melde dich an, um {pet} zu füttern und mit ihm zu spielen. Jedes Mitglied kann einmal am Tag helfen.'
+      journey: Aufwachsen
       kicker: 'Unser Forum-Haustier'
       load_error: 'Das Haustier konnte nicht geladen werden. Bitte versuche es in Kürze erneut.'
+      milestone: 'Letzter Meilenstein gefeiert: {count} Beiträge.'
+      milestone_when: 'Letzter Meilenstein gefeiert: {count} Beiträge, {time}.'
+      needs: '{count, plural, one {Benötigt # Pflegeaktion} other {Benötigt # Pflegeaktionen}}'
+      streak: '{count}-tägige Serie'
       title: '{pet} · Forum-Haustier'
+      to_go: '{count, plural, one {noch # weitere Pflegeaktion} other {noch # weitere Pflegeaktionen}}'
       today: '{count, plural, =0 {Betreuer heute} one {# Betreuer heute} other {# Betreuer heute}}'
     stage:
       adult: Ausgewachsen
@@ -49,3 +111,4 @@ ernestdefoe-forum-pet:
       play:
         3: 'Du wirfst die besten Bälle, {member}!'
         4: 'Danke, dass du mit mir gespielt hast, {member}!'
+    visit: '{pet} besuchen'
