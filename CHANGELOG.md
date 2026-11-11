@@ -2,6 +2,37 @@ CHANGELOG
 =========
 
 
+2.0.31 (2026-11-11)
+-------------------
+
+**Added support for new extensions**:
+
+* [`ernestdefoe/answers`](https://github.com/ernestdefoe/answers) (18% complete)
+* [`ernestdefoe/bingo`](https://github.com/ernestdefoe/bingo) (8% complete)
+* [`ernestdefoe/community-goals`](https://github.com/ernestdefoe/community-goals) (30% complete)
+* [`ernestdefoe/fanfare`](https://github.com/ernestdefoe/fanfare) (47% complete)
+* [`ernestdefoe/forum-pet`](https://github.com/ernestdefoe/forum-pet) (59% complete)
+* [`ernestdefoe/kudos`](https://github.com/ernestdefoe/kudos) (7% complete)
+* [`ernestdefoe/member-map`](https://github.com/ernestdefoe/member-map) (12% complete)
+* [`ernestdefoe/mural`](https://github.com/ernestdefoe/mural) (18% complete)
+* [`ernestdefoe/rotation`](https://github.com/ernestdefoe/rotation) (57% complete)
+* [`ernestdefoe/secret-santa`](https://github.com/ernestdefoe/secret-santa) (22% complete)
+* [`ernestdefoe/slow-mail`](https://github.com/ernestdefoe/slow-mail) (17% complete)
+
+
+**Updated translations for extensions**:
+
+* [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) (44 added, 4 changed, 100% complete)
+* [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (58 added, 79% complete)
+* [`ernestdefoe/docket`](https://github.com/ernestdefoe/docket) (86 added, 28% complete)
+* [`ernestdefoe/ladder`](https://github.com/ernestdefoe/ladder) (19 added, 100% complete)
+* [`ernestdefoe/lectern`](https://github.com/ernestdefoe/lectern) (2 added, 100% complete)
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards) (16 added, 12 changed, 75% complete)
+
+
+All changes: [2.0.30...2.0.31](https://github.com/flarum-lang/german/compare/2.0.30...2.0.31).
+
+
 2.0.30 (2026-11-09)
 -------------------
 
