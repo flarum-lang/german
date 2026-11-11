@@ -5,39 +5,78 @@
 ernestdefoe-docket:
   api:
     assign_others: 'Sie haben keine Berechtigung, Meldungen anderen Moderatoren zuzuweisen.'
+    cannot_restore: 'Wenn du diesen Meldung ablehnst, wird der Beitrag zurückgesetzt, und du hast keine Berechtigung, ihn wiederherzustellen.'
+    cannot_see: 'Dieses Mitglied kann diese Meldung nicht einsehen, daher kann sie ihm nicht zugewiesen werden.'
     closed: 'Diese Meldung zuerst wiedereröffnen.'
   email:
     assigned:
       link: 'Meldung öffnen'
       subject: 'Meldung #{id} wurde dir zugewiesen'
       title: 'Meldung #{id} gehört dir'
+    crowd:
+      subject_restored: 'Dein Beitrag wurde wiederhergestellt'
     outcome:
       link: 'Deine Meldungen anzeigen'
       subject: 'Deine Meldung wurde geprüft'
   forum:
     list:
       by: 'Beitrag von {name}'
+      held_by: 'Zugewisen an {name}'
+      load_more: 'Mehr laden'
       post_gone: 'Der Beitrag wurde gelöscht'
       report_count: '{count, plural, one {# Meldung} other {# Meldungen}}'
     nav:
       my_reports: 'Meine Meldungen'
+      queue_toggle: 'Wähle eine Warteschlange'
       report_centre: Meldungszentrale
       user_reports: Meldungen
+      views: Meldungsliste
+    post:
+      open_report: 'Details dieser Meldung'
     queues:
       all: 'Alle Warteschlangen'
       general: 'Allgemeine Warteschlange'
     reason:
       other: Andere
+    record:
+      frame_12m: 'Letzte 12 Monate'
+      frame_30d: 'Letzte 30 Tage'
+      frame_90d: 'Letzte 90 Tage'
+      frame_all: Allzeit
+      open: Offen
+      reason: 'Grund:'
+      rejected: Zurückgewiesen
+      resolved: Gelöst
+      total: '{count, plural, =0 {Keine Meldungen} one {# Meldung} other {# Meldungen}}'
     report:
+      assign: Zuweisen…
+      assign_title: 'Meldung #{id} zuweisen'
+      back: 'Zurück zur Meldungszentrale'
+      claim: Übernehmen
+      handled_by: 'Bearbeitet von'
+      held_by: 'Zugewiesen an'
+      no_one: 'Noch niemandem'
+      note_label: 'Interne Notiz hinzufügen'
+      note_placeholder: 'Eine interne Notiz für andere Mitarbeiter hinzufügen…'
       note_submit: 'Notiz hinzufügen'
       opened: 'Eröffnet {time}'
       post_history_empty: Keine.
       queue: Warteschlange
+      reject: Zurückweisen
       release: Freigeben
       reopen: Wiedereröffnen
+      reporter_history: 'Meldungen von {name}'
+      reporters: '{count, plural, one {Ein Mal gemeldet} other {# Mal gemeldet}}'
+      resolve: 'Als gelöst markieren'
       system: Automatisch
       take_over: Übernehmen
+      timeline: Zeitleiste
+      timeline_empty: 'Es ist noch nichts passiert.'
       title: 'Meldung #{id}'
+      user_history_all: 'Alle anzeigen'
+    settings:
+      notify_assigned: 'Jemand weist mir eine Meldung zu'
+      notify_outcome: 'Eine Meldung von mir wurde geprüft'
     status:
       closed: Geschlossen
       in_progress: 'In Bearbeitung'
@@ -49,4 +88,10 @@ ernestdefoe-docket:
       claimed: '{actor} hat es beansprucht'
       someone: Jemand
     views:
+      active: 'Erfordert Aufmerksamkeit'
+      all: 'Alle Meldungen'
       in_queue: '{view} in {queue}'
+      mine: 'Mir zugewiesen'
+      rejected: Zurückgewiesen
+      resolved: Gelöst
+      unassigned: 'Nicht zugewiesen'
