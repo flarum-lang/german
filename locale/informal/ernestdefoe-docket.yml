@@ -74,6 +74,7 @@ ernestdefoe-docket:
       timeline: Zeitleiste
       timeline_empty: 'Es ist noch nichts passiert.'
       title: 'Meldung #{id}'
+      unassign: 'Zuweisung aufheben'
       user_history_all: 'Alle anzeigen'
     settings:
       notify_assigned: 'Jemand weist mir eine Meldung zu'
