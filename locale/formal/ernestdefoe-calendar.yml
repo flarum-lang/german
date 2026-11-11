@@ -13,6 +13,7 @@ ernestdefoe-calendar:
     badges:
       category: Kalenderkategorie
       category_any: 'Jede Kategorie'
+      category_help: 'Nur Veranstaltungen in dieser Kategorie zählen. Veranstaltungsteilnahmen zählen nur, wenn das Mitglied „Nehme teil“ ausgewählt hat und zwar nach Ende der Veranstaltung. Wiederkehrende Veranstaltungen zählen nur einmal.'
       events_attended: 'An Kalenderveranstaltungen teilgenommen'
       events_organized: 'Kalenderveranstaltungen organisiert'
     categories: Veranstaltungskategorien
