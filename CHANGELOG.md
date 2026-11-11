@@ -7,6 +7,7 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`ernestdefoe/answers`](https://github.com/ernestdefoe/answers) (18% complete)
 * [`ernestdefoe/bingo`](https://github.com/ernestdefoe/bingo) (8% complete)
 * [`ernestdefoe/community-goals`](https://github.com/ernestdefoe/community-goals) (30% complete)
 * [`ernestdefoe/fanfare`](https://github.com/ernestdefoe/fanfare) (47% complete)
@@ -21,7 +22,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
-* [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) (42 added, 4 changed, 99% complete)
+* [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) (44 added, 4 changed, 100% complete)
 * [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (58 added, 79% complete)
 * [`ernestdefoe/docket`](https://github.com/ernestdefoe/docket) (86 added, 28% complete)
 * [`ernestdefoe/ladder`](https://github.com/ernestdefoe/ladder) (19 added, 100% complete)
