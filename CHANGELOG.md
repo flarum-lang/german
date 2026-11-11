@@ -20,7 +20,7 @@ CHANGELOG
 
 * [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) (34 added, 4 changed, 100% complete)
 * [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (28 added, 77% complete)
-* [`ernestdefoe/docket`](https://github.com/ernestdefoe/docket) (82 added, 27% complete)
+* [`ernestdefoe/docket`](https://github.com/ernestdefoe/docket) (84 added, 27% complete)
 * [`ernestdefoe/ladder`](https://github.com/ernestdefoe/ladder) (9 added, 96% complete)
 * [`ernestdefoe/lectern`](https://github.com/ernestdefoe/lectern) (2 added, 100% complete)
 * [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards) (8 added, 73% complete)
