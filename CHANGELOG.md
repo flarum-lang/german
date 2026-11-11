@@ -12,7 +12,7 @@ CHANGELOG
 * [`ernestdefoe/kudos`](https://github.com/ernestdefoe/kudos) (7% complete)
 * [`ernestdefoe/member-map`](https://github.com/ernestdefoe/member-map) (12% complete)
 * [`ernestdefoe/rotation`](https://github.com/ernestdefoe/rotation) (57% complete)
-* [`ernestdefoe/secret-santa`](https://github.com/ernestdefoe/secret-santa) (23% complete)
+* [`ernestdefoe/secret-santa`](https://github.com/ernestdefoe/secret-santa) (22% complete)
 
 
 **Updated translations for extensions**:
