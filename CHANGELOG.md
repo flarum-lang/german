@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.32 (XXXX-XX-XX)
+-------------------
+
+**Updated translations for extensions**:
+
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards) (8 added, 76% complete)
+
+
+All changes: [2.0.31...2.0.32](https://github.com/flarum-lang/german/compare/2.0.31...2.0.32).
+
+
 2.0.31 (2026-11-11)
 -------------------
 
