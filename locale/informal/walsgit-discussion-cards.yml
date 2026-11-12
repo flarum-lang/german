@@ -206,14 +206,19 @@ walsgit_discussion_cards:
       options_button: 'Weitere Einstellungen für Diskussionskarten'
       options_heading: Diskussionskarten
   forum:
+    brokenImagesAlert: 'Einige Bilder für Diskussionskarten konnten nicht geladen werden.'
     brokenImagesDetails: Details
     brokenImagesModal:
       listTitle: 'Mindestens {count} Diskussion(en) betroffen:'
       more: '…und {count} weitere.'
+      title: 'Kartenbilder nicht geladen'
     console:
+      brokenCardImage: 'Diskussionskarten> Kartenbild für Diskussion #{id} konnte nicht geladen werden, ein Platzhalter wurde angezeigt.'
+      brokenCardImageDetails: 'Bild-URL: {url}. Die Datei fehlt oder ist nicht erreichbar. Sollte sie fehlen, verwende „Fehlerhafte Bilder reparieren“ in den Admin-Werkzeugen oder php flarum discussion-cards:repair-images.'
       postUpdateCardImageError: 'Diskussionskarten > Fehler beim Aktualisieren des aktualisierten Kartenbildes für diese Diskussion: '
     regenerateImage: 'Kartenbild neu erstellen'
     regenerateImageDone: 'Kartenbild wurde erfolgreich neu erstellt.'
+    regenerateImageError: 'Kartenbild konnte nicht neu erstellt werden.'
     regenerateImageNoImage: 'Kein Bild ist für diese Diskussion verfügbar (keines im ersten Beitrag und kein Standardbild).'
     regenerateImageUnchanged: 'Kartenbild ist bereits aktuell.'
     replies: 'Antworten: {count}'
