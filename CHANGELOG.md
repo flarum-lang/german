@@ -5,6 +5,11 @@ CHANGELOG
 2.0.32 (XXXX-XX-XX)
 -------------------
 
+**Added support for new extensions**:
+
+* [`ernestdefoe/story-chain`](https://github.com/ernestdefoe/story-chain) (49% complete)
+
+
 **Updated translations for extensions**:
 
 * [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards) (18 added, 78% complete)
