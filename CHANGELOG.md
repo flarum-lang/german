@@ -7,11 +7,14 @@ CHANGELOG
 
 **Added support for new extensions**:
 
-* [`ernestdefoe/story-chain`](https://github.com/ernestdefoe/story-chain) (49% complete)
+* [`ernestdefoe/story-chain`](https://github.com/ernestdefoe/story-chain) (54% complete)
 
 
 **Updated translations for extensions**:
 
+* [`ernestdefoe/masthead`](https://github.com/ernestdefoe/masthead) (14 added, 100% complete)
+* [`ernestdefoe/member-map`](https://github.com/ernestdefoe/member-map) (100 added, 45% complete)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (16 added, 2 changed, 100% complete)
 * [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards) (18 added, 78% complete)
 
 
