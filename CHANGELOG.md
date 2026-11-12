@@ -7,7 +7,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
-* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards) (8 added, 76% complete)
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards) (18 added, 78% complete)
 
 
 All changes: [2.0.31...2.0.32](https://github.com/flarum-lang/german/compare/2.0.31...2.0.32).
