@@ -212,5 +212,9 @@ walsgit_discussion_cards:
       more: '…und {count} weitere.'
     console:
       postUpdateCardImageError: 'Diskussionskarten > Fehler beim Aktualisieren des aktualisierten Kartenbildes für diese Diskussion: '
+    regenerateImage: 'Kartenbild neu erstellen'
+    regenerateImageDone: 'Kartenbild wurde erfolgreich neu erstellt.'
+    regenerateImageNoImage: 'Kein Bild ist für diese Diskussion verfügbar (keines im ersten Beitrag und kein Standardbild).'
+    regenerateImageUnchanged: 'Kartenbild ist bereits aktuell.'
     replies: 'Antworten: {count}'
     unreadReplies: 'Ungelesene Antworten: {count}'
