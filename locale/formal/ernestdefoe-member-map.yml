@@ -5,9 +5,20 @@
 ernestdefoe-member-map:
   admin:
     permissions:
+      list: 'Auf der Mitgliederkarte angezeigt werden'
+      meetup: 'Treffen auf der Mitgliederkarte planen'
+      travel: 'Reisemarker auf der Mitgliederkarte hinzufügen'
       view: 'Mitgliederkarte anzeigen'
     settings:
+      allow_indexing: 'Kartenseite darf von Suchmaschinen indexiert werden'
+      allow_indexing_help: 'Standardmäßig deaktiviert: Die Seite fordert Suchmaschinen auf, sie nicht zu indexieren. Mitgliederdaten werden in keinem Fall an Suchmaschinen übermittelt.'
+      jitter: 'Mitglieder-Marker ein wenig in ihrer Stadt verteilen'
+      jitter_help: 'Mitglieder, die die Stadtebene als Genauigkeit gewählt haben, werden jedes Mal auf etwa 3 km vom Stadtzentrum entfernt platziert – und zwar immer auf dieselbe Weise –, damit in einer belebten Stadt nicht alle an einem einzigen Punkt zusammengepfercht werden.'
+      meetup_tag: 'Tag für Diskussionen zu Treffen'
       meetup_tag_none: 'Wähle ein Tag'
+      nav: 'Link zur Mitgliederkarte in der Seitenleiste anzeigen'
+      profile: 'Mitglieder können ihren Standort in ihrem Profil und auf ihrer Benutzerkarte anzeigen'
+      style_url: 'Adresse des Kartenstils'
     widget: 'Wo wir sind'
   forum:
     card:
@@ -18,14 +29,60 @@ ernestdefoe-member-map:
     filters:
       any_group: Jeder
       group: Gruppe
+      label: Anzeigen
       meetups: Treffen
+      online: 'Jetzt online'
       travelers: Reisende
+    location:
+      members_only: 'Nur angemeldete Mitglieder (mich vor Gästen und Suchmaschinen verbergen)'
+      or_pin: 'Oder wähle den Standort auf der Karte'
+      precision:
+        city: Stadt
+        country: 'Nur Land'
+        region: 'Region oder Bundesland'
+      precision_label: 'Wie genau soll dein Standort angezeigt werden?'
+      preview: 'Du wirst angezeigt als: {label}'
+      preview_loading: 'Ort wird gesucht…'
+      profile: 'Auf meinem Profil und meiner Benutzerkarte anzeigen'
+      save: Speichern
+      saved: 'Dein Standort auf der Karte wurde gespeichert.'
+      search: Suchen
+      who_label: 'Wer kann das sehen?'
+    meetup:
+      details: Details
+    nav: Mitgliederkarte
+    near:
+      heading: 'In der Nähe'
+      km: 'etwa {count} km'
+      mi: 'etwa {count} mi'
+      same_area: 'In deinem Gebiet'
+      show: '{name} auf der Karte anzeigen'
+    page:
+      add_me: 'Mich auf der Karte eintragen'
+      change: 'Meinen Standort ändern'
+      remove: 'Mich von der Karte entfernen'
+      title: Mitgliederkarte
+      you_are: 'Du wirst angezeigt in {label}.'
+    pin:
+      meetup: 'Treffen: {title}, {when}'
+      member: '{name}, {place}'
     search:
       button: Suchen
+      placeholder: 'Finde einen Ort'
     stats:
       countries: '{count, plural, one {# Land} other {# Länder}}'
       members: '{count, plural, one {# Mitglied} other {# Mitglieder}}'
       online: '{count} sind jetzt online'
+    trip:
+      button: 'Ich verreise'
+      from: Von
+      help: 'Füge einen Reisemarker hinzu, damit Mitglieder in der Nähe wissen, dass du kommst. Er verschwindet nach dem letzten Tag von selbst.'
+      mine: 'Deine Reisen'
+      remove: Entfernen
+      save: 'Reisemarkierung hinzufügen'
+      title: 'Ich verreise'
+      to: Nach
+      where: 'Wohin geht deine Reise?'
     view:
       label: Anzeigen
       list: Liste

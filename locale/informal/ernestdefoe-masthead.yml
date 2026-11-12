@@ -24,6 +24,8 @@ ernestdefoe-masthead:
       fonts_label: 'Schriftarten des Themes verwenden'
       monogram_help: 'Bis zu drei Zeichen in der Kachel neben dem Namen. Sie werden angezeigt, wenn kein Logo hochgeladen wurde (Aussehen → Logo). Lass das Feld leer, um die Anfangsbuchstaben des Forennamens zu verwenden.'
       monogram_label: Monogramm
+      pin_header_help: 'Die Leiste mit dem Logo, den Links und der Suchfunktion bleibt beim Scrollen der Seite am oberen Rand des Fensters stehen, sodass die Seiten des Forums immer nur einen Klick entfernt sind. Der Streifen darüber wird beim Scrollen ausgeblendet. Auf Smartphones bleibt die eigene obere Leiste immer sichtbar.'
+      pin_header_label: 'Die Kopfzeile auf Computern im Sichtbereich behalten'
       show_name_help: 'Standardmäßig deaktiviert, da die meisten Logos den Namen bereits enthalten. Ohne Logo wird der Name immer angezeigt. Die Kopfzeile ist in beiden Farbmodi dunkel. Wenn du unter „Aussehen“ ein Logo für den dunklen Modus hochgeladen hast, wird dieses verwendet.'
       show_name_label: 'Forennamen neben dem Logo anzeigen'
       tagline_help: 'Eine kurze Zeile unter dem Namen des Forums, z. B. „Community für College Football“. Lass das Feld leer, um keinen Untertitel anzuzeigen.'
@@ -115,6 +117,10 @@ ernestdefoe-masthead:
       reset: 'Aus der Kopfzeilenfarbe ableiten'
       using_default: 'Wird aus der Kopfzeilenfarbe abgeleitet.'
     topic:
+      polls_help: 'Entweder direkt im Beitrag, wie von fof/polls dargestellt, oder in der Seitenleiste unter „Über diese Diskussion“, damit der Artikel nicht unterbrochen wird. Die Seitenleiste wird nur auf breiten Bildschirmen angezeigt; auf Smartphones und in schmalen Fenstern bleibt die Umfrage im Beitrag. Umfragen in Antworten bleiben immer in der jeweiligen Antwort.'
+      polls_label: 'Wohin die Umfrage im Eröffnungsbeitrag führt'
+      polls_post: 'Im Beitrag'
+      polls_sidebar: 'In der Seitenleiste'
       scrubber_help: 'Eine schmale Leiste rechts neben den Beiträgen einer Diskussion über Computer und Tablets, über die man zum Originalbeitrag, zum neuesten Beitrag, zu den ungelesenen Beiträgen oder zur besten Antwort springen kann. Auf Smartphones befindet sich diese Leiste immer in der oberen Leiste.'
       scrubber_label: 'Beitrags-Scrubber nehmen Beiträgen anzeigen'
   forum:
@@ -176,6 +182,7 @@ ernestdefoe-masthead:
       more_in: 'Mehr in {tag}'
       participants: '{count, plural, one {# Teilnehmer} other {# Teilnehmer}}'
       participants_label: Teilnehmer
+      polls_title: '{count, plural, one {Umfrage} other {Umfragen}}'
       rail_best: 'Beste Antwort'
       rail_label: 'Beiträge in dieser Diskussion'
       read_time: '{count} Min. Lesezeit'

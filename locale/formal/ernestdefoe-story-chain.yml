@@ -14,8 +14,12 @@ ernestdefoe-story-chain:
       card: 'Neuesten Satz über der Diskussionsliste anzeigen'
       card_help: 'Eine kleine Karte oberhalb der Diskussionen, auf der der neueste Satz der Geschichte angezeigt wird und angegeben ist, wie lange es noch dauert, bis die Runde endet.'
       live_votes: 'Stimmenzahlen anzeigen, solange eine Runde noch läuft'
+      live_votes_help: 'Aus, Stimmen werden erst nach Ende der Runde bekannt gegeben, sodass frühe Stimmen die übrigen nicht beeinflussen.'
       nav: '„Geschichtenkette“ in der Seitenleiste anzeigen'
+      no_repeat: 'Der Verfasser des neuesten Satzes setzt in der nächsten Runde aus'
+      no_repeat_help: 'Verhindert, dass ein schneller Schreiber Satz um Satz hinzufügt. Abstimmen können sie trotzdem.'
       show_authors: 'Anzeigen, wer die einzelnen Sätze verfasst hat, solange eine Runde noch offen ist'
+      show_authors_help: 'Aus, Sätze sind anonym, bis der Gewinner feststeht; daher stimmen die Mitglieder für den Satz und nicht den Namen. Die Moderatoren sehen immer, wer was geschrieben hat.'
   forum:
     card:
       cta: 'Nächsten Satz hinzufügen'
@@ -61,11 +65,14 @@ ernestdefoe-story-chain:
     page:
       back: 'Alle Geschichten'
       empty: 'Noch keine Geschichten.'
+      empty_start: 'Fang mit der ersten an. Alles, was du brauchst, ist ein erster Satz.'
       lead: 'Das Forum schreibt zusammen eine Geschichte, Satz für Satz. Schlage den nächsten Satz vor, stimme für deinen Favoriten ab, und der siegreiche Satz wird in die Geschichte aufgenommen.'
       library: 'Die Bibliothek'
       library_empty: 'Abgeschlossene Geschichten werden hier ausgestellt.'
       library_lead: 'Abgeschlossene Geschichten, jeder Satz von Mitgliedern geschrieben.'
+      load_error: 'Die Geschichten konnten nicht geladen werden. Bitte versuche es in Kürze erneut.'
       more: 'Mehr anzeigen'
+      not_found: 'Diese Geschichte existiert nicht oder wurde gelöscht.'
       start: 'Eine Geschichte beginnen'
       title: Geschichtenkette
       writing: 'Wird geschrieben'
