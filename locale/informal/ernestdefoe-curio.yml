@@ -174,9 +174,11 @@ ernestdefoe-curio:
       title: Sammlungen
     card_condition:
       damaged: 'Beschädigt (DMG)'
-      light_played: 'Leicht bespielt (LP)'
-      mint: 'Neuwertig (M)'
-      near_mint: 'Nahezu neuwertig (NM)'
+      heavily_played: 'Heavily Played (HP)'
+      light_played: 'Light Played (LP)'
+      mint: 'Mint (M)'
+      moderately_played: 'Moderately Played (MP)'
+      near_mint: 'Near Mint (NM)'
     condition:
       fair: Ordentlich
       good: Gut
