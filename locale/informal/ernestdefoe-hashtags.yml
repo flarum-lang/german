@@ -8,6 +8,9 @@ ernestdefoe-hashtags:
       body: 'Beiträge, die vor der Installation von „Hashtags“ verfasst wurden, werden ohne Hashtag-Links gespeichert und erscheinen daher erst dann in einem Feed, wenn sie neu geparst wurden. Führe diesen Befehl einmalig in deinem Flarum-Verzeichnis aus:'
       heading: 'Vorhandene Beiträge'
       help: 'Verwende zunächst „--dry-run“ als Parameter, um zu sehen, wie viele Beiträge sich ändern würden. Es werden nur Beiträge umgeschrieben, die tatsächlich einen Hashtag enthalten; alles andere wird gelesen und übersprungen.'
+    settings:
+      per_page_help: 'Wie viele Hashtags auf der Hashtags-Seite angezeigt werden. Von 1 bis 100. Standardwert 60.'
+      per_page_label: 'Hashtags, die auf eine Seite angezeigt werden'
   forum:
     browse:
       empty: 'Noch keine Hashtags. Gib in einem Beitrag „#“ gefolgt von einem Wort ein, um ein Hashtag zu erstellen.'

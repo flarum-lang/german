@@ -13,6 +13,10 @@ ernestdefoe-spoiler-shield:
       revealed: '{label} (aufgedeckt)'
       search: 'Finde ein Buch, eine Fernsehserie oder ein Spiel'
       title: 'Spoiler bis hier in {work}'
+    progress:
+      loading: 'Wird geladen…'
+      save: Speichern
+      title: 'Wo bist du bei {work}?'
     veil:
       reveal_label: 'Diesen Spoiler für {label} in {work} aufdecken'
       revealing: 'Wird aufgedeckt…'
