@@ -111,7 +111,7 @@ ernestdefoe-curio:
       'off': Aus
       'on': An
       progress: 'Fortschritt verfolgen'
-      progress_help: 'Jeder Artikel kann als „Noch nicht begonnen“, „In Bearbeitung“ oder „Abgeschlossen“ markiert werden: ein Symbol auf dem Artikel und ein Filter auf der Sammlungsseite. Praktisch für eine Liste mit noch zu spielenden Spielen, noch zu lesenden Büchern oder noch anzusehenden Filmen.'
+      progress_help: 'Jeder Artikel kann als „Noch nicht begonnen“, „In Bearbeitung“, „Abgeschlossen“ oder „Aufgegeben“ markiert werden: ein Symbol auf dem Artikel und ein Filter auf der Sammlungsseite. Praktisch für eine Liste mit noch zu spielenden Spielen, noch zu lesenden Büchern oder noch anzusehenden Filmen.'
       remove_choice: 'Auswahlmöglichkeit entfernen'
       remove_field: 'Detail entfernen'
       save: 'Typ speichern'

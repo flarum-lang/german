@@ -38,16 +38,44 @@ ernestdefoe-story-chain:
     credits:
       heading: 'Geschrieben von'
       lines: '{count, plural, one {# Satz} other {# Sätze}}'
+    errors:
+      already_offered: 'Du hast bereits einen Satz in dieser Runde eingereicht.'
+      edit_too_big: 'Das ist mehr als nur die Korrektur eines Tippfehlers. Dieser Satz hat sich durch ihren Wortlaut bewährt, daher sollten die Änderungen gering gehalten werden.'
+      line_empty: 'Schreibe zuerst deinen Satz.'
+      line_erased: 'Dieser Satz wurde auf Wunsch des Autors gelöscht und kann nicht wieder eingefügt werden.'
+      line_locked: 'Dieser Satz kann nur korrigiert werden, solange er der letzte Satz in der Geschichte ist.'
+      line_not_found: 'Dieser Satz ist in dieser Runde nicht mehr vorhanden.'
+      line_removed: 'Ein Moderator hat diesen Satz entfernt und er kann nicht mehr zurückgeholt werden.'
+      line_too_long: 'Dieser Satz ist länger, als es in dieser Geschichte erlaubt ist.'
+      round_closed: 'Diese Runde ist bereits geschlossen. Die Seite ist jetzt aktuell.'
+      story_not_found: 'Diese Geschichte ist nicht vorhanden oder wurde gelöscht.'
+      too_fast: 'Geh es etwas langsamer an und versuche es in einer Minute noch einmal.'
+      too_many_stories: 'Du hast für heute schon genug Geschichten begonnen. Versuch es morgen noch einmal.'
+      wrote_last: 'Du hast den letzten Satz geschrieben, also ist diese Runde für alle anderen.'
     form:
       blurb: Kurzbeschreibung
       blurb_help: 'Optional. Wird auf dem Buchcover in der Bibliothek angezeigt.'
       cover: Cover
+      end: 'Die Geschichte endet nach'
+      end_open: 'Abschluss durch Moderator'
+      fix_help_moderator: 'Du korrigierst diesen Satz als Moderator. Der Verfasser bleibt als Autor genannt.'
+      fix_help_opening: 'Du kannst den Eröffnungssatz bis zum Ende der ersten Runde ändern.'
+      fix_help_won: 'Dein Satz hat mit diesen Worten gewonnen, daher kannst du zwar einen Tippfehler korrigieren, den Text aber nicht umschreiben. Du hast Zeit bis der nächste Satz hinzugefügt wurde.'
+      fix_title: 'Diesen Satz korrigieren'
+      fix_title_opening: 'Eröffnungssatz korrigieren'
       length: 'Längster Satz'
       length_count: '{count} Zeichen'
       lines_count: '{count} Sätze'
+      opening: Eröffnungssatz
+      opening_help: 'Der erste Satz der Geschichte. Mitglieder schreiben jeden Satz danach.'
+      opening_help_edit: 'Der erste Satz der Geschichte. Korrigiere Tippfehler hier; dadurch ändert sich der Satz überall dort, wo er vorkommt.'
+      round: 'Jede Runde dauert'
       submit_edit: Speichern
+      submit_new: 'Geschichte beginnen'
+      timing_note: 'Eine neue Rundendauer gilt ab der nächsten Runde.'
       title: Titel
       title_edit: 'Geschichte bearbeiten'
+      title_new: 'Geschichte beginnen'
     hours:
       h1: '1 Stunde'
       h12: '12 Stunden'
@@ -62,15 +90,25 @@ ernestdefoe-story-chain:
     manage:
       button: Verwalten
       close: 'Diese Runde jetzt schließen'
+      confirm_close: 'Diese Runde jetzt abschließen und den Gewinnersatz hinzufügen?'
+      confirm_delete: '„{title}“ und alle darin enthaltenen Sätze löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.'
+      confirm_finish: '„{title}“ jetzt beenden? Die Sätze aus dieser Runde werden verworfen und nicht hinzugefügt.'
       delete: 'Geschichte löschen'
       edit: 'Geschichte bearbeiten'
       final: 'Diese Runde zur letzten machen'
       finish: 'Geschichte jetzt beenden'
+      fix_line: 'Diesen Satz korrigieren'
       not_final: 'Nach dieser Runde weitermachen'
       remove_line: 'Diesen Satz entfernen'
+      restore_line: 'Füge diesen Satz wieder ein'
     nav: Geschichtenkette
     notification:
+      finished: '{title} ist abgeschlossen. Lies die ganze Geschichte.'
+      round: 'Der Satz von {username} wurde zu {title} hinzugefügt. Runde {round} wurde eröffnet.'
+      round_preference: 'Eine neue Runde beginnt in einer Geschichtenkette, an der ich teilnehme'
+      won: 'Dein Satz hat Runde {round} von {title} gewonnen'
       won_final: 'Dein Satz hat {title} beendet'
+      won_preference: 'Mein Satz gewinnt eine Runde in einer Geschichtenkette'
     page:
       back: 'Alle Geschichten'
       empty: 'Noch keine Geschichten.'
@@ -114,10 +152,13 @@ ernestdefoe-story-chain:
       writers: '{count, plural, one {# Autor} other {# Autoren}}'
     vote:
       count: '{count, plural, one {# Stimme} other {# Stimmen}}'
+      empty: 'Sei der Erste, der in dieser Runde einen Satz einreicht.'
+      heading: '{count, plural, =0 {Noch keine Sätze} one {# Satz im Rennen} other {# Sätze im Rennen}}'
       hidden_note: 'Die Stimmen werden nach Abschluss der Runde bekannt gegeben.'
       live_note: 'Stimmen werden live gezählt.'
       own: 'Dein Satz'
       removed: Entfernt
+      ties: 'Wer die meisten Stimmen erhält, gewinnt. Bei Stimmengleichheit gewinnt der zuerst vorgeschlagene Satz.'
       vote: Abstimmen
       voted: 'Deine Stimme'
       voters: '{count, plural, one {# Stimme} other {# Stimmen}} bisher'
@@ -125,8 +166,11 @@ ernestdefoe-story-chain:
       closed: 'Diese Runde ist abgeschlossen.'
       guest: 'Anmelden, um einen Satz einzureichen und abzustimmen.'
       heading: 'Schreibe den nächsten Satz'
+      permission: 'Du kannst mitlesen, darfst aber hier keine Sätze einreichen.'
       placeholder: 'Wie geht es weiter?'
       removed: 'Ein Moderator hat deinen Satz aus dieser Runde entfernt.'
+      repeat: 'Du hast den letzten Satz geschrieben, daher ist diese Runde für alle anderen gedacht. Du kannst weiterhin abstimmen.'
       submit: 'Meinen Satz einreichen'
+      thanks: 'Dein Satz ist im Rennen. Viel Glück!'
       withdraw: Zurückziehen
       yours: 'Dein Satz für diese Runde'
