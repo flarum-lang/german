@@ -12,30 +12,59 @@ ernestdefoe-member-map:
     settings:
       allow_indexing: 'Kartenseite darf von Suchmaschinen indexiert werden'
       allow_indexing_help: 'Standardmäßig deaktiviert: Die Seite fordert Suchmaschinen auf, sie nicht zu indexieren. Mitgliederdaten werden in keinem Fall an Suchmaschinen übermittelt.'
+      attribution: 'Quellenangabe der Karte'
+      attribution_help: 'Die Quellenangabe, die bei den Bildkacheln angezeigt wird. Die meisten Kartenanbieter verlangen eine solche Angabe. Einfache HTML-Links sind zulässig.'
+      geocoder_email: 'Kontakt-E-Mail für die Ortssuche'
+      geocoder_email_help: 'Optional. Nominatim fragt bei stark frequentierten Websites nach einer Adresse, an die es eine Nachricht senden kann, falls etwas schiefgeht.'
+      geocoder_key: 'API-Schlüssel für Ortssuche'
+      geocoder_key_help: 'Optional. Nur für Dienste, die dies benötigen. Wird niemals an den Browser gesendet.'
+      geocoder_url: 'Adresse der Ortssuche'
+      geocoder_url_help: 'Lasse das Feld leer, um den kostenlosen Nominatim-Dienst von OpenStreetMap zu nutzen. Jeder Dienst mit derselben API funktioniert, beispielsweise dein eigener Nominatim- oder LocationIQ-Dienst. Die Suchanfragen werden auf deinem Server ausgeführt, höchstens eine pro Sekunde, und jede Antwort wird 30 Tage lang gespeichert.'
       jitter: 'Mitglieder-Marker ein wenig in ihrer Stadt verteilen'
       jitter_help: 'Mitglieder, die die Stadtebene als Genauigkeit gewählt haben, werden jedes Mal auf etwa 3 km vom Stadtzentrum entfernt platziert – und zwar immer auf dieselbe Weise –, damit in einer belebten Stadt nicht alle an einem einzigen Punkt zusammengepfercht werden.'
       meetup_tag: 'Tag für Diskussionen zu Treffen'
+      meetup_tag_help: 'Jedes Meetup startet eine Diskussion. Wenn Tags aktiviert sind, benötigen die Mitglieder diesen Tag, um ein Meetup zu planen.'
       meetup_tag_none: 'Wähle ein Tag'
       nav: 'Link zur Mitgliederkarte in der Seitenleiste anzeigen'
       profile: 'Mitglieder können ihren Standort in ihrem Profil und auf ihrer Benutzerkarte anzeigen'
+      style_dark_url: 'Adresse des Kartenstils im Dunkelmodus'
+      style_dark_url_help: 'Optional. Wird verwendet, wenn das Forum dunkel ist. Lasse das Feld leer, um den oben genannten Stil zu verwenden.'
       style_url: 'Adresse des Kartenstils'
+      style_url_help: 'Ein MapLibre-Vektorstil. Lasse das Feld leer, um stattdessen die unten angegebene Adresse für die Kartenkachel zu verwenden. Die Standardeinstellung „OpenFreeMap“ ist kostenlos und erfordert keinen Schlüssel.'
+      tiles_url: 'Adresse für Kartenkacheln'
+      tiles_url_help: 'Bildkacheln für den Fall, dass der oben genannte Stil leer ist oder nicht geladen werden kann, sowie für die kleine Karte in den Profilen. Für OpenStreetMap, das keinen Schlüssel benötigt, bitte leer lassen.'
     widget: 'Wo wir sind'
   forum:
     card:
       close: Schließen
       label: Details
+      local_time: 'Hier ist es gerade {time}'
       online: 'Jetzt online'
       profile: 'Profil anzeigen'
+    errors:
+      member_map_bad_point: 'Dieser Ort konnte nicht gelesen werden. Versuche es noch einmal.'
+      member_map_bad_query: 'Gib mindestens zwei Buchstaben für die Suche ein.'
+      member_map_no_place: 'Hier gibt es weder eine Stadt noch ein Land. Versuche es mit einem Ort an Land oder suche stattdessen.'
+      member_map_slow_down: 'Zu viele Abfragen auf einmal. Bitte warte einen Moment und versuche es erneut.'
+      member_map_unavailable: 'Die Standortsuche reagiert derzeit nicht. Versuche es in einer Minute erneut.'
     filters:
       any_group: Jeder
+      following: 'Mitglieder, denen ich folge'
       group: Gruppe
       label: Anzeigen
       meetups: Treffen
       online: 'Jetzt online'
       travelers: Reisende
+    list:
+      elsewhere: Irgendwo
     location:
+      finer: 'Um einen genaueren Standort zu erhalten, suche nach deinem Standort oder setze einen Marker.'
       members_only: 'Nur angemeldete Mitglieder (mich vor Gästen und Suchmaschinen verbergen)'
+      no_results: 'Es wurden keine Orte gefunden. Versuche es mit einer anderen Schreibweise oder setze einen Marker auf der Karte.'
       or_pin: 'Oder wähle den Standort auf der Karte'
+      pick_first: 'Suche zunächst nach einem Ort oder setze einen Marker.'
+      pin_failed: 'Die Karte konnte in diesem Browser nicht geladen werden. Suche stattdessen nach deinem Ort.'
+      pin_help: 'Tippe oder klicke auf die Stelle auf der Karte, an der du dich befindest. Es wird nur die Umgebung dieser Stelle gespeichert, niemals die Markierung.'
       precision:
         city: Stadt
         country: 'Nur Land'
@@ -44,35 +73,80 @@ ernestdefoe-member-map:
       preview: 'Du wirst angezeigt als: {label}'
       preview_loading: 'Ort wird gesucht…'
       profile: 'Auf meinem Profil und meiner Benutzerkarte anzeigen'
+      removed: 'Du wurdest von der Karte entfernt.'
       save: Speichern
       saved: 'Dein Standort auf der Karte wurde gespeichert.'
       search: Suchen
+      search_label: 'Stadt, Region oder Land suchen'
+      search_placeholder: 'Zum Beispiel: Neuburg'
+      title: 'Dein Ort auf der Karte'
       who_label: 'Wer kann das sehen?'
     meetup:
+      button: 'Ein Treffen planen'
       details: Details
+      details_placeholder: 'Wo genau, was man mitbringen muss, wie man euch findet…'
+      heading: 'Anstehende Treffen'
+      name: 'Worum geht es?'
+      name_placeholder: 'Zum Beispiel: Bierchen in Leipzig'
+      open: 'Diskussion öffnen'
+      save: 'Plan veröffentlichen'
+      saved: 'Dein Treffen ist auf der Karte verzeichnet, und es gibt eine Diskussion, in der ihr alles besprechen könnt.'
+      title: 'Ein Treffen planen'
+      when: 'Wann?'
+      when_help: 'In der Ortszeit des jeweiligen Ortes.'
+      where: 'Wo?'
     nav: Mitgliederkarte
     near:
+      add_prompt: 'Trage dich in die Karte ein, um zu sehen, wer in deiner Nähe wohnt.'
       heading: 'In der Nähe'
       km: 'etwa {count} km'
       mi: 'etwa {count} mi'
+      none: 'Auf der Karte ist noch niemand sonst verzeichnet.'
       same_area: 'In deinem Gebiet'
       show: '{name} auf der Karte anzeigen'
+    notification:
+      preference: 'Jemand besucht einen Ort in meiner Nähe'
+      trip: '{username} besucht einen Ort in deiner Nähe'
     page:
       add_me: 'Mich auf der Karte eintragen'
       change: 'Meinen Standort ändern'
+      empty: 'Bisher hat sich noch niemand auf der Karte eingetragen.'
+      guest: 'Melde dich an, um die Mitgliederkarte anzuzeigen.'
+      intro: 'Mitglieder, die angegeben haben, wo ungefähr sie sich befinden. Niemand wird auf der Karte angezeigt, es sei denn, er trägt sich selbst ein.'
+      load_error: 'Die Karte konnte nicht geladen werden. Versuche es in einer Minute erneut.'
+      map_failed: 'Die Karte konnte in diesem Browser nicht geladen werden, daher findest du hier stattdessen die Liste. Ein Neuladen der Seite könnte Abhilfe schaffen.'
+      map_label: 'Karte der Mitglieder'
+      members: '{count, plural, one {# Mitglied} other {# Mitglieder}}'
+      more: 'und {count} weitere'
+      no_permission: 'Du hast keine Berechtigung, die Mitgliederkarte einzusehen.'
+      not_listed: 'Dein Standort wurde gespeichert, aber du kannst derzeit nicht auf der Karte angezeigt werden.'
       remove: 'Mich von der Karte entfernen'
       title: Mitgliederkarte
       you_are: 'Du wirst angezeigt in {label}.'
+      zoom_in: 'Hier vergrößern'
     pin:
+      cluster: '{count} Mitglieder hier. Zeige an, wer.'
       meetup: 'Treffen: {title}, {when}'
       member: '{name}, {place}'
+      trip: '{name} besucht {place}, {dates}'
+    profile:
+      mini_label: 'Lebt in {place}. Auf der Mitgliederkarte anzeigen.'
     search:
       button: Suchen
+      label: 'Karte nach einem Ort durchsuchen'
+      none: 'Keine Orte gefunden.'
       placeholder: 'Finde einen Ort'
+    settings:
+      heading: Mitgliederkarte
+      members_only: 'Nur angemeldete Mitglieder können dich sehen.'
+      none: 'Du wirst nicht auf der Mitgliederkarte angezeigt.'
+      shown_as: 'Du wirst angezeigt in {label}.'
     stats:
       countries: '{count, plural, one {# Land} other {# Länder}}'
+      everywhere: 'auf jedem bewohnten Kontinent'
       members: '{count, plural, one {# Mitglied} other {# Mitglieder}}'
       online: '{count} sind jetzt online'
+      to_go: '{count, plural, one {Noch # Kontinent} other {Noch # Kontinente}}'
     trip:
       button: 'Ich verreise'
       from: Von
@@ -80,10 +154,21 @@ ernestdefoe-member-map:
       mine: 'Deine Reisen'
       remove: Entfernen
       save: 'Reisemarkierung hinzufügen'
+      saved: 'Dein Reise-Marker ist auf der Karte zu sehen. Mitglieder, die in der Nähe wohnen, werden davon erfahren.'
       title: 'Ich verreise'
       to: Nach
+      visiting: 'Besucht {place}, {dates}'
       where: 'Wohin geht deine Reise?'
     view:
       label: Anzeigen
       list: Liste
       map: Karte
+    widget:
+      line: '{members, plural, one {# Mitglied} other {# Mitglieder}} in {countries, plural, one {# Land} other {# Ländern}}'
+      open: 'Mitgliederkarte öffnen'
+      title: 'Wo wir sind'
+  lib:
+    gdpr:
+      delete: 'Entfernt deine Orts- und Reise-Marker von der Mitgliederkarte.'
+      export: 'Deine Orts- und Reise-Marker auf der Mitgliederkarte.'
+    meetup_on_map: 'Auf der Mitgliederkarte anzeigen'
