@@ -9,15 +9,18 @@ CHANGELOG
 
 * [`ernestdefoe/latest-replies`](https://github.com/ernestdefoe/latest-replies) (100% complete)
 * [`ernestdefoe/sticker-book`](https://github.com/ernestdefoe/sticker-book) (12% complete)
-* [`ernestdefoe/story-chain`](https://github.com/ernestdefoe/story-chain) (51% complete)
+* [`ernestdefoe/story-chain`](https://github.com/ernestdefoe/story-chain) (65% complete)
 
 
 **Updated translations for extensions**:
 
-* [`ernestdefoe/forum-pet`](https://github.com/ernestdefoe/forum-pet) (56 added, 78% complete)
+* [`ernestdefoe/forum-pet`](https://github.com/ernestdefoe/forum-pet) (60 added, 79% complete)
 * [`ernestdefoe/masthead`](https://github.com/ernestdefoe/masthead) (14 added, 100% complete)
 * [`ernestdefoe/member-map`](https://github.com/ernestdefoe/member-map) (254 added, 96% complete)
+* [`ernestdefoe/social-groups`](https://github.com/ernestdefoe/social-groups) (3 added, 29% complete)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (4 changed, 97% complete)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (16 added, 2 changed, 100% complete)
+* [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping) (2 changed, 100% complete)
 * [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards) (18 added, 78% complete)
 
 
