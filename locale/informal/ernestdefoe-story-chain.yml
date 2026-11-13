@@ -20,6 +20,13 @@ ernestdefoe-story-chain:
       no_repeat_help: 'Verhindert, dass ein schneller Schreiber Satz um Satz hinzufügt. Abstimmen können sie trotzdem.'
       show_authors: 'Anzeigen, wer die einzelnen Sätze verfasst hat, solange eine Runde noch offen ist'
       show_authors_help: 'Aus, Sätze sind anonym, bis der Gewinner feststeht; daher stimmen die Mitglieder für den Satz und nicht den Namen. Die Moderatoren sehen immer, wer was geschrieben hat.'
+  email:
+    won:
+      html:
+        body: "Dein Satz hat Runde {round} von **{title}** gewonnen und ist nun Teil der Geschichte:\n\n> {line}\n\n[Die Geschichte lesen]({url})\n"
+      plain:
+        body: "Dein Satz hat Runde {round} von „{title}“ gewonnen und ist nun Teil der Geschichte:\n\n„{line}“\n\nLies die Geschichte: {url}\n"
+      subject: 'Dein Satz hat eine Runde in „{title}“ gewonnen'
   forum:
     card:
       cta: 'Nächsten Satz hinzufügen'
@@ -40,15 +47,22 @@ ernestdefoe-story-chain:
       lines: '{count, plural, one {# Satz} other {# Sätze}}'
     errors:
       already_offered: 'Du hast bereits einen Satz in dieser Runde eingereicht.'
+      cover_invalid: 'Wähle eines der Cover.'
       edit_too_big: 'Das ist mehr als nur die Korrektur eines Tippfehlers. Dieser Satz hat sich durch ihren Wortlaut bewährt, daher sollten die Änderungen gering gehalten werden.'
+      hours_invalid: 'Wähle eine der Rundenlängen.'
+      length_invalid: 'Der längste Satz muss zwischen 40 und 500 Zeichen lang sein.'
       line_empty: 'Schreibe zuerst deinen Satz.'
       line_erased: 'Dieser Satz wurde auf Wunsch des Autors gelöscht und kann nicht wieder eingefügt werden.'
       line_locked: 'Dieser Satz kann nur korrigiert werden, solange er der letzte Satz in der Geschichte ist.'
       line_not_found: 'Dieser Satz ist in dieser Runde nicht mehr vorhanden.'
       line_removed: 'Ein Moderator hat diesen Satz entfernt und er kann nicht mehr zurückgeholt werden.'
       line_too_long: 'Dieser Satz ist länger, als es in dieser Geschichte erlaubt ist.'
+      lines_invalid: 'Die Geschichte muss zwischen 3 und 500 Sätzen lang sein und länger sein als sie derzeit ist.'
+      opening_empty: 'Schreibe den Eröffnungssatz.'
+      own_line: 'Du kannst nicht für deinen eigenen Satz abstimmen.'
       round_closed: 'Diese Runde ist bereits geschlossen. Die Seite ist jetzt aktuell.'
       story_not_found: 'Diese Geschichte ist nicht vorhanden oder wurde gelöscht.'
+      title_invalid: 'Gib der Geschichte einen Titel (maximal 120 Zeichen).'
       too_fast: 'Geh es etwas langsamer an und versuche es in einer Minute noch einmal.'
       too_many_stories: 'Du hast für heute schon genug Geschichten begonnen. Versuch es morgen noch einmal.'
       wrote_last: 'Du hast den letzten Satz geschrieben, also ist diese Runde für alle anderen.'
@@ -174,3 +188,8 @@ ernestdefoe-story-chain:
       thanks: 'Dein Satz ist im Rennen. Viel Glück!'
       withdraw: Zurückziehen
       yours: 'Dein Satz für diese Runde'
+  lib:
+    gdpr:
+      anonymize: 'Behalte ihre Sätze in Geschichten bei, ohne ihre Namen zu nennen; löscht die von ihnen vorgeschlagenen Sätze und ihre Stimmen'
+      delete: 'Entfernt ihre Zeilen aus Geschichten; löscht die von ihnen vorgeschlagenen Sätze und ihre Stimmen'
+      export: '„Geschichtenkette“-Sätze (in Geschichten und als Vorschläge) und Stimmen'
