@@ -8,6 +8,7 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`ernestdefoe/latest-replies`](https://github.com/ernestdefoe/latest-replies) (100% complete)
+* [`ernestdefoe/spoiler-shield`](https://github.com/ernestdefoe/spoiler-shield) (16% complete)
 * [`ernestdefoe/sticker-book`](https://github.com/ernestdefoe/sticker-book) (12% complete)
 * [`ernestdefoe/story-chain`](https://github.com/ernestdefoe/story-chain) (100% complete)
 
