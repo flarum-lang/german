@@ -70,6 +70,8 @@ ernestdefoe-social-groups:
       role_admin: Moderator
       role_creator: Ersteller
     groups:
+      approval: Bestätigung
+      approval_required: 'Bestätigung erforderlich'
       cancel_request: 'Anfrage abbrechen'
       create_button: 'Gruppe erstellen'
       empty_search: 'Es wurden keine Gruppen gefunden, die deiner Suche entsprechen.'
@@ -82,6 +84,7 @@ ernestdefoe-social-groups:
       members_count: '{count, plural, one {# Mitglied} other {# Mitglieder}}'
       pending: Ausstehend…
       private: Privat
+      public: Öffentlich
       request_to_join: 'Beitrittsanfrage stellen'
       search_placeholder: 'Gruppen durchsuchen…'
       title: Gruppen

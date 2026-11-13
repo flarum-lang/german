@@ -23,7 +23,9 @@ ernestdefoe-story-chain:
   forum:
     card:
       cta: 'Nächsten Satz hinzufügen'
+      hide: 'Bis zur nächsten Runde verbergen'
       label: Geschichtenkette
+      offered: '{count, plural, =0 {Noch keine Sätze eingereicht} one {# Satz in der Liste} other {# Sätze in der Liste}}'
     covers:
       amber: Bernstein
       forest: Waldgrün
@@ -54,10 +56,17 @@ ernestdefoe-story-chain:
       h48: '2 Tage'
       h6: '6 Stunden'
       h72: '3 Tage'
+    last:
+      heading: 'Letzte Runde'
+      text: 'Der Satz von {name} hat mit {votes, plural, one {# Stimme} other {# Stimmen}} gewonnen, vor {rivals, plural, =0 {keinem anderen Satz} one {einem anderen Satz} other {# anderen Sätzen}}.'
     manage:
       button: Verwalten
+      close: 'Diese Runde jetzt schließen'
       delete: 'Geschichte löschen'
       edit: 'Geschichte bearbeiten'
+      final: 'Diese Runde zur letzten machen'
+      finish: 'Geschichte jetzt beenden'
+      not_final: 'Nach dieser Runde weitermachen'
       remove_line: 'Diesen Satz entfernen'
     nav: Geschichtenkette
     notification:
@@ -78,29 +87,44 @@ ernestdefoe-story-chain:
       writing: 'Wird geschrieben'
     stats:
       days: '{count, plural, one {Tag} other {Tage}}'
+      heading: 'Die Geschichte in Zahlen'
       lines: '{count, plural, one {Satz} other {Sätze}}'
+      offered: 'eingereichte Sätze'
       votes: '{count, plural, one {Stimme} other {Stimmen}}'
       writers: '{count, plural, one {Autor} other {Autoren}}'
     story:
       chapter: Kapitel
+      closes_in: 'Endet in {time}'
+      closing: 'Wird beendet…'
       color_by_writer: 'Nach Autor einfärben'
+      deleted_user: 'Ein ehemaliges Mitglied'
       final: 'Letzte Runde'
       finished: Abgeschlossen
       finished_on: 'Abgeschlossen {date}'
       line_of: 'Satz {n} von {max}'
+      line_rivals: 'gewinne gegen {count, plural, one {# anderen Satz} other {# andere Sätze}}'
       line_votes: 'Runde {round} · {votes, plural, one {# Stimme} other {# Stimmen}}'
       lines: '{count, plural, one {# Satz} other {# Sätze}}'
       opening: 'Einleitender Satz'
+      removed_line: 'Von einem Moderator entfernt'
       round: 'Runde {round}'
       started: 'Begonnen {date}'
       the_end: Ende
       writers: '{count, plural, one {# Autor} other {# Autoren}}'
     vote:
       count: '{count, plural, one {# Stimme} other {# Stimmen}}'
-      own: Deine
+      hidden_note: 'Die Stimmen werden nach Abschluss der Runde bekannt gegeben.'
+      live_note: 'Stimmen werden live gezählt.'
+      own: 'Dein Satz'
       removed: Entfernt
+      vote: Abstimmen
       voted: 'Deine Stimme'
       voters: '{count, plural, one {# Stimme} other {# Stimmen}} bisher'
     write:
+      guest: 'Anmelden, um einen Satz einzureichen und abzustimmen.'
       heading: 'Schreibe den nächsten Satz'
+      placeholder: 'Wie geht es weiter?'
+      removed: 'Ein Moderator hat deinen Satz aus dieser Runde entfernt.'
+      submit: 'Meinen Satz einreichen'
+      withdraw: Zurückziehen
       yours: 'Dein Satz für diese Runde'
