@@ -9,13 +9,13 @@ CHANGELOG
 
 * [`ernestdefoe/latest-replies`](https://github.com/ernestdefoe/latest-replies) (100% complete)
 * [`ernestdefoe/sticker-book`](https://github.com/ernestdefoe/sticker-book) (12% complete)
-* [`ernestdefoe/story-chain`](https://github.com/ernestdefoe/story-chain) (92% complete)
+* [`ernestdefoe/story-chain`](https://github.com/ernestdefoe/story-chain) (100% complete)
 
 
 **Updated translations for extensions**:
 
 * [`el-choco/admin-console`](https://github.com/el-choco/flarum-admin-console) (1 changed, 100% complete)
-* [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (2 changed, 77% complete)
+* [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (8 added, 4 changed, 78% complete)
 * [`ernestdefoe/forum-pet`](https://github.com/ernestdefoe/forum-pet) (60 added, 79% complete)
 * [`ernestdefoe/masthead`](https://github.com/ernestdefoe/masthead) (14 added, 95% complete)
 * [`ernestdefoe/member-map`](https://github.com/ernestdefoe/member-map) (254 added, 96% complete)
