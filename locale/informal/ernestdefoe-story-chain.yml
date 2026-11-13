@@ -108,6 +108,7 @@ ernestdefoe-story-chain:
       opening: 'Einleitender Satz'
       removed_line: 'Von einem Moderator entfernt'
       round: 'Runde {round}'
+      so_far: 'Die Geschichte bis hierhin hört auf mit…'
       started: 'Begonnen {date}'
       the_end: Ende
       writers: '{count, plural, one {# Autor} other {# Autoren}}'
@@ -121,6 +122,7 @@ ernestdefoe-story-chain:
       voted: 'Deine Stimme'
       voters: '{count, plural, one {# Stimme} other {# Stimmen}} bisher'
     write:
+      closed: 'Diese Runde ist abgeschlossen.'
       guest: 'Anmelden, um einen Satz einzureichen und abzustimmen.'
       heading: 'Schreibe den nächsten Satz'
       placeholder: 'Wie geht es weiter?'
