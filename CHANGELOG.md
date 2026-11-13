@@ -14,8 +14,9 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`ernestdefoe/forum-pet`](https://github.com/ernestdefoe/forum-pet) (56 added, 78% complete)
 * [`ernestdefoe/masthead`](https://github.com/ernestdefoe/masthead) (14 added, 100% complete)
-* [`ernestdefoe/member-map`](https://github.com/ernestdefoe/member-map) (100 added, 45% complete)
+* [`ernestdefoe/member-map`](https://github.com/ernestdefoe/member-map) (254 added, 96% complete)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (16 added, 2 changed, 100% complete)
 * [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards) (18 added, 78% complete)
 
