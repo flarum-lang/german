@@ -9,7 +9,7 @@ CHANGELOG
 
 * [`ernestdefoe/latest-replies`](https://github.com/ernestdefoe/latest-replies) (100% complete)
 * [`ernestdefoe/sticker-book`](https://github.com/ernestdefoe/sticker-book) (12% complete)
-* [`ernestdefoe/story-chain`](https://github.com/ernestdefoe/story-chain) (65% complete)
+* [`ernestdefoe/story-chain`](https://github.com/ernestdefoe/story-chain) (66% complete)
 
 
 **Updated translations for extensions**:
