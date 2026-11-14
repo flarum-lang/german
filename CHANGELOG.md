@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+2.0.33 (XXXX-XX-XX)
+-------------------
+
+**Added support for new extensions**:
+
+* [`ernestdefoe/corkboard`](https://github.com/ernestdefoe/corkboard) (4% complete)
+* [`ernestdefoe/dossier`](https://github.com/ernestdefoe/dossier) (6% complete)
+* [`ernestdefoe/member-desk`](https://github.com/ernestdefoe/member-desk) (3% complete)
+
+
+**Updated translations for extensions**:
+
+* [`ernestdefoe/ridge`](https://github.com/ernestdefoe/ridge) (36 added, 100% complete)
+* [`ernestdefoe/sticker-book`](https://github.com/ernestdefoe/sticker-book) (4 added, 13% complete)
+
+
+All changes: [2.0.32...2.0.33](https://github.com/flarum-lang/german/compare/2.0.32...2.0.33).
+
+
 2.0.32 (2026-11-14)
 -------------------
 
