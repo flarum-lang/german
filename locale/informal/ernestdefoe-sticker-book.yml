@@ -24,9 +24,11 @@ ernestdefoe-sticker-book:
       waiting: '{count, plural, one {# Pack wartet} other {# Packs warten}}'
     nav: Stickerbuch
     page:
+      guest: 'Melde dich an, um jeden Tag ein kostenloses Sticker-Set zu erhalten und dein Album anzulegen.'
       tab:
         album: 'Mein Album'
         board: Top-Sammler
+        trades: Handeln
       title: Stickerbuch
     rarity:
       common: Häufig

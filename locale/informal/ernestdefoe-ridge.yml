@@ -10,6 +10,25 @@ ernestdefoe-ridge:
     min_posts_label: 'Minimale Anzahl Beiträge'
     post_marks_help: "Zeigt für jeden Beitrag eine dünne Markierung auf dem Scrubber an. Wenn du auf den Scrubber zeigst, öffnet sich eine Liste der Beiträge an dieser Stelle, mit Angaben dazu, wer den jeweiligen Beitrag wann verfasst hat. Durch Anklicken eines Beitrags gelangst du direkt dorthin. Auf Smartphones tippst du auf den Scrubber, um die Liste zu öffnen.\n"
     post_marks_label: 'Jeden Beitrag auf dem Scrubber markieren'
+    years_date_activity: 'Die letzte Aktivität'
+    years_date_created: 'Den Startzeitpunkt'
+    years_date_help: "Der Startzeitpunkt ändert sich nie. Der Zeitpunkt der letzten Aktivität verschiebt eine alte Diskussion in das aktuelle Jahr, sobald jemand darauf antwortet.\n"
+    years_date_label: 'Das Jahr einer Diskussion wird festgelegt durch'
+    years_help: "Zeigt jedes Jahr in der Liste an, beginnend mit den neuesten, jeweils mit der Anzahl der Diskussionen und einem Balken, dessen Farbintensität angibt, wie viel in diesem Jahr dazu gesagt wurde. Ein Klick auf ein Jahr zeigt die Diskussionen dieses Jahres an, und wenn man mit der Maus darüberfährt, erhält man eine Vorschau auf die aktivsten Diskussionen. Auf Smartphones wird dies als Zeile mit den Jahren oberhalb der Liste angezeigt.\n"
+    years_label: 'Jahresleiste auf der Diskussionsliste anzeigen'
+    years_min_help: "Die Leiste bleibt ausgeblendet, bis die Liste mindestens diese Anzahl an Jahren umfasst.\n"
+    years_min_label: 'Minimum an Jahren'
+    years_pages_both: 'Der Diskussionsliste und Tagseiten'
+    years_pages_index: 'Nur der Diskussionsliste'
+    years_pages_label: 'Jahresleiste anzeigen auf'
+    years_pages_tags: 'Nur Tagseiten'
   forum:
     event_row: Diskussions-Aktualisierung
     lens_label: 'Beiträge in der Nähe dieses Punktes'
+    years:
+      back: 'Zurück zum aktuellen'
+      count: '{count, plural, one {# Diskussion} other {# Diskussionen}}'
+      label: 'Jahr durchsuchen'
+      preview_empty: 'Es gibt nichts zur Vorschau.'
+      preview_heading: 'Am aktivsten in {year}'
+      showing: 'Zeige {year}'
