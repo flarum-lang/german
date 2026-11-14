@@ -4,6 +4,11 @@
 
 ernestdefoe-sticker-book:
   admin:
+    permissions:
+      collect: 'Aufkleber sammeln (tägliche und zusätzliche Packs)'
+      react: 'Aufkleber in Beiträgen verwenden'
+      trade: 'Aufkleber tauschen'
+      view: 'Sammelalben anzeigen'
     rarity:
       common: '=> ernestdefoe-sticker-book.forum.rarity.common'
       epic: '=> ernestdefoe-sticker-book.forum.rarity.epic'
@@ -11,17 +16,38 @@ ernestdefoe-sticker-book:
       rare: '=> ernestdefoe-sticker-book.forum.rarity.rare'
     sets:
       add_set: 'Neuer Satz'
-      add_starter: 'Startersets hinzufügen'
-      add_sticker: 'Sticker hinzufügen'
+      add_starter: 'Startersätze hinzufügen'
+      add_sticker: 'Aufkleber hinzufügen'
+      art: Aufkleber-Bild
+      badge_option: 'Abzeichen verleihen: {name}'
       badge_tag: 'Abzeichen: {name}'
+      cancel: Abbrechen
+      delete: Löschen
+      description: 'Beschreibung (optional)'
       edit: Bearbeiten
+      gift_help: 'Gib einem Mitglied ein extra Pack, bspw. als Preise für Wettbewerbe oder auf Veranstaltungen. Sie werden nicht für das Tageslimit mitgezählt.'
+      gift_send: 'Packs geben'
+      gift_title: 'Packs ausgeben'
+      gift_username: Benutzername
       hidden: Verborgen
       move_down: 'Nach unten'
       move_up: 'Nach oben'
       name: Name
+      no_badge: 'Kein Abzeichen zur Vervollständigung'
       owners: '{count, plural, one {# Besitzer} other {# Besitzer}}'
-      sticker_count: '{count, plural, one {# Sticker} other {# Sticker}}'
-      title: 'Sets und Sticker'
+      replace_art: 'Bild ersetzen (optional)'
+      save: Speichern
+      sticker_count: '{count, plural, one {# Aufkleber} other {# Aufkleber}}'
+      title: 'Sätze und Aufkleber'
+    settings:
+      nav: 'Sammelalbum in der Seitenleiste anzeigen'
+      odds: 'Auftrittswahrscheinlichkeiten in Packs'
+      odds_common: Häufig
+      odds_epic: Episch
+      odds_legendary: Legendär
+      odds_rare: Selten
+      pack_size: 'Aufkleber in einem Pack'
+      pity: 'Garantie für legendär'
   forum:
     album:
       complete: Abgeschlossen
@@ -29,36 +55,87 @@ ernestdefoe-sticker-book:
         all: Alle
         missing: Fehlend
         spares: Doppelt
-      no_sets: 'Es gibt noch keine sammelbaren Sticker.'
+      no_sets: 'Es gibt noch keine sammelbaren Aufkleber.'
       progress_label: '{have} von {total} gesammelt'
+    board:
+      count: '{count} von {total}'
     hero:
       complete: fertig
-      intro: 'Sammle Sticker, vervollständige dein Album und handle mit deinen Duplikaten.'
+      intro: 'Sammle Aufkleber, vervollständige dein Album und handle mit deinen Duplikaten.'
       next_in: 'Nächstes kostenloses Pack {time}'
+      odds: 'Wahrscheinlichkeiten im Pack'
       open_daily: 'Öffne das heutige kostenlose Pack'
       open_pack: 'Öffne ein Pack'
       packs: '{count, plural, one {Pack geöffnet} other {Packs geöffnet}}'
-      sets: '{count, plural, one {Set vollständig} other {Sets vollständig}}'
-      stickers: Sticker
+      sets: '{count, plural, one {Satz vollständig} other {Sätze vollständig}}'
+      stickers: Aufkleber
       waiting: '{count, plural, one {# Pack wartet} other {# Packs warten}}'
-    nav: Stickerbuch
+    nav: Sammelbuch
     page:
-      guest: 'Melde dich an, um jeden Tag ein kostenloses Sticker-Set zu erhalten und dein Album anzulegen.'
+      guest: 'Melde dich an, um jeden Tag einen kostenlosen Satz Aufkleber zu erhalten und dein Album anzulegen.'
       tab:
         album: 'Mein Album'
         board: Top-Sammler
-        trades: Handeln
-      title: Stickerbuch
+        trades: Tauschen
+      title: Sammelbuch
+    profile:
+      nav: Aufkleber
+      showcase: '{count}/{total} Aufkleber'
     rarity:
       common: Häufig
       epic: Episch
       legendary: Legendär
       rare: Selten
+    react:
+      button: Aufkleber
+      filter: 'Aufkleber finden…'
+      go: 'Aufkleberalbum öffnen'
     reveal:
+      completed: 'Satz vervollständigt: {set}!'
+      daily: 'Heutiges kostenloses Pack'
+      flip_all: 'Alle anzeigen'
+      label: 'Aufkleberpack öffnen'
       new: Neu
-      summary_new: '{count, plural, one {# neuer Sticker für dein Album!} other {# neue Sticker für dein Album!}}'
+      next: 'Öffen das nächste Pack ({count})'
+      opening: 'Wird geöffnet…'
+      pack_count: '{count, plural, one {# Aufkleber} other {# Aufkleber}}'
+      pack_label: Aufkleberpack
+      see_album: 'Mein Album ansehen'
+      summary_new: '{count, plural, one {# neuer Aufkleber für dein Album!} other {# neue Aufkleber für dein Album!}}'
       summary_none: 'Diesmal gibt es keine Neuen, aber die Ersatzaufkleber eignen sich hervorragend zum Tauschen.'
     sticker:
+      propose: 'Tausch vorschlagen'
       they_have: '{name} hat {count}'
+      they_need: '{name} hat diesen noch nicht.'
+      you_need: 'Du hast diesen noch nicht.'
+    trade:
+      change: Ändern
+      message_placeholder: 'Notiz hinzufügen (optional)'
+      send: 'Angebot senden'
+      send_gift: 'Als Geschenk schicken'
+      sent: 'Angebot gesendet an {name}.'
+      title: 'Aufkleber tauschen'
+      to: 'Tauschen mit'
+      you_get: 'Du erhältst von {name}'
+      you_get_anyone: 'Du erhältst'
+      you_give: 'Du gibst'
     trades:
-      new: 'Neuer Handel'
+      accept: Annehmen
+      cancel: Zurückziehen
+      decline: Ablehnen
+      new: 'Neuer Tausch'
+      nothing: 'Nichts (ein Geschenk)'
+      outgoing: 'Deine Tauschangebote'
+      past: 'Kürzliche Täusche'
+      status:
+        accepted: Fertig
+        cancelled: Zurückgenommen
+        declined: Abgelehnt
+        expired: Ausgelaufen
+      you_get: 'Du erhältst'
+      you_give: 'Du gibst'
+  lib:
+    errors:
+      sticker_post_not_found: 'Dieser Beitrag ist nicht verfügbar.'
+      sticker_trade_self: 'Du kannst nicht mit dir selbst tauschen.'
+      sticker_trade_unavailable: 'Dieses Mitglied darf keine Aufkleber tauschen.'
