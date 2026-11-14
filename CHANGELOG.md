@@ -16,15 +16,17 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`el-choco/admin-console`](https://github.com/el-choco/flarum-admin-console) (1 changed, 100% complete)
-* [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (12 added, 10 changed, 78% complete)
+* [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (112 added, 10 changed, 88% complete)
+* [`ernestdefoe/festoon`](https://github.com/ernestdefoe/festoon) (1 changed, 100% complete)
 * [`ernestdefoe/forum-pet`](https://github.com/ernestdefoe/forum-pet) (60 added, 79% complete)
 * [`ernestdefoe/hashtags`](https://github.com/ernestdefoe/hashtags) (4 added, 100% complete)
 * [`ernestdefoe/masthead`](https://github.com/ernestdefoe/masthead) (14 added, 95% complete)
-* [`ernestdefoe/member-map`](https://github.com/ernestdefoe/member-map) (254 added, 96% complete)
+* [`ernestdefoe/member-map`](https://github.com/ernestdefoe/member-map) (264 added, 100% complete)
 * [`ernestdefoe/social-groups`](https://github.com/ernestdefoe/social-groups) (3 added, 29% complete)
-* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (4 changed, 97% complete)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (10 added, 10 changed, 100% complete)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (16 added, 2 changed, 100% complete)
 * [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping) (2 changed, 100% complete)
+* [`ramon/canela`](https://github.com/ram0ng1/canela) (6 changed, 95% complete)
 * [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards) (18 added, 78% complete)
 
 
