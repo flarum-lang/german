@@ -28,7 +28,7 @@ ernestdefoe-festoon:
       secondary_label: Akzentfarbe
       size_help: 'In Pixeln, von 16 bis 64. Gilt für dein Emoji oder dein SVG-Bild.'
       size_label: 'Größe neben dem Namen des Forums'
-      svg_help: 'Füge den Code einer SVG-Datei (maximal 20 KB) ein. Er wird als Bild dargestellt, sodass darin enthaltene Skripte und Links niemals ausgeführt werden und alles außer Formen, Text und Farbverläufen entfernt wird. Verwende „currentColor“ für alle Elemente, die die Hauptfarbe dieses Designs annehmen sollen.'
+      svg_help: 'Fügen Sie den Code einer SVG-Datei (maximal 20 KB) ein. Er wird als Bild dargestellt, sodass darin enthaltene Skripte und Links niemals ausgeführt werden und alles außer Formen, Text und Farbverläufen entfernt wird. Verwenden Sie „currentColor“ für alle Elemente, die die Hauptfarbe dieses Designs annehmen sollen.'
       svg_label: 'Dein SVG-Bild'
       title: '{name} bearbeiten'
       title_new: 'Feiertag hinzufügen'

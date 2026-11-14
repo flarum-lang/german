@@ -42,10 +42,15 @@ ernestdefoe-member-map:
       online: 'Jetzt online'
       profile: 'Profil anzeigen'
     errors:
+      member_map_bad_meetup: 'Schau dir das Treffen an: Es braucht einen Namen (3 bis 80 Zeichen) und einen Termin im kommenden Jahr.'
       member_map_bad_point: 'Dieser Ort konnte nicht gelesen werden. Versuche es noch einmal.'
       member_map_bad_query: 'Gib mindestens zwei Buchstaben für die Suche ein.'
+      member_map_bad_trip: 'Überprüfe die Daten: Eine Reise darf nicht enden, bevor sie begonnen hat, nicht bereits in der Vergangenheit liegen und nicht länger als 60 Tage dauern.'
+      member_map_meetup_needs_tag: 'Treffen können noch nicht geplant werden: Ein Administrator muss in den Einstellungen der Mitgliederkarte ein Tag dafür auswählen.'
+      member_map_meetup_tag_denied: 'In dem Bereich Tag für Treffen kannst du keine Diskussionen starten, daher kannst du hier auch kein Treffen planen.'
       member_map_no_place: 'Hier gibt es weder eine Stadt noch ein Land. Versuche es mit einem Ort an Land oder suche stattdessen.'
       member_map_slow_down: 'Zu viele Abfragen auf einmal. Bitte warte einen Moment und versuche es erneut.'
+      member_map_too_many_trips: 'Du hast bereits 5 anstehende Reisen. Lösche zuerst eine davon.'
       member_map_unavailable: 'Die Standortsuche reagiert derzeit nicht. Versuche es in einer Minute erneut.'
     filters:
       any_group: Jeder

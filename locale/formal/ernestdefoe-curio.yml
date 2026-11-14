@@ -18,6 +18,18 @@ ernestdefoe-curio:
     settings:
       barcodelookup_label: 'barcodelookup.com API-Schlüssel (optional, kostenpflichtig)'
       barcodelookup_link: 'barcodelookup.com Abonnements und API-Schlüssel'
+      collector_color_help: 'Die Farbe des Symbols und die des Textes. Leer gelassen wird die gedämpfte Textfarbe des Forums verwendet.'
+      collector_color_label: 'Farbe des Sammler-Abzeichens (optional)'
+      collector_icon_help: 'Ein Font Awesome-Symbol, wie beispielsweise „fas fa-boxes-stacked“ oder „fas fa-gem“.'
+      collector_icon_label: 'Symbol des Sammler-Abzeichens'
+      collector_place_both: 'Neben Beiträgen und auf Profilkarten'
+      collector_place_card: 'Nur auf Profilkarten'
+      collector_place_help: 'Ein Abzeichen für Mitglieder mit mindestens einer Sammlung, die der Leser sehen kann: neben ihrem Namen in Beiträgen und auf ihrer Profilkarte zusammen mit der Anzahl der Sammlungen. Es richtet sich nach der Einstellung „Wer kann diese Sammlung sehen?“ der jeweiligen Sammlung: Sammlungen, die nur für Mitglieder sichtbar sind, gelten nur für angemeldete Leser, private Sammlungen hingegen niemals.'
+      collector_place_label: Sammler-Abzeichen
+      collector_place_none: 'Nicht anzeigen'
+      collector_place_posts: 'Nur neben Beiträgen'
+      collector_text_help: 'Wird neben dem Symbol in Beiträgen angezeigt. Lasse das Feld leer, wenn nur das Symbol angezeigt werden soll.'
+      collector_text_label: 'Text des Sammler-Abzeichens (optional)'
       cover_fit_blur: 'Ganzes Bild auf unscharfem Hintergrund anzeigen'
       cover_fit_crop: 'Füllend auf den Rahmen zuschneiden'
       cover_fit_help: 'Jeder Typ verfügt über eine bestimmte Profilbildform, sodass das Raster einer Sammlung übersichtlich bleibt. Ein Profilbild mit einer anderen Form (eine Spieleschachtel im Format 3:4 in einem 2:3-Rahmen) kann entweder vollständig auf einer unscharfen Kopie seiner selbst, vollständig auf einem einfarbigen Hintergrund oder beschnitten so dargestellt werden, dass es den Rahmen ausfüllt. Ein Typ, dessen Form mit den Profilbildern übereinstimmt (Hochformat 3:4 für Spieleschachteln), benötigt nichts davon.'
@@ -189,6 +201,7 @@ ernestdefoe-curio:
     count:
       collections: '{count, plural, one {# Sammlung} other {# Sammlungen}}'
       items: '{count, plural, one {# Artikel} other {# Artikel}}'
+      items_short: '{count, plural, one {{short} Artikel} other {{short} Artikel}}'
       trade: '{count} zum Tausch'
       wanted: '{count} auf Wunschliste'
     edit:
@@ -260,6 +273,7 @@ ernestdefoe-curio:
       from_wikidata: 'Beschreibung von Wikidata'
       from_wikipedia: 'Beschreibung von Wikipedia'
       genres: Genres
+      graded: Graded
       have_too: 'Das habe ich auch'
       hide_other: 'Beschreibung in {language} ausblenden'
       languages: '{count, plural, one {# Sprache} other {# Sprachen}}'
@@ -272,16 +286,19 @@ ernestdefoe-curio:
       'no': Nein
       no_description: 'Keine Beschreibung verfügbar.'
       offers: '{count, plural, one {# Mitglied bietet dies zum Tausch} other {# Mitglieder bieten dies zum Tausch}}'
+      owners_none: 'Niemand, der für dich sichtbar ist, hat das bisher.'
       owners_title: 'Wer besitzt {title}'
       photo_n: 'Foto {n}'
       platforms: Plattformen
       price: 'Bezahlter Preis'
       publisher: Publisher
+      read_review: 'Lies meine Rezension'
       released: Veröffentlicht
       show_off: 'Zeig es allen'
       show_other: 'Beschreibung in {language} anzeigen'
       translated_deepl: 'Übersetzt mit DeepL'
       want_it: 'Zu meiner Wunschliste hinzufügen'
+      who_has: 'Wer besitzt das'
       'yes': Ja
     item_edit:
       acquired: 'Erworben am'
@@ -289,8 +306,12 @@ ernestdefoe-curio:
       add_photos: 'Eigene Fotos hinzufügen'
       barcode_found: 'Barcode {code} erkannt.'
       barcode_found_named: 'Barcode {code}: „{title}“.'
+      barcode_kept: 'Der Barcode {code} wird zusammen mit deiner Auswahl gespeichert, sodass er beim nächsten Scan gefunden wird.'
       barcode_miss: 'Kein Produkt gefunden für {code}.'
+      barcode_named: 'Der Barcode {code} steht für „{title}“, aber die Suche ergab keine Treffer.'
       barcode_placeholder: 'Barcode oder ISBN scannen oder eingeben'
+      barcode_teach: 'Suche es nach Titel oder füge es manuell hinzu: Curio speichert den Barcode mit, sodass die nächste Person, die ihn scannt, sofort Zugriff darauf hat.'
+      barcode_unavailable: 'Die Barcode-Dienste konnten gerade nicht nach {code} abgefragt werden. Versuche es später erneut oder suche nach dem Titel.'
       barcode_unknown: 'Der Barcode {code} ist noch niemandem bekannt. Füge ihn manuell hinzu, dann erhält die nächste Person, die ihn scannt, deinen Eintrag.'
       by_hand: 'Händisch hinzufügen'
       by_title: 'Stattdessen nach Titel suchen'
@@ -304,8 +325,11 @@ ernestdefoe-curio:
       delete_confirm: '{title} löschen? Das kann nicht rückgängig gemacht werden.'
       favourite: Favorit
       find_hint: 'Wenn du ein Ergebnis auswählst, werden das Titelbild und die Details ausgefüllt, und der Titel sowie die Beschreibung werden in allen Sprachen angezeigt, die in diesem Forum gesprochen werden.'
+      graded: Graded
+      graded_help: 'Professionell bewertet und in eine Schutzhülle eingelegt. Füge ein Foto des Etiketts hinzu, damit andere sehen können, wer die Bewertung vorgenommen hat und wie die Punktzahl lautet.'
       lookup_failed: 'Der Titel konnte aktuell nicht nachgeschlagen werden. Erneut versuchen oder händisch hinzufügen.'
       more_results: 'Weitere Ergebnisse'
+      no_cards_in: 'Es wurden keine Karten in {language} gefunden. Versuche es mit dem englischen Namen, dem Set und der Nummer oder einer anderen Kartensprache.'
       no_results: 'Kein Treffer. Versuche es mit weniger Wörtern oder gib den Begriff manuell ein.'
       notes: Notizen
       notes_placeholder: 'Wo du es gefunden hast, was in der Verpackung ist, alles, was erwähnenswert ist…'
@@ -317,11 +341,22 @@ ernestdefoe-curio:
       rating_none: 'Noch nicht bewertet. Tippe auf einen Stern; tippe erneut darauf, um die Auswahl aufzuheben.'
       rating_value: '{stars} von 5'
       rating_zero: 'Keine Sterne (0 von 5)'
+      release:
+        bundle: Bundle
+        dlc: DLC
+        edition: Edition
+        expanded: 'Expanded edition'
+        expansion: Erweiterung
+        port: Portierung
+        remake: Remake
+        remaster: Remaster
+        standalone: 'Alleinstehende Erweiterung'
       remove_photo: 'Foto entfernen'
       save: Speichern
       scan: Scannen
       scan_stop: Stoppen
       search_placeholder: 'Titel, Barcode oder ISBN scannen oder eingeben'
+      someone_elses: 'Du bearbeitest ein Artikel von {name}.'
       status: Status
       subtitle: 'Entwickler, Künstler oder Autor'
       tab_details: 'Details & Fotos'
@@ -363,6 +398,7 @@ ernestdefoe-curio:
       search: '{count} Artikel durchsuchen…'
       settings: Einstellungen
       since: 'Seit {date}'
+      sort_default: 'Diese Sammlung in dieser Reihenfolge öffnen'
       sort_label: Reihenfolge
       trade: 'Zum Tausch'
       view_grid: Raster
@@ -371,10 +407,25 @@ ernestdefoe-curio:
       wanted: Wunschliste
     printing:
       1st-edition: 'Erste Auflage'
+      cosmos: Cosmos
+      cracked-ice: 'Cracked ice'
+      galaxy: Galaxy
       holo: Holo
+      jumbo: Jumbo
+      lenticular: Linsenkarte
       metal: Metall
       normal: Normal
+      player-rewards-program: 'Play! Pokémon prize pack'
+      pokemon-center: 'Pokémon Center stamp'
+      pre-release: 'Prerelease stamp'
       reverse: 'Reverse holo'
+      set-logo: 'Set logo stamp'
+      shadowless: Shadowless
+      snowflake: 'Snowflake stamp'
+      staff: 'Staff stamp'
+      trick-or-trade: 'Trick or Trade'
+      unlimited: Unlimited
+      w-promo: 'W promo stamp'
     profile:
       collections: Sammlungen
       collections_heading: Sammlungen

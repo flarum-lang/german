@@ -102,7 +102,7 @@ linkrobins-wiki:
       title: 'Artikel melden'
     search:
       all_button: 'Durchsuche das Wiki für "{query}"'
-      empty: 'Keine Artikel gefunden "{query}"'
+      empty: 'Keine Artikel gefunden, die mit „{query}“ übereinstimmen.'
       heading: Wiki
       placeholder: 'Wiki durchsuchen'
       results_heading: 'Ergebnisse für "{query}"'
@@ -1550,7 +1550,7 @@ ramon-canela:
       helper:
         changes: Änderungsvorschläge
         confirm: Bestätigen
-        copied: Kopiert!
+        copied: Kopiert
         copy: Kopieren
         custom_prompt_placeholder: 'Eigene Anweisung eingeben…'
         custom_prompt_submit: 'Anweisung senden'
@@ -1934,7 +1934,7 @@ ramon-canela:
       ignore_channel_wide_mention:
         description: 'Erwähnungen mit @here und @all benachrichtigen dich nicht.'
         title: 'Kanalweite Erwähnungen ignorieren'
-      invalid_access: 'Du hast keinen Zugriff auf diesen Chatkanal'
+      invalid_access: 'Dieser Kanal ist zugangsbeschränkt. Bitte wenden Sie sich an die Administratoren des Kanals, um Zugang zu erhalten.'
       join: Beitreten
       last_visit: 'letzter Besuch'
       link_copied: 'Link in die Zwischenablage kopiert'
@@ -2033,7 +2033,7 @@ ramon-canela:
         indefinitely_long_plain: 'Nachrichten in diesem Kanal werden dauerhaft aufbewahrt.'
         long: '{count, plural, one {Nachrichten in diesem Kanal werden # Tag aufbewahrt.} other {Nachrichten in diesem Kanal werden # Tage aufbewahrt.}}'
       retry_staged_message:
-        action: 'Erneut senden?'
+        action: 'Erneut versuchen'
         title: Netzwerkfehler
       save: Speichern
       scroll_to_bottom: 'Nach unten scrollen'
@@ -2099,7 +2099,7 @@ ramon-canela:
       unpin_message: 'Nachricht lösen'
       upload: 'Datei anhängen'
       upload_errors:
-        failed: fehlgeschlagen
+        failed: 'Hochladen fehlgeschlagen. Versuchen Sie es erneut.'
         too_large: 'zu groß'
       upload_to_channel: 'In {title} hochladen'
       you: du
@@ -2407,7 +2407,7 @@ ramon-canela:
         likes_key: likes
         min_posts_hint: 'Mindestanzahl an Beiträgen in der Diskussion'
         min_posts_key: min-posts
-        title_key: title
+        title_key: titel
       history:
         added: '{count, plural, one {+# Wort} other {+# Wörter}}'
         after: 'Diese Version'
