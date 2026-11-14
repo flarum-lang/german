@@ -15,7 +15,7 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`ernestdefoe/ridge`](https://github.com/ernestdefoe/ridge) (36 added, 100% complete)
-* [`ernestdefoe/sticker-book`](https://github.com/ernestdefoe/sticker-book) (44 added, 23% complete)
+* [`ernestdefoe/sticker-book`](https://github.com/ernestdefoe/sticker-book) (180 added, 12 changed, 59% complete)
 
 
 All changes: [2.0.32...2.0.33](https://github.com/flarum-lang/german/compare/2.0.32...2.0.33).
