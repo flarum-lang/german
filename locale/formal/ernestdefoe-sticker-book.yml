@@ -3,6 +3,25 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ernestdefoe-sticker-book:
+  admin:
+    rarity:
+      common: '=> ernestdefoe-sticker-book.forum.rarity.common'
+      epic: '=> ernestdefoe-sticker-book.forum.rarity.epic'
+      legendary: '=> ernestdefoe-sticker-book.forum.rarity.legendary'
+      rare: '=> ernestdefoe-sticker-book.forum.rarity.rare'
+    sets:
+      add_set: 'Neuer Satz'
+      add_starter: 'Startersets hinzufügen'
+      add_sticker: 'Sticker hinzufügen'
+      badge_tag: 'Abzeichen: {name}'
+      edit: Bearbeiten
+      hidden: Verborgen
+      move_down: 'Nach unten'
+      move_up: 'Nach oben'
+      name: Name
+      owners: '{count, plural, one {# Besitzer} other {# Besitzer}}'
+      sticker_count: '{count, plural, one {# Sticker} other {# Sticker}}'
+      title: 'Sets und Sticker'
   forum:
     album:
       complete: Abgeschlossen
@@ -35,5 +54,11 @@ ernestdefoe-sticker-book:
       epic: Episch
       legendary: Legendär
       rare: Selten
+    reveal:
+      new: Neu
+      summary_new: '{count, plural, one {# neuer Sticker für dein Album!} other {# neue Sticker für dein Album!}}'
+      summary_none: 'Diesmal gibt es keine Neuen, aber die Ersatzaufkleber eignen sich hervorragend zum Tauschen.'
     sticker:
       they_have: '{name} hat {count}'
+    trades:
+      new: 'Neuer Handel'
