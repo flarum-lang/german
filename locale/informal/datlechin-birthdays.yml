@@ -6,7 +6,7 @@ datlechin-birthdays:
   admin:
     permissions:
       edit_own_birthday_label: 'Eigenen Geburtstag bearbeiten'
-      view_birthday_label: 'Geburtstag ansehen'
+      view_birthday_label: 'Geburtstage ansehen'
     settings:
       date_format_help: 'Verwende das <a>dayjs</a>-Datumsformat. Lasse das Feld leer, um das Standardformat zu verwenden.'
       date_format_label: Datumsformat
@@ -23,14 +23,19 @@ datlechin-birthdays:
         optional: 'Frage, optional'
         required: 'Anfragen, erforderlich'
     users:
+      birthday_column: '=> datlechin-birthdays.lib.birthday_label'
       no_birthday: 'Nicht festgelegt'
   api:
     birthday_required_message: 'Das Geburtsdatum ist erforderlich.'
     invalid_age_message: 'Dein Alter muss mindestens {minAge} Jahre betragen.'
     invalid_dob_message: 'Ungültiges Geburtsdatum'
+    min_age_message: 'Du musst mindestens {age} Jahre alt sein.'
   forum:
     badge:
       birthday_tooltip: 'Geburtstag heute'
+    change_birthday:
+      submit_button: '=> core.ref.save_changes'
+      title: '=> datlechin-birthdays.forum.settings.change_birthday_button'
     change_dob:
       date_of_birth_text: '=> datlechin-birthdays.ref.date_of_birth'
       submit_button: '=> core.ref.save_changes'
@@ -38,18 +43,40 @@ datlechin-birthdays:
     edit_user:
       dob_heading: '=> datlechin-birthdays.ref.date_of_birth'
     nav:
+      birthdays_link: '=> datlechin-birthdays.forum.page.title'
       nav_item: 'Heutige Geburtstage'
     page:
       discussion_count: '{count, plural, one {Diskussion: #} other {Diskussionen: #}}'
+      empty_text: 'Keine Geburtstage in der kommenden Woche.'
+      load_more_button: '=> core.ref.load_more'
       post_count: '{count, plural, one {Beitrag: #} other {Beiträge: #}}'
+      title: Geburtstage
+      today_heading: Heute
+      tomorrow_heading: Morgen
+      turns_text: 'Wird {age}'
     settings:
+      add_birthday_button: 'Geburtstag hinzufügen'
+      change_birthday_button: 'Geburtstag ändern'
       change_dob_label: 'Geburtsdatum ändern'
       dob_heading: '=> datlechin-birthdays.ref.date_of_birth'
+      notify_birthday_label: 'Gratuliere mir zum Geburtstag'
+      show_age_label: 'Mein Alter auf meinem Profil anzeigen'
+      show_birthday_label: 'Mein Geburtstag auf meinem Profil anzeigen'
       show_dob_date_label: 'Geburtstag und Monat anzeigen'
       show_dob_year_help: 'Dadurch können die Leute Dein Alter sehen.'
       show_dob_year_label: 'Geburtsjahr anzeigen'
     user:
       age_text: '{age} Jahre alt'
       birthday_text: 'Geburtstag: {date}'
+    user_card:
+      age_text: 'Alter {age}'
+      birthday_and_age_text: 'Geburtstag {date}, Alter {age}'
+      birthday_text: 'Geburtstag {date}'
+  lib:
+    birthday_label: Geburtstag
+    datetime_formats:
+      birthday: 'MMMM D'
+      birthdayWithYear: LL
+      day: 'dddd, MMMM D'
   ref:
     date_of_birth: Geburtsdatum
