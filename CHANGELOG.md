@@ -14,12 +14,15 @@ CHANGELOG
 
 * [`ernestdefoe/corkboard`](https://github.com/ernestdefoe/corkboard) (4% complete)
 * [`ernestdefoe/dossier`](https://github.com/ernestdefoe/dossier) (6% complete)
-* [`ernestdefoe/member-desk`](https://github.com/ernestdefoe/member-desk) (3% complete)
+* [`ernestdefoe/member-desk`](https://github.com/ernestdefoe/member-desk) (6% complete)
+* [`ernestdefoe/who-said-it`](https://github.com/ernestdefoe/who-said-it) (2% complete)
 
 
 **Updated translations for extensions**:
 
+* [`ernestdefoe/masthead`](https://github.com/ernestdefoe/masthead) (14 added, 2 changed, 100% complete)
 * [`ernestdefoe/ridge`](https://github.com/ernestdefoe/ridge) (36 added, 100% complete)
+* [`ernestdefoe/secret-santa`](https://github.com/ernestdefoe/secret-santa) (62 added, 34% complete)
 * [`ernestdefoe/sticker-book`](https://github.com/ernestdefoe/sticker-book) (180 added, 12 changed, 59% complete)
 
 
