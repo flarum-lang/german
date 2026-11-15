@@ -15,11 +15,13 @@ CHANGELOG
 * [`ernestdefoe/corkboard`](https://github.com/ernestdefoe/corkboard) (4% complete)
 * [`ernestdefoe/dossier`](https://github.com/ernestdefoe/dossier) (6% complete)
 * [`ernestdefoe/member-desk`](https://github.com/ernestdefoe/member-desk) (6% complete)
+* [`ernestdefoe/time-capsule`](https://github.com/ernestdefoe/time-capsule) (9% complete)
 * [`ernestdefoe/who-said-it`](https://github.com/ernestdefoe/who-said-it) (2% complete)
 
 
 **Updated translations for extensions**:
 
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays) (46 added, 2 changed, 91% complete)
 * [`ernestdefoe/masthead`](https://github.com/ernestdefoe/masthead) (14 added, 2 changed, 100% complete)
 * [`ernestdefoe/ridge`](https://github.com/ernestdefoe/ridge) (36 added, 100% complete)
 * [`ernestdefoe/secret-santa`](https://github.com/ernestdefoe/secret-santa) (72 added, 36% complete)
