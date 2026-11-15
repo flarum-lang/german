@@ -6,10 +6,17 @@ ernestdefoe-member-desk:
   admin:
     page:
       description: 'Mitgliederverwaltung: Finde, durchsuche und verwalte eure Mitglieder.'
+      member_description: 'Alles über ein bestimmtes Mitglied und was du in Bezug auf dieses Mitglied tun kannst.'
       member_title: Mitglied
       title: Benutzer
     permissions:
       export: 'Mitglieder als CSV exportieren'
+      mark_spammer: 'Mitglieder über die Mitgliederverwaltung als Spammer markieren'
+      view: 'Mitgliederverwaltung (Mitgliederliste und Mitgliederseiten) aufrufen'
+      view_emails: 'Vollständige E-Mail-Adresse in der Mitgliederverwaltung anzeigen'
+      view_ips: 'IP-Adresse von Mitgliedern in der Mitgliederverwaltung anzeigen'
+    settings:
+      open: 'Mitgliederverwaltung aufrufen'
   forum:
     nav: Mitgliederverwaltung
     open_member: 'In der Mitgliederverwaltung öffnen'
@@ -21,7 +28,11 @@ ernestdefoe-member-desk:
       search_name: 'Nach Anzeige- oder Benutzername suchen'
       tab_log: Protokoll
       tab_members: Mitglieder
+    never: nie
     status:
+      active: Aktiv
+      admin: Admin
+      anonymized: Anonymisiert
       open_reports: '{count, plural, one {# Bericht öffnen} other {# Berichte öffnen}}'
       suspended_forever: Gesperrt
       suspended_until: 'Gesperrt bis {date}'
