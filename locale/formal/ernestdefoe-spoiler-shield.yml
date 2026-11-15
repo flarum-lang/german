@@ -4,12 +4,18 @@
 
 ernestdefoe-spoiler-shield:
   api:
+    invalid_position: 'Dieser Eintrag ist in der Liste für dieses Buch, diese Sendung oder dieses Spiel nicht enthalten.'
+    invalid_quote_other_work: 'Diese Antwort enthält bereits Spoiler zu einem Buch, einer Sendung oder einem Spiel, daher können darin keine Spoiler aus einem anderen Werk zitiert werden. Verfasse für dieses Zitat bitte eine eigene Antwort.'
     invalid_work: 'Dieses Buch, Fernsehserie oder Spiel existiert nicht.'
   forum:
     mark:
+      discussion_help: 'Wie weit reicht diese Diskussion? Mitglieder, die noch nicht so weit gekommen sind, sehen das Ganze verschwommen.'
       discussion_title: Spoilermarkierung
+      no_mark: 'Keine Spoilermarkierung'
       none_found: 'Unter diesem Namen wurde nichts gefunden.'
       other_work: 'Wähle etwas anderes aus'
+      reply_help: 'Antworten werden bis zu der Stelle angezeigt, an der du dich gerade in {work} befindest, sodass Nutzer, die noch nicht so weit sind, sie unscharf sehen. Wähle eine andere Stelle aus, wenn deine Antwort dies nicht erfordert.'
+      reply_title: 'Spoiler in deiner Antwort'
       revealed: '{label} (aufgedeckt)'
       search: 'Finde ein Buch, eine Fernsehserie oder ein Spiel'
       title: 'Spoiler bis hier in {work}'
@@ -18,6 +24,8 @@ ernestdefoe-spoiler-shield:
       save: Speichern
       title: 'Wo bist du bei {work}?'
     veil:
+      guest: 'Melde dich an und gib an, wie weit du schon gekommen bist – dann werden alle Inhalte freigeschaltet, die du bereits erreicht hast.'
+      offer: 'Du hast das in deiner Sammlung abgeschlossen: Schalte alles frei'
       reveal_label: 'Diesen Spoiler für {label} in {work} aufdecken'
       revealing: 'Wird aufgedeckt…'
       set_progress: 'Wie weit bist du gekommen'
@@ -28,6 +36,10 @@ ernestdefoe-spoiler-shield:
   lib:
     chapter: 'Kapitel {number}'
     finished: Abgeschlossen
+    gdpr:
+      delete: 'Deine Orte und Enthüllungen werden gelöscht. Bücher, Sendungen und Spiele, die du hinzugefügt hast, bleiben erhalten – allerdings ohne deinen Namen.'
+      export: 'Wie weit du in den einzelnen Büchern, Serien und Spielen schon bist und welche Spoiler du preisgeben möchtest.'
+    later: 'später bei'
     placeholder: 'Spoiler für {label} ({work})'
     placeholder_unnamed: 'Spoiler für {label}'
     season: 'Staffel {number}'
