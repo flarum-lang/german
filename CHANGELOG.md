@@ -5,6 +5,11 @@ CHANGELOG
 2.0.33 (XXXX-XX-XX)
 -------------------
 
+**General changes**:
+
+* Updated Day.js translations.
+
+
 **Added support for new extensions**:
 
 * [`ernestdefoe/corkboard`](https://github.com/ernestdefoe/corkboard) (4% complete)
