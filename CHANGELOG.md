@@ -29,7 +29,7 @@ CHANGELOG
 * [`ernestdefoe/ridge`](https://github.com/ernestdefoe/ridge) (36 added, 100% complete)
 * [`ernestdefoe/secret-santa`](https://github.com/ernestdefoe/secret-santa) (72 added, 36% complete)
 * [`ernestdefoe/spoiler-shield`](https://github.com/ernestdefoe/spoiler-shield) (22 added, 28% complete)
-* [`ernestdefoe/sticker-book`](https://github.com/ernestdefoe/sticker-book) (180 added, 12 changed, 59% complete)
+* [`ernestdefoe/sticker-book`](https://github.com/ernestdefoe/sticker-book) (200 added, 12 changed, 64% complete)
 * [`ernestdefoe/story-chain`](https://github.com/ernestdefoe/story-chain) (2 added, 100% complete)
 
 
