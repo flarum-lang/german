@@ -7,26 +7,54 @@ ernestdefoe-fanfare:
     occasions:
       anniversary: 'Dein Beitrittsjubiläum'
       birthday: 'Dein Geburtstag'
+      christmas: Weihnachten
+      diwali: Diwali
+      eidadha: 'Eid ul-Adha'
+      eidfitr: 'Eid al-Fitr'
       forum: 'Der Forengeburtstag'
+      halloween: Halloween
       hanukkah: Chanukka
+      lunar: Mond-Neujahr
       newyear: 'Silvester und Neujahrstag'
+      thanksgiving: 'Thanksgiving (Vereinigte Staaten)'
+      thanksgiving_ca: 'Thanksgiving (Kanada)'
+    permissions:
+      view_people: 'Heutige Geburtstage und Jubiläen ansehen'
+      wish: 'Geburtstags- und Jubiläumswünsche senden'
     settings:
+      datlechin_help: 'Geburtstage stammen aus der Erweiterung „Birthdays“ (datlechin) mit ihren eigenen Datenschutzoptionen.'
       effects_heading: 'Effekte und Klänge'
+      effects_help: 'Mitglieder, die eine reduzierte Bewegungsdarstellung bevorzugen, sehen niemals Bewegungseffekte, und Musikstücke werden niemals ohne Antippen abgespielt.'
+      festoon_help: 'Festoon ist installiert, daher stammen die bekannten Datumsangaben aus Festoon, und beide stimmen immer überein.'
       forum_birthday: Forumgeburtstag
+      forum_birthday_help: 'Lasse das Feld leer, um den Tag zu verwenden, an dem das erste Mitglied beigetreten ist.'
       from_festoon: 'Datum von Festoon'
+      intensity: Intensität
       intensity_festive: Festlich
       intensity_full: 'Volles Programm'
       intensity_subtle: Dezent
+      milestones: 'Gemeinsame Jubiläen nur in runden Jahren (1, 5, 10, 15, 20, 25, 30) feiern'
       next: Nächster
       occasion: Anlass
       occasions_heading: Anlässe
       occasions_help: 'Schalte die einzelnen Optionen ein oder aus. Die nächsten Termine werden live in der Zeitzone des Forums ({timezone}) berechnet. Die Vorschau zeigt das Forum so an, als wäre es heute; nur du kannst diese Ansicht sehen.'
+      once_a_day: 'Den „Großen Moment“ einmal am Tag pro Mitglied anzeigen (danach wird er hinter der Schaltfläche in der Kopfzeile ausgeblendet)'
+      people_heading: Personen
+      people_help: 'Mitglieder geben ihr Geburtsdatum in den Einstellungen an. An Geburtstagen und zum Beitrittsjubiläum wird dieser besondere Moment gefeiert – mit einem Abzeichen für diesen Tag und Glückwünschen.'
       preview: Vorschau
+      preview_people: 'Vorschau für Mitgliedsereignisse:'
+      quiet_from: 'Ruhezeiten von'
+      quiet_help: 'In diesen Stunden gibt es in der Zeitzone des Forums keine Konfettiexplosionen oder Bewegungseffekte. Der Moment wird weiterhin angezeigt. Für „keine“ bitte leer lassen.'
+      quiet_to: bis
       shift: Versatz
       shift_0: 'An diesem Datum'
       shift_minus: '1 Tag davor'
       shift_plus: '1 Tag danach'
       timezone: Zeitzone
+      timezone_help: 'Der Tag im Forum beginnt hier um Mitternacht. Leer verwendet zunächst die Zeitzone von Festoon, anschließend die des Servers.'
+    widget_title: 'Heutige Geburtstage und Jubiläen'
+  api:
+    not_their_day: 'Entweder ist es nicht ihr Tag, oder sie teilen ihn nicht mit anderen.'
   forum:
     badge:
       anniversary: 'Heute {count, plural, one {# Jahre} other {# Jahre}} hier'
@@ -63,13 +91,17 @@ ernestdefoe-fanfare:
       birthday_small: 'Alles Gute zum Geburtstag,'
       blow_candle: 'Blas die {number}. Kerze aus'
       christmas_from: 'Von: {forum}'
+      christmas_title: 'Frohe Weihnachten!'
+      christmas_to: 'An: {name}'
       close: Schließen
+      diwali_sub: 'Möge das Lichterfest Freude, Süßigkeiten und strahlende Neuanfänge bringen.'
       diwali_title: 'Frohes Diwali!'
       eid_sub: 'Dir und deiner Familie ein gesegnetes Eid.'
       eid_title: 'Eid Mubarak!'
       forum_since: 'Seit {date} · {members, plural, one {# Mitglied} other {# Mitglieder}} · {posts, plural, one {# Beitrag} other {# Beiträge}}'
       forum_title: 'Alles Gute zum {ordinal}. Geburtstag, {forum}!'
       halloween_title: 'Happy Halloween!'
+      hanukkah_night: '{ordinal}. Nacht · Chag sameach'
       hanukkah_title: 'Frohes Chanukka!'
       lunar_animals:
         dog: Hundes
@@ -84,9 +116,11 @@ ernestdefoe-fanfare:
         rooster: Hahns
         snake: Schlange
         tiger: Tigers
+      lunar_title: 'Frohes Mond-Neujahr!'
       lunar_year: 'Jahr der/des {animal} · {year}'
       make_a_wish: 'Wünsch dir was'
       nye_pre: 'Mitternacht in'
+      nye_thanks: 'Vielen Dank, dass du im Jahr {year} Teil von {forum} warst'
       nye_title: 'Frohes Neues Jahr!'
       nye_year: 'Willkommen in {year}'
       open_it: 'Öffne es'
@@ -98,6 +132,10 @@ ernestdefoe-fanfare:
       play_spooky: 'Grusellied abspielen'
       playing: 'Wird abgespielt… tippen zum Stoppen'
       sound_off: 'Sound abgeschaltet'
+      sound_off_toast: 'Ton aus. Wird per Gerät gespeichert.'
+      sound_on_toast: 'Ton ein. Die Musik wird weiterhin nur abgespielt, wenn du darauf tippst.'
+      thanksgiving_sub: 'Wir sind jedem Einzelnen von euch dankbar.'
+      thanksgiving_title: 'Happy Thanksgiving!'
       turn_sound_off: 'Sound abschalten'
       turn_sound_on: 'Sound anschalten'
       wish_made: 'Wunsch geteilt! Hab einen wunderschönen Tag, {name}.'
