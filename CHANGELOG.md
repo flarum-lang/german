@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.25.38 (2026-11-16)
+--------------------
+
+**General changes**:
+
+* Updated Day.js translations.
+
+
+All changes: [1.25.37...1.25.38](https://github.com/flarum-lang/german/compare/1.25.37...1.25.38).
+
+
 1.25.37 (2026-11-09)
 --------------------
 
