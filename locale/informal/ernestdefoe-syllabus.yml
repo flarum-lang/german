@@ -19,12 +19,21 @@ ernestdefoe-syllabus:
       view: 'Kurse anzeigen'
     settings:
       certificate_text: Zertifikatstext
+      discussion_tag: 'Tag für Diskussionen zum Lerninhalt'
       no_tag: 'Ohne Tag'
+      show_nav: '„Kurse“ in der Seitenleiste anzeigen'
     widgets:
       courses: Kurse
+  api:
+    discussion_title: '{course}: {lesson}'
+    quiz_required: 'Wähle ein Quiz.'
   email:
+    completed:
+      subject: 'Du hast {course} abgeschlossen'
     new_lesson:
       subject: 'Neue Lerneinheit in {course}'
+    submission:
+      subject: '{student} hat „{lesson}“ eingereicht'
   forum:
     assignment:
       attach: 'Dateien anhängen'
@@ -46,6 +55,10 @@ ernestdefoe-syllabus:
         all: 'Alle Kurse'
         mine: 'Meine Kurse'
       title: Kurse
+    certificate:
+      date: Datum
+      issued_by: 'Ausgestellt von'
+      issued_by_forum: 'Ausgestellt von {forum}.'
     course:
       draft: Entwurf
       restricted: 'Nur für Mitglieder'
@@ -53,26 +66,71 @@ ernestdefoe-syllabus:
       advanced: Fortgeschritten
       beginner: Anfänger
     editor:
+      access_groups: 'Nur Mitglieder dieser Gruppen'
+      add_quiz: Quiz
+      add_section: 'Abschnitt hinzufügen'
+      badge: 'Abzeichen für Abschluss des Kurses'
+      badge_help: 'Nach Abschluss des Kurses erhält der Teilnehmer ein Abzeichen über FoF Badges.'
       category: Kategorie
       cover: Titelbild
       cover_remove: 'Titelbild entfernen'
       cover_upload: 'Bild hochladen'
+      delete: 'Kurs löschen'
       description: Beschreibung
       difficulty: Stufe
       edit_title: 'Kurs bearbeiten'
+      find_member: 'Mitglied finden'
       minutes: 'Geschätzte Zeit in Minuten'
+      move: '{title} verschieben'
+      new_section: 'Neuer Abschnitt'
       new_title: 'Neuer Kurs'
+      no_badge: 'Kein Abzeichen'
       no_category: 'Keine Kategorie'
       no_level: 'Jede Stufe'
+      outline: Übersicht
+      outline_help: 'Ziehe Abschnitte und Lektionen in die gewünschte Reihenfolge. Wähle mit der Tastatur einen Griff aus und verwende die Aufwärts- und Abwärts-Pfeiltasten.'
+      published: Veröffentlicht
+      remove: Entfernen
+      remove_section: 'Diesen Abschnitt entfernen'
+      save: Speichern
+      saved: Gespeichert.
+      section_title: Abschnittstitel
       summary: Zusammenfassung
       title: Titel
       view: Anzeigen
     lesson:
       open_discussion: 'Diskussion öffnen'
+    lesson_editor:
+      discussion: Diskussion
+      discussion_keep: 'Verknüpfte Diskussion beibehalten'
+      discussion_none: 'Keine Diskussion'
+      pick_quiz: 'Quiz auswählen'
+      quiz: Quiz
+      video: Video
     nav: Kurse
+    profile:
+      completed: Abgeschlossen
+      empty: 'Noch keine Kurse.'
+      in_progress: 'In Bearbeitung'
+      nav: Kurse
     progress:
       label: '{percent} %'
       lessons: '{done} von {total} Lerneinheiten'
+    teach:
+      actions: Aktionen
+      completed: Abgeschlossen
+      course: Kurs
+      filter: Anzeigen
+      filter_all: Alle
+      pass: Bestanden
+      progress: Fortschritt
+      quiz_details: 'Alle Ergebnisse sehen'
+      quiz_results: Quiz-Ergebnisse
+      students: Lernende
+      tabs:
+        courses: 'Meine Kurse'
+        review: Aufgaben
+        students: Lernende
     types:
       quiz: Quiz
       text: Text
@@ -80,6 +138,11 @@ ernestdefoe-syllabus:
     units:
       hours: '{count} h'
       minutes: '{count} m'
+    widget:
+      all: 'Alle Kurse'
+      empty: 'Noch keine Kurse.'
+      limit: 'Wie viele Kurse'
+      title_guest: 'Vorgestellte Kurse'
   lib:
     kiosk:
       course: Kurs

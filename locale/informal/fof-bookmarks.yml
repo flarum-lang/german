@@ -26,6 +26,9 @@ fof-bookmarks:
       add: 'Lesezeichen setzen'
       remove: 'Lesezeichen gesetzt'
     page:
+      hero:
+        subtitle: 'Die Diskussionen und Beiträge, die du für später gespeichert hast.'
+        title: Lesezeichen
       link: Lesezeichen
       tab:
         discussions: Diskussionen
