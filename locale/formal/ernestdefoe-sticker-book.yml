@@ -59,6 +59,8 @@ ernestdefoe-sticker-book:
       progress_label: '{have} von {total} gesammelt'
     board:
       count: '{count} von {total}'
+    header:
+      label: '{count, plural, one {# Aufkleber-Pack wartet} other {# Aufkleber-Packs warten}}'
     hero:
       complete: fertig
       earn_more: 'Poste etwas und sammle Likes, um zusätzliche Packs zu verdienen.'
@@ -83,6 +85,7 @@ ernestdefoe-sticker-book:
     profile:
       nav: Aufkleber
       showcase: '{count}/{total} Aufkleber'
+      summary: '{count} von {total} Aufklebern gesammelt, {sets, plural, one {# Satz abgeschlossen} other {# Sätze abgeschlossen}}.'
     rarity:
       common: Häufig
       epic: Episch
@@ -92,19 +95,27 @@ ernestdefoe-sticker-book:
       button: Aufkleber
       filter: 'Aufkleber finden…'
       go: 'Aufkleberalbum öffnen'
+      none: 'Du hast noch keine Sticker. Öffne zuerst dein kostenloses Pack!'
+      title: 'Aufkleber auf diesen Beitrag kleben'
     reveal:
       completed: 'Satz vervollständigt: {set}!'
       daily: 'Heutiges kostenloses Pack'
+      earned: 'Ein Pack, das du verdient hast'
+      flip: 'Antippen, um sie umzudrehen'
       flip_all: 'Alle anzeigen'
       label: 'Aufkleberpack öffnen'
+      left: '{count, plural, one {# Pack wartet} other {# Packs warten}}'
       new: Neu
       next: 'Öffen das nächste Pack ({count})'
+      none_text: 'Dein nächstes Gratis-Pack erhältst du in {time}. Durch das Posten und das Sammeln von Likes kannst du dir zusätzliche Packs verdienen.'
+      none_title: 'Derzeit keine Packs'
       opening: 'Wird geöffnet…'
       pack_count: '{count, plural, one {# Aufkleber} other {# Aufkleber}}'
       pack_label: Aufkleberpack
       see_album: 'Mein Album ansehen'
       summary_new: '{count, plural, one {# neuer Aufkleber für dein Album!} other {# neue Aufkleber für dein Album!}}'
       summary_none: 'Diesmal gibt es keine Neuen, aber die Ersatzaufkleber eignen sich hervorragend zum Tauschen.'
+      tap: 'Pack antippen, um es zu öffnen'
     sticker:
       ask: '{name} nach einer Doppelten fragen'
       find_spare: 'Jemanden mit einer Doppelten finden'
@@ -120,6 +131,8 @@ ernestdefoe-sticker-book:
     trade:
       change: Ändern
       message_placeholder: 'Notiz hinzufügen (optional)'
+      no_spares_mine: 'Du hast noch keine Doppelten. Doppelte Exemplare sind zusätzliche Aufkleber, die du bereits einmal hast.'
+      pick_member_first: 'Wähle ein Mitglied, um deren Doppelte zu sehen.'
       search_placeholder: 'Mitgliedsnamen eingeben…'
       send: 'Angebot senden'
       send_gift: 'Als Geschenk schicken'
@@ -133,7 +146,9 @@ ernestdefoe-sticker-book:
       accept: Annehmen
       cancel: Zurückziehen
       decline: Ablehnen
+      incoming: 'Tauschangebote für dich'
       new: 'Neuer Tausch'
+      none_incoming: 'Keine Angebote warten auf dich.'
       nothing: 'Nichts (ein Geschenk)'
       outgoing: 'Deine Tauschangebote'
       past: 'Kürzliche Täusche'

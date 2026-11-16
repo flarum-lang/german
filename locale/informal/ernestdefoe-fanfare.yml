@@ -4,10 +4,19 @@
 
 ernestdefoe-fanfare:
   admin:
+    occasions:
+      anniversary: 'Dein Beitrittsjubiläum'
+      birthday: 'Dein Geburtstag'
+      forum: 'Der Forengeburtstag'
+      hanukkah: Chanukka
+      newyear: 'Silvester und Neujahrstag'
     settings:
       effects_heading: 'Effekte und Klänge'
       forum_birthday: Forumgeburtstag
       from_festoon: 'Datum von Festoon'
+      intensity_festive: Festlich
+      intensity_full: 'Volles Programm'
+      intensity_subtle: Dezent
       next: Nächster
       occasion: Anlass
       occasions_heading: Anlässe
@@ -17,16 +26,33 @@ ernestdefoe-fanfare:
       shift_0: 'An diesem Datum'
       shift_minus: '1 Tag davor'
       shift_plus: '1 Tag danach'
+      timezone: Zeitzone
   forum:
     badge:
       anniversary: 'Heute {count, plural, one {# Jahre} other {# Jahre}} hier'
       birthday: 'Heute Geburtstag'
+    notifications:
+      day_anniversary: 'Ist heute seit {count, plural, one {# Jahr} other {# Jahre}} bei {forum}. Schön, dass du da bist!'
+      day_birthday: 'Herzlichen Glückwunsch zum Geburtstag von allen bei {forum}!'
+      wish_anniversary: '{username} gratuliert dir zum Jahrestag'
+      wish_birthday: '{username} gratuliert dir zum Geburtstag'
+    pill:
+      open: 'Heutige Feierlichkeiten öffnen'
     settings:
       birthday: 'Dein Geburtstag'
       clear: Löschen
+      datlechin: 'Lege dein Geburtsdatum in deinen Kontoeinstellungen fest.'
       day: Tag
+      effects: 'Feiereffekte anzeigen'
       heading: Fanfare
       month: Monat
+      notify_day: 'Mein Geburtstag und Beitrittsjubiläum'
+      notify_wish: 'Jemand wünscht mir einen schönen Tag'
+      sound: 'Melodien abspielen, wenn ich auf ♪ Abspielen tippe'
+      visibility: 'Wer darf ihn sehen'
+      visibility_0: 'Niemand, und mein Beitrittsjubiläum soll auch verborgen bleiben (ich bekomme trotzdem meine eigenen Glückwünsche)'
+      visibility_1: 'Mitglieder sehen den Tag'
+      visibility_2: 'Mitglieder sehen den Tag und mein Alter'
       year: 'Jahr (optional)'
     stage:
       anniversary_since: 'Mitglied seit {date} · {posts, plural, one {# Beitrag} other {# Beiträge}}'
@@ -34,11 +60,17 @@ ernestdefoe-fanfare:
       anniversary_year: 'Jahr in {forum}'
       anniversary_years: 'Jahre in {forum}'
       birthday_name: '{name}!'
+      birthday_small: 'Alles Gute zum Geburtstag,'
+      blow_candle: 'Blas die {number}. Kerze aus'
+      christmas_from: 'Von: {forum}'
       close: Schließen
       diwali_title: 'Frohes Diwali!'
       eid_sub: 'Dir und deiner Familie ein gesegnetes Eid.'
       eid_title: 'Eid Mubarak!'
+      forum_since: 'Seit {date} · {members, plural, one {# Mitglied} other {# Mitglieder}} · {posts, plural, one {# Beitrag} other {# Beiträge}}'
+      forum_title: 'Alles Gute zum {ordinal}. Geburtstag, {forum}!'
       halloween_title: 'Happy Halloween!'
+      hanukkah_title: 'Frohes Chanukka!'
       lunar_animals:
         dog: Hundes
         dragon: Drachen
@@ -53,8 +85,13 @@ ernestdefoe-fanfare:
         snake: Schlange
         tiger: Tigers
       lunar_year: 'Jahr der/des {animal} · {year}'
+      make_a_wish: 'Wünsch dir was'
+      nye_pre: 'Mitternacht in'
       nye_title: 'Frohes Neues Jahr!'
       nye_year: 'Willkommen in {year}'
+      open_it: 'Öffne es'
+      open_present: 'Öffne das Geschenk'
+      opened: 'Frohe Weihnachten, {name}!'
       play: 'Song abspielen'
       play_chime: 'Glockenspiel abspielen'
       play_fanfare: 'Fanfare abspielen'
@@ -63,6 +100,7 @@ ernestdefoe-fanfare:
       sound_off: 'Sound abgeschaltet'
       turn_sound_off: 'Sound abschalten'
       turn_sound_on: 'Sound anschalten'
+      wish_made: 'Wunsch geteilt! Hab einen wunderschönen Tag, {name}.'
       wished_by: '{names} und {count, plural, one {# Weiterer} other {# Weitere}} wünschen dir'
       wished_by_only: '{names} wünschen dir'
     widget:
@@ -75,3 +113,4 @@ ernestdefoe-fanfare:
       wish_label: 'Wünsche {name} einen guten Tag'
       wish_sent: '{name} wird deine Wünsche erhalten.'
       wished: Gewünscht
+      years: '{count, plural, one {# Jahr} other {# Jahre}} hier'
