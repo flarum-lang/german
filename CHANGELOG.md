@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+2.0.34 (XXXX-XX-XX)
+-------------------
+
+**Updated translations for extensions**:
+
+* [`ernestdefoe/syllabus`](https://github.com/ernestdefoe/syllabus) (108 added, 37% complete)
+* [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks) (4 added, 100% complete)
+
+
+All changes: [2.0.33...2.0.34](https://github.com/flarum-lang/german/compare/2.0.33...2.0.34).
+
+
 2.0.33 (2026-11-16)
 -------------------
 
