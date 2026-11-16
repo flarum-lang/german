@@ -2,6 +2,44 @@ CHANGELOG
 =========
 
 
+2.0.33 (2026-11-16)
+-------------------
+
+**General changes**:
+
+* Updated Day.js translations.
+
+
+**Added support for new extensions**:
+
+* [`ekumanov/flarum-ext-cls-fix`](https://github.com/ekumanov/flarum-ext-cls-fix) (100% complete)
+* [`ernestdefoe/corkboard`](https://github.com/ernestdefoe/corkboard) (4% complete)
+* [`ernestdefoe/dossier`](https://github.com/ernestdefoe/dossier) (6% complete)
+* [`ernestdefoe/glimpse`](https://github.com/ernestdefoe/glimpse) (48% complete)
+* [`ernestdefoe/member-desk`](https://github.com/ernestdefoe/member-desk) (52% complete)
+* [`ernestdefoe/time-capsule`](https://github.com/ernestdefoe/time-capsule) (9% complete)
+* [`ernestdefoe/who-said-it`](https://github.com/ernestdefoe/who-said-it) (2% complete)
+
+
+**Updated translations for extensions**:
+
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays) (52 added, 2 changed, 100% complete)
+* [`ernestdefoe/anthology`](https://github.com/ernestdefoe/anthology) (6 added, 78% complete)
+* [`ernestdefoe/fanfare`](https://github.com/ernestdefoe/fanfare) (144 added, 100% complete)
+* [`ernestdefoe/forum-pet`](https://github.com/ernestdefoe/forum-pet) (6 added, 78% complete)
+* [`ernestdefoe/lectern`](https://github.com/ernestdefoe/lectern) (8 added, 100% complete)
+* [`ernestdefoe/masthead`](https://github.com/ernestdefoe/masthead) (14 added, 2 changed, 100% complete)
+* [`ernestdefoe/moments`](https://github.com/ernestdefoe/moments) (162 added, 2 changed, 51% complete)
+* [`ernestdefoe/ridge`](https://github.com/ernestdefoe/ridge) (36 added, 100% complete)
+* [`ernestdefoe/secret-santa`](https://github.com/ernestdefoe/secret-santa) (72 added, 36% complete)
+* [`ernestdefoe/spoiler-shield`](https://github.com/ernestdefoe/spoiler-shield) (22 added, 28% complete)
+* [`ernestdefoe/sticker-book`](https://github.com/ernestdefoe/sticker-book) (228 added, 12 changed, 71% complete)
+* [`ernestdefoe/story-chain`](https://github.com/ernestdefoe/story-chain) (2 added, 100% complete)
+
+
+All changes: [2.0.32...2.0.33](https://github.com/flarum-lang/german/compare/2.0.32...2.0.33).
+
+
 2.0.32 (2026-11-14)
 -------------------
 
