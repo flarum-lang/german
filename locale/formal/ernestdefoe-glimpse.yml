@@ -13,10 +13,15 @@ ernestdefoe-glimpse:
       24: '24 Stunden'
       48: '48 Stunden'
       6: '6 Stunden'
+    image_max_mb: 'Größstes Foto (MB)'
     kind_photo: Fotos
+    kind_photo_help: 'JPEG, PNG, WebP oder GIF. Jedes Foto wird erneut auf dem Server gespeichert, wobei Standort- und Kameradaten entfernt werden.'
     kind_text: 'Text auf Farbe'
     kind_video: Videos
+    kind_video_help: 'MP4, WebM oder iPhone-Video. Standort- und Gerätedaten werden entfernt; das Video selbst wird nicht konvertiert.'
     lifetime: 'Stories verschwinden nach'
+    order:
+      newest: 'Neueste zuerst'
     permissions:
       create: 'Stories veröffentlichen'
       view: 'Stories anzeigen'
@@ -28,6 +33,8 @@ ernestdefoe-glimpse:
       messages: 'Eine Flarum-Privatnachricht'
       'off': 'Aus: Kein Antwortfeld'
       parley: 'Eine Parley-Nachricht'
+    video_max_mb: 'Größtes Video (MB)'
+    video_max_seconds: 'Längstes Video (Sekunden)'
   api:
     bad_reaction: 'Diese Reaktion ist nicht verfügbar.'
     story_gone: 'Diese Story ist nicht mehr verfügbar.'
@@ -65,6 +72,9 @@ ernestdefoe-glimpse:
     nav:
       queue: 'Einblicke zur Überprüfung'
       stories: Einblicke
+    page:
+      all: Alle
+      title: Einblicke
     report:
       detail: 'Gibt es etwas, das Moderatoren wissen sollten? (optional)'
       reason: 'Warum meldest du sie?'
@@ -81,6 +91,9 @@ ernestdefoe-glimpse:
       title: 'Gesehen von'
     viewer:
       close: Schließen
+      copied: 'Link kopiert'
+      copy_failed: 'Der Link konnte nicht kopiert werden.'
+      deleted: 'Story gelöscht'
       label: 'Story von {name}'
       menu:
         copy: 'Link kopieren'
@@ -99,7 +112,9 @@ ernestdefoe-glimpse:
       reacted: 'Du hast reagiert mit {reaction}'
       reactions: '{count, plural, one {# Reaktion} other {# Reaktionen}}'
       reply_label: 'Privat antworten'
+      reply_placeholder: 'Antwort an {name}…'
       seen_by: '{count, plural, one {Gesehen von # Person} other {Gesehen von # Personen}}'
+      send: Senden
       unmute: 'Ton einschalten'
       unreacted: 'Reaktion entfernt'
       your_story: 'Deine Story'

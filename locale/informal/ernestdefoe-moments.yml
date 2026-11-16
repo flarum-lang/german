@@ -11,16 +11,47 @@ ernestdefoe-moments:
       upload: 'Fotos und Videos zu Augenblicken hinzufügen'
       view: 'Augenblicke anzeigen'
     settings:
+      char_limit: 'Länge von Augenblicken und Antworten (Zeichen)'
+      default_privacy: 'Standard-Sichtbarkeit von neuen Augenblicken'
+      default_privacy_help: 'Mitglieder können dies für jeden Augenblick ändern. Follower benötigen lediglich die Funktion „Nutzer folgen“ (ianm/follow-users); ohne diese Einstellung sind Augenblicke standardmäßig für „Alle“ sichtbar.'
+      edit_window: 'Wie lange der Verfasser einen Augenblick bearbeiten darf'
+      edit_window_help: '0 ermöglicht es Verfassern, ihre Beiträge jederzeit zu bearbeiten. Autoren können ihre eigenen Momente jederzeit löschen.'
+      flood_seconds: 'Sekunden zwischen den Augenblicken oder Antworten eines Mitglieds'
       giphy_key: 'GIPHY API-Schlüssel'
       image_max_kb: 'Größter Fotoupload (KB)'
+      max_media: 'Anzahl an Fotos, Videos und GIFs pro Augenblick'
+      media_help: 'Wenn „FoF Upload“ aktiviert ist, werden Fotos und Videos darüber geleitet, und es gelten auch dessen eigene Beschränkungen.'
       privacy_followers: 'Nur Follower'
       privacy_private: 'Nur ich'
-      privacy_public: Jeder
+      privacy_public: Alle
       show_nav: 'Augenblicke in der Seitenleiste anzeigen'
       video_max_mb: 'Größtes Videoupload (MB)'
+      voice_max_seconds: 'Maximallänge von Sprachnotizen (Sekunden)'
     widgets:
       latest: 'Neueste Augenblicke'
+  api:
+    bad_gif: 'Dieses GIF kann nicht hinzugefügt werden.'
+    too_large: 'Diese Datei ist zu groß.'
   forum:
+    card:
+      bookmark: Lesezeichen
+      bookmarked: 'Lesezeichen erstellt.'
+      delete: Löschen
+      deleted: Gelöscht.
+      deleted_user: '[gelöscht]'
+      edit: Bearbeiten
+      edited: Bearbeitet
+      hidden: Verborgen
+      hide: Verbergen
+      link_copied: 'Link kopiert.'
+      more: Mehr
+      quote: Zitieren
+      react: Reagieren
+      reply: Antworten
+      report: Melden
+      reports: '{count, plural, one {# Meldung} other {# Meldungen}}'
+      share: 'Link kopieren'
+      unbookmark: 'Lesezeichen entfernen'
     composer:
       add_gif: 'Ein GIF hinzufügen'
       add_media: 'Fotos oder Video hinzufügen'
@@ -33,11 +64,26 @@ ernestdefoe-moments:
       reply_placeholder: 'Schreibe eine Antwort…'
       reply_to: 'Antwort an {name}…'
       save: Speichern
-      voice_attached: Sprachnachricht
+      voice_attached: Sprachnotiz
+    embed:
+      by: 'von {name}'
+      discussion: Diskussion
+      moment: Augenblick
+      post: Beitrag
+      user: Mitglied
     feed:
       empty: 'Noch keine Augenblicke.'
       more: 'Mehr laden'
       new: '{count, plural, one {# neuer Augenblick} other {# neue Augenblicke}}'
+    gifs:
+      close: Schließen
+      gif: GIF
+      search: 'GIPHY durchsuchen'
+    media:
+      close: Schließen
+      count: '{index} von {total}'
+      video: Video
+      voice_note: Sprachnotiz
     nav: Augenblicke
     page:
       back: 'Alle Augenblicke'
@@ -45,14 +91,35 @@ ernestdefoe-moments:
       search: 'Augenblicke durchsuchen'
       title: Augenblicke
     privacy:
-      public: Jeder
+      public: Alle
+    replies:
+      label: Antworten
+      more: 'Mehr Antworten'
+    report:
+      inappropriate: Unangemessen
+      off_topic: Off-topic
+      spam: Spam
+      submit: 'Meldung einreichen'
+      title: Melden
     search:
       all: 'Alle Augenblicke nach „{query}“ durchsuchen'
       heading: Augenblicke
     tabs:
       bookmarks: Lesezeichen
       clear_topic: 'Alle Augenblicke anzeigen'
-      everyone: Jeder
+      everyone: Alle
       mine: Meine
       reported: Gemeldet
       topic: Thema
+    user:
+      tab: Augenblicke
+    voice:
+      attach: Anhängen
+      close: Schließen
+      discard: Verwerfen
+      recording: 'Wird aufgenommen…'
+    widgets:
+      compose: 'Augenblick veröffentlichen'
+      posted: Veröffentlicht.
+      topic_count: '{count, plural, one {# Augenblick} other {# Augenblicke}}'
+      topics: 'Populäre Themen'
