@@ -23,7 +23,7 @@ CHANGELOG
 
 * [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays) (52 added, 2 changed, 100% complete)
 * [`ernestdefoe/anthology`](https://github.com/ernestdefoe/anthology) (6 added, 78% complete)
-* [`ernestdefoe/fanfare`](https://github.com/ernestdefoe/fanfare) (72 added, 73% complete)
+* [`ernestdefoe/fanfare`](https://github.com/ernestdefoe/fanfare) (144 added, 100% complete)
 * [`ernestdefoe/forum-pet`](https://github.com/ernestdefoe/forum-pet) (6 added, 78% complete)
 * [`ernestdefoe/lectern`](https://github.com/ernestdefoe/lectern) (8 added, 100% complete)
 * [`ernestdefoe/masthead`](https://github.com/ernestdefoe/masthead) (14 added, 2 changed, 100% complete)
