@@ -61,12 +61,14 @@ ernestdefoe-sticker-book:
       count: '{count} von {total}'
     hero:
       complete: fertig
+      earn_more: 'Poste etwas und sammle Likes, um zusätzliche Packs zu verdienen.'
       intro: 'Sammle Aufkleber, vervollständige dein Album und handle mit deinen Duplikaten.'
       next_in: 'Nächstes kostenloses Pack {time}'
       odds: 'Wahrscheinlichkeiten im Pack'
       open_daily: 'Öffne das heutige kostenlose Pack'
       open_pack: 'Öffne ein Pack'
       packs: '{count, plural, one {Pack geöffnet} other {Packs geöffnet}}'
+      pity: 'Unter {count, plural, one {# Pack} other {# Packs}} befindet sich mit Sicherheit eine Legende.'
       sets: '{count, plural, one {Satz vollständig} other {Sätze vollständig}}'
       stickers: Aufkleber
       waiting: '{count, plural, one {# Pack wartet} other {# Packs warten}}'
@@ -104,13 +106,21 @@ ernestdefoe-sticker-book:
       summary_new: '{count, plural, one {# neuer Aufkleber für dein Album!} other {# neue Aufkleber für dein Album!}}'
       summary_none: 'Diesmal gibt es keine Neuen, aber die Ersatzaufkleber eignen sich hervorragend zum Tauschen.'
     sticker:
+      ask: '{name} nach einer Doppelten fragen'
+      find_spare: 'Jemanden mit einer Doppelten finden'
+      no_spares: 'Davon hat noch niemand ein Doppeltes Exemplar. Öffnet weiter die Packs!'
+      offer_spare: 'Jemandem eine Doppelte anbieten'
       propose: 'Tausch vorschlagen'
+      spare_count: '{count, plural, one {# Doppelte} other {# Doppelte}}'
+      spares_title: 'Mitglieder mit einer Doppelten'
       they_have: '{name} hat {count}'
       they_need: '{name} hat diesen noch nicht.'
+      you_have: '{count, plural, one {Du hast es} other {Du hast # ({spares, plural, one {# Doppelte} other {# Doppelte}})}}'
       you_need: 'Du hast diesen noch nicht.'
     trade:
       change: Ändern
       message_placeholder: 'Notiz hinzufügen (optional)'
+      search_placeholder: 'Mitgliedsnamen eingeben…'
       send: 'Angebot senden'
       send_gift: 'Als Geschenk schicken'
       sent: 'Angebot gesendet an {name}.'
