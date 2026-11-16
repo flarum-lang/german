@@ -32,3 +32,39 @@ ernestdefoe-glimpse:
     bad_reaction: 'Diese Reaktion ist nicht verfügbar.'
     story_gone: 'Diese Story ist nicht mehr verfügbar.'
     too_large: 'Die Datei ist zu groß.'
+  forum:
+    audience:
+      followers: Follower
+      members: Mitglieder
+    bar:
+      label: Einblicke
+      see_all: 'Alle ansehen'
+      title: Einblicke
+      your_story: 'Deine Story'
+    create:
+      caption: Überschrift
+    load_failed: 'Einblicke konnte nicht geladen werden. Bitte versuche es erneut.'
+    nav:
+      queue: 'Einblicke zur Überprüfung'
+      stories: Einblicke
+    viewer:
+      close: Schließen
+      label: 'Story von {name}'
+      more: 'Weitere Optionen'
+      mute: Stummschalten
+      next: Nächste
+      pause: Anhalten
+      paused: Angehalten
+      photo_alt: 'Ein Foto von {name}'
+      play: Abspielen
+      previous: Vorherige
+      react: Reagieren
+      reacted: 'Du hast reagiert mit {reaction}'
+      reactions: '{count, plural, one {# Reaktion} other {# Reaktionen}}'
+      reply_label: 'Privat antworten'
+      seen_by: '{count, plural, one {Gesehen von # Person} other {Gesehen von # Personen}}'
+      unmute: 'Ton einschalten'
+      unreacted: 'Reaktion entfernt'
+      your_story: 'Deine Story'
+    widget:
+      title: Einblicke
