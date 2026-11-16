@@ -22,9 +22,20 @@ ernestdefoe-member-desk:
     open_member: 'In der Mitgliederverwaltung öffnen'
     title: Mitgliederverwaltung
   lib:
+    activity:
+      discussions: 'Diskussionen begonnen'
+      last_used: 'zuletzt verwendet {ago}'
+      no_discussions: 'Noch keine Diskussionen.'
+      no_posts: 'Noch keine Beiträge.'
+      no_sessions: 'Nirgends angemeldet.'
+      posts: 'Neueste Beiträge'
+      replies: '{count, plural, one {# Antwort} other {# Antworten}}'
+      sessions: 'Geräte und Sitzungen'
+      unknown_device: 'Unbekanntes Gerät'
     bulk:
       addGroup: 'Zur Gruppe hinzufügen'
       anonymize: Anonymisieren
+      clear: 'Auswahl löschen'
       confirm: 'E-Mail bestätigen'
       delete: Löschen
       removeGroup: 'Aus Gruppe entfernen'
@@ -49,6 +60,39 @@ ernestdefoe-member-desk:
       remove: 'Diesen Filter entfernen'
       seen_from: 'Gesehen ab {date}'
       seen_to: 'Gesehen bis {date}'
+    col:
+      discussions: Diskussionen
+      email: E-Mail
+      groups: Gruppen
+      ip: 'Letzte IP'
+      joined: Beigetreten
+      member: Mitglied
+      posts: Beiträge
+      reports: Meldungen
+      seen: 'Zuletzt gesehen'
+      status: Status
+    confirm:
+      go:
+        addGroup: '{count} hinzufügen'
+        anonymize: '{count} anonymisieren'
+        confirm: '{count} bestätigen'
+        delete: '{count} löschen'
+        removeGroup: '{count} entfernen'
+        signOut: 'Überall abmelden'
+        spammer: '{count} als Spammer markieren'
+        suspend: '{count} sperren'
+        unspam: Wiederherstellen
+      group: Gruppe
+      mode:
+        delete: Löschen
+      skipped: '{count, plural, one {# Mitglied wurde} other {# Mitglieder wurden}} übersprungen:'
+      title:
+        addGroup: '{count, plural, one {# Mitglied} other {# Mitglied}} zu einer Gruppe hinzufügen'
+        confirm: 'E-Mail von {count, plural, one {# Mitglied} other {# Mitgliedern}} bestätigen'
+        removeGroup: '{count, plural, one {# Mitglied} other {# Mitglieder}} aus einer Gruppe entfernen'
+        signOut: '{count, plural, one {# Mitglied} other {# Mitglieder}} überall abmelden'
+        spammer: '{count, plural, one {# Mitglied} other {# Mitglieder}} als Spammer markieren'
+        suspend: '{count, plural, one {# Mitglied} other {# Mitglieder}} sperren'
     filters:
       away_P1Y: 'Vor mehr als 1 Jahr'
       away_P2Y: 'Vor mehr als 2 Jahren'
@@ -87,13 +131,89 @@ ernestdefoe-member-desk:
       within_P1Y: 'Ein Jahr'
       within_P30D: '30 Tage'
       within_P7D: '7 Tage'
+    groups:
+      added: 'hinzugefügt {date} von {by}'
+      title: Gruppen
+      toggle: 'In der Gruppe {name}'
     list:
+      card_joined: '{date} beigetreten'
+      card_posts: '{count, plural, one {# Beitrag} other {# Beiträge}}'
+      card_seen: 'Zuletzt gesehen {ago}'
+      count: '{count, plural, one {# Mitglied} other {# Mitglieder}}'
+      empty: 'Keine Mitglieder entsprechen den Kriterien.'
       export: 'CSV exportieren'
+      filters: Filter
+      filters_n: 'Filter ({count})'
+      hidden: Verborgen
+      members_only: Mitglieder
+      next: Nächste
+      page_of: 'Seite {page} von {pages}'
+      page_selected: 'Alle {count} auf dieser Seite sind ausgewählt.'
+      pages: Seiten
+      prev: Vorherige
+      reports_open: '{count} offen'
+      reports_title: '{total, plural, one {# Meldung} other {# Meldungen}} für dieses Mitglied, {open} sind noch offen'
       search_label: 'Mitglieder durchsuchen'
       search_name: 'Nach Anzeige- oder Benutzername suchen'
+      select_all: '{count, plural, one {Das # Mitglied} other {Alle # Mitglieder}} auswählen, die den Kriterien entsprechen'
+      select_one: '{name} auswählen'
+      select_page: 'Diese Seite auswählen'
       tab_log: Protokoll
       tab_members: Mitglieder
+    log:
+      all_actions: 'Alle Aktionen'
+      check_placeholder: 'email@beispiel.de oder 203.0.113.7'
+      member: Mitglied
+      restored: wiederhergestellt
+      rows: '{count, plural, one {# Zeile} other {# Zeilen}}'
+      sessions: '{count, plural, one {# Sitzung} other {# Sitzungen}}'
+      until: 'bis {date}'
+    member:
+      anonymize: Anonymisieren…
+      back: 'Alle Mitglieder'
+      banner_reason: 'Grund: {reason}'
+      banner_spammer: 'Als Spammer markiert am {date} von {by}'
+      banner_suspended: 'Gesperrt bis {date} ({ago})'
+      confirm_email: 'E-Mail bestätigen'
+      copied: 'E-Mail kopiert.'
+      copy_email: 'E-Mail kopieren'
+      delete: Löschen…
+      id: 'ID {id}'
+      more: 'Weitere Aktionen'
+      not_verified: 'E-Mail nicht bestätigt'
+      online: 'Jetzt online'
+      online_now: 'Jetzt online'
+      sign_out: 'Überall abmelden'
+      spammer: 'Als Spammer markieren'
+      spark_label: '{count} Beiträge in den vergangenen 12 Monaten, nach Monat'
+      stat_discussions: Diskussionen
+      stat_joined: Beigetreten
+      stat_likes: 'Likes erhalten'
+      stat_posts: Beiträge
+      stat_seen: 'Zuletzt gesehen'
+      stat_year: '{count, plural, one {# Beitrag} other {# Beiträge}} in diesem Jahr'
+      suspend: Sperren
+      unspam: Wiederherstellen
+      verified: 'E-Mail bestätigt'
+      view_profile: Profil
     never: nie
+    profile:
+      about: Über
+      account: Konto
+      display_name: Anzeigename
+      email: E-Mail
+      empty_field: 'Nicht eingetragen'
+      joined: Beigetreten
+      locale: Sprache
+      no_fields: 'Keine Profilfelder ausgefüllt.'
+      online_status: Online-Status
+      seen: 'Zuletzt gesehen'
+      username: Benutzername
+    result:
+      done_ok: 'Fertig: {count, plural, one {# Mitglied} other {# Mitglieder}} aktualisiert.'
+    sort:
+      joinedAt_asc: 'Älteste Mitglieder'
+      joinedAt_desc: 'Neueste Mitglieder'
     status:
       active: Aktiv
       admin: Admin
@@ -101,3 +221,12 @@ ernestdefoe-member-desk:
       open_reports: '{count, plural, one {# Bericht öffnen} other {# Berichte öffnen}}'
       suspended_forever: Gesperrt
       suspended_until: 'Gesperrt bis {date}'
+    tab:
+      activity: Aktivität
+      groups: Gruppen
+      ips: 'IPs & andere Konten'
+      notes: Anmerkungen
+      profile: Profil
+      reports: Meldungen
+    trust:
+      pill: 'Stufe {level} · {name}'
