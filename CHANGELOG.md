@@ -12,9 +12,10 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`ekumanov/flarum-ext-cls-fix`](https://github.com/ekumanov/flarum-ext-cls-fix) (100% complete)
 * [`ernestdefoe/corkboard`](https://github.com/ernestdefoe/corkboard) (4% complete)
 * [`ernestdefoe/dossier`](https://github.com/ernestdefoe/dossier) (6% complete)
-* [`ernestdefoe/glimpse`](https://github.com/ernestdefoe/glimpse) (25% complete)
+* [`ernestdefoe/glimpse`](https://github.com/ernestdefoe/glimpse) (41% complete)
 * [`ernestdefoe/member-desk`](https://github.com/ernestdefoe/member-desk) (52% complete)
 * [`ernestdefoe/time-capsule`](https://github.com/ernestdefoe/time-capsule) (9% complete)
 * [`ernestdefoe/who-said-it`](https://github.com/ernestdefoe/who-said-it) (2% complete)
@@ -28,6 +29,7 @@ CHANGELOG
 * [`ernestdefoe/forum-pet`](https://github.com/ernestdefoe/forum-pet) (6 added, 78% complete)
 * [`ernestdefoe/lectern`](https://github.com/ernestdefoe/lectern) (8 added, 100% complete)
 * [`ernestdefoe/masthead`](https://github.com/ernestdefoe/masthead) (14 added, 2 changed, 100% complete)
+* [`ernestdefoe/moments`](https://github.com/ernestdefoe/moments) (48 added, 21% complete)
 * [`ernestdefoe/ridge`](https://github.com/ernestdefoe/ridge) (36 added, 100% complete)
 * [`ernestdefoe/secret-santa`](https://github.com/ernestdefoe/secret-santa) (72 added, 36% complete)
 * [`ernestdefoe/spoiler-shield`](https://github.com/ernestdefoe/spoiler-shield) (22 added, 28% complete)
