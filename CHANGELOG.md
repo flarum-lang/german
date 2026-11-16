@@ -14,7 +14,8 @@ CHANGELOG
 
 * [`ernestdefoe/corkboard`](https://github.com/ernestdefoe/corkboard) (4% complete)
 * [`ernestdefoe/dossier`](https://github.com/ernestdefoe/dossier) (6% complete)
-* [`ernestdefoe/member-desk`](https://github.com/ernestdefoe/member-desk) (22% complete)
+* [`ernestdefoe/glimpse`](https://github.com/ernestdefoe/glimpse) (11% complete)
+* [`ernestdefoe/member-desk`](https://github.com/ernestdefoe/member-desk) (52% complete)
 * [`ernestdefoe/time-capsule`](https://github.com/ernestdefoe/time-capsule) (9% complete)
 * [`ernestdefoe/who-said-it`](https://github.com/ernestdefoe/who-said-it) (2% complete)
 
