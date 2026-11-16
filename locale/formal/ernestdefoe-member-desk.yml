@@ -22,6 +22,71 @@ ernestdefoe-member-desk:
     open_member: 'In der Mitgliederverwaltung öffnen'
     title: Mitgliederverwaltung
   lib:
+    bulk:
+      addGroup: 'Zur Gruppe hinzufügen'
+      anonymize: Anonymisieren
+      confirm: 'E-Mail bestätigen'
+      delete: Löschen
+      removeGroup: 'Aus Gruppe entfernen'
+      selected: '{count} ausgewählt'
+      spammer: 'Als Spammer markieren'
+      suspend: Sperren
+    chips:
+      away_P1Y: 'Mehr als 1 Jahr nicht gesehen'
+      away_P2Y: 'Mehr als 2 Jahre nicht gesehen'
+      away_P30D: 'Mehr als 30 Tage nicht gesehen'
+      away_P6M: 'Mehr als 6 Monate nicht gesehen'
+      clear: 'Alle löschen'
+      group: 'Gruppe: {name}'
+      joined_P1D: 'Heute beigetreten'
+      joined_P1Y: 'Im letzten Jahr beigetreten'
+      joined_P30D: 'In den letzten 30 Tagen beigetreten'
+      joined_P7D: 'In den letzten 7 Tagen beigetreten'
+      joined_from: 'Beigetreten nach {date}'
+      joined_to: 'Beigetreten bis {date}'
+      max_posts: 'Höchstens {count} Beiträge'
+      min_posts: 'Mindestens {count} Beiträge'
+      remove: 'Diesen Filter entfernen'
+      seen_from: 'Gesehen ab {date}'
+      seen_to: 'Gesehen bis {date}'
+    filters:
+      away_P1Y: 'Vor mehr als 1 Jahr'
+      away_P2Y: 'Vor mehr als 2 Jahren'
+      away_P30D: 'Vor mehr als 30 Tagen'
+      away_P6M: 'Vor mehr als 6 Monaten'
+      from: Von
+      groups: Gruppe
+      joined: Beigetreten
+      label: Filter
+      max: Höchstens
+      min: Mindestens
+      mine: deiner
+      name: Name
+      no_group: 'Keine Zusatz-Gruppe'
+      posts: Beiträge
+      reported: Gemeldet
+      reported_min: 'Mindestens so oft'
+      reported_within_P30D: 'in 30 Tagen'
+      reported_within_P7D: 'in 7 Tagen'
+      reported_within_P90D: 'in 90 Tagen'
+      reported_within_ever: jemals
+      save: 'Diesen Filter speichern'
+      save_button: Speichern
+      save_title: 'Filter speichern'
+      saved: 'Gespeicherte Filter'
+      seen: 'Zuletzt gesehen'
+      shared: geteilt
+      show: '{count, plural, one {# Mitglied} other {# Mitglieder}} anzeigen'
+      status: Status
+      status_anonymized: Anonymisiert
+      status_reported: 'Hat offene Meldungen'
+      status_suspended: Gesperrt
+      status_unconfirmed: 'E-Mail nicht bestätigt'
+      to: Bis
+      within_P1D: Heute
+      within_P1Y: 'Ein Jahr'
+      within_P30D: '30 Tage'
+      within_P7D: '7 Tage'
     list:
       export: 'CSV exportieren'
       search_label: 'Mitglieder durchsuchen'
