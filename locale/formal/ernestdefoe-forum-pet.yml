@@ -133,6 +133,10 @@ ernestdefoe-forum-pet:
       egg_feed:
         1: 'Das Ei strahlt eine Wärme aus. Danke, {member}!'
         2: 'Etwas dort drinnen antwortet mit einen freudigen Tritt, {member}.'
+        3: 'Wie gemütlich! Das Ei kuschelt sich in sein Nest. Danke, {member}!'
+        4: 'Das Ei fühlt sich schon wärmer an. Vielen Dank, {member}!'
+      egg_play:
+        1: 'Das Ei wackelt fröhlich hin und her. Danke, {member}!'
       feed:
         1: 'Lecker! Danke, {member}!'
         2: 'Mampf, mampf, mampf… Du bist der Beste, {member}!'

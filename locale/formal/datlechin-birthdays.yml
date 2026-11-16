@@ -27,7 +27,9 @@ datlechin-birthdays:
       no_birthday: 'Nicht festgelegt'
   api:
     birthday_required_message: 'Das Geburtsdatum ist erforderlich.'
+    future_birthday_message: 'Dein Geburtstag kann nicht in der Zukunft liegen.'
     invalid_age_message: 'Ihr Alter muss mindestens {minAge} Jahre betragen.'
+    invalid_birthday_filter_message: 'Der Geburtstagsfilter akzeptiert ein Datum oder einen Zeitraum von bis zu {max} Tagen, z. B. 2026-06-05..2026-06-11.'
     invalid_dob_message: 'Ungültiges Geburtsdatum'
     min_age_message: 'Du musst mindestens {age} Jahre alt sein.'
   forum:
@@ -45,6 +47,8 @@ datlechin-birthdays:
     nav:
       birthdays_link: '=> datlechin-birthdays.forum.page.title'
       nav_item: 'Heutige Geburtstage'
+    notifications:
+      birthday_text: 'Herzlichen Glückwunsch zum Geburtstag von allen bei {forum}!'
     page:
       discussion_count: '{count, plural, one {Diskussion: #} other {Diskussionen: #}}'
       empty_text: 'Keine Geburtstage in der kommenden Woche.'

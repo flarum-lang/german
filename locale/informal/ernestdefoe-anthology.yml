@@ -21,7 +21,10 @@ ernestdefoe-anthology:
       change_title: 'Verschieben oder entfernen'
       create_and_add: 'Erstellen und hinzufügen'
       current: 'Momentan in'
+      intro: 'Diese Diskussion bleibt, wo sie ist. Sie wird außerdem als neuestes Kapitel der von dir ausgewählten Diskussion aufgeführt.'
       new_title: Titel
+      none: 'Du hast noch keinen angelegt. Gib ihm unten einen Titel.'
+      none_other: '{username} hat noch keinen angelegt. Gib ihm unten einen Titel.'
       remove: 'Aus {title} entfernen'
       removed: 'Aus {title} entfernt.'
       title: 'Zu {a_noun} hinzufügen'

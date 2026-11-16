@@ -37,12 +37,15 @@ ernestdefoe-lectern:
     full_screen: Vollbild
     hide: 'Viewer schließen'
     hide_thumbnails: 'Seitenminiaturansichten ausblenden'
+    link_internal: 'Zu einer Stelle in diesem Dokument springen'
+    link_page: 'Gehe zu Seite {number}'
     loading: 'PDF wird geladen…'
     loading_file: 'Datei wird geladen…'
     loading_file_percent: 'Datei wird geladen… {percent}%'
     loading_percent: 'PDF wird geladen… {percent}%'
     next_page: 'Nächste Seite'
     of_total: 'von {total}'
+    open_original: 'Original öffnen'
     page_input: Seitenzahl
     page_label: 'Seiten {number}'
     page_of: 'Seite {number} von {total}'
@@ -68,6 +71,7 @@ ernestdefoe-lectern:
     title_sheet: 'Tabellenkalkulations-Viewer: {name}'
     title_word: 'Word-Dokument-Viewer: {name}'
     toolbar: 'PDF Werkzeuge'
+    trouble: 'Hast du Probleme beim Anzeigen dieser Datei?'
     view: Anzeigen
     view_file: '{name} anzeigen'
     zoom_in: Vergrößern

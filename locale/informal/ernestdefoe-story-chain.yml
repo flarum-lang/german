@@ -47,6 +47,7 @@ ernestdefoe-story-chain:
       lines: '{count, plural, one {# Satz} other {# Sätze}}'
     errors:
       already_offered: 'Du hast bereits einen Satz in dieser Runde eingereicht.'
+      busy: 'Gerade speichert jemand anderes diese Geschichte. Versuche es in einem Moment erneut.'
       cover_invalid: 'Wähle eines der Cover.'
       edit_too_big: 'Das ist mehr als nur die Korrektur eines Tippfehlers. Dieser Satz hat sich durch ihren Wortlaut bewährt, daher sollten die Änderungen gering gehalten werden.'
       hours_invalid: 'Wähle eine der Rundenlängen.'
