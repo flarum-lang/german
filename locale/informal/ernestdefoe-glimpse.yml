@@ -42,14 +42,51 @@ ernestdefoe-glimpse:
       title: Einblicke
       your_story: 'Deine Story'
     create:
+      audience: 'Wer kann es sehen'
+      background: Hintergrundfarbe
+      background_n: 'Hintergrund {number}'
       caption: Überschrift
+      kind_label: 'Art der Story'
+      kinds:
+        photo: Foto
+        text: Text
+        video: Video
+      link: 'Link (optional)'
+      photo_help: 'JPEG, PNG, WebP oder GIF, bis zu {mb} MB. Standortdaten werden entfernt.'
+      pick_photo: 'Wähle ein Foto'
+      pick_video: 'Wähle ein Video'
+      share: Teilen
+      text: 'Dein Text'
+      text_placeholder: 'Schreib etwas…'
+      title: 'Neue Story'
+      too_large: 'Diese Datei ist größer als {mb} MB.'
+      video_help: 'MP4 oder WebM, bis zu {seconds} Sekunden und {mb} MB. Standortdaten werden entfernt.'
     load_failed: 'Einblicke konnte nicht geladen werden. Bitte versuche es erneut.'
     nav:
       queue: 'Einblicke zur Überprüfung'
       stories: Einblicke
+    report:
+      detail: 'Gibt es etwas, das Moderatoren wissen sollten? (optional)'
+      reason: 'Warum meldest du sie?'
+      reasons:
+        harassment: 'Belästigung oder Mobbing'
+        inappropriate: Unangemessen
+        other: 'Etwas anderes'
+        spam: Spam
+      submit: Melden
+      title: 'Story melden'
+    seen_by:
+      empty: 'Diese Story hat noch niemand gesehen.'
+      private: 'Nur du kannst das sehen'
+      title: 'Gesehen von'
     viewer:
       close: Schließen
       label: 'Story von {name}'
+      menu:
+        copy: 'Link kopieren'
+        delete: 'Story löschen'
+        hide: 'Story ausblenden'
+        report: 'Story melden'
       more: 'Weitere Optionen'
       mute: Stummschalten
       next: Nächste

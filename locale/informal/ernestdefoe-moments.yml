@@ -16,15 +16,43 @@ ernestdefoe-moments:
       privacy_followers: 'Nur Follower'
       privacy_private: 'Nur ich'
       privacy_public: Jeder
+      show_nav: 'Augenblicke in der Seitenleiste anzeigen'
       video_max_mb: 'Größtes Videoupload (MB)'
     widgets:
       latest: 'Neueste Augenblicke'
   forum:
+    composer:
+      add_gif: 'Ein GIF hinzufügen'
+      add_media: 'Fotos oder Video hinzufügen'
+      cancel: Abbrechen
+      placeholder: 'Was ist los?'
+      privacy: 'Wer kann das sehen'
+      quote_placeholder: 'Füge einen Kommentar hinzu…'
+      remove_attachment: Entfernen
+      reply: Antworten
+      reply_placeholder: 'Schreibe eine Antwort…'
+      reply_to: 'Antwort an {name}…'
+      save: Speichern
+      voice_attached: Sprachnachricht
+    feed:
+      empty: 'Noch keine Augenblicke.'
+      more: 'Mehr laden'
+      new: '{count, plural, one {# neuer Augenblick} other {# neue Augenblicke}}'
     nav: Augenblicke
     page:
+      back: 'Alle Augenblicke'
       moment_title: '{name}s Augenblick'
       search: 'Augenblicke durchsuchen'
       title: Augenblicke
+    privacy:
+      public: Jeder
     search:
       all: 'Alle Augenblicke nach „{query}“ durchsuchen'
       heading: Augenblicke
+    tabs:
+      bookmarks: Lesezeichen
+      clear_topic: 'Alle Augenblicke anzeigen'
+      everyone: Jeder
+      mine: Meine
+      reported: Gemeldet
+      topic: Thema
