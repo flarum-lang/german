@@ -25,8 +25,11 @@ ernestdefoe-member-desk:
     title: Mitgliederverwaltung
   lib:
     activity:
+      chart: 'Beiträge in den letzten 12 Monaten'
+      chart_label: 'Beiträge im Monat in den letzten 12 Monaten'
       discussions: 'Diskussionen begonnen'
       last_used: 'zuletzt verwendet {ago}'
+      likes: '{given, plural, one {# Like} other {# Likes}} vergeben, {received} erhalten.'
       no_discussions: 'Noch keine Diskussionen.'
       no_posts: 'Noch keine Beiträge.'
       no_sessions: 'Nirgends angemeldet.'
@@ -175,6 +178,7 @@ ernestdefoe-member-desk:
       back: 'Alle Mitglieder'
       banner_reason: 'Grund: {reason}'
       banner_spammer: 'Als Spammer markiert am {date} von {by}'
+      banner_spammer_sub: '{posts, plural, one {# Beitrag} other {# Beiträge}} und {discussions, plural, one {# Diskussion} other {# Diskussionen}} ausgeblendet, {ips, plural, one {# IP} other {# IPs}} gesperrt. Wiederherstellen bring alles wieder zurück.'
       banner_suspended: 'Gesperrt bis {date} ({ago})'
       confirm_email: 'E-Mail bestätigen'
       copied: 'E-Mail kopiert.'
