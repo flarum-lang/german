@@ -15,6 +15,7 @@ CHANGELOG
 
 * [`ernestdefoe/member-desk`](https://github.com/ernestdefoe/member-desk) (36 added, 56% complete)
 * [`ernestdefoe/syllabus`](https://github.com/ernestdefoe/syllabus) (108 added, 37% complete)
+* [`ernestdefoe/time-capsule`](https://github.com/ernestdefoe/time-capsule) (22 added, 15% complete)
 * [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks) (4 added, 100% complete)
 * [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff) (8 added, 100% complete)
 
