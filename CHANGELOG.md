@@ -5,8 +5,15 @@ CHANGELOG
 2.0.34 (XXXX-XX-XX)
 -------------------
 
+**Added support for new extensions**:
+
+* [`ernestdefoe/hangout`](https://github.com/ernestdefoe/hangout) (31% complete)
+* [`ernestdefoe/nameplate`](https://github.com/ernestdefoe/nameplate) (100% complete)
+
+
 **Updated translations for extensions**:
 
+* [`ernestdefoe/member-desk`](https://github.com/ernestdefoe/member-desk) (8 added, 53% complete)
 * [`ernestdefoe/syllabus`](https://github.com/ernestdefoe/syllabus) (108 added, 37% complete)
 * [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks) (4 added, 100% complete)
 
