@@ -13,7 +13,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
-* [`ernestdefoe/member-desk`](https://github.com/ernestdefoe/member-desk) (8 added, 53% complete)
+* [`ernestdefoe/member-desk`](https://github.com/ernestdefoe/member-desk) (16 added, 54% complete)
 * [`ernestdefoe/syllabus`](https://github.com/ernestdefoe/syllabus) (108 added, 37% complete)
 * [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks) (4 added, 100% complete)
 
