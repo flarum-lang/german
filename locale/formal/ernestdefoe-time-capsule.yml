@@ -15,6 +15,17 @@ ernestdefoe-time-capsule:
       nav: 'Link zur Zeitkapsel in der Seitenleiste anzeigen'
       tag_none: 'Wähle ein Tag'
   forum:
+    card:
+      community_letter: 'Dein Brief an die Community-Kapsel'
+      opening_now: 'Wird jetzt geöffnet…'
+      opens_in: 'Öffnet in {time}'
+      photos: '{count, plural, one {# Foto} other {# Fotos}}'
+      progress: '{percent} % bis dahin'
+      reread: 'Erneut lesen'
+      sealed_label: 'Versiegelter Brief'
+      sealed_on: 'Versiegelt {date}'
+      untitled: 'Ein Brief an die Zukunft'
+      words: '{count, plural, one {# Wort} other {# Wörter}}'
     nav: Zeitkapsel
     page:
       back: Zeitkapsel
@@ -24,3 +35,5 @@ ernestdefoe-time-capsule:
       title: Zeitkapsel
       write: 'Schreibe einen Brief'
       write_first: 'Schreibe deinen ersten Brief'
+    time:
+      minutes: '{count, plural, one {# Minute} other {# Minuten}}'
