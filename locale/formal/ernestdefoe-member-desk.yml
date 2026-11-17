@@ -17,6 +17,8 @@ ernestdefoe-member-desk:
       view_ips: 'IP-Adresse von Mitgliedern in der Mitgliederverwaltung anzeigen'
     settings:
       open: 'Mitgliederverwaltung aufrufen'
+      retention: 'Gelöschte Namen von Mitgliedern im Protokoll behalten für (in Tagen)'
+      retention_help: 'Danach enthalten die Protokolleinträge eines anonymisierten oder gelöschten Mitglieds nur noch dessen ID und die entsprechenden Zählwerte. Bis zu diesem Zeitpunkt werden dessen E-Mail-Adresse und IP-Adressen lediglich als „gesalzene“ Hashes gespeichert: pseudonym, nicht anonym (jemand, der sowohl die Datenbank als auch das Geheimnis dieses Forums kennt, könnte Vermutungen anstellen), weshalb auch diese Daten entfernt werden.'
   forum:
     nav: Mitgliederverwaltung
     open_member: 'In der Mitgliederverwaltung öffnen'
@@ -214,6 +216,8 @@ ernestdefoe-member-desk:
     sort:
       joinedAt_asc: 'Älteste Mitglieder'
       joinedAt_desc: 'Neueste Mitglieder'
+      posts_asc: 'Wenigste Beiträge'
+      posts_desc: 'Meiste Beiträge'
     status:
       active: Aktiv
       admin: Admin
