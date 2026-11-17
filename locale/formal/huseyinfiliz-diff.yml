@@ -26,6 +26,7 @@ huseyinfiliz-diff:
       noneLevel: Ohne-Ebene
       onlyUnsigned: 'Es sind nur <strong>unvorzeichenbehaftete Ganzzahlen</strong> zulässig!'
       separateBlock: 'Trennzeichen zwischen verschiedenen Diff-Hunks in HTML-Renderern anzeigen'
+      showEditReason: 'Feld für Bearbeitungsgrund im Editor anzeigen'
       textFormatting: 'Textformatierung für die Vorschau aktivieren'
       title: Diff-Einstellungen
       useCrons: 'Verwende Cron-Jobs, um alte Versionen zu archivieren'
@@ -33,6 +34,9 @@ huseyinfiliz-diff:
       usePoint: 'Verwende <strong>Punkt</strong> als Dezimaltrennzeichen für Fließkommawerte.'
       wordLevel: Wort-Ebene
   forum:
+    composer:
+      editReasonLabel: 'Grund der Bearbeitung (optional)'
+      editReasonPlaceholder: 'Optionalen Grund für dieses Bearbeitung hinzufügen'
     confirmDelete: 'Möchtest du den Inhalt dieser Bearbeitung wirklich aus dem Verlauf löschen?'
     confirmRollback: 'Möchtest du deinen aktuellen Beitrag wirklich ändern?'
     createdInfo: '{username} hat {ago} erstellt'
@@ -46,6 +50,7 @@ huseyinfiliz-diff:
       originalContent: '=> huseyinfiliz-diff.ref.originalContent'
       revisionWithNumber: '=> huseyinfiliz-diff.ref.revisionWithNumber'
       sentence: 'Du siehst die Änderungen zwischen {old} und {new}'
+    editReason: 'Grund der Bearbeitung'
     editedInfo: '=> core.forum.post.edited_tooltip'
     editedText: '=> core.forum.post.edited_text'
     emptyText: 'Keine Überarbeitungen'

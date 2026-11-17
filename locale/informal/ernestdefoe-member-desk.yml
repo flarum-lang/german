@@ -128,6 +128,7 @@ ernestdefoe-member-desk:
       show: '{count, plural, one {# Mitglied} other {# Mitglieder}} anzeigen'
       status: Status
       status_anonymized: Anonymisiert
+      status_noposts: 'Noch nie gepostet'
       status_reported: 'Hat offene Meldungen'
       status_suspended: Gesperrt
       status_unconfirmed: 'E-Mail nicht bestätigt'
@@ -158,6 +159,9 @@ ernestdefoe-member-desk:
       prev: Vorherige
       reports_open: '{count} offen'
       reports_title: '{total, plural, one {# Meldung} other {# Meldungen}} für dieses Mitglied, {open} sind noch offen'
+      search_all: 'Nach Anzeige-, Benutzername, E-Mail oder IP-Adresse suchen'
+      search_email: 'Nach Anzeige-, Benutzername oder E-Mail suchen'
+      search_ip: 'Nach Anzeige-, Benutzername oder IP-Adresse suchen'
       search_label: 'Mitglieder durchsuchen'
       search_name: 'Nach Anzeige- oder Benutzername suchen'
       select_all: '{count, plural, one {Das # Mitglied} other {Alle # Mitglieder}} auswählen, die den Kriterien entsprechen'
