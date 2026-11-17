@@ -218,10 +218,16 @@ ernestdefoe-member-desk:
     result:
       done_ok: 'Fertig: {count, plural, one {# Mitglied} other {# Mitglieder}} aktualisiert.'
     sort:
+      discussions_asc: 'Wenigste Diskussionen'
+      discussions_desc: 'Meiste Diskussionen'
       joinedAt_asc: 'Älteste Mitglieder'
       joinedAt_desc: 'Neueste Mitglieder'
+      lastSeenAt_asc: 'Am längsten nicht gesehen'
+      lastSeenAt_desc: 'Zuletzt gesehen'
       posts_asc: 'Wenigste Beiträge'
       posts_desc: 'Meiste Beiträge'
+      username_asc: 'Benutzername, A bis Z'
+      username_desc: 'Benutzername, Z bis A'
     status:
       active: Aktiv
       admin: Admin
