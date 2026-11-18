@@ -8,6 +8,7 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`ernestdefoe/hangout`](https://github.com/ernestdefoe/hangout) (30% complete)
+* [`ernestdefoe/homecoming`](https://github.com/ernestdefoe/homecoming) (100% complete)
 * [`ernestdefoe/nameplate`](https://github.com/ernestdefoe/nameplate) (100% complete)
 
 
