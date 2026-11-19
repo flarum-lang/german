@@ -7,6 +7,7 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`ernestdefoe/broadsheet`](https://github.com/ernestdefoe/broadsheet) (27% complete)
 * [`ernestdefoe/hangout`](https://github.com/ernestdefoe/hangout) (30% complete)
 * [`ernestdefoe/homecoming`](https://github.com/ernestdefoe/homecoming) (100% complete)
 * [`ernestdefoe/nameplate`](https://github.com/ernestdefoe/nameplate) (100% complete)
@@ -18,6 +19,7 @@ CHANGELOG
 * [`ernestdefoe/syllabus`](https://github.com/ernestdefoe/syllabus) (108 added, 33% complete)
 * [`ernestdefoe/time-capsule`](https://github.com/ernestdefoe/time-capsule) (22 added, 15% complete)
 * [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks) (4 added, 100% complete)
+* [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards) (2 added, 100% complete)
 * [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff) (8 added, 100% complete)
 
 
