@@ -188,6 +188,7 @@ huseyinfiliz-awards:
       voted: '{count}/{total} Kategorien abgestimmt'
     results:
       full_results: 'Alle Ergebnisse'
+      no_votes: 'Es liegen noch keine Stimmen vor.'
       percentage: '{percent} %'
       runner_up: Zweiter
       view_all: 'Alle Ergebnisse anzeigen'
