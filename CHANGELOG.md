@@ -11,6 +11,7 @@ CHANGELOG
 * [`ernestdefoe/hangout`](https://github.com/ernestdefoe/hangout) (30% complete)
 * [`ernestdefoe/homecoming`](https://github.com/ernestdefoe/homecoming) (100% complete)
 * [`ernestdefoe/nameplate`](https://github.com/ernestdefoe/nameplate) (100% complete)
+* [`peopleinside/flarum-restricted-visibility`](https://github.com/PeopleInside/flarum-restricted-visibility) (22% complete)
 
 
 **Updated translations for extensions**:
