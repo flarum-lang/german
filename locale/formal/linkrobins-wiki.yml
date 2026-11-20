@@ -48,6 +48,7 @@ linkrobins-wiki:
       shortcode_heading: 'Eine Überschrift (## und ### für kleinere).'
       shortcode_html: 'Roh-HTML in den Zeilen zwischen den Tags, für eine Einbettung oder ein Widget. Genau so belassen, wie es geschrieben steht.'
       shortcode_link: 'Ein Link. Auch einfache Webadressen werden zu Links.'
+      shortcode_search: 'Füge das Wiki-Suchformular hier im Layout ein.'
       shortcodes_heading: 'Verfügbare Shortcodes'
     layout:
       full_width_help: 'Wenn aktiviert, entfällt bei Wiki-Seiten die Seitenleiste des Forums und der Inhalt erstreckt sich über die gesamte Seitenbreite. Der Bereich mit dem Artikelinhalt bleibt davon unberührt. Da sich der Kategorienfilter in dieser Seitenleiste befindet, durchstöbern die Leser die Kategorien stattdessen über die Wiki-Startseite.'
@@ -215,6 +216,7 @@ linkrobins-wiki:
       heading: Wiki
       placeholder: 'Wiki durchsuchen'
       results_heading: 'Ergebnisse für „{query}“'
+      submit: Suchen
     show:
       by: 'von '
       created_tooltip: 'Geschrieben am {date}'
