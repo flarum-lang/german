@@ -5,6 +5,11 @@ CHANGELOG
 2.0.34 (XXXX-XX-XX)
 -------------------
 
+**General changes**:
+
+* Updated Flarum core translations (4 changed).
+
+
 **Added support for new extensions**:
 
 * [`ernestdefoe/broadsheet`](https://github.com/ernestdefoe/broadsheet) (27% complete)
@@ -16,13 +21,18 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`ernestdefoe/cascade`](https://github.com/ernestdefoe/cascade) (2 changed, 100% complete)
+* [`ernestdefoe/marginalia`](https://github.com/ernestdefoe/marginalia) (2 changed, 100% complete)
 * [`ernestdefoe/member-desk`](https://github.com/ernestdefoe/member-desk) (36 added, 56% complete)
 * [`ernestdefoe/syllabus`](https://github.com/ernestdefoe/syllabus) (108 added, 33% complete)
 * [`ernestdefoe/time-capsule`](https://github.com/ernestdefoe/time-capsule) (22 added, 15% complete)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (2 changed, 100% complete)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (2 added, 96% complete)
 * [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks) (4 added, 100% complete)
 * [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards) (2 added, 100% complete)
 * [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff) (8 added, 100% complete)
 * [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki) (4 added, 100% complete)
+* [`ramon/canela`](https://github.com/ram0ng1/canela) (2 changed, 95% complete)
 
 
 All changes: [2.0.33...2.0.34](https://github.com/flarum-lang/german/compare/2.0.33...2.0.34).
