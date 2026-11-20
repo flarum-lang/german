@@ -31,7 +31,7 @@ ernestdefoe-brainstorm:
       resume: Fortsetzen
       start: 'Quiz starten'
     composer:
-      add: Quiz
+      add: 'Quiz hinzufügen'
       create: 'Neues Quiz schreiben'
       meta: '{count, plural, one {# Frage} other {# Fragen}}'
       none: 'Keine Quiz gefunden.'
@@ -39,32 +39,51 @@ ernestdefoe-brainstorm:
       title: 'Füge ein Quiz zu deinem Beitrag hinzu'
     draft: Entwurf
     editor:
+      add_accepted: 'Füge eine weitere gültige Antwort hinzu'
       add_answer: 'Eine Antwort hinzufügen'
       answer: 'Antwort {number}'
       correct_answer: 'Die richtige Antwort'
       description: Einführung
+      duplicate: Duplikat
+      edit_title: 'Quiz bearbeiten'
       explanation: Erklärung
       image: Bildadresse
       image_placeholder: 'Bildadresse (optional)'
       leaderboard: Rangliste
       mark_correct: 'Richtige Antwort'
       max_attempts: Versuche
+      minutes: Min
+      new_title: 'Neues Quiz'
+      pass_mark: 'Bewertung (%)'
+      pick_image: Wähle
       points: Punkte
       question: Frage
+      question_pick: 'Fragen pro Versuch'
+      question_placeholder: 'Stelle deine Frage'
       questions: '{count, plural, one {# Frage} other {# Fragen}}'
+      remove: Entfernen
       remove_answer: Entfernen
+      remove_confirm: 'Frage {number} entfernen?'
+      seconds: Sek
       settings: Einstellungen
+      shuffle_options: 'Antworten durcheinander würfeln'
+      shuffle_questions: 'Fragen durcheinander würfeln'
+      time_limit: Zeitbegrenzung
       title: Titel
+      type: 'Art der Frage'
       types:
         boolean: 'Wahr oder falsch'
         multiple: 'Mehrere Antworten'
         single: 'Eine Antwort'
         text: 'Eingegebene Antwort'
+      unlimited: 'Ohne Begrenzung'
+      untitled: 'Neue Frage'
+      view: Anzeigen
     facts:
       attempts: '{count, plural, one {# Versuch} other {# Versuche}}'
       attempts_left: '{count} von {max} Versuchen verbleiben'
       badge: 'Abzeichen: {name}'
-      pass_mark: 'Bestanden: {mark} %'
+      pass_mark: 'Mindestpunktzahl zum Bestehen: {mark} %'
       points: '{count, plural, one {# Punkt} other {# Punkte}}'
       questions: '{count, plural, one {# Frage} other {# Fragen}}'
     index:
@@ -79,22 +98,31 @@ ernestdefoe-brainstorm:
         popular: Meistgespielt
       title: Quiz
     leaderboard:
+      average: 'Durchschnitt {score}'
       back: 'Alle Quiz'
       'off': 'Dieses Quiz hat keine Rangliste.'
       overall: Top-Quizzer
+      passed: '{count, plural, one {# bestanden} other {# bestanden}}'
+      see_all: 'Ganze Rangliste ansehen'
       title: Rangliste
+      you_quiz: 'Du: #{rank} mit {score}'
     nav: Quiz
     player:
+      all_answered: 'Jede Frage wurde beantwortet.'
       answered: '{count} von {total} beantwortet'
       back: 'Zurück zu den Fragen'
+      choose_all: 'Wähle jede zutreffende Antwort aus.'
       close: Schließen
+      error: 'Dieses Quiz kann derzeit nicht gespielt werden.'
       'false': Falsch
+      finish: Beenden
       jump: Fragen
       next: Nächster
       points: '{count, plural, one {# Punkt wert} other {# Punkte wert}}'
       practice: Üben
       previous: Vorheriger
       question_of: 'Frage {number} von {total}'
+      review_heading: 'Bereit zum Einreichen?'
       submit: Einreichen
       time_left: 'Zeit übrig'
       'true': Wahr
@@ -117,11 +145,20 @@ ernestdefoe-brainstorm:
       again: 'Erneut versuchen'
       close: Schließen
       no_answer: '(Keine Antwort)'
+      not_passed: 'Du hast dieses Mal nicht bestanden'
+      partial: 'Teilweise richtig ({earned} von {points})'
       passed: Bestanden!
       right: Richtig
-      score: '{score} von {max} Punkten ({percent}), Mindestbewertung {mark} %'
+      score: '{score} von {max} Punkten ({percent}), Bewertung {mark} %'
       time: 'Zeit {time}'
+      wrong: Falsch
+      you_typed: 'Du hast eingegeben:'
       your_answer: 'Deine Antwort'
+    results:
+      attempts: Versuche
+      deleted_user: 'Ein gelöschtes Mitglied'
+      more: 'Mehr laden'
+      none: 'Bisher hat noch niemand das Quiz abgeschlossen.'
     settings:
       private: 'Zeige mich nicht auf Quiz-Ranglisten an'
   lib:
