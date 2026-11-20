@@ -24,6 +24,7 @@ CHANGELOG
 * [`ernestdefoe/cascade`](https://github.com/ernestdefoe/cascade) (2 changed, 100% complete)
 * [`ernestdefoe/marginalia`](https://github.com/ernestdefoe/marginalia) (2 changed, 100% complete)
 * [`ernestdefoe/member-desk`](https://github.com/ernestdefoe/member-desk) (36 added, 56% complete)
+* [`ernestdefoe/member-map`](https://github.com/ernestdefoe/member-map) (2 added, 97% complete)
 * [`ernestdefoe/syllabus`](https://github.com/ernestdefoe/syllabus) (108 added, 33% complete)
 * [`ernestdefoe/time-capsule`](https://github.com/ernestdefoe/time-capsule) (22 added, 15% complete)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (2 changed, 100% complete)
@@ -31,6 +32,7 @@ CHANGELOG
 * [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks) (4 added, 100% complete)
 * [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards) (2 added, 100% complete)
 * [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff) (8 added, 100% complete)
+* [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind) (20 added, 2 changed, 100% complete)
 * [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki) (4 added, 100% complete)
 * [`ramon/canela`](https://github.com/ram0ng1/canela) (2 changed, 95% complete)
 
