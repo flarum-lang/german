@@ -21,6 +21,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`ernestdefoe/brainstorm`](https://github.com/ernestdefoe/brainstorm) (72 added, 6 changed, 65% complete)
 * [`ernestdefoe/cascade`](https://github.com/ernestdefoe/cascade) (2 changed, 100% complete)
 * [`ernestdefoe/marginalia`](https://github.com/ernestdefoe/marginalia) (2 changed, 100% complete)
 * [`ernestdefoe/member-desk`](https://github.com/ernestdefoe/member-desk) (36 added, 56% complete)
