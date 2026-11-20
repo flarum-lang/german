@@ -24,7 +24,7 @@ CHANGELOG
 * [`ernestdefoe/cascade`](https://github.com/ernestdefoe/cascade) (2 changed, 100% complete)
 * [`ernestdefoe/marginalia`](https://github.com/ernestdefoe/marginalia) (2 changed, 100% complete)
 * [`ernestdefoe/member-desk`](https://github.com/ernestdefoe/member-desk) (36 added, 56% complete)
-* [`ernestdefoe/member-map`](https://github.com/ernestdefoe/member-map) (2 added, 97% complete)
+* [`ernestdefoe/member-map`](https://github.com/ernestdefoe/member-map) (8 added, 99% complete)
 * [`ernestdefoe/syllabus`](https://github.com/ernestdefoe/syllabus) (108 added, 33% complete)
 * [`ernestdefoe/time-capsule`](https://github.com/ernestdefoe/time-capsule) (22 added, 15% complete)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (2 changed, 100% complete)
