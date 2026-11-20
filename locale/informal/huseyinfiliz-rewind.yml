@@ -2,6 +2,23 @@
 # Use https://weblate.rob006.net/projects/flarum2/huseyinfiliz-rewind/de/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      rewind:
+        community:
+          created: 'Community-Rückblick auf {year} erstellt'
+          regenerated: 'Community-Rückblick auf {year} neu erstellt'
+        personal:
+          batch_deleted: '{deleted_count} personalisierte Rückblicke auf {year} gelöscht'
+          created: 'Rückblick auf {year} für {username} erstellt'
+          deleted: 'Rückblick auf {year} für {username} gelöscht'
+          regenerated: 'Rückblick auf {year} für {username} neu erstellt'
+          visibility_changed: 'Sichtbarkeit für den Rückblick auf {year} von {username} von {old_visibility} auf {visibility} geändert'
+        template:
+          created: 'Rückblick-Vorlage {template_id} erstellt'
+          deleted: 'Rückblick-Vorlage {template_id} gelöscht'
+          updated: 'Rückblick-Vorlage {template_id} aktualisiert'
 huseyinfiliz-rewind:
   admin:
     generate_modal:
@@ -59,7 +76,7 @@ huseyinfiliz-rewind:
       generate_users_help: 'Erstelle „Rückblick“-Snapshots für alle Benutzer, die noch keinen haben. Wähle ein Jahr aus und filtere optional nach Gruppe.'
       generate_users_title: 'Fehlende Benutzer-Rückblicke erstellen'
       invalid_active_year: 'Das aktive Jahr muss eine ganze Zahl zwischen 2000 und 2100 sein.'
-      public_content_only_help: 'Nur Inhalte einbeziehen, die für Gäste sichtbar sind. Deaktiviere diese Option für Foren, die nur für Mitglieder zugänglich sind, um stattdessen Inhalte einzubeziehen, die für Standardmitglieder sichtbar sind. Inhalte, die nur für Mitarbeiter zugänglich sind, private Inhalte und gelöschte Inhalte werden in beiden Modi ausgeschlossen. Die Änderungen werden wirksam, sobald die Rückblicke erneut generiert werden.'
+      public_content_only_help: 'Nur Inhalte einbeziehen, die für Gäste sichtbar sind. Deaktiviere diese Option für Foren, die nur Mitgliedern vorbehalten sind, um stattdessen Inhalte einzubeziehen, die für Standardmitglieder sichtbar sind. Inhalte, die nur für Mitarbeiter zugänglich sind, private Inhalte und gelöschte Inhalte werden in beiden Modi ausgeschlossen. Diese Einstellung hat keinen Einfluss auf die Zugriffsrechte für „Rückblick“ oder auf bestehende Zusammenfassungen. Wenn diese Funktion deaktiviert ist, solltest du die Berechtigung zum Aufrufen der „Rückblick“-Seite weiterhin auf Mitglieder beschränken, da Community-Zusammenfassungen Inhalte enthalten können, die nur für Mitglieder zugänglich sind. Erstelle nach einer Änderung dieser Einstellung bestehende Community- und persönliche Zusammenfassungen neu. Bevor du Gästen Zugriff gewährst, aktiviere diese Einstellung und erstelle bestehende Community-Zusammenfassungen neu.'
       public_content_only_label: 'Nur öffentlich erreichbare Inhalte einbeziehen'
       regenerate_users_button: 'Vorhandene Rückblicke aktualisieren'
       regenerate_users_help: 'Berechne vorhandene Momentaufnahmen für ein ausgewähltes Jahr und eine ausgewählte Gruppe unter Verwendung der aktuellen Inhaltsfilter neu. Die Einstellung „öffentlich/privat“ jedes Nutzers bleibt dabei erhalten. Erstelle zunächst die Community-Zusammenfassung, falls Vergleiche aktiviert sind.'

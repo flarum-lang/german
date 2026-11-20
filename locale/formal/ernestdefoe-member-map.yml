@@ -33,6 +33,7 @@ ernestdefoe-member-map:
       style_url_help: 'Ein MapLibre-Vektorstil. Lasse das Feld leer, um stattdessen die unten angegebene Adresse für die Kartenkachel zu verwenden. Die Standardeinstellung „OpenFreeMap“ ist kostenlos und erfordert keinen Schlüssel.'
       tiles_url: 'Adresse für Kartenkacheln'
       tiles_url_help: 'Bildkacheln für den Fall, dass der oben genannte Stil leer ist oder nicht geladen werden kann, sowie für die kleine Karte in den Profilen. Für OpenStreetMap, das keinen Schlüssel benötigt, bitte leer lassen.'
+      trip_radius_km: 'Informiere Mitglieder im Umkreis von so vielen Kilometern über eine anstehende Reise'
     widget: 'Wo wir sind'
   forum:
     card:
