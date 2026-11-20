@@ -28,7 +28,7 @@ CHANGELOG
 * [`ernestdefoe/syllabus`](https://github.com/ernestdefoe/syllabus) (108 added, 33% complete)
 * [`ernestdefoe/time-capsule`](https://github.com/ernestdefoe/time-capsule) (22 added, 15% complete)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (2 changed, 100% complete)
-* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (2 added, 96% complete)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (14 added, 99% complete)
 * [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks) (4 added, 100% complete)
 * [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards) (2 added, 100% complete)
 * [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff) (8 added, 100% complete)
