@@ -95,11 +95,16 @@ fof-anti-spam:
         blocked_words_heading: 'Blockierte Wörter und Ausdrücke'
         blocked_words_help: 'Wörter oder Begriffe, die als Spam blockiert werden sollen. Ein Eintrag pro Zeile. Die Groß-/Kleinschreibung spielt keine Rolle, und es werden nur ganze Wörter berücksichtigt. Beispielsweise wird „viagra“ bei „viagra“ als Treffer erkannt, „niagara“ jedoch nicht.'
         blocked_words_label: 'Blockierte Wörter oder Ausdrücke'
+        burst_minutes_label: 'Innerhalb wie vieler Minuten'
+        burst_post_count_help: "Sobald ein neues Konto innerhalb der unten angegebenen Minuten so viele Beiträge in anderen Diskussionen verfasst hat, wird jeder weitere Beitrag als Spam gewertet, bis sich die Frequenz verringert. Dies gilt nur für neue Konten, auch wenn alle Nutzer überwacht werden. Beiträge in der Diskussion, in der gerade gepostet wird, zählen nicht, sodass eine Unterhaltung in einem Thread nicht erfasst wird. Beiträge, die auf Freigabe warten, zählen ebenfalls, Bearbeitungen hingegen nicht. Bei 0 gibt es keine Begrenzung.\n"
+        burst_post_count_label: 'In kurzer Zeit erlaubte Beiträge'
         detect_emails_help: 'Melde Inhalte, die E-Mail-Adressen enthalten.'
         detect_emails_label: 'E-Mail-Adressen erkennen'
         detect_local_phones_label: 'Außerdem Telefonnummern im lokalen Format erkennen'
         detect_phones_help: 'Melde Inhalte, die Telefonnummern im internationalen Format enthalten.'
         detect_phones_label: 'Telefonnummern erkennen'
+        detect_repeats_help: "Markiere einen Beitrag eines neuen Kontos, der denselben Inhalt wie einer seiner letzten Beiträge hat, wobei Groß- und Kleinschreibung, Leerzeichen, Zeichensetzung und Formatierung ignoriert werden. Dies gilt nur für neue Konten, auch wenn alle Nutzer überwacht werden. Beiträge mit weniger als 40 Zeichen können wiederholt werden, und Beiträge, die der Autor gelöscht hat, zählen nicht.\n"
+        detect_repeats_label: 'Wiederholt eingereichte Beiträge erkennen'
         detect_urls_help: 'Melde Inhalte, die URLs enthalten, die nicht auf der Zulassungsliste stehen.'
         detect_urls_label: 'URLs erkennen'
         detectors_heading: Detektionsmethoden
@@ -128,6 +133,7 @@ fof-anti-spam:
         monitor_post_count_label: 'Benutzer bis zu dieser Beitragsanzahl überwachen'
         monitor_window_held_only: 'Da alle Benutzer überwacht werden, legen die beiden folgenden Grenzwerte lediglich fest, für welche Konten die Einschränkung für die E-Mail-Domain gilt.'
         no_action_extensions: 'Installiere die Erweiterungen „flarum/approval“ und/oder „flarum/flags“, um automatische Moderationsmaßnahmen zu aktivieren. Erkannter Spam wird über die in Flarum integrierte Genehmigungswarteschlange und das Meldesystem verwaltet.'
+        posting_rate_heading: Beitragsfrequenz
         spam_threshold_help: 'Inhalte mit einer Spam-Bewertung, die diesem Wert entspricht oder darüber liegt, werden automatisch abgelehnt (erfordert die Erweiterung „flarum/approval“).'
         spam_threshold_label: 'Spam-Schwellenwert (0–100)'
         system_user_id_help: 'Die Benutzer-ID, die als Urheber automatischer Spam-Markierungen verwendet wird. In der Regel sollte dies ein Admin- oder Systemkonto sein. Wenn keine Konfiguration vorliegt, wird standardmäßig die Benutzer-ID 1 verwendet.'
