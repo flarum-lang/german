@@ -2773,7 +2773,7 @@ ramon-canela:
       no_subcategory: 'kein untergeordneter Tag'
       no_tags: 'keine sekundären Tags'
       remove_filter: 'Filter entfernen'
-      search_placeholder: Suchen…
+      search_placeholder: Suchen
       sort_label: 'Liste auswählen'
       subcategories: 'untergeordnete Tags'
       tags: 'sekundäre Tags'

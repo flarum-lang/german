@@ -97,6 +97,7 @@ fof-anti-spam:
         blocked_words_label: 'Blockierte Wörter oder Ausdrücke'
         detect_emails_help: 'Melde Inhalte, die E-Mail-Adressen enthalten.'
         detect_emails_label: 'E-Mail-Adressen erkennen'
+        detect_local_phones_label: 'Außerdem Telefonnummern im lokalen Format erkennen'
         detect_phones_help: 'Melde Inhalte, die Telefonnummern im internationalen Format enthalten.'
         detect_phones_label: 'Telefonnummern erkennen'
         detect_urls_help: 'Melde Inhalte, die URLs enthalten, die nicht auf der Zulassungsliste stehen.'

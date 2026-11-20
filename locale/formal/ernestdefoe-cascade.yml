@@ -8,7 +8,7 @@ ernestdefoe-cascade:
       allow_user_preset_help: 'Fügt auf der Einstellungsseite jedes Mitglieds eine Auswahl für die Voreinstellung hinzu. Die getroffene Auswahl gilt nur für das jeweilige Mitglied; wer keine Auswahl trifft, behält die oben angegebene Standard-Einstellung des Forums bei. Deaktiviere diese Option, um im gesamten Forum ein einheitliches Erscheinungsbild beizubehalten.'
       allow_user_preset_label: 'Lässt die Mitglieder selbst entscheiden'
       engagement_bar_auto: Auto
-      engagement_bar_help: '„Auto“ zeigt „Reply and Share“ in jeder Zeile an, und auf der Diskussionsseite wird ein Reaktionsfeld hinzugefügt, wenn „flarum/likes“ oder „fof/reactions“ aktiviert ist. „Cascade“ liefert keine eigenen Reaktionen mit, sodass bei fehlender Installation beider Module kein Reaktionsfeld angezeigt wird.'
+      engagement_bar_help: '„Antworten“ und „Teilen“ in jeder Feed-Zeile sowie eine Reaktionssteuerung, wenn „fof/reactions“ aktiviert ist. Bei „Automatisch“ und „Immer anzeigen“ wird die Leiste angezeigt; mit „Ausblenden“ wird sie aus dem Feed entfernt.'
       engagement_bar_label: Engagement-Leiste
       engagement_bar_off: Verbergen
       engagement_bar_on: 'Immer anzeigen'

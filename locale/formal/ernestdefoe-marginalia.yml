@@ -8,7 +8,7 @@ ernestdefoe-marginalia:
       highlight_label: 'Passagen in Beiträgen hervorheben'
       moderate_label: 'Öffentliche Hervorhebungen Anderer entfernen'
   forum:
-    error: 'Diese Markierung konnte nicht gespeichert werden.'
+    error: 'Diese Änderung deiner Hervorhebung konnte nicht gespeichert werden. Bitte versuche es erneut.'
     popup:
       make_private: 'Als privat markieren'
       make_public: 'Als öffentlich markieren'
