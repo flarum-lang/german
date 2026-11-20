@@ -22,6 +22,7 @@ CHANGELOG
 * [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks) (4 added, 100% complete)
 * [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards) (2 added, 100% complete)
 * [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff) (8 added, 100% complete)
+* [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki) (4 added, 100% complete)
 
 
 All changes: [2.0.33...2.0.34](https://github.com/flarum-lang/german/compare/2.0.33...2.0.34).
