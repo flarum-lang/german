@@ -36,7 +36,7 @@ CHANGELOG
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags) (6 added, 100% complete)
 * [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions) (2 added, 100% complete)
 * [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings) (2 added, 1 changed, 100% complete)
-* [`fof/translate`](https://github.com/FriendsOfFlarum/translate) (4 added, 2 changed, 96% complete)
+* [`fof/translate`](https://github.com/FriendsOfFlarum/translate) (12 added, 6 changed, 98% complete)
 * [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request) (4 added, 100% complete)
 * [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards) (2 added, 100% complete)
 * [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff) (8 added, 100% complete)
