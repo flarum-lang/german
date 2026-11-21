@@ -34,6 +34,7 @@ ernestdefoe-member-map:
       tiles_url: 'Adresse für Kartenkacheln'
       tiles_url_help: 'Bildkacheln für den Fall, dass der oben genannte Stil leer ist oder nicht geladen werden kann, sowie für die kleine Karte in den Profilen. Für OpenStreetMap, das keinen Schlüssel benötigt, bitte leer lassen.'
       trip_max_alerts: 'Maximalanzahl an Mitgliedern, die über eine Reise benachrichtigt werden'
+      trip_max_alerts_help: 'Zuerst die nächstgelegenen Mitglieder. Standardwert: 50; 1 bis 200.'
       trip_radius_km: 'Informiere Mitglieder im Umkreis von so vielen Kilometern über eine anstehende Reise'
       trip_radius_km_help: 'Mitglieder, die so nah an einem Reiseziel wohnen, erhalten eine Benachrichtigung „In Ihrer Nähe“. Standardwert: 160 km (ca. 100 Meilen); 10 bis 1.000.'
     widget: 'Wo wir sind'

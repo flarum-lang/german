@@ -100,6 +100,7 @@ fof-anti-spam:
         burst_post_count_label: 'In kurzer Zeit erlaubte Beiträge'
         detect_emails_help: 'Melde Inhalte, die E-Mail-Adressen enthalten.'
         detect_emails_label: 'E-Mail-Adressen erkennen'
+        detect_local_phones_help: "Berücksichtigt auch Nummern ohne Ländervorwahl, die mit einer 0 beginnen, wie beispielsweise 0811-2506-6288 oder 020 7946 0958. Aktiviere diese Option, wenn in deinem Forum Spam-Beiträge mit lokalen Rufnummern erscheinen. Diese lassen sich schwerer von Datumsangaben und Referenznummern unterscheiden als internationale Rufnummern, sodass es vorkommen kann, dass gelegentlich auch normale Beiträge als Spam markiert werden. Dazu muss die Erkennung von Telefonnummern aktiviert sein.\n"
         detect_local_phones_label: 'Außerdem Telefonnummern im lokalen Format erkennen'
         detect_phones_help: 'Melde Inhalte, die Telefonnummern im internationalen Format enthalten.'
         detect_phones_label: 'Telefonnummern erkennen'

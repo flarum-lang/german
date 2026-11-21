@@ -2,6 +2,11 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-moderator-warnings/de/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+core:
+  email:
+    notification:
+      types:
+        warning: 'Moderationswarnungen, die du erhältst'
 flarum-audit:
   lib:
     browser:
@@ -38,7 +43,7 @@ fof-moderator-warnings:
       warnings: Warnungen
     validation:
       invalid_strike_count: 'Die Anzahl der Strikes muss eine ganze Zahl zwischen 0 und 5 sein.'
-      public_comment_required: 'Du musst eine öffentliche Begründung abgeben.'
+      public_comment_required: 'Du musst eine öffentliche Begründung angeben.'
     warning_controls:
       delete_button: Entfernen
       delete_forever_button: 'Endgültig löschen'

@@ -129,7 +129,8 @@ fof-translate:
           medium: Mittel
           'off': Aus
       openai:
-        api_key_label: 'OpenAI API-Schlüssel'
+        api_key_label: API-Schlüssel
+        base_url_env_help: 'Wenn der API-Schlüssel vom Server verwaltet wird, nutzt der Endpunkt OpenAI, es sei denn, der Server legt {env} fest.'
         intro: 'Verwendet die GPT-Modelle von OpenAI. Erstelle einen API-Schlüssel auf der <a>OpenAI-Plattform</a>.'
         max_tokens_help: 'Obergrenze für die Länge jeder Übersetzung.'
         max_tokens_label: 'Maximale Tokenanzahl'
@@ -138,6 +139,8 @@ fof-translate:
       portuguese_options:
         pt-BR: 'Portugiesisch (Brasilien)'
         pt-PT: 'Portugiesisch (Portugal)'
+      post_translation_display_options:
+        below: 'Unterhalb des Originals'
       short_content_length_help: 'Inhalte, die kürzer als diese Zeichenanzahl sind, sind zu kurz, um die Sprache zuverlässig zu erkennen. Es wird davon ausgegangen, dass sie in der Sprache verfasst sind, in der der Autor das Forum nutzt, d. h. in der von ihm gewählten Ländereinstellung oder der Standard-Ländereinstellung des Forums.'
       short_content_length_label: 'Mindestlänge für die Sprachenerkennung'
       throttle_per_minute_help: 'Wie viele Übersetzungen jeder Benutzer (oder jede Gast-IP-Adresse) pro Minute anfordern darf.'

@@ -2,6 +2,13 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-follow-tags/de@formal/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+core:
+  email:
+    notification:
+      types:
+        newDiscussionInTag: 'Neue Diskussionen in Tags, denen du folgst'
+        newDiscussionTag: 'Diskussionen werden in Tags umgetaggt, denen du folgst'
+        newPostInTag: 'Neue Beiträge in Tags, denen du folgst'
 flarum-gdpr:
   lib:
     data:
