@@ -93,7 +93,7 @@ el-choco-admin-console:
     picker_help: 'Befehle werden aus dieser Installation gelesen. Bei nicht freigegebenen Aktionen wird die Hilfe übernommen.'
     poll_failed: 'Statusabruf unterbrochen: {error} Der gespeicherte Auftrag wird dadurch nicht abgebrochen. Laden Sie die Seite neu.'
     queued: 'Gespeichert. Wartet auf den Hintergrunddienst.'
-    ready: 'Bereit. Wählen Sie eine Aktion oder geben Sie einen freigegebenen Befehl ein.'
+    ready: 'Bereit. Wählen Sie eine Aktion oder geben Sie einen der freigegebenen Befehl ein.'
     request_failed: 'Anfrage fehlgeschlagen. Prüfen Sie das Serverprotokoll.'
     running: 'Befehl läuft …'
     save: Speichern

@@ -239,6 +239,48 @@ fof-badges:
     uncategorized: Unkategorisiert
     validation:
       tag_required: 'Du musst ein Tag auswählen, wenn du die Metrik „Beiträge im Tag“ verwendest.'
+  defaults:
+    badges:
+      active-member:
+        description: 'Schreibe 50 Antworten'
+        name: 'Aktives Mitglied'
+      anniversary:
+        description: 'Ein Jahr Mitgliedschaft'
+        name: Jahrestag
+      conversation-starter:
+        description: 'Starte deine erste Diskussion'
+        name: Gesprächsstarter
+      editor:
+        description: 'Bearbeite 10 Beiträge, um sie zu verbessern'
+        name: Redakteur
+      first-post:
+        description: 'Schreibe deine erste Antwort'
+        name: 'Erster Beitrag'
+      first-week:
+        description: '7 Tage Mitgliedschaft'
+        name: 'Erste Woche'
+      profile-picture:
+        description: 'Lade ein Profilbild hoch'
+        name: Profilbild
+      prolific:
+        description: 'Schreibe 200 Antworten'
+        name: Produktiv
+      regular:
+        description: '30 Tage Mitgliedschaft'
+        name: Stammgast
+      topic-starter:
+        description: 'Starte 10 Diskussionen'
+        name: Themenstarter
+    categories:
+      getting-started:
+        description: 'Abzeichen für neue Mitglieder, die gerade alles kennen lernen'
+        name: 'Erste Schritte'
+      milestones:
+        description: 'Abzeichen für das Erreichen wichtiger Meilensteine'
+        name: Meilensteine
+      posting:
+        description: 'Abzeichen für Meilensteine bei Beiträgen'
+        name: Beiträge
   forum:
     all_badges: 'Alle Abzeichen'
     badges_subtitle: 'Verdiene Abzeichen, durch dein Engagement in der Community!'
