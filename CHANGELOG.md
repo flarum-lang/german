@@ -44,6 +44,7 @@ CHANGELOG
 * [`ianm/follow-users`](https://github.com/imorland/follow-users) (6 added, 100% complete)
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor) (2 added, 100% complete)
 * [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki) (4 added, 100% complete)
+* [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha) (1 changed, 100% complete)
 * [`ramon/canela`](https://github.com/ram0ng1/canela) (2 changed, 95% complete)
 
 
