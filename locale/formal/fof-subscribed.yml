@@ -2,6 +2,15 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-subscribed/de@formal/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+core:
+  email:
+    notification:
+      types:
+        discussionCreated: 'Neue Diskussionen'
+        postCreated: 'Neue Beiträge und Antworten'
+        postFlagged: 'Neu gemeldete Beiträge'
+        postUnapproved: 'Beiträge, die auf Bestätigung warten'
+        userCreated: 'Neue Benutzerregistrierungen'
 fof-subscribed:
   admin:
     permission:

@@ -142,6 +142,7 @@ fof-translate:
         pt-BR: 'Portugiesisch (Brasilien)'
         pt-PT: 'Portugiesisch (Portugal)'
       post_translation_display_help: 'Wo die Übersetzung angezeigt wird, nachdem der Leser auf „Übersetzen“ geklickt hat.'
+      post_translation_display_label: 'Anzeige von Beitrags-Übersetzungen'
       post_translation_display_options:
         below: 'Unterhalb des Originals'
         replace: 'Ersetzt das Original'
@@ -170,6 +171,7 @@ fof-translate:
     glossaries_failed: 'Die DeepL-Glossare konnten nicht geladen werden. Bitte überprüfe den API-Schlüssel.'
     invalid_detection_cursor: 'Ungültige Erkennungsposition.'
     invalid_detection_type: 'Unbekannter Inhaltstyp für die Spracherkennung.'
+    invalid_openai_base_url: 'Verwende eine HTTP- oder HTTPS-API-Basis-URL ohne Anmeldedaten, Abfrage oder Fragment.'
     no_driver: 'In diesem Forum ist die Übersetzungsfunktion nicht konfiguriert.'
     not_translatable: 'Dieser Beitrag kann nicht übersetzt werden.'
     too_long: 'Dieser Text ist zu lang, um ihn zu übersetzen.'
