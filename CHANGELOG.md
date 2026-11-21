@@ -13,6 +13,7 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`ernestdefoe/broadsheet`](https://github.com/ernestdefoe/broadsheet) (27% complete)
+* [`ernestdefoe/garage`](https://github.com/ernestdefoe/garage) (22% complete)
 * [`ernestdefoe/hangout`](https://github.com/ernestdefoe/hangout) (30% complete)
 * [`ernestdefoe/homecoming`](https://github.com/ernestdefoe/homecoming) (100% complete)
 * [`ernestdefoe/nameplate`](https://github.com/ernestdefoe/nameplate) (100% complete)
@@ -25,7 +26,7 @@ CHANGELOG
 * [`ernestdefoe/cascade`](https://github.com/ernestdefoe/cascade) (2 changed, 100% complete)
 * [`ernestdefoe/marginalia`](https://github.com/ernestdefoe/marginalia) (2 changed, 100% complete)
 * [`ernestdefoe/member-desk`](https://github.com/ernestdefoe/member-desk) (36 added, 56% complete)
-* [`ernestdefoe/member-map`](https://github.com/ernestdefoe/member-map) (10 added, 100% complete)
+* [`ernestdefoe/member-map`](https://github.com/ernestdefoe/member-map) (10 added, 96% complete)
 * [`ernestdefoe/syllabus`](https://github.com/ernestdefoe/syllabus) (108 added, 33% complete)
 * [`ernestdefoe/time-capsule`](https://github.com/ernestdefoe/time-capsule) (22 added, 15% complete)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (2 changed, 100% complete)
@@ -36,7 +37,8 @@ CHANGELOG
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags) (6 added, 100% complete)
 * [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions) (2 added, 100% complete)
 * [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings) (2 added, 1 changed, 100% complete)
-* [`fof/translate`](https://github.com/FriendsOfFlarum/translate) (12 added, 6 changed, 98% complete)
+* [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed) (10 added, 100% complete)
+* [`fof/translate`](https://github.com/FriendsOfFlarum/translate) (16 added, 6 changed, 100% complete)
 * [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request) (4 added, 100% complete)
 * [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards) (2 added, 100% complete)
 * [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff) (8 added, 100% complete)
