@@ -41,6 +41,7 @@ ernestdefoe-glimpse:
     too_large: 'Die Datei ist zu groß.'
   forum:
     audience:
+      everyone: Jeder
       followers: Follower
       members: Mitglieder
     bar:
@@ -73,8 +74,21 @@ ernestdefoe-glimpse:
       queue: 'Einblicke zur Überprüfung'
       stories: Einblicke
     page:
+      add: 'Eine Story hinzufügen'
       all: Alle
+      gone: 'Diese Story ist nicht mehr verfügbar.'
+      load_more: 'Mehr laden'
+      open: 'Story von {name} öffnen'
       title: Einblicke
+    profile:
+      live: 'Einblicke jetzt gerade'
+    queue:
+      approve: Genehmigen
+      decline: Ablehnen
+      delete: 'Story löschen'
+      dismiss: Verwerfen
+      hide: 'Story ausblenden'
+      reported: Gemeldet
     report:
       detail: 'Gibt es etwas, das Moderatoren wissen sollten? (optional)'
       reason: 'Warum meldest du sie?'
@@ -87,6 +101,7 @@ ernestdefoe-glimpse:
       title: 'Story melden'
     seen_by:
       empty: 'Diese Story hat noch niemand gesehen.'
+      more: 'Weitere anzeigen'
       private: 'Nur du kannst das sehen'
       title: 'Gesehen von'
     viewer:
@@ -94,6 +109,7 @@ ernestdefoe-glimpse:
       copied: 'Link kopiert'
       copy_failed: 'Der Link konnte nicht kopiert werden.'
       deleted: 'Story gelöscht'
+      highlighted: 'Zu {title} hinzugefügt'
       label: 'Story von {name}'
       menu:
         copy: 'Link kopieren'
@@ -111,6 +127,7 @@ ernestdefoe-glimpse:
       react: Reagieren
       reacted: 'Du hast reagiert mit {reaction}'
       reactions: '{count, plural, one {# Reaktion} other {# Reaktionen}}'
+      reply_failed: 'Deine Antwort wurde nicht gesendet. Bitte versuche es erneut.'
       reply_label: 'Privat antworten'
       reply_placeholder: 'Antwort an {name}…'
       seen_by: '{count, plural, one {Gesehen von # Person} other {Gesehen von # Personen}}'
