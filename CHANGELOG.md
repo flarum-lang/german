@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+2.0.35 (XXXX-XX-XX)
+-------------------
+
+**Added support for new extensions**:
+
+* [`ernestdefoe/community-reviews`](https://github.com/ernestdefoe/community-reviews) (11% complete)
+
+
+**Updated translations for extensions**:
+
+* [`ernestdefoe/glimpse`](https://github.com/ernestdefoe/glimpse) (30 added, 54% complete)
+
+
+All changes: [2.0.34...2.0.35](https://github.com/flarum-lang/german/compare/2.0.34...2.0.35).
+
+
 2.0.34 (2026-11-22)
 -------------------
 
