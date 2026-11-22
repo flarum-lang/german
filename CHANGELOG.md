@@ -2,6 +2,30 @@ CHANGELOG
 =========
 
 
+1.25.39 (2026-11-22)
+--------------------
+
+**Added support for new extensions**:
+
+* [`floxum/payments`](https://gitlab.com/floxum/extensions/flarum-ext-payments) (20% complete)
+* [`huseyinfiliz/bump`](https://github.com/huseyinfiliz/bump) (19% complete)
+* [`prm/forum-activity`](https://github.com/smmpanelscripts1/prm-forum-activity) (87% complete)
+* [`prm/moderation`](https://github.com/smmpanelscripts1/prm-moderation) (2% complete)
+
+
+**Updated translations for extensions**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (2 changed, 100% complete)
+* [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed) (2 changed, 100% complete)
+* [`el-choco/admin-console`](https://github.com/el-choco/flarum-admin-console) (1 changed, 99% complete)
+* [`flarum/mentions`](https://github.com/flarum/mentions) (2 changed, 100% complete)
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges) (52 added, 100% complete)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap) (2 changed, 100% complete)
+
+
+All changes: [1.25.38...1.25.39](https://github.com/flarum-lang/german/compare/1.25.38...1.25.39).
+
+
 1.25.38 (2026-11-16)
 --------------------
 
