@@ -13,7 +13,7 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`ernestdefoe/glimpse`](https://github.com/ernestdefoe/glimpse) (30 added, 54% complete)
-* [`ernestdefoe/member-desk`](https://github.com/ernestdefoe/member-desk) (16 added, 58% complete)
+* [`ernestdefoe/member-desk`](https://github.com/ernestdefoe/member-desk) (38 added, 61% complete)
 * [`ernestdefoe/member-map`](https://github.com/ernestdefoe/member-map) (10 added, 100% complete)
 
 
