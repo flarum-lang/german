@@ -6,6 +6,8 @@ ernestdefoe-member-desk:
   admin:
     page:
       description: 'Mitgliederverwaltung: Finde, durchsuche und verwalte eure Mitglieder.'
+      log_description: 'Jede in der Mitgliederverwaltung durchgeführte Aktion, wer sie durchgeführt hat und wie der Mitgliedstatus zum jeweiligen Zeitpunkt war.'
+      log_title: 'Protokoll der Mitgliederverwaltung'
       member_description: 'Alles über ein bestimmtes Mitglied und was du in Bezug auf dieses Mitglied tun kannst.'
       member_title: Mitglied
       title: Benutzer
@@ -21,9 +23,22 @@ ernestdefoe-member-desk:
       retention_help: 'Danach enthalten die Protokolleinträge eines anonymisierten oder gelöschten Mitglieds nur noch dessen ID und die entsprechenden Zählwerte. Bis zu diesem Zeitpunkt werden dessen E-Mail-Adresse und IP-Adressen lediglich als „gesalzene“ Hashes gespeichert: pseudonym, nicht anonym (jemand, der sowohl die Datenbank als auch das Geheimnis dieses Forums kennt, könnte Vermutungen anstellen), weshalb auch diese Daten entfernt werden.'
   forum:
     nav: Mitgliederverwaltung
+    no_access: 'Du hast keine Berechtigung, die Mitgliederverwaltung zu öffnen.'
     open_member: 'In der Mitgliederverwaltung öffnen'
     title: Mitgliederverwaltung
   lib:
+    action:
+      addGroup: 'Zu Gruppe hinzugefügt'
+      anonymize: Anonymisiert
+      banIp: 'IP gesperrt'
+      confirm: 'E-Mail bestätigt'
+      delete: Gelöscht
+      export: 'CSV exportiert'
+      removeGroup: 'Aus Gruppe entfernt'
+      spammer: 'Als Spammer markiert'
+      suspend: Gesperrt
+      unspam: 'Spammer-Markierung entfernt'
+      unsuspend: 'Sperrung aufgehoben'
     activity:
       chart: 'Beiträge in den letzten 12 Monaten'
       chart_label: 'Beiträge im Monat in den letzten 12 Monaten'
@@ -63,6 +78,10 @@ ernestdefoe-member-desk:
       max_posts: 'Höchstens {count} Beiträge'
       min_posts: 'Mindestens {count} Beiträge'
       remove: 'Diesen Filter entfernen'
+      reported_P30D: '{count}+ Mal in 30 Tagen gemeldet'
+      reported_P7D: '{count}+ Mal in 7 Tagen gemeldet'
+      reported_P90D: '{count}+ Mal in 90 Tagen gemeldet'
+      reported_ever: '{count}+ Mal gemeldet'
       seen_from: 'Gesehen ab {date}'
       seen_to: 'Gesehen bis {date}'
     col:
@@ -78,6 +97,7 @@ ernestdefoe-member-desk:
       status: Status
     confirm:
       admin_group_note: 'Die Gruppe „Admin“ kann nur auf der eigenen Seite eines Mitglieds vergeben werden, jeweils für ein Mitglied.'
+      and_more: 'und {count} weitere'
       cancel: Abbrechen
       deletion_off: 'In den Einstellungen der DSGVO-Erweiterung ist die Löschfunktion deaktiviert, sodass nur die Anonymisierung angeboten wird.'
       go:
@@ -93,10 +113,12 @@ ernestdefoe-member-desk:
       group: Gruppe
       kept:
         anonymize: 'Beibehalten: Ihre {posts, plural, one {# Beitrag} other {# Beiträge}} sowie {discussions, plural, one {# Diskussion} other {# Diskussionen}} bleiben erhalten, werden einem anonymen Namen zugeordnet und ihre Beitragszahlen bleiben bestehen.'
+        suspend: 'Es wird nichts gelöscht. Sie können weiterhin Beiträge lesen, aber erst nach Ablauf der Sperre wieder Beiträge verfassen.'
       message: 'Nachricht an das Mitglied (optional)'
       mode:
         anonymize: Anonymisieren
         delete: Löschen
+      names_label: 'Mitglieder, auf die es angewendet wird'
       no_gdpr: 'Für die Anonymisierung ist die DSGVO-Erweiterung (flarum/gdpr) erforderlich. Ohne diese Erweiterung nutzt die Funktion „Löschen“ die Flarum-eigene Funktion zum Löschen von Benutzern.'
       reason: 'Grund (nur andere Mitarbeiter sehen ihn)'
       skipped: '{count, plural, one {# Mitglied wurde} other {# Mitglieder wurden}} übersprungen:'
@@ -107,10 +129,15 @@ ernestdefoe-member-desk:
         signOut: '{count, plural, one {# Mitglied} other {# Mitglieder}} überall abmelden'
         spammer: '{count, plural, one {# Mitglied} other {# Mitglieder}} als Spammer markieren'
         suspend: '{count, plural, one {# Mitglied} other {# Mitglieder}} sperren'
+      type: 'Zur Bestätigung {count} eingeben'
       until: 'Sperren für'
       until_date: 'Bis zu einem Datum'
       until_days: '{count, plural, one {# Tag} other {# Tage}}'
       until_forever: 'Bis ich die Sperrung aufhebe'
+    done:
+      unsuspend: 'Sperrung aufgehoben.'
+    error:
+      generic: 'Das hat nicht geklappt. Bitte versuche es erneut.'
     filters:
       away_P1Y: 'Vor mehr als 1 Jahr'
       away_P2Y: 'Vor mehr als 2 Jahren'
@@ -152,10 +179,16 @@ ernestdefoe-member-desk:
       within_P7D: '7 Tage'
     groups:
       added: 'hinzugefügt {date} von {by}'
+      help: 'Änderungen werden sofort gespeichert und im Admin-Protokoll erfasst.'
       title: Gruppen
       toggle: 'In der Gruppe {name}'
     ips:
+      ban: 'IP sperren'
+      no_others: 'Keine anderen Konten auf dieser IP.'
       none: 'Keine IP-Adressen erfasst.'
+      seen: '{sources}, {count} Mal, zuerst {first}, zuletzt {last}'
+      source_posts: Beiträge
+      source_sessions: Sitzungen
       title: IP-Adressen
     list:
       card_joined: '{date} beigetreten'
@@ -185,9 +218,11 @@ ernestdefoe-member-desk:
       select_page: 'Diese Seite auswählen'
       tab_log: Protokoll
       tab_members: Mitglieder
+      views: 'Aufrufe der Mitgliederverwaltung'
     log:
       action: Aktion
       all_actions: 'Alle Aktionen'
+      by: '{actor}, {ago}'
       check_placeholder: 'email@beispiel.de oder 203.0.113.7'
       detail: 'Was wurde geändert'
       filter_action: 'Nach Aktion filtern'
@@ -240,8 +275,15 @@ ernestdefoe-member-desk:
       online_status: Online-Status
       seen: 'Zuletzt gesehen'
       username: Benutzername
+    reports:
+      status_in_progress: 'In Bearbeitung'
+      status_open: Offen
     result:
-      done_ok: 'Fertig: {count, plural, one {# Mitglied} other {# Mitglieder}} aktualisiert.'
+      done_ok: 'Abgeschlossen: {count, plural, one {# Mitglied} other {# Mitglieder}} aktualisiert.'
+    skip:
+      admin: 'einen Admin'
+      anonymized: 'bereits anonymisiert'
+      self: 'dein eigenes Konto'
     sort:
       discussions_asc: 'Wenigste Diskussionen'
       discussions_desc: 'Meiste Diskussionen'
@@ -257,9 +299,11 @@ ernestdefoe-member-desk:
       active: Aktiv
       admin: Admin
       anonymized: Anonymisiert
+      banned_ip: 'Gesperrte IP'
       open_reports: '{count, plural, one {# Bericht öffnen} other {# Berichte öffnen}}'
       suspended_forever: Gesperrt
       suspended_until: 'Gesperrt bis {date}'
+      unconfirmed: 'Nicht bestätigt'
     tab:
       activity: Aktivität
       groups: Gruppen
@@ -267,5 +311,15 @@ ernestdefoe-member-desk:
       notes: Anmerkungen
       profile: Profil
       reports: Meldungen
+      warnings: 'Verwarnungen & Sperrungen'
     trust:
       pill: 'Stufe {level} · {name}'
+    warnings:
+      forever: 'Bis sie jemand aufhebt'
+      message: 'Nachricht (für Mitglied)'
+      none: 'Keine Verwarnungen.'
+      not_suspended: 'Nicht gesperrt.'
+      reason: 'Grund (Mitarbeiter)'
+      suspension: 'Aktuelle Sperrung'
+      title: Verwarnungen
+      until: Bis
