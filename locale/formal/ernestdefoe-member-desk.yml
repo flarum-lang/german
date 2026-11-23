@@ -176,6 +176,7 @@ ernestdefoe-member-desk:
       tab_log: Protokoll
       tab_members: Mitglieder
     log:
+      action: Aktion
       all_actions: 'Alle Aktionen'
       check_placeholder: 'email@beispiel.de oder 203.0.113.7'
       member: Mitglied
@@ -183,6 +184,8 @@ ernestdefoe-member-desk:
       rows: '{count, plural, one {# Zeile} other {# Zeilen}}'
       sessions: '{count, plural, one {# Sitzung} other {# Sitzungen}}'
       until: 'bis {date}'
+      when: Wann
+      who: Wer
     member:
       anonymize: Anonymisieren…
       back: 'Alle Mitglieder'
