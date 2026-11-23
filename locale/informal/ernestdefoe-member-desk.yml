@@ -77,7 +77,9 @@ ernestdefoe-member-desk:
       seen: 'Zuletzt gesehen'
       status: Status
     confirm:
+      admin_group_note: 'Die Gruppe „Admin“ kann nur auf der eigenen Seite eines Mitglieds vergeben werden, jeweils für ein Mitglied.'
       cancel: Abbrechen
+      deletion_off: 'In den Einstellungen der DSGVO-Erweiterung ist die Löschfunktion deaktiviert, sodass nur die Anonymisierung angeboten wird.'
       go:
         addGroup: '{count} hinzufügen'
         anonymize: '{count} anonymisieren'
@@ -89,8 +91,14 @@ ernestdefoe-member-desk:
         suspend: '{count} sperren'
         unspam: Wiederherstellen
       group: Gruppe
+      kept:
+        anonymize: 'Beibehalten: Ihre {posts, plural, one {# Beitrag} other {# Beiträge}} sowie {discussions, plural, one {# Diskussion} other {# Diskussionen}} bleiben erhalten, werden einem anonymen Namen zugeordnet und ihre Beitragszahlen bleiben bestehen.'
+      message: 'Nachricht an das Mitglied (optional)'
       mode:
+        anonymize: Anonymisieren
         delete: Löschen
+      no_gdpr: 'Für die Anonymisierung ist die DSGVO-Erweiterung (flarum/gdpr) erforderlich. Ohne diese Erweiterung nutzt die Funktion „Löschen“ die Flarum-eigene Funktion zum Löschen von Benutzern.'
+      reason: 'Grund (nur andere Mitarbeiter sehen ihn)'
       skipped: '{count, plural, one {# Mitglied wurde} other {# Mitglieder wurden}} übersprungen:'
       title:
         addGroup: '{count, plural, one {# Mitglied} other {# Mitglied}} zu einer Gruppe hinzufügen'
@@ -100,7 +108,9 @@ ernestdefoe-member-desk:
         spammer: '{count, plural, one {# Mitglied} other {# Mitglieder}} als Spammer markieren'
         suspend: '{count, plural, one {# Mitglied} other {# Mitglieder}} sperren'
       until: 'Sperren für'
+      until_date: 'Bis zu einem Datum'
       until_days: '{count, plural, one {# Tag} other {# Tage}}'
+      until_forever: 'Bis ich die Sperrung aufhebe'
     filters:
       away_P1Y: 'Vor mehr als 1 Jahr'
       away_P2Y: 'Vor mehr als 2 Jahren'
@@ -179,6 +189,8 @@ ernestdefoe-member-desk:
       action: Aktion
       all_actions: 'Alle Aktionen'
       check_placeholder: 'email@beispiel.de oder 203.0.113.7'
+      detail: 'Was wurde geändert'
+      filter_action: 'Nach Aktion filtern'
       member: Mitglied
       restored: wiederhergestellt
       rows: '{count, plural, one {# Zeile} other {# Zeilen}}'
