@@ -13,6 +13,8 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`ernestdefoe/glimpse`](https://github.com/ernestdefoe/glimpse) (30 added, 54% complete)
+* [`ernestdefoe/member-desk`](https://github.com/ernestdefoe/member-desk) (10 added, 57% complete)
+* [`ernestdefoe/member-map`](https://github.com/ernestdefoe/member-map) (10 added, 100% complete)
 
 
 All changes: [2.0.34...2.0.35](https://github.com/flarum-lang/german/compare/2.0.34...2.0.35).
