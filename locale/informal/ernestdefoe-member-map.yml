@@ -14,6 +14,11 @@ ernestdefoe-member-map:
       allow_indexing_help: 'Standardmäßig deaktiviert: Die Seite fordert Suchmaschinen auf, sie nicht zu indexieren. Mitgliederdaten werden in keinem Fall an Suchmaschinen übermittelt.'
       attribution: 'Quellenangabe der Karte'
       attribution_help: 'Die Quellenangabe, die bei den Bildkacheln angezeigt wird. Die meisten Kartenanbieter verlangen eine solche Angabe. Einfache HTML-Links sind zulässig.'
+      distance_units: 'Entfernungen anzeigen in'
+      distance_units_auto: 'Automatisch (über den Browser jedes Mitglieds)'
+      distance_units_help: 'Wird für die ungefähren Entfernungsangaben unter „In deiner Nähe“ verwendet. Automatische Erkennung anhand des Browsers jedes Mitglieds: Meilen in den USA, Großbritannien, Liberia und Myanmar, Kilometer überall sonst. Ein auf US-Englisch eingestellter Browser erkennt überall Meilen – wähle also diese Einheit aus, wenn sie in deiner Community verwendet wird.'
+      distance_units_km: Kilometer
+      distance_units_mi: Meilen
       geocoder_email: 'Kontakt-E-Mail für die Ortssuche'
       geocoder_email_help: 'Optional. Nominatim fragt bei stark frequentierten Websites nach einer Adresse, an die es eine Nachricht senden kann, falls etwas schiefgeht.'
       geocoder_key: 'API-Schlüssel für Ortssuche'

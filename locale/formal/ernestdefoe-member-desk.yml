@@ -77,6 +77,7 @@ ernestdefoe-member-desk:
       seen: 'Zuletzt gesehen'
       status: Status
     confirm:
+      cancel: Abbrechen
       go:
         addGroup: '{count} hinzufügen'
         anonymize: '{count} anonymisieren'
@@ -98,6 +99,8 @@ ernestdefoe-member-desk:
         signOut: '{count, plural, one {# Mitglied} other {# Mitglieder}} überall abmelden'
         spammer: '{count, plural, one {# Mitglied} other {# Mitglieder}} als Spammer markieren'
         suspend: '{count, plural, one {# Mitglied} other {# Mitglieder}} sperren'
+      until: 'Sperren für'
+      until_days: '{count, plural, one {# Tag} other {# Tage}}'
     filters:
       away_P1Y: 'Vor mehr als 1 Jahr'
       away_P2Y: 'Vor mehr als 2 Jahren'
@@ -141,6 +144,9 @@ ernestdefoe-member-desk:
       added: 'hinzugefügt {date} von {by}'
       title: Gruppen
       toggle: 'In der Gruppe {name}'
+    ips:
+      none: 'Keine IP-Adressen erfasst.'
+      title: IP-Adressen
     list:
       card_joined: '{date} beigetreten'
       card_posts: '{count, plural, one {# Beitrag} other {# Beiträge}}'
