@@ -11,6 +11,7 @@ CHANGELOG
 * [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read) (100% complete)
 * [`ernestdefoe/community-reviews`](https://github.com/ernestdefoe/community-reviews) (11% complete)
 * [`ernestdefoe/renown`](https://github.com/ernestdefoe/renown) (5% complete)
+* [`flarum/mcp`](https://github.com/flarum/mcp) (36% complete)
 
 
 **Updated translations for extensions**:
