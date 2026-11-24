@@ -6,6 +6,7 @@ flarum-audit:
   lib:
     browser:
       dialog:
+        message_edited: 'Hat eine private Nachricht von {username} bearbeitet'
         posted: 'Hat eine private Nachricht an {username} gesendet'
         started: 'Hat eine private Unterhaltung mit {username} begonnen'
 flarum-gdpr:
@@ -147,10 +148,14 @@ flarum-messages:
       send_message_button: 'Nachricht senden'
   lib:
     dialog:
+      group_title: '{names}{others, plural, =0 {} other { +#}}'
+      private_group_title: 'Private Unterhaltung'
       title: 'Unterhaltung {username}'
+    groups_unavailable_message: 'Diese Gruppen können keine Nachrichten empfangen.'
     no_other_members_message: 'Sonst ist niemand in dieser Unterhaltung.'
     recipient_cannot_reply_message: '{username} kann nicht auf Nachrichten antworten.'
     recipient_unavailable_message: '{username} kann keine Nachrichten empfangen.'
+    too_many_groups_message: 'Eine Nachricht darf an maximal {count} Gruppen gehen.'
 flarum-statistics:
   admin:
     statistics:
