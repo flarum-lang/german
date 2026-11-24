@@ -10,15 +10,17 @@ CHANGELOG
 * [`clarkwinkelmann/flarum-ext-popular-discussion-badge`](https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge) (100% complete)
 * [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read) (96% complete)
 * [`ernestdefoe/community-reviews`](https://github.com/ernestdefoe/community-reviews) (11% complete)
-* [`ernestdefoe/renown`](https://github.com/ernestdefoe/renown) (4% complete)
+* [`ernestdefoe/renown`](https://github.com/ernestdefoe/renown) (5% complete)
 
 
 **Updated translations for extensions**:
 
 * [`ernestdefoe/glimpse`](https://github.com/ernestdefoe/glimpse) (30 added, 54% complete)
+* [`ernestdefoe/kudos`](https://github.com/ernestdefoe/kudos) (56 added, 26% complete)
 * [`ernestdefoe/ladder`](https://github.com/ernestdefoe/ladder) (10 added, 90% complete)
 * [`ernestdefoe/member-desk`](https://github.com/ernestdefoe/member-desk) (134 added, 2 changed, 73% complete)
 * [`ernestdefoe/member-map`](https://github.com/ernestdefoe/member-map) (10 added, 100% complete)
+* [`ernestdefoe/syllabus`](https://github.com/ernestdefoe/syllabus) (104 added, 48% complete)
 * [`ramon/canela`](https://github.com/ram0ng1/canela) (19 changed, 95% complete)
 
 
