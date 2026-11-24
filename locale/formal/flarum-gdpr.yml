@@ -154,6 +154,7 @@ flarum-gdpr:
       emailbounceevents:
         anonymize_description: 'Entfernt die E-Mail-Adresse aus dem Bounce-Verlauf des Benutzers, wobei anonyme Datensätze für statistische Zwecke erhalten bleiben.'
         delete_description: 'Löscht den Bounce-Verlauf der E-Mail des Benutzers.'
+        export_description: 'Exportiert den Verlauf der E-Mail-Bounce-Meldungen und Spam-Beschwerden des Benutzers.'
       forum:
         export_description: 'Exportiert den Titel des Forums, die URL, den Benutzernamen, die E-Mail und das aktuelle Datum.'
       no_action: 'Es wurden keine Maßnahmen getroffen.'

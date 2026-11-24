@@ -28,9 +28,15 @@ flarum-messages:
       view_ips_label: 'IP-Adressen von Nachrichten anzeigen'
     sections:
       groups:
+        description: 'Unterhaltungen, die mit mehreren Mitgliedern gleichzeitig begonnen wurden.'
         label: Gruppenkonversationen
     settings:
+      allow_group_names_help: 'Teilnehmer, die in einer Gruppenunterhaltung schreiben können, können dieser einen Namen geben, der dann allen Teilnehmern anstelle der Mitgliederliste angezeigt wird. Wenn diese Funktion deaktiviert wird, werden bereits vergebene Namen ausgeblendet.'
+      allow_group_names_label: 'Mitglieder dürfen Gruppenkonversationen benennen'
+      max_recipients_help: 'An wie viele Mitglieder eine Nachricht gesendet werden kann. Bei mehr als einem wird eine Gruppenunterhaltung gestartet, daher deaktiviert die Einstellung „1“ Gruppenunterhaltungen. Maximal 50.'
       max_recipients_label: 'Empfänger pro Nachricht'
+      recipient_groups_help: 'Absender, die berechtigt sind, Unterhaltungen mit Gruppen zu starten, können diese Gruppen auswählen. Standardmäßig verfügen nur Administratoren über diese Berechtigung. Das Deaktivieren einer Gruppe an dieser Stelle führt nicht dazu, dass sie aus bestehenden Unterhaltungen entfernt wird. Jeder, der die Gruppenmitgliedschaft verwalten kann, kann Zugriff auf den gesamten Unterhaltungsverlauf gewähren.'
+      recipient_groups_label: 'Gruppen, die Gruppennachrichten empfangen dürfen'
   email:
     message_received:
       html:
@@ -44,8 +50,14 @@ flarum-messages:
       placeholder: 'Schreib eine Nachricht...'
       recipients: Empfänger
       submit_button: 'Nachricht senden'
+      title: 'Neue Nachricht'
       to: 'An:'
+    composer_edit:
+      discard_confirmation: '=> core.forum.composer_edit.discard_confirmation'
+      submit_button: '=> core.ref.save_changes'
+      title: 'Nachricht bearbeiten'
     dialog_list:
+      group_last_message_preview: '{username}: {content}'
       load_more_button: '=> core.ref.load_more'
       mark_as_read_tooltip: 'Als gelesen markieren'
       own_last_message_preview: 'Du: {content}'
@@ -57,11 +69,15 @@ flarum-messages:
       cannot_reply_text: 'Dieser Benutzer kann nicht antworten'
       controls:
         details_button: Details
+        leave_button: 'Unterhaltung verlassen'
+        rename_button: 'Unterhaltung umbenennen'
       controls_toggle_label: Dialogsteuerungsaktionen
       details_modal:
         created_at: Erstellungsdatum
         recipients: Teilnehmer
         title: Konversationsdetails
+      leave_confirmation: 'Diese Unterhaltung verlassen? Dann wirst du sie nicht mehr sehen und auch nicht mehr über neue Nachrichten darin benachrichtigt. Was du geschrieben hast, bleibt für die anderen sichtbar.'
+      members_button: '{count, plural, one {# Mitglied} other {# Mitglieder}}'
     header:
       dropdown_tooltip: Nachrichten
     index:
@@ -70,9 +86,22 @@ flarum-messages:
       latest_button: Neueste
       newest_button: Neueste
       oldest_button: Älteste
+    message:
+      deleted_text: 'Diese Nachricht wurde gelöscht.'
+      edited_text: '=> core.forum.post.edited_text'
+      edited_tooltip: '=> core.forum.post.edited_tooltip'
+      read_status:
+        read_by_everyone_tooltip: 'Von allen gelesen'
+        read_by_some_tooltip: 'Gelesen von {count} von {total}'
+        read_tooltip: Gelesen
+        sent_tooltip: Gesendet
     message_controls:
       delete_button: Löschen
       delete_confirmation: 'Möchtest du diese Nachricht wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden.'
+      delete_forever_button: '=> core.ref.delete_forever'
+      delete_forever_confirmation: 'Möchtest du diese Nachricht wirklich endgültig löschen? Diese Aktion kann nicht rückgängig gemacht werden.'
+      edit_button: '=> core.ref.edit'
+      restore_button: '=> core.ref.restore'
     messages_page:
       cannot_send_message_button: 'Kann keine Nachricht senden'
       empty_text: 'Keine neuen Nachrichten'
@@ -85,19 +114,34 @@ flarum-messages:
       stream:
         load_next_button: 'Nächste Nachrichten laden'
         load_previous_button: 'Vorherige Nachrichten laden'
+        name_removed_text: '{username} hat den Namen der Unterhaltung entfernt'
+        renamed_text: '{username} hat die Unterhaltung „{name}“ benannt'
         start_of_the_conversation: 'Beginn der Unterhaltung'
         time_lapsed_text: '=> core.forum.post_stream.time_lapsed_text'
+        user_left_text: '{username} hat die Unterhaltung verlassen'
       title: Nachrichten
     notifications:
+      message_liked_text: '{username} hat deine Nachricht geliked'
       message_received_text: 'Benachrichtigung über dein Erhalt einer Nachricht von {user}'
+    read_by_modal:
+      title: 'Gelesen von'
     recipient_selection_modal:
       cannot_reply_text: 'Kann nicht auf Nachrichten antworten'
+      groups_heading: Gruppen
+      groups_help: 'Aktuelle und zukünftige Mitglieder dieser Gruppen können die gesamte Unterhaltung lesen. Bis zu 10 Gruppen.'
       title: 'Wähle die Empfänger für diese Nachricht'
+    rename_dialog_modal:
+      help_text: 'Jeder in der Unterhaltung sieht diesen Namen. Lasse das Feld leer, um stattdessen anzuzeigen, wer daran teilnimmt.'
+      name_label: Name
+      submit_button: Speichern
+      title: 'Unterhaltung umbenennen'
     search_source:
       conversation_with: 'Unterhaltung mit {username}'
       heading: Nachrichten
     settings:
+      notify_message_liked_label: 'Jemand liked eine meiner Nachrichten'
       notify_message_received_label: 'Jemand schickt mir eine Nachricht'
+      privacy_disclose_read_receipts_label: 'Anderen anzeigen, wenn ich ihre Nachrichten gelesen habe (und sehen, wann sie meine gelesen haben)'
     user_controls:
       cannot_reply_text: 'Dieser Benutzer kann nicht antworten'
       send_message_button: 'Nachricht senden'

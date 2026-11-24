@@ -12,6 +12,13 @@ flarum-sticky:
   admin:
     permissions:
       sticky_discussions_label: 'Diskussion anheften'
+    sections:
+      excerpts:
+        description: 'Zusätzliche Details, die für ungelesene, angeheftete Diskussionen in der Diskussionsliste angezeigt werden.'
+        label: Diskussions-Auszüge
+      pinning:
+        description: 'Wo angeheftete Diskussionen auf der Seite „Alle Diskussionen“ angezeigt werden.'
+        label: Anheften
     settings:
       enable_display_excerpt: 'Auszug aus dem ersten Beitrag anzeigen, wenn eine angeheftete Diskussion ungelesen ist'
       only_sticky_unread_discussions_help: 'Auf der Seite „Alle Diskussionen“ werden ungelesene angeheftete Diskussionen oben angepinnt, während gelesene angeheftete Diskussionen der regulären Sortierung folgen.'
