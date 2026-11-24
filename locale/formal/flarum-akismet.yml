@@ -12,6 +12,10 @@ flarum-akismet:
       title: Akismet-Einstellungen
     permissions:
       bypass_akismet: 'Akismet umgehen'
+    sections:
+      spam_filtering:
+        description: 'Verbinde dein Akismet-Konto und lege fest, was mit Beiträgen geschehen soll, die als Spam markiert werden.'
+        label: Spam-Filter
   forum:
     post:
       akismet_flagged_text: 'Von Akismet als Spam makiert'

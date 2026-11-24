@@ -2,10 +2,21 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-mentions/de/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+core:
+  email:
+    notification:
+      types:
+        groupMentioned: 'Erwähnungen deiner Gruppen'
+        postMentioned: 'Antworten auf deine Beiträge'
+        userMentioned: 'Erwähnungen von dir'
 flarum-mentions:
   admin:
     permissions:
       mention_groups_label: 'Gruppen erwähnen'
+    sections:
+      format:
+        description: 'Welche Syntax verwendet wird, um ein anderes Mitglied zu erwähnen.'
+        label: 'Format für Erwähnungen'
     settings:
       allow_username_format_label: 'Format für die Erwähnung des Benutzernamens (@Benutzername) zulassen'
       allow_username_format_text: "Das aktuelle Format für Benutzernamen-Erwähnungen ist @\"Anzeigename\"#ID.\nDiese Einstellung erlaubt die Verwendung des alten @Nutzername-Formats, wird beim speichern aber trotzdem in das neue Format konvertiert.\n"
@@ -44,6 +55,7 @@ flarum-mentions:
       user_mentioned_text: '{username} hat dich erwähnt'
     post:
       mentioned_by_more_text: '{count} weitere Antworten.'
+      mentioned_by_self_only_text: '{users} haben hierauf geantwortet.'
       mentioned_by_self_text: '{users} hast auf diesen Beitrag geantwortet.'
       mentioned_by_text: '{users} hat hierauf geantwortet.'
       others_text: '=> core.ref.some_others'

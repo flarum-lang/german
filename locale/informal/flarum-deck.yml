@@ -6,6 +6,10 @@ flarum-deck:
   admin:
     permissions:
       use_deck_label: 'Deck verwenden'
+    sections:
+      columns:
+        description: 'Wie viele Spalten Mitglieder zu ihrem Deck hinzufügen können und wie oft diese Spalten aktualisiert werden.'
+        label: Spalten
     settings:
       max_columns_help: 'Jede Spalte stellt bei jeder Aktualisierung eine separate Anfrage dar. Zwischen 1 und 12.'
       max_columns_label: 'Maximale Anzahl Spalten je Mitglied'
@@ -22,6 +26,7 @@ flarum-deck:
       filter_invalid_message: 'Verwende ausschließlich Filter wie beispielsweise „tag:support is:unread“. Einfache Wörter werden nicht unterstützt.'
       filter_label: Filter
       filter_placeholder: 'z. B. tag:support is:unread'
+      filter_unknown_message: '{count, plural, one {{parts} ist kein Filter für Diskussionen.} other{{parts} sind keine Filter für Diskussionen.}} Verwende Filter wie „tag:support“ oder „is:unread“.'
       group_invalid_message: 'Wähle eine Gruppe.'
       group_label: Gruppe
       in_deck_badge: 'Im Deck'
@@ -34,6 +39,7 @@ flarum-deck:
     column:
       controls_label: '{title} Spaltenoptionen'
       drag_handle_label: 'Zum Verschieben {title} ziehen'
+      edit_button: 'Spalte bearbeiten'
       move_left_button: 'Nach links'
       move_right_button: 'Nach rechts'
       move_to_bottom_row_button: 'In die untere Zeile'
@@ -62,6 +68,10 @@ flarum-deck:
     discussion_controls:
       add_to_deck_button: 'Zum Deck hinzufügen'
       added_message: 'Diese Diskussion ist jetzt eine Spalte in deinem Deck.'
+    edit_column:
+      name_label: Name
+      submit_button: Speichern
+      title: 'Spalte bearbeiten'
     index:
       deck_link: Deck
     page:

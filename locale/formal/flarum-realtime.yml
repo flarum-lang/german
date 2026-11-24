@@ -7,6 +7,16 @@ flarum-realtime:
     permission:
       view-all-typing: 'Anzeigen, wer gerade irgendwo im Forum tippt'
       view-who-types: 'Sehen, wer gerade tippt'
+    sections:
+      discussion-list:
+        description: 'Wie neue Beiträge in die Diskussionsliste gelangen, wenn diese geöffnet ist.'
+        label: Diskussionsliste
+      notifications:
+        description: 'So werden Echtzeit-Benachrichtigungen angezeigt.'
+        label: Benachrichtigungen
+      typing:
+        description: 'Mitgliedern anzeigen, wenn gerade jemand anderes eine Antwort schreibt.'
+        label: Schreibanzeigen
     settings:
       index-typing-indicator: 'Eingabe-Punkte in der Diskussionsliste'
       index-typing-indicator-help: 'Wenn aktiviert, erscheint in der Diskussionsliste ein Symbol für jede öffentlich sichtbare Diskussion, in der gerade jemand einen Beitrag eingibt. Es werden keine Namen angezeigt.'

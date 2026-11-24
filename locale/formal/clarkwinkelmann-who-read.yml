@@ -43,3 +43,8 @@ clarkwinkelmann-who-read:
       last-read-at: '{username} hat {ago} gelesen'
       last-read-at-behind: '{username} hat zuletzt {ago} gelesen und liegt zurück'
       last-read-at-up-to-date: '{username} hat den letzten Beitrag {ago} gelesen'
+  lib:
+    gambits:
+      discussions:
+        readbyeveryone:
+          key: vonjedemgelesen

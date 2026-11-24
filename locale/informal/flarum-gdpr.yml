@@ -50,6 +50,10 @@ flarum-gdpr:
       process_erasure: 'Löschanträge verarbeiten'
       process_export_for_others: 'Datenexporte für andere Benutzer anfordern / empfangen'
       see_anonymized_user_badges: 'Anonymisierte Benutzer-Badges sehen'
+    sections:
+      anonymization:
+        description: 'Wie anonymisierte Mitglieder benannt werden, nachdem ihre Daten gelöscht wurden.'
+        label: Anonymisierung
     settings:
       allow_anonymization: 'Anonymisierung für Löschanfragen zulassen'
       allow_anonymization_help: 'Die Standardeinstellung, die für die meisten Communities empfohlen wird. In diesem Modus bleiben die Beiträge/Kommentare so weit wie möglich erhalten, wie es die Datenschutzgrundverordnung erlaubt, aber alle personenbezogenen Daten werden entfernt.'

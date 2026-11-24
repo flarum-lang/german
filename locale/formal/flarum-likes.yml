@@ -6,6 +6,10 @@ flarum-likes:
   admin:
     permissions:
       like_posts_label: '"Gefällt mir" bei Beiträgen'
+    sections:
+      liking:
+        description: 'Zusätzliche Regeln dafür, wer einen Beitrag mit „Gefällt mir“ markieren darf, zusätzlich zur Berechtigung „‚Gefällt mir‘ bei Beiträgen“.'
+        label: '„Gefällt mir“ bei Beiträgen'
     settings:
       like_own_posts_help: 'Sofern aktiviert, können Benutzer ihre eigenen Beiträge im Forum mit einem ''Gefällt mir'' versehen, wenn sie dazu berechtigt sind. Deaktivieren Sie diese Option, um zu verhindern, dass Benutzer ihre eigenen Beiträge mit einem ''Gefällt mir'' versehen.'
       like_own_posts_label: 'Benutzer können ihre eigenen Beiträge mit ''Gefällt mir'' versehen'

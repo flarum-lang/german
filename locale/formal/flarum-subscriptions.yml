@@ -2,6 +2,11 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-subscriptions/de@formal/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+core:
+  email:
+    notification:
+      types:
+        newPost: 'Neue Beiträge in Diskussionen, denen du folgst'
 flarum-subscriptions:
   email:
     new_post:
@@ -32,10 +37,13 @@ flarum-subscriptions:
     sub_controls:
       follow_button: '=> flarum-subscriptions.ref.follow'
       following_button: '=> flarum-subscriptions.ref.following'
+      following_option: '=> flarum-subscriptions.ref.following'
       following_text: 'Benachrichtigung bei allen Antworten.'
       ignoring_button: '=> flarum-subscriptions.ref.ignoring'
+      ignoring_option: '=> flarum-subscriptions.ref.ignoring'
       ignoring_text: 'Niemals benachrichtigen und in der Liste verstecken.'
       not_following_button: Folgen
+      not_following_option: '=> flarum-subscriptions.forum.sub_controls.not_following_button'
       not_following_text: 'Benachrichtigung nur bei @Erwähnungen.'
       notify_alert_tooltip: 'Benachrichtigung im Forum bei neuen Beiträgen'
       notify_email_tooltip: 'Benachrichtigung per E-Mail bei neuen Beiträgen'

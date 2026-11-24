@@ -4,6 +4,9 @@
 
 ernestdefoe-forum-pet:
   admin:
+    errors:
+      forum_pet_remove_failed: 'Das Bild konnte nicht entfernt werden. Erneut versuchen.'
+      forum_pet_upload_failed: 'Das Bild konnte nicht hochgeladen werden. Erneut versuchen.'
     permissions:
       care: 'Das Forum-Haustier füttern und mit ihm spielen'
       view: 'Forum-Haustier anzeigen'
@@ -13,6 +16,7 @@ ernestdefoe-forum-pet:
       art_remove: Entfernen
       art_replace: Ersetzen
       art_upload: Hochladen
+      corner: 'Kleines Haustier in der Ecke anzeigen, solange die Karte in der Seitenleiste nicht angezeigt wird'
       growth: 'Wie viel Pflege es zur Weiterentwicklung benötigt'
       growth_grow: 'Zum Aufwachsen'
       growth_hatch: 'Zum Schlüpfen'
@@ -24,6 +28,7 @@ ernestdefoe-forum-pet:
       reset: 'Mit einem neuen Ei von Vorne starten'
       reset_confirm: 'Von vorne anfangen? Das Haustier wird wieder in ein Ei zurückverwandelt und die heutige Pflege wird gelöscht. Frühere Pflegemaßnahmen bleiben im Verlauf des Mitglieds erhalten.'
       reset_done: 'Ein neues Ei liegt im Nest.'
+      sidebar: 'Haustierkarte in der Seitenleiste anzeigen'
       skin: Hautton
       species: Tierart
       timezone: 'Zeitzone für den Haustiertag'
@@ -49,14 +54,22 @@ ernestdefoe-forum-pet:
       idle: 'Gut gelaunt'
       sleepy: Schläfrig
   forum:
+    already:
+      feed: 'Du hast {pet} heute bereits gefüttert. Schau morgen noch einmal vorbei!'
     art_label: '{pet}, das Forum-Haustier: {stage}, {mood}'
     banner:
+      adult: '{pet} ist heute gewachsen – vielen Dank an alle, die sich um es gekümmert haben.'
+      baby: '{pet} ist heute geschlüpft! Komm vorbei und sag Hallo.'
       dismiss: Verwerfen
       milestone: 'Wir haben gerade die Marke von {count} Beiträgen überschritten, und {pet} jubelt!'
+      special: '{pet} hat heute seine Spezialform erreicht. Was für eine Community!'
       visit: '{pet} besuchen'
     care:
       feed: Füttern
       play: Spielen
+    carers:
+      none: 'Heute hat noch niemand {pet} besucht.'
+      today: '{count, plural, one {# Betreuer heute} other {# Betreuer heute}}'
     corner:
       close: Schließen
       open: 'Öffne {pet}, das Forum-Haustier'
@@ -66,7 +79,12 @@ ernestdefoe-forum-pet:
     done:
       feed: 'Heute gefüttert'
       play: 'Heute gespielt'
+    error:
+      dismiss: Verwerfen
     grow:
+      aria: 'Wie nah {pet} an der nächsten Stufe ist'
+      complete: '{pet} ist ausgewachsen'
+      count: '{done} / {need}'
       to_adult: 'Bis es aufwächst'
       to_baby: 'Bis es schlüpft'
       to_special: 'Bis zur Spezialform'
@@ -137,6 +155,9 @@ ernestdefoe-forum-pet:
         4: 'Das Ei fühlt sich schon wärmer an. Vielen Dank, {member}!'
       egg_play:
         1: 'Das Ei wackelt fröhlich hin und her. Danke, {member}!'
+        2: 'Tipp tipp! Etwas tippt zurück, {member}.'
+        3: 'Das Ei rollt vor und zurück. Spassig, {member}!'
+        4: 'Ein kleines Spaßknäuel für dich, {member}.'
       feed:
         1: 'Lecker! Danke, {member}!'
         2: 'Mampf, mampf, mampf… Du bist der Beste, {member}!'
