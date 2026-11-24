@@ -6,6 +6,9 @@ ernestdefoe-kudos:
   forum:
     archive:
       title: 'Letzte Wochen'
+    banner:
+      line: '{name} war das Mitglied, dem letzte Woche am häufigsten gedankt wurde, mit {count, plural, one {# Kudos} other {# Kudos}}.'
+      you: 'Du warst das Mitglied, dem letzte Woche am häufigsten gedankt wurde, mit {count, plural, one {# Kudos} other {# Kudos}}. Vielen Dank!'
     card:
       approve: Genehmigen
       from: 'von {name}'
@@ -20,29 +23,58 @@ ernestdefoe-kudos:
       starlight: Sternenlicht
       sunrise: Sonnenaufgang
       tide: Gezeiten
+    errors:
+      kudos_cannot_give: 'Du kannst keine Kudos vergeben.'
+      kudos_confirm_email: 'Bestätige deine E-Mail-Adresse, um Kudos vergeben zu können.'
+      kudos_self: 'Man kann sich selbst kein Lob aussprechen.'
     give:
+      already: 'Diese Woche gedankt'
       change: Ändern
       design: 'Karte auswählen'
+      for_post: 'Für deren Beitrag in „{title}“'
+      left: '{count, plural, one {# of {total} Kudos übrig diese Woche} other {# of {total} Kudos übrig diese Woche}}'
+      no_match: 'Niemand trägt diesen Namen.'
+      none_left: 'Du hast diese Woche bereits alle deine Kudos vergeben. Neue gibt es in {time}.'
+      note: 'Sag, was sie getan haben'
+      note_placeholder: 'Vielen Dank, dass du mir bei der Migration geholfen hast!'
       post_control: 'Kudos geben'
       preview_note: 'Deine Notiz wird hier angezeigt.'
+      preview_receiver: 'Jemand Großartiges'
+      remove_post: 'Beitrag nicht verlinken'
+      search_placeholder: 'Benutzernamen eingeben'
       sent: 'Kudos gesendet an {name}!'
+      sent_pending: 'Dein Kudos an {name} wurde gesendet. Es wird angezeigt, sobald ein Moderator es freigibt.'
       submit: 'Kudos senden'
       title: 'Kudos geben'
+      to: 'Bei wem möchtest du dich bedanken?'
       user_control: 'Kudos geben'
     nav: Kudos-Wand
+    notification:
+      preference_received: 'Jemand gibt mir Kudos'
+      received: '{username} hat dir Kudos gegeben'
     page:
+      description: 'Die Mitglieder danken sich gegenseitig mit ein paar Kudos-Karten pro Woche. Die Danksagungen dieser Woche, das Highlight der letzten Woche und alle Wochen davor.'
       give: 'Kudos geben'
+      lead: 'Bedanke dich bei jemandem, der dir geholfen hat. Jeder bekommt pro Woche ein paar „Kudos“, daher bedeutet jedes einzelne etwas.'
       title: Kudos-Wand
     person:
       former: 'Ehemaliges Mitglied'
       hidden: 'Ein Mitglied'
     profile:
+      empty: 'Noch keine Kudos für {name}.'
+      give: 'Kudos an {name} geben'
       given: '{count, plural, one {vergeben} other {vergeben}}'
+      notes: 'Wofür gedankt wurde'
       received: '{count, plural, one {Kudos erhalten} other {Kudos erhalten}}'
+      spotlight_weeks: 'Wochen im Highlight'
+      spotlights: '{count, plural, one {Woche im Highlight} other {Wochen im Highlight}}'
+      tab: Kudos
       this_week: 'diese Woche'
+      top_givers: 'Am meisten gedankt durch'
     queue:
       title: 'Warte auf Genehmigung'
     spotlight:
+      count: '{count, plural, one {# Mal} other {# Mal}} in der Woche vom {date} gedankt'
       see_kudos: 'Ihre Kudos ansehen'
     wall:
       more: 'Mehr anzeigen'
@@ -51,6 +83,7 @@ ernestdefoe-kudos:
       resets: 'Neue Kudos in {time}'
     week:
       back_to_this_week: 'Aktuelle Woche'
+      count: '{count, plural, =0 {noch kein Dankeschön} one {# Dankeschön} other {# Dankeschöns}}'
       ends: 'endet in {time}'
       newer: 'Neuere Woche'
       older: 'Ältere Woche'
