@@ -5,6 +5,9 @@
 ernestdefoe-renown:
   forum:
     board:
+      period_all: Allzeit
+      period_month: 'Diesen Monat'
+      period_week: 'Diese Woche'
       title: Rangliste
     boost:
       in_tag: 'in {tag}'

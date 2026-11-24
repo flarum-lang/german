@@ -12,6 +12,10 @@ ernestdefoe-syllabus:
       name: Kategoriename
       new: 'Name der neuen Kategorie'
       title: Kurskategorien
+    certificate:
+      heading: 'Gestaltung des Zertifikats'
+      save: 'Design speichern'
+      saved: 'Gestaltung des Zertifikats gespeichert.'
     permissions:
       create: 'Kurse erstellen und leiten (Lehrkraft)'
       enrol: 'Für Kurse anmelden'
@@ -19,6 +23,7 @@ ernestdefoe-syllabus:
       view: 'Kurse anzeigen'
     settings:
       certificate_text: Zertifikatstext
+      certificate_text_help: 'Wird unter dem Kursnamen angezeigt. Verwende {name}, {course}, {date} und {forum}. Lasse das Feld leer, um die Standardeinstellung beizubehalten.'
       discussion_tag: 'Tag für Diskussionen zum Lerninhalt'
       no_tag: 'Ohne Tag'
       show_nav: '„Kurse“ in der Seitenleiste anzeigen'
@@ -56,12 +61,31 @@ ernestdefoe-syllabus:
         mine: 'Meine Kurse'
       title: Kurse
     certificate:
+      back: 'Zurück zum Kurs'
+      copied: 'Link kopiert.'
+      copy_link: 'Verifizierungslink kopieren'
       date: Datum
+      default_text: 'Verliehen von {forum} am {date}.'
+      download: 'Bild herunterladen'
+      for_completing: 'nachfolgenden Kurs abgeschlossen hat:'
+      heading: Abschlusszertifikat
       issued_by: 'Ausgestellt von'
       issued_by_forum: 'Ausgestellt von {forum}.'
+      presented_to: 'Hiermit wird bescheinigt, dass'
+      print: 'Als PDF drucken oder speichern'
+      sample_course: Beispielkurs
+      seal_line1: Kurs
+      seal_line2: Zertifikat
+      share_title: '{name} hat {course} abgeschlossen'
+      title: Abschlusszertifikat
+      verified: 'Verifiziertes Zertifikat'
+      verified_text: '{name} hat {course} am {date} abgeschlossen.'
+      verify_at: 'Überprüfe dieses Zertifikat unter'
     course:
+      by: 'von {name}'
       draft: Entwurf
       restricted: 'Nur für Mitglieder'
+      view_certificate: 'Zertifikat anzeigen'
     difficulty:
       advanced: Fortgeschritten
       beginner: Anfänger
@@ -72,6 +96,8 @@ ernestdefoe-syllabus:
       badge: 'Abzeichen für Abschluss des Kurses'
       badge_help: 'Nach Abschluss des Kurses erhält der Teilnehmer ein Abzeichen über FoF Badges.'
       category: Kategorie
+      certificate: Zertifikat
+      certificate_after_save: 'Kurs speichern, damit du das Zertifikat gestalten kannst.'
       cover: Titelbild
       cover_remove: 'Titelbild entfernen'
       cover_upload: 'Bild hochladen'
@@ -96,9 +122,11 @@ ernestdefoe-syllabus:
       saved: Gespeichert.
       section_title: Abschnittstitel
       summary: Zusammenfassung
+      summary_help: 'Ein oder zwei Sätze für die Kurs-Übersichtskarte.'
       title: Titel
       view: Anzeigen
     lesson:
+      course_done: 'Du hast den Kurs abgeschlossen. Dein Zertifikat ist bereit.'
       open_discussion: 'Diskussion öffnen'
     lesson_editor:
       discussion: Diskussion
@@ -108,6 +136,8 @@ ernestdefoe-syllabus:
       quiz: Quiz
       video: Video
     nav: Kurse
+    notifications:
+      new_lesson: 'Neue Lektion in {course}'
     profile:
       completed: Abgeschlossen
       empty: 'Noch keine Kurse.'
@@ -116,6 +146,8 @@ ernestdefoe-syllabus:
     progress:
       label: '{percent} %'
       lessons: '{done} von {total} Lerneinheiten'
+    settings:
+      show_courses: 'Kurse auf meinem Profil anzeigen'
     teach:
       actions: Aktionen
       completed: Abgeschlossen
@@ -141,8 +173,33 @@ ernestdefoe-syllabus:
     widget:
       all: 'Alle Kurse'
       empty: 'Noch keine Kurse.'
+      heading: Überschrift
       limit: 'Wie viele Kurse'
       title_guest: 'Vorgestellte Kurse'
   lib:
+    designer:
+      background: Hintergrund
+      background_none: 'Papier und Rahmen der Vorlage.'
+      forum_default: Forum-Standard
+      logo: Logo
+      logo_none: 'Das Logo des Forums wird verwendet.'
+      preview_alt: 'Vorschau des Zertifikats'
+      preview_caption: 'Eine Vorschau mit deinem Namen, dem heutigen Datum und einem Beispieltext. Mitglieder sehen ihre eigene Vorschau.'
+      preview_failed: 'Die Vorschau konnte nicht angezeigt werden. Bitte versuche es erneut.'
+      remove: Entfernen
+      replace: Ersetzen
+      signature: Unterschrift
+      signature_none: 'Keine, nur der Name des Unterzeichners.'
+      signer_name: 'Name des Unterzeichners'
+      signer_title: 'Titel des Unterzeichners'
+      template: Vorlage
+      templates:
+        academic: Akademisch
+        classic: Klassisch
+        minimal: Minimalistisch
+        modern: Modern
+      upload: Hochladen
+      uploaded: Hochgeladen
+      using_default: 'Verwendet Forum-Standard'
     kiosk:
       course: Kurs

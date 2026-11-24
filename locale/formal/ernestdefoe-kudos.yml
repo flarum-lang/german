@@ -4,6 +4,31 @@
 
 ernestdefoe-kudos:
   forum:
+    archive:
+      title: 'Letzte Wochen'
+    card:
+      approve: Genehmigen
+      from: 'von {name}'
+      kudos_to: 'Kudos an'
+      thanks_from: 'Dank von'
+      week_of: 'Woche vom {date}'
+      withdraw: Zurücknehmen
+    designs:
+      confetti: Konfetti
+      letterpress: Briefumschlag
+      meadow: Wiese
+      starlight: Sternenlicht
+      sunrise: Sonnenaufgang
+      tide: Gezeiten
+    give:
+      change: Ändern
+      design: 'Karte auswählen'
+      post_control: 'Kudos geben'
+      preview_note: 'Deine Notiz wird hier angezeigt.'
+      sent: 'Kudos gesendet an {name}!'
+      submit: 'Kudos senden'
+      title: 'Kudos geben'
+      user_control: 'Kudos geben'
     nav: Kudos-Wand
     page:
       give: 'Kudos geben'
@@ -11,12 +36,22 @@ ernestdefoe-kudos:
     person:
       former: 'Ehemaliges Mitglied'
       hidden: 'Ein Mitglied'
+    profile:
+      given: '{count, plural, one {vergeben} other {vergeben}}'
+      received: '{count, plural, one {Kudos erhalten} other {Kudos erhalten}}'
+      this_week: 'diese Woche'
     queue:
       title: 'Warte auf Genehmigung'
+    spotlight:
+      see_kudos: 'Ihre Kudos ansehen'
+    wall:
+      more: 'Mehr anzeigen'
     wallet:
+      left: '{count, plural, =0 {Keine Kudos mehr} one {# verbleibende Kudos} other {# verbleibende Kudos}}'
       resets: 'Neue Kudos in {time}'
     week:
       back_to_this_week: 'Aktuelle Woche'
+      ends: 'endet in {time}'
       newer: 'Neuere Woche'
       older: 'Ältere Woche'
       this_week: 'Diese Woche'
