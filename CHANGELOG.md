@@ -7,6 +7,8 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`clarkwinkelmann/flarum-ext-popular-discussion-badge`](https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge) (100% complete)
+* [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read) (96% complete)
 * [`ernestdefoe/community-reviews`](https://github.com/ernestdefoe/community-reviews) (11% complete)
 * [`ernestdefoe/renown`](https://github.com/ernestdefoe/renown) (4% complete)
 
