@@ -31,7 +31,7 @@ CHANGELOG
 * [`flarum/gdpr`](https://github.com/flarum/gdpr) (18 added, 100% complete)
 * [`flarum/likes`](https://github.com/flarum/likes) (4 added, 100% complete)
 * [`flarum/mentions`](https://github.com/flarum/mentions) (12 added, 100% complete)
-* [`flarum/messages`](https://github.com/flarum/messages) (88 added, 89% complete)
+* [`flarum/messages`](https://github.com/flarum/messages) (98 added, 93% complete)
 * [`flarum/nicknames`](https://github.com/flarum/nicknames) (8 added, 100% complete)
 * [`flarum/pusher`](https://github.com/flarum/pusher) (8 added, 100% complete)
 * [`flarum/realtime`](https://github.com/flarum/realtime) (12 added, 100% complete)
