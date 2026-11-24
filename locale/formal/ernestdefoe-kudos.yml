@@ -51,6 +51,7 @@ ernestdefoe-kudos:
     nav: Kudos-Wand
     notification:
       preference_received: 'Jemand gibt mir Kudos'
+      preference_spotlight: 'Ich das wöchentliche Kudos Highlight bin'
       received: '{username} hat dir Kudos gegeben'
     page:
       description: 'Die Mitglieder danken sich gegenseitig mit ein paar Kudos-Karten pro Woche. Die Danksagungen dieser Woche, das Highlight der letzten Woche und alle Wochen davor.'
