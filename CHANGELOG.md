@@ -11,6 +11,8 @@ CHANGELOG
 * [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read) (100% complete)
 * [`ernestdefoe/community-reviews`](https://github.com/ernestdefoe/community-reviews) (11% complete)
 * [`ernestdefoe/renown`](https://github.com/ernestdefoe/renown) (5% complete)
+* [`ernestdefoe/stances`](https://github.com/ernestdefoe/stances) (15% complete)
+* [`ernestdefoe/tier-lists`](https://github.com/ernestdefoe/tier-lists) (1% complete)
 * [`flarum/mcp`](https://github.com/flarum/mcp) (36% complete)
 
 
