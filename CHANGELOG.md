@@ -15,12 +15,18 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`ernestdefoe/fanfare`](https://github.com/ernestdefoe/fanfare) (2 changed, 88% complete)
 * [`ernestdefoe/glimpse`](https://github.com/ernestdefoe/glimpse) (30 added, 54% complete)
 * [`ernestdefoe/kudos`](https://github.com/ernestdefoe/kudos) (118 added, 46% complete)
 * [`ernestdefoe/ladder`](https://github.com/ernestdefoe/ladder) (10 added, 90% complete)
 * [`ernestdefoe/member-desk`](https://github.com/ernestdefoe/member-desk) (134 added, 2 changed, 73% complete)
 * [`ernestdefoe/member-map`](https://github.com/ernestdefoe/member-map) (10 added, 100% complete)
 * [`ernestdefoe/syllabus`](https://github.com/ernestdefoe/syllabus) (104 added, 48% complete)
+* [`flarum/audit`](https://github.com/flarum/audit) (6 added, 97% complete)
+* [`flarum/emoji`](https://github.com/flarum/emoji) (4 added, 100% complete)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (172 added, 33% complete)
+* [`flarum/messages`](https://github.com/flarum/messages) (10 added, 57% complete)
+* [`flarum/statistics`](https://github.com/flarum/statistics) (4 added, 100% complete)
 * [`ramon/canela`](https://github.com/ram0ng1/canela) (19 changed, 95% complete)
 
 
