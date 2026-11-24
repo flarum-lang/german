@@ -54,6 +54,12 @@ flarum-gdpr:
       anonymization:
         description: 'Wie anonymisierte Mitglieder benannt werden, nachdem ihre Daten gelöscht wurden.'
         label: Anonymisierung
+      erasure:
+        description: 'Welche Löschmethoden Mitglieder anfordern können und welche standardmäßig verwendet wird.'
+        label: Löschanfragen
+      overview:
+        description: 'Welche daten exportiert und gelöscht werden, inklusive Daten, die von anderen Erweiterungen erfasst wurden.'
+        label: Datenübersicht
     settings:
       allow_anonymization: 'Anonymisierung für Löschanfragen zulassen'
       allow_anonymization_help: 'Die Standardeinstellung, die für die meisten Communities empfohlen wird. In diesem Modus bleiben die Beiträge/Kommentare so weit wie möglich erhalten, wie es die Datenschutzgrundverordnung erlaubt, aber alle personenbezogenen Daten werden entfernt.'
@@ -145,6 +151,9 @@ flarum-gdpr:
       default_user_action: 'Keine Aktion, wird standardmäßig von der Benutzertabellen-Datenverarbeitung behandelt.'
       discussions:
         export_description: 'Exportiert alle Diskussionen, die der Benutzer begonnen hat. Die Daten beschränken sich auf Titel und Erstellungsdatum.'
+      emailbounceevents:
+        anonymize_description: 'Entfernt die E-Mail-Adresse aus dem Bounce-Verlauf des Benutzers, wobei anonyme Datensätze für statistische Zwecke erhalten bleiben.'
+        delete_description: 'Löscht den Bounce-Verlauf der E-Mail des Benutzers.'
       forum:
         export_description: 'Exportiert den Titel des Forums, die URL, den Benutzernamen, die E-Mail und das aktuelle Datum.'
       no_action: 'Es wurden keine Maßnahmen getroffen.'
