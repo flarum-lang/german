@@ -16,6 +16,8 @@ flarum-audit:
       viewLimited: 'Eingeschränktes Audit-Protokoll anzeigen'
     settings:
       limitedIpAddress: 'IP-Adresse anzeigen'
+    tabs:
+      log: Protokoll
   forum:
     link:
       actor-audit: 'Audit-Protokoll (Benutzer als Akteur)'
@@ -128,6 +130,8 @@ flarum-audit:
         bio_changed: '{username}s Bio bearbeitet'
         created: 'Konto {username} erstellt'
         deleted: 'Hat {username} gelöscht'
+        email_bounced: 'Mail an {username} wurde zurückgewiesen: {reason}'
+        email_bounced_unmatched: 'Mail an {email} (kein dazugehöriges Konto gefunden) wurde zurückgewiesen: {reason}'
         email_change_requested: 'Hat beantragt, die E-Mail von {username} in {new_email} zu ändern'
         email_changed: 'E-Mail von {username} geändert von {old_email} zu {new_email}'
         groups_changed: 'Hat die Gruppen von {username} von {old_groups} in {new_groups} geändert'

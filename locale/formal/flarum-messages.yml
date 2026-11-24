@@ -18,11 +18,19 @@ flarum-gdpr:
 flarum-messages:
   admin:
     permissions:
+      delete_messages_forever_label: 'Nachrichten dauerhaft löschen'
       delete_own_messages_label: 'Eigene Nachrichten löschen'
+      edit_own_messages_label: 'Eigene Nachrichten bearbeiten'
+      message_groups_label: 'Konversationen in Gruppen starten'
       message_users_without_permission_label: 'Nachrichten an Empfänger ohne Nachrichtenberechtigung senden'
       send_messages_label: 'Private Nachrichten senden'
       send_without_throttle_label: 'Nachrichten ohne Drosselung senden'
       view_ips_label: 'IP-Adressen von Nachrichten anzeigen'
+    sections:
+      groups:
+        label: Gruppenkonversationen
+    settings:
+      max_recipients_label: 'Empfänger pro Nachricht'
   email:
     message_received:
       html:

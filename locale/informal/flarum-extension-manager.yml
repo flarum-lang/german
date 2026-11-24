@@ -4,29 +4,57 @@
 
 flarum-extension-manager:
   admin:
+    actions:
+      add: Hinzufügen
+      cancel: Abbrechen
+      remove: Entfernen
+      save: Speichern
     auth_config:
       add_label: 'Neue Authentifizierungsmethode'
       add_modal:
         host_label: Host
         host_placeholder: 'Beispiel: bearer.flarum.org'
+        secret_placeholder: 'Token oder Passwort'
         submit_button: Senden
         token_label: Token
         type_label: Typ
         unchanged_token_placeholder: (unverändert)
+        username_placeholder: Benutzername
+      create_github_token: 'GitHub-Token mit Repo-Scope erstellen'
+      create_gitlab_token: 'GitLab-Zugangstoken erstellen'
       delete_confirmation: 'Bist du sicher, dass du diese Authentifizierungsmethode löschen möchtest?'
       delete_label: 'Authentifizierungsmethode löschen'
       edit_label: 'Authentifizierungsmethode bearbeiten'
       fields:
         host: Host
+        password: Passwort
         token: Token
+        username: Benutzername
+      github_token_note: 'Composer auf {forum}'
+      help: 'Für private Repositorys und kostenpflichtige Marktplätze. Die Daten werden in der Datei „auth.json“ gespeichert, die von Composer gelesen wird und sich außerhalb des Web-Stammverzeichnisses befindet.'
+      hide: Ausblenden
       no_auth_methods_configured: 'Keine Authentifizierungsmethoden konfiguriert. Dies ist eine optionale fortgeschrittene Funktion, um die Installation aus privaten Repositories zu ermöglichen.'
       remove_button_label: 'Authentifizierungsmethode entfernen'
+      remove_host_label: '{name} entfernen'
+      remove_q: 'Entfernen?'
+      show: Anzeigen
+      stat: '{count, plural, one {Host kann sich anmelden} other {Hosts können sich anmelden}}'
+      submit_button: 'Anmeldedaten speichern'
       title: Authentifizierungsmethoden
+      token_stored: 'Token gespeichert'
+      type_help:
+        bearer: 'Marktplätze, die dir einen API-Token zum Zugriff geben'
+        github-oauth: 'Private GitHub-Repositories'
+        gitlab-token: 'GitLab.com oder dein eigenes GitLab'
+        http-basic: 'Private Packagist und ältere Repositorys'
       types:
         bearer: HTTP-Bearer
         github-oauth: 'GitHub OAuth'
         gitlab-oauth: 'GitLab OAuth'
         gitlab-token: 'GitLab Token'
+        http-basic: 'Benutzername & Passwort'
+      username_stored: 'Benutzername {username}'
+      write_only: 'Der Extension Manager zeigt gespeicherte Anmeldedaten niemals an – auch dir nicht. Er zeigt lediglich an, für welche Hosts Anmeldedaten vorhanden sind. Um Anmeldedaten zu ändern, gib den neuen Wert ein; dieser ersetzt den alten.'
     composer:
       add_repository_label: 'Repository hinzufügen'
       delete_repository_confirmation: 'Bist du sicher, dass du dieses Repository löschen willst? Alle daraus installierten Erweiterungen werden entfernt.'
@@ -77,6 +105,12 @@ flarum-extension-manager:
       update_hard_label: Hard-Aktualisierung
       update_soft_label: Soft-Aktualisierung
     file_permissions: "Der Erweiterungsmanager benötigt Lese- und Schreibrechte auf den folgenden Dateien und Verzeichnissen: composer.json, composer.lock, vendor, storage, storage/.composer\n"
+    host:
+      status:
+        fail: Problem
+        ok: OK
+        warn: Warnung
+      title: 'Dieser Host'
     major_updater:
       description: "Große Flarum-Updates sind nicht rückwärtskompatibel, was bedeutet, dass einige deiner derzeit installierten Erweiterungen und manuell durchgeführten Änderungen möglicherweise nicht mit dieser neuen Version funktionieren. Bitte stelle sicher, dass du ein Backup deiner Datenbank und Dateien erstellst, bevor du fortfährst.\n"
       dry_run: Testlauf
@@ -88,7 +122,41 @@ flarum-extension-manager:
       update: Aktualisieren
     minor_update_confirmation:
       content: 'Dadurch werden auch alle anderen Erweiterungen/Pakete mit verfügbaren Updates aktualisiert.'
+    page:
+      try_again: 'Erneut versuchen'
+    release_notes:
+      title: '{name}: was ist neu seit {from}'
     required_php_functions: "Der Erweiterungsmanager erfordert, dass die folgenden PHP-Funktionen aktiviert sind: <code>{functions}</code>. Wenn du keinen Zugriff auf die PHP-Konfiguration hast, wende dich bitte an deinen Hosting-Anbieter.\n"
+    run:
+      dismiss: Verwerfen
+      done: 'Aktualisierung abgeschlossen'
+      failed: 'Aktualisierung abgebrochen'
+      failed_at: 'Abgebrochen während: {step}'
+      failed_at_step: 'Abgebrochen während: {phase} → {step}'
+      phases:
+        apply: 'Dateien werden ausgetauscht'
+        fetch: 'Wird heruntergeladen'
+        finalise: 'Wird abgeschlossen'
+        plan: 'Ermitteln, was sich geändert hat'
+      phases_label: Fortschritt
+      reload_page: 'Seite neu laden'
+      roll_back: 'Diese Aktualisierung rückgängig machen'
+      rolled_back: 'Aktualisierung rückgängig gemacht'
+      rolling_back: 'Wird rückgängig gemacht…'
+      steps:
+        assets: 'Assets veröffentlichen'
+        caches: 'Caches leeren'
+        check_file_permissions: 'Dateiberechtigungen prüfen'
+        code_cache: 'PHP Code-Cache leeren'
+        migrations: 'Datenbank-Migration ausführen'
+        register: 'Composer-Einträge aktualisieren'
+      target:
+        install: '{packages} wird installiert'
+        more: '{shown} und {count} weitere'
+        remove: '{packages} wird entfernt'
+        update: '{packages} wird aktualisiert'
+      working: 'Wird aktualisiert'
+      working_on: '{item} — {index} von {total}'
     sections:
       discover:
         description: 'Füge deinem Flarum-Forum mit Erweiterungen neue Funktionen und Integrationen hinzu.'
@@ -162,14 +230,46 @@ flarum-extension-manager:
       task_retention_days: 'Aufbewahrungstage für Aufgaben'
       task_retention_days_help: "Die Anzahl der Tage, die abgeschlossene Aufgaben in der Datenbank aufbewahrt werden. Ältere Aufgaben werden gelöscht. Setze auf 0, um alle zu behalten.\n"
       title: '=> core.ref.settings'
+    trash:
+      days: Tage
+      keep_days: 'Rollback-Kopien aufbewahren für'
+      keep_runs: 'oder die letzten'
+      last: 'Zuletzt aufgeräumt'
+      last_never: 'Noch nie'
+      last_value: '{when} — {count, plural, =0 {Nichts aufzuräumen} other {# entfernt, {size} freigegeben}}'
+      prune: 'Jetzt aufräumen'
+      pruning: 'Wird aufgeräumt…'
+      runs: Aktualisierungen
+      saved: Gespeichert.
+      size_value: '{size} in {count, plural, one {# Kopie} other {# Kopien}}'
     update_successful: 'Flarum erfolgreich aktualisiert.'
     updater:
+      ago:
+        days: 'vor {count, plural, one {# Tag} other {# Tagen}}'
+        hours: 'vor {count, plural, one {# Stunde} other {# Stunden}}'
+        minutes: 'vor {count, plural, one {# Minute} other {# Minuten}}'
+      banner:
+        dismiss: 'Nicht jetzt'
+        more: 'und {count} weitere'
+        title: '{count, plural, one {# Paket hat} other {# Pakete haben}} eine neuere Version'
       check_for_updates: 'Nach Updates suchen'
+      check_now: 'Jetzt prüfen'
+      checking: 'Wird geprüft…'
+      core:
+        checking: '{count, plural, one {# weitere Erweiterung} other {# weitere Erweiterungen}} werden geprüft…'
+        loading: 'Flarum wird geprüft…'
+        running: 'Dieses Forum verwendet Flarum {version}.'
+        update_to: 'Flarum auf {version} aktualisieren'
+      core_newer: 'Von Flarum selbst gibt es eine neuere Version.'
       flarum: 'Flarum Core'
       global_update_successful: 'Alle Pakete erfolgreich aktualisiert.'
       last_update_checked_at: 'Letzte Überprüfung auf Updates: '
       run_global_update: 'Globale Aktualisierung starten'
+      some_newer: '{count, plural, one {# Erweiterung hat} other {# Erweiterungen haben}} eine neuere Version.'
+      some_newer_and_core: '{count, plural, one {# Erweiterung hat} other {# Erweiterungen haben}} eine neuere Version und von Flarum auch.'
+      starting: 'Wird gestartet…'
       up_to_date: 'Keine ausstehenden Aktualisierungen.'
+      update_all: 'Alle {count} aktualisieren'
       updater_help: 'Führt eine Überprüfung auf neue Erweiterungen und Flarum-Updates durch.'
       updater_title: Aktualisierungen
     why_not_modal:

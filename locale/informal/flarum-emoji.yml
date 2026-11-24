@@ -4,6 +4,10 @@
 
 flarum-emoji:
   admin:
+    sections:
+      images:
+        description: 'Woher die in Beiträgen und im Editor angezeigten Emoji-Bilder geladen werden.'
+        label: Emoji-Bilder
     settings:
       cdn_help: 'z. B. https://cdn.jsdelivr.net/gh/jdecked/twemoji@[version]/assets/ - Die aktuelle Version ist: {version}'
       cdn_label: CDN-Spiegeladresse

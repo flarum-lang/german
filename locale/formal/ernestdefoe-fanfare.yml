@@ -99,7 +99,7 @@ ernestdefoe-fanfare:
       eid_sub: 'Dir und deiner Familie ein gesegnetes Eid.'
       eid_title: 'Eid Mubarak!'
       forum_since: 'Seit {date} · {members, plural, one {# Mitglied} other {# Mitglieder}} · {posts, plural, one {# Beitrag} other {# Beiträge}}'
-      forum_title: 'Alles Gute zum {ordinal}. Geburtstag, {forum}!'
+      forum_title: 'Alles Gute zum {ordinal} Geburtstag, {forum}!'
       halloween_title: 'Happy Halloween!'
       hanukkah_night: '{ordinal}. Nacht · Chag sameach'
       hanukkah_title: 'Frohes Chanukka!'

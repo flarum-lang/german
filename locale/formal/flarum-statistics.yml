@@ -23,7 +23,9 @@ flarum-statistics:
       last_7_days_label: 'Letzte 7 Tage'
       loading: '=> core.ref.loading'
       mini_heading: Forum-Statistiken
+      new_during_label: 'Neu während'
       no_data: 'Für diesen Datumsbereich sind keine Daten verfügbar.'
+      period_toggle_accessible_label: 'Zeitraum für neue Einträge auswählen'
       posts_heading: '=> core.ref.posts'
       previous_28_days_label: 'Vorherige 28 Tage'
       previous_7_days_label: 'Vorherige 7 Tage'
