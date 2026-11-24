@@ -8,12 +8,14 @@ ernestdefoe-ladder:
       add: 'Einen Rang hinzufügen'
       edit: Bearbeiten
       empty: 'Es gibt noch keine Ränge. Füge den ersten hinzu – in der Regel einen Rang, der bei 0 Beiträgen beginnt, damit jedes Mitglied vom Tag seines Beitritts an einen hat.'
+      empty_level: 'Noch keine Ränge. Füge den ersten hinzu – in der Regel einen Rang, der bei Stufe 1 beginnt, damit jedes Mitglied vom Tag seines Beitritts an einen hat.'
       empty_money: 'Noch keine Ränge. Füge den ersten hinzu, beispielsweise ein VIP-Rang bei 1000 Money.'
       empty_points: 'Noch keine Ränge. Füge den ersten hinzu – in der Regel einen Rang, der bei 0 Punkten beginnt, sodass jedes Mitglied vom Tag seines Beitritts an einen hat.'
       existing_group: 'Vorhandene Gruppe'
       has_image: 'Hat ein Bild auf dem Banner'
       heading: 'Die Rangliste'
       help: 'Jeder Rang entspricht einer Gruppe mit einer bestimmten Beitragsschwelle. Mitglieder gehören genau einem Rang an, nämlich dem höchsten, den ihre Beitragszahl freischaltet, und ihre anderen Gruppen bleiben davon unberührt.'
+      help_level: 'Jede Rang entspricht einer Gruppe mit einer Mindestanforderung an die Renown-Stufe. Mitglieder nehmen genau einen Rang ein, nämlich den höchste, den sie erreicht haben, und ihre anderen Gruppen bleiben davon unberührt.'
       help_money: 'Jeder Rang entspricht einer Gruppe mit einem Money-Schwellenwert. Die Mitglieder gehören genau einem Rang an, nämlich der höchsten, die ihr Kontostand jemals erreicht hat, und ihre anderen Gruppen bleiben davon unberührt.'
       help_points: 'Jeder Rang entspricht einer Gruppe mit einer bestimmten Punkteschwelle. Die Mitglieder gehören genau einem Rang an, nämlich der höchsten, die sie mit ihren Punkten erreicht haben, und ihre anderen Gruppen bleiben davon unberührt.'
       hidden_group: 'Ausgeblendete Gruppe. Mitglieder sehen diesen Rang nicht.'
@@ -21,7 +23,9 @@ ernestdefoe-ladder:
       preview: Bannervorschau
       preview_help: 'Diese Information wird aus der obigen Rangliste übernommen und oben auf der Seite „Ränge“ angezeigt. Weise einem Rang ein Bild zu, um es anstelle des Symbols zu verwenden.'
       range: '{min}–{max} Beiträge'
+      range_level: 'Stufe {min}–{max}'
       range_open: '{min}+ Beiträge'
+      range_open_level: 'Stufe {min}+'
       range_open_points: '{min}+ Punkte'
       range_points: '{min}–{max} Punkte'
     metric:
@@ -34,6 +38,7 @@ ernestdefoe-ladder:
       points: Ranglisten-Punkten
       points_note: 'Der Rang eines Mitglieds wird bei jeder Nutzung des Forums – höchstens alle zwei Minuten – anhand seiner Punkte überprüft, sodass auch Punkte berücksichtigt werden, die es während seiner Abwesenheit sammelt, wie beispielsweise Likes für Beiträge.'
       posts: Beiträgen
+      renown: Renown-Stufe
       switched: 'Die Rangliste wird nun nach {metric} ermittelt, und alle wurden neu eingestuft. Überprüfe, ob die unten aufgeführten Schwellenwerte dafür noch sinnvoll sind.'
       votes: Gamification-Punkten
     modal:

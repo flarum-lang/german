@@ -102,7 +102,7 @@ linkrobins-wiki:
       title: 'Artikel melden'
     search:
       all_button: 'Durchsuche das Wiki für "{query}"'
-      empty: 'Keine Artikel gefunden "{query}"'
+      empty: 'Keine Artikel gefunden für „{query}“.'
       heading: Wiki
       placeholder: 'Wiki durchsuchen'
       results_heading: 'Ergebnisse für "{query}"'
@@ -635,7 +635,7 @@ ramon-canela:
         print_title: 'Diskussion drucken'
         print_topic_enabled_help: 'Lädt alle Beiträge in einer übersichtlichen Ansicht ohne Seitenleiste, Kopfbereich oder Zeitleiste und öffnet den Druckdialog des Browsers, der auch als PDF speichern kann.'
         print_topic_enabled_label: 'Eintrag „Drucken“ im Diskussionsmenü'
-        search_notice: 'Die Filter können auch direkt in die Suche eingegeben werden: in:title, in:likes, in:bookmarks und min-posts:5, zusätzlich zu Flarums eigenen Filtern wie author:, tag: und is:locked…'
+        search_notice: 'Die Filter können auch direkt in die Suche eingegeben werden: in:title, in:likes, in:bookmarks und min-posts:5, zusätzlich zu Flarums eigenen Filtern (author:, tag:, is:locked…).'
         search_page_enabled_help: 'Eine Seite /search mit Tabs für Diskussionen, Beiträge, Tags und Nutzer, erweiterten Filtern (Verfasser, primärer Tag, Tags, nur Titel, Gefällt-mir-Angaben, Status, Datum, Mindestbeitragszahl) und Sortierung. Der Suchdialog erhält den Link „Erweiterte Suche“.'
         search_page_enabled_label: 'Erweiterte Suchseite'
         search_title: Suchseite
@@ -1342,7 +1342,7 @@ ramon-canela:
     badges:
       admired:
         description: 'Auf 300 Beiträgen jeweils 5 Gefällt-mir-Angaben erhalten'
-        long_description: 'Dieses Abzeichen erhältst du, wenn 300 verschiedene Beiträge von dir jeweils mindestens 5 Gefällt-mir-Angaben erhalten haben. Die Community bewundert deine regelmäßigen und hochwertigen Beiträge!'
+        long_description: 'Dieses Abzeichen erhältst du, wenn 300 verschiedene Beiträge von dir jeweils mindestens 5 Gefällt-mir-Angaben erhalten haben. Die Community bewundert deine regelmäßigen und hochwertigen Beiträge.'
         name: Bewundert
       aficionado:
         description: 'An 100 aufeinanderfolgenden Tagen besucht'
@@ -1378,7 +1378,7 @@ ramon-canela:
         name: Bearbeiter
       empathetic:
         description: '500 mit „Gefällt mir“ markierte Beiträge und 1000 Gefällt-mir-Angaben vergeben'
-        long_description: 'Dieses Abzeichen erhältst du, wenn 500 deiner Beiträge mit „Gefällt mir“ markiert wurden und du selbst mindestens 1000 Gefällt-mir-Angaben vergeben hast. Du bist ein Vorbild für Großzügigkeit und gegenseitige Wertschätzung!'
+        long_description: 'Dieses Abzeichen erhältst du, wenn 500 deiner Beiträge mit „Gefällt mir“ markiert wurden und du selbst mindestens 1000 Gefällt-mir-Angaben vergeben hast. Du bist ein Vorbild für Großzügigkeit und gegenseitige Wertschätzung.'
         name: Einfühlsam
       enthusiast:
         description: 'An 10 aufeinanderfolgenden Tagen besucht'
@@ -1422,7 +1422,7 @@ ramon-canela:
         name: 'Gute Diskussion'
       great_post:
         description: '50 Gefällt-mir-Angaben für eine Antwort erhalten'
-        long_description: 'Dieses Abzeichen erhältst du, wenn deine Antwort 50 Gefällt-mir-Angaben bekommt. Sie war inspirierend, faszinierend, lustig oder aufschlussreich und hat die Community begeistert!'
+        long_description: 'Dieses Abzeichen erhältst du, wenn deine Antwort 50 Gefällt-mir-Angaben bekommt. Deine Beiträge waren inspirierend, faszinierend, lustig oder aufschlussreich und haben die Community begeistert.'
         name: 'Großartige Antwort'
       great_topic:
         description: '50 Gefällt-mir-Angaben für eine Diskussion erhalten'
@@ -1550,7 +1550,7 @@ ramon-canela:
       helper:
         changes: Änderungsvorschläge
         confirm: Bestätigen
-        copied: Kopiert!
+        copied: Kopiert
         copy: Kopieren
         custom_prompt_placeholder: 'Eigene Anweisung eingeben…'
         custom_prompt_submit: 'Anweisung senden'
@@ -1560,7 +1560,7 @@ ramon-canela:
         generate_titles: 'Diskussionstitel vorschlagen'
         loading: 'KI erstellt die Antwort'
         markdown_table: 'Markdown-Tabelle erstellen'
-        no_content_error: 'Füge zuerst Inhalt hinzu, um KI-Aktionen darauf anzuwenden'
+        no_content_error: 'Füge zuerst Inhalt hinzu, um KI-Aktionen darauf anzuwenden.'
         no_suggestions: 'Keine Vorschläge verfügbar'
         proofread: 'Text Korrektur lesen'
         regen: 'Erneut versuchen'
@@ -1832,7 +1832,7 @@ ramon-canela:
         input_placeholder: 'Beschreibung hinzufügen'
       channel_edit_name_slug_modal:
         input_placeholder: 'Namen hinzufügen'
-        slug_description: 'Die URL-Kennung wird in der Adresse anstelle des Kanalnamens verwendet'
+        slug_description: 'Der Teil des Kanal-Links, der anstelle des Namens verwendet wird. Verwende Kleinbuchstaben, Zahlen und Bindestriche.'
         slug_label: URL-Kennung
       channel_info:
         back_to_channel: Zurück
@@ -1934,7 +1934,7 @@ ramon-canela:
       ignore_channel_wide_mention:
         description: 'Erwähnungen mit @here und @all benachrichtigen dich nicht.'
         title: 'Kanalweite Erwähnungen ignorieren'
-      invalid_access: 'Du hast keinen Zugriff auf diesen Chatkanal'
+      invalid_access: 'Dieser Kanal ist zugangsbeschränkt. Bitte wende dich an die Administratoren des Kanals, um Zugang zu erhalten.'
       join: Beitreten
       last_visit: 'letzter Besuch'
       link_copied: 'Link in die Zwischenablage kopiert'
@@ -2033,7 +2033,7 @@ ramon-canela:
         indefinitely_long_plain: 'Nachrichten in diesem Kanal werden dauerhaft aufbewahrt.'
         long: '{count, plural, one {Nachrichten in diesem Kanal werden # Tag aufbewahrt.} other {Nachrichten in diesem Kanal werden # Tage aufbewahrt.}}'
       retry_staged_message:
-        action: 'Erneut senden?'
+        action: 'Erneut versuchen'
         title: Netzwerkfehler
       save: Speichern
       scroll_to_bottom: 'Nach unten scrollen'
@@ -2099,8 +2099,8 @@ ramon-canela:
       unpin_message: 'Nachricht lösen'
       upload: 'Datei anhängen'
       upload_errors:
-        failed: fehlgeschlagen
-        too_large: 'zu groß'
+        failed: 'Das Hochladen ist fehlgeschlagen. Bitte versuche es erneut.'
+        too_large: 'Datei ist zu groß. Bitte wähle eine kleinere.'
       upload_to_channel: 'In {title} hochladen'
       you: du
     community:

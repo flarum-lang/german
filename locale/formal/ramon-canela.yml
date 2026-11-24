@@ -635,7 +635,7 @@ ramon-canela:
         print_title: 'Diskussion drucken'
         print_topic_enabled_help: 'Lädt alle Beiträge in einer übersichtlichen Ansicht ohne Seitenleiste, Kopfbereich oder Zeitleiste und öffnet den Druckdialog des Browsers, der auch als PDF speichern kann.'
         print_topic_enabled_label: 'Eintrag „Drucken“ im Diskussionsmenü'
-        search_notice: 'Die Filter können auch direkt in die Suche eingegeben werden: in:title, in:likes, in:bookmarks und min-posts:5, zusätzlich zu Flarums eigenen Filtern wie author:, tag: und is:locked…'
+        search_notice: 'Die Filter können auch direkt in die Suche eingegeben werden: in:title, in:likes, in:bookmarks und min-posts:5, zusätzlich zu Flarums eigenen Filtern (author:, tag:, is:locked…).'
         search_page_enabled_help: 'Eine Seite /search mit Tabs für Diskussionen, Beiträge, Tags und Nutzer, erweiterten Filtern (Verfasser, primärer Tag, Tags, nur Titel, Gefällt-mir-Angaben, Status, Datum, Mindestbeitragszahl) und Sortierung. Der Suchdialog erhält den Link „Erweiterte Suche“.'
         search_page_enabled_label: 'Erweiterte Suchseite'
         search_title: Suchseite
@@ -1342,7 +1342,7 @@ ramon-canela:
     badges:
       admired:
         description: 'Auf 300 Beiträgen jeweils 5 Gefällt-mir-Angaben erhalten'
-        long_description: 'Dieses Abzeichen erhältst du, wenn 300 verschiedene Beiträge von dir jeweils mindestens 5 Gefällt-mir-Angaben erhalten haben. Die Community bewundert deine regelmäßigen und hochwertigen Beiträge!'
+        long_description: 'Dieses Abzeichen ehalten Sie, wenn 300 verschiedene Beiträge von Ihnen jeweils mindestens 5 Gefällt-mir-Angaben erhalten haben. Die Community bewundert Ihre regelmäßigen und hochwertigen Beiträge.'
         name: Bewundert
       aficionado:
         description: 'An 100 aufeinanderfolgenden Tagen besucht'
@@ -1378,7 +1378,7 @@ ramon-canela:
         name: Bearbeiter
       empathetic:
         description: '500 mit „Gefällt mir“ markierte Beiträge und 1000 Gefällt-mir-Angaben vergeben'
-        long_description: 'Dieses Abzeichen erhältst du, wenn 500 deiner Beiträge mit „Gefällt mir“ markiert wurden und du selbst mindestens 1000 Gefällt-mir-Angaben vergeben hast. Du bist ein Vorbild für Großzügigkeit und gegenseitige Wertschätzung!'
+        long_description: 'Dieses Abzeichen erhalten Sie, wenn 500 Ihrer Beiträge mit „Gefällt mir“ markiert wurden und Sie selbst mindestens 1000 Gefällt-mir-Angaben vergeben haben. Sie sínd ein Vorbild für Großzügigkeit und gegenseitige Wertschätzung.'
         name: Einfühlsam
       enthusiast:
         description: 'An 10 aufeinanderfolgenden Tagen besucht'
@@ -1422,7 +1422,7 @@ ramon-canela:
         name: 'Gute Diskussion'
       great_post:
         description: '50 Gefällt-mir-Angaben für eine Antwort erhalten'
-        long_description: 'Dieses Abzeichen erhältst du, wenn deine Antwort 50 Gefällt-mir-Angaben bekommt. Sie war inspirierend, faszinierend, lustig oder aufschlussreich und hat die Community begeistert!'
+        long_description: 'Dieses Abzeichen erhalten Sie, wenn Ihre Antwort 50 Gefällt-mir-Angaben bekommt. Sie war inspirierend, faszinierend, lustig oder aufschlussreich und hat die Community begeistert.'
         name: 'Großartige Antwort'
       great_topic:
         description: '50 Gefällt-mir-Angaben für eine Diskussion erhalten'
@@ -1560,7 +1560,7 @@ ramon-canela:
         generate_titles: 'Diskussionstitel vorschlagen'
         loading: 'KI erstellt die Antwort'
         markdown_table: 'Markdown-Tabelle erstellen'
-        no_content_error: 'Füge zuerst Inhalt hinzu, um KI-Aktionen darauf anzuwenden'
+        no_content_error: 'Geben Sie etwas in den Editor ein, um die KI zu nutzen.'
         no_suggestions: 'Keine Vorschläge verfügbar'
         proofread: 'Text Korrektur lesen'
         regen: 'Erneut versuchen'
@@ -1832,7 +1832,7 @@ ramon-canela:
         input_placeholder: 'Beschreibung hinzufügen'
       channel_edit_name_slug_modal:
         input_placeholder: 'Namen hinzufügen'
-        slug_description: 'Die URL-Kennung wird in der Adresse anstelle des Kanalnamens verwendet'
+        slug_description: 'Der Teil des Kanal-Links, der anstelle des Namens verwendet wird. Verwenden Sie Kleinbuchstaben, Zahlen und Bindestriche.'
         slug_label: URL-Kennung
       channel_info:
         back_to_channel: Zurück
@@ -2100,7 +2100,7 @@ ramon-canela:
       upload: 'Datei anhängen'
       upload_errors:
         failed: 'Hochladen fehlgeschlagen. Versuchen Sie es erneut.'
-        too_large: 'zu groß'
+        too_large: 'Datei zu groß. Bitte wählen Sie eine kleinere.'
       upload_to_channel: 'In {title} hochladen'
       you: du
     community:
