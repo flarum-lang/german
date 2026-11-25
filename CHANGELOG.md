@@ -15,7 +15,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
-* [`ernestdefoe/sticker-book`](https://github.com/ernestdefoe/sticker-book) (22 added, 77% complete)
+* [`ernestdefoe/sticker-book`](https://github.com/ernestdefoe/sticker-book) (28 added, 8 changed, 79% complete)
 * [`flarum/messages`](https://github.com/flarum/messages) (16 added, 100% complete)
 * [`forumaker/friendship`](https://github.com/forumaker/Friendship) (4 added, 100% complete)
 * [`forumfortress/flarum`](https://github.com/forum-fortress/flarum) (14 added, 100% complete)
