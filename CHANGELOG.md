@@ -8,8 +8,17 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`ernestdefoe/duskline`](https://github.com/ernestdefoe/duskline) (100% complete)
+* [`ernestdefoe/question-of-the-day`](https://github.com/ernestdefoe/question-of-the-day) (25% complete)
 * [`flarum/ai`](https://github.com/flarum/ai) (22% complete)
 * [`flarum/oauth-provider`](https://github.com/flarum/oauth-provider) (60% complete)
+
+
+**Updated translations for extensions**:
+
+* [`flarum/messages`](https://github.com/flarum/messages) (16 added, 100% complete)
+* [`forumaker/friendship`](https://github.com/forumaker/Friendship) (4 added, 100% complete)
+* [`forumfortress/flarum`](https://github.com/forum-fortress/flarum) (14 added, 100% complete)
+* [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest) (14 added, 100% complete)
 
 
 All changes: [2.0.35...2.0.36](https://github.com/flarum-lang/german/compare/2.0.35...2.0.36).
