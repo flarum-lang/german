@@ -64,7 +64,7 @@ ernestdefoe-sticker-book:
       filter:
         all: Alle
         missing: Fehlend
-        spares: Doppelt
+        spares: Doppelte
       no_sets: 'Es gibt noch keine sammelbaren Aufkleber.'
       progress_label: '{have} von {total} gesammelt'
     board:
@@ -74,7 +74,7 @@ ernestdefoe-sticker-book:
     hero:
       complete: fertig
       earn_more: 'Poste etwas und sammle Likes, um zusätzliche Packs zu verdienen.'
-      intro: 'Sammle Aufkleber, vervollständige dein Album und handle mit deinen Duplikaten.'
+      intro: 'Sammle Aufkleber, vervollständige dein Album und handle mit deinen Doppelten.'
       next_in: 'Nächstes kostenloses Pack {time}'
       odds: 'Wahrscheinlichkeiten im Pack'
       open_daily: 'Öffne das heutige kostenlose Pack'
@@ -124,12 +124,12 @@ ernestdefoe-sticker-book:
       pack_label: Aufkleberpack
       see_album: 'Mein Album ansehen'
       summary_new: '{count, plural, one {# neuer Aufkleber für dein Album!} other {# neue Aufkleber für dein Album!}}'
-      summary_none: 'Diesmal gibt es keine Neuen, aber die Ersatzaufkleber eignen sich hervorragend zum Tauschen.'
+      summary_none: 'Diesmal gibt es keine Neuen, aber die Doppelten eignen sich hervorragend zum Tauschen.'
       tap: 'Pack antippen, um es zu öffnen'
     sticker:
       ask: '{name} nach einer Doppelten fragen'
       find_spare: 'Jemanden mit einer Doppelten finden'
-      no_spares: 'Davon hat noch niemand ein Doppeltes Exemplar. Öffnet weiter die Packs!'
+      no_spares: 'Davon hat noch niemand ein doppeltes Exemplar. Öffnet weiter Packs!'
       offer_spare: 'Jemandem eine Doppelte anbieten'
       propose: 'Tausch vorschlagen'
       spare_count: '{count, plural, one {# Doppelte} other {# Doppelte}}'
@@ -173,5 +173,8 @@ ernestdefoe-sticker-book:
   lib:
     errors:
       sticker_post_not_found: 'Dieser Beitrag ist nicht verfügbar.'
+      sticker_trade_empty: 'Wähle mindestens eine deiner Doppelten als Angebot.'
+      sticker_trade_no_spares: 'Du hast keine Doppelten mehr.'
       sticker_trade_self: 'Du kannst nicht mit dir selbst tauschen.'
+      sticker_trade_they_have_no_spares: 'Sie haben diese nicht mehr als Doppelte.'
       sticker_trade_unavailable: 'Dieses Mitglied darf keine Aufkleber tauschen.'
