@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+2.0.36 (XXXX-XX-XX)
+-------------------
+
+**Added support for new extensions**:
+
+* [`ernestdefoe/duskline`](https://github.com/ernestdefoe/duskline) (100% complete)
+* [`flarum/ai`](https://github.com/flarum/ai) (22% complete)
+* [`flarum/oauth-provider`](https://github.com/flarum/oauth-provider) (60% complete)
+
+
+All changes: [2.0.35...2.0.36](https://github.com/flarum-lang/german/compare/2.0.35...2.0.36).
+
+
 2.0.35 (2026-11-24)
 -------------------
 
