@@ -55,6 +55,8 @@ forumfortress-flarum:
       test_success: 'Verbindungstest erfolgreich abgeschlossen.'
       unknown: Unbekannt
     settings:
+      add_detected_proxy: 'Erkannten Proxy hinzufügen'
+      advanced_proxy_settings: 'Erweiterte Einstellungen für Reverse-Proxy'
       allow_global_fallback_help: 'Wenn ein regionaler Wiederholungsversuch fehlschlägt, aktiviere das globale Netzwerk. Die Verarbeitung kann außerhalb der ausgewählten Region erfolgen.'
       allow_global_fallback_label: 'Globales Notfall-Fallback zulassen'
       api_base_url_label: 'API-Basis-URL prüfen'
@@ -72,8 +74,11 @@ forumfortress-flarum:
       enabled_label: 'Schutz durch Forum Fortress aktivieren'
       fail_open_help: 'Wird für den Normalbetrieb empfohlen, damit die Benutzer bei einem Netzwerkausfall nicht ausgesperrt werden.'
       fail_open_label: 'Anfragen erlauben, auch wenn Forum Fortress nicht verfügbar ist'
+      forwarded_ip_header_help: 'Nachdem du vertrauenswürdige Proxys konfiguriert hast, wählst du den Header aus, den dein Proxy setzt. Bei der automatischen Erkennung werden nacheinander die Header „X-Forwarded-For“, „Forwarded“, „X-Real-IP“, „CF-Connecting-IP“ und „True-Client-IP“ geprüft. Konfiguriere den Proxy so, dass eingehende Werte ersetzt oder bei Listen-Headern der verifizierte Peer angehängt wird.'
+      forwarded_ip_header_label: 'IP-Header des weitergeleiteten Clients'
       preferred_endpoint_help: 'Wird automatisch ausgefüllt, wenn Bootstrap einen regionalen Endpunkt auswählt.'
       preferred_endpoint_label: 'Bevorzugter Edge-Endpunkt'
+      proxy_hint: 'Diese Verbindung stammt von {address} mit {header}. Füge diese Adresse hinzu, wenn sie zu einem Proxy gehört, den du verwaltest.'
       region_eu: 'Nur Europäische Union'
       region_global: 'Global - Empfohlen'
       region_uk: 'Nur Vereinigtes Königreich'
@@ -85,3 +90,5 @@ forumfortress-flarum:
       repeat_offender_unavailable: 'Nicht verfügbar: Installiere und aktiviere die kompatible Flarum-Erweiterung „Suspend“. Es wird keine Kontoaktion ersetzt. Der Flarum-Scheduler muss jede Minute ausgeführt werden.'
       send_ham_label: 'Wiederhergestellte Beiträge als Ham melden'
       timeout_label: 'Zeitlimit für die Anfrage in Sekunden'
+      trusted_proxies_help: 'Gib die IP-Adressen oder CIDR-Bereiche deiner vertrauenswürdigen Proxys durch Kommas getrennt ein. Bei der Standardauswahl für Header und einem leeren Feld überprüft Forum Fortress die unterstützten Header, wenn die Verbindung von einer lokalen oder reservierten Adresse stammt.'
+      trusted_proxies_label: 'Vertrauenswürdige Reverse-Proxys'

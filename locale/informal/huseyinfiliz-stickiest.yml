@@ -2,6 +2,15 @@
 # Use https://weblate.rob006.net/projects/flarum2/huseyinfiliz-stickiest/de/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      discussion:
+        super_stickied: 'Diskussion {discussion} als „besonders wichtig“ markiert'
+        super_unstickied: 'Diskussion {discussion} nicht mehr als „besonders wichtig“ markiert'
+        tag_stickied: 'Gepinntes Tag für Diskussion {discussion} aktiviert'
+        tag_sticky_tags_changed: 'Gepinntes Tag für Diskussion {discussion} geändert'
+        tag_unstickied: 'Gepinntes Tag für Diskussion {discussion} deaktiviert'
 huseyinfiliz-stickiest:
   admin:
     permissions:
@@ -61,3 +70,6 @@ huseyinfiliz-stickiest:
     super_sticky: 'Besonders wichtig'
     super_tag_sticky: 'Besonders wichtiges Thema'
     tag_sticky: 'Gepinntes Thema'
+  validation:
+    invalid_tag_ids: 'Die IDs der Sticky-Tags müssen eine Liste eindeutiger positiver Ganzzahlen sein.'
+    unrelated_tags: 'Sticky-Tags müssen zu dieser Diskussion gehören.'

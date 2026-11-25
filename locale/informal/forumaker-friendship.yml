@@ -55,6 +55,7 @@ forumaker-friendship:
       load_more: 'Mehr laden'
       title: Anfrageverlauf
     notifications:
+      accepted_text: '{name} hat deine Freundschaftsanfrage angenommen'
       declined_text: '{name} hat deine Freundschaftsanfrage abgelehnt'
       removed_text: '{name} hat dich aus der Freundesliste entfernt'
       requested_text: '{name} möchte dich als Freund hinzufügen'
@@ -84,6 +85,7 @@ forumaker-friendship:
     settings:
       notify_declined_label: 'Jemand lehnt meine Freundschaftsanfrage ab'
       notify_removed_label: 'Jemand entfernt mich aus der Freundesliste'
+      notify_request_accepted_label: 'Jemand nimmt meine Freundschaftsanfrage an'
       notify_requested_label: 'Jemand schickt mir eine Freundschaftsanfrage'
       section_label: Freunde
       show_in_posts: 'Anzahl der Freunde neben dem Avatar in Beiträgen anzeigen'

@@ -2,11 +2,21 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-messages/de/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+core:
+  email:
+    notification:
+      types:
+        messageReceived: 'An dich gesendete Nachrichten'
 flarum-audit:
   lib:
     browser:
       dialog:
+        group_posted: 'Hat eine private Nachricht an die Gruppe {group_id} gesendet'
+        group_started: 'Hat eine private Unterhaltung mit Gruppe {group_id} gestartet'
+        message_deleted: 'Hat eine private Nachricht von {username} endgültig gelöscht'
         message_edited: 'Hat eine private Nachricht von {username} bearbeitet'
+        message_hidden: 'Hat eine private Nachricht von {username} gelöscht'
+        message_restored: 'Hat eine private Nachricht von {username} wiederhergestellt'
         posted: 'Hat eine private Nachricht an {username} gesendet'
         started: 'Hat eine private Unterhaltung mit {username} begonnen'
 flarum-gdpr:
@@ -40,6 +50,7 @@ flarum-messages:
       recipient_groups_label: 'Gruppen, die Gruppennachrichten empfangen dürfen'
   email:
     message_received:
+      group_subject: '{user_display_name} hat dir eine Nachricht geschickt und {count, plural, one {einem weiteren} other {# weiteren}}'
       html:
         body: "{user_display_name} hat dir eine [neue Nachricht]({url}) gesendet.\n\nDu erhältst keine weiteren E-Mails zu dieser Unterhaltung, bis du diese gelesen hast.\n"
       plain:
@@ -156,6 +167,7 @@ flarum-messages:
     recipient_cannot_reply_message: '{username} kann nicht auf Nachrichten antworten.'
     recipient_unavailable_message: '{username} kann keine Nachrichten empfangen.'
     too_many_groups_message: 'Eine Nachricht darf an maximal {count} Gruppen gehen.'
+    too_many_recipients_message: '{count, plural, one {Eine Nachricht kann nur an ein Mitglied gesendet werden.} other {Eine Nachricht kann an höchstens # Mitglieder gesendet werden.}}'
 flarum-statistics:
   admin:
     statistics:
