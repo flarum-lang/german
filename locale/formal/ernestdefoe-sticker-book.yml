@@ -21,14 +21,17 @@ ernestdefoe-sticker-book:
       art: Aufkleber-Bild
       badge_option: 'Abzeichen verleihen: {name}'
       badge_tag: 'Abzeichen: {name}'
+      badges_help: 'Mit FoF Badges kannst du Abzeichen an Mitglieder zuweisen, wenn sie ein Satz vervollständigen.'
       cancel: Abbrechen
       delete: Löschen
+      delete_set_confirm: 'Den Satz „{name}“ und alle darin enthaltenen Sticker löschen? Mitglieder verlieren sie aus ihren Alben. Dies kann nicht rückgängig gemacht werden.'
       description: 'Beschreibung (optional)'
       edit: Bearbeiten
       gift_help: 'Gib einem Mitglied ein extra Pack, bspw. als Preise für Wettbewerbe oder auf Veranstaltungen. Sie werden nicht für das Tageslimit mitgezählt.'
       gift_send: 'Packs geben'
       gift_title: 'Packs ausgeben'
       gift_username: Benutzername
+      help: 'Die Mitglieder sammeln die Sticker Satz für Satz. Ein verstecktes Satz ist in keinem Päckchen und in keinem Album enthalten, sodass du es als Erstes zusammenstellen kannst. Lade Bilder im PNG-, WebP- oder JPEG-Format hoch (PNG oder WebP mit transparentem Hintergrund sehen am besten aus); jedes Bild wird in der Größe angepasst und als WebP gespeichert.'
       hidden: Verborgen
       move_down: 'Nach unten'
       move_up: 'Nach oben'
@@ -39,15 +42,22 @@ ernestdefoe-sticker-book:
       save: Speichern
       sticker_count: '{count, plural, one {# Aufkleber} other {# Aufkleber}}'
       title: 'Sätze und Aufkleber'
+      visible: 'Diesen Satz Mitgliedern anzeigen'
     settings:
+      first_post: 'Ein Zusatzpack für Mitglieder bei ihrem ersten Beitrag des Tages'
+      guarantee_rare: 'Mindestens ein seltener Aufkleber pro Pack'
+      guarantee_rare_help: 'Der letzte Aufkleber eines Packs ist selten oder besser, wenn alle anderen häufig sind.'
       nav: 'Sammelalbum in der Seitenleiste anzeigen'
       odds: 'Auftrittswahrscheinlichkeiten in Packs'
       odds_common: Häufig
       odds_epic: Episch
+      odds_help: 'Wie oft jede Seltenheitsstufe pro Packung vorkommt, in Prozent. Die Werte müssen nicht unbedingt zusammen 100 ergeben; sie dienen als Gewichtung.'
       odds_legendary: Legendär
       odds_rare: Selten
       pack_size: 'Aufkleber in einem Pack'
       pity: 'Garantie für legendär'
+      reactions: 'Mitglieder dürfen Sticker auf Beiträge anwenden'
+      reactions_help: 'Jedes Mitglied darf einen Aufkleber aus seinem eigenen Album auf einen Beitrag kleben.'
   forum:
     album:
       complete: Abgeschlossen
@@ -147,6 +157,7 @@ ernestdefoe-sticker-book:
       cancel: Zurückziehen
       decline: Ablehnen
       incoming: 'Tauschangebote für dich'
+      intro: 'Tausche deine Doppelten mit anderen Mitgliedern. Dein Album behält immer mindestens ein Exemplar.'
       new: 'Neuer Tausch'
       none_incoming: 'Keine Angebote warten auf dich.'
       nothing: 'Nichts (ein Geschenk)'
