@@ -10,7 +10,7 @@ CHANGELOG
 * [`ernestdefoe/duskline`](https://github.com/ernestdefoe/duskline) (100% complete)
 * [`ernestdefoe/question-of-the-day`](https://github.com/ernestdefoe/question-of-the-day) (25% complete)
 * [`flarum/ai`](https://github.com/flarum/ai) (22% complete)
-* [`flarum/oauth-provider`](https://github.com/flarum/oauth-provider) (60% complete)
+* [`flarum/oauth-provider`](https://github.com/flarum/oauth-provider) (67% complete)
 
 
 **Updated translations for extensions**:
