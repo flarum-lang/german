@@ -15,6 +15,9 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`ernestdefoe/buzz`](https://github.com/ernestdefoe/buzz) (48 added, 80% complete)
+* [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (86 added, 2 changed, 96% complete)
+* [`ernestdefoe/onramp`](https://github.com/ernestdefoe/onramp) (24 added, 48% complete)
 * [`ernestdefoe/sticker-book`](https://github.com/ernestdefoe/sticker-book) (28 added, 8 changed, 65% complete)
 * [`flarum/messages`](https://github.com/flarum/messages) (16 added, 100% complete)
 * [`forumaker/friendship`](https://github.com/forumaker/Friendship) (4 added, 100% complete)
