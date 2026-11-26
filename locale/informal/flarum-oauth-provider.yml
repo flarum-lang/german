@@ -66,12 +66,19 @@ flarum-oauth-provider:
   forum:
     connected_apps:
       connected: Verbunden
+      empty: 'Du hast noch keine Anwendungen verbunden.'
       from_host: 'von {host}'
       heading: 'Verbundene Anwendungen'
+      help_text: 'Anwendungen, denen du die Nutzung deines Kontos gestattet hast, wie beispielsweise KI-Assistenten. Wenn du einer davon die Berechtigung entziehst, wird diese Anwendung abgemeldet. Wenn du dich überall abmeldest oder dein Passwort änderst, werden alle Verbindungen zu diesen Anwendungen getrennt.'
       last_used: 'Zuletzt verwendet'
       never_used: Nie
       revoke_all_button: 'Alle widerrufen'
       revoke_button: Widerrufen
     consent:
+      approve_button: Genehmigen
       deny_button: Abbrechen
       from_host: 'von {host}'
+      intro: 'Hallo {username}, {client} möchte auf dein Konto zugreifen.'
+      redirect_host: 'Nach deiner Entscheidung wirst du zu {host} geschickt.'
+      scopes_heading: 'Dadurch wird es in die Lage versetzt:'
+      title: 'Anwendung genehmigen'
