@@ -4,6 +4,12 @@
 
 ernestdefoe-buzz:
   admin:
+    display_seconds_label: 'Sekunden, die jedes Ereignis auf dem Bildschirm bleibt'
+    hide_composing_label: 'Benachrichtigungen zurückhalten, während das Mitglied einen Beitrag verfasst'
+    mask_names_help: 'Zeigt Namen als „M…n“ statt als „Max Mustermann“ an und deaktiviert den Link zum Profil des Mitglieds. Der vollständige Name verlässt deinen Server zu keinem Zeitpunkt.'
+    mask_names_label: 'Namen etwas anonymisieren'
+    max_toasts_help: 'Wie viele Benachrichtigungen gleichzeitig auf dem Desktop angezeigt werden. Auf Handys wird immer nur eine auf einmal angezeigt.'
+    max_toasts_label: 'Toasts, die gleichzeitig auf dem Bildschirm sind'
     offset_x_label: 'Abstand zur Seite (px)'
     offset_y_label: 'Abstand von der Unterseite (px)'
     pages:
@@ -13,18 +19,34 @@ ernestdefoe-buzz:
     profile_link_label: 'Benutzernamen mit Profil verlinken'
     sections:
       delivery: Zustellung
+      display: Erscheinungsbild
+      events: 'Was gesendet werden soll'
       privacy: Datenschutz
     show_avatar_label: 'Avatare anzeigen'
     show_username_label: 'Benutzernamen anzeigen'
     side:
       left: 'Unten links'
       right: 'Unten rechts'
+    side_label: 'Position der Toast-Benachrichtung'
+    style:
+      ticker: 'Ticker oben'
+      toast: 'Toast-Benachrichtigung unten'
     style_label: Darstellung
+    ticker_mode:
+      marquee: 'Marquee (fortlaufender Text)'
+      slide: 'Nach unten einfahren (einer nach dem anderen)'
+    ticker_mode_label: Tickermodus
     types:
       badge: 'Abzeichen erworben (FoF Badges)'
+      collection: 'Artikel, die zu Sammlungen hinzugefügt wurden (Curio)'
       discussion: 'Neue Diskussionen'
       member: 'Neue Mitglieder (sobald sie ihre E-Mail bestätigt haben)'
+      purchase: 'Einkäufe im Shop (Client Area)'
+      quest: 'Onboarding-Aufgabe abgeschlossen (Onramp)'
+      quiz: 'Quiz bestanden (Brainstorm)'
+      rank: 'Rang-Aufstiege (Ladder)'
       reply: 'Neue Antworten'
+      streak: 'Serien-Meilensteine (Cadence)'
   forum:
     close: Schließen
     event:
@@ -42,4 +64,8 @@ ernestdefoe-buzz:
     more: '{count, plural, one {+# weiteres} other {+# weitere}}'
     settings:
       heading: Echtzeit-Aktivität
+      mute_help: 'Zeige auf der Seite keine Aktivitäten anderer Personen mehr an.'
+      mute_label: 'Live-Aktivitäts-Feed ausblenden'
+      share_help: 'Deine neuen Beiträge, Antworten und Erfolge können anderen Mitgliedern sofort angezeigt werden, sobald sie veröffentlicht werden.'
+      share_label: 'Meine Aktivität in Buzz anzeigen'
     someone: Jemand

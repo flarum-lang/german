@@ -4,6 +4,12 @@
 
 ernestdefoe-curio:
   admin:
+    badges:
+      any_type: 'Alle Typen'
+      collections: 'Curio: Sammlungen erstellt'
+      items: 'Curio: Artikel in Sammlungen'
+      type: 'Curio Sammlungs-Typ'
+      type_help: 'Es werden nur Sammlungen dieses Typs gezählt. Dies gilt für alle Curio-Bedingungen dieses Abzeichens. Artikel auf der Wunschliste werden niemals gezählt.'
     kind:
       bool: 'Ja / Nein'
       date: Datum
@@ -13,11 +19,17 @@ ernestdefoe-curio:
       text: Text
     permissions:
       create: 'Sammlungen erstellen, Artikel und Fotos hinzufügen'
+      edit_items: 'Artikel in der Sammlung anderer Nutzer hinzufügen, bearbeiten und entfernen'
+      export: 'Sammlungen als Spreadsheets exportieren'
+      import: 'Spreadsheets in ihre Sammlungen importieren'
       moderate: 'Sammlungen von jedem entfernen und hervorheben'
       view: 'Sammlungen anzeigen'
     settings:
+      barcodelookup_help: 'Ein kostenpflichtiger Dienst, der nach den kostenlosen Angeboten und vor eBay genutzt wird, um fehlende Barcodes zu ermitteln. Die Tarife beginnen bei etwa 99 US-Dollar pro Monat für 5.000 Abfragen; eine Abfrage, die keine Ergebnisse liefert, wird nicht gezählt, und auf derselben Seite wird ein kostenloser Testschlüssel angeboten. Curio liest nur den Produktnamen aus (die Bilder und Beschreibungen gehören Dritten und werden niemals verwendet), speichert einen Namen einen Tag lang und führt höchstens 200 Abfragen pro Tag durch, 25 pro Mitglied.'
       barcodelookup_label: 'barcodelookup.com API-Schlüssel (optional, kostenpflichtig)'
       barcodelookup_link: 'barcodelookup.com Abonnements und API-Schlüssel'
+      barcodes_help: 'Mitglieder können einen Barcode oder eine ISBN einscannen oder eingeben, um den Titel zu finden, den sie hinzufügen möchten. Ist diese Funktion deaktiviert, wird die Schaltfläche „Scannen“ ausgeblendet, eine in das Suchfeld eingegebene Nummer wird als Titel gesucht, und das Forum fragt überhaupt nicht nach einem Barcode-Dienst.'
+      barcodes_label: 'Barcode-Scannen und Abfragen'
       collector_color_help: 'Die Farbe des Symbols und die des Textes. Leer gelassen wird die gedämpfte Textfarbe des Forums verwendet.'
       collector_color_label: 'Farbe des Sammler-Abzeichens (optional)'
       collector_icon_help: 'Ein Font Awesome-Symbol, wie beispielsweise „fas fa-boxes-stacked“ oder „fas fa-gem“.'
@@ -38,10 +50,17 @@ ernestdefoe-curio:
       deepl_help: 'Wenn es in einer Sprache keine Beschreibung auf Wikipedia gibt, übersetzt DeepL die englische Version. Kostenlose Schlüssel enden auf „:fx“.'
       deepl_label: 'DeepL-Schlüssel (optional)'
       deepl_link: 'Schlüssel holen'
+      eansearch_help: 'Eine kostenpflichtige Datenbank mit rund 1,3 Milliarden Barcodes, die nach barcodelookup.com und vor eBay ins Leben gerufen wurde. Die Tarife beginnen bei etwa 19 € pro Monat für 5.000 Abfragen, mit einem Probemonat für 1 € mit 100 Abfragen (einmal pro Person); jede Abfrage zählt, unabhängig davon, ob ein Treffer gefunden wird oder nicht. Curio stellt Abfragen in der Sprache des Forums, speichert einen Namen einen Monat lang und ein Fehltreffer eine Woche lang und führt maximal 200 Abfragen pro Tag durch, 25 pro Mitglied. Dein Token wird nach der Anmeldung in deinem EAN-Search-Konto angezeigt.'
       eansearch_label: 'EAN-Search.org API-Token (optional, kostenpflichtig)'
       eansearch_link: 'EAN-Search Abonnements und Registrierung'
       ebay_app_label: 'eBay App-ID (Client-ID) (optional)'
       ebay_cert_label: 'eBay Cert-ID (Client Secret)'
+      ebay_help: 'Für Barcodes, die UPCitemdb und Open Icecat nicht kennen, ermöglicht ein kostenloses eBay-Entwicklerkonto Curio, eBay abzufragen, wo fast jedes verpackte Produkt gelistet ist. Melde dich an (oder tritt dem eBay-Entwicklerprogramm bei), öffne „Anwendungsschlüssel“ und erstelle einen Produktionsschlüsselsatz (beliebiger Name). Öffne neben dem Schlüsselsatz den Bereich „Benachrichtigungen“ und aktiviere unter „Löschung des Marktplatzkontos“ die Ausnahme „Keine eBay-Daten speichern“: Curio speichert nur den ausgelesenen Produktnamen und den Barcode, niemals Angebote, Verkäufer oder Käufer. Kopiere hier die App-ID und die Zertifikats-ID. eBay wird zuletzt abgefragt, höchstens 1.000 Mal pro Tag; dessen Fotos werden nicht verwendet.'
+      ebay_market_auto: 'Sprache des Forums folgen'
+      ebay_market_help: 'Die eBay-Website, in deren Angeboten der Barcode angegeben ist. Standardmäßig richtet sich dies nach der Sprache des Forums (Französisch → eBay Frankreich, Deutsch → eBay Deutschland, britisches Englisch → eBay UK, andernfalls eBay US).'
+      ebay_market_label: 'eBay-Seite, die angefragt werden soll'
+      editions_help: 'Mit „Marquee“ wird bei einer „Deluxe“--, „Ultimate“- oder „Game of the Year“-Edition sowie bei einem DLC die spielinterne Diskussion geöffnet (oder eine solche für das Spiel gestartet), sodass sich Besitzer aller Editionen an einem Ort austauschen können. Erweiterungen, eigenständige Erweiterungen, Remakes und Bundles behalten ihre eigenen Diskussionen bei. Es werden die IGDB-eigenen Verknüpfungen zwischen einem Spiel und seinen Editionen verwendet.'
+      editions_label: 'Editionen und DLCs werden in der Diskussion zum jeweiligen Spiel behandelt'
       hide_empty_help: 'Standardmäßig deaktiviert, sodass auf der Seite „Sammlungen“ alle aktivierten Typen angezeigt werden, ebenso wie auf der Seite „Tags“ alle Tags; eine leere Seite lädt dazu ein, eine erste Sammlung anzulegen. Ist die Option aktiviert, werden nur Typen angezeigt, die bereits Einträge enthalten (alle, solange das Forum noch keine Einträge enthält).'
       hide_empty_label: 'Feldtypen verbergen, wenn sie leer sind'
       igdb_docs: '(Anleitung von IGDB)'
@@ -50,6 +69,7 @@ ernestdefoe-curio:
       igdb_link: 'Twitch-Anwendung erstellen'
       igdb_secret_label: 'IGDB Client-Secret'
       latest_label: '„Neueste Änderungen“ anzeigen'
+      layout_compact: 'Kompakte Registerkarten (eine Reihe kleiner Schaltflächen)'
       layout_covers: Titelbildkacheln
       layout_help: 'Wie jeder Typ auf der Sammlungsseite angezeigt wird.'
       layout_label: 'Seitenlayout der Sammlungen'
@@ -59,12 +79,17 @@ ernestdefoe-curio:
       ranking_both: Beides
       ranking_collections: Top-Sammlungen
       ranking_collectors: Top-Sammler
+      ranking_help: 'Was auf der Seite „Sammlungen“ unterhalb der vorgestellten Sammlungen anzeigt wird: die Sammlungen mit den meisten Objekten, die Mitglieder, die am meisten sammeln (Avatar, Sammlungen, besessene Objekte und Wunschliste, sortiert nach besessenen Objekten) oder beides.'
+      ranking_label: 'Ranglisten auf der Sammlungsseite'
       shortcut_both: 'Seitenleiste und Benutzermenü'
       shortcut_help: 'Wo Mitglieder einen Link zu ihren eigenen Sammlungen finden.'
       shortcut_label: '„Meine Sammlungen“-Verknüpfung'
       shortcut_menu: 'Nur Benutzermenü'
       shortcut_none: 'Nirgends (Profil → Sammlungen funktioniert weiterhin)'
       shortcut_sidebar: 'Nur Seitenleiste'
+      type_color_background: 'Als Hintergrund der Registerkarte'
+      type_color_help: 'Bei kompakten Registerkarten kann die Farbe des jeweiligen Typs entweder die gesamte Registerkarte ausfüllen oder nur das Symbol und den Namen einfärben.'
+      type_color_label: 'Farbe der kompakten Registerkarten'
       type_color_text: 'Nur auf Symbol und Namen'
       upc_help: 'Das Scannen von Barcodes funktioniert ganz ohne Schlüssel. Bücher werden bei Open Library und Musikalben bei Deezer und MusicBrainz abgefragt. Spiele, Filme und andere Produkte werden bei UPCitemdb (kein Schlüssel, 100 pro Tag, am besten geeignet für nordamerikanische Verpackungen) und Open Icecat (kein Schlüssel, am besten geeignet für europäische Verpackungen: Spiele, Konsolen, Elektronik, Spielzeug) abgefragt. Jeder Barcode, den das Forum auflöst oder den ein Mitglied manuell zuordnet, wird gespeichert, sodass nie zweimal danach gefragt werden muss. Ein kostenpflichtiger UPCitemdb-Schlüssel erhöht lediglich das Tageslimit von UPCitemdb; die meisten Foren benötigen keinen.'
       upc_label: 'UPCitemdb-Schlüssel (optional)'
@@ -123,7 +148,7 @@ ernestdefoe-curio:
       'off': Aus
       'on': An
       progress: 'Fortschritt verfolgen'
-      progress_help: 'Jeder Artikel kann als „Noch nicht begonnen“, „In Bearbeitung“, „Abgeschlossen“ oder „Aufgegeben“ markiert werden: ein Symbol auf dem Artikel und ein Filter auf der Sammlungsseite. Praktisch für eine Liste mit noch zu spielenden Spielen, noch zu lesenden Büchern oder noch anzusehenden Filmen.'
+      progress_help: 'Jeder Artikel kann als „Noch nicht begonnen“, „In Bearbeitung“, „Abgeschlossen“, „Zurückgestellt“ oder „Aufgegeben“ markiert werden: ein Symbol auf dem Artikel und ein Filter auf der Sammlungsseite. Praktisch für eine Liste mit noch zu spielenden Spielen, noch zu lesenden Büchern oder noch anzusehenden Filmen.'
       remove_choice: 'Auswahlmöglichkeit entfernen'
       remove_field: 'Detail entfernen'
       save: 'Typ speichern'
@@ -157,8 +182,10 @@ ernestdefoe-curio:
       body: 'Hallo {recipient_display_name}, {owner} hat etwas in {name}, einer Sammlung, der du folgst, entweder begonnen, abgeschlossen oder aufgegeben.'
       subject: 'Fortschritt in {name}'
     rating_changed:
+      body: 'Hallo {recipient_display_name}, {owner} hat etwas in {name} bewertet, einer Sammlung, der du folgst.'
       subject: 'Neue Bewertungen in {name}'
     wishlist_added:
+      body: 'Hallo {recipient_display_name}, {owner} hat der Wunschliste von {name} – einer Sammlung, der du folgst – etwas hinzugefügt.'
       subject: 'Neu auf der Wunschliste von {name}'
   forum:
     browse:
@@ -167,23 +194,33 @@ ernestdefoe-curio:
       change_rating: '{name} hat {title} bewertet'
       collector: Mitglied
       collector_collections: Sammlungen
+      collector_owned: 'Im Besitz'
       collector_wishlist: Wunschliste
       collectors: Top-Sammler
       featured: 'Hervorgehobene Sammlungen'
       largest: Top-Sammlungen
+      latest: 'Letzte Änderungen'
       lead: '{items, plural, one {# Artikel} other {# Artikel}} in Sammlungen von {members, plural, one {# Mitglied} other {# Mitgliedern}}.'
       more: Mehr
       most_owned_owners: Mitglieder
       most_owned_title: Titel
       no_results: 'Keine Treffer.'
       none: 'Hier gibt es noch keine Sammlungen.'
+      none_owned: 'Noch nichts hinzugefügt.'
+      none_progress: 'Noch kein Fortschritt erfasst.'
+      none_ratings: 'Noch nichts bewertet.'
+      none_wishlist: 'Noch keine Artikel auf der Wunschliste.'
       owned_by: '{count, plural, one {# Mitglied} other {# Mitglieder}}'
       recent: 'Kürzlich hinzugefügt'
       results: 'Ergebnisse für „{q}“'
       search: 'Alle Sammlungen durchsuchen…'
       tab_collectors: Top-Sammler
+      tab_owned: 'Im Besitz'
+      tab_progress: Status
+      tab_ratings: Bewertungen
       tab_wishlist: Wunschliste
       title: Sammlungen
+      types: 'Arten von Sammlungen'
     card_condition:
       damaged: 'Beschädigt (DMG)'
       heavily_played: 'Heavily Played (HP)'
@@ -258,12 +295,16 @@ ernestdefoe-curio:
       members: '{count, plural, one {# Mitglied hat es} other {# Mitglieder haben es}}'
       open_item: 'Artikel öffnen'
       view_in: 'In der Sammlung von {name} ansehen'
+    hours:
+      label: Stunden
+      short: '{hours} h'
     item:
       about: Übersicht
       acquired: Erworben
       cancel: Abbrechen
       choose_collection: 'Welche Sammlung?'
       choose_new: 'Neue Sammlung…'
+      choose_none: 'Du hast noch keine Sammlungen. Erstelle eine, dann landet das hier direkt darin.'
       condition: Zustand
       developer: Entwickler
       discussed: 'Hier diskutiert'
@@ -316,6 +357,7 @@ ernestdefoe-curio:
       by_hand: 'Händisch hinzufügen'
       by_title: 'Stattdessen nach Titel suchen'
       camera_error: 'Die Kamera konnte nicht gestartet werden. Du kannst den Barcode stattdessen eingeben.'
+      card_hint: 'Grenze die Suche anhand des Sets und der Kartennummer ein: Goomy 195, Goomy 195/264, Goomy fst 195, Lightning Bolt 2x2 117, einen Druckcode wie LOB-EN001 oder eine Promo-Karte wie Tatsugiri 201/SV-P. Wähle neben der Suche die Kartensprache aus; der englische Name eines Pokémon findet dessen Karten in jeder Sprache (Tatsugiri findet シャリタツ).'
       card_language: 'Sprache der Karte'
       choose: Wählen…
       condition: Zustand
@@ -382,7 +424,9 @@ ernestdefoe-curio:
       progress_changed: '{username} hat etwas in {name} begonnen, abgeschlossen oder aufgegeben'
       progress_changed_setting: 'Etwas wurde in einer Sammlung, der ich folge entweder begonnen, abgeschlossen oder aufgegeben'
       rating_changed: '{username} hat etwas in {name} bewertet'
+      rating_changed_setting: 'Ein Artikel wird bewertet in einer Sammlung, der ich folge'
       wishlist_added: '{username} Zur Wunschliste von {name} hinzugefügt'
+      wishlist_added_setting: 'Etwas landet auf der Wunschliste einer Sammlung, der ich folge'
     page:
       add_item: 'Artikel hinzufügen'
       arrange: Anordnen
@@ -445,6 +489,7 @@ ernestdefoe-curio:
       in_progress: 'In Bearbeitung'
       label: Fortschritt
       none: 'Nicht festgelegt'
+      on_hold: Zurückgestellt
       pending: 'Nicht begonnen'
     showoff:
       composer: '{title} zur Schau gestellt'

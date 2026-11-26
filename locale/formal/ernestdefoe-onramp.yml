@@ -36,6 +36,7 @@ ernestdefoe-onramp:
       badge: Abzeichen
       count: 'Wie oft'
       delete: 'Schritt löschen'
+      delete_confirm: '„{title}“ löschen? Fortschritte von Mitgliedern verschwinden ebenfalls.'
       description: Beschreibung
       drag: 'Zum Neuanordnen ziehen'
       edit: 'Schritt bearbeiten'
@@ -99,13 +100,20 @@ ernestdefoe-onramp:
     widget:
       title: 'Dein Fortschritt'
   lib:
+    errors:
+      count: 'Verwende eine Zahl zwischen 1 und 1000.'
+      points: 'Verwende eine Anzahl an Punkten zwischen 0 und 100000.'
+      too_long: 'Das ist zu lang.'
     types:
       avatar:
         button: 'Ein Foto hinzufügen'
         description: 'Füge ein Profilbild hinzu, damit man dich im Forum wiedererkennt.'
         title: 'Verbinde deinen Namen mit einem Gesicht'
+      best_answer:
+        button: 'Finde eine Frage'
       bio:
         button: 'Schreibe deine Biografie'
+        description: 'Ein oder zwei Zeilen in deiner Biografie helfen anderen dabei, zu verstehen, mit wem sie es zu tun haben.'
         title: 'Erzähle etwas über dich'
       discussion:
         button: 'Beginne eine Diskussion'
@@ -114,6 +122,12 @@ ernestdefoe-onramp:
         button: 'Meine E-Mail-Einstellungen überprüfen'
         description: 'Bestätige deine E-Mail-Adresse, damit du keine Antwort oder Erwähnung verpasst.'
         title: 'Bestätige deine E-Mail-Adresse'
+      follow_discussion:
+        button: 'Finde eine Diskussion'
+        title: '{count, plural, one {Folge einer Diskussion} other {Folge # Diskussionen}}'
+      follow_tag:
+        button: 'Tags ansehen'
+        title: '{count, plural, one {Folge einem Tag} other {Folge # Tags}}'
       like_given:
         title: '{count, plural, one {Like einen Beitrag} other {Like # Beiträge}}'
       mention:
@@ -125,12 +139,16 @@ ernestdefoe-onramp:
         button: 'Anzeigenamen festlegen'
         description: 'Wähle den Namen aus, der neben deinen Beiträgen angezeigt werden soll.'
         title: 'Wähle einen Anzeigenamen'
+      poll_vote:
+        button: 'Finde eine Umfrage'
       read:
         button: 'Diskussionen durchsuchen'
         title: '{count, plural, one {Lies eine Diskussion} other {Lies # Diskussionen}}'
       reply:
         button: 'Finde eine Diskussion'
         title: '{count, plural, one {Antworte in einer Diskussion} other {Antworte # Mal}}'
+      streak:
+        button: 'Serien ansehen'
       upload:
         button: 'Finde eine Diskussion'
       visit:
