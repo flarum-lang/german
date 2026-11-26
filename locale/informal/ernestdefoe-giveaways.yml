@@ -5,9 +5,20 @@
 ernestdefoe-giveaways:
   api:
     category_name_required: 'Kategoriename ist erforderlich.'
+    ends_future: 'Das Ende muss in der Zukunft liegen.'
+    ends_required: 'Ein gültiges Enddatum / gültige Endzeit ist erforderlich.'
+    enter_login: 'Du musst angemeldet sein, um teilnehmen zu können.'
     prize_required: 'Preis ist erforderlich.'
     title_required: 'Titel ist erforderlich.'
   forum:
     active_heading: 'Jetzt aktiv'
+    ended: Beendet
+    ends_in: 'Endet in {time}'
+    entrants: '{count} Teilnehmer'
     form:
       cancel: Abbrechen
+    heading: Gewinnspiele
+    nav: Gewinnspiele
+    page_title: Gewinnspiele
+    past_heading: 'Vergangene Gewinnspiele'
+    starts_in: 'Beginnt in {time}'
