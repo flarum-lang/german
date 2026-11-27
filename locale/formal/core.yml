@@ -354,7 +354,7 @@ core:
       delete_button: '=> core.ref.delete'
       delete_confirmation: 'Möchten Sie diese Diskussion wirklich löschen?'
       delete_forever_button: '=> core.ref.delete_forever'
-      log_in_to_reply_button: 'Anmelden zum Antworten'
+      log_in_to_reply_button: 'Antworten (Anmelden)'
       rename_button: '=> core.ref.rename'
       reply_button: '=> core.ref.reply'
       restore_button: '=> core.ref.restore'
