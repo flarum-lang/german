@@ -7,7 +7,7 @@ CHANGELOG
 
 **General changes**:
 
-* Updated Flarum core translations (60 added, 2 changed).
+* Updated Flarum core translations (156 added, 3 changed).
 
 
 **Added support for new extensions**:
@@ -15,20 +15,30 @@ CHANGELOG
 * [`ernestdefoe/duskline`](https://github.com/ernestdefoe/duskline) (100% complete)
 * [`ernestdefoe/question-of-the-day`](https://github.com/ernestdefoe/question-of-the-day) (25% complete)
 * [`flarum/ai`](https://github.com/flarum/ai) (22% complete)
-* [`flarum/oauth-provider`](https://github.com/flarum/oauth-provider) (67% complete)
+* [`flarum/oauth-provider`](https://github.com/flarum/oauth-provider) (76% complete)
 
 
 **Updated translations for extensions**:
 
 * [`ernestdefoe/buzz`](https://github.com/ernestdefoe/buzz) (48 added, 80% complete)
 * [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (86 added, 2 changed, 96% complete)
+* [`ernestdefoe/festoon`](https://github.com/ernestdefoe/festoon) (24 added, 2 changed, 100% complete)
 * [`ernestdefoe/giveaways`](https://github.com/ernestdefoe/giveaways) (22 added, 5% complete)
+* [`ernestdefoe/hero-builder`](https://github.com/ernestdefoe/hero-builder) (8 added, 100% complete)
 * [`ernestdefoe/onramp`](https://github.com/ernestdefoe/onramp) (24 added, 48% complete)
 * [`ernestdefoe/sticker-book`](https://github.com/ernestdefoe/sticker-book) (28 added, 8 changed, 62% complete)
 * [`flarum/messages`](https://github.com/flarum/messages) (16 added, 100% complete)
+* [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change) (2 added, 100% complete)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) (2 added, 100% complete)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) (2 changed, 100% complete)
+* [`fof/mailtrap-mail`](https://github.com/FriendsOfFlarum/mailtrap-mail) (6 added, 100% complete)
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa) (22 added, 100% complete)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha) (2 added, 100% complete)
 * [`forumaker/friendship`](https://github.com/forumaker/Friendship) (4 added, 100% complete)
 * [`forumfortress/flarum`](https://github.com/forum-fortress/flarum) (14 added, 100% complete)
 * [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest) (14 added, 100% complete)
+* [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer) (8 added, 100% complete)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor) (6 added, 12 changed, 100% complete)
 
 
 All changes: [2.0.35...2.0.36](https://github.com/flarum-lang/german/compare/2.0.35...2.0.36).
