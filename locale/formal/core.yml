@@ -88,8 +88,26 @@ core:
         driver_options:
           default: Standard-Datenbanksuche
         driver_text: 'Wähle einen Treiber, der für die Suche nach diesem Modell verwendet werden soll.'
+        min_length_help: 'Die Anzahl der Zeichen, die bei einer Suche eingegeben werden müssen, bevor Ergebnisse geladen werden. Der Standardwert ist 3. Niedrigere Werte eignen sich für Sprachen mit kurzen Wörtern, wie Chinesisch, Japanisch oder Koreanisch, führen jedoch zu einer weniger genauen Übereinstimmung. Bei der standardmäßigen wortbasierten Suche von MySQL/MariaDB werden bei der Suche in Diskussionen und Beiträgen keine Wörter gefunden, die kürzer sind als die minimale Wortlänge der Datenbank (standardmäßig 3), es sei denn, die CJK-Suche ist aktiviert.'
+        min_length_label: 'Mindestlänge für Suche'
         no_other_drivers: 'Es sind noch keine Suchtreiber verfügbar. Installiere eine Suchtreiber-Erweiterung, um diese konfigurieren zu können.'
         section_label: Suchtreiber
+      sessions:
+        config_override:
+          label: 'In config.php konfiguriert'
+        disabled: Deaktiviert
+        duration_unit_label: Einheit
+        duration_value_label: Dauer
+        enabled: Aktiviert
+        lifetime_label: 'Sitzungsdauer (Minuten)'
+        section_label: Sitzungen
+        units:
+          days: Tage
+          hours: Stunden
+          minutes: Minuten
+          seconds: Sekunden
+          weeks: Wochen
+          years: Jahre
       title: Fortgeschritten
     announcements:
       about: 'Aktuelle Nachrichten und Ankündigungen aus der offiziellen Flarum-Community unter discuss.flarum.org.'
@@ -855,6 +873,25 @@ core:
           key: gruppe
     group_selector:
       placeholder: 'Gruppe wählen'
+    icon_image_input:
+      remove_button: Entfernen
+      upload_button: 'Bild hochladen'
+    icon_picker:
+      count_text: '{count, plural, one {# Symbol} other {# Symbole}}'
+      families:
+        brands: Marken
+        classic: Klassisch
+        duotone: Duotone
+        sharp: Sharp
+        sharp_duotone: 'Sharp Duotone'
+      family_label: Symbolfamilie
+      open_button: 'Symbol auswählen'
+      remove_button: 'Symbol entfernen'
+      weights:
+        light: Dünn
+        regular: Normal
+        solid: Fett
+        thin: Schlank
     index_sort:
       az_button: '=> core.ref.title_az'
       latest_button: '=> core.ref.latest'
