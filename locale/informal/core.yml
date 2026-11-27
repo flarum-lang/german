@@ -94,13 +94,25 @@ core:
         section_label: Suchtreiber
       sessions:
         config_override:
+          help: 'Die Sitzungsdauer wird in der Datei „config.php“ festgelegt und kann hier nicht geändert werden.'
           label: 'In config.php konfiguriert'
+        cookie_expires_on_close_help: 'Melde Benutzer ab, sobald sie ihren Browser schließen, anstatt sie so lange angemeldet zu lassen, bis ihre Sitzung abläuft. Dies ist besonders auf gemeinsam genutzten Computern sinnvoll.'
+        cookie_expires_on_close_label: 'Sitzungen beenden, wenn der Browser geschlossen wird'
         disabled: Deaktiviert
         duration_unit_label: Einheit
         duration_value_label: Dauer
         enabled: Aktiviert
+        lifetime_help: 'Wie lange eine Sitzung inaktiv bleiben darf, bevor sie gelöscht wird. Der Standardwert beträgt 120 Minuten.'
         lifetime_label: 'Sitzungsdauer (Minuten)'
+        never_expires: 'Unbegrenzt gültig'
         section_label: Sitzungen
+        token_types:
+          session:
+            help: 'Wie lange jemand nach der Anmeldung angemeldet bleibt, ohne die Option „Angemeldet bleiben“ ausgewählt zu haben.'
+            label: Anmeldedauer
+          session_remember:
+            help: 'Wie lange jemand angemeldet bleibt, wenn die Option „Angemeldet bleiben“ aktiviert ist. Dies gilt auch für die Anmeldung über einen anderen Dienst, bei der die Anmeldung immer gespeichert wird.'
+            label: 'Dauer mit aktiviertem „Angemeldet bleiben“'
         units:
           days: Tage
           hours: Stunden
@@ -124,6 +136,16 @@ core:
       view_all: 'Alle auf discuss.flarum.org anzeigen'
     appearance:
       allow_user_color_scheme_label: 'Benutzern die Auswahl ihres eigenen Farbschemas ermöglichen'
+      app_icon_background_help: 'Füllt die transparenten Bereiche des App-Symbols auf iPhones und iPads, den umgebenden Bereich auf Android-Geräten sowie den Startbildschirm aus.'
+      app_icon_background_label: 'Hintergrund des App-Symbols'
+      app_icon_heading: App-Symbol
+      app_icon_preview_android_label: Android
+      app_icon_preview_apple_label: 'iPhone und iPad'
+      app_icon_text: 'Lade ein quadratisches Bild mit einer Breite von mindestens 512 Pixeln hoch, das auf Smartphones angezeigt wird, wenn jemand das Forum zu seinem Startbildschirm hinzufügt. Wenn du kein Favicon hochlädst, wird dieses Bild ebenfalls als Favicon verwendet.'
+      app_start_page_help: 'Die Seite, die die App vom Startbildschirm aus öffnet. Android übernimmt die Änderung beim nächsten Aktualisierungsvorgang der App durch den Browser. iPhones und iPads führen keine erneute Überprüfung durch, sobald die App auf dem Startbildschirm steht; daher gilt die Änderung dort nur für Apps, die danach hinzugefügt werden.'
+      app_start_page_label: 'Startseite der App'
+      app_start_page_options:
+        home_page: 'Wie die Forum-Startseite'
       color_scheme_label: 'Farbschema (Standard)'
       color_schemes:
         auto_mode_label: 'System oder konfigurierte Einstellungen verwenden'
@@ -156,8 +178,19 @@ core:
       logo_dark_mode_text: 'Lade ein alternatives Logo hoch, das angezeigt werden soll, wenn der Dunkle Modus aktiviert ist.'
       logo_heading: Logo
       logo_text: 'Lade ein Logo hoch, welches anstelle des Forum-Titels angezeigt wird.'
+      open_as_app_help: 'Auf Smartphones wird das Forum vom Startbildschirm aus in einem eigenen Fenster ohne die Symbolleiste des Browsers geöffnet, und während des Ladens wird ein Startbildschirm angezeigt: Das App-Symbol ist auf dem Hintergrund des Startbildschirms zu sehen – auf iPhones, iPads und Android-Geräten ist es identisch. Es wird ein App-Symbol benötigt.'
+      open_as_app_label: 'Vom Startbildschirm aus als eigene App öffnen'
+      sections:
+        custom_code:
+          description: 'Füge auf jeder Seite des Forums deinen eigenen HTML- und CSS-Code hinzu.'
+          label: 'Benutzerdefinierter Code'
+        logos:
+          description: 'Die Bilder, die dein Forum in der Kopfzeile, in Browser-Registerkarten, in E-Mails und auf Startbildschirmen kennzeichnen.'
+          label: 'Logos & Symbole'
       show_theme_selector_help: 'Erlaube Benutzern über ein Steuerelement in der Kopfzeile zwischen den verfügbaren Farbschemata wechseln zu können.'
       show_theme_selector_label: 'Farbschema-Auswahl anzeigen'
+      splash_screen_background_help: 'Füllt den Bereich um das App-Symbol herum aus – dies gilt gleichermaßen für iPhones, iPads und Android-Geräte. Lasse das Feld leer, um die Farbe hinter dem App-Symbol zu verwenden.'
+      splash_screen_background_label: 'Hintergrund des Startbildschirms'
       title: Erscheinungsbild
     basics:
       abandoned_extensions_heading: 'Verwaiste Erweiterungen'
@@ -179,10 +212,33 @@ core:
       display_name_text: 'Wähle den Treiber, der verwendet wird, um den Anzeigenamen der Benutzer zu bestimmen. Standardmäßig wird der Benutzername angezeigt.'
       forum_description_heading: Forumbeschreibung
       forum_description_text: 'Kurze Beschreibung des Forums. Diese erscheint in den Meta-Tags und wird in Suchmaschinen angezeigt.'
+      forum_short_name_heading: Kurzname
+      forum_short_name_text: 'Bis zu 16 Zeichen; wird verwendet, wenn der Forumstitel nicht vollständig angezeigt werden kann: unter dem Forumssymbol auf dem Startbildschirm eines Smartphones und wenn jemand das Forum als Lesezeichen in seinem Browser speichert. Ist kein Kurzname vorhanden, wird der lange Forumstitel verwendet, der unter Umständen in der Wortmitte abgeschnitten wird.'
       forum_title_heading: Forumtitel
       home_page_heading: Startseite
       home_page_text: 'Wähle die Seite aus, die Benutzer beim Besuch des Forums zuerst sehen.'
+      sections:
+        extensions:
+          description: 'Behalte den Überblick über Erweiterungen, die von ihren Autoren nicht mehr gepflegt werden.'
+          label: Erweiterungen
+        forum:
+          description: 'Wie dein Forum benannt und gegenüber Besuchern und Suchmaschinen beschrieben wird.'
+          label: Forum
+        home:
+          description: 'Was Besucher sehen, wenn sie zum ersten Mal hier ankommen.'
+          label: Startseite
+        language:
+          description: 'Die Sprache, in der dein Forum angezeigt wird.'
+          label: Sprache
+        members:
+          description: 'Wie Mitglieder im gesamten Forum benannt und abgebildet werden.'
+          label: Mitglieder
+        urls:
+          description: 'Wie Links zu Diskussionen und Profilen geschrieben werden.'
+          label: Links
       show_language_selector_label: 'Sprachauswahlmenü zeigen'
+      show_post_source_label: 'Anzeigen, wie Beiträge erstellt wurden'
+      show_post_source_text: 'Fügt neben dem Autor von Beiträgen, die über die API oder eine verbundene App erstellt wurden, einen kleinen Vermerk „via …“ hinzu und aktiviert den Quellenfilter bei der Beitragsuche.'
       slug_driver_heading: 'Slug-Treiber: {model}'
       slug_driver_options:
         discussions:
@@ -192,7 +248,7 @@ core:
           default: Benutzername
           id: ID
           id_with_display_name: 'ID mit Anzeigename'
-      slug_driver_text: 'Wähle den Treiber, welcher die Foren-URLs mit einem "Slug" ausstattet.'
+      slug_driver_text: 'Wähle den Treiber, welcher die Foren-URLs mit einem „Slug“ ausstattet.'
       title: Grundeinstellungen
       welcome_banner_heading: Willkommensnachricht
       welcome_banner_text: 'Lege den Text fest, der auf der Seite "Alle Diskussionen" erscheint, um Besucher zu begrüßen.'
@@ -265,6 +321,8 @@ core:
       delete_button: 'Gruppe löschen'
       delete_confirmation: 'Bist du sicher, dass du diese Gruppe löschen möchtest? Die Mitglieder der Gruppe werden nicht gelöscht.'
       hide_label: 'Im Forum ausblenden'
+      icon_image_label: '=> core.ref.icon_image'
+      icon_image_text: '=> core.ref.icon_image_text'
       icon_label: '=> core.ref.icon'
       icon_text: '=> core.ref.icon_text'
       name_label: Name
@@ -307,6 +365,9 @@ core:
       not_sending_message: 'Flarum sendet derzeit keine E-Mails. Bitte überprüfe die Korrektheit deiner E-Mail-Konfiguration.'
       postmark_description: 'E-Mails über die HTTP-API von Postmark versenden. Optional kann ein Nachrichtenstream angegeben werden, um einen anderen als den Standardstream zu verwenden.'
       postmark_heading: Postmark-Einstellungen
+      sections:
+        sending:
+          label: Versand
       send_test_mail_button: Absenden
       send_test_mail_heading: 'Test-E-Mail senden'
       send_test_mail_success: 'Test-E-Mail wurde erfolgreich versandt!'
@@ -314,6 +375,7 @@ core:
       smtp_description: 'Konfiguriere die SMTP-Verbindungseinstellungen. Gängige Konfigurationen: Port 587 mit TLS oder Port 465 mit SSL.'
       smtp_heading: 'SMTP Einstellungen'
       title: '=> core.ref.email'
+      webhook_url_label: Webhook-URL
     extension:
       abandoned_no_replacement: 'Diese Erweiterung wird vom Autor nicht mehr gepflegt und erhält möglicherweise keine Updates mehr.'
       abandoned_with_replacement: 'Diese Erweiterung wurde durch {replacement} ersetzt. Ziehe in Betracht, zum Ersatzpaket zu wechseln.'
@@ -324,6 +386,7 @@ core:
       disabled: Deaktiviert
       enable_to_see: 'Aktiviere die Erweiterung, um Einstellungen einsehen und verändern zu können.'
       enabled: Aktiviert
+      general_tab: Allgemein
       info_links:
         discuss: Diskussion
         documentation: Dokumentation
@@ -864,6 +927,8 @@ core:
         discussion:
           hint: 'die ID der Diskussion'
           key: diskussion
+        source:
+          key: quelle
       users:
         email:
           hint: beispiel@rechner.local

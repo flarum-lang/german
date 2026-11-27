@@ -30,6 +30,10 @@ ernestdefoe-hero-builder:
       margin_help: 'Abstand über dem Banner – setze den Wert auf 0, damit er bündig unter der Kopfzeile sitzt.'
       margin_top: 'Oberer Rand (px)'
       shadow: Schlagschatten
+      shadow_custom: Benutzerdefiniert
+      shadow_custom_help: 'Ein CSS-Box-Shadow, z. B. 0 12px 32px -12px rgba(0, 0, 0, 0,5) oder 0 8px 24px var(--shadow-color). Bis zu 4 Schatten, durch Kommas getrennt.'
+      shadow_custom_invalid: 'Da es sich hierbei nicht um einen Schatten handelt, den der Hero Builder verwenden kann, wird der Standardschatten angezeigt. Verwende Längenangaben (px, em, rem, %) und eine Farbe: #hex, rgb(), hsl(), einen Farbnamen oder var(--name).'
+      shadow_custom_value: 'Benutzerdefinierter Schatten'
       shadow_default: Standard
       shadow_medium: Mittel
       shadow_none: Keiner

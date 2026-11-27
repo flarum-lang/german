@@ -17,6 +17,14 @@ ernestdefoe-festoon:
       from_label: Beginnt
       garland_label: 'Girlande in der Kopfzeile'
       hat_label: Hut
+      motion_float: 'Auf und ab schweben'
+      motion_help: 'Wie sich dein Emoji oder SVG-Bild neben dem Namen des Forums, auf dem Willkommensbanner und in den Widgets bewegt. Es bleibt unbewegt, wenn Mitglieder ihr Gerät so einstellen, dass keine Bewegungen angezeigt werden und wenn die Option „Effekte“ deaktiviert ist.'
+      motion_label: Animation
+      motion_none: Keine
+      motion_pulse: Pulsieren
+      motion_spin: 'Langsam drehen'
+      motion_sway: Schaukeln
+      motion_twinkle: Funkeln
       name_label: Name
       name_required: 'Gib dem Feiertag einen Namen.'
       on_label: Angeschaltet
@@ -28,6 +36,10 @@ ernestdefoe-festoon:
       secondary_label: Akzentfarbe
       size_help: 'In Pixeln, von 16 bis 64. Gilt für dein Emoji oder dein SVG-Bild.'
       size_label: 'Größe neben dem Namen des Forums'
+      speed_fast: Schnell
+      speed_label: Geschwindigkeit
+      speed_normal: Normal
+      speed_slow: Langsam
       svg_help: 'Fügen Sie den Code einer SVG-Datei (maximal 20 KB) ein. Er wird als Bild dargestellt, sodass darin enthaltene Skripte und Links niemals ausgeführt werden und alles außer Formen, Text und Farbverläufen entfernt wird. Verwenden Sie „currentColor“ für alle Elemente, die die Hauptfarbe dieses Designs annehmen sollen.'
       svg_label: 'Dein SVG-Bild'
       title: '{name} bearbeiten'
@@ -119,7 +131,7 @@ ernestdefoe-festoon:
       colors: Farben
       colors_help: 'Die Haupt- und Akzentfarben der einzelnen Designs im gesamten Forum, im hellen und dunklen Modus.'
       effects: Effekte
-      effects_help: 'Fallender Schnee, Blätter, Blütenblätter, Herzen und Glut sowie ein Feuerwerk über dem Willkommensbanner.'
+      effects_help: 'Fallender Schnee, Blätter, Blütenblätter, Herzen und Glut, Feuerwerke über dem Willkommensbanner und eine Animation deiner eigenen Emojis oder SVG-Bilder.'
       hats: Hüte
       hats_help: 'Stattet jeden Avatar neben den Beiträgen mit einer Feiertagsmütze aus.'
       header: Kopfzeilendesign

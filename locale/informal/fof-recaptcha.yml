@@ -29,6 +29,8 @@ fof-recaptcha:
       submit_button: Absenden
       success_message: 'Erfolg! reCAPTCHA ist korrekt konfiguriert.'
       title: 'reCAPTCHA testen'
+  api:
+    not_available_to_clients: 'Dieses Forum verlangt bei neuen Beiträgen und Antworten die Eingabe eines reCAPTCHA, das nicht außerhalb der Seiten des Forums selbst, beispielsweise über die API oder einen MCP-Client, ausgefüllt werden kann. Verfasse deinen Beitrag stattdessen direkt im Forum oder bitte einen Administrator um die Berechtigung „{permission}“.'
   lib:
     error: 'Beim Absenden von reCAPTCHA ist ein Fehler aufgetreten. Bitte versuche es erneut.'
     not_completed: 'Bitte führe die reCAPTCHA-Überprüfung durch, bevor du fortfahren kannst.'

@@ -13,10 +13,13 @@ core:
       mail_mailtrap_inbox_id_label: 'Sandbox Posteingangs-ID'
       mail_mailtrap_mode_help: 'Sende E-Mails an deine Mitglieder. In der Sandbox werden keine E-Mails an echte Empfänger versendet: Jede E-Mail landet in deinem Mailtrap-Test-Posteingang, was sich gut für Staging- und Entwicklungsumgebungen eignet.'
       mail_mailtrap_mode_label: Modus
+      mail_mailtrap_webhook_signing_secret_help: 'Optional und nur im Modus „E-Mail senden“ verwendet. Füge in Mailtrap einen Webhook für den E-Mail-Versand mit dem Payload-Format JSON und der URL unter „Bounce-Handling“ hinzu und füge dann dessen 32 Zeichen langes hexadezimales Signaturgeheimnis hier ein.'
+      mail_mailtrap_webhook_signing_secret_label: Webhook-Signaturschlüssel
       mailtrap_description: 'Versende E-Mails über die Mailtrap-API oder leite sie zu Testzwecken in einen Mailtrap-Sandbox-Posteingang um. Um echte E-Mails zu versenden, muss die Absenderadresse zu einer in Mailtrap verifizierten Sendedomäne gehören.'
       mailtrap_heading: Mailtrap-Einstellungen
 fof-mailtrap-mail:
   admin:
+    invalid_webhook_secret: 'Gib das 32 Zeichen lange hexadezimale Signierungsgeheimnis für den Webhook ein.'
     mode:
       sandbox: 'Sandbox (Test)'
       sending: 'E-Mail senden'

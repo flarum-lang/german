@@ -46,6 +46,10 @@ fof-ban-ips:
       ban_button: '=> fof-ban-ips.ref.ban_label'
       unban_button: '=> fof-ban-ips.ref.unban_label'
   lib:
+    gambits:
+      users:
+        ipbanned:
+          key: ipgebannt
     modal:
       address_label: '=> fof-ban-ips.ref.address_label'
       ban_button: '=> fof-ban-ips.ref.ban_label'

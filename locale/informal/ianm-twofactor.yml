@@ -44,13 +44,13 @@ ianm-twofactor:
       logo_qr: 'Logo im QR-Code'
       logo_qr_help: 'Wenn ein Logo hochgeladen wurde, wird dieses Logo in den QR-Code eingebunden. Lasse das Feld leer, um das Logo des Forums zu verwenden.'
       tokens:
-        also_kill_developer_tokens: 'Auch Entwickler-Token entfernen'
-        also_kill_developer_tokens_help: 'Auch die Entwickler-Tokens entfernen, die für den festgelegten Zeitraum inaktiv sind.'
-        heading: Zugangstoken
-        help: 'Um die Sicherheit zu erhöhen, kannst hier zusätzliche Verhaltensweisen in Bezug auf Zugangstoken verwalten.'
+        also_kill_developer_tokens: 'Ungenutzte Entwickler-Token entfernen'
+        also_kill_developer_tokens_help: 'Entferne Entwickler-Zugriffstoken, die seit der unten angegebenen Anzahl von Tagen nicht mehr verwendet wurden. Skripte und Integrationen, die diese Token nutzen, funktionieren dann nicht mehr.'
+        heading: Entwickler-Token
+        help: 'Die Dauer für die Anmeldung und die Option „Angemeldet bleiben“ werden auf der Seite „Erweitert“ unter „Sitzungen“ festgelegt. Entwickler-Token verfallen dort nie, daher können sie stattdessen hier bereinigt werden.'
         kill_inactive_tokens: 'Inaktive Token entfernen'
-        kill_inactive_tokens_age_days: 'Entferne inaktive Tokens nach (Tagen)'
-        kill_inactive_tokens_age_days_help: 'Die Anzahl der Tage der Inaktivität, nach denen die Zugangstoken entfernt werden.'
+        kill_inactive_tokens_age_days: 'Entferne Entwickler-Tokens nach (Tagen)'
+        kill_inactive_tokens_age_days_help: 'Die Anzahl der Tage, nach denen ein ungenutztes Entwickler-Token entfernt wird.'
         kill_inactive_tokens_help: 'Automatische Entfernung von Zugangstokens, die für einen bestimmten Zeitraum inaktiv waren.'
   email:
     body:
@@ -81,6 +81,7 @@ ianm-twofactor:
       confirm_disable_2fa_text_other_user: 'Bist du sicher, dass du die Zwei-Faktor-Authentifizierung für {username} deaktivieren möchtest? Das entfernt alle Backup-Codes und deaktiviert die 2FA für sein Konto.'
       confirm_disable_2fa_title: 'Bestätige das Deaktivieren der Zwei-Faktor-Authentifizierung'
       continue_button: Fortsetzen
+      current_token_required: 'Gib ein Token von deinem aktuellen Gerät ein, um fortzufahren.'
       device_changed_confirmation: 'Dein Authentifizierungsgerät wurde erfolgreich gewechselt.'
       disable_2fa_button: '2FA deaktivieren'
       enable_2fa_button: '2FA aktivieren'
@@ -110,6 +111,11 @@ ianm-twofactor:
       verify_new_device_message: 'Gib jetzt einen Token von deinem neuen Gerät ein, um den Wechsel abzuschließen.'
     user_2fa:
       alert_message: 'Du musst die Zwei-Faktor-Authentifizierung aktivieren, um weiterhin auf dein Konto zugreifen zu können.'
+  lib:
+    gambits:
+      users:
+        twofactor:
+          key: 2fa
   views:
     log_in:
       two_factor_incorrect_message: 'Der 2FA-Token ist falsch. Bitte versuche es erneut.'
@@ -121,3 +127,4 @@ ianm-twofactor:
       oauth_session_expired: 'Die OAuth-Sitzung ist abgelaufen. Bitte versuche erneut, dich anzumelden.'
       submit_button: Absenden
       title: Zwei-Faktor-Authentifizierung
+      too_many_attempts_message: 'Zu viele falsche 2FA-Codes. Bitte warte einige Minuten und versuche es dann erneut.'

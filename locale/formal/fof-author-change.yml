@@ -25,3 +25,4 @@ fof-author-change:
       no-results: 'Keine Ergebnisse'
       placeholder: 'Benutzer suchen'
       type-more: 'Gib 3 Zeichen ein, um die Datenbank zu durchsuchen'
+      type-more-characters: 'Gib {count, plural, one {ein Zeichen} other {# Zeichen}} ein, um die Datenbank zu durchsuchen'

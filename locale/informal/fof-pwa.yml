@@ -80,7 +80,23 @@ fof-pwa:
       status_check_heading: Statusprüfung
       submit_button: 'Einstellungen speichern'
       text: 'Konfiguriere deine Flarumseite, damit sie als Progressive Web App läuft! Bitte beachte, dass dies deine Seite nicht automatisch in den App Store bringt. Stattdessen bedeutet dies, dass Nutzer für deine Website die Option „Zum Homescreen hinzufügen“ erhalten. Wir bieten einige Statusüberprüfungen an, aber der beste Weg dies zu testen ist selber eine Test-Installation durchzuführen (suche nach einer Anleitung, wie man Progressive Web Apps installiert). Bitte bedenke auch, dass „Installiere diese PWA“-Popups von Browsern gesteuert werden und nicht von Entwicklern/Admins/Programmen ausgelöst werden können. Es wird empfohlen, eine Anleitung für die Installation einer PWA in die Dokumentation deiner Seite aufzunehmen.'
+    sections:
+      delivery:
+        label: Zustellung
+      home_screen:
+        description: 'Das App-Symbol, der Hintergrund des Startbildschirms und die Hauptfarbe werden auf der Seite <appearance>„Erscheinungsbild“</appearance> festgelegt, ebenso wie die Einstellung, ob das Forum als App geöffnet wird. Der Name entspricht dem Forumstitel, und der Kurzname wird daneben auf der Seite <basics>„Grundeinstellungen“</basics> festgelegt. Da Browser selbst entscheiden, wann sie die Installation der App anbieten, solltest du den Mitgliedern erklären, wie sie diese zu ihrem Startbildschirm hinzufügen können.'
+        label: Startbildschirm
+      keys:
+        label: VAPID-Schlüssel
+      sharing:
+        label: Teilen
+      status:
+        description: 'Welche Anpassungen noch am Forum vorgenommen werden müssen, damit es als App installiert werden kann und Push-Benachrichtigungen versendet werden können.'
+        label: Status
+      troubleshooting:
+        label: Fehlerbehebung
     status:
+      check_failed: 'Die Statusprüfungen konnten nicht geladen werden. Lade die Seite neu, um es erneut zu versuchen.'
       config_no_https: 'Die URL in deiner config.php-Datei verwendet kein HTTPS. HTTPS ist erforderlich, damit Progressive Web-Apps funktionieren.'
       key_gen_failed: 'Die Generierung der für Push-Benachrichtigungen benötigten Schlüssel ist fehlgeschlagen. Die vollständige Fehlermeldung ist: {error}'
       no_logo: 'Du musst mindestens ein Logo mit einer Größe von mindestens 144x144 px hochladen, damit die PWA installiert werden kann.'
@@ -89,6 +105,9 @@ fof-pwa:
       possible_https_disabled: 'Möglicherweise läuft deine Seite nicht über HTTPS. Es könnte helfen, den Cache zu leeren (Admin-Dashboard => Dropdown „Werkzeuge“). Wenn sie es tut, ignoriere dies. Falls nicht, denke daran, dass HTTPS für die Funktion von Progressive Web-Apps erforderlich ist.'
       success: 'Keine Probleme gefunden!'
       suggest_gmp: 'Die gmp-PHP-Erweiterung scheint auf deinem Server nicht aktiviert zu sein. Dies ist nicht unbedingt erforderlich, kann jedoch die Leistung verbessern und wird empfohlen. Einige gemeinsam genutzte Hosts unterstützen dies jedoch möglicherweise nicht.'
+    tabs:
+      app: App
+      push: Push-Benachrichtigungen
   api:
     endpoint_host_not_allowed: 'Push-Benachrichtigungen konnten nicht aktiviert werden, da der von deinem Browser verwendete Push-Dienst-Host „{host}“ nicht zugelassen ist. Bitte wende dich an den Forum-Administrator.'
     endpoint_https_required: 'Push-Benachrichtigungen konnten nicht aktiviert werden, da dein Browser eine ungültige Push-Dienst-URL „{url}“ angegeben hat. Es ist eine gültige HTTPS-URL erforderlich.'

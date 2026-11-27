@@ -38,6 +38,7 @@ flarum-oauth-provider:
       status_revoked: Widerrufen
     form:
       confidential_help: 'Deaktiviere diese Option für öffentliche Clients (SPA, Mobilgeräte), die PKCE verwenden müssen. Diese Einstellung kann nach der Erstellung nicht mehr geändert werden.'
+      confidential_label: 'Vertrauenswürdiger Client (das Backend kann ein Secret bewahren)'
       edit_title: 'OAuth-Client bearbeiten'
       name_label: Anzeigename
       new_title: 'OAuth-Client hinzufügen'
@@ -53,8 +54,11 @@ flarum-oauth-provider:
       title: 'Client erstellt'
     sections:
       registration:
+        description: 'Welche Anwendungen Mitglieder anmelden können. Wenn eine Kategorie deaktiviert wird, funktionieren die dazugehörigen Anwendungen nicht mehr, ohne dass sie gelöscht werden, bis die Kategorie wieder aktiviert wird.'
         label: 'Erlaubte Anwendungen'
     settings:
+      allow_self_registered_clients_help: 'Ermöglicht Anwendungen wie MCP-Clients (Claude, ChatGPT), sich selbstständig anzumelden: Mithilfe der dynamischen Client-Registrierung (RFC 7591) registrieren sie sich unter /oauth/register und identifizieren sich mithilfe eines Client-ID-Metadaten-Dokuments über eine URL, die sie beschreibt. Es handelt sich dabei stets um öffentliche Clients, die PKCE verwenden müssen.'
+      allow_self_registered_clients_label: 'Selbst registrierte Anwendungen erlauben'
       source_dynamic: Selbst-registriert
       source_metadata_document: Metadata-Dokument
     tabs:
@@ -74,6 +78,8 @@ flarum-oauth-provider:
       never_used: Nie
       revoke_all_button: 'Alle widerrufen'
       revoke_button: Widerrufen
+      revoke_confirm: 'Zugriff für {client} widerrufen? Er wird abgemeldet und muss erneut um Erlaubnis bitten.'
+      revoked: '{client} hat keinen Zugriff auf dein Konto mehr.'
     consent:
       approve_button: Genehmigen
       deny_button: Abbrechen
@@ -82,3 +88,9 @@ flarum-oauth-provider:
       redirect_host: 'Nach deiner Entscheidung wirst du zu {host} geschickt.'
       scopes_heading: 'Dadurch wird es in die Lage versetzt:'
       title: 'Anwendung genehmigen'
+      unverified: 'nicht verifiziert, selbst registriert'
+  lib:
+    gambits:
+      users:
+        connected:
+          key: verbunden
