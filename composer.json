@@ -1,43 +1,47 @@
 {
-    "name": "flarum-lang/german",
-    "type": "flarum-extension",
-    "description": "German language pack for Flarum.",
-    "homepage": "https://github.com/flarum-lang",
-    "keywords": ["locale"],
-    "license": "MIT",
-    "support": {
-        "issues": "https://github.com/flarum-lang/german/issues",
-        "source": "https://github.com/flarum-lang/german",
-        "forum": "https://discuss.flarum.org/d/2648"
-    },
-    "require": {
-        "flarum/core": "^2.0",
-        "flarum-lang/utils": "^2.0"
-    },
-    "authors": [
-        {
-            "name": "Fabian Prieto Wunderlich",
-            "email": "prieto@wunderlich.pw",
-            "role": "Translator"
-        }
-    ],
-    "extra": {
-        "flarum-extension": {
-            "title": "German",
-            "category": "language",
-            "icon": {
-                "image": "icon.svg",
-                "backgroundColor": "#ffffff",
-                "backgroundSize": "cover",
-                "backgroundPosition": "center"
-            }
-        },
-        "flarum-locale": {
-            "code": "de",
-            "title": "Deutsch"
-        },
-        "branch-alias": {
-            "dev-master": "1.x-dev"
-        }
-    }
+	"name": "flarum-lang/german",
+	"description": "German Language Pack for Flarum",
+	"type": "flarum-extension",
+	"keywords": [
+		"flarum-locale"
+	],
+	"homepage": "https://github.com/flarum-lang/german",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Kakifrucht",
+			"homepage": "https://github.com/Kakifrucht",
+			"role": "Maintainer"
+		},
+		{
+			"name": "claudiush",
+			"homepage": "https://github.com/claudiush",
+			"role": "Maintainer"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/flarum-lang/german/issues",
+		"forum": "https://discuss.flarum.org/d/2648",
+		"source": "https://github.com/flarum-lang/german"
+	},
+	"require": {
+		"flarum/core": "^2.0",
+		"flarum-lang/utils": "^2.0"
+	},
+	"extra": {
+		"flarum-extension": {
+			"title": "German",
+			"category": "language",
+			"icon": {
+				"image": "icon.svg",
+				"backgroundColor": "#ffffff",
+				"backgroundSize": "cover",
+				"backgroundPosition": "center"
+			}
+		},
+		"flarum-locale": {
+			"code": "de",
+			"title": "Deutsch"
+		}
+	}
 }
