@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.25.40 (2026-11-27)
+--------------------
+
+**General changes**:
+
+* Updated Flarum core translations (2 changed).
+
+
+All changes: [1.25.39...1.25.40](https://github.com/flarum-lang/german/compare/1.25.39...1.25.40).
+
+
 1.25.39 (2026-11-22)
 --------------------
 
