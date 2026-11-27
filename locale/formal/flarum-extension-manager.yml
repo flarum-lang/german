@@ -115,7 +115,7 @@ flarum-extension-manager:
       check_why_it_failed_updating: 'Zeige, warum sie nicht auf die neueste Version aktualisiert wurde.'
       disabled: deaktiviert
       enabled: aktiviert
-      install: 'Installiere eine neue Erweiterung'
+      install: 'Neue Erweiterung installieren'
       install_help: "Geben Sie den Paketnamen der Erweiterung ein, um fortzufahren. Sie können eine <semantic_link>semantische Version</semantic_link> angeben, indem Sie das Format <code>vendor/package-name:version</code> verwenden. Besuchen Sie {link}, um Pakete zu durchsuchen.\n"
       learn_more: 'Mehr erfahren'
       library: Composer-Paket
@@ -305,3 +305,13 @@ flarum-extension-manager:
       updater_title: Aktualisierungen
     why_not_modal:
       title: 'Warum wird es nicht aktualisiert'
+  api:
+    change:
+      added: '{package} {version} (neu)'
+      removed: '{package} {version} (entfernt)'
+    composer:
+      and_more: 'und {count} weitere'
+      composer_failed: 'Composer fehlgeschlagen:'
+      downloaded: '{package} heruntergeladen'
+      flarum_command_failed: '`flarum {command}` fehlgeschlagen:'
+    unknown_action: 'Unbekannte Aktion.'
