@@ -27,6 +27,7 @@ CHANGELOG
 * [`ernestdefoe/hero-builder`](https://github.com/ernestdefoe/hero-builder) (8 added, 100% complete)
 * [`ernestdefoe/onramp`](https://github.com/ernestdefoe/onramp) (24 added, 48% complete)
 * [`ernestdefoe/sticker-book`](https://github.com/ernestdefoe/sticker-book) (28 added, 8 changed, 62% complete)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (56 added, 38% complete)
 * [`flarum/messages`](https://github.com/flarum/messages) (16 added, 100% complete)
 * [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change) (2 added, 100% complete)
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) (2 added, 100% complete)
