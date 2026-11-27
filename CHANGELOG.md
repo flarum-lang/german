@@ -5,6 +5,11 @@ CHANGELOG
 2.0.36 (XXXX-XX-XX)
 -------------------
 
+**General changes**:
+
+* Updated Flarum core translations (2 changed).
+
+
 **Added support for new extensions**:
 
 * [`ernestdefoe/duskline`](https://github.com/ernestdefoe/duskline) (100% complete)
