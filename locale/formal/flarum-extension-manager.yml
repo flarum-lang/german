@@ -69,18 +69,37 @@ flarum-extension-manager:
           dev: Entwickler
           rc: Release-Kandidat
           stable: 'Stabil (Empfohlen)'
+        recommended: empfohlen
+        short:
+          alpha: Vorschauversionen
+          dev: 'Unveröffentlichter Code'
+          rc: Veröffentlichungskandidaten
+      remove_repository_label: '{name} entfernen'
       repositories:
         add_modal:
           name_label: Name
           submit_button: Senden
           type_label: Typ
           url: URL
+        duplicate: 'Dieses Repository wurde bereits eingetragen.'
+        filter: 'Repositorys filtern'
         help: "Fügen sie zusätzliche Repositories hinzu, um Pakete daraus zu installieren. Dies ist eine fortgeschrittene Funktion, fügen sie keine Repositories hinzu, denen sie nicht vertrauen, da sie genutzt werden können, um schädlichen Code auf ihrem Server auszuführen.\n"
         label: Repositories
+        open: 'In neuem Tab öffnen'
+        placeholders:
+          composer: 'https://repo.beispiel.de'
+          path: /home/du/extensions/deine-erweiterung
+          vcs: 'https://github.com/du/deine-erweiterung'
+        remove_named: '{name} entfernen?'
+        stat: '{count, plural, one {Repository} other {Repositorys}}'
+        type_help:
+          composer: 'Private Packagist oder ein bezahlter Marktplatz'
+          vcs: 'GitHub, GitLab, Bitbucket oder einem beliebigen Git-Host'
         types:
           composer: composer
           path: pfad
           vcs: vcs
+        will_add: 'Fügt {name} von {where} hinzu.'
       title: Composer
     exceptions:
       composer_command_failure: 'Ausführung fehlgeschlagen. Überprüfen sie die Composer-Logs in storage/logs/composer.'
@@ -94,16 +113,24 @@ flarum-extension-manager:
     extensions:
       already_installed: 'Diese Erweiterung ist bereits installiert'
       check_why_it_failed_updating: 'Zeige, warum sie nicht auf die neueste Version aktualisiert wurde.'
+      disabled: deaktiviert
+      enabled: aktiviert
       install: 'Installiere eine neue Erweiterung'
       install_help: "Geben Sie den Paketnamen der Erweiterung ein, um fortzufahren. Sie können eine <semantic_link>semantische Version</semantic_link> angeben, indem Sie das Format <code>vendor/package-name:version</code> verwenden. Besuchen Sie {link}, um Pakete zu durchsuchen.\n"
+      learn_more: 'Mehr erfahren'
+      library: Composer-Paket
+      open_settings: 'Einstellungen von {name} öffnen'
       proceed: Fortfahren
       remove: Deinstallieren
+      remove_files: 'Dateien entfernen'
       successful_install: '{extension} wurde erfolgreich installiert, leite weiter...'
       successful_remove: 'Erweiterung wurde erfolgreich entfernt.'
       successful_update: '{extension} wurde erfolgreich aktualisiert, leite weiter...'
       update: Aktualisieren
       update_hard_label: Hard-Aktualisierung
+      update_one: '{name} aktualisieren'
       update_soft_label: Soft-Aktualisierung
+      version_unknown: 'unbekannte Version'
     file_permissions: "Der Erweiterungsmanager benötigt Lese- und Schreibrechte auf den folgenden Dateien und Verzeichnissen: composer.json, composer.lock, vendor, storage, storage/.composer\n"
     host:
       status:
@@ -171,6 +198,10 @@ flarum-extension-manager:
             premium: Premium
             unstable: Instabil
           downloads: '{count, plural, one {{formattedCount} Download} other {{formattedCount} Downloads}}'
+          install_replacement: '{replacement} installieren'
+          installed_as: 'als {replacement} installiert'
+          replaced: ersetzt
+          replaced_by: 'ersetzt durch {replacement}'
         party_filter:
           all: Alle
           premium: Premium
