@@ -6,6 +6,13 @@ ernestdefoe-segue:
   admin:
     color_help: 'Lassen Sie das Feld leer, um die Hauptfarbe des Forums zu verwenden. Hochgeladene Symbole behalten ihre eigenen Farben bei.'
     color_label: 'Farbe des Symbols'
+    duration_help: 'Wie lange ein Seitenwechsel dauert: zwischen 0,2 und 2 Sekunden. Der Standardwert ist 0,5.'
+    duration_label: 'Übergangszeit (Sekunden)'
+    exclude:
+      help: 'Pro Zeile ein CSS-Selektor, z. B. .TopBar oder #my-banner. Die entsprechenden Elemente bleiben bei einem Seitenübergang an ihrer Position, anstatt mit der Seite zu verblassen und nach oben zu gleiten. Eine Zeile, die keinen gültigen Selektor enthält, wird übersprungen.'
+      invalid: 'Diese Zeilen sind keine gültigen Selektoren und werden übersprungen: {selectors}'
+      label: 'Diese Elemente unverändert belassen'
+      placeholder: .TopBar
     full_page_help: 'Es erfolgt ein Überblend-Effekt, wenn der Browser eine komplett neue Seite innerhalb des Forums lädt, beispielsweise nach der Anmeldung, anstatt zunächst einen leeren Bildschirm anzuzeigen.'
     full_page_label: 'Gleichmäßiges Laden ganzer Seiten'
     icons:
@@ -37,7 +44,7 @@ ernestdefoe-segue:
       fade: Überblendung
       glide: Glide
       'off': Aus
-    transitions_help: 'Glide: Die Kopfzeile bleibt unverändert, die Seite wird beim Hochgleiten eingeblendet, und der Titel einer Diskussion sowie das Profilbild des Erstellers gleiten aus der Liste in die Diskussion (und zurück). Fade: Ein einfacher Überblendeffekt. Funktioniert in Browsern, die „View Transitions“ unterstützen; in anderen Browsern werden Seiten wie bisher geöffnet. Mitglieder, die auf ihrem Gerät „Reduzierte Bewegungen“ aktiviert haben, sehen keine Animationen.'
+    transitions_help: 'Glide: Die Kopfzeile bleibt unverändert, die Seite wird beim Hochgleiten eingeblendet, und der Titel einer Diskussion sowie das Profilbild des Erstellers gleiten aus der Liste in die Diskussion (und zurück). Fade: Ein einfacher Überblendeffekt. Funktioniert in Browsern, die „View Transitions“ unterstützen; in anderen Browsern werden Seiten wie bisher geöffnet. Mitglieder, die auf ihrem Gerät „Reduzierte Bewegungen“ aktiviert haben, sehen keine Animationen. Während eine Seite geöffnet wird, wartet Segue einen Moment, bis die Widgets geladen sind, damit die Seite nach dem Anzeigen nicht springt.'
     transitions_label: Seitenübergänge
   api:
     missing: 'Wählen Sie ein Bild zum Hochladen aus.'

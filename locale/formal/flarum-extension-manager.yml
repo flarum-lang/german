@@ -63,17 +63,22 @@ flarum-extension-manager:
       minimum_stability:
         help: 'Die Art von Paketen, die installiert werden dürfen. Ändern sie dies nur, wenn sie wissen, was sie tun.'
         label: 'Minimale Stabilität'
+        means:
+          rc: 'Release-Kandidaten sowie fertige Versionen.'
+          stable: 'Nur fertige Versionen. Flarum 2 selbst ist stabil, aber viele der Erweiterungen befinden sich noch in der Beta-Phase oder sind Release-Kandidaten, und diese können hier nicht installiert werden.'
         options:
           alpha: Alpha
           beta: Beta
           dev: Entwickler
           rc: Release-Kandidat
           stable: 'Stabil (Empfohlen)'
+        prefer_stable_help: 'Wenn für eine Erweiterung sowohl eine Beta- als auch eine fertige Version verfügbar ist, die funktionieren würde, solltest du die fertige Version wählen.'
         recommended: empfohlen
         short:
           alpha: Vorschauversionen
           dev: 'Unveröffentlichter Code'
           rc: Veröffentlichungskandidaten
+          stable: 'nur fertige'
       remove_repository_label: '{name} entfernen'
       repositories:
         add_modal:
