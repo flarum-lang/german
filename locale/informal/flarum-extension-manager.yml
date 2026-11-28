@@ -150,8 +150,12 @@ flarum-extension-manager:
     file_permissions: "Der Erweiterungsmanager benötigt Lese- und Schreibrechte auf den folgenden Dateien und Verzeichnissen: composer.json, composer.lock, vendor, storage, storage/.composer\n"
     host:
       memory_in_process: 'Speicher: {limit} (angehoben während Composer läuft)'
-      php_fails_why: 'Ausführung fehlgeschlagen mit:'
+      php_fails_why: 'Ausführung fehlgeschlagen mit: {error}'
       php_found: 'PHP auf der Befehlszeile: {path} {version}'
+      php_missing: 'Kein PHP auf der Befehlszeile wurde gefunden'
+      php_setting_clear: Löschen
+      php_setting_save: Speichern
+      php_setting_saved: 'Gespeichert. Der Extension Manager wird dieses PHP verwenden.'
       status:
         fail: Problem
         ok: OK
@@ -368,12 +372,53 @@ flarum-extension-manager:
     why_not_modal:
       title: 'Warum wird es nicht aktualisiert'
   api:
+    capability:
+      memory: 'Speicher: {memory}'
+      unlimited: unbegrenzt
     change:
       added: '{package} {version} (neu)'
       removed: '{package} {version} (entfernt)'
     composer:
       and_more: 'und {count} weitere'
+      assets_published: 'Assets veröffentlicht'
       composer_failed: 'Composer fehlgeschlagen:'
       downloaded: '{package} heruntergeladen'
       flarum_command_failed: '`flarum {command}` fehlgeschlagen:'
+      health_ok_after: 'Die Website antwortet nach der Aktualisierung normal.'
+      limit_joiner: 'und '
+      not_in_plan: '{package} wurde nicht eingeplant.'
+      nothing_to_do: 'nichts zu tun'
+      pin_raised: '{package} wird in {version} statt in {current} benötigt'
+      the_error_was: 'Der Fehler war: {error}'
+      tidy_rest_tonight: 'Der Rest wird heute nacht aufgeräumt.'
+      will_change: '{count, plural, one {# Paket} other {# Pakete}} werden geändert: {list}'
+    config:
+      basic_needs_username: 'https-basic benötigt einen Benutzernamen sowie ein Passwort.'
+      json_replace_failed: '{path} konnte nicht ersetzt werden.'
+      json_unreadable: '{path} konnte nicht gelesen werden.'
+      repo_exists: 'Dieses Repository ist bereits eingerichtet.'
+      repo_missing: 'Dieses Repository ist nicht in composer.json.'
+      repo_needs_url: 'Ein Repository benötigt eine URL.'
+      unknown_error: 'unbekannter Fehler'
+    discover:
+      unreachable: 'Packagist konnte nicht erreicht werden.'
+    fs:
+      create_failed: '{path} konnte nicht erstellt werden'
+      read_failed: '{path} konnte nicht gelesen werden.'
+    health:
+      answered: 'Die Webseite hat geantwortet mit {status}.'
+      no_response: 'keine Antwort'
+    permissions:
+      and_more: '… und {count} weitere'
+    process:
+      the_command: 'der Befehl'
+      the_command_start: 'Der Befehl'
+    prune:
+      not_readable: '{path} konnte nicht gelesen werden.'
+    run:
+      finished: Abgeschlossen
+      finished_phase: '{phase} abgeschlossen'
+      rolled_back: 'Rückgängig gemacht: {undone}'
+    start:
+      in_progress: 'Eine Aktualisierung wird bereits ausgeführt.'
     unknown_action: 'Unbekannte Aktion.'

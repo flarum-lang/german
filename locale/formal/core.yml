@@ -336,6 +336,8 @@ core:
       title: '=> core.ref.custom_header_title'
     email:
       addresses_heading: Adressen
+      bounce_handling_heading: 'Umgang mit E-Mail-Bounces'
+      bounce_handling_text: 'Wenn dein E-Mail-Anbieter meldet, dass eine Adresse dauerhaft zurückgewiesen oder als Spam markiert wurde, kann Flarum den betroffenen Nutzer kennzeichnen und optional den E-Mail-Versand an ihn einstellen, um deine Absenderreputation zu schützen.'
       description: 'Konfigurieren Sie den E-Mail-Treiber, die Parameter und die zu verwendenden Adressen für den Versand von E-Mails.'
       driver_heading: 'Treiber auswählen'
       driver_label: Treiber
@@ -354,6 +356,8 @@ core:
       mail_mailgun_domain_label: Domäne
       mail_mailgun_region_label: Region
       mail_mailgun_secret_label: 'Geheimer Schlüssel'
+      mail_mailgun_webhook_signing_key_help: 'Der HTTP-Webhook-Signaturschlüssel von Mailgun, der zur Überprüfung eingehender Bounce-/Beschwerde-Webhooks verwendet wird. Zu finden in deinem Mailgun-Dashboard unter „Einstellungen“ → „Webhooks“. Erforderlich für die Bearbeitung von Bounces.'
+      mail_mailgun_webhook_signing_key_label: Webhook-Signaturschlüssel
       mail_password_label: '=> core.ref.password'
       mail_port_label: Port
       mail_postmark_message_stream_label: Nachrichtenstream
