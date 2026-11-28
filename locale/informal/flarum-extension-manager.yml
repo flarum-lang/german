@@ -132,7 +132,9 @@ flarum-extension-manager:
       install_help: "Gib den Namen des Erweiterungspakets ein, um fortzufahren. Du kannst eine <semantic_link>semantische Version</semantic_link> im Format <code>Anbieter/Paketname:Version</code> angeben. Besuche {link}, um verfügbare Pakete zu durchsuchen.\n"
       learn_more: 'Mehr erfahren'
       library: Composer-Paket
+      library_why: 'Eine Bibliothek, die dieses Forum in seiner eigenen composer.json-Datei benötigt. Du verfügst über keine Einstellungsseite, und der Extension Manager bietet nie an, sie zu entfernen.'
       open_settings: 'Einstellungen von {name} öffnen'
+      path_install_why: 'Diese Erweiterung ist ein symbolischer Link zu einem Verzeichnis auf diesem Server, es handelt sich also wahrscheinlich um eine Erweiterung, an der du gerade arbeitest. Der Extension Manager wird sie nicht ersetzen – aktualisiere sie stattdessen mittels Git.'
       proceed: Fortfahren
       remove: Deinstallieren
       remove_files: 'Dateien entfernen'
@@ -147,10 +149,15 @@ flarum-extension-manager:
       version_unknown: 'unbekannte Version'
     file_permissions: "Der Erweiterungsmanager benötigt Lese- und Schreibrechte auf den folgenden Dateien und Verzeichnissen: composer.json, composer.lock, vendor, storage, storage/.composer\n"
     host:
+      memory_in_process: 'Speicher: {limit} (angehoben während Composer läuft)'
+      php_fails_why: 'Ausführung fehlgeschlagen mit:'
+      php_found: 'PHP auf der Befehlszeile: {path} {version}'
       status:
         fail: Problem
         ok: OK
         warn: Warnung
+      time_limit: 'Ausführungslimit: {seconds} Sekunden'
+      time_none: 'Ausführungslimit: keines'
       title: 'Dieser Host'
     major_updater:
       description: "Große Flarum-Updates sind nicht rückwärtskompatibel, was bedeutet, dass einige deiner derzeit installierten Erweiterungen und manuell durchgeführten Änderungen möglicherweise nicht mit dieser neuen Version funktionieren. Bitte stelle sicher, dass du ein Backup deiner Datenbank und Dateien erstellst, bevor du fortfährst.\n"
@@ -169,6 +176,7 @@ flarum-extension-manager:
       title: '{name}: was ist neu seit {from}'
     required_php_functions: "Der Erweiterungsmanager erfordert, dass die folgenden PHP-Funktionen aktiviert sind: <code>{functions}</code>. Wenn du keinen Zugriff auf die PHP-Konfiguration hast, wende dich bitte an deinen Hosting-Anbieter.\n"
     run:
+      details: 'Details zur Aktualisierung'
       dismiss: Verwerfen
       done: 'Aktualisierung abgeschlossen'
       failed: 'Aktualisierung abgebrochen'
@@ -178,19 +186,24 @@ flarum-extension-manager:
         apply: 'Dateien werden ausgetauscht'
         fetch: 'Wird heruntergeladen'
         finalise: 'Wird abgeschlossen'
-        plan: 'Ermitteln, was sich geändert hat'
+        plan: 'Ermitteln, was sich ändern wird'
       phases_label: Fortschritt
       reload_page: 'Seite neu laden'
       roll_back: 'Diese Aktualisierung rückgängig machen'
       rolled_back: 'Aktualisierung rückgängig gemacht'
       rolling_back: 'Wird rückgängig gemacht…'
+      start_failed: 'Die Aktualisierung konnte nicht gestartet werden, und im Forum wurde kein Grund dafür genannt. Es hat sich nichts geändert.'
       steps:
         assets: 'Assets veröffentlichen'
         caches: 'Caches leeren'
         check_file_permissions: 'Dateiberechtigungen prüfen'
+        check_the_site: 'Überprüfung der Website'
+        check_the_site_again: 'Erneute Überprüfung der Website'
         code_cache: 'PHP Code-Cache leeren'
         migrations: 'Datenbank-Migration ausführen'
         register: 'Composer-Einträge aktualisieren'
+        tidy_the_trash: 'Aufräumen alter Kopien'
+        work_out_what_changes: 'Ermitteln, was sich ändern wird'
       target:
         install: '{packages} wird installiert'
         more: '{shown} und {count} weitere'
@@ -200,9 +213,19 @@ flarum-extension-manager:
       working_on: '{item} — {index} von {total}'
     sections:
       discover:
+        against: 'Mit der Flarum-Version {version} abgeglichen, auf der dieses Forum läuft.'
+        compat:
+          checking: 'Wird geprüft…'
+          incompatible: 'nicht für dieses Flarum'
+          incompatible_why: 'Die neueste Version erfordert „flarum/core“ {requires}.'
+          needs_stability: 'benötigt {level} in Quellen'
+          prerelease: '{version} – eine Vorabversion'
+          unknown: 'konnte nicht prüfen'
         description: 'Füge deinem Flarum-Forum mit Erweiterungen neue Funktionen und Integrationen hinzu.'
         empty_results: 'Es sieht so aus, als wären keine Erweiterungen verfügbar.'
         extension:
+          abandoned_for: 'Wird nicht mehr gepflegt: Verwende stattdessen {replacement}.'
+          abandoned_why: 'Dem Autor zufolge – oder laut Flarums Liste der eingestellten Erweiterungen – wird sie nicht mehr gepflegt. Möglicherweise funktioniert sie aber noch.'
           badges:
             abandoned: Aufgegeben
             compatible: Kompatibel
@@ -216,23 +239,37 @@ flarum-extension-manager:
           installed_as: 'als {replacement} installiert'
           replaced: ersetzt
           replaced_by: 'ersetzt durch {replacement}'
+          replaced_why: 'Dieser Name ist veraltet. Die Erweiterung wurde in ein neues Paket verschoben, und wenn du den alten Namen installierst, erhältst du die neue Erweiterung unter der falschen ID, die dann nicht aktiviert werden kann.'
+          replacement_installed: '{replacement} ist installiert'
+        hint: 'Alle auf Packagist veröffentlichten Flarum-Erweiterungen, sortiert nach der höchsten Nutzungshäufigkeit.'
+        loading_more: 'Wird geladen…'
+        no_match: 'Auf Packagist gibt es keine Treffer für „{query}“.'
+        open_packagist: '{name} auf Packagist'
         party_filter:
           all: Alle
           premium: Premium
           toggle_dropdown_accessible_label: 'Party-Filter umschalten'
         premium_extension_terms: 'Bedingungen für Premium-Erweiterungen'
         search: Suchen
+        search_button: Suchen
+        searching: 'Wird gesucht…'
         server_error: 'Der Dienst ist derzeit nicht verfügbar. Bitte versuche es später erneut.'
+        show_more: 'Mehr anzeigen'
         sort:
           latest: Neueste
           toggle_dropdown_accessible_label: 'Sortieroptionen umschalten'
           top: Meistgeladen
         tabs:
+          all: Alle
           discover: Entdecken
           extensions: Erweiterungen
+          label: Anzeigen
           languages: Sprachen
           themes: Themen
+          widgets: Widgets
         title: Erweiterungen
+      installed:
+        title: 'Installiert ({count})'
       queue:
         columns:
           details: Details
@@ -241,7 +278,10 @@ flarum-extension-manager:
           package: Paket
           peak_memory_used: 'Höchste Speichernutzung'
           status: Status
+        flarum: Flarum
+        new_version: '{version} (neu)'
         none: 'Es gibt noch keine Aufgaben.'
+        nothing: 'Nichts wurde geändert'
         operations:
           extension_install: 'Erweiterung installieren'
           extension_remove: 'Erweiterung entfernen'
@@ -257,9 +297,11 @@ flarum-extension-manager:
           guessed_cause: Ursache
           output: Ausgabe
         refresh: 'Aufgabenliste aktualisieren'
+        removed_version: '{version} (entfernt)'
         statuses:
           failure: Fehlgeschlagen
           pending: Ausstehend
+          rolled_back: 'Rückgängig gemacht'
           running: 'In Bearbeitung'
           success: Erfolgreich
         task_just_started: 'Aufgabe hat gerade begonnen'
@@ -277,6 +319,10 @@ flarum-extension-manager:
       title: '=> core.ref.settings'
     trash:
       days: Tage
+      failed: 'Der Extension Manager konnte seine Rollback-Kopien nicht lesen.'
+      freeable_none: 'Nichts – alles, was aufbewahrt wird, wird noch gebraucht'
+      freeable_value: '{size} — {count, plural, one {# Eintrag} other {# Einträge}}'
+      help: 'Bei jeder Aktualisierung werden die ersetzten Versionen beibehalten, sodass ein Rollback möglich ist. Kopien, die für kein Rollback mehr benötigt werden, werden nach jeder Aktualisierung und jede Nacht bereinigt. Die Kopien, die für die neueste Aktualisierung benötigt werden, werden niemals entfernt.'
       keep_days: 'Rollback-Kopien aufbewahren für'
       keep_runs: 'oder die letzten'
       last: 'Zuletzt aufgeräumt'
@@ -286,7 +332,9 @@ flarum-extension-manager:
       pruning: 'Wird aufgeräumt…'
       runs: Aktualisierungen
       saved: Gespeichert.
+      size: Platzbedarf
       size_value: '{size} in {count, plural, one {# Kopie} other {# Kopien}}'
+      title: Rollback-Kopien
     update_successful: 'Flarum erfolgreich aktualisiert.'
     updater:
       ago:
