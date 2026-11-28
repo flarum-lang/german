@@ -8,7 +8,7 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`ernestdefoe/segue`](https://github.com/ernestdefoe/segue) (12 added, 2 changed, 100% complete)
-* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (8 added, 39% complete)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (26 added, 2 changed, 41% complete)
 
 
 All changes: [2.0.36...2.0.37](https://github.com/flarum-lang/german/compare/2.0.36...2.0.37).
