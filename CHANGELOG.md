@@ -5,10 +5,15 @@ CHANGELOG
 2.0.37 (XXXX-XX-XX)
 -------------------
 
+**General changes**:
+
+* Updated Flarum core translations (8 added).
+
+
 **Updated translations for extensions**:
 
 * [`ernestdefoe/segue`](https://github.com/ernestdefoe/segue) (12 added, 2 changed, 100% complete)
-* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (118 added, 4 changed, 48% complete)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (188 added, 4 changed, 54% complete)
 
 
 All changes: [2.0.36...2.0.37](https://github.com/flarum-lang/german/compare/2.0.36...2.0.37).
