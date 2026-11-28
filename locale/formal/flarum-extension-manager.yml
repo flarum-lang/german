@@ -57,6 +57,7 @@ flarum-extension-manager:
       write_only: 'Der Extension Manager zeigt gespeicherte Anmeldedaten niemals an – auch dir nicht. Er zeigt lediglich an, für welche Hosts Anmeldedaten vorhanden sind. Um Anmeldedaten zu ändern, gib den neuen Wert ein; dieser ersetzt den alten.'
     composer:
       add_repository_label: 'Repository hinzufügen'
+      config_failed: 'Der Extension Manager konnte die Datei „composer.json“ nicht lesen. Es wurden keine Änderungen vorgenommen.'
       delete_repository_confirmation: 'Sind sie sicher, dass sie dieses Repository löschen wollen? Alle daraus installierten Erweiterungen werden entfernt.'
       delete_repository_label: 'Repository löschen'
       edit_repository_label: 'Repository bearbeiten'
@@ -64,6 +65,9 @@ flarum-extension-manager:
         help: 'Die Art von Paketen, die installiert werden dürfen. Ändern sie dies nur, wenn sie wissen, was sie tun.'
         label: 'Minimale Stabilität'
         means:
+          alpha: 'Auch Alpha-Versionen – frühe Programmcode-Versionen, bei denen Änderungen zu erwarten sind.'
+          beta: 'Auch Beta-Versionen. Viele Flarum-2-Erweiterungen werden nach wie vor als Beta-Versionen oder Release-Kandidaten veröffentlicht, daher ist dies die übliche Wahl.'
+          dev: 'Unveröffentlichter Code direkt aus einem Entwicklungszweig, der sich ändern kann, ohne dass sich die Versionsnummer ändert.'
           rc: 'Release-Kandidaten sowie fertige Versionen.'
           stable: 'Nur fertige Versionen. Flarum 2 selbst ist stabil, aber viele der Erweiterungen befinden sich noch in der Beta-Phase oder sind Release-Kandidaten, und diese können hier nicht installiert werden.'
         options:
@@ -72,12 +76,13 @@ flarum-extension-manager:
           dev: Entwickler
           rc: Release-Kandidat
           stable: 'Stabil (Empfohlen)'
+        prefer_stable: 'Stabile Version bevorzugen, sofern eine verfügbar ist'
         prefer_stable_help: 'Wenn für eine Erweiterung sowohl eine Beta- als auch eine fertige Version verfügbar ist, die funktionieren würde, solltest du die fertige Version wählen.'
         recommended: empfohlen
         short:
           alpha: Vorschauversionen
           dev: 'Unveröffentlichter Code'
-          rc: Veröffentlichungskandidaten
+          rc: Release-Kandidaten
           stable: 'nur fertige'
       remove_repository_label: '{name} entfernen'
       repositories:
@@ -90,6 +95,8 @@ flarum-extension-manager:
         filter: 'Repositorys filtern'
         help: "Fügen sie zusätzliche Repositories hinzu, um Pakete daraus zu installieren. Dies ist eine fortgeschrittene Funktion, fügen sie keine Repositories hinzu, denen sie nicht vertrauen, da sie genutzt werden können, um schädlichen Code auf ihrem Server auszuführen.\n"
         label: Repositories
+        no_match: 'Kein Repository gefunden, das mit „{query}“ übereinstimmt.'
+        none: 'Nur Packagist. Es können keine privaten oder kostenpflichtigen Pakete installiert werden.'
         open: 'In neuem Tab öffnen'
         placeholders:
           composer: 'https://repo.beispiel.de'
@@ -101,6 +108,7 @@ flarum-extension-manager:
           composer: 'Private Packagist oder ein bezahlter Marktplatz'
           vcs: 'GitHub, GitLab, Bitbucket oder einem beliebigen Git-Host'
         types:
+          artifact: 'Ordner mit Paketarchiven'
           composer: composer
           path: pfad
           vcs: vcs
@@ -128,6 +136,7 @@ flarum-extension-manager:
       proceed: Fortfahren
       remove: Deinstallieren
       remove_files: 'Dateien entfernen'
+      repin_confirm: 'Dieses Forum erfordert eine bestimmte Version {count, plural, one {einer Erweiterung} other {von # Erweiterungen}}; daher kann eine neuere Version erst installiert werden, wenn diese Anforderung geändert wird. Wenn du fortfährst, wird die Datei „composer.json“ aktualisiert, sodass die neue Version vorausgesetzt wird, bevor etwas heruntergeladen wird. Durch ein Rollback wird die Anforderung wieder auf den ursprünglichen Stand zurückgesetzt.'
       successful_install: '{extension} wurde erfolgreich installiert, leite weiter...'
       successful_remove: 'Erweiterung wurde erfolgreich entfernt.'
       successful_update: '{extension} wurde erfolgreich aktualisiert, leite weiter...'
